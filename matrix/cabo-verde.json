@@ -1,0 +1,98 @@
+{
+  "slug": "cabo-verde",
+  "default": {
+    "r": "visa-on-arrival",
+    "stay": 30,
+    "types": [
+      "voa-tourist",
+      "embassy-tourist"
+    ],
+    "notes": "A tourist visa is issued on arrival at international airports (about EUR 25) — pre-register on the official EASE platform before departure, or apply at an embassy in advance."
+  },
+  "groups": [
+    {
+      "r": "freedom-of-movement",
+      "stay": 90,
+      "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document.",
+      "codes": [
+        "BJ",
+        "BF",
+        "CI",
+        "GM",
+        "GH",
+        "GN",
+        "GW",
+        "LR",
+        "ML",
+        "NE",
+        "NG",
+        "SN",
+        "SL",
+        "TG"
+      ]
+    },
+    {
+      "r": "visa-free",
+      "stay": 30,
+      "notes": "Visa-free for stays up to 30 days under Cabo Verde's visa waiver for Europeans — EASE pre-registration and the airport security tax still apply.",
+      "codes": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "IS",
+        "LI",
+        "NO",
+        "CH",
+        "GB"
+      ]
+    },
+    {
+      "r": "visa-free",
+      "stay": 30,
+      "notes": "Visa-free for short stays under bilateral and CPLP (Portuguese-language community) arrangements — confirm the exact allowance before travel; EASE pre-registration still applies.",
+      "codes": [
+        "AO",
+        "BR",
+        "MZ",
+        "ST",
+        "TL"
+      ]
+    }
+  ],
+  "overrides": {
+    "CV": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Cabo Verdean citizens."
+    },
+    "RU": {
+      "r": "visa-free",
+      "stay": 60,
+      "notes": "Visa-free for up to 60 days under the bilateral agreement with Russia — EASE pre-registration and the airport security tax still apply."
+    }
+  }
+}

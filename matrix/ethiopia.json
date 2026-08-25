@@ -1,0 +1,37 @@
+{
+  "slug": "ethiopia",
+  "default": {
+    "r": "evisa",
+    "stay": 30,
+    "types": [
+      "evisa-30",
+      "evisa-90"
+    ],
+    "notes": "Apply for the tourist eVisa at evisa.gov.et before travel (30 or 90 days, single entry) — visas on arrival are no longer reliably issued."
+  },
+  "groups": [
+    {
+      "r": "visa-free",
+      "stay": 365,
+      "notes": "Kenyan citizens enter Ethiopia visa-free under a bilateral agreement — commonly reported as up to one year; confirm the stay granted on arrival.",
+      "codes": [
+        "KE"
+      ]
+    },
+    {
+      "r": "visa-free",
+      "stay": 90,
+      "notes": "Djiboutian citizens enter Ethiopia visa-free under a bilateral agreement — confirm the permitted length of stay before travel.",
+      "codes": [
+        "DJ"
+      ]
+    }
+  ],
+  "overrides": {
+    "ET": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Ethiopian citizens."
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "benin",
+  "default": {
+    "r": "evisa",
+    "stay": 30,
+    "types": [
+      "evisa-30",
+      "evisa-90"
+    ],
+    "notes": "Apply online for the official Benin e-Visa (evisa.bj) before travel — 30- and 90-day options; there is no visa on arrival."
+  },
+  "groups": [
+    {
+      "r": "freedom-of-movement",
+      "stay": 90,
+      "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document.",
+      "codes": [
+        "BF",
+        "CV",
+        "CI",
+        "GM",
+        "GH",
+        "GN",
+        "GW",
+        "LR",
+        "ML",
+        "NE",
+        "NG",
+        "SN",
+        "SL",
+        "TG"
+      ]
+    },
+    {
+      "r": "visa-free",
+      "stay": 90,
+      "notes": "Benin waived visas for citizens of all African countries — entry is visa-free for short stays, commonly up to 90 days; confirm the stamped duration on arrival.",
+      "codes": [
+        "DZ",
+        "AO",
+        "BW",
+        "BI",
+        "CM",
+        "CF",
+        "TD",
+        "KM",
+        "CG",
+        "CD",
+        "DJ",
+        "EG",
+        "GQ",
+        "ER",
+        "SZ",
+        "ET",
+        "GA",
+        "KE",
+        "LS",
+        "LY",
+        "MG",
+        "MW",
+        "MR",
+        "MU",
+        "MA",
+        "MZ",
+        "NA",
+        "RW",
+        "ST",
+        "SC",
+        "SO",
+        "ZA",
+        "SS",
+        "SD",
+        "TZ",
+        "TN",
+        "UG",
+        "ZM",
+        "ZW"
+      ]
+    }
+  ],
+  "overrides": {
+    "BJ": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Beninese citizens."
+    }
+  }
+}

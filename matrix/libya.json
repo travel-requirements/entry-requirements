@@ -1,0 +1,38 @@
+{
+  "slug": "libya",
+  "default": {
+    "r": "embassy-visa",
+    "stay": null,
+    "types": [
+      "embassy-tourist"
+    ],
+    "notes": "A visa must be obtained in advance through a Libyan mission, backed by an approved invitation from a Libyan sponsor or accredited tour operator; issuance is limited and slow while the security situation persists."
+  },
+  "groups": [
+    {
+      "r": "visa-free",
+      "stay": 90,
+      "notes": "Visa-free under bilateral and Arab agreements, commonly reported as up to 90 days — airport and land-border practice varies with the security situation, so confirm before travel.",
+      "codes": [
+        "TN",
+        "DZ",
+        "MA",
+        "MR",
+        "JO",
+        "TR"
+      ]
+    }
+  ],
+  "overrides": {
+    "IL": {
+      "r": "banned",
+      "stay": null,
+      "notes": "Israeli passport holders are not admitted to Libya, and evidence of travel to Israel in any passport can also lead to refusal."
+    },
+    "LY": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Libyan citizens."
+    }
+  }
+}

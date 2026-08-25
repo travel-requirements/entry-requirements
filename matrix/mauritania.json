@@ -1,0 +1,50 @@
+{
+  "slug": "mauritania",
+  "default": {
+    "r": "evisa",
+    "stay": 30,
+    "types": [
+      "evisa-tourist"
+    ],
+    "notes": "Apply online via the official ANRPTS e-visa portal before travel; the fee (about EUR 55 for 30 days) is paid in cash in euros or US dollars on arrival."
+  },
+  "groups": [
+    {
+      "r": "visa-free",
+      "stay": 90,
+      "notes": "Visa-exempt under bilateral and regional agreements — stays of up to 90 days.",
+      "codes": [
+        "DZ",
+        "BF",
+        "TD",
+        "CI",
+        "GM",
+        "LY",
+        "ML",
+        "NE",
+        "SN",
+        "TN"
+      ]
+    }
+  ],
+  "overrides": {
+    "MR": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Mauritanian citizens."
+    },
+    "IL": {
+      "r": "banned",
+      "stay": null,
+      "notes": "Mauritania severed relations with Israel in 2010 and Israeli passports are not accepted for entry."
+    },
+    "SY": {
+      "r": "evisa",
+      "stay": 30,
+      "types": [
+        "evisa-tourist"
+      ],
+      "notes": "e-Visa required, and Syrian nationals have historically needed additional security clearance — confirm with a Mauritanian embassy before booking."
+    }
+  }
+}

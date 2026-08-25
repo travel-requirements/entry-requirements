@@ -1,0 +1,42 @@
+{
+  "slug": "togo",
+  "default": {
+    "r": "evisa",
+    "stay": 30,
+    "types": [
+      "togo-evisa",
+      "togo-voa"
+    ],
+    "notes": "A visa is required — apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+  },
+  "groups": [
+    {
+      "r": "freedom-of-movement",
+      "stay": 90,
+      "notes": "ECOWAS citizens enter Togo without a visa under the community's free-movement protocol — up to 90 days with a passport or ECOWAS travel document.",
+      "codes": [
+        "BJ",
+        "BF",
+        "CI",
+        "CV",
+        "GM",
+        "GH",
+        "GN",
+        "GW",
+        "LR",
+        "ML",
+        "NE",
+        "NG",
+        "SN",
+        "SL"
+      ]
+    }
+  ],
+  "overrides": {
+    "TG": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Togolese citizens."
+    }
+  }
+}

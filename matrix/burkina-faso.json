@@ -1,0 +1,42 @@
+{
+  "slug": "burkina-faso",
+  "default": {
+    "r": "embassy-visa",
+    "stay": null,
+    "types": [
+      "embassy-tourist",
+      "evisa-tourist"
+    ],
+    "notes": "A visa is required in advance — through a Burkinabè embassy or the government's online visa service; check security advisories first, as most of the country is under do-not-travel warnings."
+  },
+  "groups": [
+    {
+      "r": "freedom-of-movement",
+      "stay": 90,
+      "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document.",
+      "codes": [
+        "BJ",
+        "CV",
+        "CI",
+        "GM",
+        "GH",
+        "GN",
+        "GW",
+        "LR",
+        "ML",
+        "NE",
+        "NG",
+        "SN",
+        "SL",
+        "TG"
+      ]
+    }
+  ],
+  "overrides": {
+    "BF": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Burkinabè citizens."
+    }
+  }
+}

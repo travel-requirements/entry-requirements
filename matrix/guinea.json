@@ -1,0 +1,41 @@
+{
+  "slug": "guinea",
+  "default": {
+    "r": "evisa",
+    "stay": 90,
+    "types": [
+      "evisa-tourist"
+    ],
+    "notes": "Apply online for an e-visa on the official border-police portal (paf.gov.gn) before travel — visas are no longer routinely issued on arrival."
+  },
+  "groups": [
+    {
+      "r": "freedom-of-movement",
+      "stay": 90,
+      "notes": "ECOWAS citizens enter Guinea freely under the Community's free-movement protocol — up to 90 days without a visa.",
+      "codes": [
+        "BJ",
+        "BF",
+        "CV",
+        "CI",
+        "GM",
+        "GH",
+        "GW",
+        "LR",
+        "ML",
+        "NE",
+        "NG",
+        "SN",
+        "SL",
+        "TG"
+      ]
+    }
+  ],
+  "overrides": {
+    "GN": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Guinean citizens."
+    }
+  }
+}

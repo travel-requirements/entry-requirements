@@ -1,0 +1,78 @@
+{
+  "slug": "niger",
+  "default": {
+    "r": "embassy-visa",
+    "stay": null,
+    "types": [
+      "embassy-tourist"
+    ],
+    "notes": "Apply for a visa at a Nigerien embassy or consulate before travel — there is no e-visa or tourist visa on arrival. Check the latest security advisories: most of Niger is rated do-not-travel."
+  },
+  "groups": [
+    {
+      "r": "visa-free",
+      "stay": 90,
+      "notes": "ECOWAS-origin citizens keep visa-free entry to Niger after its 2025 withdrawal from the bloc — up to 90 days.",
+      "codes": [
+        "BJ",
+        "BF",
+        "CV",
+        "CI",
+        "GM",
+        "GH",
+        "GN",
+        "GW",
+        "LR",
+        "ML",
+        "NG",
+        "SN",
+        "SL",
+        "TG"
+      ]
+    },
+    {
+      "r": "visa-free",
+      "stay": 90,
+      "notes": "Visa-exempt under bilateral agreement for stays of up to three months.",
+      "codes": [
+        "TD",
+        "MR",
+        "MA",
+        "TN"
+      ]
+    }
+  ],
+  "overrides": {
+    "NE": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Nigerien citizens."
+    },
+    "HK": {
+      "r": "visa-free",
+      "stay": 14,
+      "notes": "Visa-exempt for short stays of up to 14 days."
+    },
+    "AE": {
+      "r": "visa-on-arrival",
+      "stay": 30,
+      "notes": "UAE ordinary-passport holders can obtain a visa on arrival — confirm current arrangements before travel."
+    },
+    "FR": {
+      "r": "embassy-visa",
+      "stay": null,
+      "types": [
+        "embassy-tourist"
+      ],
+      "notes": "Visa issuance to French nationals has been suspended or heavily restricted since relations broke down after the 2023 coup — contact a Nigerien mission for the current position."
+    },
+    "US": {
+      "r": "embassy-visa",
+      "stay": null,
+      "types": [
+        "embassy-tourist"
+      ],
+      "notes": "Embassy visa required; issuance to US nationals has been slow and unpredictable since the 2023 coup — apply well ahead and check the latest travel advisory."
+    }
+  }
+}
