@@ -1,0 +1,49 @@
+{
+  "slug": "pakistan",
+  "default": {
+    "r": "evisa",
+    "stay": 90,
+    "types": [
+      "tourist-evisa"
+    ],
+    "notes": "Eligible for Pakistan's tourist eVisa — apply on the official portal visa.nadra.gov.pk before travel. A hotel booking or an invitation letter from a licensed tour operator is normally required, and the fee is currently waived for many nationalities."
+  },
+  "groups": [
+    {
+      "r": "embassy-visa",
+      "stay": null,
+      "types": [
+        "tourist-embassy"
+      ],
+      "notes": "Not eligible for the standard online visa — apply for a visa through a Pakistani embassy or consulate before travel; applications from these countries undergo additional security clearance and can take several weeks. Confirm current eligibility on visa.nadra.gov.pk.",
+      "codes": [
+        "AF",
+        "SO",
+        "SY",
+        "YE",
+        "LY",
+        "PS"
+      ]
+    }
+  ],
+  "overrides": {
+    "PK": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Pakistani citizens."
+    },
+    "IN": {
+      "r": "embassy-visa",
+      "stay": null,
+      "types": [
+        "tourist-embassy"
+      ],
+      "notes": "Indian passport holders face a highly restrictive special regime: visas are issued almost exclusively for religious pilgrimage groups, family visits and official travel via the Pakistani High Commission — tourism is effectively closed, and visas are typically city-specific with police reporting requirements."
+    },
+    "IL": {
+      "r": "banned",
+      "stay": null,
+      "notes": "Pakistan does not recognise Israel and travellers on Israeli passports are not admitted — dual nationals should travel on their other passport."
+    }
+  }
+}

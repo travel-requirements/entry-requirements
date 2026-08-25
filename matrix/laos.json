@@ -1,0 +1,73 @@
+{
+  "slug": "laos",
+  "default": {
+    "r": "evisa",
+    "stay": 30,
+    "types": [
+      "evisa-tourist",
+      "voa-tourist"
+    ],
+    "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+  },
+  "groups": [
+    {
+      "r": "visa-free",
+      "stay": 30,
+      "notes": "Visa-free for up to 30 days under ASEAN arrangements.",
+      "codes": [
+        "TH",
+        "VN",
+        "KH",
+        "MY",
+        "SG",
+        "ID",
+        "PH"
+      ]
+    },
+    {
+      "r": "visa-free",
+      "stay": 14,
+      "notes": "Visa-free for up to 14 days under ASEAN arrangements.",
+      "codes": [
+        "MM",
+        "BN"
+      ]
+    },
+    {
+      "r": "visa-free",
+      "stay": 15,
+      "notes": "Visa-free for up to 15 days under a bilateral agreement.",
+      "codes": [
+        "JP",
+        "KR",
+        "CH",
+        "LU"
+      ]
+    },
+    {
+      "r": "visa-free",
+      "stay": 30,
+      "notes": "Visa-free for up to 30 days under a bilateral agreement.",
+      "codes": [
+        "RU",
+        "MN"
+      ]
+    }
+  ],
+  "overrides": {
+    "CN": {
+      "r": "evisa",
+      "stay": 30,
+      "types": [
+        "evisa-tourist",
+        "voa-tourist"
+      ],
+      "notes": "Chinese travellers can use the eVisa or visa on arrival; temporary visa-waiver schemes for Chinese tour groups have applied during tourism-promotion years — check the current status before travel."
+    },
+    "LA": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Lao citizens."
+    }
+  }
+}

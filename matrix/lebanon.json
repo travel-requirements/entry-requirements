@@ -1,0 +1,148 @@
+{
+  "slug": "lebanon",
+  "default": {
+    "r": "embassy-visa",
+    "stay": null,
+    "types": [
+      "embassy-tourist"
+    ],
+    "notes": "Apply for a visa at a Lebanese embassy or consulate before travel — approval requirements vary by nationality."
+  },
+  "groups": [
+    {
+      "r": "visa-free",
+      "stay": 90,
+      "notes": "GCC nationals enter Lebanon visa-free — commonly admitted for up to three months; confirm the exact allowance on arrival.",
+      "codes": [
+        "SA",
+        "KW",
+        "BH",
+        "QA",
+        "OM",
+        "AE"
+      ]
+    },
+    {
+      "r": "visa-on-arrival",
+      "stay": 30,
+      "ext": 60,
+      "types": [
+        "voa-tourist"
+      ],
+      "notes": "Free one-month tourist visa issued on arrival at Beirut airport and other border posts, extendable to three months at General Security before it expires.",
+      "codes": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "IS",
+        "NO",
+        "CH",
+        "LI",
+        "AD",
+        "MC",
+        "SM",
+        "VA",
+        "GB",
+        "US",
+        "CA",
+        "MX",
+        "AU",
+        "NZ",
+        "JP",
+        "KR",
+        "SG",
+        "MY",
+        "CN",
+        "HK",
+        "MO",
+        "TR",
+        "RU",
+        "UA",
+        "BY",
+        "AM",
+        "AZ",
+        "GE",
+        "KZ",
+        "KG",
+        "AL",
+        "BA",
+        "ME",
+        "MK",
+        "RS",
+        "MD",
+        "JO",
+        "AR",
+        "BR",
+        "CL",
+        "CO",
+        "PE",
+        "VE",
+        "EC",
+        "UY",
+        "PY",
+        "BO",
+        "CR",
+        "PA",
+        "DO",
+        "GT",
+        "HN",
+        "SV",
+        "NI"
+      ]
+    }
+  ],
+  "overrides": {
+    "IL": {
+      "r": "banned",
+      "stay": null,
+      "notes": "Lebanon and Israel remain formally at war — Israeli passport holders are barred, and any traveller with evidence of travel to Israel is refused entry."
+    },
+    "SY": {
+      "r": "embassy-visa",
+      "stay": null,
+      "notes": "Entry for Syrian nationals is governed by special bilateral entry categories that have tightened since 2024 — approval and documentation requirements change frequently; confirm with General Security before travel."
+    },
+    "PS": {
+      "r": "embassy-visa",
+      "stay": null,
+      "notes": "Holders of Palestinian travel documents need prior approval from Lebanese General Security — apply well in advance through a Lebanese embassy."
+    },
+    "EG": {
+      "r": "visa-on-arrival",
+      "stay": 30,
+      "types": [
+        "voa-tourist"
+      ],
+      "notes": "Egyptian nationals can generally obtain a visa on arrival subject to additional conditions such as proof of accommodation and funds, or residence in a GCC or Western country — confirm with General Security before travel."
+    },
+    "LB": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Lebanese citizens."
+    }
+  }
+}

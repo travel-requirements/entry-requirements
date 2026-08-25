@@ -1,0 +1,104 @@
+{
+  "slug": "iraq",
+  "default": {
+    "r": "embassy-visa",
+    "stay": null,
+    "types": [
+      "tourist-embassy"
+    ],
+    "notes": "Apply for a visa in advance at an Iraqi embassy or consulate — requirements vary by mission and approval from Baghdad can take several weeks. The Kurdistan Region operates a separate, broader entry regime whose stamps are not valid for federal Iraq."
+  },
+  "groups": [
+    {
+      "r": "visa-on-arrival",
+      "stay": 60,
+      "types": [
+        "voa-tourist"
+      ],
+      "notes": "Eligible for a 60-day visa on arrival (about USD 77, payable in cash) at Iraq's international airports and main border crossings under the March 2021 reform.",
+      "codes": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "CH",
+        "IS",
+        "NO",
+        "LI",
+        "GB",
+        "US",
+        "CA",
+        "AU",
+        "NZ",
+        "JP",
+        "KR",
+        "CN",
+        "RU"
+      ]
+    },
+    {
+      "r": "visa-on-arrival",
+      "stay": 30,
+      "types": [
+        "voa-tourist"
+      ],
+      "notes": "Citizens of Gulf Cooperation Council states can generally obtain a visa on arrival — conditions and permitted stays are set bilaterally; confirm with an Iraqi mission before travel.",
+      "codes": [
+        "SA",
+        "KW",
+        "BH",
+        "QA",
+        "OM",
+        "AE"
+      ]
+    }
+  ],
+  "overrides": {
+    "IQ": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Iraqi citizens."
+    },
+    "IL": {
+      "r": "banned",
+      "stay": null,
+      "notes": "Israeli passport holders are not admitted to Iraq, and evidence of travel to Israel in another passport can also lead to refusal of entry."
+    },
+    "IR": {
+      "r": "visa-free",
+      "stay": 30,
+      "notes": "Under the bilateral agreement Iranian citizens travelling by air can enter Iraq without a visa — an arrangement aimed mainly at pilgrimage traffic; land-border arrivals may still need a visa, so confirm before travel."
+    },
+    "TR": {
+      "r": "visa-on-arrival",
+      "stay": 30,
+      "types": [
+        "voa-tourist"
+      ],
+      "notes": "Turkish citizens are generally issued visas on arrival, and the Kurdistan Region admits them freely — terms have changed several times, so confirm with an Iraqi mission before travel."
+    }
+  }
+}

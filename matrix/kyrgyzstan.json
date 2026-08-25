@@ -1,0 +1,115 @@
+{
+  "slug": "kyrgyzstan",
+  "default": {
+    "r": "evisa",
+    "stay": 30,
+    "types": [
+      "evisa-tourist"
+    ],
+    "notes": "Apply for the eVisa at evisa.e-gov.kg before travel; nationalities outside the eVisa scheme must apply at a Kyrgyz embassy."
+  },
+  "groups": [
+    {
+      "r": "visa-free",
+      "stay": 60,
+      "notes": "Visa-free for up to 60 days per visit under Kyrgyzstan's visa-free regime.",
+      "codes": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "IS",
+        "LI",
+        "NO",
+        "CH",
+        "GB",
+        "US",
+        "CA",
+        "AU",
+        "NZ",
+        "JP",
+        "KR",
+        "SG",
+        "MY",
+        "BN",
+        "AE",
+        "SA",
+        "QA",
+        "BH",
+        "KW",
+        "OM",
+        "BA",
+        "MC",
+        "AD",
+        "SM",
+        "VA"
+      ]
+    },
+    {
+      "r": "visa-free",
+      "stay": 90,
+      "notes": "Visa-free under CIS-era agreements — stays of up to 90 days are routine; check registration rules for longer stays.",
+      "codes": [
+        "AM",
+        "AZ",
+        "BY",
+        "GE",
+        "KZ",
+        "MD",
+        "RU",
+        "TJ",
+        "UZ",
+        "UA",
+        "MN"
+      ]
+    }
+  ],
+  "overrides": {
+    "KG": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Kyrgyz citizens."
+    },
+    "TR": {
+      "r": "visa-free",
+      "stay": 90,
+      "notes": "Visa-free under the bilateral agreement, commonly reported as up to 90 days — confirm the exact allowance before a long stay."
+    },
+    "AF": {
+      "r": "embassy-visa",
+      "stay": null,
+      "types": [
+        "embassy-tourist"
+      ],
+      "notes": "Not covered by the eVisa scheme — apply at a Kyrgyz embassy; an invitation and additional vetting are usually required."
+    },
+    "XK": {
+      "r": "embassy-visa",
+      "stay": null,
+      "notes": "Kyrgyzstan does not recognise Kosovo — travel on a Kosovo-issued passport is generally not possible; contact a Kyrgyz embassy about alternatives."
+    }
+  }
+}

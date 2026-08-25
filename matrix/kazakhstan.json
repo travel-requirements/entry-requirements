@@ -1,0 +1,119 @@
+{
+  "slug": "kazakhstan",
+  "default": {
+    "r": "evisa",
+    "stay": 30,
+    "types": [
+      "evisa-tourist"
+    ],
+    "notes": "Apply for the single-entry tourist eVisa on the Visa-Migration Portal (vmp.gov.kz); nationalities outside the eVisa scheme must apply at a Kazakh embassy."
+  },
+  "groups": [
+    {
+      "r": "visa-free",
+      "stay": 30,
+      "notes": "Visa-free for up to 30 days per visit, capped at 90 days in total within any 180-day period.",
+      "codes": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "IS",
+        "LI",
+        "NO",
+        "CH",
+        "GB",
+        "US",
+        "CA",
+        "AU",
+        "NZ",
+        "JP",
+        "KR",
+        "SG",
+        "MY",
+        "TH",
+        "CN",
+        "HK",
+        "TR",
+        "IL",
+        "AE",
+        "SA",
+        "QA",
+        "BH",
+        "KW",
+        "OM",
+        "AD",
+        "MC",
+        "SM",
+        "VA",
+        "AR",
+        "BR",
+        "CL",
+        "CO",
+        "EC",
+        "MX"
+      ]
+    },
+    {
+      "r": "visa-free",
+      "stay": 90,
+      "notes": "Visa-free under CIS/EAEU arrangements for up to 90 days; your host must notify the migration service within 3 working days of arrival.",
+      "codes": [
+        "AM",
+        "AZ",
+        "BY",
+        "GE",
+        "KG",
+        "MD",
+        "RU",
+        "TJ",
+        "UZ",
+        "UA",
+        "MN"
+      ]
+    }
+  ],
+  "overrides": {
+    "KZ": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Kazakh citizens."
+    },
+    "AF": {
+      "r": "embassy-visa",
+      "stay": null,
+      "types": [
+        "embassy-tourist"
+      ],
+      "notes": "Not covered by the eVisa scheme — apply at a Kazakh embassy; an invitation and additional vetting are usually required."
+    },
+    "XK": {
+      "r": "embassy-visa",
+      "stay": null,
+      "notes": "Kazakhstan does not recognise Kosovo — travel on a Kosovo-issued passport is generally not possible; contact a Kazakh embassy about alternatives."
+    }
+  }
+}
