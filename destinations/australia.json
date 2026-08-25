@@ -1,0 +1,614 @@
+{
+  "id": "australia",
+  "iso2": "AU",
+  "names": {
+    "common": "Australia",
+    "official": "Commonwealth of Australia"
+  },
+  "region": "oceania",
+  "neighbors": [],
+  "similarDestinations": [
+    "new-zealand",
+    "indonesia",
+    "singapore",
+    "thailand"
+  ],
+  "summary": "Australia requires almost every visitor to hold some form of authorisation before boarding: Europeans apply for the free eVisitor (subclass 651), passport holders from the US, Canada, Japan and other ETA countries use the Australian ETA app (subclass 601, AUD 20 service charge), and everyone else applies online for a Visitor visa (subclass 600). New Zealanders are the exception — they receive a Special Category Visa automatically on arrival.",
+  "meta": {
+    "lastUpdated": "2026-08-25",
+    "lastFullReview": "2026-08-25",
+    "reviewIntervalDays": 4,
+    "primarySources": [
+      {
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/evisitor-651",
+        "name": "Department of Home Affairs — eVisitor (subclass 651)",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "official"
+      },
+      {
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601",
+        "name": "Department of Home Affairs — Electronic Travel Authority (subclass 601)",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "official"
+      },
+      {
+        "url": "https://www.abf.gov.au/entering-and-leaving-australia/can-you-bring-it-in",
+        "name": "Australian Border Force — Can you bring it in?",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "official"
+      }
+    ]
+  },
+  "visaPolicy": {
+    "defaultSource": {
+      "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing",
+      "name": "Department of Home Affairs — Visa list",
+      "type": "government",
+      "lastVerified": "2026-08-25",
+      "confidence": "high"
+    },
+    "byPassport": {
+      "US": {
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "extendableDays": null,
+        "visaTypes": [
+          "eta-601"
+        ],
+        "notes": "Apply for the Electronic Travel Authority (subclass 601) via the official Australian ETA app — AUD 20 service charge, usually approved within minutes. Stays of up to 3 months per visit during its 12-month validity."
+      },
+      "GB": {
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "extendableDays": null,
+        "visaTypes": [
+          "evisitor-651",
+          "eta-601"
+        ],
+        "notes": "British citizens qualify for the FREE eVisitor (subclass 651) applied for online, and are also eligible for the ETA (subclass 601, AUD 20) via the app. Both allow stays of up to 3 months per visit over 12 months — the eVisitor costs nothing."
+      },
+      "CA": {
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "extendableDays": null,
+        "visaTypes": [
+          "eta-601"
+        ],
+        "notes": "Apply for the Electronic Travel Authority (subclass 601) via the official Australian ETA app — AUD 20 service charge, usually approved within minutes. Stays of up to 3 months per visit during its 12-month validity."
+      },
+      "AU": {
+        "requirement": "freedom-of-movement",
+        "maxStayDays": null,
+        "notes": "Home country — no entry requirements for Australian citizens."
+      },
+      "NZ": {
+        "requirement": "visa-free",
+        "maxStayDays": null,
+        "extendableDays": null,
+        "notes": "New Zealand citizens are granted a Special Category Visa (subclass 444) automatically on arrival under the Trans-Tasman Travel Arrangement — no application or fee. It allows visiting, living and working in Australia indefinitely while you remain a NZ citizen.",
+        "source": {
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/special-category-visa-subclass-444",
+          "name": "Department of Home Affairs — Special Category visa (subclass 444)",
+          "type": "government",
+          "lastVerified": "2026-08-25",
+          "confidence": "official"
+        }
+      },
+      "IE": {
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "extendableDays": null,
+        "visaTypes": [
+          "evisitor-651",
+          "eta-601"
+        ],
+        "notes": "Irish citizens qualify for the FREE eVisitor (subclass 651) applied for online, and are also eligible for the ETA (subclass 601, AUD 20) via the app. Both allow stays of up to 3 months per visit over 12 months — the eVisitor costs nothing."
+      },
+      "DE": {
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "extendableDays": null,
+        "visaTypes": [
+          "evisitor-651"
+        ],
+        "notes": "Apply online for the FREE eVisitor (subclass 651). It is valid for 12 months and allows stays of up to 3 months per visit — never pay a third-party site for it."
+      },
+      "FR": {
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "extendableDays": null,
+        "visaTypes": [
+          "evisitor-651"
+        ],
+        "notes": "Apply online for the FREE eVisitor (subclass 651). It is valid for 12 months and allows stays of up to 3 months per visit — never pay a third-party site for it."
+      },
+      "ES": {
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "extendableDays": null,
+        "visaTypes": [
+          "evisitor-651"
+        ],
+        "notes": "Apply online for the FREE eVisitor (subclass 651). It is valid for 12 months and allows stays of up to 3 months per visit — never pay a third-party site for it."
+      },
+      "IT": {
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "extendableDays": null,
+        "visaTypes": [
+          "evisitor-651"
+        ],
+        "notes": "Apply online for the FREE eVisitor (subclass 651). It is valid for 12 months and allows stays of up to 3 months per visit — never pay a third-party site for it."
+      },
+      "PT": {
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "extendableDays": null,
+        "visaTypes": [
+          "evisitor-651"
+        ],
+        "notes": "Apply online for the FREE eVisitor (subclass 651). It is valid for 12 months and allows stays of up to 3 months per visit — never pay a third-party site for it."
+      },
+      "NL": {
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "extendableDays": null,
+        "visaTypes": [
+          "evisitor-651"
+        ],
+        "notes": "Apply online for the FREE eVisitor (subclass 651). It is valid for 12 months and allows stays of up to 3 months per visit — never pay a third-party site for it."
+      },
+      "PL": {
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "extendableDays": null,
+        "visaTypes": [
+          "evisitor-651"
+        ],
+        "notes": "Apply online for the FREE eVisitor (subclass 651). It is valid for 12 months and allows stays of up to 3 months per visit — never pay a third-party site for it."
+      },
+      "CH": {
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "extendableDays": null,
+        "visaTypes": [
+          "evisitor-651"
+        ],
+        "notes": "Apply online for the FREE eVisitor (subclass 651). It is valid for 12 months and allows stays of up to 3 months per visit — never pay a third-party site for it."
+      },
+      "RO": {
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "extendableDays": null,
+        "visaTypes": [
+          "evisitor-651"
+        ],
+        "notes": "Apply online for the FREE eVisitor (subclass 651). It is valid for 12 months and allows stays of up to 3 months per visit — never pay a third-party site for it."
+      },
+      "UA": {
+        "requirement": "evisa",
+        "visaTypes": [
+          "visitor-600"
+        ],
+        "notes": "Visitor visa (subclass 600) required — apply online through ImmiAccount before travelling. Allow several weeks for processing."
+      },
+      "TR": {
+        "requirement": "evisa",
+        "visaTypes": [
+          "visitor-600"
+        ],
+        "notes": "Visitor visa (subclass 600) required — apply online through ImmiAccount before travelling. Allow several weeks for processing."
+      },
+      "RU": {
+        "requirement": "evisa",
+        "visaTypes": [
+          "visitor-600"
+        ],
+        "notes": "Visitor visa (subclass 600) required — apply online through ImmiAccount before travelling. Allow several weeks for processing."
+      },
+      "CN": {
+        "requirement": "evisa",
+        "visaTypes": [
+          "visitor-600"
+        ],
+        "notes": "Visitor visa (subclass 600) required — apply online through ImmiAccount. Chinese passport holders can also be considered for a longer-validity Frequent Traveller stream (up to 10 years) at a higher fee — check current availability with Home Affairs.",
+        "source": {
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+          "name": "Department of Home Affairs — Visitor visa (subclass 600)",
+          "type": "government",
+          "lastVerified": "2026-08-25",
+          "confidence": "medium"
+        }
+      },
+      "IN": {
+        "requirement": "evisa",
+        "visaTypes": [
+          "visitor-600"
+        ],
+        "notes": "Visitor visa (subclass 600) required — apply online through ImmiAccount before travelling. Allow several weeks for processing."
+      },
+      "JP": {
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "extendableDays": null,
+        "visaTypes": [
+          "eta-601"
+        ],
+        "notes": "Apply for the Electronic Travel Authority (subclass 601) via the official Australian ETA app — AUD 20 service charge, usually approved within minutes. Stays of up to 3 months per visit during its 12-month validity."
+      },
+      "KR": {
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "extendableDays": null,
+        "visaTypes": [
+          "eta-601"
+        ],
+        "notes": "Apply for the Electronic Travel Authority (subclass 601) via the official Australian ETA app — AUD 20 service charge, usually approved within minutes. Stays of up to 3 months per visit during its 12-month validity."
+      },
+      "PH": {
+        "requirement": "evisa",
+        "visaTypes": [
+          "visitor-600"
+        ],
+        "notes": "Visitor visa (subclass 600) required — apply online through ImmiAccount before travelling. Allow several weeks for processing."
+      },
+      "ID": {
+        "requirement": "evisa",
+        "visaTypes": [
+          "visitor-600"
+        ],
+        "notes": "Visitor visa (subclass 600) required — apply online through ImmiAccount before travelling. Allow several weeks for processing."
+      },
+      "VN": {
+        "requirement": "evisa",
+        "visaTypes": [
+          "visitor-600"
+        ],
+        "notes": "Visitor visa (subclass 600) required — apply online through ImmiAccount before travelling. Allow several weeks for processing."
+      },
+      "PK": {
+        "requirement": "evisa",
+        "visaTypes": [
+          "visitor-600"
+        ],
+        "notes": "Visitor visa (subclass 600) required — apply online through ImmiAccount before travelling. Processing can take months — apply well ahead."
+      },
+      "NG": {
+        "requirement": "evisa",
+        "visaTypes": [
+          "visitor-600"
+        ],
+        "notes": "Visitor visa (subclass 600) required — apply online through ImmiAccount before travelling. Processing can take months — apply well ahead."
+      },
+      "ZA": {
+        "requirement": "evisa",
+        "visaTypes": [
+          "visitor-600"
+        ],
+        "notes": "Visitor visa (subclass 600) required — apply online through ImmiAccount before travelling. Allow several weeks for processing."
+      },
+      "BR": {
+        "requirement": "evisa",
+        "visaTypes": [
+          "visitor-600"
+        ],
+        "notes": "Visitor visa (subclass 600) required — apply online through ImmiAccount before travelling. Allow several weeks for processing."
+      },
+      "MX": {
+        "requirement": "evisa",
+        "visaTypes": [
+          "visitor-600"
+        ],
+        "notes": "Visitor visa (subclass 600) required — apply online through ImmiAccount before travelling. Allow several weeks for processing."
+      }
+    }
+  },
+  "visaTypes": [
+    {
+      "id": "evisitor-651",
+      "category": "tourist",
+      "method": "eta",
+      "name": "eVisitor (subclass 651)",
+      "fee": {
+        "amount": 0,
+        "currency": "AUD",
+        "notes": "Completely free — apply only on the Home Affairs website. Available to passport holders of the EU and several other European countries for tourism or business visits."
+      },
+      "processing": {
+        "minDays": 0,
+        "maxDays": 2,
+        "unit": "calendar-days"
+      },
+      "validityDays": 365,
+      "stayDays": 90,
+      "entries": "multiple",
+      "extendable": {
+        "possible": false,
+        "days": null
+      },
+      "applyUrl": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/evisitor-651",
+      "source": {
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/evisitor-651",
+        "name": "Department of Home Affairs — eVisitor (subclass 651)",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "eta-601",
+      "category": "tourist",
+      "method": "eta",
+      "name": "Electronic Travel Authority (subclass 601)",
+      "fee": {
+        "amount": 20,
+        "currency": "AUD",
+        "notes": "AUD 20 service charge, paid in the official Australian ETA app — the only way to apply. Available to US, Canadian, Japanese, South Korean, British, Irish and several other passports."
+      },
+      "processing": {
+        "minDays": 0,
+        "maxDays": 1,
+        "unit": "calendar-days"
+      },
+      "validityDays": 365,
+      "stayDays": 90,
+      "entries": "multiple",
+      "extendable": {
+        "possible": false,
+        "days": null
+      },
+      "applyUrl": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601",
+      "source": {
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601",
+        "name": "Department of Home Affairs — Electronic Travel Authority (subclass 601)",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "visitor-600",
+      "category": "tourist",
+      "method": "evisa",
+      "name": "Visitor visa (subclass 600)",
+      "fee": {
+        "amount": 200,
+        "currency": "AUD",
+        "notes": "Tourist stream, applied for online via ImmiAccount. Visa application charges are adjusted most years — check the current amount before applying."
+      },
+      "processing": {
+        "minDays": 7,
+        "maxDays": 45,
+        "unit": "calendar-days"
+      },
+      "validityDays": 365,
+      "stayDays": 90,
+      "entries": "multiple",
+      "extendable": {
+        "possible": true,
+        "days": null
+      },
+      "applyUrl": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+      "source": {
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "name": "Department of Home Affairs — Visitor visa (subclass 600)",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "working-holiday-417",
+      "category": "work",
+      "method": "evisa",
+      "name": "Working Holiday visa (subclass 417)",
+      "fee": {
+        "amount": 640,
+        "currency": "AUD",
+        "notes": "For 18–30 year olds (35 for some countries) from eligible nations. Allows 12 months in Australia with work rights; second and third years possible after specified work. Fee changes most years — check before applying."
+      },
+      "processing": null,
+      "validityDays": 365,
+      "stayDays": 365,
+      "entries": "multiple",
+      "extendable": {
+        "possible": true,
+        "days": 365
+      },
+      "applyUrl": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-417",
+      "source": {
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-417",
+        "name": "Department of Home Affairs — Working Holiday visa (subclass 417)",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "medium"
+      }
+    }
+  ],
+  "entryRequirements": {
+    "passportValidity": {
+      "rule": "valid-for-stay",
+      "text": "Australia sets no minimum validity beyond your stay — your passport simply must be valid for the whole time you are in the country. Airlines and transit countries may apply stricter rules.",
+      "source": {
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/evisitor-651",
+        "name": "Department of Home Affairs — eVisitor (subclass 651)",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "high"
+      }
+    },
+    "vaccinations": [],
+    "travelInsurance": {
+      "required": false,
+      "minCoverage": null,
+      "text": "Not an entry requirement for tourists, but strongly recommended — healthcare for visitors is expensive unless your country has a reciprocal healthcare agreement with Australia.",
+      "source": {
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "name": "Department of Home Affairs — Visitor visa (subclass 600)",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "high"
+      }
+    },
+    "onwardTicket": {
+      "required": false,
+      "text": "Not a formal condition for eVisitor/ETA holders, but border officers may ask about your departure plans, and Visitor visa (600) applicants must show genuine temporary-stay intent.",
+      "source": {
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "name": "Department of Home Affairs — Visitor visa (subclass 600)",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "high"
+      }
+    },
+    "proofOfFunds": {
+      "required": false,
+      "amount": null,
+      "text": "No fixed amount at the border, but Visitor visa (600) applications must include evidence of enough money for the stay, and officers can question any visitor about their means.",
+      "source": {
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "name": "Department of Home Affairs — Visitor visa (subclass 600)",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "high"
+      }
+    },
+    "declarations": [
+      {
+        "id": "incoming-passenger-card",
+        "name": "Incoming Passenger Card (IPC)",
+        "mandatory": true,
+        "fee": null,
+        "submitWindow": "On board or on arrival",
+        "url": "https://www.abf.gov.au/entering-and-leaving-australia/can-you-bring-it-in",
+        "text": "Every arriving traveller must complete the Incoming Passenger Card, declaring all food, plant material, animal products, medicines and currency over AUD 10,000. False declarations carry heavy on-the-spot fines and can lead to visa cancellation.",
+        "source": {
+          "url": "https://www.abf.gov.au/entering-and-leaving-australia/can-you-bring-it-in",
+          "name": "Australian Border Force — Can you bring it in?",
+          "type": "government",
+          "lastVerified": "2026-08-25",
+          "confidence": "official"
+        }
+      }
+    ],
+    "customs": {
+      "currencyLimits": {
+        "text": "Cash of AUD 10,000 or more (or foreign equivalent) must be declared on arrival and departure. There is no limit on the amount — only a reporting duty.",
+        "source": {
+          "url": "https://www.abf.gov.au/entering-and-leaving-australia/can-you-bring-it-in",
+          "name": "Australian Border Force — Can you bring it in?",
+          "type": "government",
+          "lastVerified": "2026-08-25",
+          "confidence": "high"
+        }
+      },
+      "notes": [
+        "Australia has some of the strictest biosecurity rules in the world: declare ALL food, plants, seeds, wooden items and animal products — undeclared items mean instant fines of hundreds of dollars and possible visa cancellation.",
+        "Duty-free allowance: 25 cigarettes and 2.25 litres of alcohol per adult.",
+        "Clean soil off shoes, camping and sports equipment before you fly — dirty gear can be seized for treatment."
+      ]
+    }
+  },
+  "countryFacts": {
+    "currency": {
+      "code": "AUD",
+      "name": "Australian dollar",
+      "symbol": "$"
+    },
+    "payments": {
+      "cardsAccepted": "widely",
+      "cashImportance": "low",
+      "text": "Tap-to-pay by card or phone is the default everywhere, including buses and market stalls; many venues are effectively cashless. Tipping is not expected."
+    },
+    "safety": {
+      "level": "very-safe",
+      "text": "Australia is a very safe destination with low crime. The real risks are natural: extreme UV, rip currents at beaches (swim between the flags), remote-area driving, and seasonal bushfires and floods — check local warnings.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/australia",
+        "name": "UK FCDO — Australia travel advice",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "high"
+      }
+    },
+    "plugs": {
+      "types": [
+        "I"
+      ],
+      "voltage": 230,
+      "frequencyHz": 50
+    },
+    "emergency": {
+      "general": "000"
+    },
+    "bestTimeToVisit": {
+      "months": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "text": "Spring (September–November) and autumn (March–May) suit most of the country; December–February is beach season in the south but wet season in the tropical north, where June–August is the prime dry season."
+    },
+    "languages": [
+      "English"
+    ],
+    "timezone": "UTC+8 to UTC+11",
+    "drivingSide": "left",
+    "tapWaterSafe": true
+  },
+  "tips": [
+    {
+      "id": "biosecurity",
+      "type": "warning",
+      "text": "Declare every food item, plant product and wooden souvenir on your Incoming Passenger Card — even packaged snacks. Undeclared biosecurity items bring on-the-spot fines in the hundreds of dollars, and serious breaches can cancel your visa on the spot."
+    },
+    {
+      "id": "sun-uv",
+      "type": "warning",
+      "text": "Australian UV levels are extreme even on cool or cloudy days — use SPF 50+, a hat and sunglasses, and swim only between the red-and-yellow flags at patrolled beaches."
+    },
+    {
+      "id": "distances",
+      "type": "info",
+      "text": "Distances are vast: Sydney to Perth is further than London to Moscow. Fly between regions, plan fuel and water for outback drives, and avoid driving rural roads at dawn or dusk when kangaroos are active."
+    },
+    {
+      "id": "official-apply",
+      "type": "tip",
+      "text": "The eVisitor is free on immi.homeaffairs.gov.au, and the ETA costs AUD 20 only in the official Australian ETA app. Third-party sites charging more for either are unnecessary middlemen."
+    }
+  ],
+  "faq": [
+    {
+      "id": "us-need-visa",
+      "question": "Do US citizens need a visa for Australia?",
+      "answer": "Yes — an electronic one. US passport holders must obtain the Electronic Travel Authority (subclass 601) through the official Australian ETA app before boarding. It carries a AUD 20 service charge, is normally approved within minutes, and allows stays of up to 3 months per visit over 12 months."
+    },
+    {
+      "id": "evisitor-vs-eta",
+      "question": "What is the difference between the eVisitor and the Australian ETA?",
+      "answer": "Both allow 3-month tourist or business visits over a 12-month validity. The eVisitor (subclass 651) is free and covers EU and other European passports, applied for on the Home Affairs website. The ETA (subclass 601) covers the US, Canada, Japan, South Korea, the UK and others, costs AUD 20 and is applied for only via the Australian ETA app."
+    },
+    {
+      "id": "nz-citizens",
+      "question": "Do New Zealanders need a visa for Australia?",
+      "answer": "No application is needed. New Zealand citizens receive the Special Category Visa (subclass 444) automatically when they arrive, which lets them visit, live and work in Australia for as long as they remain NZ citizens."
+    },
+    {
+      "id": "food-declare",
+      "question": "Can I bring food into Australia?",
+      "answer": "Only if you declare it. Australia's biosecurity rules are among the strictest in the world: all food, plant material and animal products must be declared on the Incoming Passenger Card. Many items are then allowed after inspection, but failing to declare brings immediate fines and can cancel your visa."
+    },
+    {
+      "id": "extend-stay",
+      "question": "Can I stay in Australia longer than 3 months as a tourist?",
+      "answer": "Not on an eVisitor or ETA — each visit is capped at 3 months. For longer trips, apply online for a Visitor visa (subclass 600), which can be granted for stays of 6 or even 12 months, before you travel or before your current stay expires."
+    }
+  ]
+}
