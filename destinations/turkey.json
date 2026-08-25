@@ -333,7 +333,23 @@
         "extendableDays": null,
         "notes": "Visa-free for up to 90 days in any 180-day period."
       }
-    }
+    },
+    "conditionalWaivers": [
+      {
+        "id": "us-visa",
+        "requirement": "evisa",
+        "maxStayDays": 30,
+        "appliesTo": "visa-required",
+        "text": "Several visa-required nationalities qualify for Turkey's conditional eVisa if they hold a valid visa or residence permit from the US, the UK, Ireland or a Schengen country.",
+        "source": {
+          "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
+          "name": "Turkish MFA — Visa Information For Foreigners",
+          "type": "government",
+          "lastVerified": "2026-08-25",
+          "confidence": "medium"
+        }
+      }
+    ]
   },
   "visaTypes": [
     {

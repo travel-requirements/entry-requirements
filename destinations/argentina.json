@@ -283,7 +283,25 @@
         "extendableDays": 90,
         "notes": "Visa-free for tourism up to 90 days; one 90-day extension (prórroga) can be requested from Migraciones before the stay expires."
       }
-    }
+    },
+    "conditionalWaivers": [
+      {
+        "id": "us-visa",
+        "requirement": "evisa",
+        "maxStayDays": 90,
+        "appliesTo": [
+          "CN"
+        ],
+        "text": "Chinese citizens holding a valid US or Schengen visa can apply for Argentina's AVE electronic travel authorisation instead of a consular visa.",
+        "source": {
+          "url": "https://www.migraciones.gob.ar/",
+          "name": "Dirección Nacional de Migraciones — entry requirements",
+          "type": "government",
+          "lastVerified": "2026-08-25",
+          "confidence": "medium"
+        }
+      }
+    ]
   },
   "visaTypes": [
     {

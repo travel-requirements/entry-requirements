@@ -323,7 +323,39 @@
           "confidence": "medium"
         }
       }
-    }
+    },
+    "conditionalWaivers": [
+      {
+        "id": "us-visa",
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 14,
+        "appliesTo": [
+          "IN"
+        ],
+        "text": "Indian citizens holding a valid US visa or a US green card can obtain a 14-day visa on arrival in the UAE.",
+        "source": {
+          "url": "https://u.ae/en/information-and-services/visa-and-emirates-id",
+          "name": "UAE Government portal — visa on arrival and entry information",
+          "type": "government",
+          "lastVerified": "2026-08-25",
+          "confidence": "medium"
+        }
+      },
+      {
+        "id": "gcc-residence",
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "appliesTo": "visa-required",
+        "text": "Residents of GCC countries may be eligible for a visa on arrival or a simplified eVisa regardless of nationality, depending on profession and residence validity — confirm before travelling.",
+        "source": {
+          "url": "https://u.ae/en/information-and-services/visa-and-emirates-id",
+          "name": "UAE Government portal — visa on arrival and entry information",
+          "type": "government",
+          "lastVerified": "2026-08-25",
+          "confidence": "medium"
+        }
+      }
+    ]
   },
   "visaTypes": [
     {

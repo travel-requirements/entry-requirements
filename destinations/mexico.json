@@ -257,7 +257,23 @@
         "maxStayDays": null,
         "notes": "Home country — no entry requirements for Mexican citizens."
       }
-    }
+    },
+    "conditionalWaivers": [
+      {
+        "id": "us-visa",
+        "requirement": "visa-free",
+        "maxStayDays": 180,
+        "appliesTo": "visa-required",
+        "text": "Travellers of any nationality holding a valid US visa (or a valid visa/residence permit of Canada, the UK, Japan or a Schengen country) may enter Mexico visa-free for up to 180 days.",
+        "source": {
+          "url": "https://www.gob.mx/inm",
+          "name": "Instituto Nacional de Migración — visitor entry rules",
+          "type": "government",
+          "lastVerified": "2026-08-25",
+          "confidence": "medium"
+        }
+      }
+    ]
   },
   "visaTypes": [
     {

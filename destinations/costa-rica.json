@@ -289,7 +289,23 @@
         "maxStayDays": 180,
         "notes": "Visa-free for tourism up to 180 days (first-group nationality). The border officer decides the days granted — check your entry stamp. Onward travel proof is strictly enforced by airlines at check-in."
       }
-    }
+    },
+    "conditionalWaivers": [
+      {
+        "id": "us-visa",
+        "requirement": "visa-free",
+        "maxStayDays": 30,
+        "appliesTo": "visa-required",
+        "text": "Visa-required nationals holding a valid multiple-entry US, Canadian or Schengen visa (valid for at least 3 more months) or residence permit may enter Costa Rica for up to 30 days.",
+        "source": {
+          "url": "https://www.migracion.go.cr/",
+          "name": "Dirección General de Migración y Extranjería — visa guidelines",
+          "type": "government",
+          "lastVerified": "2026-08-25",
+          "confidence": "medium"
+        }
+      }
+    ]
   },
   "visaTypes": [
     {

@@ -400,7 +400,37 @@
           "confidence": "medium"
         }
       }
-    }
+    },
+    "conditionalWaivers": [
+      {
+        "id": "us-visa",
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 90,
+        "appliesTo": "visa-required",
+        "text": "Holders of a valid US, UK or Schengen visitor visa that has been used at least once may obtain a visa on arrival / tourist eVisa for Saudi Arabia.",
+        "source": {
+          "url": "https://visa.visitsaudi.com/",
+          "name": "Visit Saudi — tourist eVisa eligibility and conditions",
+          "type": "government",
+          "lastVerified": "2026-08-25",
+          "confidence": "medium"
+        }
+      },
+      {
+        "id": "gcc-residence",
+        "requirement": "evisa",
+        "maxStayDays": 90,
+        "appliesTo": "visa-required",
+        "text": "GCC residents with a residence permit valid for at least 3 more months can apply for the Saudi tourist eVisa regardless of nationality.",
+        "source": {
+          "url": "https://visa.visitsaudi.com/",
+          "name": "Visit Saudi — tourist eVisa eligibility and conditions",
+          "type": "government",
+          "lastVerified": "2026-08-25",
+          "confidence": "medium"
+        }
+      }
+    ]
   },
   "visaTypes": [
     {

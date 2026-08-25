@@ -316,7 +316,23 @@
         "extendableDays": 90,
         "notes": "Visa-free for tourism — 30 days on entry, extendable online with Migración up to 120 days. The old tourist card fee is bundled into your airfare. Complete the free e-Ticket form before both arrival and departure."
       }
-    }
+    },
+    "conditionalWaivers": [
+      {
+        "id": "us-visa",
+        "requirement": "visa-free",
+        "maxStayDays": 30,
+        "appliesTo": "visa-required",
+        "text": "Travellers holding a valid US, Canadian, UK or Schengen visa or residence permit may enter the Dominican Republic visa-free for up to 30 days.",
+        "source": {
+          "url": "https://migracion.gob.do/",
+          "name": "Dirección General de Migración — entry requirements",
+          "type": "government",
+          "lastVerified": "2026-08-25",
+          "confidence": "medium"
+        }
+      }
+    ]
   },
   "visaTypes": [
     {
