@@ -1,0 +1,121 @@
+{
+  "slug": "morocco",
+  "default": {
+    "r": "embassy-visa",
+    "stay": null,
+    "types": [
+      "embassy-tourist"
+    ],
+    "notes": "A visa is required. Check eligibility for the official eVisa at acces-maroc.ma; otherwise apply at a Moroccan embassy or consulate."
+  },
+  "groups": [
+    {
+      "r": "visa-free",
+      "stay": 90,
+      "notes": "Visa-free for up to 90 days; extensions beyond 90 days must be requested at a local police station well before the stay expires.",
+      "codes": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "IS",
+        "LI",
+        "NO",
+        "CH",
+        "GB",
+        "AD",
+        "MC",
+        "SM",
+        "VA",
+        "US",
+        "CA",
+        "MX",
+        "AU",
+        "NZ",
+        "JP",
+        "KR",
+        "CN",
+        "RU",
+        "UA",
+        "TR",
+        "AR",
+        "BR",
+        "CL",
+        "PE",
+        "DZ",
+        "TN",
+        "LY",
+        "EG",
+        "JO",
+        "KW",
+        "BH",
+        "OM",
+        "QA",
+        "SA",
+        "AE",
+        "CI",
+        "SN",
+        "ML",
+        "NE",
+        "GN",
+        "CG",
+        "GA",
+        "SG"
+      ]
+    },
+    {
+      "r": "evisa",
+      "stay": 30,
+      "types": [
+        "tourist-evisa"
+      ],
+      "notes": "A visa is required — check eligibility for the official eVisa at acces-maroc.ma (holders of valid Schengen, US or UK visas are commonly eligible for the express track); otherwise apply at a Moroccan embassy.",
+      "codes": [
+        "IL",
+        "IN",
+        "ID",
+        "TH",
+        "VN",
+        "PH",
+        "PK",
+        "NG",
+        "ZA"
+      ]
+    }
+  ],
+  "overrides": {
+    "MA": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Moroccan citizens."
+    },
+    "HK": {
+      "r": "visa-free",
+      "stay": 30,
+      "notes": "Hong Kong SAR passport holders are admitted visa-free for shorter visits, typically up to 30 days."
+    }
+  }
+}

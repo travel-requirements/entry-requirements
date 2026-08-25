@@ -1,0 +1,90 @@
+{
+  "slug": "australia",
+  "default": {
+    "r": "evisa",
+    "stay": null,
+    "types": [
+      "visitor-600"
+    ],
+    "notes": "Visitor visa (subclass 600) required — apply online through ImmiAccount before travelling. Allow several weeks for processing."
+  },
+  "groups": [
+    {
+      "r": "eta",
+      "stay": 90,
+      "types": [
+        "evisitor-651"
+      ],
+      "notes": "Apply online for the FREE eVisitor (subclass 651). It is valid for 12 months and allows stays of up to 3 months per visit — never pay a third-party site for it.",
+      "codes": [
+        "AD",
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IS",
+        "IE",
+        "IT",
+        "LV",
+        "LI",
+        "LT",
+        "LU",
+        "MT",
+        "MC",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SM",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "CH",
+        "VA",
+        "GB"
+      ]
+    },
+    {
+      "r": "eta",
+      "stay": 90,
+      "types": [
+        "eta-601"
+      ],
+      "notes": "Apply for the Electronic Travel Authority (subclass 601) via the official Australian ETA app — AUD 20 service charge, usually approved within minutes. Stays of up to 3 months per visit during its 12-month validity.",
+      "codes": [
+        "US",
+        "CA",
+        "JP",
+        "KR",
+        "SG",
+        "MY",
+        "BN",
+        "HK",
+        "TW"
+      ]
+    }
+  ],
+  "overrides": {
+    "AU": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Australian citizens."
+    },
+    "NZ": {
+      "r": "visa-free",
+      "stay": null,
+      "notes": "New Zealand citizens are granted a Special Category Visa (subclass 444) automatically on arrival under the Trans-Tasman Travel Arrangement — no application or fee. It allows visiting, living and working in Australia indefinitely while you remain a NZ citizen."
+    }
+  }
+}

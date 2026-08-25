@@ -1,0 +1,62 @@
+{
+  "slug": "jordan",
+  "default": {
+    "r": "visa-on-arrival",
+    "stay": 30,
+    "types": [
+      "voa-single"
+    ],
+    "notes": "Single-entry visa on arrival (JOD 40) for a 30-day stay, extendable at a police station for a total of up to 3 months. The fee is waived with a Jordan Pass if you stay at least 3 nights."
+  },
+  "groups": [
+    {
+      "r": "visa-free",
+      "stay": 90,
+      "notes": "Visa-free entry for citizens of Gulf Cooperation Council states and Egypt — stays of up to 3 months are generally granted on arrival.",
+      "codes": [
+        "BH",
+        "KW",
+        "OM",
+        "QA",
+        "SA",
+        "AE",
+        "EG"
+      ]
+    },
+    {
+      "r": "embassy-visa",
+      "stay": null,
+      "notes": "Prior approval from the Jordanian Ministry of Interior is generally required — apply through a Jordanian embassy or an approved tour operator well before travel.",
+      "codes": [
+        "PK",
+        "NG",
+        "AF",
+        "BD",
+        "IQ",
+        "IR",
+        "LY",
+        "PS",
+        "SO",
+        "SD",
+        "SS",
+        "SY",
+        "YE"
+      ]
+    }
+  ],
+  "overrides": {
+    "JO": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Jordanian citizens."
+    },
+    "IL": {
+      "r": "visa-on-arrival",
+      "stay": 30,
+      "types": [
+        "voa-single"
+      ],
+      "notes": "Israeli citizens can obtain a visa on arrival at Amman airport and at the northern and southern land crossings, but not at the King Hussein (Allenby) Bridge — arrange a visa in advance if crossing there."
+    }
+  }
+}

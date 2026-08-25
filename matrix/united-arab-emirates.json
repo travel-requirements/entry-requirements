@@ -1,0 +1,141 @@
+{
+  "slug": "united-arab-emirates",
+  "default": {
+    "r": "evisa",
+    "stay": 30,
+    "types": [
+      "tourist-evisa-30"
+    ],
+    "notes": "Pre-arranged tourist eVisa required, obtained through an airline, hotel or UAE-based sponsor before travel."
+  },
+  "groups": [
+    {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "GCC citizens may enter the UAE freely under Gulf Cooperation Council arrangements — a national ID card is accepted and no visa is needed.",
+      "codes": [
+        "BH",
+        "KW",
+        "OM",
+        "QA",
+        "SA"
+      ]
+    },
+    {
+      "r": "visa-free",
+      "stay": 90,
+      "notes": "Visa-free for up to 90 days in any 180-day period under the EU–UAE visa waiver.",
+      "codes": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE"
+      ]
+    },
+    {
+      "r": "visa-free",
+      "stay": 90,
+      "notes": "Visa-free for up to 90 days in any 180-day period, on the same terms as EU citizens.",
+      "codes": [
+        "IS",
+        "LI",
+        "NO",
+        "CH"
+      ]
+    },
+    {
+      "r": "visa-free",
+      "stay": 90,
+      "notes": "Visa-free under a bilateral agreement, commonly reported as up to 90 days in any 180-day period — confirm on icp.gov.ae before a long stay.",
+      "codes": [
+        "RU",
+        "BR",
+        "AR",
+        "CL",
+        "PY",
+        "UY",
+        "PE",
+        "MU",
+        "ME",
+        "RS",
+        "SC",
+        "CR",
+        "SV",
+        "HN",
+        "BB",
+        "GE"
+      ]
+    },
+    {
+      "r": "visa-free",
+      "stay": 30,
+      "notes": "Visa-free for up to 30 days under a bilateral visa-exemption agreement.",
+      "codes": [
+        "CN",
+        "UA",
+        "KZ"
+      ]
+    },
+    {
+      "r": "visa-on-arrival",
+      "stay": 30,
+      "types": [
+        "voa-30"
+      ],
+      "notes": "Free 30-day visa on arrival, stamped at the border; extendable once from inside the UAE for a fee.",
+      "codes": [
+        "US",
+        "GB",
+        "CA",
+        "AU",
+        "NZ",
+        "IE",
+        "JP",
+        "KR",
+        "SG",
+        "MY",
+        "BN",
+        "HK",
+        "MO",
+        "AD",
+        "MC",
+        "SM",
+        "VA"
+      ]
+    }
+  ],
+  "overrides": {
+    "AE": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Emirati citizens."
+    },
+    "IL": {
+      "r": "visa-free",
+      "stay": 90,
+      "notes": "Visa-free under the UAE–Israel visa-waiver agreement that followed the 2020 normalisation accords — commonly reported as up to 90 days; confirm current arrangements before travel."
+    }
+  }
+}

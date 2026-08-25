@@ -1,0 +1,120 @@
+{
+  "slug": "mexico",
+  "default": {
+    "r": "embassy-visa",
+    "stay": null,
+    "types": [
+      "visitor-visa"
+    ],
+    "notes": "Consular visitor visa required — BUT holders of a valid visa for the US, Canada, the UK, Japan or a Schengen country are exempt and can enter visa-free for up to 180 days."
+  },
+  "groups": [
+    {
+      "r": "visa-free",
+      "stay": 180,
+      "notes": "Visa-free for tourism and business. The immigration officer sets the length of stay, up to a maximum of 180 days.",
+      "codes": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "IS",
+        "LI",
+        "NO",
+        "CH",
+        "AD",
+        "MC",
+        "SM",
+        "VA",
+        "GB",
+        "US",
+        "CA",
+        "AU",
+        "NZ",
+        "JP",
+        "KR",
+        "SG",
+        "MY",
+        "IL",
+        "HK",
+        "MO",
+        "AE",
+        "AR",
+        "BS",
+        "BB",
+        "BZ",
+        "BR",
+        "CL",
+        "CO",
+        "CR",
+        "JM",
+        "PA",
+        "PY",
+        "TT",
+        "UY"
+      ]
+    },
+    {
+      "r": "eta",
+      "stay": 180,
+      "types": [
+        "sae"
+      ],
+      "notes": "Citizens of this country arriving BY AIR can use the free Electronic Authorization (SAE) instead of a consular visa; land/sea arrivals need a visitor visa. Anyone holding a valid US, Canadian, UK, Japanese or Schengen visa is exempt from both.",
+      "codes": [
+        "RU",
+        "UA",
+        "TR"
+      ]
+    }
+  ],
+  "overrides": {
+    "EC": {
+      "r": "embassy-visa",
+      "stay": null,
+      "types": [
+        "visitor-visa"
+      ],
+      "notes": "Mexico reimposed a consular visa requirement for Ecuadorian citizens in 2021; holders of a valid US, Canadian, UK, Japanese or Schengen visa remain exempt."
+    },
+    "VE": {
+      "r": "embassy-visa",
+      "stay": null,
+      "types": [
+        "visitor-visa"
+      ],
+      "notes": "Mexico reimposed a consular visa requirement for Venezuelan citizens in 2022; holders of a valid US, Canadian, UK, Japanese or Schengen visa remain exempt."
+    },
+    "PE": {
+      "r": "embassy-visa",
+      "stay": null,
+      "types": [
+        "visitor-visa"
+      ],
+      "notes": "Mexico reintroduced a consular visa requirement for Peruvian citizens in 2024; holders of a valid US, Canadian, UK, Japanese or Schengen visa remain exempt."
+    }
+  }
+}
