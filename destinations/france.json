@@ -1,0 +1,613 @@
+{
+  "id": "france",
+  "iso2": "FR",
+  "names": {
+    "common": "France",
+    "official": "French Republic"
+  },
+  "region": "europe",
+  "neighbors": [
+    "BE",
+    "LU",
+    "DE",
+    "CH",
+    "IT",
+    "ES",
+    "AD",
+    "MC"
+  ],
+  "similarDestinations": [
+    "spain",
+    "italy",
+    "germany"
+  ],
+  "summary": "France is part of the Schengen Area: EU and EFTA citizens enter freely, around 60 visa-exempt nationalities can stay 90 days in any 180-day period (with the ETIAS travel authorisation being phased in), and everyone else needs a Schengen short-stay visa costing €90, applied for via the official France-Visas portal.",
+  "meta": {
+    "lastUpdated": "2026-08-25",
+    "lastFullReview": "2026-08-25",
+    "reviewIntervalDays": 4,
+    "primarySources": [
+      {
+        "url": "https://france-visas.gouv.fr/",
+        "name": "France-Visas — official French visa portal",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "official"
+      },
+      {
+        "url": "https://travel-europe.europa.eu/etias_en",
+        "name": "ETIAS — Official European Union website",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "official"
+      },
+      {
+        "url": "https://travel-europe.europa.eu/ees_en",
+        "name": "EES (Entry/Exit System) — Official European Union website",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "official"
+      }
+    ]
+  },
+  "visaPolicy": {
+    "defaultSource": {
+      "url": "https://france-visas.gouv.fr/",
+      "name": "France-Visas — official French visa portal",
+      "type": "government",
+      "lastVerified": "2026-08-25",
+      "lastChanged": "2024-06-11",
+      "confidence": "high"
+    },
+    "byPassport": {
+      "US": {
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "90 days in any 180-day period across the whole Schengen Area. ETIAS authorisation will be required once mandatory — see the declarations section."
+      },
+      "GB": {
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "90 days in any 180-day period across the whole Schengen Area. ETIAS authorisation will be required once mandatory."
+      },
+      "CA": {
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "90 days in any 180-day period across the whole Schengen Area. ETIAS authorisation will be required once mandatory."
+      },
+      "AU": {
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "90 days in any 180-day period across the whole Schengen Area. ETIAS authorisation will be required once mandatory."
+      },
+      "NZ": {
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "90 days in any 180-day period across the whole Schengen Area. ETIAS authorisation will be required once mandatory."
+      },
+      "IE": {
+        "requirement": "freedom-of-movement",
+        "maxStayDays": null,
+        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa; register if staying over 3 months."
+      },
+      "DE": {
+        "requirement": "freedom-of-movement",
+        "maxStayDays": null,
+        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa; register if staying over 3 months."
+      },
+      "FR": {
+        "requirement": "freedom-of-movement",
+        "maxStayDays": null,
+        "notes": "Home country — no entry requirements for French citizens."
+      },
+      "ES": {
+        "requirement": "freedom-of-movement",
+        "maxStayDays": null,
+        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa; register if staying over 3 months."
+      },
+      "IT": {
+        "requirement": "freedom-of-movement",
+        "maxStayDays": null,
+        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa; register if staying over 3 months."
+      },
+      "PT": {
+        "requirement": "freedom-of-movement",
+        "maxStayDays": null,
+        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa; register if staying over 3 months."
+      },
+      "NL": {
+        "requirement": "freedom-of-movement",
+        "maxStayDays": null,
+        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa; register if staying over 3 months."
+      },
+      "PL": {
+        "requirement": "freedom-of-movement",
+        "maxStayDays": null,
+        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa; register if staying over 3 months."
+      },
+      "CH": {
+        "requirement": "freedom-of-movement",
+        "maxStayDays": null,
+        "notes": "EFTA citizens enjoy free movement equivalent to EU citizens."
+      },
+      "RO": {
+        "requirement": "freedom-of-movement",
+        "maxStayDays": null,
+        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa; register if staying over 3 months."
+      },
+      "UA": {
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free with a biometric passport: 90 days in any 180-day period. Temporary protection arrangements for those fleeing the war are separate."
+      },
+      "TR": {
+        "requirement": "embassy-visa",
+        "visaTypes": [
+          "schengen-c"
+        ],
+        "notes": "A Schengen short-stay visa is required, applied for via France-Visas and the French consulate or visa centre serving your place of residence."
+      },
+      "RU": {
+        "requirement": "embassy-visa",
+        "visaTypes": [
+          "schengen-c"
+        ],
+        "notes": "A Schengen short-stay visa is required. The EU suspended its visa facilitation agreement with Russia; fees are higher (€90) and processing is slower."
+      },
+      "CN": {
+        "requirement": "embassy-visa",
+        "visaTypes": [
+          "schengen-c"
+        ],
+        "notes": "A Schengen short-stay visa is required, applied for via France-Visas and the French consulate or visa centre serving your place of residence."
+      },
+      "IN": {
+        "requirement": "embassy-visa",
+        "visaTypes": [
+          "schengen-c"
+        ],
+        "notes": "A Schengen short-stay visa is required, applied for via France-Visas and the visa centre (VFS Global) serving your place of residence."
+      },
+      "JP": {
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "90 days in any 180-day period across the whole Schengen Area. ETIAS authorisation will be required once mandatory."
+      },
+      "KR": {
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "90 days in any 180-day period across the whole Schengen Area. ETIAS authorisation will be required once mandatory."
+      },
+      "PH": {
+        "requirement": "embassy-visa",
+        "visaTypes": [
+          "schengen-c"
+        ],
+        "notes": "A Schengen short-stay visa is required, applied for via France-Visas and the French consulate or visa centre serving your place of residence."
+      },
+      "ID": {
+        "requirement": "embassy-visa",
+        "visaTypes": [
+          "schengen-c"
+        ],
+        "notes": "A Schengen short-stay visa is required, applied for via France-Visas and the French consulate or visa centre serving your place of residence."
+      },
+      "VN": {
+        "requirement": "embassy-visa",
+        "visaTypes": [
+          "schengen-c"
+        ],
+        "notes": "A Schengen short-stay visa is required, applied for via France-Visas and the French consulate or visa centre serving your place of residence."
+      },
+      "PK": {
+        "requirement": "embassy-visa",
+        "visaTypes": [
+          "schengen-c"
+        ],
+        "notes": "A Schengen short-stay visa is required, applied for via France-Visas and the French consulate or visa centre serving your place of residence."
+      },
+      "NG": {
+        "requirement": "embassy-visa",
+        "visaTypes": [
+          "schengen-c"
+        ],
+        "notes": "A Schengen short-stay visa is required, applied for via France-Visas and the French consulate or visa centre serving your place of residence."
+      },
+      "ZA": {
+        "requirement": "embassy-visa",
+        "visaTypes": [
+          "schengen-c"
+        ],
+        "notes": "A Schengen short-stay visa is required, applied for via France-Visas and the French consulate or visa centre serving your place of residence."
+      },
+      "BR": {
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "90 days in any 180-day period across the whole Schengen Area. ETIAS authorisation will be required once mandatory."
+      },
+      "MX": {
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "90 days in any 180-day period across the whole Schengen Area. ETIAS authorisation will be required once mandatory."
+      }
+    }
+  },
+  "visaTypes": [
+    {
+      "id": "schengen-c",
+      "category": "tourist",
+      "method": "embassy",
+      "name": "Schengen Short-Stay Visa (Type C)",
+      "fee": {
+        "amount": 90,
+        "currency": "EUR",
+        "notes": "Children 6–11: €45; under 6: free. Fee set EU-wide since 11 June 2024."
+      },
+      "processing": {
+        "minDays": 15,
+        "maxDays": 45,
+        "unit": "calendar-days"
+      },
+      "validityDays": 180,
+      "stayDays": 90,
+      "entries": "multiple",
+      "extendable": {
+        "possible": false,
+        "days": null
+      },
+      "applyUrl": "https://france-visas.gouv.fr/",
+      "source": {
+        "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy_en",
+        "name": "European Commission — Schengen visa policy",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "national-d",
+      "category": "other",
+      "method": "embassy",
+      "name": "Long-Stay Visa (Type D — VLS-TS)",
+      "fee": {
+        "amount": 99,
+        "currency": "EUR",
+        "notes": "For stays over 90 days: work, family and other long-stay purposes. Many long-stay visas act as residence permits (VLS-TS) and must be validated online within 3 months of arrival. Confirm the fee for your category on France-Visas."
+      },
+      "processing": {
+        "minDays": 15,
+        "maxDays": 60,
+        "unit": "calendar-days"
+      },
+      "validityDays": 365,
+      "stayDays": 365,
+      "entries": "multiple",
+      "extendable": {
+        "possible": true,
+        "days": null
+      },
+      "applyUrl": "https://france-visas.gouv.fr/",
+      "source": {
+        "url": "https://france-visas.gouv.fr/",
+        "name": "France-Visas — official French visa portal",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "student",
+      "category": "student",
+      "method": "embassy",
+      "name": "Student Long-Stay Visa (VLS-TS Étudiant)",
+      "fee": {
+        "amount": 50,
+        "currency": "EUR",
+        "notes": "Reduced fee for students going through the Études en France / Campus France procedure; €99 otherwise. Requires proof of enrolment, funds and accommodation. Confirm the current fee on France-Visas."
+      },
+      "processing": {
+        "minDays": 15,
+        "maxDays": 45,
+        "unit": "calendar-days"
+      },
+      "validityDays": 365,
+      "stayDays": 365,
+      "entries": "multiple",
+      "extendable": {
+        "possible": true,
+        "days": null
+      },
+      "applyUrl": "https://france-visas.gouv.fr/",
+      "source": {
+        "url": "https://france-visas.gouv.fr/",
+        "name": "France-Visas — official French visa portal",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "talent-passport",
+      "category": "work",
+      "method": "embassy",
+      "name": "Talent Passport (Long-Stay Visa)",
+      "fee": {
+        "amount": 99,
+        "currency": "EUR",
+        "notes": "For highly skilled employees, investors, researchers, artists and start-up founders; leads to a multi-year residence permit of up to 4 years. Confirm your category's conditions on France-Visas."
+      },
+      "processing": {
+        "minDays": 15,
+        "maxDays": 60,
+        "unit": "calendar-days"
+      },
+      "validityDays": 365,
+      "stayDays": 365,
+      "entries": "multiple",
+      "extendable": {
+        "possible": true,
+        "days": null
+      },
+      "applyUrl": "https://france-visas.gouv.fr/",
+      "source": {
+        "url": "https://france-visas.gouv.fr/",
+        "name": "France-Visas — official French visa portal",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "work",
+      "category": "work",
+      "method": "embassy",
+      "name": "Work Visa (Type D — Salarié)",
+      "fee": {
+        "amount": 99,
+        "currency": "EUR",
+        "notes": "Requires a work authorisation obtained by the employer in France before the visa application."
+      },
+      "processing": {
+        "minDays": 30,
+        "maxDays": 90,
+        "unit": "calendar-days"
+      },
+      "validityDays": 365,
+      "stayDays": 365,
+      "entries": "multiple",
+      "extendable": {
+        "possible": true,
+        "days": null
+      },
+      "applyUrl": "https://france-visas.gouv.fr/",
+      "source": {
+        "url": "https://france-visas.gouv.fr/",
+        "name": "France-Visas — official French visa portal",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "medium"
+      }
+    }
+  ],
+  "entryRequirements": {
+    "passportValidity": {
+      "rule": "3-months-beyond-departure",
+      "text": "Non-EU passports must be valid for at least 3 months beyond your planned departure from the Schengen Area and have been issued within the last 10 years.",
+      "source": {
+        "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy_en",
+        "name": "European Commission — Schengen rules",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "high"
+      }
+    },
+    "blankPages": {
+      "count": 2,
+      "source": {
+        "url": "https://france-visas.gouv.fr/",
+        "name": "France-Visas — official French visa portal",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "high"
+      }
+    },
+    "vaccinations": [],
+    "travelInsurance": {
+      "required": true,
+      "minCoverage": {
+        "amount": 30000,
+        "currency": "EUR"
+      },
+      "text": "Schengen visa applicants must hold travel medical insurance covering at least €30,000, valid across the Schengen Area for the whole stay. Visa-exempt visitors are not required to show it but border officers may ask about cover.",
+      "source": {
+        "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy_en",
+        "name": "European Commission — Schengen visa policy",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "high"
+      }
+    },
+    "onwardTicket": {
+      "required": true,
+      "text": "Border officers may ask non-EU visitors for proof of return or onward travel and accommodation details.",
+      "source": {
+        "url": "https://france-visas.gouv.fr/",
+        "name": "France-Visas — official French visa portal",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "high"
+      }
+    },
+    "proofOfFunds": {
+      "required": true,
+      "amount": {
+        "value": 65,
+        "currency": "EUR",
+        "per": "day"
+      },
+      "text": "France scales the means requirement by accommodation: roughly €65 per day with prepaid accommodation, €120 per day without proof of accommodation, and about €32.50 per day with a validated attestation d'accueil (host certificate). Confirm current figures on France-Visas.",
+      "source": {
+        "url": "https://france-visas.gouv.fr/",
+        "name": "France-Visas — official French visa portal",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "medium"
+      }
+    },
+    "declarations": [
+      {
+        "id": "ees",
+        "name": "EES — Entry/Exit System (biometric registration)",
+        "mandatory": true,
+        "fee": null,
+        "submitWindow": "At the border on first entry",
+        "url": "https://travel-europe.europa.eu/ees_en",
+        "text": "Non-EU travellers are registered biometrically (fingerprints and photo) in the EU Entry/Exit System at Schengen external borders. Registration happens at the border — there is nothing to submit in advance, but allow extra time on your first entry.",
+        "source": {
+          "url": "https://travel-europe.europa.eu/ees_en",
+          "name": "EES — Official EU website",
+          "type": "government",
+          "lastVerified": "2026-08-25",
+          "confidence": "official"
+        }
+      },
+      {
+        "id": "etias",
+        "name": "ETIAS — European Travel Information and Authorisation System",
+        "mandatory": false,
+        "fee": {
+          "amount": 20,
+          "currency": "EUR",
+          "notes": "Free for under-18s and over-70s. Valid 3 years or until passport expiry."
+        },
+        "submitWindow": "Before travel, once mandatory",
+        "url": "https://travel-europe.europa.eu/etias_en",
+        "text": "Visa-exempt travellers will need an ETIAS travel authorisation to enter the Schengen Area. It is being phased in — check the official EU site for the current status and apply only there.",
+        "source": {
+          "url": "https://travel-europe.europa.eu/etias_en",
+          "name": "ETIAS — Official EU website",
+          "type": "government",
+          "lastVerified": "2026-08-25",
+          "confidence": "official"
+        }
+      }
+    ],
+    "customs": {
+      "currencyLimits": {
+        "text": "Cash of €10,000 or more (or equivalent) must be declared when entering or leaving the EU.",
+        "source": {
+          "url": "https://europa.eu/youreurope/citizens/travel/carry/carrying-cash/index_en.htm",
+          "name": "Your Europe (EU) — travelling with cash",
+          "type": "government",
+          "lastVerified": "2026-08-25",
+          "confidence": "high"
+        }
+      },
+      "notes": [
+        "Duty-free from outside the EU: 200 cigarettes, 1 litre of spirits, goods up to €300 (€430 arriving by air/sea).",
+        "No limits on goods for personal use when arriving from another EU country."
+      ]
+    }
+  },
+  "countryFacts": {
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "payments": {
+      "cardsAccepted": "widely",
+      "cashImportance": "low",
+      "text": "Cards and contactless payments are accepted almost everywhere, including bakeries and taxis. Some cafés apply a small card minimum, so a little cash is handy."
+    },
+    "safety": {
+      "level": "generally-safe",
+      "text": "France is a safe destination overall. The main risks for visitors are pickpocketing on the Paris metro and around major sights, common tourist scams, and occasional demonstrations or transport strikes.",
+      "source": {
+        "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/france-travel-advisory.html",
+        "name": "U.S. Department of State — France Travel Advisory",
+        "type": "government",
+        "lastVerified": "2026-08-25",
+        "confidence": "high"
+      }
+    },
+    "plugs": {
+      "types": [
+        "C",
+        "E"
+      ],
+      "voltage": 230,
+      "frequencyHz": 50
+    },
+    "emergency": {
+      "general": "112",
+      "police": "17",
+      "ambulance": "15"
+    },
+    "bestTimeToVisit": {
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "text": "April–June and September–October offer mild weather and thinner crowds; July–August is peak season, and many Paris businesses close in August while the coast fills up."
+    },
+    "languages": [
+      "French"
+    ],
+    "timezone": "UTC+1",
+    "drivingSide": "right",
+    "tapWaterSafe": true
+  },
+  "tips": [
+    {
+      "id": "pickpockets",
+      "type": "warning",
+      "text": "Pickpocketing and distraction scams (petitions, gold rings, friendship bracelets) are common on the Paris metro and around major sights — keep valuables zipped away."
+    },
+    {
+      "id": "strikes",
+      "type": "info",
+      "text": "Transport strikes (grèves) periodically disrupt trains, the metro and flights — check SNCF and airport status before travel days and build in slack."
+    },
+    {
+      "id": "90-180-rule",
+      "type": "warning",
+      "text": "The 90-day limit counts across the entire Schengen Area, not just France — days spent in Spain or Italy count against the same allowance."
+    },
+    {
+      "id": "etias-scams",
+      "type": "tip",
+      "text": "Apply for ETIAS only at the official travel-europe.europa.eu site once it becomes mandatory — unofficial sites charge inflated fees."
+    }
+  ],
+  "faq": [
+    {
+      "id": "us-need-visa",
+      "question": "Do US citizens need a visa for France?",
+      "answer": "No. US passport holders can visit France and the rest of the Schengen Area visa-free for up to 90 days in any 180-day period. Once ETIAS becomes mandatory, they will need to obtain this online authorisation (€20) before travel."
+    },
+    {
+      "id": "schengen-cost",
+      "question": "How much does a France Schengen visa cost?",
+      "answer": "The Schengen short-stay visa costs €90 for adults and €45 for children aged 6–11, applied for via the official France-Visas portal. It allows stays of up to 90 days in any 180-day period across all Schengen countries."
+    },
+    {
+      "id": "etias-when",
+      "question": "Is ETIAS required to enter France?",
+      "answer": "ETIAS is being phased in for visa-exempt travellers. During the transition period travellers without ETIAS are still admitted; once fully mandatory, the €20 online authorisation will be required before boarding. Check the official EU website for the current status."
+    },
+    {
+      "id": "long-stay",
+      "question": "How do I stay in France longer than 90 days?",
+      "answer": "You need a national long-stay visa (Type D), applied for via France-Visas before travel — typically around €99 (€50 for Campus France students). Many long-stay visas (VLS-TS) double as residence permits and must be validated online within 3 months of arrival."
+    },
+    {
+      "id": "insurance-required",
+      "question": "Is travel insurance mandatory for France?",
+      "answer": "It is mandatory for Schengen visa applicants: medical cover of at least €30,000 valid throughout the Schengen Area. Visa-exempt visitors are not required to present insurance, though it is strongly recommended."
+    }
+  ]
+}
