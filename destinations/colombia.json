@@ -279,7 +279,27 @@
         "extendableDays": 90,
         "notes": "90 days visa-free on arrival (Permiso de Ingreso y Permanencia), extendable once for 90 more at Migración Colombia — maximum 180 days per calendar year. Submit the free Check-Mig form before your flight."
       }
-    }
+    },
+    "conditionalWaivers": [
+      {
+        "id": "us-visa",
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "appliesTo": [
+          "CN",
+          "IN",
+          "VN"
+        ],
+        "text": "Citizens of China, India and Vietnam (plus a few other listed nationalities) holding a US or Schengen visa valid for more than 6 months — or permanent residence there — may enter Colombia visa-free for up to 90 days.",
+        "source": {
+          "url": "https://www.cancilleria.gov.co/",
+          "name": "Ministerio de Relaciones Exteriores de Colombia",
+          "type": "government",
+          "lastVerified": "2026-08-25",
+          "confidence": "high"
+        }
+      }
+    ]
   },
   "visaTypes": [
     {

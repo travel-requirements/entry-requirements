@@ -260,7 +260,26 @@
         "extendableDays": null,
         "notes": "Visa-free entry, normally granted up to 90 days. The exact stay is stamped at the ICA officer's discretion. SG Arrival Card required before travel."
       }
-    }
+    },
+    "conditionalWaivers": [
+      {
+        "id": "us-visa",
+        "requirement": "visa-free",
+        "maxStayDays": 4,
+        "appliesTo": [
+          "CN",
+          "IN"
+        ],
+        "text": "Chinese and Indian citizens transiting Singapore by air with a valid US, UK, Canadian, Australian, New Zealand, German, Swiss or Japanese visa can use the 96-hour Visa-Free Transit Facility (transit only, onward ticket required).",
+        "source": {
+          "url": "https://www.ica.gov.sg/",
+          "name": "Immigration & Checkpoints Authority, Singapore",
+          "type": "government",
+          "lastVerified": "2026-08-25",
+          "confidence": "high"
+        }
+      }
+    ]
   },
   "visaTypes": [
     {

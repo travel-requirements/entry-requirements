@@ -310,7 +310,23 @@
         "extendableDays": null,
         "notes": "Visa-free for up to 90 days."
       }
-    }
+    },
+    "conditionalWaivers": [
+      {
+        "id": "us-visa",
+        "requirement": "evisa",
+        "maxStayDays": 30,
+        "appliesTo": "visa-required",
+        "text": "Visa-required nationals holding a valid multiple-entry sticker visa (90+ days remaining) from the US, Schengen, the UK, Ireland, Canada, Australia, Japan, Norway or New Zealand qualify for Morocco's eVisa (electronic authorisations like ESTA do not count).",
+        "source": {
+          "url": "https://www.acces-maroc.ma/",
+          "name": "Accès Maroc — official Morocco eVisa portal",
+          "type": "government",
+          "lastVerified": "2026-08-25",
+          "confidence": "medium"
+        }
+      }
+    ]
   },
   "visaTypes": [
     {
