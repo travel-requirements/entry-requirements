@@ -1550,7 +1550,23 @@
         ],
         "notes": "A consular visa is required before travel; some nationalities need prior 'consulted' clearance from the National Institute of Migration. Confirm your category with a Honduran consulate."
       }
-    }
+    },
+    "conditionalWaivers": [
+      {
+        "id": "us-visa",
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "appliesTo": "visa-required",
+        "text": "A valid US, Canadian, Schengen or UK visa (or residence permit in one of those countries) normally substitutes for a Honduran visa, allowing up to 90 days in the CA-4 area. Nationalities on Honduras's restricted list still need prior approval, so confirm with the Instituto Nacional de Migración before booking.",
+        "source": {
+          "url": "https://inm.gob.hn/",
+          "name": "Instituto Nacional de Migración de Honduras",
+          "type": "government",
+          "lastVerified": "2026-08-26",
+          "confidence": "medium"
+        }
+      }
+    ]
   },
   "visaTypes": [
     {
