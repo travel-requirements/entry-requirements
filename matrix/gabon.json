@@ -1,0 +1,83 @@
+{
+  "slug": "gabon",
+  "default": {
+    "r": "evisa",
+    "stay": 90,
+    "types": [
+      "evisa-single",
+      "evisa-multiple"
+    ],
+    "notes": "Apply online through the official DGDI e-Visa portal before travel — the visa is issued on arrival, but only at Libreville Léon-Mba International Airport; other entry points require an embassy-issued visa."
+  },
+  "groups": [
+    {
+      "r": "freedom-of-movement",
+      "stay": 90,
+      "notes": "CEMAC citizens enter Gabon freely under the Community’s free-movement arrangements with a valid passport or national ID.",
+      "codes": [
+        "CM",
+        "CF",
+        "TD",
+        "CG",
+        "GQ"
+      ]
+    },
+    {
+      "r": "visa-free",
+      "stay": 90,
+      "notes": "Covered by the visa-exemption measures Gabon announced in late 2023 for short tourist stays — implementation has been uneven, so confirm with the DGDI portal or a Gabonese embassy before travel.",
+      "codes": [
+        "US",
+        "CA",
+        "GB",
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "IS",
+        "LI",
+        "NO",
+        "CH"
+      ]
+    },
+    {
+      "r": "visa-free",
+      "stay": 90,
+      "notes": "Visa-free for short stays under a bilateral agreement — confirm the permitted duration with a Gabonese embassy before travel.",
+      "codes": [
+        "MA",
+        "ZA"
+      ]
+    }
+  ],
+  "overrides": {
+    "GA": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Gabonese citizens."
+    }
+  }
+}

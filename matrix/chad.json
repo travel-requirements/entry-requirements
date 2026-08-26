@@ -1,0 +1,32 @@
+{
+  "slug": "chad",
+  "default": {
+    "r": "embassy-visa",
+    "stay": null,
+    "types": [
+      "embassy-tourist"
+    ],
+    "notes": "Apply for a visa at a Chadian embassy before travel. An electronic visa has been announced but the rollout is still uneven — confirm with the embassy before relying on it."
+  },
+  "groups": [
+    {
+      "r": "freedom-of-movement",
+      "stay": 90,
+      "notes": "CEMAC citizens enter Chad visa-free under the Community's free-movement arrangements — a valid passport or CEMAC travel document suffices for short stays.",
+      "codes": [
+        "CM",
+        "CF",
+        "CG",
+        "GA",
+        "GQ"
+      ]
+    }
+  ],
+  "overrides": {
+    "TD": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Chadian citizens."
+    }
+  }
+}

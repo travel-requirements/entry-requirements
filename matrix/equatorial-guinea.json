@@ -1,0 +1,40 @@
+{
+  "slug": "equatorial-guinea",
+  "default": {
+    "r": "embassy-visa",
+    "stay": null,
+    "types": [
+      "embassy-tourist"
+    ],
+    "notes": "Apply through an Equatoguinean embassy before travel — historically one of the hardest tourist visas to obtain. An official eVisa introduced in 2024 is easing access; confirm the current channel with the embassy."
+  },
+  "groups": [
+    {
+      "r": "freedom-of-movement",
+      "stay": 90,
+      "notes": "CEMAC citizens enter Equatorial Guinea visa-free under the Community's free-movement arrangements — a valid passport or CEMAC travel document suffices for short stays.",
+      "codes": [
+        "CM",
+        "CF",
+        "TD",
+        "CG",
+        "GA"
+      ]
+    },
+    {
+      "r": "visa-free",
+      "stay": 90,
+      "notes": "US citizens enter visa-free for short stays under a rare bilateral arrangement — commonly cited as up to 90 days; carry an onward ticket and a yellow fever certificate if arriving from a risk country.",
+      "codes": [
+        "US"
+      ]
+    }
+  ],
+  "overrides": {
+    "GQ": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Equatoguinean citizens."
+    }
+  }
+}

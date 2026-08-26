@@ -1,0 +1,36 @@
+{
+  "slug": "south-sudan",
+  "default": {
+    "r": "evisa",
+    "stay": 30,
+    "types": [
+      "evisa-tourist"
+    ],
+    "notes": "Apply online at evisa.gov.ss before travel (about USD 100 for a single-entry tourist visa) or through a South Sudanese embassy — every nationality needs a visa."
+  },
+  "groups": [
+    {
+      "r": "evisa",
+      "stay": 30,
+      "types": [
+        "evisa-tourist"
+      ],
+      "notes": "South Sudan belongs to the East African Community, but free movement is not yet implemented — EAC citizens still need a visa, though fees are waived or reduced for some nationalities under bilateral arrangements; confirm on evisa.gov.ss before travel.",
+      "codes": [
+        "BI",
+        "CD",
+        "KE",
+        "RW",
+        "TZ",
+        "UG"
+      ]
+    }
+  ],
+  "overrides": {
+    "SS": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for South Sudanese citizens."
+    }
+  }
+}

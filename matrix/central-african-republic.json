@@ -1,0 +1,32 @@
+{
+  "slug": "central-african-republic",
+  "default": {
+    "r": "embassy-visa",
+    "stay": null,
+    "types": [
+      "embassy-tourist"
+    ],
+    "notes": "Obtain a visa from a Central African embassy before travel (Paris, Brussels, Washington or a regional capital) — there is no eVisa and no visa on arrival, and most governments advise against all travel."
+  },
+  "groups": [
+    {
+      "r": "freedom-of-movement",
+      "stay": 90,
+      "notes": "CEMAC citizens enter the Central African Republic visa-free under the Community's free-movement arrangements — a valid passport or CEMAC travel document suffices for short stays.",
+      "codes": [
+        "CM",
+        "TD",
+        "CG",
+        "GA",
+        "GQ"
+      ]
+    }
+  ],
+  "overrides": {
+    "CF": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Central African citizens."
+    }
+  }
+}
