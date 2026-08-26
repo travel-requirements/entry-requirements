@@ -1581,6 +1581,82 @@
     ],
     "timezone": "UTC+2",
     "drivingSide": "right",
+    "roadVignette": {
+      "form": "e-vignette",
+      "network": "national-roads",
+      "appliesTo": "Vehicles up to 3.5 t and M1 motor caravans, on the whole tolled national road network — not just motorways.",
+      "options": [
+        {
+          "id": "daily",
+          "name": "Daily",
+          "days": 1,
+          "fee": {
+            "amount": 5.3,
+            "currency": "EUR"
+          }
+        },
+        {
+          "id": "weekend",
+          "name": "Weekend",
+          "days": 2,
+          "fee": {
+            "amount": 6.6,
+            "currency": "EUR"
+          }
+        },
+        {
+          "id": "weekly",
+          "name": "Weekly",
+          "days": 7,
+          "fee": {
+            "amount": 10,
+            "currency": "EUR"
+          }
+        },
+        {
+          "id": "monthly",
+          "name": "Monthly",
+          "days": 30,
+          "fee": {
+            "amount": 19.9,
+            "currency": "EUR"
+          }
+        },
+        {
+          "id": "quarterly",
+          "name": "Quarterly",
+          "days": 90,
+          "fee": {
+            "amount": 35.9,
+            "currency": "EUR"
+          }
+        },
+        {
+          "id": "annual",
+          "name": "Annual",
+          "days": 365,
+          "fee": {
+            "amount": 64.5,
+            "currency": "EUR"
+          }
+        }
+      ],
+      "buyUrl": "https://www.bgtoll.bg/en/",
+      "penalty": {
+        "amount": 46.5,
+        "currency": "EUR",
+        "notes": "Compensatory fee a driver caught without a valid e-vignette can pay instead of a fine."
+      },
+      "text": "Bulgaria's e-vignette is registered to the number plate and checked by camera; nothing goes on the windscreen. New euro prices took effect on 1 August 2026. Buy from bgtoll.bg, the BGTOLL app, staffed desks at the main border crossings, self-service terminals or the agency's listed partners — no extra fee should be added anywhere.",
+      "source": {
+        "url": "https://www.bgtoll.bg/en/news/up-to-date-information/e-vignette-prices-to-change-from-1-august",
+        "name": "Road Infrastructure Agency — e-vignette prices from 1 August 2026",
+        "type": "government",
+        "lastVerified": "2026-08-26",
+        "lastChanged": "2026-08-01",
+        "confidence": "official"
+      }
+    },
     "tapWaterSafe": true
   },
   "tips": [

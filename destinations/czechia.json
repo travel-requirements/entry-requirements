@@ -20,7 +20,7 @@
   ],
   "summary": "Czechia is part of the EU and the Schengen Area: EU and EFTA citizens enter freely, around 60 visa-exempt nationalities can stay 90 days in any 180-day period (with the ETIAS travel authorisation being phased in), and everyone else needs a Schengen short-stay visa costing €90.",
   "meta": {
-    "lastUpdated": "2026-08-25",
+    "lastUpdated": "2026-08-26",
     "lastFullReview": "2026-08-25",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -1645,6 +1645,63 @@
     ],
     "timezone": "UTC+1",
     "drivingSide": "right",
+    "roadVignette": {
+      "form": "e-vignette",
+      "network": "motorways",
+      "appliesTo": "Motor vehicles with at least four wheels up to 3.5 t; motorcycles are exempt.",
+      "options": [
+        {
+          "id": "1-day",
+          "name": "1-day",
+          "days": 1,
+          "fee": {
+            "amount": 210,
+            "currency": "CZK"
+          }
+        },
+        {
+          "id": "10-day",
+          "name": "10-day",
+          "days": 10,
+          "fee": {
+            "amount": 290,
+            "currency": "CZK"
+          }
+        },
+        {
+          "id": "30-day",
+          "name": "30-day",
+          "days": 30,
+          "fee": {
+            "amount": 460,
+            "currency": "CZK"
+          }
+        },
+        {
+          "id": "annual",
+          "name": "1 year",
+          "days": 365,
+          "fee": {
+            "amount": 2440,
+            "currency": "CZK"
+          }
+        }
+      ],
+      "buyUrl": "https://www.edalnice.cz/en/index.html",
+      "penalty": {
+        "amount": 20000,
+        "currency": "CZK",
+        "notes": "Maximum fine for using a tolled motorway section without a valid vignette."
+      },
+      "text": "Czech motorways use an electronic vignette linked to the number plate — nothing goes on the windscreen. Low-emission vehicles pay a reduced eco price (70–140 CZK for 10 days, 610–1,220 CZK for a year, depending on the drivetrain). Police and the customs administration check plates by camera on the road and at rest areas.",
+      "source": {
+        "url": "https://www.edalnice.cz/en/index.html",
+        "name": "eDálnice — official Czech e-vignette shop",
+        "type": "government",
+        "lastVerified": "2026-08-26",
+        "confidence": "official"
+      }
+    },
     "tapWaterSafe": true
   },
   "tips": [

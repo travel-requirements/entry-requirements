@@ -23,7 +23,7 @@
   ],
   "summary": "Hungary is part of the EU and the Schengen Area: EU and EFTA citizens enter freely, around 60 visa-exempt nationalities can stay 90 days in any 180-day period (with the ETIAS travel authorisation being phased in), and everyone else needs a Schengen short-stay visa costing €90.",
   "meta": {
-    "lastUpdated": "2026-08-25",
+    "lastUpdated": "2026-08-26",
     "lastFullReview": "2026-08-25",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -1653,6 +1653,59 @@
     ],
     "timezone": "UTC+1",
     "drivingSide": "right",
+    "roadVignette": {
+      "form": "e-vignette",
+      "network": "motorways-and-expressways",
+      "appliesTo": "Category D1 — cars with up to seven seats and their trailers; motorbikes (D1M) pay less, larger vehicles (D2) more.",
+      "options": [
+        {
+          "id": "1-day",
+          "name": "1-day",
+          "days": 1,
+          "fee": {
+            "amount": 5550,
+            "currency": "HUF"
+          }
+        },
+        {
+          "id": "10-day",
+          "name": "10-day",
+          "days": 10,
+          "fee": {
+            "amount": 6900,
+            "currency": "HUF"
+          }
+        },
+        {
+          "id": "monthly",
+          "name": "Monthly",
+          "days": 30,
+          "fee": {
+            "amount": 11170,
+            "currency": "HUF"
+          }
+        },
+        {
+          "id": "annual",
+          "name": "Annual, national",
+          "days": 365,
+          "fee": {
+            "amount": 61760,
+            "currency": "HUF"
+          }
+        }
+      ],
+      "buyUrl": "https://ematrica.nemzetiutdij.hu/en",
+      "penalty": null,
+      "text": "Hungarian motorways are paid for with the e-matrica, an electronic vignette registered to the number plate — there is no sticker to display. Besides the national vignettes above there are cheaper annual county vignettes, worth comparing if your driving stays within one or two counties. Buy from the national toll operator or its resellers; the price is the same everywhere.",
+      "source": {
+        "url": "https://ematrica.nemzetiutdij.hu/en",
+        "name": "Nemzeti Útdíjfizetési Szolgáltató — official e-matrica shop",
+        "type": "government",
+        "lastVerified": "2026-08-26",
+        "confidence": "official"
+      }
+    },
     "tapWaterSafe": true
   },
   "tips": [

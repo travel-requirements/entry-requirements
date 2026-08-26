@@ -1525,6 +1525,59 @@
     ],
     "timezone": "UTC+1",
     "drivingSide": "right",
+    "roadVignette": {
+      "form": "e-vignette",
+      "network": "motorways-and-expressways",
+      "appliesTo": "Two-track vehicles up to 3.5 t and every M1 car whatever its weight; if car plus trailer exceeds 3.5 t the trailer needs a second vignette.",
+      "options": [
+        {
+          "id": "1-day",
+          "name": "1-day",
+          "days": 1,
+          "fee": {
+            "amount": 8.1,
+            "currency": "EUR"
+          }
+        },
+        {
+          "id": "10-day",
+          "name": "10-day",
+          "days": 10,
+          "fee": {
+            "amount": 10.8,
+            "currency": "EUR"
+          }
+        },
+        {
+          "id": "30-day",
+          "name": "30-day",
+          "days": 30,
+          "fee": {
+            "amount": 17.1,
+            "currency": "EUR"
+          }
+        },
+        {
+          "id": "365-day",
+          "name": "365-day",
+          "days": 365,
+          "fee": {
+            "amount": 90,
+            "currency": "EUR"
+          }
+        }
+      ],
+      "buyUrl": "https://eznamka.sk/en/",
+      "penalty": null,
+      "text": "Slovakia charges for marked sections of its motorways and expressways with an electronic vignette tied to the number plate. eznamka.sk is the only official sales channel online, alongside the operator's points of sale at fuel stations and border crossings. A 10-day or 30-day vignette bought in December stays valid into January.",
+      "source": {
+        "url": "https://eznamka.sk/en/evignettes/types-and-prices",
+        "name": "Národná diaľničná spoločnosť — Types and prices of vignettes",
+        "type": "government",
+        "lastVerified": "2026-08-26",
+        "confidence": "official"
+      }
+    },
     "tapWaterSafe": true
   },
   "tips": [

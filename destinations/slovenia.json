@@ -1520,6 +1520,61 @@
     ],
     "timezone": "UTC+1",
     "drivingSide": "right",
+    "roadVignette": {
+      "form": "e-vignette",
+      "network": "motorways-and-expressways",
+      "appliesTo": "Vehicles up to 3.5 t. Toll class 2A covers most cars (up to 1.3 m high above the front axle); taller vans and campers pay class 2B, which is twice the price.",
+      "options": [
+        {
+          "id": "weekly",
+          "name": "Weekly (class 2A)",
+          "days": 7,
+          "fee": {
+            "amount": 16,
+            "currency": "EUR"
+          }
+        },
+        {
+          "id": "monthly",
+          "name": "Monthly (class 2A)",
+          "days": 30,
+          "fee": {
+            "amount": 32,
+            "currency": "EUR"
+          }
+        },
+        {
+          "id": "annual",
+          "name": "Annual (class 2A)",
+          "days": 365,
+          "fee": {
+            "amount": 117.5,
+            "currency": "EUR"
+          }
+        }
+      ],
+      "buyUrl": "https://evinjeta.dars.si/en",
+      "penalty": {
+        "amount": 300,
+        "currency": "EUR",
+        "notes": "Fine for using a motorway or expressway without a valid e-vignette.",
+        "source": {
+          "url": "https://evinjeta.dars.si/en/toll-control",
+          "name": "DARS — Control of e-vignette use",
+          "type": "government",
+          "lastVerified": "2026-08-26",
+          "confidence": "official"
+        }
+      },
+      "text": "Slovenian motorways and expressways run on an e-vignette linked to the number plate; vehicles without one may not enter a toll road. Two stretches sit outside it: the Karavanke tunnel to Austria, which costs €9 per crossing for a car at the Hrušica toll booth, and — since 1 January 2026 — the coastal H5 and H6 expressways, which no longer need a vignette at all.",
+      "source": {
+        "url": "https://evinjeta.dars.si/en/about-e-vignette",
+        "name": "DARS — E-vignette types, toll classes and prices",
+        "type": "government",
+        "lastVerified": "2026-08-26",
+        "confidence": "official"
+      }
+    },
     "tapWaterSafe": true
   },
   "tips": [

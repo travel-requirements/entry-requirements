@@ -1651,6 +1651,77 @@
     ],
     "timezone": "UTC+2",
     "drivingSide": "right",
+    "roadVignette": {
+      "form": "e-vignette",
+      "network": "national-roads",
+      "appliesTo": "Vehicles NOT registered in Moldova, and their trailers, that enter or transit the country — cars fall under tariff heading 8703.",
+      "options": [
+        {
+          "id": "7-day",
+          "name": "7 days",
+          "days": 7,
+          "fee": {
+            "amount": 4,
+            "currency": "EUR"
+          }
+        },
+        {
+          "id": "15-day",
+          "name": "15 days",
+          "days": 15,
+          "fee": {
+            "amount": 8,
+            "currency": "EUR"
+          }
+        },
+        {
+          "id": "30-day",
+          "name": "30 days",
+          "days": 30,
+          "fee": {
+            "amount": 16,
+            "currency": "EUR"
+          }
+        },
+        {
+          "id": "90-day",
+          "name": "90 days",
+          "days": 90,
+          "fee": {
+            "amount": 45,
+            "currency": "EUR"
+          }
+        },
+        {
+          "id": "180-day",
+          "name": "180 days",
+          "days": 180,
+          "fee": {
+            "amount": 85,
+            "currency": "EUR"
+          }
+        },
+        {
+          "id": "over-180-day",
+          "name": "Over 180 days",
+          "days": null,
+          "fee": {
+            "amount": 180,
+            "currency": "EUR"
+          }
+        }
+      ],
+      "buyUrl": "https://vinieta.gov.md/",
+      "penalty": null,
+      "text": "Moldova's vignette is a road-use charge on foreign-registered vehicles: if your car was not registered in Moldova, you need one to drive anywhere in the country, not just on main roads, and a towed trailer needs its own. Buy it online before you reach the border. Diplomatic vehicles and holders of a \"tax exempt\" international transport permit do not pay it.",
+      "source": {
+        "url": "https://vinieta.gov.md/",
+        "name": "Administrația Națională a Drumurilor — e-Vinieta",
+        "type": "government",
+        "lastVerified": "2026-08-26",
+        "confidence": "official"
+      }
+    },
     "tapWaterSafe": false
   },
   "tips": [

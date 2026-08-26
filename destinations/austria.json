@@ -24,7 +24,7 @@
   ],
   "summary": "Austria is part of the Schengen Area: EU and EFTA citizens enter freely, around 60 visa-exempt nationalities can stay 90 days in any 180-day period (with the ETIAS travel authorisation being phased in), and everyone else needs a Schengen short-stay visa costing €90. Longer stays run through the national Visa D or a residence title such as the Red-White-Red Card.",
   "meta": {
-    "lastUpdated": "2026-08-25",
+    "lastUpdated": "2026-08-26",
     "lastFullReview": "2026-08-25",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -1654,6 +1654,70 @@
     ],
     "timezone": "UTC+1",
     "drivingSide": "right",
+    "roadVignette": {
+      "form": "both",
+      "network": "motorways-and-expressways",
+      "appliesTo": "Cars, camper vans and motorbikes up to 3.5 t; prices below are for cars.",
+      "options": [
+        {
+          "id": "1-day",
+          "name": "1-day",
+          "days": 1,
+          "fee": {
+            "amount": 9.6,
+            "currency": "EUR"
+          }
+        },
+        {
+          "id": "10-day",
+          "name": "10-day",
+          "days": 10,
+          "fee": {
+            "amount": 12.8,
+            "currency": "EUR"
+          }
+        },
+        {
+          "id": "2-month",
+          "name": "2-month",
+          "days": 60,
+          "fee": {
+            "amount": 32,
+            "currency": "EUR"
+          }
+        },
+        {
+          "id": "annual",
+          "name": "Annual",
+          "days": 365,
+          "fee": {
+            "amount": 106.8,
+            "currency": "EUR"
+          }
+        }
+      ],
+      "buyUrl": "https://shop.asfinag.at/en/",
+      "penalty": {
+        "amount": 200,
+        "currency": "EUR",
+        "notes": "Substitute toll (Ersatzmaut) for a car or camper van, payable on the spot; €100 for a motorbike. Refusing it turns into an administrative fine of €300–3,000.",
+        "source": {
+          "url": "https://www.asfinag.at/en/toll/service-and-controls/",
+          "name": "ASFINAG — Service and Controls",
+          "type": "government",
+          "lastVerified": "2026-08-26",
+          "confidence": "official"
+        }
+      },
+      "text": "Austrian motorways and expressways may only be used with a valid vignette — either the digital one tied to your number plate or the traditional sticker, which ASFINAG is selling for the last time in 2026. Buy it before you join the motorway. The Alpine section tolls (A9 Gleinalm and Bosruck, A10 Tauern and Katschberg, A11 Karawanken, A13 Brenner, S16 Arlberg) are charged separately on top of the vignette.",
+      "source": {
+        "url": "https://www.asfinag.at/en/toll/vignette/",
+        "name": "ASFINAG — Vignette rates 2026",
+        "type": "government",
+        "lastVerified": "2026-08-26",
+        "confidence": "official"
+      }
+    },
     "tapWaterSafe": true
   },
   "tips": [
@@ -1665,7 +1729,7 @@
     {
       "id": "motorway-vignette",
       "type": "warning",
-      "text": "Driving on Austrian motorways requires a vignette (around €12 for 10 days, about €104 for a year; digital version available) — buy it before joining the motorway, or expect a fine of about €120."
+      "text": "Driving on Austrian motorways requires a vignette (€12.80 for 10 days, €106.80 for a year; digital or sticker) — buy it before joining the motorway, or pay a €200 substitute toll on the spot."
     },
     {
       "id": "sunday-closures",

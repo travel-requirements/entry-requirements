@@ -1581,6 +1581,73 @@
     ],
     "timezone": "UTC+2",
     "drivingSide": "right",
+    "roadVignette": {
+      "form": "e-vignette",
+      "network": "national-roads",
+      "appliesTo": "Category A — cars and light vehicles up to 3.5 t — on the national road network, motorways included.",
+      "options": [
+        {
+          "id": "1-day",
+          "name": "1 day",
+          "days": 1,
+          "fee": {
+            "amount": 3.5,
+            "currency": "EUR",
+            "notes": "18.35 RON"
+          }
+        },
+        {
+          "id": "10-day",
+          "name": "10 days",
+          "days": 10,
+          "fee": {
+            "amount": 6,
+            "currency": "EUR",
+            "notes": "31.46 RON"
+          }
+        },
+        {
+          "id": "30-day",
+          "name": "30 days",
+          "days": 30,
+          "fee": {
+            "amount": 9.5,
+            "currency": "EUR",
+            "notes": "49.82 RON"
+          }
+        },
+        {
+          "id": "60-day",
+          "name": "60 days",
+          "days": 60,
+          "fee": {
+            "amount": 15,
+            "currency": "EUR",
+            "notes": "78.66 RON"
+          }
+        },
+        {
+          "id": "annual",
+          "name": "12 months",
+          "days": 365,
+          "fee": {
+            "amount": 50,
+            "currency": "EUR",
+            "notes": "262.20 RON"
+          }
+        }
+      ],
+      "buyUrl": "https://www.erovinieta.ro/vignettes-portal-web/",
+      "penalty": null,
+      "text": "The rovinieta covers Romania's national roads, not only its motorways, and is registered to the number plate. Tariffs are set in euro and charged in lei at the official rate (5.2439 RON/EUR at the time of checking). The Fetești–Cernavodă bridge on the A2 towards the coast is tolled on top of the rovinieta — 19 RON per crossing for a car.",
+      "source": {
+        "url": "https://www.erovinieta.ro/vignettes-portal-web/",
+        "name": "CNAIR — eRovinieta official portal",
+        "type": "government",
+        "lastVerified": "2026-08-26",
+        "confidence": "official"
+      }
+    },
     "tapWaterSafe": true
   },
   "tips": [
