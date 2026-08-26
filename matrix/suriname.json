@@ -1,0 +1,144 @@
+{
+  "slug": "suriname",
+  "default": {
+    "r": "embassy-visa",
+    "stay": null,
+    "types": [
+      "tourist-visa",
+      "evisa"
+    ],
+    "notes": "Visa required — apply at a Surinamese embassy or consulate, or online where your nationality is offered the e-visa. The cheap e-Tourist Card is not available to this nationality."
+  },
+  "groups": [
+    {
+      "r": "freedom-of-movement",
+      "stay": 180,
+      "notes": "CARICOM nationals enjoy freedom of movement under the Revised Treaty of Chaguaramas — normally admitted for six months on arrival with no tourist card or visa; holders of a CARICOM Skills Certificate may live and work in Suriname.",
+      "codes": [
+        "AG",
+        "BS",
+        "BB",
+        "BZ",
+        "DM",
+        "GD",
+        "GY",
+        "HT",
+        "JM",
+        "KN",
+        "LC",
+        "VC",
+        "TT"
+      ]
+    },
+    {
+      "r": "eta",
+      "stay": 90,
+      "types": [
+        "tourist-card"
+      ],
+      "notes": "No visa needed for tourism, but an e-Tourist Card (about USD 25) must be bought online before departure — single entry, up to 90 days. Business visits need a visa instead.",
+      "codes": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "IS",
+        "LI",
+        "NO",
+        "CH",
+        "GB",
+        "AD",
+        "MC",
+        "SM",
+        "VA",
+        "US",
+        "CA",
+        "MX",
+        "AR",
+        "CL",
+        "CO",
+        "PE",
+        "UY",
+        "PY",
+        "BO",
+        "EC",
+        "CR",
+        "PA",
+        "DO",
+        "AU",
+        "NZ",
+        "JP",
+        "KR",
+        "SG",
+        "MY",
+        "ID",
+        "PH",
+        "IN",
+        "IL",
+        "TR",
+        "RU",
+        "UA",
+        "ZA",
+        "AE",
+        "QA"
+      ]
+    },
+    {
+      "r": "visa-free",
+      "stay": 90,
+      "notes": "Visa-free for short tourist stays under the bilateral agreement — no tourist card required; confirm the current allowance with a Surinamese mission before a longer trip.",
+      "codes": [
+        "BR",
+        "CN",
+        "HK"
+      ]
+    }
+  ],
+  "overrides": {
+    "SR": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Surinamese citizens."
+    },
+    "NL": {
+      "r": "eta",
+      "stay": 90,
+      "types": [
+        "tourist-card"
+      ],
+      "notes": "Dutch visitors still need the e-Tourist Card despite the historic ties; those holding a Surinamese-origin document (PSA card) are exempt and enter on that instead."
+    },
+    "VE": {
+      "r": "embassy-visa",
+      "stay": null,
+      "types": [
+        "tourist-visa",
+        "evisa"
+      ],
+      "notes": "A visa is required in advance; Venezuelan nationals face additional checks at Surinamese borders, so allow extra processing time."
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "trinidad-and-tobago",
+  "default": {
+    "r": "visa-free",
+    "stay": 90,
+    "ext": 90,
+    "notes": "Visa-free for tourism — up to 90 days, with the exact period set by the immigration officer; show a return ticket and your address in Trinidad or Tobago on the immigration form."
+  },
+  "groups": [
+    {
+      "r": "freedom-of-movement",
+      "stay": 180,
+      "notes": "CARICOM nationals are entitled to a definite entry of up to six months under the Revised Treaty of Chaguaramas, and skilled nationals holding a CARICOM Skills Certificate may also work.",
+      "codes": [
+        "AG",
+        "BS",
+        "BB",
+        "BZ",
+        "DM",
+        "GD",
+        "GY",
+        "HT",
+        "JM",
+        "KN",
+        "LC",
+        "VC",
+        "SR"
+      ]
+    },
+    {
+      "r": "embassy-visa",
+      "stay": 90,
+      "types": [
+        "visitor-visa"
+      ],
+      "notes": "Not on the visa-exemption list — apply for a visitor's visa at a Trinidad and Tobago mission before travelling; confirm the current requirement with the Immigration Division, as the list is revised from time to time.",
+      "codes": [
+        "AF",
+        "BD",
+        "KH",
+        "CM",
+        "CN",
+        "CD",
+        "CU",
+        "DO",
+        "EG",
+        "ER",
+        "ET",
+        "GH",
+        "IN",
+        "IR",
+        "IQ",
+        "JO",
+        "KP",
+        "LA",
+        "LB",
+        "LY",
+        "ML",
+        "MM",
+        "NP",
+        "NG",
+        "PK",
+        "PS",
+        "PH",
+        "SO",
+        "LK",
+        "SD",
+        "SS",
+        "SY",
+        "TW",
+        "VN",
+        "YE"
+      ]
+    }
+  ],
+  "overrides": {
+    "TT": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Trinidad and Tobago citizens."
+    },
+    "VE": {
+      "r": "embassy-visa",
+      "stay": null,
+      "types": [
+        "visitor-visa"
+      ],
+      "notes": "Trinidad and Tobago ended visa-free entry for Venezuelan nationals — a visa must be obtained in advance, and enforcement on the short sea crossing is strict."
+    },
+    "XK": {
+      "r": "embassy-visa",
+      "stay": null,
+      "types": [
+        "visitor-visa"
+      ],
+      "notes": "Kosovan passports are not covered by the visa exemption — check with the Immigration Division or a Trinidad and Tobago mission before booking."
+    }
+  }
+}

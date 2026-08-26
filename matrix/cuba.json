@@ -1,0 +1,74 @@
+{
+  "slug": "cuba",
+  "default": {
+    "r": "evisa",
+    "stay": 30,
+    "ext": 30,
+    "types": [
+      "tourist-card",
+      "embassy-tourist-visa"
+    ],
+    "notes": "A tourist card (tarjeta del turista) is required — now issued electronically. Buy it online, from a Cuban consulate or through your airline, then complete the D'Viajeros declaration and carry proof of medical insurance valid in Cuba. If the online system does not accept your nationality, apply through a Cuban consulate."
+  },
+  "groups": [
+    {
+      "r": "visa-free",
+      "stay": 30,
+      "notes": "Exempt from the tourist card for short visits under a bilateral agreement — the usual allowance is 30 days. The D'Viajeros declaration and medical insurance are still required; confirm the current terms with a Cuban consulate before booking.",
+      "codes": [
+        "AG",
+        "BB",
+        "DM",
+        "GD",
+        "KN",
+        "LC",
+        "VC",
+        "CN",
+        "MY",
+        "SG",
+        "VN",
+        "LA",
+        "KP",
+        "BY",
+        "RS",
+        "ME",
+        "MN",
+        "NA"
+      ]
+    },
+    {
+      "r": "visa-free",
+      "stay": 90,
+      "notes": "Russian citizens enter Cuba without a tourist card for stays of up to 90 days. The D'Viajeros declaration and medical insurance still apply.",
+      "codes": [
+        "RU"
+      ]
+    }
+  ],
+  "overrides": {
+    "CU": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Cuban citizens."
+    },
+    "CA": {
+      "r": "evisa",
+      "stay": 90,
+      "ext": 90,
+      "types": [
+        "tourist-card",
+        "stay-extension"
+      ],
+      "notes": "Canadians need the tourist card like everyone else, but it is issued for 90 days rather than 30 and can be extended once for a further 90 days inside Cuba."
+    },
+    "US": {
+      "r": "evisa",
+      "stay": 30,
+      "ext": 30,
+      "types": [
+        "tourist-card"
+      ],
+      "notes": "US citizens need the tourist card and must also fit one of the OFAC general licence categories — plain tourism does not qualify, and records must be kept for five years. US-issued bank cards do not work in Cuba, so bring cash."
+    }
+  }
+}

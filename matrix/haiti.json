@@ -1,0 +1,62 @@
+{
+  "slug": "haiti",
+  "default": {
+    "r": "visa-free",
+    "stay": 90,
+    "notes": "Visa-free for up to 90 days; a USD 10 tourist fee is collected in cash on arrival. Note that all of Haiti is under do-not-travel advisories because of gang violence."
+  },
+  "groups": [
+    {
+      "r": "freedom-of-movement",
+      "stay": 180,
+      "notes": "CARICOM nationals enter under Caribbean Community free-movement arrangements — a definite entry of up to six months is granted on arrival.",
+      "codes": [
+        "AG",
+        "BS",
+        "BB",
+        "BZ",
+        "DM",
+        "GD",
+        "GY",
+        "JM",
+        "KN",
+        "LC",
+        "VC",
+        "SR",
+        "TT"
+      ]
+    },
+    {
+      "r": "embassy-visa",
+      "stay": null,
+      "types": [
+        "tourist-visa"
+      ],
+      "notes": "Not covered by Haiti's visa waiver — a visa must be obtained from a Haitian mission before travelling; confirm current requirements with the embassy, as Haiti's list is not consistently published.",
+      "codes": [
+        "CN",
+        "CO",
+        "CU",
+        "DO",
+        "IR",
+        "LY",
+        "PA",
+        "SY",
+        "VN",
+        "YE"
+      ]
+    }
+  ],
+  "overrides": {
+    "HT": {
+      "r": "freedom-of-movement",
+      "stay": null,
+      "notes": "Home country — no entry requirements for Haitian citizens."
+    },
+    "TW": {
+      "r": "visa-free",
+      "stay": 90,
+      "notes": "Taiwan (ROC) passport holders enter visa-free for up to 90 days — Haiti is one of Taipei's remaining diplomatic partners. The USD 10 tourist fee still applies."
+    }
+  }
+}
