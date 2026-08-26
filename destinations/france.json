@@ -23,7 +23,7 @@
   ],
   "summary": "France is part of the Schengen Area: EU and EFTA citizens enter freely, around 60 visa-exempt nationalities can stay 90 days in any 180-day period (with the ETIAS travel authorisation being phased in), and everyone else needs a Schengen short-stay visa costing €90, applied for via the official France-Visas portal.",
   "meta": {
-    "lastUpdated": "2026-08-25",
+    "lastUpdated": "2026-08-26",
     "lastFullReview": "2026-08-25",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -48,6 +48,9 @@
         "lastVerified": "2026-08-25",
         "confidence": "official"
       }
+    ],
+    "modules": [
+      "stay-window"
     ]
   },
   "visaPolicy": {
@@ -1356,6 +1359,23 @@
           "schengen-c"
         ],
         "notes": "A Schengen short-stay visa is required, applied for via France-Visas and the French consulate or visa centre serving your place of residence."
+      }
+    },
+    "defaultStayWindow": {
+      "basis": "rolling",
+      "windowDays": 180,
+      "arrivalDayCounts": true,
+      "departureDayCounts": true,
+      "resetsOnExit": false,
+      "minGapDays": null,
+      "text": "90 days in any rolling 180-day period, counted across the whole Schengen Area rather than per country. The day you arrive counts as the first day and the day you leave counts as the last. Leaving and coming back does not reset the allowance: on any given day, days already spent anywhere in the area during the preceding 180 still count against the 90.",
+      "source": {
+        "url": "https://home-affairs.ec.europa.eu/policies/schengen/border-crossing/short-stay-calculator_en",
+        "name": "European Commission — Schengen short-stay calculator (DG Migration and Home Affairs)",
+        "type": "igo",
+        "lastVerified": "2026-08-26",
+        "confidence": "official",
+        "instrument": "Regulation (EU) 2016/399 (Schengen Borders Code), Art. 6(1)–(2)"
       }
     }
   },
