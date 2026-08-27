@@ -16,7 +16,7 @@
   ],
   "summary": "Qatar grants free visa waivers on arrival to citizens of over 100 countries — 90 days within 180 for EU and Schengen-area passports, 30 extendable days for most others including the US, UK and much of Asia and Latin America, and routes remaining nationalities through the official Hayya platform for a tourist visa.",
   "meta": {
-    "lastUpdated": "2026-08-25",
+    "lastUpdated": "2026-08-27",
     "lastFullReview": "2026-08-25",
     "reviewIntervalDays": 7,
     "primarySources": [
@@ -1521,7 +1521,24 @@
         "confidence": "medium"
       }
     },
-    "vaccinations": [],
+    "vaccinations": [
+      {
+        "id": "yellow-fever",
+        "name": "Yellow fever",
+        "certificate": "International Certificate of Vaccination or Prophylaxis (ICVP)",
+        "requiredWhen": "arriving-from-risk-country",
+        "text": "A yellow fever vaccination certificate is required from travelers aged nine months and over arriving from a country with risk of yellow fever transmission.",
+        "source": {
+          "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf",
+          "name": "WHO, International Travel and Health, Annex 1 — countries requiring proof of vaccination against yellow fever",
+          "type": "igo",
+          "lastVerified": "2026-08-27",
+          "confidence": "official",
+          "instrument": "International Health Regulations (2005), Article 36 and Annex 7; WHO International Travel and Health, Annex 1, 18 November 2022 (revised 3 January 2023)",
+          "lastChanged": "2026-08-27"
+        }
+      }
+    ],
     "travelInsurance": {
       "required": false,
       "minCoverage": null,

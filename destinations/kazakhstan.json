@@ -21,7 +21,7 @@
   ],
   "summary": "Kazakhstan waives visas for around 80 nationalities — including the EU, US, UK and China — for 30 days per visit, lets CIS and EAEU citizens enter freely for up to 90 days, and offers an eVisa via the official Visa-Migration Portal for most other travelers.",
   "meta": {
-    "lastUpdated": "2026-08-26",
+    "lastUpdated": "2026-08-27",
     "lastFullReview": "2026-08-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -1494,7 +1494,24 @@
         "confidence": "medium"
       }
     },
-    "vaccinations": [],
+    "vaccinations": [
+      {
+        "id": "yellow-fever",
+        "name": "Yellow fever",
+        "certificate": "International Certificate of Vaccination or Prophylaxis (ICVP)",
+        "requiredWhen": "arriving-from-risk-country",
+        "text": "A yellow fever vaccination certificate is required from travelers arriving from a country with risk of yellow fever transmission. WHO records no minimum age for Kazakhstan, and any transit through such a country's airport counts, however short the stop.",
+        "source": {
+          "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf",
+          "name": "WHO, International Travel and Health, Annex 1 — countries requiring proof of vaccination against yellow fever",
+          "type": "igo",
+          "lastVerified": "2026-08-27",
+          "confidence": "official",
+          "instrument": "International Health Regulations (2005), Article 36 and Annex 7; WHO International Travel and Health, Annex 1, 18 November 2022 (revised 3 January 2023)",
+          "lastChanged": "2026-08-27"
+        }
+      }
+    ],
     "travelInsurance": {
       "required": false,
       "minCoverage": null,

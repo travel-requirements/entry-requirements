@@ -18,7 +18,7 @@
   ],
   "summary": "North Korea is essentially closed to tourism: borders shut in 2020 and have reopened only for limited, state-organized group tours aimed chiefly at the Russian market. Every visitor needs a visa arranged through a state-approved tour operator, independent travel is impossible, and US and South Korean passport holders cannot visit at all.",
   "meta": {
-    "lastUpdated": "2026-08-26",
+    "lastUpdated": "2026-08-27",
     "lastFullReview": "2026-08-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -1677,7 +1677,24 @@
         "confidence": "medium"
       }
     },
-    "vaccinations": [],
+    "vaccinations": [
+      {
+        "id": "yellow-fever",
+        "name": "Yellow fever",
+        "certificate": "International Certificate of Vaccination or Prophylaxis (ICVP)",
+        "requiredWhen": "arriving-from-risk-country",
+        "text": "A yellow fever vaccination certificate is required from travelers aged one year and over arriving from a country with risk of yellow fever transmission.",
+        "source": {
+          "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf",
+          "name": "WHO, International Travel and Health, Annex 1 — countries requiring proof of vaccination against yellow fever",
+          "type": "igo",
+          "lastVerified": "2026-08-27",
+          "confidence": "official",
+          "instrument": "International Health Regulations (2005), Article 36 and Annex 7; WHO International Travel and Health, Annex 1, 18 November 2022 (revised 3 January 2023)",
+          "lastChanged": "2026-08-27"
+        }
+      }
+    ],
     "travelInsurance": {
       "required": false,
       "minCoverage": null,

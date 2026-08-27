@@ -17,7 +17,7 @@
   ],
   "summary": "The United Arab Emirates gives many Western and East Asian passport holders a free 30-day visa on arrival, lets EU citizens stay visa-free for 90 days in any 180, and routes everyone else through pre-arranged tourist eVisas sponsored by airlines, hotels or UAE residents.",
   "meta": {
-    "lastUpdated": "2026-08-25",
+    "lastUpdated": "2026-08-27",
     "lastFullReview": "2026-08-25",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -1723,7 +1723,24 @@
         "confidence": "medium"
       }
     },
-    "vaccinations": [],
+    "vaccinations": [
+      {
+        "id": "yellow-fever",
+        "name": "Yellow fever",
+        "certificate": "International Certificate of Vaccination or Prophylaxis (ICVP)",
+        "requiredWhen": "arriving-from-risk-country",
+        "text": "A yellow fever vaccination certificate is required from travelers aged nine months and over arriving from a country with risk of yellow fever transmission, including those who spent more than 12 hours in transit through such a country's airport.",
+        "source": {
+          "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf",
+          "name": "WHO, International Travel and Health, Annex 1 — countries requiring proof of vaccination against yellow fever",
+          "type": "igo",
+          "lastVerified": "2026-08-27",
+          "confidence": "official",
+          "instrument": "International Health Regulations (2005), Article 36 and Annex 7; WHO International Travel and Health, Annex 1, 18 November 2022 (revised 3 January 2023)",
+          "lastChanged": "2026-08-27"
+        }
+      }
+    ],
     "travelInsurance": {
       "required": false,
       "minCoverage": null,

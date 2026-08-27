@@ -19,7 +19,7 @@
   ],
   "summary": "Oman lets GCC nationals enter freely and waives visas for short visits by around 100 nationalities — including the EU, US, UK and Canada, for stays of up to 14 days — while the Royal Oman Police eVisa covers longer tourist stays; other nationalities need a sponsored or embassy visa.",
   "meta": {
-    "lastUpdated": "2026-08-26",
+    "lastUpdated": "2026-08-27",
     "lastFullReview": "2026-08-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -1490,7 +1490,24 @@
         "confidence": "medium"
       }
     },
-    "vaccinations": [],
+    "vaccinations": [
+      {
+        "id": "yellow-fever",
+        "name": "Yellow fever",
+        "certificate": "International Certificate of Vaccination or Prophylaxis (ICVP)",
+        "requiredWhen": "arriving-from-risk-country",
+        "text": "A yellow fever vaccination certificate is required from travelers aged nine months and over arriving from a country with risk of yellow fever transmission, and a transit of more than 12 hours through such a country's airport counts. Oman applies its own list of origin countries rather than WHO's risk list.",
+        "source": {
+          "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf",
+          "name": "WHO, International Travel and Health, Annex 1 — countries requiring proof of vaccination against yellow fever",
+          "type": "igo",
+          "lastVerified": "2026-08-27",
+          "confidence": "official",
+          "instrument": "International Health Regulations (2005), Article 36 and Annex 7; WHO International Travel and Health, Annex 1, 18 November 2022 (revised 3 January 2023)",
+          "lastChanged": "2026-08-27"
+        }
+      }
+    ],
     "travelInsurance": {
       "required": true,
       "minCoverage": null,

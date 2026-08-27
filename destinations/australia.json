@@ -15,7 +15,7 @@
   ],
   "summary": "Australia requires almost every visitor to hold some form of authorization before boarding: Europeans apply for the free eVisitor (subclass 651), passport holders from the US, Canada, Japan and other ETA countries use the Australian ETA app (subclass 601, AUD 20 service charge), and everyone else applies online for a Visitor visa (subclass 600). New Zealanders are the exception — they receive a Special Category Visa automatically on arrival.",
   "meta": {
-    "lastUpdated": "2026-08-25",
+    "lastUpdated": "2026-08-27",
     "lastFullReview": "2026-08-25",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -1795,7 +1795,24 @@
         "confidence": "high"
       }
     },
-    "vaccinations": [],
+    "vaccinations": [
+      {
+        "id": "yellow-fever",
+        "name": "Yellow fever",
+        "certificate": "International Certificate of Vaccination or Prophylaxis (ICVP)",
+        "requiredWhen": "arriving-from-risk-country",
+        "text": "A yellow fever vaccination certificate is required from travelers aged one year and over arriving from a country with risk of yellow fever transmission, and a transit of more than 12 hours through such a country's airport counts as arriving from it. Australia works from its own list of origin countries, which does not match WHO's risk list exactly, so check the current Australian list rather than assuming.",
+        "source": {
+          "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf",
+          "name": "WHO, International Travel and Health, Annex 1 — countries requiring proof of vaccination against yellow fever",
+          "type": "igo",
+          "lastVerified": "2026-08-27",
+          "confidence": "official",
+          "instrument": "International Health Regulations (2005), Article 36 and Annex 7; WHO International Travel and Health, Annex 1, 18 November 2022 (revised 3 January 2023)",
+          "lastChanged": "2026-08-27"
+        }
+      }
+    ],
     "travelInsurance": {
       "required": false,
       "minCoverage": null,

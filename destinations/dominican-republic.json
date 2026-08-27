@@ -16,7 +16,7 @@
   ],
   "summary": "The Dominican Republic admits tourists from the US, Canada, the UK, the EU and most of the Americas visa-free for 30 days (extendable online up to 120), requires every traveler to complete the free digital e-Ticket form for both arrival and departure, and waives its visa entirely for anyone holding a valid US, Canadian, UK or Schengen visa or residence permit.",
   "meta": {
-    "lastUpdated": "2026-08-25",
+    "lastUpdated": "2026-08-27",
     "lastFullReview": "2026-08-25",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -1473,7 +1473,24 @@
         "confidence": "high"
       }
     },
-    "vaccinations": [],
+    "vaccinations": [
+      {
+        "id": "yellow-fever",
+        "name": "Yellow fever",
+        "certificate": "International Certificate of Vaccination or Prophylaxis (ICVP)",
+        "requiredWhen": "arriving-from-risk-country",
+        "text": "A yellow fever vaccination certificate is required from travelers aged one year and over arriving from a country with risk of yellow fever transmission, including anyone who spent more than 12 hours in transit through such a country's airport. The list of origin countries the requirement applies to is the Dominican Republic's own and differs from WHO's risk list.",
+        "source": {
+          "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf",
+          "name": "WHO, International Travel and Health, Annex 1 — countries requiring proof of vaccination against yellow fever",
+          "type": "igo",
+          "lastVerified": "2026-08-27",
+          "confidence": "official",
+          "instrument": "International Health Regulations (2005), Article 36 and Annex 7; WHO International Travel and Health, Annex 1, 18 November 2022 (revised 3 January 2023)",
+          "lastChanged": "2026-08-27"
+        }
+      }
+    ],
     "travelInsurance": {
       "required": false,
       "minCoverage": null,
