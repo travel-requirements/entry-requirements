@@ -1,8 +1,12 @@
-# Licence — TravelRequirements.info Entry Requirements Dataset
+# Notice — TravelRequirements.info Entry Requirements Dataset
 
 **SPDX identifier:** `CC-BY-4.0`
-**Full legal text:** <https://creativecommons.org/licenses/by/4.0/legalcode>
+**Full legal text:** [`LICENSE`](LICENSE), verbatim from
+<https://creativecommons.org/licenses/by/4.0/legalcode.txt>
 **Human-readable summary:** <https://creativecommons.org/licenses/by/4.0/>
+
+This file states what the licence covers and how to credit us. It grants
+nothing on its own: `LICENSE` is the instrument.
 
 Everything in this directory — the destination records, the passport and region
 registries, the change log and the schema that governs them — is licensed under

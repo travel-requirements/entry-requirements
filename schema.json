@@ -1,0 +1,4058 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "iso2": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 2
+    },
+    "names": {
+      "type": "object",
+      "properties": {
+        "common": {
+          "type": "string"
+        },
+        "official": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "common",
+        "official"
+      ],
+      "additionalProperties": false
+    },
+    "region": {
+      "type": "string"
+    },
+    "neighbors": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2,
+        "maxLength": 2
+      }
+    },
+    "similarDestinations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 50
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "lastUpdated": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "lastFullReview": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "reviewIntervalDays": {
+          "type": "integer",
+          "exclusiveMinimum": 0,
+          "maximum": 9007199254740991
+        },
+        "primarySources": {
+          "minItems": 1,
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "government",
+                  "igo",
+                  "official-airline-db"
+                ]
+              },
+              "lastVerified": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "lastChanged": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "confidence": {
+                "type": "string",
+                "enum": [
+                  "official",
+                  "high",
+                  "medium"
+                ]
+              },
+              "archiveUrl": {
+                "type": "string",
+                "format": "uri"
+              },
+              "instrument": {
+                "type": "string",
+                "minLength": 3
+              }
+            },
+            "required": [
+              "url",
+              "name",
+              "type",
+              "lastVerified",
+              "confidence"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "modules": {
+          "default": [],
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "stay-window",
+              "overstay",
+              "levies",
+              "restrictions",
+              "transit",
+              "entry-modes",
+              "driving",
+              "allowances",
+              "minors",
+              "post-arrival-registration",
+              "biometrics",
+              "nationality-rules"
+            ]
+          }
+        }
+      },
+      "required": [
+        "lastUpdated",
+        "lastFullReview",
+        "reviewIntervalDays",
+        "primarySources",
+        "modules"
+      ],
+      "additionalProperties": false
+    },
+    "visaPolicy": {
+      "type": "object",
+      "properties": {
+        "defaultSource": {
+          "type": "object",
+          "properties": {
+            "url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "name": {
+              "type": "string",
+              "minLength": 1
+            },
+            "type": {
+              "type": "string",
+              "enum": [
+                "government",
+                "igo",
+                "official-airline-db"
+              ]
+            },
+            "lastVerified": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "lastChanged": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "confidence": {
+              "type": "string",
+              "enum": [
+                "official",
+                "high",
+                "medium"
+              ]
+            },
+            "archiveUrl": {
+              "type": "string",
+              "format": "uri"
+            },
+            "instrument": {
+              "type": "string",
+              "minLength": 3
+            }
+          },
+          "required": [
+            "url",
+            "name",
+            "type",
+            "lastVerified",
+            "confidence"
+          ],
+          "additionalProperties": false
+        },
+        "defaultStayWindow": {
+          "type": "object",
+          "properties": {
+            "basis": {
+              "type": "string",
+              "enum": [
+                "per-entry",
+                "rolling",
+                "calendar-year",
+                "per-12-months-from-first-entry"
+              ]
+            },
+            "windowDays": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "exclusiveMinimum": 0,
+                  "maximum": 9007199254740991
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "arrivalDayCounts": {
+              "type": "boolean"
+            },
+            "departureDayCounts": {
+              "type": "boolean"
+            },
+            "resetsOnExit": {
+              "type": "boolean"
+            },
+            "minGapDays": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 9007199254740991
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1
+            },
+            "source": {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "government",
+                    "igo",
+                    "official-airline-db"
+                  ]
+                },
+                "lastVerified": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "lastChanged": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "confidence": {
+                  "type": "string",
+                  "enum": [
+                    "official",
+                    "high",
+                    "medium"
+                  ]
+                },
+                "archiveUrl": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "instrument": {
+                  "type": "string",
+                  "minLength": 3
+                }
+              },
+              "required": [
+                "url",
+                "name",
+                "type",
+                "lastVerified",
+                "confidence"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "basis",
+            "windowDays",
+            "arrivalDayCounts",
+            "departureDayCounts",
+            "resetsOnExit",
+            "minGapDays",
+            "text"
+          ],
+          "additionalProperties": false
+        },
+        "byPassport": {
+          "type": "object",
+          "propertyNames": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 2
+          },
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "requirement": {
+                "type": "string",
+                "enum": [
+                  "visa-free",
+                  "evisa",
+                  "eta",
+                  "visa-on-arrival",
+                  "embassy-visa",
+                  "freedom-of-movement",
+                  "banned"
+                ]
+              },
+              "maxStayDays": {
+                "anyOf": [
+                  {
+                    "type": "integer",
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "extendableDays": {
+                "anyOf": [
+                  {
+                    "type": "integer",
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "visaTypes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "notes": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "stayWindow": {
+                "type": "object",
+                "properties": {
+                  "basis": {
+                    "type": "string",
+                    "enum": [
+                      "per-entry",
+                      "rolling",
+                      "calendar-year",
+                      "per-12-months-from-first-entry"
+                    ]
+                  },
+                  "windowDays": {
+                    "anyOf": [
+                      {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "arrivalDayCounts": {
+                    "type": "boolean"
+                  },
+                  "departureDayCounts": {
+                    "type": "boolean"
+                  },
+                  "resetsOnExit": {
+                    "type": "boolean"
+                  },
+                  "minGapDays": {
+                    "anyOf": [
+                      {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "text": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "source": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "type": {
+                        "type": "string",
+                        "enum": [
+                          "government",
+                          "igo",
+                          "official-airline-db"
+                        ]
+                      },
+                      "lastVerified": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                      },
+                      "lastChanged": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                      },
+                      "confidence": {
+                        "type": "string",
+                        "enum": [
+                          "official",
+                          "high",
+                          "medium"
+                        ]
+                      },
+                      "archiveUrl": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "instrument": {
+                        "type": "string",
+                        "minLength": 3
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "name",
+                      "type",
+                      "lastVerified",
+                      "confidence"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "basis",
+                  "windowDays",
+                  "arrivalDayCounts",
+                  "departureDayCounts",
+                  "resetsOnExit",
+                  "minGapDays",
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "source": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "name": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "government",
+                      "igo",
+                      "official-airline-db"
+                    ]
+                  },
+                  "lastVerified": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "lastChanged": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "confidence": {
+                    "type": "string",
+                    "enum": [
+                      "official",
+                      "high",
+                      "medium"
+                    ]
+                  },
+                  "archiveUrl": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "instrument": {
+                    "type": "string",
+                    "minLength": 3
+                  }
+                },
+                "required": [
+                  "url",
+                  "name",
+                  "type",
+                  "lastVerified",
+                  "confidence"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "requirement"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "conditionalWaivers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "enum": [
+                  "us-visa",
+                  "gcc-residence"
+                ]
+              },
+              "requirement": {
+                "type": "string",
+                "enum": [
+                  "visa-free",
+                  "evisa",
+                  "eta",
+                  "visa-on-arrival",
+                  "embassy-visa",
+                  "freedom-of-movement",
+                  "banned"
+                ]
+              },
+              "maxStayDays": {
+                "anyOf": [
+                  {
+                    "type": "integer",
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "appliesTo": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "const": "visa-required"
+                  },
+                  {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 2,
+                      "maxLength": 2
+                    }
+                  }
+                ]
+              },
+              "text": {
+                "type": "string"
+              },
+              "source": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "name": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "government",
+                      "igo",
+                      "official-airline-db"
+                    ]
+                  },
+                  "lastVerified": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "lastChanged": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "confidence": {
+                    "type": "string",
+                    "enum": [
+                      "official",
+                      "high",
+                      "medium"
+                    ]
+                  },
+                  "archiveUrl": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "instrument": {
+                    "type": "string",
+                    "minLength": 3
+                  }
+                },
+                "required": [
+                  "url",
+                  "name",
+                  "type",
+                  "lastVerified",
+                  "confidence"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "id",
+              "requirement",
+              "maxStayDays",
+              "appliesTo",
+              "text"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "defaultSource",
+        "byPassport"
+      ],
+      "additionalProperties": false
+    },
+    "visaTypes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "tourist",
+              "business",
+              "transit",
+              "student",
+              "work",
+              "medical",
+              "retirement",
+              "digital-nomad",
+              "other"
+            ]
+          },
+          "method": {
+            "type": "string",
+            "enum": [
+              "evisa",
+              "eta",
+              "visa-on-arrival",
+              "embassy",
+              "exemption-extension"
+            ]
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "fee": {
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "amount": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "currency": {
+                    "type": "string",
+                    "minLength": 3,
+                    "maxLength": 3
+                  },
+                  "notes": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "amount",
+                  "currency"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "processing": {
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "minDays": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "maxDays": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "unit": {
+                    "type": "string",
+                    "enum": [
+                      "calendar-days",
+                      "business-days",
+                      "minutes"
+                    ]
+                  }
+                },
+                "required": [
+                  "minDays",
+                  "maxDays",
+                  "unit"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "validityDays": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "stayDays": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "entries": {
+            "type": "string",
+            "enum": [
+              "single",
+              "double",
+              "multiple"
+            ]
+          },
+          "extendable": {
+            "type": "object",
+            "properties": {
+              "possible": {
+                "type": "boolean"
+              },
+              "days": {
+                "anyOf": [
+                  {
+                    "type": "integer",
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "possible",
+              "days"
+            ],
+            "additionalProperties": false
+          },
+          "applyUrl": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "uri"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "government",
+                  "igo",
+                  "official-airline-db"
+                ]
+              },
+              "lastVerified": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "lastChanged": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "confidence": {
+                "type": "string",
+                "enum": [
+                  "official",
+                  "high",
+                  "medium"
+                ]
+              },
+              "archiveUrl": {
+                "type": "string",
+                "format": "uri"
+              },
+              "instrument": {
+                "type": "string",
+                "minLength": 3
+              }
+            },
+            "required": [
+              "url",
+              "name",
+              "type",
+              "lastVerified",
+              "confidence"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "category",
+          "method",
+          "name",
+          "fee",
+          "processing",
+          "validityDays",
+          "stayDays",
+          "entries",
+          "applyUrl",
+          "source"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "levies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "tourist-tax",
+              "departure-tax",
+              "arrival-tax",
+              "conservation-fee",
+              "access-fee",
+              "travel-authorization-fee",
+              "airport-fee",
+              "health-fee"
+            ]
+          },
+          "fee": {
+            "type": "object",
+            "properties": {
+              "amount": {
+                "type": "number",
+                "minimum": 0
+              },
+              "currency": {
+                "type": "string",
+                "minLength": 3,
+                "maxLength": 3
+              },
+              "notes": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "amount",
+              "currency"
+            ],
+            "additionalProperties": false
+          },
+          "per": {
+            "type": "string",
+            "enum": [
+              "person",
+              "person-per-night",
+              "person-per-trip",
+              "booking"
+            ]
+          },
+          "paidAt": {
+            "type": "string",
+            "enum": [
+              "online-before",
+              "on-arrival",
+              "on-departure",
+              "included-in-ticket",
+              "at-accommodation"
+            ]
+          },
+          "appliesTo": {
+            "anyOf": [
+              {
+                "type": "string",
+                "const": "all"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 2,
+                  "maxLength": 2
+                }
+              }
+            ]
+          },
+          "exemptions": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "url": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "uri"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "government",
+                  "igo",
+                  "official-airline-db"
+                ]
+              },
+              "lastVerified": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "lastChanged": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "confidence": {
+                "type": "string",
+                "enum": [
+                  "official",
+                  "high",
+                  "medium"
+                ]
+              },
+              "archiveUrl": {
+                "type": "string",
+                "format": "uri"
+              },
+              "instrument": {
+                "type": "string",
+                "minLength": 3
+              }
+            },
+            "required": [
+              "url",
+              "name",
+              "type",
+              "lastVerified",
+              "confidence"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "kind",
+          "fee",
+          "per",
+          "paidAt",
+          "appliesTo",
+          "exemptions",
+          "url",
+          "text",
+          "source"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "transit": {
+      "type": "object",
+      "properties": {
+        "airsideVisaRequired": {
+          "type": "string",
+          "enum": [
+            "never",
+            "for-listed-passports",
+            "always"
+          ]
+        },
+        "affectedPassports": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 2
+          }
+        },
+        "sameTerminalException": {
+          "type": "boolean"
+        },
+        "maxAirsideHours": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "exclusiveMinimum": 0,
+              "maximum": 9007199254740991
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "transitEntrySchemes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "hours": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "ports": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "conditions": {
+                "type": "string",
+                "minLength": 1
+              },
+              "applyUrl": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "appliesTo": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "const": "all"
+                  },
+                  {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 2,
+                      "maxLength": 2
+                    }
+                  }
+                ]
+              },
+              "text": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "name": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "government",
+                      "igo",
+                      "official-airline-db"
+                    ]
+                  },
+                  "lastVerified": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "lastChanged": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "confidence": {
+                    "type": "string",
+                    "enum": [
+                      "official",
+                      "high",
+                      "medium"
+                    ]
+                  },
+                  "archiveUrl": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "instrument": {
+                    "type": "string",
+                    "minLength": 3
+                  }
+                },
+                "required": [
+                  "url",
+                  "name",
+                  "type",
+                  "lastVerified",
+                  "confidence"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "hours",
+              "ports",
+              "conditions",
+              "applyUrl",
+              "appliesTo",
+              "text",
+              "source"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "object",
+          "properties": {
+            "url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "name": {
+              "type": "string",
+              "minLength": 1
+            },
+            "type": {
+              "type": "string",
+              "enum": [
+                "government",
+                "igo",
+                "official-airline-db"
+              ]
+            },
+            "lastVerified": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "lastChanged": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "confidence": {
+              "type": "string",
+              "enum": [
+                "official",
+                "high",
+                "medium"
+              ]
+            },
+            "archiveUrl": {
+              "type": "string",
+              "format": "uri"
+            },
+            "instrument": {
+              "type": "string",
+              "minLength": 3
+            }
+          },
+          "required": [
+            "url",
+            "name",
+            "type",
+            "lastVerified",
+            "confidence"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "airsideVisaRequired",
+        "affectedPassports",
+        "sameTerminalException",
+        "maxAirsideHours",
+        "transitEntrySchemes",
+        "text",
+        "source"
+      ],
+      "additionalProperties": false
+    },
+    "entryModes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "type": "string",
+            "enum": [
+              "air",
+              "land",
+              "sea"
+            ]
+          },
+          "availability": {
+            "type": "string",
+            "enum": [
+              "same-as-default",
+              "restricted",
+              "closed"
+            ]
+          },
+          "requirementOverride": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "visa-free",
+                  "evisa",
+                  "eta",
+                  "visa-on-arrival",
+                  "embassy-visa",
+                  "freedom-of-movement",
+                  "banned"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "appliesTo": {
+            "anyOf": [
+              {
+                "type": "string",
+                "const": "all"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 2,
+                  "maxLength": 2
+                }
+              }
+            ]
+          },
+          "ports": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "government",
+                  "igo",
+                  "official-airline-db"
+                ]
+              },
+              "lastVerified": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "lastChanged": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "confidence": {
+                "type": "string",
+                "enum": [
+                  "official",
+                  "high",
+                  "medium"
+                ]
+              },
+              "archiveUrl": {
+                "type": "string",
+                "format": "uri"
+              },
+              "instrument": {
+                "type": "string",
+                "minLength": 3
+              }
+            },
+            "required": [
+              "url",
+              "name",
+              "type",
+              "lastVerified",
+              "confidence"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "mode",
+          "availability",
+          "requirementOverride",
+          "appliesTo",
+          "ports",
+          "text",
+          "source"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "entryRequirements": {
+      "type": "object",
+      "properties": {
+        "passportValidity": {
+          "type": "object",
+          "properties": {
+            "rule": {
+              "type": "string",
+              "enum": [
+                "6-months-on-arrival",
+                "6-months-beyond-stay",
+                "3-months-beyond-departure",
+                "valid-for-stay",
+                "other"
+              ]
+            },
+            "text": {
+              "type": "string"
+            },
+            "source": {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "government",
+                    "igo",
+                    "official-airline-db"
+                  ]
+                },
+                "lastVerified": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "lastChanged": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "confidence": {
+                  "type": "string",
+                  "enum": [
+                    "official",
+                    "high",
+                    "medium"
+                  ]
+                },
+                "archiveUrl": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "instrument": {
+                  "type": "string",
+                  "minLength": 3
+                }
+              },
+              "required": [
+                "url",
+                "name",
+                "type",
+                "lastVerified",
+                "confidence"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "rule",
+            "text"
+          ],
+          "additionalProperties": false
+        },
+        "blankPages": {
+          "type": "object",
+          "properties": {
+            "count": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 9007199254740991
+            },
+            "source": {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "government",
+                    "igo",
+                    "official-airline-db"
+                  ]
+                },
+                "lastVerified": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "lastChanged": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "confidence": {
+                  "type": "string",
+                  "enum": [
+                    "official",
+                    "high",
+                    "medium"
+                  ]
+                },
+                "archiveUrl": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "instrument": {
+                  "type": "string",
+                  "minLength": 3
+                }
+              },
+              "required": [
+                "url",
+                "name",
+                "type",
+                "lastVerified",
+                "confidence"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "count"
+          ],
+          "additionalProperties": false
+        },
+        "vaccinations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "certificate": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "requiredWhen": {
+                "type": "string",
+                "enum": [
+                  "always",
+                  "arriving-from-risk-country",
+                  "recommended",
+                  "special-event"
+                ]
+              },
+              "text": {
+                "type": "string"
+              },
+              "source": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "name": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "government",
+                      "igo",
+                      "official-airline-db"
+                    ]
+                  },
+                  "lastVerified": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "lastChanged": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "confidence": {
+                    "type": "string",
+                    "enum": [
+                      "official",
+                      "high",
+                      "medium"
+                    ]
+                  },
+                  "archiveUrl": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "instrument": {
+                    "type": "string",
+                    "minLength": 3
+                  }
+                },
+                "required": [
+                  "url",
+                  "name",
+                  "type",
+                  "lastVerified",
+                  "confidence"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "certificate",
+              "requiredWhen",
+              "text"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "travelInsurance": {
+          "type": "object",
+          "properties": {
+            "required": {
+              "type": "boolean"
+            },
+            "minCoverage": {
+              "anyOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string",
+                      "minLength": 3,
+                      "maxLength": 3
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "text": {
+              "type": "string"
+            },
+            "source": {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "government",
+                    "igo",
+                    "official-airline-db"
+                  ]
+                },
+                "lastVerified": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "lastChanged": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "confidence": {
+                  "type": "string",
+                  "enum": [
+                    "official",
+                    "high",
+                    "medium"
+                  ]
+                },
+                "archiveUrl": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "instrument": {
+                  "type": "string",
+                  "minLength": 3
+                }
+              },
+              "required": [
+                "url",
+                "name",
+                "type",
+                "lastVerified",
+                "confidence"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "required",
+            "minCoverage",
+            "text"
+          ],
+          "additionalProperties": false
+        },
+        "onwardTicket": {
+          "type": "object",
+          "properties": {
+            "required": {
+              "type": "boolean"
+            },
+            "text": {
+              "type": "string"
+            },
+            "source": {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "government",
+                    "igo",
+                    "official-airline-db"
+                  ]
+                },
+                "lastVerified": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "lastChanged": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "confidence": {
+                  "type": "string",
+                  "enum": [
+                    "official",
+                    "high",
+                    "medium"
+                  ]
+                },
+                "archiveUrl": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "instrument": {
+                  "type": "string",
+                  "minLength": 3
+                }
+              },
+              "required": [
+                "url",
+                "name",
+                "type",
+                "lastVerified",
+                "confidence"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "required",
+            "text"
+          ],
+          "additionalProperties": false
+        },
+        "proofOfFunds": {
+          "type": "object",
+          "properties": {
+            "required": {
+              "type": "boolean"
+            },
+            "amount": {
+              "anyOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "value": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string",
+                      "minLength": 3,
+                      "maxLength": 3
+                    },
+                    "per": {
+                      "type": "string",
+                      "enum": [
+                        "person",
+                        "day",
+                        "trip"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "value",
+                    "currency",
+                    "per"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "text": {
+              "type": "string"
+            },
+            "source": {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "government",
+                    "igo",
+                    "official-airline-db"
+                  ]
+                },
+                "lastVerified": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "lastChanged": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "confidence": {
+                  "type": "string",
+                  "enum": [
+                    "official",
+                    "high",
+                    "medium"
+                  ]
+                },
+                "archiveUrl": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "instrument": {
+                  "type": "string",
+                  "minLength": 3
+                }
+              },
+              "required": [
+                "url",
+                "name",
+                "type",
+                "lastVerified",
+                "confidence"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "required",
+            "amount",
+            "text"
+          ],
+          "additionalProperties": false
+        },
+        "declarations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "mandatory": {
+                "type": "boolean"
+              },
+              "fee": {
+                "anyOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "amount": {
+                        "type": "number",
+                        "minimum": 0
+                      },
+                      "currency": {
+                        "type": "string",
+                        "minLength": 3,
+                        "maxLength": 3
+                      },
+                      "notes": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "amount",
+                      "currency"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "submitWindow": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "url": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "text": {
+                "type": "string"
+              },
+              "source": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "name": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "government",
+                      "igo",
+                      "official-airline-db"
+                    ]
+                  },
+                  "lastVerified": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "lastChanged": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "confidence": {
+                    "type": "string",
+                    "enum": [
+                      "official",
+                      "high",
+                      "medium"
+                    ]
+                  },
+                  "archiveUrl": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "instrument": {
+                    "type": "string",
+                    "minLength": 3
+                  }
+                },
+                "required": [
+                  "url",
+                  "name",
+                  "type",
+                  "lastVerified",
+                  "confidence"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "mandatory",
+              "fee",
+              "submitWindow",
+              "url",
+              "text"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "customs": {
+          "type": "object",
+          "properties": {
+            "currencyLimits": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "object",
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "type": {
+                      "type": "string",
+                      "enum": [
+                        "government",
+                        "igo",
+                        "official-airline-db"
+                      ]
+                    },
+                    "lastVerified": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                    },
+                    "lastChanged": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                    },
+                    "confidence": {
+                      "type": "string",
+                      "enum": [
+                        "official",
+                        "high",
+                        "medium"
+                      ]
+                    },
+                    "archiveUrl": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "instrument": {
+                      "type": "string",
+                      "minLength": 3
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "name",
+                    "type",
+                    "lastVerified",
+                    "confidence"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "text"
+              ],
+              "additionalProperties": false
+            },
+            "notes": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "allowances": {
+              "type": "object",
+              "properties": {
+                "cigarettes": {
+                  "anyOf": [
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 9007199254740991
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "cigars": {
+                  "anyOf": [
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 9007199254740991
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "tobaccoGrams": {
+                  "anyOf": [
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 9007199254740991
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "alcohol": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "kind": {
+                        "type": "string",
+                        "enum": [
+                          "spirits",
+                          "wine",
+                          "beer",
+                          "other"
+                        ]
+                      },
+                      "litres": {
+                        "type": "number",
+                        "exclusiveMinimum": 0
+                      },
+                      "abvOver": {
+                        "anyOf": [
+                          {
+                            "type": "number",
+                            "minimum": 0
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "kind",
+                      "litres",
+                      "abvOver"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "goodsValue": {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number",
+                          "minimum": 0
+                        },
+                        "currency": {
+                          "type": "string",
+                          "minLength": 3,
+                          "maxLength": 3
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "cashDeclarationThreshold": {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number",
+                          "minimum": 0
+                        },
+                        "currency": {
+                          "type": "string",
+                          "minLength": 3,
+                          "maxLength": 3
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "minAgeAlcohol": {
+                  "anyOf": [
+                    {
+                      "type": "integer",
+                      "exclusiveMinimum": 0,
+                      "maximum": 9007199254740991
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "minAgeTobacco": {
+                  "anyOf": [
+                    {
+                      "type": "integer",
+                      "exclusiveMinimum": 0,
+                      "maximum": 9007199254740991
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "text": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "source": {
+                  "type": "object",
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "type": {
+                      "type": "string",
+                      "enum": [
+                        "government",
+                        "igo",
+                        "official-airline-db"
+                      ]
+                    },
+                    "lastVerified": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                    },
+                    "lastChanged": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                    },
+                    "confidence": {
+                      "type": "string",
+                      "enum": [
+                        "official",
+                        "high",
+                        "medium"
+                      ]
+                    },
+                    "archiveUrl": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "instrument": {
+                      "type": "string",
+                      "minLength": 3
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "name",
+                    "type",
+                    "lastVerified",
+                    "confidence"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "cigarettes",
+                "cigars",
+                "tobaccoGrams",
+                "alcohol",
+                "goodsValue",
+                "cashDeclarationThreshold",
+                "minAgeAlcohol",
+                "minAgeTobacco",
+                "text",
+                "source"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        },
+        "overstay": {
+          "type": "object",
+          "properties": {
+            "fine": {
+              "anyOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "currency": {
+                      "type": "string",
+                      "minLength": 3,
+                      "maxLength": 3
+                    },
+                    "per": {
+                      "type": "string",
+                      "enum": [
+                        "day",
+                        "incident"
+                      ]
+                    },
+                    "maxAmount": {
+                      "anyOf": [
+                        {
+                          "type": "number",
+                          "minimum": 0
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency",
+                    "per",
+                    "maxAmount"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "gracePeriodDays": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 9007199254740991
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "banDays": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "exclusiveMinimum": 0,
+                  "maximum": 9007199254740991
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "banText": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "payableAt": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "airport-on-departure",
+                    "immigration-office",
+                    "court"
+                  ]
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1
+            },
+            "source": {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "government",
+                    "igo",
+                    "official-airline-db"
+                  ]
+                },
+                "lastVerified": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "lastChanged": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "confidence": {
+                  "type": "string",
+                  "enum": [
+                    "official",
+                    "high",
+                    "medium"
+                  ]
+                },
+                "archiveUrl": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "instrument": {
+                  "type": "string",
+                  "minLength": 3
+                }
+              },
+              "required": [
+                "url",
+                "name",
+                "type",
+                "lastVerified",
+                "confidence"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "fine",
+            "gracePeriodDays",
+            "banDays",
+            "banText",
+            "payableAt",
+            "text",
+            "source"
+          ],
+          "additionalProperties": false
+        },
+        "restrictions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "category": {
+                "type": "string",
+                "enum": [
+                  "medication",
+                  "e-cigarette",
+                  "drone",
+                  "satellite-phone",
+                  "alcohol",
+                  "food",
+                  "publication",
+                  "other"
+                ]
+              },
+              "status": {
+                "type": "string",
+                "enum": [
+                  "prohibited",
+                  "permit-required",
+                  "quantity-limited",
+                  "declare"
+                ]
+              },
+              "items": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "permitUrl": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "penaltyText": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "text": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "name": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "government",
+                      "igo",
+                      "official-airline-db"
+                    ]
+                  },
+                  "lastVerified": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "lastChanged": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "confidence": {
+                    "type": "string",
+                    "enum": [
+                      "official",
+                      "high",
+                      "medium"
+                    ]
+                  },
+                  "archiveUrl": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "instrument": {
+                    "type": "string",
+                    "minLength": 3
+                  }
+                },
+                "required": [
+                  "url",
+                  "name",
+                  "type",
+                  "lastVerified",
+                  "confidence"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "id",
+              "category",
+              "status",
+              "items",
+              "permitUrl",
+              "penaltyText",
+              "text",
+              "source"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "minors": {
+          "type": "object",
+          "properties": {
+            "consentLetterRequired": {
+              "type": "string",
+              "enum": [
+                "no",
+                "one-parent-absent",
+                "both-absent",
+                "always"
+              ]
+            },
+            "notarised": {
+              "type": "boolean"
+            },
+            "birthCertificateRequired": {
+              "type": "boolean"
+            },
+            "unaccompaniedRules": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1
+            },
+            "source": {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "government",
+                    "igo",
+                    "official-airline-db"
+                  ]
+                },
+                "lastVerified": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "lastChanged": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "confidence": {
+                  "type": "string",
+                  "enum": [
+                    "official",
+                    "high",
+                    "medium"
+                  ]
+                },
+                "archiveUrl": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "instrument": {
+                  "type": "string",
+                  "minLength": 3
+                }
+              },
+              "required": [
+                "url",
+                "name",
+                "type",
+                "lastVerified",
+                "confidence"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "consentLetterRequired",
+            "notarised",
+            "birthCertificateRequired",
+            "unaccompaniedRules",
+            "text",
+            "source"
+          ],
+          "additionalProperties": false
+        },
+        "postArrivalRegistration": {
+          "type": "object",
+          "properties": {
+            "required": {
+              "type": "boolean"
+            },
+            "withinHours": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "exclusiveMinimum": 0,
+                  "maximum": 9007199254740991
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "responsibility": {
+              "type": "string",
+              "enum": [
+                "traveler",
+                "accommodation",
+                "either"
+              ]
+            },
+            "appliesTo": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "const": "all"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 2,
+                    "maxLength": 2
+                  }
+                }
+              ]
+            },
+            "penaltyText": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "url": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "uri"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1
+            },
+            "source": {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "government",
+                    "igo",
+                    "official-airline-db"
+                  ]
+                },
+                "lastVerified": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "lastChanged": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "confidence": {
+                  "type": "string",
+                  "enum": [
+                    "official",
+                    "high",
+                    "medium"
+                  ]
+                },
+                "archiveUrl": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "instrument": {
+                  "type": "string",
+                  "minLength": 3
+                }
+              },
+              "required": [
+                "url",
+                "name",
+                "type",
+                "lastVerified",
+                "confidence"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "required",
+            "withinHours",
+            "responsibility",
+            "appliesTo",
+            "penaltyText",
+            "url",
+            "text",
+            "source"
+          ],
+          "additionalProperties": false
+        },
+        "biometrics": {
+          "type": "object",
+          "properties": {
+            "collectedAtEntry": {
+              "type": "string",
+              "enum": [
+                "none",
+                "fingerprints",
+                "facial",
+                "both"
+              ]
+            },
+            "preEnrolmentRequired": {
+              "type": "boolean"
+            },
+            "exemptUnderAge": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "exclusiveMinimum": 0,
+                  "maximum": 9007199254740991
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "exemptOverAge": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "exclusiveMinimum": 0,
+                  "maximum": 9007199254740991
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "system": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1
+            },
+            "source": {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "government",
+                    "igo",
+                    "official-airline-db"
+                  ]
+                },
+                "lastVerified": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "lastChanged": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "confidence": {
+                  "type": "string",
+                  "enum": [
+                    "official",
+                    "high",
+                    "medium"
+                  ]
+                },
+                "archiveUrl": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "instrument": {
+                  "type": "string",
+                  "minLength": 3
+                }
+              },
+              "required": [
+                "url",
+                "name",
+                "type",
+                "lastVerified",
+                "confidence"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "collectedAtEntry",
+            "preEnrolmentRequired",
+            "exemptUnderAge",
+            "exemptOverAge",
+            "system",
+            "text",
+            "source"
+          ],
+          "additionalProperties": false
+        },
+        "nationalityRules": {
+          "type": "object",
+          "properties": {
+            "mustEnterOnOwnPassport": {
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "dualNationalNotes": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "refusedTravelHistory": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "countries": {
+                    "minItems": 1,
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 2,
+                      "maxLength": 2
+                    }
+                  },
+                  "text": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "source": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "type": {
+                        "type": "string",
+                        "enum": [
+                          "government",
+                          "igo",
+                          "official-airline-db"
+                        ]
+                      },
+                      "lastVerified": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                      },
+                      "lastChanged": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                      },
+                      "confidence": {
+                        "type": "string",
+                        "enum": [
+                          "official",
+                          "high",
+                          "medium"
+                        ]
+                      },
+                      "archiveUrl": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "instrument": {
+                        "type": "string",
+                        "minLength": 3
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "name",
+                      "type",
+                      "lastVerified",
+                      "confidence"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "countries",
+                  "text",
+                  "source"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "conscriptionNotes": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "travelDocumentsAccepted": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "refugee-1951",
+                  "stateless-1954",
+                  "laissez-passer",
+                  "emergency-travel-document"
+                ]
+              }
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1
+            },
+            "source": {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "government",
+                    "igo",
+                    "official-airline-db"
+                  ]
+                },
+                "lastVerified": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "lastChanged": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "confidence": {
+                  "type": "string",
+                  "enum": [
+                    "official",
+                    "high",
+                    "medium"
+                  ]
+                },
+                "archiveUrl": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "instrument": {
+                  "type": "string",
+                  "minLength": 3
+                }
+              },
+              "required": [
+                "url",
+                "name",
+                "type",
+                "lastVerified",
+                "confidence"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "mustEnterOnOwnPassport",
+            "dualNationalNotes",
+            "refusedTravelHistory",
+            "conscriptionNotes",
+            "travelDocumentsAccepted",
+            "text",
+            "source"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "passportValidity",
+        "vaccinations",
+        "travelInsurance",
+        "onwardTicket",
+        "proofOfFunds",
+        "declarations",
+        "customs"
+      ],
+      "additionalProperties": false
+    },
+    "countryFacts": {
+      "type": "object",
+      "properties": {
+        "currency": {
+          "type": "object",
+          "properties": {
+            "code": {
+              "type": "string",
+              "minLength": 3,
+              "maxLength": 3
+            },
+            "name": {
+              "type": "string"
+            },
+            "symbol": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "code",
+            "name",
+            "symbol"
+          ],
+          "additionalProperties": false
+        },
+        "payments": {
+          "type": "object",
+          "properties": {
+            "cardsAccepted": {
+              "type": "string",
+              "enum": [
+                "widely",
+                "widely-in-cities",
+                "limited",
+                "rare"
+              ]
+            },
+            "cashImportance": {
+              "type": "string",
+              "enum": [
+                "low",
+                "medium",
+                "high"
+              ]
+            },
+            "text": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "cardsAccepted",
+            "cashImportance",
+            "text"
+          ],
+          "additionalProperties": false
+        },
+        "safety": {
+          "type": "object",
+          "properties": {
+            "level": {
+              "type": "string",
+              "enum": [
+                "very-safe",
+                "generally-safe",
+                "exercise-caution",
+                "high-risk"
+              ]
+            },
+            "text": {
+              "type": "string"
+            },
+            "source": {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "government",
+                    "igo",
+                    "official-airline-db"
+                  ]
+                },
+                "lastVerified": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "lastChanged": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "confidence": {
+                  "type": "string",
+                  "enum": [
+                    "official",
+                    "high",
+                    "medium"
+                  ]
+                },
+                "archiveUrl": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "instrument": {
+                  "type": "string",
+                  "minLength": 3
+                }
+              },
+              "required": [
+                "url",
+                "name",
+                "type",
+                "lastVerified",
+                "confidence"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "level",
+            "text"
+          ],
+          "additionalProperties": false
+        },
+        "plugs": {
+          "type": "object",
+          "properties": {
+            "types": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "voltage": {
+              "type": "number"
+            },
+            "frequencyHz": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "types",
+            "voltage",
+            "frequencyHz"
+          ],
+          "additionalProperties": false
+        },
+        "emergency": {
+          "type": "object",
+          "propertyNames": {
+            "type": "string"
+          },
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "bestTimeToVisit": {
+          "type": "object",
+          "properties": {
+            "months": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 12
+              }
+            },
+            "text": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "months",
+            "text"
+          ],
+          "additionalProperties": false
+        },
+        "languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "timezone": {
+          "type": "string"
+        },
+        "drivingSide": {
+          "type": "string",
+          "enum": [
+            "left",
+            "right"
+          ]
+        },
+        "roadVignette": {
+          "type": "object",
+          "properties": {
+            "form": {
+              "type": "string",
+              "enum": [
+                "e-vignette",
+                "sticker",
+                "both"
+              ]
+            },
+            "network": {
+              "type": "string",
+              "enum": [
+                "motorways",
+                "motorways-and-expressways",
+                "national-roads"
+              ]
+            },
+            "appliesTo": {
+              "type": "string",
+              "minLength": 1
+            },
+            "options": {
+              "minItems": 1,
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "name": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "days": {
+                    "anyOf": [
+                      {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "fee": {
+                    "type": "object",
+                    "properties": {
+                      "amount": {
+                        "type": "number",
+                        "minimum": 0
+                      },
+                      "currency": {
+                        "type": "string",
+                        "minLength": 3,
+                        "maxLength": 3
+                      },
+                      "notes": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "amount",
+                      "currency"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "id",
+                  "name",
+                  "days",
+                  "fee"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "buyUrl": {
+              "type": "string",
+              "format": "uri"
+            },
+            "penalty": {
+              "anyOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "currency": {
+                      "type": "string",
+                      "minLength": 3,
+                      "maxLength": 3
+                    },
+                    "notes": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "source": {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string",
+                          "format": "uri"
+                        },
+                        "name": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "government",
+                            "igo",
+                            "official-airline-db"
+                          ]
+                        },
+                        "lastVerified": {
+                          "type": "string",
+                          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                        },
+                        "lastChanged": {
+                          "type": "string",
+                          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                        },
+                        "confidence": {
+                          "type": "string",
+                          "enum": [
+                            "official",
+                            "high",
+                            "medium"
+                          ]
+                        },
+                        "archiveUrl": {
+                          "type": "string",
+                          "format": "uri"
+                        },
+                        "instrument": {
+                          "type": "string",
+                          "minLength": 3
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "name",
+                        "type",
+                        "lastVerified",
+                        "confidence"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1
+            },
+            "source": {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "government",
+                    "igo",
+                    "official-airline-db"
+                  ]
+                },
+                "lastVerified": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "lastChanged": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "confidence": {
+                  "type": "string",
+                  "enum": [
+                    "official",
+                    "high",
+                    "medium"
+                  ]
+                },
+                "archiveUrl": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "instrument": {
+                  "type": "string",
+                  "minLength": 3
+                }
+              },
+              "required": [
+                "url",
+                "name",
+                "type",
+                "lastVerified",
+                "confidence"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "form",
+            "network",
+            "appliesTo",
+            "options",
+            "buyUrl",
+            "penalty",
+            "text",
+            "source"
+          ],
+          "additionalProperties": false
+        },
+        "driving": {
+          "type": "object",
+          "properties": {
+            "idp": {
+              "type": "object",
+              "properties": {
+                "required": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "yes",
+                        "recommended",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "conventions": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "1926-paris",
+                      "1949-geneva",
+                      "1968-vienna"
+                    ]
+                  }
+                },
+                "text": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "source": {
+                  "type": "object",
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "type": {
+                      "type": "string",
+                      "enum": [
+                        "government",
+                        "igo",
+                        "official-airline-db"
+                      ]
+                    },
+                    "lastVerified": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                    },
+                    "lastChanged": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                    },
+                    "confidence": {
+                      "type": "string",
+                      "enum": [
+                        "official",
+                        "high",
+                        "medium"
+                      ]
+                    },
+                    "archiveUrl": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "instrument": {
+                      "type": "string",
+                      "minLength": 3
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "name",
+                    "type",
+                    "lastVerified",
+                    "confidence"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "required",
+                "conventions",
+                "text"
+              ],
+              "additionalProperties": false
+            },
+            "foreignLicenceMaxDays": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "exclusiveMinimum": 0,
+                  "maximum": 9007199254740991
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "translationAccepted": {
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "minDrivingAge": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "exclusiveMinimum": 0,
+                  "maximum": 9007199254740991
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "minRentalAge": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "exclusiveMinimum": 0,
+                  "maximum": 9007199254740991
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "alcoholLimitBac": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "mandatoryEquipment": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1
+            },
+            "source": {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "government",
+                    "igo",
+                    "official-airline-db"
+                  ]
+                },
+                "lastVerified": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "lastChanged": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "confidence": {
+                  "type": "string",
+                  "enum": [
+                    "official",
+                    "high",
+                    "medium"
+                  ]
+                },
+                "archiveUrl": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "instrument": {
+                  "type": "string",
+                  "minLength": 3
+                }
+              },
+              "required": [
+                "url",
+                "name",
+                "type",
+                "lastVerified",
+                "confidence"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "idp",
+            "foreignLicenceMaxDays",
+            "translationAccepted",
+            "minDrivingAge",
+            "minRentalAge",
+            "alcoholLimitBac",
+            "mandatoryEquipment",
+            "text",
+            "source"
+          ],
+          "additionalProperties": false
+        },
+        "tapWaterSafe": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "currency",
+        "payments",
+        "safety",
+        "plugs",
+        "emergency",
+        "bestTimeToVisit",
+        "languages",
+        "timezone",
+        "drivingSide",
+        "tapWaterSafe"
+      ],
+      "additionalProperties": false
+    },
+    "tips": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "warning",
+              "info",
+              "tip"
+            ]
+          },
+          "text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "type",
+          "text"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "faq": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "question": {
+            "type": "string"
+          },
+          "answer": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "question",
+          "answer"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "id",
+    "iso2",
+    "names",
+    "region",
+    "neighbors",
+    "similarDestinations",
+    "summary",
+    "meta",
+    "visaPolicy",
+    "visaTypes",
+    "entryRequirements",
+    "countryFacts",
+    "tips",
+    "faq"
+  ],
+  "additionalProperties": false,
+  "$id": "https://travelrequirements.info/data/schema.json",
+  "title": "TravelRequirements.info destination record",
+  "description": "One country's entry requirements: the visa regime for every passport, the entry requirements, the country facts, and a source object carrying a URL and a verification date behind each documented fact."
+}
