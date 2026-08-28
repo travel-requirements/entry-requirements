@@ -26,22 +26,30 @@
         "name": "ESTA — Official U.S. Customs and Border Protection application site",
         "type": "government",
         "lastVerified": "2026-08-25",
-        "confidence": "official"
+        "unverifiable": {
+          "lastAttempt": "2026-08-28",
+          "reason": "client-rendered",
+          "status": 200
+        },
+        "archiveUrl": "https://web.archive.org/web/20260826081225/https://esta.cbp.dhs.gov/"
       },
       {
         "url": "https://travel.state.gov/content/travel/en/us-visas.html",
         "name": "U.S. Department of State — U.S. Visas",
         "type": "government",
         "lastVerified": "2026-08-25",
-        "confidence": "official",
-        "archiveUrl": "https://web.archive.org/web/20260713162522/https://travel.state.gov/content/travel/en/us-visas.html"
+        "archiveUrl": "https://web.archive.org/web/20260713162522/https://travel.state.gov/content/travel/en/us-visas.html",
+        "unverifiable": {
+          "lastAttempt": "2026-08-28",
+          "reason": "blocked",
+          "status": 403
+        }
       },
       {
         "url": "https://www.cbp.gov/travel/international-visitors",
         "name": "U.S. Customs and Border Protection — International Visitors",
         "type": "government",
         "lastVerified": "2026-08-25",
-        "confidence": "official",
         "archiveUrl": "https://web.archive.org/web/20260826001310/https://www.cbp.gov/travel/international-visitors"
       }
     ],
@@ -55,8 +63,12 @@
       "name": "U.S. Department of State — Visitor Visa and Visa Waiver Program information",
       "type": "government",
       "lastVerified": "2026-08-25",
-      "confidence": "high",
-      "archiveUrl": "https://web.archive.org/web/20260711164245/https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html"
+      "archiveUrl": "https://web.archive.org/web/20260711164245/https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+      "unverifiable": {
+        "lastAttempt": "2026-08-28",
+        "reason": "blocked",
+        "status": 403
+      }
     },
     "byPassport": {
       "US": {
@@ -189,8 +201,12 @@
           "name": "U.S. Department of State — Visitor Visa",
           "type": "government",
           "lastVerified": "2026-08-25",
-          "confidence": "medium",
-          "archiveUrl": "https://web.archive.org/web/20260711164245/https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html"
+          "archiveUrl": "https://web.archive.org/web/20260711164245/https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+          "unverifiable": {
+            "lastAttempt": "2026-08-28",
+            "reason": "blocked",
+            "status": 403
+          }
         }
       },
       "UA": {
@@ -1637,7 +1653,12 @@
         "name": "ESTA — Official CBP application site",
         "type": "government",
         "lastVerified": "2026-08-25",
-        "confidence": "high"
+        "unverifiable": {
+          "lastAttempt": "2026-08-28",
+          "reason": "client-rendered",
+          "status": 200
+        },
+        "archiveUrl": "https://web.archive.org/web/20260826081225/https://esta.cbp.dhs.gov/"
       }
     },
     {
@@ -1664,8 +1685,12 @@
         "name": "U.S. Department of State — Visitor Visa",
         "type": "government",
         "lastVerified": "2026-08-25",
-        "confidence": "high",
-        "archiveUrl": "https://web.archive.org/web/20260711164245/https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html"
+        "archiveUrl": "https://web.archive.org/web/20260711164245/https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+        "unverifiable": {
+          "lastAttempt": "2026-08-28",
+          "reason": "blocked",
+          "status": 403
+        }
       }
     },
     {
@@ -1692,8 +1717,12 @@
         "name": "U.S. Department of State — Student Visa",
         "type": "government",
         "lastVerified": "2026-08-25",
-        "confidence": "high",
-        "archiveUrl": "https://web.archive.org/web/20260703082505/https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html"
+        "archiveUrl": "https://web.archive.org/web/20260703082505/https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+        "unverifiable": {
+          "lastAttempt": "2026-08-28",
+          "reason": "blocked",
+          "status": 403
+        }
       }
     },
     {
@@ -1720,8 +1749,12 @@
         "name": "U.S. Department of State — U.S. Visas",
         "type": "government",
         "lastVerified": "2026-08-25",
-        "confidence": "high",
-        "archiveUrl": "https://web.archive.org/web/20260713162522/https://travel.state.gov/content/travel/en/us-visas.html"
+        "archiveUrl": "https://web.archive.org/web/20260713162522/https://travel.state.gov/content/travel/en/us-visas.html",
+        "unverifiable": {
+          "lastAttempt": "2026-08-28",
+          "reason": "blocked",
+          "status": 403
+        }
       }
     }
   ],
@@ -1734,7 +1767,6 @@
         "name": "U.S. Customs and Border Protection — International Visitors",
         "type": "government",
         "lastVerified": "2026-08-25",
-        "confidence": "high",
         "archiveUrl": "https://web.archive.org/web/20260826001310/https://www.cbp.gov/travel/international-visitors"
       }
     },
@@ -1747,8 +1779,7 @@
         "url": "https://www.usa.gov/enter-us",
         "name": "USA.gov — Entering the United States",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "confidence": "high"
+        "lastVerified": "2026-08-25"
       }
     },
     "onwardTicket": {
@@ -1759,7 +1790,12 @@
         "name": "ESTA — Official CBP application site",
         "type": "government",
         "lastVerified": "2026-08-25",
-        "confidence": "high"
+        "unverifiable": {
+          "lastAttempt": "2026-08-28",
+          "reason": "client-rendered",
+          "status": 200
+        },
+        "archiveUrl": "https://web.archive.org/web/20260826081225/https://esta.cbp.dhs.gov/"
       }
     },
     "proofOfFunds": {
@@ -1771,7 +1807,6 @@
         "name": "U.S. Customs and Border Protection — International Visitors",
         "type": "government",
         "lastVerified": "2026-08-25",
-        "confidence": "high",
         "archiveUrl": "https://web.archive.org/web/20260826001310/https://www.cbp.gov/travel/international-visitors"
       }
     },
@@ -1784,7 +1819,6 @@
           "name": "U.S. Customs and Border Protection — Know Before You Go: Money",
           "type": "government",
           "lastVerified": "2026-08-25",
-          "confidence": "high",
           "archiveUrl": "https://web.archive.org/web/20251107233244/https://www.cbp.gov/travel/international-visitors/kbyg/money"
         }
       },
@@ -1813,7 +1847,6 @@
         "name": "UK FCDO — USA travel advice",
         "type": "government",
         "lastVerified": "2026-08-25",
-        "confidence": "high",
         "archiveUrl": "https://web.archive.org/web/20260820022055/https://www.gov.uk/foreign-travel-advice/usa"
       }
     },
@@ -1856,7 +1889,6 @@
           "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
           "type": "igo",
           "lastVerified": "2026-08-26",
-          "confidence": "official",
           "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
         }
       },
@@ -1872,7 +1904,6 @@
         "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
         "type": "igo",
         "lastVerified": "2026-08-26",
-        "confidence": "official",
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
       }
     }
