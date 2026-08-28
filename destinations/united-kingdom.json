@@ -15,7 +15,7 @@
   ],
   "summary": "The United Kingdom now requires an Electronic Travel Authorisation (ETA, £16, valid 2 years) from all visa-exempt visitors — including US, EU and Commonwealth citizens — while visa nationals apply online for a Standard Visitor visa (£127, stays up to 6 months); only Irish citizens are exempt under the Common Travel Area.",
   "meta": {
-    "lastUpdated": "2026-08-25",
+    "lastUpdated": "2026-08-28",
     "lastFullReview": "2026-08-25",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -41,7 +41,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "stay-window"
     ]
   },
   "visaPolicy": {
@@ -1626,6 +1627,22 @@
           "standard-visitor"
         ],
         "notes": "Standard Visitor visa required (£127, stays up to 6 months); apply online and give biometrics at a visa application center."
+      }
+    },
+    "defaultStayWindow": {
+      "basis": "per-entry",
+      "windowDays": null,
+      "allowanceDays": null,
+      "arrivalDayCounts": null,
+      "departureDayCounts": null,
+      "resetsOnExit": true,
+      "minGapDays": null,
+      "text": "The allowance runs per visit rather than across a window: the Home Office prices its long-term Standard Visitor visas at “6 months per visit”, and the guide states you can usually stay up to 6 months. There is no published rolling limit on how much of the year those visits may add up to, though a pattern of back-to-back visits is grounds for refusal at the border. GOV.UK does not say whether the days of arrival and departure are counted, so we count both.",
+      "source": {
+        "url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa",
+        "name": "GOV.UK — Standard Visitor: apply for a Standard Visitor visa",
+        "type": "government",
+        "lastVerified": "2026-08-28"
       }
     }
   },

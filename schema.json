@@ -272,11 +272,37 @@
                 }
               ]
             },
+            "allowanceDays": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "exclusiveMinimum": 0,
+                  "maximum": 9007199254740991
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
             "arrivalDayCounts": {
-              "type": "boolean"
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "null"
+                }
+              ]
             },
             "departureDayCounts": {
-              "type": "boolean"
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "null"
+                }
+              ]
             },
             "resetsOnExit": {
               "type": "boolean"
@@ -374,6 +400,7 @@
           "required": [
             "basis",
             "windowDays",
+            "allowanceDays",
             "arrivalDayCounts",
             "departureDayCounts",
             "resetsOnExit",
@@ -468,11 +495,37 @@
                       }
                     ]
                   },
+                  "allowanceDays": {
+                    "anyOf": [
+                      {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
                   "arrivalDayCounts": {
-                    "type": "boolean"
+                    "anyOf": [
+                      {
+                        "type": "boolean"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
                   },
                   "departureDayCounts": {
-                    "type": "boolean"
+                    "anyOf": [
+                      {
+                        "type": "boolean"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
                   },
                   "resetsOnExit": {
                     "type": "boolean"
@@ -570,6 +623,7 @@
                 "required": [
                   "basis",
                   "windowDays",
+                  "allowanceDays",
                   "arrivalDayCounts",
                   "departureDayCounts",
                   "resetsOnExit",

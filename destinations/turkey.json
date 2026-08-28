@@ -23,7 +23,7 @@
   ],
   "summary": "Turkey lets most European, Latin American and East Asian passport holders enter visa-free for up to 90 days in any 180, and runs an official eVisa portal (evisa.gov.tr) for nationalities that still need a visa, including a conditional eVisa for travelers holding a valid Schengen, US, UK or Irish visa.",
   "meta": {
-    "lastUpdated": "2026-08-25",
+    "lastUpdated": "2026-08-28",
     "lastFullReview": "2026-08-25",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -47,7 +47,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "stay-window"
     ]
   },
   "visaPolicy": {
@@ -1524,7 +1525,23 @@
           "archiveUrl": "https://web.archive.org/web/20260824231240/https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa"
         }
       }
-    ]
+    ],
+    "defaultStayWindow": {
+      "basis": "rolling",
+      "windowDays": 180,
+      "allowanceDays": 90,
+      "arrivalDayCounts": null,
+      "departureDayCounts": null,
+      "resetsOnExit": false,
+      "minGapDays": null,
+      "text": "Türkiye counts the allowance across a rolling 180-day window: the MFA states the exemption as “90 days in any 180-day period” for nationality after nationality. Leaving and coming back does not start a fresh 90 days — days spent in the previous 180 still count against you. The MFA does not say whether the day you arrive and the day you leave are themselves counted, so we count both.",
+      "source": {
+        "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
+        "name": "Turkish MFA — Visa Information For Foreigners",
+        "type": "government",
+        "lastVerified": "2026-08-28"
+      }
+    }
   },
   "visaTypes": [
     {

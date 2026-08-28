@@ -21,7 +21,7 @@
   ],
   "summary": "Citizens of around 100 visa-exempt countries — including the EU, US, UK, Canada and Australia — can visit Israel for up to 90 days but must obtain an ETA-IL electronic travel authorization before boarding; other nationalities need a B/2 visitor visa from an Israeli consulate, and nationals of several states with no relations with Israel are effectively barred.",
   "meta": {
-    "lastUpdated": "2026-08-26",
+    "lastUpdated": "2026-08-28",
     "lastFullReview": "2026-08-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -39,7 +39,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "stay-window"
     ]
   },
   "visaPolicy": {
@@ -1608,6 +1609,22 @@
           "b2-visitor"
         ],
         "notes": "Apply for a B/2 visitor visa at an Israeli embassy or consulate before travel. Expect to show proof of funds, ties to your home country and a return ticket; processing times vary by mission."
+      }
+    },
+    "defaultStayWindow": {
+      "basis": "per-entry",
+      "windowDays": null,
+      "allowanceDays": null,
+      "arrivalDayCounts": null,
+      "departureDayCounts": null,
+      "resetsOnExit": true,
+      "minGapDays": null,
+      "text": "The Population and Immigration Authority states that an approved ETA-IL lets you “stay for up to 90 days per visit” — the allowance is per entry, not a running total, so leaving and returning starts it again. The authority does not say whether the days of arrival and departure are counted, so we count both.",
+      "source": {
+        "url": "https://israel-entry.piba.gov.il/",
+        "name": "Israel Population and Immigration Authority — ETA-IL",
+        "type": "government",
+        "lastVerified": "2026-08-28"
       }
     }
   },
