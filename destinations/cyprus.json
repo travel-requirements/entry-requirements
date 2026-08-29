@@ -1427,6 +1427,7 @@
     "vaccinations": [],
     "travelInsurance": {
       "required": true,
+      "appliesTo": "visa-applicants",
       "minCoverage": {
         "amount": 30000,
         "currency": "EUR"
@@ -1470,6 +1471,7 @@
           "currency": "EUR",
           "notes": "Free for under-18s and over-70s. Valid 3 years or until passport expiry."
         },
+        "submitAt": "before-travel",
         "submitWindow": "Before travel, once mandatory",
         "url": "https://travel-europe.europa.eu/en/etias",
         "text": "Visa-exempt travelers will need an ETIAS travel authorization to enter Cyprus. It is being phased in. Check the official EU site for the current status and apply only there.",

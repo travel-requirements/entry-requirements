@@ -1540,6 +1540,7 @@
     "vaccinations": [],
     "travelInsurance": {
       "required": true,
+      "appliesTo": "visa-applicants",
       "minCoverage": {
         "amount": 30000,
         "currency": "EUR"
@@ -1586,6 +1587,7 @@
         "name": "EES — Entry/Exit System (biometric registration)",
         "mandatory": true,
         "fee": null,
+        "submitAt": "on-arrival",
         "submitWindow": "At the border on first entry",
         "url": "https://travel-europe.europa.eu/en/ees",
         "text": "Switzerland participates in the EU Entry/Exit System as a Schengen associate: non-EU travelers are registered biometrically (fingerprints and photo) at Schengen external borders, including Swiss airports. Registration happens at the border. Allow extra time on your first entry.",
@@ -1611,6 +1613,7 @@
           "currency": "EUR",
           "notes": "Free for under-18s and over-70s. Valid 3 years or until passport expiry."
         },
+        "submitAt": "before-travel",
         "submitWindow": "Before travel, once mandatory",
         "url": "https://travel-europe.europa.eu/en/etias",
         "text": "ETIAS will also apply to Switzerland as a Schengen associate: visa-exempt travelers will need the authorization to enter. It is being phased in. Check the official EU site for the current status and apply only there.",

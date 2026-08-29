@@ -1538,6 +1538,7 @@
     "vaccinations": [],
     "travelInsurance": {
       "required": true,
+      "appliesTo": "visa-applicants",
       "minCoverage": {
         "amount": 30000,
         "currency": "EUR"
@@ -1580,6 +1581,7 @@
         "name": "EES — Entry/Exit System (biometric registration)",
         "mandatory": true,
         "fee": null,
+        "submitAt": "on-arrival",
         "submitWindow": "At the border on first entry",
         "url": "https://travel-europe.europa.eu/en/ees",
         "text": "Non-EU travelers are registered biometrically (fingerprints and photo) in the EU Entry/Exit System at Schengen external borders. Registration happens at the border. There is nothing to submit in advance, but allow extra time on your first entry.",
@@ -1605,6 +1607,7 @@
           "currency": "EUR",
           "notes": "Free for under-18s and over-70s. Valid 3 years or until passport expiry."
         },
+        "submitAt": "before-travel",
         "submitWindow": "Before travel, once mandatory",
         "url": "https://travel-europe.europa.eu/en/etias",
         "text": "Visa-exempt travelers will need an ETIAS travel authorization to enter the Schengen Area. It is being phased in. Check the official EU site for the current status and apply only there.",

@@ -1064,6 +1064,7 @@
     "vaccinations": [],
     "travelInsurance": {
       "required": true,
+      "appliesTo": "visa-applicants",
       "minCoverage": {
         "amount": 30000,
         "currency": "EUR"
@@ -1116,6 +1117,7 @@
         "name": "EES — Entry/Exit System (via Italy)",
         "mandatory": true,
         "fee": null,
+        "submitAt": "on-arrival",
         "submitWindow": "At the Schengen border on first entry",
         "url": "https://travel-europe.europa.eu/en/ees",
         "text": "Non-EU travelers are registered biometrically in the EU Entry/Exit System when they first cross a Schengen external border — for Vatican visitors that means on arrival in Italy or another Schengen state, not at the Vatican itself.",
@@ -1141,6 +1143,7 @@
           "currency": "EUR",
           "notes": "Free for under-18s and over-70s. Valid 3 years or until passport expiry."
         },
+        "submitAt": "before-travel",
         "submitWindow": "Before travel, once mandatory",
         "url": "https://travel-europe.europa.eu/en/etias",
         "text": "Visa-exempt travelers will need an ETIAS authorization to enter the Schengen Area, and therefore to reach Vatican City through Italy. It is being phased in; check the official EU site for the current status.",

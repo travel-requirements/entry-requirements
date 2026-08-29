@@ -1652,6 +1652,7 @@
     ],
     "travelInsurance": {
       "required": false,
+      "appliesTo": null,
       "minCoverage": null,
       "text": "Travel insurance is not an entry requirement, but medical coverage including evacuation is strongly recommended — serious cases on the islands are often evacuated to Jakarta or Singapore.",
       "source": {
@@ -1693,6 +1694,7 @@
         "name": "Electronic Customs Declaration (e-CD)",
         "mandatory": true,
         "fee": null,
+        "submitAt": "before-travel",
         "submitWindow": "Within 3 days before arrival",
         "url": "https://ecd.beacukai.go.id/",
         "text": "All arriving passengers must submit the electronic customs declaration online and show the QR code on landing. It is free. Use only the official customs website.",
@@ -1718,6 +1720,7 @@
           "currency": "IDR",
           "notes": "One-off levy per foreign visitor to Bali; pay online in advance or on arrival."
         },
+        "submitAt": "on-arrival",
         "submitWindow": "Before or on arrival in Bali",
         "url": "https://lovebali.baliprov.go.id/",
         "text": "Applies only to foreign tourists visiting Bali province, not to the rest of Indonesia. Pay via the official Love Bali site and keep the QR receipt; enforcement checks have been intermittent. Verify current practice before travel.",

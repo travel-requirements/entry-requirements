@@ -2061,6 +2061,20 @@
             "required": {
               "type": "boolean"
             },
+            "appliesTo": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "all",
+                    "visa-applicants"
+                  ]
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
             "minCoverage": {
               "anyOf": [
                 {
@@ -2165,6 +2179,7 @@
           },
           "required": [
             "required",
+            "appliesTo",
             "minCoverage",
             "text"
           ],
@@ -2433,6 +2448,13 @@
                   }
                 ]
               },
+              "submitAt": {
+                "type": "string",
+                "enum": [
+                  "before-travel",
+                  "on-arrival"
+                ]
+              },
               "submitWindow": {
                 "anyOf": [
                   {
@@ -2536,6 +2558,7 @@
               "name",
               "mandatory",
               "fee",
+              "submitAt",
               "submitWindow",
               "url",
               "text"

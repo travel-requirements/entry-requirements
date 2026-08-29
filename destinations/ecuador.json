@@ -1404,6 +1404,7 @@
     ],
     "travelInsurance": {
       "required": true,
+      "appliesTo": "all",
       "minCoverage": null,
       "text": "Ecuadorian law requires foreign visitors to hold health insurance valid for the duration of their stay. Enforcement at mainland airports is inconsistent, but the requirement is real and is checked more often for Galápagos travelers. Carry a printed policy showing medical coverage and dates.",
       "source": {
@@ -1459,6 +1460,7 @@
           "currency": "USD",
           "notes": "Payable at the Galápagos control desk in Quito or Guayaquil airport before check-in; some airlines and tour operators pre-register it."
         },
+        "submitAt": "before-travel",
         "submitWindow": "Before boarding a flight to the Galápagos",
         "url": "https://www.gobiernogalapagos.gob.ec/",
         "text": "Everyone flying to the Galápagos must register at the Galápagos Governing Council desk in Quito or Guayaquil, pay the transit control card fee and have their luggage inspected for biological material before check-in. Keep the card. It is collected when you leave the islands.",
@@ -1475,6 +1477,7 @@
         "name": "Customs declaration",
         "mandatory": true,
         "fee": null,
+        "submitAt": "on-arrival",
         "submitWindow": "On arrival",
         "url": null,
         "text": "A customs declaration covering goods, cash and agricultural products is completed on arrival.",

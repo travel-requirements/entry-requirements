@@ -1911,6 +1911,7 @@
     ],
     "travelInsurance": {
       "required": false,
+      "appliesTo": null,
       "minCoverage": null,
       "text": "Insurance is not checked at the border, but Palau is a diving destination with limited hospital capacity — cover that includes diving accidents and medical evacuation to Guam or Manila is strongly recommended.",
       "source": {
@@ -1954,6 +1955,7 @@
           "currency": "USD",
           "notes": "Charged per departing visitor."
         },
+        "submitAt": "before-travel",
         "submitWindow": "Normally collected with the air ticket at the time of booking",
         "url": null,
         "text": "Every departing visitor pays a USD 100 environmental fee that funds Palau's conservation and marine sanctuary. Airlines usually collect it inside the ticket price. Check your fare breakdown, and be ready to pay at the airport if it was not included.",
@@ -1970,6 +1972,7 @@
         "name": "Arrival and customs declaration",
         "mandatory": true,
         "fee": null,
+        "submitAt": "on-arrival",
         "submitWindow": "Completed on the aircraft or at Roman Tmetuchl International Airport on arrival",
         "url": null,
         "text": "An arrival card and a combined customs and biosecurity declaration are handed out on the inbound flight. Declare all food, plants and animal products.",
