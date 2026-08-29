@@ -3868,6 +3868,76 @@
       "old": "180 days per calendar year",
       "new": "180 days in any one-year period",
       "sourceUrl": "https://www.mfa.am/en/visa/"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-08-29",
+      "destination": "iran",
+      "path": "visaPolicy.byPassport.EG,KZ.requirement",
+      "field": "Egyptian and Kazakhstani citizens: entry regime",
+      "old": "eVisa (30 days)",
+      "new": "Visa-free — both are named in the MFA portal's visa-waiver sentence",
+      "sourceUrl": "https://evisa.mfa.ir/"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-08-29",
+      "destination": "iran",
+      "path": "visaPolicy.byPassport.*.maxStayDays",
+      "field": "Visa-free stay for the 27 countries listed by the MFA portal (incl. Croatia, previously eVisa)",
+      "old": "30 days",
+      "new": "15 days, non-extendable, once every six months",
+      "sourceUrl": "https://evisa.mfa.ir/"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-08-29",
+      "destination": "saudi-arabia",
+      "path": "visaPolicy.byPassport.BB,BS,GD,KN.requirement",
+      "field": "Bahamian, Barbadian, Grenadian and Kittitian citizens: entry regime",
+      "old": "Embassy visa — \"not on the tourist eVisa list\"",
+      "new": "eVisa — all four are on the portal's list of 66 eligible countries",
+      "sourceUrl": "https://visa.visitsaudi.com/"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-08-29",
+      "destination": "mongolia",
+      "path": "visaPolicy.byPassport.EC,MV,MC,PE,PY,UY,UZ,VN.requirement",
+      "field": "Ecuadorian, Maldivian, Monegasque, Peruvian, Paraguayan, Uruguayan, Uzbek and Vietnamese citizens: entry regime",
+      "old": "eVisa (30 days)",
+      "new": "Visa-free — all eight are on the eVisa portal's own visa-free list",
+      "sourceUrl": "https://evisa.mn/"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-08-29",
+      "destination": "russia",
+      "path": "visaTypes[unified-evisa].stayDays + visaPolicy.byPassport.*.maxStayDays",
+      "field": "Unified e-visa: permitted stay and validity",
+      "old": "16 days' stay, valid 60 days from issue",
+      "new": "30 days' stay, valid 120 days from issue",
+      "sourceUrl": "https://evisa.kdmid.ru/"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-08-29",
+      "destination": "tonga",
+      "path": "visaPolicy.byPassport.*.maxStayDays + visaTypes[visitor-visa-arrival].stayDays",
+      "field": "Visitor's visa issued on arrival",
+      "old": "31 days",
+      "new": "30 days, as stated by the Immigration Division",
+      "sourceUrl": "https://www.revenue.gov.to/immigration-and-general-services"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-08-29",
+      "destination": "tonga",
+      "path": "visaPolicy.byPassport.<EU-26>.source",
+      "field": "Source behind the 90-days-in-180 visa waiver for EU citizens",
+      "old": "Tonga Immigration Division page, which does not mention the waiver",
+      "new": "EU–Tonga short-stay visa waiver agreement, OJ L 317, 3.12.2015",
+      "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:22015A1203(01)"
     }
   ]
 }

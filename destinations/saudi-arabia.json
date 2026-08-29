@@ -22,7 +22,7 @@
   ],
   "summary": "Saudi Arabia offers citizens of around 60 countries a one-year multiple-entry tourist eVisa (with mandatory medical insurance bundled into the fee) allowing stays of up to 90 days, gives the same group and holders of valid US, UK or Schengen visas a visa on arrival, and routes everyone else through embassy visas or the separate Hajj and Umrah regimes.",
   "meta": {
-    "lastUpdated": "2026-08-27",
+    "lastUpdated": "2026-08-29",
     "lastFullReview": "2026-08-25",
     "reviewIntervalDays": 7,
     "primarySources": [
@@ -30,13 +30,9 @@
         "url": "https://visa.visitsaudi.com/",
         "name": "Visit Saudi — official tourist eVisa portal",
         "type": "government",
-        "lastVerified": "2026-08-25",
+        "lastVerified": "2026-08-29",
         "archiveUrl": "https://web.archive.org/web/20260717064650/https://visa.visitsaudi.com/",
-        "unverifiable": {
-          "lastAttempt": "2026-08-28",
-          "reason": "blocked",
-          "status": 403
-        }
+        "lastChanged": "2026-08-29"
       },
       {
         "url": "https://www.mofa.gov.sa/en/Pages/default.aspx",
@@ -66,13 +62,9 @@
       "url": "https://visa.visitsaudi.com/",
       "name": "Visit Saudi — tourist eVisa eligibility and conditions",
       "type": "government",
-      "lastVerified": "2026-08-25",
+      "lastVerified": "2026-08-29",
       "archiveUrl": "https://web.archive.org/web/20260717064650/https://visa.visitsaudi.com/",
-      "unverifiable": {
-        "lastAttempt": "2026-08-28",
-        "reason": "blocked",
-        "status": 403
-      }
+      "lastChanged": "2026-08-29"
     },
     "byPassport": {
       "US": {
@@ -514,9 +506,13 @@
         "notes": "Eligible for the one-year multiple-entry tourist eVisa (stays up to 90 days); a visa on arrival is also available at major airports for a similar fee."
       },
       "BS": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "notes": "Not on the tourist eVisa list. Visas are issued through Saudi embassies, most commonly for work, family visit or Umrah. Holders of a valid, previously used US, UK or Schengen visa may qualify for a visa on arrival. Confirm before traveling."
+        "requirement": "evisa",
+        "maxStayDays": 90,
+        "visaTypes": [
+          "tourist-evisa",
+          "voa"
+        ],
+        "notes": "Eligible for the one-year multiple-entry tourist eVisa (stays up to 90 days); a visa on arrival is also available at major airports for a similar fee."
       },
       "BH": {
         "requirement": "freedom-of-movement",
@@ -529,9 +525,13 @@
         "notes": "Not on the tourist eVisa list. Visas are issued through Saudi embassies, most commonly for work, family visit or Umrah. Holders of a valid, previously used US, UK or Schengen visa may qualify for a visa on arrival. Confirm before traveling."
       },
       "BB": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "notes": "Not on the tourist eVisa list. Visas are issued through Saudi embassies, most commonly for work, family visit or Umrah. Holders of a valid, previously used US, UK or Schengen visa may qualify for a visa on arrival. Confirm before traveling."
+        "requirement": "evisa",
+        "maxStayDays": 90,
+        "visaTypes": [
+          "tourist-evisa",
+          "voa"
+        ],
+        "notes": "Eligible for the one-year multiple-entry tourist eVisa (stays up to 90 days); a visa on arrival is also available at major airports for a similar fee."
       },
       "BY": {
         "requirement": "embassy-visa",
@@ -808,9 +808,13 @@
         "notes": "Eligible for the one-year multiple-entry tourist eVisa (stays up to 90 days); a visa on arrival is also available at major airports for a similar fee."
       },
       "GD": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "notes": "Not on the tourist eVisa list. Visas are issued through Saudi embassies, most commonly for work, family visit or Umrah. Holders of a valid, previously used US, UK or Schengen visa may qualify for a visa on arrival. Confirm before traveling."
+        "requirement": "evisa",
+        "maxStayDays": 90,
+        "visaTypes": [
+          "tourist-evisa",
+          "voa"
+        ],
+        "notes": "Eligible for the one-year multiple-entry tourist eVisa (stays up to 90 days); a visa on arrival is also available at major airports for a similar fee."
       },
       "GT": {
         "requirement": "embassy-visa",
@@ -1214,9 +1218,13 @@
         "notes": "Not on the tourist eVisa list. Visas are issued through Saudi embassies, most commonly for work, family visit or Umrah. Holders of a valid, previously used US, UK or Schengen visa may qualify for a visa on arrival. Confirm before traveling."
       },
       "KN": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "notes": "Not on the tourist eVisa list. Visas are issued through Saudi embassies, most commonly for work, family visit or Umrah. Holders of a valid, previously used US, UK or Schengen visa may qualify for a visa on arrival. Confirm before traveling."
+        "requirement": "evisa",
+        "maxStayDays": 90,
+        "visaTypes": [
+          "tourist-evisa",
+          "voa"
+        ],
+        "notes": "Eligible for the one-year multiple-entry tourist eVisa (stays up to 90 days); a visa on arrival is also available at major airports for a similar fee."
       },
       "LC": {
         "requirement": "embassy-visa",
