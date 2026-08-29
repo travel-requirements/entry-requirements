@@ -2067,7 +2067,8 @@
                   "type": "string",
                   "enum": [
                     "all",
-                    "visa-applicants"
+                    "visa-applicants",
+                    "visa-free-arrivals"
                   ]
                 },
                 {
@@ -2191,6 +2192,21 @@
             "required": {
               "type": "boolean"
             },
+            "appliesTo": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "all",
+                    "visa-applicants",
+                    "visa-free-arrivals"
+                  ]
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
             "text": {
               "type": "string"
             },
@@ -2270,6 +2286,7 @@
           },
           "required": [
             "required",
+            "appliesTo",
             "text"
           ],
           "additionalProperties": false
@@ -2279,6 +2296,21 @@
           "properties": {
             "required": {
               "type": "boolean"
+            },
+            "appliesTo": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "all",
+                    "visa-applicants",
+                    "visa-free-arrivals"
+                  ]
+                },
+                {
+                  "type": "null"
+                }
+              ]
             },
             "amount": {
               "anyOf": [
@@ -2393,6 +2425,7 @@
           },
           "required": [
             "required",
+            "appliesTo",
             "amount",
             "text"
           ],

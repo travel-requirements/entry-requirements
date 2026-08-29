@@ -1509,7 +1509,7 @@
     ],
     "travelInsurance": {
       "required": true,
-      "appliesTo": "all",
+      "appliesTo": "visa-free-arrivals",
       "minCoverage": null,
       "text": "Visa-free entry formally requires health insurance covering the stay, alongside a return ticket and accommodation booking — checks are inconsistent, but carry proof.",
       "source": {
@@ -1522,6 +1522,7 @@
     },
     "onwardTicket": {
       "required": true,
+      "appliesTo": "visa-free-arrivals",
       "text": "Visa-free visitors must hold a confirmed return or onward ticket and may be asked for proof of accommodation.",
       "source": {
         "url": "https://evisa.rop.gov.om/",
@@ -1533,6 +1534,7 @@
     },
     "proofOfFunds": {
       "required": false,
+      "appliesTo": null,
       "amount": null,
       "text": "No fixed amount is published; border officers may ask visitors to show means of support for their stay.",
       "source": {
