@@ -20,36 +20,30 @@
     "ecuador",
     "paraguay"
   ],
-  "summary": "Bolivia sorts passports into three groups: Group 1 — the EU, the UK, most of the Americas and a handful of others — enters visa-free for up to 90 days a year; Group 2 pays for a tourist visa, obtainable on arrival or at a consulate, with US citizens charged a USD 160 reciprocity fee for a ten-year visa; Group 3 needs prior authorization from the Bolivian authorities before a consulate can issue anything.",
+  "summary": "Bolivia sorts passports into three groups: Group 1 — most of the EU, the UK, the United States, most of the Americas and a number of others — enters visa-free for up to 90 days a year; Group 2 pays for a tourist visa, obtainable on arrival or at a consulate; Group 3 needs a consular visa, issued after prior authorization from the Bolivian authorities.",
   "meta": {
-    "lastUpdated": "2026-08-29",
-    "lastFullReview": "2026-08-26",
+    "lastUpdated": "2026-09-26",
+    "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
       {
-        "url": "https://www.migracion.gob.bo/",
-        "name": "Dirección General de Migración de Bolivia",
+        "url": "https://migracion.gob.bo/",
+        "name": "Dirección General de Migración de Bolivia — requirements to enter Bolivia as a tourist or visitor (country groups)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260723075631/https://migracion.gob.bo/",
-        "unverifiable": {
-          "lastAttempt": "2026-09-01",
-          "reason": "unreachable"
-        }
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26",
+        "instrument": "Decreto Supremo N° 27150 of 3 September 2003 (visa exemption list), as amended by Decreto Supremo N° 5497 of 1 December 2025"
       }
     ]
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://www.migracion.gob.bo/",
-      "name": "Dirección General de Migración de Bolivia",
+      "url": "https://migracion.gob.bo/",
+      "name": "Dirección General de Migración de Bolivia — requirements to enter Bolivia as a tourist or visitor (country groups)",
       "type": "government",
-      "lastVerified": "2026-08-26",
-      "archiveUrl": "https://web.archive.org/web/20260723075631/https://migracion.gob.bo/",
-      "unverifiable": {
-        "lastAttempt": "2026-09-01",
-        "reason": "unreachable"
-      }
+      "lastVerified": "2026-09-26",
+      "lastChanged": "2026-09-26",
+      "instrument": "Decreto Supremo N° 27150 of 3 September 2003 (visa exemption list), as amended by Decreto Supremo N° 5497 of 1 December 2025"
     },
     "byPassport": {
       "AF": {
@@ -61,9 +55,13 @@
         "notes": "Group 3 nationality. A consulate can only issue a visa after prior authorization from the Bolivian authorities. Allow several weeks to a couple of months and expect to name a host or sponsor."
       },
       "AL": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "extendableDays": 60,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "DZ": {
         "requirement": "visa-on-arrival",
@@ -80,22 +78,17 @@
         "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
       },
       "AO": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "extendableDays": 60,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "tourist-visa"
+          "consular-visa"
         ],
-        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
+        "notes": "Group 3 nationality. A consulate can only issue a visa after prior authorization from the Bolivian authorities. Allow several weeks to a couple of months and expect to name a host or sponsor."
       },
       "AG": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "extendableDays": 60,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
       },
       "AR": {
         "requirement": "visa-free",
@@ -149,12 +142,13 @@
         "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "BD": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "extendableDays": 60,
         "visaTypes": [
-          "consular-visa"
+          "tourist-visa"
         ],
-        "notes": "Group 3 nationality. A consulate can only issue a visa after prior authorization from the Bolivian authorities. Allow several weeks to a couple of months and expect to name a host or sponsor."
+        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "BB": {
         "requirement": "visa-on-arrival",
@@ -166,9 +160,13 @@
         "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "BY": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "extendableDays": 60,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "BE": {
         "requirement": "visa-free",
@@ -176,9 +174,13 @@
         "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
       },
       "BZ": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "extendableDays": 60,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "BJ": {
         "requirement": "visa-on-arrival",
@@ -190,13 +192,12 @@
         "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "BT": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "extendableDays": 60,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "tourist-visa"
+          "consular-visa"
         ],
-        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
+        "notes": "Group 3 nationality. A consulate can only issue a visa after prior authorization from the Bolivian authorities. Allow several weeks to a couple of months and expect to name a host or sponsor."
       },
       "BO": {
         "requirement": "freedom-of-movement",
@@ -204,9 +205,13 @@
         "notes": "Home country. No entry requirements for Bolivian citizens."
       },
       "BA": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "extendableDays": 60,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "BW": {
         "requirement": "visa-on-arrival",
@@ -264,13 +269,12 @@
         "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "KH": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "extendableDays": 60,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "tourist-visa"
+          "consular-visa"
         ],
-        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
+        "notes": "Group 3 nationality. A consulate can only issue a visa after prior authorization from the Bolivian authorities. Allow several weeks to a couple of months and expect to name a host or sponsor."
       },
       "CM": {
         "requirement": "visa-on-arrival",
@@ -296,13 +300,12 @@
         "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "TD": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "extendableDays": 60,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "tourist-visa"
+          "consular-visa"
         ],
-        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
+        "notes": "Group 3 nationality. A consulate can only issue a visa after prior authorization from the Bolivian authorities. Allow several weeks to a couple of months and expect to name a host or sponsor."
       },
       "CL": {
         "requirement": "visa-free",
@@ -361,9 +364,13 @@
         "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "CY": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "extendableDays": 60,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "CZ": {
         "requirement": "visa-free",
@@ -439,12 +446,13 @@
         "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "ER": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "extendableDays": 60,
         "visaTypes": [
-          "consular-visa"
+          "tourist-visa"
         ],
-        "notes": "Group 3 nationality. A consulate can only issue a visa after prior authorization from the Bolivian authorities. Allow several weeks to a couple of months and expect to name a host or sponsor."
+        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "EE": {
         "requirement": "visa-free",
@@ -461,12 +469,13 @@
         "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "ET": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "extendableDays": 60,
         "visaTypes": [
-          "consular-visa"
+          "tourist-visa"
         ],
-        "notes": "Group 3 nationality. A consulate can only issue a visa after prior authorization from the Bolivian authorities. Allow several weeks to a couple of months and expect to name a host or sponsor."
+        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "FJ": {
         "requirement": "visa-on-arrival",
@@ -543,9 +552,13 @@
         "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "GT": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "extendableDays": 60,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "GN": {
         "requirement": "visa-on-arrival",
@@ -566,9 +579,13 @@
         "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "GY": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "extendableDays": 60,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "HT": {
         "requirement": "visa-on-arrival",
@@ -613,6 +630,14 @@
         "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "ID": {
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "consular-visa"
+        ],
+        "notes": "Group 3 nationality. A consulate can only issue a visa after prior authorization from the Bolivian authorities. Allow several weeks to a couple of months and expect to name a host or sponsor."
+      },
+      "IR": {
         "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "extendableDays": 60,
@@ -620,14 +645,6 @@
           "tourist-visa"
         ],
         "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
-      },
-      "IR": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "consular-visa"
-        ],
-        "notes": "Group 3 nationality. A consulate can only issue a visa after prior authorization from the Bolivian authorities. Allow several weeks to a couple of months and expect to name a host or sponsor."
       },
       "IQ": {
         "requirement": "embassy-visa",
@@ -643,12 +660,9 @@
         "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
       },
       "IL": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "consular-visa"
-        ],
-        "notes": "Israeli passport holders have long been placed in Bolivia's restricted group requiring prior authorization, and Bolivia severed diplomatic relations with Israel in 2023 — consular processing may be unavailable. Confirm the current position before making any plans."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
       },
       "IT": {
         "requirement": "visa-free",
@@ -732,13 +746,12 @@
         "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "LA": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "extendableDays": 60,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "tourist-visa"
+          "consular-visa"
         ],
-        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
+        "notes": "Group 3 nationality. A consulate can only issue a visa after prior authorization from the Bolivian authorities. Allow several weeks to a couple of months and expect to name a host or sponsor."
       },
       "LV": {
         "requirement": "visa-free",
@@ -896,9 +909,13 @@
         "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "MD": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "extendableDays": 60,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "MC": {
         "requirement": "visa-free",
@@ -915,9 +932,13 @@
         "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "ME": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "extendableDays": 60,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "MA": {
         "requirement": "visa-on-arrival",
@@ -984,9 +1005,13 @@
         "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
       },
       "NI": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "extendableDays": 60,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "NE": {
         "requirement": "visa-on-arrival",
@@ -1014,9 +1039,13 @@
         "notes": "Group 3 nationality. A consulate can only issue a visa after prior authorization from the Bolivian authorities. Allow several weeks to a couple of months and expect to name a host or sponsor."
       },
       "MK": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "extendableDays": 60,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "NO": {
         "requirement": "visa-free",
@@ -1050,13 +1079,9 @@
         "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "PS": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "extendableDays": 60,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
       },
       "PA": {
         "requirement": "visa-free",
@@ -1083,13 +1108,9 @@
         "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
       },
       "PH": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "extendableDays": 60,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
       },
       "PL": {
         "requirement": "visa-free",
@@ -1111,13 +1132,12 @@
         "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "CG": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "extendableDays": 60,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "tourist-visa"
+          "consular-visa"
         ],
-        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
+        "notes": "Group 3 nationality. A consulate can only issue a visa after prior authorization from the Bolivian authorities. Allow several weeks to a couple of months and expect to name a host or sponsor."
       },
       "RO": {
         "requirement": "visa-free",
@@ -1130,13 +1150,12 @@
         "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
       },
       "RW": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "extendableDays": 60,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "tourist-visa"
+          "consular-visa"
         ],
-        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
+        "notes": "Group 3 nationality. A consulate can only issue a visa after prior authorization from the Bolivian authorities. Allow several weeks to a couple of months and expect to name a host or sponsor."
       },
       "KN": {
         "requirement": "visa-on-arrival",
@@ -1157,13 +1176,9 @@
         "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "VC": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "extendableDays": 60,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
       },
       "WS": {
         "requirement": "visa-on-arrival",
@@ -1175,9 +1190,13 @@
         "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "SM": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "extendableDays": 60,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "ST": {
         "requirement": "visa-on-arrival",
@@ -1207,9 +1226,13 @@
         "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "RS": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "extendableDays": 60,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "SC": {
         "requirement": "visa-on-arrival",
@@ -1266,13 +1289,9 @@
         "notes": "Group 3 nationality. A consulate can only issue a visa after prior authorization from the Bolivian authorities. Allow several weeks to a couple of months and expect to name a host or sponsor."
       },
       "ZA": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "extendableDays": 60,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
       },
       "KR": {
         "requirement": "visa-free",
@@ -1293,12 +1312,13 @@
         "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
       },
       "LK": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "extendableDays": 60,
         "visaTypes": [
-          "consular-visa"
+          "tourist-visa"
         ],
-        "notes": "Group 3 nationality. A consulate can only issue a visa after prior authorization from the Bolivian authorities. Allow several weeks to a couple of months and expect to name a host or sponsor."
+        "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "SD": {
         "requirement": "embassy-visa",
@@ -1444,11 +1464,6 @@
         "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
       "UA": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
-      },
-      "AE": {
         "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "extendableDays": 60,
@@ -1457,19 +1472,20 @@
         ],
         "notes": "Group 2 nationality — a paid tourist visa, obtainable on arrival at a main airport or land border, or in advance at a consulate. Around USD 30 in clean cash US dollars; stays total up to 90 days per calendar year."
       },
+      "AE": {
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
+      },
       "GB": {
         "requirement": "visa-free",
         "maxStayDays": 90,
         "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
       },
       "US": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "extendableDays": 60,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "US citizens are Group 2 and pay a USD 160 reciprocity fee for a ten-year multiple-entry tourist visa, available on arrival or at a consulate. Each visit still counts toward a 90-day annual limit, and the fee must be paid in pristine cash US dollars."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Group 1 nationality. No visa needed for tourism, up to 90 days within a calendar year. Entry stamps are often issued for 30 days and topped up free of charge at a migration office."
       },
       "UY": {
         "requirement": "visa-free",
@@ -1550,7 +1566,7 @@
       "fee": {
         "amount": 30,
         "currency": "USD",
-        "notes": "Around USD 30 for most Group 2 nationalities. US citizens pay USD 160 for a ten-year multiple-entry visa. Payment is in cash US dollars — clean, unmarked notes only."
+        "notes": "Around USD 30 for most Group 2 nationalities. Payment is in cash US dollars — clean, unmarked notes only."
       },
       "processing": {
         "minDays": 20,
@@ -1572,7 +1588,7 @@
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260723075631/https://migracion.gob.bo/",
         "unverifiable": {
-          "lastAttempt": "2026-09-01",
+          "lastAttempt": "2026-09-26",
           "reason": "unreachable"
         }
       }
@@ -1603,7 +1619,7 @@
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260723075631/https://migracion.gob.bo/",
         "unverifiable": {
-          "lastAttempt": "2026-09-01",
+          "lastAttempt": "2026-09-26",
           "reason": "unreachable"
         }
       }
@@ -1634,7 +1650,7 @@
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260723075631/https://migracion.gob.bo/",
         "unverifiable": {
-          "lastAttempt": "2026-09-01",
+          "lastAttempt": "2026-09-26",
           "reason": "unreachable"
         }
       }
@@ -1651,7 +1667,7 @@
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260723075631/https://migracion.gob.bo/",
         "unverifiable": {
-          "lastAttempt": "2026-09-01",
+          "lastAttempt": "2026-09-26",
           "reason": "unreachable"
         }
       }
@@ -1665,7 +1681,7 @@
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260723075631/https://migracion.gob.bo/",
         "unverifiable": {
-          "lastAttempt": "2026-09-01",
+          "lastAttempt": "2026-09-26",
           "reason": "unreachable"
         }
       }
@@ -1684,7 +1700,7 @@
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260723075631/https://migracion.gob.bo/",
           "unverifiable": {
-            "lastAttempt": "2026-09-01",
+            "lastAttempt": "2026-09-26",
             "reason": "unreachable"
           }
         }
@@ -1702,7 +1718,7 @@
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260723075631/https://migracion.gob.bo/",
         "unverifiable": {
-          "lastAttempt": "2026-09-01",
+          "lastAttempt": "2026-09-26",
           "reason": "unreachable"
         }
       }
@@ -1718,7 +1734,7 @@
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260723075631/https://migracion.gob.bo/",
         "unverifiable": {
-          "lastAttempt": "2026-09-01",
+          "lastAttempt": "2026-09-26",
           "reason": "unreachable"
         }
       }
@@ -1735,7 +1751,7 @@
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260723075631/https://migracion.gob.bo/",
         "unverifiable": {
-          "lastAttempt": "2026-09-01",
+          "lastAttempt": "2026-09-26",
           "reason": "unreachable"
         }
       }
@@ -1757,7 +1773,7 @@
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260723075631/https://migracion.gob.bo/",
           "unverifiable": {
-            "lastAttempt": "2026-09-01",
+            "lastAttempt": "2026-09-26",
             "reason": "unreachable"
           }
         }
@@ -1773,7 +1789,7 @@
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260723075631/https://migracion.gob.bo/",
           "unverifiable": {
-            "lastAttempt": "2026-09-01",
+            "lastAttempt": "2026-09-26",
             "reason": "unreachable"
           }
         }
@@ -1803,7 +1819,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/bolivia",
         "name": "UK Foreign, Commonwealth & Development Office — Bolivia travel advice",
         "type": "government",
-        "lastVerified": "2026-08-29",
+        "lastVerified": "2026-09-26",
         "archiveUrl": "https://web.archive.org/web/20260803044100/https://www.gov.uk/foreign-travel-advice/bolivia"
       }
     },
@@ -1872,12 +1888,12 @@
     {
       "id": "do-i-need-a-visa",
       "question": "Do I need a visa for Bolivia?",
-      "answer": "It depends on which of Bolivia's three groups your passport falls into. Group 1 — the EU and Schengen states, the UK, Canada, Japan, South Korea, Turkey, Russia, Australia, New Zealand and almost all of Latin America — needs no visa and gets up to 90 days a year. Group 2, which includes the United States, pays for a tourist visa that can be issued on arrival or at a consulate. Group 3 needs prior authorization from Bolivia before a consulate can issue a visa."
+      "answer": "It depends on which of Bolivia's three groups your passport falls into. Group 1 — most EU and Schengen states, the UK, the United States, Canada, Japan, South Korea, Israel, Turkey, Russia, Australia, New Zealand and most of Latin America — needs no visa and gets up to 90 days a year. Group 2 pays for a tourist visa that can be issued on arrival or at a consulate. Group 3 needs prior authorization from Bolivia before a consulate can issue a visa."
     },
     {
       "id": "us-citizens",
-      "question": "How much is a Bolivian visa for US citizens?",
-      "answer": "US passport holders are in Group 2 and pay a USD 160 reciprocity fee for a ten-year multiple-entry tourist visa. It can be obtained on arrival at an international airport or land border, or in advance at a Bolivian consulate. Each visit is still limited to 90 days per year, and the fee must be paid in cash US dollars in undamaged notes."
+      "question": "Do US citizens need a visa for Bolivia?",
+      "answer": "No. Since Supreme Decree 5497 of 1 December 2025, US passport holders are in Group 1 and no longer need a consular visa or entry authorization to visit Bolivia as tourists — the former USD 160 visa no longer applies. Stays count toward the 90-day annual limit for visa-free visitors."
     },
     {
       "id": "how-long-can-i-stay",

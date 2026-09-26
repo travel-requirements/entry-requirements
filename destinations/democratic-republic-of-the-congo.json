@@ -26,8 +26,8 @@
   ],
   "summary": "Most travelers to the DR Congo need a visa in advance — the official eVisa (evisa.gouv.cd) for arrivals at Kinshasa, an embassy visa, or a sponsor-arranged \"visa volant\" on arrival, and a yellow fever certificate is mandatory for everyone. The east of the country is an active conflict zone.",
   "meta": {
-    "lastUpdated": "2026-08-29",
-    "lastFullReview": "2026-08-26",
+    "lastUpdated": "2026-09-26",
+    "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
       {
@@ -1837,26 +1837,29 @@
       "method": "evisa",
       "name": "Tourist eVisa",
       "fee": {
-        "amount": 100,
+        "amount": 300,
         "currency": "USD",
-        "notes": "Approximate single-entry fee. The exact amount is shown during the official evisa.gouv.cd application."
+        "notes": "USD 50 non-refundable administrative fee plus USD 250 for the eVisa. The 7-day airport visa (VAP) it entitles you to costs a further USD 90, payable at the port of entry."
       },
       "processing": {
-        "minDays": 3,
-        "maxDays": 7,
-        "unit": "business-days"
+        "minDays": 0,
+        "maxDays": 3,
+        "unit": "calendar-days"
       },
       "validityDays": 90,
-      "stayDays": 30,
+      "stayDays": 7,
       "entries": "single",
+      "extendable": {
+        "possible": true,
+        "days": null
+      },
       "applyUrl": "https://evisa.gouv.cd/",
       "source": {
-        "url": "https://evisa.gouv.cd/",
-        "name": "DR Congo eVisa — Direction Générale de Migration",
+        "url": "https://evisa.gouv.cd/helps/faqs",
+        "name": "Direction Générale de Migration — eVisa RDC, Frequently Asked Questions",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260728211757/https://evisa.gouv.cd/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     },
     {
@@ -1917,12 +1920,10 @@
       "rule": "6-months-on-arrival",
       "text": "Your passport should be valid for at least 6 months on arrival with at least two blank pages.",
       "source": {
-        "url": "https://evisa.gouv.cd/",
-        "name": "DR Congo eVisa — Direction Générale de Migration",
+        "url": "https://www.gov.uk/foreign-travel-advice/democratic-republic-of-the-congo/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Democratic Republic of the Congo entry requirements",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260728211757/https://evisa.gouv.cd/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26"
       }
     },
     "vaccinations": [
@@ -1933,12 +1934,10 @@
         "requiredWhen": "always",
         "text": "Proof of yellow fever vaccination is required for all travelers aged 9 months and over. The certificate is checked on arrival and often again on departure.",
         "source": {
-          "url": "https://evisa.gouv.cd/",
-          "name": "DR Congo eVisa — Direction Générale de Migration",
+          "url": "https://www.gov.uk/foreign-travel-advice/democratic-republic-of-the-congo/entry-requirements",
+          "name": "UK Foreign, Commonwealth & Development Office — Democratic Republic of the Congo entry requirements",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260728211757/https://evisa.gouv.cd/",
-          "portalOnly": true
+          "lastVerified": "2026-09-26"
         }
       }
     ],
@@ -2020,7 +2019,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/democratic-republic-of-the-congo",
         "name": "UK Foreign, Commonwealth & Development Office — Democratic Republic of the Congo travel advice",
         "type": "government",
-        "lastVerified": "2026-08-29",
+        "lastVerified": "2026-09-26",
         "archiveUrl": "https://web.archive.org/web/20260731075635/https://www.gov.uk/foreign-travel-advice/democratic-republic-of-the-congo"
       }
     },
@@ -2067,7 +2066,7 @@
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
           "type": "igo",
-          "lastVerified": "2026-08-26",
+          "lastVerified": "2026-09-26",
           "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
           "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
         }
@@ -2083,7 +2082,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
         "type": "igo",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-26",
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }

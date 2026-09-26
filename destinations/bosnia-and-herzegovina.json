@@ -17,19 +17,18 @@
     "montenegro",
     "albania"
   ],
-  "summary": "Bosnia and Herzegovina lets citizens of the EU, EEA and most countries on the EU visa-free list — plus Russia, Turkey, China and the Gulf states — visit visa-free for up to 90 days in any 180 (30 days for Russians and Ukrainians), while other travelers need a short-stay visa from a Bosnian embassy or can enter for up to 30 days with a valid multiple-entry Schengen visa.",
+  "summary": "Bosnia and Herzegovina lets citizens of the EU, EEA and most countries on the EU visa-free list — plus Russia, Turkey, China, Kuwait, Qatar and the UAE — visit visa-free for up to 90 days in any 180 (30 days for Russians and Ukrainians), while other travelers need a short-stay visa from a Bosnian embassy or can enter for up to 30 days with a valid multiple-entry Schengen visa.",
   "meta": {
-    "lastUpdated": "2026-08-29",
-    "lastFullReview": "2026-08-26",
+    "lastUpdated": "2026-09-26",
+    "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
       {
-        "url": "https://www.mvp.gov.ba/",
-        "name": "Ministry of Foreign Affairs of Bosnia and Herzegovina — visa information",
+        "url": "https://www.mvp.gov.ba/en/vize",
+        "name": "Ministry of Foreign Affairs of Bosnia and Herzegovina — Visas (visa regime by country)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260829140207/https://www.mvp.gov.ba/bs",
-        "portalOnly": true
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     ],
     "modules": [
@@ -38,12 +37,11 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://www.mvp.gov.ba/",
-      "name": "Ministry of Foreign Affairs of Bosnia and Herzegovina — visa information",
+      "url": "https://www.mvp.gov.ba/en/vize",
+      "name": "Ministry of Foreign Affairs of Bosnia and Herzegovina — Visas (visa regime by country)",
       "type": "government",
-      "lastVerified": "2026-08-26",
-      "archiveUrl": "https://web.archive.org/web/20260829140207/https://www.mvp.gov.ba/bs",
-      "portalOnly": true
+      "lastVerified": "2026-09-26",
+      "lastChanged": "2026-09-26"
     },
     "byPassport": {
       "AF": {
@@ -109,6 +107,11 @@
         "notes": "Visa-free for up to 90 days in any 180-day period; EU and EEA citizens can enter with a national ID card instead of a passport."
       },
       "AZ": {
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days in any 180-day period."
+      },
+      "BS": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
@@ -116,15 +119,13 @@
         ],
         "notes": "A short-stay visa (type C) from a Bosnian embassy or consulate is required. Holders of a valid multiple-entry Schengen visa can instead enter visa-free for up to 30 days within the visa's validity."
       },
-      "BS": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free for up to 90 days in any 180-day period, in line with the EU's visa-free list."
-      },
       "BH": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Gulf state citizens can visit visa-free for up to 90 days in any 180-day period."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "short-stay-c"
+        ],
+        "notes": "A short-stay visa (type C) from a Bosnian embassy or consulate is required. A temporary exemption let holders of ordinary passports stay up to 60 days without a visa between 1 June and 30 September 2026; stays after 30 September 2026 need a visa. Holders of a valid multiple-entry Schengen visa can instead enter visa-free for up to 30 days within the visa's validity."
       },
       "BD": {
         "requirement": "embassy-visa",
@@ -459,12 +460,9 @@
         "notes": "A short-stay visa (type C) from a Bosnian embassy or consulate is required. Holders of a valid multiple-entry Schengen visa can instead enter visa-free for up to 30 days within the visa's validity."
       },
       "GE": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "short-stay-c"
-        ],
-        "notes": "A short-stay visa (type C) from a Bosnian embassy or consulate is required. Holders of a valid multiple-entry Schengen visa can instead enter visa-free for up to 30 days within the visa's validity."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days in any 180-day period."
       },
       "DE": {
         "requirement": "visa-free",
@@ -792,12 +790,9 @@
         "notes": "Visa-free for up to 90 days in any 180-day period, in line with the EU's visa-free list."
       },
       "MD": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "short-stay-c"
-        ],
-        "notes": "A short-stay visa (type C) from a Bosnian embassy or consulate is required. Holders of a valid multiple-entry Schengen visa can instead enter visa-free for up to 30 days within the visa's validity."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days in any 180-day period."
       },
       "MC": {
         "requirement": "visa-free",
@@ -850,9 +845,12 @@
         "notes": "A short-stay visa (type C) from a Bosnian embassy or consulate is required. Holders of a valid multiple-entry Schengen visa can instead enter visa-free for up to 30 days within the visa's validity."
       },
       "NR": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free for up to 90 days in any 180-day period, in line with the EU's visa-free list."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "short-stay-c"
+        ],
+        "notes": "A short-stay visa (type C) from a Bosnian embassy or consulate is required. Holders of a valid multiple-entry Schengen visa can instead enter visa-free for up to 30 days within the visa's validity."
       },
       "NP": {
         "requirement": "embassy-visa",
@@ -912,9 +910,12 @@
         "notes": "Visa-free for up to 90 days in any 180-day period; EU and EEA citizens can enter with a national ID card instead of a passport."
       },
       "OM": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Gulf state citizens can visit visa-free for up to 90 days in any 180-day period."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "short-stay-c"
+        ],
+        "notes": "A short-stay visa (type C) from a Bosnian embassy or consulate is required. A temporary exemption let holders of ordinary passports stay up to 60 days without a visa between 1 June and 30 September 2026; stays after 30 September 2026 need a visa. Holders of a valid multiple-entry Schengen visa can instead enter visa-free for up to 30 days within the visa's validity."
       },
       "PK": {
         "requirement": "embassy-visa",
@@ -999,7 +1000,7 @@
       "RU": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "Russian citizens can enter visa-free for up to 30 days per visit under the bilateral agreement — longer stays require a visa or residence grounds."
+        "notes": "Russian citizens can enter visa-free for up to 30 days with an original tourist voucher (contract for tourism services), or for up to 90 days with an invitation letter verified by the Service for Foreigners' Affairs, under the bilateral agreement."
       },
       "RW": {
         "requirement": "embassy-visa",
@@ -1043,9 +1044,12 @@
         "notes": "A short-stay visa (type C) from a Bosnian embassy or consulate is required. Holders of a valid multiple-entry Schengen visa can instead enter visa-free for up to 30 days within the visa's validity."
       },
       "SA": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Gulf state citizens can visit visa-free for up to 90 days in any 180-day period."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "short-stay-c"
+        ],
+        "notes": "A short-stay visa (type C) from a Bosnian embassy or consulate is required. A temporary exemption let holders of ordinary passports stay up to 60 days without a visa between 1 June and 30 September 2026; stays after 30 September 2026 need a visa. Holders of a valid multiple-entry Schengen visa can instead enter visa-free for up to 30 days within the visa's validity."
       },
       "SN": {
         "requirement": "embassy-visa",
@@ -1258,7 +1262,7 @@
       "UA": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "Ukrainian citizens can enter visa-free for short stays — commonly quoted as up to 30 days per visit under the bilateral agreement; confirm with a Bosnian mission before a longer trip."
+        "notes": "Ukrainian citizens can enter visa-free for up to 30 days within two months of the date of first entry."
       },
       "AE": {
         "requirement": "visa-free",
@@ -1289,12 +1293,9 @@
         "notes": "A short-stay visa (type C) from a Bosnian embassy or consulate is required. Holders of a valid multiple-entry Schengen visa can instead enter visa-free for up to 30 days within the visa's validity."
       },
       "VU": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "short-stay-c"
-        ],
-        "notes": "A short-stay visa (type C) from a Bosnian embassy or consulate is required. Holders of a valid multiple-entry Schengen visa can instead enter visa-free for up to 30 days within the visa's validity."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days in any 180-day period."
       },
       "VA": {
         "requirement": "visa-free",
@@ -1481,12 +1482,10 @@
       },
       "text": "A commonly cited guideline is around KM 150 per day of stay — rarely checked for tourists in practice, but confirm current requirements with a Bosnian mission before travel.",
       "source": {
-        "url": "https://www.mvp.gov.ba/",
-        "name": "Ministry of Foreign Affairs of Bosnia and Herzegovina — visa information",
+        "url": "https://www.mvp.gov.ba/en/vize",
+        "name": "Ministry of Foreign Affairs of Bosnia and Herzegovina — Visas (visa regime by country)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260829140207/https://www.mvp.gov.ba/bs",
-        "portalOnly": true
+        "lastVerified": "2026-09-26"
       }
     },
     "declarations": [
@@ -1545,7 +1544,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/bosnia-and-herzegovina",
         "name": "UK Foreign, Commonwealth & Development Office — Bosnia and Herzegovina travel advice",
         "type": "government",
-        "lastVerified": "2026-08-29",
+        "lastVerified": "2026-09-26",
         "archiveUrl": "https://web.archive.org/web/20260803114422/https://www.gov.uk/foreign-travel-advice/bosnia-and-herzegovina"
       }
     },
@@ -1591,7 +1590,7 @@
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
           "type": "igo",
-          "lastVerified": "2026-08-26",
+          "lastVerified": "2026-09-26",
           "instrument": "Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
           "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
         }
@@ -1607,7 +1606,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
         "type": "igo",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-26",
         "instrument": "Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
@@ -1644,7 +1643,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Bosnia and Herzegovina?",
-      "answer": "Most Western travelers do not: citizens of the EU, EEA, US, UK, Canada, Australia and the other countries on the EU visa-free list can stay up to 90 days in any 180-day period, and EU/EEA citizens can enter with just an ID card. Russia and Ukraine get 30 days per visit; Turkey, China and the Gulf states get 90 days. Everyone else needs a short-stay visa from a Bosnian mission."
+      "answer": "Most Western travelers do not: citizens of the EU, EEA, US, UK, Canada, Australia and the other countries on the EU visa-free list can stay up to 90 days in any 180-day period, and EU/EEA citizens can enter with just an ID card. Russia and Ukraine get 30 days per visit; Turkey, China, Kuwait, Qatar and the UAE get 90 days. Everyone else needs a short-stay visa from a Bosnian mission."
     },
     {
       "id": "schengen-visa",

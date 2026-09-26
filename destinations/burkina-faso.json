@@ -22,10 +22,16 @@
   ],
   "summary": "Apart from ECOWAS citizens, who enter freely, visitors to Burkina Faso need a visa arranged in advance through a Burkinabè embassy or the government's online visa service, and most Western governments currently advise against all travel because of widespread jihadist violence.",
   "meta": {
-    "lastUpdated": "2026-08-29",
-    "lastFullReview": "2026-08-26",
+    "lastUpdated": "2026-09-26",
+    "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
+      {
+        "url": "https://www.visaburkina.bf/les-visas-dentree-au-burkina-faso-le-visa-court-sejour/",
+        "name": "Visa Burkina (Ministère de la Sécurité / DGPN) — short-stay visa: conditions and fees",
+        "type": "government",
+        "lastVerified": "2026-09-26"
+      },
       {
         "url": "https://www.mae.gov.bf/",
         "name": "Ministry of Foreign Affairs of Burkina Faso",
@@ -1789,9 +1795,9 @@
       "method": "embassy",
       "name": "Embassy tourist visa",
       "fee": {
-        "amount": 60,
-        "currency": "EUR",
-        "notes": "Indicative short-stay fee — amounts vary by embassy, duration and number of entries; confirm with the mission handling your application."
+        "amount": 66000,
+        "currency": "XOF",
+        "notes": "Tourist visa, single or multiple entry. Applies to tourists and festival visitors; a booking of at least three nights at a Burkinabè hotel is required. Paying by card or mobile money adds the payment operator's charge."
       },
       "processing": {
         "minDays": 5,
@@ -1799,7 +1805,7 @@
         "unit": "business-days"
       },
       "validityDays": 90,
-      "stayDays": 30,
+      "stayDays": 90,
       "entries": "single",
       "extendable": {
         "possible": true,
@@ -1807,12 +1813,11 @@
       },
       "applyUrl": null,
       "source": {
-        "url": "https://www.mae.gov.bf/",
-        "name": "Ministry of Foreign Affairs of Burkina Faso",
+        "url": "https://www.visaburkina.bf/les-visas-dentree-au-burkina-faso-le-visa-court-sejour/",
+        "name": "Visa Burkina (Ministère de la Sécurité / DGPN) — short-stay visa: conditions and fees",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260829140218/https://diplomatie.gov.bf/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     },
     {
@@ -1821,9 +1826,9 @@
       "method": "evisa",
       "name": "e-Visa (online application)",
       "fee": {
-        "amount": 60,
-        "currency": "EUR",
-        "notes": "Indicative — Burkina Faso operates an online visa service, but availability varies; if you cannot use it, apply through an embassy."
+        "amount": 66000,
+        "currency": "XOF",
+        "notes": "Tourist visa, single or multiple entry. Applies to tourists and festival visitors; a booking of at least three nights at a Burkinabè hotel is required. Paying by card or mobile money adds the payment operator's charge."
       },
       "processing": {
         "minDays": 2,
@@ -1831,20 +1836,19 @@
         "unit": "business-days"
       },
       "validityDays": 90,
-      "stayDays": 30,
+      "stayDays": 90,
       "entries": "single",
       "extendable": {
         "possible": true,
         "days": null
       },
-      "applyUrl": null,
+      "applyUrl": "https://www.visaburkina.bf/",
       "source": {
-        "url": "https://www.mae.gov.bf/",
-        "name": "Ministry of Foreign Affairs of Burkina Faso",
+        "url": "https://www.visaburkina.bf/les-visas-dentree-au-burkina-faso-le-visa-court-sejour/",
+        "name": "Visa Burkina (Ministère de la Sécurité / DGPN) — short-stay visa: conditions and fees",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260829140218/https://diplomatie.gov.bf/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     }
   ],
@@ -1890,30 +1894,28 @@
       }
     ],
     "travelInsurance": {
-      "required": false,
-      "appliesTo": null,
+      "required": true,
+      "appliesTo": "visa-applicants",
       "minCoverage": null,
-      "text": "Not a formal entry requirement, but essential in practice — medical care is very limited and evacuation coverage is strongly advised given the security situation.",
+      "text": "Short-stay visa applicants must provide a health insurance certificate covering the whole stay, together with a medical certificate showing they have no contagious disease.",
       "source": {
-        "url": "https://www.mae.gov.bf/",
-        "name": "Ministry of Foreign Affairs of Burkina Faso",
+        "url": "https://www.visaburkina.bf/les-visas-dentree-au-burkina-faso-le-visa-court-sejour/",
+        "name": "Visa Burkina (Ministère de la Sécurité / DGPN) — short-stay visa: conditions and fees",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260829140218/https://diplomatie.gov.bf/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     },
     "onwardTicket": {
-      "required": false,
-      "appliesTo": null,
-      "text": "Visa applications typically ask for travel itinerary details; border officers may ask for evidence of onward or return travel.",
+      "required": true,
+      "appliesTo": "all",
+      "text": "Every foreigner must show border officers a return ticket, or a repatriation deposit or an exemption from it.",
       "source": {
-        "url": "https://www.mae.gov.bf/",
-        "name": "Ministry of Foreign Affairs of Burkina Faso",
+        "url": "https://www.visaburkina.bf/conditions-dentree-au-burkina-faso/",
+        "name": "Visa Burkina (Ministère de la Sécurité / DGPN) — conditions of entry",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260829140218/https://diplomatie.gov.bf/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     },
     "proofOfFunds": {
@@ -1964,7 +1966,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/burkina-faso",
         "name": "UK Foreign, Commonwealth & Development Office — Burkina Faso travel advice",
         "type": "government",
-        "lastVerified": "2026-08-29",
+        "lastVerified": "2026-09-26",
         "archiveUrl": "https://web.archive.org/web/20260803043829/https://www.gov.uk/foreign-travel-advice/burkina-faso"
       }
     },
@@ -2008,7 +2010,7 @@
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
           "type": "igo",
-          "lastVerified": "2026-08-26",
+          "lastVerified": "2026-09-26",
           "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
         }
       },
@@ -2023,7 +2025,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
         "type": "igo",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-26",
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
       }
     }
@@ -2047,7 +2049,7 @@
     {
       "id": "visa-early",
       "type": "tip",
-      "text": "Apply for your visa well in advance — requirements and fees differ between embassies, and some ask for an invitation letter or hotel booking."
+      "text": "Apply for your visa well in advance — a tourist visa costs FCFA 66,000 and needs a booking of at least three nights at a Burkinabè hotel, health insurance for the whole stay and a medical certificate."
     },
     {
       "id": "cash-only",

@@ -21,8 +21,8 @@
   ],
   "summary": "Albania is one of Europe's most open destinations — citizens of the EU, UK, US and dozens more countries enter visa-free for 90 days in any 180 (US passport holders may stay a full year), and most other nationalities can apply online for an e-Visa or enter visa-free with a valid multiple-entry Schengen, UK or US visa.",
   "meta": {
-    "lastUpdated": "2026-08-30",
-    "lastFullReview": "2026-08-26",
+    "lastUpdated": "2026-09-26",
+    "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
       {
@@ -40,12 +40,11 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://e-visa.al/",
-      "name": "Albania e-Visa — official portal of the Ministry for Europe and Foreign Affairs",
+      "url": "https://punetejashtme.gov.al/en/informacione-mbi-regjimin-e-vizave-te-shtetasve-te-huaj/",
+      "name": "Ministry for Europe and Foreign Affairs of Albania — visa regime for foreign citizens, by country",
       "type": "government",
-      "lastVerified": "2026-08-26",
-      "archiveUrl": "https://web.archive.org/web/20260810194403/https://e-visa.al/",
-      "portalOnly": true
+      "lastVerified": "2026-09-26",
+      "instrument": "Law No. 79/2021 “On foreigners”; Decision of the Council of Ministers No. 858 of 29.12.2021"
     },
     "byPassport": {
       "AF": {
@@ -93,12 +92,9 @@
         "notes": "Visa-free for up to 90 days within any 180-day period under Albania's waiver list, which broadly follows the EU's Schengen visa-free list plus regional and bilateral agreements."
       },
       "AM": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 90,
-        "visaTypes": [
-          "evisa-c"
-        ],
-        "notes": "A short-stay visa is required. Apply online through Albania's e-Visa portal (e-visa.al) or at an Albanian embassy; holders of a valid multiple-entry Schengen, UK or US visa may instead enter visa-free for up to 90 days."
+        "notes": "Visa-free with an ordinary passport, according to the Ministry for Europe and Foreign Affairs' visa-regime table."
       },
       "AU": {
         "requirement": "visa-free",
@@ -111,12 +107,9 @@
         "notes": "Visa-free for up to 90 days within any 180-day period under Albania's waiver list, which broadly follows the EU's Schengen visa-free list plus regional and bilateral agreements."
       },
       "AZ": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 90,
-        "visaTypes": [
-          "evisa-c"
-        ],
-        "notes": "A short-stay visa is required. Apply online through Albania's e-Visa portal (e-visa.al) or at an Albanian embassy; holders of a valid multiple-entry Schengen, UK or US visa may instead enter visa-free for up to 90 days."
+        "notes": "Visa-free with an ordinary passport, according to the Ministry for Europe and Foreign Affairs' visa-regime table."
       },
       "BS": {
         "requirement": "visa-free",
@@ -124,9 +117,12 @@
         "notes": "Visa-free for up to 90 days within any 180-day period under Albania's waiver list, which broadly follows the EU's Schengen visa-free list plus regional and bilateral agreements."
       },
       "BH": {
-        "requirement": "visa-free",
+        "requirement": "evisa",
         "maxStayDays": 90,
-        "notes": "Visa-free for up to 90 days within any 180-day period under Albania's waiver list, which broadly follows the EU's Schengen visa-free list plus regional and bilateral agreements."
+        "notes": "A short-stay visa is required. Apply online through Albania's e-Visa portal (e-visa.al) or at an Albanian embassy; holders of a valid multiple-entry Schengen, UK or US visa may instead enter visa-free for up to 90 days.",
+        "visaTypes": [
+          "evisa-c"
+        ]
       },
       "BD": {
         "requirement": "evisa",
@@ -902,9 +898,12 @@
         "notes": "Visa-free for up to 90 days within any 180-day period under Albania's waiver list, which broadly follows the EU's Schengen visa-free list plus regional and bilateral agreements."
       },
       "OM": {
-        "requirement": "visa-free",
+        "requirement": "evisa",
         "maxStayDays": 90,
-        "notes": "Visa-free for up to 90 days within any 180-day period under Albania's waiver list, which broadly follows the EU's Schengen visa-free list plus regional and bilateral agreements."
+        "notes": "A short-stay visa is required. Apply online through Albania's e-Visa portal (e-visa.al) or at an Albanian embassy; holders of a valid multiple-entry Schengen, UK or US visa may instead enter visa-free for up to 90 days.",
+        "visaTypes": [
+          "evisa-c"
+        ]
       },
       "PK": {
         "requirement": "evisa",
@@ -971,7 +970,7 @@
       "QA": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free for up to 90 days within any 180-day period under Albania's waiver list, which broadly follows the EU's Schengen visa-free list plus regional and bilateral agreements."
+        "notes": "Visa-free for tourism only, from 15 April to 31 December 2026, on a passport. Travel for any other purpose needs a visa, applied for at e-visa.al."
       },
       "CG": {
         "requirement": "evisa",
@@ -1038,7 +1037,7 @@
       "SA": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free for up to 90 days within any 180-day period under Albania's waiver list, which broadly follows the EU's Schengen visa-free list plus regional and bilateral agreements."
+        "notes": "Visa-free for tourism only, from 15 April to 31 December 2026, on a passport. Travel for any other purpose needs a visa, applied for at e-visa.al."
       },
       "SN": {
         "requirement": "evisa",
@@ -1338,14 +1337,14 @@
         "requirement": "visa-free",
         "maxStayDays": 90,
         "appliesTo": "visa-required",
-        "text": "Holders of a valid multiple-entry US, UK or Schengen visa, or a residence permit from one of those countries, can enter Albania visa-free for up to 90 days regardless of nationality.",
+        "text": "Holders of a valid multiple-entry Schengen, EU, US or UK visa that has already been used in the country that issued it, or of a valid residence permit from one of those countries, can enter Albania visa-free regardless of nationality. They must leave Albania no later than 3 days after that visa or permit expires.",
         "source": {
-          "url": "https://e-visa.al/",
-          "name": "Albania e-Visa — official portal of the Ministry for Europe and Foreign Affairs",
+          "url": "https://punetejashtme.gov.al/en/regjimi-i-vizave-per-te-huajt/",
+          "name": "Ministry for Europe and Foreign Affairs of Albania — visa regime for foreign citizens",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260810194403/https://e-visa.al/",
-          "portalOnly": true
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26",
+          "instrument": "Law No. 79/2021 “On foreigners”; Decision of the Council of Ministers No. 858 of 29.12.2021"
         }
       }
     ]
@@ -1378,7 +1377,7 @@
         "url": "https://e-visa.al/apply",
         "name": "e-visa",
         "type": "government",
-        "lastVerified": "2026-08-30",
+        "lastVerified": "2026-09-26",
         "lastChanged": "2026-08-30",
         "archiveUrl": "https://web.archive.org/web/20260811073208/https://e-visa.al/apply"
       }
@@ -1394,18 +1393,17 @@
         "maxDays": 30,
         "unit": "business-days"
       },
-      "validityDays": 180,
-      "stayDays": null,
+      "validityDays": 365,
+      "stayDays": 90,
       "entries": "multiple",
       "applyUrl": "https://e-visa.al/",
       "source": {
-        "url": "https://e-visa.al/",
-        "name": "Albania e-Visa — official portal of the Ministry for Europe and Foreign Affairs",
+        "url": "https://punetejashtme.gov.al/en/regjimi-i-vizave-per-te-huajt/",
+        "name": "Ministry for Europe and Foreign Affairs of Albania — visa regime for foreign citizens",
         "type": "government",
-        "lastVerified": "2026-08-30",
-        "archiveUrl": "https://web.archive.org/web/20260810194403/https://e-visa.al/",
-        "lastChanged": "2026-08-30",
-        "portalOnly": true
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26",
+        "instrument": "Law No. 79/2021 “On foreigners”; Decision of the Council of Ministers No. 858 of 29.12.2021"
       }
     }
   ],
@@ -1414,12 +1412,11 @@
       "rule": "3-months-beyond-departure",
       "text": "Your passport should be valid for at least 3 months beyond your planned departure from Albania. Border officers sometimes ask for more, so 6 months' validity is a safe margin.",
       "source": {
-        "url": "https://e-visa.al/",
-        "name": "Albania e-Visa — official portal of the Ministry for Europe and Foreign Affairs",
+        "url": "https://punetejashtme.gov.al/en/regjimi-i-vizave-per-te-huajt/",
+        "name": "Ministry for Europe and Foreign Affairs of Albania — visa regime for foreign citizens",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260810194403/https://e-visa.al/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26",
+        "instrument": "Law No. 79/2021 “On foreigners”; Decision of the Council of Ministers No. 858 of 29.12.2021"
       }
     },
     "vaccinations": [
@@ -1433,7 +1430,7 @@
           "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf",
           "name": "WHO, International Travel and Health, Annex 1 — countries requiring proof of vaccination against yellow fever",
           "type": "igo",
-          "lastVerified": "2026-08-27",
+          "lastVerified": "2026-09-26",
           "instrument": "International Health Regulations (2005), Article 36 and Annex 7; WHO International Travel and Health, Annex 1, 18 November 2022 (revised 3 January 2023)",
           "lastChanged": "2026-08-27",
           "archiveUrl": "https://web.archive.org/web/20260301152802/https://cdn.who.int/media/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf"
@@ -1486,12 +1483,11 @@
       "currencyLimits": {
         "text": "Cash and other monetary instruments worth EUR 10,000 or more (or the equivalent, roughly 1,000,000 lek) must be declared on arrival and departure.",
         "source": {
-          "url": "https://e-visa.al/",
-          "name": "Albania e-Visa — official portal of the Ministry for Europe and Foreign Affairs",
+          "url": "https://dogana.gov.al/c/174/195/deklarimi-i-parave",
+          "name": "General Directorate of Customs of Albania — Declaring money (Deklarimi i Parave)",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260810194403/https://e-visa.al/",
-          "portalOnly": true
+          "lastVerified": "2026-09-26",
+          "instrument": "Law No. 9917 of 19.5.2008, as amended, article 17/1"
         }
       },
       "notes": [
@@ -1517,7 +1513,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/albania",
         "name": "UK FCDO — Albania travel advice",
         "type": "government",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-26",
         "archiveUrl": "https://web.archive.org/web/20260816052047/https://www.gov.uk/foreign-travel-advice/albania"
       }
     },
@@ -1559,7 +1555,7 @@
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
           "type": "igo",
-          "lastVerified": "2026-08-26",
+          "lastVerified": "2026-09-26",
           "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
           "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
         }
@@ -1575,7 +1571,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
         "type": "igo",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-26",
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
