@@ -17,10 +17,10 @@
     "cote-divoire",
     "togo"
   ],
-  "summary": "Ghana has admitted all African Union nationals visa-free since January 2025, and ECOWAS citizens move freely under the bloc's protocol; most other visitors still need a visa arranged in advance through a Ghanaian embassy, with a seasonal visa-on-arrival scheme run during the December–January travel season.",
+  "summary": "ECOWAS citizens enter Ghana without a visa, African Union citizens apply online for an AU ETA, and a few Caribbean and Asian passports qualify for their own ETA; most other visitors need an eVisa (USD 260, up to 30 days) from the Ghana Immigration Service portal or a visa from a Ghanaian embassy.",
   "meta": {
-    "lastUpdated": "2026-08-29",
-    "lastFullReview": "2026-08-26",
+    "lastUpdated": "2026-09-26",
+    "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
       {
@@ -31,8 +31,8 @@
         "archiveUrl": "https://web.archive.org/web/20260821172444/https://gis.gov.gh/",
         "portalOnly": true,
         "unverifiable": {
-          "lastAttempt": "2026-09-01",
-          "reason": "unreachable"
+          "lastAttempt": "2026-09-26",
+          "reason": "not-stated"
         }
       }
     ],
@@ -42,155 +42,182 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://gis.gov.gh/",
-      "name": "Ghana Immigration Service",
+      "url": "https://evisa.immigration.gov.gh/",
+      "name": "Ghana Immigration Service — eVisa portal (eligibility checker)",
       "type": "government",
-      "lastVerified": "2026-08-26",
-      "archiveUrl": "https://web.archive.org/web/20260821172444/https://gis.gov.gh/",
-      "portalOnly": true,
-      "unverifiable": {
-        "lastAttempt": "2026-09-01",
-        "reason": "unreachable"
-      }
+      "lastVerified": "2026-09-26",
+      "lastChanged": "2026-09-26"
     },
     "byPassport": {
       "AF": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "AL": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "DZ": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "AD": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "AO": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "AG": {
-        "requirement": "embassy-visa",
+        "requirement": "eta",
         "maxStayDays": null,
         "visaTypes": [
-          "embassy-tourist"
+          "caribbean-eta"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is single-entry and valid for 90 days."
       },
       "AR": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "AM": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "AU": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "AT": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "AZ": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "BS": {
-        "requirement": "embassy-visa",
+        "requirement": "eta",
         "maxStayDays": null,
         "visaTypes": [
-          "embassy-tourist"
+          "caribbean-eta"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is single-entry and valid for 90 days."
       },
       "BH": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "BD": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "BB": {
-        "requirement": "embassy-visa",
+        "requirement": "eta",
         "maxStayDays": null,
         "visaTypes": [
-          "embassy-tourist"
+          "caribbean-eta"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is single-entry and valid for 90 days."
       },
       "BY": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "BE": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "BZ": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "BJ": {
         "requirement": "freedom-of-movement",
@@ -198,57 +225,72 @@
         "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
       },
       "BT": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "BO": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "BA": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "BW": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "BR": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "BN": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "BG": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "BF": {
         "requirement": "freedom-of-movement",
@@ -256,9 +298,12 @@
         "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
       },
       "BI": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "CV": {
         "requirement": "freedom-of-movement",
@@ -266,72 +311,96 @@
         "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
       },
       "KH": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "CM": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "CA": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "CF": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "TD": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "CL": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "CN": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "CO": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "KM": {
-        "requirement": "visa-free",
-        "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
-      },
-      "CR": {
-        "requirement": "embassy-visa",
+        "requirement": "eta",
         "maxStayDays": null,
         "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
+      },
+      "CR": {
+        "requirement": "evisa",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "CI": {
         "requirement": "freedom-of-movement",
@@ -339,148 +408,196 @@
         "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
       },
       "HR": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "CU": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "CY": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "CZ": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "CD": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "DK": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "DJ": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "DM": {
-        "requirement": "embassy-visa",
+        "requirement": "eta",
         "maxStayDays": null,
         "visaTypes": [
-          "embassy-tourist"
+          "caribbean-eta"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is single-entry and valid for 90 days."
       },
       "DO": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "EC": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "EG": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "SV": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "GQ": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "ER": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "EE": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "SZ": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "ET": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "FJ": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "FI": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "FR": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "GA": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "GM": {
         "requirement": "freedom-of-movement",
@@ -488,20 +605,24 @@
         "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
       },
       "GE": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "DE": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "GH": {
         "requirement": "freedom-of-movement",
@@ -509,28 +630,32 @@
         "notes": "Home country. No entry requirements for Ghanaian citizens."
       },
       "GR": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "GD": {
-        "requirement": "embassy-visa",
+        "requirement": "eta",
         "maxStayDays": null,
         "visaTypes": [
-          "embassy-tourist"
+          "caribbean-eta"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is single-entry and valid for 90 days."
       },
       "GT": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "GN": {
         "requirement": "freedom-of-movement",
@@ -543,206 +668,258 @@
         "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
       },
       "GY": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "HT": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "HN": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "HK": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "HU": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "IS": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "IN": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "ID": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "IR": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "IQ": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "IE": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "IL": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "IT": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "JM": {
-        "requirement": "embassy-visa",
+        "requirement": "eta",
         "maxStayDays": null,
         "visaTypes": [
-          "embassy-tourist"
+          "caribbean-eta"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is single-entry and valid for 90 days."
       },
       "JP": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "JO": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "KZ": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "KE": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "KI": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "XK": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "KW": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "KG": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "LA": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "LV": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "LB": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "LS": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "LR": {
         "requirement": "freedom-of-movement",
@@ -750,67 +927,88 @@
         "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
       },
       "LY": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "LI": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "LT": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "LU": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "MO": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "MG": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "MW": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "MY": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "MV": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "ML": {
         "requirement": "freedom-of-movement",
@@ -818,141 +1016,184 @@
         "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
       },
       "MT": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "MH": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "MR": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "MU": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "MX": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "FM": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "MD": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "MC": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "MN": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "ME": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "MA": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "MZ": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "MM": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "NA": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "NR": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "NP": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "NL": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "NZ": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "NI": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "NE": {
         "requirement": "freedom-of-movement",
@@ -965,203 +1206,252 @@
         "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
       },
       "KP": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "MK": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "NO": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "OM": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "PK": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "PW": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "PS": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "PA": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "PG": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "PY": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "PE": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "PH": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "PL": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "PT": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "QA": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "CG": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "RO": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "RU": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "RW": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "KN": {
-        "requirement": "embassy-visa",
+        "requirement": "eta",
         "maxStayDays": null,
         "visaTypes": [
-          "embassy-tourist"
+          "caribbean-eta"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is single-entry and valid for 90 days."
       },
       "LC": {
-        "requirement": "embassy-visa",
+        "requirement": "eta",
         "maxStayDays": null,
         "visaTypes": [
-          "embassy-tourist"
+          "caribbean-eta"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is single-entry and valid for 90 days."
       },
       "VC": {
-        "requirement": "embassy-visa",
+        "requirement": "eta",
         "maxStayDays": null,
         "visaTypes": [
-          "embassy-tourist"
+          "caribbean-eta"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is single-entry and valid for 90 days."
       },
       "WS": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "SM": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "ST": {
-        "requirement": "visa-free",
-        "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
-      },
-      "SA": {
-        "requirement": "embassy-visa",
+        "requirement": "eta",
         "maxStayDays": null,
         "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
+      },
+      "SA": {
+        "requirement": "evisa",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "SN": {
         "requirement": "freedom-of-movement",
@@ -1169,17 +1459,22 @@
         "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
       },
       "RS": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "SC": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "SL": {
         "requirement": "freedom-of-movement",
@@ -1187,149 +1482,192 @@
         "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
       },
       "SG": {
-        "requirement": "embassy-visa",
+        "requirement": "eta",
         "maxStayDays": null,
         "visaTypes": [
-          "embassy-tourist"
+          "asia-eta"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa-waiver country: apply online for the Asia ETA before travel. It is single-entry and valid for 90 days."
       },
       "SK": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "SI": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "SB": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "SO": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "ZA": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "KR": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "SS": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "ES": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "LK": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "SD": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "SR": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "SE": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "CH": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "SY": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "TW": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "TJ": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "TZ": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "TH": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "TL": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "TG": {
         "requirement": "freedom-of-movement",
@@ -1337,156 +1675,309 @@
         "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
       },
       "TO": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "TT": {
-        "requirement": "embassy-visa",
+        "requirement": "eta",
         "maxStayDays": null,
         "visaTypes": [
-          "embassy-tourist"
+          "caribbean-eta"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is single-entry and valid for 90 days."
       },
       "TN": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "TR": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "TM": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "TV": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "UG": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "UA": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "AE": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "GB": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "US": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "UY": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "UZ": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "VU": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "VA": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "VE": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "VN": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "YE": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "evisa",
+        "maxStayDays": 30,
         "visaTypes": [
+          "evisa-tourist",
+          "evisa-business",
           "embassy-tourist"
         ],
-        "notes": "Apply for a visa in advance at a Ghanaian embassy or high commission; during the December–January season Ghana has run a visa-on-arrival scheme. Check gis.gov.gh for the current year's rules."
+        "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 30 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "ZM": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       },
       "ZW": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": null,
-        "notes": "African Union nationals have entered Ghana visa-free since January 2025. The permitted stay is set by the immigration officer on arrival, so check the stamp you receive."
+        "visaTypes": [
+          "au-eta"
+        ],
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 30 days."
       }
     }
   },
   "visaTypes": [
+    {
+      "id": "evisa-tourist",
+      "category": "tourist",
+      "method": "evisa",
+      "name": "Tourist eVisa",
+      "fee": {
+        "amount": 260,
+        "currency": "USD",
+        "notes": "Total fee shown on the portal for Standard processing (within 96 hours). Priority (48 hours) and Express (5 hours) processing cost more."
+      },
+      "processing": {
+        "minDays": 0,
+        "maxDays": 4,
+        "unit": "calendar-days"
+      },
+      "validityDays": 90,
+      "stayDays": 30,
+      "entries": "single",
+      "applyUrl": "https://evisa.immigration.gov.gh/",
+      "source": {
+        "url": "https://evisa.immigration.gov.gh/",
+        "name": "Ghana Immigration Service — eVisa portal",
+        "type": "government",
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
+      }
+    },
+    {
+      "id": "evisa-business",
+      "category": "business",
+      "method": "evisa",
+      "name": "Business eVisa",
+      "fee": {
+        "amount": 260,
+        "currency": "USD",
+        "notes": "Total fee shown on the portal for Standard processing (within 96 hours). Priority (48 hours) and Express (5 hours) processing cost more."
+      },
+      "processing": {
+        "minDays": 0,
+        "maxDays": 4,
+        "unit": "calendar-days"
+      },
+      "validityDays": 90,
+      "stayDays": 30,
+      "entries": "single",
+      "applyUrl": "https://evisa.immigration.gov.gh/",
+      "source": {
+        "url": "https://evisa.immigration.gov.gh/",
+        "name": "Ghana Immigration Service — eVisa portal",
+        "type": "government",
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
+      }
+    },
+    {
+      "id": "au-eta",
+      "category": "tourist",
+      "method": "eta",
+      "name": "African Union ETA",
+      "fee": null,
+      "processing": null,
+      "validityDays": 30,
+      "stayDays": null,
+      "entries": "single",
+      "applyUrl": "https://evisa.immigration.gov.gh/apply/eta",
+      "source": {
+        "url": "https://evisa.immigration.gov.gh/",
+        "name": "Ghana Immigration Service — eVisa portal (eligibility checker)",
+        "type": "government",
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
+      }
+    },
+    {
+      "id": "caribbean-eta",
+      "category": "tourist",
+      "method": "eta",
+      "name": "Caribbean ETA",
+      "fee": null,
+      "processing": null,
+      "validityDays": 90,
+      "stayDays": null,
+      "entries": "single",
+      "applyUrl": "https://evisa.immigration.gov.gh/apply/eta",
+      "source": {
+        "url": "https://evisa.immigration.gov.gh/",
+        "name": "Ghana Immigration Service — eVisa portal (eligibility checker)",
+        "type": "government",
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
+      }
+    },
+    {
+      "id": "asia-eta",
+      "category": "tourist",
+      "method": "eta",
+      "name": "Asia ETA",
+      "fee": null,
+      "processing": null,
+      "validityDays": 90,
+      "stayDays": null,
+      "entries": "single",
+      "applyUrl": "https://evisa.immigration.gov.gh/apply/eta",
+      "source": {
+        "url": "https://evisa.immigration.gov.gh/",
+        "name": "Ghana Immigration Service — eVisa portal (eligibility checker)",
+        "type": "government",
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
+      }
+    },
     {
       "id": "embassy-tourist",
       "category": "tourist",
@@ -1518,8 +2009,8 @@
         "archiveUrl": "https://web.archive.org/web/20260821172444/https://gis.gov.gh/",
         "portalOnly": true,
         "unverifiable": {
-          "lastAttempt": "2026-09-01",
-          "reason": "unreachable"
+          "lastAttempt": "2026-09-26",
+          "reason": "not-stated"
         }
       }
     },
@@ -1546,27 +2037,22 @@
         "archiveUrl": "https://web.archive.org/web/20260821172444/https://gis.gov.gh/",
         "portalOnly": true,
         "unverifiable": {
-          "lastAttempt": "2026-09-01",
-          "reason": "unreachable"
+          "lastAttempt": "2026-09-26",
+          "reason": "not-stated"
         }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
-      "text": "Your passport should be valid for at least 6 months on the date you arrive in Ghana.",
+      "rule": "6-months-beyond-stay",
+      "text": "Your passport should be valid for at least 6 months beyond your intended stay in Ghana.",
       "source": {
-        "url": "https://gis.gov.gh/",
-        "name": "Ghana Immigration Service",
+        "url": "https://evisa.immigration.gov.gh/visa-requirements",
+        "name": "Ghana Immigration Service — eVisa portal, Visa Requirements",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260821172444/https://gis.gov.gh/",
-        "portalOnly": true,
-        "unverifiable": {
-          "lastAttempt": "2026-09-01",
-          "reason": "unreachable"
-        }
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     },
     "vaccinations": [
@@ -1577,16 +2063,10 @@
         "requiredWhen": "always",
         "text": "Proof of yellow fever vaccination is required of all travelers aged 9 months and over and is routinely checked on arrival at Kotoka International Airport.",
         "source": {
-          "url": "https://gis.gov.gh/",
-          "name": "Ghana Immigration Service",
+          "url": "https://evisa.immigration.gov.gh/visa-requirements",
+          "name": "Ghana Immigration Service — eVisa portal, Visa Requirements",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260821172444/https://gis.gov.gh/",
-          "portalOnly": true,
-          "unverifiable": {
-            "lastAttempt": "2026-09-01",
-            "reason": "unreachable"
-          }
+          "lastVerified": "2026-09-26"
         }
       }
     ],
@@ -1603,8 +2083,8 @@
         "archiveUrl": "https://web.archive.org/web/20260821172444/https://gis.gov.gh/",
         "portalOnly": true,
         "unverifiable": {
-          "lastAttempt": "2026-09-01",
-          "reason": "unreachable"
+          "lastAttempt": "2026-09-26",
+          "reason": "not-stated"
         }
       }
     },
@@ -1620,8 +2100,8 @@
         "archiveUrl": "https://web.archive.org/web/20260821172444/https://gis.gov.gh/",
         "portalOnly": true,
         "unverifiable": {
-          "lastAttempt": "2026-09-01",
-          "reason": "unreachable"
+          "lastAttempt": "2026-09-26",
+          "reason": "not-stated"
         }
       }
     },
@@ -1638,8 +2118,8 @@
         "archiveUrl": "https://web.archive.org/web/20260821172444/https://gis.gov.gh/",
         "portalOnly": true,
         "unverifiable": {
-          "lastAttempt": "2026-09-01",
-          "reason": "unreachable"
+          "lastAttempt": "2026-09-26",
+          "reason": "not-stated"
         }
       }
     },
@@ -1655,8 +2135,8 @@
           "archiveUrl": "https://web.archive.org/web/20260821172444/https://gis.gov.gh/",
           "portalOnly": true,
           "unverifiable": {
-            "lastAttempt": "2026-09-01",
-            "reason": "unreachable"
+            "lastAttempt": "2026-09-26",
+            "reason": "not-stated"
           }
         }
       },
@@ -1683,7 +2163,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/ghana",
         "name": "UK Foreign, Commonwealth & Development Office — Ghana travel advice",
         "type": "government",
-        "lastVerified": "2026-08-29",
+        "lastVerified": "2026-09-26",
         "archiveUrl": "https://web.archive.org/web/20260701073833/https://www.gov.uk/foreign-travel-advice/ghana"
       }
     },
@@ -1725,7 +2205,7 @@
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
           "type": "igo",
-          "lastVerified": "2026-08-26",
+          "lastVerified": "2026-09-26",
           "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
         }
       },
@@ -1740,7 +2220,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
         "type": "igo",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-26",
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
       }
     }
@@ -1749,12 +2229,12 @@
     {
       "id": "au-visa-free",
       "type": "info",
-      "text": "Since January 2025 Ghana has waived visas for citizens of all African Union countries — African passport holders arrive with just a valid passport and a yellow fever certificate."
+      "text": "African Union citizens outside ECOWAS are no longer visa-free: the Ghana Immigration Service portal requires an AU ETA, applied for online before travel, which replaces the visa on arrival."
     },
     {
       "id": "december-voa",
       "type": "tip",
-      "text": "Traveling for \"Detty December\"? Ghana has repeatedly run a seasonal visa-on-arrival scheme for the December–January period. Check gis.gov.gh for the current year's rules before assuming you need an embassy visa."
+      "text": "Use the eligibility checker on evisa.immigration.gov.gh before you book: it tells you whether your passport needs an eVisa, an ETA or nothing at all. Ghana has run seasonal December–January visa-on-arrival schemes in past years, but the portal does not offer one."
     },
     {
       "id": "yellow-fever-check",
@@ -1771,22 +2251,22 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Ghana?",
-      "answer": "It depends on your passport. Citizens of all African Union countries have entered visa-free since January 2025, and ECOWAS citizens move freely under the bloc's protocol. Most other nationalities — including the US, UK and EU — must obtain a visa in advance from a Ghanaian embassy or high commission."
+      "answer": "It depends on your passport. ECOWAS citizens need neither a visa nor an ETA. Citizens of other African Union countries need an AU ETA, and a few Caribbean countries and Singapore have their own ETA. Most other nationalities, including the US, UK and EU, need a visa: an eVisa from the Ghana Immigration Service portal (USD 260, up to 30 days) or a visa from a Ghanaian embassy or high commission."
     },
     {
       "id": "us-need-visa",
       "question": "Do US citizens need a visa for Ghana?",
-      "answer": "Yes. US passport holders must obtain a visa before travel from a Ghanaian embassy or consulate — typically a single-entry tourist visa valid for up to 60 days. During the December–January season a visa-on-arrival scheme has been available in recent years."
+      "answer": "Yes. US passport holders need a visa before travel. They can apply online for a Ghana eVisa on the Ghana Immigration Service portal: USD 260 with standard processing within 96 hours, single entry, a stay of up to 30 days, valid 90 days from issue. A visa from a Ghanaian embassy or consulate remains an alternative."
     },
     {
       "id": "african-visa-free",
       "question": "Is Ghana visa-free for African passport holders?",
-      "answer": "Yes. In January 2025 Ghana abolished visa requirements for citizens of every African Union member state. ECOWAS citizens additionally enjoy free movement with up to 90 days' stay; for other African nationals the permitted stay is set on arrival."
+      "answer": "Only for ECOWAS citizens, who need neither a visa nor an ETA and may stay up to 90 days. Citizens of the other African Union countries must apply online for an AU ETA before travel; it is single-entry and valid for 30 days, and the portal says it replaces the visa on arrival."
     },
     {
       "id": "december-voa",
       "question": "Can I get a visa on arrival in Ghana?",
-      "answer": "Normally no. Visas must be arranged in advance. However, Ghana has run a seasonal visa-on-arrival scheme during the December–January travel season in recent years (around USD 150). The scheme is announced annually, so confirm with the Ghana Immigration Service before relying on it."
+      "answer": "Not through the official portal. The Ghana Immigration Service eVisa portal directs visa-required travellers to an eVisa or an embassy visa before travel, and says the AU ETA replaces the visa on arrival for African Union citizens. Ghana has run seasonal December–January visa-on-arrival schemes in past years; if one is announced, confirm its terms with the Ghana Immigration Service before relying on it."
     },
     {
       "id": "yellow-fever",

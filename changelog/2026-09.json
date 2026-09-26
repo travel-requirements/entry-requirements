@@ -5768,6 +5768,80 @@
       "oldUrl": "https://mfa.gov.by/en/",
       "newUrl": "https://www.customs.gov.by/fizicheskim-litsam/poryadok-peremeshcheniya-nalichnykh-denezhnykh-sredstv-i-ili-denezhnykh-instrumentov/",
       "reason": "The cash rule was cited to the Foreign Ministry's front page, which does not state it. The State Customs Committee's page on moving cash states it: cash and travellers' cheques above the equivalent of USD 10,000 brought into or taken out of the Union at one time must be declared in writing, under Article 260 of the EAEU Customs Code."
+    },
+    {
+      "kind": "source-updated",
+      "date": "2026-09-26",
+      "destination": "ghana",
+      "oldUrl": "https://gis.gov.gh/",
+      "newUrl": "https://evisa.immigration.gov.gh/",
+      "reason": "Every passport row was cited to the Ghana Immigration Service home page, which states no per-nationality rule. The GIS eVisa portal, linked from gis.gov.gh, has an eligibility checker that returns the regime for a selected nationality. It was run for all 199 passports on 26 September 2026 (the portal's own check-eligibility request), and visaPolicy.defaultSource now cites the portal. The 14 ECOWAS/AES rows (no visa or ETA, 90 days, multiple entry) and the Ghana row match what we had, so they did not change."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-09-26",
+      "destination": "ghana",
+      "path": "visaPolicy.byPassport",
+      "field": "African Union citizens — 39 nationalities (AO, BI, BW, CD, CF, CG, CM, DJ, DZ, EG, ER, ET, GA, GQ, KE, KM, LS, LY, MA, MG, MR, MU, MW, MZ, NA, RW, SC, SD, SO, SS, ST, SZ, TD, TN, TZ, UG, ZA, ZM, ZW)",
+      "old": "visa-free (African Union nationals visa-free since January 2025; stay set on arrival)",
+      "new": "ETA required (AU ETA, single entry, valid 30 days)",
+      "sourceUrl": "https://evisa.immigration.gov.gh/",
+      "note": "For each of these nationalities the portal's checker returned authorization 'eta', type 'african_union', eta_type 'au-eta', validity 30 days, single entry, message 'African Union citizen - ETA replaces Visa on Arrival'. The portal says the AU ETA comes 'at a significantly reduced cost' but prints no fee; the checker's response carries fee 0, which we do not publish as free. No stay length is stated, so maxStayDays is null."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-09-26",
+      "destination": "ghana",
+      "path": "visaPolicy.byPassport",
+      "field": "Caribbean visa-waiver countries — 10 nationalities (AG, BB, BS, DM, GD, JM, KN, LC, TT, VC)",
+      "old": "embassy visa required",
+      "new": "ETA required (Caribbean ETA, single entry, valid 90 days)",
+      "sourceUrl": "https://evisa.immigration.gov.gh/",
+      "note": "Checker result for each: authorization 'eta', eta_type 'caribbean-eta', 'Caribbean visa-waiver country - ETA required', validity 90 days, single entry. No fee or stay length is published."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-09-26",
+      "destination": "ghana",
+      "path": "visaPolicy.byPassport.SG",
+      "field": "Singapore",
+      "old": "embassy visa required",
+      "new": "ETA required (Asia ETA, single entry, valid 90 days)",
+      "sourceUrl": "https://evisa.immigration.gov.gh/",
+      "note": "Checker result: authorization 'eta', eta_type 'asia-eta', 'Asian visa-waiver country - ETA required', validity 90 days, single entry. Singapore is the only one of our 199 passports the checker puts in this group."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-09-26",
+      "destination": "ghana",
+      "path": "visaPolicy.byPassport",
+      "field": "Visa-required nationalities — 134 (AD, AE, AF, AL, AM, AR, AT, AU, AZ, BA, BD, BE, BG, BH, BN, BO, BR, BT, BY, BZ, CA, CH, CL, CN, CO, CR, CU, CY, CZ, DE, DK, DO, EC, EE, ES, FI, FJ, FM, FR, GB, GE, GR, GT, GY, HK, HN, HR, HT, HU, ID, IE, IL, IN, IQ, IR, IS, IT, JO, JP, KG, KH, KI, KP, KR, KW, KZ, LA, LB, LI, LK, LT, LU, LV, MC, MD, ME, MH, MK, MM, MN, MO, MT, MV, MX, MY, NI, NL, NO, NP, NR, NZ, OM, PA, PE, PG, PH, PK, PL, PS, PT, PW, PY, QA, RO, RS, RU, SA, SB, SE, SI, SK, SM, SR, SV, SY, TH, TJ, TL, TM, TO, TR, TV, TW, UA, US, UY, UZ, VA, VE, VN, VU, WS, XK, YE)",
+      "old": "embassy visa only (embassy-tourist); seasonal visa on arrival mentioned",
+      "new": "visa required: eVisa (evisa-tourist, evisa-business) or embassy visa; stay up to 30 days",
+      "sourceUrl": "https://evisa.immigration.gov.gh/",
+      "note": "Checker result for each: authorization 'evisa', 'eVisa or Embassy visa required'. The embassy option stays on these rows because the portal names it."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-09-26",
+      "destination": "ghana",
+      "path": "visaTypes",
+      "field": "Tourist and Business eVisa",
+      "old": "not listed",
+      "new": "USD 260 each (total fee), single entry, stay up to 30 days, valid 90 days from issue; standard processing within 96 hours (Priority 48 hours, Express 5 hours, at a higher fee); apply at evisa.immigration.gov.gh",
+      "sourceUrl": "https://evisa.immigration.gov.gh/",
+      "note": "Portal home page, Service Types: Tourist Visa $260, Business Visa $260, 'All visa fees are total fees — no hidden charges. 30 days max stay · 90 days validity from issue.' FAQ: 'Standard processing is completed within 96 hours. Priority processing is completed within 48 hours, and Express processing is completed within 5 hours.' The Visa Requirements page: 'Single Entry Visas are valid for 90 days from the date of issuance.' The portal's own tier data prices Priority at 1.3x and Express at 1.7x; the page does not print those prices, so only 'cost more' is published. Other portal text is inconsistent (the tourist card says 'up to 3 months', an example card says 'Up to 60 days', and the application form offers 30/60/90-day durations); we publish the 30 days stated beside the fee."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-09-26",
+      "destination": "ghana",
+      "path": "visaTypes",
+      "field": "AU, Caribbean and Asia ETAs",
+      "old": "not listed",
+      "new": "three ETAs, applied for at evisa.immigration.gov.gh/apply/eta: AU ETA (single entry, valid 30 days), Caribbean ETA and Asia ETA (single entry, valid 90 days); fee and processing time not published",
+      "sourceUrl": "https://evisa.immigration.gov.gh/",
+      "note": "Validity and entries from the checker's response for each nationality. The seasonal visa-on-arrival type is kept but no row points to it; the portal does not offer it."
     }
   ]
 }
