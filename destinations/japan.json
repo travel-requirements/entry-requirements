@@ -14,28 +14,28 @@
   ],
   "summary": "Japan grants visa-free entry of up to 90 days to citizens of around 70 countries and regions, offers an official eVisa for several other nationalities, and encourages all arrivals to pre-register immigration and customs details on the free Visit Japan Web service.",
   "meta": {
-    "lastUpdated": "2026-08-29",
-    "lastFullReview": "2026-08-25",
+    "lastUpdated": "2026-09-26",
+    "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 7,
     "primarySources": [
       {
         "url": "https://www.mofa.go.jp/j_info/visit/visa/index.html",
         "name": "Ministry of Foreign Affairs of Japan — VISA / Visiting Japan",
         "type": "government",
-        "lastVerified": "2026-08-25",
+        "lastVerified": "2026-09-26",
         "archiveUrl": "https://web.archive.org/web/20260825075013/https://www.mofa.go.jp/j_info/visit/visa/index.html"
       },
       {
         "url": "https://www.evisa.mofa.go.jp/",
         "name": "Japan eVisa (Ministry of Foreign Affairs)",
         "type": "government",
-        "lastVerified": "2026-08-25"
+        "lastVerified": "2026-09-26"
       },
       {
         "url": "https://vjw-lp.digital.go.jp/en/",
         "name": "Visit Japan Web (Digital Agency)",
         "type": "government",
-        "lastVerified": "2026-08-25",
+        "lastVerified": "2026-09-26",
         "archiveUrl": "https://web.archive.org/web/20260829140529/https://services.digital.go.jp/en/visit-japan-web/"
       }
     ],
@@ -45,11 +45,11 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://www.mofa.go.jp/j_info/visit/visa/index.html",
-      "name": "Japan MFA — visa exemption arrangements",
+      "url": "https://www.mofa.go.jp/j_info/visit/visa/short/novisa.html",
+      "name": "Japan MFA — Exemption of Visa (Short-Term Stay)",
       "type": "government",
-      "lastVerified": "2026-08-25",
-      "archiveUrl": "https://web.archive.org/web/20260825075013/https://www.mofa.go.jp/j_info/visit/visa/index.html"
+      "lastVerified": "2026-09-26",
+      "lastChanged": "2026-09-26"
     },
     "byPassport": {
       "US": {
@@ -167,16 +167,20 @@
         "notes": "A visa is required for all purposes. Apply at a Japanese embassy or consulate."
       },
       "CN": {
-        "requirement": "visa-free",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "extendableDays": null,
-        "notes": "Japan restored short-term visa exemption for Chinese citizens (stays up to 30 days). Recently reinstated policy. Confirm current conditions with a Japanese embassy or the MFA before booking.",
+        "visaTypes": [
+          "short-term-single",
+          "short-term-multiple"
+        ],
+        "notes": "A visa is required. The Ministry of Foreign Affairs lists China among the nationalities that need a visa for a short-term stay, and China is not among the 74 countries and regions exempt from one. Apply at a Japanese embassy or consulate.",
         "source": {
           "url": "https://www.mofa.go.jp/j_info/visit/visa/index.html",
-          "name": "Japan MFA — visa exemption arrangements",
+          "name": "Japan MFA — VISA",
           "type": "government",
-          "lastVerified": "2026-08-25",
-          "archiveUrl": "https://web.archive.org/web/20260825075013/https://www.mofa.go.jp/j_info/visit/visa/index.html"
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
         }
       },
       "IN": {
@@ -191,7 +195,11 @@
           "url": "https://www.evisa.mofa.go.jp/",
           "name": "Japan eVisa (Ministry of Foreign Affairs)",
           "type": "government",
-          "lastVerified": "2026-08-25"
+          "lastVerified": "2026-08-25",
+          "unverifiable": {
+            "lastAttempt": "2026-09-26",
+            "reason": "not-stated"
+          }
         }
       },
       "JP": {
@@ -217,7 +225,11 @@
           "url": "https://www.evisa.mofa.go.jp/",
           "name": "Japan eVisa (Ministry of Foreign Affairs)",
           "type": "government",
-          "lastVerified": "2026-08-25"
+          "lastVerified": "2026-08-25",
+          "unverifiable": {
+            "lastAttempt": "2026-09-26",
+            "reason": "not-stated"
+          }
         }
       },
       "ID": {
@@ -228,11 +240,10 @@
         ],
         "notes": "A visa is normally required. Holders of Indonesian ICAO-compliant e-passports may pre-register for a short visa exemption (up to 15 days) at a Japanese mission. Confirm current rules before travel.",
         "source": {
-          "url": "https://www.mofa.go.jp/j_info/visit/visa/index.html",
-          "name": "Japan MFA — visa exemption arrangements",
+          "url": "https://www.mofa.go.jp/j_info/visit/visa/short/novisa.html",
+          "name": "Japan MFA — Exemption of Visa (Short-Term Stay)",
           "type": "government",
-          "lastVerified": "2026-08-25",
-          "archiveUrl": "https://web.archive.org/web/20260825075013/https://www.mofa.go.jp/j_info/visit/visa/index.html"
+          "lastVerified": "2026-09-26"
         }
       },
       "VN": {
@@ -247,7 +258,11 @@
           "url": "https://www.evisa.mofa.go.jp/",
           "name": "Japan eVisa (Ministry of Foreign Affairs)",
           "type": "government",
-          "lastVerified": "2026-08-25"
+          "lastVerified": "2026-08-25",
+          "unverifiable": {
+            "lastAttempt": "2026-09-26",
+            "reason": "not-stated"
+          }
         }
       },
       "PK": {
@@ -347,7 +362,8 @@
       "AT": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa exemption for short-term stays (tourism, business meetings, visiting friends). Working is not permitted."
+        "extendableDays": 90,
+        "notes": "Visa exemption; Austrian citizens can apply inside Japan to extend the stay up to a total of 6 months."
       },
       "AZ": {
         "requirement": "embassy-visa",
@@ -446,8 +462,8 @@
       },
       "BN": {
         "requirement": "visa-free",
-        "maxStayDays": 15,
-        "notes": "Visa exemption for short stays of up to 15 days. Working is not permitted."
+        "maxStayDays": 30,
+        "notes": "Visa exemption for short stays of up to 30 days. Working is not permitted."
       },
       "BG": {
         "requirement": "visa-free",
@@ -904,7 +920,8 @@
       "LI": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa exemption for short-term stays (tourism, business meetings, visiting friends). Working is not permitted."
+        "extendableDays": 90,
+        "notes": "Visa exemption; Liechtenstein citizens can apply inside Japan to extend the stay up to a total of 6 months."
       },
       "LT": {
         "requirement": "visa-free",
@@ -1014,12 +1031,9 @@
         "notes": "A visa is required. Citizens applying for a single-entry tourist visa can generally use the official Japan eVisa. Confirm eligibility for your place of residence on evisa.mofa.go.jp."
       },
       "ME": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "short-term-single"
-        ],
-        "notes": "A visa is required. Apply at a Japanese embassy or consulate."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa exemption for up to 90 days, since 1 September 2025, for holders of ICAO-compliant ePassports; without one, a visa is required. Working is not permitted."
       },
       "MA": {
         "requirement": "embassy-visa",
@@ -1138,12 +1152,9 @@
         "notes": "A visa is required. Apply at a Japanese embassy or consulate."
       },
       "PY": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "short-term-single"
-        ],
-        "notes": "A visa is required. Apply at a Japanese embassy or consulate."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa exemption for up to 90 days, since 1 June 2025, for holders of ICAO-compliant ePassports; without one, a visa is required. Working is not permitted."
       },
       "PE": {
         "requirement": "visa-free",
@@ -1415,13 +1426,13 @@
       },
       "AE": {
         "requirement": "visa-free",
-        "maxStayDays": 30,
-        "notes": "Visa exemption for up to 30 days for holders of ICAO-compliant e-passports. Confirm any pre-registration requirement before travel."
+        "maxStayDays": 90,
+        "notes": "Visa exemption for up to 90 days for holders of ICAO-compliant ePassports; without one, a visa is required."
       },
       "UY": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa exemption for short-term stays (tourism, business meetings, visiting friends). Working is not permitted."
+        "notes": "Visa exemption for up to 90 days, on the older Uruguayan passport only: Japan does not recognise the version issued after 16 April 2025 that has no place of birth on the data page."
       },
       "UZ": {
         "requirement": "embassy-visa",
@@ -1488,7 +1499,7 @@
       "method": "evisa",
       "name": "Japan eVisa — Single Entry (Tourism)",
       "fee": {
-        "amount": 3000,
+        "amount": 15000,
         "currency": "JPY",
         "notes": "Same fee as the paper visa; payable online. Available only to eligible nationalities/residents listed on the official eVisa site."
       },
@@ -1509,7 +1520,8 @@
         "url": "https://www.evisa.mofa.go.jp/",
         "name": "Japan eVisa (Ministry of Foreign Affairs)",
         "type": "government",
-        "lastVerified": "2026-08-25"
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     },
     {
@@ -1518,7 +1530,7 @@
       "method": "embassy",
       "name": "Short-Term Stay Visa — Single Entry",
       "fee": {
-        "amount": 3000,
+        "amount": 15000,
         "currency": "JPY",
         "notes": "Collected in local currency at the embassy; some nationalities are exempt from the fee."
       },
@@ -1536,11 +1548,11 @@
       },
       "applyUrl": "https://www.mofa.go.jp/j_info/visit/visa/index.html",
       "source": {
-        "url": "https://www.mofa.go.jp/j_info/visit/visa/index.html",
-        "name": "Japan MFA — visa fees and procedures",
+        "url": "https://www.mofa.go.jp/j_info/visit/visa/procedure/pagewe_000001_00391.html",
+        "name": "Japan MFA — Visa Fees",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260825075013/https://www.mofa.go.jp/j_info/visit/visa/index.html"
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     },
     {
@@ -1549,7 +1561,7 @@
       "method": "embassy",
       "name": "Short-Term Stay Visa — Multiple Entry",
       "fee": {
-        "amount": 6000,
+        "amount": 30000,
         "currency": "JPY",
         "notes": "Collected in local currency at the embassy. Granted subject to travel history and financial standing."
       },
@@ -1567,11 +1579,11 @@
       },
       "applyUrl": "https://www.mofa.go.jp/j_info/visit/visa/index.html",
       "source": {
-        "url": "https://www.mofa.go.jp/j_info/visit/visa/index.html",
-        "name": "Japan MFA — visa fees and procedures",
+        "url": "https://www.mofa.go.jp/j_info/visit/visa/procedure/pagewe_000001_00391.html",
+        "name": "Japan MFA — Visa Fees",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260825075013/https://www.mofa.go.jp/j_info/visit/visa/index.html"
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     },
     {
@@ -1602,7 +1614,11 @@
         "name": "Japan MFA — visa fees and procedures",
         "type": "government",
         "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260825075013/https://www.mofa.go.jp/j_info/visit/visa/index.html"
+        "archiveUrl": "https://web.archive.org/web/20260825075013/https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "unverifiable": {
+          "lastAttempt": "2026-09-26",
+          "reason": "not-stated"
+        }
       }
     },
     {
@@ -1611,7 +1627,7 @@
       "method": "embassy",
       "name": "Work / Long-Term Visa (Certificate of Eligibility route)",
       "fee": {
-        "amount": 3000,
+        "amount": 15000,
         "currency": "JPY",
         "notes": "Requires a Certificate of Eligibility (COE) obtained in Japan by the employer or school before the visa application."
       },
@@ -1629,11 +1645,11 @@
       },
       "applyUrl": "https://www.mofa.go.jp/j_info/visit/visa/index.html",
       "source": {
-        "url": "https://www.mofa.go.jp/j_info/visit/visa/index.html",
-        "name": "Japan MFA — long-term visa procedures",
+        "url": "https://www.mofa.go.jp/j_info/visit/visa/procedure/pagewe_000001_00391.html",
+        "name": "Japan MFA — Visa Fees",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260825075013/https://www.mofa.go.jp/j_info/visit/visa/index.html"
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     }
   ],
@@ -1642,21 +1658,19 @@
       "rule": "valid-for-stay",
       "text": "Japan does not impose a 6-month rule: your passport must simply be valid for the entire duration of your stay. Airlines may still apply stricter checks.",
       "source": {
-        "url": "https://www.mofa.go.jp/j_info/visit/visa/index.html",
-        "name": "Ministry of Foreign Affairs of Japan",
+        "url": "https://www.gov.uk/foreign-travel-advice/japan/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Japan entry requirements",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260825075013/https://www.mofa.go.jp/j_info/visit/visa/index.html"
+        "lastVerified": "2026-09-26"
       }
     },
     "blankPages": {
       "count": 1,
       "source": {
-        "url": "https://www.mofa.go.jp/j_info/visit/visa/index.html",
-        "name": "Ministry of Foreign Affairs of Japan",
+        "url": "https://www.gov.uk/foreign-travel-advice/japan/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Japan entry requirements",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260825075013/https://www.mofa.go.jp/j_info/visit/visa/index.html"
+        "lastVerified": "2026-09-26"
       }
     },
     "vaccinations": [],
@@ -1669,7 +1683,7 @@
         "url": "https://www.mofa.go.jp/j_info/visit/visa/index.html",
         "name": "Ministry of Foreign Affairs of Japan",
         "type": "government",
-        "lastVerified": "2026-08-25",
+        "lastVerified": "2026-09-26",
         "archiveUrl": "https://web.archive.org/web/20260825075013/https://www.mofa.go.jp/j_info/visit/visa/index.html"
       }
     },
@@ -1682,7 +1696,11 @@
         "name": "Ministry of Foreign Affairs of Japan",
         "type": "government",
         "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260825075013/https://www.mofa.go.jp/j_info/visit/visa/index.html"
+        "archiveUrl": "https://web.archive.org/web/20260825075013/https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "unverifiable": {
+          "lastAttempt": "2026-09-26",
+          "reason": "not-stated"
+        }
       }
     },
     "proofOfFunds": {
@@ -1695,7 +1713,11 @@
         "name": "Ministry of Foreign Affairs of Japan",
         "type": "government",
         "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260825075013/https://www.mofa.go.jp/j_info/visit/visa/index.html"
+        "archiveUrl": "https://web.archive.org/web/20260825075013/https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "unverifiable": {
+          "lastAttempt": "2026-09-26",
+          "reason": "not-stated"
+        }
       }
     },
     "declarations": [
@@ -1712,7 +1734,7 @@
           "url": "https://vjw-lp.digital.go.jp/en/",
           "name": "Visit Japan Web (Digital Agency)",
           "type": "government",
-          "lastVerified": "2026-08-25",
+          "lastVerified": "2026-09-26",
           "archiveUrl": "https://web.archive.org/web/20260829140529/https://services.digital.go.jp/en/visit-japan-web/"
         }
       }
@@ -1721,11 +1743,10 @@
       "currencyLimits": {
         "text": "Cash, checks and securities exceeding 1,000,000 JPY in total (or equivalent) must be declared on arrival and departure.",
         "source": {
-          "url": "https://www.customs.go.jp/english/",
-          "name": "Japan Customs",
+          "url": "https://www.customs.go.jp/english/c-answer_e/keitaibetsuso/7305_e.htm",
+          "name": "Japan Customs — 7305 Export/Import of Means of Payment",
           "type": "government",
-          "lastVerified": "2026-08-25",
-          "archiveUrl": "https://web.archive.org/web/20260707155130/https://www.customs.go.jp/english/"
+          "lastVerified": "2026-09-26"
         }
       },
       "notes": [
@@ -1752,7 +1773,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/japan",
         "name": "UK Foreign, Commonwealth & Development Office — Japan travel advice",
         "type": "government",
-        "lastVerified": "2026-08-29",
+        "lastVerified": "2026-09-26",
         "archiveUrl": "https://web.archive.org/web/20260812203112/https://www.gov.uk/foreign-travel-advice/japan"
       }
     },
@@ -1796,7 +1817,7 @@
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
           "type": "igo",
-          "lastVerified": "2026-08-26",
+          "lastVerified": "2026-09-26",
           "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
         }
       },
@@ -1811,7 +1832,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
         "type": "igo",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-26",
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
       }
     }
@@ -1847,7 +1868,7 @@
     {
       "id": "evisa-who",
       "question": "Who can use the Japan eVisa and what does it cost?",
-      "answer": "The official Japan eVisa at evisa.mofa.go.jp issues single-entry short-term visas for eligible nationalities and residents (Indian, Filipino and Vietnamese tourists among them, depending on where they apply). The fee matches the paper visa: about 3,000 JPY for single entry; multiple-entry embassy visas cost about 6,000 JPY."
+      "answer": "The official Japan eVisa at evisa.mofa.go.jp issues single-entry tourist visas to people who need a visa and legally reside in Australia, Brazil, Cambodia, Canada, Saudi Arabia, South Africa, Taiwan, the United Kingdom or the United States. Since 1 July 2026 a single-entry visa costs about 15,000 JPY; multiple-entry embassy visas cost about 30,000 JPY."
     },
     {
       "id": "vjw-what",
@@ -1857,7 +1878,7 @@
     {
       "id": "china-visa-free",
       "question": "Can Chinese citizens visit Japan without a visa?",
-      "answer": "Japan has restored short-term visa exemption for Chinese citizens for stays of up to 30 days. Because this policy was reinstated recently and conditions may be adjusted, Chinese travelers should confirm the current rules with a Japanese embassy before booking."
+      "answer": "No. The Ministry of Foreign Affairs lists China among the nationalities that need a visa for a short-term stay in Japan, and China is not among the 74 countries and regions exempt from one. Chinese citizens apply at a Japanese embassy or consulate."
     },
     {
       "id": "extend-stay",

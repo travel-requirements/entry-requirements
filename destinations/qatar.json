@@ -16,8 +16,8 @@
   ],
   "summary": "Qatar grants free visa waivers on arrival to citizens of over 100 countries — 90 days within 180 for EU and Schengen-area passports, 30 extendable days for most others including the US, UK and much of Asia and Latin America, and routes remaining nationalities through the official Hayya platform for a tourist visa.",
   "meta": {
-    "lastUpdated": "2026-08-29",
-    "lastFullReview": "2026-08-25",
+    "lastUpdated": "2026-09-26",
+    "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 7,
     "primarySources": [
       {
@@ -55,7 +55,10 @@
         "requirement": "visa-free",
         "maxStayDays": 30,
         "extendableDays": 30,
-        "notes": "Free visa waiver issued on arrival for 30 days, extendable once for a further 30 days."
+        "visaTypes": [
+          "hayya-f1"
+        ],
+        "notes": "Free visa waiver issued on arrival for 30 days, extendable once for a further 30 days. US citizens can also apply in advance on Hayya for the optional Visa-Free for US Citizens (F1): QAR 76, multiple entry, up to 90 days per visit, for travel within 2 years of approval."
       },
       "GB": {
         "requirement": "visa-free",
@@ -1466,14 +1469,13 @@
         "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "appliesTo": "visa-required",
-        "text": "GCC residents in approved professions (and their accompanying family) can obtain a visa on arrival in Qatar. Confirm eligibility on the official Hayya portal.",
+        "text": "GCC residents in approved professions (and their accompanying family) can still obtain a visa on arrival in Qatar. Alternatively, they can apply in advance on Hayya for the GCC Resident Visa (A2): QAR 100, single entry, up to 30 days, with a GCC residence permit valid for at least 3 months, travelling from their country of residence.",
         "source": {
-          "url": "https://mofa.gov.qa/en",
-          "name": "Qatar MOFA — visa waiver and entry information",
+          "url": "https://hayya.qa/en/faq",
+          "name": "Hayya — frequently asked questions (GCC Resident Visa, A2)",
           "type": "government",
-          "lastVerified": "2026-08-25",
-          "archiveUrl": "https://web.archive.org/web/20260823191601/https://mofa.gov.qa/en",
-          "portalOnly": true
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
         }
       }
     ]
@@ -1503,26 +1505,67 @@
       },
       "applyUrl": "https://hayya.qa/",
       "source": {
-        "url": "https://hayya.qa/",
-        "name": "Hayya — official Qatar entry and visa platform",
+        "url": "https://hayya.qa/en/faq",
+        "name": "Hayya — frequently asked questions (e-visa fee, Tourist Visa A1)",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260728200430/https://hayya.qa/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26"
+      }
+    },
+    {
+      "id": "hayya-f1",
+      "category": "tourist",
+      "method": "eta",
+      "name": "Hayya Visa-Free for US Citizens (F1)",
+      "fee": {
+        "amount": 76,
+        "currency": "QAR",
+        "notes": "Applied for online on Hayya by US citizens only; a return flight ticket and accommodation details are required, but no proof of booked accommodation. Adults apply separately; US citizens under 18 can be added as dependants. Hayya calls F1 multiple-entry in its F1 answers but lists it among single-entry visit types elsewhere in the same FAQ."
+      },
+      "processing": null,
+      "validityDays": 730,
+      "stayDays": 90,
+      "entries": "multiple",
+      "applyUrl": "https://hayya.qa/",
+      "source": {
+        "url": "https://hayya.qa/en/faq",
+        "name": "Hayya — frequently asked questions (Visa-Free for US Citizens, F1)",
+        "type": "government",
+        "lastVerified": "2026-09-26"
+      }
+    },
+    {
+      "id": "hayya-gcc-resident",
+      "category": "tourist",
+      "method": "evisa",
+      "name": "Hayya GCC Resident Visa (A2)",
+      "fee": {
+        "amount": 100,
+        "currency": "QAR",
+        "notes": "For holders of a GCC residence permit valid for at least 3 months, travelling to Qatar from their country of residence; a return flight ticket is required when travelling by air. Dependants under 18 without GCC residence need a separate Tourist Visa (A1) or Visa with ETA (A3)."
+      },
+      "processing": null,
+      "validityDays": null,
+      "stayDays": 30,
+      "entries": "single",
+      "applyUrl": "https://hayya.qa/",
+      "source": {
+        "url": "https://hayya.qa/en/faq",
+        "name": "Hayya — frequently asked questions (GCC Resident Visa, A2)",
+        "type": "government",
+        "lastVerified": "2026-09-26"
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
       "rule": "6-months-on-arrival",
-      "text": "Your passport should be valid for at least 6 months on arrival. Some sources state that 3 months' validity is accepted for certain visa-waiver nationalities. Carry 6 months to be safe.",
+      "text": "Visitors entering on the visa waiver should hold a passport valid for at least 6 months from the date of arrival. Hayya's e-visas (A1, A2, A3 and A4) require at least 3 months' validity from the date of arrival.",
       "source": {
-        "url": "https://mofa.gov.qa/en",
-        "name": "Ministry of Foreign Affairs of Qatar",
+        "url": "https://www.gov.uk/foreign-travel-advice/qatar/entry-requirements",
+        "name": "UK FCDO — Qatar travel advice (entry requirements)",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260823191601/https://mofa.gov.qa/en",
-        "portalOnly": true
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     },
     "blankPages": {
@@ -1547,7 +1590,7 @@
           "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf",
           "name": "WHO, International Travel and Health, Annex 1 — countries requiring proof of vaccination against yellow fever",
           "type": "igo",
-          "lastVerified": "2026-08-27",
+          "lastVerified": "2026-09-26",
           "instrument": "International Health Regulations (2005), Article 36 and Annex 7; WHO International Travel and Health, Annex 1, 18 November 2022 (revised 3 January 2023)",
           "lastChanged": "2026-08-27",
           "archiveUrl": "https://web.archive.org/web/20260301152802/https://cdn.who.int/media/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf"
@@ -1627,14 +1670,14 @@
       "text": "Cards and contactless payments are accepted almost everywhere, from malls to taxis and the Doha Metro. Cash is only occasionally useful at Souq Waqif stalls and for small tips."
     },
     "safety": {
-      "level": "very-safe",
-      "text": "Qatar has very low crime and is one of the safest countries for travelers. The main considerations are legal and cultural: strict rules on alcohol, drugs, public behavior and photography of sensitive sites.",
+      "level": "generally-safe",
+      "text": "Crime is low, but since 8 July 2026 Iran has carried out strikes and retaliatory attacks across the region, including in Qatar, against US military and civilian infrastructure, and further attacks are possible. Expect possible flight cancellations and airspace closures, stay away from security and military sites, and follow local authorities' instructions. Strict laws on alcohol, drugs, public behavior and photography also apply.",
       "source": {
-        "url": "https://www.gov.uk/foreign-travel-advice/qatar",
-        "name": "UK Foreign, Commonwealth & Development Office — Qatar travel advice",
+        "url": "https://www.gov.uk/foreign-travel-advice/qatar/warnings-and-insurance",
+        "name": "UK Foreign, Commonwealth & Development Office — Qatar travel advice (warnings and insurance)",
         "type": "government",
-        "lastVerified": "2026-08-29",
-        "archiveUrl": "https://web.archive.org/web/20260727092912/https://www.gov.uk/foreign-travel-advice/qatar"
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     },
     "plugs": {
@@ -1674,7 +1717,7 @@
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
           "type": "igo",
-          "lastVerified": "2026-08-26",
+          "lastVerified": "2026-09-26",
           "instrument": "Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
           "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
         }
@@ -1690,7 +1733,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
         "type": "igo",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-26",
         "instrument": "Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
@@ -1722,7 +1765,7 @@
     {
       "id": "us-need-visa",
       "question": "Do US citizens need a visa for Qatar?",
-      "answer": "No advance visa is needed. US passport holders receive a free visa waiver on arrival valid for 30 days, which can be extended once for a further 30 days from inside Qatar."
+      "answer": "No advance visa is needed. US passport holders receive a free visa waiver on arrival valid for 30 days, which can be extended once for a further 30 days from inside Qatar. Hayya also offers US citizens an optional Visa-Free for US Citizens (F1), applied for online: QAR 76, multiple entry, up to 90 days per visit, for travel within 2 years of approval."
     },
     {
       "id": "eu-stay-length",

@@ -15,8 +15,8 @@
   ],
   "summary": "The Philippines admits citizens of more than 150 countries visa-free for 30 days — extendable by 29 days at a Bureau of Immigration office — and requires every arriving traveler to register on the free eTravel platform within 72 hours before arrival. Airlines strictly check onward tickets before boarding.",
   "meta": {
-    "lastUpdated": "2026-08-29",
-    "lastFullReview": "2026-08-25",
+    "lastUpdated": "2026-09-26",
+    "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 7,
     "primarySources": [
       {
@@ -28,19 +28,16 @@
         "portalOnly": true
       },
       {
-        "url": "https://etravel.gov.ph/",
-        "name": "eTravel — Philippine One Health Pass and Arrival Registration",
+        "url": "https://etravel.gov.ph/frequently-asked-questions",
+        "name": "eTravel — Frequently Asked Questions",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260728155253/https://etravel.gov.ph/"
+        "lastVerified": "2026-09-26"
       },
       {
-        "url": "https://evisa.gov.ph/",
-        "name": "Philippine eVisa Portal (Department of Foreign Affairs)",
+        "url": "https://evisa.gov.ph/page/policy",
+        "name": "Department of Foreign Affairs — Philippine visa policy (eVisaPH)",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260729042951/https://evisa.gov.ph/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26"
       }
     ],
     "modules": [
@@ -49,12 +46,11 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://immigration.gov.ph/",
-      "name": "Bureau of Immigration — visa-free entry under Executive Order 408",
+      "url": "https://evisa.gov.ph/page/policy",
+      "name": "Department of Foreign Affairs — Philippine visa policy: visa-free nationalities under Executive Order 408",
       "type": "government",
-      "lastVerified": "2026-08-25",
-      "archiveUrl": "https://web.archive.org/web/20260630075829/https://immigration.gov.ph/",
-      "portalOnly": true
+      "lastVerified": "2026-09-26",
+      "lastChanged": "2026-09-26"
     },
     "byPassport": {
       "US": {
@@ -191,33 +187,29 @@
         }
       },
       "CN": {
-        "requirement": "embassy-visa",
-        "visaTypes": [
-          "9a-tourist",
-          "tourist-evisa"
-        ],
-        "notes": "Chinese citizens need a temporary visitor (9a) visa. An eVisa for Chinese nationals has been rolled out at evisa.gov.ph. Check current availability, as the program has been suspended and resumed at times.",
+        "requirement": "visa-free",
+        "maxStayDays": 14,
+        "extendableDays": null,
+        "notes": "Visa-free for 14 days for tourism or business since 16 January 2026, entering only through NAIA (Manila) or Mactan-Cebu airport; the stay cannot be extended or converted. You need a passport valid 6 months beyond the stay, a confirmed hotel booking and a return or onward ticket. The eVisa, applied for through VFS Global, remains an option.",
         "source": {
-          "url": "https://evisa.gov.ph/",
-          "name": "Philippine eVisa Portal",
+          "url": "https://evisa.gov.ph/page/policy",
+          "name": "Department of Foreign Affairs — Philippine visa policy (eVisaPH)",
           "type": "government",
-          "lastVerified": "2026-08-25",
-          "archiveUrl": "https://web.archive.org/web/20260729042951/https://evisa.gov.ph/",
-          "portalOnly": true
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
         }
       },
       "IN": {
         "requirement": "visa-free",
         "maxStayDays": 14,
-        "extendableDays": 7,
-        "notes": "Indian citizens holding a valid visa or residence permit for the US, UK, Schengen area, Japan, Australia, Canada or Singapore may enter visa-free for 14 days (extendable by 7). Otherwise a 9a visa is required. An eVisa route for Indian nationals has also been announced. Confirm conditions before travel.",
+        "extendableDays": null,
+        "notes": "Visa-free for 14 days for tourism or business, not extendable or convertible, with a passport valid 6 months beyond the stay, a confirmed hotel booking, proof of funds and a return or onward ticket. Holders of a valid US, Japanese, Australian, Canadian, Schengen, Singapore or UK visa or residence permit may instead stay 30 days for tourism, also not extendable.",
         "source": {
-          "url": "https://immigration.gov.ph/",
-          "name": "Bureau of Immigration — entry of Indian nationals with AJACSSUK visas",
+          "url": "https://evisa.gov.ph/page/policy",
+          "name": "Department of Foreign Affairs — Philippine visa policy (eVisaPH)",
           "type": "government",
-          "lastVerified": "2026-08-25",
-          "archiveUrl": "https://web.archive.org/web/20260630075829/https://immigration.gov.ph/",
-          "portalOnly": true
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
         }
       },
       "JP": {
@@ -271,9 +263,9 @@
       },
       "BR": {
         "requirement": "visa-free",
-        "maxStayDays": 30,
-        "extendableDays": 29,
-        "notes": "Visa-free for 30 days under Executive Order 408; extendable by 29 days (visa waiver) at a Bureau of Immigration office."
+        "maxStayDays": 59,
+        "extendableDays": null,
+        "notes": "Visa-free for 59 days under a bilateral agreement; stays beyond 59 days can be extended at a Bureau of Immigration office."
       },
       "MX": {
         "requirement": "visa-free",
@@ -651,8 +643,8 @@
       },
       "HK": {
         "requirement": "visa-free",
-        "maxStayDays": 30,
-        "notes": "Visa-free for 30 days under Executive Order 408; extendable by 29 days (visa waiver) at a Bureau of Immigration office, and further in-country extensions are routine."
+        "maxStayDays": 14,
+        "notes": "Hong Kong SAR passport holders are visa-free for an initial 14 days. Holders of Hong Kong British passports get 7 days, extendable by 14."
       },
       "HU": {
         "requirement": "visa-free",
@@ -682,8 +674,8 @@
       },
       "IL": {
         "requirement": "visa-free",
-        "maxStayDays": 30,
-        "notes": "Visa-free for 30 days under Executive Order 408; extendable by 29 days (visa waiver) at a Bureau of Immigration office, and further in-country extensions are routine."
+        "maxStayDays": 59,
+        "notes": "Visa-free for 59 days under a bilateral agreement; stays beyond 59 days can be extended at a Bureau of Immigration office."
       },
       "JM": {
         "requirement": "visa-free",
@@ -784,8 +776,8 @@
       },
       "MO": {
         "requirement": "visa-free",
-        "maxStayDays": 30,
-        "notes": "Visa-free for 30 days under Executive Order 408; extendable by 29 days (visa waiver) at a Bureau of Immigration office, and further in-country extensions are routine."
+        "maxStayDays": 14,
+        "notes": "Macau SAR passport holders are visa-free for an initial 14 days, with a return or onward ticket."
       },
       "MG": {
         "requirement": "visa-free",
@@ -1233,18 +1225,17 @@
       {
         "id": "us-visa",
         "requirement": "visa-free",
-        "maxStayDays": 14,
+        "maxStayDays": 30,
         "appliesTo": [
           "IN"
         ],
-        "text": "Indian citizens holding a valid US, Japanese, Australian, Canadian, Schengen, Singaporean or UK visa (or residence) may enter the Philippines visa-free for up to 14 days.",
+        "text": "Indian citizens holding a valid US, Japanese, Australian, Canadian, Schengen, Singapore or UK visa or residence permit may enter the Philippines visa-free for 30 days for tourism (not extendable).",
         "source": {
-          "url": "https://immigration.gov.ph/",
-          "name": "Bureau of Immigration, Philippines",
+          "url": "https://evisa.gov.ph/page/policy",
+          "name": "Department of Foreign Affairs — Philippine visa policy (eVisaPH)",
           "type": "government",
-          "lastVerified": "2026-08-25",
-          "archiveUrl": "https://web.archive.org/web/20260630075829/https://immigration.gov.ph/",
-          "portalOnly": true
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
         }
       }
     ]
@@ -1301,17 +1292,17 @@
       "stayDays": 30,
       "entries": "single",
       "extendable": {
-        "possible": true,
-        "days": 29
+        "possible": false,
+        "days": null
       },
       "applyUrl": "https://evisa.gov.ph/",
       "source": {
-        "url": "https://evisa.gov.ph/",
-        "name": "Philippine eVisa Portal (Department of Foreign Affairs)",
+        "url": "https://evisa.gov.ph/page/policy",
+        "name": "Department of Foreign Affairs — Philippine visa policy (eVisaPH)",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260729042951/https://evisa.gov.ph/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26",
+        "portalOnly": true,
+        "lastChanged": "2026-09-26"
       }
     },
     {
@@ -1338,24 +1329,23 @@
       },
       "applyUrl": "https://immigration.gov.ph/",
       "source": {
-        "url": "https://e-services.immigration.gov.ph/AnnualReport",
-        "name": "eServices | Bureau of Immigration PH",
+        "url": "https://immigration.gov.ph/visas/visa-waiver/",
+        "name": "Bureau of Immigration — Temporary Visitor (9A) Visa Waiver",
         "type": "government",
-        "lastVerified": "2026-08-29"
+        "lastVerified": "2026-09-26"
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
-      "text": "Your passport must be valid for at least 6 months on the date of arrival.",
+      "rule": "6-months-beyond-stay",
+      "text": "Your passport must be valid for at least 6 months beyond your intended stay in the Philippines.",
       "source": {
-        "url": "https://immigration.gov.ph/",
-        "name": "Bureau of Immigration, Republic of the Philippines",
+        "url": "https://evisa.gov.ph/page/policy",
+        "name": "Department of Foreign Affairs — Philippine visa policy (eVisaPH)",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260630075829/https://immigration.gov.ph/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     },
     "blankPages": {
@@ -1405,12 +1395,10 @@
       "appliesTo": "visa-free-arrivals",
       "text": "Visa-free entry legally requires an onward or return ticket, and airlines enforce this strictly at check-in — travelers without one are routinely denied boarding.",
       "source": {
-        "url": "https://immigration.gov.ph/",
-        "name": "Bureau of Immigration — conditions for visa-free admission",
+        "url": "https://evisa.gov.ph/page/policy",
+        "name": "Department of Foreign Affairs — Philippine visa policy (eVisaPH)",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260630075829/https://immigration.gov.ph/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26"
       }
     },
     "proofOfFunds": {
@@ -1438,11 +1426,10 @@
         "url": "https://etravel.gov.ph/",
         "text": "Every traveler arriving in the Philippines (foreigners and Filipinos alike) must register on the eTravel platform within 72 hours before arrival and present the QR code at check-in and immigration. It is completely free. Use only etravel.gov.ph.",
         "source": {
-          "url": "https://etravel.gov.ph/",
-          "name": "eTravel — Philippine Arrival Registration",
+          "url": "https://etravel.gov.ph/frequently-asked-questions",
+          "name": "eTravel — Frequently Asked Questions",
           "type": "government",
-          "lastVerified": "2026-08-25",
-          "archiveUrl": "https://web.archive.org/web/20260728155253/https://etravel.gov.ph/"
+          "lastVerified": "2026-09-26"
         }
       }
     ],
@@ -1454,7 +1441,11 @@
           "name": "Bureau of Customs, Republic of the Philippines",
           "type": "government",
           "lastVerified": "2026-08-25",
-          "archiveUrl": "https://web.archive.org/web/20260824221201/https://customs.gov.ph/"
+          "archiveUrl": "https://web.archive.org/web/20260824221201/https://customs.gov.ph/",
+          "unverifiable": {
+            "lastAttempt": "2026-09-26",
+            "reason": "not-stated"
+          }
         }
       },
       "notes": [
@@ -1529,7 +1520,7 @@
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
           "type": "igo",
-          "lastVerified": "2026-08-26",
+          "lastVerified": "2026-09-26",
           "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
           "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
         }
@@ -1545,7 +1536,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
         "type": "igo",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-26",
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }

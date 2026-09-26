@@ -19,8 +19,8 @@
   ],
   "summary": "Malaysia grants visa-free entry to most nationalities — 90 days for US, UK, EU and many other passports, 30 days for ASEAN neighbors plus Chinese and Indian citizens under exemptions extended through 2026, and requires almost all foreign arrivals to submit the free Malaysia Digital Arrival Card (MDAC) online within 3 days before travel.",
   "meta": {
-    "lastUpdated": "2026-08-30",
-    "lastFullReview": "2026-08-25",
+    "lastUpdated": "2026-09-26",
+    "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 7,
     "primarySources": [
       {
@@ -35,15 +35,21 @@
         "url": "https://imigresen-online.imi.gov.my/mdac/main",
         "name": "Malaysia Digital Arrival Card (MDAC) — official portal",
         "type": "government",
-        "lastVerified": "2026-08-25",
+        "lastVerified": "2026-09-26",
         "archiveUrl": "https://web.archive.org/web/20260824141920/https://imigresen-online.imi.gov.my/mdac/main/"
       },
       {
         "url": "https://malaysiavisa.imi.gov.my/",
         "name": "Malaysia eVisa — official portal",
         "type": "government",
-        "lastVerified": "2026-08-25",
+        "lastVerified": "2026-09-26",
         "archiveUrl": "https://web.archive.org/web/20260724110057/https://malaysiavisa.imi.gov.my/"
+      },
+      {
+        "url": "https://malaysiavisa.imi.gov.my/faq",
+        "name": "Malaysia eVisa — FAQ (Immigration Department of Malaysia)",
+        "type": "government",
+        "lastVerified": "2026-09-26"
       }
     ],
     "modules": [
@@ -243,11 +249,10 @@
         ],
         "notes": "An eVisa is required. Apply only at the official portal malaysiavisa.imi.gov.my. MDAC must also be submitted within 3 days before arrival.",
         "source": {
-          "url": "https://malaysiavisa.imi.gov.my/",
-          "name": "Malaysia eVisa — official portal",
+          "url": "https://malaysiavisa.imi.gov.my/faq",
+          "name": "Malaysia eVisa — official portal, FAQ (Immigration Department of Malaysia)",
           "type": "government",
-          "lastVerified": "2026-08-25",
-          "archiveUrl": "https://web.archive.org/web/20260724110057/https://malaysiavisa.imi.gov.my/"
+          "lastVerified": "2026-09-26"
         }
       },
       "NG": {
@@ -258,11 +263,10 @@
         ],
         "notes": "An eVisa is required. Apply only at the official portal malaysiavisa.imi.gov.my. MDAC must also be submitted within 3 days before arrival.",
         "source": {
-          "url": "https://malaysiavisa.imi.gov.my/",
-          "name": "Malaysia eVisa — official portal",
+          "url": "https://malaysiavisa.imi.gov.my/faq",
+          "name": "Malaysia eVisa — official portal, FAQ (Immigration Department of Malaysia)",
           "type": "government",
-          "lastVerified": "2026-08-25",
-          "archiveUrl": "https://web.archive.org/web/20260724110057/https://malaysiavisa.imi.gov.my/"
+          "lastVerified": "2026-09-26"
         }
       },
       "ZA": {
@@ -487,9 +491,19 @@
         "notes": "Visa-free entry for up to 30 days. MDAC must be submitted online within 3 days before arrival."
       },
       "CO": {
-        "requirement": "visa-free",
+        "requirement": "evisa",
         "maxStayDays": 30,
-        "notes": "Visa-free entry for up to 30 days. MDAC must be submitted online within 3 days before arrival."
+        "visaTypes": [
+          "evisa-single"
+        ],
+        "notes": "An eVisa is required. Apply only at the official portal malaysiavisa.imi.gov.my. MDAC must also be submitted within 3 days before arrival.",
+        "source": {
+          "url": "https://malaysiavisa.imi.gov.my/faq",
+          "name": "Malaysia eVisa — official portal, FAQ (Immigration Department of Malaysia)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "KM": {
         "requirement": "visa-free",
@@ -880,9 +894,19 @@
         "notes": "Visa-free entry for up to 30 days. MDAC must be submitted online within 3 days before arrival."
       },
       "ME": {
-        "requirement": "visa-free",
+        "requirement": "evisa",
         "maxStayDays": 30,
-        "notes": "Visa-free entry for up to 30 days. MDAC must be submitted online within 3 days before arrival."
+        "visaTypes": [
+          "evisa-single"
+        ],
+        "notes": "An eVisa is required. Apply only at the official portal malaysiavisa.imi.gov.my. MDAC must also be submitted within 3 days before arrival.",
+        "source": {
+          "url": "https://malaysiavisa.imi.gov.my/faq",
+          "name": "Malaysia eVisa — official portal, FAQ (Immigration Department of Malaysia)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "MA": {
         "requirement": "visa-free",
@@ -890,17 +914,31 @@
         "notes": "Visa-free entry for up to 90 days. MDAC must be submitted online within 3 days before arrival."
       },
       "MZ": {
-        "requirement": "visa-free",
-        "maxStayDays": 30,
-        "notes": "Visa-free entry for up to 30 days. MDAC must be submitted online within 3 days before arrival."
-      },
-      "MM": {
         "requirement": "evisa",
         "maxStayDays": 30,
         "visaTypes": [
           "evisa-single"
         ],
-        "notes": "An eVisa is required. Apply only at the official portal malaysiavisa.imi.gov.my. MDAC must also be submitted within 3 days before arrival."
+        "notes": "An eVisa is required. Apply only at the official portal malaysiavisa.imi.gov.my. MDAC must also be submitted within 3 days before arrival.",
+        "source": {
+          "url": "https://malaysiavisa.imi.gov.my/faq",
+          "name": "Malaysia eVisa — official portal, FAQ (Immigration Department of Malaysia)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
+      },
+      "MM": {
+        "requirement": "visa-free",
+        "maxStayDays": 14,
+        "notes": "Visa-free entry for up to 14 days for social visits under the ASEAN Framework Agreement on Visa Exemption, in effect since 1 October 2025. Travelers who obtain a visa instead may stay up to 30 days. MDAC must be submitted online within 3 days before arrival.",
+        "source": {
+          "url": "https://malaysiavisa.imi.gov.my/faq",
+          "name": "Malaysia eVisa — official portal, FAQ (Immigration Department of Malaysia)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "NA": {
         "requirement": "visa-free",
@@ -1045,9 +1083,19 @@
         "notes": "Visa-free entry for up to 30 days. MDAC must be submitted online within 3 days before arrival."
       },
       "RS": {
-        "requirement": "visa-free",
+        "requirement": "evisa",
         "maxStayDays": 30,
-        "notes": "Visa-free entry for up to 30 days. MDAC must be submitted online within 3 days before arrival."
+        "visaTypes": [
+          "evisa-single"
+        ],
+        "notes": "An eVisa is required. Apply only at the official portal malaysiavisa.imi.gov.my. MDAC must also be submitted within 3 days before arrival.",
+        "source": {
+          "url": "https://malaysiavisa.imi.gov.my/faq",
+          "name": "Malaysia eVisa — official portal, FAQ (Immigration Department of Malaysia)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "SC": {
         "requirement": "visa-free",
@@ -1242,11 +1290,11 @@
       "fee": {
         "amount": 150,
         "currency": "MYR",
-        "notes": "Roughly 100–200 MYR including processing charges; the exact fee varies by nationality and application country."
+        "notes": "A processing charge of RM105 plus a visa fee that depends on nationality, and a convenience charge of 0.8% (card) or 1.7% (Alipay, WeChat Pay) of the transaction. Non-refundable."
       },
       "processing": {
         "minDays": 2,
-        "maxDays": 5,
+        "maxDays": 7,
         "unit": "business-days"
       },
       "validityDays": 180,
@@ -1258,12 +1306,11 @@
       },
       "applyUrl": "https://malaysiavisa.imi.gov.my/",
       "source": {
-        "url": "https://malaysiavisa.imi.gov.my/",
-        "name": "Malaysia eVisa — official portal",
+        "url": "https://malaysiavisa.imi.gov.my/faq",
+        "name": "Malaysia eVisa — official portal, FAQ (Immigration Department of Malaysia)",
         "type": "government",
-        "lastVerified": "2026-08-30",
-        "archiveUrl": "https://web.archive.org/web/20260724110057/https://malaysiavisa.imi.gov.my/",
-        "lastChanged": "2026-08-30"
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     }
   ],
@@ -1272,23 +1319,20 @@
       "rule": "6-months-on-arrival",
       "text": "Your passport must be valid for at least 6 months on the date of entry into Malaysia.",
       "source": {
-        "url": "https://www.imi.gov.my/",
-        "name": "Immigration Department of Malaysia",
+        "url": "https://malaysiavisa.imi.gov.my/faq",
+        "name": "Malaysia eVisa — official portal, FAQ (Immigration Department of Malaysia)",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260730065220/https://www.imi.gov.my/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26"
       }
     },
     "blankPages": {
-      "count": 2,
+      "count": 3,
       "source": {
-        "url": "https://www.imi.gov.my/",
-        "name": "Immigration Department of Malaysia",
+        "url": "https://malaysiavisa.imi.gov.my/faq",
+        "name": "Malaysia eVisa — official portal, FAQ (Immigration Department of Malaysia)",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260730065220/https://www.imi.gov.my/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     },
     "vaccinations": [
@@ -1363,7 +1407,7 @@
           "url": "https://imigresen-online.imi.gov.my/mdac/main",
           "name": "Malaysia Digital Arrival Card (MDAC) — official portal",
           "type": "government",
-          "lastVerified": "2026-08-25",
+          "lastVerified": "2026-09-26",
           "archiveUrl": "https://web.archive.org/web/20260824141920/https://imigresen-online.imi.gov.my/mdac/main/"
         }
       }
@@ -1377,7 +1421,7 @@
           "type": "government",
           "lastVerified": "2026-08-25",
           "unverifiable": {
-            "lastAttempt": "2026-09-01",
+            "lastAttempt": "2026-09-26",
             "reason": "client-rendered",
             "status": 200
           },
@@ -1409,7 +1453,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/malaysia",
         "name": "UK Foreign, Commonwealth & Development Office — Malaysia travel advice",
         "type": "government",
-        "lastVerified": "2026-08-29",
+        "lastVerified": "2026-09-26",
         "archiveUrl": "https://web.archive.org/web/20260829140652/https://www.gov.uk/foreign-travel-advice/malaysia"
       }
     },
@@ -1455,7 +1499,7 @@
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
           "type": "igo",
-          "lastVerified": "2026-08-26",
+          "lastVerified": "2026-09-26",
           "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
         }
       },
@@ -1470,7 +1514,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
         "type": "igo",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-26",
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
       }
     }

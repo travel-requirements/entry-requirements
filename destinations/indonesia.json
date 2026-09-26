@@ -16,10 +16,10 @@
     "vietnam",
     "india"
   ],
-  "summary": "Indonesia offers a Visa on Arrival — or its online e-VOA version — of IDR 500,000 for 30 days, extendable once, to citizens of over 90 countries, admits ASEAN neighbors visa-free, and requires every arrival to submit the free electronic customs declaration (e-CD) before landing.",
+  "summary": "Indonesia offers a Visa on Arrival — or its online e-VOA version — of IDR 500,000 for 30 days, extendable once, to citizens of over 90 countries, admits ASEAN neighbors and a few other countries (including Brazil and Turkey) visa-free, and requires every arrival to submit a free customs declaration online before landing.",
   "meta": {
-    "lastUpdated": "2026-08-29",
-    "lastFullReview": "2026-08-25",
+    "lastUpdated": "2026-09-26",
+    "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 7,
     "primarySources": [
       {
@@ -49,12 +49,11 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://evisa.imigrasi.go.id/",
-      "name": "Indonesian Immigration — e-VOA and visa information",
+      "url": "https://www.imigrasi.go.id/wna/daftar-negara-voa-bvk-calling-visa",
+      "name": "Directorate General of Immigration — lists of Visa on Arrival, visa-free and calling-visa subjects",
       "type": "government",
-      "lastVerified": "2026-08-25",
-      "archiveUrl": "https://web.archive.org/web/20260825003525/https://evisa.imigrasi.go.id/",
-      "portalOnly": true
+      "lastVerified": "2026-09-26",
+      "lastChanged": "2026-09-26"
     },
     "byPassport": {
       "US": {
@@ -218,14 +217,17 @@
         "notes": "Visa on Arrival (IDR 500,000, 30 days, extendable once); buy on landing or online in advance as an e-VOA."
       },
       "TR": {
-        "requirement": "visa-on-arrival",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "extendableDays": 30,
-        "visaTypes": [
-          "voa",
-          "e-voa"
-        ],
-        "notes": "Visa on Arrival (IDR 500,000, 30 days, extendable once); buy on landing or online in advance as an e-VOA."
+        "extendableDays": null,
+        "notes": "Visa-free entry (Bebas Visa Kunjungan) since 3 July 2025: 30 days, not extendable and not convertible to another permit.",
+        "source": {
+          "url": "https://www.imigrasi.go.id/berita/2025/07/02/pemerintah-indonesia-terapkan-bebas-visa-kunjungan-bagi-warga-negara-brasil-dan-turki",
+          "name": "Directorate General of Immigration — visa-free entry for Brazilian and Turkish citizens",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "RU": {
         "requirement": "visa-on-arrival",
@@ -302,12 +304,10 @@
         ],
         "notes": "Pakistani citizens are not on the Visa on Arrival list: a visit visa approved in advance (eVisa with sponsor/guarantor, or via an Indonesian embassy) is required. Confirm the current route on the official eVisa portal.",
         "source": {
-          "url": "https://evisa.imigrasi.go.id/",
-          "name": "Indonesian Immigration — e-visa eligibility",
+          "url": "https://www.imigrasi.go.id/wna/daftar-negara-voa-bvk-calling-visa",
+          "name": "Directorate General of Immigration — Visa on Arrival subject list",
           "type": "government",
-          "lastVerified": "2026-08-25",
-          "archiveUrl": "https://web.archive.org/web/20260825003525/https://evisa.imigrasi.go.id/",
-          "portalOnly": true
+          "lastVerified": "2026-09-26"
         }
       },
       "NG": {
@@ -318,12 +318,10 @@
         ],
         "notes": "Nigerian citizens are not on the Visa on Arrival list: a visit visa approved in advance (eVisa with sponsor/guarantor, or via an Indonesian embassy) is required. Confirm the current route on the official eVisa portal.",
         "source": {
-          "url": "https://evisa.imigrasi.go.id/",
-          "name": "Indonesian Immigration — e-visa eligibility",
+          "url": "https://www.imigrasi.go.id/wna/daftar-negara-voa-bvk-calling-visa",
+          "name": "Directorate General of Immigration — Visa on Arrival subject list",
           "type": "government",
-          "lastVerified": "2026-08-25",
-          "archiveUrl": "https://web.archive.org/web/20260825003525/https://evisa.imigrasi.go.id/",
-          "portalOnly": true
+          "lastVerified": "2026-09-26"
         }
       },
       "ZA": {
@@ -337,14 +335,17 @@
         "notes": "Visa on Arrival (IDR 500,000, 30 days, extendable once); buy on landing or online in advance as an e-VOA."
       },
       "BR": {
-        "requirement": "visa-on-arrival",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "extendableDays": 30,
-        "visaTypes": [
-          "voa",
-          "e-voa"
-        ],
-        "notes": "Visa on Arrival (IDR 500,000, 30 days, extendable once); buy on landing or online in advance as an e-VOA."
+        "extendableDays": null,
+        "notes": "Visa-free entry (Bebas Visa Kunjungan) since 3 July 2025: 30 days, not extendable and not convertible to another permit.",
+        "source": {
+          "url": "https://www.imigrasi.go.id/berita/2025/07/02/pemerintah-indonesia-terapkan-bebas-visa-kunjungan-bagi-warga-negara-brasil-dan-turki",
+          "name": "Directorate General of Immigration — visa-free entry for Brazilian and Turkish citizens",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "MX": {
         "requirement": "visa-on-arrival",
@@ -427,9 +428,14 @@
         "notes": "Visa on Arrival (IDR 500,000, 30 days, extendable once); buy on landing or online in advance as an e-VOA."
       },
       "AZ": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "notes": "Not on the Visa on Arrival list: a visit visa approved in advance (eVisa with sponsor/guarantor, or via an Indonesian embassy) is required. Confirm the current route on the official eVisa portal."
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "extendableDays": 30,
+        "visaTypes": [
+          "voa",
+          "e-voa"
+        ],
+        "notes": "Visa on Arrival (IDR 500,000, 30 days, extendable once); buy on landing or online in advance as an e-VOA."
       },
       "BS": {
         "requirement": "embassy-visa",
@@ -457,14 +463,17 @@
         "notes": "Not on the Visa on Arrival list: a visit visa approved in advance (eVisa with sponsor/guarantor, or via an Indonesian embassy) is required. Confirm the current route on the official eVisa portal."
       },
       "BY": {
-        "requirement": "visa-on-arrival",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "extendableDays": 30,
-        "visaTypes": [
-          "voa",
-          "e-voa"
-        ],
-        "notes": "Visa on Arrival (IDR 500,000, 30 days, extendable once); buy on landing or online in advance as an e-VOA."
+        "extendableDays": null,
+        "notes": "Visa-free entry (Bebas Visa Kunjungan): 30 days, not extendable and not convertible to another permit.",
+        "source": {
+          "url": "https://www.imigrasi.go.id/wna/daftar-negara-voa-bvk-calling-visa/daftar-negara-bebas-visa-kunjungan",
+          "name": "Directorate General of Immigration — visa-free (BVK) subject list",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "BE": {
         "requirement": "visa-on-arrival",
@@ -572,14 +581,17 @@
         "notes": "Visa on Arrival (IDR 500,000, 30 days, extendable once); buy on landing or online in advance as an e-VOA."
       },
       "CO": {
-        "requirement": "visa-on-arrival",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "extendableDays": 30,
-        "visaTypes": [
-          "voa",
-          "e-voa"
-        ],
-        "notes": "Visa on Arrival (IDR 500,000, 30 days, extendable once); buy on landing or online in advance as an e-VOA."
+        "extendableDays": null,
+        "notes": "Visa-free entry (Bebas Visa Kunjungan): 30 days, not extendable and not convertible to another permit.",
+        "source": {
+          "url": "https://www.imigrasi.go.id/wna/daftar-negara-voa-bvk-calling-visa/daftar-negara-bebas-visa-kunjungan",
+          "name": "Directorate General of Immigration — visa-free (BVK) subject list",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "KM": {
         "requirement": "embassy-visa",
@@ -802,14 +814,17 @@
         "notes": "Not on the Visa on Arrival list: a visit visa approved in advance (eVisa with sponsor/guarantor, or via an Indonesian embassy) is required. Confirm the current route on the official eVisa portal."
       },
       "HK": {
-        "requirement": "visa-on-arrival",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "extendableDays": 30,
-        "visaTypes": [
-          "voa",
-          "e-voa"
-        ],
-        "notes": "Visa on Arrival (IDR 500,000, 30 days, extendable once); buy on landing or online in advance as an e-VOA."
+        "extendableDays": null,
+        "notes": "Visa-free entry (Bebas Visa Kunjungan): 30 days, not extendable and not convertible to another permit.",
+        "source": {
+          "url": "https://www.imigrasi.go.id/wna/daftar-negara-voa-bvk-calling-visa/daftar-negara-bebas-visa-kunjungan",
+          "name": "Directorate General of Immigration — visa-free (BVK) subject list",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "HU": {
         "requirement": "visa-on-arrival",
@@ -862,14 +877,17 @@
         "notes": "Visa on Arrival (IDR 500,000, 30 days, extendable once); buy on landing or online in advance as an e-VOA."
       },
       "KZ": {
-        "requirement": "visa-on-arrival",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "extendableDays": 30,
-        "visaTypes": [
-          "voa",
-          "e-voa"
-        ],
-        "notes": "Visa on Arrival (IDR 500,000, 30 days, extendable once); buy on landing or online in advance as an e-VOA."
+        "extendableDays": null,
+        "notes": "Visa-free entry (Bebas Visa Kunjungan): 30 days, not extendable and not convertible to another permit.",
+        "source": {
+          "url": "https://www.imigrasi.go.id/wna/daftar-negara-voa-bvk-calling-visa/daftar-negara-bebas-visa-kunjungan",
+          "name": "Directorate General of Immigration — visa-free (BVK) subject list",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "KE": {
         "requirement": "visa-on-arrival",
@@ -972,14 +990,17 @@
         "notes": "Visa on Arrival (IDR 500,000, 30 days, extendable once); buy on landing or online in advance as an e-VOA."
       },
       "MO": {
-        "requirement": "visa-on-arrival",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "extendableDays": 30,
-        "visaTypes": [
-          "voa",
-          "e-voa"
-        ],
-        "notes": "Visa on Arrival (IDR 500,000, 30 days, extendable once); buy on landing or online in advance as an e-VOA."
+        "extendableDays": null,
+        "notes": "Visa-free entry (Bebas Visa Kunjungan): 30 days, not extendable and not convertible to another permit.",
+        "source": {
+          "url": "https://www.imigrasi.go.id/wna/daftar-negara-voa-bvk-calling-visa/daftar-negara-bebas-visa-kunjungan",
+          "name": "Directorate General of Immigration — visa-free (BVK) subject list",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "MG": {
         "requirement": "embassy-visa",
@@ -1032,9 +1053,14 @@
         "notes": "Not on the Visa on Arrival list: a visit visa approved in advance (eVisa with sponsor/guarantor, or via an Indonesian embassy) is required. Confirm the current route on the official eVisa portal."
       },
       "MU": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "notes": "Not on the Visa on Arrival list: a visit visa approved in advance (eVisa with sponsor/guarantor, or via an Indonesian embassy) is required. Confirm the current route on the official eVisa portal."
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "extendableDays": 30,
+        "visaTypes": [
+          "voa",
+          "e-voa"
+        ],
+        "notes": "Visa on Arrival (IDR 500,000, 30 days, extendable once); buy on landing or online in advance as an e-VOA."
       },
       "FM": {
         "requirement": "embassy-visa",
@@ -1057,9 +1083,14 @@
         "notes": "Visa on Arrival (IDR 500,000, 30 days, extendable once); buy on landing or online in advance as an e-VOA."
       },
       "MN": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "notes": "Not on the Visa on Arrival list: a visit visa approved in advance (eVisa with sponsor/guarantor, or via an Indonesian embassy) is required. Confirm the current route on the official eVisa portal."
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "extendableDays": 30,
+        "visaTypes": [
+          "voa",
+          "e-voa"
+        ],
+        "notes": "Visa on Arrival (IDR 500,000, 30 days, extendable once); buy on landing or online in advance as an e-VOA."
       },
       "ME": {
         "requirement": "embassy-visa",
@@ -1077,9 +1108,14 @@
         "notes": "Visa on Arrival (IDR 500,000, 30 days, extendable once); buy on landing or online in advance as an e-VOA."
       },
       "MZ": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "notes": "Not on the Visa on Arrival list: a visit visa approved in advance (eVisa with sponsor/guarantor, or via an Indonesian embassy) is required. Confirm the current route on the official eVisa portal."
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "extendableDays": 30,
+        "visaTypes": [
+          "voa",
+          "e-voa"
+        ],
+        "notes": "Visa on Arrival (IDR 500,000, 30 days, extendable once); buy on landing or online in advance as an e-VOA."
       },
       "MM": {
         "requirement": "visa-free",
@@ -1147,11 +1183,6 @@
         "notes": "Not on the Visa on Arrival list: a visit visa approved in advance (eVisa with sponsor/guarantor, or via an Indonesian embassy) is required. Confirm the current route on the official eVisa portal."
       },
       "PS": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "notes": "Not on the Visa on Arrival list: a visit visa approved in advance (eVisa with sponsor/guarantor, or via an Indonesian embassy) is required. Confirm the current route on the official eVisa portal."
-      },
-      "PA": {
         "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "extendableDays": 30,
@@ -1160,6 +1191,11 @@
           "e-voa"
         ],
         "notes": "Visa on Arrival (IDR 500,000, 30 days, extendable once); buy on landing or online in advance as an e-VOA."
+      },
+      "PA": {
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "notes": "Not on the Visa on Arrival list: a visit visa approved in advance (eVisa with sponsor/guarantor, or via an Indonesian embassy) is required. Confirm the current route on the official eVisa portal."
       },
       "PG": {
         "requirement": "visa-on-arrival",
@@ -1177,14 +1213,17 @@
         "notes": "Not on the Visa on Arrival list: a visit visa approved in advance (eVisa with sponsor/guarantor, or via an Indonesian embassy) is required. Confirm the current route on the official eVisa portal."
       },
       "PE": {
-        "requirement": "visa-on-arrival",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "extendableDays": 30,
-        "visaTypes": [
-          "voa",
-          "e-voa"
-        ],
-        "notes": "Visa on Arrival (IDR 500,000, 30 days, extendable once); buy on landing or online in advance as an e-VOA."
+        "extendableDays": null,
+        "notes": "Visa-free entry (Bebas Visa Kunjungan): 30 days, not extendable and not convertible to another permit.",
+        "source": {
+          "url": "https://www.imigrasi.go.id/wna/daftar-negara-voa-bvk-calling-visa/daftar-negara-bebas-visa-kunjungan",
+          "name": "Directorate General of Immigration — visa-free (BVK) subject list",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "QA": {
         "requirement": "visa-on-arrival",
@@ -1337,14 +1376,17 @@
         "notes": "Not on the Visa on Arrival list: a visit visa approved in advance (eVisa with sponsor/guarantor, or via an Indonesian embassy) is required. Confirm the current route on the official eVisa portal."
       },
       "SR": {
-        "requirement": "visa-on-arrival",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "extendableDays": 30,
-        "visaTypes": [
-          "voa",
-          "e-voa"
-        ],
-        "notes": "Visa on Arrival (IDR 500,000, 30 days, extendable once); buy on landing or online in advance as an e-VOA."
+        "extendableDays": null,
+        "notes": "Visa-free entry (Bebas Visa Kunjungan): 30 days, not extendable and not convertible to another permit.",
+        "source": {
+          "url": "https://www.imigrasi.go.id/wna/daftar-negara-voa-bvk-calling-visa/daftar-negara-bebas-visa-kunjungan",
+          "name": "Directorate General of Immigration — visa-free (BVK) subject list",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "SE": {
         "requirement": "visa-on-arrival",
@@ -1377,9 +1419,14 @@
         "notes": "Not on the Visa on Arrival list: a visit visa approved in advance (eVisa with sponsor/guarantor, or via an Indonesian embassy) is required. Confirm the current route on the official eVisa portal."
       },
       "TZ": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "notes": "Not on the Visa on Arrival list: a visit visa approved in advance (eVisa with sponsor/guarantor, or via an Indonesian embassy) is required. Confirm the current route on the official eVisa portal."
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "extendableDays": 30,
+        "visaTypes": [
+          "voa",
+          "e-voa"
+        ],
+        "notes": "Visa on Arrival (IDR 500,000, 30 days, extendable once); buy on landing or online in advance as an e-VOA."
       },
       "TH": {
         "requirement": "visa-free",
@@ -1523,12 +1570,10 @@
       },
       "applyUrl": null,
       "source": {
-        "url": "https://www.imigrasi.go.id/",
-        "name": "Directorate General of Immigration of Indonesia",
+        "url": "https://www.imigrasi.go.id/wna/daftar-visa-indonesia/B1",
+        "name": "Directorate General of Immigration — B1 Visa on Arrival (tourism)",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260829112533/https://www.imigrasi.go.id/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26"
       }
     },
     {
@@ -1543,8 +1588,8 @@
       },
       "processing": {
         "minDays": 0,
-        "maxDays": 2,
-        "unit": "business-days"
+        "maxDays": 1,
+        "unit": "calendar-days"
       },
       "validityDays": 90,
       "stayDays": 30,
@@ -1555,12 +1600,11 @@
       },
       "applyUrl": "https://evisa.imigrasi.go.id/",
       "source": {
-        "url": "https://evisa.imigrasi.go.id/",
-        "name": "Indonesia Official e-Visa Portal",
+        "url": "https://www.imigrasi.go.id/wna/daftar-visa-indonesia/B1",
+        "name": "Directorate General of Immigration — B1 Visa on Arrival, electronic (e-VOA)",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260825003525/https://evisa.imigrasi.go.id/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     },
     {
@@ -1569,7 +1613,7 @@
       "method": "evisa",
       "name": "Tourist e-Visa — Single Entry (C1)",
       "fee": {
-        "amount": 1500000,
+        "amount": 1000000,
         "currency": "IDR",
         "notes": "Indicative tariff for the 60-day single-entry tourism visa; fees are revised periodically. Confirm the current amount on the official portal before applying."
       },
@@ -1587,12 +1631,11 @@
       },
       "applyUrl": "https://evisa.imigrasi.go.id/",
       "source": {
-        "url": "https://evisa.imigrasi.go.id/",
-        "name": "Indonesia Official e-Visa Portal",
+        "url": "https://www.imigrasi.go.id/wna/daftar-visa-indonesia/C1",
+        "name": "Directorate General of Immigration — C1 tourist visit visa",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260825003525/https://evisa.imigrasi.go.id/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     }
   ],
@@ -1601,12 +1644,10 @@
       "rule": "6-months-on-arrival",
       "text": "Your passport must be valid for at least 6 months on the date of arrival. Emergency/temporary passports are accepted only in limited cases.",
       "source": {
-        "url": "https://www.imigrasi.go.id/",
-        "name": "Directorate General of Immigration of Indonesia",
+        "url": "https://www.imigrasi.go.id/faq/visa",
+        "name": "Directorate General of Immigration — visa FAQ",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260829112533/https://www.imigrasi.go.id/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26"
       }
     },
     "blankPages": {
@@ -1656,12 +1697,10 @@
       "appliesTo": "all",
       "text": "Proof of an onward or return ticket is a formal condition of the VOA and visa-free entry, and airlines enforce it strictly at check-in.",
       "source": {
-        "url": "https://www.imigrasi.go.id/",
-        "name": "Directorate General of Immigration of Indonesia",
+        "url": "https://www.imigrasi.go.id/faq/visa",
+        "name": "Directorate General of Immigration — visa FAQ",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260829112533/https://www.imigrasi.go.id/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26"
       }
     },
     "proofOfFunds": {
@@ -1670,12 +1709,10 @@
       "amount": null,
       "text": "No fixed amount applies at the border, but eVisa applications ask for a bank statement showing sufficient living funds (commonly around 2,000 USD equivalent). Confirm the current threshold when applying.",
       "source": {
-        "url": "https://evisa.imigrasi.go.id/",
-        "name": "Indonesia Official e-Visa Portal",
+        "url": "https://www.imigrasi.go.id/wna/daftar-visa-indonesia/C1",
+        "name": "Directorate General of Immigration — C1 tourist visit visa",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260825003525/https://evisa.imigrasi.go.id/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26"
       }
     },
     "declarations": [
@@ -1686,14 +1723,14 @@
         "fee": null,
         "submitAt": "before-travel",
         "submitWindow": "Within 3 days before arrival",
-        "url": "https://ecd.beacukai.go.id/",
-        "text": "All arriving passengers must submit the electronic customs declaration online and show the QR code on landing. It is free. Use only the official customs website.",
+        "url": "https://allindonesia.imigrasi.go.id/",
+        "text": "All arriving passengers must submit a customs declaration online and show the QR code on landing. It is free. Arrivals by air or sea file it within the All Indonesia arrival card (allindonesia.imigrasi.go.id); arrivals by land use the customs e-CD site (ecd.beacukai.go.id). Use only these official sites.",
         "source": {
-          "url": "https://ecd.beacukai.go.id/",
-          "name": "Indonesia Electronic Customs Declaration (e-CD)",
+          "url": "https://www.beacukai.go.id/ecd",
+          "name": "Directorate General of Customs and Excise — Electronic Customs Declaration",
           "type": "government",
-          "lastVerified": "2026-08-25",
-          "archiveUrl": "https://web.archive.org/web/20260812223648/https://ecd.beacukai.go.id/"
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
         }
       },
       {
@@ -1713,20 +1750,20 @@
           "url": "https://lovebali.baliprov.go.id/",
           "name": "Love Bali — Bali Provincial Government tourist levy portal",
           "type": "government",
-          "lastVerified": "2026-08-25",
+          "lastVerified": "2026-09-26",
           "archiveUrl": "https://web.archive.org/web/20260819162321/https://lovebali.baliprov.go.id/"
         }
       }
     ],
     "customs": {
       "currencyLimits": {
-        "text": "Cash or bearer instruments of IDR 100,000,000 or more (or roughly 10,000 USD equivalent in foreign currency) must be declared on arrival and departure.",
+        "text": "Cash or bearer instruments of IDR 100,000,000 or more (or the equivalent in foreign currency) must be declared on arrival and departure.",
         "source": {
-          "url": "https://www.beacukai.go.id/",
-          "name": "Directorate General of Customs and Excise of Indonesia",
+          "url": "https://www.beacukai.go.id/selamat-datang",
+          "name": "Directorate General of Customs and Excise — arriving in Indonesia",
           "type": "government",
-          "lastVerified": "2026-08-25",
-          "archiveUrl": "https://web.archive.org/web/20260718204833/https://www.beacukai.go.id/"
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
         }
       },
       "notes": [
@@ -1753,7 +1790,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/indonesia",
         "name": "UK Foreign, Commonwealth & Development Office — Indonesia travel advice",
         "type": "government",
-        "lastVerified": "2026-08-29",
+        "lastVerified": "2026-09-26",
         "archiveUrl": "https://web.archive.org/web/20260824213826/https://www.gov.uk/foreign-travel-advice/indonesia"
       }
     },
@@ -1792,7 +1829,7 @@
     {
       "id": "evoa-scams",
       "type": "warning",
-      "text": "Use only evisa.imigrasi.go.id for the e-VOA and ecd.beacukai.go.id for the customs declaration (which is free). Lookalike sites charge double or sell invalid documents."
+      "text": "Use only evisa.imigrasi.go.id for the e-VOA and allindonesia.imigrasi.go.id for the arrival card and customs declaration (which is free). Lookalike sites charge double or sell invalid documents."
     },
     {
       "id": "drugs",
@@ -1824,7 +1861,7 @@
     {
       "id": "ecd-what",
       "question": "What is the e-CD and who must complete it?",
-      "answer": "The electronic customs declaration (e-CD) at ecd.beacukai.go.id is mandatory for all passengers arriving in Indonesia. Complete it free of charge within 3 days before arrival and show the QR code to customs officers when you land."
+      "answer": "Every passenger arriving in Indonesia must submit a customs declaration. It is free and can be completed from 3 days before arrival; show the QR code to customs officers when you land. Arrivals by air or sea complete it as part of the All Indonesia arrival card (allindonesia.imigrasi.go.id); arrivals by land use the e-CD at ecd.beacukai.go.id."
     },
     {
       "id": "bali-levy",
@@ -1834,7 +1871,7 @@
     {
       "id": "who-visa-free",
       "question": "Who can enter Indonesia without any visa?",
-      "answer": "Citizens of ASEAN member states — including the Philippines, Vietnam, Thailand and Malaysia — enter visa-free for up to 30 days. This visa-free entry cannot be extended, so anyone planning longer stays should use the Visa on Arrival (extendable to 60 days) or a tourist eVisa."
+      "answer": "Citizens of ASEAN member states — including the Philippines, Vietnam, Thailand and Malaysia — and of Brazil, Turkey, Colombia, Peru, Suriname, Kazakhstan, Belarus, Hong Kong and Macau enter visa-free for up to 30 days. This visa-free entry cannot be extended, so anyone planning longer stays should use the Visa on Arrival (extendable to 60 days) or a tourist eVisa."
     }
   ]
 }
