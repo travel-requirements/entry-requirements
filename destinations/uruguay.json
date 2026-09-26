@@ -18,8 +18,8 @@
   ],
   "summary": "Uruguay has one of South America's most open entry policies: Mercosur and associate-member nationals arrive on a national ID card, and citizens of the EU, the United Kingdom, the United States, Canada and a long list of other countries enter visa-free for 90 days, extendable by another 90.",
   "meta": {
-    "lastUpdated": "2026-08-29",
-    "lastFullReview": "2026-08-26",
+    "lastUpdated": "2026-09-26",
+    "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
       {
@@ -37,12 +37,11 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://www.gub.uy/ministerio-relaciones-exteriores/",
-      "name": "Ministerio de Relaciones Exteriores — Uruguay, visa information",
+      "url": "https://www.gub.uy/ministerio-interior/comunicacion/publicaciones/regimen-visas-admision",
+      "name": "Ministerio del Interior, Dirección Nacional de Migración — Régimen de visas de admisión",
       "type": "government",
-      "lastVerified": "2026-08-26",
-      "archiveUrl": "https://web.archive.org/web/20260811173735/https://www.gub.uy/ministerio-relaciones-exteriores/",
-      "portalOnly": true
+      "lastVerified": "2026-09-26",
+      "lastChanged": "2026-09-26"
     },
     "byPassport": {
       "AF": {
@@ -100,7 +99,8 @@
       "AM": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Commonly listed among Uruguay's visa-exempt nationalities for short tourist stays, but the list is amended from time to time. Confirm with a Uruguayan consulate before booking."
+        "extendableDays": 90,
+        "notes": "Visa-free for tourism up to 90 days; one 90-day extension (prórroga) can be requested from the Dirección Nacional de Migración before the stay expires."
       },
       "AU": {
         "requirement": "visa-free",
@@ -115,9 +115,12 @@
         "notes": "Visa-free for tourism up to 90 days; one 90-day extension (prórroga) can be requested from the Dirección Nacional de Migración before the stay expires."
       },
       "AZ": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Commonly listed among Uruguay's visa-exempt nationalities for short tourist stays, but the list is amended from time to time. Confirm with a Uruguayan consulate before booking."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "tourist-embassy"
+        ],
+        "notes": "Consular tourist visa required, applied for at a Uruguayan embassy or consulate before travel."
       },
       "BS": {
         "requirement": "visa-free",
@@ -148,9 +151,12 @@
         "notes": "Visa-free for tourism up to 90 days; one 90-day extension (prórroga) can be requested from the Dirección Nacional de Migración before the stay expires."
       },
       "BY": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Commonly listed among Uruguay's visa-exempt nationalities for short tourist stays, but the list is amended from time to time. Confirm with a Uruguayan consulate before booking."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "tourist-embassy"
+        ],
+        "notes": "Consular tourist visa required, applied for at a Uruguayan embassy or consulate before travel."
       },
       "BE": {
         "requirement": "visa-free",
@@ -159,12 +165,10 @@
         "notes": "Visa-free for tourism up to 90 days; one 90-day extension (prórroga) can be requested from the Dirección Nacional de Migración before the stay expires."
       },
       "BZ": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "tourist-embassy"
-        ],
-        "notes": "Consular tourist visa required, applied for at a Uruguayan embassy or consulate before travel."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "extendableDays": 90,
+        "notes": "Visa-free for tourism up to 90 days; one 90-day extension (prórroga) can be requested from the Dirección Nacional de Migración before the stay expires."
       },
       "BJ": {
         "requirement": "embassy-visa",
@@ -298,7 +302,7 @@
         "visaTypes": [
           "tourist-embassy"
         ],
-        "notes": "A visa is required for ordinary Chinese passports; group tourism arrangements and holders of valid US or Schengen visas are sometimes treated more generously. Confirm with the Uruguayan consulate before booking."
+        "notes": "A visa is required for ordinary Chinese passports. Holders of a valid US, Canadian, UK or EU visa can enter without a Uruguayan visa, provided they first arrive through Carrasco, Montevideo, Colonia or Laguna del Sauce."
       },
       "CO": {
         "requirement": "visa-free",
@@ -377,18 +381,18 @@
         "notes": "Consular tourist visa required, applied for at a Uruguayan embassy or consulate before travel."
       },
       "DM": {
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "extendableDays": 90,
+        "notes": "Visa-free for tourism up to 90 days; one 90-day extension (prórroga) can be requested from the Dirección Nacional de Migración before the stay expires."
+      },
+      "DO": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "tourist-embassy"
         ],
-        "notes": "Consular tourist visa required, applied for at a Uruguayan embassy or consulate before travel."
-      },
-      "DO": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "extendableDays": 90,
-        "notes": "Visa-free for tourism up to 90 days; one 90-day extension (prórroga) can be requested from the Dirección Nacional de Migración before the stay expires."
+        "notes": "Consular tourist visa required, applied for at a Uruguayan embassy or consulate before travel. Holders of a US or UK visa valid for at least 6 more months can enter without a Uruguayan visa."
       },
       "EC": {
         "requirement": "visa-free",
@@ -487,7 +491,8 @@
       "GE": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Commonly listed among Uruguay's visa-exempt nationalities for short tourist stays, but the list is amended from time to time. Confirm with a Uruguayan consulate before booking."
+        "extendableDays": 90,
+        "notes": "Visa-free for tourism up to 90 days; one 90-day extension (prórroga) can be requested from the Dirección Nacional de Migración before the stay expires."
       },
       "DE": {
         "requirement": "visa-free",
@@ -510,12 +515,10 @@
         "notes": "Visa-free for tourism up to 90 days; one 90-day extension (prórroga) can be requested from the Dirección Nacional de Migración before the stay expires."
       },
       "GD": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "tourist-embassy"
-        ],
-        "notes": "Consular tourist visa required, applied for at a Uruguayan embassy or consulate before travel."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "extendableDays": 90,
+        "notes": "Visa-free for tourism up to 90 days; one 90-day extension (prórroga) can be requested from the Dirección Nacional de Migración before the stay expires."
       },
       "GT": {
         "requirement": "visa-free",
@@ -578,9 +581,12 @@
         "notes": "Visa-free for tourism up to 90 days; one 90-day extension (prórroga) can be requested from the Dirección Nacional de Migración before the stay expires."
       },
       "IN": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Commonly listed among Uruguay's visa-exempt nationalities for short tourist stays, but the list is amended from time to time. Confirm with a Uruguayan consulate before booking."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "tourist-embassy"
+        ],
+        "notes": "Consular tourist visa required, applied for at a Uruguayan embassy or consulate before travel."
       },
       "ID": {
         "requirement": "embassy-visa",
@@ -645,9 +651,12 @@
         "notes": "Consular tourist visa required, applied for at a Uruguayan embassy or consulate before travel."
       },
       "KZ": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Commonly listed among Uruguay's visa-exempt nationalities for short tourist stays, but the list is amended from time to time. Confirm with a Uruguayan consulate before booking."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "tourist-embassy"
+        ],
+        "notes": "Consular tourist visa required, applied for at a Uruguayan embassy or consulate before travel."
       },
       "KE": {
         "requirement": "embassy-visa",
@@ -777,9 +786,8 @@
       },
       "MY": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "extendableDays": 90,
-        "notes": "Visa-free for tourism up to 90 days; one 90-day extension (prórroga) can be requested from the Dirección Nacional de Migración before the stay expires."
+        "maxStayDays": 30,
+        "notes": "Visa-free admission for up to 30 days (Admisión Temporaria Sin Visa)."
       },
       "MV": {
         "requirement": "embassy-visa",
@@ -856,12 +864,10 @@
         "notes": "Visa-free for tourism up to 90 days; one 90-day extension (prórroga) can be requested from the Dirección Nacional de Migración before the stay expires."
       },
       "MN": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "tourist-embassy"
-        ],
-        "notes": "Consular tourist visa required, applied for at a Uruguayan embassy or consulate before travel."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "extendableDays": 90,
+        "notes": "Visa-free for tourism up to 90 days; one 90-day extension (prórroga) can be requested from the Dirección Nacional de Migración before the stay expires."
       },
       "ME": {
         "requirement": "visa-free",
@@ -960,10 +966,12 @@
         "notes": "Consular tourist visa required, applied for at a Uruguayan embassy or consulate before travel."
       },
       "MK": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "extendableDays": 90,
-        "notes": "Visa-free for tourism up to 90 days; one 90-day extension (prórroga) can be requested from the Dirección Nacional de Migración before the stay expires."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "tourist-embassy"
+        ],
+        "notes": "Consular tourist visa required, applied for at a Uruguayan embassy or consulate before travel."
       },
       "NO": {
         "requirement": "visa-free",
@@ -1052,7 +1060,8 @@
       "QA": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Commonly listed among Uruguay's visa-exempt nationalities for short tourist stays, but the list is amended from time to time. Confirm with a Uruguayan consulate before booking."
+        "extendableDays": 90,
+        "notes": "Visa-free for tourism up to 90 days; one 90-day extension (prórroga) can be requested from the Dirección Nacional de Migración before the stay expires."
       },
       "CG": {
         "requirement": "embassy-visa",
@@ -1083,12 +1092,10 @@
         "notes": "Consular tourist visa required, applied for at a Uruguayan embassy or consulate before travel."
       },
       "KN": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "tourist-embassy"
-        ],
-        "notes": "Consular tourist visa required, applied for at a Uruguayan embassy or consulate before travel."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "extendableDays": 90,
+        "notes": "Visa-free for tourism up to 90 days; one 90-day extension (prórroga) can be requested from the Dirección Nacional de Migración before the stay expires."
       },
       "LC": {
         "requirement": "embassy-visa",
@@ -1099,12 +1106,10 @@
         "notes": "Consular tourist visa required, applied for at a Uruguayan embassy or consulate before travel."
       },
       "VC": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "tourist-embassy"
-        ],
-        "notes": "Consular tourist visa required, applied for at a Uruguayan embassy or consulate before travel."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "extendableDays": 90,
+        "notes": "Visa-free for tourism up to 90 days; one 90-day extension (prórroga) can be requested from the Dirección Nacional de Migración before the stay expires."
       },
       "WS": {
         "requirement": "embassy-visa",
@@ -1151,12 +1156,10 @@
         "notes": "Visa-free for tourism up to 90 days; one 90-day extension (prórroga) can be requested from the Dirección Nacional de Migración before the stay expires."
       },
       "SC": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "tourist-embassy"
-        ],
-        "notes": "Consular tourist visa required, applied for at a Uruguayan embassy or consulate before travel."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "extendableDays": 90,
+        "notes": "Visa-free for tourism up to 90 days; one 90-day extension (prórroga) can be requested from the Dirección Nacional de Migración before the stay expires."
       },
       "SL": {
         "requirement": "embassy-visa",
@@ -1243,10 +1246,12 @@
         "notes": "Consular tourist visa required, applied for at a Uruguayan embassy or consulate before travel."
       },
       "SR": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "extendableDays": 90,
-        "notes": "Visa-free for tourism up to 90 days; one 90-day extension (prórroga) can be requested from the Dirección Nacional de Migración before the stay expires."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "tourist-embassy"
+        ],
+        "notes": "Consular tourist visa required, applied for at a Uruguayan embassy or consulate before travel."
       },
       "SE": {
         "requirement": "visa-free",
@@ -1293,10 +1298,12 @@
         "notes": "Consular tourist visa required, applied for at a Uruguayan embassy or consulate before travel."
       },
       "TH": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "extendableDays": 90,
-        "notes": "Visa-free for tourism up to 90 days; one 90-day extension (prórroga) can be requested from the Dirección Nacional de Migración before the stay expires."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "tourist-embassy"
+        ],
+        "notes": "Consular tourist visa required, applied for at a Uruguayan embassy or consulate before travel."
       },
       "TL": {
         "requirement": "embassy-visa",
@@ -1375,7 +1382,8 @@
       "AE": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Commonly listed among Uruguay's visa-exempt nationalities for short tourist stays, but the list is amended from time to time. Confirm with a Uruguayan consulate before booking."
+        "extendableDays": 90,
+        "notes": "Visa-free for tourism up to 90 days; one 90-day extension (prórroga) can be requested from the Dirección Nacional de Migración before the stay expires."
       },
       "GB": {
         "requirement": "visa-free",
@@ -1589,7 +1597,11 @@
           "name": "Ministerio de Salud Pública — Uruguay",
           "type": "government",
           "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260719233850/https://www.gub.uy/ministerio-salud-publica/"
+          "archiveUrl": "https://web.archive.org/web/20260719233850/https://www.gub.uy/ministerio-salud-publica/",
+          "unverifiable": {
+            "lastAttempt": "2026-09-26",
+            "reason": "not-stated"
+          }
         }
       }
     ],
@@ -1643,7 +1655,11 @@
           "name": "Uruguay — Dirección Nacional de Aduanas",
           "type": "government",
           "lastVerified": "2026-08-29",
-          "archiveUrl": "https://web.archive.org/web/20260731203253/https://www.aduanas.gub.uy/"
+          "archiveUrl": "https://web.archive.org/web/20260731203253/https://www.aduanas.gub.uy/",
+          "unverifiable": {
+            "lastAttempt": "2026-09-26",
+            "reason": "not-stated"
+          }
         }
       },
       "notes": [
@@ -1668,11 +1684,10 @@
       "level": "generally-safe",
       "text": "Uruguay is among the safest countries in South America and the tourist areas — Ciudad Vieja by day, Pocitos, Colonia, Punta del Este — are calm. Petty theft and occasional armed robbery do occur in parts of Montevideo, so avoid quiet streets in Ciudad Vieja after dark and the outer barrios, and do not leave anything visible in a parked car.",
       "source": {
-        "url": "https://www.gov.uk/foreign-travel-advice/uruguay",
-        "name": "UK Foreign, Commonwealth & Development Office — Uruguay travel advice",
+        "url": "https://www.gov.uk/foreign-travel-advice/uruguay/safety-and-security",
+        "name": "GOV.UK — Uruguay travel advice: safety and security",
         "type": "government",
-        "lastVerified": "2026-08-29",
-        "archiveUrl": "https://web.archive.org/web/20260606035723/https://www.gov.uk/foreign-travel-advice/uruguay"
+        "lastVerified": "2026-09-26"
       }
     },
     "plugs": {
@@ -1717,7 +1732,7 @@
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
           "type": "igo",
-          "lastVerified": "2026-08-26",
+          "lastVerified": "2026-09-26",
           "instrument": "Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
           "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
         }
@@ -1733,7 +1748,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
         "type": "igo",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-26",
         "instrument": "Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }

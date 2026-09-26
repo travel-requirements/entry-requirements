@@ -16,26 +16,25 @@
   ],
   "summary": "Vanuatu waives visas for citizens of well over 100 countries — including the whole EU, the UK, US, Australia, New Zealand, China, India and its Pacific neighbors — for stays of up to 120 days, while everyone else applies for a visitor e-Visa allowing about 30 days.",
   "meta": {
-    "lastUpdated": "2026-08-29",
-    "lastFullReview": "2026-08-26",
+    "lastUpdated": "2026-09-26",
+    "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
       {
         "url": "https://immigration.gov.vu/",
         "name": "Vanuatu Department of Immigration and Passport Services",
         "type": "government",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-26",
         "archiveUrl": "https://web.archive.org/web/20260821172836/https://immigration.gov.vu/"
       }
     ]
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://immigration.gov.vu/",
-      "name": "Vanuatu Department of Immigration — visas and entry requirements",
+      "url": "https://immigration.gov.vu/visa-exempted-countries/",
+      "name": "Visa exempted countries – Vanuatu Department of Immigration and Passport Services",
       "type": "government",
-      "lastVerified": "2026-08-26",
-      "archiveUrl": "https://web.archive.org/web/20260821172836/https://immigration.gov.vu/"
+      "lastVerified": "2026-09-26"
     },
     "byPassport": {
       "AF": {
@@ -228,9 +227,12 @@
         "notes": "Not on the visa-exemption list. Apply for a visitor e-Visa with the Vanuatu Department of Immigration before travel; it normally allows a stay of up to 30 days and takes two to three weeks to issue."
       },
       "CM": {
-        "requirement": "visa-free",
-        "maxStayDays": 120,
-        "notes": "Visa-free entry for up to 120 days. No application and no fee. The officer sets the period granted on arrival and often stamps a shorter initial stay, so check your passport and apply to the Department of Immigration in Port Vila if you need longer."
+        "requirement": "evisa",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "evisa-tourist"
+        ],
+        "notes": "Not on the visa-exemption list. Apply for a visitor e-Visa with the Vanuatu Department of Immigration before travel; it normally allows a stay of up to 30 days and takes two to three weeks to issue."
       },
       "CA": {
         "requirement": "visa-free",
@@ -519,9 +521,12 @@
         "notes": "Visa-free entry for up to 120 days. The EU's suspension of its visa-waiver agreement with Vanuatu over the citizenship-by-investment scheme applies only to Vanuatu passport holders traveling to Europe — EU, EEA and Swiss citizens still enter Vanuatu without a visa."
       },
       "IS": {
-        "requirement": "visa-free",
-        "maxStayDays": 120,
-        "notes": "Visa-free entry for up to 120 days. The EU's suspension of its visa-waiver agreement with Vanuatu over the citizenship-by-investment scheme applies only to Vanuatu passport holders traveling to Europe — EU, EEA and Swiss citizens still enter Vanuatu without a visa."
+        "requirement": "evisa",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "evisa-tourist"
+        ],
+        "notes": "Not on the visa-exemption list. Apply for a visitor e-Visa with the Vanuatu Department of Immigration before travel; it normally allows a stay of up to 30 days and takes two to three weeks to issue."
       },
       "IN": {
         "requirement": "visa-free",
@@ -788,9 +793,12 @@
         "notes": "Visa-free entry for up to 120 days. No application and no fee. The officer sets the period granted on arrival and often stamps a shorter initial stay, so check your passport and apply to the Department of Immigration in Port Vila if you need longer."
       },
       "MZ": {
-        "requirement": "visa-free",
-        "maxStayDays": 120,
-        "notes": "Visa-free entry for up to 120 days. No application and no fee. The officer sets the period granted on arrival and often stamps a shorter initial stay, so check your passport and apply to the Department of Immigration in Port Vila if you need longer."
+        "requirement": "evisa",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "evisa-tourist"
+        ],
+        "notes": "Not on the visa-exemption list. Apply for a visitor e-Visa with the Vanuatu Department of Immigration before travel; it normally allows a stay of up to 30 days and takes two to three weeks to issue."
       },
       "MM": {
         "requirement": "evisa",
@@ -1275,7 +1283,10 @@
       "category": "tourist",
       "method": "evisa",
       "name": "Visitor e-Visa",
-      "fee": null,
+      "fee": {
+        "amount": 7420,
+        "currency": "VUV"
+      },
       "processing": {
         "minDays": 5,
         "maxDays": 15,
@@ -1290,11 +1301,11 @@
       },
       "applyUrl": null,
       "source": {
-        "url": "https://immigration.gov.vu/",
-        "name": "Vanuatu Department of Immigration — e-Visa",
+        "url": "https://immigration.gov.vu/visit",
+        "name": "Visit Vanuatu – visitor visa, Department of Immigration and Passport Services",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260821172836/https://immigration.gov.vu/"
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     },
     {
@@ -1302,7 +1313,11 @@
       "category": "tourist",
       "method": "embassy",
       "name": "Tourist Visa (up to 120 days)",
-      "fee": null,
+      "fee": {
+        "amount": 5150,
+        "currency": "VUV",
+        "notes": "Visa application charge for nationals of non-exempted countries; nationals of exempted countries are granted the tourist visa on arrival."
+      },
       "processing": {
         "minDays": 10,
         "maxDays": 30,
@@ -1317,11 +1332,11 @@
       },
       "applyUrl": null,
       "source": {
-        "url": "https://immigration.gov.vu/",
-        "name": "Vanuatu Department of Immigration — tourist visa",
+        "url": "https://immigration.gov.vu/visit",
+        "name": "Visit Vanuatu – tourist visa, Department of Immigration and Passport Services",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260821172836/https://immigration.gov.vu/"
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     },
     {
@@ -1348,20 +1363,25 @@
         "name": "Vanuatu Department of Immigration — extension of stay",
         "type": "government",
         "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260821172836/https://immigration.gov.vu/"
+        "archiveUrl": "https://web.archive.org/web/20260821172836/https://immigration.gov.vu/",
+        "unverifiable": {
+          "lastAttempt": "2026-09-26",
+          "reason": "not-stated"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-beyond-stay",
-      "text": "Your passport must be valid for at least 6 months beyond your intended departure from Vanuatu.",
+      "rule": "6-months-on-arrival",
+      "text": "Your passport must be valid for more than 6 months on the date you arrive in Vanuatu.",
       "source": {
         "url": "https://immigration.gov.vu/one-way-ticket-info/",
         "name": "One Way Ticket Info – Department of Immigration and Passport Services",
         "type": "government",
-        "lastVerified": "2026-08-29",
-        "archiveUrl": "https://web.archive.org/web/20260828151409/https://immigration.gov.vu/one-way-ticket-info/"
+        "lastVerified": "2026-09-26",
+        "archiveUrl": "https://web.archive.org/web/20260828151409/https://immigration.gov.vu/one-way-ticket-info/",
+        "lastChanged": "2026-09-26"
       }
     },
     "blankPages": {
@@ -1371,7 +1391,11 @@
         "name": "Vanuatu Department of Immigration and Passport Services",
         "type": "government",
         "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260821172836/https://immigration.gov.vu/"
+        "archiveUrl": "https://web.archive.org/web/20260821172836/https://immigration.gov.vu/",
+        "unverifiable": {
+          "lastAttempt": "2026-09-26",
+          "reason": "not-stated"
+        }
       }
     },
     "vaccinations": [
@@ -1386,7 +1410,11 @@
           "name": "Vanuatu Department of Immigration and Passport Services",
           "type": "government",
           "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260821172836/https://immigration.gov.vu/"
+          "archiveUrl": "https://web.archive.org/web/20260821172836/https://immigration.gov.vu/",
+          "unverifiable": {
+            "lastAttempt": "2026-09-26",
+            "reason": "not-stated"
+          }
         }
       },
       {
@@ -1400,7 +1428,11 @@
           "name": "Vanuatu Department of Immigration and Passport Services",
           "type": "government",
           "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260821172836/https://immigration.gov.vu/"
+          "archiveUrl": "https://web.archive.org/web/20260821172836/https://immigration.gov.vu/",
+          "unverifiable": {
+            "lastAttempt": "2026-09-26",
+            "reason": "not-stated"
+          }
         }
       }
     ],
@@ -1414,7 +1446,11 @@
         "name": "Vanuatu Department of Immigration and Passport Services",
         "type": "government",
         "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260821172836/https://immigration.gov.vu/"
+        "archiveUrl": "https://web.archive.org/web/20260821172836/https://immigration.gov.vu/",
+        "unverifiable": {
+          "lastAttempt": "2026-09-26",
+          "reason": "not-stated"
+        }
       }
     },
     "onwardTicket": {
@@ -1422,11 +1458,11 @@
       "appliesTo": "all",
       "text": "Visitors must hold a confirmed onward or return ticket; airlines check it at boarding and immigration officers may ask to see it.",
       "source": {
-        "url": "https://immigration.gov.vu/",
-        "name": "Vanuatu Department of Immigration and Passport Services",
+        "url": "https://immigration.gov.vu/one-way-ticket-info/",
+        "name": "One Way Ticket Info – Department of Immigration and Passport Services",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260821172836/https://immigration.gov.vu/"
+        "lastVerified": "2026-09-26",
+        "archiveUrl": "https://web.archive.org/web/20260828151409/https://immigration.gov.vu/one-way-ticket-info/"
       }
     },
     "proofOfFunds": {
@@ -1439,7 +1475,11 @@
         "name": "Vanuatu Department of Immigration and Passport Services",
         "type": "government",
         "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260821172836/https://immigration.gov.vu/"
+        "archiveUrl": "https://web.archive.org/web/20260821172836/https://immigration.gov.vu/",
+        "unverifiable": {
+          "lastAttempt": "2026-09-26",
+          "reason": "not-stated"
+        }
       }
     },
     "declarations": [
@@ -1457,7 +1497,11 @@
           "name": "Vanuatu Department of Immigration and Passport Services",
           "type": "government",
           "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260821172836/https://immigration.gov.vu/"
+          "archiveUrl": "https://web.archive.org/web/20260821172836/https://immigration.gov.vu/",
+          "unverifiable": {
+            "lastAttempt": "2026-09-26",
+            "reason": "not-stated"
+          }
         }
       }
     ],
@@ -1469,7 +1513,11 @@
           "name": "Vanuatu Department of Immigration and Passport Services",
           "type": "government",
           "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260821172836/https://immigration.gov.vu/"
+          "archiveUrl": "https://web.archive.org/web/20260821172836/https://immigration.gov.vu/",
+          "unverifiable": {
+            "lastAttempt": "2026-09-26",
+            "reason": "not-stated"
+          }
         }
       },
       "notes": [
@@ -1497,7 +1545,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/vanuatu",
         "name": "UK Foreign, Commonwealth & Development Office — Vanuatu travel advice",
         "type": "government",
-        "lastVerified": "2026-08-29",
+        "lastVerified": "2026-09-26",
         "archiveUrl": "https://web.archive.org/web/20260717194526/https://www.gov.uk/foreign-travel-advice/vanuatu"
       }
     },

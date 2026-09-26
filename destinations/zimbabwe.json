@@ -21,8 +21,8 @@
   ],
   "summary": "Zimbabwe sorts visitors into three lists: SADC neighbors and much of the Commonwealth Caribbean and Pacific enter visa-free, while most Western tourists — including US, UK, EU, Canadian and Australian passports — simply buy a visa on arrival from USD 30. A minority of nationalities must have an eVisa or embassy visa approved before travel.",
   "meta": {
-    "lastUpdated": "2026-08-29",
-    "lastFullReview": "2026-08-26",
+    "lastUpdated": "2026-09-26",
+    "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
       {
@@ -40,12 +40,10 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://www.evisa.gov.zw/",
-      "name": "Zimbabwe eVisa — official online visa portal",
+      "url": "https://www.evisa.gov.zw/faq.html",
+      "name": "Zimbabwe Department of Immigration — eVisa FAQs and visa categories",
       "type": "government",
-      "lastVerified": "2026-08-26",
-      "archiveUrl": "https://web.archive.org/web/20260728154925/https://www.evisa.gov.zw/",
-      "portalOnly": true
+      "lastVerified": "2026-09-26"
     },
     "byPassport": {
       "AF": {
@@ -67,12 +65,13 @@
         "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "DZ": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
+        "extendableDays": 30,
         "visaTypes": [
-          "evisa-tourist"
+          "voa-tourist"
         ],
-        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
+        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "AD": {
         "requirement": "visa-on-arrival",
@@ -206,12 +205,13 @@
         "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
       },
       "BT": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
+        "extendableDays": 30,
         "visaTypes": [
-          "evisa-tourist"
+          "voa-tourist"
         ],
-        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
+        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "BO": {
         "requirement": "visa-on-arrival",
@@ -221,7 +221,15 @@
           "voa-tourist",
           "kaza-univisa"
         ],
-        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
+        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country.",
+        "source": {
+          "url": "https://www.evisa.gov.zw/",
+          "name": "Zimbabwe eVisa — official online visa portal",
+          "type": "government",
+          "lastVerified": "2026-08-26",
+          "archiveUrl": "https://web.archive.org/web/20260728154925/https://www.evisa.gov.zw/",
+          "portalOnly": true
+        }
       },
       "BA": {
         "requirement": "visa-on-arrival",
@@ -277,20 +285,24 @@
         "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
       },
       "BI": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
+        "extendableDays": 30,
         "visaTypes": [
-          "evisa-tourist"
+          "voa-tourist",
+          "kaza-univisa"
         ],
-        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
+        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "CV": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
+        "extendableDays": 30,
         "visaTypes": [
-          "evisa-tourist"
+          "voa-tourist",
+          "kaza-univisa"
         ],
-        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
+        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "KH": {
         "requirement": "evisa",
@@ -355,6 +367,14 @@
         "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "CO": {
+        "requirement": "evisa",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "evisa-tourist"
+        ],
+        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
+      },
+      "KM": {
         "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "extendableDays": 30,
@@ -363,11 +383,6 @@
           "kaza-univisa"
         ],
         "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
-      },
-      "KM": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Category A — visa-free entry, with visitors typically admitted for up to 90 days. The list covers SADC neighbors and many Commonwealth countries."
       },
       "CR": {
         "requirement": "visa-on-arrival",
@@ -446,9 +461,13 @@
         "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
       },
       "DM": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Category A — visa-free entry, with visitors typically admitted for up to 90 days. The list covers SADC neighbors and many Commonwealth countries."
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "extendableDays": 30,
+        "visaTypes": [
+          "voa-tourist"
+        ],
+        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "DO": {
         "requirement": "visa-on-arrival",
@@ -491,12 +510,13 @@
         "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "GQ": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
+        "extendableDays": 30,
         "visaTypes": [
-          "evisa-tourist"
+          "voa-tourist"
         ],
-        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
+        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "ER": {
         "requirement": "evisa",
@@ -522,12 +542,13 @@
         "notes": "Category A — visa-free entry, with visitors typically admitted for up to 90 days. The list covers SADC neighbors and many Commonwealth countries."
       },
       "ET": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
+        "extendableDays": 30,
         "visaTypes": [
-          "evisa-tourist"
+          "voa-tourist"
         ],
-        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
+        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "FJ": {
         "requirement": "visa-free",
@@ -637,9 +658,13 @@
         "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
       },
       "GY": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Category A — visa-free entry, with visitors typically admitted for up to 90 days. The list covers SADC neighbors and many Commonwealth countries."
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "extendableDays": 30,
+        "visaTypes": [
+          "voa-tourist"
+        ],
+        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "HT": {
         "requirement": "visa-on-arrival",
@@ -707,12 +732,13 @@
         "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "IR": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
+        "extendableDays": 30,
         "visaTypes": [
-          "evisa-tourist"
+          "voa-tourist"
         ],
-        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
+        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "IQ": {
         "requirement": "evisa",
@@ -768,6 +794,14 @@
         "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "JO": {
+        "requirement": "evisa",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "evisa-tourist"
+        ],
+        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
+      },
+      "KZ": {
         "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "extendableDays": 30,
@@ -776,14 +810,6 @@
           "kaza-univisa"
         ],
         "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
-      },
-      "KZ": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "evisa-tourist"
-        ],
-        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
       },
       "KE": {
         "requirement": "visa-free",
@@ -796,9 +822,12 @@
         "notes": "Category A — visa-free entry, with visitors typically admitted for up to 90 days. The list covers SADC neighbors and many Commonwealth countries."
       },
       "XK": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "notes": "Zimbabwe does not recognize Kosovo and Kosovan passports are not routinely accepted — contact a Zimbabwean embassy well before planning any travel."
+        "requirement": "evisa",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "evisa-tourist"
+        ],
+        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
       },
       "KW": {
         "requirement": "visa-on-arrival",
@@ -811,12 +840,13 @@
         "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "KG": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
+        "extendableDays": 30,
         "visaTypes": [
-          "evisa-tourist"
+          "voa-tourist"
         ],
-        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
+        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "LA": {
         "requirement": "evisa",
@@ -837,14 +867,12 @@
         "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "LB": {
-        "requirement": "visa-on-arrival",
+        "requirement": "evisa",
         "maxStayDays": 30,
-        "extendableDays": 30,
         "visaTypes": [
-          "voa-tourist",
-          "kaza-univisa"
+          "evisa-tourist"
         ],
-        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
+        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
       },
       "LS": {
         "requirement": "visa-free",
@@ -898,12 +926,13 @@
         "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "MO": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
+        "extendableDays": 30,
         "visaTypes": [
-          "evisa-tourist"
+          "voa-tourist"
         ],
-        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
+        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "MG": {
         "requirement": "visa-free",
@@ -939,12 +968,14 @@
         "notes": "Category A — visa-free entry, with visitors typically admitted for up to 90 days. The list covers SADC neighbors and many Commonwealth countries."
       },
       "MH": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
+        "extendableDays": 30,
         "visaTypes": [
-          "evisa-tourist"
+          "voa-tourist",
+          "kaza-univisa"
         ],
-        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
+        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "MR": {
         "requirement": "evisa",
@@ -970,12 +1001,13 @@
         "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "FM": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
+        "extendableDays": 30,
         "visaTypes": [
-          "evisa-tourist"
+          "voa-tourist"
         ],
-        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
+        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "MD": {
         "requirement": "visa-on-arrival",
@@ -1006,14 +1038,12 @@
         "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
       },
       "ME": {
-        "requirement": "visa-on-arrival",
+        "requirement": "evisa",
         "maxStayDays": 30,
-        "extendableDays": 30,
         "visaTypes": [
-          "voa-tourist",
-          "kaza-univisa"
+          "evisa-tourist"
         ],
-        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
+        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
       },
       "MA": {
         "requirement": "evisa",
@@ -1129,14 +1159,12 @@
         "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "OM": {
-        "requirement": "visa-on-arrival",
+        "requirement": "evisa",
         "maxStayDays": 30,
-        "extendableDays": 30,
         "visaTypes": [
-          "voa-tourist",
-          "kaza-univisa"
+          "evisa-tourist"
         ],
-        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
+        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
       },
       "PK": {
         "requirement": "evisa",
@@ -1147,20 +1175,22 @@
         "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
       },
       "PW": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
+        "extendableDays": 30,
         "visaTypes": [
-          "evisa-tourist"
+          "voa-tourist"
         ],
-        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
+        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "PS": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
+        "extendableDays": 30,
         "visaTypes": [
-          "evisa-tourist"
+          "voa-tourist"
         ],
-        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
+        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "PA": {
         "requirement": "visa-on-arrival",
@@ -1173,12 +1203,13 @@
         "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "PG": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
+        "extendableDays": 30,
         "visaTypes": [
-          "evisa-tourist"
+          "voa-tourist"
         ],
-        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
+        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "PY": {
         "requirement": "visa-on-arrival",
@@ -1229,14 +1260,12 @@
         "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "QA": {
-        "requirement": "visa-on-arrival",
+        "requirement": "evisa",
         "maxStayDays": 30,
-        "extendableDays": 30,
         "visaTypes": [
-          "voa-tourist",
-          "kaza-univisa"
+          "evisa-tourist"
         ],
-        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
+        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
       },
       "CG": {
         "requirement": "evisa",
@@ -1267,12 +1296,14 @@
         "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "RW": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
+        "extendableDays": 30,
         "visaTypes": [
-          "evisa-tourist"
+          "voa-tourist",
+          "kaza-univisa"
         ],
-        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
+        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "KN": {
         "requirement": "visa-free",
@@ -1305,14 +1336,6 @@
         "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "ST": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "evisa-tourist"
-        ],
-        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
-      },
-      "SA": {
         "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "extendableDays": 30,
@@ -1322,13 +1345,22 @@
         ],
         "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
-      "SN": {
+      "SA": {
         "requirement": "evisa",
         "maxStayDays": 30,
         "visaTypes": [
           "evisa-tourist"
         ],
         "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
+      },
+      "SN": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "extendableDays": 30,
+        "visaTypes": [
+          "voa-tourist"
+        ],
+        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "RS": {
         "requirement": "visa-on-arrival",
@@ -1487,12 +1519,13 @@
         "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
       },
       "TJ": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
+        "extendableDays": 30,
         "visaTypes": [
-          "evisa-tourist"
+          "voa-tourist"
         ],
-        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
+        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "TZ": {
         "requirement": "visa-free",
@@ -1500,14 +1533,12 @@
         "notes": "Category A — visa-free entry, with visitors typically admitted for up to 90 days. The list covers SADC neighbors and many Commonwealth countries."
       },
       "TH": {
-        "requirement": "visa-on-arrival",
+        "requirement": "evisa",
         "maxStayDays": 30,
-        "extendableDays": 30,
         "visaTypes": [
-          "voa-tourist",
-          "kaza-univisa"
+          "evisa-tourist"
         ],
-        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
+        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
       },
       "TL": {
         "requirement": "evisa",
@@ -1554,12 +1585,13 @@
         "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "TM": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
+        "extendableDays": 30,
         "visaTypes": [
-          "evisa-tourist"
+          "voa-tourist"
         ],
-        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
+        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "TV": {
         "requirement": "visa-free",
@@ -1622,12 +1654,13 @@
         "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "UZ": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
+        "extendableDays": 30,
         "visaTypes": [
-          "evisa-tourist"
+          "voa-tourist"
         ],
-        "notes": "Category C. A visa must be approved before travel. Apply online at evisa.gov.zw (which confirms your category during the application) or through a Zimbabwean embassy."
+        "notes": "Category B. A tourist visa is issued on arrival: USD 30 single entry for most passports (UK and Ireland USD 55, Canada USD 75), payable in US dollar cash. Stays are usually 30 days, extendable in-country."
       },
       "VU": {
         "requirement": "visa-free",
@@ -1673,7 +1706,13 @@
       "ZM": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Category A — visa-free entry, with visitors typically admitted for up to 90 days. The list covers SADC neighbors and many Commonwealth countries."
+        "notes": "Category A — visa-free entry, with visitors typically admitted for up to 90 days. The list covers SADC neighbors and many Commonwealth countries.",
+        "source": {
+          "url": "https://www.zimimmigration.gov.zw/?p=7176",
+          "name": "Zimbabwe Department of Immigration — Category A",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "ZW": {
         "requirement": "freedom-of-movement",
@@ -1691,7 +1730,7 @@
       "fee": {
         "amount": 30,
         "currency": "USD",
-        "notes": "USD 30 single entry and USD 45 double entry for most Category B passports; UK and Irish citizens pay USD 55 single entry and Canadians USD 75. Pay in US dollar cash at the border."
+        "notes": "USD 30 single entry and USD 45 double entry for most Category B passports; UK and Irish citizens pay USD 55 single entry (UK citizens USD 70 double entry) and Canadians USD 75. Pay in US dollar cash at the border."
       },
       "processing": null,
       "validityDays": null,
@@ -1703,12 +1742,10 @@
       },
       "applyUrl": null,
       "source": {
-        "url": "https://www.evisa.gov.zw/",
-        "name": "Zimbabwe eVisa — official online visa portal",
+        "url": "https://www.zimimmigration.gov.zw/?page_id=6958",
+        "name": "Zimbabwe Department of Immigration — Fees",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260728154925/https://www.evisa.gov.zw/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26"
       }
     },
     {
@@ -1726,7 +1763,7 @@
         "maxDays": 7,
         "unit": "business-days"
       },
-      "validityDays": 90,
+      "validityDays": 30,
       "stayDays": 30,
       "entries": "single",
       "extendable": {
@@ -1735,12 +1772,11 @@
       },
       "applyUrl": "https://www.evisa.gov.zw/",
       "source": {
-        "url": "https://www.evisa.gov.zw/",
-        "name": "Zimbabwe eVisa — official online visa portal",
+        "url": "https://www.evisa.gov.zw/faq.html",
+        "name": "Zimbabwe Department of Immigration — eVisa FAQs and visa categories",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260728154925/https://www.evisa.gov.zw/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     },
     {
@@ -1763,12 +1799,10 @@
       },
       "applyUrl": null,
       "source": {
-        "url": "https://www.evisa.gov.zw/",
-        "name": "Zimbabwe eVisa — official online visa portal",
+        "url": "https://www.gov.uk/foreign-travel-advice/zimbabwe/entry-requirements",
+        "name": "UK FCDO — Zimbabwe travel advice, entry requirements",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260728154925/https://www.evisa.gov.zw/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26"
       }
     }
   ],
@@ -1777,23 +1811,19 @@
       "rule": "6-months-on-arrival",
       "text": "Your passport must be valid for at least 6 months on arrival in Zimbabwe.",
       "source": {
-        "url": "https://www.evisa.gov.zw/",
-        "name": "Zimbabwe eVisa — official online visa portal",
+        "url": "https://www.gov.uk/foreign-travel-advice/zimbabwe/entry-requirements",
+        "name": "UK FCDO — Zimbabwe travel advice, entry requirements",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260728154925/https://www.evisa.gov.zw/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26"
       }
     },
     "blankPages": {
       "count": 3,
       "source": {
-        "url": "https://www.evisa.gov.zw/",
-        "name": "Zimbabwe eVisa — official online visa portal",
+        "url": "https://www.gov.uk/foreign-travel-advice/zimbabwe/entry-requirements",
+        "name": "UK FCDO — Zimbabwe travel advice, entry requirements",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260728154925/https://www.evisa.gov.zw/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26"
       }
     },
     "vaccinations": [
@@ -1802,14 +1832,13 @@
         "name": "Yellow fever",
         "certificate": "International Certificate of Vaccination (yellow card)",
         "requiredWhen": "arriving-from-risk-country",
-        "text": "A yellow fever certificate is required only if you arrive from, or transited through, a country with risk of yellow fever transmission (Zambia included). It is not needed on direct arrivals from Europe, North America or southern Africa.",
+        "text": "A yellow fever certificate is required only if you arrive from, or transited through, a country with risk of yellow fever transmission. It is not needed on direct arrivals from Europe, North America or southern Africa.",
         "source": {
-          "url": "https://www.evisa.gov.zw/",
-          "name": "Zimbabwe eVisa — official online visa portal",
+          "url": "https://www.gov.uk/foreign-travel-advice/zimbabwe/entry-requirements",
+          "name": "UK FCDO — Zimbabwe travel advice, entry requirements",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260728154925/https://www.evisa.gov.zw/",
-          "portalOnly": true
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
         }
       }
     ],
@@ -1857,14 +1886,13 @@
     "declarations": [],
     "customs": {
       "currencyLimits": {
-        "text": "Cash of USD 10,000 or more (or the equivalent in other currencies) must be declared on arrival and departure.",
+        "text": "Declare cash or travellers' cheques worth USD 10,000 or more on arrival; you receive a certified declaration showing you brought it in. It is illegal to leave Zimbabwe with more than USD 2,000 in cash.",
         "source": {
-          "url": "https://www.evisa.gov.zw/",
-          "name": "Zimbabwe eVisa — official online visa portal",
+          "url": "https://www.gov.uk/foreign-travel-advice/zimbabwe/entry-requirements",
+          "name": "UK FCDO — Zimbabwe travel advice, entry requirements",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260728154925/https://www.evisa.gov.zw/",
-          "portalOnly": true
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
         }
       },
       "notes": [
@@ -1892,7 +1920,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/zimbabwe",
         "name": "UK Foreign, Commonwealth & Development Office — Zimbabwe travel advice",
         "type": "government",
-        "lastVerified": "2026-08-29",
+        "lastVerified": "2026-09-26",
         "archiveUrl": "https://web.archive.org/web/20260814203733/https://www.gov.uk/foreign-travel-advice/zimbabwe"
       }
     },
@@ -1940,7 +1968,7 @@
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
           "type": "igo",
-          "lastVerified": "2026-08-26",
+          "lastVerified": "2026-09-26",
           "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
           "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
         }
@@ -1956,7 +1984,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
         "type": "igo",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-26",
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
@@ -1993,7 +2021,7 @@
     {
       "id": "voa-cost",
       "question": "How much is the Zimbabwe visa on arrival?",
-      "answer": "USD 30 single entry and USD 45 double entry for most Category B nationalities. British and Irish passport holders pay USD 55 for single entry, and Canadians pay USD 75. Bring the fee in US dollar cash — cards frequently fail at the border."
+      "answer": "USD 30 single entry and USD 45 double entry for most Category B nationalities. British and Irish passport holders pay USD 55 for single entry (British USD 70 for double entry), and Canadians pay USD 75. Bring the fee in US dollar cash — cards frequently fail at the border."
     },
     {
       "id": "kaza",

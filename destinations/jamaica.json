@@ -14,10 +14,10 @@
     "cuba",
     "trinidad-and-tobago"
   ],
-  "summary": "Jamaica is visa-free for citizens of the US, Canada, the UK, the EU and most Commonwealth countries — normally for up to 90 days — and CARICOM nationals enter freely for six months. Whatever your nationality, every arriving passenger must complete Jamaica's free online immigration and customs (C5) form before traveling.",
+  "summary": "Jamaica is visa-free for citizens of the US (for up to six months), Canada, the UK, most of the EU and most Commonwealth countries, though the period is 90 days for some passports and 30 for others, including France, Spain and most of Latin America. CARICOM nationals enter freely for six months, and a few nationalities can buy a visa at the port of entry. Whatever your nationality, every arriving passenger must complete Jamaica's free online immigration and customs (C5) form before traveling.",
   "meta": {
-    "lastUpdated": "2026-08-29",
-    "lastFullReview": "2026-08-26",
+    "lastUpdated": "2026-09-26",
+    "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
       {
@@ -26,7 +26,11 @@
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260815230220/https://www.pica.gov.jm/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-09-26",
+          "reason": "not-stated"
+        }
       }
     ],
     "modules": [
@@ -35,12 +39,11 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://www.pica.gov.jm/",
-      "name": "Passport, Immigration and Citizenship Agency (PICA), Jamaica",
+      "url": "https://www.pica.gov.jm/immigration/entry-visa-requirements",
+      "name": "PICA — Entry visa requirements for foreigners and Commonwealth nationals entering Jamaica",
       "type": "government",
-      "lastVerified": "2026-08-26",
-      "archiveUrl": "https://web.archive.org/web/20260815230220/https://www.pica.gov.jm/",
-      "portalOnly": true
+      "lastVerified": "2026-09-26",
+      "lastChanged": "2026-09-26"
     },
     "byPassport": {
       "AF": {
@@ -57,7 +60,7 @@
         "visaTypes": [
           "visitor-visa"
         ],
-        "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
+        "notes": "A visa is required unless you travel as a tourist for 30 days or less, hold a valid US, Canadian, UK or Schengen visa and carry proof of vaccination against measles, rubella and polio (PICA's visa-requirements table). Otherwise apply for a Jamaican visitor's visa before traveling."
       },
       "DZ": {
         "requirement": "embassy-visa",
@@ -68,10 +71,12 @@
         "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
       },
       "AD": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days; the free online Immigration/Customs C5 form must still be completed before traveling."
+        "requirement": "visa-on-arrival",
+        "maxStayDays": null,
+        "notes": "A visa is required, but PICA's visa-requirements table says it can be obtained at the port of entry (US$100 under PICA's fee schedule). Complete the online C5 form before departure.",
+        "visaTypes": [
+          "port-of-entry-visa"
+        ]
       },
       "AO": {
         "requirement": "embassy-visa",
@@ -88,17 +93,17 @@
       },
       "AR": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
+        "maxStayDays": 30,
         "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days under Jamaica's waiver for Latin American passports; complete the online C5 form before departure."
+        "notes": "Visa-free for up to 30 days as a visitor, per PICA's visa-requirements table; complete the online C5 form before departure."
       },
       "AM": {
-        "requirement": "embassy-visa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": null,
         "visaTypes": [
-          "visitor-visa"
+          "port-of-entry-visa"
         ],
-        "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
+        "notes": "A visa is required, but PICA's visa-requirements table says it can be obtained at the port of entry (US$100 under PICA's fee schedule). Complete the online C5 form before departure."
       },
       "AU": {
         "requirement": "visa-free",
@@ -108,17 +113,17 @@
       },
       "AT": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
+        "maxStayDays": 30,
         "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days; the free online Immigration/Customs C5 form must still be completed before traveling."
+        "notes": "Visa-free for up to 30 days, per PICA's visa-requirements table; the free online Immigration/Customs C5 form must still be completed before traveling."
       },
       "AZ": {
-        "requirement": "embassy-visa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": null,
         "visaTypes": [
-          "visitor-visa"
+          "port-of-entry-visa"
         ],
-        "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
+        "notes": "A visa is required, but PICA's visa-requirements table says it can be obtained at the port of entry (US$100 under PICA's fee schedule). Complete the online C5 form before departure."
       },
       "BS": {
         "requirement": "freedom-of-movement",
@@ -134,12 +139,9 @@
         "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
       },
       "BD": {
-        "requirement": "embassy-visa",
+        "requirement": "visa-free",
         "maxStayDays": null,
-        "visaTypes": [
-          "visitor-visa"
-        ],
-        "notes": "Commonwealth membership does not carry a visa waiver for this nationality. Apply for a Jamaican visitor's visa before traveling."
+        "notes": "No visa is needed, per PICA's visa-requirements table, which does not state a period; the officer sets it on arrival. Complete the online C5 form before departure."
       },
       "BB": {
         "requirement": "freedom-of-movement",
@@ -152,7 +154,7 @@
         "visaTypes": [
           "visitor-visa"
         ],
-        "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
+        "notes": "A visa is required unless you travel as a tourist for 30 days or less, hold a valid US, Canadian, UK or Schengen visa and carry proof of vaccination against measles, rubella and polio (PICA's visa-requirements table). Otherwise apply for a Jamaican visitor's visa before traveling."
       },
       "BE": {
         "requirement": "visa-free",
@@ -183,9 +185,9 @@
       },
       "BO": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
+        "maxStayDays": 30,
         "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days under Jamaica's waiver for Latin American passports; complete the online C5 form before departure."
+        "notes": "Visa-free for up to 30 days as a tourist, provided you carry proof of yellow fever vaccination (PICA's visa-requirements table). Complete the online C5 form before departure."
       },
       "BA": {
         "requirement": "embassy-visa",
@@ -193,7 +195,7 @@
         "visaTypes": [
           "visitor-visa"
         ],
-        "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
+        "notes": "A visa is required unless you travel as a tourist for 30 days or less, hold a valid US, Canadian, UK or Schengen visa and carry proof of vaccination against measles, rubella and polio (PICA's visa-requirements table). Otherwise apply for a Jamaican visitor's visa before traveling."
       },
       "BW": {
         "requirement": "visa-free",
@@ -294,9 +296,9 @@
       },
       "CO": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
+        "maxStayDays": 30,
         "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days under Jamaica's waiver for Latin American passports; complete the online C5 form before departure."
+        "notes": "Visa-free for up to 30 days as a visitor, per PICA's visa-requirements table; complete the online C5 form before departure."
       },
       "KM": {
         "requirement": "embassy-visa",
@@ -308,9 +310,9 @@
       },
       "CR": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
+        "maxStayDays": 30,
         "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days under Jamaica's waiver for Latin American passports; complete the online C5 form before departure."
+        "notes": "Visa-free for up to 30 days as a visitor, per PICA's visa-requirements table; complete the online C5 form before departure."
       },
       "CI": {
         "requirement": "embassy-visa",
@@ -342,9 +344,9 @@
       },
       "CZ": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
+        "maxStayDays": 30,
         "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days; the free online Immigration/Customs C5 form must still be completed before traveling."
+        "notes": "Visa-free for up to 30 days, per PICA's visa-requirements table; the free online Immigration/Customs C5 form must still be completed before traveling."
       },
       "CD": {
         "requirement": "embassy-visa",
@@ -374,18 +376,15 @@
         "notes": "CARICOM nationals enter under Caribbean Community free-movement arrangements. A definite entry of up to six months is granted on arrival."
       },
       "DO": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "visitor-visa"
-        ],
-        "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
+        "requirement": "visa-free",
+        "maxStayDays": 180,
+        "notes": "Visa-free for up to 180 days for tourism or business, in force since 1 February 2025, per PICA's visa-requirements table; complete the online C5 form before departure."
       },
       "EC": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
+        "maxStayDays": 30,
         "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days under Jamaica's waiver for Latin American passports; complete the online C5 form before departure."
+        "notes": "Visa-free for up to 30 days as a visitor, per PICA's visa-requirements table; complete the online C5 form before departure."
       },
       "EG": {
         "requirement": "embassy-visa",
@@ -396,12 +395,9 @@
         "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
       },
       "SV": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "visitor-visa"
-        ],
-        "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
+        "requirement": "visa-free",
+        "maxStayDays": 30,
+        "notes": "Visa-free for up to 30 days as a visitor, per PICA's visa-requirements table; complete the online C5 form before departure."
       },
       "GQ": {
         "requirement": "embassy-visa",
@@ -421,9 +417,9 @@
       },
       "EE": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
+        "maxStayDays": 30,
         "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days; the free online Immigration/Customs C5 form must still be completed before traveling."
+        "notes": "Visa-free for up to 30 days as a tourist, provided you carry proof of vaccination against measles, rubella and polio (PICA's visa-requirements table). Complete the online C5 form before departure."
       },
       "SZ": {
         "requirement": "visa-free",
@@ -453,9 +449,9 @@
       },
       "FR": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
+        "maxStayDays": 30,
         "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days; the free online Immigration/Customs C5 form must still be completed before traveling."
+        "notes": "Visa-free for up to 30 days, per PICA's visa-requirements table; the free online Immigration/Customs C5 form must still be completed before traveling."
       },
       "GA": {
         "requirement": "embassy-visa",
@@ -472,12 +468,12 @@
         "notes": "Commonwealth citizens are admitted visa-free for up to 90 days; the online C5 immigration and customs form is still mandatory."
       },
       "GE": {
-        "requirement": "embassy-visa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": null,
         "visaTypes": [
-          "visitor-visa"
+          "port-of-entry-visa"
         ],
-        "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
+        "notes": "A visa is required, but PICA's visa-requirements table says it can be obtained at the port of entry (US$100 under PICA's fee schedule). Complete the online C5 form before departure."
       },
       "DE": {
         "requirement": "visa-free",
@@ -493,9 +489,9 @@
       },
       "GR": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
+        "maxStayDays": 30,
         "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days; the free online Immigration/Customs C5 form must still be completed before traveling."
+        "notes": "Visa-free for up to 30 days, per PICA's visa-requirements table; the free online Immigration/Customs C5 form must still be completed before traveling."
       },
       "GD": {
         "requirement": "freedom-of-movement",
@@ -503,12 +499,9 @@
         "notes": "CARICOM nationals enter under Caribbean Community free-movement arrangements. A definite entry of up to six months is granted on arrival."
       },
       "GT": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "visitor-visa"
-        ],
-        "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
+        "requirement": "visa-free",
+        "maxStayDays": 30,
+        "notes": "Visa-free for up to 30 days as a visitor, per PICA's visa-requirements table; complete the online C5 form before departure."
       },
       "GN": {
         "requirement": "embassy-visa",
@@ -532,9 +525,12 @@
         "notes": "CARICOM nationals enter under Caribbean Community free-movement arrangements. A definite entry of up to six months is granted on arrival."
       },
       "HT": {
-        "requirement": "freedom-of-movement",
-        "maxStayDays": 180,
-        "notes": "CARICOM nationals enter under Caribbean Community free-movement arrangements. A definite entry of up to six months is granted on arrival."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "notes": "PICA's visa-requirements table lists Haitian ordinary passports as needing a visa, CARICOM membership notwithstanding; diplomatic and official passports are exempt. Apply for a Jamaican visitor's visa before traveling.",
+        "visaTypes": [
+          "visitor-visa"
+        ]
       },
       "HN": {
         "requirement": "embassy-visa",
@@ -542,21 +538,18 @@
         "visaTypes": [
           "visitor-visa"
         ],
-        "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
+        "notes": "A visa is required unless you travel as a tourist for 30 days or less and hold a valid US, Canadian, UK or Schengen visa (PICA's visa-requirements table). Otherwise apply for a Jamaican visitor's visa before traveling."
       },
       "HK": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "visitor-visa"
-        ],
-        "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
+        "requirement": "visa-free",
+        "maxStayDays": 30,
+        "notes": "Visa-free for up to 30 days, per PICA's visa-requirements table; the free online Immigration/Customs C5 form must still be completed before traveling."
       },
       "HU": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
+        "maxStayDays": 30,
         "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days; the free online Immigration/Customs C5 form must still be completed before traveling."
+        "notes": "Visa-free for up to 30 days, per PICA's visa-requirements table; the free online Immigration/Customs C5 form must still be completed before traveling."
       },
       "IS": {
         "requirement": "visa-free",
@@ -619,9 +612,9 @@
       },
       "JP": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
+        "maxStayDays": 30,
         "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days; the free online Immigration/Customs C5 form must still be completed before traveling."
+        "notes": "Visa-free for up to 30 days, per PICA's visa-requirements table; the free online Immigration/Customs C5 form must still be completed before traveling."
       },
       "JO": {
         "requirement": "embassy-visa",
@@ -637,7 +630,7 @@
         "visaTypes": [
           "visitor-visa"
         ],
-        "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
+        "notes": "A visa is required unless you travel as a tourist for 30 days or less, hold a valid US, Canadian, UK or Schengen visa and carry proof of vaccination against measles, rubella and polio (PICA's visa-requirements table). Otherwise apply for a Jamaican visitor's visa before traveling."
       },
       "KE": {
         "requirement": "visa-free",
@@ -668,12 +661,12 @@
         "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
       },
       "KG": {
-        "requirement": "embassy-visa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": null,
         "visaTypes": [
-          "visitor-visa"
+          "port-of-entry-visa"
         ],
-        "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
+        "notes": "A visa is required, but PICA's visa-requirements table says it can be obtained at the port of entry (US$100 under PICA's fee schedule). Complete the online C5 form before departure."
       },
       "LA": {
         "requirement": "embassy-visa",
@@ -685,9 +678,9 @@
       },
       "LV": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
+        "maxStayDays": 30,
         "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days; the free online Immigration/Customs C5 form must still be completed before traveling."
+        "notes": "Visa-free for up to 30 days as a tourist, provided you carry proof of vaccination against measles, rubella and polio (PICA's visa-requirements table). Complete the online C5 form before departure."
       },
       "LB": {
         "requirement": "embassy-visa",
@@ -727,9 +720,9 @@
       },
       "LT": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
+        "maxStayDays": 30,
         "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days; the free online Immigration/Customs C5 form must still be completed before traveling."
+        "notes": "Visa-free for up to 30 days as a tourist, provided you carry proof of vaccination against measles, rubella and polio (PICA's visa-requirements table). Complete the online C5 form before departure."
       },
       "LU": {
         "requirement": "visa-free",
@@ -738,12 +731,9 @@
         "notes": "Visa-free for tourism for up to 90 days; the free online Immigration/Customs C5 form must still be completed before traveling."
       },
       "MO": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "visitor-visa"
-        ],
-        "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
+        "requirement": "visa-free",
+        "maxStayDays": 30,
+        "notes": "Visa-free for up to 30 days for tourism only, per PICA's visa-requirements table; complete the online C5 form before departure."
       },
       "MG": {
         "requirement": "embassy-visa",
@@ -766,10 +756,12 @@
         "notes": "Commonwealth citizens are admitted visa-free for up to 90 days; the online C5 immigration and customs form is still mandatory."
       },
       "MV": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "extendableDays": 90,
-        "notes": "Commonwealth citizens are admitted visa-free for up to 90 days; the online C5 immigration and customs form is still mandatory."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "notes": "Commonwealth membership does not carry a visa waiver for this nationality. Apply for a Jamaican visitor's visa before traveling.",
+        "visaTypes": [
+          "visitor-visa"
+        ]
       },
       "ML": {
         "requirement": "embassy-visa",
@@ -827,13 +819,13 @@
         "visaTypes": [
           "visitor-visa"
         ],
-        "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
+        "notes": "A visa is required unless you travel as a tourist for 30 days or less, hold a valid US, Canadian, UK or Schengen visa and carry proof of vaccination against measles, rubella and polio (PICA's visa-requirements table). Otherwise apply for a Jamaican visitor's visa before traveling."
       },
       "MC": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
+        "maxStayDays": 30,
         "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days; the free online Immigration/Customs C5 form must still be completed before traveling."
+        "notes": "Visa-free for up to 30 days, per PICA's visa-requirements table; the free online Immigration/Customs C5 form must still be completed before traveling."
       },
       "MN": {
         "requirement": "embassy-visa",
@@ -849,7 +841,7 @@
         "visaTypes": [
           "visitor-visa"
         ],
-        "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
+        "notes": "A visa is required unless you travel as a tourist for 30 days or less, hold a valid US, Canadian, UK or Schengen visa and carry proof of vaccination against measles, rubella and polio (PICA's visa-requirements table). Otherwise apply for a Jamaican visitor's visa before traveling."
       },
       "MA": {
         "requirement": "embassy-visa",
@@ -860,12 +852,9 @@
         "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
       },
       "MZ": {
-        "requirement": "embassy-visa",
+        "requirement": "visa-free",
         "maxStayDays": null,
-        "visaTypes": [
-          "visitor-visa"
-        ],
-        "notes": "Commonwealth membership does not carry a visa waiver for this nationality. Apply for a Jamaican visitor's visa before traveling."
+        "notes": "No visa is needed, per PICA's visa-requirements table, which does not state a period; the officer sets it on arrival. Complete the online C5 form before departure."
       },
       "MM": {
         "requirement": "embassy-visa",
@@ -945,7 +934,7 @@
         "visaTypes": [
           "visitor-visa"
         ],
-        "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
+        "notes": "A visa is required unless you travel as a tourist for 30 days or less, hold a valid US, Canadian, UK or Schengen visa and carry proof of vaccination against measles, rubella and polio (PICA's visa-requirements table). Otherwise apply for a Jamaican visitor's visa before traveling."
       },
       "NO": {
         "requirement": "visa-free",
@@ -987,9 +976,9 @@
       },
       "PA": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
+        "maxStayDays": 30,
         "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days under Jamaica's waiver for Latin American passports; complete the online C5 form before departure."
+        "notes": "Visa-free for up to 30 days as a visitor, per PICA's visa-requirements table; complete the online C5 form before departure."
       },
       "PG": {
         "requirement": "visa-free",
@@ -998,18 +987,15 @@
         "notes": "Commonwealth citizens are admitted visa-free for up to 90 days; the online C5 immigration and customs form is still mandatory."
       },
       "PY": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "visitor-visa"
-        ],
-        "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
+        "requirement": "visa-free",
+        "maxStayDays": 30,
+        "notes": "Visa-free for up to 30 days as a tourist, provided you carry proof of yellow fever vaccination (PICA's visa-requirements table). Complete the online C5 form before departure."
       },
       "PE": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
+        "maxStayDays": 30,
         "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days under Jamaica's waiver for Latin American passports; complete the online C5 form before departure."
+        "notes": "Visa-free for up to 30 days as a tourist, provided you carry proof of yellow fever vaccination (PICA's visa-requirements table). Complete the online C5 form before departure."
       },
       "PH": {
         "requirement": "embassy-visa",
@@ -1021,15 +1007,15 @@
       },
       "PL": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
+        "maxStayDays": 30,
         "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days; the free online Immigration/Customs C5 form must still be completed before traveling."
+        "notes": "Visa-free for up to 30 days, per PICA's visa-requirements table; the free online Immigration/Customs C5 form must still be completed before traveling."
       },
       "PT": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
+        "maxStayDays": 30,
         "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days; the free online Immigration/Customs C5 form must still be completed before traveling."
+        "notes": "Visa-free for up to 30 days, per PICA's visa-requirements table; the free online Immigration/Customs C5 form must still be completed before traveling."
       },
       "QA": {
         "requirement": "embassy-visa",
@@ -1059,10 +1045,12 @@
         "notes": "Visa-free for up to 90 days under a bilateral waiver. Confirm the current allowance with a Jamaican mission before a long stay."
       },
       "RW": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "extendableDays": 90,
-        "notes": "Commonwealth citizens are admitted visa-free for up to 90 days; the online C5 immigration and customs form is still mandatory."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "notes": "Commonwealth membership does not carry a visa waiver for this nationality. Apply for a Jamaican visitor's visa before traveling.",
+        "visaTypes": [
+          "visitor-visa"
+        ]
       },
       "KN": {
         "requirement": "freedom-of-movement",
@@ -1121,7 +1109,7 @@
         "visaTypes": [
           "visitor-visa"
         ],
-        "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
+        "notes": "A visa is required unless you travel as a tourist for 30 days or less, hold a valid US, Canadian, UK or Schengen visa and carry proof of vaccination against measles, rubella and polio (PICA's visa-requirements table). Otherwise apply for a Jamaican visitor's visa before traveling."
       },
       "SC": {
         "requirement": "visa-free",
@@ -1143,15 +1131,15 @@
       },
       "SK": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
+        "maxStayDays": 30,
         "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days; the free online Immigration/Customs C5 form must still be completed before traveling."
+        "notes": "Visa-free for up to 30 days, per PICA's visa-requirements table; the free online Immigration/Customs C5 form must still be completed before traveling."
       },
       "SI": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
+        "maxStayDays": 30,
         "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days; the free online Immigration/Customs C5 form must still be completed before traveling."
+        "notes": "Visa-free for up to 30 days as a tourist, provided you carry proof of vaccination against measles, rubella and polio (PICA's visa-requirements table). Complete the online C5 form before departure."
       },
       "SB": {
         "requirement": "visa-free",
@@ -1189,15 +1177,17 @@
       },
       "ES": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
+        "maxStayDays": 30,
         "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days; the free online Immigration/Customs C5 form must still be completed before traveling."
+        "notes": "Visa-free for up to 30 days, per PICA's visa-requirements table; the free online Immigration/Customs C5 form must still be completed before traveling."
       },
       "LK": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "extendableDays": 90,
-        "notes": "Commonwealth citizens are admitted visa-free for up to 90 days; the online C5 immigration and customs form is still mandatory."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "notes": "Commonwealth membership does not carry a visa waiver for this nationality. Apply for a Jamaican visitor's visa before traveling.",
+        "visaTypes": [
+          "visitor-visa"
+        ]
       },
       "SD": {
         "requirement": "embassy-visa",
@@ -1233,20 +1223,20 @@
         "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
       },
       "TW": {
-        "requirement": "embassy-visa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": null,
         "visaTypes": [
-          "visitor-visa"
+          "port-of-entry-visa"
         ],
-        "notes": "Jamaica recognizes Beijing rather than Taipei — ROC (Taiwan) passport holders should arrange a visa in advance and confirm with a Jamaican mission before booking."
+        "notes": "A visa is required, together with an Affidavit of Identity; PICA's visa-requirements table says the visa can be obtained at the port of entry (US$100 under PICA's fee schedule). Complete the online C5 form before departure."
       },
       "TJ": {
-        "requirement": "embassy-visa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": null,
         "visaTypes": [
-          "visitor-visa"
+          "port-of-entry-visa"
         ],
-        "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
+        "notes": "A visa is required, but PICA's visa-requirements table says it can be obtained at the port of entry (US$100 under PICA's fee schedule). Complete the online C5 form before departure."
       },
       "TZ": {
         "requirement": "visa-free",
@@ -1298,20 +1288,17 @@
         "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
       },
       "TR": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "visitor-visa"
-        ],
-        "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days, per PICA's visa-requirements table; the free online Immigration/Customs C5 form must still be completed before traveling."
       },
       "TM": {
-        "requirement": "embassy-visa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": null,
         "visaTypes": [
-          "visitor-visa"
+          "port-of-entry-visa"
         ],
-        "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
+        "notes": "A visa is required, but PICA's visa-requirements table says it can be obtained at the port of entry (US$100 under PICA's fee schedule). Complete the online C5 form before departure."
       },
       "TV": {
         "requirement": "visa-free",
@@ -1326,12 +1313,9 @@
         "notes": "Commonwealth citizens are admitted visa-free for up to 90 days; the online C5 immigration and customs form is still mandatory."
       },
       "UA": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "visitor-visa"
-        ],
-        "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
+        "requirement": "visa-free",
+        "maxStayDays": 30,
+        "notes": "Visa-free for up to 30 days, per PICA's visa-requirements table; the free online Immigration/Customs C5 form must still be completed before traveling."
       },
       "AE": {
         "requirement": "embassy-visa",
@@ -1349,23 +1333,23 @@
       },
       "US": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
+        "maxStayDays": 180,
         "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days; the free online Immigration/Customs C5 form must still be completed before traveling."
+        "notes": "Visa-free for up to 6 months, per PICA's visa-requirements table; the free online Immigration/Customs C5 form must still be completed before traveling."
       },
       "UY": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
+        "maxStayDays": 30,
         "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days under Jamaica's waiver for Latin American passports; complete the online C5 form before departure."
+        "notes": "Visa-free for up to 30 days as a visitor, per PICA's visa-requirements table; complete the online C5 form before departure."
       },
       "UZ": {
-        "requirement": "embassy-visa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": null,
         "visaTypes": [
-          "visitor-visa"
+          "port-of-entry-visa"
         ],
-        "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
+        "notes": "A visa is required, but PICA's visa-requirements table says it can be obtained at the port of entry (US$100 under PICA's fee schedule). Complete the online C5 form before departure."
       },
       "VU": {
         "requirement": "visa-free",
@@ -1381,9 +1365,9 @@
       },
       "VE": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
+        "maxStayDays": 30,
         "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days under Jamaica's waiver for Latin American passports; complete the online C5 form before departure."
+        "notes": "Visa-free for up to 30 days as a visitor, per PICA's visa-requirements table; complete the online C5 form before departure."
       },
       "VN": {
         "requirement": "embassy-visa",
@@ -1415,7 +1399,33 @@
         ],
         "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
       }
-    }
+    },
+    "conditionalWaivers": [
+      {
+        "id": "us-visa",
+        "requirement": "visa-free",
+        "maxStayDays": 30,
+        "appliesTo": [
+          "AL",
+          "BY",
+          "BA",
+          "KZ",
+          "MK",
+          "MD",
+          "ME",
+          "RS",
+          "HN"
+        ],
+        "text": "Tourists from Albania, Belarus, Bosnia and Herzegovina, Kazakhstan, North Macedonia, Moldova, Montenegro, Serbia and Honduras who hold a valid US, Canadian, UK or Schengen visa may enter Jamaica without a Jamaican visa for 30 days or less. All except Honduras must also carry proof of vaccination against measles, rubella and polio.",
+        "source": {
+          "url": "https://www.pica.gov.jm/immigration/entry-visa-requirements",
+          "name": "PICA — Entry visa requirements for foreigners and Commonwealth nationals entering Jamaica",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
+      }
+    ]
   },
   "visaTypes": [
     {
@@ -1443,7 +1453,34 @@
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260815230220/https://www.pica.gov.jm/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-09-26",
+          "reason": "not-stated"
+        }
+      }
+    },
+    {
+      "id": "port-of-entry-visa",
+      "category": "tourist",
+      "method": "visa-on-arrival",
+      "name": "Port of Entry Visa",
+      "fee": {
+        "amount": 100,
+        "currency": "USD",
+        "notes": "PICA fee schedule. A traveler who should have obtained a visa before arrival and seeks entry at the port pays US$350 instead."
+      },
+      "processing": null,
+      "validityDays": null,
+      "stayDays": null,
+      "entries": "single",
+      "applyUrl": null,
+      "source": {
+        "url": "https://www.pica.gov.jm/immigration/fees",
+        "name": "PICA — Immigration processing fees",
+        "type": "government",
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     },
     {
@@ -1467,7 +1504,11 @@
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260815230220/https://www.pica.gov.jm/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-09-26",
+          "reason": "not-stated"
+        }
       }
     },
     {
@@ -1475,10 +1516,14 @@
       "category": "other",
       "method": "exemption-extension",
       "name": "Extension of Stay (PICA)",
-      "fee": null,
+      "fee": {
+        "amount": 10000,
+        "currency": "JMD",
+        "notes": "PICA's processing fee for an extension of stay, from its Immigration Processing Fee schedule. Staying beyond the visa-exemption period costs JM$50,000."
+      },
       "processing": {
         "minDays": 1,
-        "maxDays": 15,
+        "maxDays": 3,
         "unit": "business-days"
       },
       "validityDays": null,
@@ -1490,12 +1535,11 @@
       },
       "applyUrl": "https://www.pica.gov.jm/",
       "source": {
-        "url": "https://www.pica.gov.jm/",
-        "name": "Passport, Immigration and Citizenship Agency (PICA), Jamaica",
+        "url": "https://www.pica.gov.jm/immigration/extension-of-stays",
+        "name": "PICA — Extension of stays",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260815230220/https://www.pica.gov.jm/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     }
   ],
@@ -1504,23 +1548,20 @@
       "rule": "valid-for-stay",
       "text": "Jamaica requires a passport valid for the whole of your intended stay rather than a fixed six months. Airlines and many home governments still advise six months' validity, so travel with six months where you can.",
       "source": {
-        "url": "https://www.pica.gov.jm/",
-        "name": "Passport, Immigration and Citizenship Agency (PICA), Jamaica",
+        "url": "https://www.gov.uk/foreign-travel-advice/jamaica/entry-requirements",
+        "name": "UK FCDO — Jamaica entry requirements",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260815230220/https://www.pica.gov.jm/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26"
       }
     },
     "blankPages": {
-      "count": 1,
+      "count": 2,
       "source": {
-        "url": "https://www.pica.gov.jm/",
-        "name": "Passport, Immigration and Citizenship Agency (PICA), Jamaica",
+        "url": "https://www.gov.uk/foreign-travel-advice/jamaica/entry-requirements",
+        "name": "UK FCDO — Jamaica entry requirements",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260815230220/https://www.pica.gov.jm/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     },
     "vaccinations": [
@@ -1531,12 +1572,10 @@
         "requiredWhen": "arriving-from-risk-country",
         "text": "A yellow fever certificate is required only if you are arriving from, or have recently transited, a country with risk of yellow fever transmission — mainly parts of tropical Africa and South America. Travelers coming directly from Europe, North America or elsewhere in the Caribbean do not need one to enter Jamaica.",
         "source": {
-          "url": "https://www.pica.gov.jm/",
-          "name": "Passport, Immigration and Citizenship Agency (PICA), Jamaica",
+          "url": "https://www.gov.uk/foreign-travel-advice/jamaica/entry-requirements",
+          "name": "UK FCDO — Jamaica entry requirements",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260815230220/https://www.pica.gov.jm/",
-          "portalOnly": true
+          "lastVerified": "2026-09-26"
         }
       }
     ],
@@ -1551,7 +1590,11 @@
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260815230220/https://www.pica.gov.jm/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-09-26",
+          "reason": "not-stated"
+        }
       }
     },
     "onwardTicket": {
@@ -1564,7 +1607,11 @@
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260815230220/https://www.pica.gov.jm/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-09-26",
+          "reason": "not-stated"
+        }
       }
     },
     "proofOfFunds": {
@@ -1578,7 +1625,11 @@
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260815230220/https://www.pica.gov.jm/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-09-26",
+          "reason": "not-stated"
+        }
       }
     },
     "declarations": [
@@ -1592,12 +1643,10 @@
         "url": "https://www.enteringjamaica.com/",
         "text": "All arriving passengers must complete Jamaica's online Immigration/Customs C5 form and carry the QR code or a printout. It is free. The COVID-era Jamaica Travel Authorization has been discontinued, so any site charging for a Jamaican \"travel authorization\" is not official — if you are unsure, check with your airline or PICA.",
         "source": {
-          "url": "https://www.pica.gov.jm/",
-          "name": "Passport, Immigration and Citizenship Agency (PICA), Jamaica",
+          "url": "https://www.pica.gov.jm/immigration/travel-documents-required",
+          "name": "PICA — Travel documents required",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260815230220/https://www.pica.gov.jm/",
-          "portalOnly": true
+          "lastVerified": "2026-09-26"
         }
       }
     ],
@@ -1605,12 +1654,10 @@
       "currencyLimits": {
         "text": "Cash and negotiable instruments worth USD 10,000 or more (or the Jamaican dollar equivalent) must be declared to Jamaica Customs on arrival and departure.",
         "source": {
-          "url": "https://www.pica.gov.jm/",
-          "name": "Passport, Immigration and Citizenship Agency (PICA), Jamaica",
+          "url": "https://www.gov.uk/foreign-travel-advice/jamaica/entry-requirements",
+          "name": "UK FCDO — Jamaica entry requirements",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260815230220/https://www.pica.gov.jm/",
-          "portalOnly": true
+          "lastVerified": "2026-09-26"
         }
       },
       "notes": [
@@ -1636,11 +1683,10 @@
       "level": "exercise-caution",
       "text": "Jamaica has one of the highest homicide rates in the Americas, but the violence is heavily concentrated in specific inner-city districts of Kingston, Spanish Town and Montego Bay that visitors have no reason to enter. Resort corridors are heavily policed. The practical risks for travelers are robbery, scams, aggressive hustling and road accidents.",
       "source": {
-        "url": "https://www.gov.uk/foreign-travel-advice/jamaica",
-        "name": "UK Foreign, Commonwealth & Development Office — Jamaica travel advice",
+        "url": "https://www.gov.uk/foreign-travel-advice/jamaica/safety-and-security",
+        "name": "UK FCDO — Jamaica: safety and security",
         "type": "government",
-        "lastVerified": "2026-08-29",
-        "archiveUrl": "https://web.archive.org/web/20260731075635/https://www.gov.uk/foreign-travel-advice/jamaica"
+        "lastVerified": "2026-09-26"
       }
     },
     "plugs": {
@@ -1686,7 +1732,7 @@
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
           "type": "igo",
-          "lastVerified": "2026-08-26",
+          "lastVerified": "2026-09-26",
           "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
         }
       },
@@ -1701,7 +1747,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
         "type": "igo",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-26",
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
       }
     }
@@ -1737,7 +1783,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Jamaica?",
-      "answer": "Probably not. Jamaica is visa-free for citizens of the US, Canada, the UK, all EU and Schengen countries, Japan, South Korea, most of Latin America and most Commonwealth countries — typically for up to 90 days — and CARICOM nationals get six months. Nationalities not on the exemption list need a visitor's visa from a Jamaican high commission or embassy before traveling; there is no visa on arrival and no eVisa."
+      "answer": "Probably not. Jamaica is visa-free for citizens of the US, Canada, the UK, most EU and Schengen countries, Japan, South Korea, much of Latin America and most Commonwealth countries, and CARICOM nationals get six months. The period depends on the passport: PICA's table gives six months to US citizens, 90 days to, among others, Germany, the Netherlands, the Nordic countries, Brazil, Mexico and South Korea, and 30 days to France, Spain, Portugal, Japan and most of Latin America. Some nationalities, such as Armenia, Georgia and Uzbekistan, can get a visa at the port of entry for US$100; others need a visitor's visa from a Jamaican high commission or embassy before traveling. There is no eVisa."
     },
     {
       "id": "c5-form",
@@ -1752,7 +1798,7 @@
     {
       "id": "how-long-stay",
       "question": "How long can I stay in Jamaica without a visa?",
-      "answer": "Visa-free visitors are usually granted up to 90 days, but the officer writes the actual period on your stamp and may grant less if your return ticket is sooner. Extensions are handled by PICA and must be applied for before your stamp expires."
+      "answer": "It depends on your passport: PICA's visa-requirements table allows 30 days for some nationalities, 90 for others and six months for US citizens. The officer writes the actual period on your stamp and may grant less if your return ticket is sooner. Extensions are handled by PICA and must be applied for before your stamp expires."
     },
     {
       "id": "passport-validity",

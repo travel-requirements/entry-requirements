@@ -23,8 +23,8 @@
   ],
   "summary": "Niger keeps its doors open to West African neighbors — ECOWAS-origin citizens still enter visa-free after the country's 2025 exit from the bloc, as do a few Maghreb states, but every other nationality must obtain a visa from a Nigerien embassy before travel, against a backdrop of junta rule and do-not-travel security advisories.",
   "meta": {
-    "lastUpdated": "2026-08-29",
-    "lastFullReview": "2026-08-26",
+    "lastUpdated": "2026-09-26",
+    "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
       {
@@ -42,12 +42,11 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://diplomatie.gouv.ne/",
-      "name": "Ministry of Foreign Affairs of Niger",
+      "url": "https://diplomatie.gouv.ne/index.php/services-aux-usagers/entree-au-niger",
+      "name": "Ministry of Foreign Affairs of Niger — Entrée au Niger",
       "type": "government",
-      "lastVerified": "2026-08-26",
-      "archiveUrl": "https://web.archive.org/web/20260606102452/https://diplomatie.gouv.ne/",
-      "portalOnly": true
+      "lastVerified": "2026-09-26",
+      "archiveUrl": "https://web.archive.org/web/20260829181936/https://diplomatie.gouv.ne/index.php/services-aux-usagers/entree-au-niger/"
     },
     "byPassport": {
       "AF": {
@@ -1588,18 +1587,22 @@
       "method": "embassy",
       "name": "Tourist visa (embassy)",
       "fee": null,
-      "processing": null,
+      "processing": {
+        "minDays": 15,
+        "maxDays": 15,
+        "unit": "calendar-days"
+      },
       "validityDays": null,
       "stayDays": 30,
       "entries": "single",
       "applyUrl": null,
       "source": {
-        "url": "https://diplomatie.gouv.ne/",
-        "name": "Ministry of Foreign Affairs of Niger",
+        "url": "https://diplomatie.gouv.ne/index.php/services-aux-usagers/entree-au-niger",
+        "name": "Ministry of Foreign Affairs of Niger — Entrée au Niger",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260606102452/https://diplomatie.gouv.ne/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26",
+        "archiveUrl": "https://web.archive.org/web/20260829181936/https://diplomatie.gouv.ne/index.php/services-aux-usagers/entree-au-niger/",
+        "lastChanged": "2026-09-26"
       }
     },
     {
@@ -1608,32 +1611,36 @@
       "method": "embassy",
       "name": "Business visa (embassy)",
       "fee": null,
-      "processing": null,
+      "processing": {
+        "minDays": 15,
+        "maxDays": 15,
+        "unit": "calendar-days"
+      },
       "validityDays": null,
       "stayDays": 90,
       "entries": "multiple",
       "applyUrl": null,
       "source": {
-        "url": "https://diplomatie.gouv.ne/",
-        "name": "Ministry of Foreign Affairs of Niger",
+        "url": "https://diplomatie.gouv.ne/index.php/services-aux-usagers/entree-au-niger",
+        "name": "Ministry of Foreign Affairs of Niger — Entrée au Niger",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260606102452/https://diplomatie.gouv.ne/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26",
+        "archiveUrl": "https://web.archive.org/web/20260829181936/https://diplomatie.gouv.ne/index.php/services-aux-usagers/entree-au-niger/",
+        "lastChanged": "2026-09-26"
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
-      "text": "Your passport should be valid for at least 6 months on arrival; carry it at all times, as document checks at police and military checkpoints are routine.",
+      "rule": "valid-for-stay",
+      "text": "Your passport should be valid for the proposed duration of your stay. No additional period of validity is required.",
       "source": {
-        "url": "https://diplomatie.gouv.ne/",
-        "name": "Ministry of Foreign Affairs of Niger",
+        "url": "https://www.gov.uk/foreign-travel-advice/niger/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Niger entry requirements",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260606102452/https://diplomatie.gouv.ne/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26",
+        "archiveUrl": "https://web.archive.org/web/20260228093934/https://www.gov.uk/foreign-travel-advice/niger/entry-requirements",
+        "lastChanged": "2026-09-26"
       }
     },
     "blankPages": {
@@ -1655,12 +1662,11 @@
         "requiredWhen": "always",
         "text": "Niger requires proof of yellow fever vaccination from all arriving travelers aged 9 months and over. The certificate is checked on arrival.",
         "source": {
-          "url": "https://diplomatie.gouv.ne/",
-          "name": "Ministry of Foreign Affairs of Niger",
+          "url": "https://www.gov.uk/foreign-travel-advice/niger/entry-requirements",
+          "name": "UK Foreign, Commonwealth & Development Office — Niger entry requirements",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260606102452/https://diplomatie.gouv.ne/",
-          "portalOnly": true
+          "lastVerified": "2026-09-26",
+          "archiveUrl": "https://web.archive.org/web/20260228093934/https://www.gov.uk/foreign-travel-advice/niger/entry-requirements"
         }
       }
     ],
@@ -1726,13 +1732,14 @@
     },
     "safety": {
       "level": "high-risk",
-      "text": "Niger is under do-not-travel advisories from most Western governments: terrorism and kidnapping risks are high across the country, including Niamey, and the situation has been volatile since the 2023 military coup. Travel outside the capital generally requires authorization and escorts. Reconsider non-essential travel.",
+      "text": "The FCDO advises against all travel to Niger because of terrorist attacks and the kidnapping of foreign nationals, a risk throughout the country including Niamey, and the political situation remains unstable after the July 2023 military coup. Foreign nationals may travel outside Niamey only with the government's permission and an escort of Nigerien security and military forces. Gunfire was reported near the Presidential Palace and Niamey airport on 29 August 2026.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/niger",
         "name": "UK Foreign, Commonwealth & Development Office — Niger travel advice",
         "type": "government",
-        "lastVerified": "2026-08-29",
-        "archiveUrl": "https://web.archive.org/web/20260731075635/https://www.gov.uk/foreign-travel-advice/niger"
+        "lastVerified": "2026-09-26",
+        "archiveUrl": "https://web.archive.org/web/20260731075635/https://www.gov.uk/foreign-travel-advice/niger",
+        "lastChanged": "2026-09-26"
       }
     },
     "plugs": {
@@ -1777,7 +1784,7 @@
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
           "type": "igo",
-          "lastVerified": "2026-08-26",
+          "lastVerified": "2026-09-26",
           "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
           "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
         }
@@ -1793,7 +1800,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
         "type": "igo",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-26",
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }

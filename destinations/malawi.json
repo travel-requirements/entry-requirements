@@ -17,19 +17,19 @@
     "mozambique",
     "zimbabwe"
   ],
-  "summary": "Since its 2024 visa-waiver reform Malawi lets citizens of some 79 countries — including the US, UK and the whole EU — enter visa-free, normally for 30 days at a time, while remaining nationalities apply online through the official eVisa portal.",
+  "summary": "Malawi admits citizens of about 40 countries — mostly its SADC and Commonwealth neighbours — visa-free. Since February 2026 the US, UK, EU and most other passports can get a visa on arrival, while a list of Category One countries must obtain a visa before departure through the official eVisa portal.",
   "meta": {
-    "lastUpdated": "2026-08-29",
-    "lastFullReview": "2026-08-26",
+    "lastUpdated": "2026-09-26",
+    "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
       {
         "url": "https://www.evisa.gov.mw/",
         "name": "Malawi Department of Immigration — official eVisa portal",
         "type": "government",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-26",
         "archiveUrl": "https://web.archive.org/web/20260714181705/https://evisa.gov.mw/",
-        "portalOnly": true
+        "lastChanged": "2026-09-26"
       }
     ],
     "modules": [
@@ -38,12 +38,11 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://www.evisa.gov.mw/",
-      "name": "Malawi Department of Immigration — official eVisa portal",
+      "url": "https://www.evisa.gov.mw/PDFs/CategoryTwoCountries.pdf",
+      "name": "Malawi Department of Immigration and Citizenship Services — Category Two countries (visa on arrival), linked from the eVisa portal's public notice of 24 February 2026",
       "type": "government",
-      "lastVerified": "2026-08-26",
-      "archiveUrl": "https://web.archive.org/web/20260714181705/https://evisa.gov.mw/",
-      "portalOnly": true
+      "lastVerified": "2026-09-26",
+      "lastChanged": "2026-09-26"
     },
     "byPassport": {
       "AF": {
@@ -52,15 +51,22 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "AL": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "DZ": {
         "requirement": "evisa",
@@ -68,78 +74,111 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "AD": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "AO": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "SADC citizens enter Malawi visa-free — normally admitted for up to 30 days at a time, extendable at immigration offices."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "AG": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "AR": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "AM": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "AU": {
-        "requirement": "visa-free",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "AT": {
-        "requirement": "visa-free",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "AZ": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "BS": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "BH": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "BD": {
         "requirement": "evisa",
@@ -147,91 +186,132 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "BB": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
-      },
-      "BY": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
-      },
-      "BE": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
+      },
+      "BY": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
+      },
+      "BE": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "BZ": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "BJ": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "BT": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "BO": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "BA": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "BW": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "SADC citizens enter Malawi visa-free — normally admitted for up to 30 days at a time, extendable at immigration offices."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "BR": {
-        "requirement": "visa-free",
-        "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
-      },
-      "BN": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
+      },
+      "BN": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "BG": {
-        "requirement": "visa-free",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "BF": {
         "requirement": "evisa",
@@ -239,7 +319,15 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/",
+          "name": "Malawi Department of Immigration — official eVisa portal",
+          "type": "government",
+          "lastVerified": "2026-08-26",
+          "archiveUrl": "https://web.archive.org/web/20260714181705/https://evisa.gov.mw/",
+          "portalOnly": true
+        }
       },
       "BI": {
         "requirement": "evisa",
@@ -247,23 +335,31 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "CV": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "KH": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "CM": {
         "requirement": "evisa",
@@ -271,12 +367,24 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/",
+          "name": "Malawi Department of Immigration — official eVisa portal",
+          "type": "government",
+          "lastVerified": "2026-08-26",
+          "archiveUrl": "https://web.archive.org/web/20260714181705/https://evisa.gov.mw/",
+          "portalOnly": true
+        }
       },
       "CA": {
-        "requirement": "visa-free",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "CF": {
         "requirement": "evisa",
@@ -284,7 +392,13 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "TD": {
         "requirement": "evisa",
@@ -292,82 +406,133 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "CL": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "CN": {
-        "requirement": "visa-free",
+        "requirement": "evisa",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "visaTypes": [
+          "mw-evisa"
+        ],
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "CO": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "KM": {
-        "requirement": "visa-free",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
-        "notes": "SADC citizens enter Malawi visa-free — normally admitted for up to 30 days at a time, extendable at immigration offices."
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "CR": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "CI": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "HR": {
-        "requirement": "visa-free",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "CU": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
+      },
+      "CY": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
+      },
+      "CZ": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
+      },
+      "CD": {
         "requirement": "evisa",
         "maxStayDays": 30,
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
-      },
-      "CY": {
-        "requirement": "visa-free",
-        "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
-      },
-      "CZ": {
-        "requirement": "visa-free",
-        "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
-      },
-      "CD": {
-        "requirement": "visa-free",
-        "maxStayDays": 30,
-        "notes": "SADC citizens enter Malawi visa-free — normally admitted for up to 30 days at a time, extendable at immigration offices."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "DK": {
-        "requirement": "visa-free",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "DJ": {
         "requirement": "evisa",
@@ -375,31 +540,49 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "DM": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "DO": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "EC": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "EG": {
         "requirement": "evisa",
@@ -407,23 +590,31 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "SV": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "GQ": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "ER": {
         "requirement": "evisa",
@@ -431,17 +622,33 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "EE": {
-        "requirement": "visa-free",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "SZ": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "SADC citizens enter Malawi visa-free — normally admitted for up to 30 days at a time, extendable at immigration offices."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "ET": {
         "requirement": "evisa",
@@ -449,151 +656,225 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "FJ": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "FI": {
-        "requirement": "visa-free",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "FR": {
-        "requirement": "visa-free",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "GA": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "GM": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
-      },
-      "GE": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
-      },
-      "DE": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
+      },
+      "GE": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
+      },
+      "DE": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "GH": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "GR": {
-        "requirement": "visa-free",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "GD": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "GT": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "GN": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "GW": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "GY": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "HT": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "HN": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "HK": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "HU": {
-        "requirement": "visa-free",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "IS": {
-        "requirement": "visa-free",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "IN": {
-        "requirement": "visa-free",
-        "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
-      },
-      "ID": {
         "requirement": "evisa",
         "maxStayDays": 30,
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
+      },
+      "ID": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "IR": {
         "requirement": "evisa",
@@ -601,7 +882,13 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "IQ": {
         "requirement": "evisa",
@@ -609,43 +896,72 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "IE": {
-        "requirement": "visa-free",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "IL": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "IT": {
-        "requirement": "visa-free",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "JM": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
-      },
-      "JP": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
-      "JO": {
-        "requirement": "evisa",
+      "JP": {
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
+      },
+      "JO": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "KZ": {
         "requirement": "evisa",
@@ -653,57 +969,81 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "KE": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "KI": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
-      },
-      "XK": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
-      },
-      "KW": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
-      },
-      "KG": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
-      },
-      "LA": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
-      },
-      "LV": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
+      },
+      "XK": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
+      },
+      "KW": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
+      },
+      "KG": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
+      },
+      "LA": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
+      },
+      "LV": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "LB": {
         "requirement": "evisa",
@@ -711,12 +1051,24 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "LS": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "SADC citizens enter Malawi visa-free — normally admitted for up to 30 days at a time, extendable at immigration offices."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "LR": {
         "requirement": "evisa",
@@ -724,7 +1076,13 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "LY": {
         "requirement": "evisa",
@@ -732,35 +1090,58 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "LI": {
-        "requirement": "visa-free",
-        "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
-      },
-      "LT": {
-        "requirement": "visa-free",
-        "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
-      },
-      "LU": {
-        "requirement": "visa-free",
-        "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
-      },
-      "MO": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
+      },
+      "LT": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
+      },
+      "LU": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
+      },
+      "MO": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "MG": {
-        "requirement": "visa-free",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
-        "notes": "SADC citizens enter Malawi visa-free — normally admitted for up to 30 days at a time, extendable at immigration offices."
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "MW": {
         "requirement": "freedom-of-movement",
@@ -770,15 +1151,22 @@
       "MY": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "MV": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "ML": {
         "requirement": "evisa",
@@ -786,20 +1174,31 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "MT": {
-        "requirement": "visa-free",
-        "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
-      },
-      "MH": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
+      },
+      "MH": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "MR": {
         "requirement": "evisa",
@@ -807,60 +1206,78 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "MU": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "SADC citizens enter Malawi visa-free — normally admitted for up to 30 days at a time, extendable at immigration offices."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "MX": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "FM": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "MD": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "MC": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "MN": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "ME": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "MA": {
         "requirement": "evisa",
@@ -868,33 +1285,56 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "MZ": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "SADC citizens enter Malawi visa-free — normally admitted for up to 30 days at a time, extendable at immigration offices."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "MM": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "NA": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "SADC citizens enter Malawi visa-free — normally admitted for up to 30 days at a time, extendable at immigration offices."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "NR": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "NP": {
         "requirement": "evisa",
@@ -902,25 +1342,40 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "NL": {
-        "requirement": "visa-free",
-        "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
-      },
-      "NZ": {
-        "requirement": "visa-free",
-        "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
-      },
-      "NI": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
+      },
+      "NZ": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
+      },
+      "NI": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "NE": {
         "requirement": "evisa",
@@ -928,33 +1383,55 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "NG": {
-        "requirement": "visa-free",
+        "requirement": "evisa",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "visaTypes": [
+          "mw-evisa"
+        ],
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "KP": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "MK": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "NO": {
-        "requirement": "visa-free",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "OM": {
         "requirement": "evisa",
@@ -962,7 +1439,13 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "PK": {
         "requirement": "evisa",
@@ -970,15 +1453,22 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "PW": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "PS": {
         "requirement": "evisa",
@@ -986,57 +1476,79 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "PA": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "PG": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "PY": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "PE": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "PH": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "PL": {
-        "requirement": "visa-free",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "PT": {
-        "requirement": "visa-free",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "QA": {
         "requirement": "evisa",
@@ -1044,89 +1556,133 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "CG": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "RO": {
-        "requirement": "visa-free",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "RU": {
-        "requirement": "visa-free",
+        "requirement": "evisa",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "visaTypes": [
+          "mw-evisa"
+        ],
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "RW": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "KN": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "LC": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "VC": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "WS": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "SM": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "ST": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "SA": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "SN": {
         "requirement": "evisa",
@@ -1134,7 +1690,13 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "RS": {
         "requirement": "evisa",
@@ -1142,43 +1704,71 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "SC": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "SADC citizens enter Malawi visa-free — normally admitted for up to 30 days at a time, extendable at immigration offices."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "SL": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "SG": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "SK": {
-        "requirement": "visa-free",
-        "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
-      },
-      "SI": {
-        "requirement": "visa-free",
-        "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
-      },
-      "SB": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
+      },
+      "SI": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
+      },
+      "SB": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "SO": {
         "requirement": "evisa",
@@ -1186,17 +1776,33 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "ZA": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "SADC citizens enter Malawi visa-free — normally admitted for up to 30 days at a time, extendable at immigration offices."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "KR": {
-        "requirement": "visa-free",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "SS": {
         "requirement": "evisa",
@@ -1204,12 +1810,22 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "ES": {
-        "requirement": "visa-free",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "LK": {
         "requirement": "evisa",
@@ -1217,7 +1833,15 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/",
+          "name": "Malawi Department of Immigration — official eVisa portal",
+          "type": "government",
+          "lastVerified": "2026-08-26",
+          "archiveUrl": "https://web.archive.org/web/20260714181705/https://evisa.gov.mw/",
+          "portalOnly": true
+        }
       },
       "SD": {
         "requirement": "evisa",
@@ -1225,25 +1849,40 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "SR": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "SE": {
-        "requirement": "visa-free",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "CH": {
-        "requirement": "visa-free",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "SY": {
         "requirement": "evisa",
@@ -1251,15 +1890,22 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "TW": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "TJ": {
         "requirement": "evisa",
@@ -1267,28 +1913,42 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "TZ": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "SADC citizens enter Malawi visa-free — normally admitted for up to 30 days at a time, extendable at immigration offices."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "TH": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "TL": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "TG": {
         "requirement": "evisa",
@@ -1296,23 +1956,34 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "TO": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "TT": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "TN": {
         "requirement": "evisa",
@@ -1320,7 +1991,13 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "TR": {
         "requirement": "evisa",
@@ -1328,7 +2005,13 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "TM": {
         "requirement": "evisa",
@@ -1336,23 +2019,37 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "TV": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "UG": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "UA": {
         "requirement": "evisa",
@@ -1360,33 +2057,49 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "AE": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "GB": {
-        "requirement": "visa-free",
-        "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
-      },
-      "US": {
-        "requirement": "visa-free",
-        "maxStayDays": 30,
-        "notes": "Visa-free under Malawi's 2024 waiver reform, which scrapped visas for some 79 countries — visitors are normally admitted for 30 days, extendable in-country; the list is updated periodically, so confirm eligibility before travel."
-      },
-      "UY": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
+      },
+      "US": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
+      },
+      "UY": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "mw-visa-on-arrival",
+          "mw-evisa"
+        ],
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "UZ": {
         "requirement": "evisa",
@@ -1394,39 +2107,52 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "VU": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "mw-evisa"
-        ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "VA": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "VE": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "VN": {
-        "requirement": "evisa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
+          "mw-visa-on-arrival",
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Visa on arrival at all designated ports of entry for nationals of the Category Two countries (public notice effective 24 February 2026). Applying in advance on the official eVisa portal (evisa.gov.mw) is encouraged to avoid delays at the border."
       },
       "YE": {
         "requirement": "evisa",
@@ -1434,17 +2160,35 @@
         "visaTypes": [
           "mw-evisa"
         ],
-        "notes": "A visa is required. Apply online through the official Malawi eVisa portal (evisa.gov.mw) before travel; visas are typically issued for 30 days and can be extended in-country."
+        "notes": "Category One country: a visa or prior authorization must be obtained before departure. Apply online through the official Malawi eVisa portal (evisa.gov.mw).",
+        "source": {
+          "url": "https://www.evisa.gov.mw/PDFs/CategoryOneCountries.pdf",
+          "name": "Malawi Department of Immigration and Citizenship Services — Category One countries (visa before departure)",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "ZM": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "SADC citizens enter Malawi visa-free — normally admitted for up to 30 days at a time, extendable at immigration offices."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       },
       "ZW": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "SADC citizens enter Malawi visa-free — normally admitted for up to 30 days at a time, extendable at immigration offices."
+        "notes": "Visa-free: the eligibility check on Malawi's official eVisa portal states that these nationals do not require a visa.",
+        "source": {
+          "url": "https://www.evisa.gov.mw/VisaAssistance",
+          "name": "Malawi eVisa portal — Visa Eligibility Wizard",
+          "type": "government",
+          "lastVerified": "2026-09-26"
+        }
       }
     }
   },
@@ -1476,7 +2220,7 @@
         "url": "https://www.evisa.gov.mw/Services",
         "name": "Malawi e-Visa System | The Official e-Visa Application Portal of Malawi | Department of Immigration and Citizenship Serv",
         "type": "government",
-        "lastVerified": "2026-08-29",
+        "lastVerified": "2026-09-26",
         "archiveUrl": "https://web.archive.org/web/20260516084932/https://evisa.gov.mw/Services"
       }
     },
@@ -1500,12 +2244,33 @@
       "entries": "multiple",
       "applyUrl": "https://www.evisa.gov.mw/",
       "source": {
-        "url": "https://www.evisa.gov.mw/",
-        "name": "Malawi Department of Immigration — official eVisa portal",
+        "url": "https://www.evisa.gov.mw/Services",
+        "name": "Malawi eVisa portal — Malawi Visa Types",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260714181705/https://evisa.gov.mw/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26"
+      }
+    },
+    {
+      "id": "mw-visa-on-arrival",
+      "category": "tourist",
+      "method": "visa-on-arrival",
+      "name": "Visa on arrival (single entry)",
+      "fee": {
+        "amount": 50,
+        "currency": "USD",
+        "notes": "USD 50 single entry; USD 150 for a 6-month and USD 250 for a one-year multiple-entry visa. Bring US dollars in cash."
+      },
+      "processing": null,
+      "validityDays": null,
+      "stayDays": null,
+      "entries": "single",
+      "applyUrl": null,
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/malawi/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Malawi travel advice: entry requirements",
+        "type": "government",
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     },
     {
@@ -1538,12 +2303,10 @@
       "rule": "6-months-on-arrival",
       "text": "Your passport should be valid for at least 6 months on arrival in Malawi, with at least one blank page for the entry stamp.",
       "source": {
-        "url": "https://www.evisa.gov.mw/",
-        "name": "Malawi Department of Immigration — official eVisa portal",
+        "url": "https://www.gov.uk/foreign-travel-advice/malawi/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Malawi travel advice: entry requirements",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260714181705/https://evisa.gov.mw/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26"
       }
     },
     "blankPages": {
@@ -1565,12 +2328,10 @@
         "requiredWhen": "arriving-from-risk-country",
         "text": "A yellow fever certificate is required only if you arrive from a country with risk of yellow fever transmission (including transits of more than 12 hours in such a country).",
         "source": {
-          "url": "https://www.evisa.gov.mw/",
-          "name": "Malawi Department of Immigration — official eVisa portal",
+          "url": "https://www.gov.uk/foreign-travel-advice/malawi/entry-requirements",
+          "name": "UK Foreign, Commonwealth & Development Office — Malawi travel advice: entry requirements",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260714181705/https://evisa.gov.mw/",
-          "portalOnly": true
+          "lastVerified": "2026-09-26"
         }
       }
     ],
@@ -1648,11 +2409,10 @@
       "level": "generally-safe",
       "text": "Malawi lives up to its \"warm heart of Africa\" reputation and violent crime against tourists is rare. Petty theft, bag snatching and scams occur in cities and on beaches. The usual precautions apply, and avoid driving after dark.",
       "source": {
-        "url": "https://www.gov.uk/foreign-travel-advice/malawi",
-        "name": "UK Foreign, Commonwealth & Development Office — Malawi travel advice",
+        "url": "https://www.gov.uk/foreign-travel-advice/malawi/safety-and-security",
+        "name": "UK Foreign, Commonwealth & Development Office — Malawi travel advice: safety and security",
         "type": "government",
-        "lastVerified": "2026-08-29",
-        "archiveUrl": "https://web.archive.org/web/20260705040400/https://www.gov.uk/foreign-travel-advice/malawi"
+        "lastVerified": "2026-09-26"
       }
     },
     "plugs": {
@@ -1696,7 +2456,7 @@
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
           "type": "igo",
-          "lastVerified": "2026-08-26",
+          "lastVerified": "2026-09-26",
           "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
         }
       },
@@ -1711,7 +2471,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
         "type": "igo",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-26",
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
       }
     }
@@ -1742,17 +2502,17 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Malawi?",
-      "answer": "Probably not. In late 2024 Malawi scrapped visas for citizens of some 79 countries — including the US, UK, Canada, Australia and all EU member states — on top of the existing SADC exemptions. Visa-free visitors are normally admitted for 30 days at a time. Nationalities still requiring a visa apply online at evisa.gov.mw."
+      "answer": "Most visitors do. About 40 nationalities — including South Africa, Zambia, Kenya, Ghana and Singapore — enter visa-free. Citizens of the US, UK, Canada, Australia, the EU and most other countries can buy a visa on arrival (USD 50 single entry) or apply in advance at evisa.gov.mw, while Category One countries such as India, China and Nigeria must get a visa before departure."
     },
     {
       "id": "how-long-stay",
       "question": "How long can I stay in Malawi and can I extend?",
-      "answer": "Visa-free entry and single-entry eVisas are normally granted for 30 days. You can extend at regional immigration offices in Lilongwe, Blantyre or Mzuzu, typically up to a total of 90 days for tourism."
+      "answer": "Single-entry visas are normally granted for 30 days. You can extend at regional immigration offices in Lilongwe, Blantyre or Mzuzu, typically up to a total of 90 days for tourism."
     },
     {
       "id": "visa-on-arrival",
       "question": "Can I still get a Malawi visa on arrival?",
-      "answer": "Since the eVisa system launched, travelers who need a visa are expected to apply online before boarding — don't count on a visa being issued at the border. Apply at evisa.gov.mw at least a week ahead."
+      "answer": "Yes, for nationals of the Category Two countries, which include the US, UK, Canada, Australia and the EU: a public notice effective 24 February 2026 makes them eligible at all designated ports of entry, and tells airlines to board them without a visa. Bring US dollars in cash. Category One nationals must still obtain a visa before departure, and the government encourages everyone to apply in advance at evisa.gov.mw."
     },
     {
       "id": "yellow-fever",

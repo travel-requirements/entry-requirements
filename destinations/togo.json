@@ -17,19 +17,18 @@
     "senegal",
     "burkina-faso"
   ],
-  "summary": "Togo waives visas for fellow ECOWAS citizens under the bloc's free-movement protocol, while all other nationalities need a visa — either the official eVisa applied for on voyage.gouv.tg before travel, or a short 7-day visa issued on arrival at Lomé airport that can be extended in-country.",
+  "summary": "Togo waives visas for ECOWAS citizens and, for stays of up to 30 days, for all other African nationals, while everyone else needs an eVisa applied for on voyage.gouv.tg at least six working days before travel — visas on arrival are suspended. Every traveller also completes the portal's online immigration form before arrival.",
   "meta": {
-    "lastUpdated": "2026-08-29",
-    "lastFullReview": "2026-08-26",
+    "lastUpdated": "2026-09-26",
+    "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
       {
         "url": "https://voyage.gouv.tg/",
         "name": "Togo Voyage — official eVisa and entry portal",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260729074057/https://voyage.gouv.tg/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     ],
     "modules": [
@@ -38,175 +37,164 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://voyage.gouv.tg/",
-      "name": "Togo Voyage — official eVisa and entry portal",
+      "url": "https://voyage.gouv.tg/about",
+      "name": "Togo Voyage — À propos du e-Visa (visa types, prices, documents, exempt countries)",
       "type": "government",
-      "lastVerified": "2026-08-26",
-      "archiveUrl": "https://web.archive.org/web/20260729074057/https://voyage.gouv.tg/",
-      "portalOnly": true
+      "lastVerified": "2026-09-26",
+      "lastChanged": "2026-09-26"
     },
     "byPassport": {
       "AF": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "AL": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "DZ": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "AD": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "AO": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "AG": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "AR": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "AM": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "AU": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "AT": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "AZ": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "BS": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "BH": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "BD": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "BB": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "BY": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "BE": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "BZ": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "BJ": {
         "requirement": "freedom-of-movement",
@@ -215,66 +203,63 @@
       },
       "BT": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "BO": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "BA": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "BW": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "BR": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "BN": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "BG": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "BF": {
         "requirement": "freedom-of-movement",
@@ -282,13 +267,16 @@
         "notes": "ECOWAS citizens enter Togo without a visa under the community's free-movement protocol — up to 90 days with a passport or ECOWAS travel document."
       },
       "BI": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "CV": {
         "requirement": "freedom-of-movement",
@@ -297,93 +285,99 @@
       },
       "KH": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "CM": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "CA": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "CF": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "TD": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "CL": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "CN": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "CO": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "KM": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "CR": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "CI": {
         "requirement": "freedom-of-movement",
@@ -392,192 +386,203 @@
       },
       "HR": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "CU": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "CY": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "CZ": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "CD": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "DK": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "DJ": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "DM": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "DO": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "EC": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "EG": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "SV": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "GQ": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "ER": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "EE": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "SZ": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "ET": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "FJ": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "FI": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "FR": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "GA": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "GM": {
         "requirement": "freedom-of-movement",
@@ -586,21 +591,19 @@
       },
       "GE": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "DE": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "GH": {
         "requirement": "freedom-of-movement",
@@ -609,30 +612,27 @@
       },
       "GR": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "GD": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "GT": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "GN": {
         "requirement": "freedom-of-movement",
@@ -646,237 +646,219 @@
       },
       "GY": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "HT": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "HN": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "HK": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "HU": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "IS": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "IN": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "ID": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "IR": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "IQ": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "IE": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "IL": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "IT": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "JM": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "JP": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "JO": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "KZ": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "KE": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "KI": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "XK": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "KW": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "KG": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "LA": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "LV": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "LB": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "LS": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "LR": {
         "requirement": "freedom-of-movement",
@@ -884,85 +866,88 @@
         "notes": "ECOWAS citizens enter Togo without a visa under the community's free-movement protocol — up to 90 days with a passport or ECOWAS travel document."
       },
       "LY": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "LI": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "LT": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "LU": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "MO": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "MG": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "MW": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "MY": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "MV": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "ML": {
         "requirement": "freedom-of-movement",
@@ -971,174 +956,175 @@
       },
       "MT": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "MH": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "MR": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "MU": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "MX": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "FM": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "MD": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "MC": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "MN": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "ME": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "MA": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "MZ": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "MM": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "NA": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "NR": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "NP": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "NL": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "NZ": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "NI": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "NE": {
         "requirement": "freedom-of-movement",
@@ -1152,237 +1138,223 @@
       },
       "KP": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "MK": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "NO": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "OM": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "PK": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "PW": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "PS": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "PA": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "PG": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "PY": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "PE": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "PH": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "PL": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "PT": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "QA": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "CG": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "RO": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "RU": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "RW": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "KN": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "LC": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "VC": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "WS": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "SM": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "ST": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "SA": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "SN": {
         "requirement": "freedom-of-movement",
@@ -1391,21 +1363,23 @@
       },
       "RS": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "SC": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "SL": {
         "requirement": "freedom-of-movement",
@@ -1414,183 +1388,183 @@
       },
       "SG": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "SK": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "SI": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "SB": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "SO": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "ZA": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "KR": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "SS": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "ES": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "LK": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "SD": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "SR": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "SE": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "CH": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "SY": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "TW": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "TJ": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "TZ": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "TH": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "TL": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "TG": {
         "requirement": "freedom-of-movement",
@@ -1599,183 +1573,179 @@
       },
       "TO": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "TT": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "TN": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "TR": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "TM": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "TV": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "UG": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "UA": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "AE": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "GB": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "US": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "UY": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "UZ": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "VU": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "VA": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "VE": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "VN": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "YE": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": 90,
         "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
+          "togo-evisa"
         ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
       },
       "ZM": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       },
       "ZW": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "togo-evisa",
-          "togo-voa"
-        ],
-        "notes": "A visa is required. Apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport (about 25,000 CFA francs, cash) and extend it at the immigration service in Lomé if needed."
+        "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
       }
     }
   },
@@ -1784,19 +1754,19 @@
       "id": "togo-evisa",
       "category": "tourist",
       "method": "evisa",
-      "name": "Togo eVisa (short stay)",
+      "name": "Togo eVisa — tourist visa",
       "fee": {
         "amount": 25000,
         "currency": "XOF",
-        "notes": "Approximate. The exact fee is shown during the online application on voyage.gouv.tg."
+        "notes": "For 1–15 days, single entry. Multiple-entry tourist visas cost 35,000 (1–15 days), 45,000 (16–30 days) and 65,000 CFA francs (31–90 days). Paid online by Visa or Mastercard card or by mobile money; cash is not accepted."
       },
       "processing": {
         "minDays": 1,
-        "maxDays": 3,
+        "maxDays": 5,
         "unit": "business-days"
       },
       "validityDays": 90,
-      "stayDays": 30,
+      "stayDays": 15,
       "entries": "single",
       "extendable": {
         "possible": true,
@@ -1804,58 +1774,24 @@
       },
       "applyUrl": "https://voyage.gouv.tg/",
       "source": {
-        "url": "https://voyage.gouv.tg/",
-        "name": "Togo Voyage — official eVisa and entry portal",
+        "url": "https://voyage.gouv.tg/about",
+        "name": "Togo Voyage — À propos du e-Visa (visa types, prices, documents, exempt countries)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260729074057/https://voyage.gouv.tg/",
-        "portalOnly": true
-      }
-    },
-    {
-      "id": "togo-voa",
-      "category": "tourist",
-      "method": "visa-on-arrival",
-      "name": "7-day visa on arrival",
-      "fee": {
-        "amount": 25000,
-        "currency": "XOF",
-        "notes": "Payable in CFA francs at the border. Bring cash; the exact amount can vary, so confirm before travel."
-      },
-      "processing": {
-        "minDays": 15,
-        "maxDays": 60,
-        "unit": "minutes"
-      },
-      "validityDays": null,
-      "stayDays": 7,
-      "entries": "single",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
-      "applyUrl": null,
-      "source": {
-        "url": "https://voyage.gouv.tg/",
-        "name": "Togo Voyage — official eVisa and entry portal",
-        "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260729074057/https://voyage.gouv.tg/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
-      "text": "Your passport should be valid for at least 6 months on arrival in Togo and have at least one blank page for the visa and entry stamps.",
+      "rule": "3-months-beyond-departure",
+      "text": "Your passport must be valid for at least 3 months after the date you plan to leave Togo (for visa applicants, 3 months beyond the visa requested).",
       "source": {
-        "url": "https://voyage.gouv.tg/",
-        "name": "Togo Voyage — official eVisa and entry portal",
+        "url": "https://www.gov.uk/foreign-travel-advice/togo/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Togo entry requirements",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260729074057/https://voyage.gouv.tg/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     },
     "blankPages": {
@@ -1877,12 +1813,10 @@
         "requiredWhen": "always",
         "text": "Togo requires proof of yellow fever vaccination from all arriving travelers. The yellow card is routinely checked at the airport alongside your passport and visa.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal",
+          "url": "https://www.gov.uk/foreign-travel-advice/togo/entry-requirements",
+          "name": "UK Foreign, Commonwealth & Development Office — Togo entry requirements",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260729074057/https://voyage.gouv.tg/",
-          "portalOnly": true
+          "lastVerified": "2026-09-26"
         }
       }
     ],
@@ -1892,25 +1826,22 @@
       "minCoverage": null,
       "text": "Travel insurance is not a formal entry requirement, but medical facilities are limited outside Lomé — comprehensive coverage including medical evacuation is strongly recommended.",
       "source": {
-        "url": "https://voyage.gouv.tg/",
-        "name": "Togo Voyage — official eVisa and entry portal",
+        "url": "https://voyage.gouv.tg/about",
+        "name": "Togo Voyage — À propos du e-Visa (visa types, prices, documents, exempt countries)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260729074057/https://voyage.gouv.tg/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26"
       }
     },
     "onwardTicket": {
       "required": true,
-      "appliesTo": "all",
-      "text": "The eVisa application asks for your travel details, and airlines commonly check an onward or return ticket before boarding flights to Lomé.",
+      "appliesTo": "visa-applicants",
+      "text": "Visa applicants arriving by air must upload a flight booking or a copy of their ticket with the eVisa application.",
       "source": {
-        "url": "https://voyage.gouv.tg/",
-        "name": "Togo Voyage — official eVisa and entry portal",
+        "url": "https://voyage.gouv.tg/about",
+        "name": "Togo Voyage — À propos du e-Visa (visa types, prices, documents, exempt countries)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260729074057/https://voyage.gouv.tg/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     },
     "proofOfFunds": {
@@ -1919,15 +1850,31 @@
       "amount": null,
       "text": "No fixed amount is published; border officers may ask visitors to show sufficient means and details of accommodation for their stay.",
       "source": {
-        "url": "https://voyage.gouv.tg/",
-        "name": "Togo Voyage — official eVisa and entry portal",
+        "url": "https://voyage.gouv.tg/about",
+        "name": "Togo Voyage — À propos du e-Visa (visa types, prices, documents, exempt countries)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260729074057/https://voyage.gouv.tg/",
-        "portalOnly": true
+        "lastVerified": "2026-09-26"
       }
     },
-    "declarations": [],
+    "declarations": [
+      {
+        "id": "immigration-form",
+        "name": "Togo Voyage online immigration form",
+        "mandatory": true,
+        "fee": null,
+        "submitAt": "before-travel",
+        "submitWindow": "Before arrival and before departure; African visa-exempt travellers at least 24 hours before arrival",
+        "url": "https://voyage.gouv.tg/",
+        "text": "Every traveller, including visa-exempt ECOWAS and African citizens, completes the online immigration form on the official Togo Voyage portal before arriving at the border, and again before leaving.",
+        "source": {
+          "url": "https://voyage.gouv.tg/",
+          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "type": "government",
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
+        }
+      }
+    ],
     "customs": {
       "notes": [
         "Large amounts of cash should be declared on arrival. Confirm current thresholds with Togolese customs before carrying significant sums."
@@ -1952,7 +1899,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/togo",
         "name": "UK Foreign, Commonwealth & Development Office — Togo travel advice",
         "type": "government",
-        "lastVerified": "2026-08-29",
+        "lastVerified": "2026-09-26",
         "archiveUrl": "https://web.archive.org/web/20260605091645/https://www.gov.uk/foreign-travel-advice/togo"
       }
     },
@@ -1995,7 +1942,7 @@
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
           "type": "igo",
-          "lastVerified": "2026-08-26",
+          "lastVerified": "2026-09-26",
           "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
         }
       },
@@ -2010,7 +1957,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
         "type": "igo",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-26",
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
       }
     }
@@ -2041,12 +1988,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Togo?",
-      "answer": "Citizens of ECOWAS countries (Benin, Ghana, Nigeria, Senegal and the rest of the bloc) enter visa-free. Everyone else needs a visa: apply for the official eVisa on voyage.gouv.tg before travel, or obtain a 7-day visa on arrival at Lomé airport and extend it in-country if needed."
-    },
-    {
-      "id": "voa-how",
-      "question": "How does Togo's visa on arrival work?",
-      "answer": "A short-stay visa valid for 7 days is issued at Lomé–Tokoin airport for about 25,000 CFA francs, payable in cash. It can be extended at the immigration service in Lomé, but arriving with an eVisa already approved is the smoother option, especially at land borders."
+      "answer": "Citizens of ECOWAS countries enter visa-free, and all other African nationals may stay up to 30 days without a visa. Everyone else needs the official eVisa from voyage.gouv.tg, applied for at least 6 working days before arrival: visas on arrival are suspended. All travellers must complete the online immigration form before arrival."
     },
     {
       "id": "yellow-fever-required",
@@ -2061,7 +2003,7 @@
     {
       "id": "land-borders",
       "question": "Can I enter Togo overland from Ghana or Benin?",
-      "answer": "Yes. The coastal crossings at Aflao (Ghana) and Hillacondji (Benin) are busy and straightforward for ECOWAS citizens. Other nationalities should ideally arrive with an approved eVisa, as visa issuance at land borders is less predictable than at the airport."
+      "answer": "Yes. The coastal crossings at Aflao (Ghana) and Hillacondji (Benin) are busy and straightforward for ECOWAS citizens. Other nationalities who need a visa must arrive with an approved eVisa, since visas on arrival are suspended."
     }
   ]
 }

@@ -16,8 +16,8 @@
   ],
   "summary": "Trinidad and Tobago lets citizens of the EU, UK, US, Canada and most Commonwealth and Latin American countries enter visa-free for up to 90 days at the immigration officer's discretion, admits CARICOM nationals under Caribbean free movement for six months, and requires everyone else to obtain a visa from a Trinidad and Tobago mission before traveling.",
   "meta": {
-    "lastUpdated": "2026-08-29",
-    "lastFullReview": "2026-08-26",
+    "lastUpdated": "2026-09-26",
+    "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
       {
@@ -1301,6 +1301,29 @@
   },
   "visaTypes": [
     {
+      "id": "evisa",
+      "category": "tourist",
+      "method": "evisa",
+      "name": "eVisa (multiple entry)",
+      "fee": {
+        "amount": 800,
+        "currency": "TTD",
+        "notes": "Application fee, non-refundable; paid online by Visa or Mastercard."
+      },
+      "processing": null,
+      "validityDays": null,
+      "stayDays": null,
+      "entries": "multiple",
+      "applyUrl": "https://homelandsecurity.gov.tt/divisions/immigrationdivision/evisa-online/",
+      "source": {
+        "url": "https://homelandsecurity.gov.tt/divisions/immigrationdivision/evisa-online/",
+        "name": "Visa Online Services – Ministry of Homeland Security",
+        "type": "government",
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
+      }
+    },
+    {
       "id": "visitor-visa",
       "category": "tourist",
       "method": "embassy",
@@ -1433,7 +1456,7 @@
         "url": "https://homelandsecurity.gov.tt/divisions/immigrationdivision/evisa-online/",
         "name": "Visa Online Services – Ministry of Homeland Security",
         "type": "government",
-        "lastVerified": "2026-08-29",
+        "lastVerified": "2026-09-26",
         "archiveUrl": "https://web.archive.org/web/20260829113506/https://homelandsecurity.gov.tt/divisions/immigrationdivision/evisa-online/"
       }
     },
@@ -1509,20 +1532,19 @@
     "declarations": [
       {
         "id": "immigration-card",
-        "name": "Immigration Form and Customs Declaration",
+        "name": "Online Arrival/Departure Card",
         "mandatory": true,
         "fee": null,
-        "submitAt": "on-arrival",
-        "submitWindow": "On arrival",
-        "url": null,
-        "text": "Every arriving passenger completes the paper immigration form (the ED card) and a customs declaration, handed out on board. The form asks for your address in Trinidad or Tobago and your departure date. The officer uses them to set the length of stay stamped in your passport.",
+        "submitAt": "before-travel",
+        "submitWindow": "Within 72 hours before arrival",
+        "url": "https://travel.gov.tt/en",
+        "text": "All passengers must complete the online Arrival/Departure Card at travel.gov.tt, which opens 72 hours before arrival or departure. Save the receipt with its QR code, printed or on your phone, and show it to officials. You need a valid email address, your flight details, your passport and a JPEG or PNG copy of its bio-data page.",
         "source": {
-          "url": "https://homelandsecurity.gov.tt/divisions/immigrationdivision/",
-          "name": "Trinidad and Tobago — Immigration Division, Ministry of Homeland Security",
+          "url": "https://travel.gov.tt/en",
+          "name": "Trinidad and Tobago — Online Arrival/Departure Platform (Immigration Division)",
           "type": "government",
-          "lastVerified": "2026-08-29",
-          "archiveUrl": "https://web.archive.org/web/20260829113450/https://homelandsecurity.gov.tt/divisions/immigrationdivision/",
-          "portalOnly": true
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
         }
       }
     ],
@@ -1563,7 +1585,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/trinidad-and-tobago",
         "name": "UK Foreign, Commonwealth & Development Office — Trinidad and Tobago travel advice",
         "type": "government",
-        "lastVerified": "2026-08-29",
+        "lastVerified": "2026-09-26",
         "archiveUrl": "https://web.archive.org/web/20260711210625/https://www.gov.uk/foreign-travel-advice/trinidad-and-tobago"
       }
     },
@@ -1607,7 +1629,7 @@
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
           "type": "igo",
-          "lastVerified": "2026-08-26",
+          "lastVerified": "2026-09-26",
           "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
         }
       },
@@ -1622,7 +1644,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
         "type": "igo",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-26",
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
       }
     }

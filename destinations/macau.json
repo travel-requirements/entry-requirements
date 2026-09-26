@@ -14,12 +14,19 @@
     "singapore",
     "taiwan"
   ],
-  "summary": "Macao runs its own liberal entry regime, separate from mainland China: EU, UK and many other passports get 90 visa-free days, dozens of nationalities get 30, and most of the rest can simply buy a visa on arrival at the border — only a handful of passports must apply in advance.",
+  "summary": "Macao runs its own liberal entry regime, separate from mainland China: EU and many other passports get 90 visa-free days (British citizens six months), dozens of nationalities get 30, and most of the rest can simply buy a visa on arrival at the border — only a handful of passports must apply in advance.",
   "meta": {
-    "lastUpdated": "2026-08-29",
-    "lastFullReview": "2026-08-26",
+    "lastUpdated": "2026-09-26",
+    "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
+      {
+        "url": "https://www.gov.mo/en/services/ps-1474/ps-1474b/",
+        "name": "Macao SAR Government Portal — Immigration Clearance of Non-residents of Macao (Public Security Police Force)",
+        "type": "government",
+        "lastVerified": "2026-09-26",
+        "instrument": "Law No. 16/2021; Administrative Regulation No. 38/2021"
+      },
       {
         "url": "https://www.fsm.gov.mo/psp/",
         "name": "Macao Public Security Police Force — Immigration Department",
@@ -27,7 +34,7 @@
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260731050655/https://www.fsm.gov.mo/psp/",
         "unverifiable": {
-          "lastAttempt": "2026-09-01",
+          "lastAttempt": "2026-09-26",
           "reason": "client-rendered",
           "status": 200
         }
@@ -36,33 +43,26 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://www.fsm.gov.mo/psp/",
-      "name": "Macao Public Security Police Force — Immigration Department",
+      "url": "https://www.gov.mo/en/services/ps-1474/ps-1474b/",
+      "name": "Macao SAR Government Portal — Immigration Clearance of Non-residents of Macao (Public Security Police Force)",
       "type": "government",
-      "lastVerified": "2026-08-26",
-      "archiveUrl": "https://web.archive.org/web/20260731050655/https://www.fsm.gov.mo/psp/",
-      "unverifiable": {
-        "lastAttempt": "2026-09-01",
-        "reason": "client-rendered",
-        "status": 200
-      }
+      "lastVerified": "2026-09-26",
+      "lastChanged": "2026-09-26",
+      "instrument": "Law No. 16/2021; Administrative Regulation No. 38/2021"
     },
     "byPassport": {
       "AF": {
-        "requirement": "embassy-visa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "advance-entry-visa"
-        ],
-        "notes": "Not eligible for a visa on arrival. Apply for a Macao entry visa in advance through a Chinese embassy or consulate."
-      },
-      "AL": {
         "requirement": "visa-on-arrival",
         "maxStayDays": 30,
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+      },
+      "AL": {
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days."
       },
       "DZ": {
         "requirement": "visa-on-arrival",
@@ -70,7 +70,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "AD": {
         "requirement": "visa-free",
@@ -88,7 +88,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "AR": {
         "requirement": "visa-free",
@@ -96,12 +96,9 @@
         "notes": "Visa-free for up to 30 days. Confirm your exact allowance on the Public Security Police visa list before a long stay."
       },
       "AM": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "visa-on-arrival"
-        ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days."
       },
       "AU": {
         "requirement": "visa-free",
@@ -119,7 +116,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "BS": {
         "requirement": "visa-on-arrival",
@@ -127,7 +124,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "BH": {
         "requirement": "visa-free",
@@ -148,15 +145,12 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "BY": {
-        "requirement": "visa-on-arrival",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "visa-on-arrival"
-        ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Visa-free for up to 30 days. Confirm your exact allowance on the Public Security Police visa list before a long stay."
       },
       "BE": {
         "requirement": "visa-free",
@@ -169,7 +163,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "BJ": {
         "requirement": "visa-on-arrival",
@@ -177,7 +171,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "BT": {
         "requirement": "visa-on-arrival",
@@ -185,7 +179,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "BO": {
         "requirement": "visa-on-arrival",
@@ -193,15 +187,12 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "BA": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "visa-on-arrival"
-        ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days."
       },
       "BW": {
         "requirement": "visa-on-arrival",
@@ -209,7 +200,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "BR": {
         "requirement": "visa-free",
@@ -217,12 +208,9 @@
         "notes": "Visa-free for up to 90 days."
       },
       "BN": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "visa-on-arrival"
-        ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "requirement": "visa-free",
+        "maxStayDays": 14,
+        "notes": "Visa-free for up to 14 days."
       },
       "BG": {
         "requirement": "visa-free",
@@ -235,7 +223,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "BI": {
         "requirement": "visa-on-arrival",
@@ -243,7 +231,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "CV": {
         "requirement": "visa-free",
@@ -256,7 +244,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "CM": {
         "requirement": "visa-on-arrival",
@@ -264,7 +252,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "CA": {
         "requirement": "visa-free",
@@ -277,7 +265,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "TD": {
         "requirement": "visa-on-arrival",
@@ -285,7 +273,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "CL": {
         "requirement": "visa-free",
@@ -303,7 +291,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "KM": {
         "requirement": "visa-on-arrival",
@@ -311,7 +299,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "CR": {
         "requirement": "visa-on-arrival",
@@ -319,7 +307,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "CI": {
         "requirement": "visa-on-arrival",
@@ -327,7 +315,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "HR": {
         "requirement": "visa-free",
@@ -340,7 +328,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "CY": {
         "requirement": "visa-free",
@@ -358,7 +346,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "DK": {
         "requirement": "visa-free",
@@ -371,15 +359,12 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "DM": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "visa-on-arrival"
-        ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days."
       },
       "DO": {
         "requirement": "visa-on-arrival",
@@ -387,20 +372,17 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "EC": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "visa-on-arrival"
-        ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
-      },
-      "EG": {
         "requirement": "visa-free",
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days. Confirm your exact allowance on the Public Security Police visa list before a long stay."
+      },
+      "EG": {
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days."
       },
       "SV": {
         "requirement": "visa-on-arrival",
@@ -408,7 +390,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "GQ": {
         "requirement": "visa-on-arrival",
@@ -416,7 +398,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "ER": {
         "requirement": "visa-on-arrival",
@@ -424,7 +406,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "EE": {
         "requirement": "visa-free",
@@ -437,7 +419,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "ET": {
         "requirement": "visa-on-arrival",
@@ -445,15 +427,12 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "FJ": {
-        "requirement": "visa-on-arrival",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "visa-on-arrival"
-        ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Visa-free for up to 30 days. Confirm your exact allowance on the Public Security Police visa list before a long stay."
       },
       "FI": {
         "requirement": "visa-free",
@@ -471,7 +450,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "GM": {
         "requirement": "visa-on-arrival",
@@ -479,7 +458,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "GE": {
         "requirement": "visa-on-arrival",
@@ -487,7 +466,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "DE": {
         "requirement": "visa-free",
@@ -500,7 +479,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "GR": {
         "requirement": "visa-free",
@@ -508,12 +487,9 @@
         "notes": "Visa-free for up to 90 days."
       },
       "GD": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "visa-on-arrival"
-        ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days."
       },
       "GT": {
         "requirement": "visa-on-arrival",
@@ -521,7 +497,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "GN": {
         "requirement": "visa-on-arrival",
@@ -529,7 +505,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "GW": {
         "requirement": "visa-free",
@@ -542,7 +518,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "HT": {
         "requirement": "visa-on-arrival",
@@ -550,7 +526,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "HN": {
         "requirement": "visa-on-arrival",
@@ -558,7 +534,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "HK": {
         "requirement": "visa-free",
@@ -591,7 +567,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "IQ": {
         "requirement": "visa-on-arrival",
@@ -599,7 +575,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "IE": {
         "requirement": "visa-free",
@@ -622,7 +598,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "JP": {
         "requirement": "visa-free",
@@ -635,12 +611,12 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "KZ": {
         "requirement": "visa-free",
-        "maxStayDays": 30,
-        "notes": "Visa-free for up to 30 days. Confirm your exact allowance on the Public Security Police visa list before a long stay."
+        "maxStayDays": 14,
+        "notes": "Visa-free for up to 14 days."
       },
       "KE": {
         "requirement": "visa-on-arrival",
@@ -648,15 +624,12 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "KI": {
-        "requirement": "visa-on-arrival",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "visa-on-arrival"
-        ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Visa-free for up to 30 days. Confirm your exact allowance on the Public Security Police visa list before a long stay."
       },
       "XK": {
         "requirement": "embassy-visa",
@@ -677,7 +650,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "LA": {
         "requirement": "visa-on-arrival",
@@ -685,7 +658,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "LV": {
         "requirement": "visa-free",
@@ -693,12 +666,9 @@
         "notes": "Visa-free for up to 90 days."
       },
       "LB": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "visa-on-arrival"
-        ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 3 months."
       },
       "LS": {
         "requirement": "visa-on-arrival",
@@ -706,7 +676,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "LR": {
         "requirement": "visa-on-arrival",
@@ -714,7 +684,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "LY": {
         "requirement": "visa-on-arrival",
@@ -722,7 +692,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "LI": {
         "requirement": "visa-free",
@@ -750,7 +720,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "MW": {
         "requirement": "visa-on-arrival",
@@ -758,7 +728,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "MY": {
         "requirement": "visa-free",
@@ -771,15 +741,12 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "ML": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "visa-on-arrival"
-        ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days."
       },
       "MT": {
         "requirement": "visa-free",
@@ -792,7 +759,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "MR": {
         "requirement": "visa-on-arrival",
@@ -800,20 +767,17 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "MU": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "visa-on-arrival"
-        ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days."
       },
       "MX": {
         "requirement": "visa-free",
-        "maxStayDays": 30,
-        "notes": "Visa-free for up to 30 days. Confirm your exact allowance on the Public Security Police visa list before a long stay."
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days."
       },
       "FM": {
         "requirement": "visa-on-arrival",
@@ -821,15 +785,12 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "MD": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "visa-on-arrival"
-        ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days."
       },
       "MC": {
         "requirement": "visa-free",
@@ -837,28 +798,19 @@
         "notes": "Visa-free for up to 90 days."
       },
       "MN": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "visa-on-arrival"
-        ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days."
       },
       "ME": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "visa-on-arrival"
-        ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days."
       },
       "MA": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "visa-on-arrival"
-        ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days."
       },
       "MZ": {
         "requirement": "visa-free",
@@ -871,15 +823,12 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "NA": {
-        "requirement": "visa-on-arrival",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "visa-on-arrival"
-        ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Visa-free for up to 30 days. Confirm your exact allowance on the Public Security Police visa list before a long stay."
       },
       "NR": {
         "requirement": "visa-on-arrival",
@@ -887,7 +836,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "NP": {
         "requirement": "embassy-visa",
@@ -904,8 +853,8 @@
       },
       "NZ": {
         "requirement": "visa-free",
-        "maxStayDays": 30,
-        "notes": "Visa-free for up to 30 days. Confirm your exact allowance on the Public Security Police visa list before a long stay."
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 3 months."
       },
       "NI": {
         "requirement": "visa-on-arrival",
@@ -913,7 +862,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "NE": {
         "requirement": "visa-on-arrival",
@@ -921,7 +870,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "NG": {
         "requirement": "embassy-visa",
@@ -937,15 +886,12 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "MK": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "visa-on-arrival"
-        ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days."
       },
       "NO": {
         "requirement": "visa-free",
@@ -971,7 +917,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "PS": {
         "requirement": "visa-on-arrival",
@@ -979,7 +925,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "PA": {
         "requirement": "visa-on-arrival",
@@ -987,7 +933,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "PG": {
         "requirement": "visa-on-arrival",
@@ -995,7 +941,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "PY": {
         "requirement": "visa-on-arrival",
@@ -1003,7 +949,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "PE": {
         "requirement": "visa-on-arrival",
@@ -1011,7 +957,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "PH": {
         "requirement": "visa-free",
@@ -1039,7 +985,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "RO": {
         "requirement": "visa-free",
@@ -1057,7 +1003,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "KN": {
         "requirement": "visa-on-arrival",
@@ -1065,7 +1011,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "LC": {
         "requirement": "visa-on-arrival",
@@ -1073,7 +1019,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "VC": {
         "requirement": "visa-on-arrival",
@@ -1081,20 +1027,17 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "WS": {
-        "requirement": "visa-on-arrival",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "visa-on-arrival"
-        ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Visa-free for up to 30 days. Confirm your exact allowance on the Public Security Police visa list before a long stay."
       },
       "SM": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free for up to 90 days."
+        "maxStayDays": 30,
+        "notes": "Visa-free for up to 30 days. Confirm your exact allowance on the Public Security Police visa list before a long stay."
       },
       "ST": {
         "requirement": "visa-free",
@@ -1112,23 +1055,17 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "RS": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "visa-on-arrival"
-        ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days."
       },
       "SC": {
-        "requirement": "visa-on-arrival",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "visa-on-arrival"
-        ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Visa-free for up to 30 days. Confirm your exact allowance on the Public Security Police visa list before a long stay."
       },
       "SL": {
         "requirement": "visa-on-arrival",
@@ -1136,7 +1073,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "SG": {
         "requirement": "visa-free",
@@ -1159,7 +1096,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "SO": {
         "requirement": "visa-on-arrival",
@@ -1167,7 +1104,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "ZA": {
         "requirement": "visa-free",
@@ -1185,7 +1122,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "ES": {
         "requirement": "visa-free",
@@ -1206,7 +1143,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "SR": {
         "requirement": "visa-on-arrival",
@@ -1214,7 +1151,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "SE": {
         "requirement": "visa-free",
@@ -1232,7 +1169,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "TW": {
         "requirement": "visa-free",
@@ -1245,15 +1182,12 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "TZ": {
-        "requirement": "visa-on-arrival",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "visa-on-arrival"
-        ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days."
       },
       "TH": {
         "requirement": "visa-free",
@@ -1271,7 +1205,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "TO": {
         "requirement": "visa-on-arrival",
@@ -1279,7 +1213,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "TT": {
         "requirement": "visa-on-arrival",
@@ -1287,7 +1221,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "TN": {
         "requirement": "visa-on-arrival",
@@ -1295,7 +1229,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "TR": {
         "requirement": "visa-free",
@@ -1308,7 +1242,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "TV": {
         "requirement": "visa-on-arrival",
@@ -1316,7 +1250,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "UG": {
         "requirement": "visa-on-arrival",
@@ -1324,7 +1258,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "UA": {
         "requirement": "visa-free",
@@ -1338,8 +1272,8 @@
       },
       "GB": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free for up to 90 days."
+        "maxStayDays": 180,
+        "notes": "Visa-free for up to 6 months for British citizens holding a British passport."
       },
       "US": {
         "requirement": "visa-free",
@@ -1348,8 +1282,8 @@
       },
       "UY": {
         "requirement": "visa-free",
-        "maxStayDays": 30,
-        "notes": "Visa-free for up to 30 days. Confirm your exact allowance on the Public Security Police visa list before a long stay."
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days."
       },
       "UZ": {
         "requirement": "visa-on-arrival",
@@ -1357,7 +1291,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "VU": {
         "requirement": "visa-on-arrival",
@@ -1365,7 +1299,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "VA": {
         "requirement": "visa-on-arrival",
@@ -1373,7 +1307,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "VE": {
         "requirement": "visa-on-arrival",
@@ -1381,7 +1315,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "VN": {
         "requirement": "embassy-visa",
@@ -1397,7 +1331,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "ZM": {
         "requirement": "visa-on-arrival",
@@ -1405,7 +1339,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       },
       "ZW": {
         "requirement": "visa-on-arrival",
@@ -1413,7 +1347,7 @@
         "visaTypes": [
           "visa-on-arrival"
         ],
-        "notes": "Eligible for a visa on arrival (MOP 100, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
+        "notes": "Eligible for a visa on arrival (MOP 200, 30 days) at Macao's border checkpoints. Check the Public Security Police list before travel, as several nationalities are visa-exempt instead."
       }
     }
   },
@@ -1424,9 +1358,9 @@
       "method": "visa-on-arrival",
       "name": "Visa on Arrival",
       "fee": {
-        "amount": 100,
+        "amount": 200,
         "currency": "MOP",
-        "notes": "MOP 100 for adults, MOP 50 for children under 12 — payable at the border checkpoint; family and group rates differ."
+        "notes": "MOP 200 single entry or MOP 300 multiple entries within the 30-day stay; children under 12 and members of groups of 10 or more MOP 100 (MOP 150 multiple); family passports MOP 400 (MOP 600 multiple). Payable at the border checkpoint."
       },
       "processing": {
         "minDays": 15,
@@ -1438,16 +1372,12 @@
       "entries": "single",
       "applyUrl": null,
       "source": {
-        "url": "https://www.fsm.gov.mo/psp/",
-        "name": "Macao Public Security Police Force — Immigration Department",
+        "url": "https://www.gov.mo/en/services/ps-1474/ps-1474b/",
+        "name": "Macao SAR Government Portal — Immigration Clearance of Non-residents of Macao (Public Security Police Force)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260731050655/https://www.fsm.gov.mo/psp/",
-        "unverifiable": {
-          "lastAttempt": "2026-09-01",
-          "reason": "client-rendered",
-          "status": 200
-        }
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26",
+        "instrument": "Law No. 16/2021; Administrative Regulation No. 38/2021"
       }
     },
     {
@@ -1456,48 +1386,40 @@
       "method": "embassy",
       "name": "Advance Entry Visa (via Chinese diplomatic missions)",
       "fee": {
-        "amount": 100,
-        "currency": "MOP",
-        "notes": "Indicative. Fees and requirements vary by mission; required only for the small set of nationalities excluded from visas on arrival."
+        "amount": 30,
+        "currency": "USD",
+        "notes": "USD 30 per application plus USD 15 per accompanying child; a USD 20 communication fee is added when the mission relays the application to the Public Security Police Force. Collected by the Chinese diplomatic mission, whose charges prevail."
       },
       "processing": {
-        "minDays": 5,
-        "maxDays": 15,
+        "minDays": 4,
+        "maxDays": 7,
         "unit": "business-days"
       },
-      "validityDays": null,
-      "stayDays": 30,
+      "validityDays": 90,
+      "stayDays": 14,
       "entries": "single",
       "applyUrl": null,
       "source": {
-        "url": "https://www.fsm.gov.mo/psp/",
-        "name": "Macao Public Security Police Force — Immigration Department",
+        "url": "https://www.fsm.gov.mo/psp/eng/psp_top5_3m.html",
+        "name": "Macao Public Security Police Force — Application for Macao Visa through Diplomatic Missions of China",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260731050655/https://www.fsm.gov.mo/psp/",
-        "unverifiable": {
-          "lastAttempt": "2026-09-01",
-          "reason": "client-rendered",
-          "status": 200
-        }
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26",
+        "instrument": "Chief Executive's Written Instruction No. 165/2010"
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
       "rule": "other",
-      "text": "Your passport should generally be valid for at least 90 days from the date of entry — travelers with less validity can be admitted for shorter periods, but airlines may refuse boarding.",
+      "text": "Your passport must be valid for at least 90 days beyond your intended stay in Macao.",
       "source": {
-        "url": "https://www.fsm.gov.mo/psp/",
-        "name": "Macao Public Security Police Force — Immigration Department",
+        "url": "https://www.gov.mo/en/services/ps-1474/ps-1474b/",
+        "name": "Macao SAR Government Portal — Immigration Clearance of Non-residents of Macao (Public Security Police Force)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260731050655/https://www.fsm.gov.mo/psp/",
-        "unverifiable": {
-          "lastAttempt": "2026-09-01",
-          "reason": "client-rendered",
-          "status": 200
-        }
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26",
+        "instrument": "Law No. 16/2021; Administrative Regulation No. 38/2021"
       }
     },
     "vaccinations": [],
@@ -1513,45 +1435,37 @@
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260731050655/https://www.fsm.gov.mo/psp/",
         "unverifiable": {
-          "lastAttempt": "2026-09-01",
+          "lastAttempt": "2026-09-26",
           "reason": "client-rendered",
           "status": 200
         }
       }
     },
     "onwardTicket": {
-      "required": false,
-      "appliesTo": null,
-      "text": "Not formally required, but immigration officers may ask visitors about onward travel and accommodation, particularly on longer stays.",
+      "required": true,
+      "appliesTo": "all",
+      "text": "Visitors must hold a valid onward or return ticket, unless they can prove they live in mainland China or Hong Kong.",
       "source": {
-        "url": "https://www.fsm.gov.mo/psp/",
-        "name": "Macao Public Security Police Force — Immigration Department",
+        "url": "https://www.gov.mo/en/services/ps-1474/ps-1474b/",
+        "name": "Macao SAR Government Portal — Immigration Clearance of Non-residents of Macao (Public Security Police Force)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260731050655/https://www.fsm.gov.mo/psp/",
-        "unverifiable": {
-          "lastAttempt": "2026-09-01",
-          "reason": "client-rendered",
-          "status": 200
-        }
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26",
+        "instrument": "Law No. 16/2021; Administrative Regulation No. 38/2021"
       }
     },
     "proofOfFunds": {
-      "required": false,
-      "appliesTo": null,
+      "required": true,
+      "appliesTo": "all",
       "amount": null,
-      "text": "Visitors must in principle have adequate means of support, but tourists are rarely asked to demonstrate it.",
+      "text": "Visitors must be able to show means of subsistence for their stay: at least MOP 5,000 for up to 7 days, MOP 10,000 for up to 14 days, MOP 15,000 for up to 21 days and MOP 20,000 for longer stays.",
       "source": {
-        "url": "https://www.fsm.gov.mo/psp/",
-        "name": "Macao Public Security Police Force — Immigration Department",
+        "url": "https://www.gov.mo/en/services/ps-1474/ps-1474b/",
+        "name": "Macao SAR Government Portal — Immigration Clearance of Non-residents of Macao (Public Security Police Force)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260731050655/https://www.fsm.gov.mo/psp/",
-        "unverifiable": {
-          "lastAttempt": "2026-09-01",
-          "reason": "client-rendered",
-          "status": 200
-        }
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26",
+        "instrument": "Law No. 16/2021; Administrative Regulation No. 38/2021"
       }
     },
     "declarations": [],
@@ -1565,7 +1479,7 @@
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260731050655/https://www.fsm.gov.mo/psp/",
           "unverifiable": {
-            "lastAttempt": "2026-09-01",
+            "lastAttempt": "2026-09-26",
             "reason": "client-rendered",
             "status": 200
           }
@@ -1592,11 +1506,10 @@
       "level": "very-safe",
       "text": "Macao has very low street crime and is comfortable to explore on foot at night. The usual cautions are typhoons in summer and keeping an eye on valuables in casino crowds.",
       "source": {
-        "url": "https://www.gov.uk/foreign-travel-advice/macao",
-        "name": "UK Foreign, Commonwealth & Development Office — Macau travel advice",
+        "url": "https://www.gov.uk/foreign-travel-advice/macao/safety-and-security",
+        "name": "UK Foreign, Commonwealth & Development Office — Macao travel advice: safety and security",
         "type": "government",
-        "lastVerified": "2026-08-29",
-        "archiveUrl": "https://web.archive.org/web/20260727001351/https://www.gov.uk/foreign-travel-advice/macao"
+        "lastVerified": "2026-09-26"
       }
     },
     "plugs": {
@@ -1656,7 +1569,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Macau?",
-      "answer": "Most travelers do not: EU, UK and several dozen other passports enter visa-free for 90 days, and nationalities including the US, Canada, Australia, India and most of ASEAN get 30 days. Most remaining nationalities can buy a visa on arrival (MOP 100) at the border — only a handful, such as Bangladesh, Nepal, Nigeria, Pakistan, Sri Lanka and Vietnam, must obtain a visa in advance through Chinese diplomatic missions."
+      "answer": "Most travelers do not: EU and several dozen other passports enter visa-free for 90 days (British citizens for six months), and nationalities including the US, Canada, Australia, India and most of ASEAN get 30 days. Most remaining nationalities can buy a visa on arrival (MOP 200) at the border — only a handful, such as Bangladesh, Nepal, Nigeria, Pakistan, Sri Lanka and Vietnam, must obtain a visa in advance through Chinese diplomatic missions."
     },
     {
       "id": "china-visa",
@@ -1666,7 +1579,7 @@
     {
       "id": "us-citizens",
       "question": "How long can US citizens stay in Macau?",
-      "answer": "US passport holders enter visa-free for up to 30 days. UK and EU citizens get 90 days under Macao's more generous European arrangements."
+      "answer": "US passport holders enter visa-free for up to 30 days. EU citizens get 90 days, and British citizens up to six months, under Macao's more generous European arrangements."
     },
     {
       "id": "day-trip",
@@ -1676,7 +1589,7 @@
     {
       "id": "voa-how",
       "question": "How does the Macau visa on arrival work?",
-      "answer": "Eligible nationalities simply line up at the visa counter at the airport, ferry terminals or land border, pay MOP 100 (MOP 50 for children) and receive a 30-day single-entry visa on the spot. Nationalities excluded from the scheme must apply in advance through a Chinese embassy or consulate."
+      "answer": "Eligible nationalities simply line up at the visa counter at the airport, ferry terminals or land border, pay MOP 200 (MOP 100 for children under 12) and receive a stay of up to 30 days on the spot; MOP 300 buys multiple entries within that stay. Nationalities excluded from the scheme must apply in advance through a Chinese embassy or consulate."
     }
   ]
 }
