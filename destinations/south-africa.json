@@ -19,9 +19,9 @@
     "morocco",
     "egypt"
   ],
-  "summary": "South Africa admits most Western passports visa-free — 90 days for the US, UK, most of Western Europe, Japan, Brazil and Russia, and 30 days for several others — while nationalities such as China and India need a visa from a South African mission (with an eVisa scheme being rolled out for some). Two fully blank passport pages are strictly required at the border.",
+  "summary": "South Africa admits most Western passports visa-free — 90 days for the US, UK, most of Western Europe, Japan, Brazil and Russia, and 30 days for several others — while nationalities such as China and India need a visa, which they can now also get online through the Electronic Travel Authorisation (ETA) for arrival at four international airports. Two fully blank passport pages are strictly required at the border.",
   "meta": {
-    "lastUpdated": "2026-08-29",
+    "lastUpdated": "2026-09-26",
     "lastFullReview": "2026-08-25",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -198,9 +198,10 @@
         "maxStayDays": null,
         "visaTypes": [
           "embassy-visitor",
-          "tourist-evisa"
+          "tourist-evisa",
+          "eta"
         ],
-        "notes": "Chinese citizens need a visa. South Africa has been rolling out an eVisa scheme covering China among other countries and has trialled simplified group processing. Check the Department of Home Affairs for the current channel; otherwise apply at a South African mission.",
+        "notes": "Chinese citizens need a visa. Since the pilot during South Africa's G20 Presidency, Home Affairs' Electronic Travel Authorisation (eta.dha.gov.za) has been open to travellers from China, India, Indonesia and Mexico: applications are made online, outcomes typically arrive within 24 hours, and it covers arrival at OR Tambo, Cape Town, King Shaka or Lanseria airports only. It is not yet compulsory, and the mission route remains open. An eVisa scheme covering China and simplified group processing have also been trialled.",
         "source": {
           "url": "https://www.dha.gov.za/index.php/immigration-services/types-of-visas",
           "name": "Department of Home Affairs — visa information",
@@ -214,9 +215,10 @@
         "maxStayDays": null,
         "visaTypes": [
           "embassy-visitor",
-          "tourist-evisa"
+          "tourist-evisa",
+          "eta"
         ],
-        "notes": "Indian citizens need a visa. India is among the countries covered by South Africa's eVisa rollout. Check the Department of Home Affairs for the current channel; otherwise apply through a South African mission or its visa contractor.",
+        "notes": "Indian citizens need a visa. Since the pilot during South Africa's G20 Presidency, Home Affairs' Electronic Travel Authorisation (eta.dha.gov.za) has been open to travellers from China, India, Indonesia and Mexico: applications are made online, outcomes typically arrive within 24 hours, and it covers arrival at OR Tambo, Cape Town, King Shaka or Lanseria airports only. It is not yet compulsory, and the mission route remains open. India is also among the countries covered by South Africa's eVisa rollout.",
         "source": {
           "url": "https://www.dha.gov.za/index.php/immigration-services/types-of-visas",
           "name": "Department of Home Affairs — visa information",
@@ -263,9 +265,10 @@
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
-          "embassy-visitor"
+          "embassy-visitor",
+          "eta"
         ],
-        "notes": "Indonesian citizens generally need a visitor's visa from a South African mission. Confirm with the embassy, as exemption lists change.",
+        "notes": "Indonesian citizens need a visitor's visa. Since the pilot during South Africa's G20 Presidency, Home Affairs' Electronic Travel Authorisation (eta.dha.gov.za) has been open to travellers from China, India, Indonesia and Mexico: applications are made online, outcomes typically arrive within 24 hours, and it covers arrival at OR Tambo, Cape Town, King Shaka or Lanseria airports only. It is not yet compulsory, and the mission route remains open.",
         "source": {
           "url": "https://www.dha.gov.za/index.php/immigration-services/types-of-visas",
           "name": "Department of Home Affairs — visa exemptions",
@@ -335,9 +338,10 @@
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
-          "embassy-visitor"
+          "embassy-visitor",
+          "eta"
         ],
-        "notes": "Mexico does not appear on South Africa's published visa-exemption lists, so a visitor's visa from a South African mission is generally required. Confirm with the embassy before booking.",
+        "notes": "Mexico does not appear on South Africa's published visa-exemption lists, so a visa is required. Since the pilot during South Africa's G20 Presidency, Home Affairs' Electronic Travel Authorisation (eta.dha.gov.za) has been open to travellers from China, India, Indonesia and Mexico: applications are made online, outcomes typically arrive within 24 hours, and it covers arrival at OR Tambo, Cape Town, King Shaka or Lanseria airports only. It is not yet compulsory, and the mission route remains open.",
         "source": {
           "url": "https://www.dha.gov.za/index.php/immigration-services/types-of-visas",
           "name": "Department of Home Affairs — visa exemptions",
@@ -1582,6 +1586,32 @@
         "archiveUrl": "https://web.archive.org/web/20260824073727/https://www.dha.gov.za/",
         "portalOnly": true
       }
+    },
+    {
+      "id": "eta",
+      "category": "tourist",
+      "method": "eta",
+      "name": "Electronic Travel Authorisation (ETA) — four international airports",
+      "fee": null,
+      "processing": {
+        "minDays": 0,
+        "maxDays": 1,
+        "unit": "calendar-days"
+      },
+      "validityDays": null,
+      "stayDays": 90,
+      "entries": "multiple",
+      "extendable": {
+        "possible": true,
+        "days": 90
+      },
+      "applyUrl": "https://eta.dha.gov.za/",
+      "source": {
+        "url": "https://www.dha.gov.za/index.php/statements-speeches/2079-address-by-the-minister-of-home-affairs-dr-leon-schreiber-at-the-official-launch-of-south-africa-s-electronic-travel-authorisation",
+        "name": "Department of Home Affairs — Minister's address at the official launch of the Electronic Travel Authorisation (12 August 2026)",
+        "type": "government",
+        "lastVerified": "2026-09-26"
+      }
     }
   ],
   "entryRequirements": {
@@ -1808,7 +1838,7 @@
     {
       "id": "cn-in-visa",
       "question": "Do Chinese and Indian citizens need a visa for South Africa?",
-      "answer": "Yes. Both need a visitor's visa, traditionally issued through South African missions and their visa contractors. South Africa has been rolling out an eVisa for selected nationalities including China and India. Check the Department of Home Affairs website (dha.gov.za) for whether the online channel is currently open for your country."
+      "answer": "Yes. Both need a visa. Since South Africa's G20 Presidency, travellers from China, India, Indonesia and Mexico can apply online for an Electronic Travel Authorisation at eta.dha.gov.za, officially launched on 12 August 2026; outcomes typically arrive within 24 hours, and it currently covers arrivals at OR Tambo, Cape Town, King Shaka and Lanseria airports only. The ETA is not yet compulsory: you can still apply through a South African mission or its visa contractor, or through the eVisa where it is available."
     },
     {
       "id": "is-it-safe",
