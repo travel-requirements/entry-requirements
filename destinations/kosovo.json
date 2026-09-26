@@ -19,12 +19,19 @@
     "serbia",
     "bosnia-and-herzegovina"
   ],
-  "summary": "Kosovo waives visas for EU and Schengen-area citizens, a broad Western list and its Balkan neighbors for up to 90 days, and admits holders of valid multi-entry Schengen, US or UK visas for short visits without a Kosovo visa; remaining nationalities apply at a Kosovo embassy.",
+  "summary": "Kosovo waives short-stay visas (up to 90 days) for the EU and Schengen area, the US, UK and Canada, most of Latin America and the Caribbean, the Gulf states, Japan, South Korea, Singapore, Malaysia, Israel, Turkey and much of the Pacific, and for its neighbors; holders of valid multi-entry Schengen, US or UK visas can also visit without a Kosovo visa. Other nationalities, including Bosnia and Herzegovina, apply at a Kosovo embassy.",
   "meta": {
-    "lastUpdated": "2026-08-29",
+    "lastUpdated": "2026-09-26",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
+      {
+        "url": "https://ambasadat.net/vizat/",
+        "name": "Embassies of the Republic of Kosovo (MFA) — Visas for foreign nationals",
+        "type": "government",
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
+      },
       {
         "url": "https://mfa-ks.net/departamentet/ceshtje-konsullore/",
         "name": "Kosovo MFA — Department for Consular Affairs",
@@ -37,12 +44,11 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://mfa-ks.net/departamentet/ceshtje-konsullore/",
-      "name": "Kosovo MFA — Department for Consular Affairs",
+      "url": "https://ambasadat.net/vizat/",
+      "name": "Embassies of the Republic of Kosovo (MFA) — Visas for foreign nationals",
       "type": "government",
-      "lastVerified": "2026-08-29",
-      "archiveUrl": "https://web.archive.org/web/20260609155531/https://mfa-ks.net/departamentet/ceshtje-konsullore/",
-      "portalOnly": true
+      "lastVerified": "2026-09-26",
+      "lastChanged": "2026-09-26"
     },
     "byPassport": {
       "AF": {
@@ -80,20 +86,14 @@
         "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "AG": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "AR": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "AM": {
         "requirement": "embassy-visa",
@@ -122,12 +122,9 @@
         "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "BS": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "BH": {
         "requirement": "visa-free",
@@ -143,12 +140,9 @@
         "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "BB": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "BY": {
         "requirement": "embassy-visa",
@@ -164,12 +158,9 @@
         "notes": "EU and Schengen-area citizens enter visa-free for up to 90 days within 180 and may enter with a national ID card instead of a passport."
       },
       "BZ": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "BJ": {
         "requirement": "embassy-visa",
@@ -196,33 +187,27 @@
         "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "BA": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Western Balkans neighbors enter visa-free and may use a national ID card under the regional free-movement agreements."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "kosovo-c"
+        ],
+        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "BW": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "BR": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "BN": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "BG": {
         "requirement": "visa-free",
@@ -291,12 +276,9 @@
         "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "CL": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "CN": {
         "requirement": "embassy-visa",
@@ -307,12 +289,9 @@
         "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "CO": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "KM": {
         "requirement": "embassy-visa",
@@ -323,12 +302,9 @@
         "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "CR": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "CI": {
         "requirement": "embassy-visa",
@@ -383,12 +359,9 @@
         "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "DM": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "DO": {
         "requirement": "embassy-visa",
@@ -415,12 +388,9 @@
         "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "SV": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "GQ": {
         "requirement": "embassy-visa",
@@ -444,12 +414,9 @@
         "notes": "EU and Schengen-area citizens enter visa-free for up to 90 days within 180 and may enter with a national ID card instead of a passport."
       },
       "SZ": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "ET": {
         "requirement": "embassy-visa",
@@ -460,12 +427,9 @@
         "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "FJ": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "FI": {
         "requirement": "visa-free",
@@ -520,20 +484,14 @@
         "notes": "EU and Schengen-area citizens enter visa-free for up to 90 days within 180 and may enter with a national ID card instead of a passport."
       },
       "GD": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "GT": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "GN": {
         "requirement": "embassy-visa",
@@ -552,12 +510,9 @@
         "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "GY": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "HT": {
         "requirement": "embassy-visa",
@@ -568,12 +523,9 @@
         "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "HN": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "HK": {
         "requirement": "embassy-visa",
@@ -631,12 +583,9 @@
         "notes": "EU and Schengen-area citizens enter visa-free for up to 90 days within 180 and may enter with a national ID card instead of a passport."
       },
       "IL": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "IT": {
         "requirement": "visa-free",
@@ -657,12 +606,9 @@
         "notes": "Visa-free for stays of up to 90 days within any 180-day period."
       },
       "JO": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "KZ": {
         "requirement": "embassy-visa",
@@ -681,12 +627,9 @@
         "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "KI": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "XK": {
         "requirement": "freedom-of-movement",
@@ -728,12 +671,9 @@
         "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "LS": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "LR": {
         "requirement": "embassy-visa",
@@ -783,28 +723,19 @@
         "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "MW": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "MY": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "MV": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "ML": {
         "requirement": "embassy-visa",
@@ -820,12 +751,9 @@
         "notes": "EU and Schengen-area citizens enter visa-free for up to 90 days within 180 and may enter with a national ID card instead of a passport."
       },
       "MH": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "MR": {
         "requirement": "embassy-visa",
@@ -836,28 +764,19 @@
         "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "MU": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "MX": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "FM": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "MD": {
         "requirement": "embassy-visa",
@@ -910,20 +829,14 @@
         "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "NA": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "NR": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "NP": {
         "requirement": "embassy-visa",
@@ -944,12 +857,9 @@
         "notes": "Visa-free for stays of up to 90 days within any 180-day period."
       },
       "NI": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "NE": {
         "requirement": "embassy-visa",
@@ -999,12 +909,9 @@
         "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "PW": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "PS": {
         "requirement": "embassy-visa",
@@ -1015,28 +922,19 @@
         "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "PA": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "PG": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "PY": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "PE": {
         "requirement": "embassy-visa",
@@ -1099,36 +997,24 @@
         "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "KN": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "LC": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "VC": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "WS": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "SM": {
         "requirement": "visa-free",
@@ -1136,12 +1022,9 @@
         "notes": "Visa-free for stays of up to 90 days within any 180-day period."
       },
       "ST": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "SA": {
         "requirement": "visa-free",
@@ -1162,12 +1045,9 @@
         "notes": "Serbian citizens enter visa-free and may use a national ID card under the Western Balkans arrangements. Note that Serbia does not recognize Kosovo’s border points — returning to Serbia after entering Kosovo directly can cause problems at Serbian crossings."
       },
       "SC": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "SL": {
         "requirement": "embassy-visa",
@@ -1178,12 +1058,9 @@
         "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "SG": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "SK": {
         "requirement": "visa-free",
@@ -1193,15 +1070,20 @@
       "SI": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "EU and Schengen-area citizens enter visa-free for up to 90 days within 180 and may enter with a national ID card instead of a passport."
+        "notes": "EU and Schengen-area citizens enter visa-free for up to 90 days within 180 and may enter with a national ID card instead of a passport.",
+        "source": {
+          "url": "https://mfa-ks.net/departamentet/ceshtje-konsullore/",
+          "name": "Kosovo MFA — Department for Consular Affairs",
+          "type": "government",
+          "lastVerified": "2026-08-29",
+          "archiveUrl": "https://web.archive.org/web/20260609155531/https://mfa-ks.net/departamentet/ceshtje-konsullore/",
+          "portalOnly": true
+        }
       },
       "SB": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "SO": {
         "requirement": "embassy-visa",
@@ -1312,12 +1194,9 @@
         "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "TL": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "TG": {
         "requirement": "embassy-visa",
@@ -1328,20 +1207,14 @@
         "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "TO": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "TT": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "TN": {
         "requirement": "embassy-visa",
@@ -1365,12 +1238,9 @@
         "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "TV": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "UG": {
         "requirement": "embassy-visa",
@@ -1404,12 +1274,9 @@
         "notes": "Visa-free for stays of up to 90 days within any 180-day period."
       },
       "UY": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "UZ": {
         "requirement": "embassy-visa",
@@ -1420,12 +1287,9 @@
         "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
       },
       "VU": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "VA": {
         "requirement": "visa-free",
@@ -1433,12 +1297,9 @@
         "notes": "Visa-free for stays of up to 90 days within any 180-day period."
       },
       "VE": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "kosovo-c"
-        ],
-        "notes": "A visa from a Kosovo embassy is required, but holders of a valid multi-entry Schengen visa (already used once), or a valid US or UK visa or residence permit, may enter visa-free for up to 15 days."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Listed by Kosovo's Ministry of Foreign Affairs among the nationalities that need no short-stay visa (stays of under 3 months)."
       },
       "VN": {
         "requirement": "embassy-visa",
@@ -1714,7 +1575,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Kosovo?",
-      "answer": "Probably not: Kosovo waives visas for up to 90 days for EU and Schengen-area citizens, the US, UK, Canada, Australia, New Zealand, Japan and many others, plus its Western Balkans neighbors. Holders of valid multi-entry Schengen, US or UK visas can also enter visa-free for up to 15 days. Other nationalities apply at a Kosovo embassy."
+      "answer": "Probably not: Kosovo's Ministry of Foreign Affairs lists over 100 nationalities that need no short-stay visa (up to 90 days), including EU and Schengen-area citizens, the US, UK, Canada, Australia, New Zealand, Japan, South Korea, Singapore, Malaysia, Israel, the Gulf states, most of Latin America and the Caribbean, many Pacific island states, and its neighbors Albania, Montenegro, North Macedonia and Serbia. Holders of valid multi-entry Schengen, US or UK visas can also enter visa-free for up to 15 days. Other nationalities, including Bosnia and Herzegovina, apply at a Kosovo embassy."
     },
     {
       "id": "schengen-visa-entry",

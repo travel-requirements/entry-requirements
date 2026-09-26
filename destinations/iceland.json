@@ -13,9 +13,9 @@
     "finland",
     "ireland"
   ],
-  "summary": "Iceland applies Schengen rules through its EEA/EFTA membership: EU and EFTA citizens enter freely, around 60 visa-exempt nationalities get 90 days in any 180-day period (with ETIAS being phased in), and everyone else needs a €90 Schengen short-stay visa — often applied for via another Schengen state representing Iceland.",
+  "summary": "Iceland applies Schengen rules through its EEA/EFTA membership: EU and EFTA citizens enter freely, around 60 visa-exempt nationalities get 90 days in any 180-day period (ETIAS is not yet in operation), and everyone else needs a €90 Schengen short-stay visa — often applied for via another Schengen state representing Iceland.",
   "meta": {
-    "lastUpdated": "2026-08-30",
+    "lastUpdated": "2026-09-26",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -1409,9 +1409,9 @@
       "method": "embassy",
       "name": "Long-Stay Residence Permit",
       "fee": {
-        "amount": 16000,
+        "amount": 40000,
         "currency": "ISK",
-        "notes": "Approximate — Iceland handles stays over 90 days (work, study, family) through residence permits issued by the Directorate of Immigration rather than long-stay visas. Confirm the current fee and process before applying."
+        "notes": "First residence permits cost ISK 40,000 to ISK 120,000 depending on the permit: ISK 80,000 for work, ISK 70,000 for students, ISK 110,000 for a spouse, ISK 60,000 for children, ISK 120,000 for au pairs and ISK 40,000 for working holiday. Iceland handles stays over 90 days (work, study, family) through residence permits issued by the Directorate of Immigration rather than long-stay visas."
       },
       "processing": {
         "minDays": 60,
@@ -1427,12 +1427,11 @@
       },
       "applyUrl": "https://island.is/en/o/directorate-of-immigration",
       "source": {
-        "url": "https://island.is/en/o/directorate-of-immigration",
-        "name": "Directorate of Immigration (Útlendingastofnun) — Iceland",
+        "url": "https://island.is/en/o/directorate-of-immigration/fees",
+        "name": "Directorate of Immigration (Útlendingastofnun) — Fees",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260723070808/https://island.is/en/o/directorate-of-immigration",
-        "portalOnly": true
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     }
   ],
@@ -1481,13 +1480,18 @@
     "proofOfFunds": {
       "required": true,
       "appliesTo": "all",
-      "amount": null,
-      "text": "The Directorate of Immigration expects visitors to show sufficient funds for their stay. The reference amount is set in ISK per day plus a base amount per trip and is revised periodically; confirm the current figures with the Directorate of Immigration or an Icelandic mission.",
+      "amount": {
+        "value": 8000,
+        "currency": "ISK",
+        "per": "day"
+      },
+      "text": "Visitors must be able to show sufficient funds for their stay. Iceland's reference amount is ISK 8,000 per person per day, plus ISK 40,000 for each entry.",
       "source": {
-        "url": "https://island.is/en/entry-requirements-to-iceland",
-        "name": "Ísland.is — Entry requirements to Iceland (Directorate of Immigration)",
-        "type": "government",
-        "lastVerified": "2026-09-26"
+        "url": "https://home-affairs.ec.europa.eu/document/download/9bf9a98f-3bd1-4e14-9b39-c9087a08a32f_en?filename=Reference_amounts_table.pdf",
+        "name": "European Commission — Reference amounts required for the crossing of the external border, fixed by national authorities",
+        "type": "igo",
+        "lastVerified": "2026-09-26",
+        "lastChanged": "2026-09-26"
       }
     },
     "declarations": [
@@ -1519,25 +1523,26 @@
         "submitAt": "before-travel",
         "submitWindow": "Before travel, once mandatory",
         "url": "https://travel-europe.europa.eu/en/etias",
-        "text": "Visa-exempt travelers will need an ETIAS travel authorization to enter the Schengen Area. It is being phased in. Check the official EU site for the current status and apply only there.",
+        "text": "Visa-exempt travelers will need an ETIAS travel authorization to enter the Schengen Area. It is not yet in operation, and no applications are being collected; the EU will announce the start date several months before launch. Check the official EU site for the current status and apply only there.",
         "source": {
           "url": "https://travel-europe.europa.eu/en/etias",
           "name": "ETIAS — Official EU website",
           "type": "government",
           "lastVerified": "2026-09-26",
-          "archiveUrl": "https://web.archive.org/web/20260823032240/https://travel-europe.europa.eu/en/etias"
+          "archiveUrl": "https://web.archive.org/web/20260823032240/https://travel-europe.europa.eu/en/etias",
+          "lastChanged": "2026-09-26"
         }
       }
     ],
     "customs": {
       "currencyLimits": {
-        "text": "Cash worth €10,000 or more (or the equivalent in other currencies) must be declared to customs when entering or leaving Iceland.",
+        "text": "Cash of more than €10,000 (or the equivalent in other currencies, traveler's checks or bearer negotiable instruments) must be declared to customs when entering or leaving Iceland.",
         "source": {
-          "url": "https://island.is/en",
-          "name": "Island.is — official Iceland government portal",
+          "url": "https://www.skatturinn.is/english/individuals/customs-matters/travelling-to-iceland/cash-declaration/",
+          "name": "Skatturinn (Iceland Revenue and Customs) — Cash declaration",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260824193527/https://island.is/en"
+          "lastVerified": "2026-09-26",
+          "lastChanged": "2026-09-26"
         }
       },
       "notes": [
@@ -1641,7 +1646,7 @@
     {
       "id": "ees-etias",
       "type": "info",
-      "text": "Iceland applies EU border systems: non-EU visitors are registered in the Entry/Exit System at the border, and the ETIAS travel authorization is being phased in for visa-exempt travelers."
+      "text": "Iceland applies EU border systems: non-EU visitors are registered in the Entry/Exit System at the border, and the ETIAS travel authorization for visa-exempt travelers is not yet in operation."
     },
     {
       "id": "costs",
@@ -1668,7 +1673,7 @@
     {
       "id": "etias-needed",
       "question": "Do I need ETIAS to visit Iceland?",
-      "answer": "Once ETIAS becomes mandatory, visa-exempt non-EU travelers will need the €20 online authorization before traveling to Iceland and the rest of the Schengen Area. It is being phased in. Check the official EU ETIAS site for the current status."
+      "answer": "Once ETIAS becomes mandatory, visa-exempt non-EU travelers will need the €20 online authorization before traveling to Iceland and the rest of the Schengen Area. It is not yet in operation, and no applications are being collected; the EU will announce the start date several months before launch. Check the official EU ETIAS site for the current status."
     },
     {
       "id": "stopover",

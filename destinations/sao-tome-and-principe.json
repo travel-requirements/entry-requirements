@@ -23,11 +23,7 @@
         "url": "https://www.smf.st/evisa",
         "name": "Serviço de Migração e Fronteiras — São Tomé and Príncipe e-Visa",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "not-stated"
-        }
+        "lastVerified": "2026-09-26"
       }
     ]
   },
@@ -1532,11 +1528,11 @@
       "fee": {
         "amount": 20,
         "currency": "EUR",
-        "notes": "Approximate. The Migration and Border Service's e-visa portal does not show the fee; it says payment is made at the border."
+        "notes": "Not a published visa fee. The Migration and Border Service's e-visa portal does not show one and says payment is made at the border. The FCDO says every arrival pays a €20 entry fee on arrival, payable in euros, US dollars or dobras."
       },
       "processing": {
         "minDays": 1,
-        "maxDays": 5,
+        "maxDays": 7,
         "unit": "business-days"
       },
       "validityDays": 90,
@@ -1551,11 +1547,8 @@
         "url": "https://www.smf.st/evisa",
         "name": "Serviço de Migração e Fronteiras — São Tomé and Príncipe e-Visa",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "not-stated"
-        }
+        "lastVerified": "2026-09-26",
+        "instrument": "Decree-Law 11/2009, art. 20(2)"
       }
     },
     {
@@ -1587,17 +1580,14 @@
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
-      "text": "Your passport should be valid for at least 6 months on arrival, with a blank page for the entry stamp.",
+      "rule": "other",
+      "text": "eVisa applicants upload a passport valid for at least three months beyond the last day of stay the visa allows. The FCDO tells visa-free British visitors only that the passport must be valid for the whole stay.",
       "source": {
         "url": "https://www.smf.st/evisa",
         "name": "Serviço de Migração e Fronteiras — São Tomé and Príncipe e-Visa",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "not-stated"
-        }
+        "lastVerified": "2026-09-26",
+        "instrument": "Decree-Law 11/2009, art. 13(1)(c)"
       }
     },
     "vaccinations": [
@@ -1633,33 +1623,29 @@
     },
     "onwardTicket": {
       "required": true,
-      "appliesTo": "all",
-      "text": "Visitors are expected to hold a return or onward ticket, and airlines routinely check it before boarding flights to the islands.",
+      "appliesTo": "visa-applicants",
+      "text": "eVisa applicants must attach a return ticket to the application.",
       "source": {
         "url": "https://www.smf.st/evisa",
         "name": "Serviço de Migração e Fronteiras — São Tomé and Príncipe e-Visa",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "not-stated"
-        }
+        "lastVerified": "2026-09-26"
       }
     },
     "proofOfFunds": {
-      "required": false,
-      "appliesTo": null,
-      "amount": null,
-      "text": "No fixed amount is published; immigration officers may ask visitors to show means of support and an accommodation address.",
+      "required": true,
+      "appliesTo": "visa-applicants",
+      "amount": {
+        "value": 100,
+        "currency": "EUR",
+        "per": "day"
+      },
+      "text": "eVisa holders must show proof of means of subsistence of €100 per day at the border.",
       "source": {
         "url": "https://www.smf.st/evisa",
         "name": "Serviço de Migração e Fronteiras — São Tomé and Príncipe e-Visa",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "not-stated"
-        }
+        "lastVerified": "2026-09-26"
       }
     },
     "declarations": [],
