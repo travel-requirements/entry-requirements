@@ -133,6 +133,38 @@
               },
               "portalOnly": {
                 "type": "boolean"
+              },
+              "conflict": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "name": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "states": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "resolvedBy": {
+                    "type": "string",
+                    "enum": [
+                      "hierarchy",
+                      "newer",
+                      "stricter"
+                    ]
+                  }
+                },
+                "required": [
+                  "url",
+                  "name",
+                  "states",
+                  "resolvedBy"
+                ],
+                "additionalProperties": false
               }
             },
             "required": [
@@ -244,6 +276,38 @@
             },
             "portalOnly": {
               "type": "boolean"
+            },
+            "conflict": {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "states": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "resolvedBy": {
+                  "type": "string",
+                  "enum": [
+                    "hierarchy",
+                    "newer",
+                    "stricter"
+                  ]
+                }
+              },
+              "required": [
+                "url",
+                "name",
+                "states",
+                "resolvedBy"
+              ],
+              "additionalProperties": false
             }
           },
           "required": [
@@ -395,6 +459,38 @@
                 },
                 "portalOnly": {
                   "type": "boolean"
+                },
+                "conflict": {
+                  "type": "object",
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "states": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "resolvedBy": {
+                      "type": "string",
+                      "enum": [
+                        "hierarchy",
+                        "newer",
+                        "stricter"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "name",
+                    "states",
+                    "resolvedBy"
+                  ],
+                  "additionalProperties": false
                 }
               },
               "required": [
@@ -621,6 +717,38 @@
                       },
                       "portalOnly": {
                         "type": "boolean"
+                      },
+                      "conflict": {
+                        "type": "object",
+                        "properties": {
+                          "url": {
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          "name": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "states": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "resolvedBy": {
+                            "type": "string",
+                            "enum": [
+                              "hierarchy",
+                              "newer",
+                              "stricter"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "url",
+                          "name",
+                          "states",
+                          "resolvedBy"
+                        ],
+                        "additionalProperties": false
                       }
                     },
                     "required": [
@@ -710,6 +838,38 @@
                   },
                   "portalOnly": {
                     "type": "boolean"
+                  },
+                  "conflict": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "states": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "resolvedBy": {
+                        "type": "string",
+                        "enum": [
+                          "hierarchy",
+                          "newer",
+                          "stricter"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "name",
+                      "states",
+                      "resolvedBy"
+                    ],
+                    "additionalProperties": false
                   }
                 },
                 "required": [
@@ -848,6 +1008,38 @@
                   },
                   "portalOnly": {
                     "type": "boolean"
+                  },
+                  "conflict": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "states": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "resolvedBy": {
+                        "type": "string",
+                        "enum": [
+                          "hierarchy",
+                          "newer",
+                          "stricter"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "name",
+                      "states",
+                      "resolvedBy"
+                    ],
+                    "additionalProperties": false
                   }
                 },
                 "required": [
@@ -1117,6 +1309,38 @@
               },
               "portalOnly": {
                 "type": "boolean"
+              },
+              "conflict": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "name": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "states": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "resolvedBy": {
+                    "type": "string",
+                    "enum": [
+                      "hierarchy",
+                      "newer",
+                      "stricter"
+                    ]
+                  }
+                },
+                "required": [
+                  "url",
+                  "name",
+                  "states",
+                  "resolvedBy"
+                ],
+                "additionalProperties": false
               }
             },
             "required": [
@@ -1325,6 +1549,38 @@
               },
               "portalOnly": {
                 "type": "boolean"
+              },
+              "conflict": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "name": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "states": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "resolvedBy": {
+                    "type": "string",
+                    "enum": [
+                      "hierarchy",
+                      "newer",
+                      "stricter"
+                    ]
+                  }
+                },
+                "required": [
+                  "url",
+                  "name",
+                  "states",
+                  "resolvedBy"
+                ],
+                "additionalProperties": false
               }
             },
             "required": [
@@ -1512,6 +1768,38 @@
                   },
                   "portalOnly": {
                     "type": "boolean"
+                  },
+                  "conflict": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "states": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "resolvedBy": {
+                        "type": "string",
+                        "enum": [
+                          "hierarchy",
+                          "newer",
+                          "stricter"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "name",
+                      "states",
+                      "resolvedBy"
+                    ],
+                    "additionalProperties": false
                   }
                 },
                 "required": [
@@ -1607,6 +1895,38 @@
             },
             "portalOnly": {
               "type": "boolean"
+            },
+            "conflict": {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "states": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "resolvedBy": {
+                  "type": "string",
+                  "enum": [
+                    "hierarchy",
+                    "newer",
+                    "stricter"
+                  ]
+                }
+              },
+              "required": [
+                "url",
+                "name",
+                "states",
+                "resolvedBy"
+              ],
+              "additionalProperties": false
             }
           },
           "required": [
@@ -1762,6 +2082,38 @@
               },
               "portalOnly": {
                 "type": "boolean"
+              },
+              "conflict": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "name": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "states": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "resolvedBy": {
+                    "type": "string",
+                    "enum": [
+                      "hierarchy",
+                      "newer",
+                      "stricter"
+                    ]
+                  }
+                },
+                "required": [
+                  "url",
+                  "name",
+                  "states",
+                  "resolvedBy"
+                ],
+                "additionalProperties": false
               }
             },
             "required": [
@@ -1870,6 +2222,38 @@
                 },
                 "portalOnly": {
                   "type": "boolean"
+                },
+                "conflict": {
+                  "type": "object",
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "states": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "resolvedBy": {
+                      "type": "string",
+                      "enum": [
+                        "hierarchy",
+                        "newer",
+                        "stricter"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "name",
+                    "states",
+                    "resolvedBy"
+                  ],
+                  "additionalProperties": false
                 }
               },
               "required": [
@@ -1961,6 +2345,38 @@
                 },
                 "portalOnly": {
                   "type": "boolean"
+                },
+                "conflict": {
+                  "type": "object",
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "states": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "resolvedBy": {
+                      "type": "string",
+                      "enum": [
+                        "hierarchy",
+                        "newer",
+                        "stricter"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "name",
+                    "states",
+                    "resolvedBy"
+                  ],
+                  "additionalProperties": false
                 }
               },
               "required": [
@@ -2076,6 +2492,38 @@
                   },
                   "portalOnly": {
                     "type": "boolean"
+                  },
+                  "conflict": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "states": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "resolvedBy": {
+                        "type": "string",
+                        "enum": [
+                          "hierarchy",
+                          "newer",
+                          "stricter"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "name",
+                      "states",
+                      "resolvedBy"
+                    ],
+                    "additionalProperties": false
                   }
                 },
                 "required": [
@@ -2212,6 +2660,38 @@
                 },
                 "portalOnly": {
                   "type": "boolean"
+                },
+                "conflict": {
+                  "type": "object",
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "states": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "resolvedBy": {
+                      "type": "string",
+                      "enum": [
+                        "hierarchy",
+                        "newer",
+                        "stricter"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "name",
+                    "states",
+                    "resolvedBy"
+                  ],
+                  "additionalProperties": false
                 }
               },
               "required": [
@@ -2321,6 +2801,38 @@
                 },
                 "portalOnly": {
                   "type": "boolean"
+                },
+                "conflict": {
+                  "type": "object",
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "states": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "resolvedBy": {
+                      "type": "string",
+                      "enum": [
+                        "hierarchy",
+                        "newer",
+                        "stricter"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "name",
+                    "states",
+                    "resolvedBy"
+                  ],
+                  "additionalProperties": false
                 }
               },
               "required": [
@@ -2463,6 +2975,38 @@
                 },
                 "portalOnly": {
                   "type": "boolean"
+                },
+                "conflict": {
+                  "type": "object",
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "states": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "resolvedBy": {
+                      "type": "string",
+                      "enum": [
+                        "hierarchy",
+                        "newer",
+                        "stricter"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "name",
+                    "states",
+                    "resolvedBy"
+                  ],
+                  "additionalProperties": false
                 }
               },
               "required": [
@@ -2629,6 +3173,38 @@
                   },
                   "portalOnly": {
                     "type": "boolean"
+                  },
+                  "conflict": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "states": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "resolvedBy": {
+                        "type": "string",
+                        "enum": [
+                          "hierarchy",
+                          "newer",
+                          "stricter"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "name",
+                      "states",
+                      "resolvedBy"
+                    ],
+                    "additionalProperties": false
                   }
                 },
                 "required": [
@@ -2728,6 +3304,38 @@
                     },
                     "portalOnly": {
                       "type": "boolean"
+                    },
+                    "conflict": {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string",
+                          "format": "uri"
+                        },
+                        "name": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "states": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "resolvedBy": {
+                          "type": "string",
+                          "enum": [
+                            "hierarchy",
+                            "newer",
+                            "stricter"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "name",
+                        "states",
+                        "resolvedBy"
+                      ],
+                      "additionalProperties": false
                     }
                   },
                   "required": [
@@ -2973,6 +3581,38 @@
                     },
                     "portalOnly": {
                       "type": "boolean"
+                    },
+                    "conflict": {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string",
+                          "format": "uri"
+                        },
+                        "name": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "states": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "resolvedBy": {
+                          "type": "string",
+                          "enum": [
+                            "hierarchy",
+                            "newer",
+                            "stricter"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "name",
+                        "states",
+                        "resolvedBy"
+                      ],
+                      "additionalProperties": false
                     }
                   },
                   "required": [
@@ -3169,6 +3809,38 @@
                 },
                 "portalOnly": {
                   "type": "boolean"
+                },
+                "conflict": {
+                  "type": "object",
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "states": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "resolvedBy": {
+                      "type": "string",
+                      "enum": [
+                        "hierarchy",
+                        "newer",
+                        "stricter"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "name",
+                    "states",
+                    "resolvedBy"
+                  ],
+                  "additionalProperties": false
                 }
               },
               "required": [
@@ -3321,6 +3993,38 @@
                   },
                   "portalOnly": {
                     "type": "boolean"
+                  },
+                  "conflict": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "states": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "resolvedBy": {
+                        "type": "string",
+                        "enum": [
+                          "hierarchy",
+                          "newer",
+                          "stricter"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "name",
+                      "states",
+                      "resolvedBy"
+                    ],
+                    "additionalProperties": false
                   }
                 },
                 "required": [
@@ -3443,6 +4147,38 @@
                 },
                 "portalOnly": {
                   "type": "boolean"
+                },
+                "conflict": {
+                  "type": "object",
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "states": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "resolvedBy": {
+                      "type": "string",
+                      "enum": [
+                        "hierarchy",
+                        "newer",
+                        "stricter"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "name",
+                    "states",
+                    "resolvedBy"
+                  ],
+                  "additionalProperties": false
                 }
               },
               "required": [
@@ -3597,6 +4333,38 @@
                 },
                 "portalOnly": {
                   "type": "boolean"
+                },
+                "conflict": {
+                  "type": "object",
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "states": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "resolvedBy": {
+                      "type": "string",
+                      "enum": [
+                        "hierarchy",
+                        "newer",
+                        "stricter"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "name",
+                    "states",
+                    "resolvedBy"
+                  ],
+                  "additionalProperties": false
                 }
               },
               "required": [
@@ -3739,6 +4507,38 @@
                 },
                 "portalOnly": {
                   "type": "boolean"
+                },
+                "conflict": {
+                  "type": "object",
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "states": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "resolvedBy": {
+                      "type": "string",
+                      "enum": [
+                        "hierarchy",
+                        "newer",
+                        "stricter"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "name",
+                    "states",
+                    "resolvedBy"
+                  ],
+                  "additionalProperties": false
                 }
               },
               "required": [
@@ -3868,6 +4668,38 @@
                       },
                       "portalOnly": {
                         "type": "boolean"
+                      },
+                      "conflict": {
+                        "type": "object",
+                        "properties": {
+                          "url": {
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          "name": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "states": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "resolvedBy": {
+                            "type": "string",
+                            "enum": [
+                              "hierarchy",
+                              "newer",
+                              "stricter"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "url",
+                          "name",
+                          "states",
+                          "resolvedBy"
+                        ],
+                        "additionalProperties": false
                       }
                     },
                     "required": [
@@ -3979,6 +4811,38 @@
                 },
                 "portalOnly": {
                   "type": "boolean"
+                },
+                "conflict": {
+                  "type": "object",
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "states": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "resolvedBy": {
+                      "type": "string",
+                      "enum": [
+                        "hierarchy",
+                        "newer",
+                        "stricter"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "name",
+                    "states",
+                    "resolvedBy"
+                  ],
+                  "additionalProperties": false
                 }
               },
               "required": [
@@ -4150,6 +5014,38 @@
                 },
                 "portalOnly": {
                   "type": "boolean"
+                },
+                "conflict": {
+                  "type": "object",
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "states": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "resolvedBy": {
+                      "type": "string",
+                      "enum": [
+                        "hierarchy",
+                        "newer",
+                        "stricter"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "name",
+                    "states",
+                    "resolvedBy"
+                  ],
+                  "additionalProperties": false
                 }
               },
               "required": [
@@ -4418,6 +5314,38 @@
                         },
                         "portalOnly": {
                           "type": "boolean"
+                        },
+                        "conflict": {
+                          "type": "object",
+                          "properties": {
+                            "url": {
+                              "type": "string",
+                              "format": "uri"
+                            },
+                            "name": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "states": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "resolvedBy": {
+                              "type": "string",
+                              "enum": [
+                                "hierarchy",
+                                "newer",
+                                "stricter"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "url",
+                            "name",
+                            "states",
+                            "resolvedBy"
+                          ],
+                          "additionalProperties": false
                         }
                       },
                       "required": [
@@ -4510,6 +5438,38 @@
                 },
                 "portalOnly": {
                   "type": "boolean"
+                },
+                "conflict": {
+                  "type": "object",
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "states": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "resolvedBy": {
+                      "type": "string",
+                      "enum": [
+                        "hierarchy",
+                        "newer",
+                        "stricter"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "name",
+                    "states",
+                    "resolvedBy"
+                  ],
+                  "additionalProperties": false
                 }
               },
               "required": [
@@ -4635,6 +5595,38 @@
                     },
                     "portalOnly": {
                       "type": "boolean"
+                    },
+                    "conflict": {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string",
+                          "format": "uri"
+                        },
+                        "name": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "states": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "resolvedBy": {
+                          "type": "string",
+                          "enum": [
+                            "hierarchy",
+                            "newer",
+                            "stricter"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "name",
+                        "states",
+                        "resolvedBy"
+                      ],
+                      "additionalProperties": false
                     }
                   },
                   "required": [
@@ -4787,6 +5779,38 @@
                 },
                 "portalOnly": {
                   "type": "boolean"
+                },
+                "conflict": {
+                  "type": "object",
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "states": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "resolvedBy": {
+                      "type": "string",
+                      "enum": [
+                        "hierarchy",
+                        "newer",
+                        "stricter"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "name",
+                    "states",
+                    "resolvedBy"
+                  ],
+                  "additionalProperties": false
                 }
               },
               "required": [
