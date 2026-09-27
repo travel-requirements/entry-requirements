@@ -17,7 +17,7 @@
   ],
   "summary": "Morocco grants visa-free entry for up to 90 days to a long list of nationalities — including the US, UK, EU, Canada, Australia, Japan, Brazil, Mexico, Russia and China — and runs an official eVisa system (acces-maroc.ma) for several other nationalities; the dirham is a closed currency, so bring foreign cash or cards and change money inside the country.",
   "meta": {
-    "lastUpdated": "2026-09-26",
+    "lastUpdated": "2026-09-27",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -150,17 +150,18 @@
         "notes": "Visa-free for up to 90 days; extensions beyond 90 days must be requested at a local police station well before the stay expires."
       },
       "UA": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "extendableDays": null,
-        "notes": "Ukrainian citizens are commonly listed among Morocco's visa-exempt nationalities (90 days). Confirm your status on consulat.ma or with a Moroccan consulate before travel.",
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "embassy-tourist"
+        ],
+        "notes": "A visa is required: Morocco’s eligibility check at acces-maroc.ma answers that you must apply for a Moroccan visa. Holders of a qualifying multiple-entry visa or residence permit (see the eVisa conditions) can use the eVisa; otherwise apply at a Moroccan embassy or consulate.",
         "source": {
-          "url": "https://www.consulat.ma/",
-          "name": "Moroccan MFA Consular Portal",
+          "url": "https://www.acces-maroc.ma/",
+          "name": "Accès Maroc — official eVisa portal, eligibility check",
           "type": "government",
-          "lastVerified": "2026-08-25",
-          "archiveUrl": "https://web.archive.org/web/20260808094715/https://www.consulat.ma/",
-          "portalOnly": true
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27"
         }
       },
       "TR": {
@@ -209,37 +210,27 @@
         "notes": "Visa-free for up to 90 days; extensions beyond 90 days must be requested at a local police station well before the stay expires."
       },
       "PH": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "tourist-evisa",
-          "embassy-tourist"
-        ],
-        "notes": "Filipino citizens need a visa. Check eligibility for the official eVisa at acces-maroc.ma (holders of valid Schengen, US or UK visas are commonly eligible for the express track); otherwise apply at a Moroccan embassy.",
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days: Morocco’s eligibility check at acces-maroc.ma answers that no visa and no travel authorisation are needed.",
         "source": {
           "url": "https://www.acces-maroc.ma/",
-          "name": "Morocco Official Electronic Visa Portal (Accès Maroc)",
+          "name": "Accès Maroc — official eVisa portal, eligibility check",
           "type": "government",
-          "lastVerified": "2026-08-25",
-          "archiveUrl": "https://web.archive.org/web/20260704163011/https://www.acces-maroc.ma/",
-          "portalOnly": true
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27"
         }
       },
       "ID": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "tourist-evisa",
-          "embassy-tourist"
-        ],
-        "notes": "Indonesian citizens should check the official eVisa portal acces-maroc.ma for eligibility; visa-exemption arrangements for Indonesia have been reported at times. Confirm with a Moroccan embassy before booking.",
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days: Morocco’s eligibility check at acces-maroc.ma answers that no visa and no travel authorisation are needed.",
         "source": {
           "url": "https://www.acces-maroc.ma/",
-          "name": "Morocco Official Electronic Visa Portal (Accès Maroc)",
+          "name": "Accès Maroc — official eVisa portal, eligibility check",
           "type": "government",
-          "lastVerified": "2026-08-25",
-          "archiveUrl": "https://web.archive.org/web/20260704163011/https://www.acces-maroc.ma/",
-          "portalOnly": true
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27"
         }
       },
       "VN": {
@@ -323,12 +314,22 @@
         "notes": "A visa is required. Check eligibility for the official eVisa at acces-maroc.ma; otherwise apply at a Moroccan embassy or consulate."
       },
       "AL": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "embassy-tourist"
-        ],
-        "notes": "A visa is required. Check eligibility for the official eVisa at acces-maroc.ma; otherwise apply at a Moroccan embassy or consulate."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days: Morocco’s eligibility check at acces-maroc.ma answers that no visa and no travel authorisation are needed.",
+        "source": {
+          "url": "https://www.acces-maroc.ma/",
+          "name": "Accès Maroc — official eVisa portal, eligibility check",
+          "type": "government",
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27",
+          "conflict": {
+            "url": "https://www.consulat.ma/en/list-countries-whose-citizens-are-exempted-entry-visa-morocco",
+            "name": "Moroccan Ministry of Foreign Affairs (consulat.ma) — countries whose citizens are exempt from visa",
+            "states": "not on its visa-exempt list",
+            "resolvedBy": "hierarchy"
+          }
+        }
       },
       "DZ": {
         "requirement": "visa-free",
@@ -375,12 +376,22 @@
         "notes": "Visa-free for up to 90 days; extensions beyond 90 days must be requested at a local police station well before the stay expires."
       },
       "AZ": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "embassy-tourist"
-        ],
-        "notes": "A visa is required. Check eligibility for the official eVisa at acces-maroc.ma; otherwise apply at a Moroccan embassy or consulate."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days: Morocco’s eligibility check at acces-maroc.ma answers that no visa and no travel authorisation are needed. The portal’s older eVisa conditions (August 2024) still list Azerbaijan among eVisa nationalities, and the Foreign Ministry’s exemption list does not include it; the live check is the portal’s current answer.",
+        "source": {
+          "url": "https://www.acces-maroc.ma/",
+          "name": "Accès Maroc — official eVisa portal, eligibility check",
+          "type": "government",
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27",
+          "conflict": {
+            "url": "https://www.acces-maroc.ma/assets/docs/Conditions%20utilisation%20eVisa%20-%20An.pdf",
+            "name": "Accès Maroc — eVisa terms of use (general information note, August 2024)",
+            "states": "eVisa (category A)",
+            "resolvedBy": "newer"
+          }
+        }
       },
       "BS": {
         "requirement": "embassy-visa",
@@ -502,12 +513,16 @@
         "notes": "Visa-free for up to 90 days; extensions beyond 90 days must be requested at a local police station well before the stay expires."
       },
       "BF": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "embassy-tourist"
-        ],
-        "notes": "A visa is required. Check eligibility for the official eVisa at acces-maroc.ma; otherwise apply at a Moroccan embassy or consulate."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days: Morocco’s eligibility check at acces-maroc.ma answers that no visa and no travel authorisation are needed.",
+        "source": {
+          "url": "https://www.acces-maroc.ma/",
+          "name": "Accès Maroc — official eVisa portal, eligibility check",
+          "type": "government",
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27"
+        }
       },
       "BI": {
         "requirement": "embassy-visa",
@@ -518,12 +533,22 @@
         "notes": "A visa is required. Check eligibility for the official eVisa at acces-maroc.ma; otherwise apply at a Moroccan embassy or consulate."
       },
       "CV": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "embassy-tourist"
-        ],
-        "notes": "A visa is required. Check eligibility for the official eVisa at acces-maroc.ma; otherwise apply at a Moroccan embassy or consulate."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days: Morocco’s eligibility check at acces-maroc.ma answers that no visa and no travel authorisation are needed.",
+        "source": {
+          "url": "https://www.acces-maroc.ma/",
+          "name": "Accès Maroc — official eVisa portal, eligibility check",
+          "type": "government",
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27",
+          "conflict": {
+            "url": "https://www.consulat.ma/en/list-countries-whose-citizens-are-exempted-entry-visa-morocco",
+            "name": "Moroccan Ministry of Foreign Affairs (consulat.ma) — countries whose citizens are exempt from visa",
+            "states": "not on its visa-exempt list",
+            "resolvedBy": "hierarchy"
+          }
+        }
       },
       "KH": {
         "requirement": "evisa",
@@ -571,12 +596,16 @@
         "notes": "Visa-free for up to 90 days; extensions beyond 90 days must be requested at a local police station well before the stay expires."
       },
       "CO": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "embassy-tourist"
-        ],
-        "notes": "A visa is required. Check eligibility for the official eVisa at acces-maroc.ma; otherwise apply at a Moroccan embassy or consulate."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days: Morocco’s eligibility check at acces-maroc.ma answers that no visa and no travel authorisation are needed.",
+        "source": {
+          "url": "https://www.acces-maroc.ma/",
+          "name": "Accès Maroc — official eVisa portal, eligibility check",
+          "type": "government",
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27"
+        }
       },
       "KM": {
         "requirement": "embassy-visa",
@@ -595,9 +624,25 @@
         "notes": "A visa is required. Check eligibility for the official eVisa at acces-maroc.ma; otherwise apply at a Moroccan embassy or consulate."
       },
       "CI": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free for up to 90 days; extensions beyond 90 days must be requested at a local police station well before the stay expires."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "embassy-tourist"
+        ],
+        "notes": "A visa is required: Morocco’s eligibility check at acces-maroc.ma answers that you must apply for a Moroccan visa. Holders of a qualifying multiple-entry visa or residence permit (see the eVisa conditions) can use the eVisa; otherwise apply at a Moroccan embassy or consulate.",
+        "source": {
+          "url": "https://www.acces-maroc.ma/",
+          "name": "Accès Maroc — official eVisa portal, eligibility check",
+          "type": "government",
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27",
+          "conflict": {
+            "url": "https://www.consulat.ma/en/list-countries-whose-citizens-are-exempted-entry-visa-morocco",
+            "name": "Moroccan Ministry of Foreign Affairs (consulat.ma) — countries whose citizens are exempt from visa",
+            "states": "visa-exempt",
+            "resolvedBy": "hierarchy"
+          }
+        }
       },
       "HR": {
         "requirement": "visa-free",
@@ -652,25 +697,55 @@
         "notes": "A visa is required. Check eligibility for the official eVisa at acces-maroc.ma; otherwise apply at a Moroccan embassy or consulate."
       },
       "DO": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "embassy-tourist"
-        ],
-        "notes": "A visa is required. Check eligibility for the official eVisa at acces-maroc.ma; otherwise apply at a Moroccan embassy or consulate."
-      },
-      "EC": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "embassy-tourist"
-        ],
-        "notes": "A visa is required. Check eligibility for the official eVisa at acces-maroc.ma; otherwise apply at a Moroccan embassy or consulate."
-      },
-      "EG": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free for up to 90 days; extensions beyond 90 days must be requested at a local police station well before the stay expires."
+        "notes": "Visa-free for up to 90 days: Morocco’s eligibility check at acces-maroc.ma answers that no visa and no travel authorisation are needed.",
+        "source": {
+          "url": "https://www.acces-maroc.ma/",
+          "name": "Accès Maroc — official eVisa portal, eligibility check",
+          "type": "government",
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27",
+          "conflict": {
+            "url": "https://www.consulat.ma/en/list-countries-whose-citizens-are-exempted-entry-visa-morocco",
+            "name": "Moroccan Ministry of Foreign Affairs (consulat.ma) — countries whose citizens are exempt from visa",
+            "states": "not on its visa-exempt list",
+            "resolvedBy": "hierarchy"
+          }
+        }
+      },
+      "EC": {
+        "requirement": "eta",
+        "maxStayDays": null,
+        "notes": "No visa, but an Electronic Travel Authorisation for Morocco (AEVM) is required before travel: the eligibility check at acces-maroc.ma asks you to submit a travel authorisation request, which is made on the same portal.",
+        "source": {
+          "url": "https://www.acces-maroc.ma/",
+          "name": "Accès Maroc — official eVisa portal, eligibility check",
+          "type": "government",
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27",
+          "conflict": {
+            "url": "https://www.consulat.ma/en/list-countries-whose-citizens-are-exempted-entry-visa-morocco",
+            "name": "Moroccan Ministry of Foreign Affairs (consulat.ma) — countries whose citizens are exempt from visa",
+            "states": "not on its visa-exempt list",
+            "resolvedBy": "hierarchy"
+          }
+        }
+      },
+      "EG": {
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "embassy-tourist"
+        ],
+        "notes": "A visa is required: Morocco’s eligibility check at acces-maroc.ma answers that you must apply for a Moroccan visa. Holders of a qualifying multiple-entry visa or residence permit (see the eVisa conditions) can use the eVisa; otherwise apply at a Moroccan embassy or consulate.",
+        "source": {
+          "url": "https://www.acces-maroc.ma/",
+          "name": "Accès Maroc — official eVisa portal, eligibility check",
+          "type": "government",
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27"
+        }
       },
       "SV": {
         "requirement": "embassy-visa",
@@ -752,12 +827,22 @@
         "notes": "A visa is required. Check eligibility for the official eVisa at acces-maroc.ma; otherwise apply at a Moroccan embassy or consulate."
       },
       "GH": {
-        "requirement": "embassy-visa",
+        "requirement": "eta",
         "maxStayDays": null,
-        "visaTypes": [
-          "embassy-tourist"
-        ],
-        "notes": "A visa is required. Check eligibility for the official eVisa at acces-maroc.ma; otherwise apply at a Moroccan embassy or consulate."
+        "notes": "No visa, but an Electronic Travel Authorisation for Morocco (AEVM) is required before travel: the eligibility check at acces-maroc.ma asks you to submit a travel authorisation request, which is made on the same portal.",
+        "source": {
+          "url": "https://www.acces-maroc.ma/",
+          "name": "Accès Maroc — official eVisa portal, eligibility check",
+          "type": "government",
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27",
+          "conflict": {
+            "url": "https://www.consulat.ma/en/list-countries-whose-citizens-are-exempted-entry-visa-morocco",
+            "name": "Moroccan Ministry of Foreign Affairs (consulat.ma) — countries whose citizens are exempt from visa",
+            "states": "not on its visa-exempt list",
+            "resolvedBy": "hierarchy"
+          }
+        }
       },
       "GR": {
         "requirement": "visa-free",
@@ -789,9 +874,16 @@
         }
       },
       "GN": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": 90,
-        "notes": "Visa-free for up to 90 days; extensions beyond 90 days must be requested at a local police station well before the stay expires."
+        "notes": "No visa, but an Electronic Travel Authorisation for Morocco (AEVM) is required before travel: the eligibility check at acces-maroc.ma asks you to submit a travel authorisation request, which is made on the same portal. The Foreign Ministry’s exemption list also marks it as needing an AEVM.",
+        "source": {
+          "url": "https://www.acces-maroc.ma/",
+          "name": "Accès Maroc — official eVisa portal, eligibility check",
+          "type": "government",
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27"
+        }
       },
       "GW": {
         "requirement": "embassy-visa",
@@ -889,12 +981,22 @@
         }
       },
       "KZ": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "embassy-tourist"
-        ],
-        "notes": "A visa is required. Check eligibility for the official eVisa at acces-maroc.ma; otherwise apply at a Moroccan embassy or consulate."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days: Morocco’s eligibility check at acces-maroc.ma answers that no visa and no travel authorisation are needed.",
+        "source": {
+          "url": "https://www.acces-maroc.ma/",
+          "name": "Accès Maroc — official eVisa portal, eligibility check",
+          "type": "government",
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27",
+          "conflict": {
+            "url": "https://www.consulat.ma/en/list-countries-whose-citizens-are-exempted-entry-visa-morocco",
+            "name": "Moroccan Ministry of Foreign Affairs (consulat.ma) — countries whose citizens are exempt from visa",
+            "states": "not on its visa-exempt list",
+            "resolvedBy": "hierarchy"
+          }
+        }
       },
       "KE": {
         "requirement": "embassy-visa",
@@ -979,9 +1081,19 @@
         "notes": "A visa is required. Check eligibility for the official eVisa at acces-maroc.ma; otherwise apply at a Moroccan embassy or consulate."
       },
       "LY": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free for up to 90 days; extensions beyond 90 days must be requested at a local police station well before the stay expires."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "embassy-tourist"
+        ],
+        "notes": "A visa is required: Morocco’s eligibility check at acces-maroc.ma answers that you must apply for a Moroccan visa. Holders of a qualifying multiple-entry visa or residence permit (see the eVisa conditions) can use the eVisa; otherwise apply at a Moroccan embassy or consulate.",
+        "source": {
+          "url": "https://www.acces-maroc.ma/",
+          "name": "Accès Maroc — official eVisa portal, eligibility check",
+          "type": "government",
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27"
+        }
       },
       "LI": {
         "requirement": "visa-free",
@@ -999,12 +1111,16 @@
         "notes": "Visa-free for up to 90 days; extensions beyond 90 days must be requested at a local police station well before the stay expires."
       },
       "MO": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "embassy-tourist"
-        ],
-        "notes": "A visa is required. Check eligibility for the official eVisa at acces-maroc.ma; otherwise apply at a Moroccan embassy or consulate."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days: Morocco’s eligibility check at acces-maroc.ma answers that no visa and no travel authorisation are needed.",
+        "source": {
+          "url": "https://www.acces-maroc.ma/",
+          "name": "Accès Maroc — official eVisa portal, eligibility check",
+          "type": "government",
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27"
+        }
       },
       "MG": {
         "requirement": "embassy-visa",
@@ -1023,25 +1139,46 @@
         "notes": "A visa is required. Check eligibility for the official eVisa at acces-maroc.ma; otherwise apply at a Moroccan embassy or consulate."
       },
       "MY": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "embassy-tourist"
-        ],
-        "notes": "A visa is required. Check eligibility for the official eVisa at acces-maroc.ma; otherwise apply at a Moroccan embassy or consulate."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days: Morocco’s eligibility check at acces-maroc.ma answers that no visa and no travel authorisation are needed.",
+        "source": {
+          "url": "https://www.acces-maroc.ma/",
+          "name": "Accès Maroc — official eVisa portal, eligibility check",
+          "type": "government",
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27"
+        }
       },
       "MV": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "embassy-tourist"
-        ],
-        "notes": "A visa is required. Check eligibility for the official eVisa at acces-maroc.ma; otherwise apply at a Moroccan embassy or consulate."
+        "requirement": "visa-free",
+        "maxStayDays": 30,
+        "notes": "Visa-free for up to 30 days: Morocco’s eligibility check at acces-maroc.ma answers that no visa and no travel authorisation are needed. The Foreign Ministry’s list limits the stay to 30 days.",
+        "source": {
+          "url": "https://www.acces-maroc.ma/",
+          "name": "Accès Maroc — official eVisa portal, eligibility check",
+          "type": "government",
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27"
+        }
       },
       "ML": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free for up to 90 days; extensions beyond 90 days must be requested at a local police station well before the stay expires."
+        "notes": "Visa-free for up to 90 days: Morocco’s eligibility check at acces-maroc.ma answers that no visa and no travel authorisation are needed. Extensions beyond 90 days must be requested at a local police station well before the stay expires.",
+        "source": {
+          "url": "https://www.acces-maroc.ma/",
+          "name": "Accès Maroc — official eVisa portal, eligibility check",
+          "type": "government",
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27",
+          "conflict": {
+            "url": "https://www.consulat.ma/en/list-countries-whose-citizens-are-exempted-entry-visa-morocco",
+            "name": "Moroccan Ministry of Foreign Affairs (consulat.ma) — countries whose citizens are exempt from visa",
+            "states": "AEVM required",
+            "resolvedBy": "hierarchy"
+          }
+        }
       },
       "MT": {
         "requirement": "visa-free",
@@ -1244,9 +1381,16 @@
         "notes": "Visa-free for up to 90 days; extensions beyond 90 days must be requested at a local police station well before the stay expires."
       },
       "CG": {
-        "requirement": "visa-free",
+        "requirement": "eta",
         "maxStayDays": 90,
-        "notes": "Visa-free for up to 90 days; extensions beyond 90 days must be requested at a local police station well before the stay expires."
+        "notes": "No visa, but an Electronic Travel Authorisation for Morocco (AEVM) is required before travel: the eligibility check at acces-maroc.ma asks you to submit a travel authorisation request, which is made on the same portal. The Foreign Ministry’s exemption list also marks it as needing an AEVM.",
+        "source": {
+          "url": "https://www.acces-maroc.ma/",
+          "name": "Accès Maroc — official eVisa portal, eligibility check",
+          "type": "government",
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27"
+        }
       },
       "RW": {
         "requirement": "embassy-visa",
@@ -1452,12 +1596,16 @@
         "notes": "A visa is required. Check eligibility for the official eVisa at acces-maroc.ma; otherwise apply at a Moroccan embassy or consulate."
       },
       "TG": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "embassy-tourist"
-        ],
-        "notes": "A visa is required. Check eligibility for the official eVisa at acces-maroc.ma; otherwise apply at a Moroccan embassy or consulate."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days: Morocco’s eligibility check at acces-maroc.ma answers that no visa and no travel authorisation are needed.",
+        "source": {
+          "url": "https://www.acces-maroc.ma/",
+          "name": "Accès Maroc — official eVisa portal, eligibility check",
+          "type": "government",
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27"
+        }
       },
       "TO": {
         "requirement": "embassy-visa",
@@ -1534,9 +1682,19 @@
         "notes": "A visa is required. Check eligibility for the official eVisa at acces-maroc.ma; otherwise apply at a Moroccan embassy or consulate."
       },
       "VA": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free for up to 90 days; extensions beyond 90 days must be requested at a local police station well before the stay expires."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "embassy-tourist"
+        ],
+        "notes": "A visa is required: Morocco’s eligibility check at acces-maroc.ma answers that you must apply for a Moroccan visa. Holders of a qualifying multiple-entry visa or residence permit (see the eVisa conditions) can use the eVisa; otherwise apply at a Moroccan embassy or consulate.",
+        "source": {
+          "url": "https://www.acces-maroc.ma/",
+          "name": "Accès Maroc — official eVisa portal, eligibility check",
+          "type": "government",
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27"
+        }
       },
       "VE": {
         "requirement": "embassy-visa",

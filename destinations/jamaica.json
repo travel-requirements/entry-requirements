@@ -16,7 +16,7 @@
   ],
   "summary": "Jamaica is visa-free for citizens of the US (for up to six months), Canada, the UK, most of the EU and most Commonwealth countries, though the period is 90 days for some passports and 30 for others, including France, Spain and most of Latin America. CARICOM nationals enter freely for six months, and a few nationalities can buy a visa at the port of entry. Whatever your nationality, every arriving passenger must complete Jamaica's free online immigration and customs (C5) form before traveling.",
   "meta": {
-    "lastUpdated": "2026-09-26",
+    "lastUpdated": "2026-09-27",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -216,10 +216,12 @@
         "notes": "Commonwealth citizens are admitted visa-free for up to 90 days; the online C5 immigration and customs form is still mandatory."
       },
       "BG": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days; the free online Immigration/Customs C5 form must still be completed before traveling."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "visitor-visa"
+        ],
+        "notes": "A visa is required unless you travel as a tourist for 30 days or less, hold a valid US, Canadian, UK or Schengen visa and carry proof of vaccination against measles, rubella and polio (PICA's visa-requirements table). Otherwise apply for a Jamaican visitor's visa before traveling."
       },
       "BF": {
         "requirement": "embassy-visa",
@@ -323,10 +325,12 @@
         "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
       },
       "HR": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days; the free online Immigration/Customs C5 form must still be completed before traveling."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "visitor-visa"
+        ],
+        "notes": "A visa is required unless you travel as a tourist for 30 days or less, hold a valid US, Canadian, UK or Schengen visa and carry proof of vaccination against measles, rubella and polio (PICA's visa-requirements table). Otherwise apply for a Jamaican visitor's visa before traveling."
       },
       "CU": {
         "requirement": "embassy-visa",
@@ -1034,10 +1038,12 @@
         "notes": "A visitor's visa must be obtained from a Jamaican mission or honorary consulate before traveling. There is no visa on arrival and no eVisa."
       },
       "RO": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "extendableDays": 90,
-        "notes": "Visa-free for tourism for up to 90 days; the free online Immigration/Customs C5 form must still be completed before traveling."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "visitor-visa"
+        ],
+        "notes": "A visa is required unless you travel as a tourist for 30 days or less, hold a valid US, Canadian, UK or Schengen visa and carry proof of vaccination against measles, rubella and polio (PICA's visa-requirements table). Otherwise apply for a Jamaican visitor's visa before traveling."
       },
       "RU": {
         "requirement": "visa-free",
@@ -1200,7 +1206,21 @@
       "SR": {
         "requirement": "freedom-of-movement",
         "maxStayDays": 180,
-        "notes": "CARICOM nationals enter under Caribbean Community free-movement arrangements. A definite entry of up to six months is granted on arrival."
+        "notes": "CARICOM nationals enter under Caribbean Community free-movement arrangements. A definite entry of up to six months is granted on arrival, under the CARICOM Heads of Government decision that Community nationals be given a six-month definite entry.",
+        "source": {
+          "url": "https://caricom.org/communique-issued-at-the-conclusion-of-the-nineteenth-inter-sessional-meeting-of-the-conference-of-heads-of-government-of-the-caribbean-community-caricom-7-8-march-2008-nassau-the-bahamas/",
+          "name": "CARICOM Secretariat — Communiqué of the 19th Inter-Sessional Meeting of the Conference of Heads of Government (Nassau, 7–8 March 2008)",
+          "type": "igo",
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27",
+          "instrument": "Decision of the Conference of Heads of Government of the Caribbean Community that CARICOM nationals travelling to other Member States be granted a definite entry of six months",
+          "conflict": {
+            "url": "https://www.pica.gov.jm/immigration/entry-visa-requirements",
+            "name": "Passport, Immigration and Citizenship Agency (PICA) — Entry visa requirements (last updated 19 July 2023)",
+            "states": "90 days",
+            "resolvedBy": "hierarchy"
+          }
+        }
       },
       "SE": {
         "requirement": "visa-free",
@@ -1409,20 +1429,23 @@
           "AL",
           "BY",
           "BA",
+          "BG",
+          "HR",
           "KZ",
           "MK",
           "MD",
           "ME",
+          "RO",
           "RS",
           "HN"
         ],
-        "text": "Tourists from Albania, Belarus, Bosnia and Herzegovina, Kazakhstan, North Macedonia, Moldova, Montenegro, Serbia and Honduras who hold a valid US, Canadian, UK or Schengen visa may enter Jamaica without a Jamaican visa for 30 days or less. All except Honduras must also carry proof of vaccination against measles, rubella and polio.",
+        "text": "Tourists from Albania, Belarus, Bosnia and Herzegovina, Bulgaria, Croatia, Kazakhstan, North Macedonia, Moldova, Montenegro, Romania, Serbia and Honduras who hold a valid US, Canadian, UK or Schengen visa may enter Jamaica without a Jamaican visa for 30 days or less. All except Honduras must also carry proof of vaccination against measles, rubella and polio.",
         "source": {
           "url": "https://www.pica.gov.jm/immigration/entry-visa-requirements",
           "name": "PICA — Entry visa requirements for foreigners and Commonwealth nationals entering Jamaica",
           "type": "government",
-          "lastVerified": "2026-09-26",
-          "lastChanged": "2026-09-26"
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27"
         }
       }
     ]
