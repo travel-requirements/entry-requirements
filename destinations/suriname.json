@@ -19,7 +19,7 @@
   ],
   "summary": "Most visitors to Suriname need no visa but must pay an Entry Fee online before travel — USD or EUR 50 for a single entry or 75 for multiple entries, plus a service fee, for stays of up to 90 days. CARICOM nationals are exempt, and 21 nationalities, including India, South Africa and Nigeria, need an eVisa.",
   "meta": {
-    "lastUpdated": "2026-09-26",
+    "lastUpdated": "2026-09-27",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -44,8 +44,8 @@
       "url": "https://suriname.vfsevisa.com/",
       "name": "Suriname eVisa and Entry Fee service (VFS Global, authorised partner of the Ministry of Foreign Affairs, International Business and International Cooperation) — who can apply",
       "type": "government",
-      "lastVerified": "2026-09-26",
-      "lastChanged": "2026-09-26"
+      "lastVerified": "2026-09-27",
+      "lastChanged": "2026-09-27"
     },
     "byPassport": {
       "AF": {
@@ -719,9 +719,9 @@
         "notes": "CARICOM nationals enjoy freedom of movement under the Revised Treaty of Chaguaramas — normally admitted for six months on arrival with no Entry Fee or visa; holders of a CARICOM Skills Certificate may live and work in Suriname."
       },
       "HT": {
-        "requirement": "freedom-of-movement",
-        "maxStayDays": 180,
-        "notes": "Haiti is listed with the other CARICOM states as visa-exempt, but Suriname's eVisa service also states that direct flights from Haiti to Suriname are not allowed and that the government will not issue visas to Haitian citizens. Confirm with a Surinamese mission before planning a trip."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "notes": "Suriname's eVisa service states that the Government of Suriname will not issue visas to Haitian citizens and that direct flights from Haiti to Suriname are not allowed. The same service's CARICOM list still shows Haiti as visa-exempt with other member states; we publish the stricter statement, since a traveller relying on the list could be refused. Confirm with a Surinamese mission before planning a trip."
       },
       "HN": {
         "requirement": "eta",
@@ -2080,13 +2080,20 @@
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
-      "text": "Your passport should be valid for at least 6 months on arrival, and the Entry Fee voucher or visa must have been issued against that same passport. A renewed passport means a new application.",
+      "rule": "6-months-beyond-stay",
+      "text": "Your passport must be valid for at least 6 months from the date you leave Suriname, and have at least one blank page for the immigration stamp. If it has less than 6 months left, renew it before applying for an eVisa.",
       "source": {
-        "url": "https://www.gov.uk/foreign-travel-advice/suriname/entry-requirements",
-        "name": "UK Foreign, Commonwealth & Development Office — Suriname entry requirements",
+        "url": "https://suriname.vfsevisa.com/faqs.html",
+        "name": "Suriname eVisa and Entry Fee service (VFS Global, authorised partner of the Ministry of Foreign Affairs) — FAQs",
         "type": "government",
-        "lastVerified": "2026-09-26"
+        "lastVerified": "2026-09-27",
+        "lastChanged": "2026-09-27",
+        "conflict": {
+          "url": "https://www.gov.uk/foreign-travel-advice/suriname/entry-requirements",
+          "name": "UK Foreign, Commonwealth & Development Office — Suriname entry requirements",
+          "states": "6 months after the date you arrive",
+          "resolvedBy": "hierarchy"
+        }
       }
     },
     "blankPages": {

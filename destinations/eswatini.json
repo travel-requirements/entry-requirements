@@ -18,7 +18,7 @@
   ],
   "summary": "Most visitors do not need a visa for Eswatini — citizens of SADC, most Commonwealth countries, the EU and the US enter visa-free for up to 30 days — while the remaining nationalities apply in advance through an Eswatini mission or the government’s eVisa service.",
   "meta": {
-    "lastUpdated": "2026-08-29",
+    "lastUpdated": "2026-09-27",
     "lastFullReview": "2026-08-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -1607,18 +1607,19 @@
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
-      "text": "Your passport should be valid for at least 6 months on arrival, with at least two blank pages — important if you are also crossing South Africa or Mozambique, which apply similar rules.",
+      "rule": "6-months-beyond-stay",
+      "text": "Your passport must be valid for at least 6 months beyond the date you expect to leave Eswatini, with at least 2 blank pages. If you are also travelling to South Africa, the UK FCDO says you need 2 more blank pages.",
       "source": {
-        "url": "https://www.gov.sz/",
-        "name": "Government of the Kingdom of Eswatini — official portal",
+        "url": "https://travel.gc.ca/destinations/eswatini",
+        "name": "Government of Canada — Eswatini travel advice (entry and exit requirements)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260821172432/https://gov.sz/",
-        "portalOnly": true,
-        "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "unreachable"
+        "lastVerified": "2026-09-27",
+        "lastChanged": "2026-09-27",
+        "conflict": {
+          "url": "https://www.gov.uk/foreign-travel-advice/eswatini/entry-requirements",
+          "name": "UK FCDO — Eswatini travel advice, entry requirements",
+          "states": "3 months after the date you arrive",
+          "resolvedBy": "newer"
         }
       }
     },

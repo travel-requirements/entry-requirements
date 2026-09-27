@@ -20,7 +20,7 @@
   ],
   "summary": "Czechia is part of the EU and the Schengen Area: EU and EFTA citizens enter freely, around 60 visa-exempt nationalities can stay 90 days in any 180-day period (the ETIAS travel authorization is not yet in operation), and everyone else needs a Schengen short-stay visa costing €90.",
   "meta": {
-    "lastUpdated": "2026-09-26",
+    "lastUpdated": "2026-09-27",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -759,7 +759,20 @@
       "XK": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free with a biometric passport: 90 days in any 180-day period across the whole Schengen Area. ETIAS authorization will be required once mandatory."
+        "notes": "Visa-free with a biometric passport: 90 days in any 180-day period across the whole Schengen Area. ETIAS authorization will be required once mandatory.",
+        "source": {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230",
+          "name": "Regulation (EU) 2018/1806 listing visa-required and visa-exempt nationalities, consolidated text — EUR-Lex",
+          "type": "igo",
+          "lastVerified": "2026-09-27",
+          "instrument": "Regulation (EU) 2018/1806, Annex II, part 4 (Kosovo, biometric passports only), as amended by Regulation (EU) 2023/850",
+          "conflict": {
+            "url": "https://mzv.gov.cz/jnp/en/information_for_aliens/short_stay_visa/list_of_states_whose_citizens_are/index.html",
+            "name": "Czech Foreign Ministry — States whose citizens need visas (updated 9 February 2026)",
+            "states": "lists Kosovo as needing a visa",
+            "resolvedBy": "hierarchy"
+          }
+        }
       },
       "KW": {
         "requirement": "embassy-visa",
@@ -1167,7 +1180,14 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required, applied for at the Czech embassy or visa center serving your place of residence."
+        "notes": "A Schengen short-stay visa is required, but Czechia does not recognise Somali passports for entry and stay, so a Somali passport cannot be used to enter or stay in Czechia.",
+        "source": {
+          "url": "https://mzv.gov.cz/jnp/en/information_for_aliens/short_stay_visa/list_of_states_whose_citizens_are/index.html",
+          "name": "Czech Foreign Ministry — States whose citizens need visas",
+          "type": "government",
+          "lastVerified": "2026-09-27",
+          "lastChanged": "2026-09-27"
+        }
       },
       "SS": {
         "requirement": "embassy-visa",

@@ -16,7 +16,7 @@
   ],
   "summary": "Vanuatu waives visas for citizens of well over 100 countries — including the whole EU, the UK, US, Australia, New Zealand, China, India and its Pacific neighbors — for stays of up to 120 days, while everyone else applies for a visitor e-Visa allowing about 30 days.",
   "meta": {
-    "lastUpdated": "2026-09-26",
+    "lastUpdated": "2026-09-27",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -113,9 +113,12 @@
         "notes": "Visa-free entry for up to 120 days. No application and no fee. The officer sets the period granted on arrival and often stamps a shorter initial stay, so check your passport and apply to the Department of Immigration in Port Vila if you need longer."
       },
       "BH": {
-        "requirement": "visa-free",
-        "maxStayDays": 120,
-        "notes": "Visa-free entry for up to 120 days. No application and no fee. The officer sets the period granted on arrival and often stamps a shorter initial stay, so check your passport and apply to the Department of Immigration in Port Vila if you need longer."
+        "requirement": "evisa",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "evisa-tourist"
+        ],
+        "notes": "The Department of Immigration's page lists Bahrain both as visa-exempt and as needing a visitor visa; the stricter reading is shown. Apply for a visitor e-Visa with the Vanuatu Department of Immigration before travel; it normally allows a stay of up to 30 days and takes two to three weeks to issue."
       },
       "BD": {
         "requirement": "visa-free",
@@ -687,9 +690,12 @@
         "notes": "Visa-free entry for up to 120 days. The EU's suspension of its visa-waiver agreement with Vanuatu over the citizenship-by-investment scheme applies only to Vanuatu passport holders traveling to Europe — EU, EEA and Swiss citizens still enter Vanuatu without a visa."
       },
       "MO": {
-        "requirement": "visa-free",
-        "maxStayDays": 120,
-        "notes": "Visa-free entry for up to 120 days. No application and no fee. The officer sets the period granted on arrival and often stamps a shorter initial stay, so check your passport and apply to the Department of Immigration in Port Vila if you need longer."
+        "requirement": "evisa",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "evisa-tourist"
+        ],
+        "notes": "Macao is on neither of the Department of Immigration's lists (Hong Kong is on the exempt list), and nationalities not on the exemption list need a visitor visa. Apply for a visitor e-Visa with the Vanuatu Department of Immigration before travel; it normally allows a stay of up to 30 days and takes two to three weeks to issue."
       },
       "MG": {
         "requirement": "evisa",
@@ -769,7 +775,7 @@
         "visaTypes": [
           "evisa-tourist"
         ],
-        "notes": "Not on the visa-exemption list. Apply for a visitor e-Visa with the Vanuatu Department of Immigration before travel; it normally allows a stay of up to 30 days and takes two to three weeks to issue."
+        "notes": "The Department of Immigration's page lists Monaco both as visa-exempt and as needing a visitor visa; the stricter reading is shown. Apply for a visitor e-Visa with the Vanuatu Department of Immigration before travel; it normally allows a stay of up to 30 days and takes two to three weeks to issue."
       },
       "MN": {
         "requirement": "evisa",
@@ -966,9 +972,12 @@
         "notes": "Visa-free entry for up to 120 days. No application and no fee. The officer sets the period granted on arrival and often stamps a shorter initial stay, so check your passport and apply to the Department of Immigration in Port Vila if you need longer."
       },
       "RW": {
-        "requirement": "visa-free",
-        "maxStayDays": 120,
-        "notes": "Visa-free entry for up to 120 days. No application and no fee. The officer sets the period granted on arrival and often stamps a shorter initial stay, so check your passport and apply to the Department of Immigration in Port Vila if you need longer."
+        "requirement": "evisa",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "evisa-tourist"
+        ],
+        "notes": "The Department of Immigration's page lists Rwanda both as visa-exempt and as needing a visitor visa; the stricter reading is shown. Apply for a visitor e-Visa with the Vanuatu Department of Immigration before travel; it normally allows a stay of up to 30 days and takes two to three weeks to issue."
       },
       "KN": {
         "requirement": "visa-free",
@@ -1176,9 +1185,12 @@
         "notes": "Visa-free entry for up to 120 days. No application and no fee. The officer sets the period granted on arrival and often stamps a shorter initial stay, so check your passport and apply to the Department of Immigration in Port Vila if you need longer."
       },
       "TR": {
-        "requirement": "visa-free",
-        "maxStayDays": 120,
-        "notes": "Visa-free entry for up to 120 days. No application and no fee. The officer sets the period granted on arrival and often stamps a shorter initial stay, so check your passport and apply to the Department of Immigration in Port Vila if you need longer."
+        "requirement": "evisa",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "evisa-tourist"
+        ],
+        "notes": "The Department of Immigration's page lists Turkey both as visa-exempt and as needing a visitor visa; the stricter reading is shown. Apply for a visitor e-Visa with the Vanuatu Department of Immigration before travel; it normally allows a stay of up to 30 days and takes two to three weeks to issue."
       },
       "TM": {
         "requirement": "evisa",
@@ -1467,19 +1479,15 @@
     },
     "proofOfFunds": {
       "required": true,
-      "appliesTo": "all",
-      "text": "You must be able to show sufficient funds and confirmed accommodation for your stay. No fixed sum is published — a booking confirmation plus a card or bank statement normally satisfies the officer.",
+      "appliesTo": "visa-applicants",
+      "text": "Visitor visa applicants must show funds or income of at least 40,000 vatu for each month of the stay, or evidence of support from family or friends in Vanuatu. No sum is published for visa-exempt visitors.",
       "amount": null,
       "source": {
-        "url": "https://immigration.gov.vu/",
-        "name": "Vanuatu Department of Immigration and Passport Services",
+        "url": "https://immigration.gov.vu/visit",
+        "name": "Visit Vanuatu – visitor visa, Department of Immigration and Passport Services",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260821172836/https://immigration.gov.vu/",
-        "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "not-stated"
-        }
+        "lastVerified": "2026-09-27",
+        "lastChanged": "2026-09-27"
       }
     },
     "declarations": [

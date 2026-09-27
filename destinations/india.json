@@ -21,7 +21,7 @@
   ],
   "summary": "India runs one of the world's largest eVisa programs: citizens of around 170 countries can apply online for tourist eVisas valid 30 days, 1 year or 5 years, starting at 25 USD. Applications go exclusively through the official indianvisaonline.gov.in portal.",
   "meta": {
-    "lastUpdated": "2026-09-26",
+    "lastUpdated": "2026-09-27",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -2073,19 +2073,19 @@
       "fee": {
         "amount": 80,
         "currency": "USD",
-        "notes": "Multiple entry, 60-day stay, for treatment at recognized Indian hospitals; companion e-Medical-Attendant visas available."
+        "notes": "Multiple entry, valid for one year (365 days) from the date of arrival, for treatment at recognized Indian hospitals; up to two e-Medical Attendant visas per patient. Like every e-Visa it cannot be extended or converted. The portal's FAQ still gives 60 days from first arrival, beside the older e-Conference category."
       },
       "processing": {
         "minDays": 1,
         "maxDays": 4,
         "unit": "business-days"
       },
-      "validityDays": 120,
-      "stayDays": 60,
+      "validityDays": 365,
+      "stayDays": null,
       "entries": "multiple",
       "extendable": {
-        "possible": true,
-        "days": 60
+        "possible": false,
+        "days": null
       },
       "applyUrl": "https://indianvisaonline.gov.in/",
       "source": {
@@ -2132,12 +2132,13 @@
   "entryRequirements": {
     "passportValidity": {
       "rule": "6-months-on-arrival",
-      "text": "Your passport must be valid for at least 6 months from the date of arrival and have at least 2 blank pages.",
+      "text": "Your passport must be valid for at least 6 months from the date of arrival and have at least 2 blank pages. The e-Visa instructions put the six months at the time of applying, while the same page's FAQ and the UK Foreign Office count them from arrival — the stricter reading, used here.",
       "source": {
-        "url": "https://www.gov.uk/foreign-travel-advice/india/entry-requirements",
-        "name": "UK Foreign, Commonwealth & Development Office — India entry requirements",
+        "url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+        "name": "Indian Visa Online — e-Visa instructions and FAQ (Government of India)",
         "type": "government",
-        "lastVerified": "2026-09-26"
+        "lastVerified": "2026-09-27",
+        "lastChanged": "2026-09-27"
       }
     },
     "blankPages": {

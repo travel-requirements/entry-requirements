@@ -16,7 +16,7 @@
   ],
   "summary": "Qatar grants free visa waivers on arrival to citizens of over 100 countries — 90 days within 180 for EU and Schengen-area passports, 30 extendable days for most others including the US, UK and much of Asia and Latin America, and routes remaining nationalities through the official Hayya platform for a tourist visa.",
   "meta": {
-    "lastUpdated": "2026-09-26",
+    "lastUpdated": "2026-09-27",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 7,
     "primarySources": [
@@ -1558,14 +1558,20 @@
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
-      "text": "Visitors entering on the visa waiver should hold a passport valid for at least 6 months from the date of arrival. Hayya's e-visas (A1, A2, A3 and A4) require at least 3 months' validity from the date of arrival.",
+      "rule": "other",
+      "text": "Visitors need a passport valid for at least 3 months from the date of arrival, whether they enter visa-free, with a visa on arrival or with a Hayya e-visa (A1, A2, A3 or A4). Hayya, which issues Qatar's e-visas, states the 3-month minimum for entry through Hayya, and Qatar Tourism gives the same minimum for visa-free entry.",
       "source": {
-        "url": "https://www.gov.uk/foreign-travel-advice/qatar/entry-requirements",
-        "name": "UK FCDO — Qatar travel advice (entry requirements)",
+        "url": "https://hayya.qa/en/faq",
+        "name": "Hayya — Frequently Asked Questions: requirements for entry into the State of Qatar",
         "type": "government",
-        "lastVerified": "2026-09-26",
-        "lastChanged": "2026-09-26"
+        "lastVerified": "2026-09-27",
+        "lastChanged": "2026-09-27",
+        "conflict": {
+          "url": "https://www.gov.uk/foreign-travel-advice/qatar/entry-requirements",
+          "name": "UK FCDO — Qatar travel advice (entry requirements)",
+          "states": "6 months from the date of arrival",
+          "resolvedBy": "hierarchy"
+        }
       }
     },
     "blankPages": {
