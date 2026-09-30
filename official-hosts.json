@@ -3,8 +3,13 @@
   "hosts": [
     {
       "host": "acces-maroc.ma",
-      "operator": "needs-review",
-      "note": "Confirm the operating body"
+      "operator": "government",
+      "note": "Morocco's eVisa portal, run by the Ministry of Foreign Affairs (MAECI) — the domain's registrant, and linked as \"eVisa\" from the ministry's consular portal consulat.ma (checked 2026-09-30)"
+    },
+    {
+      "host": "api.acces-maroc.ma",
+      "operator": "government",
+      "note": "The data service behind acces-maroc.ma (MAECI): the portal loads its eVisa tariff and per-nationality eligibility from here, and those public lists are what we cite (checked 2026-09-30)"
     },
     {
       "host": "aduana.cl",
