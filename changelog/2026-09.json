@@ -15899,6 +15899,47 @@
       "new": "visa-free — US and Japan 90 days, Brazil 90, Türkiye and Serbia 30, Ireland and Colombia no stay stated",
       "sourceUrl": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/TrinidadandTobago.html",
       "note": "Earlier today these rows were switched to visa-required because the Immigration Division’s no-visa list does not name them. An omission is not a statement: each has an official source that says visa-free outright — the US State Department (archived 1 April 2026: a tourist visa is required only for stays longer than 90 days), Japan’s, Türkiye’s, Serbia’s, Colombia’s and Ireland’s foreign ministries, and for Brazil Trinidad and Tobago’s own embassy. The 27 EU and Korean rows no longer record the list’s silence as a conflict."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-09-30",
+      "destination": "morocco",
+      "path": "visaPolicy.byPassport.JO",
+      "field": "Jordan — eVisa fee",
+      "old": "eVisa at the standard fee, about 770 MAD",
+      "new": "eVisa free of charge",
+      "sourceUrl": "https://api.acces-maroc.ma/api/api/referentiel/nationalite/en",
+      "note": "The portal's nationality list marks Jordan as exempt from the eVisa fee, and its payment step leaves exempt nationalities out of the amount due. We had shown Jordanian applicants the standard 770 MAD."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-09-30",
+      "destination": "morocco",
+      "path": "visaTypes.tourist-evisa",
+      "field": "eVisa fee and processing",
+      "old": "about 770 MAD, express 'costs more'; 1–3 working days",
+      "new": "770 MAD Standard (3–7 working days), 1,100 MAD Express (1–3 working days)",
+      "sourceUrl": "https://api.acces-maroc.ma/api/api/referentiel/prixEvisa",
+      "note": "The portal publishes its tariff; the figure we carried as approximate is exact, and the Express price and the Standard processing time are now stated rather than implied."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-09-30",
+      "destination": "paraguay",
+      "path": "visaTypes",
+      "field": "eVisa",
+      "old": "Paraguayan eVisa at evisa.mre.gov.py, offered to 121 visa-required nationalities",
+      "new": "no eVisa; consular visa, or a visa de arribo filed by a host in Paraguay",
+      "sourceUrl": "https://www.mre.gov.py/application/files/7717/1509/3509/VISAS_DE_ARRIBO_-_Requisitos_en_cuadro_2.docx",
+      "note": "evisa.mre.gov.py does not resolve and has never been archived, and nothing the Ministry of Foreign Affairs publishes describes an electronic visa. The \"Apply\" link sent readers to a dead host. The Ministry's own alternative to the consulate — the visa de arribo, filed in Asunción by the inviting person or company — now stands in its place."
+    },
+    {
+      "kind": "source-updated",
+      "date": "2026-09-30",
+      "destination": "paraguay",
+      "oldUrl": "https://www.mre.gov.py/requisitos-de-visa-por-paises/",
+      "newUrl": "https://www.mre.gov.py/application/files/9217/2374/5237/Supresion_de_Visas_-_cuadro_AGOSTO_2024.pdf",
+      "reason": "Georgia and Russia were published as visa-free with no source and a hedge. Both have bilateral visa-waiver agreements in force (Law 7038 of 2022, Law 5227 of 2014); the Ministry's country list omits them, and the treaty outranks it."
     }
   ]
 }
