@@ -185,12 +185,12 @@
         "requirement": "visa-free",
         "maxStayDays": 60,
         "extendableDays": null,
-        "notes": "Visa-free under the bilateral agreement, commonly reported as up to 60 days per visit and 90 days total in any 180-day period. Confirm the current limit before a long stay.",
+        "notes": "Ordinary passport holders are exempt from visa for tourist and business travel of up to 60 days, according to the Turkish Ministry of Foreign Affairs.",
         "source": {
           "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
           "name": "Turkish MFA — Visa Information For Foreigners",
           "type": "government",
-          "lastVerified": "2026-09-26",
+          "lastVerified": "2026-10-02",
           "archiveUrl": "https://web.archive.org/web/20260824231240/https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa"
         }
       },
@@ -253,12 +253,12 @@
         "requirement": "visa-free",
         "maxStayDays": 30,
         "extendableDays": null,
-        "notes": "Indonesian citizens are commonly reported as visa-exempt for short tourist stays (around 30 days); the rule has changed in the past. Confirm on evisa.gov.tr or with a Turkish embassy before travel.",
+        "notes": "Ordinary passport holders are exempt from visa for up to 30 days per entry, provided they do not exceed 90 days in any 180-day period, according to the Turkish Ministry of Foreign Affairs.",
         "source": {
           "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
           "name": "Turkish MFA — Visa Information For Foreigners",
           "type": "government",
-          "lastVerified": "2026-09-26",
+          "lastVerified": "2026-10-02",
           "archiveUrl": "https://web.archive.org/web/20260824231240/https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa"
         }
       },
@@ -1632,11 +1632,7 @@
       "category": "tourist",
       "method": "evisa",
       "name": "e-Visa (Tourism / Business)",
-      "fee": {
-        "amount": 50,
-        "currency": "USD",
-        "notes": "Approximate. The fee varies by nationality and is shown on the official portal before payment."
-      },
+      "fee": null,
       "processing": {
         "minDays": 0,
         "maxDays": 1,
@@ -1660,7 +1656,8 @@
         "unverifiable": {
           "lastAttempt": "2026-10-02",
           "reason": "not-stated"
-        }
+        },
+        "lastChanged": "2026-10-02"
       }
     },
     {
@@ -1668,11 +1665,7 @@
       "category": "tourist",
       "method": "evisa",
       "name": "Conditional e-Visa (with supporting documents)",
-      "fee": {
-        "amount": 50,
-        "currency": "USD",
-        "notes": "Approximate — varies by nationality. Requires a valid visa or residence permit from a Schengen country, the US, the UK or Ireland, plus the other conditions listed on the portal (e.g. Arrival with an approved carrier)."
-      },
+      "fee": null,
       "processing": {
         "minDays": 0,
         "maxDays": 3,
@@ -1696,7 +1689,8 @@
         "unverifiable": {
           "lastAttempt": "2026-10-02",
           "reason": "not-stated"
-        }
+        },
+        "lastChanged": "2026-10-02"
       }
     },
     {
@@ -1704,11 +1698,7 @@
       "category": "tourist",
       "method": "embassy",
       "name": "Sticker Visa (Turkish embassy or consulate)",
-      "fee": {
-        "amount": 60,
-        "currency": "USD",
-        "notes": "Approximate. Fees vary by nationality, visa type and place of application; the consulate quotes the exact amount."
-      },
+      "fee": null,
       "processing": {
         "minDays": 5,
         "maxDays": 15,
@@ -1731,7 +1721,8 @@
         "unverifiable": {
           "lastAttempt": "2026-10-02",
           "reason": "not-stated"
-        }
+        },
+        "lastChanged": "2026-10-02"
       }
     }
   ],
@@ -1941,7 +1932,7 @@
     {
       "id": "evisa-cost",
       "question": "How much does the Turkish eVisa cost?",
-      "answer": "For nationalities that still need one, the official eVisa costs roughly 50 USD, though the exact fee varies by nationality and is displayed on evisa.gov.tr before payment. It is typically valid for 180 days from the travel date, with stays of 30 or 90 days depending on nationality."
+      "answer": "The fee depends on your nationality and is shown on evisa.gov.tr before you pay; the Turkish Ministry of Foreign Affairs publishes no current fee table. The eVisa is typically valid for 180 days from the travel date, with stays of 30 or 90 days depending on nationality."
     },
     {
       "id": "eu-stay-length",
