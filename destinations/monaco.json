@@ -17,19 +17,20 @@
   ],
   "summary": "Monaco has no border controls of its own — entry follows Schengen rules applied through France, so EU/EEA citizens enter freely, visa-exempt nationalities get 90 days within the shared Schengen allowance, and visa-required travelers need a French-issued Schengen visa, which is valid for Monaco.",
   "meta": {
-    "lastUpdated": "2026-09-26",
+    "lastUpdated": "2026-10-02",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
       {
-        "url": "https://en.gouv.mc/",
+        "url": "https://www.gouv.mc/en",
         "name": "Prince's Government of Monaco — official portal",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260204171551/https://en.gouv.mc/",
+        "lastVerified": "2026-10-02",
+        "archiveUrl": "https://web.archive.org/web/20260929174115/https://www.gouv.mc/en",
         "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "unreachable"
+          "lastAttempt": "2026-10-02",
+          "reason": "blocked",
+          "status": 403
         },
         "portalOnly": true
       }
@@ -1390,12 +1391,12 @@
       "category": "other",
       "method": "embassy",
       "name": "Long-Stay Visa and Monaco Residence",
-      "fee": null,
-      "processing": {
-        "minDays": 30,
-        "maxDays": 90,
-        "unit": "calendar-days"
+      "fee": {
+        "amount": 80,
+        "currency": "EUR",
+        "notes": "Issuance fee for the first one-year \"temporaire\" residence card (carte de séjour). The French establishment visa (type D) for Monaco, which you need before you can apply, is requested separately at the French consulate nearest your last home."
       },
+      "processing": null,
       "validityDays": 365,
       "stayDays": 365,
       "entries": "multiple",
@@ -1405,16 +1406,11 @@
       },
       "applyUrl": "https://france-visas.gouv.fr/",
       "source": {
-        "url": "https://en.gouv.mc/",
-        "name": "Prince's Government of Monaco — official portal",
+        "url": "https://monservicepublic.gouv.mc/thematiques/nationalite-et-residence/residence/nouveaux-arrivants/demander-une-carte-de-sejour",
+        "name": "Government of Monaco — MonServicePublic: Demander une carte de séjour",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260204171551/https://en.gouv.mc/",
-        "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "unreachable"
-        },
-        "portalOnly": true
+        "lastVerified": "2026-10-02",
+        "lastChanged": "2026-10-02"
       }
     }
   ],
@@ -1423,16 +1419,10 @@
       "rule": "3-months-beyond-departure",
       "text": "Schengen document rules apply in practice: non-EU passports should be valid for at least 3 months beyond your planned departure and have been issued within the last 10 years. EU/EEA citizens only need a valid passport or national ID card.",
       "source": {
-        "url": "https://en.gouv.mc/",
-        "name": "Prince's Government of Monaco — official portal",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21921",
+        "name": "Service-Public.fr (French government) — Un étranger a-t-il besoin d'un visa pour venir en France ? (border entry conditions)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260204171551/https://en.gouv.mc/",
-        "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "unreachable"
-        },
-        "portalOnly": true
+        "lastVerified": "2026-10-02"
       }
     },
     "blankPages": {
@@ -1473,34 +1463,27 @@
       "appliesTo": null,
       "text": "There are no border checks between France and Monaco, so nothing is verified on the way in, but standard Schengen rules apply at the external border where you enter the area, where officers may ask about return travel.",
       "source": {
-        "url": "https://en.gouv.mc/",
-        "name": "Prince's Government of Monaco — official portal",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21921",
+        "name": "Service-Public.fr (French government) — Un étranger a-t-il besoin d'un visa pour venir en France ? (border entry conditions)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260204171551/https://en.gouv.mc/",
-        "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "unreachable"
-        },
-        "portalOnly": true
+        "lastVerified": "2026-10-02"
       }
     },
     "proofOfFunds": {
-      "required": false,
-      "appliesTo": null,
-      "amount": null,
-      "text": "No separate Monegasque check exists; France's means-of-subsistence guidelines apply to Schengen visa applicants at the external border. Visa-free visitors are rarely asked.",
+      "required": true,
+      "appliesTo": "all",
+      "amount": {
+        "value": 65,
+        "currency": "EUR",
+        "per": "day"
+      },
+      "text": "Monaco runs no check of its own, but France applies its means-of-subsistence rule at the border to every non-EU visitor, visa-free or not. You need €65 per day with a hotel booking, €120 per day without proof of accommodation, or €32.50 per day with a host certificate (attestation d'accueil). Other Schengen countries set their own amounts if you enter through them.",
       "source": {
-        "url": "https://en.gouv.mc/",
-        "name": "Prince's Government of Monaco — official portal",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21921",
+        "name": "Service-Public.fr (French government) — Un étranger a-t-il besoin d'un visa pour venir en France ? (border entry conditions)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260204171551/https://en.gouv.mc/",
-        "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "unreachable"
-        },
-        "portalOnly": true
+        "lastVerified": "2026-10-02",
+        "lastChanged": "2026-10-02"
       }
     },
     "declarations": [

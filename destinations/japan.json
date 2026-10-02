@@ -14,7 +14,7 @@
   ],
   "summary": "Japan grants visa-free entry of up to 90 days to citizens of around 70 countries and regions, offers an official eVisa for several other nationalities, and encourages all arrivals to pre-register immigration and customs details on the free Visit Japan Web service.",
   "meta": {
-    "lastUpdated": "2026-09-26",
+    "lastUpdated": "2026-10-02",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 7,
     "primarySources": [
@@ -190,15 +190,18 @@
           "evisa-single",
           "short-term-single"
         ],
-        "notes": "A visa is required. Indian citizens applying for a single-entry tourist visa can generally use the official Japan eVisa. Confirm eligibility for your place of residence on evisa.mofa.go.jp.",
+        "notes": "A visa is required. Anyone residing in India can apply for the single-entry tourist eVisa (stays of up to 90 days), but the application goes through a travel agency accredited by the Japanese Embassy or a consulate, not directly online.",
         "source": {
-          "url": "https://www.evisa.mofa.go.jp/",
-          "name": "Japan eVisa (Ministry of Foreign Affairs)",
+          "url": "https://www.mofa.go.jp/j_info/visit/visa/visaonline.html",
+          "name": "Japan MFA — The JAPAN eVISA system (eligibility, as of 15 May 2026)",
           "type": "government",
-          "lastVerified": "2026-08-25",
+          "lastVerified": "2026-10-02",
+          "lastChanged": "2026-10-02",
+          "archiveUrl": "https://web.archive.org/web/20260927184121/https://www.mofa.go.jp/j_info/visit/visa/visaonline.html",
           "unverifiable": {
-            "lastAttempt": "2026-09-26",
-            "reason": "not-stated"
+            "lastAttempt": "2026-10-02",
+            "reason": "blocked",
+            "status": 403
           }
         }
       },
@@ -214,21 +217,24 @@
         "notes": "Visa exemption for short-term stays. Working is not permitted."
       },
       "PH": {
-        "requirement": "evisa",
+        "requirement": "embassy-visa",
         "maxStayDays": 90,
         "visaTypes": [
-          "evisa-single",
-          "short-term-single"
+          "short-term-single",
+          "evisa-single"
         ],
-        "notes": "A visa is required. Filipino citizens applying for a single-entry tourist visa can generally use the official Japan eVisa. Confirm eligibility for your place of residence on evisa.mofa.go.jp.",
+        "notes": "A visa is required. Filipino citizens normally apply for a short-term visa (stays of up to 90 days) through a travel agency accredited by the Japanese Embassy or a consulate. The eVisa is open only to those residing in the Philippines who join a package tour organised by a designated travel agency, and it is issued for a 15-day stay.",
         "source": {
-          "url": "https://www.evisa.mofa.go.jp/",
-          "name": "Japan eVisa (Ministry of Foreign Affairs)",
+          "url": "https://www.mofa.go.jp/j_info/visit/visa/visaonline.html",
+          "name": "Japan MFA — The JAPAN eVISA system (eligibility, as of 15 May 2026)",
           "type": "government",
-          "lastVerified": "2026-08-25",
+          "lastVerified": "2026-10-02",
+          "lastChanged": "2026-10-02",
+          "archiveUrl": "https://web.archive.org/web/20260927184121/https://www.mofa.go.jp/j_info/visit/visa/visaonline.html",
           "unverifiable": {
-            "lastAttempt": "2026-09-26",
-            "reason": "not-stated"
+            "lastAttempt": "2026-10-02",
+            "reason": "blocked",
+            "status": 403
           }
         }
       },
@@ -247,21 +253,24 @@
         }
       },
       "VN": {
-        "requirement": "evisa",
+        "requirement": "embassy-visa",
         "maxStayDays": 90,
         "visaTypes": [
-          "evisa-single",
-          "short-term-single"
+          "short-term-single",
+          "evisa-single"
         ],
-        "notes": "A visa is required. Vietnamese citizens applying for a single-entry tourist visa can generally use the official Japan eVisa. Confirm eligibility for your place of residence on evisa.mofa.go.jp.",
+        "notes": "A visa is required. Vietnamese citizens normally apply for a short-term visa (stays of up to 90 days) through a travel agency accredited by the Japanese Embassy or a consulate. The eVisa is open only to those residing in Viet Nam who join a package tour organised by a designated travel agency, and it is issued for a 15-day stay.",
         "source": {
-          "url": "https://www.evisa.mofa.go.jp/",
-          "name": "Japan eVisa (Ministry of Foreign Affairs)",
+          "url": "https://www.mofa.go.jp/j_info/visit/visa/visaonline.html",
+          "name": "Japan MFA — The JAPAN eVISA system (eligibility, as of 15 May 2026)",
           "type": "government",
-          "lastVerified": "2026-08-25",
+          "lastVerified": "2026-10-02",
+          "lastChanged": "2026-10-02",
+          "archiveUrl": "https://web.archive.org/web/20260927184121/https://www.mofa.go.jp/j_info/visit/visa/visaonline.html",
           "unverifiable": {
-            "lastAttempt": "2026-09-26",
-            "reason": "not-stated"
+            "lastAttempt": "2026-10-02",
+            "reason": "blocked",
+            "status": 403
           }
         }
       },
@@ -1592,9 +1601,9 @@
       "method": "embassy",
       "name": "Transit Visa",
       "fee": {
-        "amount": 700,
+        "amount": 15000,
         "currency": "JPY",
-        "notes": "Needed only by visa-required nationals who pass through immigration; airside transit does not require a visa."
+        "notes": "Since 1 July 2026 Japan's consular fee order no longer sets a separate transit-visa fee (it was about 700 yen); a single-entry visa costs about 15,000 yen, collected in local currency. Needed only by visa-required nationals who pass through immigration; airside transit does not require a visa."
       },
       "processing": {
         "minDays": 5,
@@ -1610,15 +1619,12 @@
       },
       "applyUrl": "https://www.mofa.go.jp/j_info/visit/visa/index.html",
       "source": {
-        "url": "https://www.mofa.go.jp/j_info/visit/visa/index.html",
-        "name": "Japan MFA — visa fees and procedures",
+        "url": "https://laws.e-gov.go.jp/law/327CO0000000074",
+        "name": "e-Gov — Cabinet Order on Fees Collected by Consular Officers (領事官の徴収する手数料に関する政令)",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260825075013/https://www.mofa.go.jp/j_info/visit/visa/index.html",
-        "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "not-stated"
-        }
+        "lastVerified": "2026-10-02",
+        "lastChanged": "2026-10-02",
+        "instrument": "Cabinet Order No. 74 of 1952, Article 1(1)(iii)–(iv), as amended by Cabinet Order No. 204 of 2026 (in force 1 July 2026)"
       }
     },
     {
@@ -1698,7 +1704,7 @@
         "lastVerified": "2026-08-25",
         "archiveUrl": "https://web.archive.org/web/20260825075013/https://www.mofa.go.jp/j_info/visit/visa/index.html",
         "unverifiable": {
-          "lastAttempt": "2026-09-26",
+          "lastAttempt": "2026-10-02",
           "reason": "not-stated"
         }
       }
@@ -1715,7 +1721,7 @@
         "lastVerified": "2026-08-25",
         "archiveUrl": "https://web.archive.org/web/20260825075013/https://www.mofa.go.jp/j_info/visit/visa/index.html",
         "unverifiable": {
-          "lastAttempt": "2026-09-26",
+          "lastAttempt": "2026-10-02",
           "reason": "not-stated"
         }
       }

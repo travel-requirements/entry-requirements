@@ -17,7 +17,7 @@
   ],
   "summary": "The United States admits Visa Waiver Program nationals with an ESTA travel authorization ($40.27, valid 2 years) for stays up to 90 days, lets Canadians visit visa-free for up to 6 months, and requires everyone else to obtain a B1/B2 visitor visa ($185) at a US embassy — often with long interview wait times.",
   "meta": {
-    "lastUpdated": "2026-09-26",
+    "lastUpdated": "2026-10-02",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -33,10 +33,10 @@
         "url": "https://travel.state.gov/content/travel/en/us-visas.html",
         "name": "U.S. Department of State — U.S. Visas",
         "type": "government",
-        "lastVerified": "2026-08-25",
+        "lastVerified": "2026-10-02",
         "archiveUrl": "https://web.archive.org/web/20260713162522/https://travel.state.gov/content/travel/en/us-visas.html",
         "unverifiable": {
-          "lastAttempt": "2026-09-26",
+          "lastAttempt": "2026-10-02",
           "reason": "blocked",
           "status": 403
         },
@@ -59,10 +59,10 @@
       "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
       "name": "U.S. Department of State — Visitor Visa and Visa Waiver Program information",
       "type": "government",
-      "lastVerified": "2026-08-25",
+      "lastVerified": "2026-10-02",
       "archiveUrl": "https://web.archive.org/web/20260711164245/https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
       "unverifiable": {
-        "lastAttempt": "2026-09-26",
+        "lastAttempt": "2026-10-02",
         "reason": "blocked",
         "status": 403
       }
@@ -299,7 +299,7 @@
         "visaTypes": [
           "b1-b2"
         ],
-        "notes": "B1/B2 visitor visa required ($185), typically issued as a 10-year multiple-entry visa. Holders must also keep an EVUS enrollment up to date."
+        "notes": "B1/B2 visitor visa required ($185), typically issued as a 10-year multiple-entry visa. Holders must also keep an EVUS enrollment up to date, which costs $30 per new enrollment since 30 September 2025."
       },
       "IN": {
         "requirement": "embassy-visa",
@@ -2277,17 +2277,19 @@
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "valid-for-stay",
-      "text": "As a general rule passports should be valid for 6 months beyond your stay, but nationals of the many countries on the US \"Six-Month Club\" exemption list (including all VWP countries) only need a passport valid for the duration of the stay.",
+      "rule": "6-months-beyond-stay",
+      "text": "Your passport must be valid for at least six months beyond your intended stay, unless your country is on the US six-month exemption list, in which case it only needs to be valid for the length of the stay. The list covers most of Europe, the UK, Canada, Mexico, Japan, South Korea, Australia, New Zealand, India and many others. It includes every Visa Waiver country except Brunei, but not China, Vietnam, Bangladesh, Kenya or Ghana, for example.",
       "source": {
-        "url": "https://www.cbp.gov/travel/international-visitors",
-        "name": "U.S. Customs and Border Protection — International Visitors",
+        "url": "https://www.cbp.gov/document/bulletins/six-month-validity-update",
+        "name": "U.S. Customs and Border Protection — Six-Month Passport Validity Update (Carrier Liaison Program, 18 December 2025)",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260826001310/https://www.cbp.gov/travel/international-visitors",
+        "lastVerified": "2026-10-02",
+        "lastChanged": "2026-10-02",
+        "archiveUrl": "https://web.archive.org/web/20260911094849/https://www.cbp.gov/document/bulletins/six-month-validity-update",
         "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "not-stated"
+          "lastAttempt": "2026-10-02",
+          "reason": "blocked",
+          "status": 403
         }
       }
     },
@@ -2325,16 +2327,18 @@
       "required": false,
       "appliesTo": null,
       "amount": null,
-      "text": "No fixed amount is set, but CBP officers may ask about your funds, accommodation, purpose of visit and ties to home when deciding whether to admit you.",
+      "text": "No fixed amount is set. Visa Waiver travelers arriving at a land border must show evidence of financial solvency and a home abroad they will return to. Visa applicants may be asked at interview to show they can pay all the costs of the trip.",
       "source": {
-        "url": "https://www.cbp.gov/travel/international-visitors",
-        "name": "U.S. Customs and Border Protection — International Visitors",
+        "url": "https://www.cbp.gov/travel/international-visitors/visa-waiver-program/requirements-immigrant-and-nonimmigrant-visas",
+        "name": "U.S. Customs and Border Protection — Visa Requirements and Visa Waiver Program conditions",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260826001310/https://www.cbp.gov/travel/international-visitors",
+        "lastVerified": "2026-10-02",
+        "lastChanged": "2026-10-02",
+        "archiveUrl": "https://web.archive.org/web/20260803214306/https://www.cbp.gov/travel/international-visitors/visa-waiver-program/requirements-immigrant-and-nonimmigrant-visas",
         "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "not-stated"
+          "lastAttempt": "2026-10-02",
+          "reason": "blocked",
+          "status": 403
         }
       }
     },

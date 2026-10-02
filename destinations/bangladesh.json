@@ -16,23 +16,25 @@
     "nepal",
     "pakistan"
   ],
-  "summary": "Visitors from most of Europe, North America, Oceania, East Asia and the Gulf can obtain a 30-day visa on arrival (about US$51) at Dhaka and other international airports, while other nationalities — including Indian citizens — must arrange a visa through a Bangladeshi mission or the official online portal before traveling.",
+  "summary": "Citizens of the United States, Canada, Australia, New Zealand, the countries of Europe, Russia, China, Japan, South Korea, Singapore, Malaysia, Brunei, Turkey, Egypt and the Gulf states can obtain a 30-day visa on arrival (about US$51) at Dhaka and other international airports, while other nationalities — including Indian citizens — must arrange a visa through a Bangladeshi mission, starting on the official portal visa.gov.bd, before traveling. Only Maldivian citizens are visa-free.",
   "meta": {
-    "lastUpdated": "2026-09-26",
+    "lastUpdated": "2026-10-02",
     "lastFullReview": "2026-08-26",
     "reviewIntervalDays": 90,
     "primarySources": [
       {
-        "url": "https://www.visa.gov.bd/",
-        "name": "Bangladesh Ministry of Foreign Affairs — official visa portal",
+        "url": "https://visa.gov.bd/",
+        "name": "Department of Immigration and Passports — Bangladesh Online MRV (visa) portal and visa fee schedule",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260809023322/https://visa.gov.bd/",
-        "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "unreachable"
-        },
-        "portalOnly": true
+        "lastVerified": "2026-10-02",
+        "archiveUrl": "https://web.archive.org/web/20260809023322/https://visa.gov.bd/"
+      },
+      {
+        "url": "https://ssd.gov.bd/pages/static-pages/694032f235ce18e1c05648c6",
+        "name": "Security Services Division, Ministry of Home Affairs — Visa Policy (2006, amended to 2016) including the visa-on-arrival circular",
+        "type": "government",
+        "lastVerified": "2026-10-02",
+        "instrument": "Ministry of Home Affairs circular 44.00.0000.039.19.001.12-1409 of 15 September 2016 (visa on arrival), reinstated by Security Services Division circular 58.00.0000.041.01.002.22-59 of 17 May 2022"
       }
     ],
     "modules": [
@@ -41,16 +43,12 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://www.visa.gov.bd/",
-      "name": "Bangladesh Ministry of Foreign Affairs — official visa portal",
+      "url": "https://ssd.gov.bd/pages/static-pages/694032f235ce18e1c05648c6",
+      "name": "Security Services Division, Ministry of Home Affairs — Visa Policy (2006, amended to 2016) including the visa-on-arrival circular",
       "type": "government",
-      "lastVerified": "2026-08-26",
-      "archiveUrl": "https://web.archive.org/web/20260809023322/https://visa.gov.bd/",
-      "unverifiable": {
-        "lastAttempt": "2026-09-26",
-        "reason": "unreachable"
-      },
-      "portalOnly": true
+      "lastVerified": "2026-10-02",
+      "lastChanged": "2026-10-02",
+      "instrument": "Ministry of Home Affairs circular 44.00.0000.039.19.001.12-1409 of 15 September 2016 (visa on arrival), reinstated by Security Services Division circular 58.00.0000.041.01.002.22-59 of 17 May 2022"
     },
     "byPassport": {
       "AF": {
@@ -59,15 +57,15 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$70 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "AL": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
         "visaTypes": [
-          "tourist-visa"
+          "voa-tourist"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "30-day visa on arrival (about US$51, cash) at Dhaka and other international airports for tourism and short business visits — issued at officers' discretion, so carry a return ticket and hotel details, and confirm eligibility with your airline before flying."
       },
       "DZ": {
         "requirement": "embassy-visa",
@@ -75,15 +73,15 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$1 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "AD": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
         "visaTypes": [
-          "tourist-visa"
+          "voa-tourist"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "30-day visa on arrival (about US$51, cash) at Dhaka and other international airports for tourism and short business visits — issued at officers' discretion, so carry a return ticket and hotel details, and confirm eligibility with your airline before flying."
       },
       "AO": {
         "requirement": "embassy-visa",
@@ -91,7 +89,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$11 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "AG": {
         "requirement": "embassy-visa",
@@ -99,7 +97,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "AR": {
         "requirement": "embassy-visa",
@@ -107,7 +105,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists C$24 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "AM": {
         "requirement": "embassy-visa",
@@ -115,7 +113,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$30 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "AU": {
         "requirement": "visa-on-arrival",
@@ -139,7 +137,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$40 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "BS": {
         "requirement": "embassy-visa",
@@ -147,7 +145,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$5 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "BH": {
         "requirement": "visa-on-arrival",
@@ -163,17 +161,27 @@
         "notes": "Home country. No entry requirements for Bangladeshi citizens."
       },
       "BB": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free under bilateral exemption agreements, generally for up to 90 days. Confirm the exact allowance with a Bangladeshi mission before travel."
-      },
-      "BY": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Not visa-free: the Home Ministry's list of visa-waiver agreements (October 2024) covers ordinary passports only for the Maldives. Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival.",
+        "source": {
+          "url": "https://ssd.gov.bd/pages/static-pages/694032be35ce18e1c05619f7",
+          "name": "Security Services Division, Ministry of Home Affairs — countries with visa-exemption agreements with Bangladesh (as of 30 October 2024)",
+          "type": "government",
+          "lastVerified": "2026-10-02",
+          "lastChanged": "2026-10-02"
+        }
+      },
+      "BY": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "voa-tourist"
+        ],
+        "notes": "30-day visa on arrival (about US$51, cash) at Dhaka and other international airports for tourism and short business visits — issued at officers' discretion, so carry a return ticket and hotel details, and confirm eligibility with your airline before flying."
       },
       "BE": {
         "requirement": "visa-on-arrival",
@@ -189,7 +197,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$25 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "BJ": {
         "requirement": "embassy-visa",
@@ -197,12 +205,22 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$5 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "BT": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free under bilateral exemption agreements, generally for up to 90 days. Confirm the exact allowance with a Bangladeshi mission before travel."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Not visa-free: the Home Ministry's list of visa-waiver agreements (October 2024) covers ordinary passports only for the Maldives. Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival.",
+        "source": {
+          "url": "https://ssd.gov.bd/pages/static-pages/694032be35ce18e1c05619f7",
+          "name": "Security Services Division, Ministry of Home Affairs — countries with visa-exemption agreements with Bangladesh (as of 30 October 2024)",
+          "type": "government",
+          "lastVerified": "2026-10-02",
+          "lastChanged": "2026-10-02"
+        }
       },
       "BO": {
         "requirement": "embassy-visa",
@@ -210,15 +228,15 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$5 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "BA": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
         "visaTypes": [
-          "tourist-visa"
+          "voa-tourist"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "30-day visa on arrival (about US$51, cash) at Dhaka and other international airports for tourism and short business visits — issued at officers' discretion, so carry a return ticket and hotel details, and confirm eligibility with your airline before flying."
       },
       "BW": {
         "requirement": "embassy-visa",
@@ -226,7 +244,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "BR": {
         "requirement": "embassy-visa",
@@ -234,15 +252,15 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$10 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "BN": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
         "visaTypes": [
-          "tourist-visa"
+          "voa-tourist"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "30-day visa on arrival (about US$51, cash) at Dhaka and other international airports for tourism and short business visits — issued at officers' discretion, so carry a return ticket and hotel details, and confirm eligibility with your airline before flying."
       },
       "BG": {
         "requirement": "visa-on-arrival",
@@ -258,7 +276,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "BI": {
         "requirement": "embassy-visa",
@@ -266,7 +284,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$5 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "CV": {
         "requirement": "embassy-visa",
@@ -274,7 +292,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "KH": {
         "requirement": "embassy-visa",
@@ -282,7 +300,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$25 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "CM": {
         "requirement": "embassy-visa",
@@ -290,7 +308,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$50 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "CA": {
         "requirement": "visa-on-arrival",
@@ -306,7 +324,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$5 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "TD": {
         "requirement": "embassy-visa",
@@ -314,7 +332,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$5 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "CL": {
         "requirement": "embassy-visa",
@@ -322,7 +340,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$10 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "CN": {
         "requirement": "visa-on-arrival",
@@ -338,7 +356,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$40 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "KM": {
         "requirement": "embassy-visa",
@@ -346,7 +364,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$5 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "CR": {
         "requirement": "embassy-visa",
@@ -354,7 +372,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$15 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "CI": {
         "requirement": "embassy-visa",
@@ -362,7 +380,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$25 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "HR": {
         "requirement": "visa-on-arrival",
@@ -378,7 +396,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$66 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "CY": {
         "requirement": "visa-on-arrival",
@@ -402,7 +420,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$5 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "DK": {
         "requirement": "visa-on-arrival",
@@ -418,7 +436,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$5 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "DM": {
         "requirement": "embassy-visa",
@@ -426,7 +444,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "DO": {
         "requirement": "embassy-visa",
@@ -434,7 +452,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$5 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "EC": {
         "requirement": "embassy-visa",
@@ -442,15 +460,15 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "EG": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
         "visaTypes": [
-          "tourist-visa"
+          "voa-tourist"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "30-day visa on arrival (about US$51, cash) at Dhaka and other international airports for tourism and short business visits — issued at officers' discretion, so carry a return ticket and hotel details, and confirm eligibility with your airline before flying."
       },
       "SV": {
         "requirement": "embassy-visa",
@@ -458,7 +476,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$5 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "GQ": {
         "requirement": "embassy-visa",
@@ -466,7 +484,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "ER": {
         "requirement": "embassy-visa",
@@ -474,7 +492,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$5 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "EE": {
         "requirement": "visa-on-arrival",
@@ -490,7 +508,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "ET": {
         "requirement": "embassy-visa",
@@ -498,12 +516,22 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$50 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "FJ": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free under bilateral exemption agreements, generally for up to 90 days. Confirm the exact allowance with a Bangladeshi mission before travel."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Not visa-free: the Home Ministry's list of visa-waiver agreements (October 2024) covers ordinary passports only for the Maldives. Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival.",
+        "source": {
+          "url": "https://ssd.gov.bd/pages/static-pages/694032be35ce18e1c05619f7",
+          "name": "Security Services Division, Ministry of Home Affairs — countries with visa-exemption agreements with Bangladesh (as of 30 October 2024)",
+          "type": "government",
+          "lastVerified": "2026-10-02",
+          "lastChanged": "2026-10-02"
+        }
       },
       "FI": {
         "requirement": "visa-on-arrival",
@@ -527,12 +555,22 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "GM": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free under bilateral exemption agreements, generally for up to 90 days. Confirm the exact allowance with a Bangladeshi mission before travel."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Not visa-free: the Home Ministry's list of visa-waiver agreements (October 2024) covers ordinary passports only for the Maldives. Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival.",
+        "source": {
+          "url": "https://ssd.gov.bd/pages/static-pages/694032be35ce18e1c05619f7",
+          "name": "Security Services Division, Ministry of Home Affairs — countries with visa-exemption agreements with Bangladesh (as of 30 October 2024)",
+          "type": "government",
+          "lastVerified": "2026-10-02",
+          "lastChanged": "2026-10-02"
+        }
       },
       "GE": {
         "requirement": "embassy-visa",
@@ -540,7 +578,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "DE": {
         "requirement": "visa-on-arrival",
@@ -556,7 +594,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$50 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "GR": {
         "requirement": "visa-on-arrival",
@@ -567,9 +605,19 @@
         "notes": "30-day visa on arrival (about US$51, cash) at Dhaka and other international airports for tourism and short business visits — issued at officers' discretion, so carry a return ticket and hotel details, and confirm eligibility with your airline before flying."
       },
       "GD": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free under bilateral exemption agreements, generally for up to 90 days. Confirm the exact allowance with a Bangladeshi mission before travel."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Not visa-free: the Home Ministry's list of visa-waiver agreements (October 2024) covers ordinary passports only for the Maldives. Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival.",
+        "source": {
+          "url": "https://ssd.gov.bd/pages/static-pages/694032be35ce18e1c05619f7",
+          "name": "Security Services Division, Ministry of Home Affairs — countries with visa-exemption agreements with Bangladesh (as of 30 October 2024)",
+          "type": "government",
+          "lastVerified": "2026-10-02",
+          "lastChanged": "2026-10-02"
+        }
       },
       "GT": {
         "requirement": "embassy-visa",
@@ -577,7 +625,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$12 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "GN": {
         "requirement": "embassy-visa",
@@ -585,7 +633,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "GW": {
         "requirement": "embassy-visa",
@@ -593,7 +641,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "GY": {
         "requirement": "embassy-visa",
@@ -601,7 +649,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$7 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "HT": {
         "requirement": "embassy-visa",
@@ -609,7 +657,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "HN": {
         "requirement": "embassy-visa",
@@ -617,7 +665,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$12 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "HK": {
         "requirement": "embassy-visa",
@@ -625,7 +673,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$21 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "HU": {
         "requirement": "visa-on-arrival",
@@ -657,7 +705,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$45 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "IR": {
         "requirement": "embassy-visa",
@@ -665,7 +713,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$29 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "IQ": {
         "requirement": "embassy-visa",
@@ -673,7 +721,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists Tk 2,000 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "IE": {
         "requirement": "visa-on-arrival",
@@ -697,9 +745,19 @@
         "notes": "30-day visa on arrival (about US$51, cash) at Dhaka and other international airports for tourism and short business visits — issued at officers' discretion, so carry a return ticket and hotel details, and confirm eligibility with your airline before flying."
       },
       "JM": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free under bilateral exemption agreements, generally for up to 90 days. Confirm the exact allowance with a Bangladeshi mission before travel."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Not visa-free: the Home Ministry's list of visa-waiver agreements (October 2024) covers ordinary passports only for the Maldives. Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival.",
+        "source": {
+          "url": "https://ssd.gov.bd/pages/static-pages/694032be35ce18e1c05619f7",
+          "name": "Security Services Division, Ministry of Home Affairs — countries with visa-exemption agreements with Bangladesh (as of 30 October 2024)",
+          "type": "government",
+          "lastVerified": "2026-10-02",
+          "lastChanged": "2026-10-02"
+        }
       },
       "JP": {
         "requirement": "visa-on-arrival",
@@ -715,7 +773,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$30 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "KZ": {
         "requirement": "embassy-visa",
@@ -723,7 +781,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$70 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "KE": {
         "requirement": "embassy-visa",
@@ -731,7 +789,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$50 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "KI": {
         "requirement": "embassy-visa",
@@ -739,15 +797,15 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$5 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "XK": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
         "visaTypes": [
-          "tourist-visa"
+          "voa-tourist"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "30-day visa on arrival (about US$51, cash) at Dhaka and other international airports for tourism and short business visits — issued at officers' discretion, so carry a return ticket and hotel details, and confirm eligibility with your airline before flying."
       },
       "KW": {
         "requirement": "visa-on-arrival",
@@ -763,7 +821,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$70 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "LA": {
         "requirement": "embassy-visa",
@@ -771,7 +829,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$12 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "LV": {
         "requirement": "visa-on-arrival",
@@ -787,12 +845,22 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$44 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "LS": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free under bilateral exemption agreements, generally for up to 90 days. Confirm the exact allowance with a Bangladeshi mission before travel."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Not visa-free: the Home Ministry's list of visa-waiver agreements (October 2024) covers ordinary passports only for the Maldives. Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival.",
+        "source": {
+          "url": "https://ssd.gov.bd/pages/static-pages/694032be35ce18e1c05619f7",
+          "name": "Security Services Division, Ministry of Home Affairs — countries with visa-exemption agreements with Bangladesh (as of 30 October 2024)",
+          "type": "government",
+          "lastVerified": "2026-10-02",
+          "lastChanged": "2026-10-02"
+        }
       },
       "LR": {
         "requirement": "embassy-visa",
@@ -800,7 +868,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$50 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "LY": {
         "requirement": "embassy-visa",
@@ -808,7 +876,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$23 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "LI": {
         "requirement": "visa-on-arrival",
@@ -840,7 +908,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists HK$100 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "MG": {
         "requirement": "embassy-visa",
@@ -848,12 +916,22 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$50 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "MW": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free under bilateral exemption agreements, generally for up to 90 days. Confirm the exact allowance with a Bangladeshi mission before travel."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Not visa-free: the Home Ministry's list of visa-waiver agreements (October 2024) covers ordinary passports only for the Maldives. Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival.",
+        "source": {
+          "url": "https://ssd.gov.bd/pages/static-pages/694032be35ce18e1c05619f7",
+          "name": "Security Services Division, Ministry of Home Affairs — countries with visa-exemption agreements with Bangladesh (as of 30 October 2024)",
+          "type": "government",
+          "lastVerified": "2026-10-02",
+          "lastChanged": "2026-10-02"
+        }
       },
       "MY": {
         "requirement": "visa-on-arrival",
@@ -866,7 +944,14 @@
       "MV": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free under bilateral exemption agreements, generally for up to 90 days. Confirm the exact allowance with a Bangladeshi mission before travel."
+        "notes": "Visa-free for up to 90 days under the Bangladesh–Maldives visa-waiver agreement, which covers all passports but not employment.",
+        "source": {
+          "url": "https://ssd.gov.bd/pages/static-pages/694032be35ce18e1c05619f7",
+          "name": "Security Services Division, Ministry of Home Affairs — countries with visa-exemption agreements with Bangladesh (as of 30 October 2024)",
+          "type": "government",
+          "lastVerified": "2026-10-02",
+          "lastChanged": "2026-10-02"
+        }
       },
       "ML": {
         "requirement": "embassy-visa",
@@ -874,7 +959,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$11 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "MT": {
         "requirement": "visa-on-arrival",
@@ -890,7 +975,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "MR": {
         "requirement": "embassy-visa",
@@ -898,7 +983,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$50 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "MU": {
         "requirement": "embassy-visa",
@@ -906,7 +991,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$15 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "MX": {
         "requirement": "embassy-visa",
@@ -914,7 +999,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$36 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "FM": {
         "requirement": "embassy-visa",
@@ -922,23 +1007,23 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "MD": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
         "visaTypes": [
-          "tourist-visa"
+          "voa-tourist"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "30-day visa on arrival (about US$51, cash) at Dhaka and other international airports for tourism and short business visits — issued at officers' discretion, so carry a return ticket and hotel details, and confirm eligibility with your airline before flying."
       },
       "MC": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
         "visaTypes": [
-          "tourist-visa"
+          "voa-tourist"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "30-day visa on arrival (about US$51, cash) at Dhaka and other international airports for tourism and short business visits — issued at officers' discretion, so carry a return ticket and hotel details, and confirm eligibility with your airline before flying."
       },
       "MN": {
         "requirement": "embassy-visa",
@@ -946,15 +1031,15 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$40 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "ME": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
         "visaTypes": [
-          "tourist-visa"
+          "voa-tourist"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "30-day visa on arrival (about US$51, cash) at Dhaka and other international airports for tourism and short business visits — issued at officers' discretion, so carry a return ticket and hotel details, and confirm eligibility with your airline before flying."
       },
       "MA": {
         "requirement": "embassy-visa",
@@ -962,7 +1047,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$26 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "MZ": {
         "requirement": "embassy-visa",
@@ -970,7 +1055,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$25 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "MM": {
         "requirement": "embassy-visa",
@@ -978,7 +1063,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$35 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "NA": {
         "requirement": "embassy-visa",
@@ -986,7 +1071,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "NR": {
         "requirement": "embassy-visa",
@@ -994,7 +1079,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "NP": {
         "requirement": "embassy-visa",
@@ -1002,7 +1087,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$30 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "NL": {
         "requirement": "visa-on-arrival",
@@ -1026,7 +1111,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$25 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "NE": {
         "requirement": "embassy-visa",
@@ -1034,7 +1119,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$40 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "NG": {
         "requirement": "embassy-visa",
@@ -1042,7 +1127,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$100 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "KP": {
         "requirement": "embassy-visa",
@@ -1050,15 +1135,15 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$12 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "MK": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
         "visaTypes": [
-          "tourist-visa"
+          "voa-tourist"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "30-day visa on arrival (about US$51, cash) at Dhaka and other international airports for tourism and short business visits — issued at officers' discretion, so carry a return ticket and hotel details, and confirm eligibility with your airline before flying."
       },
       "NO": {
         "requirement": "visa-on-arrival",
@@ -1082,7 +1167,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$2 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "PW": {
         "requirement": "embassy-visa",
@@ -1090,7 +1175,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "PS": {
         "requirement": "embassy-visa",
@@ -1098,7 +1183,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$14.14 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "PA": {
         "requirement": "embassy-visa",
@@ -1106,12 +1191,22 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$10 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "PG": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free under bilateral exemption agreements, generally for up to 90 days. Confirm the exact allowance with a Bangladeshi mission before travel."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Not visa-free: the Home Ministry's list of visa-waiver agreements (October 2024) covers ordinary passports only for the Maldives. Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$7 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival.",
+        "source": {
+          "url": "https://ssd.gov.bd/pages/static-pages/694032be35ce18e1c05619f7",
+          "name": "Security Services Division, Ministry of Home Affairs — countries with visa-exemption agreements with Bangladesh (as of 30 October 2024)",
+          "type": "government",
+          "lastVerified": "2026-10-02",
+          "lastChanged": "2026-10-02"
+        }
       },
       "PY": {
         "requirement": "embassy-visa",
@@ -1119,7 +1214,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$5 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "PE": {
         "requirement": "embassy-visa",
@@ -1127,7 +1222,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$12 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "PH": {
         "requirement": "embassy-visa",
@@ -1135,7 +1230,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$60 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "PL": {
         "requirement": "visa-on-arrival",
@@ -1167,7 +1262,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "RO": {
         "requirement": "visa-on-arrival",
@@ -1191,35 +1286,75 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$5 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "KN": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free under bilateral exemption agreements, generally for up to 90 days. Confirm the exact allowance with a Bangladeshi mission before travel."
-      },
-      "LC": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free under bilateral exemption agreements, generally for up to 90 days. Confirm the exact allowance with a Bangladeshi mission before travel."
-      },
-      "VC": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free under bilateral exemption agreements, generally for up to 90 days. Confirm the exact allowance with a Bangladeshi mission before travel."
-      },
-      "WS": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free under bilateral exemption agreements, generally for up to 90 days. Confirm the exact allowance with a Bangladeshi mission before travel."
-      },
-      "SM": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Not visa-free: the Home Ministry's list of visa-waiver agreements (October 2024) covers ordinary passports only for the Maldives. Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival.",
+        "source": {
+          "url": "https://ssd.gov.bd/pages/static-pages/694032be35ce18e1c05619f7",
+          "name": "Security Services Division, Ministry of Home Affairs — countries with visa-exemption agreements with Bangladesh (as of 30 October 2024)",
+          "type": "government",
+          "lastVerified": "2026-10-02",
+          "lastChanged": "2026-10-02"
+        }
+      },
+      "LC": {
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Not visa-free: the Home Ministry's list of visa-waiver agreements (October 2024) covers ordinary passports only for the Maldives. Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival.",
+        "source": {
+          "url": "https://ssd.gov.bd/pages/static-pages/694032be35ce18e1c05619f7",
+          "name": "Security Services Division, Ministry of Home Affairs — countries with visa-exemption agreements with Bangladesh (as of 30 October 2024)",
+          "type": "government",
+          "lastVerified": "2026-10-02",
+          "lastChanged": "2026-10-02"
+        }
+      },
+      "VC": {
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Not visa-free: the Home Ministry's list of visa-waiver agreements (October 2024) covers ordinary passports only for the Maldives. Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival.",
+        "source": {
+          "url": "https://ssd.gov.bd/pages/static-pages/694032be35ce18e1c05619f7",
+          "name": "Security Services Division, Ministry of Home Affairs — countries with visa-exemption agreements with Bangladesh (as of 30 October 2024)",
+          "type": "government",
+          "lastVerified": "2026-10-02",
+          "lastChanged": "2026-10-02"
+        }
+      },
+      "WS": {
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Not visa-free: the Home Ministry's list of visa-waiver agreements (October 2024) covers ordinary passports only for the Maldives. Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival.",
+        "source": {
+          "url": "https://ssd.gov.bd/pages/static-pages/694032be35ce18e1c05619f7",
+          "name": "Security Services Division, Ministry of Home Affairs — countries with visa-exemption agreements with Bangladesh (as of 30 October 2024)",
+          "type": "government",
+          "lastVerified": "2026-10-02",
+          "lastChanged": "2026-10-02"
+        }
+      },
+      "SM": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "voa-tourist"
+        ],
+        "notes": "30-day visa on arrival (about US$51, cash) at Dhaka and other international airports for tourism and short business visits — issued at officers' discretion, so carry a return ticket and hotel details, and confirm eligibility with your airline before flying."
       },
       "ST": {
         "requirement": "embassy-visa",
@@ -1227,7 +1362,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "SA": {
         "requirement": "visa-on-arrival",
@@ -1243,25 +1378,45 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$22 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "RS": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "voa-tourist"
+        ],
+        "notes": "30-day visa on arrival (about US$51, cash) at Dhaka and other international airports for tourism and short business visits — issued at officers' discretion, so carry a return ticket and hotel details, and confirm eligibility with your airline before flying."
+      },
+      "SC": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
-      },
-      "SC": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free under bilateral exemption agreements, generally for up to 90 days. Confirm the exact allowance with a Bangladeshi mission before travel."
+        "notes": "Not visa-free: the Home Ministry's list of visa-waiver agreements (October 2024) covers ordinary passports only for the Maldives. Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival.",
+        "source": {
+          "url": "https://ssd.gov.bd/pages/static-pages/694032be35ce18e1c05619f7",
+          "name": "Security Services Division, Ministry of Home Affairs — countries with visa-exemption agreements with Bangladesh (as of 30 October 2024)",
+          "type": "government",
+          "lastVerified": "2026-10-02",
+          "lastChanged": "2026-10-02"
+        }
       },
       "SL": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free under bilateral exemption agreements, generally for up to 90 days. Confirm the exact allowance with a Bangladeshi mission before travel."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Not visa-free: the Home Ministry's list of visa-waiver agreements (October 2024) covers ordinary passports only for the Maldives. Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$11 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival.",
+        "source": {
+          "url": "https://ssd.gov.bd/pages/static-pages/694032be35ce18e1c05619f7",
+          "name": "Security Services Division, Ministry of Home Affairs — countries with visa-exemption agreements with Bangladesh (as of 30 October 2024)",
+          "type": "government",
+          "lastVerified": "2026-10-02",
+          "lastChanged": "2026-10-02"
+        }
       },
       "SG": {
         "requirement": "visa-on-arrival",
@@ -1288,9 +1443,19 @@
         "notes": "30-day visa on arrival (about US$51, cash) at Dhaka and other international airports for tourism and short business visits — issued at officers' discretion, so carry a return ticket and hotel details, and confirm eligibility with your airline before flying."
       },
       "SB": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free under bilateral exemption agreements, generally for up to 90 days. Confirm the exact allowance with a Bangladeshi mission before travel."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Not visa-free: the Home Ministry's list of visa-waiver agreements (October 2024) covers ordinary passports only for the Maldives. Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival.",
+        "source": {
+          "url": "https://ssd.gov.bd/pages/static-pages/694032be35ce18e1c05619f7",
+          "name": "Security Services Division, Ministry of Home Affairs — countries with visa-exemption agreements with Bangladesh (as of 30 October 2024)",
+          "type": "government",
+          "lastVerified": "2026-10-02",
+          "lastChanged": "2026-10-02"
+        }
       },
       "SO": {
         "requirement": "embassy-visa",
@@ -1298,7 +1463,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$35 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "ZA": {
         "requirement": "embassy-visa",
@@ -1306,7 +1471,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$40 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "KR": {
         "requirement": "visa-on-arrival",
@@ -1322,7 +1487,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "ES": {
         "requirement": "visa-on-arrival",
@@ -1338,7 +1503,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$10 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "SD": {
         "requirement": "embassy-visa",
@@ -1346,7 +1511,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$50 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "SR": {
         "requirement": "embassy-visa",
@@ -1354,7 +1519,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$17 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "SE": {
         "requirement": "visa-on-arrival",
@@ -1378,7 +1543,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$44 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "TW": {
         "requirement": "embassy-visa",
@@ -1386,7 +1551,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$52 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "TJ": {
         "requirement": "embassy-visa",
@@ -1394,7 +1559,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$63 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "TZ": {
         "requirement": "embassy-visa",
@@ -1402,7 +1567,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$50 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "TH": {
         "requirement": "embassy-visa",
@@ -1410,7 +1575,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$66 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "TL": {
         "requirement": "embassy-visa",
@@ -1418,7 +1583,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "TG": {
         "requirement": "embassy-visa",
@@ -1426,17 +1591,37 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "TO": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free under bilateral exemption agreements, generally for up to 90 days. Confirm the exact allowance with a Bangladeshi mission before travel."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Not visa-free: the Home Ministry's list of visa-waiver agreements (October 2024) covers ordinary passports only for the Maldives. Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$5 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival.",
+        "source": {
+          "url": "https://ssd.gov.bd/pages/static-pages/694032be35ce18e1c05619f7",
+          "name": "Security Services Division, Ministry of Home Affairs — countries with visa-exemption agreements with Bangladesh (as of 30 October 2024)",
+          "type": "government",
+          "lastVerified": "2026-10-02",
+          "lastChanged": "2026-10-02"
+        }
       },
       "TT": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free under bilateral exemption agreements, generally for up to 90 days. Confirm the exact allowance with a Bangladeshi mission before travel."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Not visa-free: the Home Ministry's list of visa-waiver agreements (October 2024) covers ordinary passports only for the Maldives. Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$11 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival.",
+        "source": {
+          "url": "https://ssd.gov.bd/pages/static-pages/694032be35ce18e1c05619f7",
+          "name": "Security Services Division, Ministry of Home Affairs — countries with visa-exemption agreements with Bangladesh (as of 30 October 2024)",
+          "type": "government",
+          "lastVerified": "2026-10-02",
+          "lastChanged": "2026-10-02"
+        }
       },
       "TN": {
         "requirement": "embassy-visa",
@@ -1444,15 +1629,15 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$19 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "TR": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
         "visaTypes": [
-          "tourist-visa"
+          "voa-tourist"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "30-day visa on arrival (about US$51, cash) at Dhaka and other international airports for tourism and short business visits — issued at officers' discretion, so carry a return ticket and hotel details, and confirm eligibility with your airline before flying."
       },
       "TM": {
         "requirement": "embassy-visa",
@@ -1460,7 +1645,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$31 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "TV": {
         "requirement": "embassy-visa",
@@ -1468,7 +1653,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$5 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "UG": {
         "requirement": "embassy-visa",
@@ -1476,15 +1661,15 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$50 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "UA": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
         "visaTypes": [
-          "tourist-visa"
+          "voa-tourist"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "30-day visa on arrival (about US$51, cash) at Dhaka and other international airports for tourism and short business visits — issued at officers' discretion, so carry a return ticket and hotel details, and confirm eligibility with your airline before flying."
       },
       "AE": {
         "requirement": "visa-on-arrival",
@@ -1516,7 +1701,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$37 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "UZ": {
         "requirement": "embassy-visa",
@@ -1524,20 +1709,30 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$70 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "VU": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free under bilateral exemption agreements, generally for up to 90 days. Confirm the exact allowance with a Bangladeshi mission before travel."
-      },
-      "VA": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Not visa-free: the Home Ministry's list of visa-waiver agreements (October 2024) covers ordinary passports only for the Maldives. Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$5 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival.",
+        "source": {
+          "url": "https://ssd.gov.bd/pages/static-pages/694032be35ce18e1c05619f7",
+          "name": "Security Services Division, Ministry of Home Affairs — countries with visa-exemption agreements with Bangladesh (as of 30 October 2024)",
+          "type": "government",
+          "lastVerified": "2026-10-02",
+          "lastChanged": "2026-10-02"
+        }
+      },
+      "VA": {
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "voa-tourist"
+        ],
+        "notes": "30-day visa on arrival (about US$51, cash) at Dhaka and other international airports for tourism and short business visits — issued at officers' discretion, so carry a return ticket and hotel details, and confirm eligibility with your airline before flying."
       },
       "VE": {
         "requirement": "embassy-visa",
@@ -1545,7 +1740,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$20 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "VN": {
         "requirement": "embassy-visa",
@@ -1553,7 +1748,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$25 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "YE": {
         "requirement": "embassy-visa",
@@ -1561,12 +1756,22 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$11 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       },
       "ZM": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free under bilateral exemption agreements, generally for up to 90 days. Confirm the exact allowance with a Bangladeshi mission before travel."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "Not visa-free: the Home Ministry's list of visa-waiver agreements (October 2024) covers ordinary passports only for the Maldives. Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival.",
+        "source": {
+          "url": "https://ssd.gov.bd/pages/static-pages/694032be35ce18e1c05619f7",
+          "name": "Security Services Division, Ministry of Home Affairs — countries with visa-exemption agreements with Bangladesh (as of 30 October 2024)",
+          "type": "government",
+          "lastVerified": "2026-10-02",
+          "lastChanged": "2026-10-02"
+        }
       },
       "ZW": {
         "requirement": "embassy-visa",
@@ -1574,7 +1779,7 @@
         "visaTypes": [
           "tourist-visa"
         ],
-        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd."
+        "notes": "Apply for a visa before travel through a Bangladeshi embassy or high commission, starting the application on the official portal visa.gov.bd. The official fee schedule there lists US$25 for a single-entry visa for your nationality. If you are traveling from a country where Bangladesh has no mission, immigration may instead grant a 30-day visa on arrival."
       }
     }
   },
@@ -1587,7 +1792,7 @@
       "fee": {
         "amount": 51,
         "currency": "USD",
-        "notes": "Payable in cash in US dollars on arrival. Carry the exact amount."
+        "notes": "Paid on arrival in foreign currency (US dollars, pounds or euros). The 2016 circular does not print the amount; US$51 is the figure in common use. Nationals whose visas are fee-exempt pay nothing."
       },
       "processing": {
         "minDays": 15,
@@ -1603,16 +1808,12 @@
       },
       "applyUrl": null,
       "source": {
-        "url": "https://www.visa.gov.bd/",
-        "name": "Bangladesh Ministry of Foreign Affairs — official visa portal",
+        "url": "https://ssd.gov.bd/pages/static-pages/694032f235ce18e1c05648c6",
+        "name": "Security Services Division, Ministry of Home Affairs — Visa Policy (2006, amended to 2016) including the visa-on-arrival circular",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260809023322/https://visa.gov.bd/",
-        "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "unreachable"
-        },
-        "portalOnly": true
+        "lastVerified": "2026-10-02",
+        "lastChanged": "2026-10-02",
+        "instrument": "Ministry of Home Affairs circular 44.00.0000.039.19.001.12-1409 of 15 September 2016 (visa on arrival), reinstated by Security Services Division circular 58.00.0000.041.01.002.22-59 of 17 May 2022"
       }
     },
     {
@@ -1623,7 +1824,7 @@
       "fee": {
         "amount": 50,
         "currency": "USD",
-        "notes": "Indicative. Fees follow reciprocal schedules and vary by nationality; start the application at visa.gov.bd and submit at the mission."
+        "notes": "Set per nationality by the fee schedule published on visa.gov.bd — for a single-entry visa, for example, US$160 for US citizens, US$65 for British, US$50 for Japanese and Kenyan, US$15 for German citizens, and less or nothing for some. US$50 is only a common value."
       },
       "processing": {
         "minDays": 5,
@@ -1637,18 +1838,14 @@
         "possible": true,
         "days": 30
       },
-      "applyUrl": "https://www.visa.gov.bd/",
+      "applyUrl": "https://visa.gov.bd/",
       "source": {
-        "url": "https://www.visa.gov.bd/",
-        "name": "Bangladesh Ministry of Foreign Affairs — official visa portal",
+        "url": "https://visa.gov.bd/",
+        "name": "Department of Immigration and Passports — Bangladesh Online MRV (visa) portal and visa fee schedule",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260809023322/https://visa.gov.bd/",
-        "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "unreachable"
-        },
-        "portalOnly": true
+        "lastVerified": "2026-10-02",
+        "lastChanged": "2026-10-02",
+        "archiveUrl": "https://web.archive.org/web/20260809023322/https://visa.gov.bd/"
       }
     },
     {
@@ -1659,28 +1856,24 @@
       "fee": {
         "amount": 50,
         "currency": "USD",
-        "notes": "Indicative — varies by nationality; requires an invitation from a Bangladeshi company or organization."
+        "notes": "Set per nationality by the fee schedule on visa.gov.bd (the multiple-entry column applies); needs a trade-association certificate or a Bangladeshi sponsor's recommendation. Issued for up to one year with stays of up to two months per visit."
       },
       "processing": {
         "minDays": 5,
         "maxDays": 15,
         "unit": "business-days"
       },
-      "validityDays": 180,
-      "stayDays": 30,
+      "validityDays": 365,
+      "stayDays": 60,
       "entries": "multiple",
-      "applyUrl": "https://www.visa.gov.bd/",
+      "applyUrl": "https://visa.gov.bd/",
       "source": {
-        "url": "https://www.visa.gov.bd/",
-        "name": "Bangladesh Ministry of Foreign Affairs — official visa portal",
+        "url": "https://ssd.gov.bd/pages/static-pages/694032f235ce18e1c05648c6",
+        "name": "Security Services Division, Ministry of Home Affairs — Visa Policy (2006, amended to 2016)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260809023322/https://visa.gov.bd/",
-        "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "unreachable"
-        },
-        "portalOnly": true
+        "lastVerified": "2026-10-02",
+        "lastChanged": "2026-10-02",
+        "instrument": "Visa Policy 2006 as amended by Ministry of Home Affairs circular of 30 December 2008 (B and T visa classes)"
       }
     }
   ],
@@ -1695,7 +1888,7 @@
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260809023322/https://visa.gov.bd/",
         "unverifiable": {
-          "lastAttempt": "2026-09-26",
+          "lastAttempt": "2026-10-02",
           "reason": "unreachable"
         },
         "portalOnly": true
@@ -1715,7 +1908,7 @@
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260809023322/https://visa.gov.bd/",
           "unverifiable": {
-            "lastAttempt": "2026-09-26",
+            "lastAttempt": "2026-10-02",
             "reason": "unreachable"
           },
           "portalOnly": true
@@ -1734,7 +1927,7 @@
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260809023322/https://visa.gov.bd/",
         "unverifiable": {
-          "lastAttempt": "2026-09-26",
+          "lastAttempt": "2026-10-02",
           "reason": "unreachable"
         },
         "portalOnly": true
@@ -1745,38 +1938,29 @@
       "appliesTo": "all",
       "text": "Visa-on-arrival travelers must show a return or onward ticket; embassy-visa holders may also be asked by airlines at check-in.",
       "source": {
-        "url": "https://www.visa.gov.bd/",
-        "name": "Bangladesh Ministry of Foreign Affairs — official visa portal",
+        "url": "https://ssd.gov.bd/pages/static-pages/694032f235ce18e1c05648c6",
+        "name": "Security Services Division, Ministry of Home Affairs — Visa Policy (2006, amended to 2016) including the visa-on-arrival circular",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260809023322/https://visa.gov.bd/",
-        "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "unreachable"
-        },
-        "portalOnly": true
+        "lastVerified": "2026-10-02",
+        "instrument": "Ministry of Home Affairs circular 44.00.0000.039.19.001.12-1409 of 15 September 2016 (visa on arrival), reinstated by Security Services Division circular 58.00.0000.041.01.002.22-59 of 17 May 2022"
       }
     },
     "proofOfFunds": {
       "required": true,
-      "appliesTo": "all",
+      "appliesTo": "visa-applicants",
       "amount": {
         "value": 500,
         "currency": "USD",
         "per": "trip"
       },
-      "text": "Visa-on-arrival travelers are commonly asked to show around US$500 (cash or a card statement) plus hotel details; embassy-visa holders are rarely checked. Requirements are applied with discretion.",
+      "text": "Visa-on-arrival travelers must carry at least US$500 or the equivalent in foreign currency, in cash or on a credit card (official visits excepted), under the 2016 Home Ministry circular. Embassy-visa holders are not covered by that rule.",
       "source": {
-        "url": "https://www.visa.gov.bd/",
-        "name": "Bangladesh Ministry of Foreign Affairs — official visa portal",
+        "url": "https://ssd.gov.bd/pages/static-pages/694032f235ce18e1c05648c6",
+        "name": "Security Services Division, Ministry of Home Affairs — Visa Policy (2006, amended to 2016) including the visa-on-arrival circular",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260809023322/https://visa.gov.bd/",
-        "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "unreachable"
-        },
-        "portalOnly": true
+        "lastVerified": "2026-10-02",
+        "lastChanged": "2026-10-02",
+        "instrument": "Ministry of Home Affairs circular 44.00.0000.039.19.001.12-1409 of 15 September 2016 (visa on arrival), reinstated by Security Services Division circular 58.00.0000.041.01.002.22-59 of 17 May 2022"
       }
     },
     "declarations": [
@@ -1796,7 +1980,7 @@
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260809023322/https://visa.gov.bd/",
           "unverifiable": {
-            "lastAttempt": "2026-09-26",
+            "lastAttempt": "2026-10-02",
             "reason": "unreachable"
           },
           "portalOnly": true
@@ -1813,7 +1997,7 @@
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260809023322/https://visa.gov.bd/",
           "unverifiable": {
-            "lastAttempt": "2026-09-26",
+            "lastAttempt": "2026-10-02",
             "reason": "unreachable"
           },
           "portalOnly": true
@@ -1938,12 +2122,12 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Bangladesh?",
-      "answer": "Almost everyone needs one, but many tourists get it at the airport: citizens of most European countries, the US, Canada, Australia, New Zealand, Japan, South Korea, Singapore, China, Russia and the Gulf states can obtain a 30-day visa on arrival for about US$51. Other nationalities apply through a Bangladeshi mission, starting online at visa.gov.bd. A short list of countries — mostly Commonwealth small states — is visa-free."
+      "answer": "Almost everyone needs one, but many tourists get it at the airport: citizens of the US, Canada, Australia, New Zealand, the countries of Europe, Russia, China, Japan, South Korea, Singapore, Malaysia, Brunei, Turkey, Egypt and the Gulf states can obtain a 30-day visa on arrival for about US$51. Other nationalities apply through a Bangladeshi mission, starting online at visa.gov.bd, where the fee schedule lists the fee for each nationality. Only Maldivian citizens are visa-free."
     },
     {
       "id": "voa-details",
       "question": "How does Bangladesh's visa on arrival work?",
-      "answer": "Eligible tourists pay about US$51 in cash at Dhaka (or another international airport) for a single-entry, 30-day stay. Bring a return ticket, hotel details and roughly US$500 in funds or a card statement — issuance is at the officer's discretion, so confirm eligibility with your airline before flying."
+      "answer": "Eligible travelers pay the fee (about US$51) in US dollars, pounds or euros at Dhaka or another international airport or land port, for a single-entry stay of up to 30 days. Bring a return air ticket, hotel details and at least US$500 in cash or on a credit card — these are conditions of the 2016 circular, and issuance is at the officer's discretion, so confirm eligibility with your airline before flying."
     },
     {
       "id": "extend-stay",

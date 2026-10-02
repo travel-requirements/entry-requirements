@@ -19,7 +19,7 @@
   ],
   "summary": "ECOWAS citizens enter Ghana without a visa, African Union citizens apply online for an AU ETA, and a few Caribbean and Asian passports qualify for their own ETA; most other visitors need an eVisa (USD 260, up to 60 days) from the Ghana Immigration Service portal or a visa from a Ghanaian embassy.",
   "meta": {
-    "lastUpdated": "2026-09-27",
+    "lastUpdated": "2026-10-02",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -31,7 +31,7 @@
         "archiveUrl": "https://web.archive.org/web/20260821172444/https://gis.gov.gh/",
         "portalOnly": true,
         "unverifiable": {
-          "lastAttempt": "2026-09-26",
+          "lastAttempt": "2026-10-02",
           "reason": "not-stated"
         }
       }
@@ -1986,7 +1986,7 @@
       "fee": {
         "amount": 60,
         "currency": "USD",
-        "notes": "Approximate. Fees vary considerably by nationality and by the embassy or high commission handling the application; confirm before applying."
+        "notes": "USD 60 for a single-entry visa at the Embassy in Washington (USD 100 expedited; multiple entry USD 100). The High Commission in London charges GBP 60. Other missions publish their own fees."
       },
       "processing": {
         "minDays": 5,
@@ -2002,44 +2002,42 @@
       },
       "applyUrl": null,
       "source": {
-        "url": "https://gis.gov.gh/",
-        "name": "Ghana Immigration Service",
+        "url": "https://washington.mfa.gov.gh/services/consular-fees",
+        "name": "Embassy of Ghana, Washington DC — Consular fees",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260821172444/https://gis.gov.gh/",
-        "portalOnly": true,
+        "lastVerified": "2026-10-02",
+        "lastChanged": "2026-10-02",
         "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "not-stated"
+          "lastAttempt": "2026-10-02",
+          "reason": "client-rendered"
         }
       }
     },
     {
-      "id": "seasonal-voa",
+      "id": "emergency-entry-visa",
       "category": "tourist",
       "method": "visa-on-arrival",
-      "name": "Visa on Arrival (December–January seasonal scheme)",
+      "name": "Emergency Entry Visa (visa on arrival, approved in advance)",
       "fee": {
-        "amount": 150,
+        "amount": 200,
         "currency": "USD",
-        "notes": "Fee reported at around USD 150 in recent seasons. The scheme is announced year by year, so confirm the current terms with the Ghana Immigration Service before traveling."
+        "notes": "Your host in Ghana applies to Ghana Immigration Service headquarters before you travel; carry the approval letter, which is checked at boarding and on arrival. There is no walk-up visa on arrival."
       },
-      "processing": null,
+      "processing": {
+        "minDays": 3,
+        "maxDays": 5,
+        "unit": "business-days"
+      },
       "validityDays": null,
       "stayDays": 30,
       "entries": "single",
       "applyUrl": null,
       "source": {
-        "url": "https://gis.gov.gh/",
-        "name": "Ghana Immigration Service",
+        "url": "https://gis.gov.gh/fees-and-charges/",
+        "name": "Ghana Immigration Service — Fees and charges (effective 15 May 2025)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260821172444/https://gis.gov.gh/",
-        "portalOnly": true,
-        "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "not-stated"
-        }
+        "lastVerified": "2026-10-02",
+        "lastChanged": "2026-10-02"
       }
     }
   ],
@@ -2076,68 +2074,47 @@
       "minCoverage": null,
       "text": "No insurance requirement is enforced at the border, but medical coverage including evacuation is strongly advised — well-equipped hospitals are limited outside Accra and Kumasi.",
       "source": {
-        "url": "https://gis.gov.gh/",
-        "name": "Ghana Immigration Service",
+        "url": "https://evisa.immigration.gov.gh/applicant-guide.html",
+        "name": "Ghana Immigration Service — eVisa Applicant Guide",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260821172444/https://gis.gov.gh/",
-        "portalOnly": true,
-        "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "not-stated"
-        }
+        "lastVerified": "2026-10-02"
       }
     },
     "onwardTicket": {
       "required": true,
-      "appliesTo": "all",
-      "text": "Airlines and border officers commonly ask visa-required visitors for a confirmed return or onward ticket; keep proof of accommodation handy as well.",
+      "appliesTo": "visa-applicants",
+      "text": "Tourist and business visa applicants must provide a confirmed return or onward ticket and proof of accommodation covering the whole stay.",
       "source": {
-        "url": "https://gis.gov.gh/",
-        "name": "Ghana Immigration Service",
+        "url": "https://evisa.immigration.gov.gh/applicant-guide.html",
+        "name": "Ghana Immigration Service — eVisa Applicant Guide",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260821172444/https://gis.gov.gh/",
-        "portalOnly": true,
-        "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "not-stated"
-        }
+        "lastVerified": "2026-10-02",
+        "lastChanged": "2026-10-02"
       }
     },
     "proofOfFunds": {
-      "required": false,
-      "appliesTo": null,
+      "required": true,
+      "appliesTo": "visa-applicants",
       "amount": null,
-      "text": "No fixed amount is published; border officers may ask visitors to show sufficient means for their stay.",
+      "text": "Tourist visa applicants must show sufficient funds, such as a bank or credit card statement covering the last 3 months. No minimum amount is published.",
       "source": {
-        "url": "https://gis.gov.gh/",
-        "name": "Ghana Immigration Service",
+        "url": "https://evisa.immigration.gov.gh/applicant-guide.html",
+        "name": "Ghana Immigration Service — eVisa Applicant Guide",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260821172444/https://gis.gov.gh/",
-        "portalOnly": true,
-        "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "not-stated"
-        }
+        "lastVerified": "2026-10-02",
+        "lastChanged": "2026-10-02"
       }
     },
     "declarations": [],
     "customs": {
       "currencyLimits": {
-        "text": "Foreign currency worth USD 10,000 or more (or the equivalent) must be declared on arrival and departure.",
+        "text": "Declare all foreign currency on the form provided on arrival. Do not carry more than the equivalent of USD 10,000 in foreign currency: the authorities can confiscate the entire amount.",
         "source": {
-          "url": "https://gis.gov.gh/",
-          "name": "Ghana Immigration Service",
+          "url": "https://www.gov.uk/foreign-travel-advice/ghana/entry-requirements",
+          "name": "UK Foreign Office — Ghana entry requirements",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260821172444/https://gis.gov.gh/",
-          "portalOnly": true,
-          "unverifiable": {
-            "lastAttempt": "2026-09-26",
-            "reason": "not-stated"
-          }
+          "lastVerified": "2026-10-02",
+          "lastChanged": "2026-10-02"
         }
       },
       "notes": [
@@ -2234,7 +2211,7 @@
     {
       "id": "december-voa",
       "type": "tip",
-      "text": "Use the eligibility checker on evisa.immigration.gov.gh before you book: it tells you whether your passport needs an eVisa, an ETA or nothing at all. Ghana has run seasonal December–January visa-on-arrival schemes in past years, but the portal does not offer one."
+      "text": "Use the eligibility checker on evisa.immigration.gov.gh before you book: it tells you whether your passport needs an eVisa, an ETA or nothing at all. Do not count on a visa at the airport: the only visa on arrival is the Emergency Entry Visa, which your host must get approved before you fly."
     },
     {
       "id": "yellow-fever-check",
@@ -2266,7 +2243,7 @@
     {
       "id": "december-voa",
       "question": "Can I get a visa on arrival in Ghana?",
-      "answer": "Not through the official portal. The Ghana Immigration Service eVisa portal directs visa-required travellers to an eVisa or an embassy visa before travel, and says the AU ETA replaces the visa on arrival for African Union citizens. Ghana has run seasonal December–January visa-on-arrival schemes in past years; if one is announced, confirm its terms with the Ghana Immigration Service before relying on it."
+      "answer": "Only with approval arranged before you travel. The Ghana Immigration Service's visa on arrival is the Emergency Entry Visa: your host in Ghana applies to GIS headquarters, the fee is USD 200, and you carry the approval letter to check-in and to Kotoka airport. There is no walk-up visa on arrival, and the AU ETA replaces it for African Union citizens. Most visitors should get an eVisa or an embassy visa instead."
     },
     {
       "id": "yellow-fever",
