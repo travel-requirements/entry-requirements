@@ -1420,7 +1420,10 @@
         "id": "etravel",
         "name": "eTravel Registration",
         "mandatory": true,
-        "fee": null,
+        "fee": {
+          "amount": 0,
+          "currency": "PHP"
+        },
         "submitAt": "before-travel",
         "submitWindow": "Within 72 hours before arrival",
         "url": "https://etravel.gov.ph/",

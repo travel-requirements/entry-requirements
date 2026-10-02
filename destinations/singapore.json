@@ -1381,7 +1381,10 @@
         "id": "sgac",
         "name": "SG Arrival Card (SGAC)",
         "mandatory": true,
-        "fee": null,
+        "fee": {
+          "amount": 0,
+          "currency": "SGD"
+        },
         "submitAt": "before-travel",
         "submitWindow": "Within 3 days before arrival",
         "url": "https://eservices.ica.gov.sg/sgarrivalcard/",

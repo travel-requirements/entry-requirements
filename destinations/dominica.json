@@ -1754,7 +1754,10 @@
         "id": "immigration-customs-form",
         "name": "Immigration and customs declaration",
         "mandatory": true,
-        "fee": null,
+        "fee": {
+          "amount": 0,
+          "currency": "XCD"
+        },
         "submitAt": "before-travel",
         "submitWindow": "No more than 3 days before travel",
         "url": "https://edcard.dominica.gov.dm/",

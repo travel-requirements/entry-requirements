@@ -1803,7 +1803,10 @@
         "id": "imuga",
         "name": "Imuga Traveller Declaration",
         "mandatory": true,
-        "fee": null,
+        "fee": {
+          "amount": 0,
+          "currency": "MVR"
+        },
         "submitAt": "before-travel",
         "submitWindow": "Within 96 hours before arrival (and again before departure)",
         "url": "https://imuga.immigration.gov.mv/",

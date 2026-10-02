@@ -1773,7 +1773,10 @@
         "id": "nztd",
         "name": "New Zealand Traveller Declaration (NZTD)",
         "mandatory": true,
-        "fee": null,
+        "fee": {
+          "amount": 0,
+          "currency": "NZD"
+        },
         "submitAt": "before-travel",
         "submitWindow": "Before departure for New Zealand (opens 24 hours before flights)",
         "url": "https://www.travellerdeclaration.govt.nz/",

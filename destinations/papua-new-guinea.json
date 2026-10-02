@@ -2824,7 +2824,10 @@
         "id": "arrival-declaration",
         "name": "PNG Digital Arrival Card (PNGDAC)",
         "mandatory": true,
-        "fee": null,
+        "fee": {
+          "amount": 0,
+          "currency": "PGK"
+        },
         "submitAt": "before-travel",
         "submitWindow": "Online within 72 hours before arrival, and before check-in",
         "url": "https://pngdac.ica.gov.pg/",

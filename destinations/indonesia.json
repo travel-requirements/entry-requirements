@@ -1720,7 +1720,10 @@
         "id": "e-cd",
         "name": "Electronic Customs Declaration (e-CD)",
         "mandatory": true,
-        "fee": null,
+        "fee": {
+          "amount": 0,
+          "currency": "IDR"
+        },
         "submitAt": "before-travel",
         "submitWindow": "Within 3 days before arrival",
         "url": "https://allindonesia.imigrasi.go.id/",

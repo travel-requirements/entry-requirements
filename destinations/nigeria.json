@@ -1937,7 +1937,10 @@
         "id": "landing-exit-card",
         "name": "Digital Landing and Exit Card",
         "mandatory": true,
-        "fee": null,
+        "fee": {
+          "amount": 0,
+          "currency": "NGN"
+        },
         "submitAt": "before-travel",
         "submitWindow": "Before arrival in / departure from Nigeria",
         "url": "https://lecard.immigration.gov.ng/",
@@ -1955,7 +1958,10 @@
         "id": "ncdc-health-declaration",
         "name": "Nigeria Health Declaration Form (NCDC)",
         "mandatory": false,
-        "fee": null,
+        "fee": {
+          "amount": 0,
+          "currency": "NGN"
+        },
         "submitAt": "before-travel",
         "submitWindow": "Before boarding",
         "url": "https://healthapp.ncdc.gov.ng/",

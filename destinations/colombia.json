@@ -1583,7 +1583,10 @@
         "id": "check-mig",
         "name": "Check-Mig pre-registration",
         "mandatory": false,
-        "fee": null,
+        "fee": {
+          "amount": 0,
+          "currency": "COP"
+        },
         "submitAt": "before-travel",
         "submitWindow": "Between 72 hours and 1 hour before your flight",
         "url": "https://apps.migracioncolombia.gov.co/pre-registro/",
