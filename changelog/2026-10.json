@@ -1,0 +1,57 @@
+{
+  "entries": [
+    {
+      "kind": "changed",
+      "date": "2026-10-02",
+      "destination": "azerbaijan",
+      "path": "visaTypes.asan-evisa.fee",
+      "field": "e-Visa fee",
+      "old": "USD 25 (USD 20 + USD 5 service charge)",
+      "new": "USD 29 (USD 20 state fee + USD 9 service fee)",
+      "sourceUrl": "https://evisa.gov.az/en/information",
+      "note": "ASAN Visa's own payment section states a USD 9 service fee on top of the USD 20 state fee. The portal answers 403 to us, and the old figure had stood since August without anyone being able to re-read it; the archived page settled it."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-02",
+      "destination": "azerbaijan",
+      "path": "visaTypes.asan-evisa.processing",
+      "field": "e-Visa processing",
+      "old": "1–3 business days",
+      "new": "up to 3 working days (urgent: within 3 hours)",
+      "sourceUrl": "https://evisa.gov.az/en/conditions"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-02",
+      "destination": "azerbaijan",
+      "path": "entryRequirements.passportValidity",
+      "field": "Passport validity",
+      "old": "3 months beyond departure",
+      "new": "3 months beyond the visa's expiry date",
+      "sourceUrl": "https://evisa.gov.az/en/conditions",
+      "note": "The rule runs from the visa's expiry, not from the day you leave. With a 90-day e-Visa that is about six months from its start date."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-02",
+      "destination": "azerbaijan",
+      "path": "visaTypes.embassy-tourist.fee",
+      "field": "Embassy visa fee",
+      "old": "not stated (shown as \"Free\")",
+      "new": "USD 20 single entry, USD 350 multiple entry",
+      "sourceUrl": "https://mfa.gov.az/en/category/visa/state-fee"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-02",
+      "destination": "azerbaijan",
+      "path": "visaTypes",
+      "field": "Visa on arrival",
+      "old": "visa on arrival for Gulf Cooperation Council nationals",
+      "new": "removed: no passport uses it",
+      "sourceUrl": "https://mfa.gov.az/en/category/visa/visa-free-countries",
+      "note": "Saudi Arabia, Oman, Bahrain and Kuwait have been visa-free since 15 February 2026, and Qatar and the UAE by agreement. The passport rows already said so on 26 September; the visa-on-arrival card stayed on the page with nothing pointing at it."
+    }
+  ]
+}
