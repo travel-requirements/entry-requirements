@@ -18,7 +18,7 @@
   ],
   "summary": "Tunisia lets citizens of a broad list of countries — the EU, UK, US, Canada, Japan, most of Europe and many Arab, African and Asian states — enter visa-free for up to 90 days. Nationalities outside the list apply for a consular visa; Israeli passport holders are not admitted.",
   "meta": {
-    "lastUpdated": "2026-10-02",
+    "lastUpdated": "2026-10-03",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -1348,13 +1348,9 @@
       "method": "embassy",
       "name": "Consular Tourist Visa",
       "fee": null,
-      "processing": {
-        "minDays": 5,
-        "maxDays": 15,
-        "unit": "business-days"
-      },
-      "validityDays": 90,
-      "stayDays": 90,
+      "processing": null,
+      "validityDays": null,
+      "stayDays": null,
       "entries": "single",
       "applyUrl": null,
       "source": {
@@ -1364,7 +1360,11 @@
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260728185927/https://www.diplomatie.gov.tn/",
         "portalOnly": true,
-        "lastChanged": "2026-10-02"
+        "lastChanged": "2026-10-02",
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     {
@@ -1379,7 +1379,7 @@
       "entries": "single",
       "extendable": {
         "possible": true,
-        "days": 90
+        "days": null
       },
       "applyUrl": null,
       "source": {
@@ -1388,7 +1388,11 @@
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260728185927/https://www.diplomatie.gov.tn/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     }
   ],
@@ -1404,48 +1408,30 @@
         "lastChanged": "2026-09-26"
       }
     },
-    "vaccinations": [
-      {
-        "id": "yellow-fever",
-        "name": "Yellow fever",
-        "certificate": "International Certificate of Vaccination or Prophylaxis",
-        "requiredWhen": "arriving-from-risk-country",
-        "text": "A yellow fever vaccination certificate is required for travelers over 1 year of age arriving from countries with risk of yellow fever transmission.",
-        "source": {
-          "url": "https://www.diplomatie.gov.tn/",
-          "name": "Ministry of Foreign Affairs of Tunisia",
-          "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260728185927/https://www.diplomatie.gov.tn/",
-          "portalOnly": true
-        }
-      }
-    ],
+    "vaccinations": [],
     "travelInsurance": {
       "required": false,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Insurance is not checked for visa-exempt tourists, but medical coverage is strongly recommended; visa applicants may be asked for proof of insurance.",
+      "text": "No official source makes insurance a condition of entry for visa-exempt tourists. The UK government advises insurance for local treatment and medical evacuation: there is no free medical care for foreign nationals, and doctors' fees, medicines and private-clinic treatment must be paid on the spot.",
       "source": {
-        "url": "https://www.diplomatie.gov.tn/",
-        "name": "Ministry of Foreign Affairs of Tunisia",
+        "url": "https://www.gov.uk/foreign-travel-advice/tunisia/health",
+        "name": "UK Foreign, Commonwealth & Development Office — Tunisia travel advice (health)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260728185927/https://www.diplomatie.gov.tn/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "onwardTicket": {
       "required": true,
       "appliesTo": "visa-free-arrivals",
-      "text": "Border officers and airlines regularly ask visa-exempt visitors for a return or onward ticket and accommodation details — package tourists are rarely questioned, independent travelers should have both to hand.",
+      "text": "Border officials have the right to ask for your onward or return ticket, proof of a hotel booking or other accommodation details, and your contact details. A small number of visitors have been refused entry or delayed for lack of evidence of accommodation.",
       "source": {
-        "url": "https://www.diplomatie.gov.tn/",
-        "name": "Ministry of Foreign Affairs of Tunisia",
+        "url": "https://www.gov.uk/foreign-travel-advice/tunisia/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Tunisia travel advice (entry requirements)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260728185927/https://www.diplomatie.gov.tn/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "proofOfFunds": {
@@ -1459,20 +1445,24 @@
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260728185927/https://www.diplomatie.gov.tn/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "declarations": [],
     "customs": {
       "currencyLimits": {
-        "text": "The Tunisian dinar is non-convertible — bringing dinars in or out of the country is prohibited. Declare foreign cash above the published threshold (roughly TND 20,000 equivalent) on arrival, and declare any amount you may want to take out again: re-exporting undeclared foreign currency is capped. Keep all exchange receipts to reconvert leftover dinars at departure.",
+        "text": "Any import or export of foreign currency worth TND 20,000 or more must be declared to Customs on entry, on exit and in transit. A non-resident can take out more than TND 5,000 of the foreign banknotes they brought in only if they declared them on entry, and at most TND 30,000 (above that, through a bank); the declaration is valid for 3 months and one trip, and can be made online in advance. Tunisian dinars may not be taken out of the country, so keep exchange receipts to reconvert leftover dinars before you leave.",
         "source": {
-          "url": "https://www.diplomatie.gov.tn/",
-          "name": "Ministry of Foreign Affairs of Tunisia",
+          "url": "https://www.douane.gov.tn/devises-et-change/",
+          "name": "Douane tunisienne — Devises et change",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260728185927/https://www.diplomatie.gov.tn/",
-          "portalOnly": true
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03",
+          "instrument": "Arrêté du Ministre des finances du 24 juillet 2019 (montants des articles 100, 107, 108, 114 et 140 de la loi n° 2015-26); avis de change du ministre des finances, JORT du 3 février 2006"
         }
       },
       "notes": [

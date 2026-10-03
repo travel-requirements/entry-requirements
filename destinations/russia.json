@@ -1659,17 +1659,9 @@
       "category": "tourist",
       "method": "embassy",
       "name": "Tourist visa (consular)",
-      "fee": {
-        "amount": 50,
-        "currency": "EUR",
-        "notes": "Indicative single-entry fee — consular tariffs vary widely by nationality, reciprocity and processing speed; US applicants pay significantly more. Confirm with the consulate handling your application."
-      },
-      "processing": {
-        "minDays": 10,
-        "maxDays": 20,
-        "unit": "calendar-days"
-      },
-      "validityDays": 180,
+      "fee": null,
+      "processing": null,
+      "validityDays": 90,
       "stayDays": 90,
       "entries": "single",
       "extendable": {
@@ -1678,11 +1670,11 @@
       },
       "applyUrl": null,
       "source": {
-        "url": "https://evisa.kdmid.ru/",
-        "name": "Russian MFA Consular Department — unified e-visa portal",
+        "url": "https://www.kdmid.ru/cons/visas/",
+        "name": "Consular Department, Ministry of Foreign Affairs of Russia — issuing visas for entry to Russia",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260805105339/https://evisa.kdmid.ru/"
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     {
@@ -1690,26 +1682,18 @@
       "category": "transit",
       "method": "embassy",
       "name": "Transit visa",
-      "fee": {
-        "amount": 40,
-        "currency": "EUR",
-        "notes": "Indicative — fees follow the consular tariff for your nationality."
-      },
-      "processing": {
-        "minDays": 10,
-        "maxDays": 20,
-        "unit": "calendar-days"
-      },
-      "validityDays": 30,
+      "fee": null,
+      "processing": null,
+      "validityDays": null,
       "stayDays": 3,
       "entries": "single",
       "applyUrl": null,
       "source": {
-        "url": "https://evisa.kdmid.ru/",
-        "name": "Russian MFA Consular Department — unified e-visa portal",
+        "url": "https://www.kdmid.ru/cons/visas/",
+        "name": "Consular Department, Ministry of Foreign Affairs of Russia — issuing visas for entry to Russia",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260805105339/https://evisa.kdmid.ru/"
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     }
   ],
@@ -1724,16 +1708,6 @@
         "lastVerified": "2026-09-26",
         "archiveUrl": "https://web.archive.org/web/20260805105339/https://evisa.kdmid.ru/",
         "lastChanged": "2026-09-26"
-      }
-    },
-    "blankPages": {
-      "count": 2,
-      "source": {
-        "url": "https://evisa.kdmid.ru/",
-        "name": "Russian MFA Consular Department — unified e-visa portal",
-        "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260805105339/https://evisa.kdmid.ru/"
       }
     },
     "vaccinations": [],
@@ -1753,26 +1727,31 @@
     "onwardTicket": {
       "required": false,
       "appliesTo": null,
-      "text": "No strict onward-ticket rule, but border officers may ask about your itinerary. E-visa holders must enter and exit through the approved border crossings listed on the official portal.",
+      "text": "No official source states an onward-ticket requirement for visitors in general. Transit-visa applicants must show tickets valid for leaving Russia, and e-visa holders must enter and leave through the border crossings approved for the e-visa.",
       "source": {
         "url": "https://evisa.kdmid.ru/",
         "name": "Russian MFA Consular Department — unified e-visa portal",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260805105339/https://evisa.kdmid.ru/"
+        "lastVerified": "2026-10-03",
+        "archiveUrl": "https://web.archive.org/web/20260805105339/https://evisa.kdmid.ru/",
+        "lastChanged": "2026-10-03"
       }
     },
     "proofOfFunds": {
       "required": false,
       "appliesTo": null,
       "amount": null,
-      "text": "No fixed amount is published; officers may ask travelers to show means of support for the stay.",
+      "text": "No official source states a proof-of-funds requirement or amount for visitors to Russia.",
       "source": {
         "url": "https://evisa.kdmid.ru/",
         "name": "Russian MFA Consular Department — unified e-visa portal",
         "type": "government",
         "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260805105339/https://evisa.kdmid.ru/"
+        "archiveUrl": "https://web.archive.org/web/20260805105339/https://evisa.kdmid.ru/",
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "declarations": [
@@ -1786,23 +1765,22 @@
         "url": null,
         "text": "A migration card is issued at the border on arrival. Keep it for your whole stay and hand it back on departure. If you stay more than 7 working days, you (or your hotel) must register your stay with the migration authorities.",
         "source": {
-          "url": "https://evisa.kdmid.ru/",
-          "name": "Russian MFA Consular Department — unified e-visa portal",
+          "url": "https://www.kdmid.ru/cons/visas/migration-card/",
+          "name": "Consular Department, Ministry of Foreign Affairs of Russia — migration card",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260805105339/https://evisa.kdmid.ru/"
+          "lastVerified": "2026-10-03"
         }
       }
     ],
     "customs": {
       "currencyLimits": {
-        "text": "Cash and monetary instruments over the equivalent of USD 10,000 must be declared in writing on arrival. Under current counter-sanctions rules, taking more than USD 10,000 in foreign currency out of Russia is banned.",
+        "text": "Cash in any currency and travellers' cheques worth more than the equivalent of USD 10,000 in total must be declared in writing when you enter Russia. You cannot leave Russia with more than the equivalent of USD 10,000 in cash or travellers' cheques, even if you declare it.",
         "source": {
-          "url": "https://evisa.kdmid.ru/",
-          "name": "Russian MFA Consular Department — unified e-visa portal",
+          "url": "https://www.gov.uk/foreign-travel-advice/russia/entry-requirements",
+          "name": "UK FCDO — Russia travel advice, entry requirements",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260805105339/https://evisa.kdmid.ru/"
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
         }
       },
       "notes": [

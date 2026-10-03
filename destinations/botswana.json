@@ -629,7 +629,11 @@
           "type": "government",
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260728192316/https://evisa.gov.bw/",
-          "portalOnly": true
+          "portalOnly": true,
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "not-stated"
+          }
         }
       },
       "HU": {
@@ -745,7 +749,11 @@
           "type": "government",
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260728192316/https://evisa.gov.bw/",
-          "portalOnly": true
+          "portalOnly": true,
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "not-stated"
+          }
         }
       },
       "KW": {
@@ -844,7 +852,11 @@
           "type": "government",
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260728192316/https://evisa.gov.bw/",
-          "portalOnly": true
+          "portalOnly": true,
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "not-stated"
+          }
         }
       },
       "MG": {
@@ -1226,12 +1238,10 @@
         "maxStayDays": 90,
         "notes": "Visa-free entry for up to 90 days within any 12-month period. The permitted stay is stamped on arrival.",
         "source": {
-          "url": "https://evisa.gov.bw/",
-          "name": "Botswana eVisa — official government portal",
+          "url": "https://evisa.gov.bw/#/needvisa",
+          "name": "Botswana eVisa — Do I Need a Visa? (list of countries that require a visa to enter Botswana, and visa checker)",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260728192316/https://evisa.gov.bw/",
-          "portalOnly": true
+          "lastVerified": "2026-10-03"
         }
       },
       "SM": {
@@ -1404,7 +1414,11 @@
           "type": "government",
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260728192316/https://evisa.gov.bw/",
-          "portalOnly": true
+          "portalOnly": true,
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "not-stated"
+          }
         }
       },
       "TJ": {
@@ -1658,14 +1672,13 @@
   "entryRequirements": {
     "passportValidity": {
       "rule": "6-months-on-arrival",
-      "text": "Your passport should be valid for at least 6 months on arrival, with at least two blank pages for stamps — more if you are combining Botswana with neighboring countries.",
+      "text": "Your passport must be valid for at least 6 months, with at least three unused pages — more if you are combining Botswana with neighboring countries.",
       "source": {
-        "url": "https://evisa.gov.bw/",
-        "name": "Botswana eVisa — official government portal",
+        "url": "https://evisa.gov.bw/#/appterms",
+        "name": "Botswana eVisa — Visa Application Terms (general and per-category requirements)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260728192316/https://evisa.gov.bw/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "vaccinations": [
@@ -1674,14 +1687,13 @@
         "name": "Yellow fever",
         "certificate": "International Certificate of Vaccination or Prophylaxis (yellow card)",
         "requiredWhen": "arriving-from-risk-country",
-        "text": "A yellow fever certificate is required only if you arrive from, or transited more than 12 hours through, a country with risk of yellow fever transmission (for example Zambia’s northern neighbors, Kenya or Angola).",
+        "text": "A yellow fever vaccination certificate is required for travelers aged 1 year or over arriving from, or having transited through, a country with risk of yellow fever transmission.",
         "source": {
-          "url": "https://evisa.gov.bw/",
-          "name": "Botswana eVisa — official government portal",
+          "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
+          "name": "WHO — Vaccination requirements and recommendations for international travellers, country list (ITH 2022)",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260728192316/https://evisa.gov.bw/",
-          "portalOnly": true
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
         }
       }
     ],
@@ -1691,52 +1703,47 @@
       "minCoverage": null,
       "text": "Insurance is not an entry condition, but private clinics expect payment up front and safari areas are remote — cover including medical evacuation is strongly advisable.",
       "source": {
-        "url": "https://evisa.gov.bw/",
-        "name": "Botswana eVisa — official government portal",
+        "url": "https://www.gov.bw/visa-applications/visa-application-tourism-visa",
+        "name": "Government of Botswana — Visa Application: Tourism Visa (required documents)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260728192316/https://evisa.gov.bw/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03"
       }
     },
     "onwardTicket": {
-      "required": false,
-      "appliesTo": null,
-      "text": "Not systematically checked, but immigration officers may ask visa-free visitors for evidence of onward travel and accommodation, and airlines sometimes verify a return ticket.",
+      "required": true,
+      "appliesTo": "visa-applicants",
+      "text": "Tourist visa applicants must submit a return ticket, flight bookings and accommodation confirmations with the application. For visa-exempt visitors, no official source states an onward-ticket requirement.",
       "source": {
-        "url": "https://evisa.gov.bw/",
-        "name": "Botswana eVisa — official government portal",
+        "url": "https://evisa.gov.bw/#/appterms",
+        "name": "Botswana eVisa — Visa Application Terms (general and per-category requirements)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260728192316/https://evisa.gov.bw/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "proofOfFunds": {
       "required": false,
       "appliesTo": null,
       "amount": null,
-      "text": "No fixed amount is published; officers may ask visitors to show sufficient means for their stay.",
+      "text": "No official source states a funds requirement or amount for visitors; the tourism visa document list does not include one.",
       "source": {
-        "url": "https://evisa.gov.bw/",
-        "name": "Botswana eVisa — official government portal",
+        "url": "https://www.gov.bw/visa-applications/visa-application-tourism-visa",
+        "name": "Government of Botswana — Visa Application: Tourism Visa (required documents)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260728192316/https://evisa.gov.bw/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "declarations": [],
     "customs": {
       "currencyLimits": {
-        "text": "Cash of BWP 10,000 or more (or the foreign-currency equivalent) should be declared on arrival and departure.",
+        "text": "Cash of BWP 10,000 or more, in pula or foreign currency, must be declared when you enter Botswana; failing to declare can lead to prosecution.",
         "source": {
-          "url": "https://evisa.gov.bw/",
-          "name": "Botswana eVisa — official government portal",
+          "url": "https://www.gov.uk/foreign-travel-advice/botswana/entry-requirements",
+          "name": "UK FCDO — Botswana entry requirements",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260728192316/https://evisa.gov.bw/",
-          "portalOnly": true
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
         }
       },
       "notes": [

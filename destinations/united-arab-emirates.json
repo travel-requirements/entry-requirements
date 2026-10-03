@@ -51,12 +51,10 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://u.ae/en/information-and-services/visa-and-emirates-id",
-      "name": "UAE Government portal — visa on arrival and entry information",
+      "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae",
+      "name": "UAE Government portal (u.ae) — Do you need an entry permit or a visa to enter the UAE?",
       "type": "government",
-      "lastVerified": "2026-08-25",
-      "archiveUrl": "https://web.archive.org/web/20260727103244/https://u.ae/en/information-and-services/visa-and-emirates-id",
-      "portalOnly": true
+      "lastVerified": "2026-10-03"
     },
     "byPassport": {
       "US": {
@@ -231,14 +229,13 @@
           "tourist-evisa-30",
           "tourist-evisa-60"
         ],
-        "notes": "Turkish citizens have generally needed a pre-arranged tourist eVisa through an airline, hotel or UAE sponsor; visa facilitation between the two countries has been evolving. Confirm current rules on icp.gov.ae before booking.",
+        "notes": "Turkish citizens must arrange a visa before travel. Dubai's tourism department lists 30- and 60-day tourist visas, single or multiple entry, applied for through an airline, a hotel, a licensed travel agent or a sponsor resident in the UAE.",
         "source": {
-          "url": "https://icp.gov.ae/en/",
-          "name": "Federal Authority for Identity, Citizenship, Customs & Port Security (ICP)",
+          "url": "https://www.visitdubai.com/en/plan-your-trip/visa-information",
+          "name": "Dubai Department of Economy and Tourism (Visit Dubai) — visa requirements by nationality",
           "type": "government",
-          "lastVerified": "2026-08-25",
-          "archiveUrl": "https://web.archive.org/web/20260817143349/https://icp.gov.ae/en/",
-          "portalOnly": true
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
         }
       },
       "RU": {
@@ -353,14 +350,13 @@
           "tourist-evisa-30",
           "tourist-evisa-60"
         ],
-        "notes": "South African citizens have generally needed a pre-arranged tourist eVisa; visa-waiver arrangements have been reported in recent years. Confirm the current rule on icp.gov.ae before booking.",
+        "notes": "South African citizens must arrange a visa before travel. Dubai's tourism department lists 30- and 60-day tourist visas, single or multiple entry, applied for through an airline, a hotel, a licensed travel agent or a sponsor resident in the UAE.",
         "source": {
-          "url": "https://icp.gov.ae/en/",
-          "name": "Federal Authority for Identity, Citizenship, Customs & Port Security (ICP)",
+          "url": "https://www.visitdubai.com/en/plan-your-trip/visa-information",
+          "name": "Dubai Department of Economy and Tourism (Visit Dubai) — visa requirements by nationality",
           "type": "government",
-          "lastVerified": "2026-08-25",
-          "archiveUrl": "https://web.archive.org/web/20260817143349/https://icp.gov.ae/en/",
-          "portalOnly": true
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
         }
       },
       "BR": {
@@ -1970,19 +1966,18 @@
       "processing": null,
       "validityDays": null,
       "stayDays": 30,
-      "entries": "single",
+      "entries": "multiple",
       "extendable": {
         "possible": true,
         "days": 30
       },
       "applyUrl": null,
       "source": {
-        "url": "https://u.ae/en/information-and-services/visa-and-emirates-id",
-        "name": "UAE Government portal — visa on arrival information",
+        "url": "https://www.visitdubai.com/en/plan-your-trip/visa-information",
+        "name": "Dubai Department of Economy and Tourism (Visit Dubai) — visa requirements by nationality",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260727103244/https://u.ae/en/information-and-services/visa-and-emirates-id",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     {
@@ -2110,17 +2105,6 @@
         "lastVerified": "2026-09-26"
       }
     },
-    "blankPages": {
-      "count": 1,
-      "source": {
-        "url": "https://u.ae/en/information-and-services/visa-and-emirates-id",
-        "name": "UAE Government portal — Visa and Emirates ID",
-        "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260727103244/https://u.ae/en/information-and-services/visa-and-emirates-id",
-        "portalOnly": true
-      }
-    },
     "vaccinations": [
       {
         "id": "yellow-fever",
@@ -2143,54 +2127,60 @@
       "required": false,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Travel insurance is not checked at the border for visa-on-arrival and visa-exempt visitors, though sponsored tourist visas often bundle basic cover. Private healthcare is excellent but expensive — medical insurance is strongly recommended.",
+      "text": "No official source states a travel-insurance requirement for visitors entering on a visa on arrival or visa-free. Private healthcare is excellent but expensive — medical insurance is strongly recommended.",
       "source": {
         "url": "https://u.ae/en/information-and-services/visa-and-emirates-id",
         "name": "UAE Government portal — Visa and Emirates ID",
         "type": "government",
         "lastVerified": "2026-08-25",
         "archiveUrl": "https://web.archive.org/web/20260727103244/https://u.ae/en/information-and-services/visa-and-emirates-id",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "onwardTicket": {
       "required": true,
-      "appliesTo": "all",
-      "text": "Airlines and immigration officers may require proof of an onward or return ticket, plus confirmed accommodation, especially for visa-on-arrival travelers.",
+      "appliesTo": "visa-applicants",
+      "text": "Tourist visa applicants must hold a confirmed return ticket to and from the UAE and proof of accommodation, according to Dubai's tourism department. No official source states an onward-ticket check for visitors who get a visa on arrival or enter visa-free.",
       "source": {
-        "url": "https://u.ae/en/information-and-services/visa-and-emirates-id",
-        "name": "UAE Government portal — Visa and Emirates ID",
+        "url": "https://www.visitdubai.com/en/plan-your-trip/visa-information",
+        "name": "Dubai Department of Economy and Tourism (Visit Dubai) — visa requirements by nationality",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260727103244/https://u.ae/en/information-and-services/visa-and-emirates-id",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "proofOfFunds": {
       "required": false,
       "appliesTo": null,
       "amount": null,
-      "text": "No fixed amount is published, but border officers may ask visitors to show sufficient means for their stay.",
+      "text": "No official source states a proof-of-funds requirement or amount for visitors to the UAE.",
       "source": {
         "url": "https://u.ae/en/information-and-services/visa-and-emirates-id",
         "name": "UAE Government portal — Visa and Emirates ID",
         "type": "government",
         "lastVerified": "2026-08-25",
         "archiveUrl": "https://web.archive.org/web/20260727103244/https://u.ae/en/information-and-services/visa-and-emirates-id",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "declarations": [],
     "customs": {
       "currencyLimits": {
-        "text": "Cash, checks or other negotiable instruments worth AED 60,000 or more (or the foreign-currency equivalent) must be declared on arrival and departure.",
+        "text": "Arriving passengers carrying more than AED 60,000 in cash or traveller's cheques (or the equivalent in other currencies) must declare it on the customs declaration form. Children under 18 may not carry more than that limit; what they carry counts toward the limit of the parent or guardian travelling with them.",
         "source": {
-          "url": "https://icp.gov.ae/en/",
-          "name": "Federal Authority for Identity, Citizenship, Customs & Port Security (ICP)",
+          "url": "https://www.dubaicustoms.gov.ae/en/mobile/Pages/DutyPayable.aspx",
+          "name": "Dubai Customs — goods accompanying passengers, cash amounts declaration",
           "type": "government",
-          "lastVerified": "2026-08-25",
-          "archiveUrl": "https://web.archive.org/web/20260817143349/https://icp.gov.ae/en/",
-          "portalOnly": true
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
         }
       },
       "notes": [

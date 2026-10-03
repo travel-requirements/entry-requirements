@@ -197,9 +197,8 @@
           "url": "https://www.evisa.gov.bh/",
           "name": "Bahrain eVisa — Nationality, Passport & Residence Affairs (NPRA) official portal",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260728174030/https://www.evisa.gov.bh/",
-          "portalOnly": true
+          "lastVerified": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20260728174030/https://www.evisa.gov.bh/"
         }
       },
       "BD": {
@@ -1164,7 +1163,11 @@
           "type": "government",
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260728174030/https://www.evisa.gov.bh/",
-          "portalOnly": true
+          "portalOnly": true,
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "not-stated"
+          }
         }
       },
       "KG": {
@@ -1677,7 +1680,11 @@
           "type": "government",
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260728174030/https://www.evisa.gov.bh/",
-          "portalOnly": true
+          "portalOnly": true,
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "not-stated"
+          }
         }
       },
       "PK": {
@@ -1830,7 +1837,11 @@
           "type": "government",
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260728174030/https://www.evisa.gov.bh/",
-          "portalOnly": true
+          "portalOnly": true,
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "not-stated"
+          }
         }
       },
       "CG": {
@@ -1975,7 +1986,11 @@
           "type": "government",
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260728174030/https://www.evisa.gov.bh/",
-          "portalOnly": true
+          "portalOnly": true,
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "not-stated"
+          }
         }
       },
       "SN": {
@@ -2402,7 +2417,11 @@
           "type": "government",
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260728174030/https://www.evisa.gov.bh/",
-          "portalOnly": true
+          "portalOnly": true,
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "not-stated"
+          }
         }
       },
       "GB": {
@@ -2619,12 +2638,10 @@
       },
       "applyUrl": null,
       "source": {
-        "url": "https://www.evisa.gov.bh/",
-        "name": "Bahrain eVisa — official NPRA portal",
+        "url": "https://www.gov.uk/foreign-travel-advice/bahrain/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Bahrain travel advice: entry requirements",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260728174030/https://www.evisa.gov.bh/",
-        "portalOnly": true,
+        "lastVerified": "2026-10-03",
         "lastChanged": "2026-10-02"
       }
     },
@@ -2633,23 +2650,26 @@
       "category": "tourist",
       "method": "embassy",
       "name": "Sponsored Visit Visa (NPRA)",
-      "fee": null,
+      "fee": {
+        "amount": 40,
+        "currency": "BHD",
+        "notes": "BHD 5 application fee (non-refundable), BHD 5 approval fee and BHD 30 issuance fee, as listed by NPRA for general visit visas applied for by a guarantor."
+      },
       "processing": {
-        "minDays": 5,
-        "maxDays": 15,
+        "minDays": 3,
+        "maxDays": 3,
         "unit": "business-days"
       },
-      "validityDays": null,
-      "stayDays": 30,
+      "validityDays": 90,
+      "stayDays": null,
       "entries": "single",
       "applyUrl": null,
       "source": {
-        "url": "https://www.evisa.gov.bh/",
-        "name": "Bahrain eVisa — official NPRA portal",
+        "url": "https://www.npra.gov.bh/en/services/visas-residence-permit/visa-services/general-visit-visas/",
+        "name": "NPRA Bahrain — General visit visas (guarantor): processing time, documents and fees",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260728174030/https://www.evisa.gov.bh/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     }
   ],
@@ -2672,12 +2692,10 @@
         "requiredWhen": "arriving-from-risk-country",
         "text": "A yellow fever vaccination certificate is required only if you arrive from a country with risk of yellow fever transmission.",
         "source": {
-          "url": "https://www.evisa.gov.bh/",
-          "name": "Bahrain eVisa — official NPRA portal",
-          "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260728174030/https://www.evisa.gov.bh/",
-          "portalOnly": true
+          "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
+          "name": "WHO — International Travel and Health: country list of vaccination requirements (2022, revised 2023)",
+          "type": "igo",
+          "lastVerified": "2026-10-03"
         }
       }
     ],
@@ -2685,54 +2703,60 @@
       "required": false,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Travel insurance is not checked at the border; standard travel medical coverage is recommended.",
+      "text": "No official Bahraini source states an insurance requirement for visitors, and the NPRA eVisa document lists do not ask for it. Travel medical cover is still advisable.",
       "source": {
         "url": "https://www.evisa.gov.bh/",
         "name": "Bahrain eVisa — official NPRA portal",
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260728174030/https://www.evisa.gov.bh/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "onwardTicket": {
       "required": true,
-      "appliesTo": "all",
-      "text": "Visa-on-arrival and eVisa visitors should hold an onward or return ticket and be able to show where they are staying.",
+      "appliesTo": "visa-applicants",
+      "text": "eVisa applicants must attach proof of a return air ticket and a hotel reservation or an address in Bahrain. The FCDO notes you may be asked for evidence of onward or return travel when you apply.",
       "source": {
-        "url": "https://www.evisa.gov.bh/",
-        "name": "Bahrain eVisa — official NPRA portal",
+        "url": "https://www.npra.gov.bh/en/services/visas-residence-permit/visa-services/e-visa/evisa1/visit-visa-two-weeks-single-entry/",
+        "name": "NPRA Bahrain — Two-week single-entry eVisa: required documents and fees",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260728174030/https://www.evisa.gov.bh/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "proofOfFunds": {
-      "required": false,
-      "appliesTo": null,
+      "required": true,
+      "appliesTo": "visa-applicants",
       "amount": null,
-      "text": "No fixed amount is published; border officers may ask visitors to show means of support — a bank card and a modest amount of cash suffice.",
+      "text": "eVisa applicants must attach a bank statement for the past 3 months showing a regular income of at least USD 1,000. No amount is set for travellers who get a visa on arrival.",
       "source": {
-        "url": "https://www.evisa.gov.bh/",
-        "name": "Bahrain eVisa — official NPRA portal",
+        "url": "https://www.npra.gov.bh/en/services/visas-residence-permit/visa-services/e-visa/evisa1/visit-visa-two-weeks-single-entry/",
+        "name": "NPRA Bahrain — Two-week single-entry eVisa: required documents and fees",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260728174030/https://www.evisa.gov.bh/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "declarations": [],
     "customs": {
       "currencyLimits": {
-        "text": "Cash and negotiable instruments worth BHD 6,000 or more (or the foreign-currency equivalent) must be declared on arrival.",
+        "text": "No official Bahraini source we could read states a cash declaration threshold; the Customs Affairs traveller pages do not give one. Ask Customs on arrival before carrying large sums.",
         "source": {
           "url": "https://www.evisa.gov.bh/",
           "name": "Bahrain eVisa — official NPRA portal",
           "type": "government",
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260728174030/https://www.evisa.gov.bh/",
-          "portalOnly": true
+          "portalOnly": true,
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "not-stated"
+          }
         }
       },
       "notes": [

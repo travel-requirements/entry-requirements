@@ -51,12 +51,10 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://www.consulat.ma/",
-      "name": "Moroccan MFA Consular Portal — countries exempt from visa",
+      "url": "https://www.consulat.ma/fr/liste-des-pays-dont-les-ressortissants-sont-dispenses-du-visa-dentree-au-maroc",
+      "name": "Moroccan Ministry of Foreign Affairs (consulat.ma) — List of countries whose nationals are exempt from the entry visa",
       "type": "government",
-      "lastVerified": "2026-08-25",
-      "archiveUrl": "https://web.archive.org/web/20260808094715/https://www.consulat.ma/",
-      "portalOnly": true
+      "lastVerified": "2026-10-03"
     },
     "byPassport": {
       "US": {
@@ -2744,13 +2742,9 @@
       "method": "embassy",
       "name": "Short-Stay Visa (Moroccan embassy or consulate)",
       "fee": null,
-      "processing": {
-        "minDays": 5,
-        "maxDays": 20,
-        "unit": "business-days"
-      },
-      "validityDays": 90,
-      "stayDays": 30,
+      "processing": null,
+      "validityDays": null,
+      "stayDays": null,
       "entries": "single",
       "extendable": {
         "possible": false,
@@ -2763,7 +2757,11 @@
         "type": "government",
         "lastVerified": "2026-08-25",
         "archiveUrl": "https://web.archive.org/web/20260808094715/https://www.consulat.ma/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     }
   ],
@@ -2777,17 +2775,6 @@
         "type": "government",
         "lastVerified": "2026-09-26",
         "lastChanged": "2026-09-26"
-      }
-    },
-    "blankPages": {
-      "count": 1,
-      "source": {
-        "url": "https://www.consulat.ma/",
-        "name": "Moroccan MFA Consular Portal",
-        "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260808094715/https://www.consulat.ma/",
-        "portalOnly": true
       }
     },
     "vaccinations": [
@@ -2807,44 +2794,45 @@
       }
     ],
     "travelInsurance": {
-      "required": false,
-      "appliesTo": null,
+      "required": true,
+      "appliesTo": "visa-applicants",
       "minCoverage": null,
-      "text": "Travel insurance is not an entry requirement for tourists, but medical coverage is recommended — private clinics expect payment up front and serious cases may need evacuation to Europe.",
+      "text": "eVisa holders must be able to show hospital and medical repatriation insurance covering their whole stay when they arrive. Visa-exempt visitors are not required to show it.",
       "source": {
-        "url": "https://www.consulat.ma/",
-        "name": "Moroccan MFA Consular Portal",
+        "url": "https://www.acces-maroc.ma/assets/docs/Conditions%20utilisation%20eVisa%20-%20An.pdf",
+        "name": "Kingdom of Morocco eVisa portal (acces-maroc.ma) — Conditions of use of the eVisa",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260808094715/https://www.consulat.ma/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "onwardTicket": {
-      "required": false,
-      "appliesTo": null,
-      "text": "Onward travel is not systematically checked, but border officers and airlines may ask for proof of return or onward travel and an address in Morocco (the arrival form asks for one).",
+      "required": true,
+      "appliesTo": "visa-applicants",
+      "text": "eVisa holders must be able to show a return ticket at the border on arrival. No official source states a ticket requirement for visa-exempt visitors.",
       "source": {
-        "url": "https://www.consulat.ma/",
-        "name": "Moroccan MFA Consular Portal",
+        "url": "https://www.acces-maroc.ma/assets/docs/Conditions%20utilisation%20eVisa%20-%20An.pdf",
+        "name": "Kingdom of Morocco eVisa portal (acces-maroc.ma) — Conditions of use of the eVisa",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260808094715/https://www.consulat.ma/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "proofOfFunds": {
-      "required": false,
-      "appliesTo": null,
-      "amount": null,
-      "text": "There is no published fixed amount, but border officers may ask travelers to show sufficient means of support for the intended stay.",
+      "required": true,
+      "appliesTo": "visa-applicants",
+      "amount": {
+        "value": 70,
+        "currency": "EUR",
+        "per": "day"
+      },
+      "text": "eVisa holders must be able to show means of support on arrival: an international bank card, or more than EUR 70 in cash per person per day of the stay.",
       "source": {
-        "url": "https://www.consulat.ma/",
-        "name": "Moroccan MFA Consular Portal",
+        "url": "https://www.acces-maroc.ma/assets/docs/Conditions%20utilisation%20eVisa%20-%20An.pdf",
+        "name": "Kingdom of Morocco eVisa portal (acces-maroc.ma) — Conditions of use of the eVisa",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260808094715/https://www.consulat.ma/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "declarations": [],

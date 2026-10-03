@@ -17,9 +17,9 @@
     "eritrea",
     "kenya"
   ],
-  "summary": "Somalia requires every foreign visitor to hold an electronic authorisation (E-Visa/ETAS) obtained at etas.gov.so before departure — the Immigration and Citizenship Agency launched it on 1 September 2025 in place of applying on arrival — and issues a 30-day stay. The self-declared Republic of Somaliland runs its own, entirely separate entry regime.",
+  "summary": "Somalia requires every foreign visitor to hold an electronic authorisation (E-Visa/ETAS) obtained at etas.gov.so before departure — the Immigration and Citizenship Agency launched it on 1 September 2025 in place of applying on arrival. The self-declared Republic of Somaliland runs its own, entirely separate entry regime.",
   "meta": {
-    "lastUpdated": "2026-10-02",
+    "lastUpdated": "2026-10-03",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -1640,27 +1640,27 @@
       "method": "evisa",
       "name": "Somalia Tourist eVisa",
       "fee": null,
-      "processing": {
-        "minDays": 1,
-        "maxDays": 5,
-        "unit": "business-days"
-      },
-      "validityDays": 90,
-      "stayDays": 30,
+      "processing": null,
+      "validityDays": 180,
+      "stayDays": null,
       "entries": "single",
       "extendable": {
         "possible": true,
-        "days": 30
+        "days": null
       },
       "applyUrl": "https://etas.gov.so/",
       "source": {
-        "url": "https://immigration.gov.so/news/somalia-launches-e-visa-etas-system",
-        "name": "Immigration and Citizenship Agency of Somalia — launch of the Electronic Travel Authorisation System (E-Visa/ETAS)",
+        "url": "https://etas.gov.so/",
+        "name": "Somalia E-Visa/ETAS portal (Immigration and Citizenship Agency) — application terms",
         "type": "government",
-        "lastVerified": "2026-08-29",
-        "lastChanged": "2026-08-29",
-        "portalOnly": true,
-        "archiveUrl": "https://web.archive.org/web/20260831190259/https://immigration.gov.so/news/somalia-launches-e-visa-etas-system"
+        "archiveUrl": "https://web.archive.org/web/20251005075924/https://etas.gov.so/",
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03",
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "blocked",
+          "status": 403
+        }
       }
     },
     {
@@ -1669,13 +1669,9 @@
       "method": "embassy",
       "name": "Embassy visa",
       "fee": null,
-      "processing": {
-        "minDays": 5,
-        "maxDays": 15,
-        "unit": "business-days"
-      },
-      "validityDays": 90,
-      "stayDays": 30,
+      "processing": null,
+      "validityDays": null,
+      "stayDays": null,
       "entries": "single",
       "applyUrl": null,
       "source": {
@@ -1685,7 +1681,11 @@
         "lastVerified": "2026-08-29",
         "lastChanged": "2026-08-29",
         "portalOnly": true,
-        "archiveUrl": "https://web.archive.org/web/20260831190259/https://immigration.gov.so/news/somalia-launches-e-visa-etas-system"
+        "archiveUrl": "https://web.archive.org/web/20260831190259/https://immigration.gov.so/news/somalia-launches-e-visa-etas-system",
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     }
   ],
@@ -1707,16 +1707,14 @@
         "id": "yellow-fever",
         "name": "Yellow fever",
         "certificate": "ICVP",
-        "requiredWhen": "arriving-from-risk-country",
-        "text": "A yellow fever vaccination certificate (ICVP) is required if you arrive from a country with risk of yellow fever transmission. Checks are inconsistent, but carry the certificate if you have transited East or Central Africa.",
+        "requiredWhen": "recommended",
+        "text": "Not an entry requirement: WHO's country list and CDC both state Somalia does not require proof of yellow fever vaccination. WHO and CDC generally do not recommend the vaccine, except that it may be considered for the southern regions (Bakool, Banaadir, Bay, Galguduud, Gedo, Hiiraan, Lower and Middle Juba, Lower and Middle Shabelle). Check the rules of any country you travel on to afterwards.",
         "source": {
-          "url": "https://immigration.gov.so/news/somalia-launches-e-visa-etas-system",
-          "name": "Immigration and Citizenship Agency of Somalia — launch of the Electronic Travel Authorisation System (E-Visa/ETAS)",
-          "type": "government",
-          "lastVerified": "2026-08-29",
-          "lastChanged": "2026-08-29",
-          "portalOnly": true,
-          "archiveUrl": "https://web.archive.org/web/20260831190259/https://immigration.gov.so/news/somalia-launches-e-visa-etas-system"
+          "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
+          "name": "WHO — International Travel and Health: country list of vaccination requirements (2022, revised 2023)",
+          "type": "igo",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
         }
       },
       {
@@ -1724,15 +1722,13 @@
         "name": "Malaria prophylaxis",
         "certificate": null,
         "requiredWhen": "recommended",
-        "text": "Malaria is present across southern Somalia, including Mogadishu. Antimalarial tablets, repellent and bed nets are strongly recommended — talk to a travel clinic before your trip.",
+        "text": "Malaria is present throughout Somalia all year, with risk lower and seasonal in the north and higher in the centre and south, including Mogadishu. Antimalarial tablets, repellent and bed nets are recommended — talk to a travel clinic before your trip.",
         "source": {
-          "url": "https://immigration.gov.so/news/somalia-launches-e-visa-etas-system",
-          "name": "Immigration and Citizenship Agency of Somalia — launch of the Electronic Travel Authorisation System (E-Visa/ETAS)",
+          "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/somalia",
+          "name": "US Centers for Disease Control and Prevention — Travelers' health: Somalia",
           "type": "government",
-          "lastVerified": "2026-08-29",
-          "lastChanged": "2026-08-29",
-          "portalOnly": true,
-          "archiveUrl": "https://web.archive.org/web/20260831190259/https://immigration.gov.so/news/somalia-launches-e-visa-etas-system"
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
         }
       }
     ],
@@ -1740,7 +1736,7 @@
       "required": false,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "No insurance is checked on entry, but standard travel policies almost universally exclude Somalia — visitors need specialist cover that includes medical evacuation, which is complex and expensive to arrange from Mogadishu.",
+      "text": "No official Somali source states an insurance requirement. Many standard travel policies exclude countries under do-not-travel advice, so check that your cover includes Somalia and medical evacuation.",
       "source": {
         "url": "https://immigration.gov.so/news/somalia-launches-e-visa-etas-system",
         "name": "Immigration and Citizenship Agency of Somalia — launch of the Electronic Travel Authorisation System (E-Visa/ETAS)",
@@ -1748,13 +1744,17 @@
         "lastVerified": "2026-08-29",
         "lastChanged": "2026-08-29",
         "portalOnly": true,
-        "archiveUrl": "https://web.archive.org/web/20260831190259/https://immigration.gov.so/news/somalia-launches-e-visa-etas-system"
+        "archiveUrl": "https://web.archive.org/web/20260831190259/https://immigration.gov.so/news/somalia-launches-e-visa-etas-system",
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "onwardTicket": {
       "required": false,
       "appliesTo": null,
-      "text": "Not formally enforced, but airlines may ask for a return ticket, and most visitors travel with a host organization or fixer who arranges airport clearance and security in advance.",
+      "text": "No official source states a return-ticket requirement. The eTAS application form asks you to upload a flight booking and a sponsor letter, and the FCDO says you may need a letter of invitation on arrival.",
       "source": {
         "url": "https://immigration.gov.so/news/somalia-launches-e-visa-etas-system",
         "name": "Immigration and Citizenship Agency of Somalia — launch of the Electronic Travel Authorisation System (E-Visa/ETAS)",
@@ -1762,14 +1762,18 @@
         "lastVerified": "2026-08-29",
         "lastChanged": "2026-08-29",
         "portalOnly": true,
-        "archiveUrl": "https://web.archive.org/web/20260831190259/https://immigration.gov.so/news/somalia-launches-e-visa-etas-system"
+        "archiveUrl": "https://web.archive.org/web/20260831190259/https://immigration.gov.so/news/somalia-launches-e-visa-etas-system",
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "proofOfFunds": {
       "required": false,
       "appliesTo": null,
       "amount": null,
-      "text": "No fixed amount is published; immigration officers may ask about the purpose of your visit and your host arrangements.",
+      "text": "No official source states a proof-of-funds requirement or amount. The eTAS application asks for a sponsor organisation and host details instead.",
       "source": {
         "url": "https://immigration.gov.so/news/somalia-launches-e-visa-etas-system",
         "name": "Immigration and Citizenship Agency of Somalia — launch of the Electronic Travel Authorisation System (E-Visa/ETAS)",
@@ -1777,21 +1781,23 @@
         "lastVerified": "2026-08-29",
         "lastChanged": "2026-08-29",
         "portalOnly": true,
-        "archiveUrl": "https://web.archive.org/web/20260831190259/https://immigration.gov.so/news/somalia-launches-e-visa-etas-system"
+        "archiveUrl": "https://web.archive.org/web/20260831190259/https://immigration.gov.so/news/somalia-launches-e-visa-etas-system",
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "declarations": [],
     "customs": {
       "currencyLimits": {
-        "text": "Somalia publishes no reliable customs thresholds. Declare large amounts of foreign currency on arrival to avoid problems on departure.",
+        "text": "In Somaliland, cash or travellers cheques worth USD 10,000 or more must be declared. No official threshold is published for the rest of Somalia; declare large amounts of foreign currency on arrival to avoid problems on departure.",
         "source": {
-          "url": "https://immigration.gov.so/news/somalia-launches-e-visa-etas-system",
-          "name": "Immigration and Citizenship Agency of Somalia — launch of the Electronic Travel Authorisation System (E-Visa/ETAS)",
+          "url": "https://www.gov.uk/foreign-travel-advice/somalia/entry-requirements",
+          "name": "UK Foreign, Commonwealth & Development Office — Somalia travel advice: entry requirements",
           "type": "government",
-          "lastVerified": "2026-08-29",
-          "lastChanged": "2026-08-29",
-          "portalOnly": true,
-          "archiveUrl": "https://web.archive.org/web/20260831190259/https://immigration.gov.so/news/somalia-launches-e-visa-etas-system"
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
         }
       },
       "notes": [
@@ -1894,7 +1900,7 @@
     {
       "id": "yellow-fever",
       "question": "Do I need a yellow fever certificate for Somalia?",
-      "answer": "Only if you arrive from a country with risk of yellow fever transmission, which includes much of East and Central Africa. Checks are inconsistent, but carry your ICVP certificate if your route passes through a risk country."
+      "answer": "No. WHO's country list and CDC both state Somalia does not require a yellow fever certificate for entry. You may still need one for the next country on your route if you have been in Somalia or another risk country, so check that country's rules."
     }
   ]
 }

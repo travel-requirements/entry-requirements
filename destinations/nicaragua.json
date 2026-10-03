@@ -2502,29 +2502,21 @@
       "method": "embassy",
       "name": "Consulted Visa (Visa Consultada, Category C)",
       "fee": null,
-      "processing": {
-        "minDays": 15,
-        "maxDays": 45,
-        "unit": "calendar-days"
-      },
-      "validityDays": 30,
+      "processing": null,
+      "validityDays": 180,
       "stayDays": 30,
       "entries": "single",
       "extendable": {
-        "possible": false,
-        "days": null
+        "possible": true,
+        "days": 60
       },
       "applyUrl": null,
       "source": {
-        "url": "https://www.migob.gob.ni/",
-        "name": "Ministerio de Gobernación de Nicaragua — Dirección General de Migración y Extranjería",
+        "url": "https://www.mint.gob.ni/migracion/tramites/visa-de-ingreso-al-pais/",
+        "name": "Dirección General de Migración y Extranjería — Visa de ingreso al país (Categoría C requirements; the visa must be used within 6 months of notification), read with the DGME note of 25 January 2019 (Category C: 30 days' stay, extendable by 60)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "unverifiable": {
-          "lastAttempt": "2026-10-02",
-          "reason": "blocked",
-          "status": 403
-        }
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     {
@@ -2568,20 +2560,6 @@
         "lastChanged": "2026-09-26"
       }
     },
-    "blankPages": {
-      "count": 1,
-      "source": {
-        "url": "https://www.migob.gob.ni/",
-        "name": "Ministerio de Gobernación de Nicaragua — Dirección General de Migración y Extranjería",
-        "type": "government",
-        "lastVerified": "2026-08-26",
-        "unverifiable": {
-          "lastAttempt": "2026-10-02",
-          "reason": "blocked",
-          "status": 403
-        }
-      }
-    },
     "vaccinations": [
       {
         "id": "yellow-fever",
@@ -2604,15 +2582,10 @@
       "minCoverage": null,
       "text": "Travel insurance is not checked at the border, but medical care outside Managua is limited and evacuation is expensive — cover including repatriation is strongly advised.",
       "source": {
-        "url": "https://www.migob.gob.ni/",
-        "name": "Ministerio de Gobernación de Nicaragua — Dirección General de Migración y Extranjería",
+        "url": "https://www.gov.uk/foreign-travel-advice/nicaragua/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Nicaragua entry requirements",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "unverifiable": {
-          "lastAttempt": "2026-10-02",
-          "reason": "blocked",
-          "status": 403
-        }
+        "lastVerified": "2026-10-03"
       }
     },
     "onwardTicket": {

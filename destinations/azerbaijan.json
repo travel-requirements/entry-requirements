@@ -22,7 +22,7 @@
   ],
   "summary": "Most visitors — including EU, UK, US and Indian passport holders — need Azerbaijan's ASAN e-Visa, issued online in about three working days for a 30-day stay. CIS neighbors, Turkey, the Gulf states, China, Japan and South Korea enter visa-free, and citizens of Armenia are barred from entry.",
   "meta": {
-    "lastUpdated": "2026-10-02",
+    "lastUpdated": "2026-10-03",
     "lastFullReview": "2026-08-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -1827,54 +1827,65 @@
       "required": false,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Not checked for short tourist visits, but medical coverage is recommended and some visa categories require it.",
+      "text": "No official source states an insurance requirement for visitors. Canada's travel advice recommends cover that includes medical evacuation and hospital stays.",
       "source": {
-        "url": "https://mfa.gov.az/en",
-        "name": "Ministry of Foreign Affairs of Azerbaijan",
+        "url": "https://travel.gc.ca/destinations/azerbaijan",
+        "name": "Government of Canada — Azerbaijan travel advice (health)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260721061456/https://www.mfa.gov.az/en",
-        "portalOnly": true
+        "lastVerified": "2026-10-03"
       }
     },
     "onwardTicket": {
       "required": false,
       "appliesTo": null,
-      "text": "Not routinely checked at the border, though airlines may ask about return plans.",
+      "text": "No official source states an onward-ticket requirement for visitors.",
       "source": {
         "url": "https://mfa.gov.az/en",
         "name": "Ministry of Foreign Affairs of Azerbaijan",
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260721061456/https://www.mfa.gov.az/en",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "proofOfFunds": {
       "required": false,
       "appliesTo": null,
       "amount": null,
-      "text": "No fixed amount is published; border officers may ask visitors to show sufficient means for their stay.",
+      "text": "No official source states a proof-of-funds requirement or amount for visitors.",
       "source": {
         "url": "https://mfa.gov.az/en",
         "name": "Ministry of Foreign Affairs of Azerbaijan",
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260721061456/https://www.mfa.gov.az/en",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "declarations": [],
     "customs": {
       "currencyLimits": {
-        "text": "Cash over USD 10,000 (or the equivalent) must be declared on arrival, and taking out more currency than you brought in can be restricted.",
+        "text": "Foreign currency can be brought in without limit, subject to customs procedures. On departure you may take out cash up to USD 10,000 (or the equivalent) with an oral declaration; USD 10,000–50,000 only with the customs documents and written declaration showing you brought it in; anything more must leave by bank or postal transfer.",
         "source": {
-          "url": "https://mfa.gov.az/en",
-          "name": "Ministry of Foreign Affairs of Azerbaijan",
+          "url": "https://customs.gov.az/en/ferdler-ucun/valyuta-nezareti",
+          "name": "State Customs Committee of the Republic of Azerbaijan — Currency control",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260721061456/https://www.mfa.gov.az/en",
-          "portalOnly": true
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03",
+          "conflict": {
+            "url": "https://travel.gc.ca/destinations/azerbaijan",
+            "name": "Government of Canada — Azerbaijan travel advice",
+            "states": "foreign currency must be declared on entry; you cannot leave with more than you brought in",
+            "resolvedBy": "hierarchy"
+          }
         }
       },
       "notes": [

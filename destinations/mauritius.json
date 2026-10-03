@@ -16,7 +16,7 @@
   ],
   "summary": "Mauritius grants visa-free entry to a very broad list of nationalities — including the EU, UK and US — and issues free visas on arrival to most of the rest, with only a short list of passports needing a visa arranged before travel.",
   "meta": {
-    "lastUpdated": "2026-10-02",
+    "lastUpdated": "2026-10-03",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -1212,35 +1212,18 @@
         "lastVerified": "2026-09-26"
       }
     },
-    "vaccinations": [
-      {
-        "id": "yellow-fever",
-        "name": "Yellow fever",
-        "certificate": "International Certificate of Vaccination (yellow card)",
-        "requiredWhen": "arriving-from-risk-country",
-        "text": "A yellow fever vaccination certificate is required only if you arrive from, or transited through, a country with risk of yellow fever transmission.",
-        "source": {
-          "url": "https://passport.govmu.org/",
-          "name": "Passport and Immigration Office, Mauritius",
-          "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260829112827/https://passport.govmu.org/passport/",
-          "portalOnly": true
-        }
-      }
-    ],
+    "vaccinations": [],
     "travelInsurance": {
       "required": false,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Insurance is not an entry requirement, but visitors use private clinics and costs add up — standard travel cover is recommended.",
+      "text": "No official source makes insurance a condition of entry. The UK government advises adequate travel health insurance: good private healthcare is available but can be expensive, and complex cases may need evacuation to Réunion or South Africa.",
       "source": {
-        "url": "https://passport.govmu.org/",
-        "name": "Passport and Immigration Office, Mauritius",
+        "url": "https://www.gov.uk/foreign-travel-advice/mauritius/health",
+        "name": "UK Foreign, Commonwealth & Development Office — Mauritius travel advice (health)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260829112827/https://passport.govmu.org/passport/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "onwardTicket": {
@@ -1288,18 +1271,39 @@
           "lastChanged": "2026-09-26",
           "instrument": "Quarantine (Health Declaration Form) Regulations 2026"
         }
+      },
+      {
+        "id": "ebola-entry-restriction",
+        "name": "Ebola entry restriction and quarantine (DR Congo, South Sudan)",
+        "mandatory": true,
+        "fee": null,
+        "submitAt": "on-arrival",
+        "submitWindow": null,
+        "url": null,
+        "text": "Foreign nationals who have travelled from, transited through or been present in the Democratic Republic of the Congo or South Sudan within the previous 21 days are not allowed to enter Mauritius, unless they hold a valid work, residence or occupation permit, business visa or student visa. Those permit and visa holders, and Mauritian nationals, may enter but must complete 21 days of mandatory quarantine.",
+        "source": {
+          "url": "https://www.gov.uk/foreign-travel-advice/mauritius/entry-requirements",
+          "name": "UK Foreign, Commonwealth & Development Office — Mauritius travel advice (entry requirements)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       }
     ],
     "customs": {
       "currencyLimits": {
-        "text": "Cash or bearer instruments worth MUR 500,000 or more (roughly USD 10,000) must be declared on arrival and departure.",
+        "text": "No official source we could read publishes Mauritius's cash-declaration threshold. Declare large sums of cash to Customs on arrival and departure.",
         "source": {
           "url": "https://passport.govmu.org/",
           "name": "Passport and Immigration Office, Mauritius",
           "type": "government",
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260829112827/https://passport.govmu.org/passport/",
-          "portalOnly": true
+          "portalOnly": true,
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "not-stated"
+          }
         }
       },
       "notes": [

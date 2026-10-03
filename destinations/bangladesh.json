@@ -1845,19 +1845,14 @@
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
-      "text": "Your passport must be valid for at least 6 months on arrival in Bangladesh.",
+      "rule": "other",
+      "text": "Your passport must be valid for at least 6 months after the date your visa starts — and a Bangladeshi visa starts on its date of issue, not on your date of travel. It also needs at least 2 blank pages and no damage.",
       "source": {
-        "url": "https://www.visa.gov.bd/",
-        "name": "Bangladesh Ministry of Foreign Affairs — official visa portal",
+        "url": "https://www.gov.uk/foreign-travel-advice/bangladesh/entry-requirements",
+        "name": "UK FCDO — Bangladesh entry requirements",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260809023322/https://visa.gov.bd/",
-        "unverifiable": {
-          "lastAttempt": "2026-10-02",
-          "reason": "unreachable"
-        },
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "vaccinations": [
@@ -1866,18 +1861,13 @@
         "name": "Yellow fever",
         "certificate": "International Certificate of Vaccination",
         "requiredWhen": "arriving-from-risk-country",
-        "text": "A yellow fever vaccination certificate is required if you arrive from, or transited more than 12 hours through, a country with risk of yellow fever transmission.",
+        "text": "A yellow fever vaccination certificate is required of travellers aged 1 year or over arriving from a country with risk of yellow fever transmission, or who transited through an airport in one — however short the transit.",
         "source": {
-          "url": "https://www.visa.gov.bd/",
-          "name": "Bangladesh Ministry of Foreign Affairs — official visa portal",
-          "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260809023322/https://visa.gov.bd/",
-          "unverifiable": {
-            "lastAttempt": "2026-10-02",
-            "reason": "unreachable"
-          },
-          "portalOnly": true
+          "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
+          "name": "WHO — International Travel and Health country list: vaccination requirements (Bangladesh)",
+          "type": "igo",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
         }
       }
     ],
@@ -1893,7 +1883,7 @@
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260809023322/https://visa.gov.bd/",
         "unverifiable": {
-          "lastAttempt": "2026-10-02",
+          "lastAttempt": "2026-10-03",
           "reason": "unreachable"
         },
         "portalOnly": true
@@ -1946,7 +1936,7 @@
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260809023322/https://visa.gov.bd/",
           "unverifiable": {
-            "lastAttempt": "2026-10-02",
+            "lastAttempt": "2026-10-03",
             "reason": "unreachable"
           },
           "portalOnly": true
@@ -1955,18 +1945,20 @@
     ],
     "customs": {
       "currencyLimits": {
-        "text": "Foreign currency over US$10,000 (or equivalent) must be declared on arrival; taking more than a small amount of Bangladeshi taka in or out of the country is prohibited.",
+        "text": "Foreign currency over US$10,000 (or equivalent) must be declared to Customs on arrival on Form FMJ. Up to Tk 5,000 in Bangladeshi taka may be brought in or taken out without a declaration.",
         "source": {
-          "url": "https://www.visa.gov.bd/",
-          "name": "Bangladesh Ministry of Foreign Affairs — official visa portal",
+          "url": "https://www.bb.org.bd/mediaroom/circulars/fepd/feb032020fepd06e.pdf",
+          "name": "Bangladesh Bank — FE Circular No. 06 of 3 February 2020 (import and export of currency notes)",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260809023322/https://visa.gov.bd/",
-          "unverifiable": {
-            "lastAttempt": "2026-10-02",
-            "reason": "unreachable"
+          "lastVerified": "2026-10-03",
+          "instrument": "Bangladesh Bank Notification No. FE-1/2020-BB of 3 February 2020 (Foreign Exchange Regulation Act 1947, s.8(1))",
+          "conflict": {
+            "url": "https://bangladeshcustoms.gov.bd/trade_info/currency_regulations",
+            "name": "Bangladesh Customs — Currency Regulations",
+            "states": "declare foreign currency over USD 5,000",
+            "resolvedBy": "hierarchy"
           },
-          "portalOnly": true
+          "lastChanged": "2026-10-03"
         }
       },
       "notes": [

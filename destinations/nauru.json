@@ -1808,26 +1808,18 @@
       "method": "embassy",
       "name": "Nauru Business Visa",
       "fee": null,
-      "processing": {
-        "minDays": 10,
-        "maxDays": 30,
-        "unit": "calendar-days"
-      },
+      "processing": null,
       "validityDays": 90,
-      "stayDays": 30,
+      "stayDays": null,
       "entries": "single",
-      "extendable": {
-        "possible": true,
-        "days": 30
-      },
       "applyUrl": null,
       "source": {
         "url": "https://justice.gov.nr/immigration-division/",
-        "name": "Department of Justice and Border Control — Immigration Division",
+        "name": "Nauru Department of Justice & Border Control — Immigration Division (classes of visa, visa fees)",
         "type": "government",
         "archiveUrl": "https://web.archive.org/web/20260823092116/https://justice.gov.nr/immigration-division/",
-        "lastVerified": "2026-08-26",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     {
@@ -1875,97 +1867,92 @@
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260905083755/https://www.nauru.gov.nr/",
-        "portalOnly": true
-      }
-    },
-    "vaccinations": [
-      {
-        "id": "yellow-fever",
-        "name": "Yellow fever",
-        "certificate": "International Certificate of Vaccination or Prophylaxis",
-        "requiredWhen": "arriving-from-risk-country",
-        "text": "A yellow fever certificate is required only for travelers arriving from, or having transited, a country with risk of yellow fever transmission.",
-        "source": {
-          "url": "https://www.nauru.gov.nr/",
-          "name": "Republic of Nauru — government portal",
-          "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260905083755/https://www.nauru.gov.nr/",
-          "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
         }
       }
-    ],
+    },
+    "vaccinations": [],
     "travelInsurance": {
       "required": false,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Insurance is not formally required, but Nauru's hospital handles only basic cases and evacuation means a charter or a scheduled Nauru Airlines flight to Brisbane — cover with medical evacuation is close to essential.",
+      "text": "No official source we could find states whether travel insurance is required to enter Nauru. The hospital handles only basic cases and evacuation means a flight to Brisbane, so cover with medical evacuation is worth having.",
       "source": {
         "url": "https://www.nauru.gov.nr/",
         "name": "Republic of Nauru — government portal",
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260905083755/https://www.nauru.gov.nr/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "onwardTicket": {
       "required": true,
       "appliesTo": "all",
-      "text": "A confirmed return or onward ticket is part of the visa application and is checked again at check-in. Because flights operate only a few times a week, your dates effectively fix the length of your stay.",
+      "text": "Officials may ask to see a return or onward ticket, according to the Government of Canada's travel advice. No Nauruan official source we could find states the rule.",
       "source": {
-        "url": "https://www.nauru.gov.nr/",
-        "name": "Republic of Nauru — government portal",
+        "url": "https://travel.gc.ca/destinations/nauru",
+        "name": "Government of Canada — Travel advice and advisories: Nauru",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260905083755/https://www.nauru.gov.nr/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "proofOfFunds": {
       "required": true,
       "appliesTo": "all",
       "amount": null,
-      "text": "Applicants are expected to show they can cover the trip, and a confirmed, paid accommodation booking — in practice the Menen Hotel or one of a few small guesthouses — is normally required before a visa is granted.",
+      "text": "Under Nauru's Immigration Act, a person without sufficient lawful means of support for themselves and their dependants can be declared a prohibited immigrant, so be ready to show you can pay for your stay. No fixed amount is set.",
       "source": {
-        "url": "https://www.nauru.gov.nr/",
-        "name": "Republic of Nauru — government portal",
+        "url": "https://ronlaw.gov.nr/assets/docs%2Facts%2F2014%2FImmigration%20Act%202014_serv5.pdf",
+        "name": "Immigration Act 2014 and Immigration Regulations 2014 (RONLAW, Republic of Nauru Online Legal Database)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260905083755/https://www.nauru.gov.nr/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "instrument": "Immigration Act 2014 (Nauru), s 11(2)(e)",
+        "lastChanged": "2026-10-03"
       }
     },
     "declarations": [
       {
         "id": "arrival-declaration",
-        "name": "Nauru arrival and customs declaration",
+        "name": "Nauru arrival card",
         "mandatory": true,
         "fee": null,
         "submitAt": "on-arrival",
         "submitWindow": "Completed on the aircraft or at Nauru International Airport on arrival",
         "url": null,
-        "text": "A paper arrival card and customs/quarantine declaration are issued on the flight. Declare all food, plant and animal products — quarantine controls on the island are strict.",
+        "text": "Every arriving passenger must complete and sign an arrival card — passport details, flight, intended address in Nauru, and for visitors the intended length of stay and main reason for the visit — and hand it to an immigration officer on request.",
         "source": {
-          "url": "https://www.nauru.gov.nr/",
-          "name": "Republic of Nauru — government portal",
+          "url": "https://ronlaw.gov.nr/assets/docs%2Facts%2F2014%2FImmigration%20Act%202014_serv5.pdf",
+          "name": "Immigration Act 2014 and Immigration Regulations 2014 (RONLAW, Republic of Nauru Online Legal Database)",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260905083755/https://www.nauru.gov.nr/",
-          "portalOnly": true
+          "lastVerified": "2026-10-03",
+          "instrument": "Immigration Regulations 2014 (Nauru), reg 22",
+          "lastChanged": "2026-10-03"
         }
       }
     ],
     "customs": {
       "currencyLimits": {
-        "text": "Large amounts of cash should be declared on arrival; a threshold equivalent to AUD 10,000 is the usual regional standard. Confirm with customs, as Nauru is a cash economy and unexplained sums attract questions.",
+        "text": "No official source we could find states Nauru's threshold for declaring cash. Nauru uses the Australian dollar and is largely a cash economy.",
         "source": {
           "url": "https://www.nauru.gov.nr/",
           "name": "Republic of Nauru — government portal",
           "type": "government",
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260905083755/https://www.nauru.gov.nr/",
-          "portalOnly": true
+          "portalOnly": true,
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "not-stated"
+          }
         }
       },
       "notes": [

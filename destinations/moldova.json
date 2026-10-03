@@ -17,7 +17,7 @@
   ],
   "summary": "Moldova keeps a broad visa-free list — EU/EFTA, the US, UK, Canada, Japan, the Western Balkans, most CIS countries and much of Latin America get 90 days in any 180-day period — while most other nationalities can apply online for an eVisa through the official evisa.gov.md portal.",
   "meta": {
-    "lastUpdated": "2026-10-02",
+    "lastUpdated": "2026-10-03",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -624,17 +624,19 @@
         "notes": "Visa-free. The Ministry of Foreign Affairs lists these passport holders among foreigners exempt from the visa requirement."
       },
       "XK": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "notes": "Moldova does not recognize Kosovo, and Kosovan passport holders cannot use the eVisa — contact a Moldovan diplomatic mission about travel-document acceptance before planning a trip.",
+        "requirement": "evisa",
+        "maxStayDays": 90,
+        "notes": "Kosovo is not on Moldova's visa-exempt list, so a visa is needed. Kosovo is offered on the nationality list of the official eVisa application form, and the portal says all foreigners can request an eVisa, so apply online at evisa.gov.md before travel. Moldova does not recognize Kosovo; check with a Moldovan mission that the passport will be accepted at the border.",
         "source": {
-          "url": "https://evisa.gov.md/",
-          "name": "Moldova eVisa — official portal of the Republic of Moldova",
+          "url": "https://evisa.gov.md/Info/ThingsYouShouldKnow?c=ro-RO",
+          "name": "Moldova eVisa portal (MFAEI) — 10 things you should know about the eVisa (\"All foreigners can request eVisa\")",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260810014146/https://evisa.gov.md/",
-          "portalOnly": true
-        }
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        },
+        "visaTypes": [
+          "evisa"
+        ]
       },
       "KW": {
         "requirement": "evisa",
@@ -1174,14 +1176,13 @@
         "visaTypes": [
           "evisa"
         ],
-        "notes": "Apply for a Moldovan eVisa on the official evisa.gov.md portal before travel; some applicants may need an invitation or supporting documents. Check the portal for your nationality.",
+        "notes": "Taiwan is not on Moldova's visa-exempt list, so a visa is needed. The eVisa portal says all foreigners can request an eVisa, but its nationality list has no entry for Taiwan, so ask a Moldovan mission how to apply before you plan the trip.",
         "source": {
-          "url": "https://evisa.gov.md/",
-          "name": "Moldova eVisa — official portal of the Republic of Moldova",
+          "url": "https://evisa.gov.md/Info/ThingsYouShouldKnow?c=ro-RO",
+          "name": "Moldova eVisa portal (MFAEI) — 10 things you should know about the eVisa (\"All foreigners can request eVisa\")",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260810014146/https://evisa.gov.md/",
-          "portalOnly": true
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
         }
       },
       "TJ": {
@@ -1522,16 +1523,15 @@
       }
     },
     "onwardTicket": {
-      "required": false,
-      "appliesTo": null,
-      "text": "Not routinely checked, but border officers may ask about the purpose of your visit, onward travel and accommodation.",
+      "required": true,
+      "appliesTo": "all",
+      "text": "Moldovan law lists a return or round-trip ticket among the documents a tourist may be asked to show to justify the visit, together with proof of accommodation and of enough money for the stay and the journey home or onward.",
       "source": {
-        "url": "https://evisa.gov.md/",
-        "name": "Moldova eVisa — official portal of the Republic of Moldova",
+        "url": "https://www.border.gov.md/traversarea-frontierei-de-catre-cetatenii-straini",
+        "name": "Border Police of the Republic of Moldova — Border crossing by foreign citizens",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260810014146/https://evisa.gov.md/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "proofOfFunds": {

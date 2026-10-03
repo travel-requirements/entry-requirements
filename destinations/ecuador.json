@@ -19,7 +19,7 @@
   ],
   "summary": "Ecuador has one of the most open visa policies in the world: almost every nationality enters visa-free for up to 90 days within a 12-month period, with only a short negative list, including Afghanistan, Bangladesh, Cuba, Nigeria, Pakistan, Somalia, Syria, Venezuela and, since the 2024 suspension of its waiver, China — needing a consular visa. Andean Community citizens travel on a national ID card.",
   "meta": {
-    "lastUpdated": "2026-09-26",
+    "lastUpdated": "2026-10-03",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -1407,7 +1407,11 @@
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260819212909/https://www.cancilleria.gob.ec/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "vaccinations": [
@@ -1415,30 +1419,34 @@
         "id": "yellow-fever",
         "name": "Yellow fever",
         "certificate": "International Certificate of Vaccination or Prophylaxis (ICVP)",
-        "requiredWhen": "arriving-from-risk-country",
-        "text": "A yellow fever certificate is required if you arrive from or have transited a country with risk of transmission. Vaccination is separately recommended before traveling to the Amazon provinces (Orellana, Sucumbíos, Napo, Pastaza, Morona Santiago, Zamora Chinchipe) and is not needed for Quito, the Galápagos or the highlands.",
+        "requiredWhen": "recommended",
+        "text": "No yellow fever certificate is required to enter Ecuador: the Ministry of Public Health dropped the requirement on 28 August 2025 and now recommends vaccination, at least 10 days before travel, especially for the Amazon provinces (Sucumbíos, Napo, Orellana, Pastaza, Morona Santiago, Zamora Chinchipe). It is not needed for Quito, the Galápagos or the highlands.",
         "source": {
-          "url": "https://www.cancilleria.gob.ec/",
-          "name": "Ministerio de Relaciones Exteriores y Movilidad Humana del Ecuador",
+          "url": "https://www.salud.gob.ec/el-ministerio-de-salud-publica-de-Ecuador-modifica-la-obligatoriedad-del-carne-de-vacunacion-contra-fiebre-amarilla/",
+          "name": "Ministerio de Salud Pública del Ecuador — elimina la obligatoriedad del carné de vacunación contra fiebre amarilla (28 Aug 2025)",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260819212909/https://www.cancilleria.gob.ec/",
-          "portalOnly": true
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03",
+          "conflict": {
+            "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
+            "name": "WHO International Travel and Health — country list (2022)",
+            "states": "proof of yellow fever vaccination required for travellers aged 1 year or over arriving from Brazil, DR Congo or Uganda",
+            "resolvedBy": "hierarchy"
+          }
         }
       }
     ],
     "travelInsurance": {
-      "required": true,
-      "appliesTo": "all",
+      "required": false,
+      "appliesTo": null,
       "minCoverage": null,
-      "text": "Ecuadorian law requires foreign visitors to hold health insurance valid for the duration of their stay. Enforcement at mainland airports is inconsistent, but the requirement is real and is checked more often for Galápagos travelers. Carry a printed policy showing medical coverage and dates.",
+      "text": "Health insurance is not required to enter mainland Ecuador. It is mandatory for foreign tourists visiting the Galápagos Islands, so carry a policy covering your stay there. Medical cover is sensible everywhere.",
       "source": {
-        "url": "https://www.cancilleria.gob.ec/",
-        "name": "Ministerio de Relaciones Exteriores y Movilidad Humana del Ecuador",
+        "url": "https://www.gov.uk/foreign-travel-advice/ecuador/entry-requirements",
+        "name": "UK FCDO travel advice — Ecuador entry requirements",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260819212909/https://www.cancilleria.gob.ec/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "onwardTicket": {
@@ -1456,14 +1464,13 @@
       "required": false,
       "appliesTo": null,
       "amount": null,
-      "text": "Officers may ask visitors to show sufficient means for the stay. A bank statement or credit card is normally enough. No fixed amount is published for visa-free visitors, while visa applicants must document economic solvency.",
+      "text": "No official source we could find states a funds requirement for visa-free visitors. Applicants for Ecuador's tourist visa must prove lawful means of support (Ministerial Agreement No. 70 of 28 June 2024).",
       "source": {
-        "url": "https://www.cancilleria.gob.ec/",
-        "name": "Ministerio de Relaciones Exteriores y Movilidad Humana del Ecuador",
+        "url": "https://www.gob.ec/mremh/tramites/concesion-visa-visitante-temporal-turista-90-dias",
+        "name": "gob.ec — Concesión de visa de visitante temporal turista (90 días), Ministry of Foreign Affairs and Human Mobility",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260819212909/https://www.cancilleria.gob.ec/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "declarations": [
@@ -1619,7 +1626,7 @@
     {
       "id": "insurance-required",
       "type": "info",
-      "text": "Health insurance valid for your whole stay is a legal entry requirement in Ecuador. Checks are patchy on the mainland but more common for Galápagos travel. Carry a printed policy in English or Spanish showing medical coverage and dates."
+      "text": "Health insurance is mandatory for foreign tourists visiting the Galápagos, though not for the mainland. Carry a printed policy in English or Spanish showing medical coverage and dates."
     },
     {
       "id": "altitude-quito",
@@ -1651,7 +1658,7 @@
     {
       "id": "insurance-required-faq",
       "question": "Is travel insurance mandatory for Ecuador?",
-      "answer": "Yes, in law. Ecuador's human mobility legislation requires foreign visitors to hold health insurance covering their stay. Enforcement varies — many mainland arrivals are never asked — but Galápagos operators and some airlines do check, and it is not worth arriving without it."
+      "answer": "Not for the mainland: Ecuador dropped compulsory health insurance for tourists entering mainland Ecuador in 2018. It is mandatory for foreign tourists visiting the Galápagos Islands, and medical cover is sensible anywhere in the country."
     },
     {
       "id": "china-waiver",

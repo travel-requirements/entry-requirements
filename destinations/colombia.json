@@ -21,7 +21,7 @@
   ],
   "summary": "Colombia admits passport holders of about 100 countries — including the US, UK, EU, Canada and most of the Americas — visa-free for 90 days, extendable in-country to a maximum of 180 days per calendar year. Nationalities that do need a visa apply online for a Visitor (V) visa through the Foreign Ministry. Migración Colombia's free Check-Mig pre-registration, before entering or leaving, is optional but speeds up the immigration interview.",
   "meta": {
-    "lastUpdated": "2026-10-02",
+    "lastUpdated": "2026-10-03",
     "lastFullReview": "2026-09-25",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -241,7 +241,7 @@
         "visaTypes": [
           "visitor-v"
         ],
-        "notes": "Visitor (V) visa required, applied for online via the Cancillería portal before traveling."
+        "notes": "Visitor (V) visa required, applied for online via the Cancillería portal before traveling. Holders of a US or Schengen visa valid for more than 180 days on the day they enter are exempt for stays of up to 90 days (List C)."
       },
       "PK": {
         "requirement": "evisa",
@@ -461,7 +461,7 @@
         "visaTypes": [
           "visitor-v"
         ],
-        "notes": "Visitor (V) visa required, applied for online via the Cancillería portal before traveling."
+        "notes": "Visitor (V) visa required, applied for online via the Cancillería portal before traveling. Holders of a US or Schengen visa valid for more than 180 days on the day they enter are exempt for stays of up to 90 days (List C)."
       },
       "CM": {
         "requirement": "evisa",
@@ -1007,7 +1007,7 @@
         "visaTypes": [
           "visitor-v"
         ],
-        "notes": "Visitor (V) visa required, applied for online via the Cancillería portal before traveling."
+        "notes": "Visitor (V) visa required, applied for online via the Cancillería portal before traveling. Holders of a US or Schengen visa valid for more than 180 days on the day they enter are exempt for stays of up to 90 days (List C)."
       },
       "NA": {
         "requirement": "evisa",
@@ -1272,7 +1272,7 @@
         "visaTypes": [
           "visitor-v"
         ],
-        "notes": "Visitor (V) visa required, applied for online via the Cancillería portal before traveling."
+        "notes": "Visitor (V) visa required, applied for online via the Cancillería portal before traveling. Holders of a US or Schengen visa valid for more than 180 days on the day they enter are exempt for stays of up to 90 days (List C)."
       },
       "TJ": {
         "requirement": "evisa",
@@ -1296,7 +1296,7 @@
         "visaTypes": [
           "visitor-v"
         ],
-        "notes": "Visitor (V) visa required, applied for online via the Cancillería portal before traveling."
+        "notes": "Visitor (V) visa required, applied for online via the Cancillería portal before traveling. Holders of a US or Schengen visa valid for more than 180 days on the day they enter are exempt for stays of up to 90 days (List C)."
       },
       "TL": {
         "requirement": "evisa",
@@ -1426,17 +1426,22 @@
         "requirement": "visa-free",
         "maxStayDays": 90,
         "appliesTo": [
+          "KH",
           "CN",
           "IN",
+          "MM",
+          "TH",
+          "TW",
           "VN"
         ],
-        "text": "Citizens of China, India and Vietnam (plus a few other listed nationalities) holding a US or Schengen visa valid for more than 6 months — or permanent residence there — may enter Colombia visa-free for up to 90 days.",
+        "text": "Citizens of Cambodia, China, India, Myanmar, Taiwan, Thailand and Vietnam — Colombia's List C of conditional visa exemptions — need no visa for a short stay if they hold a US or Schengen visa valid for more than 180 days on the day they enter Colombia. The stay is up to 90 days. Nicaragua is also on List C, but only Nicaraguans from the Caribbean Coast autonomous regions qualify.",
         "source": {
-          "url": "https://www.cancilleria.gov.co/",
-          "name": "Ministerio de Relaciones Exteriores de Colombia",
+          "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/necesito-un-visa",
+          "name": "Cancillería de Colombia — ¿Necesito una visa? (Lists A, B and C of visa-exempt passports)",
           "type": "government",
-          "lastVerified": "2026-08-25",
-          "archiveUrl": "https://web.archive.org/web/20260826015615/https://cancilleria.gov.co/"
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03",
+          "instrument": "Resolución 5488 de 2022 and Resolución 3717 de 2023 (Ministerio de Relaciones Exteriores)"
         }
       }
     ]
@@ -1544,14 +1549,13 @@
       "required": false,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Not an entry requirement, but strongly recommended — private clinics expect payment or proof of insurance, and medical evacuation from remote areas is costly.",
+      "text": "No official source makes insurance a condition of entry for visa-free visitors. The UK government advises insurance for local treatment and medical evacuation: private clinics in the large cities give good care, but public facilities and those in smaller cities are generally ill-equipped.",
       "source": {
-        "url": "https://www.gov.uk/foreign-travel-advice/colombia",
-        "name": "UK FCDO — Colombia travel advice",
+        "url": "https://www.gov.uk/foreign-travel-advice/colombia/health",
+        "name": "UK Foreign, Commonwealth & Development Office — Colombia travel advice (health)",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260803044630/https://www.gov.uk/foreign-travel-advice/colombia",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "onwardTicket": {
@@ -1602,7 +1606,7 @@
     ],
     "customs": {
       "currencyLimits": {
-        "text": "Cash or monetary instruments of USD 10,000 or more (or equivalent) must be declared on arrival and departure — undeclared excess amounts can be seized.",
+        "text": "No official source we could read states Colombia's cash-declaration threshold: Migración Colombia's page renders in the browser without it, and the customs authority DIAN publishes its travellers' guidance as an image. Declare large sums of cash on arrival and departure.",
         "source": {
           "url": "https://www.migracioncolombia.gov.co/",
           "name": "Migración Colombia",
@@ -1611,9 +1615,8 @@
           "archiveUrl": "https://web.archive.org/web/20260821155251/http://www.migracioncolombia.gov.co/",
           "portalOnly": true,
           "unverifiable": {
-            "lastAttempt": "2026-09-01",
-            "reason": "client-rendered",
-            "status": 200
+            "lastAttempt": "2026-10-03",
+            "reason": "not-stated"
           }
         }
       },
@@ -1720,7 +1723,7 @@
     {
       "id": "in-cn-visa",
       "question": "Do Indian or Chinese citizens need a visa for Colombia?",
-      "answer": "Generally yes — a Visitor (V) visa applied for online through the Cancillería. However, holders of a valid US or Schengen visa or residence permit can enter visa-free for up to 90 days, and Colombia announced a visa waiver for Chinese tourists in 2025. Confirm the current status with a Colombian consulate before booking."
+      "answer": "Generally yes — a Visitor (V) visa applied for online through the Cancillería. However, holders of a US or Schengen visa valid for more than 180 days on the day they enter can come visa-free for up to 90 days, and Colombia announced a visa waiver for Chinese tourists in 2025. Confirm the current status with a Colombian consulate before booking."
     }
   ]
 }

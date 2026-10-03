@@ -18,7 +18,7 @@
   ],
   "summary": "Indonesia offers a Visa on Arrival — or its online e-VOA version — of IDR 500,000 for 30 days, extendable once, to citizens of over 90 countries, admits ASEAN neighbors and a few other countries (including Brazil and Turkey) visa-free, and requires every arrival to submit a free customs declaration online before landing.",
   "meta": {
-    "lastUpdated": "2026-10-02",
+    "lastUpdated": "2026-10-03",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 7,
     "primarySources": [
@@ -1653,12 +1653,16 @@
     "blankPages": {
       "count": 2,
       "source": {
-        "url": "https://www.imigrasi.go.id/",
-        "name": "Directorate General of Immigration of Indonesia",
+        "url": "https://www.gov.uk/foreign-travel-advice/indonesia/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Indonesia travel advice: entry requirements",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260829112533/https://www.imigrasi.go.id/",
-        "portalOnly": true
+        "conflict": {
+          "url": "https://travel.gc.ca/destinations/indonesia",
+          "name": "Government of Canada — Travel advice and advisories: Indonesia",
+          "states": "at least one blank page",
+          "resolvedBy": "stricter"
+        },
+        "lastVerified": "2026-10-03"
       }
     },
     "vaccinations": [
@@ -1669,12 +1673,10 @@
         "requiredWhen": "arriving-from-risk-country",
         "text": "A yellow fever vaccination certificate (ICVP) is required only if you arrive from, or transited through, a country with risk of yellow fever transmission.",
         "source": {
-          "url": "https://www.imigrasi.go.id/",
-          "name": "Directorate General of Immigration of Indonesia",
-          "type": "government",
-          "lastVerified": "2026-08-25",
-          "archiveUrl": "https://web.archive.org/web/20260829112533/https://www.imigrasi.go.id/",
-          "portalOnly": true
+          "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
+          "name": "WHO — International Travel and Health: country list of vaccination requirements (2022, revised 2023)",
+          "type": "igo",
+          "lastVerified": "2026-10-03"
         }
       }
     ],
@@ -1682,14 +1684,18 @@
       "required": false,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Travel insurance is not an entry requirement, but medical coverage including evacuation is strongly recommended — serious cases on the islands are often evacuated to Jakarta or Singapore.",
+      "text": "No official Indonesian source states an insurance requirement for tourist entry. Medical cover including evacuation is advisable, as serious cases on the outer islands are often evacuated to Jakarta or abroad.",
       "source": {
         "url": "https://www.imigrasi.go.id/",
         "name": "Directorate General of Immigration of Indonesia",
         "type": "government",
         "lastVerified": "2026-08-25",
         "archiveUrl": "https://web.archive.org/web/20260829112533/https://www.imigrasi.go.id/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "onwardTicket": {

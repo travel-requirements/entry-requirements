@@ -23,7 +23,7 @@
   ],
   "summary": "Hungary is part of the EU and the Schengen Area: EU and EFTA citizens enter freely, around 60 visa-exempt nationalities can stay 90 days in any 180-day period (the ETIAS travel authorization is not yet in operation), and everyone else needs a Schengen short-stay visa costing €90.",
   "meta": {
-    "lastUpdated": "2026-09-26",
+    "lastUpdated": "2026-10-03",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -1427,28 +1427,27 @@
       "fee": {
         "amount": 110,
         "currency": "EUR",
-        "notes": "For stays over 90 days: work, study, family and other long-stay purposes, usually processed together with a residence permit. Fees vary by category."
+        "notes": "For stays over 90 days: the EUR 110 fee covers the residence permit application and the D visa to collect it when filed at a Hungarian consulate (26,000–39,000 HUF when filed in Hungary). The D visa allows one entry and 30 days in Hungary to collect the permit."
       },
       "processing": {
-        "minDays": 30,
-        "maxDays": 90,
+        "minDays": 15,
+        "maxDays": 70,
         "unit": "calendar-days"
       },
-      "validityDays": 365,
-      "stayDays": 365,
-      "entries": "multiple",
+      "validityDays": 90,
+      "stayDays": 30,
+      "entries": "single",
       "extendable": {
         "possible": true,
         "days": null
       },
       "applyUrl": "https://konzuliszolgalat.kormany.hu/en",
       "source": {
-        "url": "https://konzuliszolgalat.kormany.hu/en",
-        "name": "Hungarian Consular Service",
+        "url": "https://oif.gov.hu/tajekoztatok/eljarasi-dijak",
+        "name": "National Directorate-General for Aliens Policing (OIF) — Eljárási díjak (procedure fees)",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "portalOnly": true,
-        "archiveUrl": "https://web.archive.org/web/20260831185724/https://konzinfo.mfa.gov.hu/en"
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     {
@@ -1462,8 +1461,8 @@
         "notes": "For courses longer than 90 days; needs proof of enrollment at a Hungarian institution, accommodation, funds and health insurance."
       },
       "processing": {
-        "minDays": 21,
-        "maxDays": 70,
+        "minDays": 15,
+        "maxDays": 60,
         "unit": "calendar-days"
       },
       "validityDays": 365,
@@ -1475,12 +1474,11 @@
       },
       "applyUrl": "https://konzuliszolgalat.kormany.hu/en",
       "source": {
-        "url": "https://konzuliszolgalat.kormany.hu/en",
-        "name": "Hungarian Consular Service",
+        "url": "https://oif.gov.hu/tajekoztatok/a-hallgato-tanulo-tartozkodasa",
+        "name": "National Directorate-General for Aliens Policing (OIF) — residence permit for studies",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "portalOnly": true,
-        "archiveUrl": "https://web.archive.org/web/20260831185724/https://konzinfo.mfa.gov.hu/en"
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     {
@@ -1494,8 +1492,8 @@
         "notes": "Combined residence and work authorization for employment over 90 days; requires a contract with an employer in Hungary and is initiated before travel."
       },
       "processing": {
-        "minDays": 30,
-        "maxDays": 90,
+        "minDays": 21,
+        "maxDays": 70,
         "unit": "calendar-days"
       },
       "validityDays": 730,
@@ -1507,12 +1505,11 @@
       },
       "applyUrl": "https://konzuliszolgalat.kormany.hu/en",
       "source": {
-        "url": "https://konzuliszolgalat.kormany.hu/en",
-        "name": "Hungarian Consular Service",
+        "url": "https://oif.gov.hu/tajekoztatok/foglalkoztatasi-celu-tartozkodasi-engedely",
+        "name": "National Directorate-General for Aliens Policing (OIF) — residence permit for employment",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "portalOnly": true,
-        "archiveUrl": "https://web.archive.org/web/20260831185724/https://konzinfo.mfa.gov.hu/en"
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     }
   ],
@@ -1521,23 +1518,21 @@
       "rule": "3-months-beyond-departure",
       "text": "Non-EU passports must be valid for at least 3 months beyond your planned departure from the Schengen Area and have been issued within the last 10 years.",
       "source": {
-        "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy_en",
-        "name": "European Commission — Schengen rules",
-        "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260809140836/https://home-affairs.ec.europa.eu/policies/schengen/visa-policy_en",
-        "portalOnly": true
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0399",
+        "name": "Regulation (EU) 2016/399 — Schengen Borders Code (EUR-Lex)",
+        "type": "igo",
+        "lastVerified": "2026-10-03",
+        "instrument": "Regulation (EU) 2016/399 (Schengen Borders Code), Article 6(1)(a)"
       }
     },
     "blankPages": {
       "count": 2,
       "source": {
-        "url": "https://konzuliszolgalat.kormany.hu/en",
-        "name": "Hungarian Consular Service",
-        "type": "government",
-        "lastVerified": "2026-08-25",
-        "portalOnly": true,
-        "archiveUrl": "https://web.archive.org/web/20260831185724/https://konzinfo.mfa.gov.hu/en"
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R0810-20200202",
+        "name": "Regulation (EC) No 810/2009 — Visa Code, Article 12 (EUR-Lex)",
+        "type": "igo",
+        "lastVerified": "2026-10-03",
+        "instrument": "Regulation (EC) No 810/2009 (Visa Code), Article 12(c)"
       }
     },
     "vaccinations": [],
@@ -1563,12 +1558,11 @@
       "appliesTo": "all",
       "text": "Border officers may ask non-EU visitors for proof of return or onward travel and accommodation details.",
       "source": {
-        "url": "https://konzuliszolgalat.kormany.hu/en",
-        "name": "Hungarian Consular Service",
-        "type": "government",
-        "lastVerified": "2026-08-25",
-        "portalOnly": true,
-        "archiveUrl": "https://web.archive.org/web/20260831185724/https://konzinfo.mfa.gov.hu/en"
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0399",
+        "name": "Regulation (EU) 2016/399 — Schengen Borders Code (EUR-Lex)",
+        "type": "igo",
+        "lastVerified": "2026-10-03",
+        "instrument": "Regulation (EU) 2016/399 (Schengen Borders Code), Article 6(1)(c) and Annex I"
       }
     },
     "proofOfFunds": {

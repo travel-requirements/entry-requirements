@@ -21,7 +21,7 @@
   ],
   "summary": "Albania is one of Europe's most open destinations — citizens of the EU, UK, US and dozens more countries enter visa-free for 90 days in any 180 (US passport holders may stay a full year), and most other nationalities can apply online for an e-Visa or enter visa-free with a valid multiple-entry Schengen, UK or US visa.",
   "meta": {
-    "lastUpdated": "2026-10-02",
+    "lastUpdated": "2026-10-03",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -1437,41 +1437,49 @@
       "required": false,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Not checked at the border for visa-free visitors, but e-Visa applicants must show travel medical insurance covering the stay, and cover is strongly recommended for everyone.",
+      "text": "No official source states a travel-insurance requirement for entry to Albania: the foreign ministry's list of documents border officers may ask for does not include it. Cover is still strongly recommended.",
       "source": {
         "url": "https://e-visa.al/",
         "name": "Albania e-Visa — official portal of the Ministry for Europe and Foreign Affairs",
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260810194403/https://e-visa.al/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "onwardTicket": {
-      "required": false,
-      "appliesTo": null,
-      "text": "Not routinely checked, though border officers may ask about your onward plans and where you are staying.",
+      "required": true,
+      "appliesTo": "all",
+      "text": "At the border, officers may ask any foreign visitor for a return ticket or return travel reservation and a document confirming accommodation for the stay.",
       "source": {
-        "url": "https://e-visa.al/",
-        "name": "Albania e-Visa — official portal of the Ministry for Europe and Foreign Affairs",
+        "url": "https://punetejashtme.gov.al/en/regjimi-i-vizave-per-te-huajt/",
+        "name": "Ministry for Europe and Foreign Affairs of Albania — visa regime for foreign citizens",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260810194403/https://e-visa.al/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03",
+        "instrument": "Law No. 79/2021 \"On foreigners\"; Decision of the Council of Ministers No. 858 of 29.12.2021"
       }
     },
     "proofOfFunds": {
-      "required": false,
-      "appliesTo": null,
-      "amount": null,
-      "text": "No fixed amount is published; officers may ask visitors to show sufficient means for their stay.",
+      "required": true,
+      "appliesTo": "all",
+      "amount": {
+        "value": 5000,
+        "currency": "ALL",
+        "per": "day"
+      },
+      "text": "Border officers may ask for proof of sufficient means for the stay and the journey home or onward, such as bank statements. The indicative amount is ALL 5,000 per day for adults and ALL 2,500 per day for minors.",
       "source": {
-        "url": "https://e-visa.al/",
-        "name": "Albania e-Visa — official portal of the Ministry for Europe and Foreign Affairs",
+        "url": "https://punetejashtme.gov.al/en/regjimi-i-vizave-per-te-huajt/",
+        "name": "Ministry for Europe and Foreign Affairs of Albania — visa regime for foreign citizens",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260810194403/https://e-visa.al/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03",
+        "instrument": "Law No. 79/2021 \"On foreigners\"; Decision of the Council of Ministers No. 858 of 29.12.2021"
       }
     },
     "declarations": [],

@@ -1561,11 +1561,7 @@
       "category": "tourist",
       "method": "visa-on-arrival",
       "name": "Visa on Arrival (prior approval)",
-      "fee": {
-        "amount": 50,
-        "currency": "USD",
-        "notes": "Some visa-required nationalities can pay the visa fee on arrival, but only with clearance arranged in advance through the Immigration Department — do not travel without written approval."
-      },
+      "fee": null,
       "processing": null,
       "validityDays": null,
       "stayDays": 30,
@@ -1581,7 +1577,11 @@
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260809105001/https://immigration.gov.bz/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     {
@@ -1635,15 +1635,14 @@
         "id": "yellow-fever",
         "name": "Yellow fever",
         "certificate": "International Certificate of Vaccination (yellow card)",
-        "requiredWhen": "arriving-from-risk-country",
-        "text": "A yellow fever certificate is required only for travelers arriving from a country with risk of yellow fever transmission. It is not needed on direct arrivals from North America or Europe.",
+        "requiredWhen": "recommended",
+        "text": "Not an entry requirement: WHO's country list and CDC both state Belize does not require proof of yellow fever vaccination, and neither recommends the vaccine for Belize. You may still need it for the next country on your route.",
         "source": {
-          "url": "https://www.immigration.gov.bz/",
-          "name": "Belize Immigration Department",
-          "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260809105001/https://immigration.gov.bz/",
-          "portalOnly": true
+          "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
+          "name": "WHO — International Travel and Health: country list of vaccination requirements (2022, revised 2023)",
+          "type": "igo",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
         }
       }
     ],
@@ -1663,42 +1662,44 @@
     },
     "onwardTicket": {
       "required": true,
-      "appliesTo": "all",
-      "text": "Immigration officers routinely ask for a return or onward ticket and the address where you will be staying.",
+      "appliesTo": "visa-applicants",
+      "text": "Visa applicants must submit a flight itinerary showing arrival in Belize and the return date to their country of origin (or onward departure if transiting). Customs officials may also ask any visitor for a return or onward ticket.",
       "source": {
-        "url": "https://www.immigration.gov.bz/",
-        "name": "Belize Immigration Department",
+        "url": "https://immigration.gov.bz/visa/visa-requirements/",
+        "name": "Belize Immigration and Nationality Department — Visa requirements (documents)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260809105001/https://immigration.gov.bz/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "proofOfFunds": {
       "required": true,
-      "appliesTo": "all",
+      "appliesTo": "visa-applicants",
       "amount": null,
-      "text": "Visitors must be able to show sufficient funds to cover their stay. No official source publishes a per-day amount; the immigration officer judges what is sufficient.",
+      "text": "Visa applicants must provide an employment letter and bank records showing the last six months of transactions (their sponsor's too, if sponsored). Customs officials may ask any visitor for proof of sufficient funds. No amount is published.",
       "source": {
-        "url": "https://www.immigration.gov.bz/",
-        "name": "Belize Immigration Department",
+        "url": "https://immigration.gov.bz/visa/visa-requirements/",
+        "name": "Belize Immigration and Nationality Department — Visa requirements (documents)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260809105001/https://immigration.gov.bz/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "declarations": [],
     "customs": {
       "currencyLimits": {
-        "text": "Currency worth USD 10,000 or more (or the equivalent) must be declared on arrival and departure.",
+        "text": "No official Belizean source we could read states a cash declaration threshold. Items that must be declared are listed on the immigration and customs declaration form; check it before carrying large sums.",
         "source": {
           "url": "https://www.immigration.gov.bz/",
           "name": "Belize Immigration Department",
           "type": "government",
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260809105001/https://immigration.gov.bz/",
-          "portalOnly": true
+          "portalOnly": true,
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "not-stated"
+          }
         }
       },
       "notes": [

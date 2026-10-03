@@ -1573,26 +1573,21 @@
       "method": "embassy",
       "name": "Tourist visa (Visa de Turista, TU)",
       "fee": null,
-      "processing": {
-        "minDays": 10,
-        "maxDays": 60,
-        "unit": "calendar-days"
-      },
+      "processing": null,
       "validityDays": 365,
       "stayDays": 90,
       "entries": "multiple",
       "extendable": {
-        "possible": true,
-        "days": 90
+        "possible": false,
+        "days": null
       },
       "applyUrl": null,
       "source": {
-        "url": "https://mppre.gob.ve/",
-        "name": "Ministerio del Poder Popular para Relaciones Exteriores — Venezuela",
+        "url": "https://mppre.gob.ve/descripcion/28",
+        "name": "MPPRE — Visa de Transeúnte Negocios (TR-N) page, note on the tourist visa's validity, entries and stay (requirements: Visa de Turista page, mppre.gob.ve/descripcion/30)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260816154111/https://mppre.gob.ve/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     {
@@ -1601,26 +1596,17 @@
       "method": "embassy",
       "name": "Business visa (Visa de Negocios, TR-N)",
       "fee": null,
-      "processing": {
-        "minDays": 10,
-        "maxDays": 60,
-        "unit": "calendar-days"
-      },
+      "processing": null,
       "validityDays": 365,
-      "stayDays": 180,
+      "stayDays": null,
       "entries": "multiple",
-      "extendable": {
-        "possible": true,
-        "days": 180
-      },
       "applyUrl": null,
       "source": {
-        "url": "https://mppre.gob.ve/",
-        "name": "Ministerio del Poder Popular para Relaciones Exteriores — Venezuela",
+        "url": "https://mppre.gob.ve/descripcion/28",
+        "name": "MPPRE — Visa de Transeúnte Negocios (TR-N)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260816154111/https://mppre.gob.ve/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     {
@@ -1653,15 +1639,14 @@
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
-      "text": "Your passport must be valid for at least 6 months on arrival. Note that Venezuela extended the validity of its own citizens' passports by decree, which some airlines and third countries do not accept — a separate problem, but one that affects dual nationals.",
+      "rule": "6-months-beyond-stay",
+      "text": "Your passport must be valid for at least 6 months after the date you plan to leave Venezuela; visa applications also need 6 months' validity. Venezuela extended the validity of its own citizens' passports by decree, which some airlines and third countries do not accept — a separate problem, but one that affects dual nationals.",
       "source": {
-        "url": "https://mppre.gob.ve/",
-        "name": "Ministerio del Poder Popular para Relaciones Exteriores — Venezuela",
+        "url": "https://www.gov.uk/foreign-travel-advice/venezuela/entry-requirements",
+        "name": "UK FCDO — Venezuela entry requirements",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260816154111/https://mppre.gob.ve/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "blankPages": {
@@ -1672,7 +1657,11 @@
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260816154111/https://mppre.gob.ve/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "vaccinations": [
@@ -1680,15 +1669,14 @@
         "id": "yellow-fever",
         "name": "Yellow fever",
         "certificate": "ICVP",
-        "requiredWhen": "recommended",
-        "text": "Not generally demanded on arrival, but Venezuela has yellow fever risk areas south and east of the Orinoco, so vaccination is recommended, and Brazil, Colombia and several Caribbean states require the certificate from travelers arriving from Venezuela.",
+        "requiredWhen": "arriving-from-risk-country",
+        "text": "A yellow fever certificate is required of travellers aged 1 year or over arriving from Brazil, or who transited for more than 12 hours through an airport in Brazil. WHO also recommends vaccination for most travellers aged 9 months or over, except those staying only in Caracas, Valencia, Margarita Island and a few other low-risk areas.",
         "source": {
-          "url": "https://mppre.gob.ve/",
-          "name": "Ministerio del Poder Popular para Relaciones Exteriores — Venezuela",
-          "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260816154111/https://mppre.gob.ve/",
-          "portalOnly": true
+          "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
+          "name": "WHO — International Travel and Health country list: vaccination requirements (Venezuela)",
+          "type": "igo",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
         }
       },
       {
@@ -1696,14 +1684,13 @@
         "name": "Malaria prophylaxis",
         "certificate": null,
         "requiredWhen": "recommended",
-        "text": "Not an entry requirement. Malaria transmission has risen sharply in Bolívar and Amazonas states and in the mining areas, and diagnosis and treatment are hard to obtain locally. Take advice from a travel clinic before any trip outside the main cities.",
+        "text": "Not an entry requirement. WHO reports high malaria risk all year in parts of Amazonas, Bolívar, Delta Amacuro and Sucre states, moderate risk in Zulia and low risk in Anzoátegui and Monagas, and recommends prevention in risk areas. Take advice from a travel clinic before any trip outside the main cities.",
         "source": {
-          "url": "https://mppre.gob.ve/",
-          "name": "Ministerio del Poder Popular para Relaciones Exteriores — Venezuela",
-          "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260816154111/https://mppre.gob.ve/",
-          "portalOnly": true
+          "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
+          "name": "WHO — International Travel and Health country list: malaria (Venezuela)",
+          "type": "igo",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
         }
       }
     ],
@@ -1731,12 +1718,10 @@
       "appliesTo": "visa-free-arrivals",
       "text": "Visa-free visitors are admitted on the basis of a confirmed return or onward ticket within the permitted stay, and airlines check it at boarding. The officer writes the number of days granted on the entry stamp. It is often fewer than 90.",
       "source": {
-        "url": "https://mppre.gob.ve/",
-        "name": "Ministerio del Poder Popular para Relaciones Exteriores — Venezuela",
+        "url": "https://www.gov.uk/foreign-travel-advice/venezuela/entry-requirements",
+        "name": "UK FCDO — Venezuela entry requirements",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260816154111/https://mppre.gob.ve/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03"
       }
     },
     "proofOfFunds": {
@@ -1750,7 +1735,11 @@
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260816154111/https://mppre.gob.ve/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "declarations": [],
@@ -1911,7 +1900,7 @@
     {
       "id": "yellow-fever",
       "question": "Do I need a yellow fever vaccination for Venezuela?",
-      "answer": "It is not usually demanded on entry, but Venezuela has yellow fever risk areas south and east of the Orinoco, so vaccination is recommended. It also matters on the way out: Brazil, Colombia and several Caribbean countries ask travelers arriving from Venezuela for the certificate."
+      "answer": "Only if you arrive from Brazil: a certificate is required of travellers aged 1 or over coming from Brazil or after more than 12 hours' transit there. WHO also recommends vaccination for most of the country outside Caracas, Valencia and Margarita Island."
     }
   ]
 }

@@ -46,7 +46,11 @@
       "type": "government",
       "lastVerified": "2026-08-26",
       "archiveUrl": "https://web.archive.org/web/20260116071548/https://mofa.gov.iq/",
-      "portalOnly": true
+      "portalOnly": true,
+      "unverifiable": {
+        "lastAttempt": "2026-10-03",
+        "reason": "not-stated"
+      }
     },
     "byPassport": {
       "AF": {
@@ -1955,11 +1959,7 @@
       "method": "embassy",
       "name": "Tourist Visa (embassy application)",
       "fee": null,
-      "processing": {
-        "minDays": 10,
-        "maxDays": 30,
-        "unit": "calendar-days"
-      },
+      "processing": null,
       "validityDays": null,
       "stayDays": null,
       "entries": "single",
@@ -1970,7 +1970,11 @@
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260116071548/https://mofa.gov.iq/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     }
   ],
@@ -1985,62 +1989,53 @@
         "lastVerified": "2026-09-26"
       }
     },
-    "vaccinations": [
-      {
-        "id": "yellow-fever",
-        "name": "Yellow fever",
-        "certificate": "ICVP",
-        "requiredWhen": "arriving-from-risk-country",
-        "text": "A yellow fever vaccination certificate is required only if you arrive from a country with risk of yellow fever transmission.",
-        "source": {
-          "url": "https://mofa.gov.iq/",
-          "name": "Ministry of Foreign Affairs of Iraq",
-          "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260116071548/https://mofa.gov.iq/",
-          "portalOnly": true
-        }
-      }
-    ],
+    "vaccinations": [],
     "travelInsurance": {
       "required": false,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Not checked at the border, but comprehensive insurance that explicitly covers Iraq (many policies exclude it) and medical evacuation is strongly recommended.",
+      "text": "No official source we could find states whether travel insurance is required to enter Iraq. Many policies exclude Iraq, so check that yours covers it, including medical evacuation.",
       "source": {
         "url": "https://mofa.gov.iq/",
         "name": "Ministry of Foreign Affairs of Iraq",
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260116071548/https://mofa.gov.iq/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "onwardTicket": {
-      "required": false,
-      "appliesTo": null,
-      "text": "Not formally required, but airlines and border officers may ask about your onward plans, accommodation and the purpose of your visit.",
+      "required": true,
+      "appliesTo": "all",
+      "text": "Have a return ticket, or a ticket out of Iraq to a third country, before you fly: without one, airlines may refuse boarding, according to UK government travel advice. No Iraqi official source we could find states the rule.",
       "source": {
-        "url": "https://mofa.gov.iq/",
-        "name": "Ministry of Foreign Affairs of Iraq",
+        "url": "https://www.gov.uk/foreign-travel-advice/iraq/entry-requirements",
+        "name": "UK FCDO travel advice — Iraq entry requirements",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260116071548/https://mofa.gov.iq/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "proofOfFunds": {
       "required": false,
       "appliesTo": null,
       "amount": null,
-      "text": "No fixed amount is published; carry enough US dollars in cash for your stay, as cards are of little use.",
+      "text": "No official source we could find states a funds requirement or amount for visitors to Iraq. Cards are of little use, so carry enough US dollars in cash for your stay.",
       "source": {
         "url": "https://mofa.gov.iq/",
         "name": "Ministry of Foreign Affairs of Iraq",
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260116071548/https://mofa.gov.iq/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "declarations": [],

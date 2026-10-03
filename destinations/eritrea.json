@@ -35,12 +35,10 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://shabait.com/",
-      "name": "Ministry of Information of Eritrea — official government portal",
+      "url": "https://home.eritreaembassy.ch/our-services/visa-and-travel-services",
+      "name": "Embassy of the State of Eritrea in Switzerland — Visa and travel services",
       "type": "government",
-      "lastVerified": "2026-08-26",
-      "archiveUrl": "https://web.archive.org/web/20260821173058/https://shabait.com/",
-      "portalOnly": true
+      "lastVerified": "2026-10-03"
     },
     "byPassport": {
       "AF": {
@@ -1645,17 +1643,13 @@
       "category": "tourist",
       "method": "embassy",
       "name": "Embassy tourist visa",
-      "fee": {
-        "amount": 50,
-        "currency": "USD",
-        "notes": "Fees vary by embassy and nationality. Confirm the amount and payment method with the Eritrean embassy handling your application."
-      },
+      "fee": null,
       "processing": {
-        "minDays": 14,
-        "maxDays": 60,
-        "unit": "calendar-days"
+        "minDays": 10,
+        "maxDays": 10,
+        "unit": "business-days"
       },
-      "validityDays": null,
+      "validityDays": 90,
       "stayDays": 30,
       "entries": "single",
       "extendable": {
@@ -1664,12 +1658,11 @@
       },
       "applyUrl": null,
       "source": {
-        "url": "https://shabait.com/",
-        "name": "Ministry of Information of Eritrea — official government portal",
+        "url": "https://home.eritreaembassy.ch/our-services/visa-and-travel-services",
+        "name": "Embassy of the State of Eritrea in Switzerland — Visa and travel services",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260821173058/https://shabait.com/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     {
@@ -1679,21 +1672,20 @@
       "name": "Embassy business visa",
       "fee": null,
       "processing": {
-        "minDays": 14,
-        "maxDays": 60,
-        "unit": "calendar-days"
+        "minDays": 10,
+        "maxDays": 10,
+        "unit": "business-days"
       },
-      "validityDays": null,
+      "validityDays": 90,
       "stayDays": 30,
       "entries": "single",
       "applyUrl": null,
       "source": {
-        "url": "https://shabait.com/",
-        "name": "Ministry of Information of Eritrea — official government portal",
+        "url": "https://home.eritreaembassy.ch/our-services/visa-and-travel-services",
+        "name": "Embassy of the State of Eritrea in Switzerland — Visa and travel services",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260821173058/https://shabait.com/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     }
   ],
@@ -1729,41 +1721,43 @@
       "required": false,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Insurance is not a formal requirement, but medical facilities are very limited, consular help is minimal and any serious case means evacuation abroad — comprehensive coverage including medical evacuation is essential in practice.",
+      "text": "No official source states a travel insurance requirement for entering Eritrea. Medical facilities are very limited and serious cases need evacuation abroad, so cover that includes medical evacuation is advisable.",
       "source": {
         "url": "https://shabait.com/",
         "name": "Ministry of Information of Eritrea — official government portal",
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260821173058/https://shabait.com/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "onwardTicket": {
-      "required": true,
-      "appliesTo": "all",
-      "text": "Embassies normally require a flight itinerary with the visa application, and you should hold a confirmed return or onward ticket when traveling.",
+      "required": false,
+      "appliesTo": null,
+      "text": "No official source states a return or onward ticket requirement. The Embassy in Switzerland asks tourist visa applicants for a hotel or apartment reservation and proof of financial support, not a ticket.",
       "source": {
-        "url": "https://shabait.com/",
-        "name": "Ministry of Information of Eritrea — official government portal",
+        "url": "https://home.eritreaembassy.ch/our-services/visa-and-travel-services",
+        "name": "Embassy of the State of Eritrea in Switzerland — Visa and travel services",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260821173058/https://shabait.com/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "proofOfFunds": {
-      "required": false,
-      "appliesTo": null,
+      "required": true,
+      "appliesTo": "visa-applicants",
       "amount": null,
-      "text": "No fixed amount is published; embassies may ask for evidence of funds or sponsorship with the visa application. Confirm requirements with the embassy before applying.",
+      "text": "Tourist visa applicants must include proof of financial support with the application. No amount is published.",
       "source": {
-        "url": "https://shabait.com/",
-        "name": "Ministry of Information of Eritrea — official government portal",
+        "url": "https://home.eritreaembassy.ch/our-services/visa-and-travel-services",
+        "name": "Embassy of the State of Eritrea in Switzerland — Visa and travel services",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260821173058/https://shabait.com/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "declarations": [],
@@ -1873,7 +1867,7 @@
     {
       "id": "processing-time",
       "question": "How long does an Eritrean visa take?",
-      "answer": "Allow at least several weeks. Applications are frequently referred to authorities in Asmara for approval, and many travelers apply one to two months ahead. Using an Eritrean tour operator as sponsor can smooth the process. Confirm requirements with the embassy handling your application."
+      "answer": "The Eritrean Embassy in Switzerland says a visa is issued ten working days after it receives the application and fee, and is valid for three months from issue. Approval is not guaranteed, and business visas must first be initiated by your host in Eritrea through the Department of Immigration, so apply well ahead. Confirm requirements with the embassy handling your application."
     },
     {
       "id": "outside-asmara",

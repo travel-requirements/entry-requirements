@@ -21,7 +21,7 @@
   ],
   "summary": "India runs one of the world's largest eVisa programs: citizens of around 170 countries can apply online for tourist eVisas valid 30 days, 1 year or 5 years, starting at 25 USD. Applications go exclusively through the official indianvisaonline.gov.in portal.",
   "meta": {
-    "lastUpdated": "2026-10-02",
+    "lastUpdated": "2026-10-03",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -2101,18 +2101,10 @@
       "category": "tourist",
       "method": "embassy",
       "name": "Regular Tourist Visa (Embassy)",
-      "fee": {
-        "amount": 100,
-        "currency": "USD",
-        "notes": "Fee varies significantly by nationality and reciprocity; confirm with the Indian mission serving your residence."
-      },
-      "processing": {
-        "minDays": 5,
-        "maxDays": 30,
-        "unit": "business-days"
-      },
-      "validityDays": 365,
-      "stayDays": 90,
+      "fee": null,
+      "processing": null,
+      "validityDays": null,
+      "stayDays": null,
       "entries": "multiple",
       "extendable": {
         "possible": false,
@@ -2120,12 +2112,11 @@
       },
       "applyUrl": "https://indianvisaonline.gov.in/",
       "source": {
-        "url": "https://indianvisaonline.gov.in/",
-        "name": "Indian Visa Online",
+        "url": "https://indianvisaonline.gov.in/visa/visa-processing.html",
+        "name": "Indian Visa Online (Bureau of Immigration, MHA) — Visa processing time",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260815192635/https://indianvisaonline.gov.in/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     }
   ],
@@ -2170,17 +2161,13 @@
         "name": "Polio (OPV/IPV)",
         "certificate": "Vaccination certificate",
         "requiredWhen": "arriving-from-risk-country",
-        "text": "Travelers from polio-affected countries (including Pakistan, Afghanistan and Nigeria) must carry proof of oral polio vaccination taken at least 4 weeks before travel.",
+        "text": "Resident nationals travelling from polio-endemic countries (Afghanistan, Nigeria, Pakistan) and from countries with imported poliovirus circulation (Democratic Republic of the Congo, Ethiopia, Kenya, Somalia, Syria) must show proof of oral polio vaccination taken at least 4 weeks before departure.",
         "source": {
-          "url": "https://www.mha.gov.in/",
-          "name": "Ministry of Home Affairs, India",
-          "type": "government",
-          "lastVerified": "2026-08-25",
-          "archiveUrl": "https://web.archive.org/web/20260829112407/https://www.mha.gov.in/hi",
-          "unverifiable": {
-            "lastAttempt": "2026-10-02",
-            "reason": "not-stated"
-          }
+          "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
+          "name": "WHO — Vaccination requirements and recommendations for international travellers, country list (ITH 2022)",
+          "type": "igo",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
         }
       }
     ],
@@ -2188,14 +2175,18 @@
       "required": false,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Travel insurance is not an entry requirement, but is strongly recommended — private hospitals require upfront payment or insurance.",
+      "text": "No official source states a travel insurance requirement for entering India. Private hospitals expect payment up front or proof of insurance, so medical cover is worth having.",
       "source": {
         "url": "https://indianvisaonline.gov.in/",
         "name": "Indian Visa Online",
         "type": "government",
         "lastVerified": "2026-08-25",
         "archiveUrl": "https://web.archive.org/web/20260815192635/https://indianvisaonline.gov.in/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "onwardTicket": {

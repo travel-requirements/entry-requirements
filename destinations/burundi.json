@@ -35,12 +35,10 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://migration.gov.bi/",
-      "name": "Burundi migration authority — official eVisa portal",
+      "url": "https://migration.gov.bi/Apply",
+      "name": "Commissariat Général des Migrations (Burundi) — visa applications and visa types",
       "type": "government",
-      "lastVerified": "2026-08-26",
-      "archiveUrl": "https://web.archive.org/web/20260728163215/https://migration.gov.bi/",
-      "portalOnly": true
+      "lastVerified": "2026-10-03"
     },
     "byPassport": {
       "AF": {
@@ -1722,15 +1720,20 @@
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
-      "text": "Your passport should be valid for at least 6 months on arrival in Burundi and have at least one blank page for the visa and entry stamps.",
+      "rule": "6-months-beyond-stay",
+      "text": "Canada's travel advice says your passport must be valid for at least 6 months beyond the date you expect to leave Burundi and have at least one blank page. The UK's says 6 months from the date you arrive, with one blank page.",
       "source": {
-        "url": "https://migration.gov.bi/",
-        "name": "Burundi migration authority — official eVisa portal",
+        "url": "https://travel.gc.ca/destinations/burundi",
+        "name": "Government of Canada — Burundi travel advice (entry and exit requirements, health)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260728163215/https://migration.gov.bi/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03",
+        "conflict": {
+          "url": "https://www.gov.uk/foreign-travel-advice/burundi/entry-requirements",
+          "name": "UK FCDO — Burundi travel advice (entry requirements)",
+          "states": "expiry date at least 6 months after the date you arrive; one blank page",
+          "resolvedBy": "newer"
+        }
       }
     },
     "vaccinations": [
@@ -1738,15 +1741,14 @@
         "id": "yellow-fever",
         "name": "Yellow fever",
         "certificate": "International Certificate of Vaccination or Prophylaxis (yellow card)",
-        "requiredWhen": "arriving-from-risk-country",
-        "text": "A yellow fever certificate is required from travelers arriving from countries with a risk of yellow fever transmission; vaccination is in any case recommended for Burundi itself.",
+        "requiredWhen": "always",
+        "text": "A yellow fever vaccination certificate is required to enter Burundi, from travelers coming from any country.",
         "source": {
-          "url": "https://migration.gov.bi/",
-          "name": "Burundi migration authority — official eVisa portal",
+          "url": "https://www.gov.uk/foreign-travel-advice/burundi/entry-requirements",
+          "name": "UK FCDO — Burundi travel advice (entry requirements)",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260728163215/https://migration.gov.bi/",
-          "portalOnly": true
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
         }
       }
     ],
@@ -1754,54 +1756,58 @@
       "required": false,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Insurance is not a formal entry requirement, but medical care is very limited and serious cases are evacuated to Nairobi — comprehensive coverage including medical evacuation is strongly recommended.",
+      "text": "Not an entry requirement. The UK's travel advice says to check that you have appropriate travel insurance for local treatment or unexpected medical evacuation.",
       "source": {
-        "url": "https://migration.gov.bi/",
-        "name": "Burundi migration authority — official eVisa portal",
+        "url": "https://www.gov.uk/foreign-travel-advice/burundi/health",
+        "name": "UK FCDO — Burundi travel advice (health)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260728163215/https://migration.gov.bi/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "onwardTicket": {
-      "required": false,
-      "appliesTo": null,
-      "text": "An onward ticket is not systematically checked, but the eVisa application asks for your travel details and airlines may ask to see a return ticket before boarding.",
+      "required": true,
+      "appliesTo": "all",
+      "text": "Canada's travel advice says visitors entering Burundi must have a return ticket, or an onward ticket if they are in transit.",
       "source": {
-        "url": "https://migration.gov.bi/",
-        "name": "Burundi migration authority — official eVisa portal",
+        "url": "https://travel.gc.ca/destinations/burundi",
+        "name": "Government of Canada — Burundi travel advice (entry and exit requirements, health)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260728163215/https://migration.gov.bi/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "proofOfFunds": {
       "required": false,
       "appliesTo": null,
       "amount": null,
-      "text": "No fixed amount is published; border officers may ask visitors to show sufficient means and accommodation details for their stay.",
+      "text": "No official source we found states a proof-of-funds requirement or amount for Burundi.",
       "source": {
         "url": "https://migration.gov.bi/",
         "name": "Burundi migration authority — official eVisa portal",
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260728163215/https://migration.gov.bi/",
-        "portalOnly": true
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "declarations": [],
     "customs": {
       "currencyLimits": {
-        "text": "Declare significant amounts of foreign currency on arrival and exchange money only through banks and licensed bureaux — taking Burundian francs out of the country is restricted; confirm current limits with customs before travel.",
+        "text": "No official source we found states a currency declaration threshold or a limit on carrying Burundian francs in or out.",
         "source": {
           "url": "https://migration.gov.bi/",
           "name": "Burundi migration authority — official eVisa portal",
           "type": "government",
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260728163215/https://migration.gov.bi/",
-          "portalOnly": true
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "not-stated"
+          }
         }
       },
       "notes": [
@@ -1902,7 +1908,7 @@
     {
       "id": "yellow-fever",
       "question": "Do I need a yellow fever certificate for Burundi?",
-      "answer": "A certificate is required if you arrive from a country with yellow fever transmission risk, which includes most of Burundi's neighbors. Vaccination is recommended for the trip regardless. Carry the yellow card with your passport."
+      "answer": "Yes. The UK and Canadian travel advice both say a yellow fever vaccination certificate is required to enter Burundi, whichever country you arrive from. Carry the yellow card with your passport."
     },
     {
       "id": "is-burundi-safe",

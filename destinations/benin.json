@@ -18,7 +18,7 @@
     "senegal",
     "cote-divoire"
   ],
-  "summary": "Benin is visa-free for citizens of every African country and free to enter for ECOWAS nationals, while all other visitors apply online for the official e-Visa (evisa.bj) before travel. There is no visa on arrival, and a yellow fever certificate is required from everyone.",
+  "summary": "Benin is visa-free for citizens of every African country and free to enter for ECOWAS nationals, while all other visitors apply online for the official e-Visa (evisa.bj) before travel. There is no visa on arrival. Yellow fever vaccination is recommended, but vaccination cards are no longer checked at the border.",
   "meta": {
     "lastUpdated": "2026-10-03",
     "lastFullReview": "2026-09-26",
@@ -1924,15 +1924,14 @@
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
-      "text": "Your passport should be valid for at least 6 months on arrival, with at least one blank page for the entry stamp.",
+      "rule": "valid-for-stay",
+      "text": "Your passport must be valid for the whole of your stay, according to UK government travel advice. No Beninese official source we could find states a longer validity rule.",
       "source": {
-        "url": "https://evisa.bj/",
-        "name": "Republic of Benin — official e-Visa portal",
+        "url": "https://www.gov.uk/foreign-travel-advice/benin/entry-requirements",
+        "name": "UK FCDO travel advice — Benin entry requirements",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260822181024/https://www.evisa.bj/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "blankPages": {
@@ -1943,7 +1942,11 @@
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260822181024/https://www.evisa.bj/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "vaccinations": [
@@ -1951,15 +1954,20 @@
         "id": "yellow-fever",
         "name": "Yellow fever",
         "certificate": "International Certificate of Vaccination or Prophylaxis (yellow card)",
-        "requiredWhen": "always",
-        "text": "A yellow fever vaccination certificate is required from all travelers aged 9 months and over and is checked on arrival. Keep the yellow card with your passport.",
+        "requiredWhen": "recommended",
+        "text": "Since September 2026 Benin's Ministry of Health no longer checks vaccination cards, including yellow fever, at airports, ports or land borders. Yellow fever vaccination remains recommended for all travelers, and Benin may reinstate checks in a public health emergency, so carry your yellow card if you have one.",
         "source": {
-          "url": "https://evisa.bj/",
-          "name": "Republic of Benin — official e-Visa portal",
+          "url": "https://evisa.bj/articles/yellow-fever-vaccination-card-checks-at-points-of-entry-into-benin/0225cd59-9365-4534-94ee-c1e3cdc996c7",
+          "name": "Benin e-Visa portal (Government of Benin) — Ministry of Health notice: Yellow Fever Vaccination Card Checks at Points of Entry (16 Sep 2026)",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260822181024/https://www.evisa.bj/",
-          "portalOnly": true
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03",
+          "conflict": {
+            "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf",
+            "name": "WHO International Travel and Health, Annex 1 (18 Nov 2022, revised 3 Jan 2023)",
+            "states": "proof of yellow fever vaccination required for all travellers aged 9 months or over",
+            "resolvedBy": "hierarchy"
+          }
         }
       }
     ],
@@ -1967,54 +1975,70 @@
       "required": false,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Not a formal entry requirement, but strongly recommended — medical facilities are limited outside Cotonou and serious cases require evacuation.",
+      "text": "No official source we could find states whether travel insurance is required to enter Benin. Medical facilities are limited outside Cotonou, so cover that includes evacuation is worth having.",
       "source": {
         "url": "https://evisa.bj/",
         "name": "Republic of Benin — official e-Visa portal",
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260822181024/https://www.evisa.bj/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "onwardTicket": {
       "required": false,
       "appliesTo": null,
-      "text": "Not systematically checked, but airlines and border officers may ask for evidence of onward or return travel.",
+      "text": "No official source we could find states whether Benin requires a return or onward ticket.",
       "source": {
         "url": "https://evisa.bj/",
         "name": "Republic of Benin — official e-Visa portal",
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260822181024/https://www.evisa.bj/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "proofOfFunds": {
       "required": false,
       "appliesTo": null,
       "amount": null,
-      "text": "No fixed amount is published; visitors may be asked to show sufficient means for their stay.",
+      "text": "No official source we could find states a funds requirement or amount for visitors to Benin.",
       "source": {
         "url": "https://evisa.bj/",
         "name": "Republic of Benin — official e-Visa portal",
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260822181024/https://www.evisa.bj/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "declarations": [],
     "customs": {
       "currencyLimits": {
-        "text": "Travelers carrying large amounts of foreign currency should declare it on arrival. The CFA franc is not freely convertible outside the West African monetary union, so exchange only what you need.",
+        "text": "No official source we could find states Benin's threshold for declaring cash. The CFA franc is not freely convertible outside the West African monetary union, so exchange only what you need.",
         "source": {
           "url": "https://evisa.bj/",
           "name": "Republic of Benin — official e-Visa portal",
           "type": "government",
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260822181024/https://www.evisa.bj/",
-          "portalOnly": true
+          "portalOnly": true,
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "not-stated"
+          }
         }
       },
       "notes": []
@@ -2119,7 +2143,7 @@
     {
       "id": "yellow-card",
       "type": "info",
-      "text": "Your yellow fever certificate is checked before immigration at Cotonou airport — travelers without one can be refused entry or vaccinated on the spot at their own cost."
+      "text": "Vaccination cards, including the yellow fever certificate, have not been checked at Benin's borders since September 2026, but the vaccine is still recommended and checks can return without notice in a health emergency — keep your yellow card with your passport."
     },
     {
       "id": "cash-and-momo",
@@ -2146,7 +2170,7 @@
     {
       "id": "yellow-fever-required",
       "question": "Is the yellow fever vaccine mandatory for Benin?",
-      "answer": "Yes. A yellow fever certificate is required from all travelers aged 9 months and over, whatever country you arrive from, and it is checked on arrival."
+      "answer": "No longer at the border. Since September 2026 Benin's Ministry of Health has stopped checking vaccination cards, including yellow fever, at airports, ports and land borders. Vaccination remains recommended for all travelers, and checks can be reinstated in a public health emergency."
     },
     {
       "id": "visa-on-arrival",

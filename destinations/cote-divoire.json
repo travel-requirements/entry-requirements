@@ -2079,18 +2079,10 @@
       "category": "tourist",
       "method": "embassy",
       "name": "Embassy visa",
-      "fee": {
-        "amount": 50,
-        "currency": "EUR",
-        "notes": "Indicative. Fees vary by mission, duration and number of entries; required for entry by land or through airports other than Abidjan."
-      },
-      "processing": {
-        "minDays": 5,
-        "maxDays": 15,
-        "unit": "business-days"
-      },
-      "validityDays": 90,
-      "stayDays": 90,
+      "fee": null,
+      "processing": null,
+      "validityDays": null,
+      "stayDays": null,
       "entries": "single",
       "extendable": {
         "possible": true,
@@ -2103,30 +2095,23 @@
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260630080441/https://snedai.com/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
       "rule": "6-months-on-arrival",
-      "text": "Your passport should be valid for at least 6 months on arrival, with a blank page for the visa sticker and entry stamp.",
+      "text": "Your passport should be valid for at least 6 months on arrival.",
       "source": {
         "url": "https://snedai.com/e-visa/",
         "name": "SNEDAI — Côte d'Ivoire e-visa: procedure and documents",
         "type": "government",
         "lastVerified": "2026-09-26"
-      }
-    },
-    "blankPages": {
-      "count": 1,
-      "source": {
-        "url": "https://snedai.com/",
-        "name": "SNEDAI — official Côte d'Ivoire e-visa service",
-        "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260630080441/https://snedai.com/",
-        "portalOnly": true
       }
     },
     "vaccinations": [
@@ -2148,14 +2133,17 @@
       "required": false,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Not a formal entry requirement, but recommended — private clinics in Abidjan are good but expensive, and care elsewhere is limited.",
+      "text": "No official source states a travel insurance requirement for entry to Côte d'Ivoire; the e-visa's mandatory documents do not include it. Insurance is recommended — private clinics in Abidjan are good but expensive, and care elsewhere is limited.",
       "source": {
-        "url": "https://snedai.com/",
-        "name": "SNEDAI — official Côte d'Ivoire e-visa service",
+        "url": "https://snedai.com/e-visa/",
+        "name": "SNEDAI — Côte d'Ivoire e-visa: procedure and documents",
         "type": "government",
         "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260630080441/https://snedai.com/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "onwardTicket": {
@@ -2173,14 +2161,17 @@
       "required": false,
       "appliesTo": null,
       "amount": null,
-      "text": "No fixed amount is published; the eVisa application asks for accommodation details, and officers may ask about means of support.",
+      "text": "No official source states a proof-of-funds requirement or amount for Côte d'Ivoire. The e-visa application requires a round-trip ticket and a legalised invitation letter or certificate of accommodation.",
       "source": {
-        "url": "https://snedai.com/",
-        "name": "SNEDAI — official Côte d'Ivoire e-visa service",
+        "url": "https://snedai.com/e-visa/",
+        "name": "SNEDAI — Côte d'Ivoire e-visa: procedure and documents",
         "type": "government",
         "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260630080441/https://snedai.com/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "declarations": [],

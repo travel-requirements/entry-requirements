@@ -2392,7 +2392,7 @@
       "fee": null,
       "processing": null,
       "validityDays": null,
-      "stayDays": 90,
+      "stayDays": null,
       "entries": "single",
       "applyUrl": null,
       "source": {
@@ -2401,7 +2401,11 @@
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260816153823/https://www.diplomatie.gouv.sn/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     }
   ],
@@ -2414,17 +2418,6 @@
         "name": "Ministry of Foreign Affairs of Senegal — Visiter le Sénégal (visa exemptions)",
         "type": "government",
         "lastVerified": "2026-09-26"
-      }
-    },
-    "blankPages": {
-      "count": 1,
-      "source": {
-        "url": "https://www.diplomatie.gouv.sn/",
-        "name": "Ministry of Foreign Affairs of Senegal",
-        "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260816153823/https://www.diplomatie.gouv.sn/",
-        "portalOnly": true
       }
     },
     "vaccinations": [
@@ -2446,14 +2439,18 @@
       "required": false,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Not required for entry, but recommended — Dakar has reasonable private clinics, while care up-country is basic.",
+      "text": "No official source states a travel insurance requirement for entering Senegal. Care outside Dakar is basic, so medical cover is worth having.",
       "source": {
         "url": "https://www.diplomatie.gouv.sn/",
         "name": "Ministry of Foreign Affairs of Senegal",
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260816153823/https://www.diplomatie.gouv.sn/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "onwardTicket": {
@@ -2471,27 +2468,31 @@
       "required": false,
       "appliesTo": null,
       "amount": null,
-      "text": "No fixed amount is published; border officers may ask visitors to show means of support for their stay.",
+      "text": "No official source states a proof-of-funds requirement or amount for Senegal. The UK FCDO says border officials ask for evidence of return or onward travel and of arranged accommodation.",
       "source": {
         "url": "https://www.diplomatie.gouv.sn/",
         "name": "Ministry of Foreign Affairs of Senegal",
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260816153823/https://www.diplomatie.gouv.sn/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "declarations": [],
     "customs": {
       "currencyLimits": {
-        "text": "Large amounts of cash — above roughly the equivalent of XOF 1,000,000 in foreign currency — should be declared on arrival; confirm current thresholds with Senegalese customs before carrying large sums.",
+        "text": "Anyone arriving from or leaving for a country outside the West African Monetary Union (UMOA) must declare cash and bearer negotiable instruments worth XOF 5,000,000 or more to customs at the point of entry or exit.",
         "source": {
-          "url": "https://www.diplomatie.gouv.sn/",
-          "name": "Ministry of Foreign Affairs of Senegal",
-          "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260816153823/https://www.diplomatie.gouv.sn/",
-          "portalOnly": true
+          "url": "https://www.bceao.int/sites/default/files/2024-07/0483%20PJ1%20Courriel%20DGCC%20-%20231%20-%20Instruction%20fixant%20le%20seuil%20pour%20la%20d%C3%A9claration%20des%20transports%20physiques%20internationaux%20d%27esp%C3%A8ces%20et%20instruments%20n%C3%A9gociables%20au%20porteur.pdf",
+          "name": "BCEAO — Instruction No 231/07/2024 fixing the declaration threshold for international physical transport of cash and bearer negotiable instruments",
+          "type": "igo",
+          "lastVerified": "2026-10-03",
+          "instrument": "BCEAO Instruction No 231/07/2024 of 16 July 2024, art. 1",
+          "lastChanged": "2026-10-03"
         }
       },
       "notes": [

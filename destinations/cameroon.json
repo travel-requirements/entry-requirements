@@ -1782,14 +1782,13 @@
         "name": "Yellow fever",
         "certificate": "International Certificate of Vaccination (yellow card)",
         "requiredWhen": "always",
-        "text": "Proof of yellow fever vaccination is required for all travelers aged 9 months and over and is routinely checked at the airport before immigration.",
+        "text": "Proof of yellow fever vaccination is required for all travellers aged 1 year or over, whatever country they arrive from.",
         "source": {
-          "url": "https://www.evisacam.cm/",
-          "name": "eVisa Cameroon — official online visa portal",
-          "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260829140311/https://www.evisacam.cm/ords/dl_portal/r/public_portal/home",
-          "portalOnly": true
+          "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
+          "name": "WHO — Vaccination requirements and recommendations for international travellers, country list (ITH 2022)",
+          "type": "igo",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
         }
       }
     ],
@@ -1797,14 +1796,18 @@
       "required": false,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Travel insurance is not a formal entry condition, but medical facilities are limited and evacuation coverage is strongly recommended.",
+      "text": "No official source states a travel insurance requirement for entering Cameroon. Medical facilities are limited, so cover that includes medical evacuation is advisable.",
       "source": {
         "url": "https://www.evisacam.cm/",
         "name": "eVisa Cameroon — official online visa portal",
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260829140311/https://www.evisacam.cm/ords/dl_portal/r/public_portal/home",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "onwardTicket": {
@@ -1905,7 +1908,7 @@
     {
       "id": "yellow-card",
       "type": "tip",
-      "text": "Keep your yellow fever certificate with your passport. It is checked at the airport before you reach immigration, and you can be refused entry or vaccinated on the spot without it."
+      "text": "Keep your yellow fever certificate with your passport: it is required of every traveller aged 1 year or over."
     },
     {
       "id": "road-travel",
@@ -1937,7 +1940,7 @@
     {
       "id": "yellow-fever",
       "question": "Is the yellow fever vaccine mandatory for Cameroon?",
-      "answer": "Yes — proof of yellow fever vaccination is required for all travelers aged 9 months and over, regardless of where you are arriving from, and the certificate is checked at the airport."
+      "answer": "Yes — proof of yellow fever vaccination is required for all travellers aged 1 year or over, regardless of where they are arriving from."
     },
     {
       "id": "safety",

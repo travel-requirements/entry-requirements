@@ -1956,21 +1956,20 @@
       "name": "Mongolian eVisa (tourist)",
       "fee": null,
       "processing": {
-        "minDays": 1,
-        "maxDays": 3,
-        "unit": "business-days"
+        "minDays": 0,
+        "maxDays": 2,
+        "unit": "calendar-days"
       },
-      "validityDays": 90,
+      "validityDays": null,
       "stayDays": 30,
       "entries": "single",
       "applyUrl": "https://evisa.mn/",
       "source": {
-        "url": "https://evisa.mn/",
-        "name": "Mongolia eVisa — official portal of the Immigration Agency of Mongolia",
+        "url": "https://immigration.gov.mn/en/articles/264/",
+        "name": "Immigration Agency of Mongolia — e-visa for citizens of 99 countries (K2 tourism up to 30 days)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260810044654/https://evisa.mn/en",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     {
@@ -1978,9 +1977,13 @@
       "category": "tourist",
       "method": "embassy",
       "name": "Tourist visa (embassy)",
-      "fee": null,
+      "fee": {
+        "amount": 50,
+        "currency": "USD",
+        "notes": "Embassy of Mongolia in London: USD 45 visa fee plus USD 5 service charge for a single-entry visa valid up to 90 days (30-day stay); double entry USD 65. Priority service costs double. Other embassies may charge differently."
+      },
       "processing": {
-        "minDays": 5,
+        "minDays": 3,
         "maxDays": 10,
         "unit": "business-days"
       },
@@ -1989,12 +1992,11 @@
       "entries": "single",
       "applyUrl": null,
       "source": {
-        "url": "https://evisa.mn/",
-        "name": "Mongolia eVisa — official portal of the Immigration Agency of Mongolia",
+        "url": "https://en.embassyofmongolia.co.uk/visa/general-information",
+        "name": "Embassy of Mongolia in London — General visa information and visa fees",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260810044654/https://evisa.mn/en",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     }
   ],
@@ -2009,57 +2011,53 @@
         "lastVerified": "2026-09-26"
       }
     },
-    "blankPages": {
-      "count": 1,
-      "source": {
-        "url": "https://evisa.mn/",
-        "name": "Mongolia eVisa — official portal of the Immigration Agency of Mongolia",
-        "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260810044654/https://evisa.mn/en",
-        "portalOnly": true
-      }
-    },
     "vaccinations": [],
     "travelInsurance": {
       "required": false,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Not an entry requirement, but strongly recommended — medical facilities outside Ulaanbaatar are basic and evacuation coverage is advisable for countryside travel.",
+      "text": "No official source states a travel insurance requirement for entering Mongolia. Medical care outside Ulaanbaatar is limited, so cover that includes medical evacuation is advisable.",
       "source": {
         "url": "https://evisa.mn/",
         "name": "Mongolia eVisa — official portal of the Immigration Agency of Mongolia",
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260810044654/https://evisa.mn/en",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "onwardTicket": {
       "required": false,
       "appliesTo": null,
-      "text": "Not routinely checked at the border, though airlines may ask for proof of onward travel and eVisa applications ask for travel details.",
+      "text": "No official source makes a return or onward ticket an entry requirement. The Embassy of Mongolia in London advises visitors using the 30-day tourist visa exemption to book their return flight before arriving.",
       "source": {
-        "url": "https://evisa.mn/",
-        "name": "Mongolia eVisa — official portal of the Immigration Agency of Mongolia",
+        "url": "https://en.embassyofmongolia.co.uk/visa/general-information",
+        "name": "Embassy of Mongolia in London — General visa information and visa fees",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260810044654/https://evisa.mn/en",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "proofOfFunds": {
       "required": false,
       "appliesTo": null,
       "amount": null,
-      "text": "No fixed amount is published; border officers rarely ask, but be prepared to show means of support for a longer stay.",
+      "text": "No official source states a proof-of-funds requirement or amount for Mongolia.",
       "source": {
         "url": "https://evisa.mn/",
         "name": "Mongolia eVisa — official portal of the Immigration Agency of Mongolia",
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260810044654/https://evisa.mn/en",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "declarations": [
@@ -2084,14 +2082,25 @@
     ],
     "customs": {
       "currencyLimits": {
-        "text": "Foreign currency above the published threshold (roughly the equivalent of USD 10,000) must be declared on arrival. Confirm the current limit before traveling with large sums.",
+        "text": "Cash, financial instruments and cryptocurrency worth MNT 15 million (about USD 4,400) or more must be declared to customs on entry and on exit.",
         "source": {
-          "url": "https://evisa.mn/",
-          "name": "Mongolia eVisa — official portal of the Immigration Agency of Mongolia",
+          "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Mongolia.html",
+          "name": "US Department of State — Mongolia international travel information",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260810044654/https://evisa.mn/en",
-          "portalOnly": true
+          "lastVerified": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20260709012515/https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Mongolia.html",
+          "lastChanged": "2026-10-03",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "blocked",
+            "status": 403
+          },
+          "conflict": {
+            "url": "https://www.gov.uk/foreign-travel-advice/mongolia/entry-requirements",
+            "name": "UK FCDO travel advice — Mongolia entry requirements",
+            "states": "Declare cash or travellers cheques worth USD 10,000 or more",
+            "resolvedBy": "stricter"
+          }
         }
       },
       "notes": [
@@ -2223,7 +2232,7 @@
     {
       "id": "evisa-how",
       "question": "How does the Mongolian eVisa work?",
-      "answer": "You apply online at evisa.mn, pay the fee shown at the payment step and normally receive the visa electronically within about three business days. The tourist eVisa allows a stay of up to 30 days and is accepted at Chinggis Khaan International Airport and major border crossings."
+      "answer": "You apply online at evisa.mn, pay the fee shown at the payment step and if approved, receive it by e-mail within 48 hours. The tourist eVisa allows a stay of up to 30 days and is accepted at Chinggis Khaan International Airport and major border crossings."
     },
     {
       "id": "us-stay",

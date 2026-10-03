@@ -19,7 +19,7 @@
   ],
   "summary": "Paraguay admits Mercosur and associate-member nationals on a national ID card for 90 days and waives visas for EU, British, US, Canadian, Australian and many other passports for up to 90 days; remaining nationalities apply for a consular visa, or are invited by a host in Paraguay who files for a visa de arribo in Asunción. There is no eVisa.",
   "meta": {
-    "lastUpdated": "2026-10-02",
+    "lastUpdated": "2026-10-03",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -1759,21 +1759,6 @@
         }
       }
     },
-    "blankPages": {
-      "count": 1,
-      "source": {
-        "url": "https://www.migraciones.gov.py/",
-        "name": "Dirección General de Migraciones — Paraguay",
-        "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260701000422/https://migraciones.gov.py/",
-        "unverifiable": {
-          "lastAttempt": "2026-09-26",
-          "reason": "unreachable"
-        },
-        "portalOnly": true
-      }
-    },
     "vaccinations": [
       {
         "id": "yellow-fever",
@@ -1800,20 +1785,24 @@
       "required": false,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Travel insurance is not an entry requirement. Public hospitals are free for emergencies but basic; visitors normally use private clinics in Asunción, which must be paid for up front, so cover is worth having.",
+      "text": "No official source states a travel-insurance requirement for entry to Paraguay. Visitors normally use private clinics, which must be paid for up front, so cover is worth having.",
       "source": {
         "url": "https://www.mre.gov.py/",
         "name": "Ministerio de Relaciones Exteriores — Paraguay",
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260718215117/https://www.mre.gov.py/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "onwardTicket": {
-      "required": true,
-      "appliesTo": "visa-free-arrivals",
-      "text": "Airlines and immigration officers may ask visa-free visitors for a return or onward ticket within the 90-day allowance, together with an address in Paraguay.",
+      "required": false,
+      "appliesTo": null,
+      "text": "No official source states an onward-ticket requirement for visa-free visitors to Paraguay. The migration directorate's list of entry documents names only a valid passport (or, for South American neighbours, an identity card) and a visa where one is required.",
       "source": {
         "url": "https://www.migraciones.gov.py/",
         "name": "Dirección General de Migraciones — Paraguay",
@@ -1821,24 +1810,29 @@
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260701000422/https://migraciones.gov.py/",
         "unverifiable": {
-          "lastAttempt": "2026-09-26",
+          "lastAttempt": "2026-10-03",
           "reason": "unreachable"
         },
         "portalOnly": true
       }
     },
     "proofOfFunds": {
-      "required": false,
-      "appliesTo": null,
+      "required": true,
+      "appliesTo": "visa-applicants",
       "amount": null,
-      "text": "No published amount. Officers rarely ask tourists for evidence of funds, but visa applicants must show bank statements covering the trip.",
+      "text": "Visa applicants must show proof of economic solvency — at Paraguay's consulate general in Buenos Aires, a copy of a credit card or the last month's bank statement. No official source states an amount, or a funds check on visa-free visitors.",
       "source": {
-        "url": "https://www.mre.gov.py/",
-        "name": "Ministerio de Relaciones Exteriores — Paraguay",
+        "url": "https://www2.mre.gov.py/congralpar-buenos-aires/index.php/tramites-y-servicios/visas",
+        "name": "Consulate General of Paraguay in Buenos Aires — visas",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260718215117/https://www.mre.gov.py/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03",
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "blocked",
+          "status": 403
+        },
+        "archiveUrl": "https://web.archive.org/web/20240910014558/https://www.mre.gov.py/congralpar-buenos-aires/index.php/tramites-y-servicios/visas"
       }
     },
     "declarations": [],

@@ -21,7 +21,7 @@
   ],
   "summary": "Romania has been a full Schengen member since January 2025: EU citizens enter freely, visa-exempt nationalities such as the US and UK get 90 days in any 180-day period counted together with the rest of the Schengen Area, and other passports need a Schengen visa applied for via Romania's official eVisa portal. The currency remains the leu, not the euro.",
   "meta": {
-    "lastUpdated": "2026-09-26",
+    "lastUpdated": "2026-10-03",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -1486,12 +1486,11 @@
       "appliesTo": "all",
       "text": "Border officers may ask non-EU visitors for proof of return or onward travel and accommodation details.",
       "source": {
-        "url": "https://evisa.mae.ro/",
-        "name": "eVisa Romania — Ministry of Foreign Affairs visa portal",
-        "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260725105719/https://evisa.mae.ro/",
-        "portalOnly": true
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02016R0399-20251012",
+        "name": "Regulation (EU) 2016/399 (Schengen Borders Code), consolidated text — EUR-Lex",
+        "type": "igo",
+        "lastVerified": "2026-10-03",
+        "instrument": "Regulation (EU) 2016/399 (Schengen Borders Code), Article 6(1)(c) and Annex I (return or round-trip ticket as supporting evidence), consolidated to 12 October 2025"
       }
     },
     "proofOfFunds": {
@@ -1622,16 +1621,16 @@
     "roadVignette": {
       "form": "e-vignette",
       "network": "national-roads",
-      "appliesTo": "Category A — cars and light vehicles up to 3.5 t — on the national road network, motorways included.",
+      "appliesTo": "Category A — cars with up to 8+1 seats — on the national road network, motorways included. Goods vehicles up to 3.5 t are category B and pay a separate tariff.",
       "options": [
         {
           "id": "1-day",
           "name": "1 day",
           "days": 1,
           "fee": {
-            "amount": 3.5,
-            "currency": "EUR",
-            "notes": "18.35 RON"
+            "amount": 22,
+            "currency": "RON",
+            "notes": "Car, Euro 6. Euro 4–5: 26 RON; Euro 0–3: 29 RON; electric: 20 RON."
           }
         },
         {
@@ -1639,9 +1638,9 @@
           "name": "10 days",
           "days": 10,
           "fee": {
-            "amount": 6,
-            "currency": "EUR",
-            "notes": "31.46 RON"
+            "amount": 30,
+            "currency": "RON",
+            "notes": "Car, Euro 6. Euro 4–5: 35 RON; Euro 0–3: 39 RON; electric: 27 RON."
           }
         },
         {
@@ -1649,9 +1648,9 @@
           "name": "30 days",
           "days": 30,
           "fee": {
-            "amount": 9.5,
-            "currency": "EUR",
-            "notes": "49.82 RON"
+            "amount": 48,
+            "currency": "RON",
+            "notes": "Car, Euro 6. Euro 4–5: 55 RON; Euro 0–3: 62 RON; electric: 43 RON."
           }
         },
         {
@@ -1659,9 +1658,9 @@
           "name": "60 days",
           "days": 60,
           "fee": {
-            "amount": 15,
-            "currency": "EUR",
-            "notes": "78.66 RON"
+            "amount": 76,
+            "currency": "RON",
+            "notes": "Car, Euro 6. Euro 4–5: 87 RON; Euro 0–3: 99 RON; electric: 68 RON."
           }
         },
         {
@@ -1669,22 +1668,21 @@
           "name": "12 months",
           "days": 365,
           "fee": {
-            "amount": 50,
-            "currency": "EUR",
-            "notes": "262.20 RON"
+            "amount": 254,
+            "currency": "RON",
+            "notes": "Car, Euro 6. Euro 4–5: 292 RON; Euro 0–3: 330 RON; electric: 228 RON."
           }
         }
       ],
-      "buyUrl": "https://www.erovinieta.ro/vignettes-portal-web/",
+      "buyUrl": "https://www.erovinieta.ro/",
       "penalty": null,
-      "text": "The rovinieta covers Romania's national roads, not only its motorways, and is registered to the number plate. Tariffs are set in euro and charged in lei at the official rate (5.2439 RON/EUR at the time of checking). The Fetești–Cernavodă bridge on the A2 toward the coast is tolled on top of the rovinieta — 19 RON per crossing for a car.",
+      "text": "The rovinieta covers Romania's national roads, not only its motorways, and is registered to the number plate. Tariffs are set in lei and depend on the car's emission standard (Euro class), and the rovinieta is now sold through CNAIR's TollRo portal. The Fetești–Cernavodă bridge on the A2 toward the coast is tolled on top of the rovinieta — 19 RON per crossing for a car.",
       "source": {
-        "url": "https://www.erovinieta.ro/vignettes-portal-web/",
-        "name": "CNAIR — eRovinieta official portal",
+        "url": "https://portal.etoll.ro/web/guest/rovinieta",
+        "name": "CNAIR — TollRo portal: rovinieta tariffs",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260818055309/https://erovinieta.ro/vignettes-portal-web/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "tapWaterSafe": true,

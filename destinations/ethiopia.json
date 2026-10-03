@@ -2732,23 +2732,26 @@
       "category": "tourist",
       "method": "embassy",
       "name": "Embassy tourist visa",
-      "fee": null,
+      "fee": {
+        "amount": 60,
+        "currency": "USD",
+        "notes": "Embassy of Ethiopia in Washington, DC: USD 60 single entry, USD 150 multiple entries, paid by money order. Other embassies set their own fees."
+      },
       "processing": {
-        "minDays": 5,
-        "maxDays": 10,
+        "minDays": 1,
+        "maxDays": 3,
         "unit": "business-days"
       },
-      "validityDays": 90,
+      "validityDays": null,
       "stayDays": 30,
       "entries": "single",
       "applyUrl": null,
       "source": {
-        "url": "https://www.evisa.gov.et/",
-        "name": "Ethiopian eVisa — Immigration and Citizenship Service",
+        "url": "https://consular.ethiopianembassy.org/service-details_visa",
+        "name": "Embassy of Ethiopia in Washington, DC — Visa service details",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260723153032/https://www.evisa.gov.et/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     }
   ],
@@ -2772,7 +2775,11 @@
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260723153032/https://www.evisa.gov.et/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "vaccinations": [
@@ -2796,41 +2803,53 @@
       "required": false,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Insurance is not a formal entry requirement, but medical facilities outside Addis Ababa are very limited — comprehensive coverage including medical evacuation is strongly recommended.",
+      "text": "No official source we could find states whether travel insurance is required to enter Ethiopia. Medical facilities outside Addis Ababa are very limited, so cover that includes medical evacuation is worth having.",
       "source": {
         "url": "https://www.evisa.gov.et/",
         "name": "Ethiopian eVisa — Immigration and Citizenship Service",
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260723153032/https://www.evisa.gov.et/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "onwardTicket": {
       "required": false,
       "appliesTo": null,
-      "text": "An onward ticket is not routinely demanded from eVisa holders, but airlines may ask for one at check-in — carrying proof of return travel is sensible.",
+      "text": "No official source we could find states whether Ethiopia requires a return or onward ticket.",
       "source": {
         "url": "https://www.evisa.gov.et/",
         "name": "Ethiopian eVisa — Immigration and Citizenship Service",
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260723153032/https://www.evisa.gov.et/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "proofOfFunds": {
       "required": false,
       "appliesTo": null,
       "amount": null,
-      "text": "No fixed amount is published; immigration officers may ask visitors to show means of support for their stay.",
+      "text": "No official source we could find states a funds requirement or amount for visitors to Ethiopia.",
       "source": {
         "url": "https://www.evisa.gov.et/",
         "name": "Ethiopian eVisa — Immigration and Citizenship Service",
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260723153032/https://www.evisa.gov.et/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "declarations": [],

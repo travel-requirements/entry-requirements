@@ -480,7 +480,11 @@
           "type": "government",
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260829140839/https://www.mofa.pna.ps/en-us/",
-          "portalOnly": true
+          "portalOnly": true,
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "unreachable"
+          }
         }
       },
       "IT": {
@@ -781,7 +785,11 @@
           "type": "government",
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260829140839/https://www.mofa.pna.ps/en-us/",
-          "portalOnly": true
+          "portalOnly": true,
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "unreachable"
+          }
         }
       },
       "PA": {
@@ -1158,57 +1166,53 @@
   "visaTypes": [],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
-      "text": "Israeli border authorities, who control all crossings into the West Bank, require a passport valid for at least 6 months on arrival.",
+      "rule": "other",
+      "text": "Israel controls all crossings into the West Bank. Its Population and Immigration Authority requires a passport valid for at least 3 months from the date of arrival.",
       "source": {
-        "url": "https://www.mofa.pna.ps/",
-        "name": "Ministry of Foreign Affairs and Expatriates of the State of Palestine",
+        "url": "https://israel-entry.piba.gov.il/learn-about",
+        "name": "Israel Population and Immigration Authority — About ETA-IL (eligibility conditions)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260829140839/https://www.mofa.pna.ps/en-us/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "vaccinations": [],
     "travelInsurance": {
-      "required": false,
-      "appliesTo": null,
+      "required": true,
+      "appliesTo": "visa-applicants",
       "minCoverage": null,
-      "text": "Not required for entry, but check carefully that your policy covers the Palestinian territories — many insurers exclude them or follow government travel advisories.",
+      "text": "Visa-exempt visitors entering through Israel on an ETA-IL are not asked for insurance. Applicants for Israel's eVisa-B2 tourist visa must show health insurance valid for the whole visit. Check that any policy covers the Palestinian territories, as many insurers exclude them.",
       "source": {
-        "url": "https://www.mofa.pna.ps/",
-        "name": "Ministry of Foreign Affairs and Expatriates of the State of Palestine",
+        "url": "https://israel-entry.piba.gov.il/learn-about-evisa-b2",
+        "name": "Israel Population and Immigration Authority — eVisa-B2 tourist visa: required documents",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260829140839/https://www.mofa.pna.ps/en-us/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "onwardTicket": {
       "required": true,
-      "appliesTo": "all",
-      "text": "Israeli border officials expect a return or onward ticket and may ask detailed questions about your itinerary, accommodation and contacts.",
+      "appliesTo": "visa-applicants",
+      "text": "Applicants for Israel's eVisa-B2 tourist visa must upload a round-trip ticket. The ETA-IL application for visa-exempt visitors does not ask for one, though Israeli border officials may ask detailed questions about your itinerary.",
       "source": {
-        "url": "https://www.mofa.pna.ps/",
-        "name": "Ministry of Foreign Affairs and Expatriates of the State of Palestine",
+        "url": "https://israel-entry.piba.gov.il/learn-about-evisa-b2",
+        "name": "Israel Population and Immigration Authority — eVisa-B2 tourist visa: required documents",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260829140839/https://www.mofa.pna.ps/en-us/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "proofOfFunds": {
-      "required": false,
-      "appliesTo": null,
+      "required": true,
+      "appliesTo": "visa-applicants",
       "amount": null,
-      "text": "No fixed amount is published; Israeli border officers may ask about your means and the purpose of your visit.",
+      "text": "No fixed amount is published. Applicants for Israel's eVisa-B2 tourist visa must prove sufficient funds with bank statements for the last three months, a bank letter or another document showing the funds.",
       "source": {
-        "url": "https://www.mofa.pna.ps/",
-        "name": "Ministry of Foreign Affairs and Expatriates of the State of Palestine",
+        "url": "https://israel-entry.piba.gov.il/learn-about-evisa-b2",
+        "name": "Israel Population and Immigration Authority — eVisa-B2 tourist visa: required documents",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260829140839/https://www.mofa.pna.ps/en-us/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "declarations": [],
@@ -1216,12 +1220,15 @@
       "currencyLimits": {
         "text": "Israeli rules apply at all crossings — cash of ILS 50,000 or more (or the equivalent) must be reported on entry.",
         "source": {
-          "url": "https://www.mofa.pna.ps/",
-          "name": "Ministry of Foreign Affairs and Expatriates of the State of Palestine",
+          "url": "https://www.gov.il/en/departments/guides/guide-requirement-report-and-spend-money-on-israel",
+          "name": "Israel Tax Authority — Requirement to report money brought into or taken out of Israel",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260829140839/https://www.mofa.pna.ps/en-us/",
-          "portalOnly": true
+          "lastVerified": "2026-10-03",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "blocked",
+            "status": 403
+          }
         }
       },
       "notes": [

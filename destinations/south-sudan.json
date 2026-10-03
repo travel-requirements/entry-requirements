@@ -41,7 +41,7 @@
       "url": "https://evisa.gov.ss/",
       "name": "South Sudan eVisa portal — Directorate of Nationality, Passports and Immigration",
       "type": "government",
-      "lastVerified": "2026-08-26",
+      "lastVerified": "2026-10-03",
       "archiveUrl": "https://web.archive.org/web/20260728230127/https://evisa.gov.ss/",
       "portalOnly": true
     },
@@ -3791,13 +3791,9 @@
       "method": "embassy",
       "name": "Embassy visa",
       "fee": null,
-      "processing": {
-        "minDays": 5,
-        "maxDays": 15,
-        "unit": "business-days"
-      },
-      "validityDays": 90,
-      "stayDays": 30,
+      "processing": null,
+      "validityDays": null,
+      "stayDays": null,
       "entries": "single",
       "applyUrl": null,
       "source": {
@@ -3806,7 +3802,11 @@
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260728230127/https://evisa.gov.ss/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     }
   ],
@@ -3815,12 +3815,10 @@
       "rule": "6-months-on-arrival",
       "text": "Your passport must be valid for at least 6 months on arrival in South Sudan.",
       "source": {
-        "url": "https://evisa.gov.ss/",
-        "name": "South Sudan eVisa portal — Directorate of Nationality, Passports and Immigration",
+        "url": "https://www.gov.uk/foreign-travel-advice/south-sudan/entry-requirements",
+        "name": "UK FCDO travel advice — South Sudan entry requirements",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260728230127/https://evisa.gov.ss/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03"
       }
     },
     "vaccinations": [
@@ -3828,15 +3826,14 @@
         "id": "yellow-fever",
         "name": "Yellow fever",
         "certificate": "ICVP",
-        "requiredWhen": "arriving-from-risk-country",
-        "text": "A yellow fever vaccination certificate (ICVP) is required if you arrive from a country with risk of transmission — which covers most regional routes into Juba — and officials often ask all arrivals for it. Vaccination is in any case strongly recommended, as South Sudan itself has yellow fever risk.",
+        "requiredWhen": "always",
+        "text": "A yellow fever vaccination certificate (ICVP) is required of all travellers aged 9 months or over, whatever country you arrive from. South Sudan itself has yellow fever risk.",
         "source": {
-          "url": "https://evisa.gov.ss/",
-          "name": "South Sudan eVisa portal — Directorate of Nationality, Passports and Immigration",
-          "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260728230127/https://evisa.gov.ss/",
-          "portalOnly": true
+          "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
+          "name": "WHO — Vaccination requirements and recommendations for international travellers, country list (ITH 2022)",
+          "type": "igo",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
         }
       },
       {
@@ -3846,12 +3843,10 @@
         "requiredWhen": "recommended",
         "text": "Malaria transmission is intense year-round throughout South Sudan. Antimalarial tablets, repellent and bed nets are strongly recommended — talk to a travel clinic before your trip.",
         "source": {
-          "url": "https://evisa.gov.ss/",
-          "name": "South Sudan eVisa portal — Directorate of Nationality, Passports and Immigration",
-          "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260728230127/https://evisa.gov.ss/",
-          "portalOnly": true
+          "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
+          "name": "WHO — Vaccination requirements and recommendations for international travellers, country list (ITH 2022)",
+          "type": "igo",
+          "lastVerified": "2026-10-03"
         }
       }
     ],
@@ -3859,41 +3854,53 @@
       "required": false,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "No insurance is checked on entry, but most standard policies exclude South Sudan — visitors need specialist cover including medical evacuation, as hospital care in Juba is very limited.",
+      "text": "No official source states a travel insurance requirement for entering South Sudan. Hospital care in Juba is very limited, so cover that includes medical evacuation is advisable.",
       "source": {
         "url": "https://evisa.gov.ss/",
         "name": "South Sudan eVisa portal — Directorate of Nationality, Passports and Immigration",
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260728230127/https://evisa.gov.ss/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "onwardTicket": {
       "required": false,
       "appliesTo": null,
-      "text": "Not consistently enforced, but airlines may ask for a return ticket, and most visitors travel with an invitation letter from a host organization in South Sudan.",
+      "text": "No official source states an onward or return ticket requirement for South Sudan. Airlines may still ask for one at check-in.",
       "source": {
         "url": "https://evisa.gov.ss/",
         "name": "South Sudan eVisa portal — Directorate of Nationality, Passports and Immigration",
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260728230127/https://evisa.gov.ss/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "proofOfFunds": {
       "required": false,
       "appliesTo": null,
       "amount": null,
-      "text": "No fixed amount is published; immigration officers may ask about your host, accommodation and the purpose of your visit.",
+      "text": "No official source states a proof-of-funds requirement or amount for South Sudan.",
       "source": {
         "url": "https://evisa.gov.ss/",
         "name": "South Sudan eVisa portal — Directorate of Nationality, Passports and Immigration",
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260728230127/https://evisa.gov.ss/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "declarations": [
@@ -3903,29 +3910,32 @@
         "mandatory": true,
         "fee": null,
         "submitAt": "on-arrival",
-        "submitWindow": "within about 3 days of arrival",
+        "submitWindow": "if staying 5 days or more",
         "url": null,
-        "text": "Foreign nationals are generally expected to register with the Directorate of Immigration in Juba within about 3 days of arrival — hotels or host organizations usually assist. Confirm current practice with your host before travel.",
+        "text": "If you stay in South Sudan for 5 days or more, you must register at a local police station. Hotels or host organizations can usually help.",
         "source": {
-          "url": "https://evisa.gov.ss/",
-          "name": "South Sudan eVisa portal — Directorate of Nationality, Passports and Immigration",
+          "url": "https://www.gov.uk/foreign-travel-advice/south-sudan/entry-requirements",
+          "name": "UK FCDO travel advice — South Sudan entry requirements",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260728230127/https://evisa.gov.ss/",
-          "portalOnly": true
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
         }
       }
     ],
     "customs": {
       "currencyLimits": {
-        "text": "No reliable published threshold. Declare large sums of foreign currency on arrival to avoid difficulties on departure; taking South Sudanese pounds out of the country is restricted.",
+        "text": "No official source publishes a currency declaration threshold for South Sudan. Declare anything that may be prohibited or subject to duty, and ask a South Sudanese embassy about current rules.",
         "source": {
           "url": "https://evisa.gov.ss/",
           "name": "South Sudan eVisa portal — Directorate of Nationality, Passports and Immigration",
           "type": "government",
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260728230127/https://evisa.gov.ss/",
-          "portalOnly": true
+          "portalOnly": true,
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "not-stated"
+          }
         }
       },
       "notes": [
@@ -3997,7 +4007,7 @@
     {
       "id": "register-arrival",
       "type": "tip",
-      "text": "Register with immigration in Juba within about 3 days of arrival — your hotel or host organization can usually handle it, and missing it causes problems on departure."
+      "text": "Register at a local police station if you stay 5 days or more — your hotel or host organization can usually help."
     },
     {
       "id": "cash-usd",
@@ -4024,7 +4034,7 @@
     {
       "id": "yellow-fever",
       "question": "Do I need a yellow fever certificate for South Sudan?",
-      "answer": "Bring one. The certificate is formally required when arriving from countries with yellow fever risk, which covers most regional routes into Juba, and officials often ask all arrivals for it. South Sudan itself has yellow fever risk, so vaccination is recommended regardless."
+      "answer": "Yes. The WHO country list states that proof of yellow fever vaccination is required of all travellers aged 9 months or over, whatever country they arrive from, and the UK FCDO also lists the certificate as an entry requirement."
     },
     {
       "id": "evisa-land-borders",

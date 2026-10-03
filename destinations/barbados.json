@@ -16,7 +16,7 @@
   ],
   "summary": "Barbados admits citizens of most of the world without a visa — the US, Canada, the UK and the great majority of Commonwealth countries are normally stamped in for up to six months, and EU citizens for 90 days in any 180 — while CARICOM nationals move freely and every arriving passenger files the online immigration and customs form before landing.",
   "meta": {
-    "lastUpdated": "2026-10-02",
+    "lastUpdated": "2026-10-03",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -1735,7 +1735,11 @@
         "type": "government",
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260824105621/https://immigration.gov.bb/",
-        "portalOnly": true
+        "portalOnly": true,
+        "unverifiable": {
+          "lastAttempt": "2026-10-03",
+          "reason": "not-stated"
+        }
       }
     },
     "vaccinations": [
@@ -1744,14 +1748,14 @@
         "name": "Yellow fever",
         "certificate": "ICVP (yellow card)",
         "requiredWhen": "arriving-from-risk-country",
-        "text": "A yellow fever vaccination certificate is required from travelers aged one year and over arriving from — or having recently transited — a country with risk of yellow fever transmission. No vaccination is required if you fly in directly from Europe, North America or the rest of the Caribbean.",
+        "text": "A yellow fever vaccination certificate is required from travelers aged one year and over arriving from a country on Barbados's list of yellow fever countries, which differs slightly from WHO's own risk list. No vaccination is required if you fly in directly from Europe, North America or the rest of the Caribbean.",
         "source": {
-          "url": "https://www.immigration.gov.bb/",
-          "name": "Barbados Immigration Department",
-          "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260824105621/https://immigration.gov.bb/",
-          "portalOnly": true
+          "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf",
+          "name": "WHO, International Travel and Health, Annex 1 — countries requiring proof of vaccination against yellow fever",
+          "type": "igo",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03",
+          "instrument": "International Health Regulations (2005), Article 36 and Annex 7; WHO International Travel and Health, Annex 1, 18 November 2022 (revised 3 January 2023)"
         }
       }
     ],
@@ -1759,14 +1763,13 @@
       "required": false,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Insurance is not checked at the border, but visitors pay for private treatment up front and air ambulance transfers are expensive — cover including medical evacuation is strongly recommended.",
+      "text": "No official source makes insurance a condition of entry. The UK government advises insurance for local treatment and medical evacuation: Queen Elizabeth Hospital can cope with many types of treatment, but serious cases may need emergency evacuation, and treatment is paid for by the patient.",
       "source": {
-        "url": "https://www.immigration.gov.bb/",
-        "name": "Barbados Immigration Department",
+        "url": "https://www.gov.uk/foreign-travel-advice/barbados/health",
+        "name": "UK Foreign, Commonwealth & Development Office — Barbados travel advice (health)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260824105621/https://immigration.gov.bb/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "onwardTicket": {
@@ -1781,17 +1784,16 @@
       }
     },
     "proofOfFunds": {
-      "required": false,
-      "appliesTo": null,
-      "text": "No published minimum. Officers may ask how you will fund your stay, especially for stays of several months.",
+      "required": true,
+      "appliesTo": "all",
+      "text": "Visitors must carry evidence of personal support, along with a return ticket and their intended address. No minimum sum is published.",
       "amount": null,
       "source": {
-        "url": "https://www.immigration.gov.bb/",
-        "name": "Barbados Immigration Department",
+        "url": "https://immigration.gov.bb/pages/visitor.aspx",
+        "name": "Barbados Immigration Department — Visitor information",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260824105621/https://immigration.gov.bb/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "declarations": [
@@ -1817,14 +1819,18 @@
     ],
     "customs": {
       "currencyLimits": {
-        "text": "Cash or bearer instruments worth BBD 20,000 or more (about USD 10,000) must be declared to Barbados Customs on arrival and departure.",
+        "text": "No official source we could read publishes Barbados's cash-declaration threshold. Declare large sums to Customs on arrival and departure.",
         "source": {
           "url": "https://www.immigration.gov.bb/",
           "name": "Barbados Immigration Department",
           "type": "government",
           "lastVerified": "2026-08-26",
           "archiveUrl": "https://web.archive.org/web/20260824105621/https://immigration.gov.bb/",
-          "portalOnly": true
+          "portalOnly": true,
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "not-stated"
+          }
         }
       },
       "notes": [
