@@ -15,7 +15,7 @@
   ],
   "summary": "The Philippines admits citizens of more than 150 countries visa-free for 30 days — extendable by 29 days at a Bureau of Immigration office — and requires every arriving traveler to register on the free eTravel platform within 72 hours before arrival. Airlines strictly check onward tickets before boarding.",
   "meta": {
-    "lastUpdated": "2026-10-02",
+    "lastUpdated": "2026-10-04",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 7,
     "primarySources": [
@@ -1270,19 +1270,15 @@
       "id": "tourist-evisa",
       "category": "tourist",
       "method": "evisa",
-      "name": "Philippine eVisa (selected nationalities)",
-      "fee": {
-        "amount": 30,
-        "currency": "USD",
-        "notes": "The eVisa is currently offered only to selected nationalities (rolled out first for Chinese nationals, with Indian nationals announced). Fees mirror the 9a visa and vary by class. Check evisa.gov.ph for eligibility and the current fee."
-      },
+      "name": "Philippine eVisa (9(a) temporary visitor visa)",
+      "fee": null,
       "processing": {
-        "minDays": 5,
-        "maxDays": 10,
+        "minDays": 7,
+        "maxDays": 12,
         "unit": "business-days"
       },
-      "validityDays": 90,
-      "stayDays": 30,
+      "validityDays": null,
+      "stayDays": null,
       "entries": "single",
       "extendable": {
         "possible": false,
@@ -1290,12 +1286,11 @@
       },
       "applyUrl": "https://evisa.gov.ph/",
       "source": {
-        "url": "https://evisa.gov.ph/page/policy",
-        "name": "Department of Foreign Affairs — Philippine visa policy (eVisaPH)",
+        "url": "https://evisa.gov.ph/page/faqs",
+        "name": "Department of Foreign Affairs — Philippine e-Visa FAQs (eVisaPH)",
         "type": "government",
-        "lastVerified": "2026-09-26",
-        "portalOnly": true,
-        "lastChanged": "2026-09-26"
+        "lastVerified": "2026-10-04",
+        "lastChanged": "2026-10-04"
       }
     },
     {
@@ -1341,21 +1336,6 @@
         "lastChanged": "2026-09-26"
       }
     },
-    "blankPages": {
-      "count": 1,
-      "source": {
-        "url": "https://immigration.gov.ph/",
-        "name": "Bureau of Immigration, Republic of the Philippines",
-        "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260630075829/https://immigration.gov.ph/",
-        "portalOnly": true,
-        "unverifiable": {
-          "lastAttempt": "2026-10-03",
-          "reason": "not-stated"
-        }
-      }
-    },
     "vaccinations": [
       {
         "id": "yellow-fever",
@@ -1375,16 +1355,14 @@
       "required": false,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Travel insurance is not an entry requirement for tourists, but medical coverage is strongly recommended — private hospitals expect payment or proof of insurance up front.",
+      "text": "No official source we could read states a travel-insurance requirement for the Philippines. The UK Foreign Office advises making sure you have adequate travel health insurance and accessible funds to cover the cost of any medical treatment, including repatriation.",
       "source": {
-        "url": "https://immigration.gov.ph/",
-        "name": "Bureau of Immigration, Republic of the Philippines",
+        "url": "https://www.gov.uk/foreign-travel-advice/philippines/health",
+        "name": "UK FCDO — the Philippines travel advice: health",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260630075829/https://immigration.gov.ph/",
-        "portalOnly": true,
+        "lastVerified": "2026-10-04",
         "unverifiable": {
-          "lastAttempt": "2026-10-03",
+          "lastAttempt": "2026-10-04",
           "reason": "not-stated"
         }
       }
@@ -1404,16 +1382,14 @@
       "required": false,
       "appliesTo": null,
       "amount": null,
-      "text": "No fixed amount is published, but immigration officers may ask about means of support and accommodation for the stay.",
+      "text": "No official source we could read states a general proof-of-funds requirement or amount for the Philippines. The Department of Foreign Affairs' visa policy asks Indian nationals entering visa-free for 14 days to show proof of financial capacity.",
       "source": {
-        "url": "https://immigration.gov.ph/",
-        "name": "Bureau of Immigration, Republic of the Philippines",
+        "url": "https://evisa.gov.ph/page/policy",
+        "name": "Department of Foreign Affairs — Philippine visa policy (eVisaPH)",
         "type": "government",
-        "lastVerified": "2026-08-25",
-        "archiveUrl": "https://web.archive.org/web/20260630075829/https://immigration.gov.ph/",
-        "portalOnly": true,
+        "lastVerified": "2026-10-04",
         "unverifiable": {
-          "lastAttempt": "2026-10-03",
+          "lastAttempt": "2026-10-04",
           "reason": "not-stated"
         }
       }
