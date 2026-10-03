@@ -21,7 +21,7 @@
   ],
   "summary": "ECOWAS citizens enter Côte d'Ivoire freely, while most other visitors pre-enroll online for the biometric eVisa (about EUR 73) and collect it on arrival at Abidjan airport — arrivals by land or through other airports need an embassy visa, and a yellow fever certificate is required from everyone.",
   "meta": {
-    "lastUpdated": "2026-09-26",
+    "lastUpdated": "2026-10-03",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -40,12 +40,17 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://snedai.com/",
-      "name": "SNEDAI — official Côte d'Ivoire e-visa service",
+      "url": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+      "name": "Ministère des Affaires Étrangères de Côte d'Ivoire — annex to the biometric-visa order (countries exempt from visa)",
       "type": "government",
-      "lastVerified": "2026-08-26",
-      "archiveUrl": "https://web.archive.org/web/20260630080441/https://snedai.com/",
-      "portalOnly": true
+      "lastVerified": "2026-10-03",
+      "archiveUrl": "https://web.archive.org/web/20160904033407/http://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+      "instrument": "Arrêté interministériel n°093/MEMIS/MEMAE/MPMCEF du 15 mars 2013 (visa biométrique), annexe",
+      "unverifiable": {
+        "lastAttempt": "2026-10-03",
+        "reason": "gone",
+        "status": 404
+      }
     },
     "byPassport": {
       "AF": {
@@ -213,7 +218,20 @@
       "BJ": {
         "requirement": "freedom-of-movement",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document."
+        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document.",
+        "source": {
+          "url": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "name": "Ministère des Affaires Étrangères de Côte d'Ivoire — annex to the biometric-visa order (countries exempt from visa)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20160904033407/http://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "instrument": "Arrêté interministériel n°093/MEMIS/MEMAE/MPMCEF du 15 mars 2013 (visa biométrique), annexe",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "gone",
+            "status": 404
+          }
+        }
       },
       "BT": {
         "requirement": "evisa",
@@ -281,7 +299,20 @@
       "BF": {
         "requirement": "freedom-of-movement",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document."
+        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document.",
+        "source": {
+          "url": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "name": "Ministère des Affaires Étrangères de Côte d'Ivoire — annex to the biometric-visa order (countries exempt from visa)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20160904033407/http://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "instrument": "Arrêté interministériel n°093/MEMIS/MEMAE/MPMCEF du 15 mars 2013 (visa biométrique), annexe",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "gone",
+            "status": 404
+          }
+        }
       },
       "BI": {
         "requirement": "evisa",
@@ -295,7 +326,20 @@
       "CV": {
         "requirement": "freedom-of-movement",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document."
+        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document.",
+        "source": {
+          "url": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "name": "Ministère des Affaires Étrangères de Côte d'Ivoire — annex to the biometric-visa order (countries exempt from visa)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20160904033407/http://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "instrument": "Arrêté interministériel n°093/MEMIS/MEMAE/MPMCEF du 15 mars 2013 (visa biométrique), annexe",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "gone",
+            "status": 404
+          }
+        }
       },
       "KH": {
         "requirement": "evisa",
@@ -325,22 +369,42 @@
         "notes": "Pre-enroll online for the biometric eVisa (SNEDAI) and collect it on arrival at Abidjan airport. Entry by land or through other airports requires an embassy visa instead."
       },
       "CF": {
-        "requirement": "evisa",
-        "maxStayDays": 90,
-        "visaTypes": [
-          "evisa-tourist",
-          "embassy-tourist"
-        ],
-        "notes": "Pre-enroll online for the biometric eVisa (SNEDAI) and collect it on arrival at Abidjan airport. Entry by land or through other airports requires an embassy visa instead."
+        "requirement": "visa-free",
+        "maxStayDays": null,
+        "notes": "Citizens of the Central African Republic do not need a visa for Côte d'Ivoire. The 2013 interministerial order on the biometric visa lists them among the non-ECOWAS nationalities exempt from the visa on an ordinary passport, and the Foreign Ministry published that list on its travel-advice page until late 2024. The order states no length of stay; confirm it with an Ivorian mission before travel.",
+        "source": {
+          "url": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "name": "Ministère des Affaires Étrangères de Côte d'Ivoire — annex to the biometric-visa order (countries exempt from visa)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20160904033407/http://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "instrument": "Arrêté interministériel n°093/MEMIS/MEMAE/MPMCEF du 15 mars 2013 (visa biométrique), annexe",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "gone",
+            "status": 404
+          },
+          "lastChanged": "2026-10-03"
+        }
       },
       "TD": {
-        "requirement": "evisa",
-        "maxStayDays": 90,
-        "visaTypes": [
-          "evisa-tourist",
-          "embassy-tourist"
-        ],
-        "notes": "Pre-enroll online for the biometric eVisa (SNEDAI) and collect it on arrival at Abidjan airport. Entry by land or through other airports requires an embassy visa instead."
+        "requirement": "visa-free",
+        "maxStayDays": null,
+        "notes": "Citizens of Chad do not need a visa for Côte d'Ivoire. The 2013 interministerial order on the biometric visa lists them among the non-ECOWAS nationalities exempt from the visa on an ordinary passport, and the Foreign Ministry published that list on its travel-advice page until late 2024. The order states no length of stay; confirm it with an Ivorian mission before travel.",
+        "source": {
+          "url": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "name": "Ministère des Affaires Étrangères de Côte d'Ivoire — annex to the biometric-visa order (countries exempt from visa)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20160904033407/http://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "instrument": "Arrêté interministériel n°093/MEMIS/MEMAE/MPMCEF du 15 mars 2013 (visa biométrique), annexe",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "gone",
+            "status": 404
+          },
+          "lastChanged": "2026-10-03"
+        }
       },
       "CL": {
         "requirement": "evisa",
@@ -584,7 +648,20 @@
       "GM": {
         "requirement": "freedom-of-movement",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document."
+        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document.",
+        "source": {
+          "url": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "name": "Ministère des Affaires Étrangères de Côte d'Ivoire — annex to the biometric-visa order (countries exempt from visa)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20160904033407/http://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "instrument": "Arrêté interministériel n°093/MEMIS/MEMAE/MPMCEF du 15 mars 2013 (visa biométrique), annexe",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "gone",
+            "status": 404
+          }
+        }
       },
       "GE": {
         "requirement": "evisa",
@@ -607,7 +684,20 @@
       "GH": {
         "requirement": "freedom-of-movement",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document."
+        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document.",
+        "source": {
+          "url": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "name": "Ministère des Affaires Étrangères de Côte d'Ivoire — annex to the biometric-visa order (countries exempt from visa)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20160904033407/http://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "instrument": "Arrêté interministériel n°093/MEMIS/MEMAE/MPMCEF du 15 mars 2013 (visa biométrique), annexe",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "gone",
+            "status": 404
+          }
+        }
       },
       "GR": {
         "requirement": "evisa",
@@ -644,7 +734,20 @@
       "GW": {
         "requirement": "freedom-of-movement",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document."
+        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document.",
+        "source": {
+          "url": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "name": "Ministère des Affaires Étrangères de Côte d'Ivoire — annex to the biometric-visa order (countries exempt from visa)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20160904033407/http://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "instrument": "Arrêté interministériel n°093/MEMIS/MEMAE/MPMCEF du 15 mars 2013 (visa biométrique), annexe",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "gone",
+            "status": 404
+          }
+        }
       },
       "GY": {
         "requirement": "evisa",
@@ -883,7 +986,20 @@
       "LR": {
         "requirement": "freedom-of-movement",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document."
+        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document.",
+        "source": {
+          "url": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "name": "Ministère des Affaires Étrangères de Côte d'Ivoire — annex to the biometric-visa order (countries exempt from visa)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20160904033407/http://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "instrument": "Arrêté interministériel n°093/MEMIS/MEMAE/MPMCEF du 15 mars 2013 (visa biométrique), annexe",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "gone",
+            "status": 404
+          }
+        }
       },
       "LY": {
         "requirement": "evisa",
@@ -969,7 +1085,20 @@
       "ML": {
         "requirement": "freedom-of-movement",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document."
+        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document.",
+        "source": {
+          "url": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "name": "Ministère des Affaires Étrangères de Côte d'Ivoire — annex to the biometric-visa order (countries exempt from visa)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20160904033407/http://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "instrument": "Arrêté interministériel n°093/MEMIS/MEMAE/MPMCEF du 15 mars 2013 (visa biométrique), annexe",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "gone",
+            "status": 404
+          }
+        }
       },
       "MT": {
         "requirement": "evisa",
@@ -990,13 +1119,23 @@
         "notes": "Pre-enroll online for the biometric eVisa (SNEDAI) and collect it on arrival at Abidjan airport. Entry by land or through other airports requires an embassy visa instead."
       },
       "MR": {
-        "requirement": "evisa",
-        "maxStayDays": 90,
-        "visaTypes": [
-          "evisa-tourist",
-          "embassy-tourist"
-        ],
-        "notes": "Pre-enroll online for the biometric eVisa (SNEDAI) and collect it on arrival at Abidjan airport. Entry by land or through other airports requires an embassy visa instead."
+        "requirement": "visa-free",
+        "maxStayDays": null,
+        "notes": "Citizens of Mauritania do not need a visa for Côte d'Ivoire. The 2013 interministerial order on the biometric visa lists them among the non-ECOWAS nationalities exempt from the visa on an ordinary passport, and the Foreign Ministry published that list on its travel-advice page until late 2024. The order states no length of stay; confirm it with an Ivorian mission before travel.",
+        "source": {
+          "url": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "name": "Ministère des Affaires Étrangères de Côte d'Ivoire — annex to the biometric-visa order (countries exempt from visa)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20160904033407/http://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "instrument": "Arrêté interministériel n°093/MEMIS/MEMAE/MPMCEF du 15 mars 2013 (visa biométrique), annexe",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "gone",
+            "status": 404
+          },
+          "lastChanged": "2026-10-03"
+        }
       },
       "MU": {
         "requirement": "evisa",
@@ -1064,7 +1203,20 @@
       "MA": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free for short stays under a bilateral exemption. Confirm the exact allowance with an Ivorian mission before travel."
+        "notes": "Visa-free for short stays under a bilateral exemption. Confirm the exact allowance with an Ivorian mission before travel.",
+        "source": {
+          "url": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "name": "Ministère des Affaires Étrangères de Côte d'Ivoire — annex to the biometric-visa order (countries exempt from visa)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20160904033407/http://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "instrument": "Arrêté interministériel n°093/MEMIS/MEMAE/MPMCEF du 15 mars 2013 (visa biométrique), annexe",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "gone",
+            "status": 404
+          }
+        }
       },
       "MZ": {
         "requirement": "evisa",
@@ -1141,12 +1293,38 @@
       "NE": {
         "requirement": "freedom-of-movement",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document."
+        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document.",
+        "source": {
+          "url": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "name": "Ministère des Affaires Étrangères de Côte d'Ivoire — annex to the biometric-visa order (countries exempt from visa)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20160904033407/http://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "instrument": "Arrêté interministériel n°093/MEMIS/MEMAE/MPMCEF du 15 mars 2013 (visa biométrique), annexe",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "gone",
+            "status": 404
+          }
+        }
       },
       "NG": {
         "requirement": "freedom-of-movement",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document."
+        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document.",
+        "source": {
+          "url": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "name": "Ministère des Affaires Étrangères de Côte d'Ivoire — annex to the biometric-visa order (countries exempt from visa)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20160904033407/http://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "instrument": "Arrêté interministériel n°093/MEMIS/MEMAE/MPMCEF du 15 mars 2013 (visa biométrique), annexe",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "gone",
+            "status": 404
+          }
+        }
       },
       "KP": {
         "requirement": "evisa",
@@ -1248,13 +1426,23 @@
         "notes": "Pre-enroll online for the biometric eVisa (SNEDAI) and collect it on arrival at Abidjan airport. Entry by land or through other airports requires an embassy visa instead."
       },
       "PH": {
-        "requirement": "evisa",
-        "maxStayDays": 90,
-        "visaTypes": [
-          "evisa-tourist",
-          "embassy-tourist"
-        ],
-        "notes": "Pre-enroll online for the biometric eVisa (SNEDAI) and collect it on arrival at Abidjan airport. Entry by land or through other airports requires an embassy visa instead."
+        "requirement": "visa-free",
+        "maxStayDays": null,
+        "notes": "Citizens of the Philippines do not need a visa for Côte d'Ivoire. The 2013 interministerial order on the biometric visa lists them among the non-ECOWAS nationalities exempt from the visa on an ordinary passport, and the Foreign Ministry published that list on its travel-advice page until late 2024. The order states no length of stay; confirm it with an Ivorian mission before travel.",
+        "source": {
+          "url": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "name": "Ministère des Affaires Étrangères de Côte d'Ivoire — annex to the biometric-visa order (countries exempt from visa)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20160904033407/http://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "instrument": "Arrêté interministériel n°093/MEMIS/MEMAE/MPMCEF du 15 mars 2013 (visa biométrique), annexe",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "gone",
+            "status": 404
+          },
+          "lastChanged": "2026-10-03"
+        }
       },
       "PL": {
         "requirement": "evisa",
@@ -1284,13 +1472,23 @@
         "notes": "Pre-enroll online for the biometric eVisa (SNEDAI) and collect it on arrival at Abidjan airport. Entry by land or through other airports requires an embassy visa instead."
       },
       "CG": {
-        "requirement": "evisa",
-        "maxStayDays": 90,
-        "visaTypes": [
-          "evisa-tourist",
-          "embassy-tourist"
-        ],
-        "notes": "Pre-enroll online for the biometric eVisa (SNEDAI) and collect it on arrival at Abidjan airport. Entry by land or through other airports requires an embassy visa instead."
+        "requirement": "visa-free",
+        "maxStayDays": null,
+        "notes": "Citizens of the Republic of the Congo do not need a visa for Côte d'Ivoire. The 2013 interministerial order on the biometric visa lists them among the non-ECOWAS nationalities exempt from the visa on an ordinary passport, and the Foreign Ministry published that list on its travel-advice page until late 2024. The order states no length of stay; confirm it with an Ivorian mission before travel.",
+        "source": {
+          "url": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "name": "Ministère des Affaires Étrangères de Côte d'Ivoire — annex to the biometric-visa order (countries exempt from visa)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20160904033407/http://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "instrument": "Arrêté interministériel n°093/MEMIS/MEMAE/MPMCEF du 15 mars 2013 (visa biométrique), annexe",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "gone",
+            "status": 404
+          },
+          "lastChanged": "2026-10-03"
+        }
       },
       "RO": {
         "requirement": "evisa",
@@ -1385,7 +1583,20 @@
       "SN": {
         "requirement": "freedom-of-movement",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document."
+        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document.",
+        "source": {
+          "url": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "name": "Ministère des Affaires Étrangères de Côte d'Ivoire — annex to the biometric-visa order (countries exempt from visa)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20160904033407/http://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "instrument": "Arrêté interministériel n°093/MEMIS/MEMAE/MPMCEF du 15 mars 2013 (visa biométrique), annexe",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "gone",
+            "status": 404
+          }
+        }
       },
       "RS": {
         "requirement": "evisa",
@@ -1397,27 +1608,60 @@
         "notes": "Pre-enroll online for the biometric eVisa (SNEDAI) and collect it on arrival at Abidjan airport. Entry by land or through other airports requires an embassy visa instead."
       },
       "SC": {
-        "requirement": "evisa",
-        "maxStayDays": 90,
-        "visaTypes": [
-          "evisa-tourist",
-          "embassy-tourist"
-        ],
-        "notes": "Pre-enroll online for the biometric eVisa (SNEDAI) and collect it on arrival at Abidjan airport. Entry by land or through other airports requires an embassy visa instead."
+        "requirement": "visa-free",
+        "maxStayDays": null,
+        "notes": "Citizens of Seychelles do not need a visa for Côte d'Ivoire. The 2013 interministerial order on the biometric visa lists them among the non-ECOWAS nationalities exempt from the visa on an ordinary passport, and the Foreign Ministry published that list on its travel-advice page until late 2024. The order states no length of stay; confirm it with an Ivorian mission before travel.",
+        "source": {
+          "url": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "name": "Ministère des Affaires Étrangères de Côte d'Ivoire — annex to the biometric-visa order (countries exempt from visa)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20160904033407/http://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "instrument": "Arrêté interministériel n°093/MEMIS/MEMAE/MPMCEF du 15 mars 2013 (visa biométrique), annexe",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "gone",
+            "status": 404
+          },
+          "lastChanged": "2026-10-03"
+        }
       },
       "SL": {
         "requirement": "freedom-of-movement",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document."
+        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document.",
+        "source": {
+          "url": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "name": "Ministère des Affaires Étrangères de Côte d'Ivoire — annex to the biometric-visa order (countries exempt from visa)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20160904033407/http://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "instrument": "Arrêté interministériel n°093/MEMIS/MEMAE/MPMCEF du 15 mars 2013 (visa biométrique), annexe",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "gone",
+            "status": 404
+          }
+        }
       },
       "SG": {
-        "requirement": "evisa",
-        "maxStayDays": 90,
-        "visaTypes": [
-          "evisa-tourist",
-          "embassy-tourist"
-        ],
-        "notes": "Pre-enroll online for the biometric eVisa (SNEDAI) and collect it on arrival at Abidjan airport. Entry by land or through other airports requires an embassy visa instead."
+        "requirement": "visa-free",
+        "maxStayDays": null,
+        "notes": "Citizens of Singapore do not need a visa for Côte d'Ivoire. The 2013 interministerial order on the biometric visa lists them among the non-ECOWAS nationalities exempt from the visa on an ordinary passport, and the Foreign Ministry published that list on its travel-advice page until late 2024. The order states no length of stay; confirm it with an Ivorian mission before travel.",
+        "source": {
+          "url": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "name": "Ministère des Affaires Étrangères de Côte d'Ivoire — annex to the biometric-visa order (countries exempt from visa)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20160904033407/http://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "instrument": "Arrêté interministériel n°093/MEMIS/MEMAE/MPMCEF du 15 mars 2013 (visa biométrique), annexe",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "gone",
+            "status": 404
+          },
+          "lastChanged": "2026-10-03"
+        }
       },
       "SK": {
         "requirement": "evisa",
@@ -1593,7 +1837,20 @@
       "TG": {
         "requirement": "freedom-of-movement",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document."
+        "notes": "ECOWAS citizens enter freely under the Community's free-movement protocol — up to 90 days with a valid passport or ECOWAS travel document.",
+        "source": {
+          "url": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "name": "Ministère des Affaires Étrangères de Côte d'Ivoire — annex to the biometric-visa order (countries exempt from visa)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20160904033407/http://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "instrument": "Arrêté interministériel n°093/MEMIS/MEMAE/MPMCEF du 15 mars 2013 (visa biométrique), annexe",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "gone",
+            "status": 404
+          }
+        }
       },
       "TO": {
         "requirement": "evisa",
@@ -1616,7 +1873,20 @@
       "TN": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free for short stays under a bilateral exemption. Confirm the exact allowance with an Ivorian mission before travel."
+        "notes": "Visa-free for short stays under a bilateral exemption. Confirm the exact allowance with an Ivorian mission before travel.",
+        "source": {
+          "url": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "name": "Ministère des Affaires Étrangères de Côte d'Ivoire — annex to the biometric-visa order (countries exempt from visa)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20160904033407/http://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+          "instrument": "Arrêté interministériel n°093/MEMIS/MEMAE/MPMCEF du 15 mars 2013 (visa biométrique), annexe",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "gone",
+            "status": 404
+          }
+        }
       },
       "TR": {
         "requirement": "evisa",
@@ -2046,7 +2316,7 @@
     {
       "id": "do-i-need-visa",
       "question": "Do I need a visa for Côte d'Ivoire?",
-      "answer": "ECOWAS citizens enter freely without a visa. Almost everyone else needs one — for arrivals at Abidjan airport, pre-enroll online for the eVisa (about EUR 73) and collect the biometric visa at the dedicated counter on landing; for land borders or other airports, obtain a visa from an Ivorian embassy first."
+      "answer": "ECOWAS citizens enter freely without a visa, and so do citizens of Morocco, Tunisia, Mauritania, Chad, the Central African Republic, the Republic of the Congo, Seychelles, Singapore and the Philippines. Almost everyone else needs one — for arrivals at Abidjan airport, pre-enroll online for the eVisa (about EUR 73) and collect the biometric visa at the dedicated counter on landing; for land borders or other airports, obtain a visa from an Ivorian embassy first."
     },
     {
       "id": "how-evisa-works",

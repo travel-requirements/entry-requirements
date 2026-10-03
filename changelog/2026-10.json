@@ -9238,6 +9238,448 @@
       "oldUrl": "https://mofa.gov.ye/",
       "newUrl": "https://www.yemenembassy.org/consuloraffairs/visa-services/",
       "reason": "46 more passport rows (Europe, Australia, Canada, Japan, South Korea, New Zealand, Singapore, Brunei, Hong Kong, Seychelles, the Vatican and the US) now cite the Yemeni embassy in Washington's visa page, which names each of them among the nationalities that need a visa and sets out the US-passport requirements; they had inherited the foreign ministry's front page, which is unreachable and states nothing per nationality. All 51 named rows already read embassy-visa, so no value changed. The other 146 rows still inherit the ministry page."
+    },
+    {
+      "kind": "source-updated",
+      "date": "2026-10-03",
+      "destination": "liberia",
+      "oldUrl": "https://www.mofa.gov.lr/",
+      "newUrl": "https://liberiaconsulate-ny.com/consulate-services/visa/",
+      "reason": "Liberia's Consulate General in New York names the 15 ECOWAS states as exempt and requires a visa of all other countries. All 199 rows match; they now cite that list instead of the foreign ministry's front page."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "afghanistan",
+      "path": "visaTypes.arrival-visa",
+      "field": "Arrival visa at Kabul International Airport (new visa type)",
+      "old": "not listed",
+      "new": "Visa on arrival at Kabul International Airport, USD 200, one month's validity and one month's stay, issued only against an official letter from an Afghan organisation or an official invitation from an international organisation working in Afghanistan, with Ministry of Foreign Affairs approval",
+      "sourceUrl": "https://mfa.gov.af/en/arrival-visa"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "afghanistan",
+      "path": "visaPolicy.byPassport.* (197 embassy-visa rows: every row except AF, IL)",
+      "field": "Passport rows: visa types and notes",
+      "old": "visaTypes [embassy-tourist]; note: visa required for all nationalities, apply in person at an embassy",
+      "new": "visaTypes [embassy-tourist, arrival-visa]; note adds the Kabul airport arrival visa (official letter or invitation only) and the visa-free entry permit for foreign nationals of Afghan origin",
+      "sourceUrl": "https://mfa.gov.af/en/entry-permit-visa",
+      "note": "Requirement unchanged (embassy-visa) on every row. The MFA's Entry permit page says foreign nationals of Afghan origin (born in Afghanistan per their passport, or holding a tazkira, an Afghan passport or an Afghan certificate of identity) can enter without a visa; the Arrival Visa page gives the Kabul airport visa. No per-nationality list exists on mfa.gov.af."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "afghanistan",
+      "path": "summary; faq.need-visa",
+      "field": "Summary and 'Do I need a visa?' answer",
+      "old": "Every nationality needs a visa, issued only through Afghan embassies and consulates",
+      "new": "Nearly every visitor needs a visa; a Kabul airport arrival visa exists against an official letter or invitation, and foreign nationals of Afghan origin can enter on an entry permit without a visa",
+      "sourceUrl": "https://mfa.gov.af/en/entry-permit-visa"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "afghanistan",
+      "path": "visaTypes.embassy-business.fee",
+      "field": "Business visa fee",
+      "old": "USD 150 (indicative, cited to the MFA front page)",
+      "new": "USD 40 to USD 300 (fee shown as from USD 40)",
+      "sourceUrl": "https://mfa.gov.af/en/business-visa"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "afghanistan",
+      "path": "visaTypes.embassy-business.validityDays; visaTypes.embassy-business.stayDays",
+      "field": "Business visa validity and stay",
+      "old": "validity 90 days, stay 30 days",
+      "new": "validity one month to three years (null: a range); stay not stated (null)",
+      "sourceUrl": "https://mfa.gov.af/en/business-visa",
+      "note": "The old figures cited only the MFA front page. The ministry's Business Visa page gives validity 'One month to Three years' and no stay length."
+    },
+    {
+      "kind": "source-updated",
+      "date": "2026-10-03",
+      "destination": "afghanistan",
+      "oldUrl": "https://mfa.gov.af/",
+      "newUrl": "https://www.gov.uk/foreign-travel-advice/afghanistan/entry-requirements",
+      "reason": "visaPolicy.byPassport.GB inherited the foreign ministry's front page, which states no per-nationality rule. UK FCDO travel advice states the row ('A visa is required to enter Afghanistan'); it matches, so the row now cites it (rank 5)."
+    },
+    {
+      "kind": "source-updated",
+      "date": "2026-10-03",
+      "destination": "afghanistan",
+      "oldUrl": "https://mfa.gov.af/",
+      "newUrl": "https://travel.gc.ca/destinations/afghanistan",
+      "reason": "visaPolicy.byPassport.CA inherited the foreign ministry's front page, which states no per-nationality rule. Government of Canada travel advice states the row ('You must obtain a visa to visit Afghanistan'); it matches, so the row now cites it (rank 5)."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "algeria",
+      "path": "visaPolicy.byPassport.MA",
+      "field": "Visa requirement (Morocco)",
+      "old": "Visa-free, 90 days",
+      "new": "Embassy visa (stay not stated)",
+      "sourceUrl": "https://www.aps.dz/algerie/176554-obligation-d-obtention-du-visa-d-entree-au-territoire-national-pour-tous-les-ressortissants-etrangers-detenteurs-de-passeport-marocain",
+      "note": "Ministry of Foreign Affairs communiqué of 26 September 2024, as published by the state news agency APS: Algeria reinstated, with immediate effect, the entry visa for all foreign nationals holding Moroccan passports. The APS page now returns 404 after a site redesign; read from the Wayback capture of 27 September 2024. mfa.gov.dz's own announcement and news lists for Sept-Oct 2024 do not carry it. The old row had no source of its own."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "algeria",
+      "path": "faq.need-visa.answer",
+      "field": "FAQ: Do I need a visa for Algeria?",
+      "old": "exempt list included Morocco",
+      "new": "Morocco removed; notes Moroccan passport holders need a visa again since 26 September 2024",
+      "sourceUrl": "https://www.aps.dz/algerie/176554-obligation-d-obtention-du-visa-d-entree-au-territoire-national-pour-tous-les-ressortissants-etrangers-detenteurs-de-passeport-marocain"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "burkina-faso",
+      "path": "visaPolicy.byPassport.{BJ,CV,CI,GM,GH,GN,GW,LR,NG,SN,SL,TG}.maxStayDays",
+      "field": "ECOWAS passports: legal basis and stay limit",
+      "old": "freedom-of-movement, 90 days under the ECOWAS free-movement protocol",
+      "new": "freedom-of-movement, no stay limit published (AES declaration of 14 December 2024: visa-free for all ECOWAS nationals)",
+      "sourceUrl": "https://diplomatie.gov.bf/index.php/declaration-du-college-des-chefs-detat-de-la-confederation-des-etats-du-sahel-aes-sur-la-libre-circulation-le-droit-de-residence-et-detablissement-des-ressortissants-de-la-cedeao/",
+      "note": "Burkina Faso left ECOWAS on 29 January 2025, so the ECOWAS protocol's 90-day figure no longer has a source for Burkina Faso. The AES declaration grants visa-free entry and residence under national law and states no stay length."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "burkina-faso",
+      "path": "visaPolicy.byPassport.{ML,NE}.maxStayDays",
+      "field": "Mali and Niger passports: legal basis and stay limit",
+      "old": "freedom-of-movement, 90 days under the ECOWAS free-movement protocol",
+      "new": "freedom-of-movement, no stay limit published (AES treaty, Article 5)",
+      "sourceUrl": "https://gouvernement.gov.bf/wp-content/uploads/2025/10/Traite-portant-creation-de-lAES.pdf"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "burkina-faso",
+      "path": "visaPolicy.byPassport.US.requirement",
+      "field": "US passport requirement",
+      "old": "embassy-visa",
+      "new": "banned (visas suspended since 30 December 2025)",
+      "sourceUrl": "https://gouvernement.gov.bf/communiques/communique-du-gouvernement-du-30-12-2025/",
+      "note": "Burkina Faso's government communiqué of 30 December 2025 applies 'equivalent measures' on visas to US nationals in reciprocity for the US full entry suspension; the US State Department's country page (May 2026 capture) states Burkina Faso has suspended visas to US citizens."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "burkina-faso",
+      "path": "faq.do-i-need-visa.answer; faq.ecowas-free.answer",
+      "field": "Visa FAQs",
+      "old": "ECOWAS citizens enter freely under the Community's free-movement protocol for stays of up to 90 days",
+      "new": "ECOWAS citizens visa-free under the AES December 2024 declaration, no stay limit published; US visas suspended since 30 December 2025",
+      "sourceUrl": "https://diplomatie.gov.bf/index.php/declaration-du-college-des-chefs-detat-de-la-confederation-des-etats-du-sahel-aes-sur-la-libre-circulation-le-droit-de-residence-et-detablissement-des-ressortissants-de-la-cedeao/"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "cameroon",
+      "path": "visaPolicy.byPassport.NG",
+      "field": "Nigerian passport requirement",
+      "old": "evisa, 180 days",
+      "new": "visa-free, no stay limit published",
+      "sourceUrl": "https://cameroonemb-jp.org/visa/info-visa-application/",
+      "note": "The Cameroonian embassies in Japan (page updated July 2026: 'Nigeria (free movement for everybody, just need to present an official document)') and Egypt (https://ambacamcaire.com/consular-services/general-info/exemption-to-the-requirement-of-an-entry-visa/: 'Nationals of Nigeria, the Republic of Congo, the Central African Republic and Chad are exempt from the visa requirement') both name Nigeria as visa-exempt."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "cameroon",
+      "path": "visaPolicy.byPassport.ML",
+      "field": "Malian passport requirement",
+      "old": "visa-free, 90 days",
+      "new": "evisa (fee waived), 180 days",
+      "sourceUrl": "https://cameroonemb-jp.org/visa/info-visa-application/",
+      "note": "The embassy in Japan says ordinary Malian passports get a visa free of charge under the Mali–Cameroon free-movement agreement; the embassy in Egypt does not list Mali as exempt. The old visa-free row cited only the eVisa portal's front page, which states no per-nationality rule (hierarchy: the embassy's explicit statement wins)."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "cameroon",
+      "path": "summary; faq.need-visa.answer",
+      "field": "Summary and visa FAQ",
+      "old": "only CEMAC citizens enter visa-free",
+      "new": "CEMAC citizens and Nigeria enter visa-free",
+      "sourceUrl": "https://cameroonemb-jp.org/visa/info-visa-application/"
+    },
+    {
+      "kind": "source-updated",
+      "date": "2026-10-03",
+      "destination": "cameroon",
+      "oldUrl": "https://www.evisacam.cm/",
+      "newUrl": "https://sgg.cg/txts-droit-reg/CEMAC-Acte-2013-01-libre-circulation.pdf",
+      "reason": "The five CEMAC rows (CF, TD, GQ, GA, CG) cited the eVisa portal's front page. They now cite CEMAC Additional Act No. 01/13 of 25 June 2013, whose Articles 1–2 grant visa-free movement on a national ID card or passport and stays of up to 90 days; all five rows already matched (freedom-of-movement, 90 days). Row notes now say ID card or passport."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "cote-divoire",
+      "path": "visaPolicy.byPassport.CF, .CG, .MR, .SC, .SG, .TD, .PH",
+      "field": "requirement, maxStayDays, visaTypes (CF, CG, MR, SC, SG, TD, PH)",
+      "old": "evisa, 90 days, eVisa/embassy visa",
+      "new": "visa-free, stay not stated",
+      "sourceUrl": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+      "note": "The annex to Arrêté interministériel n°093/MEMIS/MEMAE/MPMCEF of 15 March 2013 names, under 'Autres pays', the non-ECOWAS nationals not subject to a visa on an ordinary or official passport: Centrafrique, Congo (Brazzaville), Maroc, Mauritanie, Seychelles, Singapour, Tchad, Tunisie, Philippines. The Foreign Ministry's 'Conseils aux voyageurs' page linked this annex from 2016 until at least October 2024 (the site has since been rebuilt and the page is 404). The rows had inherited SNEDAI's front page, which names no nationality, so there was no conflict to resolve. The order states no stay, so maxStayDays is null."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "cote-divoire",
+      "path": "faq.do-i-need-visa.answer",
+      "field": "Visa FAQ",
+      "old": "ECOWAS citizens enter freely without a visa. Almost everyone else needs one — for arrivals at Abidjan airport, pre-enroll online for the eVisa (about EUR 73) and collect the biometric visa at the dedicated counter on landing; for land borders or other airports, obtain a visa from an Ivorian embassy first.",
+      "new": "ECOWAS citizens enter freely without a visa, and so do citizens of Morocco, Tunisia, Mauritania, Chad, the Central African Republic, the Republic of the Congo, Seychelles, Singapore and the Philippines. Almost everyone else needs one — for arrivals at Abidjan airport, pre-enroll online for the eVisa (about EUR 73) and collect the biometric visa at the dedicated counter on landing; for land borders or other airports, obtain a visa from an Ivorian embassy first.",
+      "sourceUrl": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf"
+    },
+    {
+      "kind": "source-updated",
+      "date": "2026-10-03",
+      "destination": "cote-divoire",
+      "oldUrl": "https://snedai.com/",
+      "newUrl": "https://diplomatie.gouv.ci/userfiles/file/Conseil%20aux%20voyageurs/Annexe.pdf",
+      "reason": "Rows MA, TN and 13 ECOWAS rows (BJ, BF, CV, GM, GH, GW, LR, ML, NE, NG, SN, SL, TG) now cite the biometric-visa order's annex, which names each of them as visa-exempt; all already read visa-free / freedom of movement. visaPolicy.defaultSource moves to the same annex, which pairs the exempt list with the rule that every other foreigner needs a biometric visa (and names about 140 of them). Guinea (GN) is missing from the annex's ECOWAS column, so that row is left as it was. The 90-day stays on MA, TN and the ECOWAS rows are not stated in the annex."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "iraq",
+      "path": "visaPolicy.byPassport.{AE,BH,KW,OM,QA,SA}",
+      "field": "Visa requirement (GCC passports: AE BH KW OM QA SA)",
+      "old": "Visa on arrival, 30 days",
+      "new": "e-Visa, 30 days",
+      "sourceUrl": "https://eservice.evisa.iq/",
+      "note": "The Interior Ministry's e-Visa portal (eservice.evisa.iq, 'Direct e-Visa') offers the e-Visa to 44 nationalities, the six GCC states among them; the list is the portal's countries flagged for border issuance. Iraq does not say whether GCC citizens can still get a visa on arrival, so the published route is the one Iraq states. The old row had no source of its own."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "iraq",
+      "path": "visaPolicy.byPassport.TR",
+      "field": "Visa requirement (Turkey)",
+      "old": "Visa on arrival, 30 days",
+      "new": "Embassy visa (stay not stated)",
+      "sourceUrl": "https://eservice.evisa.iq/",
+      "note": "Turkey is not among the 44 nationalities on the portal's Direct e-Visa list, whose query selects the countries Iraq flags for border issuance. No official source states a visa on arrival for Turkish citizens; the old row had none."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "iraq",
+      "path": "visaPolicy.byPassport.{IS,LI}",
+      "field": "Visa requirement (Iceland, Liechtenstein)",
+      "old": "e-Visa, 30 days",
+      "new": "Embassy visa (stay not stated)",
+      "sourceUrl": "https://eservice.evisa.iq/",
+      "note": "Neither is among the 44 nationalities on the portal's Direct e-Visa list (every other EU/EEA state and Switzerland is). The old rows had no source of their own."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "nicaragua",
+      "path": "visaPolicy.byPassport.AD,AE,AG,BA,BB,BS,CN,CO,EE,GD,GY,HR,IS,JM,KN,LC,LI,LT,MC,ME,MK,MX,NZ,OM,PE,RS,SI,SK,SM,SR,TT,UA,VC,VE",
+      "field": "Entry requirement (AD, AE, AG, BA, BB, BS, CN, CO, EE, GD, GY, HR, IS, JM, KN, LC, LI, LT, MC, ME, MK, MX, NZ, OM, PE, RS, SI, SK, SM, SR, TT, UA, VC, VE)",
+      "old": "Visa-free (Category A), 90 days",
+      "new": "Consulted visa required (Category C), approved in advance by immigration in Managua",
+      "sourceUrl": "https://www.mint.gob.ni/migracion/disposicion-n-002-2026-cambio-de-categorias-migratorias-de-visa-para-ingresar-a-nicaragua/",
+      "note": "Disposición No. 002-2026 of the Ministerio del Interior / DGME (13 February 2026, in force 16 February 2026), TERCERO, lists these nationalities among the 128 that need a visa consultada (Category C); for AE, CN, MX, PE, RS and VE it applies to ordinary passports. New Zealand's SafeTravel independently says New Zealand passports need a visa from 16 February 2026. Read live on mint.gob.ni (migob.gob.ni now redirects there) through its Cloudflare check."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "nicaragua",
+      "path": "visaPolicy.byPassport.CU",
+      "field": "Entry requirement (Cuba)",
+      "old": "Visa-free (Category A), 90 days",
+      "new": "Consulted visa required (Category C), free of charge for ordinary passports",
+      "sourceUrl": "https://www.mint.gob.ni/migracion/disposicion-n-002-2026-cambio-de-categorias-migratorias-de-visa-para-ingresar-a-nicaragua/",
+      "note": "Disposición No. 001-2026 (8 February 2026) moved Cuban ordinary passports from Category A to Category C, 'visa consultada sin costo'; Disposición No. 002-2026 keeps Cuba in Category C."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "nicaragua",
+      "path": "visaPolicy.byPassport.AM,AZ,BF,BI,BJ,BT,BW,CF,CG,CI,CM,CV,DJ,EG,FJ,FM,GA,GE,GH,GM,GN,GQ,GW,HT,ID,IN,JO,KE,KG,KH,KI,KM,LA,LB,LR,LS,MA,MG,MH,ML,MN,MR,MU,MV,MW,MZ,NA,NE,NR,PG,PW,RW,SC,SL,SN,ST,SZ,TD,TG,TH,TJ,TL,TM,TN,TO,TV,TZ,UG,UZ,VN,VU,WS,ZM,ZW visaTypes",
+      "field": "Visa type (74 passports)",
+      "old": "Consular tourist visa (Category B)",
+      "new": "Consulted visa (Category C)",
+      "sourceUrl": "https://www.mint.gob.ni/migracion/disposicion-n-002-2026-cambio-de-categorias-migratorias-de-visa-para-ingresar-a-nicaragua/",
+      "note": "Disposición No. 002-2026 lists every one of these nationalities in Category C (TERCERO); for ID, IN and VN, ordinary passports. Nicaragua now has only two categories, A (visa-exempt) and C (visa consultada), as the DGME 'Visa de ingreso al país' page also states, so Category B and its consular visa no longer exist."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "nicaragua",
+      "path": "visaPolicy.byPassport.AO,DO,DZ,KZ,PH,PS,SB",
+      "field": "Entry requirement (AO, DO, DZ, KZ, PH, PS, SB)",
+      "old": "Consular visa required (Category B)",
+      "new": "Visa-free (Category A), USD 10 tourist card, 90 days",
+      "sourceUrl": "https://www.mint.gob.ni/migracion/disposicion-n-002-2026-cambio-de-categorias-migratorias-de-visa-para-ingresar-a-nicaragua/",
+      "note": "Disposición No. 002-2026, PRIMERO, lists Angola, Algeria, Kazakhstan, the Philippines, Palestine, the Dominican Republic and the Solomon Islands among the 69 nationalities that do not need a visa (Libre Visado). The 90-day stay is the tourist-card allowance already shown for every Category A passport; the disposition itself states no stay length."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "nicaragua",
+      "path": "visaPolicy.byPassport.TW,XK,SS",
+      "field": "Visa type (Taiwan, Kosovo, South Sudan)",
+      "old": "Consular visa (Category B) for TW and XK; consulted visa for SS",
+      "new": "Consulted visa (Category C)",
+      "sourceUrl": "https://www.mint.gob.ni/migracion/disposicion-n-002-2026-cambio-de-categorias-migratorias-de-visa-para-ingresar-a-nicaragua/",
+      "note": "None of the three is on either list in Disposición No. 002-2026, so none is visa-exempt; with Category B abolished the only visa route left is the Category C visa consultada. Requirement unchanged (visa needed)."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "nicaragua",
+      "path": "visaPolicy.byPassport.MO.notes",
+      "field": "Macao note",
+      "old": "Category A nationality, no visa needed",
+      "new": "Macao is named on neither list in Disposición 002-2026; confirm with a consulate",
+      "sourceUrl": "https://www.mint.gob.ni/migracion/disposicion-n-002-2026-cambio-de-categorias-migratorias-de-visa-para-ingresar-a-nicaragua/",
+      "note": "Requirement left visa-free: absence from the exemption list is silence, not a statement that a visa is needed. The row's 'Category A nationality' claim was dropped because the official Category A list names Hong Kong but not Macao."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "nicaragua",
+      "path": "visaPolicy.conditionalWaivers.us-visa",
+      "field": "US/Canada/Schengen visa waiver",
+      "old": "Holders of a valid US, Canadian or Schengen visa skip the consular (Category B) visa; not for the restricted category",
+      "new": "Removed",
+      "sourceUrl": "https://www.mint.gob.ni/migracion/disposicion-n-002-2026-cambio-de-categorias-migratorias-de-visa-para-ingresar-a-nicaragua/",
+      "note": "The waiver replaced the Category B consular visa and expressly excluded the restricted category. Disposición No. 002-2026 abolished Category B: every visa-required nationality is now Category C, to which the waiver never applied, and the disposition mentions no third-country-visa exemption."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "nicaragua",
+      "path": "visaTypes.consular-visa",
+      "field": "Consular Tourist Visa (Category B)",
+      "old": "Listed",
+      "new": "Removed",
+      "sourceUrl": "https://www.mint.gob.ni/migracion/tramites/visa-de-ingreso-al-pais/",
+      "note": "No nationality is in Category B since 16 February 2026; DGME's 'Visa de ingreso al país' page lists only Category A (exento de visa) and Category C (visa consultada)."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "nicaragua",
+      "path": "summary, faq.do-i-need-a-visa, faq.consulted-visa",
+      "field": "Summary and FAQ",
+      "old": "Three categories (A, B, C); New Zealand in Category A",
+      "new": "Two categories (A: 69 nationalities; C: 128) under Disposición 002-2026",
+      "sourceUrl": "https://www.mint.gob.ni/migracion/disposicion-n-002-2026-cambio-de-categorias-migratorias-de-visa-para-ingresar-a-nicaragua/",
+      "note": "Rewritten to the disposition's lists; the consulted-visa FAQ now gives the online and e-mail application routes (ministry press note of 8 February 2026) and the documents on the DGME 'Visa de ingreso al país' page."
+    },
+    {
+      "kind": "source-updated",
+      "date": "2026-10-03",
+      "destination": "nicaragua",
+      "oldUrl": "https://www.migob.gob.ni/",
+      "newUrl": "https://www.mint.gob.ni/migracion/disposicion-n-002-2026-cambio-de-categorias-migratorias-de-visa-para-ingresar-a-nicaragua/",
+      "reason": "visaPolicy.defaultSource pointed at the ministry's front page, which states no nationality and answered 403 to every reader. Disposición No. 002-2026 lists all 197 categorised nationalities (69 in Category A, 128 in Category C), covering 194 of our 199 rows; 18 consulted-visa rows that already matched (AF BD CD ER ET IQ IR KP LK LY MM NG NP PK SD SO SY YE) and 60 visa-free/CA-4 rows now cite it."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "nigeria",
+      "path": "visaPolicy.byPassport.CM, visaPolicy.byPassport.TD",
+      "field": "requirement, maxStayDays, visaTypes (CM, TD)",
+      "old": "evisa, 30 days, e-Visa tourism/business",
+      "new": "visa-free, stay not published",
+      "sourceUrl": "https://immigration.gov.ng/visa_class/visa-abolition-agreement/",
+      "note": "The Nigeria Immigration Service's Visa Abolition Agreement category (F1B) names its eligible nationals as 'Citizens of Cameroon & Chad' (captures Feb–Nov 2024; the page is now 404 after the site moved to info-center/). The live Tourism Visa (F5A) page still exempts 'ECOWAS member States and other countries which Nigeria has entered into visa abolition/waiver agreements', so the two read together. No stay length is stated, so maxStayDays is null."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "nigeria",
+      "path": "faq.need-visa.answer",
+      "field": "Visa FAQ",
+      "old": "Most travelers do. Since May 2025 short tourist and business visits are handled through Nigeria's official e-Visa, open to some 170+ nationalities including the US, UK, Canada and the EU, with decisions normally within 48 hours. ECOWAS citizens enter without a visa under the bloc's free-movement protocol, and a small number of nationalities must still apply at a Nigerian embassy.",
+      "new": "Most travelers do. Since May 2025 short tourist and business visits are handled through Nigeria's official e-Visa, open to some 170+ nationalities including the US, UK, Canada and the EU, with decisions normally within 48 hours. ECOWAS citizens enter without a visa under the bloc's free-movement protocol, as do citizens of Cameroon and Chad under visa-abolition agreements, and a small number of nationalities must still apply at a Nigerian embassy.",
+      "sourceUrl": "https://immigration.gov.ng/visa_class/visa-abolition-agreement/"
+    },
+    {
+      "kind": "source-updated",
+      "date": "2026-10-03",
+      "destination": "nigeria",
+      "oldUrl": "https://immigration.gov.ng/",
+      "newUrl": "https://immigration.gov.ng/info-center/tourism-visa-f5a/",
+      "reason": "The 182 e-Visa rows and 14 ECOWAS rows inherited the Immigration Service's front page, which states nothing per nationality. The Tourism Visa (F5A) page states eligibility as 'Citizens of all countries except ECOWAS member States and other countries which Nigeria has entered into visa abolition/waiver agreements' and a 30-day single-entry stay, so it now stands behind the inherited rows. All 182 e-Visa rows (30 days) match it; the ECOWAS rows match its exemption (their 90 days comes from the ECOWAS protocol, which the page does not restate)."
+    },
+    {
+      "kind": "source-updated",
+      "date": "2026-10-03",
+      "destination": "north-korea",
+      "oldUrl": "http://www.mfa.gov.kp/",
+      "newUrl": "https://www.gov.uk/foreign-travel-advice/north-korea/entry-requirements",
+      "reason": "visaPolicy.byPassport.GB inherited the foreign ministry's front page, which states no per-nationality rule. UK FCDO travel advice states the row ('You must have a visa to enter North Korea'); it matches, so the row now cites it (rank 5)."
+    },
+    {
+      "kind": "source-updated",
+      "date": "2026-10-03",
+      "destination": "north-korea",
+      "oldUrl": "http://www.mfa.gov.kp/",
+      "newUrl": "https://travel.gc.ca/destinations/north-korea",
+      "reason": "visaPolicy.byPassport.CA inherited the foreign ministry's front page, which states no per-nationality rule. Government of Canada travel advice states the row ('Canadians must have a visa to enter North Korea'); it matches, so the row now cites it (rank 5)."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "republic-of-the-congo",
+      "path": "visaPolicy.byPassport.RW",
+      "field": "Rwandan passport requirement",
+      "old": "embassy-visa",
+      "new": "visa-on-arrival (free of charge), 90 days",
+      "sourceUrl": "https://sgg.cg/JO/2023/congo-jo-2023-39.pdf",
+      "note": "Article 1(1) of the Congo–Rwanda agreement of 24 November 2021, published with ratification Law No. 24-2023 in Journal officiel No. 39-2023: ordinary-passport holders receive a free visa on entry valid for up to 90 days."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "republic-of-the-congo",
+      "path": "faq.need-visa.answer; faq.visa-on-arrival.answer",
+      "field": "Visa FAQs",
+      "old": "no visa on arrival; visa needed by all but CEMAC citizens",
+      "new": "Rwandans get a free visa on arrival; visas for all African nationals to be abolished from 1 January 2027 (announced)",
+      "sourceUrl": "https://sgg.cg/JO/2023/congo-jo-2023-39.pdf",
+      "note": "The 2027 announcement is recorded in the Council of Ministers report of 18 June 2026: https://sgg.cg/ccm/compte-rendu-conseil-des-ministres1-du18-juin-2026.pdf"
+    },
+    {
+      "kind": "source-updated",
+      "date": "2026-10-03",
+      "destination": "republic-of-the-congo",
+      "oldUrl": "https://www.gouvernement.cg/",
+      "newUrl": "https://sgg.cg/txts-droit-reg/CEMAC-Acte-2013-01-libre-circulation.pdf",
+      "reason": "The five CEMAC rows (CM, CF, TD, GQ, GA) inherited the government portal's front page. They now cite CEMAC Additional Act No. 01/13 of 25 June 2013 as published by Congo's Secrétariat Général du Gouvernement: Articles 1–2 grant visa-free movement on a national ID card or passport for up to 90 days. All five rows already matched."
+    },
+    {
+      "kind": "source-updated",
+      "date": "2026-10-03",
+      "destination": "syria",
+      "oldUrl": "https://www.mofaex.gov.sy/",
+      "newUrl": "https://travel.gc.ca/destinations/syria",
+      "reason": "148 non-Arab embassy-visa rows (AD AF AG AL AM AO AR AZ BA BB BD BF BG BI BJ BN BO BR BS BT BW BY BZ CD CF CG CI CL CM CO CR CU CV CY DM DO EC EE ER ET FJ FM GA GD GE GH GM GN GQ GT GW GY HK HN HR HT HU ID IN IS JM KE KG KH KI KN KP KZ LA LC LI LK LR LS LT LU LV MC MD ME MG MH MK ML MM MN MO MT MU MV MW MX MY MZ NA NE NG NI NP NR PA PE PG PH PK PW PY RO RS RW SB SC SG SI SK SL SM SN SR SS ST SV SZ TD TG TH TJ TL TM TO TT TV TW TZ UA UG UY UZ VA VC VE VN VU WS XK ZA ZM ZW) inherited the foreign ministry's front page, which states no nationality (its services cover passports and legalisation only). Canada's travel advice states the rule for the whole group: 'If you are a non-Arab national, you can't obtain a visa at border points of entry. You must obtain it from the nearest Embassy of the Syrian Arab Republic or one of its consulates prior to your departure.' The rows now cite it, as the 22 rows checked earlier already did; requirement unchanged. No Syrian per-nationality list is readable: the ministry confirmed to SANA on 29 April 2026 that entry still follows Decision No. 128 of 1 July 2025, but the decision's text is not published on any government site we could reach, and evisa.sy still shows 'EVisa Comming Soon' on 3 October 2026."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-03",
+      "destination": "syria",
+      "path": "visaPolicy.byPassport.GB.notes",
+      "field": "Syria eVisa status (UK row)",
+      "old": "eVisa website not yet taking applications when checked on 26 September 2026",
+      "new": "eVisa website not yet taking applications when checked on 3 October 2026",
+      "sourceUrl": "https://evisa.sy/",
+      "note": "evisa.sy re-read on 3 October 2026: its page title is still 'EVisa Comming Soon'."
     }
   ]
 }

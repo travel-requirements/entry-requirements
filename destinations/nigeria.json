@@ -20,7 +20,7 @@
   ],
   "summary": "Nigeria moved its short-visit visas fully online in May 2025: most nationalities now apply for an e-Visa (tourism or business) that is normally decided within about 48 hours, replacing the old visa-on-arrival scheme, while ECOWAS citizens continue to enter freely under the bloc's free-movement protocol.",
   "meta": {
-    "lastUpdated": "2026-09-27",
+    "lastUpdated": "2026-10-03",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -39,12 +39,10 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://immigration.gov.ng/",
-      "name": "Nigeria Immigration Service",
+      "url": "https://immigration.gov.ng/info-center/tourism-visa-f5a/",
+      "name": "Nigeria Immigration Service — Tourism Visa (F5A)",
       "type": "government",
-      "lastVerified": "2026-08-26",
-      "archiveUrl": "https://web.archive.org/web/20260820162502/https://immigration.gov.ng/",
-      "portalOnly": true
+      "lastVerified": "2026-10-03"
     },
     "byPassport": {
       "AF": {
@@ -306,13 +304,22 @@
         "notes": "Apply for the Nigeria e-Visa online before travel (launched May 2025, replacing visa on arrival) — decisions normally within 48 hours. A small number of nationalities must still apply through a Nigerian embassy; verify eligibility on the official portal."
       },
       "CM": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "evisa-tourist",
-          "evisa-business"
-        ],
-        "notes": "Apply for the Nigeria e-Visa online before travel (launched May 2025, replacing visa on arrival) — decisions normally within 48 hours. A small number of nationalities must still apply through a Nigerian embassy; verify eligibility on the official portal."
+        "requirement": "visa-free",
+        "maxStayDays": null,
+        "notes": "Citizens of Cameroon do not need a visa for Nigeria. The Nigeria Immigration Service lists Cameroon and Chad as its visa-abolition-agreement countries (category F1B), and its visa pages exempt those nationals along with ECOWAS citizens. No length of stay is published; confirm it with a Nigerian mission before a long visit.",
+        "source": {
+          "url": "https://immigration.gov.ng/visa_class/visa-abolition-agreement/",
+          "name": "Nigeria Immigration Service — Visa Abolition Agreement (F1B)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20241110093029/https://immigration.gov.ng/visa_class/visa-abolition-agreement/",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "gone",
+            "status": 404
+          }
+        }
       },
       "CA": {
         "requirement": "evisa",
@@ -333,13 +340,22 @@
         "notes": "Apply for the Nigeria e-Visa online before travel (launched May 2025, replacing visa on arrival) — decisions normally within 48 hours. A small number of nationalities must still apply through a Nigerian embassy; verify eligibility on the official portal."
       },
       "TD": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "evisa-tourist",
-          "evisa-business"
-        ],
-        "notes": "Apply for the Nigeria e-Visa online before travel (launched May 2025, replacing visa on arrival) — decisions normally within 48 hours. A small number of nationalities must still apply through a Nigerian embassy; verify eligibility on the official portal."
+        "requirement": "visa-free",
+        "maxStayDays": null,
+        "notes": "Citizens of Chad do not need a visa for Nigeria. The Nigeria Immigration Service lists Cameroon and Chad as its visa-abolition-agreement countries (category F1B), and its visa pages exempt those nationals along with ECOWAS citizens. No length of stay is published; confirm it with a Nigerian mission before a long visit.",
+        "source": {
+          "url": "https://immigration.gov.ng/visa_class/visa-abolition-agreement/",
+          "name": "Nigeria Immigration Service — Visa Abolition Agreement (F1B)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20241110093029/https://immigration.gov.ng/visa_class/visa-abolition-agreement/",
+          "unverifiable": {
+            "lastAttempt": "2026-10-03",
+            "reason": "gone",
+            "status": 404
+          }
+        }
       },
       "CL": {
         "requirement": "evisa",
@@ -2113,7 +2129,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Nigeria?",
-      "answer": "Most travelers do. Since May 2025 short tourist and business visits are handled through Nigeria's official e-Visa, open to some 170+ nationalities including the US, UK, Canada and the EU, with decisions normally within 48 hours. ECOWAS citizens enter without a visa under the bloc's free-movement protocol, and a small number of nationalities must still apply at a Nigerian embassy."
+      "answer": "Most travelers do. Since May 2025 short tourist and business visits are handled through Nigeria's official e-Visa, open to some 170+ nationalities including the US, UK, Canada and the EU, with decisions normally within 48 hours. ECOWAS citizens enter without a visa under the bloc's free-movement protocol, as do citizens of Cameroon and Chad under visa-abolition agreements, and a small number of nationalities must still apply at a Nigerian embassy."
     },
     {
       "id": "voa-gone",
