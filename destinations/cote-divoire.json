@@ -2079,10 +2079,18 @@
       "category": "tourist",
       "method": "embassy",
       "name": "Embassy visa",
-      "fee": null,
-      "processing": null,
-      "validityDays": null,
-      "stayDays": null,
+      "fee": {
+        "amount": 50,
+        "currency": "EUR",
+        "notes": "EUR 50 visa fee whatever the length of stay (1 day to 3 months), paid online in euros; the SNEDAI FAQ adds EUR 5 for the compulsory appointment and EUR 3 commission (EUR 58 in total). The biometric visa is collected 48 hours after enrolment."
+      },
+      "processing": {
+        "minDays": 2,
+        "maxDays": 2,
+        "unit": "calendar-days"
+      },
+      "validityDays": 90,
+      "stayDays": 90,
       "entries": "single",
       "extendable": {
         "possible": true,
@@ -2090,16 +2098,11 @@
       },
       "applyUrl": null,
       "source": {
-        "url": "https://snedai.com/",
-        "name": "SNEDAI — official Côte d'Ivoire e-visa service",
+        "url": "https://snedai.com/visaenambassade/",
+        "name": "SNEDAI — visa at an embassy (fees and validity)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260630080441/https://snedai.com/",
-        "portalOnly": true,
-        "unverifiable": {
-          "lastAttempt": "2026-10-03",
-          "reason": "not-stated"
-        }
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     }
   ],
