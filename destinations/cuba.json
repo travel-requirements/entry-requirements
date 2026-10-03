@@ -23,7 +23,7 @@
         "url": "https://cubaminrex.cu/es/procedimientos-para-los-tramites-consulares",
         "name": "Cuba — Ministry of Foreign Affairs (MINREX): procedures for consular services",
         "type": "government",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "lastChanged": "2026-09-26"
       }
     ],
@@ -36,7 +36,7 @@
       "url": "https://cubaminrex.cu/es/procedimientos-para-los-tramites-consulares",
       "name": "Cuba — Ministry of Foreign Affairs (MINREX): procedures for consular services",
       "type": "government",
-      "lastVerified": "2026-09-26",
+      "lastVerified": "2026-10-03",
       "lastChanged": "2026-09-26"
     },
     "byPassport": {
@@ -1965,12 +1965,8 @@
       "method": "embassy",
       "name": "Cuban tourist visa (consulate)",
       "fee": null,
-      "processing": {
-        "minDays": 5,
-        "maxDays": 20,
-        "unit": "business-days"
-      },
-      "validityDays": 180,
+      "processing": null,
+      "validityDays": null,
       "stayDays": 90,
       "entries": "single",
       "extendable": {
@@ -1982,8 +1978,8 @@
         "url": "https://cubaminrex.cu/es/procedimientos-para-los-tramites-consulares",
         "name": "Cuba — Ministry of Foreign Affairs (MINREX): procedures for consular services",
         "type": "government",
-        "lastVerified": "2026-09-26",
-        "lastChanged": "2026-09-26"
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     {
@@ -1992,11 +1988,7 @@
       "method": "exemption-extension",
       "name": "Extension of stay (prórroga)",
       "fee": null,
-      "processing": {
-        "minDays": 1,
-        "maxDays": 5,
-        "unit": "business-days"
-      },
+      "processing": null,
       "validityDays": null,
       "stayDays": 90,
       "entries": "single",
@@ -2009,8 +2001,8 @@
         "url": "https://cubaminrex.cu/es/procedimientos-para-los-tramites-consulares",
         "name": "Cuba — Ministry of Foreign Affairs (MINREX): procedures for consular services",
         "type": "government",
-        "lastVerified": "2026-09-26",
-        "lastChanged": "2026-09-26"
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     }
   ],
@@ -2047,12 +2039,14 @@
         "name": "Yellow fever",
         "certificate": "ICVP (yellow card)",
         "requiredWhen": "arriving-from-risk-country",
-        "text": "A yellow fever vaccination certificate is required from travelers aged one year and over arriving from — or having recently transited — a country with risk of yellow fever transmission. No vaccination is required if you fly in directly from Europe, North America or the rest of the Caribbean.",
+        "text": "A yellow fever vaccination certificate is required from travelers aged 9 months and over arriving from a country with risk of yellow fever transmission, including those who transited for more than 12 hours through an airport in such a country.",
         "source": {
-          "url": "https://www.gov.uk/foreign-travel-advice/cuba/entry-requirements",
-          "name": "UK Foreign, Commonwealth & Development Office — Cuba travel advice: entry requirements",
-          "type": "government",
-          "lastVerified": "2026-09-26"
+          "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf",
+          "name": "WHO, International Travel and Health, Annex 1 — countries requiring proof of vaccination against yellow fever",
+          "type": "igo",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03",
+          "instrument": "International Health Regulations (2005), Article 36 and Annex 7; WHO International Travel and Health, Annex 1, 18 November 2022 (revised 3 January 2023)"
         }
       }
     ],
@@ -2077,12 +2071,13 @@
     "onwardTicket": {
       "required": true,
       "appliesTo": "all",
-      "text": "A confirmed return or onward ticket is required, together with proof of accommodation. A hotel booking or the address and details of the casa particular you are staying in.",
+      "text": "You must show proof of onward or return travel.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/cuba/entry-requirements",
         "name": "UK Foreign, Commonwealth & Development Office — Cuba travel advice: entry requirements",
         "type": "government",
-        "lastVerified": "2026-09-26"
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "proofOfFunds": {
@@ -2120,7 +2115,7 @@
           "url": "https://www.gov.uk/foreign-travel-advice/cuba/entry-requirements",
           "name": "UK Foreign, Commonwealth & Development Office — Cuba travel advice: entry requirements",
           "type": "government",
-          "lastVerified": "2026-09-26"
+          "lastVerified": "2026-10-03"
         }
       }
     ],
@@ -2149,9 +2144,16 @@
       "symbol": "$"
     },
     "payments": {
-      "cardsAccepted": "limited",
+      "cardsAccepted": "rare",
       "cashImportance": "high",
-      "text": "Cuba runs on cash for visitors. Cards issued by US banks do not work at all, and other foreign cards are unreliable. Bring euros, Canadian dollars, pounds or US dollars in cash and change what you need. Some hotels and state shops take payment only by card in foreign currency, so carry both if you can."
+      "text": "Cuba runs on cash for visitors. Cuba's Central Bank has announced that international cards such as Visa and Mastercard are no longer accepted, and you cannot withdraw cash from ATMs with a foreign card; the other way to pay is a Cuban prepaid card. Bring enough US dollars or euros in cash for the whole stay and for emergencies, and change money only at official exchange points.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/cuba/safety-and-security",
+        "name": "UK FCDO — Cuba travel advice (safety and security: money)",
+        "type": "government",
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
+      }
     },
     "safety": {
       "level": "exercise-caution",
@@ -2160,7 +2162,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/cuba",
         "name": "UK Foreign, Commonwealth & Development Office — Cuba travel advice",
         "type": "government",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "lastChanged": "2026-09-26",
         "archiveUrl": "https://web.archive.org/web/20260728180542/https://www.gov.uk/foreign-travel-advice/cuba"
       }
@@ -2208,7 +2210,7 @@
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
           "type": "igo",
-          "lastVerified": "2026-09-26",
+          "lastVerified": "2026-10-03",
           "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
           "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
         }
@@ -2224,7 +2226,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
         "type": "igo",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }

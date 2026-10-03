@@ -3041,14 +3041,20 @@
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "valid-for-stay",
-      "text": "Your passport must be valid for the duration of your stay in Libya.",
+      "rule": "other",
+      "text": "Visa applicants need a passport valid for at least six months that entitles them to return to the country that issued it, according to the requirements Libya’s eVisa portal lists for every visa type (one year for study and joining-resident visas). The UK FCDO says only that the passport must be valid for the duration of your stay.",
       "source": {
-        "url": "https://www.gov.uk/foreign-travel-advice/libya/entry-requirements",
-        "name": "UK FCDO — Libya travel advice, entry requirements",
+        "url": "https://evisa.gov.ly/visa-types",
+        "name": "Libya eVisa portal (Passports, Nationality and Foreigners Affairs Authority) — visa type guides",
         "type": "government",
-        "lastVerified": "2026-09-26",
-        "lastChanged": "2026-09-26"
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03",
+        "conflict": {
+          "url": "https://www.gov.uk/foreign-travel-advice/libya/entry-requirements",
+          "name": "UK FCDO — Libya travel advice, entry requirements",
+          "states": "valid for the duration of your stay",
+          "resolvedBy": "hierarchy"
+        }
       }
     },
     "vaccinations": [],
@@ -3107,7 +3113,7 @@
           "url": "https://www.gov.uk/foreign-travel-advice/libya/entry-requirements",
           "name": "UK FCDO — Libya travel advice, entry requirements",
           "type": "government",
-          "lastVerified": "2026-09-26",
+          "lastVerified": "2026-10-03",
           "lastChanged": "2026-09-26"
         }
       },
@@ -3135,7 +3141,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/libya",
         "name": "UK Foreign, Commonwealth & Development Office — Libya travel advice",
         "type": "government",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "archiveUrl": "https://web.archive.org/web/20260730155453/https://www.gov.uk/foreign-travel-advice/libya",
         "lastChanged": "2026-09-26"
       }

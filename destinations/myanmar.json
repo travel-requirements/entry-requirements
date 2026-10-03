@@ -43,7 +43,7 @@
       "url": "https://evisa.moip.gov.mm/notice/tourist",
       "name": "Myanmar eVisa — Notice to Tourist (eligible nationalities and exemptions)",
       "type": "government",
-      "lastVerified": "2026-09-26",
+      "lastVerified": "2026-10-03",
       "lastChanged": "2026-09-26"
     },
     "byPassport": {
@@ -1642,7 +1642,7 @@
         "url": "https://evisa.moip.gov.mm/notice/tourist",
         "name": "Myanmar eVisa (Official Government)",
         "type": "government",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "archiveUrl": "https://web.archive.org/web/20260831101611/https://evisa.moip.gov.mm/notice/tourist",
         "lastChanged": "2026-09-26"
       }
@@ -1670,9 +1670,13 @@
         "url": "https://evisa.moip.gov.mm/notice/business",
         "name": "Ministry of Immigration and Population — Notice to Business Traveller",
         "type": "government",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "archiveUrl": "https://web.archive.org/web/20260831162300/https://evisa.moip.gov.mm/notice/business",
         "lastChanged": "2026-09-26"
+      },
+      "extendable": {
+        "possible": true,
+        "days": null
       }
     },
     {
@@ -1680,22 +1684,26 @@
       "category": "tourist",
       "method": "embassy",
       "name": "Tourist Visa (embassy)",
-      "fee": null,
+      "fee": {
+        "amount": 40,
+        "currency": "USD",
+        "notes": "Myanmar Foreign Ministry tariff for a tourist visa issued by an embassy; missions may charge the equivalent in local currency. The Embassy in Belgrade gives a validity of 3 months and no stay extension. The ministry lists a single tourist visa type (business, social and religious visas come in single and multiple-entry versions)."
+      },
       "processing": null,
-      "validityDays": null,
-      "stayDays": null,
+      "validityDays": 90,
+      "stayDays": 28,
       "entries": "single",
       "applyUrl": null,
       "source": {
-        "url": "https://evisa.moip.gov.mm/notice/tourist",
-        "name": "Myanmar eVisa — Notice to Tourist (Ministry of Immigration and Population)",
+        "url": "https://www.mofa.gov.mm/types-of-visa-fees-and-duration/",
+        "name": "Ministry of Foreign Affairs of Myanmar — Types of visa, fees and duration",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "portalOnly": true,
-        "unverifiable": {
-          "lastAttempt": "2026-10-03",
-          "reason": "not-stated"
-        }
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
+      },
+      "extendable": {
+        "possible": false,
+        "days": null
       }
     }
   ],
@@ -1707,7 +1715,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/myanmar/entry-requirements",
         "name": "UK Foreign, Commonwealth & Development Office — Myanmar entry requirements",
         "type": "government",
-        "lastVerified": "2026-09-26"
+        "lastVerified": "2026-10-03"
       }
     },
     "vaccinations": [
@@ -1721,7 +1729,7 @@
           "url": "https://www.gov.uk/foreign-travel-advice/myanmar/entry-requirements",
           "name": "UK Foreign, Commonwealth & Development Office — Myanmar entry requirements",
           "type": "government",
-          "lastVerified": "2026-09-26"
+          "lastVerified": "2026-10-03"
         }
       }
     ],
@@ -1750,7 +1758,7 @@
         "url": "https://evisa.moip.gov.mm/notice/tourist",
         "name": "Myanmar eVisa — Notice to Tourist",
         "type": "government",
-        "lastVerified": "2026-09-26"
+        "lastVerified": "2026-10-03"
       }
     },
     "proofOfFunds": {
@@ -1806,7 +1814,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/myanmar",
         "name": "UK FCDO — Myanmar travel advice",
         "type": "government",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "archiveUrl": "https://web.archive.org/web/20260806065056/https://www.gov.uk/foreign-travel-advice/myanmar"
       }
     },
@@ -1851,7 +1859,7 @@
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
           "type": "igo",
-          "lastVerified": "2026-09-26",
+          "lastVerified": "2026-10-03",
           "instrument": "Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
           "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
         }
@@ -1867,7 +1875,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
         "type": "igo",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "instrument": "Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }

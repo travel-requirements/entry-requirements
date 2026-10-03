@@ -622,18 +622,13 @@
       "HK": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free entry for up to 90 days within any 12-month period. The permitted stay is stamped on arrival.",
+        "notes": "Visa-free for up to 90 days, according to the Hong Kong SAR Immigration Department. Botswana's own eVisa portal does not list Hong Kong SAR passports either way.",
         "source": {
-          "url": "https://evisa.gov.bw/",
-          "name": "Botswana eVisa — official government portal",
+          "url": "https://www.immd.gov.hk/pdf/Visa-free%20Access%20or%20Visa-on-arrival%20for%20HKSAR%20passport%20list_Eng.pdf",
+          "name": "Hong Kong SAR Immigration Department — Visa-free access or visa-on-arrival for HKSAR passport holders (updated 15 September 2026)",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260728192316/https://evisa.gov.bw/",
-          "portalOnly": true,
-          "unverifiable": {
-            "lastAttempt": "2026-10-03",
-            "reason": "not-stated"
-          }
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
         }
       },
       "HU": {
@@ -1234,14 +1229,25 @@
         "notes": "Visa-free entry for up to 90 days within any 12-month period. The permitted stay is stamped on arrival."
       },
       "WS": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free entry for up to 90 days within any 12-month period. The permitted stay is stamped on arrival.",
+        "requirement": "evisa",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "tourist-evisa",
+          "embassy-tourist"
+        ],
+        "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival.",
         "source": {
           "url": "https://evisa.gov.bw/#/needvisa",
           "name": "Botswana eVisa — Do I Need a Visa? (list of countries that require a visa to enter Botswana, and visa checker)",
           "type": "government",
-          "lastVerified": "2026-10-03"
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03",
+          "conflict": {
+            "url": "https://evisa.gov.bw/bw-evisa-api/api/v1/dictionary/nationalities",
+            "name": "Botswana eVisa portal — nationality dictionary",
+            "states": "'Samoa' flagged VisaNotRequired Y (while 'Western Samoa' is N)",
+            "resolvedBy": "stricter"
+          }
         }
       },
       "SM": {
@@ -1451,7 +1457,13 @@
           "tourist-evisa",
           "embassy-tourist"
         ],
-        "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival."
+        "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival.",
+        "source": {
+          "url": "https://evisa.gov.bw/#/needvisa",
+          "name": "Botswana eVisa — Do I Need a Visa? (list of countries that require a visa to enter Botswana, and visa checker)",
+          "type": "government",
+          "lastVerified": "2026-10-03"
+        }
       },
       "TG": {
         "requirement": "evisa",
@@ -1664,7 +1676,7 @@
         "url": "https://www.gov.bw/visa-applications/visa-application-tourism-visa",
         "name": "Government of Botswana — Visa Application: Tourism Visa",
         "type": "government",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "lastChanged": "2026-09-26"
       }
     }
@@ -1764,14 +1776,15 @@
       "text": "Cards are widely accepted in Gaborone, Maun, Kasane and at lodges, and ATMs are common in towns. Carry pula cash for fuel stations, markets and remote areas, and small US dollar notes if crossing borders on safari."
     },
     "safety": {
-      "level": "very-safe",
-      "text": "Botswana is one of Africa’s safest and most stable countries. The main risks are practical: wildlife and livestock on unlit roads at night, long distances between fuel stops, and petty theft in urban areas.",
+      "level": "generally-safe",
+      "text": "Attacks on tourists are rare, but violent crime is increasing, particularly in Gaborone, Francistown and Maun, and there have been isolated thefts from lodges in the Chobe area. Outside the towns, stray wildlife and livestock make driving dangerous, especially after dark; carry water and fuel on trips to remote areas.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/botswana",
         "name": "UK Foreign, Commonwealth & Development Office — Botswana travel advice",
         "type": "government",
-        "lastVerified": "2026-09-26",
-        "archiveUrl": "https://web.archive.org/web/20260722081613/https://www.gov.uk/foreign-travel-advice/botswana"
+        "lastVerified": "2026-10-03",
+        "archiveUrl": "https://web.archive.org/web/20260722081613/https://www.gov.uk/foreign-travel-advice/botswana",
+        "lastChanged": "2026-10-03"
       }
     },
     "plugs": {
@@ -1817,7 +1830,7 @@
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
           "type": "igo",
-          "lastVerified": "2026-09-26",
+          "lastVerified": "2026-10-03",
           "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
         }
       },
@@ -1832,7 +1845,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
         "type": "igo",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
       }
     }

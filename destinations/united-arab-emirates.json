@@ -264,7 +264,7 @@
           "tourist-evisa-30",
           "tourist-evisa-60"
         ],
-        "notes": "Indian citizens holding a valid US visa, US green card, or UK/EU residence permit can instead get a 14-day visa on arrival (fee applies, extendable once). All other Indian passport holders need a pre-arranged tourist eVisa, usually sponsored by an airline or hotel."
+        "notes": "Indian citizens holding a valid US, EU or UK visa or residence permit, a US green card, or a residence permit from Japan, South Korea, Australia, Canada, Singapore or New Zealand can instead apply online for a 14-day visa (AED 100 plus AED 100 service fee, extendable once); Dubai’s GDRFA lists a 14-day visa on arrival for Indians with a US green card or visa or a UK/EU residence visa. All other Indian passport holders need a pre-arranged tourist eVisa, usually sponsored by an airline or hotel."
       },
       "JP": {
         "requirement": "visa-on-arrival",
@@ -305,7 +305,7 @@
           "tourist-evisa-30",
           "tourist-evisa-60"
         ],
-        "notes": "Pre-arranged tourist eVisa required, obtained through an airline, hotel or UAE-based sponsor before travel."
+        "notes": "Pre-arranged tourist eVisa required, obtained through an airline, hotel or UAE-based sponsor before travel. Holders of a valid US, EU or UK visa or residence permit, or a residence permit from Japan, South Korea, Australia, Canada, Singapore or New Zealand, can instead apply online to ICP for a 14-day visa (AED 100 plus AED 100 service fee, extendable once)."
       },
       "ID": {
         "requirement": "evisa",
@@ -314,7 +314,7 @@
           "tourist-evisa-30",
           "tourist-evisa-60"
         ],
-        "notes": "Pre-arranged tourist eVisa required, obtained through an airline, hotel or UAE-based sponsor before travel."
+        "notes": "Pre-arranged tourist eVisa required, obtained through an airline, hotel or UAE-based sponsor before travel. Holders of a valid US, EU or UK visa or residence permit, or a residence permit from Japan, South Korea, Australia, Canada, Singapore or New Zealand, can instead apply online to ICP for a 14-day visa (AED 100 plus AED 100 service fee, extendable once)."
       },
       "VN": {
         "requirement": "evisa",
@@ -323,7 +323,7 @@
           "tourist-evisa-30",
           "tourist-evisa-60"
         ],
-        "notes": "Pre-arranged tourist eVisa required, obtained through an airline, hotel or UAE-based sponsor before travel."
+        "notes": "Pre-arranged tourist eVisa required, obtained through an airline, hotel or UAE-based sponsor before travel. Holders of a valid US, EU or UK visa or residence permit, or a residence permit from Japan, South Korea, Australia, Canada, Singapore or New Zealand, can instead apply online to ICP for a 14-day visa (AED 100 plus AED 100 service fee, extendable once)."
       },
       "PK": {
         "requirement": "evisa",
@@ -350,7 +350,7 @@
           "tourist-evisa-30",
           "tourist-evisa-60"
         ],
-        "notes": "South African citizens must arrange a visa before travel. Dubai's tourism department lists 30- and 60-day tourist visas, single or multiple entry, applied for through an airline, a hotel, a licensed travel agent or a sponsor resident in the UAE.",
+        "notes": "South African citizens must arrange a visa before travel. Dubai's tourism department lists 30- and 60-day tourist visas, single or multiple entry, applied for through an airline, a hotel, a licensed travel agent or a sponsor resident in the UAE. Holders of a valid US, EU or UK visa or residence permit, or a residence permit from Japan, South Korea, Australia, Canada, Singapore or New Zealand, can instead apply online to ICP for a 14-day visa (AED 100 plus AED 100 service fee, extendable once).",
         "source": {
           "url": "https://www.visitdubai.com/en/plan-your-trip/visa-information",
           "name": "Dubai Department of Economy and Tourism (Visit Dubai) — visa requirements by nationality",
@@ -1089,7 +1089,7 @@
         "visaTypes": [
           "tourist-evisa-30"
         ],
-        "notes": "Pre-arranged tourist eVisa required, obtained through an airline, hotel or UAE-based sponsor before travel."
+        "notes": "Pre-arranged tourist eVisa required, obtained through an airline, hotel or UAE-based sponsor before travel. Holders of a valid US, EU or UK visa or residence permit, or a residence permit from Japan, South Korea, Australia, Canada, Singapore or New Zealand, can instead apply online to ICP for a 14-day visa (AED 100 plus AED 100 service fee, extendable once)."
       },
       "KI": {
         "requirement": "visa-on-arrival",
@@ -1759,7 +1759,7 @@
         "visaTypes": [
           "tourist-evisa-30"
         ],
-        "notes": "Pre-arranged tourist eVisa required, obtained through an airline, hotel or UAE-based sponsor before travel."
+        "notes": "Pre-arranged tourist eVisa required, obtained through an airline, hotel or UAE-based sponsor before travel. Holders of a valid US, EU or UK visa or residence permit, or a residence permit from Japan, South Korea, Australia, Canada, Singapore or New Zealand, can instead apply online to ICP for a 14-day visa (AED 100 plus AED 100 service fee, extendable once)."
       },
       "TL": {
         "requirement": "evisa",
@@ -1919,17 +1919,24 @@
     "conditionalWaivers": [
       {
         "id": "us-visa",
-        "requirement": "visa-on-arrival",
+        "requirement": "evisa",
         "maxStayDays": 14,
         "appliesTo": [
-          "IN"
+          "IN",
+          "KE",
+          "ID",
+          "VN",
+          "TH",
+          "PH",
+          "ZA"
         ],
-        "text": "Indian citizens holding a valid US visa or a US green card can obtain a 14-day visa on arrival in the UAE.",
+        "text": "Citizens of India, Kenya, Indonesia, Vietnam, Thailand, the Philippines and South Africa (ordinary passports), and their family members, can apply online to the federal ICP for a 14-day visa if they hold a valid visa or residence permit issued by the US, the EU or the UK, or a valid residence permit issued by Japan, South Korea, Australia, Canada, Singapore or New Zealand (Indians may also use a US green card). The visa must be used within 30 days of issue, allows 14 days from entry and can be extended once for the same period. Fees are AED 100 issuance plus AED 100 smart-services fee. Dubai’s GDRFA also offers Indian holders of a US green card or US visa, or a UK or EU residence visa, a 14-day visa that it lists as a visa on arrival.",
         "source": {
-          "url": "https://www.gdrfad.gov.ae/en/services/727c91b1-52eb-11ea-0320-0050569629e8",
-          "name": "GDRFA Dubai — visa on arrival for citizens of the Republic of India",
+          "url": "https://icp.gov.ae/en/services-details/?serviceid=68e3532c5ae59b0011738404",
+          "name": "ICP — Issuance of a 14-day visa for nationals of certain countries residing abroad (service card)",
           "type": "government",
-          "lastVerified": "2026-09-26"
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
         }
       },
       {
@@ -1942,7 +1949,7 @@
           "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/tourist-visa",
           "name": "UAE Government portal — tourist visa (eVisa for GCC residents)",
           "type": "government",
-          "lastVerified": "2026-09-26",
+          "lastVerified": "2026-10-03",
           "lastChanged": "2026-09-26"
         }
       }
@@ -2085,7 +2092,7 @@
         "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/transit-visa",
         "name": "UAE Government portal — transit visa",
         "type": "government",
-        "lastVerified": "2026-09-26"
+        "lastVerified": "2026-10-03"
       }
     }
   ],
@@ -2097,7 +2104,7 @@
         "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae",
         "name": "UAE Government portal — do you need an entry permit or a visa to enter the UAE?",
         "type": "government",
-        "lastVerified": "2026-09-26"
+        "lastVerified": "2026-10-03"
       }
     },
     "vaccinations": [
@@ -2111,7 +2118,7 @@
           "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf",
           "name": "WHO, International Travel and Health, Annex 1 — countries requiring proof of vaccination against yellow fever",
           "type": "igo",
-          "lastVerified": "2026-09-26",
+          "lastVerified": "2026-10-03",
           "instrument": "International Health Regulations (2005), Article 36 and Annex 7; WHO International Travel and Health, Annex 1, 18 November 2022 (revised 3 January 2023)",
           "lastChanged": "2026-08-27",
           "archiveUrl": "https://web.archive.org/web/20260301152802/https://cdn.who.int/media/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf"
@@ -2203,7 +2210,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
         "name": "UK Foreign, Commonwealth & Development Office — United Arab Emirates travel advice",
         "type": "government",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "archiveUrl": "https://web.archive.org/web/20260815125512/https://www.gov.uk/foreign-travel-advice/united-arab-emirates"
       }
     },
@@ -2247,7 +2254,7 @@
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
           "type": "igo",
-          "lastVerified": "2026-09-26",
+          "lastVerified": "2026-10-03",
           "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
           "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
         }
@@ -2263,7 +2270,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
         "type": "igo",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
@@ -2305,7 +2312,7 @@
     {
       "id": "india-rules",
       "question": "Can Indian citizens get a UAE visa on arrival?",
-      "answer": "Only if they hold a valid US visa, US green card, or UK/EU residence permit — that group can buy a 14-day visa on arrival, extendable once. All other Indian passport holders need a pre-arranged tourist eVisa (30 or 60 days), usually sponsored by an airline such as Emirates or Etihad, a hotel, or a UAE resident."
+      "answer": "Not as a rule. Indians holding a valid US, EU or UK visa or residence permit, a US green card, or a residence permit from Japan, South Korea, Australia, Canada, Singapore or New Zealand can get a 14-day visa (AED 100 plus AED 100 service fee, extendable once): the federal ICP issues it online before travel, and Dubai’s GDRFA also lists it as a visa on arrival for Indians with a US green card or visa or a UK/EU residence visa. All other Indian passport holders need a pre-arranged tourist eVisa (30 or 60 days), usually sponsored by an airline such as Emirates or Etihad, a hotel, or a UAE resident."
     },
     {
       "id": "evisa-cost",

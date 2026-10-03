@@ -337,7 +337,19 @@
         "visaTypes": [
           "visit-visa-sponsored"
         ],
-        "notes": "Not eligible for the eVisa or visa on arrival on nationality alone. Holders of a valid US, UK or Schengen tourist visa can apply for the eVisa online; otherwise a visit visa must be arranged in advance through a sponsor in Kuwait or a Kuwaiti embassy."
+        "notes": "Not eligible for the eVisa or visa on arrival on nationality alone. Holders of a valid US, UK or Schengen tourist visa can apply for the eVisa online; otherwise a visit visa must be arranged in advance through a sponsor in Kuwait or a Kuwaiti embassy.",
+        "source": {
+          "url": "https://kuwaitvisa.moi.gov.kw/",
+          "name": "Kuwait Ministry of Interior — Kuwait Visa platform (nationality eligibility check)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "conflict": {
+            "url": "https://kuwaitvisa.moi.gov.kw/assets/i18n/en.json",
+            "name": "Kuwait Visa platform — Tourist Visa Instructions text (site language file)",
+            "states": "lists China among \"Countries Eligible for E-Visa or Visa on Arrival\"",
+            "resolvedBy": "stricter"
+          }
+        }
       },
       "CO": {
         "requirement": "embassy-visa",
@@ -1313,7 +1325,19 @@
         "visaTypes": [
           "visit-visa-sponsored"
         ],
-        "notes": "Not eligible for the eVisa or visa on arrival on nationality alone. Holders of a valid US, UK or Schengen tourist visa can apply for the eVisa online; otherwise a visit visa must be arranged in advance through a sponsor in Kuwait or a Kuwaiti embassy."
+        "notes": "Not eligible for the eVisa or visa on arrival on nationality alone. Holders of a valid US, UK or Schengen tourist visa can apply for the eVisa online; otherwise a visit visa must be arranged in advance through a sponsor in Kuwait or a Kuwaiti embassy.",
+        "source": {
+          "url": "https://kuwaitvisa.moi.gov.kw/",
+          "name": "Kuwait Ministry of Interior — Kuwait Visa platform (nationality eligibility check)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "conflict": {
+            "url": "https://kuwaitvisa.moi.gov.kw/assets/i18n/en.json",
+            "name": "Kuwait Visa platform — Tourist Visa Instructions text (site language file)",
+            "states": "lists Serbia among \"Countries Eligible for E-Visa or Visa on Arrival\"",
+            "resolvedBy": "stricter"
+          }
+        }
       },
       "SC": {
         "requirement": "embassy-visa",
@@ -1839,7 +1863,7 @@
         "url": "https://kuwaitvisa.moi.gov.kw/",
         "name": "Kuwait Ministry of Interior — Kuwait Visa platform",
         "type": "government",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "lastChanged": "2026-09-26"
       }
     },
@@ -1851,7 +1875,7 @@
       "fee": {
         "amount": 3,
         "currency": "KWD",
-        "notes": "Payable at Kuwait International Airport for eligible nationalities — applying online in advance avoids lines."
+        "notes": "Payable at Kuwait International Airport for eligible nationalities."
       },
       "processing": null,
       "validityDays": null,
@@ -1898,7 +1922,7 @@
         "url": "https://kuwaitvisa.moi.gov.kw/",
         "name": "Kuwait Ministry of Interior — Kuwait Visa platform",
         "type": "government",
-        "lastVerified": "2026-09-26"
+        "lastVerified": "2026-10-03"
       }
     },
     "vaccinations": [],
@@ -1922,13 +1946,14 @@
     },
     "onwardTicket": {
       "required": true,
-      "appliesTo": "all",
-      "text": "Travelers entering on an eVisa or visa on arrival should hold a confirmed onward or return ticket; airlines may check before boarding.",
+      "appliesTo": "visa-applicants",
+      "text": "Tourist visa applicants, whether applying online or on arrival, need a confirmed round-trip flight ticket: the Ministry of Interior lists it among the required documents.",
       "source": {
         "url": "https://kuwaitvisa.moi.gov.kw/",
         "name": "Kuwait Ministry of Interior — Kuwait Visa platform",
         "type": "government",
-        "lastVerified": "2026-09-26"
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "proofOfFunds": {
@@ -1984,7 +2009,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/kuwait",
         "name": "UK Foreign, Commonwealth & Development Office — Kuwait travel advice",
         "type": "government",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "archiveUrl": "https://web.archive.org/web/20260814091933/https://www.gov.uk/foreign-travel-advice/kuwait",
         "lastChanged": "2026-09-26"
       }
@@ -2026,7 +2051,7 @@
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
           "type": "igo",
-          "lastVerified": "2026-09-26",
+          "lastVerified": "2026-10-03",
           "instrument": "Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
           "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
         }
@@ -2042,7 +2067,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
         "type": "igo",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "instrument": "Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }

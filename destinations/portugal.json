@@ -17,7 +17,7 @@
   ],
   "summary": "Portugal is part of the Schengen Area: EU and EFTA citizens enter freely, around 60 visa-exempt nationalities can stay 90 days in any 180-day period (the ETIAS travel authorization is not yet in operation), and everyone else needs a Schengen short-stay visa costing €90. Long-stay options include the D7 passive-income visa and the D8 digital nomad visa.",
   "meta": {
-    "lastUpdated": "2026-09-26",
+    "lastUpdated": "2026-10-03",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -33,14 +33,14 @@
         "url": "https://travel-europe.europa.eu/en/etias",
         "name": "ETIAS — Official European Union website",
         "type": "government",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "archiveUrl": "https://web.archive.org/web/20260823032240/https://travel-europe.europa.eu/en/etias"
       },
       {
         "url": "https://travel-europe.europa.eu/en/ees/how-does-the-ees-work",
         "name": "EES (Entry/Exit System) — Official European Union website",
         "type": "government",
-        "lastVerified": "2026-09-26"
+        "lastVerified": "2026-10-03"
       }
     ],
     "modules": [
@@ -1374,7 +1374,7 @@
         "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32018R1806",
         "name": "Regulation (EU) 2018/1806 listing the third countries whose nationals must hold a visa — EUR-Lex",
         "type": "igo",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "instrument": "Regulation (EU) 2018/1806, Article 4(1) — stays of no more than 90 days in any 180-day period",
         "archiveUrl": "https://web.archive.org/web/20260718045222/https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:32018R1806"
       }
@@ -1408,7 +1408,7 @@
         "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611",
         "name": "Visa Code (Regulation (EC) No 810/2009), consolidated text — EUR-Lex",
         "type": "igo",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "instrument": "Regulation (EC) No 810/2009 establishing a Community Code on Visas, Article 16(1) (visa fee) and Article 1(1) (stays not exceeding 90 days in any 180-day period), consolidated to 11 June 2024",
         "archiveUrl": "https://web.archive.org/web/20251008134447/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
       }
@@ -1424,103 +1424,7 @@
         "notes": "For stays over 90 days: work, study, family reunification and other residence purposes. Fee varies slightly by consulate and purpose."
       },
       "processing": {
-        "minDays": 30,
-        "maxDays": 90,
-        "unit": "calendar-days"
-      },
-      "validityDays": 120,
-      "stayDays": 120,
-      "entries": "double",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
-      "applyUrl": "https://vistos.mne.gov.pt/en/",
-      "source": {
-        "url": "https://files.diariodarepublica.pt/1s/2025/03/04800/0000900017.pdf",
-        "name": "Portaria n.º 91/2025/1, de 10 de março — tabela de emolumentos consulares",
-        "type": "government",
-        "lastVerified": "2026-09-26",
-        "instrument": "Portaria n.º 91/2025/1, Artigo 15.º n.º 4 do anexo à Portaria n.º 229/2021 — \"Pelos custos administrativos do tratamento de pedidos de visto nacionais — 110 euros\"",
-        "lastChanged": "2026-09-01"
-      }
-    },
-    {
-      "id": "d7",
-      "category": "retirement",
-      "method": "embassy",
-      "name": "D7 Visa (Passive Income / Retirees)",
-      "fee": {
-        "amount": 110,
-        "currency": "EUR",
-        "notes": "For retirees and holders of passive income (pensions, rents, dividends) of at least the Portuguese minimum wage (€920/month in 2026, updated annually)."
-      },
-      "processing": {
-        "minDays": 30,
-        "maxDays": 90,
-        "unit": "calendar-days"
-      },
-      "validityDays": 120,
-      "stayDays": 120,
-      "entries": "double",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
-      "applyUrl": "https://vistos.mne.gov.pt/en/",
-      "source": {
-        "url": "https://files.diariodarepublica.pt/1s/2025/03/04800/0000900017.pdf",
-        "name": "Portaria n.º 91/2025/1, de 10 de março — tabela de emolumentos consulares",
-        "type": "government",
-        "lastVerified": "2026-09-26",
-        "instrument": "Portaria n.º 91/2025/1, Artigo 15.º n.º 4 do anexo à Portaria n.º 229/2021 — \"Pelos custos administrativos do tratamento de pedidos de visto nacionais — 110 euros\"",
-        "lastChanged": "2026-09-26"
-      }
-    },
-    {
-      "id": "digital-nomad",
-      "category": "digital-nomad",
-      "method": "embassy",
-      "name": "D8 Digital Nomad Visa",
-      "fee": {
-        "amount": 110,
-        "currency": "EUR",
-        "notes": "For remote workers employed by non-Portuguese companies; income requirement of four times the Portuguese minimum wage (€3,680/month in 2026, updated annually)."
-      },
-      "processing": {
-        "minDays": 30,
-        "maxDays": 90,
-        "unit": "calendar-days"
-      },
-      "validityDays": 120,
-      "stayDays": 120,
-      "entries": "double",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
-      "applyUrl": "https://vistos.mne.gov.pt/en/",
-      "source": {
-        "url": "https://files.diariodarepublica.pt/1s/2025/03/04800/0000900017.pdf",
-        "name": "Portaria n.º 91/2025/1, de 10 de março — tabela de emolumentos consulares",
-        "type": "government",
-        "lastVerified": "2026-09-26",
-        "instrument": "Portaria n.º 91/2025/1, Artigo 15.º n.º 4 do anexo à Portaria n.º 229/2021 — \"Pelos custos administrativos do tratamento de pedidos de visto nacionais — 110 euros\"",
-        "lastChanged": "2026-09-26"
-      }
-    },
-    {
-      "id": "student",
-      "category": "student",
-      "method": "embassy",
-      "name": "Student Visa (Type D — Studies)",
-      "fee": {
-        "amount": 110,
-        "currency": "EUR",
-        "notes": "Required for courses longer than 90 days; needs proof of enrollment, funds and health insurance."
-      },
-      "processing": {
-        "minDays": 15,
+        "minDays": 0,
         "maxDays": 60,
         "unit": "calendar-days"
       },
@@ -1536,24 +1440,24 @@
         "url": "https://files.diariodarepublica.pt/1s/2025/03/04800/0000900017.pdf",
         "name": "Portaria n.º 91/2025/1, de 10 de março — tabela de emolumentos consulares",
         "type": "government",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "instrument": "Portaria n.º 91/2025/1, Artigo 15.º n.º 4 do anexo à Portaria n.º 229/2021 — \"Pelos custos administrativos do tratamento de pedidos de visto nacionais — 110 euros\"",
-        "lastChanged": "2026-09-01"
+        "lastChanged": "2026-10-03"
       }
     },
     {
-      "id": "work",
-      "category": "work",
+      "id": "d7",
+      "category": "retirement",
       "method": "embassy",
-      "name": "Work Visa (Type D — Employment)",
+      "name": "D7 Visa (Passive Income / Retirees)",
       "fee": {
         "amount": 110,
         "currency": "EUR",
-        "notes": "Requires an employment contract or promise of employment in Portugal before the visa application."
+        "notes": "For retirees and holders of passive income (pensions, rents, dividends) of at least the Portuguese minimum wage (€920/month in 2026, updated annually)."
       },
       "processing": {
-        "minDays": 30,
-        "maxDays": 90,
+        "minDays": 0,
+        "maxDays": 60,
         "unit": "calendar-days"
       },
       "validityDays": 120,
@@ -1568,9 +1472,105 @@
         "url": "https://files.diariodarepublica.pt/1s/2025/03/04800/0000900017.pdf",
         "name": "Portaria n.º 91/2025/1, de 10 de março — tabela de emolumentos consulares",
         "type": "government",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "instrument": "Portaria n.º 91/2025/1, Artigo 15.º n.º 4 do anexo à Portaria n.º 229/2021 — \"Pelos custos administrativos do tratamento de pedidos de visto nacionais — 110 euros\"",
-        "lastChanged": "2026-09-01"
+        "lastChanged": "2026-10-03"
+      }
+    },
+    {
+      "id": "digital-nomad",
+      "category": "digital-nomad",
+      "method": "embassy",
+      "name": "D8 Digital Nomad Visa",
+      "fee": {
+        "amount": 110,
+        "currency": "EUR",
+        "notes": "For remote workers employed by non-Portuguese companies; income requirement of four times the Portuguese minimum wage (€3,680/month in 2026, updated annually)."
+      },
+      "processing": {
+        "minDays": 0,
+        "maxDays": 60,
+        "unit": "calendar-days"
+      },
+      "validityDays": 120,
+      "stayDays": 120,
+      "entries": "double",
+      "extendable": {
+        "possible": true,
+        "days": null
+      },
+      "applyUrl": "https://vistos.mne.gov.pt/en/",
+      "source": {
+        "url": "https://files.diariodarepublica.pt/1s/2025/03/04800/0000900017.pdf",
+        "name": "Portaria n.º 91/2025/1, de 10 de março — tabela de emolumentos consulares",
+        "type": "government",
+        "lastVerified": "2026-10-03",
+        "instrument": "Portaria n.º 91/2025/1, Artigo 15.º n.º 4 do anexo à Portaria n.º 229/2021 — \"Pelos custos administrativos do tratamento de pedidos de visto nacionais — 110 euros\"",
+        "lastChanged": "2026-10-03"
+      }
+    },
+    {
+      "id": "student",
+      "category": "student",
+      "method": "embassy",
+      "name": "Student Visa (Type D — Studies)",
+      "fee": {
+        "amount": 110,
+        "currency": "EUR",
+        "notes": "Required for courses longer than 90 days; needs proof of enrollment, funds and health insurance."
+      },
+      "processing": {
+        "minDays": 0,
+        "maxDays": 60,
+        "unit": "calendar-days"
+      },
+      "validityDays": 120,
+      "stayDays": 120,
+      "entries": "double",
+      "extendable": {
+        "possible": true,
+        "days": null
+      },
+      "applyUrl": "https://vistos.mne.gov.pt/en/",
+      "source": {
+        "url": "https://files.diariodarepublica.pt/1s/2025/03/04800/0000900017.pdf",
+        "name": "Portaria n.º 91/2025/1, de 10 de março — tabela de emolumentos consulares",
+        "type": "government",
+        "lastVerified": "2026-10-03",
+        "instrument": "Portaria n.º 91/2025/1, Artigo 15.º n.º 4 do anexo à Portaria n.º 229/2021 — \"Pelos custos administrativos do tratamento de pedidos de visto nacionais — 110 euros\"",
+        "lastChanged": "2026-10-03"
+      }
+    },
+    {
+      "id": "work",
+      "category": "work",
+      "method": "embassy",
+      "name": "Work Visa (Type D — Employment)",
+      "fee": {
+        "amount": 110,
+        "currency": "EUR",
+        "notes": "Requires an employment contract or promise of employment in Portugal before the visa application."
+      },
+      "processing": {
+        "minDays": 0,
+        "maxDays": 60,
+        "unit": "calendar-days"
+      },
+      "validityDays": 120,
+      "stayDays": 120,
+      "entries": "double",
+      "extendable": {
+        "possible": true,
+        "days": null
+      },
+      "applyUrl": "https://vistos.mne.gov.pt/en/",
+      "source": {
+        "url": "https://files.diariodarepublica.pt/1s/2025/03/04800/0000900017.pdf",
+        "name": "Portaria n.º 91/2025/1, de 10 de março — tabela de emolumentos consulares",
+        "type": "government",
+        "lastVerified": "2026-10-03",
+        "instrument": "Portaria n.º 91/2025/1, Artigo 15.º n.º 4 do anexo à Portaria n.º 229/2021 — \"Pelos custos administrativos do tratamento de pedidos de visto nacionais — 110 euros\"",
+        "lastChanged": "2026-10-03"
       }
     }
   ],
@@ -1609,7 +1609,7 @@
         "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611",
         "name": "Visa Code (Regulation (EC) No 810/2009), consolidated text — EUR-Lex",
         "type": "igo",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "instrument": "Regulation (EC) No 810/2009 establishing a Community Code on Visas, Article 15(3) — travel medical insurance with minimum coverage of EUR 30 000",
         "archiveUrl": "https://web.archive.org/web/20251008134447/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
       }
@@ -1639,7 +1639,7 @@
         "url": "https://vistos.mne.gov.pt/en/short-stay-visas-schengen/required-documentation/means-of-subsistence",
         "name": "Portuguese MFA — Visa Portal: means of subsistence (short-stay visas)",
         "type": "government",
-        "lastVerified": "2026-09-26"
+        "lastVerified": "2026-10-03"
       }
     },
     "declarations": [
@@ -1654,12 +1654,13 @@
         "submitAt": "on-arrival",
         "submitWindow": "At the border on first entry",
         "url": "https://travel-europe.europa.eu/en/ees",
-        "text": "Non-EU travelers are registered biometrically (fingerprints and photo) in the EU Entry/Exit System at Schengen external borders. Registration happens at the border. There is nothing to submit in advance, but allow extra time on your first entry.",
+        "text": "Non-EU travelers are registered biometrically (fingerprints and photo) in the EU Entry/Exit System at Schengen external borders. Registration happens at the border. There is no mandatory advance step (where a self-service kiosk or a national app is offered, some data can be pre-registered to speed things up), but allow extra time on your first entry.",
         "source": {
           "url": "https://travel-europe.europa.eu/en/ees/how-does-the-ees-work",
           "name": "EES — Official EU website",
           "type": "government",
-          "lastVerified": "2026-09-26"
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
         }
       },
       {
@@ -1679,7 +1680,7 @@
           "url": "https://travel-europe.europa.eu/en/etias",
           "name": "ETIAS — Official EU website",
           "type": "government",
-          "lastVerified": "2026-09-26",
+          "lastVerified": "2026-10-03",
           "archiveUrl": "https://web.archive.org/web/20260823032240/https://travel-europe.europa.eu/en/etias",
           "lastChanged": "2026-09-26"
         }
@@ -1692,7 +1693,7 @@
           "url": "https://europa.eu/youreurope/citizens/travel/carry/carrying-cash/index_en.htm",
           "name": "Your Europe (EU) — travelling with cash",
           "type": "government",
-          "lastVerified": "2026-09-26",
+          "lastVerified": "2026-10-03",
           "archiveUrl": "https://web.archive.org/web/20260808103015/https://europa.eu/youreurope/citizens/travel/carry/carrying-cash/index_en.htm"
         }
       },
@@ -1720,7 +1721,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/portugal",
         "name": "UK Foreign, Commonwealth & Development Office — Portugal travel advice",
         "type": "government",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "archiveUrl": "https://web.archive.org/web/20260812055358/https://www.gov.uk/foreign-travel-advice/portugal"
       }
     },
@@ -1763,7 +1764,7 @@
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
           "type": "igo",
-          "lastVerified": "2026-09-26",
+          "lastVerified": "2026-10-03",
           "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
           "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
         }
@@ -1779,7 +1780,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
         "type": "igo",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }

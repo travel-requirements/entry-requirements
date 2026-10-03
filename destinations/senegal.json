@@ -19,7 +19,7 @@
     "ghana",
     "morocco"
   ],
-  "summary": "Senegal is one of West Africa’s easier doors: ECOWAS citizens move freely, and a list including the EU, UK, US, Canada, India, Japan and much of Africa enters visa-free for up to 90 days. Everyone else needs a visa from a Senegalese embassy or consulate before travel — the Foreign Ministry and its consulates describe no visa on arrival.",
+  "summary": "Senegal is one of West Africa’s easier doors: ECOWAS citizens move freely, and a list including the EU (except Ireland), UK, US, Canada, India, Japan and much of Africa enters visa-free for up to 90 days. Everyone else needs a visa from a Senegalese embassy or consulate before travel — the Foreign Ministry and its consulates describe no visa on arrival.",
   "meta": {
     "lastUpdated": "2026-10-03",
     "lastFullReview": "2026-09-26",
@@ -377,9 +377,16 @@
         "notes": "Visa-free for stays of up to 90 days."
       },
       "BF": {
-        "requirement": "freedom-of-movement",
+        "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter Senegal freely under the bloc's free-movement protocol — up to 90 days."
+        "notes": "Burkina Faso left ECOWAS in January 2025, but Senegal's Foreign Ministry names it on its list of African countries whose nationals need no visa for stays of under 3 months — enter with a passport valid for at least 6 months.",
+        "source": {
+          "url": "https://www.diplomatie.gouv.sn/visiter-le-senegal",
+          "name": "Ministry of Foreign Affairs of Senegal — Visiter le Sénégal (visa exemptions)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "BI": {
         "requirement": "embassy-visa",
@@ -964,14 +971,24 @@
         }
       },
       "IE": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free for stays of up to 90 days.",
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "embassy-tourist"
+        ],
+        "notes": "Senegal's Foreign Ministry does not name Ireland on its visa-exemption list — every other EU state except Ireland is on it — and says nationals of countries not listed need a visa. Ireland's Department of Foreign Affairs advises that Irish citizens can enter without a visa for up to 90 days. The two governments disagree; Senegal's own rule is shown here. Confirm with a Senegalese embassy before travel.",
         "source": {
-          "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/senegal/",
-          "name": "Ireland Department of Foreign Affairs — Senegal travel advice",
+          "url": "https://www.diplomatie.gouv.sn/visiter-le-senegal",
+          "name": "Ministry of Foreign Affairs of Senegal — Visiter le Sénégal (visa exemptions)",
           "type": "government",
-          "lastVerified": "2026-10-03"
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03",
+          "conflict": {
+            "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/senegal/",
+            "name": "Ireland Department of Foreign Affairs — Senegal travel advice (updated 8 April 2026)",
+            "states": "Irish citizens can enter Senegal without a visa for up to 90 days",
+            "resolvedBy": "hierarchy"
+          }
         }
       },
       "IL": {
@@ -1270,9 +1287,16 @@
         }
       },
       "ML": {
-        "requirement": "freedom-of-movement",
+        "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter Senegal freely under the bloc's free-movement protocol — up to 90 days."
+        "notes": "Mali left ECOWAS in January 2025, but Senegal's Foreign Ministry names it on its list of African countries whose nationals need no visa for stays of under 3 months — enter with a passport valid for at least 6 months.",
+        "source": {
+          "url": "https://www.diplomatie.gouv.sn/visiter-le-senegal",
+          "name": "Ministry of Foreign Affairs of Senegal — Visiter le Sénégal (visa exemptions)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "MT": {
         "requirement": "visa-free",
@@ -1502,9 +1526,16 @@
         }
       },
       "NE": {
-        "requirement": "freedom-of-movement",
+        "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter Senegal freely under the bloc's free-movement protocol — up to 90 days."
+        "notes": "Niger left ECOWAS in January 2025, but Senegal's Foreign Ministry names it on its list of African countries whose nationals need no visa for stays of under 3 months — enter with a passport valid for at least 6 months.",
+        "source": {
+          "url": "https://www.diplomatie.gouv.sn/visiter-le-senegal",
+          "name": "Ministry of Foreign Affairs of Senegal — Visiter le Sénégal (visa exemptions)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "NG": {
         "requirement": "freedom-of-movement",
@@ -2417,7 +2448,7 @@
         "url": "https://www.diplomatie.gouv.sn/visiter-le-senegal",
         "name": "Ministry of Foreign Affairs of Senegal — Visiter le Sénégal (visa exemptions)",
         "type": "government",
-        "lastVerified": "2026-09-26"
+        "lastVerified": "2026-10-03"
       }
     },
     "vaccinations": [
@@ -2426,12 +2457,13 @@
         "name": "Yellow fever",
         "certificate": "International Certificate of Vaccination (yellow card)",
         "requiredWhen": "arriving-from-risk-country",
-        "text": "A yellow fever certificate is required when arriving from a country with risk of yellow fever transmission, and the vaccine is recommended for all travelers to Senegal. Carry your yellow card, especially on overland routes.",
+        "text": "A yellow fever vaccination certificate is required if you arrive from a country listed as a transmission risk, including if you only transited through an airport in such a country. Babies aged 9 months and under are exempt.",
         "source": {
           "url": "https://www.gov.uk/foreign-travel-advice/senegal/entry-requirements",
           "name": "UK FCDO — Senegal travel advice (entry requirements)",
           "type": "government",
-          "lastVerified": "2026-09-26"
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
         }
       }
     ],
@@ -2461,7 +2493,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/senegal/entry-requirements",
         "name": "UK FCDO — Senegal travel advice (entry requirements)",
         "type": "government",
-        "lastVerified": "2026-09-26"
+        "lastVerified": "2026-10-03"
       }
     },
     "proofOfFunds": {
@@ -2513,13 +2545,13 @@
     },
     "safety": {
       "level": "generally-safe",
-      "text": "Senegal is one of West Africa's most stable democracies and most visits are trouble-free. Watch for pickpocketing and bag-snatching on Dakar's corniche and in markets, and take advice before traveling to parts of the Casamance near the Gambia and Guinea-Bissau borders, where residual caution applies off the main routes.",
+      "text": "Robbery, burglary and assault have become more common in Dakar, sometimes with weapons — hotels used by foreigners have been robbed at gunpoint — and pickpocketing and bag-snatching are increasing. Take care after nightfall, avoid walking alone, and pre-arrange your airport transfer, as bogus taxi drivers target arrivals. The FCDO does not advise against travel to any part of Senegal.",
       "source": {
-        "url": "https://www.gov.uk/foreign-travel-advice/senegal",
-        "name": "UK Foreign, Commonwealth & Development Office — Senegal travel advice",
+        "url": "https://www.gov.uk/foreign-travel-advice/senegal/safety-and-security",
+        "name": "UK Foreign, Commonwealth & Development Office — Senegal travel advice: safety and security",
         "type": "government",
-        "lastVerified": "2026-09-26",
-        "archiveUrl": "https://web.archive.org/web/20260606035721/https://www.gov.uk/foreign-travel-advice/senegal"
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     "plugs": {
@@ -2566,7 +2598,7 @@
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
           "type": "igo",
-          "lastVerified": "2026-09-26",
+          "lastVerified": "2026-10-03",
           "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
           "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
         }
@@ -2582,7 +2614,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
         "type": "igo",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
@@ -2619,7 +2651,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Senegal?",
-      "answer": "Many travelers don’t. ECOWAS citizens enter freely, and passport holders from the EU, UK, US, Canada, India, Japan and a list of African and other states get up to 90 days visa-free. Everyone else must obtain a visa from a Senegalese embassy or consulate before travel; Senegal’s Foreign Ministry and consulate describe no visa on arrival."
+      "answer": "Many travelers don’t. ECOWAS citizens enter freely, and passport holders from the EU (except Ireland), UK, US, Canada, India, Japan and a list of African and other states get up to 90 days visa-free. Everyone else must obtain a visa from a Senegalese embassy or consulate before travel; Senegal’s Foreign Ministry and consulate describe no visa on arrival."
     },
     {
       "id": "how-long-stay",
@@ -2634,12 +2666,12 @@
     {
       "id": "yellow-fever",
       "question": "Do I need a yellow fever vaccination for Senegal?",
-      "answer": "A certificate is mandatory only if you arrive from a country with yellow fever risk, but that covers most of Senegal's neighbors, and the vaccine is recommended for all visitors, so carry your yellow card."
+      "answer": "A certificate is required only if you arrive from a country listed as a yellow fever transmission risk — including if you only transited through an airport there — and babies aged 9 months and under are exempt. Because Senegal itself has yellow fever risk, some other countries may ask for the certificate on your onward trip."
     },
     {
       "id": "is-it-safe",
       "question": "Is Senegal safe for tourists?",
-      "answer": "Broadly yes — it's among West Africa's most stable countries and the tourist circuit (Dakar, Saly, Saint-Louis, Sine-Saloum) is well traveled. The main annoyances are petty theft and scams in Dakar; parts of the Casamance borderlands call for extra care."
+      "answer": "The FCDO does not advise against travel to any part of Senegal, but robbery, burglary and assault — sometimes armed — have become more common in Dakar, including hold-ups at hotels used by foreigners, and pickpocketing and bag-snatching are rising. Take care after dark and pre-arrange airport transfers."
     }
   ]
 }

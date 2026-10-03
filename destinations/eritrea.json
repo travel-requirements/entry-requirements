@@ -1692,12 +1692,29 @@
   "entryRequirements": {
     "passportValidity": {
       "rule": "6-months-on-arrival",
-      "text": "Your passport should be valid for at least 6 months on arrival in Eritrea and have blank pages for the visa and stamps.",
+      "text": "Your passport should be valid for at least 6 months on arrival in Eritrea. The Eritrean embassy asks for at least three blank pages for the visa.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/eritrea/entry-requirements",
         "name": "UK FCDO — Eritrea travel advice, entry requirements",
         "type": "government",
-        "lastVerified": "2026-09-26"
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
+      }
+    },
+    "blankPages": {
+      "count": 3,
+      "source": {
+        "url": "https://home.eritreaembassy.ch/our-services/visa-and-travel-services",
+        "name": "Embassy of the State of Eritrea in Switzerland — Visa and travel services",
+        "type": "government",
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03",
+        "conflict": {
+          "url": "https://www.gov.uk/foreign-travel-advice/eritrea/entry-requirements",
+          "name": "UK FCDO — Eritrea travel advice, entry requirements",
+          "states": "at least 2 blank consecutive pages for stamping",
+          "resolvedBy": "hierarchy"
+        }
       }
     },
     "vaccinations": [
@@ -1711,7 +1728,7 @@
           "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf",
           "name": "WHO, International Travel and Health, Annex 1 — countries requiring proof of vaccination against yellow fever",
           "type": "igo",
-          "lastVerified": "2026-09-26",
+          "lastVerified": "2026-10-03",
           "instrument": "International Health Regulations (2005), Article 36 and Annex 7; WHO International Travel and Health, Annex 1, 18 November 2022 (revised 3 January 2023)",
           "archiveUrl": "https://web.archive.org/web/20260301152802/https://cdn.who.int/media/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf"
         }
@@ -1763,7 +1780,7 @@
           "url": "https://www.gov.uk/foreign-travel-advice/eritrea/entry-requirements",
           "name": "UK FCDO — Eritrea travel advice, entry requirements",
           "type": "government",
-          "lastVerified": "2026-09-26",
+          "lastVerified": "2026-10-03",
           "lastChanged": "2026-09-26"
         }
       },
@@ -1786,13 +1803,14 @@
     },
     "safety": {
       "level": "high-risk",
-      "text": "Day-to-day street crime in Asmara is low, but Eritrea is a tightly controlled state where several governments advise heightened caution or against non-essential travel: movement outside the capital requires permits, border areas with Ethiopia and Djibouti are militarised with landmine risks, communications are restricted and consular assistance is extremely limited.",
+      "text": "Asmara is a relatively safe city, though there is a risk of street crime, especially at night. The UK advises against all travel within 25 km of Eritrea's land borders, where there are landmines; foreign nationals need a permit to travel outside the Asmara region, and consular assistance is severely limited.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/eritrea",
         "name": "UK Foreign, Commonwealth & Development Office — Eritrea travel advice",
         "type": "government",
-        "lastVerified": "2026-09-26",
-        "archiveUrl": "https://web.archive.org/web/20260824130849/https://www.gov.uk/foreign-travel-advice/eritrea"
+        "lastVerified": "2026-10-03",
+        "archiveUrl": "https://web.archive.org/web/20260824130849/https://www.gov.uk/foreign-travel-advice/eritrea",
+        "lastChanged": "2026-10-03"
       }
     },
     "plugs": {
@@ -1877,7 +1895,7 @@
     {
       "id": "is-eritrea-safe",
       "question": "Is Eritrea safe to visit?",
-      "answer": "Street crime in Asmara is rare, but the wider picture demands caution: several governments advise against non-essential travel, border zones are militarised with landmine risks, movement is controlled by permits, communications are restricted and consular help is extremely limited. Travel with a reputable operator and follow the rules precisely."
+      "answer": "Asmara is a relatively safe city, though there is a risk of street crime at night, but the wider picture demands caution: the UK advises against all travel within 25 km of the land borders, where there are landmines, movement outside the Asmara region needs a permit, international SIM cards do not work, and consular help is severely limited. Travel with a reputable operator and follow the rules precisely."
     }
   ]
 }

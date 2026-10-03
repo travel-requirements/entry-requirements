@@ -293,9 +293,16 @@
         "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 60 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "BF": {
-        "requirement": "freedom-of-movement",
+        "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
+        "notes": "Burkina Faso, Mali and Niger left ECOWAS in January 2025, but Ghana Immigration Service treats citizens of the Alliance of Sahel States (AES) like ECOWAS citizens: no visa or ETA is needed — up to 90 days with a valid passport.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/",
+          "name": "Ghana Immigration Service — eVisa portal (eligibility checker)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "BI": {
         "requirement": "eta",
@@ -1011,9 +1018,16 @@
         "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 60 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "ML": {
-        "requirement": "freedom-of-movement",
+        "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
+        "notes": "Burkina Faso, Mali and Niger left ECOWAS in January 2025, but Ghana Immigration Service treats citizens of the Alliance of Sahel States (AES) like ECOWAS citizens: no visa or ETA is needed — up to 90 days with a valid passport.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/",
+          "name": "Ghana Immigration Service — eVisa portal (eligibility checker)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "MT": {
         "requirement": "evisa",
@@ -1196,9 +1210,16 @@
         "notes": "Visa required. Apply online for a Ghana eVisa (USD 260, up to 60 days, valid 90 days from issue) on the Ghana Immigration Service portal, or for a visa at a Ghanaian embassy or high commission."
       },
       "NE": {
-        "requirement": "freedom-of-movement",
+        "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
+        "notes": "Burkina Faso, Mali and Niger left ECOWAS in January 2025, but Ghana Immigration Service treats citizens of the Alliance of Sahel States (AES) like ECOWAS citizens: no visa or ETA is needed — up to 90 days with a valid passport.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/",
+          "name": "Ghana Immigration Service — eVisa portal (eligibility checker)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "NG": {
         "requirement": "freedom-of-movement",
@@ -1890,7 +1911,7 @@
         "url": "https://evisa.immigration.gov.gh/",
         "name": "Ghana Immigration Service — eVisa portal",
         "type": "government",
-        "lastVerified": "2026-09-27",
+        "lastVerified": "2026-10-03",
         "lastChanged": "2026-09-27"
       }
     },
@@ -1917,7 +1938,7 @@
         "url": "https://evisa.immigration.gov.gh/",
         "name": "Ghana Immigration Service — eVisa portal",
         "type": "government",
-        "lastVerified": "2026-09-27",
+        "lastVerified": "2026-10-03",
         "lastChanged": "2026-09-27"
       }
     },
@@ -1926,7 +1947,11 @@
       "category": "tourist",
       "method": "eta",
       "name": "African Union ETA",
-      "fee": null,
+      "fee": {
+        "amount": 0,
+        "currency": "USD",
+        "notes": "Free: the portal's eligibility check returns a fee of 0."
+      },
       "processing": null,
       "validityDays": 90,
       "stayDays": null,
@@ -1945,7 +1970,11 @@
       "category": "tourist",
       "method": "eta",
       "name": "Caribbean ETA",
-      "fee": null,
+      "fee": {
+        "amount": 0,
+        "currency": "USD",
+        "notes": "Free: the portal's eligibility check returns a fee of 0."
+      },
       "processing": null,
       "validityDays": 90,
       "stayDays": null,
@@ -1955,8 +1984,8 @@
         "url": "https://evisa.immigration.gov.gh/",
         "name": "Ghana Immigration Service — eVisa portal (eligibility checker)",
         "type": "government",
-        "lastVerified": "2026-09-26",
-        "lastChanged": "2026-09-26"
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     {
@@ -1964,7 +1993,11 @@
       "category": "tourist",
       "method": "eta",
       "name": "Asia ETA",
-      "fee": null,
+      "fee": {
+        "amount": 0,
+        "currency": "USD",
+        "notes": "Free: the portal's eligibility check returns a fee of 0."
+      },
       "processing": null,
       "validityDays": 90,
       "stayDays": null,
@@ -1974,8 +2007,8 @@
         "url": "https://evisa.immigration.gov.gh/",
         "name": "Ghana Immigration Service — eVisa portal (eligibility checker)",
         "type": "government",
-        "lastVerified": "2026-09-26",
-        "lastChanged": "2026-09-26"
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     {
@@ -1988,11 +2021,7 @@
         "currency": "USD",
         "notes": "USD 60 for a single-entry visa at the Embassy in Washington (USD 100 expedited; multiple entry USD 100). The High Commission in London charges GBP 60. Other missions publish their own fees."
       },
-      "processing": {
-        "minDays": 5,
-        "maxDays": 15,
-        "unit": "business-days"
-      },
+      "processing": null,
       "validityDays": 90,
       "stayDays": 60,
       "entries": "single",
@@ -2005,12 +2034,8 @@
         "url": "https://washington.mfa.gov.gh/services/consular-fees",
         "name": "Embassy of Ghana, Washington DC — Consular fees",
         "type": "government",
-        "lastVerified": "2026-10-02",
-        "lastChanged": "2026-10-02",
-        "unverifiable": {
-          "lastAttempt": "2026-10-02",
-          "reason": "client-rendered"
-        }
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
       }
     },
     {
@@ -2046,10 +2071,10 @@
       "rule": "6-months-beyond-stay",
       "text": "Your passport should be valid for at least 6 months beyond your intended stay in Ghana.",
       "source": {
-        "url": "https://evisa.immigration.gov.gh/visa-requirements",
-        "name": "Ghana Immigration Service — eVisa portal, Visa Requirements",
+        "url": "https://evisa.immigration.gov.gh/applicant-guide.html",
+        "name": "Ghana Immigration Service — eVisa Applicant Guide",
         "type": "government",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "lastChanged": "2026-09-26"
       }
     },
@@ -2059,12 +2084,13 @@
         "name": "Yellow fever",
         "certificate": "International Certificate of Vaccination (yellow card)",
         "requiredWhen": "always",
-        "text": "Proof of yellow fever vaccination is required of all travelers aged 9 months and over and is routinely checked on arrival at Kotoka International Airport.",
+        "text": "A valid yellow fever vaccination certificate is required for entry into Ghana and may be checked at the port of entry. Travelers without one may be referred to airport health officials, including for vaccination.",
         "source": {
-          "url": "https://evisa.immigration.gov.gh/visa-requirements",
-          "name": "Ghana Immigration Service — eVisa portal, Visa Requirements",
+          "url": "https://evisa.immigration.gov.gh/applicant-guide.html",
+          "name": "Ghana Immigration Service — eVisa Applicant Guide",
           "type": "government",
-          "lastVerified": "2026-09-26"
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
         }
       }
     ],
@@ -2088,7 +2114,7 @@
         "url": "https://evisa.immigration.gov.gh/applicant-guide.html",
         "name": "Ghana Immigration Service — eVisa Applicant Guide",
         "type": "government",
-        "lastVerified": "2026-10-02",
+        "lastVerified": "2026-10-03",
         "lastChanged": "2026-10-02"
       }
     },
@@ -2101,7 +2127,7 @@
         "url": "https://evisa.immigration.gov.gh/applicant-guide.html",
         "name": "Ghana Immigration Service — eVisa Applicant Guide",
         "type": "government",
-        "lastVerified": "2026-10-02",
+        "lastVerified": "2026-10-03",
         "lastChanged": "2026-10-02"
       }
     },
@@ -2120,6 +2146,16 @@
       "notes": [
         "Drones may not be brought into Ghana without prior authorization from the civil aviation authority — undeclared drones are held at the airport."
       ]
+    },
+    "blankPages": {
+      "count": 3,
+      "source": {
+        "url": "https://evisa.immigration.gov.gh/applicant-guide.html",
+        "name": "Ghana Immigration Service — eVisa Applicant Guide",
+        "type": "government",
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
+      }
     }
   },
   "countryFacts": {
@@ -2135,13 +2171,14 @@
     },
     "safety": {
       "level": "generally-safe",
-      "text": "Ghana is one of West Africa's most stable countries. Petty theft and street scams occur in Accra, and the far-northern border areas adjoining Burkina Faso call for extra caution because of regional insecurity.",
+      "text": "Ghana is one of West Africa's most stable countries. Petty theft and street scams occur in Accra. The UK Foreign Office advises against all but essential travel to the Bawku Municipal area in the Upper East region, and the far-northern border areas adjoining Burkina Faso call for extra caution because of regional insecurity.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/ghana",
         "name": "UK Foreign, Commonwealth & Development Office — Ghana travel advice",
         "type": "government",
-        "lastVerified": "2026-09-26",
-        "archiveUrl": "https://web.archive.org/web/20260701073833/https://www.gov.uk/foreign-travel-advice/ghana"
+        "lastVerified": "2026-10-03",
+        "archiveUrl": "https://web.archive.org/web/20260701073833/https://www.gov.uk/foreign-travel-advice/ghana",
+        "lastChanged": "2026-10-03"
       }
     },
     "plugs": {
@@ -2182,7 +2219,7 @@
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
           "type": "igo",
-          "lastVerified": "2026-09-26",
+          "lastVerified": "2026-10-03",
           "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
         }
       },
@@ -2197,7 +2234,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
         "type": "igo",
-        "lastVerified": "2026-09-26",
+        "lastVerified": "2026-10-03",
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
       }
     }
