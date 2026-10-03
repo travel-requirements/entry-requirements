@@ -2307,7 +2307,7 @@
       "name": "Tourist visa (embassy / high commission)",
       "fee": null,
       "processing": null,
-      "validityDays": null,
+      "validityDays": 90,
       "stayDays": 28,
       "entries": "single",
       "extendable": {
@@ -2397,38 +2397,30 @@
       }
     },
     "onwardTicket": {
-      "required": false,
-      "appliesTo": null,
-      "text": "No official source states an onward or return ticket requirement for entry to The Gambia. Airlines flying into Banjul may check return tickets, and border officers may ask about onward travel.",
+      "required": true,
+      "appliesTo": "visa-applicants",
+      "text": "The Immigration Department issues a short visit visa only to applicants who hold a return ticket (or cash equal to its cost) or an onward ticket from The Gambia. No official source states a ticket requirement for visa-free visitors, but airlines flying into Banjul may check return tickets.",
       "source": {
-        "url": "https://gid.gov.gm/",
-        "name": "Gambia Immigration Department",
+        "url": "https://gid.gov.gm/visa/",
+        "name": "Gambia Immigration Department — visa services (short visit visa conditions)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260715170525/https://gid.gov.gm/",
-        "portalOnly": true,
-        "unverifiable": {
-          "lastAttempt": "2026-10-03",
-          "reason": "not-stated"
-        }
+        "lastVerified": "2026-10-03",
+        "archiveUrl": "https://web.archive.org/web/20260908145337/https://gid.gov.gm/visa/",
+        "lastChanged": "2026-10-03"
       }
     },
     "proofOfFunds": {
-      "required": false,
-      "appliesTo": null,
+      "required": true,
+      "appliesTo": "visa-applicants",
       "amount": null,
-      "text": "No official source states a proof-of-funds requirement or amount for The Gambia. Border officers may ask visitors to show means of support and accommodation details.",
+      "text": "Short visit visa applicants must have adequate funds for their maintenance in The Gambia, according to the Immigration Department; no amount is published. No official source states a requirement for visa-free visitors.",
       "source": {
-        "url": "https://gid.gov.gm/",
-        "name": "Gambia Immigration Department",
+        "url": "https://gid.gov.gm/visa/",
+        "name": "Gambia Immigration Department — visa services (short visit visa conditions)",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260715170525/https://gid.gov.gm/",
-        "portalOnly": true,
-        "unverifiable": {
-          "lastAttempt": "2026-10-03",
-          "reason": "not-stated"
-        }
+        "lastVerified": "2026-10-03",
+        "archiveUrl": "https://web.archive.org/web/20260908145337/https://gid.gov.gm/visa/",
+        "lastChanged": "2026-10-03"
       }
     },
     "declarations": [],

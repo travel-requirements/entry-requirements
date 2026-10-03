@@ -659,7 +659,7 @@
           "tourist-visa",
           "consulted-visa"
         ],
-        "notes": "A consular visa (Category B) is required before travel; some nationalities are Category C and need a consulted visa vetted by the migration institute. Confirm your category with a Guatemalan consulate."
+        "notes": "A consular visa (Category B) is required before travel; some nationalities are Category C and need a consulted visa vetted by the migration institute. Confirm your category with a Guatemalan consulate. Holders of a valid US, Canadian or Schengen visa do not need a Guatemalan visa, according to the Foreign Ministry."
       },
       "ID": {
         "requirement": "embassy-visa",
@@ -1660,19 +1660,17 @@
         "id": "us-visa",
         "requirement": "visa-free",
         "maxStayDays": null,
-        "appliesTo": "visa-required",
-        "text": "Travelers holding a valid US visa (category B1/B2 or higher), or a valid Canadian or Schengen visa or residence permit, are often admitted without a Guatemalan visa, but no official Guatemalan source we could read states this exemption or a length of stay: IGM's entry requirements and country classification pages do not mention it, and the published visa regulation (AMN-04-2025) returns \"not found\". Confirm with a Guatemalan consulate before relying on it. Nationalities on Guatemala's restricted list always need prior consular approval.",
+        "appliesTo": [
+          "IN"
+        ],
+        "text": "Indian nationals holding a valid visa of the United States, Canada or a Schengen state do not need a Guatemalan visa, according to the Foreign Ministry's visa page (archived November 2024; the live address now redirects to the ministry's home page). No length of stay is stated. No official source we could read extends this to other nationalities: IGM's entry requirements and country classification pages do not mention it, and the published visa regulation (AMN-04-2025) returns \"not found\". Confirm with a Guatemalan consulate before relying on it.",
         "source": {
-          "url": "https://igm.gob.gt/",
-          "name": "Instituto Guatemalteco de Migración",
+          "url": "https://www.minex.gob.gt/Visor_Pagina.aspx?PaginaID=21",
+          "name": "Ministerio de Relaciones Exteriores de Guatemala — Visas para extranjeros",
           "type": "government",
-          "lastVerified": "2026-08-26",
-          "archiveUrl": "https://web.archive.org/web/20260506141012/http://igm.gob.gt/",
-          "portalOnly": true,
-          "unverifiable": {
-            "lastAttempt": "2026-10-03",
-            "reason": "not-stated"
-          }
+          "lastVerified": "2026-10-03",
+          "archiveUrl": "https://web.archive.org/web/20241108091746/https://www.minex.gob.gt/visor_pagina.aspx?PaginaID=21",
+          "lastChanged": "2026-10-03"
         }
       }
     ]
