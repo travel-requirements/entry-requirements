@@ -18,7 +18,7 @@
   ],
   "summary": "Belize is visa-free for US, UK, EU, Canadian, Australian, CARICOM and most Commonwealth passports, with visitors stamped in for up to 30 days and monthly extensions available for a fee. Other nationalities need a consular visa — though holders of a valid multiple-entry US visa are generally exempted.",
   "meta": {
-    "lastUpdated": "2026-10-02",
+    "lastUpdated": "2026-10-03",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -1614,15 +1614,20 @@
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "3-months-beyond-departure",
-      "text": "Your passport should be valid for at least 3 months beyond your departure date from Belize. Many airlines apply a stricter 6-month rule, so 6 months' validity is the safe choice.",
+      "rule": "other",
+      "text": "Belize's Immigration Department asks visa applicants for a passport valid for more than 6 months. It publishes no minimum for visa-exempt visitors. For them, the Belize Tourism Board says the passport must be valid for at least 30 days after arrival, provided you return home straight afterwards and are not travelling on to a country that requires 6 months. The UK government's advice says more than 3 months after arrival. Airlines often apply 6 months, so 6 months' validity is the safe choice.",
       "source": {
-        "url": "https://www.immigration.gov.bz/",
-        "name": "Belize Immigration Department",
+        "url": "https://immigration.gov.bz/visa/visa-requirements/",
+        "name": "Belize Immigration Department — Visa Requirements",
         "type": "government",
-        "lastVerified": "2026-08-26",
-        "archiveUrl": "https://web.archive.org/web/20260809105001/https://immigration.gov.bz/",
-        "portalOnly": true
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03",
+        "conflict": {
+          "url": "https://www.gov.uk/foreign-travel-advice/belize/entry-requirements",
+          "name": "UK Foreign, Commonwealth & Development Office — Belize entry requirements",
+          "states": "Passport must have an expiry date more than 3 months after the date you arrive",
+          "resolvedBy": "hierarchy"
+        }
       }
     },
     "vaccinations": [
