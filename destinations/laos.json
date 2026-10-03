@@ -19,9 +19,9 @@
     "cambodia",
     "myanmar"
   ],
-  "summary": "Laos admits fellow ASEAN nationals visa-free for up to 30 days (14 for a couple of members), plus Japan, South Korea, Russia, Switzerland and others on bilateral waivers. Nearly everyone else gets a 30-day tourist visa easily — online through the official Lao eVisa or on arrival at major airports and border crossings.",
+  "summary": "Laos admits fellow ASEAN nationals visa-free for up to 30 days (14 for Myanmar), plus Japan, South Korea, Russia, Switzerland and others on bilateral or unilateral waivers. Nearly everyone else gets a 30-day tourist visa easily — online through the official Lao eVisa or on arrival at major airports and border crossings. About 35 nationalities that are not on the eVisa list, mostly in Africa and the Middle East plus Pakistan, Bangladesh and Iran, should apply at a Lao embassy.",
   "meta": {
-    "lastUpdated": "2026-10-02",
+    "lastUpdated": "2026-10-03",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -40,22 +40,26 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://laoevisa.gov.la/",
-      "name": "Lao eVisa — official portal of the Ministry of Foreign Affairs of the Lao PDR",
+      "url": "https://laoevisa.gov.la/article/who_can_apply",
+      "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
       "type": "government",
-      "lastVerified": "2026-08-26",
-      "archiveUrl": "https://web.archive.org/web/20260829112631/https://laoevisa.gov.la/",
-      "portalOnly": true
+      "lastVerified": "2026-10-03"
     },
     "byPassport": {
       "AF": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "AL": {
         "requirement": "evisa",
@@ -67,13 +71,19 @@
         "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
       },
       "DZ": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "AD": {
         "requirement": "evisa",
@@ -166,13 +176,19 @@
         "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
       },
       "BD": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "BB": {
         "requirement": "evisa",
@@ -266,8 +282,15 @@
       },
       "BN": {
         "requirement": "visa-free",
-        "maxStayDays": 14,
-        "notes": "Visa-free for up to 14 days under ASEAN arrangements."
+        "maxStayDays": 30,
+        "notes": "Visa-free for up to 30 days under a bilateral visa exemption agreement in force since 2018.",
+        "source": {
+          "url": "https://immigration.gov.la/en/visas",
+          "name": "Department of Immigration of the Lao PDR — Visas: Exemption Visa (list of countries having reached unilateral and bilateral visa exemption agreements with Laos, Vientiane, 12 October 2022)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "BG": {
         "requirement": "evisa",
@@ -288,13 +311,19 @@
         "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
       },
       "BI": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "CV": {
         "requirement": "evisa",
@@ -308,16 +337,28 @@
       "KH": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "Visa-free for up to 30 days under ASEAN arrangements."
+        "notes": "Visa-free for up to 30 days under ASEAN arrangements.",
+        "source": {
+          "url": "https://immigration.gov.la/en/visas",
+          "name": "Department of Immigration of the Lao PDR — Visas: Exemption Visa (list of countries having reached unilateral and bilateral visa exemption agreements with Laos, Vientiane, 12 October 2022)",
+          "type": "government",
+          "lastVerified": "2026-10-03"
+        }
       },
       "CM": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "CA": {
         "requirement": "evisa",
@@ -392,13 +433,19 @@
         "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
       },
       "CI": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "HR": {
         "requirement": "evisa",
@@ -536,13 +583,19 @@
         "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
       },
       "SZ": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "ET": {
         "requirement": "evisa",
@@ -617,13 +670,19 @@
         "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
       },
       "GH": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "GR": {
         "requirement": "evisa",
@@ -653,22 +712,34 @@
         "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
       },
       "GN": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "GW": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "GY": {
         "requirement": "evisa",
@@ -736,25 +807,43 @@
       "ID": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "Visa-free for up to 30 days under ASEAN arrangements."
+        "notes": "Visa-free for up to 30 days under ASEAN arrangements.",
+        "source": {
+          "url": "https://immigration.gov.la/en/visas",
+          "name": "Department of Immigration of the Lao PDR — Visas: Exemption Visa (list of countries having reached unilateral and bilateral visa exemption agreements with Laos, Vientiane, 12 October 2022)",
+          "type": "government",
+          "lastVerified": "2026-10-03"
+        }
       },
       "IR": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "IQ": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "IE": {
         "requirement": "evisa",
@@ -795,16 +884,29 @@
       "JP": {
         "requirement": "visa-free",
         "maxStayDays": 15,
-        "notes": "Visa-free for up to 15 days under a bilateral agreement."
+        "notes": "Visa-free for up to 15 days under a unilateral exemption Laos has granted since 2007.",
+        "source": {
+          "url": "https://immigration.gov.la/en/visas",
+          "name": "Department of Immigration of the Lao PDR — Visas: Exemption Visa (list of countries having reached unilateral and bilateral visa exemption agreements with Laos, Vientiane, 12 October 2022)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "JO": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "KZ": {
         "requirement": "evisa",
@@ -875,40 +977,64 @@
         "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
       },
       "LB": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "LS": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "LR": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "LY": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "LI": {
         "requirement": "evisa",
@@ -931,7 +1057,14 @@
       "LU": {
         "requirement": "visa-free",
         "maxStayDays": 15,
-        "notes": "Visa-free for up to 15 days under a bilateral agreement."
+        "notes": "Visa-free for up to 15 days under a unilateral exemption Laos has granted since 2009.",
+        "source": {
+          "url": "https://immigration.gov.la/en/visas",
+          "name": "Department of Immigration of the Lao PDR — Visas: Exemption Visa (list of countries having reached unilateral and bilateral visa exemption agreements with Laos, Vientiane, 12 October 2022)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "MO": {
         "requirement": "evisa",
@@ -963,7 +1096,13 @@
       "MY": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "Visa-free for up to 30 days under ASEAN arrangements."
+        "notes": "Visa-free for up to 30 days under ASEAN arrangements.",
+        "source": {
+          "url": "https://immigration.gov.la/en/visas",
+          "name": "Department of Immigration of the Lao PDR — Visas: Exemption Visa (list of countries having reached unilateral and bilateral visa exemption agreements with Laos, Vientiane, 12 October 2022)",
+          "type": "government",
+          "lastVerified": "2026-10-03"
+        }
       },
       "MV": {
         "requirement": "evisa",
@@ -1058,7 +1197,13 @@
       "MN": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "Visa-free for up to 30 days under a bilateral agreement."
+        "notes": "Visa-free for up to 30 days under a bilateral agreement.",
+        "source": {
+          "url": "https://immigration.gov.la/en/visas",
+          "name": "Department of Immigration of the Lao PDR — Visas: Exemption Visa (list of countries having reached unilateral and bilateral visa exemption agreements with Laos, Vientiane, 12 October 2022)",
+          "type": "government",
+          "lastVerified": "2026-10-03"
+        }
       },
       "ME": {
         "requirement": "evisa",
@@ -1079,18 +1224,30 @@
         "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
       },
       "MZ": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "MM": {
         "requirement": "visa-free",
         "maxStayDays": 14,
-        "notes": "Visa-free for up to 14 days under ASEAN arrangements."
+        "notes": "Visa-free for up to 14 days under ASEAN arrangements.",
+        "source": {
+          "url": "https://immigration.gov.la/en/visas",
+          "name": "Department of Immigration of the Lao PDR — Visas: Exemption Visa (list of countries having reached unilateral and bilateral visa exemption agreements with Laos, Vientiane, 12 October 2022)",
+          "type": "government",
+          "lastVerified": "2026-10-03"
+        }
       },
       "NA": {
         "requirement": "evisa",
@@ -1102,13 +1259,19 @@
         "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
       },
       "NR": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "NP": {
         "requirement": "evisa",
@@ -1147,22 +1310,34 @@
         "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
       },
       "NE": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "NG": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "KP": {
         "requirement": "evisa",
@@ -1201,13 +1376,19 @@
         "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
       },
       "PK": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "PW": {
         "requirement": "evisa",
@@ -1266,7 +1447,13 @@
       "PH": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "Visa-free for up to 30 days under ASEAN arrangements."
+        "notes": "Visa-free for up to 30 days under ASEAN arrangements.",
+        "source": {
+          "url": "https://immigration.gov.la/en/visas",
+          "name": "Department of Immigration of the Lao PDR — Visas: Exemption Visa (list of countries having reached unilateral and bilateral visa exemption agreements with Laos, Vientiane, 12 October 2022)",
+          "type": "government",
+          "lastVerified": "2026-10-03"
+        }
       },
       "PL": {
         "requirement": "evisa",
@@ -1296,13 +1483,19 @@
         "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
       },
       "CG": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "RO": {
         "requirement": "evisa",
@@ -1316,7 +1509,13 @@
       "RU": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "Visa-free for up to 30 days under a bilateral agreement."
+        "notes": "Visa-free for up to 30 days under a bilateral agreement.",
+        "source": {
+          "url": "https://immigration.gov.la/en/visas",
+          "name": "Department of Immigration of the Lao PDR — Visas: Exemption Visa (list of countries having reached unilateral and bilateral visa exemption agreements with Laos, Vientiane, 12 October 2022)",
+          "type": "government",
+          "lastVerified": "2026-10-03"
+        }
       },
       "RW": {
         "requirement": "evisa",
@@ -1391,13 +1590,19 @@
         "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
       },
       "SN": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "RS": {
         "requirement": "evisa",
@@ -1418,18 +1623,30 @@
         "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
       },
       "SL": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "SG": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "Visa-free for up to 30 days under ASEAN arrangements."
+        "notes": "Visa-free for up to 30 days under ASEAN arrangements.",
+        "source": {
+          "url": "https://immigration.gov.la/en/visas",
+          "name": "Department of Immigration of the Lao PDR — Visas: Exemption Visa (list of countries having reached unilateral and bilateral visa exemption agreements with Laos, Vientiane, 12 October 2022)",
+          "type": "government",
+          "lastVerified": "2026-10-03"
+        }
       },
       "SK": {
         "requirement": "evisa",
@@ -1459,13 +1676,19 @@
         "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
       },
       "SO": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "ZA": {
         "requirement": "evisa",
@@ -1478,17 +1701,30 @@
       },
       "KR": {
         "requirement": "visa-free",
-        "maxStayDays": 15,
-        "notes": "Visa-free for up to 15 days under a bilateral agreement."
+        "maxStayDays": 30,
+        "notes": "Visa-free for up to 30 days under a unilateral exemption Laos has granted since 2018.",
+        "source": {
+          "url": "https://immigration.gov.la/en/visas",
+          "name": "Department of Immigration of the Lao PDR — Visas: Exemption Visa (list of countries having reached unilateral and bilateral visa exemption agreements with Laos, Vientiane, 12 October 2022)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "SS": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "ES": {
         "requirement": "evisa",
@@ -1509,22 +1745,34 @@
         "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
       },
       "SD": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "SR": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "SE": {
         "requirement": "evisa",
@@ -1538,16 +1786,29 @@
       "CH": {
         "requirement": "visa-free",
         "maxStayDays": 15,
-        "notes": "Visa-free for up to 15 days under a bilateral agreement."
+        "notes": "Visa-free for up to 15 days under a unilateral exemption Laos has granted since 2009.",
+        "source": {
+          "url": "https://immigration.gov.la/en/visas",
+          "name": "Department of Immigration of the Lao PDR — Visas: Exemption Visa (list of countries having reached unilateral and bilateral visa exemption agreements with Laos, Vientiane, 12 October 2022)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "SY": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "TW": {
         "requirement": "evisa",
@@ -1579,7 +1840,13 @@
       "TH": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "Visa-free for up to 30 days under ASEAN arrangements."
+        "notes": "Visa-free for up to 30 days under ASEAN arrangements.",
+        "source": {
+          "url": "https://immigration.gov.la/en/visas",
+          "name": "Department of Immigration of the Lao PDR — Visas: Exemption Visa (list of countries having reached unilateral and bilateral visa exemption agreements with Laos, Vientiane, 12 October 2022)",
+          "type": "government",
+          "lastVerified": "2026-10-03"
+        }
       },
       "TL": {
         "requirement": "evisa",
@@ -1600,13 +1867,19 @@
         "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
       },
       "TO": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "TT": {
         "requirement": "evisa",
@@ -1654,13 +1927,19 @@
         "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
       },
       "UG": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "UA": {
         "requirement": "evisa",
@@ -1726,13 +2005,19 @@
         "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
       },
       "VA": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "VE": {
         "requirement": "evisa",
@@ -1746,34 +2031,58 @@
       "VN": {
         "requirement": "visa-free",
         "maxStayDays": 30,
-        "notes": "Visa-free for up to 30 days under ASEAN arrangements."
+        "notes": "Visa-free for up to 30 days under ASEAN arrangements.",
+        "source": {
+          "url": "https://immigration.gov.la/en/visas",
+          "name": "Department of Immigration of the Lao PDR — Visas: Exemption Visa (list of countries having reached unilateral and bilateral visa exemption agreements with Laos, Vientiane, 12 October 2022)",
+          "type": "government",
+          "lastVerified": "2026-10-03"
+        }
       },
       "YE": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "ZM": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "ZW": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-tourist",
-          "voa-tourist"
+          "embassy-tourist"
         ],
-        "notes": "Apply online via the official Lao eVisa (accepted at designated entry points) or obtain a 30-day tourist visa on arrival at major airports and border crossings; a small number of nationalities must apply at an embassy instead."
+        "notes": "Not on the Lao eVisa list of eligible countries, so the eVisa cannot be used. No official list we could read confirms a visa on arrival for this nationality; apply for a tourist visa at a Lao embassy or consulate before travel.",
+        "source": {
+          "url": "https://laoevisa.gov.la/article/who_can_apply",
+          "name": "Lao eVisa (Ministry of Foreign Affairs) — Who can apply for Lao eVisa: list of eligible countries",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       }
     }
   },
@@ -2101,7 +2410,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Laos?",
-      "answer": "ASEAN nationals enter visa-free (30 days for most members, 14 for Myanmar and Brunei), and Japan, South Korea, Switzerland, Luxembourg, Russia and Mongolia have bilateral waivers. Almost everyone else — including US, UK, EU, Canadian and Australian passport holders — gets a 30-day tourist visa either online via laoevisa.gov.la or on arrival at major entry points."
+      "answer": "ASEAN nationals enter visa-free (30 days for most members, 14 for Myanmar), and Japan, South Korea, Switzerland, Luxembourg, Russia and Mongolia have bilateral or unilateral waivers. Almost everyone else — including US, UK, EU, Canadian and Australian passport holders — gets a 30-day tourist visa either online via laoevisa.gov.la or on arrival at major entry points. Nationalities missing from the eVisa list should apply at a Lao embassy."
     },
     {
       "id": "evisa-vs-voa",

@@ -18,9 +18,9 @@
     "zambia",
     "zimbabwe"
   ],
-  "summary": "Botswana is one of Africa’s easiest destinations to enter — citizens of some 100 countries, including the EU, US, UK, most of the Commonwealth and all SADC neighbors, get up to 90 visa-free days, while the remaining nationalities apply through the official eVisa portal or a Botswana mission before traveling.",
+  "summary": "Botswana is one of Africa’s easiest destinations to enter — citizens of some 100 countries, including the EU, US, UK, most of the Commonwealth and most SADC states, get up to 90 visa-free days, while the remaining nationalities apply through the official eVisa portal or a Botswana mission before traveling.",
   "meta": {
-    "lastUpdated": "2026-10-02",
+    "lastUpdated": "2026-10-03",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -39,12 +39,10 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://evisa.gov.bw/",
-      "name": "Botswana eVisa — official government portal",
+      "url": "https://evisa.gov.bw/#/needvisa",
+      "name": "Botswana eVisa — Do I Need a Visa? (list of countries that require a visa to enter Botswana, and visa checker)",
       "type": "government",
-      "lastVerified": "2026-08-26",
-      "archiveUrl": "https://web.archive.org/web/20260728192316/https://evisa.gov.bw/",
-      "portalOnly": true
+      "lastVerified": "2026-10-03"
     },
     "byPassport": {
       "AF": {
@@ -75,9 +73,20 @@
         "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival."
       },
       "AD": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free entry for up to 90 days within any 12-month period. The permitted stay is stamped on arrival."
+        "requirement": "evisa",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "tourist-evisa",
+          "embassy-tourist"
+        ],
+        "notes": "Listed on Botswana’s eVisa portal among the countries whose citizens require a visa to enter Botswana. Apply in advance through the eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival.",
+        "source": {
+          "url": "https://evisa.gov.bw/#/needvisa",
+          "name": "Botswana eVisa — Do I Need a Visa? (list of countries that require a visa to enter Botswana, and visa checker)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "AO": {
         "requirement": "visa-free",
@@ -128,13 +137,16 @@
         "notes": "Visa-free entry for up to 90 days within any 12-month period. The permitted stay is stamped on arrival."
       },
       "BH": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "tourist-evisa",
-          "embassy-tourist"
-        ],
-        "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival."
+        "requirement": "visa-free",
+        "maxStayDays": null,
+        "notes": "Botswana’s eVisa portal does not list this nationality among the countries whose citizens require a visa, and its visa checker answers “Visa not required”. The portal does not state a length of stay; the permitted stay is stamped on arrival.",
+        "source": {
+          "url": "https://evisa.gov.bw/#/needvisa",
+          "name": "Botswana eVisa — Do I Need a Visa? (list of countries that require a visa to enter Botswana, and visa checker)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "BD": {
         "requirement": "evisa",
@@ -317,9 +329,20 @@
         "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival."
       },
       "KM": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "SADC citizens enter Botswana visa-free — up to 90 days within any 12-month period."
+        "requirement": "evisa",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "tourist-evisa",
+          "embassy-tourist"
+        ],
+        "notes": "Although a SADC member, this country is listed on Botswana’s eVisa portal among the countries whose citizens require a visa to enter Botswana. Apply in advance through the eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival.",
+        "source": {
+          "url": "https://evisa.gov.bw/#/needvisa",
+          "name": "Botswana eVisa — Do I Need a Visa? (list of countries that require a visa to enter Botswana, and visa checker)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "CR": {
         "requirement": "visa-free",
@@ -356,9 +379,20 @@
         "notes": "Visa-free entry for up to 90 days within any 12-month period. The permitted stay is stamped on arrival."
       },
       "CD": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "SADC citizens enter Botswana visa-free — up to 90 days within any 12-month period."
+        "requirement": "evisa",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "tourist-evisa",
+          "embassy-tourist"
+        ],
+        "notes": "Although a SADC member, this country is listed on Botswana’s eVisa portal among the countries whose citizens require a visa to enter Botswana. Apply in advance through the eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival.",
+        "source": {
+          "url": "https://evisa.gov.bw/#/needvisa",
+          "name": "Botswana eVisa — Do I Need a Visa? (list of countries that require a visa to enter Botswana, and visa checker)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "DK": {
         "requirement": "visa-free",
@@ -380,13 +414,16 @@
         "notes": "Visa-free entry for up to 90 days within any 12-month period. The permitted stay is stamped on arrival."
       },
       "DO": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "tourist-evisa",
-          "embassy-tourist"
-        ],
-        "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival."
+        "requirement": "visa-free",
+        "maxStayDays": null,
+        "notes": "Botswana’s eVisa portal does not list this nationality among the countries whose citizens require a visa, and its visa checker answers “Visa not required”. The portal does not state a length of stay; the permitted stay is stamped on arrival.",
+        "source": {
+          "url": "https://evisa.gov.bw/#/needvisa",
+          "name": "Botswana eVisa — Do I Need a Visa? (list of countries that require a visa to enter Botswana, and visa checker)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "EC": {
         "requirement": "evisa",
@@ -453,9 +490,20 @@
         "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival."
       },
       "FJ": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free entry for up to 90 days within any 12-month period. The permitted stay is stamped on arrival."
+        "requirement": "evisa",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "tourist-evisa",
+          "embassy-tourist"
+        ],
+        "notes": "Listed on Botswana’s eVisa portal among the countries whose citizens require a visa to enter Botswana. Apply in advance through the eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival.",
+        "source": {
+          "url": "https://evisa.gov.bw/#/needvisa",
+          "name": "Botswana eVisa — Do I Need a Visa? (list of countries that require a visa to enter Botswana, and visa checker)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "FI": {
         "requirement": "visa-free",
@@ -496,9 +544,20 @@
         "notes": "Visa-free entry for up to 90 days within any 12-month period. The permitted stay is stamped on arrival."
       },
       "GH": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free entry for up to 90 days within any 12-month period. The permitted stay is stamped on arrival."
+        "requirement": "evisa",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "tourist-evisa",
+          "embassy-tourist"
+        ],
+        "notes": "Listed on Botswana’s eVisa portal among the countries whose citizens require a visa to enter Botswana. Apply in advance through the eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival.",
+        "source": {
+          "url": "https://evisa.gov.bw/#/needvisa",
+          "name": "Botswana eVisa — Do I Need a Visa? (list of countries that require a visa to enter Botswana, and visa checker)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "GR": {
         "requirement": "visa-free",
@@ -563,7 +622,15 @@
       "HK": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free entry for up to 90 days within any 12-month period. The permitted stay is stamped on arrival."
+        "notes": "Visa-free entry for up to 90 days within any 12-month period. The permitted stay is stamped on arrival.",
+        "source": {
+          "url": "https://evisa.gov.bw/",
+          "name": "Botswana eVisa — official government portal",
+          "type": "government",
+          "lastVerified": "2026-08-26",
+          "archiveUrl": "https://web.archive.org/web/20260728192316/https://evisa.gov.bw/",
+          "portalOnly": true
+        }
       },
       "HU": {
         "requirement": "visa-free",
@@ -671,16 +738,27 @@
           "tourist-evisa",
           "embassy-tourist"
         ],
-        "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival."
+        "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival.",
+        "source": {
+          "url": "https://evisa.gov.bw/",
+          "name": "Botswana eVisa — official government portal",
+          "type": "government",
+          "lastVerified": "2026-08-26",
+          "archiveUrl": "https://web.archive.org/web/20260728192316/https://evisa.gov.bw/",
+          "portalOnly": true
+        }
       },
       "KW": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "tourist-evisa",
-          "embassy-tourist"
-        ],
-        "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival."
+        "requirement": "visa-free",
+        "maxStayDays": null,
+        "notes": "Botswana’s eVisa portal does not list this nationality among the countries whose citizens require a visa, and its visa checker answers “Visa not required”. The portal does not state a length of stay; the permitted stay is stamped on arrival.",
+        "source": {
+          "url": "https://evisa.gov.bw/#/needvisa",
+          "name": "Botswana eVisa — Do I Need a Visa? (list of countries that require a visa to enter Botswana, and visa checker)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "KG": {
         "requirement": "evisa",
@@ -759,12 +837,31 @@
           "tourist-evisa",
           "embassy-tourist"
         ],
-        "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival."
+        "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival.",
+        "source": {
+          "url": "https://evisa.gov.bw/",
+          "name": "Botswana eVisa — official government portal",
+          "type": "government",
+          "lastVerified": "2026-08-26",
+          "archiveUrl": "https://web.archive.org/web/20260728192316/https://evisa.gov.bw/",
+          "portalOnly": true
+        }
       },
       "MG": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "SADC citizens enter Botswana visa-free — up to 90 days within any 12-month period."
+        "requirement": "evisa",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "tourist-evisa",
+          "embassy-tourist"
+        ],
+        "notes": "Although a SADC member, this country is listed on Botswana’s eVisa portal among the countries whose citizens require a visa to enter Botswana. Apply in advance through the eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival.",
+        "source": {
+          "url": "https://evisa.gov.bw/#/needvisa",
+          "name": "Botswana eVisa — Do I Need a Visa? (list of countries that require a visa to enter Botswana, and visa checker)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "MW": {
         "requirement": "visa-free",
@@ -777,13 +874,16 @@
         "notes": "Visa-free entry for up to 90 days within any 12-month period. The permitted stay is stamped on arrival."
       },
       "MV": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "tourist-evisa",
-          "embassy-tourist"
-        ],
-        "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival."
+        "requirement": "visa-free",
+        "maxStayDays": null,
+        "notes": "Botswana’s eVisa portal does not list this nationality among the countries whose citizens require a visa, and its visa checker answers “Visa not required”. The portal does not state a length of stay; the permitted stay is stamped on arrival.",
+        "source": {
+          "url": "https://evisa.gov.bw/#/needvisa",
+          "name": "Botswana eVisa — Do I Need a Visa? (list of countries that require a visa to enter Botswana, and visa checker)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "ML": {
         "requirement": "evisa",
@@ -971,13 +1071,16 @@
         "notes": "Visa-free entry for up to 90 days within any 12-month period. The permitted stay is stamped on arrival."
       },
       "OM": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "tourist-evisa",
-          "embassy-tourist"
-        ],
-        "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival."
+        "requirement": "visa-free",
+        "maxStayDays": null,
+        "notes": "Botswana’s eVisa portal does not list this nationality among the countries whose citizens require a visa, and its visa checker answers “Visa not required”. The portal does not state a length of stay; the permitted stay is stamped on arrival.",
+        "source": {
+          "url": "https://evisa.gov.bw/#/needvisa",
+          "name": "Botswana eVisa — Do I Need a Visa? (list of countries that require a visa to enter Botswana, and visa checker)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "PK": {
         "requirement": "evisa",
@@ -1050,13 +1153,16 @@
         "notes": "Visa-free entry for up to 90 days within any 12-month period. The permitted stay is stamped on arrival."
       },
       "QA": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "tourist-evisa",
-          "embassy-tourist"
-        ],
-        "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival."
+        "requirement": "visa-free",
+        "maxStayDays": null,
+        "notes": "Botswana’s eVisa portal does not list this nationality among the countries whose citizens require a visa, and its visa checker answers “Visa not required”. The portal does not state a length of stay; the permitted stay is stamped on arrival.",
+        "source": {
+          "url": "https://evisa.gov.bw/#/needvisa",
+          "name": "Botswana eVisa — Do I Need a Visa? (list of countries that require a visa to enter Botswana, and visa checker)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "CG": {
         "requirement": "evisa",
@@ -1073,18 +1179,32 @@
         "notes": "Visa-free entry for up to 90 days within any 12-month period. The permitted stay is stamped on arrival."
       },
       "RU": {
+        "requirement": "visa-free",
+        "maxStayDays": null,
+        "notes": "Botswana’s eVisa portal does not list this nationality among the countries whose citizens require a visa, and its visa checker answers “Visa not required”. The portal does not state a length of stay; the permitted stay is stamped on arrival.",
+        "source": {
+          "url": "https://evisa.gov.bw/#/needvisa",
+          "name": "Botswana eVisa — Do I Need a Visa? (list of countries that require a visa to enter Botswana, and visa checker)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
+      },
+      "RW": {
         "requirement": "evisa",
         "maxStayDays": 30,
         "visaTypes": [
           "tourist-evisa",
           "embassy-tourist"
         ],
-        "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival."
-      },
-      "RW": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free entry for up to 90 days within any 12-month period. The permitted stay is stamped on arrival."
+        "notes": "Listed on Botswana’s eVisa portal among the countries whose citizens require a visa to enter Botswana. Apply in advance through the eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival.",
+        "source": {
+          "url": "https://evisa.gov.bw/#/needvisa",
+          "name": "Botswana eVisa — Do I Need a Visa? (list of countries that require a visa to enter Botswana, and visa checker)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "KN": {
         "requirement": "visa-free",
@@ -1104,7 +1224,15 @@
       "WS": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free entry for up to 90 days within any 12-month period. The permitted stay is stamped on arrival."
+        "notes": "Visa-free entry for up to 90 days within any 12-month period. The permitted stay is stamped on arrival.",
+        "source": {
+          "url": "https://evisa.gov.bw/",
+          "name": "Botswana eVisa — official government portal",
+          "type": "government",
+          "lastVerified": "2026-08-26",
+          "archiveUrl": "https://web.archive.org/web/20260728192316/https://evisa.gov.bw/",
+          "portalOnly": true
+        }
       },
       "SM": {
         "requirement": "visa-free",
@@ -1121,13 +1249,16 @@
         "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival."
       },
       "SA": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "tourist-evisa",
-          "embassy-tourist"
-        ],
-        "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival."
+        "requirement": "visa-free",
+        "maxStayDays": null,
+        "notes": "Botswana’s eVisa portal does not list this nationality among the countries whose citizens require a visa, and its visa checker answers “Visa not required”. The portal does not state a length of stay; the permitted stay is stamped on arrival.",
+        "source": {
+          "url": "https://evisa.gov.bw/#/needvisa",
+          "name": "Botswana eVisa — Do I Need a Visa? (list of countries that require a visa to enter Botswana, and visa checker)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "SN": {
         "requirement": "evisa",
@@ -1197,13 +1328,16 @@
         "notes": "Visa-free entry for up to 90 days within any 12-month period. The permitted stay is stamped on arrival."
       },
       "SS": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "tourist-evisa",
-          "embassy-tourist"
-        ],
-        "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival."
+        "requirement": "visa-free",
+        "maxStayDays": null,
+        "notes": "Botswana’s eVisa portal does not list this nationality among the countries whose citizens require a visa, and its visa checker answers “Visa not required”. The portal does not state a length of stay; the permitted stay is stamped on arrival.",
+        "source": {
+          "url": "https://evisa.gov.bw/#/needvisa",
+          "name": "Botswana eVisa — Do I Need a Visa? (list of countries that require a visa to enter Botswana, and visa checker)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "ES": {
         "requirement": "visa-free",
@@ -1263,7 +1397,15 @@
           "tourist-evisa",
           "embassy-tourist"
         ],
-        "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival."
+        "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival.",
+        "source": {
+          "url": "https://evisa.gov.bw/",
+          "name": "Botswana eVisa — official government portal",
+          "type": "government",
+          "lastVerified": "2026-08-26",
+          "archiveUrl": "https://web.archive.org/web/20260728192316/https://evisa.gov.bw/",
+          "portalOnly": true
+        }
       },
       "TJ": {
         "requirement": "evisa",
@@ -1326,13 +1468,16 @@
         "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival."
       },
       "TR": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "tourist-evisa",
-          "embassy-tourist"
-        ],
-        "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival."
+        "requirement": "visa-free",
+        "maxStayDays": null,
+        "notes": "Botswana’s eVisa portal does not list this nationality among the countries whose citizens require a visa, and its visa checker answers “Visa not required”. The portal does not state a length of stay; the permitted stay is stamped on arrival. Türkiye’s Foreign Ministry gives 90 days within any 365.",
+        "source": {
+          "url": "https://evisa.gov.bw/#/needvisa",
+          "name": "Botswana eVisa — Do I Need a Visa? (list of countries that require a visa to enter Botswana, and visa checker)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "TM": {
         "requirement": "evisa",
@@ -1363,13 +1508,16 @@
         "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival."
       },
       "AE": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "tourist-evisa",
-          "embassy-tourist"
-        ],
-        "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival."
+        "requirement": "visa-free",
+        "maxStayDays": null,
+        "notes": "Botswana’s eVisa portal does not list this nationality among the countries whose citizens require a visa, and its visa checker answers “Visa not required”. The portal does not state a length of stay; the permitted stay is stamped on arrival.",
+        "source": {
+          "url": "https://evisa.gov.bw/#/needvisa",
+          "name": "Botswana eVisa — Do I Need a Visa? (list of countries that require a visa to enter Botswana, and visa checker)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "GB": {
         "requirement": "visa-free",
@@ -1406,13 +1554,16 @@
         "notes": "Visa-free entry for up to 90 days within any 12-month period. The permitted stay is stamped on arrival."
       },
       "VE": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "tourist-evisa",
-          "embassy-tourist"
-        ],
-        "notes": "Not on Botswana’s exemption list. Apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; visas are not issued on arrival."
+        "requirement": "visa-free",
+        "maxStayDays": null,
+        "notes": "Botswana’s eVisa portal does not list this nationality among the countries whose citizens require a visa, and its visa checker answers “Visa not required”. The portal does not state a length of stay; the permitted stay is stamped on arrival.",
+        "source": {
+          "url": "https://evisa.gov.bw/#/needvisa",
+          "name": "Botswana eVisa — Do I Need a Visa? (list of countries that require a visa to enter Botswana, and visa checker)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "VN": {
         "requirement": "evisa",
@@ -1710,7 +1861,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Botswana?",
-      "answer": "Most visitors do not — citizens of around 100 countries, including the US, UK, EU members, most Commonwealth states and all SADC neighbors, enter visa-free for up to 90 days. Nationalities that do need a visa (including India, China and most of the former Soviet states) apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; there is no visa on arrival."
+      "answer": "Most visitors do not — citizens of around 100 countries, including the US, UK, EU members, most Commonwealth states and most SADC states, enter visa-free for up to 90 days. Nationalities that do need a visa (including India, China and most of the former Soviet states) apply in advance through the official eVisa portal (evisa.gov.bw) or a Botswana mission; there is no visa on arrival."
     },
     {
       "id": "how-long",

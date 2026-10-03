@@ -19,7 +19,7 @@
   ],
   "summary": "Palestine has no border control of its own — every route into the West Bank runs through Israeli-controlled crossings (Ben Gurion Airport or the Allenby Bridge from Jordan), so Israel's entry rules determine who gets in; the Palestinian Authority issues no visas, and Gaza is effectively closed to travelers.",
   "meta": {
-    "lastUpdated": "2026-08-26",
+    "lastUpdated": "2026-10-03",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -38,12 +38,10 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://www.mofa.pna.ps/",
-      "name": "Ministry of Foreign Affairs and Expatriates of the State of Palestine",
+      "url": "https://israel-entry.piba.gov.il/api/getalldata",
+      "name": "Israel Population and Immigration Authority — ETA-IL country list (per-nationality visa flag behind the eligibility check at israel-entry.piba.gov.il)",
       "type": "government",
-      "lastVerified": "2026-08-26",
-      "archiveUrl": "https://web.archive.org/web/20260829140839/https://www.mofa.pna.ps/en-us/",
-      "portalOnly": true
+      "lastVerified": "2026-10-03"
     },
     "byPassport": {
       "AF": {
@@ -132,9 +130,16 @@
         "notes": "Entry runs through Israeli border control: this nationality is visa-exempt for Israel but must obtain the ETA-IL electronic travel authorization online before travel — admission (up to 90 days) is at Israel's discretion and covers onward travel to most of the West Bank."
       },
       "BZ": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "notes": "Entry is controlled by Israel. This nationality needs an Israeli visa, obtained from an Israeli embassy, to reach the West Bank via Ben Gurion Airport or the Allenby Bridge; the Palestinian Authority issues no visas of its own."
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "notes": "Entry runs through Israeli border control: this nationality is visa-exempt for Israel but must obtain the ETA-IL electronic travel authorization online before travel — admission (up to 90 days) is at Israel's discretion and covers onward travel to most of the West Bank.",
+        "source": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "name": "Israel Population and Immigration Authority — ETA-IL country list (per-nationality visa flag behind the eligibility check at israel-entry.piba.gov.il)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "BJ": {
         "requirement": "embassy-visa",
@@ -157,9 +162,16 @@
         "notes": "Entry is controlled by Israel. This nationality needs an Israeli visa, obtained from an Israeli embassy, to reach the West Bank via Ben Gurion Airport or the Allenby Bridge; the Palestinian Authority issues no visas of its own."
       },
       "BW": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "notes": "Entry is controlled by Israel. This nationality needs an Israeli visa, obtained from an Israeli embassy, to reach the West Bank via Ben Gurion Airport or the Allenby Bridge; the Palestinian Authority issues no visas of its own."
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "notes": "Entry runs through Israeli border control: this nationality is visa-exempt for Israel but must obtain the ETA-IL electronic travel authorization online before travel — admission (up to 90 days) is at Israel's discretion and covers onward travel to most of the West Bank.",
+        "source": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "name": "Israel Population and Immigration Authority — ETA-IL country list (per-nationality visa flag behind the eligibility check at israel-entry.piba.gov.il)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "BR": {
         "requirement": "eta",
@@ -287,9 +299,16 @@
         "notes": "Entry runs through Israeli border control: this nationality is visa-exempt for Israel but must obtain the ETA-IL electronic travel authorization online before travel — admission (up to 90 days) is at Israel's discretion and covers onward travel to most of the West Bank."
       },
       "DO": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "notes": "Entry is controlled by Israel. This nationality needs an Israeli visa, obtained from an Israeli embassy, to reach the West Bank via Ben Gurion Airport or the Allenby Bridge; the Palestinian Authority issues no visas of its own."
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "notes": "Entry runs through Israeli border control: this nationality is visa-exempt for Israel but must obtain the ETA-IL electronic travel authorization online before travel — admission (up to 90 days) is at Israel's discretion and covers onward travel to most of the West Bank.",
+        "source": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "name": "Israel Population and Immigration Authority — ETA-IL country list (per-nationality visa flag behind the eligibility check at israel-entry.piba.gov.il)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "EC": {
         "requirement": "eta",
@@ -454,7 +473,15 @@
       "IL": {
         "requirement": "banned",
         "maxStayDays": null,
-        "notes": "Israeli law bars Israeli citizens from entering Area A, the parts of the West Bank under full Palestinian Authority control (including central Ramallah, Nablus and Bethlehem); Gaza is closed to entry."
+        "notes": "Israeli law bars Israeli citizens from entering Area A, the parts of the West Bank under full Palestinian Authority control (including central Ramallah, Nablus and Bethlehem); Gaza is closed to entry.",
+        "source": {
+          "url": "https://www.mofa.pna.ps/",
+          "name": "Ministry of Foreign Affairs and Expatriates of the State of Palestine",
+          "type": "government",
+          "lastVerified": "2026-08-26",
+          "archiveUrl": "https://web.archive.org/web/20260829140839/https://www.mofa.pna.ps/en-us/",
+          "portalOnly": true
+        }
       },
       "IT": {
         "requirement": "eta",
@@ -492,9 +519,16 @@
         "notes": "Entry is controlled by Israel. This nationality needs an Israeli visa, obtained from an Israeli embassy, to reach the West Bank via Ben Gurion Airport or the Allenby Bridge; the Palestinian Authority issues no visas of its own."
       },
       "XK": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "notes": "Entry is controlled by Israel. This nationality needs an Israeli visa, obtained from an Israeli embassy, to reach the West Bank via Ben Gurion Airport or the Allenby Bridge; the Palestinian Authority issues no visas of its own."
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "notes": "Entry runs through Israeli border control: this nationality is visa-exempt for Israel but must obtain the ETA-IL electronic travel authorization online before travel — admission (up to 90 days) is at Israel's discretion and covers onward travel to most of the West Bank.",
+        "source": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "name": "Israel Population and Immigration Authority — ETA-IL country list (per-nationality visa flag behind the eligibility check at israel-entry.piba.gov.il)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "KW": {
         "requirement": "embassy-visa",
@@ -587,9 +621,16 @@
         "notes": "Entry runs through Israeli border control: this nationality is visa-exempt for Israel but must obtain the ETA-IL electronic travel authorization online before travel — admission (up to 90 days) is at Israel's discretion and covers onward travel to most of the West Bank."
       },
       "MH": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "notes": "Entry is controlled by Israel. This nationality needs an Israeli visa, obtained from an Israeli embassy, to reach the West Bank via Ben Gurion Airport or the Allenby Bridge; the Palestinian Authority issues no visas of its own."
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "notes": "Entry runs through Israeli border control: this nationality is visa-exempt for Israel but must obtain the ETA-IL electronic travel authorization online before travel — admission (up to 90 days) is at Israel's discretion and covers onward travel to most of the West Bank.",
+        "source": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "name": "Israel Population and Immigration Authority — ETA-IL country list (per-nationality visa flag behind the eligibility check at israel-entry.piba.gov.il)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "MR": {
         "requirement": "embassy-visa",
@@ -614,7 +655,14 @@
       "MD": {
         "requirement": "eta",
         "maxStayDays": 90,
-        "notes": "Entry runs through Israeli border control: this nationality is visa-exempt for Israel but must obtain the ETA-IL electronic travel authorization online before travel — admission (up to 90 days) is at Israel's discretion and covers onward travel to most of the West Bank."
+        "notes": "Entry runs through Israeli border control: this nationality is visa-exempt for Israel but must obtain the ETA-IL electronic travel authorization online before travel — admission (up to 90 days) is at Israel's discretion and covers onward travel to most of the West Bank. Israel's list exempts only biometric Moldovan passports; a non-biometric passport needs an Israeli visa from an embassy.",
+        "source": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "name": "Israel Population and Immigration Authority — ETA-IL country list (per-nationality visa flag behind the eligibility check at israel-entry.piba.gov.il)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "MC": {
         "requirement": "eta",
@@ -652,9 +700,16 @@
         "notes": "Entry is controlled by Israel. This nationality needs an Israeli visa, obtained from an Israeli embassy, to reach the West Bank via Ben Gurion Airport or the Allenby Bridge; the Palestinian Authority issues no visas of its own."
       },
       "NR": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "notes": "Entry is controlled by Israel. This nationality needs an Israeli visa, obtained from an Israeli embassy, to reach the West Bank via Ben Gurion Airport or the Allenby Bridge; the Palestinian Authority issues no visas of its own."
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "notes": "Entry runs through Israeli border control: this nationality is visa-exempt for Israel but must obtain the ETA-IL electronic travel authorization online before travel — admission (up to 90 days) is at Israel's discretion and covers onward travel to most of the West Bank.",
+        "source": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "name": "Israel Population and Immigration Authority — ETA-IL country list (per-nationality visa flag behind the eligibility check at israel-entry.piba.gov.il)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "NP": {
         "requirement": "embassy-visa",
@@ -719,7 +774,15 @@
       "PS": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "Home territory, but movement for Palestinian passport and ID holders is controlled by Israeli permits at all crossings and checkpoints."
+        "notes": "Home territory, but movement for Palestinian passport and ID holders is controlled by Israeli permits at all crossings and checkpoints.",
+        "source": {
+          "url": "https://www.mofa.pna.ps/",
+          "name": "Ministry of Foreign Affairs and Expatriates of the State of Palestine",
+          "type": "government",
+          "lastVerified": "2026-08-26",
+          "archiveUrl": "https://web.archive.org/web/20260829140839/https://www.mofa.pna.ps/en-us/",
+          "portalOnly": true
+        }
       },
       "PA": {
         "requirement": "eta",
@@ -727,9 +790,16 @@
         "notes": "Entry runs through Israeli border control: this nationality is visa-exempt for Israel but must obtain the ETA-IL electronic travel authorization online before travel — admission (up to 90 days) is at Israel's discretion and covers onward travel to most of the West Bank."
       },
       "PG": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "notes": "Entry is controlled by Israel. This nationality needs an Israeli visa, obtained from an Israeli embassy, to reach the West Bank via Ben Gurion Airport or the Allenby Bridge; the Palestinian Authority issues no visas of its own."
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "notes": "Entry runs through Israeli border control: this nationality is visa-exempt for Israel but must obtain the ETA-IL electronic travel authorization online before travel — admission (up to 90 days) is at Israel's discretion and covers onward travel to most of the West Bank.",
+        "source": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "name": "Israel Population and Immigration Authority — ETA-IL country list (per-nationality visa flag behind the eligibility check at israel-entry.piba.gov.il)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "PY": {
         "requirement": "eta",
@@ -797,9 +867,16 @@
         "notes": "Entry runs through Israeli border control: this nationality is visa-exempt for Israel but must obtain the ETA-IL electronic travel authorization online before travel — admission (up to 90 days) is at Israel's discretion and covers onward travel to most of the West Bank."
       },
       "WS": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "notes": "Entry is controlled by Israel. This nationality needs an Israeli visa, obtained from an Israeli embassy, to reach the West Bank via Ben Gurion Airport or the Allenby Bridge; the Palestinian Authority issues no visas of its own."
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "notes": "Entry runs through Israeli border control: this nationality is visa-exempt for Israel but must obtain the ETA-IL electronic travel authorization online before travel — admission (up to 90 days) is at Israel's discretion and covers onward travel to most of the West Bank.",
+        "source": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "name": "Israel Population and Immigration Authority — ETA-IL country list (per-nationality visa flag behind the eligibility check at israel-entry.piba.gov.il)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "SM": {
         "requirement": "eta",
@@ -852,9 +929,16 @@
         "notes": "Entry runs through Israeli border control: this nationality is visa-exempt for Israel but must obtain the ETA-IL electronic travel authorization online before travel — admission (up to 90 days) is at Israel's discretion and covers onward travel to most of the West Bank."
       },
       "SB": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "notes": "Entry is controlled by Israel. This nationality needs an Israeli visa, obtained from an Israeli embassy, to reach the West Bank via Ben Gurion Airport or the Allenby Bridge; the Palestinian Authority issues no visas of its own."
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "notes": "Entry runs through Israeli border control: this nationality is visa-exempt for Israel but must obtain the ETA-IL electronic travel authorization online before travel — admission (up to 90 days) is at Israel's discretion and covers onward travel to most of the West Bank.",
+        "source": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "name": "Israel Population and Immigration Authority — ETA-IL country list (per-nationality visa flag behind the eligibility check at israel-entry.piba.gov.il)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "SO": {
         "requirement": "embassy-visa",
@@ -942,9 +1026,16 @@
         "notes": "Entry is controlled by Israel. This nationality needs an Israeli visa, obtained from an Israeli embassy, to reach the West Bank via Ben Gurion Airport or the Allenby Bridge; the Palestinian Authority issues no visas of its own."
       },
       "TO": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "notes": "Entry is controlled by Israel. This nationality needs an Israeli visa, obtained from an Israeli embassy, to reach the West Bank via Ben Gurion Airport or the Allenby Bridge; the Palestinian Authority issues no visas of its own."
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "notes": "Entry runs through Israeli border control: this nationality is visa-exempt for Israel but must obtain the ETA-IL electronic travel authorization online before travel — admission (up to 90 days) is at Israel's discretion and covers onward travel to most of the West Bank.",
+        "source": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "name": "Israel Population and Immigration Authority — ETA-IL country list (per-nationality visa flag behind the eligibility check at israel-entry.piba.gov.il)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "TT": {
         "requirement": "eta",
@@ -967,9 +1058,16 @@
         "notes": "Entry is controlled by Israel. This nationality needs an Israeli visa, obtained from an Israeli embassy, to reach the West Bank via Ben Gurion Airport or the Allenby Bridge; the Palestinian Authority issues no visas of its own."
       },
       "TV": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "notes": "Entry is controlled by Israel. This nationality needs an Israeli visa, obtained from an Israeli embassy, to reach the West Bank via Ben Gurion Airport or the Allenby Bridge; the Palestinian Authority issues no visas of its own."
+        "requirement": "eta",
+        "maxStayDays": 90,
+        "notes": "Entry runs through Israeli border control: this nationality is visa-exempt for Israel but must obtain the ETA-IL electronic travel authorization online before travel — admission (up to 90 days) is at Israel's discretion and covers onward travel to most of the West Bank.",
+        "source": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "name": "Israel Population and Immigration Authority — ETA-IL country list (per-nationality visa flag behind the eligibility check at israel-entry.piba.gov.il)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "UG": {
         "requirement": "embassy-visa",
@@ -1007,14 +1105,28 @@
         "notes": "Entry is controlled by Israel. This nationality needs an Israeli visa, obtained from an Israeli embassy, to reach the West Bank via Ben Gurion Airport or the Allenby Bridge; the Palestinian Authority issues no visas of its own."
       },
       "VU": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "notes": "Entry is controlled by Israel. This nationality needs an Israeli visa, obtained from an Israeli embassy, to reach the West Bank via Ben Gurion Airport or the Allenby Bridge; the Palestinian Authority issues no visas of its own."
-      },
-      "VA": {
         "requirement": "eta",
         "maxStayDays": 90,
-        "notes": "Entry runs through Israeli border control: this nationality is visa-exempt for Israel but must obtain the ETA-IL electronic travel authorization online before travel — admission (up to 90 days) is at Israel's discretion and covers onward travel to most of the West Bank."
+        "notes": "Entry runs through Israeli border control: this nationality is visa-exempt for Israel but must obtain the ETA-IL electronic travel authorization online before travel — admission (up to 90 days) is at Israel's discretion and covers onward travel to most of the West Bank.",
+        "source": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "name": "Israel Population and Immigration Authority — ETA-IL country list (per-nationality visa flag behind the eligibility check at israel-entry.piba.gov.il)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
+      },
+      "VA": {
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "notes": "Entry is controlled by Israel. This nationality needs an Israeli visa, obtained from an Israeli embassy, to reach the West Bank via Ben Gurion Airport or the Allenby Bridge; the Palestinian Authority issues no visas of its own.",
+        "source": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "name": "Israel Population and Immigration Authority — ETA-IL country list (per-nationality visa flag behind the eligibility check at israel-entry.piba.gov.il)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "VE": {
         "requirement": "embassy-visa",

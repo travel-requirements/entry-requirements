@@ -30,7 +30,7 @@
   ],
   "summary": "Russia issues a unified 30-day eVisa to citizens of some 60 countries including most of the EU, admits CIS neighbors and much of Latin America and the Gulf visa-free, and requires an embassy visa from US, UK, Canadian and Australian travelers. Note that most Western governments currently advise against all travel to Russia.",
   "meta": {
-    "lastUpdated": "2026-10-02",
+    "lastUpdated": "2026-10-03",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -49,12 +49,10 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://evisa.kdmid.ru/",
-      "name": "Russian MFA Consular Department — unified e-visa portal",
+      "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+      "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
       "type": "government",
-      "lastVerified": "2026-09-26",
-      "archiveUrl": "https://web.archive.org/web/20260805105339/https://evisa.kdmid.ru/",
-      "lastChanged": "2026-09-26"
+      "lastVerified": "2026-10-03"
     },
     "byPassport": {
       "AF": {
@@ -82,12 +80,16 @@
         "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
       },
       "AD": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "unified-evisa"
-        ],
-        "notes": "Eligible for the unified eVisa. Apply online at evisa.kdmid.ru. Single entry, valid 120 days from issue for a stay of up to 30 days, usable only at approved border crossings. The day of arrival and the day of departure each count as a day of the stay."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days on any passport, per the Russian MFA Consular Department's visa-regime table (as of September 2026).",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "AO": {
         "requirement": "embassy-visa",
@@ -134,9 +136,19 @@
         "notes": "Visa-free under CIS/EAEU arrangements — up to 90 days within any 180-day period."
       },
       "BS": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free under a bilateral agreement — typically up to 90 days within any 180-day period; confirm the exact allowance with a Russian consulate before a long stay."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": "A visa is required on all passports, per the Russian MFA Consular Department's visa-regime table (as of September 2026). The Bahamas is not on the unified eVisa list, so apply at a Russian consulate.",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "BH": {
         "requirement": "evisa",
@@ -176,12 +188,16 @@
         "notes": "Eligible for the unified eVisa. Apply online at evisa.kdmid.ru. Single entry, valid 120 days from issue for a stay of up to 30 days, usable only at approved border crossings. The day of arrival and the day of departure each count as a day of the stay."
       },
       "BZ": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days on any passport, per the Russian MFA Consular Department's visa-regime table (as of September 2026).",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "BJ": {
         "requirement": "embassy-visa",
@@ -210,12 +226,16 @@
         "notes": "Visa-free for up to 30 days per visit under a bilateral agreement."
       },
       "BW": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
+        "requirement": "visa-free",
+        "maxStayDays": 30,
+        "notes": "Visa-free on ordinary passports for up to 30 days, per the Russian MFA Consular Department's visa-regime table (as of September 2026).",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "BR": {
         "requirement": "visa-free",
@@ -223,12 +243,16 @@
         "notes": "Visa-free under a bilateral agreement — typically up to 90 days within any 180-day period; confirm the exact allowance with a Russian consulate before a long stay."
       },
       "BN": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
+        "requirement": "visa-free",
+        "maxStayDays": 14,
+        "notes": "Visa-free for up to 14 days on any passport, per the Russian MFA Consular Department's visa-regime table (as of September 2026).",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "BG": {
         "requirement": "evisa",
@@ -255,12 +279,16 @@
         "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
       },
       "CV": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
+        "requirement": "visa-free",
+        "maxStayDays": 60,
+        "notes": "Visa-free on ordinary passports for up to 60 days, per the Russian MFA Consular Department's visa-regime table (as of September 2026).",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "KH": {
         "requirement": "evisa",
@@ -326,12 +354,16 @@
         "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
       },
       "CR": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days on any passport, per the Russian MFA Consular Department's visa-regime table (as of September 2026).",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "CI": {
         "requirement": "embassy-visa",
@@ -395,17 +427,28 @@
         "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
       },
       "DM": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days on any passport, per the Russian MFA Consular Department's visa-regime table (as of September 2026).",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "DO": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free under a bilateral agreement — typically up to 90 days within any 180-day period; confirm the exact allowance with a Russian consulate before a long stay."
+        "maxStayDays": 60,
+        "notes": "Visa-free on ordinary passports for up to 60 days, per the Russian MFA Consular Department's visa-regime table (as of September 2026).",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "EC": {
         "requirement": "visa-free",
@@ -466,12 +509,16 @@
         "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
       },
       "FJ": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days on any passport, per the Russian MFA Consular Department's visa-regime table (as of September 2026).",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "FI": {
         "requirement": "evisa",
@@ -666,12 +713,16 @@
         "notes": "Eligible for the unified eVisa. Apply online at evisa.kdmid.ru. Single entry, valid 120 days from issue for a stay of up to 30 days, usable only at approved border crossings. The day of arrival and the day of departure each count as a day of the stay."
       },
       "JO": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "unified-evisa"
-        ],
-        "notes": "Eligible for the unified eVisa. Apply online at evisa.kdmid.ru. Single entry, valid 120 days from issue for a stay of up to 30 days, usable only at approved border crossings. The day of arrival and the day of departure each count as a day of the stay."
+        "notes": "Visa-free on ordinary passports for up to 30 days, per the Russian MFA Consular Department's visa-regime table (as of September 2026). The unified eVisa (up to 30 days) is also open to this nationality.",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "KZ": {
         "requirement": "visa-free",
@@ -713,12 +764,16 @@
         "notes": "Visa-free under CIS/EAEU arrangements — up to 90 days within any 180-day period."
       },
       "LA": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
+        "requirement": "visa-free",
+        "maxStayDays": 30,
+        "notes": "Visa-free for up to 30 days on any passport, per the Russian MFA Consular Department's visa-regime table (as of September 2026).",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "LV": {
         "requirement": "evisa",
@@ -814,12 +869,16 @@
         "notes": "Eligible for the unified eVisa. Apply online at evisa.kdmid.ru. Single entry, valid 120 days from issue for a stay of up to 30 days, usable only at approved border crossings. The day of arrival and the day of departure each count as a day of the stay."
       },
       "MV": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days on any passport, per the Russian MFA Consular Department's visa-regime table (as of September 2026).",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "ML": {
         "requirement": "embassy-visa",
@@ -854,12 +913,16 @@
         "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
       },
       "MU": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
+        "requirement": "visa-free",
+        "maxStayDays": 60,
+        "notes": "Visa-free for up to 60 days on any passport, per the Russian MFA Consular Department's visa-regime table (as of September 2026).",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "MX": {
         "requirement": "evisa",
@@ -917,28 +980,40 @@
         "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
       },
       "MM": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "unified-evisa"
-        ],
-        "notes": "Eligible for the unified eVisa. Apply online at evisa.kdmid.ru. Single entry, valid 120 days from issue for a stay of up to 30 days, usable only at approved border crossings. The day of arrival and the day of departure each count as a day of the stay."
+        "notes": "Visa-free on ordinary passports for up to 30 days, per the Russian MFA Consular Department's visa-regime table (as of September 2026). The unified eVisa (up to 30 days) is also open to this nationality.",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "NA": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days on any passport, per the Russian MFA Consular Department's visa-regime table (as of September 2026).",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "NR": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
+        "requirement": "visa-free",
+        "maxStayDays": 14,
+        "notes": "Visa-free for up to 14 days, per the Russian MFA Consular Department's visa-regime table (as of September 2026). The table does not limit it to a passport type.",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "NP": {
         "requirement": "embassy-visa",
@@ -994,9 +1069,19 @@
         "notes": "Eligible for the unified eVisa. Apply online at evisa.kdmid.ru. Single entry, valid 120 days from issue for a stay of up to 30 days, usable only at approved border crossings. The day of arrival and the day of departure each count as a day of the stay."
       },
       "MK": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Visa-free under a bilateral arrangement for up to 90 days. Confirm the counting rules (per visit or per 180 days) and any documentation requirements before a long stay."
+        "requirement": "evisa",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "unified-evisa"
+        ],
+        "notes": "A visa is required on all passports, per the Russian MFA Consular Department's visa-regime table (as of September 2026). North Macedonia is on the unified eVisa list (stay up to 30 days). Entry without a visa remains possible with an original invitation issued under Russian law (up to 90 days) or an original tourist voucher with confirmation of reception by a Russian tour operator (up to 30 days).",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "NO": {
         "requirement": "evisa",
@@ -1007,12 +1092,16 @@
         "notes": "Eligible for the unified eVisa. Apply online at evisa.kdmid.ru. Single entry, valid 120 days from issue for a stay of up to 30 days, usable only at approved border crossings. The day of arrival and the day of departure each count as a day of the stay."
       },
       "OM": {
-        "requirement": "evisa",
+        "requirement": "visa-free",
         "maxStayDays": 30,
-        "visaTypes": [
-          "unified-evisa"
-        ],
-        "notes": "Eligible for the unified eVisa. Apply online at evisa.kdmid.ru. Single entry, valid 120 days from issue for a stay of up to 30 days, usable only at approved border crossings. The day of arrival and the day of departure each count as a day of the stay."
+        "notes": "Visa-free on ordinary passports for up to 30 days per visit, and no more than 90 days in total in a calendar year, per the Russian MFA Consular Department's visa-regime table (as of September 2026). The unified eVisa (up to 30 days) is also open to Omani citizens.",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "PK": {
         "requirement": "embassy-visa",
@@ -1023,12 +1112,16 @@
         "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
       },
       "PW": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
+        "requirement": "visa-free",
+        "maxStayDays": 30,
+        "notes": "Visa-free for up to 30 days on any passport, per the Russian MFA Consular Department's visa-regime table (as of September 2026).",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "PS": {
         "requirement": "embassy-visa",
@@ -1133,20 +1226,28 @@
         "notes": "Eligible for the unified eVisa. Apply online at evisa.kdmid.ru. Single entry, valid 120 days from issue for a stay of up to 30 days, usable only at approved border crossings. The day of arrival and the day of departure each count as a day of the stay."
       },
       "VC": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days on any passport, per the Russian MFA Consular Department's visa-regime table (as of September 2026).",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "WS": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
+        "requirement": "visa-free",
+        "maxStayDays": 60,
+        "notes": "Visa-free for up to 60 days on any passport, per the Russian MFA Consular Department's visa-regime table (as of September 2026).",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "SM": {
         "requirement": "evisa",
@@ -1165,12 +1266,16 @@
         "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
       },
       "SA": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "unified-evisa"
-        ],
-        "notes": "Eligible for the unified eVisa. Apply online at evisa.kdmid.ru. Single entry, valid 120 days from issue for a stay of up to 30 days, usable only at approved border crossings. The day of arrival and the day of departure each count as a day of the stay."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free on any passport for up to 90 days since 11 May 2026, per the Russian MFA Consular Department's visa-regime table (as of September 2026). The unified eVisa (up to 30 days) is also open to Saudi citizens.",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "SN": {
         "requirement": "embassy-visa",
@@ -1186,12 +1291,16 @@
         "notes": "Visa-free for up to 30 days per visit under a bilateral agreement."
       },
       "SC": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
+        "requirement": "visa-free",
+        "maxStayDays": 30,
+        "notes": "Visa-free for up to 30 days on any passport, per the Russian MFA Consular Department's visa-regime table (as of September 2026).",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "SL": {
         "requirement": "embassy-visa",
@@ -1379,9 +1488,19 @@
         "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
       },
       "TR": {
-        "requirement": "visa-free",
-        "maxStayDays": 60,
-        "notes": "Visa-free for up to 60 days per visit, within a limit of 90 days in any 180-day period."
+        "requirement": "evisa",
+        "maxStayDays": 30,
+        "visaTypes": [
+          "unified-evisa"
+        ],
+        "notes": "Turkey is on the unified eVisa list (stay up to 30 days). Russia's visa-regime table (as of September 2026) exempts Turkish diplomatic, service and special passports and professional drivers from visas, but lists no exemption for ordinary passports.",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "TM": {
         "requirement": "evisa",
@@ -1444,12 +1563,16 @@
         "notes": "Visa-free under CIS/EAEU arrangements — up to 90 days within any 180-day period."
       },
       "VU": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "A visa from a Russian consulate is required before travel — tourist visas need an invitation or confirmed booking, and this nationality is not eligible for the unified eVisa."
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days on any passport, per the Russian MFA Consular Department's visa-regime table (as of September 2026).",
+        "source": {
+          "url": "https://www.kdmid.ru/cons/visas/conditions-of-entry-foreign-citizens-in-russian-federation/",
+          "name": "Russian MFA Consular Department — Conditions of entry for foreign citizens (per-country visa regime table, as of September 2026)",
+          "type": "government",
+          "lastVerified": "2026-10-03",
+          "lastChanged": "2026-10-03"
+        }
       },
       "VA": {
         "requirement": "evisa",
