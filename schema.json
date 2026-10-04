@@ -4903,35 +4903,42 @@
           "additionalProperties": false
         },
         "payments": {
-          "type": "object",
-          "properties": {
-            "cardsAccepted": {
-              "type": "string",
-              "enum": [
-                "widely",
-                "widely-in-cities",
-                "limited",
-                "rare"
-              ]
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "cardsAccepted": {
+                  "type": "string",
+                  "enum": [
+                    "widely",
+                    "widely-in-cities",
+                    "limited",
+                    "rare"
+                  ]
+                },
+                "cashImportance": {
+                  "type": "string",
+                  "enum": [
+                    "low",
+                    "medium",
+                    "high"
+                  ]
+                },
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "cardsAccepted",
+                "cashImportance",
+                "text"
+              ],
+              "additionalProperties": false
             },
-            "cashImportance": {
-              "type": "string",
-              "enum": [
-                "low",
-                "medium",
-                "high"
-              ]
-            },
-            "text": {
-              "type": "string"
+            {
+              "type": "null"
             }
-          },
-          "required": [
-            "cardsAccepted",
-            "cashImportance",
-            "text"
-          ],
-          "additionalProperties": false
+          ]
         },
         "safety": {
           "type": "object",
@@ -5204,25 +5211,32 @@
           }
         },
         "bestTimeToVisit": {
-          "type": "object",
-          "properties": {
-            "months": {
-              "type": "array",
-              "items": {
-                "type": "integer",
-                "minimum": 1,
-                "maximum": 12
-              }
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "months": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 12
+                  }
+                },
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "months",
+                "text"
+              ],
+              "additionalProperties": false
             },
-            "text": {
-              "type": "string"
+            {
+              "type": "null"
             }
-          },
-          "required": [
-            "months",
-            "text"
-          ],
-          "additionalProperties": false
+          ]
         },
         "languages": {
           "type": "array",
@@ -5234,10 +5248,17 @@
           "type": "string"
         },
         "drivingSide": {
-          "type": "string",
-          "enum": [
-            "left",
-            "right"
+          "anyOf": [
+            {
+              "type": "string",
+              "enum": [
+                "left",
+                "right"
+              ]
+            },
+            {
+              "type": "null"
+            }
           ]
         },
         "roadVignette": {
