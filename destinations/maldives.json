@@ -1733,13 +1733,19 @@
   "entryRequirements": {
     "passportValidity": {
       "rule": "other",
-      "text": "Your passport (or travel document) must be machine-readable and valid for at least 1 month on arrival — though at least 6 months is recommended, as some airlines apply the stricter standard.",
+      "text": "Your passport (or travel document) must be machine-readable and valid for at least 1 month on arrival, according to Maldives Immigration; the UK Foreign Office gives the same 1-month rule. Canada's travel advice asks for 6 months from your date of entry, so check with your airline.",
       "source": {
         "url": "https://immigration.gov.mv/visa/tourist-visa/",
         "name": "Maldives Immigration — Tourist Visa",
         "type": "government",
         "lastVerified": "2026-10-03",
-        "archiveUrl": "https://web.archive.org/web/20260820024401/https://www.immigration.gov.mv/visa/tourist-visa"
+        "archiveUrl": "https://web.archive.org/web/20260820024401/https://www.immigration.gov.mv/visa/tourist-visa",
+        "conflict": {
+          "url": "https://travel.gc.ca/destinations/maldives",
+          "name": "Government of Canada — Maldives travel advice (entry and exit requirements)",
+          "states": "at least 6 months from your date of entry",
+          "resolvedBy": "hierarchy"
+        }
       }
     },
     "vaccinations": [
@@ -1822,7 +1828,8 @@
     "customs": {
       "notes": [
         "The UK Foreign Office says it is illegal to bring in anything deemed contrary to Islam, including idols for worship, bibles, pork and pork products, and alcohol.",
-        "Canada's travel advice says it is illegal to export tortoise shell and coral."
+        "Canada's travel advice says it is illegal to export tortoise shell and coral.",
+        "Australia's Smartraveller says it is illegal to import pornography, alcohol or pork products, though alcohol and pork may be consumed on resort islands."
       ]
     }
   },
@@ -1839,7 +1846,7 @@
     },
     "safety": {
       "level": "generally-safe",
-      "text": "Crime is low on the resort islands, but petty theft happens — do not leave things unattended on the beach or in unlocked rooms. Outside the resorts there is gang-related violence, including knife crime, mainly in Malé and Hulhumalé; avoid empty roads on foot after dark. Strong tidal currents cause drownings, so swim only in supervised or designated areas.",
+      "text": "Crime is low on the resort islands, but petty theft happens — do not leave things unattended on the beach or in unlocked rooms. Outside the resorts there is gang-related violence, including knife crime, mainly in Malé and Hulhumalé; avoid empty roads on foot after dark. Strong tidal currents can drag swimmers away from the shore and cause drownings, so ask resort staff where it is safe to swim.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/maldives/safety-and-security",
         "name": "UK FCDO — Maldives travel advice: safety and security",
@@ -1916,7 +1923,13 @@
         "url": "https://www.gov.uk/foreign-travel-advice/maldives/getting-help",
         "name": "UK Foreign, Commonwealth & Development Office — Maldives travel advice: getting help",
         "type": "government",
-        "lastVerified": "2026-10-04"
+        "lastVerified": "2026-10-04",
+        "conflict": {
+          "url": "https://www.smartraveller.gov.au/destinations/asia/maldives",
+          "name": "Australian Government Smartraveller — Maldives travel advice (local emergency contacts)",
+          "states": "Call 911 for general emergencies, fire and rescue, medical emergencies and police",
+          "resolvedBy": "newer"
+        }
       },
       "drivingSide": {
         "url": "https://travel.gc.ca/destinations/maldives",

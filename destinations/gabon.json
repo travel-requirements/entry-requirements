@@ -2140,14 +2140,20 @@
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
-      "text": "Your passport must be valid for at least 6 months after the date you arrive in Gabon.",
+      "rule": "6-months-beyond-stay",
+      "text": "Your passport must be valid for at least 6 months beyond the date you expect to leave Gabon.",
       "source": {
-        "url": "https://www.gov.uk/foreign-travel-advice/gabon/entry-requirements",
-        "name": "UK FCDO — Gabon travel advice (entry requirements)",
+        "url": "https://travel.gc.ca/destinations/gabon",
+        "name": "Government of Canada — Gabon travel advice (entry and exit requirements)",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-04",
+        "lastChanged": "2026-10-04",
+        "conflict": {
+          "url": "https://www.gov.uk/foreign-travel-advice/gabon/entry-requirements",
+          "name": "UK FCDO — Gabon travel advice (entry requirements)",
+          "states": "at least 6 months after the date you arrive",
+          "resolvedBy": "newer"
+        }
       }
     },
     "vaccinations": [
@@ -2257,7 +2263,9 @@
       }
     },
     "emergency": {
-      "police": "177"
+      "police": "177",
+      "ambulance": "117",
+      "fire": "177"
     },
     "bestTimeToVisit": {
       "months": [
@@ -2276,16 +2284,10 @@
     "tapWaterSafe": false,
     "sources": {
       "emergency": {
-        "url": "https://travel.gc.ca/destinations/gabon",
-        "name": "Government of Canada — Gabon travel advice: emergency assistance",
+        "url": "https://www.gov.uk/foreign-travel-advice/gabon/getting-help",
+        "name": "UK Foreign, Commonwealth & Development Office — Gabon travel advice: getting help",
         "type": "government",
-        "lastVerified": "2026-10-04",
-        "conflict": {
-          "url": "https://www.gov.uk/foreign-travel-advice/gabon/getting-help",
-          "name": "UK Foreign, Commonwealth & Development Office — Gabon travel advice: getting help",
-          "states": "ambulance 117, fire 177, police 177",
-          "resolvedBy": "newer"
-        }
+        "lastVerified": "2026-10-04"
       },
       "languages": {
         "url": "https://www.wipo.int/wipolex/en/legislation/details/22730",

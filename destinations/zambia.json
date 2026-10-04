@@ -2007,7 +2007,7 @@
     },
     "emergency": {
       "police": "991",
-      "ambulance": "992",
+      "ambulance": "991 or 995",
       "fire": "993"
     },
     "bestTimeToVisit": {
@@ -2029,10 +2029,17 @@
     "tapWaterSafe": false,
     "sources": {
       "emergency": {
-        "url": "https://www.gov.uk/foreign-travel-advice/zambia/getting-help",
-        "name": "UK Foreign, Commonwealth & Development Office — Zambia travel advice: getting help (emergency services)",
+        "url": "https://travel.gc.ca/destinations/zambia",
+        "name": "Government of Canada — Zambia travel advice and advisories (last updated 9 September 2026)",
         "type": "government",
-        "lastVerified": "2026-10-04"
+        "lastVerified": "2026-10-04",
+        "lastChanged": "2026-10-04",
+        "conflict": {
+          "url": "https://www.gov.uk/foreign-travel-advice/zambia/getting-help",
+          "name": "UK Foreign, Commonwealth & Development Office — Zambia travel advice: getting help (updated 1 June 2026)",
+          "states": "Ambulance: 992 (police 991 and fire 993 agree)",
+          "resolvedBy": "newer"
+        }
       },
       "drivingSide": {
         "url": "https://travel.gc.ca/destinations/zambia",
