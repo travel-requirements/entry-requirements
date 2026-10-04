@@ -1945,9 +1945,7 @@
         }
       },
       "notes": [
-        "Quarantine rules are strict: fresh food, seeds, plants and animal products are generally prohibited.",
-        "Firearms, ammunition and offensive weapons require prior authorization and are otherwise banned.",
-        "Duty-free allowances for alcohol and tobacco are small and enforced. Declare anything above them."
+        "The UK FCDO says there are controls on taking plants or animals into Nauru; check the Department of Justice quarantine division (justice.gov.nr) before you pack any."
       ]
     }
   },
@@ -1960,7 +1958,7 @@
     "payments": {
       "cardsAccepted": "rare",
       "cashImportance": "high",
-      "text": "Nauru runs on Australian dollars in cash. Card acceptance is close to non-existent outside the main hotel, ATMs are unreliable or absent, and there is no way to withdraw money if you arrive empty-handed. Bring all the cash you will need."
+      "text": "The UK FCDO says credit cards are not accepted and there is only one ATM on the island, at the Menen Hotel, which is often out of cash — take enough Australian dollars in cash for your trip. (The Government of Canada says most establishments accept credit cards; we show the stricter advice.)"
     },
     "safety": {
       "level": "generally-safe",
@@ -1978,7 +1976,18 @@
         "I"
       ],
       "voltage": 240,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
       "police": "110",
@@ -1987,14 +1996,13 @@
     },
     "bestTimeToVisit": {
       "months": [
-        5,
         6,
         7,
         8,
         9,
         10
       ],
-      "text": "May to October is drier and less humid. The November-to-February wet season brings heavy downpours, and the island is hot and humid all year."
+      "text": "No official seasonal guidance. The UK FCDO says the rainy season runs from November to May, with a risk of strong winds, sea swells and tropical cyclones, and that Nauru suffers periods of severe drought."
     },
     "languages": [
       "Nauruan",
@@ -2002,7 +2010,45 @@
     ],
     "timezone": "UTC+12",
     "drivingSide": "left",
-    "tapWaterSafe": false
+    "tapWaterSafe": null,
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/nauru/getting-help",
+        "name": "UK FCDO — Nauru travel advice (Getting help)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "drivingSide": {
+        "url": "https://travel.gc.ca/destinations/nauru",
+        "name": "Government of Canada — Nauru travel advice (Driving)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://www.gov.uk/foreign-travel-advice/nauru/safety-and-security",
+        "name": "UK FCDO — Nauru travel advice (Safety and security) — Money",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "conflict": {
+          "url": "https://travel.gc.ca/destinations/nauru",
+          "name": "Government of Canada — Nauru travel advice (Money)",
+          "states": "Most establishments accept credit cards. There are a few ATMs.",
+          "resolvedBy": "stricter"
+        }
+      },
+      "bestTimeToVisit": {
+        "url": "https://www.gov.uk/foreign-travel-advice/nauru/safety-and-security",
+        "name": "UK FCDO — Nauru travel advice (Safety and security)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/nauru",
+        "name": "Government of Canada — Nauru travel advice (Money)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      }
+    }
   },
   "tips": [
     {
@@ -2011,24 +2057,14 @@
       "text": "Start the visa process at least a month ahead. Nauru publishes no processing time, and unless your nationality is one of the few the regulations let apply on arrival there is nothing to fall back on — travelers are refused boarding without an approved visa."
     },
     {
-      "id": "flights",
-      "type": "info",
-      "text": "Nauru Airlines is effectively the only way in, flying a handful of times a week from Brisbane and around the Pacific via Tarawa, Honiara, Majuro and Nadi. A missed flight can mean several extra days on the island."
-    },
-    {
       "id": "cash-only",
       "type": "warning",
-      "text": "Bring Australian dollars in cash for the whole trip. Assume no working ATM and no card payments."
+      "text": "Bring Australian dollars in cash for the whole trip: the UK FCDO says credit cards are not accepted and the island's only ATM, at the Menen Hotel, is often out of cash."
     },
     {
       "id": "accommodation",
       "type": "info",
-      "text": "Rooms are scarce — the Menen Hotel and a few guesthouses cover the whole island, so book well ahead. The visa form asks for your proposed address in Nauru."
-    },
-    {
-      "id": "photography",
-      "type": "warning",
-      "text": "Do not photograph government buildings, the airport, the port or the former asylum-seeker processing facilities, and ask before photographing people. Cameras have been confiscated for less."
+      "text": "The visa application form asks for your proposed address in Nauru, so arrange accommodation before you apply."
     }
   ],
   "faq": [
@@ -2050,12 +2086,12 @@
     {
       "id": "money",
       "question": "What currency does Nauru use and can I pay by card?",
-      "answer": "Nauru uses the Australian dollar and is a cash economy. Card acceptance is rare and ATMs cannot be relied on, so bring enough Australian dollars in cash to cover accommodation, food, transport and any fees."
+      "answer": "Nauru uses the Australian dollar. The UK FCDO says credit cards are not accepted and there is only one ATM, at the Menen Hotel, which is often out of cash, so bring enough Australian dollars in cash for your whole trip. (The Government of Canada says most establishments accept cards; we show the stricter advice.)"
     },
     {
       "id": "worth-it",
       "question": "Is Nauru safe for visitors?",
-      "answer": "Generally, yes. Violent crime against visitors is rare, but the island has limited medical facilities, few emergency services and a serious road-accident risk on the ring road. Take out insurance with medical evacuation coverage and avoid alcohol-fueled situations at night."
+      "answer": "The Government of Canada says the crime rate is low, though petty crime such as pickpocketing may occur. The UK FCDO says medical facilities are very basic and you may need evacuation to Australia by air ambulance, so take out insurance that covers medical evacuation."
     }
   ]
 }

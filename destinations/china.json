@@ -2124,9 +2124,9 @@
         }
       },
       "notes": [
-        "Fingerprints are collected from most foreign nationals aged 14–70 on arrival.",
-        "Duty-free allowance for visitors: 400 cigarettes and 1.5 liters of alcohol (over 12% vol).",
-        "Printed or digital material deemed harmful to China's political interests can be confiscated; drones and satellite communication equipment may require registration."
+        "Canada's travel advice says Chinese immigration officials take and keep the fingerprints of travellers aged 14 to 70 on entry, with some exceptions.",
+        "Canada's travel advice says there are absolute prohibitions on importing arms, drugs, and plant or animal products that could carry disease or pests, and restrictions on printed material, film, photos and recordings considered detrimental to China's interests.",
+        "The UK Foreign Office says the import, possession and use of drones are strictly regulated; contact the Civil Aviation Administration of China before travel."
       ]
     }
   },
@@ -2139,7 +2139,7 @@
     "payments": {
       "cardsAccepted": "limited",
       "cashImportance": "medium",
-      "text": "Mobile payment via Alipay and WeChat Pay dominates — both now let foreign visitors link international Visa/Mastercard cards, which is the single most useful thing to set up before arrival. Foreign cards are rarely accepted directly at the point of sale, and cash acceptance is patchy outside banks and larger shops."
+      "text": "The UK Foreign Office says cashless payments through apps such as WeChat or Alipay are almost universal, and that outside major cities credit cards are not always accepted and ATMs are limited. Canada's travel advice says these platforms let foreign travellers link an international credit card, that international cards are accepted in many hotels and larger establishments but not universally, and that using foreign currency for everyday transactions is illegal."
     },
     "safety": {
       "level": "generally-safe",
@@ -2155,11 +2155,22 @@
     "plugs": {
       "types": [
         "A",
-        "C",
         "I"
       ],
       "voltage": 220,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        },
+        "lastChanged": "2026-10-04"
+      }
     },
     "emergency": {
       "police": "110",
@@ -2174,30 +2185,73 @@
         9,
         10
       ],
-      "text": "April–May and September–October offer the most comfortable weather across most of the country; summer is hot and rainy, and northern winters are harsh."
+      "text": "No official source we could read gives a best time to visit China. The UK Foreign Office says the typhoon season normally runs from May to November, affecting southern and eastern coastal regions, and that flooding and storms are common in those months."
     },
     "languages": [
       "Mandarin Chinese"
     ],
     "timezone": "UTC+8",
     "drivingSide": "right",
-    "tapWaterSafe": false
+    "tapWaterSafe": false,
+    "sources": {
+      "emergency": {
+        "url": "https://travel.gc.ca/destinations/china",
+        "name": "Government of Canada — China travel advice: emergency assistance",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://www.cia.gov/the-world-factbook/countries/china/",
+        "name": "CIA World Factbook — China: languages (Factbook discontinued in 2026; cited from its archived copy)",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260117040844/https://www.cia.gov/the-world-factbook/page-data/countries/china/page-data.json",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/china",
+        "name": "Government of Canada — China travel advice: laws and culture: money",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "tapWaterSafe": {
+        "url": "https://www.gov.uk/foreign-travel-advice/china/health",
+        "name": "UK Foreign, Commonwealth & Development Office — China travel advice: health",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://www.gov.uk/foreign-travel-advice/china/safety-and-security",
+        "name": "UK Foreign, Commonwealth & Development Office — China travel advice: safety and security: money",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://www.gov.uk/foreign-travel-advice/china/safety-and-security",
+        "name": "UK Foreign, Commonwealth & Development Office — China travel advice: safety and security: extreme weather",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      }
+    }
   },
   "tips": [
     {
       "id": "mobile-payments",
       "type": "tip",
-      "text": "Install Alipay or WeChat Pay and link your international card before you fly — most shops, taxis and even street vendors expect QR-code payment, and foreign cards rarely work at the register."
+      "text": "Canada's travel advice says major Chinese payment platforms let foreign travellers link an international credit card and pay by scanning QR codes in shops, restaurants, taxis and on public transport; the UK Foreign Office says such app payments are almost universal. Set one up before you travel, following the platform's official instructions."
     },
     {
       "id": "hotel-registration",
       "type": "warning",
-      "text": "All foreigners must be registered with the police within 24 hours of arrival. Hotels do this automatically; if you stay in a private home, you must register at the local police station yourself."
+      "text": "The UK Foreign Office and Canada say you must register your place of residence with the local Public Security Bureau within 24 hours of arrival. Hotels do it at check-in; if you stay in a private home you must register yourself. Canada says failure can lead to fines or detention."
     },
     {
       "id": "internet-apps",
       "type": "info",
-      "text": "Many international apps and websites (Google services, WhatsApp, Instagram and others) are blocked in mainland China. Download essential apps, offline maps and translation packs before arrival."
+      "text": "The UK Foreign Office says the Chinese authorities control internet access and some services are permanently blocked, including Google, Facebook, YouTube and X; others may sometimes be blocked. It adds that VPNs must be licensed by the Chinese government."
     },
     {
       "id": "transit-240h",
@@ -2224,12 +2278,12 @@
     {
       "id": "payments-work",
       "question": "Can I pay with my foreign card in China?",
-      "answer": "Rarely at the register — China runs on Alipay and WeChat Pay QR payments. Both apps accept international Visa and Mastercard cards for foreign visitors, so set one up before traveling. Keep some cash as a backup; larger banks' ATMs accept foreign cards."
+      "answer": "Not everywhere. Canada's travel advice says international credit cards are accepted in many hotels and larger establishments but not universally, and that major payment platforms let foreign travellers link an international card to pay by QR code. The UK Foreign Office says outside major cities cards are not always accepted and ATMs are limited."
     },
     {
       "id": "hotel-registration",
       "question": "Do I have to register with the police in China?",
-      "answer": "Yes. Every foreigner must have their accommodation registered with the local police within 24 hours of arrival. Hotels handle it during check-in; guests staying in private homes or short-term rentals must go to the nearest police station with their host to register."
+      "answer": "Yes. The UK Foreign Office and Canada say you must register your place of residence with the local Public Security Bureau within 24 hours of arrival. Hotels do this at check-in; if you stay with family or friends in a private home you must register yourself, and Canada says failure can result in fines or detention."
     }
   ]
 }

@@ -1519,11 +1519,7 @@
             "reason": "unreachable"
           }
         }
-      },
-      "notes": [
-        "Duty-free allowances broadly follow European norms (200 cigarettes, 1 liter of spirits). Declare anything beyond personal use.",
-        "Taking convertible marks (BAM) out of the country is pointless. The currency is essentially non-exchangeable abroad, so spend or exchange before leaving."
-      ]
+      }
     }
   },
   "countryFacts": {
@@ -1533,9 +1529,9 @@
       "symbol": "KM"
     },
     "payments": {
-      "cardsAccepted": "widely-in-cities",
-      "cashImportance": "medium",
-      "text": "The convertible mark is pegged to the euro at 1.95583 KM. Cards work in city hotels, supermarkets and most Sarajevo and Mostar restaurants, but keep cash for cafés, taxis, markets and anywhere rural — euros are often informally accepted for round sums."
+      "cardsAccepted": "limited",
+      "cashImportance": "high",
+      "text": "The Government of Canada says the economy is primarily cash-based, ATMs are limited in rural areas and credit card payment is not always accepted. Australia's Smartraveller says ATMs are found in major centres and card use is increasing, but you may still need cash in some areas."
     },
     "safety": {
       "level": "generally-safe",
@@ -1554,12 +1550,24 @@
         "F"
       ],
       "voltage": 230,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
       "general": "112",
       "police": "122",
-      "ambulance": "124"
+      "ambulance": "124",
+      "fire": "123"
     },
     "bestTimeToVisit": {
       "months": [
@@ -1569,16 +1577,16 @@
         8,
         9
       ],
-      "text": "May–September is best for Sarajevo, Mostar and rafting on the Neretva and Una rivers; winter brings inexpensive skiing on the 1984 Olympic mountains of Jahorina and Bjelašnica."
+      "text": "No official seasonal guidance. The UK FCDO notes that winter tyres and snow chains are required from November to April, and that wildfires are possible from April to October."
     },
     "languages": [
       "Bosnian",
       "Croatian",
       "Serbian"
     ],
-    "timezone": "UTC+1",
+    "timezone": "UTC+1 (UTC+2 in summer)",
     "drivingSide": "right",
-    "tapWaterSafe": true,
+    "tapWaterSafe": null,
     "driving": {
       "idp": {
         "required": null,
@@ -1610,23 +1618,55 @@
         "instrument": "Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://travel.gc.ca/destinations/bosnia-and-herzegovina",
+        "name": "Government of Canada — Bosnia and Herzegovina travel advice (Local services)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://assets.publishing.service.gov.uk/media/6512a00cb23dad0012e70609/Bosnia_and_Herzegovina_Toponymic_factfile.pdf",
+        "name": "UK Permanent Committee on Geographical Names (PCGN) — Bosnia and Herzegovina toponymic factfile",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://travel.gc.ca/destinations/bosnia-and-herzegovina",
+        "name": "Government of Canada — Bosnia and Herzegovina travel advice (Money)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://www.gov.uk/foreign-travel-advice/bosnia-and-herzegovina/safety-and-security",
+        "name": "UK FCDO — Bosnia and Herzegovina travel advice (Safety and security)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://www.smartraveller.gov.au/destinations/europe/bosnia-and-herzegovina",
+        "name": "Australian Government Smartraveller — Bosnia and Herzegovina travel advice",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      }
     }
   },
   "tips": [
     {
       "id": "landmines",
       "type": "warning",
-      "text": "Unexploded landmines from the 1990s war remain in remote rural and mountain areas. Stick to paved roads, marked trails and well-trodden paths, and never touch suspicious objects or enter taped-off areas."
+      "text": "The UK FCDO says landmines and other unexploded weapons remain from the 1992–1995 war, mainly in less populated and rural areas. Do not step off roads and paved areas without an experienced guide."
     },
     {
       "id": "register-48h",
       "type": "info",
-      "text": "If you stay more than three days, your stay must be registered with the authorities within 48 hours of arrival. Hotels do it automatically; if you are staying in a private apartment, make sure your host registers you — checks can happen on departure."
+      "text": "Foreign visitors must register with the police soon after arrival — within 72 hours according to the UK FCDO, or within 48 hours for stays of 3 days or more according to the Government of Canada. Hotels usually register their guests; otherwise go to the nearest office of the Service for Foreigners' Affairs."
     },
     {
       "id": "cash-rural",
       "type": "tip",
-      "text": "Carry convertible marks (KM) in cash outside the main cities. Many cafés, taxis and rural guesthouses do not take cards, and KM cannot realistically be exchanged once you leave the country."
+      "text": "Carry convertible marks in cash outside the main cities: the Government of Canada says the economy is primarily cash-based and ATMs are limited in rural areas."
     },
     {
       "id": "schengen-visa-route",
@@ -1653,17 +1693,17 @@
     {
       "id": "currency",
       "question": "What currency is used in Bosnia and Herzegovina?",
-      "answer": "The convertible mark (BAM, written KM), pegged to the euro at 1.95583 KM per euro. Cards are fine in city establishments, but carry cash elsewhere, and spend or exchange your marks before leaving, as they are hard to exchange abroad."
+      "answer": "The convertible mark (BAM, written KM). The Government of Canada says the economy is primarily cash-based and ATMs are limited in rural areas, so carry cash outside the cities."
     },
     {
       "id": "safety-mines",
       "question": "Is Bosnia and Herzegovina safe to visit?",
-      "answer": "Yes — cities like Sarajevo and Mostar are safe, with low violent crime. The one serious hazard is leftover landmines in remote rural areas: stay on paved roads and marked trails, and heed local warning signs when hiking."
+      "answer": "The UK FCDO warns of pickpockets and bag-snatchers in the tourist areas of Sarajevo and other cities, and says landmines and other unexploded weapons remain from the 1992–1995 war in less populated and rural areas. Do not step off roads and paved areas without an experienced guide."
     },
     {
       "id": "schengen-days",
       "question": "Do days in Bosnia count against the Schengen 90/180 limit?",
-      "answer": "No. Bosnia and Herzegovina is outside the EU and Schengen, so time spent there does not use up your Schengen allowance — many long-term travelers alternate between Croatia and Bosnia for this reason."
+      "answer": "No. Bosnia and Herzegovina is outside the EU and Schengen, so time spent there does not use up your Schengen allowance."
     }
   ]
 }

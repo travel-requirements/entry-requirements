@@ -1698,8 +1698,7 @@
         }
       },
       "notes": [
-        "Duty-free from outside the EU: 200 cigarettes, 1 liter of spirits, goods up to €300 (€430 arriving by air/sea).",
-        "No limits on goods for personal use when arriving from another EU country."
+        "The UK FCDO says you cannot take meat, milk or products containing them into EU countries, with some exceptions such as powdered baby milk, baby food and special foods or pet feed required for medical reasons."
       ]
     }
   },
@@ -1710,9 +1709,9 @@
       "symbol": "€"
     },
     "payments": {
-      "cardsAccepted": "widely",
-      "cashImportance": "low",
-      "text": "Cards, contactless and the local MB Way app are accepted almost everywhere. Some small cafés, taxis and rural shops still prefer cash."
+      "cardsAccepted": "widely-in-cities",
+      "cashImportance": "medium",
+      "text": "Australia's Smartraveller says foreign bank cards may not be accepted in smaller shops, restaurants, towns or rural areas, but can be used at larger hotels and shopping centres. The Government of Canada adds that international cards are not always accepted for motorway tolls."
     },
     "safety": {
       "level": "very-safe",
@@ -1731,7 +1730,18 @@
         "F"
       ],
       "voltage": 230,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
       "general": "112"
@@ -1744,12 +1754,12 @@
         9,
         10
       ],
-      "text": "April–June and September–October bring warm, dry weather without the August crowds; the Algarve stays mild even in winter."
+      "text": "No official seasonal guidance. The UK FCDO notes a risk of higher than normal temperatures in summer and an increased risk of wildfires from April to October."
     },
     "languages": [
       "Portuguese"
     ],
-    "timezone": "UTC+0",
+    "timezone": "UTC-1 to UTC+0 (some areas observe summer time)",
     "drivingSide": "right",
     "tapWaterSafe": true,
     "driving": {
@@ -1784,6 +1794,44 @@
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/portugal/getting-help",
+        "name": "UK FCDO — Portugal travel advice (Getting help)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://assets.publishing.service.gov.uk/media/6ab67f0f997a4b2950ccef43/Portugal_Toponymic_Factfile.pdf",
+        "name": "UK Permanent Committee on Geographical Names (PCGN) — Portugal toponymic factfile",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://www.smartraveller.gov.au/destinations/europe/portugal",
+        "name": "Australian Government Smartraveller — Portugal travel advice (Money)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://www.gov.uk/foreign-travel-advice/portugal/safety-and-security",
+        "name": "UK FCDO — Portugal travel advice (Safety and security)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/portugal",
+        "name": "Government of Canada — Portugal travel advice (Money)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "tapWaterSafe": {
+        "url": "https://environment.ec.europa.eu/topics/water/drinking-water_en",
+        "name": "European Commission — Drinking water",
+        "type": "igo",
+        "lastVerified": "2026-10-04"
+      }
     }
   },
   "tips": [
@@ -1795,12 +1843,12 @@
     {
       "id": "lisbon-pickpockets",
       "type": "tip",
-      "text": "Watch valuables on Lisbon's tram 28 and at crowded miradouros — pickpocketing is the most common tourist crime."
+      "text": "The Government of Canada says pickpocketing and bag snatching are common in Lisbon and Porto, and advises extra caution on Lisbon's trams 15, 25 and 28."
     },
     {
       "id": "electronic-tolls",
       "type": "warning",
-      "text": "Several Portuguese motorways use electronic-only tolls with no cash booths. Rent a transponder with your rental car or register your plate online before driving."
+      "text": "The Government of Canada says most Portuguese highways require tolls, you may need to pay electronically, and international cards are not always accepted. Check how to pay before you drive (portugaltolls.com), and use the Toll Payment Portal if you think you used a toll road without paying."
     },
     {
       "id": "etias-scams",

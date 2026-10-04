@@ -1559,8 +1559,8 @@
         }
       },
       "notes": [
-        "Duty-free from outside the EU: 200 cigarettes, 1 liter of spirits, goods up to €300 (€430 arriving by air/sea).",
-        "No limits on goods for personal use when arriving from another EU country."
+        "Duty-free from outside the EU: 200 cigarettes, 1 litre of spirits (or 2 litres of fortified or sparkling wine), 4 litres of still wine and 16 litres of beer, plus other goods up to €300 (€430 arriving by air or sea), according to the EU's Your Europe guidance.",
+        "Between EU countries, alcohol and tobacco bought for your own use are not taxed again; customs may use guide levels such as 800 cigarettes or 10 litres of spirits to judge whether goods are for personal use."
       ]
     }
   },
@@ -1573,7 +1573,7 @@
     "payments": {
       "cardsAccepted": "widely",
       "cashImportance": "low",
-      "text": "Cards and contactless are accepted practically everywhere; cash is rarely needed beyond small tips and the occasional market stall."
+      "text": "No official source we could read describes card acceptance in Luxembourg."
     },
     "safety": {
       "level": "very-safe",
@@ -1592,7 +1592,18 @@
         "F"
       ],
       "voltage": 230,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
       "general": "112",
@@ -1607,14 +1618,14 @@
         9,
         12
       ],
-      "text": "May to September is best for the capital's old town, the Mullerthal trails and the Moselle wine villages; December adds Christmas markets. Winters are gray but mild."
+      "text": "No official source we could read gives a best time to visit Luxembourg."
     },
     "languages": [
       "Luxembourgish",
       "French",
       "German"
     ],
-    "timezone": "UTC+1",
+    "timezone": "UTC+1 (UTC+2 in summer)",
     "drivingSide": "right",
     "tapWaterSafe": true,
     "driving": {
@@ -1649,28 +1660,49 @@
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/luxembourg/getting-help",
+        "name": "UK Foreign, Commonwealth & Development Office — Luxembourg travel advice: getting help",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://guichet.public.lu/en/citoyens/justice/voies-recours-reglement-litiges/frais-avocat-justice/langues-tribunaux.html",
+        "name": "Guichet.lu (Government of Luxembourg) — Use of languages in the Luxembourg courts: the country's 3 official languages",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://european-union.europa.eu/institutions-law-budget/euro/design_en",
+        "name": "European Union — The euro: design and the € symbol",
+        "type": "igo",
+        "lastVerified": "2026-10-04"
+      },
+      "tapWaterSafe": {
+        "url": "https://environment.ec.europa.eu/topics/water/drinking-water_en",
+        "name": "European Commission — Drinking water",
+        "type": "igo",
+        "lastVerified": "2026-10-04"
+      }
     }
   },
   "tips": [
     {
       "id": "free-transport",
       "type": "tip",
-      "text": "All public transport in Luxembourg — buses, trams and 2nd-class trains — has been free nationwide since 2020. No ticket is needed; just board."
+      "text": "Guichet.lu, the government's information portal, says public transport is free in 2nd class for domestic journeys; first-class and cross-border journeys are partly or fully charged."
     },
     {
       "id": "languages",
       "type": "info",
-      "text": "Luxembourgish, French and German are all official languages; French dominates in shops and restaurants, and English is widely spoken in the capital."
-    },
-    {
-      "id": "schengen-village",
-      "type": "info",
-      "text": "The village of Schengen, where the 1985 agreement was signed, sits in Luxembourg's Moselle wine region — the European Museum there makes an easy half-day trip from the capital."
+      "text": "Guichet.lu says Luxembourg has 3 official languages — Luxembourgish, French and German — and that laws and legal deeds are written in French."
     },
     {
       "id": "etias-scams",
       "type": "tip",
-      "text": "Apply for ETIAS only at the official travel-europe.europa.eu site once it becomes mandatory — unofficial sites charge inflated fees."
+      "text": "Once ETIAS is required, apply only through the EU's official ETIAS website, travel-europe.europa.eu."
     }
   ],
   "faq": [
@@ -1687,7 +1719,7 @@
     {
       "id": "where-apply",
       "question": "Where do I apply if Luxembourg has no embassy in my country?",
-      "answer": "Luxembourg has a small diplomatic network and is represented for Schengen visas by partner states (often Belgium or the Netherlands) in many countries. Check guichet.public.lu or the nearest Luxembourg mission to find which embassy handles applications from your place of residence."
+      "answer": "Under the EU Visa Code, one Schengen state can represent another for visa applications where the other has no consulate. Check guichet.public.lu or the nearest Luxembourg mission to find which embassy handles applications from your place of residence."
     },
     {
       "id": "etias-when",

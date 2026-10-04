@@ -5077,6 +5077,114 @@
             },
             "frequencyHz": {
               "type": "number"
+            },
+            "source": {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "government",
+                    "igo",
+                    "official-airline-db"
+                  ]
+                },
+                "lastVerified": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "lastChanged": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "archiveUrl": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "unverifiable": {
+                  "type": "object",
+                  "properties": {
+                    "lastAttempt": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                    },
+                    "reason": {
+                      "type": "string",
+                      "enum": [
+                        "blocked",
+                        "unreachable",
+                        "client-rendered",
+                        "gone",
+                        "not-stated"
+                      ]
+                    },
+                    "status": {
+                      "type": "integer",
+                      "minimum": -9007199254740991,
+                      "maximum": 9007199254740991
+                    }
+                  },
+                  "required": [
+                    "lastAttempt",
+                    "reason"
+                  ],
+                  "additionalProperties": false
+                },
+                "instrument": {
+                  "type": "string",
+                  "minLength": 3
+                },
+                "portalOnly": {
+                  "type": "boolean"
+                },
+                "conflict": {
+                  "type": "object",
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "states": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "resolvedBy": {
+                      "type": "string",
+                      "enum": [
+                        "hierarchy",
+                        "newer",
+                        "stricter"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "name",
+                    "states",
+                    "resolvedBy"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "url",
+                "name",
+                "type",
+                "lastVerified"
+              ],
+              "additionalProperties": false
             }
           },
           "required": [
@@ -5836,7 +5944,128 @@
           "additionalProperties": false
         },
         "tapWaterSafe": {
-          "type": "boolean"
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sources": {
+          "type": "object",
+          "propertyNames": {
+            "type": "string"
+          },
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "government",
+                  "igo",
+                  "official-airline-db"
+                ]
+              },
+              "lastVerified": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "lastChanged": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "archiveUrl": {
+                "type": "string",
+                "format": "uri"
+              },
+              "unverifiable": {
+                "type": "object",
+                "properties": {
+                  "lastAttempt": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "reason": {
+                    "type": "string",
+                    "enum": [
+                      "blocked",
+                      "unreachable",
+                      "client-rendered",
+                      "gone",
+                      "not-stated"
+                    ]
+                  },
+                  "status": {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "lastAttempt",
+                  "reason"
+                ],
+                "additionalProperties": false
+              },
+              "instrument": {
+                "type": "string",
+                "minLength": 3
+              },
+              "portalOnly": {
+                "type": "boolean"
+              },
+              "conflict": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "name": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "states": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "resolvedBy": {
+                    "type": "string",
+                    "enum": [
+                      "hierarchy",
+                      "newer",
+                      "stricter"
+                    ]
+                  }
+                },
+                "required": [
+                  "url",
+                  "name",
+                  "states",
+                  "resolvedBy"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "url",
+              "name",
+              "type",
+              "lastVerified"
+            ],
+            "additionalProperties": false
+          }
         }
       },
       "required": [

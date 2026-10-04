@@ -2106,9 +2106,8 @@
         }
       },
       "notes": [
-        "Drones are prohibited. They are confiscated on arrival and returned, at best, on departure.",
-        "Satellite phones, GPS trackers and professional broadcast equipment require prior authorization.",
-        "Medicines are scarce locally: bring what you need in original packaging, with a prescription for anything unusual. Donated medicines and toiletries are welcomed but should be declared."
+        "Drones are not allowed into Cuba. The UK FCDO and the Government of Canada say they are confiscated on arrival; the FCDO says they are not returned until your departure.",
+        "The UK FCDO says GPS devices are subject to import requirements (turn off the GPS on phones, tablets and laptops), photography equipment may need an import licence, and some electrical items with heavy power consumption may be confiscated on entry."
       ]
     }
   },
@@ -2145,14 +2144,24 @@
     "plugs": {
       "types": [
         "A",
-        "B",
-        "C"
+        "B"
       ],
       "voltage": 110,
-      "frequencyHz": 60
+      "frequencyHz": 60,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        },
+        "lastChanged": "2026-10-04"
+      }
     },
     "emergency": {
-      "general": "106",
       "police": "106",
       "ambulance": "104",
       "fire": "105"
@@ -2162,15 +2171,14 @@
         12,
         1,
         2,
-        3,
-        4
+        3
       ],
-      "text": "December to April is dry and warm — the best months for Havana and the beaches. The hurricane season runs from June to November, and September and October are the wettest."
+      "text": "No official seasonal guidance. The Government of Canada says the rainy season runs from April to October and the hurricane season from early June to the end of November."
     },
     "languages": [
       "Spanish"
     ],
-    "timezone": "UTC-5",
+    "timezone": "UTC-5 (UTC-4 in summer)",
     "drivingSide": "right",
     "tapWaterSafe": false,
     "driving": {
@@ -2205,13 +2213,53 @@
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/cuba/getting-help",
+        "name": "UK FCDO — Cuba travel advice (Getting help)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://www.gacetaoficial.gob.cu/sites/default/files/goc-2019-ex5.pdf",
+        "name": "Constitution of the Republic of Cuba (2019), Article 2 — Gaceta Oficial de la República de Cuba, Extraordinaria No. 5 of 2019",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://www.gov.uk/foreign-travel-advice/cuba/safety-and-security",
+        "name": "UK FCDO — Cuba travel advice (safety and security: money)",
+        "type": "government",
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-03"
+      },
+      "bestTimeToVisit": {
+        "url": "https://travel.gc.ca/destinations/cuba",
+        "name": "Government of Canada — Cuba travel advice (Natural disasters and climate)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/cuba",
+        "name": "Government of Canada — Cuba travel advice (Money)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "tapWaterSafe": {
+        "url": "https://www.smartraveller.gov.au/destinations/americas/cuba",
+        "name": "Australian Government (Smartraveller) — Cuba travel advice: health",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260526084418/https://www.smartraveller.gov.au/destinations/americas/cuba"
+      }
     }
   },
   "tips": [
     {
       "id": "bring-cash",
       "type": "warning",
-      "text": "Bring all the money you will need in cash. Cuba's Central Bank has stopped accepting international cards such as Visa and Mastercard, and you cannot withdraw cash from ATMs with a foreign card. US dollars and euros are widely accepted and can be exchanged in Cuba."
+      "text": "Bring all the money you will need in cash. The UK FCDO says Cuba's Central Bank has announced that international cards such as Visa and Mastercard are no longer accepted, and that you cannot withdraw cash from ATMs with an international card. US dollars and euros are widely accepted and can be exchanged in Cuba."
     },
     {
       "id": "esta-disqualification",
@@ -2226,7 +2274,7 @@
     {
       "id": "dviajeros-qr",
       "type": "tip",
-      "text": "Fill in the D'Viajeros form in the 72 hours before you arrive and screenshot the QR code — mobile data at Havana airport is patchy and the code is checked before immigration."
+      "text": "Fill in the D'Viajeros form in the 72 hours before you arrive and keep the QR code (a screenshot works) to show at the airport."
     },
     {
       "id": "insurance-proof",

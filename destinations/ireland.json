@@ -1535,8 +1535,8 @@
         }
       },
       "notes": [
-        "Arriving from outside the EU: duty-free allowance of 200 cigarettes, 1 liter of spirits (or 4 liters of wine), and other goods up to €430 per adult arriving by air or sea.",
-        "Meat, dairy and most animal products may not be brought in from outside the EU; arrivals from within the EU face no routine customs limits for personal use."
+        "Arriving from outside the EU, Revenue's duty-free allowances are goods worth up to €430 if you are 15 or over (€215 if under 15), plus 200 cigarettes (or 100 cigarillos, 50 cigars or 250 g of tobacco), 1 litre of spirits or 2 litres of drinks up to 22% alcohol, 4 litres of still wine and 16 litres of beer.",
+        "Revenue says that if you arrive from outside the EU with certain foodstuffs (mainly meat, milk, fish or products made from them), medicines, plants or animals, products of endangered species, or firearms, you must declare them to a customs officer."
       ]
     }
   },
@@ -1547,9 +1547,9 @@
       "symbol": "€"
     },
     "payments": {
-      "cardsAccepted": "widely",
+      "cardsAccepted": "limited",
       "cashImportance": "low",
-      "text": "Contactless cards and phone payments are accepted almost everywhere, including buses (or use a Leap Card in Dublin); cash is rarely needed beyond small rural pubs, markets and tips."
+      "text": "No official source we could read describes card acceptance in Ireland."
     },
     "safety": {
       "level": "very-safe",
@@ -1567,7 +1567,18 @@
         "G"
       ],
       "voltage": 230,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
       "general": "112",
@@ -1581,13 +1592,13 @@
         8,
         9
       ],
-      "text": "May to September brings the mildest weather and up to 17 hours of daylight in midsummer, but pack rain gear whatever the month; Irish weather changes by the hour."
+      "text": "No official source we could read gives a best time to visit Ireland. Canada's travel advice notes that Ireland is subject to seasonal storms, windstorms and severe weather, and that heavy rains can cause flooding."
     },
     "languages": [
-      "English",
-      "Irish"
+      "Irish",
+      "English"
     ],
-    "timezone": "UTC+0",
+    "timezone": "UTC+0 (UTC+1 in summer)",
     "drivingSide": "left",
     "tapWaterSafe": true,
     "driving": {
@@ -1619,6 +1630,45 @@
         "lastVerified": "2026-10-03",
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/ireland/getting-help",
+        "name": "UK Foreign, Commonwealth & Development Office — Ireland travel advice: getting help",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "drivingSide": {
+        "url": "https://travel.gc.ca/destinations/ireland",
+        "name": "Government of Canada — Ireland travel advice: laws and culture: driving",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://www.citizensinformation.ie/en/government-in-ireland/irish-constitution-1/constitution-introduction/",
+        "name": "Citizens Information (Citizens Information Board) — The Constitution of Ireland: introduction",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "instrument": "Bunreacht na hÉireann (Constitution of Ireland), Article 8"
+      },
+      "bestTimeToVisit": {
+        "url": "https://travel.gc.ca/destinations/ireland",
+        "name": "Government of Canada — Ireland travel advice: natural disasters and climate",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://european-union.europa.eu/institutions-law-budget/euro/design_en",
+        "name": "European Union — The euro: design (name, € symbol and ISO code EUR)",
+        "type": "igo",
+        "lastVerified": "2026-10-04"
+      },
+      "tapWaterSafe": {
+        "url": "https://environment.ec.europa.eu/topics/water/drinking-water_en",
+        "name": "European Commission — Drinking water",
+        "type": "igo",
+        "lastVerified": "2026-10-04"
+      }
     }
   },
   "tips": [
@@ -1630,17 +1680,12 @@
     {
       "id": "cta-nuance",
       "type": "info",
-      "text": "Arriving from the UK there are usually no routine passport checks (Common Travel Area), but airlines and ferries require photo ID and immigration officers can still carry out checks — non-Irish/non-British citizens should always carry their passport, and visa nationals need an Irish visa even when entering from the UK."
+      "text": "British and Irish citizens travel freely between the UK and Ireland under the Common Travel Area. The UK government's travel advice says some airlines and ferry operators require a passport as identification, so check your carrier's rules; other nationalities should carry their passport, and visa-required nationals need an Irish visa even when entering from the UK."
     },
     {
       "id": "rural-driving",
       "type": "tip",
-      "text": "Driving is on the LEFT, most rentals are manual (automatics cost more — book early), and rural roads on routes like the Ring of Kerry or Wild Atlantic Way are narrow with stone walls — take it slow and use pull-in passing spots."
-    },
-    {
-      "id": "weather-layers",
-      "type": "tip",
-      "text": "Expect four seasons in one day: pack waterproof layers year-round rather than an umbrella (Atlantic winds destroy them). Summer rarely exceeds 20°C and winter rarely drops far below freezing."
+      "text": "Traffic drives on the left in Ireland. Canada's travel advice says some roads can be uneven, narrow and winding, particularly in rural areas, and may become hazardous in severe weather."
     }
   ],
   "faq": [
@@ -1662,7 +1707,7 @@
     {
       "id": "south-africa-visa",
       "question": "Do South African citizens need a visa for Ireland?",
-      "answer": "Yes. Ireland reintroduced the visa requirement for South African passport holders in June 2022, so the old visa-free access no longer applies. South Africans must obtain a short stay 'C' visa (€60 single entry) through the AVATS online system before traveling. Allow around 8 weeks."
+      "answer": "Yes. Ireland reintroduced the visa requirement for South African passport holders in June 2022, so the old visa-free access no longer applies. South Africans must obtain a short stay 'C' visa (€60 single entry) through the AVATS online system before traveling."
     },
     {
       "id": "how-long-stay",

@@ -1573,8 +1573,8 @@
         }
       },
       "notes": [
-        "Norway is not in the EU customs union — normal duty-free limits apply even when arriving from EU countries.",
-        "Alcohol and tobacco quotas are small and strictly enforced; declare anything above them at the red channel."
+        "Norwegian Customs' duty-free quota for visitors living outside Norway is 1 litre of spirits, 1.5 litres of wine and 2 litres of beer, plus 200 cigarettes or 250 grams of other tobacco products; you must be 18 to bring beer, wine and tobacco and 20 for drinks over 22%.",
+        "Anything above the quota must be declared. Drinks over 60% alcohol, nicotine pouches and heated tobacco products not approved in Norway may not be imported."
       ]
     }
   },
@@ -1587,7 +1587,7 @@
     "payments": {
       "cardsAccepted": "widely",
       "cashImportance": "low",
-      "text": "Norway is close to cashless. Cards and mobile payments are accepted everywhere, including buses, kiosks and public toilets, and some places no longer take cash at all."
+      "text": "No official source we could read describes card acceptance in Norway."
     },
     "safety": {
       "level": "very-safe",
@@ -1606,10 +1606,21 @@
         "F"
       ],
       "voltage": 230,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
-      "general": "112",
+      "police": "112",
       "fire": "110",
       "ambulance": "113"
     },
@@ -1621,12 +1632,13 @@
         8,
         9
       ],
-      "text": "May–September brings long days, open mountain roads and the midnight sun in the north; for northern lights aim for September–March in Tromsø or Lofoten instead."
+      "text": "No official source we could read gives a best time to visit Norway. Canada's travel advice says the climate can be unpredictable at any time of year."
     },
     "languages": [
-      "Norwegian"
+      "Norwegian",
+      "Sami"
     ],
-    "timezone": "UTC+1",
+    "timezone": "UTC+1 (UTC+2 in summer)",
     "drivingSide": "right",
     "tapWaterSafe": true,
     "driving": {
@@ -1661,28 +1673,69 @@
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/norway/getting-help",
+        "name": "UK Foreign, Commonwealth & Development Office — Norway travel advice: getting help",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "drivingSide": {
+        "url": "https://lovdata.no/dokument/SF/forskrift/1986-03-21-747",
+        "name": "Lovdata — Forskrift om kjørende og gående trafikk (trafikkregler), § 5: vehicles keep to the right side of the road",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "instrument": "Forskrift 21. mars 1986 nr. 747 om kjørende og gående trafikk (trafikkregler), § 5 nr. 1"
+      },
+      "languages": {
+        "url": "https://lovdata.no/dokument/NL/lov/2021-05-21-42",
+        "name": "Lovdata — Lov om språk (språklova): Norwegian is the national main language; Sami languages and Norwegian are of equal worth",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "instrument": "Lov 21. mai 2021 nr. 42 om språk (språklova), §§ 1 og 5"
+      },
+      "tapWaterSafe": {
+        "url": "https://www.regjeringen.no/no/aktuelt/-ingen-skal-bli-syke-av-drikkevannet-i-norge/id3026262/",
+        "name": "Government of Norway (Ministry of Health and Care Services) — «Ingen skal bli syke av drikkevannet i Norge»: most residents have safe drinking water",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260608050855/https://www.regjeringen.no/no/aktuelt/-ingen-skal-bli-syke-av-drikkevannet-i-norge/id3026262/",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "blocked",
+          "status": 403
+        }
+      },
+      "bestTimeToVisit": {
+        "url": "https://travel.gc.ca/destinations/norway",
+        "name": "Government of Canada — Norway travel advice: natural disasters and climate",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/norway",
+        "name": "Government of Canada — Norway travel advice: laws and culture: money",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      }
     }
   },
   "tips": [
     {
       "id": "svalbard-visa-free",
       "type": "tip",
-      "text": "Svalbard is outside the Schengen Area and visa-free for all nationalities, but the only practical route is via mainland Norway, so travelers who need a Schengen visa should request a double-entry visa to come back through Oslo or Tromsø."
-    },
-    {
-      "id": "cashless-prices",
-      "type": "info",
-      "text": "Norway is one of Europe's most expensive countries and largely cashless. Budget generously for food and transport and don't bother changing much cash."
+      "text": "Canada's travel advice says Svalbard, although Norwegian territory, is not part of the Schengen area: you need a valid passport to enter it and must meet Schengen entry rules again when returning to mainland Norway."
     },
     {
       "id": "alcohol-sales",
       "type": "info",
-      "text": "Wine and spirits are sold only in state Vinmonopolet shops with limited hours (closed Sundays), and supermarket beer sales stop early in the evening. Plan ahead."
+      "text": "Under Norway's Alcohol Act, drinks over 4.7% alcohol are sold in shops only by the state-owned Vinmonopolet, which may not sell on Sundays and public holidays. Other shops may sell beer up to 4.7% no later than 20:00 on weekdays and 18:00 on the day before a Sunday or public holiday."
     },
     {
       "id": "nature-weather",
       "type": "warning",
-      "text": "Mountain and fjord weather changes fast even in summer. Check conditions before hikes like Trolltunga or Preikestolen and carry proper gear; rescues are frequent among unprepared visitors."
+      "text": "Canada's travel advice says Norway is prone to severe weather and its climate can be unpredictable at any time of year; it advises monitoring weather reports closely and warns of avalanche risk in mountain regions after heavy snowfall."
     }
   ],
   "faq": [
@@ -1694,7 +1747,7 @@
     {
       "id": "svalbard-visa",
       "question": "Do I need a visa for Svalbard?",
-      "answer": "No — Svalbard is visa-free for all nationalities under the Svalbard Treaty. However, flights go via mainland Norway, which is in Schengen, so if you need a Schengen visa you must hold one that lets you transit Norway (ideally double-entry) to reach and leave Svalbard."
+      "answer": "Canada's travel advice says Svalbard is Norwegian territory but not part of the Schengen area. You need a valid passport to enter it, and you must meet Schengen entry rules when you return to mainland Norway — so if you need a Schengen visa, it has to allow that re-entry."
     },
     {
       "id": "schengen-days",

@@ -2992,8 +2992,8 @@
         }
       },
       "notes": [
-        "Non-Muslim adult travelers arriving by air may import a small amount of alcohol for personal use — drinking in public is illegal.",
-        "Drones require prior authorization from the Civil Aviation Authority and are otherwise held at the airport until departure."
+        "The UK FCDO says it is illegal to fly drones without a valid licence or in restricted airspace, and the Government of Canada says you must get authorization before importing or operating a drone.",
+        "The UK FCDO says it is illegal to import or use e-cigarettes or vape products in Oman, and that some UK prescription and over-the-counter medicines are illegal there — carry a copy of your prescription."
       ]
     }
   },
@@ -3004,9 +3004,9 @@
       "symbol": "ر.ع."
     },
     "payments": {
-      "cardsAccepted": "widely-in-cities",
+      "cardsAccepted": "widely",
       "cashImportance": "medium",
-      "text": "Cards are accepted in hotels, malls and most restaurants in Muscat and Salalah; carry some rial cash for souqs, taxis, fuel stations and rural areas."
+      "text": "The Government of Canada says credit cards are widely accepted, and Australia's Smartraveller says credit card facilities and ATMs are widely available and that US dollars and euros are easy to exchange at banks and currency bureaus."
     },
     "safety": {
       "level": "generally-safe",
@@ -3025,7 +3025,18 @@
         "G"
       ],
       "voltage": 240,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
       "general": "9999"
@@ -3040,14 +3051,14 @@
         3,
         4
       ],
-      "text": "October to April is warm and pleasant for Muscat, the mountains and the desert; June to September brings extreme heat except in Salalah, where the khareef monsoon turns Dhofar green."
+      "text": "No official seasonal guidance. The UK FCDO says wadis are prone to flash flooding after heavy rain from October to March, that tropical cyclones sometimes affect Oman in July and August, and that extreme heat has caused deaths."
     },
     "languages": [
       "Arabic"
     ],
     "timezone": "UTC+4",
     "drivingSide": "right",
-    "tapWaterSafe": true,
+    "tapWaterSafe": false,
     "driving": {
       "idp": {
         "required": null,
@@ -3079,6 +3090,44 @@
         "instrument": "Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/oman/getting-help",
+        "name": "UK FCDO — Oman travel advice (Getting help)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://assets.publishing.service.gov.uk/media/694548d92f0261139350894f/Romania_Toponymic_Factfile.pdf",
+        "name": "UK Permanent Committee on Geographical Names (PCGN) — Oman toponymic factfile",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "tapWaterSafe": {
+        "url": "https://www.smartraveller.gov.au/destinations/middle-east/oman",
+        "name": "Australian Government Smartraveller — Oman travel advice (Health)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://travel.gc.ca/destinations/oman",
+        "name": "Government of Canada — Oman travel advice (Money)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://www.gov.uk/foreign-travel-advice/oman/safety-and-security",
+        "name": "UK FCDO — Oman travel advice (Safety and security)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/oman",
+        "name": "Government of Canada — Oman travel advice (Money)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      }
     }
   },
   "tips": [
@@ -3090,22 +3139,22 @@
     {
       "id": "wadi-floods",
       "type": "warning",
-      "text": "Flash floods in wadis are Oman's biggest hazard for visitors — never enter, camp in or drive through a wadi when rain is forecast anywhere upstream, even under blue sky where you stand."
+      "text": "The UK FCDO says wadis (dry riverbeds) are prone to flash flooding after heavy rain from October to March. Check the forecast before visiting a wadi and avoid places where heavy rain is expected, and for at least one day afterwards."
     },
     {
       "id": "mountain-driving",
       "type": "info",
-      "text": "A 4x4 is legally required for some mountain roads, including the ascent to Jebel Shams and Jebel Akhdar, where police checkpoints turn back two-wheel-drive cars."
+      "text": "The UK FCDO says road trips to the desert and mountains can be dangerous unless you are in a well-equipped four-wheel-drive vehicle; travel in convoy if possible, carry water and a phone, and leave your plans with someone."
     },
     {
       "id": "dress-modestly",
       "type": "info",
-      "text": "Dress modestly in public — shoulders and knees covered is the safe rule in towns, souqs and mosques; swimwear belongs only at hotel pools and beaches."
+      "text": "The UK FCDO says to dress modestly in public areas, including malls, with the tops of arms and legs (below the knee) covered, and not to wear swimwear in public except on tourist beaches or at pools."
     },
     {
       "id": "alcohol-rules",
       "type": "info",
-      "text": "Alcohol is served only in licensed hotels and restaurants — drinking in public and drink-driving are criminal offenses with zero tolerance."
+      "text": "The UK FCDO says visitors can buy and drink alcohol only in licensed venues such as hotels, restaurants and clubs (legal age 21). Drinking or being drunk in public and drink-driving are illegal, and any alcohol found in a driver's system can bring a fine and possible imprisonment."
     }
   ],
   "faq": [
@@ -3127,12 +3176,12 @@
     {
       "id": "israeli-passports",
       "question": "Can Israeli citizens visit Oman?",
-      "answer": "Oman has no diplomatic relations with Israel and does not currently admit travelers on Israeli passports. Confirm with an Omani embassy before making any plans, as policy can change. Israeli stamps in other passports are not generally an obstacle to entering Oman."
+      "answer": "Oman has no diplomatic relations with Israel and does not currently admit travelers on Israeli passports. Confirm with an Omani embassy before making any plans, as policy can change."
     },
     {
       "id": "best-time",
       "question": "When is the best time to visit Oman?",
-      "answer": "October to April, when coastal and desert temperatures are pleasant. The exception is the Dhofar region around Salalah, which is at its most spectacular during the khareef monsoon from roughly June to September, when the hills turn green while the rest of Arabia bakes."
+      "answer": "No official source names a best time to visit. The UK FCDO says wadis are prone to flash flooding after heavy rain from October to March, tropical cyclones sometimes affect Oman in July and August, and extreme heat has caused deaths from dehydration and heat exhaustion."
     }
   ]
 }

@@ -1578,8 +1578,8 @@
         }
       },
       "notes": [
-        "Duty-free from outside the EU: 200 cigarettes, 1 liter of spirits, goods up to €300 (€430 arriving by air/sea).",
-        "No limits on goods for personal use when arriving from another EU country."
+        "Entering from outside the EU, the duty-free allowance is 1 litre of spirits over 22% (or 2 litres of fortified or sparkling wine), 4 litres of still wine, 16 litres of beer, and other goods worth up to €300 (€430 by air or sea). For tobacco, the EU’s Your Europe portal lists Latvia among the countries applying the lower limit to land and sea travellers: 40 cigarettes (or 20 cigarillos, 10 cigars or 50 g of tobacco), against 200 cigarettes for air travellers.",
+        "Arriving from another EU country, you pay no duty on alcohol and tobacco bought for your own use; above guideline levels (such as 800 cigarettes or 10 litres of spirits) customs may ask you to show they are for personal use."
       ]
     }
   },
@@ -1590,9 +1590,9 @@
       "symbol": "€"
     },
     "payments": {
-      "cardsAccepted": "widely",
+      "cardsAccepted": "limited",
       "cashImportance": "low",
-      "text": "Cards and contactless payments are accepted almost everywhere in Latvia, including Riga’s Central Market stalls; a little cash is only occasionally useful in the countryside."
+      "text": "No official source we read describes card acceptance in Latvia. The UK FCDO warns of bank card fraud: use ATMs inside banks where possible and keep your card in sight when paying."
     },
     "safety": {
       "level": "very-safe",
@@ -1612,10 +1612,23 @@
         "F"
       ],
       "voltage": 230,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
-      "general": "112"
+      "general": "112",
+      "police": "110",
+      "ambulance": "113"
     },
     "bestTimeToVisit": {
       "months": [
@@ -1626,12 +1639,12 @@
         9,
         12
       ],
-      "text": "May–September is best for Riga, the Jūrmala beaches and Gauja National Park; December brings atmospheric Christmas markets — Riga claims the world’s first decorated Christmas tree."
+      "text": "No official seasonal guidance. The UK FCDO warns that winter, between October and March, can bring extremely cold weather, with temperatures of −25°C or below, and snowfalls that disrupt public transport and roads."
     },
     "languages": [
       "Latvian"
     ],
-    "timezone": "UTC+2",
+    "timezone": "UTC+2 (UTC+3 in summer)",
     "drivingSide": "right",
     "tapWaterSafe": true,
     "driving": {
@@ -1665,13 +1678,51 @@
         "instrument": "Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/latvia/getting-help",
+        "name": "UK FCDO — Latvia travel advice: Getting help",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://european-union.europa.eu/principles-countries-history/eu-countries/latvia_en",
+        "name": "European Union — Latvia country profile",
+        "type": "igo",
+        "lastVerified": "2026-10-04"
+      },
+      "tapWaterSafe": {
+        "url": "https://environment.ec.europa.eu/topics/water/drinking-water_en",
+        "name": "European Commission — Drinking water",
+        "type": "igo",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://www.gov.uk/foreign-travel-advice/latvia/safety-and-security",
+        "name": "UK FCDO — Latvia travel advice: Safety and security",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://www.gov.uk/foreign-travel-advice/latvia/safety-and-security",
+        "name": "UK FCDO — Latvia travel advice: Safety and security",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://european-union.europa.eu/principles-countries-history/eu-countries/latvia_en",
+        "name": "European Union — Latvia country profile",
+        "type": "igo",
+        "lastVerified": "2026-10-04"
+      }
     }
   },
   "tips": [
     {
       "id": "eastern-borders",
       "type": "warning",
-      "text": "Do not plan overland travel into or out of Russia or Belarus: crossings are heavily restricted or closed, and Russian citizens with Schengen visas issued for tourism are refused entry to Latvia."
+      "text": "The UK FCDO advises against all travel to Belarus. Parts of Latvia’s border with Belarus have limited access, the Silene–Urbani crossing is closed, and entering within 2 km of the border needs a special licence from the Latvian Border Guard. Vehicles with Russian or Belarusian plates are, with few exceptions, banned from entering Latvia."
     },
     {
       "id": "ees-etias",
@@ -1681,17 +1732,17 @@
     {
       "id": "old-town-bars",
       "type": "info",
-      "text": "In Riga’s Old Town nightlife, stick to venues you chose yourself. The classic scam is a friendly invitation to a bar followed by an extortionate bill."
+      "text": "The UK FCDO says some tourists have been charged high prices for drinks or found fraudulent transactions on their cards. Get recommendations for bars and clubs from trustworthy sources, and make sure card payments are completed in your presence."
     },
     {
       "id": "baltic-loop",
       "type": "tip",
-      "text": "Latvia sits at the center of the Baltic loop — comfortable buses link Riga with Tallinn and Vilnius in about 4 hours each; all three are Schengen, so the 90/180-day allowance is shared, not reset."
+      "text": "Estonia, Latvia and Lithuania are all in the Schengen Area, so days in each count toward the same 90-days-in-180 allowance rather than resetting it."
     },
     {
       "id": "winter-footwear",
       "type": "tip",
-      "text": "From November to March pack warm layers and shoes with grip — pavements ice over, daylight is short, and many sights keep reduced winter hours."
+      "text": "The UK FCDO warns that winter, between October and March, can be extremely cold, with temperatures of −25°C or below, and that snowfalls can delay public transport and make roads difficult. Pack accordingly."
     }
   ],
   "faq": [

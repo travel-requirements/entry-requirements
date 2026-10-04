@@ -23,7 +23,7 @@
   ],
   "summary": "Hungary is part of the EU and the Schengen Area: EU and EFTA citizens enter freely, around 60 visa-exempt nationalities can stay 90 days in any 180-day period (the ETIAS travel authorization is not yet in operation), and everyone else needs a Schengen short-stay visa costing €90.",
   "meta": {
-    "lastUpdated": "2026-10-03",
+    "lastUpdated": "2026-10-04",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -1637,9 +1637,8 @@
         }
       },
       "notes": [
-        "Duty-free from outside the EU: 200 cigarettes, 1 liter of spirits, goods up to €300 (€430 arriving by air/sea).",
-        "No limits on goods for personal use when arriving from another EU country.",
-        "Full border checks apply when crossing to and from Serbia and Ukraine. These are external Schengen borders."
+        "Arriving from outside the EU, the EU's Your Europe portal gives a duty-free allowance of 4 litres of still wine and 16 litres of beer, plus 1 litre of spirits (or 2 litres of fortified or sparkling wine), and other goods worth up to €300 (€430 by air or sea). Tobacco limits depend on the country, and travellers under 17 get no alcohol or tobacco allowance.",
+        "Between EU countries, alcohol and tobacco bought with tax paid, for your own use and not for resale, owe no further tax, according to the EU's Your Europe portal."
       ]
     }
   },
@@ -1650,9 +1649,9 @@
       "symbol": "Ft"
     },
     "payments": {
-      "cardsAccepted": "widely",
+      "cardsAccepted": "limited",
       "cashImportance": "low",
-      "text": "Cards and contactless payments are accepted almost everywhere in cities, including transport and baths. Hungary does not use the euro. Pay in forint and decline dynamic currency conversion."
+      "text": "No official source we could read describes how widely cards are accepted in Hungary. Canada's travel advice says the currency is the forint, that euros are accepted in Budapest and some other major cities where a sign is posted, often at uncompetitive rates, and not to use unofficial moneychangers."
     },
     "safety": {
       "level": "very-safe",
@@ -1671,7 +1670,18 @@
         "F"
       ],
       "voltage": 230,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
       "general": "112"
@@ -1684,12 +1694,12 @@
         9,
         10
       ],
-      "text": "April–June and September–October offer pleasant weather in Budapest and around Lake Balaton without the summer heat; December brings Christmas markets and steamy outdoor thermal baths."
+      "text": "No official seasonal guidance. The CIA World Factbook describes Hungary's climate as temperate, with cold, cloudy, humid winters and warm summers."
     },
     "languages": [
       "Hungarian"
     ],
-    "timezone": "UTC+1",
+    "timezone": "UTC+1 (UTC+2 in summer)",
     "drivingSide": "right",
     "roadVignette": {
       "form": "e-vignette",
@@ -1743,7 +1753,7 @@
         "lastVerified": "2026-10-03"
       }
     },
-    "tapWaterSafe": true,
+    "tapWaterSafe": null,
     "driving": {
       "idp": {
         "required": null,
@@ -1776,6 +1786,48 @@
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/hungary/getting-help",
+        "name": "UK Foreign, Commonwealth & Development Office — Hungary travel advice: getting help",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "drivingSide": {
+        "url": "https://europa.eu/youreurope/citizens/travel/driving-abroad/road-rules-and-safety/index_en.htm",
+        "name": "Your Europe (European Union) — Road rules and safety: only Cyprus, Ireland and Malta drive on the left",
+        "type": "igo",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://www.cia.gov/the-world-factbook/countries/hungary/",
+        "name": "CIA World Factbook — Hungary (retired by the CIA in February 2026; cited from its last archived copy)",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260127144439/https://www.cia.gov/the-world-factbook/countries/hungary/",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      },
+      "bestTimeToVisit": {
+        "url": "https://www.cia.gov/the-world-factbook/countries/hungary/",
+        "name": "CIA World Factbook — Hungary (retired by the CIA in February 2026; cited from its last archived copy)",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260127144439/https://www.cia.gov/the-world-factbook/countries/hungary/",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/hungary",
+        "name": "Government of Canada — Hungary travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      }
     }
   },
   "tips": [
@@ -1785,19 +1837,9 @@
       "text": "The 90-day limit counts across the entire Schengen Area, not just Hungary — days spent in Austria or Slovakia count against the same allowance."
     },
     {
-      "id": "budapest-taxis",
-      "type": "warning",
-      "text": "In Budapest use only official yellow taxis with a company logo and fixed government tariff, or apps like Bolt and Főtaxi — freelance taxis hailed near sights and clubs are known for heavy overcharging."
-    },
-    {
-      "id": "thermal-baths",
-      "type": "tip",
-      "text": "At thermal baths (Széchenyi, Gellért, Rudas) bring a swimsuit, towel and flip-flops; a swim cap is required only in swimming-lap pools. Lockers and cabins are included or rentable. Book popular baths online in high season."
-    },
-    {
       "id": "pay-in-huf",
       "type": "tip",
-      "text": "Always choose to pay in forint (HUF), not your home currency, at card terminals and ATMs, and avoid exchange offices with wide rate spreads around tourist areas."
+      "text": "Pay in forint (HUF). Canada's travel advice says euros are accepted only in Budapest and some other major cities where a sign is posted, often at uncompetitive rates, and warns against unofficial moneychangers."
     }
   ],
   "faq": [
@@ -1814,7 +1856,7 @@
     {
       "id": "currency-hungary",
       "question": "Does Hungary use the euro?",
-      "answer": "No. Hungary uses the Hungarian forint (HUF). Cards are accepted almost everywhere, including the Budapest metro and thermal baths; when paying by card or withdrawing cash, always choose to be charged in forint."
+      "answer": "No. Hungary uses the Hungarian forint (HUF). Canada's travel advice says euros are accepted in Budapest and some other major cities where a sign is posted, but that the rates may not be competitive."
     },
     {
       "id": "etias-when",

@@ -1759,8 +1759,7 @@
         }
       },
       "notes": [
-        "Fresh meat, dairy and some plant products may not be brought in from certain countries under foot-and-mouth controls. Expect disinfectant mats and vehicle checks at internal veterinary fences.",
-        "Ivory, rhino horn and other wildlife products are strictly prohibited; drone use requires prior permission from the civil aviation authority."
+        "The UK FCDO says it is illegal to buy, sell, kill or capture any protected wild animal or trade its parts, and that sentences on conviction can be severe."
       ]
     }
   },
@@ -1771,9 +1770,9 @@
       "symbol": "P"
     },
     "payments": {
-      "cardsAccepted": "widely-in-cities",
+      "cardsAccepted": "limited",
       "cashImportance": "medium",
-      "text": "Cards are widely accepted in Gaborone, Maun, Kasane and at lodges, and ATMs are common in towns. Carry pula cash for fuel stations, markets and remote areas, and small US dollar notes if crossing borders on safari."
+      "text": "No official source we could find describes how widely cards are accepted in Botswana. Canada's travel advice says only that the currency is the pula (BWP) and that foreign currency worth 10,000 pula or more must be declared."
     },
     "safety": {
       "level": "generally-safe",
@@ -1794,7 +1793,18 @@
         "M"
       ],
       "voltage": 230,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
       "police": "999",
@@ -1810,7 +1820,7 @@
         9,
         10
       ],
-      "text": "The May-to-October dry season is prime safari time — game concentrates on water sources, the Okavango Delta flood peaks mid-year, and nights are cool; November to April is hot, greener and cheaper."
+      "text": "No official seasonal guidance for visitors. The UK FCDO says Botswana's rainy season runs from November to March, bringing heavy rainfall and a risk of flash flooding, and Australia's Smartraveller notes that malaria is most widespread in the north in that season."
     },
     "languages": [
       "English",
@@ -1818,7 +1828,7 @@
     ],
     "timezone": "UTC+2",
     "drivingSide": "left",
-    "tapWaterSafe": true,
+    "tapWaterSafe": false,
     "driving": {
       "idp": {
         "required": null,
@@ -1848,33 +1858,72 @@
         "lastVerified": "2026-10-03",
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/botswana/getting-help",
+        "name": "UK Foreign, Commonwealth & Development Office — Botswana travel advice: getting help",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/botswana",
+        "name": "Government of Canada — Travel advice and advisories for Botswana",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://travel.gc.ca/destinations/botswana",
+        "name": "Government of Canada — Travel advice and advisories for Botswana",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://www.gov.uk/foreign-travel-advice/botswana/safety-and-security",
+        "name": "UK Foreign, Commonwealth & Development Office — Botswana travel advice: safety and security",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "tapWaterSafe": {
+        "url": "https://www.smartraveller.gov.au/destinations/africa/botswana",
+        "name": "Australian Government (Smartraveller) — Botswana travel advice",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://www.gov.bw/about-our-country",
+        "name": "Government of Botswana — About Our Country",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "drivingSide": {
+        "url": "https://travel.gc.ca/destinations/botswana",
+        "name": "Government of Canada — Travel advice and advisories for Botswana",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      }
     }
   },
   "tips": [
     {
       "id": "minors-documents",
       "type": "warning",
-      "text": "Travelers under 18 must carry a certified copy of their full birth certificate in addition to a passport, and minors traveling with one parent or alone may need parental consent letters — checked on entry and exit."
+      "text": "Canada's travel advice says travellers under 18 must show border officials a certified copy of their original birth certificate and a valid passport, plus a written consent form from any parent not travelling with them if they travel alone or with only one parent. The UK FCDO says the birth certificate is needed on entry and exit."
     },
     {
       "id": "night-driving",
       "type": "warning",
-      "text": "Avoid driving outside towns after dark — elephants, cattle and donkeys on unlit roads cause serious accidents, and distances between fuel stations are long, so refuel whenever you can."
+      "text": "The UK FCDO warns that driving outside the major urban areas can be dangerous because of stray wildlife and livestock, particularly at night, so take extra care after dark."
     },
     {
       "id": "malaria-north",
       "type": "info",
-      "text": "Northern Botswana (Okavango, Chobe, Kasane) is a seasonal malaria area, especially November to April. Use repellent and consider prophylaxis; Gaborone and the south are essentially malaria-free."
+      "text": "Australia's Smartraveller says malaria occurs throughout Botswana and is widespread in the north, especially in the rainy season from November to March, and suggests considering malaria prevention if you travel north of Gaborone. Use insect repellent."
     },
     {
       "id": "ninety-day-cap",
       "type": "info",
       "text": "Visa-free visitors may spend at most 90 days in Botswana within any 12-month period — extensions beyond your stamped stay are requested at an immigration office before it expires."
-    },
-    {
-      "id": "vet-fences",
-      "type": "tip",
-      "text": "Expect veterinary checkpoints on main roads — raw meat and some animal products cannot be carried across foot-and-mouth control fences, and shoes and vehicle wheels may be disinfected."
     }
   ],
   "faq": [
@@ -1896,17 +1945,12 @@
     {
       "id": "children",
       "question": "What documents do children need to enter Botswana?",
-      "answer": "All travelers under 18 must carry a certified copy of their full (unabridged) birth certificate along with their passport. Minors traveling with one parent, or unaccompanied, should also carry consent letters from the absent parent(s). The rules mirror South Africa’s and are enforced."
+      "answer": "Canada's travel advice says all travellers under 18 must present a certified copy of their original birth certificate and a valid passport. Minors travelling alone or with only one parent also need a written consent form from the parent or parents not travelling."
     },
     {
       "id": "yellow-fever",
       "question": "Is yellow fever vaccination required for Botswana?",
       "answer": "Only if you arrive from or transit through a yellow fever risk country. Coming directly from Europe, North America or South Africa, no certificate is needed."
-    },
-    {
-      "id": "vic-falls",
-      "question": "Can I visit Victoria Falls from Botswana?",
-      "answer": "Yes — Kasane is about 80 km from the falls, and day trips cross into Zimbabwe (Kazungula road border) or Zambia (Kazungula Bridge). You will pass full immigration both ways, so check the visa rules of Zimbabwe or Zambia for your passport (the KAZA UniVisa, when on sale, covers both)."
     }
   ]
 }

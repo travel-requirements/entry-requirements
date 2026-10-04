@@ -1782,9 +1782,7 @@
         }
       },
       "notes": [
-        "Bringing in meat products is banned under African swine fever controls — undeclared pork products carry very heavy fines.",
-        "Duty-free allowances for adults are 1 liter of alcohol and 200 cigarettes.",
-        "Fresh fruit and plants may not be brought in without quarantine clearance."
+        "Do not bring animal products into Taiwan without authorisation: the UK FCDO says you may face a heavy fine, and customs have increased inspections because of African swine fever in pork products."
       ]
     }
   },
@@ -1795,9 +1793,9 @@
       "symbol": "NT$"
     },
     "payments": {
-      "cardsAccepted": "widely-in-cities",
+      "cardsAccepted": "limited",
       "cashImportance": "medium",
-      "text": "Cards and mobile payments are widely accepted in cities, but night markets, small eateries and taxis often want cash. An EasyCard covers the metro, buses and convenience-store purchases."
+      "text": "No official source we read describes card acceptance in Taiwan. The UK FCDO says most ATMs in 7-Eleven stores accept international cards; other ATMs may not."
     },
     "safety": {
       "level": "very-safe",
@@ -1816,7 +1814,18 @@
         "B"
       ],
       "voltage": 110,
-      "frequencyHz": 60
+      "frequencyHz": 60,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
       "police": "110",
@@ -1829,7 +1838,7 @@
         10,
         11
       ],
-      "text": "Fall (October-November) and spring (March-April) bring mild, drier weather; summer is hot and humid with typhoon risk from July to September."
+      "text": "No official seasonal guidance. The Government of Canada says the rainy season runs from May to June and that typhoons usually occur between May and November; the UK FCDO gives the same typhoon season."
     },
     "languages": [
       "Mandarin Chinese",
@@ -1837,7 +1846,40 @@
     ],
     "timezone": "UTC+8",
     "drivingSide": "right",
-    "tapWaterSafe": false
+    "tapWaterSafe": false,
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/taiwan/getting-help",
+        "name": "UK FCDO — Taiwan travel advice: Getting help",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://www.gov.uk/foreign-travel-advice/taiwan/entry-requirements",
+        "name": "UK FCDO — Taiwan travel advice: Entry requirements",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://travel.gc.ca/destinations/taiwan",
+        "name": "Government of Canada — Taiwan travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/taiwan",
+        "name": "Government of Canada — Taiwan travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "tapWaterSafe": {
+        "url": "https://www.smartraveller.gov.au/destinations/asia/taiwan",
+        "name": "Australian Government Smartraveller — Taiwan travel advice (Health: \"Drink only boiled or bottled water\")",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260526060439/https://www.smartraveller.gov.au/destinations/asia/taiwan"
+      }
+    }
   },
   "tips": [
     {
@@ -1848,22 +1890,17 @@
     {
       "id": "typhoon-season",
       "type": "warning",
-      "text": "Typhoons strike between July and September and can shut transport and east-coast attractions for days — build slack into itineraries and monitor Central Weather Administration warnings."
+      "text": "The Government of Canada and the UK FCDO say typhoons usually occur between May and November, with a risk of road blockages and landslides afterwards. Build slack into itineraries and monitor Central Weather Administration warnings."
     },
     {
       "id": "no-meat-imports",
       "type": "warning",
-      "text": "Do not bring any meat products into Taiwan, even sealed snacks — African swine fever controls mean undeclared pork items attract fines running to hundreds of thousands of NT dollars."
-    },
-    {
-      "id": "easycard",
-      "type": "tip",
-      "text": "Buy an EasyCard at any metro station or convenience store. It works on the Taipei and Kaohsiung metros, buses, trains and in shops, and makes getting around effortless."
+      "text": "Do not bring animal products into Taiwan without authorisation. The UK FCDO says you may face a heavy fine, and that customs have increased inspections because of African swine fever in pork products."
     },
     {
       "id": "online-arrival-card",
       "type": "tip",
-      "text": "Submit the free online Taiwan Arrival Card within 7 days before you arrive — it replaces the paper form and speeds up immigration."
+      "text": "Submit the free online Taiwan Arrival Card within three days before you arrive, through the National Immigration Agency website."
     }
   ],
   "faq": [

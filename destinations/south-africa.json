@@ -1704,7 +1704,7 @@
       },
       "notes": [
         "Children under 18 should travel with an unabridged (full) birth certificate; the rules for foreign minors were relaxed in 2019 but officials still recommend carrying one, and it remains required in some cases (e.g. A child traveling with one parent or unaccompanied).",
-        "Duty-free allowance: 200 cigarettes and 2 liters of wine plus 1 liter of spirits per adult."
+        "The South African Revenue Service allows each traveller to bring in duty-free no more than 200 cigarettes and 20 cigars, 250 g of tobacco, 2 litres of wine and 1 litre in total of other alcoholic beverages; under-18s get no alcohol or tobacco allowance."
       ]
     }
   },
@@ -1715,9 +1715,9 @@
       "symbol": "R"
     },
     "payments": {
-      "cardsAccepted": "widely",
+      "cardsAccepted": "limited",
       "cashImportance": "medium",
-      "text": "Cards and contactless payments are accepted almost everywhere, including supermarkets, fuel stations and restaurants. Keep a little cash for informal markets, car guards and tips, but you can run most of a trip on a card."
+      "text": "No official source we read describes card acceptance in South Africa. The UK FCDO warns that card skimming is widespread and advises changing large sums only in banks or secure shopping malls."
     },
     "safety": {
       "level": "exercise-caution",
@@ -1732,12 +1732,24 @@
     },
     "plugs": {
       "types": [
-        "M",
         "C",
+        "M",
         "N"
       ],
       "voltage": 230,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        },
+        "lastChanged": "2026-10-04"
+      }
     },
     "emergency": {
       "police": "10111",
@@ -1752,17 +1764,25 @@
         8,
         9
       ],
-      "text": "May to September (the dry southern-hemisphere winter) is the best time for safari in Kruger — thin bush and animals at waterholes. For Cape Town and the Garden Route, the warm, dry summer from November to March is ideal."
+      "text": "No official seasonal guidance. The UK FCDO says there is a year-round risk of flooding across South Africa and that wildfires can happen in hot, dry weather, including around Cape Town; check the South African Weather Service for alerts."
     },
     "languages": [
+      "Afrikaans",
       "English",
-      "Zulu",
+      "Ndebele",
+      "Northern Sotho",
+      "Sesotho",
+      "Setswana",
+      "Swati",
+      "Tshivenda",
+      "Xitsonga",
       "Xhosa",
-      "Afrikaans"
+      "Zulu",
+      "South African Sign Language"
     ],
     "timezone": "UTC+2",
     "drivingSide": "left",
-    "tapWaterSafe": true,
+    "tapWaterSafe": false,
     "driving": {
       "idp": {
         "required": null,
@@ -1795,6 +1815,51 @@
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/south-africa/getting-help",
+        "name": "UK FCDO — South Africa travel advice: Getting help",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "drivingSide": {
+        "url": "https://travel.gc.ca/destinations/south-africa",
+        "name": "Government of Canada — South Africa travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://assets.publishing.service.gov.uk/media/698dcb6843eb912f2e15b351/South_Africa_toponymic_factfile.pdf",
+        "name": "UK Permanent Committee on Geographical Names — South Africa toponymic factfile",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://www.gov.uk/foreign-travel-advice/south-africa/safety-and-security",
+        "name": "UK FCDO — South Africa travel advice: Safety and security",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://www.gov.uk/foreign-travel-advice/south-africa/safety-and-security",
+        "name": "UK FCDO — South Africa travel advice: Safety and security",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/south-africa",
+        "name": "Government of Canada — South Africa travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "tapWaterSafe": {
+        "url": "https://www.smartraveller.gov.au/destinations/africa/south-africa",
+        "name": "Australian Government Smartraveller — South Africa travel advice (Health: \"Only drink boiled or bottled water\")",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260612210343/https://www.smartraveller.gov.au/destinations/africa/south-africa"
+      }
     }
   },
   "tips": [
@@ -1811,12 +1876,7 @@
     {
       "id": "vehicle-safety",
       "type": "tip",
-      "text": "Self-driving is the best way to see South Africa — just keep doors locked and bags in the boot, leave space to pull out at traffic lights at night, and never leave anything visible in a parked car."
-    },
-    {
-      "id": "tap-water",
-      "type": "info",
-      "text": "Tap water is safe to drink in Cape Town, Johannesburg and other major cities. In rural areas, townships with intermittent supply, and after storms, stick to bottled or filtered water."
+      "text": "If you drive, the Government of Canada says traffic drives on the left, advises driving defensively and avoiding travel after dark, and recommends a rental company with a 24-hour emergency service. Keep doors locked and valuables out of sight."
     }
   ],
   "faq": [
@@ -1843,7 +1903,7 @@
     {
       "id": "is-it-safe",
       "question": "Is South Africa safe for tourists?",
-      "answer": "Millions visit safely every year, but crime is a real risk that you manage rather than ignore: use ride-hailing apps or transfers instead of walking after dark, keep phones and cameras out of sight on the street, keep car doors locked with windows up in cities, and get local advice on which areas to avoid. Safari areas, wine regions and the main tourist routes are generally relaxed."
+      "answer": "Crime is a real risk. The UK FCDO reports violent attacks on hikers in Table Mountain National Park, widespread card skimming, and violence linked to tensions between e-hailing and metered taxi drivers. The Government of Canada says travel on foot is inadvisable in most areas and advises avoiding travel after dark. Get local advice on areas to avoid and check your government’s current advice."
     }
   ]
 }

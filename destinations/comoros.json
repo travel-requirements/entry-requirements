@@ -2921,7 +2921,7 @@
     "payments": {
       "cardsAccepted": "rare",
       "cashImportance": "high",
-      "text": "Bring your budget in cash, ideally euros. Cards are accepted almost nowhere, and the few ATMs in Moroni cannot be relied on to work with foreign cards. Euros are widely exchanged and often accepted directly for tourist services."
+      "text": "The Government of Canada says the economy is mostly cash-based, ATMs are not widely available, banking facilities are minimal and most businesses don't accept credit cards. The UK Foreign Office adds that there are very few banks or ATMs on any of the islands, that you should check in advance whether your hotel accepts your card, and that some hotels and restaurants accept euros but give change in Comorian francs."
     },
     "safety": {
       "level": "generally-safe",
@@ -2939,7 +2939,18 @@
         "E"
       ],
       "voltage": 220,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
       "police": "17",
@@ -2954,7 +2965,7 @@
         9,
         10
       ],
-      "text": "May to October is the cooler, drier season — the best window for beaches, diving and climbing Mount Karthala; the November–April rains bring heat, humidity and a cyclone risk."
+      "text": "The Government of Canada says monsoons and rarer tropical cyclones usually occur during the hot and humid rainy season, which runs from December to April, when flooding and landslides can make roads impassable. The UK Foreign Office says tropical cyclones can affect the Comoros between January and May."
     },
     "languages": [
       "Comorian",
@@ -2963,28 +2974,60 @@
     ],
     "timezone": "UTC+3",
     "drivingSide": "right",
-    "tapWaterSafe": false
+    "tapWaterSafe": null,
+    "sources": {
+      "emergency": {
+        "url": "https://travel.gc.ca/destinations/comoros",
+        "name": "Government of Canada — Comoros travel advice (local services: police 17, firefighters 18)",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "conflict": {
+          "url": "https://www.gov.uk/foreign-travel-advice/comoros/getting-help",
+          "name": "UK Foreign, Commonwealth & Development Office — Comoros travel advice: getting help",
+          "states": "Fire: 113 or 114; Police: 117",
+          "resolvedBy": "newer"
+        }
+      },
+      "payments": {
+        "url": "https://travel.gc.ca/destinations/comoros",
+        "name": "Government of Canada — Comoros travel advice (money)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://travel.gc.ca/destinations/comoros",
+        "name": "Government of Canada — Comoros travel advice (natural disasters and climate)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/comoros",
+        "name": "Government of Canada — Comoros travel advice (money: \"The currency of the Comoros is the Comorian franc (KMF)\")",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      }
+    }
   },
   "tips": [
     {
       "id": "cash-euros",
       "type": "tip",
-      "text": "Bring enough euros in cash for your whole stay plus the visa fee. Cards are close to useless on the islands and ATMs cannot be counted on."
+      "text": "The UK Foreign Office says people in the Comoros mainly use cash and there are very few banks or ATMs. Credit cards are not always accepted, and card terminals can fail, so always have cash; some hotels and restaurants accept euros but give change in Comorian francs."
     },
     {
       "id": "inter-island-boats",
       "type": "warning",
-      "text": "Small ferries and speedboats between the islands can be overloaded and are risky in rough seas. Prefer domestic flights or larger vessels, and avoid night crossings."
+      "text": "The UK Foreign Office warns that boats and ferries between the three islands can be overloaded, in poor condition and without life jackets, and that overloaded vessels have capsized in Comorian waters with significant loss of life."
     },
     {
       "id": "karthala",
       "type": "info",
-      "text": "Mount Karthala on Grande Comore is an active volcano. Check current conditions and take a local guide if you plan the overnight crater hike."
+      "text": "Mount Karthala, near Moroni on Grande Comore, is an active volcano; the UK Foreign Office notes it last erupted in 2007. Check the latest monitoring reports before you go, and the Government of Canada advises consulting local authorities before hiking on or around it."
     },
     {
       "id": "dress-modestly",
       "type": "info",
-      "text": "The Comoros is a conservative Muslim country. Dress modestly away from beach resorts, and be discreet with food and drink in public during Ramadan."
+      "text": "The UK Foreign Office says clothing for men and women needs to cover the body loosely from the shoulders to the knees, and that during Ramadan you should not eat, drink, smoke or chew gum in public in the daytime. Drinking alcohol or being drunk on public highways is illegal."
     }
   ],
   "faq": [
@@ -3006,7 +3049,7 @@
     {
       "id": "cards-atms",
       "question": "Can I pay by card in the Comoros?",
-      "answer": "Almost never. The islands run on cash. A few Moroni hotels may take cards, but ATMs are scarce and unreliable with foreign cards, so bring your full budget in euros and exchange as needed."
+      "answer": "Rarely. The Government of Canada says most businesses don't accept credit cards and ATMs are not widely available, and the UK Foreign Office advises checking in advance whether your hotel accepts your card. Bring enough cash; some hotels and restaurants accept euros."
     }
   ]
 }

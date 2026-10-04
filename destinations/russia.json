@@ -1852,8 +1852,9 @@
         }
       },
       "notes": [
-        "Drones and satellite communication equipment are heavily restricted — bringing them in can lead to confiscation or prosecution.",
-        "Medicines containing controlled substances need a prescription and may require a customs declaration on arrival."
+        "The UK Foreign Office says you must complete a customs declaration for goods worth more than 10,000 US dollars, and for items of cultural or historical significance, rare plants or animals, vehicles, weapons, and medicines containing potent, toxic or psychoactive substances, whatever their value.",
+        "The UK Foreign Office says you need a licence before travelling with certain electronic equipment, including GPS devices, and that the number of electronic items for personal use is limited. Using a drone requires permission from the Russian aviation authority.",
+        "The UK Foreign Office says cannabidiol (CBD) is illegal in Russia, even in products bought legally elsewhere, and that exporting antiques or artwork without a Ministry of Culture permit is illegal."
       ]
     }
   },
@@ -1866,7 +1867,7 @@
     "payments": {
       "cardsAccepted": "limited",
       "cashImportance": "high",
-      "text": "Visa and Mastercard issued outside Russia do not work anywhere in the country. Bring US dollars or euros in cash to exchange, and budget for the whole trip. Russian-issued Mir cards are accepted almost everywhere domestically."
+      "text": "The UK Foreign Office says Mastercard and Visa are not operating in Russia: cards issued outside Russia will not work in shops or ATMs, while cards issued inside Russia work only there. Paying in foreign currency is illegal; to buy roubles, take US dollars or euros and change them only at banks, hotels and exchange bureaus."
     },
     "safety": {
       "level": "high-risk",
@@ -1884,11 +1885,26 @@
         "C",
         "F"
       ],
-      "voltage": 230,
-      "frequencyHz": 50
+      "voltage": 220,
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        },
+        "lastChanged": "2026-10-04"
+      }
     },
     "emergency": {
-      "general": "112"
+      "general": "112",
+      "police": "102",
+      "ambulance": "103",
+      "fire": "101"
     },
     "bestTimeToVisit": {
       "months": [
@@ -1898,12 +1914,12 @@
         8,
         9
       ],
-      "text": "May to September brings warm weather and long daylight for Moscow, St Petersburg's White Nights and the Golden Ring towns; winter is atmospheric but very cold."
+      "text": "No official source we could read gives a best time to visit Russia. The CIA World Factbook describes a climate ranging from steppe in the south through humid continental in much of European Russia to subarctic in Siberia and tundra in the polar north."
     },
     "languages": [
       "Russian"
     ],
-    "timezone": "UTC+3",
+    "timezone": "UTC+2 to UTC+12",
     "drivingSide": "right",
     "tapWaterSafe": false,
     "driving": {
@@ -1938,18 +1954,62 @@
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://travel.gc.ca/destinations/russia",
+        "name": "Government of Canada — Russia travel advice: emergency assistance",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://assets.publishing.service.gov.uk/media/68419a05578282a4b102c093/Russia_Toponymic_Factfile.pdf",
+        "name": "UK Permanent Committee on Geographical Names (FCDO) — Russia toponymic factfile: languages",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/russia",
+        "name": "Government of Canada — Russia travel advice: laws and culture: money",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://www.gov.uk/foreign-travel-advice/russia/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Russia travel advice: entry requirements: money and banking",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://www.cia.gov/the-world-factbook/countries/russia/",
+        "name": "CIA World Factbook — Russia: climate (Factbook discontinued in 2026; cited from its archived copy)",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260105051435/https://www.cia.gov/the-world-factbook/page-data/countries/russia/page-data.json",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      },
+      "tapWaterSafe": {
+        "url": "https://www.smartraveller.gov.au/destinations/europe/russia",
+        "name": "Australian Government (Smartraveller) — Russia travel advice: health",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260829005239/https://www.smartraveller.gov.au/destinations/europe/russia"
+      }
     }
   },
   "tips": [
     {
       "id": "travel-advisories",
       "type": "warning",
-      "text": "The US, UK, EU and most Western governments advise against all travel to Russia — flights are limited, consular help is minimal, and dual nationals face additional risks including exit bans. Check your own government's advice before booking."
+      "text": "The UK Foreign Office advises against all travel to Russia, citing drone attacks and air-defence activity, the lack of flights and limited consular support, and Canada says to avoid all travel. The FCDO says British-Russian dual nationals are treated as Russian and are at risk of arrest, questioning or detention."
     },
     {
       "id": "cards-dont-work",
       "type": "warning",
-      "text": "Foreign Visa and Mastercard cards do not work in Russia. Carry enough cash in US dollars or euros to exchange on arrival, and keep exchange receipts."
+      "text": "The UK Foreign Office says Mastercard and Visa cards issued outside Russia will not work in Russian shops or ATMs. To buy roubles, take US dollars or euros and change them only at banks, hotels and exchange bureaus; changing money with street traders is illegal."
     },
     {
       "id": "evisa-borders",
@@ -1964,7 +2024,7 @@
     {
       "id": "border-regions",
       "type": "warning",
-      "text": "Stay well away from regions bordering Ukraine and from the North Caucasus republics — drone activity, security incidents and access restrictions make them genuinely dangerous."
+      "text": "The UK Foreign Office reports drone attacks and explosions particularly near the Russian border with Ukraine, says terrorists are active in the North Caucasus, and says access to military and border zones is restricted without permission from local authorities."
     }
   ],
   "faq": [
@@ -1986,12 +2046,12 @@
     {
       "id": "safe-now",
       "question": "Is it safe to travel to Russia right now?",
-      "answer": "Most Western governments advise against all travel to Russia. Everyday crime affecting tourists is low in the big cities, but the war in Ukraine, occasional drone strikes, limited flights and consular support, and the risk of arbitrary detention mean travel carries real risks — dual Russian nationals face extra rules including possible exit restrictions."
+      "answer": "The UK Foreign Office advises against all travel to Russia and Canada says to avoid all travel. The FCDO cites drone attacks and air-defence activity, a lack of flights, very limited consular support, an increased risk of detention, and a high likelihood that terrorists will try to carry out attacks, including in major cities."
     },
     {
       "id": "pay-card",
       "question": "Can I pay by card in Russia?",
-      "answer": "Not with a foreign card — Visa and Mastercard issued outside Russia stopped working there in 2022. Bring cash in US dollars or euros to exchange for rubles, or arrange a domestic Mir card for a longer stay."
+      "answer": "Not with a card issued abroad. The UK Foreign Office says Mastercard and Visa are not operating in Russia, so cards issued outside Russia will not work in shops or ATMs. Bring US dollars or euros to exchange for roubles at banks, hotels or exchange bureaus."
     },
     {
       "id": "registration-faq",

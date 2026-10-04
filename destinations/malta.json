@@ -1576,8 +1576,8 @@
         }
       },
       "notes": [
-        "Duty-free from outside the EU: 200 cigarettes, 1 liter of spirits, goods up to €300 (€430 arriving by air/sea).",
-        "No limits on goods for personal use when arriving from another EU country."
+        "Duty-free from outside the EU (EU rules): 200 cigarettes (or 100 cigarillos, 50 cigars or 250 g of tobacco); 4 liters of still wine and 16 liters of beer, plus 1 liter of spirits or 2 liters of fortified or sparkling wine; and other goods worth up to €300, or €430 arriving by air or sea.",
+        "Between EU countries, goods bought for your own use with taxes paid are not taxed again; customs can ask you to show that larger quantities are not for resale."
       ]
     }
   },
@@ -1588,9 +1588,9 @@
       "symbol": "€"
     },
     "payments": {
-      "cardsAccepted": "widely",
+      "cardsAccepted": "limited",
       "cashImportance": "medium",
-      "text": "Cards are widely accepted, but keep some euro cash for bus fares bought on board, small kiosks, market stalls and village festas."
+      "text": "No official source describes how widely cards are accepted in Malta. The UK Foreign Office advises caution when exchanging money and using ATMs, and avoiding carrying large amounts of cash where possible."
     },
     "safety": {
       "level": "very-safe",
@@ -1607,7 +1607,18 @@
         "G"
       ],
       "voltage": 230,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
       "general": "112"
@@ -1620,13 +1631,13 @@
         9,
         10
       ],
-      "text": "April–June and September–October offer warm weather without the peak-summer heat and crowds; the sea stays swimmable into late October. July and August are hot, busy and expensive."
+      "text": "No official seasonal guidance. The Government of Canada notes that heavy rains regularly cause flash flooding on Malta's roads."
     },
     "languages": [
       "Maltese",
       "English"
     ],
-    "timezone": "UTC+1",
+    "timezone": "UTC+1 (UTC+2 in summer)",
     "drivingSide": "left",
     "tapWaterSafe": true,
     "driving": {
@@ -1658,33 +1669,56 @@
         "lastVerified": "2026-10-03",
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/malta/getting-help",
+        "name": "UK Foreign, Commonwealth & Development Office — Malta travel advice: getting help (\"Telephone: 112 (ambulance, fire, police)\")",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "drivingSide": {
+        "url": "https://travel.gc.ca/destinations/malta",
+        "name": "Government of Canada — Malta travel advice (road safety: \"Traffic drives on the left\")",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://www.gov.uk/foreign-travel-advice/malta/safety-and-security",
+        "name": "UK Foreign, Commonwealth & Development Office — Malta travel advice: safety and security (crime)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://travel.gc.ca/destinations/malta",
+        "name": "Government of Canada — Malta travel advice (road safety)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/malta",
+        "name": "Government of Canada — Malta travel advice (money: \"The currency of Malta is the euro (EUR)\")",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "tapWaterSafe": {
+        "url": "https://environment.ec.europa.eu/topics/water/drinking-water_en",
+        "name": "European Commission — Drinking water",
+        "type": "igo",
+        "lastVerified": "2026-10-04"
+      }
     }
   },
   "tips": [
     {
       "id": "drive-left",
       "type": "info",
-      "text": "Traffic drives on the left, British-style, and roads are narrow and busy — look right first as a pedestrian, and consider the frequent buses over hiring a car around Valletta."
-    },
-    {
-      "id": "tap-water",
-      "type": "tip",
-      "text": "Tap water is safe to drink but desalinated and often unpalatable — most visitors stick to bottled or filtered water."
-    },
-    {
-      "id": "gozo-ferry",
-      "type": "tip",
-      "text": "The Gozo ferry from Ċirkewwa runs around the clock and you only pay on the return leg from Gozo; the fast ferry from Valletta is an alternative in season."
-    },
-    {
-      "id": "summer-heat",
-      "type": "info",
-      "text": "July and August regularly top 30°C with strong sun and big crowds at the Blue Lagoon and beaches. Book accommodation early and plan sightseeing for mornings."
+      "text": "Traffic drives on the left. The Government of Canada describes Malta's roads as narrow, winding, congested and sometimes poorly maintained, and the UK Foreign Office says local driving standards are poor — as a pedestrian, look right first."
     },
     {
       "id": "etias-scams",
       "type": "tip",
-      "text": "Apply for ETIAS only at the official travel-europe.europa.eu site once it becomes mandatory — unofficial sites charge inflated fees."
+      "text": "Apply for ETIAS only at the official travel-europe.europa.eu site once it becomes mandatory."
     }
   ],
   "faq": [
@@ -1711,7 +1745,7 @@
     {
       "id": "gozo-same-visa",
       "question": "Do Gozo and Comino need separate arrangements?",
-      "answer": "No — Gozo and Comino are part of Malta, so whatever lets you enter Malta covers the whole archipelago. Ferries between the islands are domestic with no passport checks."
+      "answer": "No — Gozo and Comino are part of Malta, so whatever lets you enter Malta covers the whole archipelago."
     }
   ]
 }

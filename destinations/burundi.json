@@ -1854,9 +1854,7 @@
           }
         }
       },
-      "notes": [
-        "Plastic bags are banned in Burundi — repack your luggage into paper, cloth or reusable bags before arrival, as bags can be confiscated at the border."
-      ]
+      "notes": []
     }
   },
   "countryFacts": {
@@ -1866,9 +1864,9 @@
       "symbol": "FBu"
     },
     "payments": {
-      "cardsAccepted": "rare",
+      "cardsAccepted": "limited",
       "cashImportance": "high",
-      "text": "Burundi is a cash economy. Cards work only at a handful of hotels in Bujumbura and ATMs rarely accept foreign cards. Bring your budget in cash (US dollars or euros; large, recent US notes get the best rates) and exchange through banks or licensed bureaux."
+      "text": "The UK Foreign Office describes Burundi as a largely cash-based society: take US dollars dated after 2006, as most businesses will not accept or exchange older notes and notes with small tears are rejected; euros and British pounds can usually be exchanged. Outside Bujumbura credit and debit cards are rarely accepted and there are not many ATMs, so do not rely on cash withdrawals; mobile money can often be used in tourist hotels. There is a shortage of foreign currency and an unofficial exchange rate that can differ substantially from the official one."
     },
     "safety": {
       "level": "exercise-caution",
@@ -1887,50 +1885,99 @@
         "E"
       ],
       "voltage": 220,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
-      "police": "117",
-      "fire": "118"
+      "ambulance": "112",
+      "police": "113"
     },
     "bestTimeToVisit": {
       "months": [
         6,
         7,
-        8,
-        9
+        8
       ],
-      "text": "The long dry season from June to September is the most comfortable time for Lake Tanganyika's beaches, Kibira National Park and travel on unpaved roads."
+      "text": "Burundi's Presidency describes a tropical climate tempered by altitude, with a dry season from June to August and two rainy seasons; average temperatures range between 17 °C and 23 °C depending on altitude."
     },
     "languages": [
       "Kirundi",
-      "French",
-      "English"
+      "French"
     ],
     "timezone": "UTC+2",
     "drivingSide": "right",
-    "tapWaterSafe": false
+    "tapWaterSafe": false,
+    "sources": {
+      "emergency": {
+        "url": "https://travel.gc.ca/destinations/burundi",
+        "name": "Government of Canada — Burundi travel advice (local services: \"There is no centralized number to reach emergency services. Dial 112 for medical assistance, 113 for police\")",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "conflict": {
+          "url": "https://www.gov.uk/foreign-travel-advice/burundi/getting-help",
+          "name": "UK Foreign, Commonwealth & Development Office — Burundi travel advice: getting help",
+          "states": "112 (ambulance, fire, police)",
+          "resolvedBy": "newer"
+        }
+      },
+      "languages": {
+        "url": "https://presidence.gov.bi/le-pays/",
+        "name": "Présidence de la République du Burundi — Le pays (langues officielles: kirundi et français)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://www.gov.uk/foreign-travel-advice/burundi/safety-and-security",
+        "name": "UK Foreign, Commonwealth & Development Office — Burundi travel advice: safety and security (money)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://presidence.gov.bi/le-pays/",
+        "name": "Présidence de la République du Burundi — Le pays (climat)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/burundi",
+        "name": "Government of Canada — Burundi travel advice (money: \"The currency is the Burundian franc (BIF)\")",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "tapWaterSafe": {
+        "url": "https://www.smartraveller.gov.au/destinations/africa/burundi",
+        "name": "Australian Government (Smartraveller) — Burundi travel advice: health",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260526094653/https://www.smartraveller.gov.au/destinations/africa/burundi"
+      }
+    }
   },
   "tips": [
     {
       "id": "security-advisories",
       "type": "warning",
-      "text": "Check your government's travel advisory shortly before departure. The security situation can change quickly, and areas near the DR Congo border in particular should be avoided."
-    },
-    {
-      "id": "plastic-bag-ban",
-      "type": "info",
-      "text": "Plastic bags are illegal in Burundi and can be confiscated on arrival — pack with cloth or paper bags instead."
+      "text": "Check your government's travel advice shortly before departure. The UK Foreign Office advises against all travel to several communes and roads near the Kibira National Park and the border with the DR Congo, where armed-group activity has increased."
     },
     {
       "id": "cash-usd",
       "type": "tip",
-      "text": "Bring clean, recent US dollar notes for your whole budget. Cards and international ATMs are unreliable, and older or marked bills are often refused."
+      "text": "The UK Foreign Office advises taking US dollars dated after 2006 — most businesses will not accept or exchange older notes, and notes with small tears are rejected. Outside Bujumbura cards are rarely accepted and ATMs are few, so do not rely on cash withdrawals."
     },
     {
       "id": "photography",
       "type": "info",
-      "text": "Do not photograph government buildings, military sites, airports or officials. It can lead to questioning or detention."
+      "text": "The Government of Canada says photographing sensitive installations — ports, military sites, government buildings and people in uniform — is prohibited. Always ask permission before photographing official buildings or individuals."
     }
   ],
   "faq": [
@@ -1957,7 +2004,7 @@
     {
       "id": "is-burundi-safe",
       "question": "Is Burundi safe to visit?",
-      "answer": "Bujumbura, Lake Tanganyika's shore and the main sights are usually calm, but several governments advise reconsidering travel because of political tension, crime and incidents near the DR Congo border. Travel by day, avoid gatherings, and check current advisories before and during your trip."
+      "answer": "The UK Foreign Office advises against all travel to parts of the north-west near the Kibira National Park and the DR Congo border, where armed-group activity and conflict have increased, and the Government of Canada advises against non-essential travel to Burundi because of the conflict in the neighbouring DR Congo, violent crime and the risk of political violence. Check current advisories before and during your trip."
     }
   ]
 }

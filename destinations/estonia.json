@@ -18,7 +18,7 @@
   ],
   "summary": "Estonia is part of the Schengen Area: EU and EFTA citizens enter freely, around 60 visa-exempt nationalities get 90 days in any 180-day period (ETIAS is not yet in operation), and everyone else needs a €90 Schengen short-stay visa. Russian citizens face additional entry restrictions even with a valid Schengen visa.",
   "meta": {
-    "lastUpdated": "2026-10-03",
+    "lastUpdated": "2026-10-04",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -1553,8 +1553,8 @@
         }
       },
       "notes": [
-        "Duty-free from outside the EU: 200 cigarettes, 1 liter of spirits, goods up to €300 (€430 arriving by air/sea).",
-        "No limits on goods for personal use when arriving from another EU country."
+        "Arriving from outside the EU, the EU's Your Europe portal gives a duty-free allowance of 4 litres of still wine and 16 litres of beer, plus 1 litre of spirits (or 2 litres of fortified or sparkling wine), and other goods worth up to €300 (€430 by air or sea). Tobacco limits depend on the country, and travellers under 17 get no alcohol or tobacco allowance.",
+        "Between EU countries, alcohol and tobacco bought with tax paid, for your own use and not for resale, owe no further tax, according to the EU's Your Europe portal."
       ]
     }
   },
@@ -1565,9 +1565,9 @@
       "symbol": "€"
     },
     "payments": {
-      "cardsAccepted": "widely",
+      "cardsAccepted": "limited",
       "cashImportance": "low",
-      "text": "Estonia is one of Europe’s most digital societies. Cards and contactless payments work everywhere, from market stalls to rural cafés, and you can comfortably visit without handling cash."
+      "text": "No official source we could read describes how widely cards are accepted in Estonia. The currency is the euro."
     },
     "safety": {
       "level": "very-safe",
@@ -1586,7 +1586,18 @@
         "F"
       ],
       "voltage": 230,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
       "general": "112"
@@ -1600,12 +1611,12 @@
         9,
         12
       ],
-      "text": "May–September brings long white nights, island trips and café terraces; December is worth the cold for Tallinn’s Christmas market, one of Europe’s prettiest."
+      "text": "No official seasonal guidance. The CIA World Factbook describes Estonia's climate as maritime, with wet, moderate winters and cool summers."
     },
     "languages": [
       "Estonian"
     ],
-    "timezone": "UTC+2",
+    "timezone": "UTC+2 (UTC+3 in summer)",
     "drivingSide": "right",
     "tapWaterSafe": true,
     "driving": {
@@ -1640,6 +1651,54 @@
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/estonia/getting-help",
+        "name": "UK Foreign, Commonwealth & Development Office — Estonia travel advice: getting help",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "drivingSide": {
+        "url": "https://europa.eu/youreurope/citizens/travel/driving-abroad/road-rules-and-safety/index_en.htm",
+        "name": "Your Europe (European Union) — Road rules and safety: only Cyprus, Ireland and Malta drive on the left",
+        "type": "igo",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://www.cia.gov/the-world-factbook/countries/estonia/",
+        "name": "CIA World Factbook — Estonia (retired by the CIA in February 2026; cited from its last archived copy)",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260123095622/https://www.cia.gov/the-world-factbook/countries/estonia/",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      },
+      "bestTimeToVisit": {
+        "url": "https://www.cia.gov/the-world-factbook/countries/estonia/",
+        "name": "CIA World Factbook — Estonia (retired by the CIA in February 2026; cited from its last archived copy)",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260123095622/https://www.cia.gov/the-world-factbook/countries/estonia/",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/estonia",
+        "name": "Government of Canada — Estonia travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "tapWaterSafe": {
+        "url": "https://environment.ec.europa.eu/topics/water/drinking-water_en",
+        "name": "European Commission — Drinking water",
+        "type": "igo",
+        "lastVerified": "2026-10-04"
+      }
     }
   },
   "tips": [
@@ -1654,19 +1713,9 @@
       "text": "Non-EU visitors are registered biometrically in the EU Entry/Exit System at the border, and the ETIAS travel authorization for visa-exempt travelers is not yet in operation. Check the official EU site before you fly."
     },
     {
-      "id": "cashless",
-      "type": "tip",
-      "text": "Leave the cash at home — Estonia is nearly fully cashless, and cards or phones are accepted everywhere including buses, markets and tiny island shops."
-    },
-    {
-      "id": "winter-conditions",
-      "type": "info",
-      "text": "From November to March expect short daylight hours, sub-zero temperatures and icy pavements — pack proper footwear and warm layers, and check ferry schedules to the islands in advance."
-    },
-    {
       "id": "baltic-loop",
       "type": "tip",
-      "text": "Estonia combines easily with Latvia and Lithuania by bus or with Helsinki by a 2-hour ferry. All are Schengen, so your 90/180-day allowance is shared, not reset, when you cross."
+      "text": "Estonia, Latvia, Lithuania and Finland are all in the Schengen Area, so days spent in any of them draw on the same 90-days-in-180 allowance rather than resetting it."
     }
   ],
   "faq": [

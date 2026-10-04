@@ -1905,10 +1905,8 @@
         }
       },
       "notes": [
-        "Firearms and ammunition may not be brought in without a permit issued in advance — even a single stray round found in luggage is treated as a criminal matter.",
-        "Camouflage-patterned clothing is restricted across much of the eastern Caribbean and can be confiscated on arrival; leave it at home.",
-        "Fresh produce, plants, seeds and meat are controlled to protect Grenada's spice and agricultural industry. Declare anything of the sort.",
-        "Penalties for drug offenses are severe and apply to visitors exactly as they do to residents."
+        "The UK Foreign Office says it is illegal for civilians to import camouflage material or wear camouflage clothing.",
+        "The UK Foreign Office says there are severe penalties for all drug offences; pack your luggage yourself and do not carry anything through customs for anyone else."
       ]
     }
   },
@@ -1916,12 +1914,12 @@
     "currency": {
       "code": "XCD",
       "name": "East Caribbean dollar",
-      "symbol": "$"
+      "symbol": "EC$"
     },
     "payments": {
-      "cardsAccepted": "widely-in-cities",
+      "cardsAccepted": "limited",
       "cashImportance": "medium",
-      "text": "Hotels, restaurants and the larger supermarkets in St George's and Grand Anse take cards. Local buses, market vendors, beach vendors and small rum shops are cash-only. US dollars are accepted almost everywhere, but change usually comes back in EC dollars."
+      "text": "Canada's travel advice says the US dollar is accepted alongside the Eastern Caribbean dollar and that ATMs are available throughout Grenada, but only at banks. No official source we could read describes card acceptance."
     },
     "safety": {
       "level": "generally-safe",
@@ -1939,11 +1937,22 @@
         "G"
       ],
       "voltage": 230,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
-      "general": "911",
       "police": "911",
+      "fire": "911",
       "ambulance": "434"
     },
     "bestTimeToVisit": {
@@ -1953,40 +1962,63 @@
         3,
         4
       ],
-      "text": "January to April is the dry season, with reliable sun and calm Caribbean-coast seas. August brings Spicemas carnival in the middle of the wetter months, and hurricane season runs June to November."
+      "text": "Canada's travel advice says the Atlantic and Caribbean hurricane season runs from early June to the end of November."
     },
     "languages": [
       "English"
     ],
     "timezone": "UTC-4",
     "drivingSide": "left",
-    "tapWaterSafe": true
+    "tapWaterSafe": null,
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/grenada/getting-help",
+        "name": "UK Foreign, Commonwealth & Development Office — Grenada travel advice: getting help",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "drivingSide": {
+        "url": "https://travel.gc.ca/destinations/grenada",
+        "name": "Government of Canada — Grenada travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://www.puregrenada.com/faqs/",
+        "name": "Grenada Tourism Authority — FAQs (\"English is the official language in Grenada\")",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://travel.gc.ca/destinations/grenada",
+        "name": "Government of Canada — Grenada travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://travel.gc.ca/destinations/grenada",
+        "name": "Government of Canada — Grenada travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://archive.stlucia.gov.lc/saint_lucia/currency.htm",
+        "name": "Government of Saint Lucia — Currency (\"The East Caribbean dollar (EC$)\", the shared currency of the Eastern Caribbean Currency Union)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      }
+    }
   },
   "tips": [
     {
       "id": "hurricane-season",
       "type": "warning",
-      "text": "Hurricane season runs June to November, peaking in August and September. Grenada sits at the southern edge of the usual storm track but is not immune — Hurricane Beryl devastated Carriacou and Petite Martinique in 2024. Insurance covering storm disruption is worth having."
+      "text": "Canada's travel advice says hurricane season runs from early June to the end of November. The UK Foreign Office says Hurricane Beryl made landfall on Carriacou and Petite Martinique in July 2024 and that tourist infrastructure there is still reduced while rebuilding continues. Insurance covering storm disruption is worth having."
     },
     {
       "id": "temporary-driving-permit",
       "type": "info",
-      "text": "Driving is on the left and visitors need a Grenadian temporary driving permit, bought through the police or your rental company on presentation of your home license. Renting without one invalidates your cover."
-    },
-    {
-      "id": "ec-dollar-peg",
-      "type": "info",
-      "text": "The East Caribbean dollar is pegged to the US dollar at about EC$2.70 to US$1. US notes are accepted widely, but you will normally get change in EC dollars at that rate, so paying in US cash for small items is rarely a bargain."
-    },
-    {
-      "id": "departure-tax",
-      "type": "tip",
-      "text": "An airport departure tax and security fee applies when leaving Grenada. It is normally bundled into the ticket price, but confirm with your airline rather than assuming you will not be asked at check-in."
-    },
-    {
-      "id": "cbi-passport-scrutiny",
-      "type": "info",
-      "text": "Grenada runs a citizenship-by-investment program. If you hold a Grenadian passport obtained that way, expect closer scrutiny when applying for visas elsewhere. The EU in particular has tightened its treatment of Caribbean CBI passports, and visa-free arrangements have been reviewed."
+      "text": "Traffic drives on the left. Canada's travel advice says you need a local driver's licence, which you can buy from a car rental agency or the central police station in St George's by showing your home licence."
     }
   ],
   "faq": [
@@ -2013,7 +2045,7 @@
     {
       "id": "driving",
       "question": "Can I drive in Grenada on my own license?",
-      "answer": "Not on its own. You need a Grenadian temporary driving permit, issued on the spot by the police or your rental company against a valid home license. Driving is on the left, roads are narrow and steep, and goats are a genuine hazard."
+      "answer": "Not on its own. Canada's travel advice says you need a local driver's licence, which you can buy from a car rental agency or the central police station in St George's by showing your valid home licence. Traffic drives on the left."
     },
     {
       "id": "caricom",

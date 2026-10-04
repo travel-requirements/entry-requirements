@@ -1570,8 +1570,8 @@
         }
       },
       "notes": [
-        "Duty-free from outside the EU: 200 cigarettes, 1 liter of spirits, goods up to €300 (€430 arriving by air/sea).",
-        "No limits on goods for personal use when arriving from another EU country."
+        "Duty-free from outside the EU: 1 litre of spirits and other goods up to €300 (€430 arriving by air or sea). Lithuania applies the EU's lower tobacco limit to land and sea travellers — 40 cigarettes instead of 200.",
+        "Goods for your own use bought in another EU country carry no further duty. Above the EU guide levels (for example 800 cigarettes or 10 litres of spirits), customs may ask you to show they are for personal use."
       ]
     }
   },
@@ -1584,7 +1584,7 @@
     "payments": {
       "cardsAccepted": "widely",
       "cashImportance": "low",
-      "text": "Lithuania is highly cashless. Cards and contactless work everywhere from supermarkets to market stalls; cash is rarely needed outside the smallest rural shops."
+      "text": "No official source we checked describes card acceptance in Lithuania specifically. The European Central Bank's 2024 payments survey found that across the euro area 89% of in-store transactions were, or could have been, paid without cash, and 95% could be paid in cash."
     },
     "safety": {
       "level": "very-safe",
@@ -1602,8 +1602,20 @@
         "C",
         "F"
       ],
-      "voltage": 230,
-      "frequencyHz": 50
+      "voltage": 220,
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        },
+        "lastChanged": "2026-10-04"
+      }
     },
     "emergency": {
       "general": "112"
@@ -1616,14 +1628,14 @@
         8,
         9
       ],
-      "text": "May to September is warm and green — midsummer celebrations in June, the Baltic beaches of the Curonian Spit in July–August, and mild city weather for Vilnius and Kaunas into September. Winters are cold and dark."
+      "text": "No official source we checked gives seasonal guidance for Lithuania; the months shown are not an official recommendation. Australia's Smartraveller says Lithuania can experience severe weather, including extremely low winter temperatures."
     },
     "languages": [
       "Lithuanian"
     ],
-    "timezone": "UTC+2",
+    "timezone": "UTC+2 (UTC+3 in summer)",
     "drivingSide": "right",
-    "tapWaterSafe": true,
+    "tapWaterSafe": null,
     "driving": {
       "idp": {
         "required": null,
@@ -1656,23 +1668,51 @@
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/lithuania/getting-help",
+        "name": "UK Foreign, Commonwealth & Development Office — Lithuania travel advice: getting help",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://assets.publishing.service.gov.uk/media/6672f25bd427ab249955ce90/Lithuania_Toponymic_Factfile.pdf",
+        "name": "UK Permanent Committee on Geographical Names — Lithuania toponymic factfile (2024)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://www.ecb.europa.eu/stats/ecb_surveys/space/html/ecb.space2024~19d46f0f17.en.html",
+        "name": "European Central Bank — Study on the payment attitudes of consumers in the euro area (SPACE) 2024",
+        "type": "igo",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://www.smartraveller.gov.au/destinations/europe/lithuania",
+        "name": "Australian Government Smartraveller — Lithuania travel advice",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260612211137/https://www.smartraveller.gov.au/destinations/europe/lithuania"
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/lithuania",
+        "name": "Government of Canada — Lithuania travel advice and advisories (Money)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      }
     }
   },
   "tips": [
     {
       "id": "belarus-russia-borders",
       "type": "warning",
-      "text": "Avoid the borders with Belarus and Russia's Kaliningrad region — several crossings are closed, rules change at short notice, and most Western governments advise against travel to Belarus and Russia altogether."
+      "text": "The UK government says only one crossing point with Belarus remains open, Medininkai–Kamenny Log, and only by private vehicle, and that Russian-plated vehicles may enter only for up to 24 hours in transit to or from Kaliningrad. Canada says Lithuania enforces an EU entry ban on vehicles with Russian or Belarusian plates, with exceptions. Rules change at short notice."
     },
     {
       "id": "curonian-spit",
       "type": "info",
-      "text": "The Curonian Spit national park charges a vehicle entry fee and shares its peninsula with Russia's Kaliningrad region — do not stray past the marked border at the southern end."
-    },
-    {
-      "id": "cards-everywhere",
-      "type": "tip",
-      "text": "You can go days without cash. Cards and contactless are accepted almost everywhere, including markets and intercity buses."
+      "text": "The Curonian Spit is divided between Lithuania and Russia's Kaliningrad region. The UK government warns that walking along the Lithuanian part will eventually reach Russian territory, and Canada says the Nida border-crossing point is closed."
     },
     {
       "id": "etias-scams",
@@ -1704,7 +1744,7 @@
     {
       "id": "belarus-crossing",
       "question": "Can I cross into Lithuania from Belarus?",
-      "answer": "Only a limited number of crossing points remain open and lines and checks can be long; rules change at short notice. Most Western governments advise against travel to Belarus entirely. Check advisories and the current list of open crossings before attempting an overland trip."
+      "answer": "Only with difficulty. The UK government says only one crossing point remains open, Medininkai–Kamenny Log, and only by private vehicle — scheduled buses are not running — and Lithuania denies entry to Belarus-registered cars, with some exemptions. Check the current rules before attempting an overland trip."
     }
   ]
 }

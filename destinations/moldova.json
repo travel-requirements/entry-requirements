@@ -1550,8 +1550,7 @@
         }
       },
       "notes": [
-        "Duty-free allowances broadly follow European norms (200 cigarettes, modest alcohol quantities). Check Moldovan customs rules before carrying more.",
-        "Goods bought in Transnistria may attract questions at Moldovan checkpoints. Keep receipts."
+        "The UK FCDO says you must get permission from the Moldovan Department of Monuments to take any artwork or antiques out of the country; otherwise customs can seize them and you could face criminal charges."
       ]
     }
   },
@@ -1564,7 +1563,7 @@
     "payments": {
       "cardsAccepted": "widely-in-cities",
       "cashImportance": "medium",
-      "text": "Cards are widely accepted in Chișinău's shops, restaurants and supermarkets, but carry lei in cash for markets, intercity minibuses and rural areas. Foreign cards do not work in Transnistria, which uses its own unrecognised rouble."
+      "text": "The UK FCDO says paying by card is now generally widespread, though not always possible, particularly outside Chișinău; US dollars and euros are the most widely accepted foreign currencies, and notes should be in perfect condition. Foreign cards do not work at banks in Transnistria, which uses its own Transnistrian ruble."
     },
     "safety": {
       "level": "generally-safe",
@@ -1583,8 +1582,20 @@
         "C",
         "F"
       ],
-      "voltage": 230,
-      "frequencyHz": 50
+      "voltage": 220,
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        },
+        "lastChanged": "2026-10-04"
+      }
     },
     "emergency": {
       "general": "112"
@@ -1596,12 +1607,12 @@
         9,
         10
       ],
-      "text": "May–June and September–October are mild and green — early October brings the wine harvest and National Wine Day in Chișinău. Summers can be hot; winters are cold and gray."
+      "text": "No official seasonal guidance."
     },
     "languages": [
       "Romanian"
     ],
-    "timezone": "UTC+2",
+    "timezone": "UTC+2 (UTC+3 in summer)",
     "drivingSide": "right",
     "roadVignette": {
       "form": "e-vignette",
@@ -1706,28 +1717,55 @@
         "instrument": "Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/moldova/getting-help",
+        "name": "UK FCDO — Moldova travel advice: Getting help",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://assets.publishing.service.gov.uk/media/6634e8f21834d96a0aa6d0ed/Moldova_Toponymic_Factfile.pdf",
+        "name": "UK Permanent Committee on Geographical Names — Moldova toponymic factfile",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "tapWaterSafe": {
+        "url": "https://www.gov.uk/foreign-travel-advice/moldova/health",
+        "name": "UK FCDO — Moldova travel advice: Health",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://www.gov.uk/foreign-travel-advice/moldova/safety-and-security",
+        "name": "UK FCDO — Moldova travel advice: Safety and security",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/moldova",
+        "name": "Government of Canada — Moldova travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      }
     }
   },
   "tips": [
     {
       "id": "transnistria",
       "type": "warning",
-      "text": "Transnistria is outside Moldovan government control and many governments advise caution or against travel there. If you enter Moldova overland through Transnistria from Ukraine you receive no Moldovan entry stamp. You must then register in person within 72 hours at the General Inspectorate for Migration or the Public Services Agency."
+      "text": "The UK FCDO advises against all travel to Transnistria, which is outside the control of the Moldovan government. At the de facto checkpoints passports are checked but not stamped, and you must fill in a migration card and keep a copy to show when you leave. All crossings between Ukraine and Transnistria are temporarily closed."
     },
     {
       "id": "ukraine-border",
       "type": "info",
-      "text": "Check current advisories for areas near the Ukrainian border. Chișinău airport operates normally, but flight availability and routings can change because of the war in Ukraine."
-    },
-    {
-      "id": "wine-cellars",
-      "type": "tip",
-      "text": "Moldova is a serious wine destination. Book cellar tours at Cricova or Mileștii Mici (the world's largest wine collection) in advance, and time a visit for National Wine Day on the first weekend of October."
+      "text": "If you enter Moldova overland from Ukraine, the UK FCDO says to use an internationally recognised crossing point in the north or south of the country, outside the Transnistria region. Check the Moldovan Border Police for updates before you travel."
     },
     {
       "id": "cash-lei",
       "type": "tip",
-      "text": "Pay in Moldovan lei — exchange offices in Chișinău give fair rates. Keep small notes for markets and minibuses, and remember foreign cards are useless in Transnistria."
+      "text": "The Government of Canada says the economy is primarily cash-based and only a few ATMs in Chișinău accept foreign cards. Lei are not accepted in Transnistria, and foreign cards do not work there."
     }
   ],
   "faq": [
@@ -1744,7 +1782,7 @@
     {
       "id": "transnistria-safe",
       "question": "Can I visit Transnistria?",
-      "answer": "Many travelers do visit Tiraspol on a day trip from Chișinău, but the region is outside Moldovan government control, consular help there is very limited, and several governments advise caution or against travel. Transnistrian authorities issue their own entry slip at the de-facto boundary. Keep it, stay within its time limit, and carry cash."
+      "answer": "The UK FCDO advises against all travel to Transnistria. It is outside the control of the Moldovan government, and the de facto authorities may ask the purpose of your visit or deny you entry. If you go, fill in the two-copy migration card at the checkpoint and keep one copy to show when you leave."
     },
     {
       "id": "how-long-stay",
@@ -1754,7 +1792,7 @@
     {
       "id": "eu-schengen",
       "question": "Is Moldova in the EU or the Schengen Area?",
-      "answer": "No — Moldova is an EU candidate country but not a member, and it is not in Schengen. Days spent in Moldova do not count toward your 90-day Schengen limit, which makes it a popular side trip from Romania."
+      "answer": "No — Moldova is not an EU member and is not in the Schengen Area, so days spent in Moldova do not count toward your Schengen 90-day limit."
     }
   ]
 }

@@ -1532,7 +1532,7 @@
         }
       },
       "notes": [
-        "Standard EU allowances apply to alcohol and tobacco brought from outside the EU."
+        "Duty-free from outside the EU: 1 litre of spirits and other goods up to €300 (€430 arriving by air or sea). Slovakia applies the EU's lower tobacco limit to land and sea travellers — 40 cigarettes instead of 200."
       ]
     }
   },
@@ -1545,7 +1545,7 @@
     "payments": {
       "cardsAccepted": "widely",
       "cashImportance": "low",
-      "text": "Cards and contactless are accepted almost everywhere, including small-town shops and supermarkets; keep a few euro coins for mountain huts, small kiosks and public toilets."
+      "text": "No official source we checked describes card acceptance in Slovakia specifically. The European Central Bank's 2024 payments survey found that across the euro area 89% of in-store transactions were, or could have been, paid without cash, and 95% could be paid in cash. Australia's Smartraveller says ATMs may be rare in mountain areas and small villages."
     },
     "safety": {
       "level": "very-safe",
@@ -1564,10 +1564,24 @@
         "E"
       ],
       "voltage": 230,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
-      "general": "112"
+      "general": "112",
+      "police": "158",
+      "ambulance": "155",
+      "fire": "150"
     },
     "bestTimeToVisit": {
       "months": [
@@ -1577,12 +1591,12 @@
         8,
         9
       ],
-      "text": "May to September is best for Bratislava, the castles and High Tatras hiking; December to March is ski season in the Tatras and Low Tatras."
+      "text": "No official source we checked gives seasonal guidance for Slovakia; the months shown are not an official recommendation. The UK government says Slovakia can experience extreme weather, including heatwaves, storms, flash flooding, winter snow and fast-changing mountain weather."
     },
     "languages": [
       "Slovak"
     ],
-    "timezone": "UTC+1",
+    "timezone": "UTC+1 (UTC+2 in summer)",
     "drivingSide": "right",
     "roadVignette": {
       "form": "e-vignette",
@@ -1670,23 +1684,56 @@
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://travel.gc.ca/destinations/slovakia",
+        "name": "Government of Canada — Slovakia travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://assets.publishing.service.gov.uk/media/6246f4fa8fa8f5277c0169ba/Slovakia_Toponymic_Factfile.pdf",
+        "name": "UK Permanent Committee on Geographical Names — Slovakia toponymic factfile (2022)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://www.ecb.europa.eu/stats/ecb_surveys/space/html/ecb.space2024~19d46f0f17.en.html",
+        "name": "European Central Bank — Study on the payment attitudes of consumers in the euro area (SPACE) 2024",
+        "type": "igo",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://www.gov.uk/foreign-travel-advice/slovakia/safety-and-security",
+        "name": "UK Foreign, Commonwealth & Development Office — Slovakia travel advice: safety and security",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/slovakia",
+        "name": "Government of Canada — Slovakia travel advice and advisories (Money)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "tapWaterSafe": {
+        "url": "https://environment.ec.europa.eu/topics/water/drinking-water_en",
+        "name": "European Commission — Drinking water",
+        "type": "igo",
+        "lastVerified": "2026-10-04"
+      }
     }
   },
   "tips": [
     {
       "id": "vignette",
       "type": "tip",
-      "text": "Driving on Slovak motorways requires an electronic vignette (eznamka.sk). Buy it online before crossing the border; enforcement is by camera and fines are steep."
+      "text": "Driving on Slovak motorways requires a vignette, sold online at eznamka.sk and at border crossings, petrol stations and post offices. The UK government says you could get a heavy fine without one."
     },
     {
       "id": "tatras-rescue",
       "type": "info",
-      "text": "Mountain rescue in the Tatras can be charged to uninsured hikers. Carry insurance that covers mountain rescue, check avalanche and storm warnings, and note the rescue number 18 300."
-    },
-    {
-      "id": "bratislava-vienna",
-      "type": "tip",
-      "text": "Bratislava is under an hour from Vienna by train or bus with no border checks inside Schengen — the two capitals pair easily in one trip."
+      "text": "The UK government says that if you need the Slovak Mountain Rescue Service (HZS) you will have to meet costs of up to €1,000, and that ignoring HZS rules or instructions can bring a fine of up to €3,320. Make sure your insurance covers mountain rescue."
     },
     {
       "id": "etias",
@@ -1713,12 +1760,7 @@
     {
       "id": "currency",
       "question": "What currency does Slovakia use?",
-      "answer": "The euro, since 2009 — unlike neighboring Czechia, Poland and Hungary, which keep their own currencies. Cards are accepted almost everywhere."
-    },
-    {
-      "id": "tatras-season",
-      "question": "Can I hike the High Tatras year-round?",
-      "answer": "No. Many high-mountain trails close seasonally from November 1 to June 15 for safety and conservation, and snow lingers into early summer. Valley walks and ski resorts operate through winter; check trail status locally before setting out."
+      "answer": "The euro, which Slovakia adopted in 2009 (European Central Bank)."
     }
   ]
 }

@@ -1524,9 +1524,9 @@
       "symbol": "€"
     },
     "payments": {
-      "cardsAccepted": "widely",
+      "cardsAccepted": "limited",
       "cashImportance": "low",
-      "text": "Cards and contactless payments are accepted almost everywhere in towns and resorts. Keep a little cash for village tavernas, kiosks and rural areas."
+      "text": "No official source we could find describes how widely cards are accepted in Cyprus. Canada's travel advice notes that credit card and ATM fraud occurs, and that the Turkish lira is in circulation in the north."
     },
     "safety": {
       "level": "generally-safe",
@@ -1543,8 +1543,20 @@
       "types": [
         "G"
       ],
-      "voltage": 230,
-      "frequencyHz": 50
+      "voltage": 240,
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        },
+        "lastChanged": "2026-10-04"
+      }
     },
     "emergency": {
       "general": "112"
@@ -1557,15 +1569,15 @@
         9,
         10
       ],
-      "text": "April–June and September–October offer warm seas without the intense heat of July–August; winters are mild on the coast, with skiing occasionally possible on Mount Olympus in the Troodos."
+      "text": "No official seasonal guidance for visitors. Australia's Smartraveller notes a long dry season from May to October, when forest and grass fires are a risk, and says summer heatwaves are becoming more frequent."
     },
     "languages": [
       "Greek",
       "Turkish"
     ],
-    "timezone": "UTC+2",
+    "timezone": "UTC+2 (UTC+3 in summer)",
     "drivingSide": "left",
-    "tapWaterSafe": true,
+    "tapWaterSafe": null,
     "driving": {
       "idp": {
         "required": null,
@@ -1595,28 +1607,66 @@
         "lastVerified": "2026-10-03",
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/cyprus/getting-help",
+        "name": "UK Foreign, Commonwealth & Development Office — Cyprus travel advice: getting help",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/cyprus",
+        "name": "Government of Canada — Travel advice and advisories for Cyprus",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "drivingSide": {
+        "url": "https://travel.gc.ca/destinations/cyprus",
+        "name": "Government of Canada — Travel advice and advisories for Cyprus",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://travel.gc.ca/destinations/cyprus",
+        "name": "Government of Canada — Travel advice and advisories for Cyprus",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://www.smartraveller.gov.au/destinations/europe/cyprus",
+        "name": "Australian Government (Smartraveller) — Cyprus travel advice",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://www.law.gov.cy/law/law.nsf/1D2CDD154DCF33C9C225878E0030BA5E/$file/The%20Constitution%20of%20the%20Republic%20of%20Cyprus%20as%20amended%20until%202013.pdf",
+        "name": "Law Office of the Republic of Cyprus — Constitution of the Republic of Cyprus (as amended to 2013), article 3",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      }
     }
   },
   "tips": [
     {
       "id": "north-entry",
       "type": "warning",
-      "text": "Entering Cyprus through airports or ports in the Turkish-occupied north (e.g. Ercan) is treated as illegal entry by the Republic of Cyprus. Arrive via the south (Larnaca or Paphos). You can then cross to the north and back at recognized checkpoints with your passport."
+      "text": "The UK FCDO says that if you enter through the north (for example Ercan Airport), the Republic of Cyprus considers you to have entered illegally: you could be fined or prevented from crossing back into the north. Entering through the south, you can use any crossing point to move between north and south."
     },
     {
       "id": "left-driving",
       "type": "info",
-      "text": "Cyprus drives on the left, a legacy of British rule. Take extra care at roundabouts and when picking up a rental car, and note that rural roads can be narrow and winding."
+      "text": "Traffic drives on the left in Cyprus, according to Canada's travel advice and the US CDC. Canada adds that vehicle insurance bought in the Republic of Cyprus is not valid in the north, including for rental cars."
     },
     {
       "id": "not-schengen",
       "type": "info",
-      "text": "Days spent in Cyprus do not count against your Schengen 90/180 allowance — Cyprus is EU but not Schengen — making it a popular stop for travelers resetting their Schengen days."
+      "text": "The UK FCDO says Cyprus is not part of the Schengen area, so visits to Cyprus do not count towards your 90-day visa-free limit in Schengen, and Schengen days do not count towards your limit in Cyprus."
     },
     {
       "id": "summer-heat",
       "type": "warning",
-      "text": "July and August regularly exceed 35–40°C inland. Plan sightseeing at ancient sites like Kourion and Paphos for early morning, and carry water."
+      "text": "Australia's Smartraveller says summer heatwaves are becoming more frequent: drink plenty of water, wear light clothing, stay in air conditioning or shade, and follow local authorities' advice."
     }
   ],
   "faq": [
@@ -1638,12 +1688,12 @@
     {
       "id": "north-cyprus",
       "question": "Can I visit Northern Cyprus?",
-      "answer": "Yes, by crossing at recognized checkpoints (such as Ledra Street in Nicosia) with your passport after entering through the south. Arriving directly in the north via Ercan airport or northern ports is considered illegal entry by the Republic of Cyprus and can cause problems, including refusal of entry in the south."
+      "answer": "Yes, by crossing at a designated crossing point after entering through the south — Canada says crossing the UN buffer zone anywhere else is illegal. The UK FCDO says entering through the north, for example via Ercan Airport, is treated by the Republic of Cyprus as illegal entry and can lead to a fine or to being prevented from crossing back into the north."
     },
     {
       "id": "driving-side",
       "question": "Which side of the road does Cyprus drive on?",
-      "answer": "The left, like the UK, Ireland and Malta. Rental cars are right-hand drive with distinctive red plates, and speed limits are posted in kilometers per hour."
+      "answer": "The left. Canada's travel advice and the US CDC both say traffic drives on the left in Cyprus. Canada adds that you must be at least 18 to drive and can use a Canadian licence for up to 6 months."
     }
   ]
 }

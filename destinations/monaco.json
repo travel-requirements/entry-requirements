@@ -17,7 +17,7 @@
   ],
   "summary": "Monaco has no border controls of its own — entry follows Schengen rules applied through France, so EU/EEA citizens enter freely, visa-exempt nationalities get 90 days within the shared Schengen allowance, and visa-required travelers need a French-issued Schengen visa, which is valid for Monaco.",
   "meta": {
-    "lastUpdated": "2026-10-03",
+    "lastUpdated": "2026-10-04",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -1543,9 +1543,9 @@
       "symbol": "€"
     },
     "payments": {
-      "cardsAccepted": "widely",
+      "cardsAccepted": "limited",
       "cashImportance": "low",
-      "text": "Cards and contactless are accepted essentially everywhere in Monaco, from cafés to the casino; cash is rarely needed."
+      "text": "No official source we could read describes how widely cards are accepted in Monaco. The currency is the euro."
     },
     "safety": {
       "level": "very-safe",
@@ -1560,16 +1560,27 @@
     "plugs": {
       "types": [
         "C",
+        "D",
         "E",
         "F"
       ],
       "voltage": 230,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        },
+        "lastChanged": "2026-10-04"
+      }
     },
     "emergency": {
-      "general": "112",
-      "police": "17",
-      "ambulance": "18"
+      "general": "112"
     },
     "bestTimeToVisit": {
       "months": [
@@ -1579,14 +1590,14 @@
         9,
         10
       ],
-      "text": "April–June and September–October offer warm Riviera weather without the August crush; late May is Grand Prix week, spectacular but crowded and expensive."
+      "text": "No official seasonal guidance. The CIA World Factbook describes a Mediterranean climate with mild, wet winters and hot, dry summers."
     },
     "languages": [
       "French"
     ],
-    "timezone": "UTC+1",
+    "timezone": "UTC+1 (UTC+2 in summer)",
     "drivingSide": "right",
-    "tapWaterSafe": true,
+    "tapWaterSafe": null,
     "driving": {
       "idp": {
         "required": null,
@@ -1619,13 +1630,49 @@
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/monaco/getting-help",
+        "name": "UK Foreign, Commonwealth & Development Office — Monaco travel advice: getting help",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://www.cia.gov/the-world-factbook/countries/monaco/",
+        "name": "CIA World Factbook — Monaco (retired by the CIA in February 2026; cited from its last archived copy)",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260130113822/https://www.cia.gov/the-world-factbook/countries/monaco/",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      },
+      "bestTimeToVisit": {
+        "url": "https://www.cia.gov/the-world-factbook/countries/monaco/",
+        "name": "CIA World Factbook — Monaco (retired by the CIA in February 2026; cited from its last archived copy)",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260130113822/https://www.cia.gov/the-world-factbook/countries/monaco/",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/monaco",
+        "name": "Government of Canada — Monaco travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      }
     }
   },
   "tips": [
     {
       "id": "carry-passport",
       "type": "tip",
-      "text": "There are no border checks between France and Monaco, but carry your passport anyway — hotels must record ID, and police can carry out spot checks."
+      "text": "Monaco has no border controls with France, but carry your passport or EU ID card anyway: no official source we could read says when identity is checked inside Monaco."
     },
     {
       "id": "schengen-count",
@@ -1633,14 +1680,9 @@
       "text": "Monaco is not formally a Schengen member, but you can only reach it through the Schengen Area — in practice days spent in Monaco are counted within your 90-in-180 Schengen allowance."
     },
     {
-      "id": "grand-prix",
-      "type": "warning",
-      "text": "During the Monaco Grand Prix (late May) hotel prices multiply and much of the center is barriered off. Book far ahead, or stay in Nice and take the 20-minute train."
-    },
-    {
-      "id": "casino-rules",
+      "id": "dress-fines",
       "type": "info",
-      "text": "The Casino de Monte-Carlo has an entry fee, a dress code in the evening and an ID check — under-18s cannot enter the gaming rooms, and Monegasque citizens are not allowed to gamble."
+      "text": "The UK says you could be fined in Monaco for walking around in swimsuits, stripped to the waist or barefoot anywhere except beaches and bathing areas."
     }
   ],
   "faq": [
@@ -1657,7 +1699,7 @@
     {
       "id": "day-trip-passport",
       "question": "Do I need my passport for a day trip from Nice to Monaco?",
-      "answer": "There are no checks on the train or road from France, but you should still carry your passport or EU ID card — hotels and the casino check ID, and police can ask for documents."
+      "answer": "There are no border controls between France and Monaco, which applies Schengen entry rules through France. No official source we could read says when identity is checked inside Monaco, so carry your passport or EU ID card."
     },
     {
       "id": "long-stay",

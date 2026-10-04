@@ -1557,8 +1557,8 @@
         }
       },
       "notes": [
-        "Duty-free from outside the EU: 200 cigarettes, 1 liter of spirits, goods up to €300 (€430 arriving by air/sea).",
-        "No limits on goods for personal use when arriving from another EU country."
+        "Arriving from outside the EU, the EU's Your Europe portal lists duty-free allowances of 200 cigarettes, 1 litre of spirits over 22% and other goods worth up to €300 (€430 for air and sea travellers).",
+        "Between EU countries, no further duty is due on goods for your own use once tax has been paid where you bought them, though EU countries may set indicative guideline quantities for tobacco and alcohol."
       ]
     }
   },
@@ -1571,7 +1571,7 @@
     "payments": {
       "cardsAccepted": "widely",
       "cashImportance": "low",
-      "text": "Cards and contactless payments are accepted virtually everywhere in Finland, including buses, kiosks and market stalls. Many places are card-only, and cash is rarely needed."
+      "text": "No official source we could read describes how widely cards are accepted in Finland. Canada's travel advice notes that the currency is the euro (EUR) and that EUR 10,000 or more must be declared to customs when entering or leaving the EU."
     },
     "safety": {
       "level": "very-safe",
@@ -1591,7 +1591,18 @@
         "F"
       ],
       "voltage": 230,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
       "general": "112"
@@ -1606,15 +1617,15 @@
         2,
         3
       ],
-      "text": "June–August offers the midnight sun, lakeside cottages and warm city terraces; December–March is the season for Lapland, husky safaris and the northern lights."
+      "text": "No official source we checked gives seasonal guidance for Finland; the months shown are not an official recommendation."
     },
     "languages": [
       "Finnish",
       "Swedish"
     ],
-    "timezone": "UTC+2",
+    "timezone": "UTC+2 (UTC+3 in summer)",
     "drivingSide": "right",
-    "tapWaterSafe": true,
+    "tapWaterSafe": null,
     "driving": {
       "idp": {
         "required": null,
@@ -1647,6 +1658,37 @@
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/finland/getting-help",
+        "name": "UK Foreign, Commonwealth & Development Office — Finland travel advice: getting help",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://www.cia.gov/the-world-factbook/countries/finland/",
+        "name": "CIA World Factbook — Finland: People and Society, Languages (retired in 2026; read from its last archived copy)",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260103011548/https://www.cia.gov/the-world-factbook/page-data/countries/finland/page-data.json",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      },
+      "payments": {
+        "url": "https://travel.gc.ca/destinations/finland",
+        "name": "Government of Canada — Finland travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/finland",
+        "name": "Government of Canada — Finland travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      }
     }
   },
   "tips": [
@@ -1663,12 +1705,7 @@
     {
       "id": "winter-gear",
       "type": "tip",
-      "text": "For Lapland in winter, pack for -20°C or colder — layered thermal clothing, insulated boots and a proper hat; tour operators often lend thermal suits, but everyday gear is your own responsibility."
-    },
-    {
-      "id": "cards-only",
-      "type": "tip",
-      "text": "Do not bother exchanging much cash — Finland is close to cashless, and some cafés and buses accept cards or mobile payments only."
+      "text": "For Lapland in winter, pack layered thermal clothing, insulated boots and a proper hat."
     },
     {
       "id": "nordic-loop",
@@ -1696,11 +1733,6 @@
       "id": "etias-needed",
       "question": "Do I need ETIAS to visit Finland?",
       "answer": "Once ETIAS becomes mandatory, visa-exempt non-EU travelers will need the €20 online authorization before traveling to Finland and the rest of the Schengen Area. It is not yet in operation, and no applications are being collected; the EU will announce the start date several months before launch. Check the official EU ETIAS site for the current status."
-    },
-    {
-      "id": "northern-lights",
-      "question": "When can I see the northern lights in Finland?",
-      "answer": "The aurora season in Finnish Lapland runs roughly from late August to April, with the best odds on clear, dark nights between December and March away from city lights. No special permits are needed, just warm clothing."
     }
   ]
 }

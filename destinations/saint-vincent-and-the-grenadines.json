@@ -1502,9 +1502,7 @@
         }
       },
       "notes": [
-        "Firearms, spearguns and ammunition may not be brought in without a permit issued in advance — this catches out yacht crews sailing down the Grenadines.",
-        "Fresh fruit, vegetables, plants, seeds and meat are controlled to protect local agriculture; declare anything of that kind rather than risk a fine.",
-        "Camouflage-pattern clothing is discouraged across the Eastern Caribbean and may be confiscated."
+        "It is illegal for anyone, including children, to wear camouflage clothing (UK government), and Canada says it is illegal for civilians to import camouflage material."
       ]
     }
   },
@@ -1515,9 +1513,9 @@
       "symbol": "EC$"
     },
     "payments": {
-      "cardsAccepted": "widely-in-cities",
+      "cardsAccepted": "limited",
       "cashImportance": "medium",
-      "text": "Hotels, resorts and larger restaurants in Kingstown, Bequia and Canouan take cards, and ATMs dispense East Caribbean dollars. Carry cash for minibuses, ferries, market stalls and the smaller Grenadine islands, where card terminals are scarce and network outages are common. US dollars are widely accepted at a rate close to the fixed EC$2.70."
+      "text": "No official source we checked describes card acceptance. Canada's travel advice says US dollars are widely accepted alongside the East Caribbean dollar, and the UK government says taxi fares can often be paid in US dollars — agree the fare with the driver before you set off."
     },
     "safety": {
       "level": "generally-safe",
@@ -1534,17 +1532,31 @@
     "plugs": {
       "types": [
         "A",
-        "B",
-        "G"
+        "C",
+        "E",
+        "G",
+        "I",
+        "K"
       ],
       "voltage": 230,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        },
+        "lastChanged": "2026-10-04"
+      }
     },
     "emergency": {
-      "general": "911",
-      "police": "911",
-      "fire": "999",
-      "ambulance": "999"
+      "general": "911 or 999",
+      "police": "999",
+      "ambulance": "911"
     },
     "bestTimeToVisit": {
       "months": [
@@ -1554,30 +1566,63 @@
         4,
         5
       ],
-      "text": "January to May is the dry season — steady trade winds, calm anchorages in the Grenadines and the lowest rainfall. Hurricane season runs June to November, with the highest risk from August to October."
+      "text": "Canada's travel advice says the hurricane season runs from early June to the end of November. No official source names a best season; the months shown fall outside it."
     },
     "languages": [
       "English"
     ],
     "timezone": "UTC-4",
     "drivingSide": "left",
-    "tapWaterSafe": true
+    "tapWaterSafe": null,
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/st-vincent-and-the-grenadines/getting-help",
+        "name": "UK Foreign, Commonwealth & Development Office — Saint Vincent and the Grenadines travel advice: getting help",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "drivingSide": {
+        "url": "https://travel.gc.ca/destinations/saint-vincent-the-grenadines",
+        "name": "Government of Canada — Saint Vincent and the Grenadines travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://tourism.gov.vc/tourism/index.php/svg-facts/460-language",
+        "name": "Ministry of Tourism, Saint Vincent and the Grenadines — SVG facts: language",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://travel.gc.ca/destinations/saint-vincent-the-grenadines",
+        "name": "Government of Canada — Saint Vincent and the Grenadines travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://travel.gc.ca/destinations/saint-vincent-the-grenadines",
+        "name": "Government of Canada — Saint Vincent and the Grenadines travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/saint-vincent-the-grenadines",
+        "name": "Government of Canada — Saint Vincent and the Grenadines travel advice and advisories (Money)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      }
+    }
   },
   "tips": [
     {
       "id": "hurricane-season",
       "type": "warning",
-      "text": "The official Atlantic hurricane season runs June 1 to November 30, peaking August to October. Ferries between the islands are canceled in heavy swell — build slack into island-hopping plans and check that your insurance covers weather disruption."
+      "text": "Canada's travel advice says the hurricane season runs from early June to the end of November, and that even small tropical storms can quickly become major hurricanes. Monitor forecasts, follow local authorities, and check that your insurance covers weather disruption."
     },
     {
       "id": "la-soufriere",
       "type": "warning",
-      "text": "La Soufrière is an active volcano and erupted as recently as 2021. Hiking the crater is popular but follow the alert level published by the UWI Seismic Research Centre and the national emergency management organization (NEMO) before setting out."
-    },
-    {
-      "id": "grenadines-entry",
-      "type": "info",
-      "text": "Arriving by yacht you must clear immigration and customs at an official port of entry — Kingstown, Bequia (Port Elizabeth), Canouan, Union Island or Chatham Bay — before moving between the Grenadines."
+      "text": "Canada's travel advice says La Soufrière is an active volcano whose last significant eruption was in April 2021, and that it has limited police presence around La Soufrière and the north of the island. Monitor local media for volcanic activity and take care if trekking there."
     },
     {
       "id": "extend-at-immigration",
@@ -1587,7 +1632,7 @@
     {
       "id": "ec-dollar-cash",
       "type": "tip",
-      "text": "The EC dollar is pegged at EC$2.70 to US$1. Paying in US dollars is accepted almost everywhere, but you will usually get change in EC dollars and a slightly worse rate than the ATM."
+      "text": "Canada's travel advice says US dollars are widely accepted, and the UK government says taxi fares can often be paid in US dollars. Agree taxi fares in advance — taxis are not metered."
     }
   ],
   "faq": [
@@ -1607,19 +1652,9 @@
       "answer": "Under the Revised Treaty of Chaguaramas, CARICOM nationals arriving as visitors are entitled to a definite entry of up to six months, provided they have no adverse immigration record and can support themselves. Bring your CARICOM passport and be ready to state your address and length of stay."
     },
     {
-      "id": "how-to-arrive",
-      "question": "How do I get to Saint Vincent and the Grenadines?",
-      "answer": "Argyle International Airport (SVD) on Saint Vincent takes direct flights from Miami, New York, Toronto and regional Caribbean hubs, with connections through Barbados and Saint Lucia. The Grenadines are reached by inter-island ferry from Kingstown or by short flights to Bequia, Canouan, Mustique and Union Island."
-    },
-    {
       "id": "yellow-fever-needed",
       "question": "Do I need a yellow fever certificate?",
       "answer": "Only if you are arriving from — or have spent more than 12 hours in transit in — a country with risk of yellow fever transmission, which mainly means parts of South America and sub-Saharan Africa. Arrivals from Europe, North America and the rest of the Caribbean need no certificate."
-    },
-    {
-      "id": "arrive-by-yacht",
-      "question": "Can I enter by yacht without a visa?",
-      "answer": "The visa rules are the same by sea as by air — what changes is the procedure. The captain must clear the whole crew in at an official port of entry, present passports and the ship's papers, and pay cruising and port fees; each crew member gets the same entry stamp they would receive at the airport."
     }
   ]
 }

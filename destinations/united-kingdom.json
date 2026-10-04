@@ -1875,8 +1875,8 @@
         }
       },
       "notes": [
-        "Personal allowance arriving in Great Britain: 200 cigarettes, 4 liters of spirits (or 18 liters of still wine plus 42 liters of beer), and other goods up to £390.",
-        "Bringing meat or dairy products into Great Britain is prohibited from most countries, including the EU."
+        "GOV.UK lists the personal allowance for arrivals in Great Britain as 200 cigarettes (or 250 g of tobacco), 42 litres of beer or cider and 18 litres of wine, plus 4 litres of spirits over 22% ABV (or 9 litres of drinks up to 22%), and other goods worth up to £390.",
+        "GOV.UK lists personal imports of meat and dairy products from most non-EU countries as banned."
       ]
     }
   },
@@ -1889,7 +1889,7 @@
     "payments": {
       "cardsAccepted": "widely",
       "cashImportance": "low",
-      "text": "Contactless cards and phone payments are accepted almost universally, including on London buses and the Tube; many cafés and attractions are now card-only."
+      "text": "Australia's Smartraveller says ATMs are available, credit cards are widely used and contactless payment is widely accepted."
     },
     "safety": {
       "level": "generally-safe",
@@ -1908,11 +1908,21 @@
         "G"
       ],
       "voltage": 230,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
       "general": "999",
-      "alternative": "112",
       "police-non-emergency": "101"
     },
     "bestTimeToVisit": {
@@ -1923,14 +1933,14 @@
         8,
         9
       ],
-      "text": "Late spring to early fall (May–September) brings the mildest weather and longest daylight; pack for rain at any time of year."
+      "text": "No official source we checked gives seasonal guidance for the United Kingdom; the months shown are not an official recommendation."
     },
     "languages": [
       "English",
       "Welsh",
       "Scottish Gaelic"
     ],
-    "timezone": "UTC+0",
+    "timezone": "UTC+0 (UTC+1 in summer)",
     "drivingSide": "left",
     "tapWaterSafe": true,
     "driving": {
@@ -1965,6 +1975,54 @@
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/contact-police",
+        "name": "GOV.UK — Contact the police (999 for emergencies, 101 for non-emergencies)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "drivingSide": {
+        "url": "https://travel.gc.ca/destinations/united-kingdom",
+        "name": "Government of Canada — United Kingdom travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://www.cia.gov/the-world-factbook/countries/united-kingdom/",
+        "name": "CIA World Factbook — United Kingdom: People and Society, Languages (retired in 2026; read from its last archived copy)",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260120134255/https://www.cia.gov/the-world-factbook/page-data/countries/united-kingdom/page-data.json",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      },
+      "tapWaterSafe": {
+        "url": "https://www.dwi.gov.uk/",
+        "name": "Drinking Water Inspectorate (England and Wales) — public water supplies are safe",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://www.smartraveller.gov.au/destinations/europe/united-kingdom",
+        "name": "Australian Government Smartraveller — United Kingdom travel advice",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260828094425/https://www.smartraveller.gov.au/destinations/europe/united-kingdom",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "blocked"
+        }
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/united-kingdom",
+        "name": "Government of Canada — United Kingdom travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      }
     }
   },
   "tips": [
@@ -1986,7 +2044,7 @@
     {
       "id": "nhs-costs",
       "type": "warning",
-      "text": "The NHS charges overseas visitors for hospital treatment. Take out travel insurance with medical coverage before you go."
+      "text": "Take out travel insurance with medical coverage before you go."
     }
   ],
   "faq": [

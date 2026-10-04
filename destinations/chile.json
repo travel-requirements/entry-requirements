@@ -1599,9 +1599,7 @@
         }
       },
       "notes": [
-        "Chile's agricultural border controls are among the strictest anywhere: no fresh fruit, vegetables, seeds, honey, meat, dairy or untreated wood, including items bought in the airport of departure.",
-        "The same controls apply on internal crossings into Region XV and the far north and south, and on flights to Easter Island.",
-        "Foreign visitors paying a hotel in US dollars with a foreign card are exempt from the 19% VAT. Show your passport and TUM at check-in."
+        "Chilean law requires every traveller to declare under oath, on the SAG form, any plants, animals, products of plant or animal origin (including handicrafts), agricultural chemicals or animal feed they bring in. Inspectors of the Agricultural and Livestock Service (SAG) check them whatever the quantity, destroy what does not meet the rules, and failing to declare risk products leads to sanctions and fines."
       ]
     }
   },
@@ -1612,9 +1610,9 @@
       "symbol": "$"
     },
     "payments": {
-      "cardsAccepted": "widely",
-      "cashImportance": "low",
-      "text": "Chile is close to cashless in cities: cards and contactless work almost everywhere, including buses in Santiago via a Bip! card. Carry pesos for Patagonian villages, small markets and rural buses. ATM withdrawal fees are high. Take out larger amounts less often."
+      "cardsAccepted": "widely-in-cities",
+      "cashImportance": "medium",
+      "text": "Canada's travel advice says some small restaurants and stores outside Santiago may not accept credit cards, that US dollars are easily exchanged at banks and official exchange bureaus across the country, and that purchases in US dollars can be made only in certain stores in Santiago."
     },
     "safety": {
       "level": "generally-safe",
@@ -1632,10 +1630,20 @@
         "L"
       ],
       "voltage": 220,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
-      "general": "133",
       "ambulance": "131",
       "fire": "132",
       "police": "133"
@@ -1648,14 +1656,14 @@
         2,
         3
       ],
-      "text": "November to March is the southern summer — the only sensible window for Torres del Paine and the Lake District. The Atacama works year-round, and June to September is ski season in the Andes near Santiago."
+      "text": "No official seasonal guidance. The CIA World Factbook describes a desert climate in the north, a Mediterranean one in the central region and a cool, damp south; the UK notes that winter weather between June and September sometimes closes Andes border crossings, including Los Libertadores between Santiago and Mendoza."
     },
     "languages": [
       "Spanish"
     ],
-    "timezone": "UTC-4",
+    "timezone": "UTC-6 to UTC-3 (some areas observe summer time)",
     "drivingSide": "right",
-    "tapWaterSafe": true,
+    "tapWaterSafe": false,
     "driving": {
       "idp": {
         "required": null,
@@ -1685,13 +1693,62 @@
         "lastVerified": "2026-10-03",
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/chile/getting-help",
+        "name": "UK Foreign, Commonwealth & Development Office — Chile travel advice: getting help",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://www.cia.gov/the-world-factbook/countries/chile/",
+        "name": "CIA World Factbook — Chile (retired by the CIA in February 2026; cited from its last archived copy)",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260126020712/https://www.cia.gov/the-world-factbook/countries/chile/",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      },
+      "payments": {
+        "url": "https://travel.gc.ca/destinations/chile",
+        "name": "Government of Canada — Chile travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://www.cia.gov/the-world-factbook/countries/chile/",
+        "name": "CIA World Factbook — Chile (retired by the CIA in February 2026; cited from its last archived copy)",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260126020712/https://www.cia.gov/the-world-factbook/countries/chile/",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/chile",
+        "name": "Government of Canada — Chile travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "tapWaterSafe": {
+        "url": "https://www.smartraveller.gov.au/destinations/americas/chile",
+        "name": "Australian Government Smartraveller — Chile travel advice (Health: \"Drink only boiled or bottled water\")",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260526060454/https://www.smartraveller.gov.au/destinations/americas/chile"
+      }
     }
   },
   "tips": [
     {
       "id": "sag-fines",
       "type": "warning",
-      "text": "Do not carry any food across a Chilean border, including an apple from the plane. The agricultural declaration is compulsory, sniffer dogs work the baggage hall, and fines for an undeclared item start in the hundreds of dollars."
+      "text": "Declare all food, plants and animal products on the SAG sworn declaration when you enter Chile. The Agricultural and Livestock Service says inspectors check declared goods whatever the quantity, and that failing to declare risk products leads to sanctions and fines."
     },
     {
       "id": "rapa-nui-limits",
@@ -1699,19 +1756,9 @@
       "text": "Easter Island (Rapa Nui) has its own entry rules: stays are capped at 30 days, and you must show a return ticket, a booking with a registered hotel or a letter from a Rapa Nui host, and file the Rapa Nui entry form before boarding. Book accommodation before you book the flight."
     },
     {
-      "id": "vat-exemption",
-      "type": "tip",
-      "text": "Foreign visitors are exempt from Chile's 19% VAT on hotel stays when paying in US dollars with a foreign card or cash. Present your passport and electronic TUM at check-in. Many hotels will not apply it unless you ask."
-    },
-    {
       "id": "id-card-neighbours",
       "type": "info",
       "text": "Citizens of Argentina, Brazil, Uruguay, Paraguay, Bolivia, Peru, Ecuador and Colombia can enter Chile on a national identity card instead of a passport under the regional agreement — useful for overland border hops."
-    },
-    {
-      "id": "long-country",
-      "type": "info",
-      "text": "Chile is over 4,000 km long. Santiago to Punta Arenas is a four-hour flight, and the Atacama and Patagonia are effectively different trips. Plan domestic flights rather than buses for the long legs."
     }
   ],
   "faq": [
@@ -1738,7 +1785,7 @@
     {
       "id": "sag-declaration",
       "question": "What is the SAG declaration?",
-      "answer": "It is Chile's compulsory sworn declaration about food, plants, seeds, wood and animal products, filed online before arrival or on the form handed out in flight. Chile protects a disease-free agricultural sector and enforces this seriously. An undeclared piece of fruit is a fine, not a warning."
+      "answer": "It is the sworn declaration Chilean law requires of every traveller bringing in plants, animals, products of plant or animal origin (including handicrafts), agricultural chemicals or animal feed. It is free and can be filed digitally; SAG inspectors check what you declare, and failing to declare risk products leads to sanctions and fines."
     },
     {
       "id": "venezuelan-haitian",

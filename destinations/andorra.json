@@ -1444,7 +1444,7 @@
         }
       },
       "notes": [
-        "Andorra is outside the EU customs union — duty-free allowances on tobacco, alcohol and fuel are enforced when you drive back into France or Spain, and customs checks with lines are common."
+        "Andorra is not in the EU. According to the UK FCDO, you may have to pay taxes and duties on tobacco, liquor and luxury goods when you re-enter France or Spain, and customs officers may impound excess tobacco and the vehicle carrying it."
       ]
     }
   },
@@ -1455,9 +1455,9 @@
       "symbol": "€"
     },
     "payments": {
-      "cardsAccepted": "widely",
+      "cardsAccepted": "limited",
       "cashImportance": "low",
-      "text": "Cards and contactless payments are accepted almost everywhere, from ski lifts to the duty-free shopping galleries of Andorra la Vella; cash is rarely needed."
+      "text": "No official source we read describes card acceptance in Andorra. The Government of Canada states only that the currency is the euro (EUR)."
     },
     "safety": {
       "level": "very-safe",
@@ -1476,10 +1476,24 @@
         "F"
       ],
       "voltage": 230,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
-      "general": "112"
+      "general": "112",
+      "police": "110",
+      "ambulance": "116",
+      "fire": "118"
     },
     "bestTimeToVisit": {
       "months": [
@@ -1490,16 +1504,14 @@
         7,
         8
       ],
-      "text": "December to March for skiing in Grandvalira and Pal Arinsal; July and August for hiking, cycling and cool mountain air."
+      "text": "No official seasonal guidance. The Government of Canada warns that mountain weather is highly unpredictable and that winter brings heavy snowfall, blizzards, freezing temperatures and avalanche risk."
     },
     "languages": [
-      "Catalan",
-      "Spanish",
-      "French"
+      "Catalan"
     ],
-    "timezone": "UTC+1",
+    "timezone": "UTC+1 (UTC+2 in summer)",
     "drivingSide": "right",
-    "tapWaterSafe": true,
+    "tapWaterSafe": null,
     "driving": {
       "idp": {
         "required": null,
@@ -1531,28 +1543,60 @@
         "instrument": "Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://travel.gc.ca/destinations/andorra",
+        "name": "Government of Canada — Andorra travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://www.govern.ad/ca/tematiques/cultura-i-esports/llengua/comunicacio/campanyes-de-promocio/la-llei-del-catala",
+        "name": "Govern d’Andorra — La llei del català (Constitution, art. 2.1)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://travel.gc.ca/destinations/andorra",
+        "name": "Government of Canada — Andorra travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://travel.gc.ca/destinations/andorra",
+        "name": "Government of Canada — Andorra travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://economy-finance.ec.europa.eu/euro/use-euro/euro-outside-euro-area_en",
+        "name": "European Commission — The euro outside the euro area",
+        "type": "igo",
+        "lastVerified": "2026-10-04"
+      }
     }
   },
   "tips": [
     {
       "id": "schengen-reentry",
       "type": "warning",
-      "text": "If you needed a visa to enter the Schengen Area, make sure it allows at least two entries before visiting Andorra — driving in counts as leaving Schengen, and a single-entry visa will not get you back into France or Spain."
+      "text": "If you needed a visa to enter the Schengen Area, the Government of Canada advises holding a multiple-entry visa before visiting Andorra: Andorra is outside Schengen, and holders of a single-entry visa may be refused re-entry to France or Spain."
     },
     {
       "id": "no-airport",
       "type": "info",
-      "text": "Andorra has no airport or train station. The usual gateways are Barcelona and Toulouse, around three hours away by road, with regular buses to Andorra la Vella."
+      "text": "Andorra is landlocked and has no airport, according to the Government of Canada; you must enter through France or Spain."
     },
     {
       "id": "customs-allowances",
       "type": "warning",
-      "text": "Duty-free shopping is a national pastime, but French and Spanish customs enforce strict allowances on tobacco, alcohol and fuel when you leave — exceeding them means fines and confiscation."
+      "text": "France and Spain apply strict limits on the tobacco and alcohol you bring out of Andorra for personal use. The UK FCDO says customs officers may impound excess tobacco and the vehicle carrying it."
     },
     {
       "id": "winter-driving",
       "type": "warning",
-      "text": "In winter, snow chains or winter tires are often mandatory on the mountain roads into Andorra. Check conditions before driving up, especially over the Envalira pass from France."
+      "text": "From 1 November to 15 May you must use winter tyres or carry snow chains in Andorra, and you can be fined if you do not (UK FCDO)."
     }
   ],
   "faq": [
@@ -1564,7 +1608,7 @@
     {
       "id": "schengen-days",
       "question": "Does time in Andorra count against my 90-day Schengen allowance?",
-      "answer": "Strictly speaking no — Andorra is outside the Schengen Area. In practice the road borders rarely stamp passports, so keep evidence of your stay (hotel bookings, receipts) if you plan to rely on Andorran days not counting toward the 90/180 limit."
+      "answer": "No — Andorra is outside the Schengen Area, so days spent there are not Schengen days. If you plan to rely on that, keep evidence of your stay, such as hotel bookings and receipts."
     },
     {
       "id": "single-entry-visa",
@@ -1574,12 +1618,12 @@
     {
       "id": "getting-there",
       "question": "How do I get to Andorra without an airport?",
-      "answer": "By road. Regular direct buses run from Barcelona and Toulouse airports (about three hours), or you can drive — from Spain via La Seu d'Urgell or from France over the Envalira pass, which can require winter equipment in snow season."
+      "answer": "By road, through France or Spain: Andorra has no airport (Government of Canada). From 1 November to 15 May, winter tyres or snow chains are compulsory on Andorran roads (UK FCDO)."
     },
     {
       "id": "currency",
       "question": "What currency does Andorra use?",
-      "answer": "The euro, under a monetary agreement with the EU — even though Andorra is not an EU member. Cards are accepted almost everywhere."
+      "answer": "The euro. According to the European Commission, Andorra is not in the euro area but has a monetary agreement with the EU that makes the euro its official currency."
     }
   ]
 }

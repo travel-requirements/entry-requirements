@@ -1492,11 +1492,7 @@
           "lastChanged": "2026-10-02",
           "instrument": "Law No. 6/2017; Chief Executive Dispatch No. 227/2017"
         }
-      },
-      "notes": [
-        "The duty-free tobacco allowance is only 19 cigarettes — excess quantities are fined heavily.",
-        "E-cigarettes and vaping products may not be brought into Macao. They are prohibited items."
-      ]
+      }
     }
   },
   "countryFacts": {
@@ -1508,7 +1504,7 @@
     "payments": {
       "cardsAccepted": "widely",
       "cashImportance": "medium",
-      "text": "Cards and mobile payments are accepted in casinos, hotels and malls, and Hong Kong dollars circulate 1:1 alongside the pataca. Keep some cash for street food, small shops and buses, and note patacas are hard to spend outside Macao."
+      "text": "Australia's Smartraveller says credit cards are widely accepted in Macao and some shops also accept Hong Kong dollars and Chinese yuan; the Government of Canada also says Hong Kong dollars are accepted."
     },
     "safety": {
       "level": "very-safe",
@@ -1522,45 +1518,102 @@
     },
     "plugs": {
       "types": [
-        "G",
         "D",
+        "F",
+        "G",
         "M"
       ],
       "voltage": 220,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        },
+        "lastChanged": "2026-10-04"
+      }
     },
     "emergency": {
-      "general": "999"
+      "general": "999",
+      "alternative": "112"
     },
     "bestTimeToVisit": {
       "months": [
-        10,
-        11,
         12,
         1,
         2,
         3
       ],
-      "text": "October to March brings cooler, drier weather ideal for the old town and Coloane; summer is hot, humid and prone to typhoons."
+      "text": "No official seasonal guidance. The UK FCDO says the typhoon season normally runs from May to November, and Australia's Smartraveller says humidity is very high from May to October."
     },
     "languages": [
-      "Cantonese",
+      "Chinese",
       "Portuguese"
     ],
     "timezone": "UTC+8",
     "drivingSide": "left",
-    "tapWaterSafe": true
+    "tapWaterSafe": false,
+    "sources": {
+      "emergency": {
+        "url": "https://www.macaotourism.gov.mo/en/travelessential/useful-info/emergency-numbers",
+        "name": "Macao Government Tourism Office — Emergency numbers (999 / 110 / 112)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "drivingSide": {
+        "url": "https://travel.gc.ca/destinations/macao",
+        "name": "Government of Canada — Macao travel advice (Driving)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://www.macaotourism.gov.mo/en/travelessential/about-macao/language",
+        "name": "Macao Government Tourism Office — Language",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://www.smartraveller.gov.au/destinations/asia/macau",
+        "name": "Australian Government Smartraveller — Macau travel advice (Money)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://www.gov.uk/foreign-travel-advice/macao/safety-and-security",
+        "name": "UK FCDO — Macao travel advice (Safety and security)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://www.smartraveller.gov.au/destinations/asia/macau",
+        "name": "Australian Government Smartraveller — Macau travel advice (Money)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "tapWaterSafe": {
+        "url": "https://www.smartraveller.gov.au/destinations/asia/macau",
+        "name": "Australian Government Smartraveller — Macau travel advice (Health: \"drink only filtered or bottled water with sealed lids\")",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260901121125/https://www.smartraveller.gov.au/destinations/asia/macau"
+      }
+    }
   },
   "tips": [
     {
       "id": "hkd-accepted",
       "type": "tip",
-      "text": "Hong Kong dollars are accepted everywhere at 1:1 (casinos often prefer them), but change is usually given in patacas — spend your MOP before leaving, as they are almost impossible to exchange outside Macao."
+      "text": "The Government of Canada says Hong Kong dollars are accepted alongside the pataca, and Australia's Smartraveller says some shops also take Chinese yuan. Ask which currency your change will be given in."
     },
     {
       "id": "fresh-entry",
       "type": "info",
-      "text": "Every arrival by ferry, bridge bus or air is a fresh entry with its own stay period — day-tripping from Hong Kong is easy, but frequent back-to-back visits to reset your stay will draw questions."
+      "text": "Every arrival by ferry, bridge bus or air is a separate entry through Macao immigration, so day-tripping from Hong Kong is straightforward — carry your passport each time."
     },
     {
       "id": "mainland-visa",
@@ -1570,7 +1623,7 @@
     {
       "id": "typhoons",
       "type": "warning",
-      "text": "During typhoon signal 8 or above (mostly June–October) ferries and the airport shut down and casinos may close. Check the SMG weather bureau signals in summer."
+      "text": "The UK FCDO says the typhoon season normally runs from May to November and public offices shut when the Typhoon 8 signal is issued. The Macao Government Tourism Office says that under Signal No. 8 all outdoor and marine activities should be suspended and the cross-sea bridges may close. Follow the Meteorological and Geophysical Bureau (SMG) signals."
     }
   ],
   "faq": [
@@ -1592,7 +1645,7 @@
     {
       "id": "day-trip",
       "question": "Can I do a day trip to Macau from Hong Kong?",
-      "answer": "Yes — ferries and the Hong Kong–Zhuhai–Macao Bridge take about an hour, and immigration on both sides is quick for visa-free nationalities. Bring your passport: you formally exit Hong Kong and enter Macao, and each crossing uses a fresh entry stamp on both sides."
+      "answer": "Yes — ferries and the Hong Kong–Zhuhai–Macao Bridge connect the two. Bring your passport: you formally exit Hong Kong and enter Macao, and go through immigration on both sides each way."
     },
     {
       "id": "voa-how",

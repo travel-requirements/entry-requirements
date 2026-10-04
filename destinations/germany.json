@@ -1657,8 +1657,8 @@
         }
       },
       "notes": [
-        "Duty-free from outside the EU: 200 cigarettes, 1 liter of spirits, goods up to €300 (€430 arriving by air/sea).",
-        "No limits on goods for personal use when arriving from another EU country."
+        "Entering from outside the EU, the duty-free allowance is 200 cigarettes (or 100 cigarillos, 50 cigars or 250 g of tobacco), 1 litre of spirits over 22% (or 2 litres of fortified or sparkling wine), 4 litres of still wine, 16 litres of beer, and other goods worth up to €300 (€430 by air or sea), according to the EU’s Your Europe portal.",
+        "Arriving from another EU country, you pay no duty on alcohol and tobacco bought for your own use; above guideline levels (such as 800 cigarettes or 10 litres of spirits) customs may ask you to show they are for personal use."
       ]
     }
   },
@@ -1669,9 +1669,9 @@
       "symbol": "€"
     },
     "payments": {
-      "cardsAccepted": "widely-in-cities",
+      "cardsAccepted": "limited",
       "cashImportance": "medium",
-      "text": "Card acceptance has improved a lot, but cash is still king in many bakeries, kiosks, small restaurants and at markets — always carry some euros, and note that some places take girocard but not foreign credit cards."
+      "text": "No official source we read describes card acceptance in Germany. The UK FCDO advises changing money only at banks, ATMs or official exchanges and checking your change when paying in cash."
     },
     "safety": {
       "level": "very-safe",
@@ -1691,7 +1691,18 @@
         "F"
       ],
       "voltage": 230,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
       "general": "112",
@@ -1706,12 +1717,12 @@
         9,
         12
       ],
-      "text": "May–September brings warm weather, beer gardens and festivals; December is worth braving the cold for the Christmas markets. Late September means Oktoberfest crowds and high prices in Munich."
+      "text": "No official seasonal guidance."
     },
     "languages": [
       "German"
     ],
-    "timezone": "UTC+1",
+    "timezone": "UTC+1 (UTC+2 in summer)",
     "drivingSide": "right",
     "tapWaterSafe": true,
     "driving": {
@@ -1745,24 +1756,41 @@
         "instrument": "Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/germany/getting-help",
+        "name": "UK FCDO — Germany travel advice: Getting help",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://european-union.europa.eu/principles-countries-history/eu-countries/germany_en",
+        "name": "European Union — Germany country profile",
+        "type": "igo",
+        "lastVerified": "2026-10-04"
+      },
+      "tapWaterSafe": {
+        "url": "https://environment.ec.europa.eu/topics/water/drinking-water_en",
+        "name": "European Commission — Drinking water",
+        "type": "igo",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://www.gov.uk/foreign-travel-advice/germany/safety-and-security",
+        "name": "UK FCDO — Germany travel advice: Safety and security",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://european-union.europa.eu/principles-countries-history/eu-countries/germany_en",
+        "name": "European Union — Germany country profile",
+        "type": "igo",
+        "lastVerified": "2026-10-04"
+      }
     }
   },
   "tips": [
-    {
-      "id": "cash-still-king",
-      "type": "tip",
-      "text": "Carry cash — plenty of small shops, bakeries and restaurants are cash-only or accept only German girocard, not foreign credit cards."
-    },
-    {
-      "id": "sunday-closures",
-      "type": "info",
-      "text": "Nearly all shops and supermarkets close on Sundays (Sonntagsruhe) — stock up on Saturday; only bakeries (mornings), gas stations and station shops stay open."
-    },
-    {
-      "id": "pfand-deposit",
-      "type": "tip",
-      "text": "Bottles and cans carry a deposit (Pfand) of €0.08–0.25 — return them to supermarket machines to get it back."
-    },
     {
       "id": "etias-scams",
       "type": "tip",

@@ -1681,7 +1681,7 @@
       },
       "notes": [
         "Duty-free from outside the EU: 200 cigarettes, 1 liter of spirits, goods up to €300 (€430 arriving by air/sea).",
-        "No limits on goods for personal use when arriving from another EU country."
+        "Goods for your own use bought in another EU country carry no further duty. Above the EU guide levels (for example 800 cigarettes or 10 litres of spirits), customs may ask you to show they are for personal use."
       ]
     }
   },
@@ -1694,7 +1694,7 @@
     "payments": {
       "cardsAccepted": "widely",
       "cashImportance": "low",
-      "text": "Cards and contactless payments are accepted almost everywhere, including bakeries and taxis. Some cafés apply a small card minimum, so a little cash is handy."
+      "text": "No official source we checked describes card acceptance in France specifically. The European Central Bank's 2024 payments survey found that across the euro area 89% of in-store transactions were, or could have been, paid without cash, and 95% could be paid in cash."
     },
     "safety": {
       "level": "generally-safe",
@@ -1713,12 +1713,24 @@
         "E"
       ],
       "voltage": 230,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
       "general": "112",
       "police": "17",
-      "ambulance": "15"
+      "ambulance": "15",
+      "fire": "18"
     },
     "bestTimeToVisit": {
       "months": [
@@ -1728,12 +1740,12 @@
         9,
         10
       ],
-      "text": "April–June and September–October offer mild weather and thinner crowds; July–August is peak season, and many Paris businesses close in August while the coast fills up."
+      "text": "No official source we checked gives seasonal guidance for France; the months shown are not an official recommendation. The UK government says there is a high risk of wildfires in the summer season from April to October."
     },
     "languages": [
       "French"
     ],
-    "timezone": "UTC+1",
+    "timezone": "UTC+1 (UTC+2 in summer)",
     "drivingSide": "right",
     "tapWaterSafe": true,
     "driving": {
@@ -1768,18 +1780,50 @@
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/france/getting-help",
+        "name": "UK Foreign, Commonwealth & Development Office — France travel advice: getting help",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "tapWaterSafe": {
+        "url": "https://sante.gouv.fr/sante-et-environnement/eaux/article/eau-du-robinet",
+        "name": "French Ministry of Health — Eau du robinet",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://www.ecb.europa.eu/stats/ecb_surveys/space/html/ecb.space2024~19d46f0f17.en.html",
+        "name": "European Central Bank — Study on the payment attitudes of consumers in the euro area (SPACE) 2024",
+        "type": "igo",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://www.gov.uk/foreign-travel-advice/france/warnings-and-insurance",
+        "name": "UK Foreign, Commonwealth & Development Office — France travel advice: warnings and insurance",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/france",
+        "name": "Government of Canada — France travel advice and advisories (Money)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      }
     }
   },
   "tips": [
     {
       "id": "pickpockets",
       "type": "warning",
-      "text": "Pickpocketing and distraction scams (petitions, gold rings, friendship bracelets) are common on the Paris metro and around major sights. Keep valuables zipped away."
+      "text": "The UK government says thieves and pickpockets operate on the Paris Métro, on RER lines and at mainline stations, sometimes in gangs where one person distracts you. Keep your passport, cards and valuables in separate bags or pockets."
     },
     {
       "id": "strikes",
       "type": "info",
-      "text": "Transport strikes (grèves) periodically disrupt trains, the metro and flights. Check SNCF and airport status before travel days and build in slack."
+      "text": "Canada's travel advice says strikes occur regularly, particularly in transport, and Australia's Smartraveller says they can affect trains and flights. Check the status of your trains and flights before travel days and build in slack."
     },
     {
       "id": "90-180-rule",

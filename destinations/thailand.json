@@ -1799,8 +1799,8 @@
         }
       },
       "notes": [
-        "Duty-free allowance: 200 cigarettes and 1 liter of alcohol per adult.",
-        "E-cigarettes and vaping devices are prohibited — possession can lead to fines or arrest."
+        "The UK Foreign Office says it is illegal to take more than 200 cigarettes per person into Thailand; excess cigarettes are likely to be confiscated and you could be fined 10 times their value.",
+        "The UK Foreign Office says it is illegal to possess or use any vape, e-cigarette, pod, e-liquid or heat-not-burn device in Thailand, with no exceptions for tourists; offences can lead to confiscation, heavy fines, detention and court proceedings."
       ]
     }
   },
@@ -1811,9 +1811,9 @@
       "symbol": "฿"
     },
     "payments": {
-      "cardsAccepted": "widely-in-cities",
+      "cardsAccepted": "limited",
       "cashImportance": "high",
-      "text": "Cards are accepted in hotels, malls and larger restaurants; markets, street food and taxis are cash-first. QR payments (PromptPay) dominate locally but usually require a Thai bank account."
+      "text": "No official source we could read describes card acceptance in Thailand."
     },
     "safety": {
       "level": "generally-safe",
@@ -1832,10 +1832,23 @@
         "A",
         "B",
         "C",
+        "F",
         "O"
       ],
-      "voltage": 230,
-      "frequencyHz": 50
+      "voltage": 220,
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        },
+        "lastChanged": "2026-10-04"
+      }
     },
     "emergency": {
       "police": "191",
@@ -1845,19 +1858,18 @@
     },
     "bestTimeToVisit": {
       "months": [
-        11,
         12,
         1,
         2
       ],
-      "text": "November to February is the cool, dry season — the most comfortable time across most of the country."
+      "text": "Canada's travel advice says the rainy (monsoon) season runs from June to November and that typhoons usually occur from April to November."
     },
     "languages": [
       "Thai"
     ],
     "timezone": "UTC+7",
     "drivingSide": "left",
-    "tapWaterSafe": false,
+    "tapWaterSafe": null,
     "driving": {
       "idp": {
         "required": null,
@@ -1890,23 +1902,55 @@
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/thailand/getting-help",
+        "name": "UK Foreign, Commonwealth & Development Office — Thailand travel advice: getting help",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "drivingSide": {
+        "url": "https://travel.gc.ca/destinations/thailand",
+        "name": "Government of Canada — Thailand travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://www.thailand.go.th/page/thai-language",
+        "name": "Thailand.go.th — Thai language (\"the official language of the country\")",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://travel.gc.ca/destinations/thailand",
+        "name": "Government of Canada — Thailand travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/thailand",
+        "name": "Government of Canada — Thailand travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      }
     }
   },
   "tips": [
     {
       "id": "overstay",
       "type": "warning",
-      "text": "Overstaying costs 500 THB per day (capped at 20,000 THB); overstays of 90+ days trigger multi-year re-entry bans."
+      "text": "The UK Foreign Office says overstaying costs 500 baht a day, up to 20,000 baht, and that you risk detention, deportation at your own expense and a re-entry ban of up to 10 years."
     },
     {
       "id": "vaping",
       "type": "warning",
-      "text": "E-cigarettes are illegal to bring into or use in Thailand."
+      "text": "Vapes and e-cigarettes are illegal to possess or use in Thailand — the UK Foreign Office says there are no exceptions for tourists or for personal use."
     },
     {
       "id": "monarchy",
       "type": "info",
-      "text": "Thailand has strict lèse-majesté laws — never comment disrespectfully on the monarchy, online or offline."
+      "text": "The UK Foreign Office says criticising the Thai monarchy (lèse-majesté) is illegal, that the law can be interpreted broadly and carries a long prison sentence, and that people have been charged over comments and shared articles online."
     },
     {
       "id": "tdac-scams",

@@ -1598,8 +1598,10 @@
         }
       },
       "notes": [
-        "Duty-free from outside the EU: 200 cigarettes, 1 liter of spirits, goods up to €300 (€430 arriving by air or sea).",
-        "No limits on goods for personal use when arriving from another EU country."
+        "Arriving from outside the EU, the EU's Your Europe portal gives a duty-free allowance of 4 litres of still wine and 16 litres of beer, plus 1 litre of spirits over 22% (or 2 litres of fortified or sparkling wine); 200 cigarettes (or 250 g of tobacco); and other goods worth up to €300, or €430 by air or sea. Under-17s get no alcohol or tobacco allowance.",
+        "Between EU countries there is no fixed limit on goods for your own use, but Denmark may set guideline quantities for alcohol and tobacco, which cannot be lower than 800 cigarettes or 10 litres of spirits.",
+        "The UK Foreign Office says you cannot take meat, milk or products containing them into the EU, with some exceptions such as powdered baby milk and medically required foods.",
+        "The UK Foreign Office says it is illegal to import whale products from Greenland or the Faroe Islands into the UK or EU."
       ]
     }
   },
@@ -1612,7 +1614,7 @@
     "payments": {
       "cardsAccepted": "widely",
       "cashImportance": "low",
-      "text": "Denmark is close to cashless. Cards and mobile payments (MobilePay) work everywhere, and some shops no longer accept cash at all. There is little need to exchange money."
+      "text": "No official source we could read describes card acceptance in Denmark. Canada's travel advice says some stores add a surcharge when you pay with a foreign credit card."
     },
     "safety": {
       "level": "very-safe",
@@ -1628,14 +1630,27 @@
     "plugs": {
       "types": [
         "C",
+        "E",
+        "F",
         "K"
       ],
       "voltage": 230,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        },
+        "lastChanged": "2026-10-04"
+      }
     },
     "emergency": {
-      "general": "112",
-      "police": "114"
+      "general": "112"
     },
     "bestTimeToVisit": {
       "months": [
@@ -1644,14 +1659,14 @@
         7,
         8
       ],
-      "text": "May to August offers long, bright days for Copenhagen, the coast and cycling; winters are dark and wet, though December has cosy Christmas markets and Tivoli lights."
+      "text": "No official source we could read gives a best time to visit Denmark. The CIA World Factbook describes a temperate, humid and overcast climate with mild, windy winters and cool summers."
     },
     "languages": [
       "Danish"
     ],
-    "timezone": "UTC+1",
+    "timezone": "UTC+1 (UTC+2 in summer)",
     "drivingSide": "right",
-    "tapWaterSafe": true,
+    "tapWaterSafe": null,
     "driving": {
       "idp": {
         "required": null,
@@ -1684,6 +1699,48 @@
         "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3); Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/denmark/getting-help",
+        "name": "UK Foreign, Commonwealth & Development Office — Denmark travel advice: getting help",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://www.cia.gov/the-world-factbook/countries/denmark/",
+        "name": "CIA World Factbook — Denmark: languages (Factbook discontinued in 2026; cited from its archived copy)",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260113131419/https://www.cia.gov/the-world-factbook/page-data/countries/denmark/page-data.json",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/denmark",
+        "name": "Government of Canada — Denmark travel advice: laws and culture: money",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://travel.gc.ca/destinations/denmark",
+        "name": "Government of Canada — Denmark travel advice: laws and culture: money",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://www.cia.gov/the-world-factbook/countries/denmark/",
+        "name": "CIA World Factbook — Denmark: climate (Factbook discontinued in 2026; cited from its archived copy)",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260113131419/https://www.cia.gov/the-world-factbook/page-data/countries/denmark/page-data.json",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     }
   },
   "tips": [
@@ -1700,7 +1757,7 @@
     {
       "id": "bike-lanes",
       "type": "info",
-      "text": "Copenhagen's cycle lanes are fast-moving traffic — never walk in them, and check for bikes before opening taxi doors or stepping off buses."
+      "text": "The UK Foreign Office and Canada say cyclists often have the right of way in Denmark: drivers should check cycle lanes before turning right, and pedestrians should watch carefully for bicycles when crossing."
     },
     {
       "id": "etias-official",
@@ -1727,7 +1784,7 @@
     {
       "id": "currency",
       "question": "Does Denmark use the euro?",
-      "answer": "No — Denmark keeps the Danish krone (DKK), pegged closely to the euro. Cards and mobile payments are accepted virtually everywhere, so most visitors never need Danish cash."
+      "answer": "No. Canada's travel advice says the currency of Denmark is the Danish krone (DKK), and that some stores add a surcharge when you pay with a foreign credit card."
     },
     {
       "id": "longer-stay",

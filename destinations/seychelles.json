@@ -1759,8 +1759,7 @@
         }
       },
       "notes": [
-        "Spearfishing equipment and spear guns may not be brought into Seychelles.",
-        "Fruit, vegetables, plants and animal products must be declared and may be seized to protect the islands' ecosystems."
+        "Canada's travel advice says strict regulations may be enforced on the temporary import or export of firearms, spear-fishing equipment, and fruits and vegetables."
       ]
     }
   },
@@ -1771,9 +1770,9 @@
       "symbol": "SR"
     },
     "payments": {
-      "cardsAccepted": "widely",
+      "cardsAccepted": "widely-in-cities",
       "cashImportance": "medium",
-      "text": "Cards are accepted at hotels, restaurants and larger shops, and tourism prices are often quoted (and payable) in euros; keep some rupees for market stalls, buses and small vendors."
+      "text": "Canada's travel advice says most hotels, restaurants and shops in tourist areas accept debit and credit cards, and that goods and services can be paid for in rupees, euros or US dollars. ATMs at the airport and in the main tourist areas generally issue only rupees, and exchanging money at anything other than the official rate is prohibited."
     },
     "safety": {
       "level": "generally-safe",
@@ -1792,10 +1791,23 @@
         "G"
       ],
       "voltage": 240,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
-      "general": "999"
+      "police": "999",
+      "fire": "999",
+      "ambulance": "151"
     },
     "bestTimeToVisit": {
       "months": [
@@ -1804,7 +1816,7 @@
         10,
         11
       ],
-      "text": "April–May and October–November — the calm spells between the trade winds — bring the flattest seas and best visibility for beaches and diving; the islands are warm all year."
+      "text": "Canada's travel advice says the rainy season runs from December to March, when strong winds and torrential rain can hamper overland travel."
     },
     "languages": [
       "Seychellois Creole",
@@ -1813,7 +1825,7 @@
     ],
     "timezone": "UTC+4",
     "drivingSide": "left",
-    "tapWaterSafe": true,
+    "tapWaterSafe": null,
     "driving": {
       "idp": {
         "required": null,
@@ -1845,6 +1857,44 @@
         "instrument": "Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://travel.gc.ca/destinations/seychelles",
+        "name": "Government of Canada — Seychelles travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "conflict": {
+          "url": "https://www.gov.uk/foreign-travel-advice/seychelles/getting-help",
+          "name": "UK Foreign, Commonwealth & Development Office — Seychelles travel advice: getting help (updated 21 January 2026)",
+          "states": "999 for ambulance, fire and police",
+          "resolvedBy": "newer"
+        }
+      },
+      "drivingSide": {
+        "url": "https://travel.gc.ca/destinations/seychelles",
+        "name": "Government of Canada — Seychelles travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://travel.gc.ca/destinations/seychelles",
+        "name": "Government of Canada — Seychelles travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://travel.gc.ca/destinations/seychelles",
+        "name": "Government of Canada — Seychelles travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/seychelles",
+        "name": "Government of Canada — Seychelles travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      }
     }
   },
   "tips": [
@@ -1861,12 +1911,7 @@
     {
       "id": "sea-conditions",
       "type": "warning",
-      "text": "Rip currents claim lives every year, and conditions shift with the trade-wind seasons — swim at beaches with lifeguards where possible and heed warning flags, especially May to September on south- and west-facing beaches."
-    },
-    {
-      "id": "island-hopping",
-      "type": "info",
-      "text": "Ferries and short flights between Mahé, Praslin and La Digue sell out in high season. Book inter-island transport ahead rather than on the day."
+      "text": "The UK Foreign Office says beaches can be safe at some times of year and dangerous at others: the west coast is generally unsafe during the north-west monsoon (around December to March) and the east coast during the south-east winds (around May to September), and Beau Vallon can have dangerous rip currents when the sea is rough."
     }
   ],
   "faq": [
@@ -1893,7 +1938,7 @@
     {
       "id": "vaccinations",
       "question": "Do I need vaccinations for Seychelles?",
-      "answer": "There are no routine vaccination requirements. A yellow fever certificate is only demanded if you arrive from a country with transmission risk. Seychelles is malaria-free."
+      "answer": "There are no routine vaccination requirements. A yellow fever certificate is only demanded if you arrive from a country with transmission risk."
     }
   ]
 }

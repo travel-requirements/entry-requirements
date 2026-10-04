@@ -2670,9 +2670,9 @@
         }
       },
       "notes": [
-        "Fresh food, plants and animal products are restricted. Declare anything agricultural.",
-        "Drones may be brought in and flown only with prior authorisation from the Ministry of the Interior, which Law 1230 (December 2024) allows only in special cases such as scientific work, search and rescue or authorised tourist, sporting and cultural events; UK advice describes possession and use as prohibited. Professional camera or broadcast equipment can be held at customs, so carry documentation showing it is for personal use.",
-        "Drug offenses carry long prison sentences, and border searches at land crossings are thorough."
+        "The UK Foreign Office says electronic smoking devices such as e-cigarettes are banned: you cannot import, export, sell, store or use them, with or without nicotine, and customs can confiscate them at the border.",
+        "Drones may be brought in and flown only with prior authorisation from the Ministry of the Interior, which Law 1230 (December 2024) allows only in special cases such as scientific work, search and rescue or authorised tourist, sporting and cultural events; UK advice describes possession and use as prohibited.",
+        "The UK Foreign Office says possession of even small quantities of drugs can lead to imprisonment."
       ]
     }
   },
@@ -2685,7 +2685,7 @@
     "payments": {
       "cardsAccepted": "widely-in-cities",
       "cashImportance": "high",
-      "text": "Cards work in Managua, Granada, León and larger hotels, but córdoba cash rules everywhere else — markets, buses, Ometepe and the Caribbean coast. US dollars are widely accepted, though torn or heavily marked notes are refused."
+      "text": "Canada's travel advice says credit cards are usually accepted but ATMs may not be available outside major cities, and that US dollars are easily exchanged at banks or official exchange offices. The UK Foreign Office says the US dollar is the only foreign currency freely exchangeable and warns against changing money on the street."
     },
     "safety": {
       "level": "exercise-caution",
@@ -2704,11 +2704,23 @@
         "B"
       ],
       "voltage": 120,
-      "frequencyHz": 60
+      "frequencyHz": 60,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
       "general": "911",
       "police": "118",
+      "ambulance": "128",
       "fire": "115"
     },
     "bestTimeToVisit": {
@@ -2719,20 +2731,64 @@
         3,
         4
       ],
-      "text": "December to April is the dry season — reliable weather for the volcanoes, Granada and the Pacific surf coast. The Caribbean side is wetter year-round and best around March and April."
+      "text": "No official source we could read gives a best time to visit Nicaragua. Canada's travel advice says the rainy season runs from May through November, with October the wettest month, and the hurricane season from mid-May (Pacific) or early June (Caribbean) to the end of November."
     },
     "languages": [
       "Spanish"
     ],
     "timezone": "UTC-6",
     "drivingSide": "right",
-    "tapWaterSafe": false
+    "tapWaterSafe": false,
+    "sources": {
+      "emergency": {
+        "url": "https://travel.gc.ca/destinations/nicaragua",
+        "name": "Government of Canada — Nicaragua travel advice: emergency assistance",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://www.cia.gov/the-world-factbook/countries/nicaragua/",
+        "name": "CIA World Factbook — Nicaragua: languages (Factbook discontinued in 2026; cited from its archived copy)",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260103011616/https://www.cia.gov/the-world-factbook/page-data/countries/nicaragua/page-data.json",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/nicaragua",
+        "name": "Government of Canada — Nicaragua travel advice: laws and culture: money",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://travel.gc.ca/destinations/nicaragua",
+        "name": "Government of Canada — Nicaragua travel advice: laws and culture: money",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://travel.gc.ca/destinations/nicaragua",
+        "name": "Government of Canada — Nicaragua travel advice: natural disasters and climate",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "tapWaterSafe": {
+        "url": "https://www.smartraveller.gov.au/destinations/americas/nicaragua",
+        "name": "Australian Government Smartraveller — Nicaragua travel advice (Health: \"Drink only boiled or bottled water\")",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260526033712/https://www.smartraveller.gov.au/destinations/americas/nicaragua"
+      }
+    }
   },
   "tips": [
     {
       "id": "tourist-card-cash",
       "type": "warning",
-      "text": "The USD 10 tourist card must be paid in cash in US dollars at the border. Cards are not reliably accepted and there is no ATM before immigration. Carry clean, untorn small notes."
+      "text": "The UK Foreign Office says you must pay an arrival tax of 10 US dollars in cash, and that the US dollar is the only foreign currency freely exchangeable in Nicaragua. Carry small US notes."
     },
     {
       "id": "ca4-shared-clock",
@@ -2742,17 +2798,12 @@
     {
       "id": "entry-scrutiny",
       "type": "warning",
-      "text": "Immigration screening is political as well as procedural. Journalists, researchers, aid workers and travelers with visible activism on their phones or social media have been refused entry without explanation. Carry hotel bookings and a plain tourist itinerary."
-    },
-    {
-      "id": "land-border-timing",
-      "type": "tip",
-      "text": "The Peñas Blancas crossing with Costa Rica and Guasaule with Honduras can take two to three hours at peak times. Cross early in the day and keep your tourist card receipt. You may be asked for it on departure."
+      "text": "Canada's travel advice cites UN reports that the authorities prevent certain people from entering or leaving Nicaragua for political reasons and arbitrarily search personal phones and computers for anti-government content. Both Canada and the UK Foreign Office say political activity by foreigners is illegal and can lead to detention or deportation."
     },
     {
       "id": "volcano-and-rain",
       "type": "info",
-      "text": "Nicaragua sits on an active volcanic chain and in the hurricane belt. Check ash advisories for Masaya and Telica, and expect Caribbean-coast disruption between June and November."
+      "text": "The UK Foreign Office says several volcanoes are active, in particular San Cristóbal, Masaya, Cerro Negro, Telica and Concepción on Ometepe Island, and advises not to hike on volcanoes without an experienced guide. It says the hurricane season normally runs from June to November."
     }
   ],
   "faq": [
@@ -2784,7 +2835,7 @@
     {
       "id": "is-it-safe",
       "question": "Is Nicaragua safe to visit right now?",
-      "answer": "Ordinary crime levels are moderate for the region, but the political environment is the real risk: demonstrations are prohibited, foreigners have been denied entry or expelled, and consular assistance is limited. Check your government's current travel advice before booking and avoid political activity of any kind while in the country."
+      "answer": "Canada says to exercise a high degree of caution because of the political situation, the potential for civil unrest and crime. The UK Foreign Office says it is illegal for foreigners to take part in any political activity, including protests, and that you can be arrested, detained or deported for it. Check your government's current travel advice before booking."
     }
   ]
 }

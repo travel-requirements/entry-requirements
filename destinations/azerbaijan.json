@@ -1889,8 +1889,8 @@
         }
       },
       "notes": [
-        "Exporting carpets, artworks and antiques requires a certificate. Buy from licensed dealers who can provide export paperwork.",
-        "Medications containing controlled substances should be carried with a prescription."
+        "The UK and Canadian governments' travel advice says you need an export certificate to take antiques or art — such as carpets, samovars, copperware or paintings — out of Azerbaijan; the vendor or the Azerbaijan National Carpet Museum can provide one.",
+        "Canada's travel advice says some prescription medicines may not be available and that you are responsible for checking whether yours are legal in Azerbaijan; keep them in the original container with a copy of the prescription."
       ]
     }
   },
@@ -1901,9 +1901,9 @@
       "symbol": "₼"
     },
     "payments": {
-      "cardsAccepted": "widely-in-cities",
+      "cardsAccepted": "limited",
       "cashImportance": "medium",
-      "text": "Cards are widely accepted in Baku's shops, restaurants and hotels, but carry manat for regional towns, bazaars, taxis and rural areas."
+      "text": "Canada's travel advice says that outside major businesses credit cards may not always be accepted, and that several ATMs in major cities dispense both US dollars and Azerbaijani manat."
     },
     "safety": {
       "level": "generally-safe",
@@ -1922,10 +1922,23 @@
         "F"
       ],
       "voltage": 220,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
-      "general": "112"
+      "police": "102",
+      "ambulance": "103",
+      "fire": "101"
     },
     "bestTimeToVisit": {
       "months": [
@@ -1935,11 +1948,10 @@
         9,
         10
       ],
-      "text": "April–June and September–October are comfortable in Baku and the regions; midsummer is hot in the lowlands but pleasant in the Caucasus mountains."
+      "text": "No official source we could read gives a best time to visit Azerbaijan."
     },
     "languages": [
-      "Azerbaijani",
-      "Russian"
+      "Azerbaijani"
     ],
     "timezone": "UTC+4",
     "drivingSide": "right",
@@ -1975,28 +1987,61 @@
         "instrument": "Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://www.gov.uk/foreign-travel-advice/azerbaijan/getting-help",
+        "name": "UK Foreign, Commonwealth & Development Office — Azerbaijan travel advice: getting help",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://fhn.gov.az/en/legislation/the-constitution-of-the-republic-of-azerbaijan/chapter-ii-fundamentals-of-the-state",
+        "name": "Ministry of Emergency Situations of Azerbaijan — Constitution of the Republic of Azerbaijan, Chapter II (Article 21, official language)",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "instrument": "Constitution of the Republic of Azerbaijan, Article 21"
+      },
+      "tapWaterSafe": {
+        "url": "https://www.smartraveller.gov.au/destinations/europe/azerbaijan",
+        "name": "Australian Government Smartraveller — Azerbaijan travel advice: health",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "payments": {
+        "url": "https://travel.gc.ca/destinations/azerbaijan",
+        "name": "Government of Canada — Azerbaijan travel advice: laws and culture: money",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/azerbaijan",
+        "name": "Government of Canada — Azerbaijan travel advice: laws and culture: money",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      }
     }
   },
   "tips": [
     {
       "id": "armenia-connections",
       "type": "warning",
-      "text": "Travelers with Armenian citizenship are refused entry, and those of Armenian descent or with evidence of visits to Nagorno-Karabakh face refusal or intense questioning — if this could affect you, contact an Azerbaijani embassy before booking."
+      "text": "The UK government's travel advice says anyone who has visited certain areas in south-western Azerbaijan, including the town of Khankendi, without the Azerbaijani authorities' permission could be denied entry, and advises contacting an Azerbaijani embassy or consulate before you travel. The border with Armenia is closed."
     },
     {
       "id": "land-borders-closed",
       "type": "warning",
-      "text": "Azerbaijan's land borders have been closed to passenger crossings since 2020 and the closure has been extended repeatedly. Most travelers can only enter and leave by air, so check the current position before planning an overland route."
+      "text": "Canada's travel advice says all land border crossings have been closed to passengers since 2020, except for freight, so visitors can only enter by air. The UK government says entry by land or sea is restricted and that you need the authorities' permission to leave by road."
     },
     {
       "id": "registration-15-days",
       "type": "warning",
-      "text": "If you stay more than 15 days you must be registered with the State Migration Service — hotels usually do it automatically, but private hosts often don't, and fines apply on departure."
+      "text": "The UK government's travel advice says that if you stay longer than 15 days you must register with the State Migration Service, online or in person, and that if you do not you will have to pay a fine before you can leave. Hotels often do this for their guests; otherwise you must do it yourself."
     },
     {
       "id": "official-evisa-only",
       "type": "tip",
-      "text": "Apply only at evisa.gov.az — third-party visa websites charge large markups for the same USD 29 e-Visa."
+      "text": "Apply for the e-Visa on the official ASAN Visa portal, evisa.gov.az."
     }
   ],
   "faq": [
@@ -2013,17 +2058,17 @@
     {
       "id": "after-armenia",
       "question": "Can I enter Azerbaijan if I have been to Armenia?",
-      "answer": "An ordinary visit to Armenia, shown by stamps or an Armenian visa, is generally tolerated, though you should expect extra questions at the border. Evidence of a visit to Nagorno-Karabakh is different. It leads to refusal of entry and a ban. Armenian citizens cannot enter at all."
+      "answer": "The UK government's travel advice says anyone who has visited certain areas in south-western Azerbaijan, including the town of Khankendi, without the Azerbaijani authorities' permission could be denied entry, and advises contacting an Azerbaijani embassy or consulate before you travel. No official source we could read says how a visit to Armenia itself is treated at the border."
     },
     {
       "id": "land-border",
       "question": "Can I cross into Azerbaijan by land?",
-      "answer": "Generally no. The land borders (Georgia, Russia, Iran) have been closed to passenger traffic since 2020, with the closure repeatedly extended. Practically all foreign visitors arrive by air. Check whether the policy has changed before planning an overland trip."
+      "answer": "Generally no. Canada's travel advice says all land border crossings have been closed since 2020 except for freight, so visitors can only enter by air. The UK government says the land borders with Georgia and Iran are temporarily closed, though British nationals may be able to cross from Iran at Astara with special authorisation arranged through the British Embassy in Baku."
     },
     {
       "id": "registration",
       "question": "Do I need to register my stay in Azerbaijan?",
-      "answer": "Yes, if you stay more than 15 days — registration with the State Migration Service is mandatory. Hotels handle it automatically for their guests; independent travelers staying in apartments must arrange it themselves or face a fine when leaving."
+      "answer": "Yes, if you stay more than 15 days. The UK government's travel advice says you must register with the State Migration Service, online or in person, and that if you do not you will have to pay a fine before you can leave. Hotels often register their guests; otherwise you must do it yourself."
     }
   ]
 }

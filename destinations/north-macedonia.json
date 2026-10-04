@@ -1687,9 +1687,9 @@
       "symbol": "ден"
     },
     "payments": {
-      "cardsAccepted": "widely-in-cities",
-      "cashImportance": "medium",
-      "text": "Cards are accepted in city hotels, supermarkets and bigger restaurants, but taxis, bazaars and rural guesthouses run on cash. Pay in denars; euros are sometimes quoted but the change is poor."
+      "cardsAccepted": "limited",
+      "cashImportance": "high",
+      "text": "Canada's travel advice says North Macedonia's economy is mostly cash-based, with credit cards accepted in some larger establishments and ATMs in urban centres; Australia's Smartraveller says major hotels and large shops accept cards. The UK government advises changing money only at banks or official exchanges, and the denar cannot be exchanged outside the country."
     },
     "safety": {
       "level": "generally-safe",
@@ -1708,10 +1708,20 @@
         "F"
       ],
       "voltage": 230,
-      "frequencyHz": 50
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.iec.ch/world-plugs",
+        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
+        "type": "igo",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
+        "unverifiable": {
+          "lastAttempt": "2026-10-04",
+          "reason": "gone"
+        }
+      }
     },
     "emergency": {
-      "general": "112",
       "police": "192",
       "fire": "193",
       "ambulance": "194"
@@ -1723,15 +1733,15 @@
         9,
         10
       ],
-      "text": "May–June and September–October are ideal for Skopje, Matka Canyon and hiking; July–August is hot but is peak season on Lake Ohrid."
+      "text": "No official source we checked gives seasonal guidance for North Macedonia; the months shown are not an official recommendation. Canada's travel advice says forest fires are common in summer and that air pollution is usually worst in winter, from coal and wood heating."
     },
     "languages": [
       "Macedonian",
       "Albanian"
     ],
-    "timezone": "UTC+1",
+    "timezone": "UTC+1 (UTC+2 in summer)",
     "drivingSide": "right",
-    "tapWaterSafe": true,
+    "tapWaterSafe": false,
     "driving": {
       "idp": {
         "required": null,
@@ -1763,28 +1773,62 @@
         "instrument": "Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
         "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    },
+    "sources": {
+      "emergency": {
+        "url": "https://travel.gc.ca/destinations/north-macedonia",
+        "name": "Government of Canada — North Macedonia travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "languages": {
+        "url": "https://assets.publishing.service.gov.uk/media/69b175ba24c6431b84f0e475/North_Macedonia_Toponymic_Factfile.pdf",
+        "name": "UK Permanent Committee on Geographical Names — North Macedonia toponymic factfile (2026)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "tapWaterSafe": {
+        "url": "https://www.smartraveller.gov.au/destinations/europe/north-macedonia",
+        "name": "Australian Government Smartraveller — North Macedonia travel advice",
+        "type": "government",
+        "lastVerified": "2026-10-04",
+        "archiveUrl": "https://web.archive.org/web/20260208144205/https://www.smartraveller.gov.au/destinations/europe/north-macedonia"
+      },
+      "payments": {
+        "url": "https://travel.gc.ca/destinations/north-macedonia",
+        "name": "Government of Canada — North Macedonia travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "bestTimeToVisit": {
+        "url": "https://travel.gc.ca/destinations/north-macedonia",
+        "name": "Government of Canada — North Macedonia travel advice and advisories",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      },
+      "currency": {
+        "url": "https://travel.gc.ca/destinations/north-macedonia",
+        "name": "Government of Canada — North Macedonia travel advice and advisories (Money)",
+        "type": "government",
+        "lastVerified": "2026-10-04"
+      }
     }
   },
   "tips": [
     {
       "id": "police-registration",
       "type": "info",
-      "text": "You must be registered with the police within 48 hours of arrival — hotels handle it automatically; if you stay in a private apartment, make sure your host registers you and keep the confirmation."
+      "text": "Register with the police soon after you arrive: Canada says within 24 hours, the UK government within 48 hours. Hotels and other commercial accommodation register you at check-in; otherwise register at the nearest police station and keep the document until you leave."
     },
     {
       "id": "pay-in-denars",
       "type": "tip",
-      "text": "Pay in denars (MKD). Cards work in cities, but taxis, markets and villages want cash, and prices quoted in euros usually build in a bad exchange rate."
-    },
-    {
-      "id": "ohrid-season",
-      "type": "tip",
-      "text": "Lake Ohrid is the summer highlight — July and August are busiest; June and September still have warm water, cheaper rooms and far fewer crowds."
+      "text": "Carry denars in cash: Canada says the economy is mostly cash-based and cards are accepted only in some larger establishments. Change money only at banks or official exchanges, not with street dealers (UK government)."
     },
     {
       "id": "skopje-air",
       "type": "warning",
-      "text": "Skopje suffers some of Europe's worst winter air pollution (roughly November–February) — travelers with respiratory conditions should check air-quality forecasts and plan accordingly."
+      "text": "Canada's travel advice says smoke haze and air pollution can be extremely hazardous, usually worst in winter because of coal and wood heating, and Australia's Smartraveller names Skopje. Travellers with breathing conditions should check air-quality levels."
     }
   ],
   "faq": [
@@ -1806,7 +1850,7 @@
     {
       "id": "currency",
       "question": "What currency is used in North Macedonia?",
-      "answer": "The Macedonian denar (MKD). Cards are fine in cities, but carry denar cash for taxis, bazaars and the countryside — euros are sometimes accepted informally at poor rates."
+      "answer": "The Macedonian denar (MKD). Canada's travel advice says the economy is mostly cash-based, with credit cards accepted in some larger establishments and ATMs in urban centres, so carry denar cash. Australia's Smartraveller says the denar cannot be changed outside North Macedonia."
     },
     {
       "id": "eu-id-card",
