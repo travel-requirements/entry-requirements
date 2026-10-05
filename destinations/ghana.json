@@ -19,7 +19,7 @@
   ],
   "summary": "ECOWAS citizens enter Ghana without a visa, African Union citizens apply online for an AU ETA, and ten Caribbean passports and Singapore qualify for their own ETA; most other visitors need an eVisa (USD 260, up to 60 days) from the Ghana Immigration Service portal or a visa from a Ghanaian embassy.",
   "meta": {
-    "lastUpdated": "2026-10-04",
+    "lastUpdated": "2026-10-05",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -42,10 +42,10 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://evisa.immigration.gov.gh/",
-      "name": "Ghana Immigration Service — eVisa portal (eligibility checker)",
+      "url": "https://evisa.immigration.gov.gh/visa-information",
+      "name": "Ghana Immigration Service — eVisa portal, Visa Information (eligibility checker by nationality)",
       "type": "government",
-      "lastVerified": "2026-10-03",
+      "lastVerified": "2026-10-05",
       "lastChanged": "2026-09-26"
     },
     "byPassport": {
@@ -71,11 +71,18 @@
       },
       "DZ": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "AD": {
         "requirement": "evisa",
@@ -89,19 +96,33 @@
       },
       "AO": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "AG": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "caribbean-eta"
         ],
-        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is single-entry and valid for 90 days."
+        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "AR": {
         "requirement": "evisa",
@@ -155,11 +176,18 @@
       },
       "BS": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "caribbean-eta"
         ],
-        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is single-entry and valid for 90 days."
+        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "BH": {
         "requirement": "evisa",
@@ -183,11 +211,18 @@
       },
       "BB": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "caribbean-eta"
         ],
-        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is single-entry and valid for 90 days."
+        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "BY": {
         "requirement": "evisa",
@@ -222,7 +257,20 @@
       "BJ": {
         "requirement": "freedom-of-movement",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
+        "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa. The Ghana Immigration Service eligibility checker says they need no ETA either.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/visa-information",
+          "name": "Ghana Immigration Service — eVisa portal, Visa Information (eligibility checker: ECOWAS/AES nationals need no visa or ETA)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05",
+          "conflict": {
+            "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+            "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility)",
+            "states": "The ETA regime applies to nationals of all African Union and all ECOWAS member states (the same guide names the eligibility checker as the definitive list)",
+            "resolvedBy": "newer"
+          }
+        }
       },
       "BT": {
         "requirement": "evisa",
@@ -256,11 +304,18 @@
       },
       "BW": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "BR": {
         "requirement": "evisa",
@@ -294,28 +349,54 @@
       },
       "BF": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Burkina Faso, Mali and Niger left ECOWAS in January 2025, but Ghana Immigration Service treats citizens of the Alliance of Sahel States (AES) like ECOWAS citizens: no visa or ETA is needed — up to 90 days with a valid passport.",
+        "maxStayDays": null,
+        "notes": "Burkina Faso, Mali and Niger left ECOWAS in January 2025, but the Ghana Immigration Service eligibility checker treats citizens of the Alliance of Sahel States (AES) like ECOWAS citizens: no visa or ETA is needed, and they travel on a valid passport. The checker does not state how long they may stay.",
         "source": {
-          "url": "https://evisa.immigration.gov.gh/",
-          "name": "Ghana Immigration Service — eVisa portal (eligibility checker)",
+          "url": "https://evisa.immigration.gov.gh/visa-information",
+          "name": "Ghana Immigration Service — eVisa portal, Visa Information (eligibility checker: ECOWAS/AES nationals visa-free)",
           "type": "government",
-          "lastVerified": "2026-10-03",
-          "lastChanged": "2026-10-03"
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05",
+          "conflict": {
+            "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+            "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility)",
+            "states": "The ETA regime applies to nationals of all African Union member states (Burkina Faso, Mali and Niger are AU members) and all ECOWAS member states (the same guide names the eligibility checker as the definitive list)",
+            "resolvedBy": "newer"
+          }
         }
       },
       "BI": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "CV": {
         "requirement": "freedom-of-movement",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
+        "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa. The Ghana Immigration Service eligibility checker says they need no ETA either.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/visa-information",
+          "name": "Ghana Immigration Service — eVisa portal, Visa Information (eligibility checker: ECOWAS/AES nationals need no visa or ETA)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05",
+          "conflict": {
+            "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+            "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility)",
+            "states": "The ETA regime applies to nationals of all African Union and all ECOWAS member states (the same guide names the eligibility checker as the definitive list)",
+            "resolvedBy": "newer"
+          }
+        }
       },
       "KH": {
         "requirement": "evisa",
@@ -329,11 +410,18 @@
       },
       "CM": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "CA": {
         "requirement": "evisa",
@@ -347,19 +435,33 @@
       },
       "CF": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "TD": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "CL": {
         "requirement": "evisa",
@@ -393,11 +495,18 @@
       },
       "KM": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "CR": {
         "requirement": "evisa",
@@ -412,7 +521,20 @@
       "CI": {
         "requirement": "freedom-of-movement",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
+        "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa. The Ghana Immigration Service eligibility checker says they need no ETA either.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/visa-information",
+          "name": "Ghana Immigration Service — eVisa portal, Visa Information (eligibility checker: ECOWAS/AES nationals need no visa or ETA)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05",
+          "conflict": {
+            "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+            "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility)",
+            "states": "The ETA regime applies to nationals of all African Union and all ECOWAS member states (the same guide names the eligibility checker as the definitive list)",
+            "resolvedBy": "newer"
+          }
+        }
       },
       "HR": {
         "requirement": "evisa",
@@ -456,11 +578,18 @@
       },
       "CD": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "DK": {
         "requirement": "evisa",
@@ -474,19 +603,33 @@
       },
       "DJ": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "DM": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "caribbean-eta"
         ],
-        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is single-entry and valid for 90 days."
+        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "DO": {
         "requirement": "evisa",
@@ -510,11 +653,18 @@
       },
       "EG": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "SV": {
         "requirement": "evisa",
@@ -528,19 +678,33 @@
       },
       "GQ": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "ER": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "EE": {
         "requirement": "evisa",
@@ -554,19 +718,33 @@
       },
       "SZ": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "ET": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "FJ": {
         "requirement": "evisa",
@@ -600,16 +778,36 @@
       },
       "GA": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "GM": {
         "requirement": "freedom-of-movement",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
+        "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa. The Ghana Immigration Service eligibility checker says they need no ETA either.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/visa-information",
+          "name": "Ghana Immigration Service — eVisa portal, Visa Information (eligibility checker: ECOWAS/AES nationals need no visa or ETA)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05",
+          "conflict": {
+            "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+            "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility)",
+            "states": "The ETA regime applies to nationals of all African Union and all ECOWAS member states (the same guide names the eligibility checker as the definitive list)",
+            "resolvedBy": "newer"
+          }
+        }
       },
       "GE": {
         "requirement": "evisa",
@@ -648,11 +846,18 @@
       },
       "GD": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "caribbean-eta"
         ],
-        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is single-entry and valid for 90 days."
+        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "GT": {
         "requirement": "evisa",
@@ -667,12 +872,38 @@
       "GN": {
         "requirement": "freedom-of-movement",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
+        "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa. The Ghana Immigration Service eligibility checker says they need no ETA either.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/visa-information",
+          "name": "Ghana Immigration Service — eVisa portal, Visa Information (eligibility checker: ECOWAS/AES nationals need no visa or ETA)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05",
+          "conflict": {
+            "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+            "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility)",
+            "states": "The ETA regime applies to nationals of all African Union and all ECOWAS member states (the same guide names the eligibility checker as the definitive list)",
+            "resolvedBy": "newer"
+          }
+        }
       },
       "GW": {
         "requirement": "freedom-of-movement",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
+        "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa. The Ghana Immigration Service eligibility checker says they need no ETA either.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/visa-information",
+          "name": "Ghana Immigration Service — eVisa portal, Visa Information (eligibility checker: ECOWAS/AES nationals need no visa or ETA)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05",
+          "conflict": {
+            "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+            "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility)",
+            "states": "The ETA regime applies to nationals of all African Union and all ECOWAS member states (the same guide names the eligibility checker as the definitive list)",
+            "resolvedBy": "newer"
+          }
+        }
       },
       "GY": {
         "requirement": "evisa",
@@ -806,11 +1037,18 @@
       },
       "JM": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "caribbean-eta"
         ],
-        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is single-entry and valid for 90 days."
+        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "JP": {
         "requirement": "evisa",
@@ -844,11 +1082,18 @@
       },
       "KE": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "KI": {
         "requirement": "evisa",
@@ -922,24 +1167,51 @@
       },
       "LS": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "LR": {
         "requirement": "freedom-of-movement",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
+        "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa. The Ghana Immigration Service eligibility checker says they need no ETA either.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/visa-information",
+          "name": "Ghana Immigration Service — eVisa portal, Visa Information (eligibility checker: ECOWAS/AES nationals need no visa or ETA)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05",
+          "conflict": {
+            "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+            "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility)",
+            "states": "The ETA regime applies to nationals of all African Union and all ECOWAS member states (the same guide names the eligibility checker as the definitive list)",
+            "resolvedBy": "newer"
+          }
+        }
       },
       "LY": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "LI": {
         "requirement": "evisa",
@@ -983,19 +1255,33 @@
       },
       "MG": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "MW": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "MY": {
         "requirement": "evisa",
@@ -1019,14 +1305,20 @@
       },
       "ML": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Burkina Faso, Mali and Niger left ECOWAS in January 2025, but Ghana Immigration Service treats citizens of the Alliance of Sahel States (AES) like ECOWAS citizens: no visa or ETA is needed — up to 90 days with a valid passport.",
+        "maxStayDays": null,
+        "notes": "Burkina Faso, Mali and Niger left ECOWAS in January 2025, but the Ghana Immigration Service eligibility checker treats citizens of the Alliance of Sahel States (AES) like ECOWAS citizens: no visa or ETA is needed, and they travel on a valid passport. The checker does not state how long they may stay.",
         "source": {
-          "url": "https://evisa.immigration.gov.gh/",
-          "name": "Ghana Immigration Service — eVisa portal (eligibility checker)",
+          "url": "https://evisa.immigration.gov.gh/visa-information",
+          "name": "Ghana Immigration Service — eVisa portal, Visa Information (eligibility checker: ECOWAS/AES nationals visa-free)",
           "type": "government",
-          "lastVerified": "2026-10-03",
-          "lastChanged": "2026-10-03"
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05",
+          "conflict": {
+            "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+            "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility)",
+            "states": "The ETA regime applies to nationals of all African Union member states (Burkina Faso, Mali and Niger are AU members) and all ECOWAS member states (the same guide names the eligibility checker as the definitive list)",
+            "resolvedBy": "newer"
+          }
         }
       },
       "MT": {
@@ -1051,19 +1343,33 @@
       },
       "MR": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "MU": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "MX": {
         "requirement": "evisa",
@@ -1127,19 +1433,33 @@
       },
       "MA": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "MZ": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "MM": {
         "requirement": "evisa",
@@ -1153,11 +1473,18 @@
       },
       "NA": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "NR": {
         "requirement": "evisa",
@@ -1211,20 +1538,39 @@
       },
       "NE": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "Burkina Faso, Mali and Niger left ECOWAS in January 2025, but Ghana Immigration Service treats citizens of the Alliance of Sahel States (AES) like ECOWAS citizens: no visa or ETA is needed — up to 90 days with a valid passport.",
+        "maxStayDays": null,
+        "notes": "Burkina Faso, Mali and Niger left ECOWAS in January 2025, but the Ghana Immigration Service eligibility checker treats citizens of the Alliance of Sahel States (AES) like ECOWAS citizens: no visa or ETA is needed, and they travel on a valid passport. The checker does not state how long they may stay.",
         "source": {
-          "url": "https://evisa.immigration.gov.gh/",
-          "name": "Ghana Immigration Service — eVisa portal (eligibility checker)",
+          "url": "https://evisa.immigration.gov.gh/visa-information",
+          "name": "Ghana Immigration Service — eVisa portal, Visa Information (eligibility checker: ECOWAS/AES nationals visa-free)",
           "type": "government",
-          "lastVerified": "2026-10-03",
-          "lastChanged": "2026-10-03"
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05",
+          "conflict": {
+            "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+            "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility)",
+            "states": "The ETA regime applies to nationals of all African Union member states (Burkina Faso, Mali and Niger are AU members) and all ECOWAS member states (the same guide names the eligibility checker as the definitive list)",
+            "resolvedBy": "newer"
+          }
         }
       },
       "NG": {
         "requirement": "freedom-of-movement",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
+        "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa. The Ghana Immigration Service eligibility checker says they need no ETA either.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/visa-information",
+          "name": "Ghana Immigration Service — eVisa portal, Visa Information (eligibility checker: ECOWAS/AES nationals need no visa or ETA)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05",
+          "conflict": {
+            "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+            "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility)",
+            "states": "The ETA regime applies to nationals of all African Union and all ECOWAS member states (the same guide names the eligibility checker as the definitive list)",
+            "resolvedBy": "newer"
+          }
+        }
       },
       "KP": {
         "requirement": "evisa",
@@ -1378,11 +1724,18 @@
       },
       "CG": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "RO": {
         "requirement": "evisa",
@@ -1406,35 +1759,63 @@
       },
       "RW": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "KN": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "caribbean-eta"
         ],
-        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is single-entry and valid for 90 days."
+        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "LC": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "caribbean-eta"
         ],
-        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is single-entry and valid for 90 days."
+        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "VC": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "caribbean-eta"
         ],
-        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is single-entry and valid for 90 days."
+        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "WS": {
         "requirement": "evisa",
@@ -1458,11 +1839,18 @@
       },
       "ST": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "SA": {
         "requirement": "evisa",
@@ -1477,7 +1865,20 @@
       "SN": {
         "requirement": "freedom-of-movement",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
+        "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa. The Ghana Immigration Service eligibility checker says they need no ETA either.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/visa-information",
+          "name": "Ghana Immigration Service — eVisa portal, Visa Information (eligibility checker: ECOWAS/AES nationals need no visa or ETA)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05",
+          "conflict": {
+            "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+            "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility)",
+            "states": "The ETA regime applies to nationals of all African Union and all ECOWAS member states (the same guide names the eligibility checker as the definitive list)",
+            "resolvedBy": "newer"
+          }
+        }
       },
       "RS": {
         "requirement": "evisa",
@@ -1491,24 +1892,51 @@
       },
       "SC": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "SL": {
         "requirement": "freedom-of-movement",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
+        "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa. The Ghana Immigration Service eligibility checker says they need no ETA either.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/visa-information",
+          "name": "Ghana Immigration Service — eVisa portal, Visa Information (eligibility checker: ECOWAS/AES nationals need no visa or ETA)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05",
+          "conflict": {
+            "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+            "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility)",
+            "states": "The ETA regime applies to nationals of all African Union and all ECOWAS member states (the same guide names the eligibility checker as the definitive list)",
+            "resolvedBy": "newer"
+          }
+        }
       },
       "SG": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "asia-eta"
         ],
-        "notes": "Visa-waiver country: apply online for the Asia ETA before travel. It is single-entry and valid for 90 days."
+        "notes": "Visa-waiver country: apply online for the Asia ETA before travel. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "SK": {
         "requirement": "evisa",
@@ -1542,19 +1970,33 @@
       },
       "SO": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "ZA": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "KR": {
         "requirement": "evisa",
@@ -1568,11 +2010,18 @@
       },
       "SS": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "ES": {
         "requirement": "evisa",
@@ -1596,11 +2045,18 @@
       },
       "SD": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "SR": {
         "requirement": "evisa",
@@ -1664,11 +2120,18 @@
       },
       "TZ": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "TH": {
         "requirement": "evisa",
@@ -1693,7 +2156,20 @@
       "TG": {
         "requirement": "freedom-of-movement",
         "maxStayDays": 90,
-        "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa."
+        "notes": "ECOWAS citizens enter Ghana freely under the Community's free-movement protocol — up to 90 days without a visa. The Ghana Immigration Service eligibility checker says they need no ETA either.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/visa-information",
+          "name": "Ghana Immigration Service — eVisa portal, Visa Information (eligibility checker: ECOWAS/AES nationals need no visa or ETA)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05",
+          "conflict": {
+            "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+            "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility)",
+            "states": "The ETA regime applies to nationals of all African Union and all ECOWAS member states (the same guide names the eligibility checker as the definitive list)",
+            "resolvedBy": "newer"
+          }
+        }
       },
       "TO": {
         "requirement": "evisa",
@@ -1707,19 +2183,33 @@
       },
       "TT": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "caribbean-eta"
         ],
-        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is single-entry and valid for 90 days."
+        "notes": "Visa-waiver country: apply online for the Caribbean ETA before travel. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "TN": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "TR": {
         "requirement": "evisa",
@@ -1753,11 +2243,18 @@
       },
       "UG": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "UA": {
         "requirement": "evisa",
@@ -1871,19 +2368,33 @@
       },
       "ZM": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "ZW": {
         "requirement": "eta",
-        "maxStayDays": null,
+        "maxStayDays": 90,
         "visaTypes": [
           "au-eta"
         ],
-        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is single-entry and valid for 90 days."
+        "notes": "As an African Union citizen, apply online for the AU ETA before travel; the portal says it replaces the visa on arrival. It is free, single-entry and valid for 90 days, for a stay of up to 90 days from entry.",
+        "source": {
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       }
     }
   },
@@ -1908,10 +2419,10 @@
       "entries": "single",
       "applyUrl": "https://evisa.immigration.gov.gh/",
       "source": {
-        "url": "https://evisa.immigration.gov.gh/",
-        "name": "Ghana Immigration Service — eVisa portal",
+        "url": "https://evisa.immigration.gov.gh/applicant-guide.html",
+        "name": "Ghana Immigration Service — eVisa Applicant Guide (§7 fees and processing, §11 validity and stay)",
         "type": "government",
-        "lastVerified": "2026-10-03",
+        "lastVerified": "2026-10-05",
         "lastChanged": "2026-09-27"
       }
     },
@@ -1935,10 +2446,10 @@
       "entries": "single",
       "applyUrl": "https://evisa.immigration.gov.gh/",
       "source": {
-        "url": "https://evisa.immigration.gov.gh/",
-        "name": "Ghana Immigration Service — eVisa portal",
+        "url": "https://evisa.immigration.gov.gh/applicant-guide.html",
+        "name": "Ghana Immigration Service — eVisa Applicant Guide (§7 fees and processing, §11 validity and stay)",
         "type": "government",
-        "lastVerified": "2026-10-03",
+        "lastVerified": "2026-10-05",
         "lastChanged": "2026-09-27"
       }
     },
@@ -1950,19 +2461,19 @@
       "fee": {
         "amount": 0,
         "currency": "USD",
-        "notes": "Free: the portal's eligibility check returns a fee of 0."
+        "notes": "Free: the ETA Applicant Guide says there is no fee to apply and that the maximum stay is 90 days from the date of entry. The eligibility checker shows the ETA as valid for 90 days, single entry, fee free."
       },
       "processing": null,
       "validityDays": 90,
-      "stayDays": null,
+      "stayDays": 90,
       "entries": "single",
       "applyUrl": "https://evisa.immigration.gov.gh/apply/eta",
       "source": {
-        "url": "https://evisa.immigration.gov.gh/",
-        "name": "Ghana Immigration Service — eVisa portal (eligibility checker)",
+        "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+        "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: free, maximum stay 90 days from entry)",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-05",
+        "lastChanged": "2026-10-05"
       }
     },
     {
@@ -1973,19 +2484,19 @@
       "fee": {
         "amount": 0,
         "currency": "USD",
-        "notes": "Free: the portal's eligibility check returns a fee of 0."
+        "notes": "Free: the ETA Applicant Guide says there is no fee to apply and that the maximum stay is 90 days from the date of entry. The eligibility checker shows the ETA as valid for 90 days, single entry, fee free."
       },
       "processing": null,
       "validityDays": 90,
-      "stayDays": null,
+      "stayDays": 90,
       "entries": "single",
       "applyUrl": "https://evisa.immigration.gov.gh/apply/eta",
       "source": {
-        "url": "https://evisa.immigration.gov.gh/",
-        "name": "Ghana Immigration Service — eVisa portal (eligibility checker)",
+        "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+        "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: free, maximum stay 90 days from entry)",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-05",
+        "lastChanged": "2026-10-05"
       }
     },
     {
@@ -1996,19 +2507,19 @@
       "fee": {
         "amount": 0,
         "currency": "USD",
-        "notes": "Free: the portal's eligibility check returns a fee of 0."
+        "notes": "Free: the ETA Applicant Guide says there is no fee to apply and that the maximum stay is 90 days from the date of entry. The eligibility checker shows the ETA as valid for 90 days, single entry, fee free."
       },
       "processing": null,
       "validityDays": 90,
-      "stayDays": null,
+      "stayDays": 90,
       "entries": "single",
       "applyUrl": "https://evisa.immigration.gov.gh/apply/eta",
       "source": {
-        "url": "https://evisa.immigration.gov.gh/",
-        "name": "Ghana Immigration Service — eVisa portal (eligibility checker)",
+        "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+        "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: free, maximum stay 90 days from entry)",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-05",
+        "lastChanged": "2026-10-05"
       }
     },
     {

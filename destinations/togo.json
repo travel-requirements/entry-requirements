@@ -17,17 +17,17 @@
     "senegal",
     "burkina-faso"
   ],
-  "summary": "Togo waives visas for ECOWAS citizens and, for stays of up to 30 days, for all other African nationals, while everyone else needs an eVisa applied for on voyage.gouv.tg at least six working days before travel — visas on arrival are suspended. Every traveller also completes the portal's online immigration form before arrival.",
+  "summary": "Togo waives visas for ECOWAS citizens and, for stays of up to 30 days, for all other African nationals, and its Visa Assistant also answers 'no visa needed' for Malaysian and Singaporean passports. Everyone else needs an eVisa applied for on voyage.gouv.tg at least six working days before travel — visas on arrival are suspended. Every traveller also completes the portal's online immigration form before arrival.",
   "meta": {
-    "lastUpdated": "2026-10-03",
+    "lastUpdated": "2026-10-05",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
       {
-        "url": "https://voyage.gouv.tg/",
-        "name": "Togo Voyage — official eVisa and entry portal",
+        "url": "https://beta.voyage.gouv.tg/procedure-voyages",
+        "name": "Togo Voyage — Travel Procedures (immigration form, Visa Assistant, visa exemption for African nationals)",
         "type": "government",
-        "lastVerified": "2026-10-03",
+        "lastVerified": "2026-10-05",
         "lastChanged": "2026-09-26"
       }
     ],
@@ -37,11 +37,17 @@
   },
   "visaPolicy": {
     "defaultSource": {
-      "url": "https://voyage.gouv.tg/about",
-      "name": "Togo Voyage — À propos du e-Visa (visa types, prices, documents, exempt countries)",
+      "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+      "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'): visa requirement for each nationality; site notice on African nationals and suspended visas on arrival",
       "type": "government",
-      "lastVerified": "2026-10-03",
-      "lastChanged": "2026-09-26"
+      "lastVerified": "2026-10-05",
+      "lastChanged": "2026-10-05",
+      "conflict": {
+        "url": "https://voyage.gouv.tg/about",
+        "name": "Togo Voyage (old site) — À propos du e-Visa: lists of visa-exempt and visa-required countries",
+        "states": "Only the 15 ECOWAS states are visa-exempt; most other African countries (Algeria, Angola, Cameroon, Kenya, South Africa and others) are listed as needing a visa.",
+        "resolvedBy": "newer"
+      }
     },
     "byPassport": {
       "AF": {
@@ -65,10 +71,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Algeria; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -85,10 +91,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Angola; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -236,10 +242,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Botswana; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -284,10 +290,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Burundi; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -315,10 +321,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Cameroon; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -335,10 +341,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Central African Republic; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -347,10 +353,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Chad; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -383,10 +389,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Comoros; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -446,10 +452,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: DR Congo; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -466,10 +472,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Djibouti; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -502,10 +508,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Egypt; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -522,10 +528,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Equatorial Guinea; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -534,10 +540,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Eritrea; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -554,10 +560,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Eswatini; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -566,10 +572,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Ethiopia; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -602,10 +608,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Gabon; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -834,10 +840,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Kenya; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -902,10 +908,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Lesotho; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -925,10 +931,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Libya; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -969,10 +975,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Madagascar; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -981,20 +987,24 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Malawi; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
       "MY": {
-        "requirement": "evisa",
-        "maxStayDays": 90,
-        "visaTypes": [
-          "togo-evisa"
-        ],
-        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
+        "requirement": "visa-free",
+        "maxStayDays": null,
+        "notes": "Togo's Visa Assistant answers that an ordinary Malaysia passport needs no visa for a tourist stay; it does not state a maximum stay. Complete the online immigration form on voyage.gouv.tg before arrival — airlines check its certificate at boarding.",
+        "source": {
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Malaysia",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "MV": {
         "requirement": "evisa",
@@ -1037,10 +1047,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Mauritania; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -1049,10 +1059,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Mauritius; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -1109,10 +1119,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Morocco; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -1121,10 +1131,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Mozambique; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -1141,10 +1151,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Namibia; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -1336,10 +1346,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Republic of the Congo; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -1364,10 +1374,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Rwanda; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -1416,10 +1426,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: São Tomé and Príncipe; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -1455,10 +1465,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Seychelles; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -1474,12 +1484,16 @@
         }
       },
       "SG": {
-        "requirement": "evisa",
-        "maxStayDays": 90,
-        "visaTypes": [
-          "togo-evisa"
-        ],
-        "notes": "A visa is required. Apply for the eVisa on voyage.gouv.tg at least 6 working days before arrival — visas on arrival are suspended. Tourist visas range from 15 days, single entry (25,000 CFA francs) to 90 days, multiple entry (65,000 CFA francs)."
+        "requirement": "visa-free",
+        "maxStayDays": null,
+        "notes": "Togo's Visa Assistant answers that an ordinary Singapore passport needs no visa for a tourist stay; it does not state a maximum stay. Complete the online immigration form on voyage.gouv.tg before arrival — airlines check its certificate at boarding.",
+        "source": {
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Singapore",
+          "type": "government",
+          "lastVerified": "2026-10-05",
+          "lastChanged": "2026-10-05"
+        }
       },
       "SK": {
         "requirement": "evisa",
@@ -1510,10 +1524,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Somalia; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -1522,10 +1536,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: South Africa; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -1542,10 +1556,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: South Sudan; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -1570,10 +1584,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Sudan; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -1630,10 +1644,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Tanzania; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -1679,10 +1693,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Tunisia; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -1715,10 +1729,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Uganda; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -1815,10 +1829,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Zambia; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       },
@@ -1827,10 +1841,10 @@
         "maxStayDays": 30,
         "notes": "Visa-free for up to 30 days: all African nationals with a valid passport may enter without a visa, provided they complete the online immigration form on voyage.gouv.tg at least 24 hours before arrival.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
+          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Zimbabwe; site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       }
@@ -1944,10 +1958,10 @@
         "url": "https://voyage.gouv.tg/",
         "text": "Every traveller, including visa-exempt ECOWAS and African citizens, completes the online immigration form on the official Togo Voyage portal before arriving at the border, and again before leaving.",
         "source": {
-          "url": "https://voyage.gouv.tg/",
-          "name": "Togo Voyage — official eVisa and entry portal (notice on visas on arrival and African nationals)",
+          "url": "https://beta.voyage.gouv.tg/procedure-voyages",
+          "name": "Togo Voyage — Travel Procedures (immigration form on entry and exit) and site notice on African nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-26"
         }
       }
@@ -2111,7 +2125,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Togo?",
-      "answer": "Citizens of ECOWAS countries enter visa-free, and all other African nationals may stay up to 30 days without a visa. Everyone else needs the official eVisa from voyage.gouv.tg, applied for at least 6 working days before arrival: visas on arrival are suspended. All travellers must complete the online immigration form before arrival."
+      "answer": "Citizens of ECOWAS countries enter visa-free, and all other African nationals may stay up to 30 days without a visa. Togo's Visa Assistant also answers that Malaysian and Singaporean passports need no visa. Everyone else needs the official eVisa from voyage.gouv.tg, applied for at least 6 working days before arrival: visas on arrival are suspended. All travellers must complete the online immigration form before arrival."
     },
     {
       "id": "yellow-fever-required",

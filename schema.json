@@ -1200,11 +1200,18 @@
             ]
           },
           "entries": {
-            "type": "string",
-            "enum": [
-              "single",
-              "double",
-              "multiple"
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "single",
+                  "double",
+                  "multiple"
+                ]
+              },
+              {
+                "type": "null"
+              }
             ]
           },
           "extendable": {
