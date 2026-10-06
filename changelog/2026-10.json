@@ -115628,6 +115628,285 @@
       "new": "not stated",
       "sourceUrl": "https://back.diplomatie.gov.tn/storage/files/P5nMb6XXgrCwfKkpTn1HGTz6gglY8yKxRzvDd2Fp.pdf",
       "note": "78 rows. The Foreign Ministry's visa table lists the exemptions but states no length of stay."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "argentina",
+      "path": "visaPolicy.byPassport (82 visa-free rows)",
+      "field": "Row source for the 90-day stay",
+      "old": "Migraciones visa-regime table (states no length of stay)",
+      "new": "Decreto 616/2010, artículo 24 a)",
+      "sourceUrl": "https://www.argentina.gob.ar/normativa/nacional/decreto-616-2010-167004/texto",
+      "note": "Art. 24 a): tourists may stay up to three months, extendable once for a similar period. Values unchanged (90 days, 90-day extension)."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "argentina",
+      "path": "visaPolicy.byPassport.BA, DM, FJ, KN, LC",
+      "field": "Notes and source",
+      "old": "Migraciones gives tourists a stay of up to three months (cited to the visa table, which does not state it)",
+      "new": "Decree 616/2010 (article 24 a) allows tourists to stay up to three months, extendable once for a similar period.",
+      "sourceUrl": "https://www.argentina.gob.ar/normativa/nacional/decreto-616-2010-167004/texto"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "brazil",
+      "path": "visaPolicy.byPassport.US,CA,AU; visaTypes.evisa.extendable.days",
+      "field": "Extension",
+      "old": "90 days",
+      "new": "null (not published)",
+      "sourceUrl": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm",
+      "note": "Decree 9,199/2017 art. 20 §2 allows the 90-day Federal Police extension only for nationals of countries granting Brazilians reciprocity; no official source says the US, Canada or Australia qualify. The eVisa portal only says to contact the Federal Police."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "gabon",
+      "path": "visaPolicy.byPassport.GA.notes",
+      "field": "Own-country row note",
+      "old": "Home country. No entry requirements for Gabonese citizens.",
+      "new": "Home country.",
+      "sourceUrl": "https://evisa.dgdi.ga/",
+      "note": "No official page read states that Gabonese citizens face no entry requirements (they still need a travel document); the unconfirmed sentence is removed."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "guatemala",
+      "path": "visaPolicy.byPassport (83 visa-free rows) + SV,HN,NI",
+      "field": "Max stay source",
+      "old": "UK travel advice only",
+      "new": "Código de Migración, Decreto 44-2016, arts. 74 and 67",
+      "sourceUrl": "https://extranjeria.igm.gob.gt/files/normativa/01.-CODIGO-DE-MIGRACION-44-2016.pdf",
+      "note": "Art. 74 caps a tourist or traveller's stay at 90 days, extendable once; art. 67 gives Central Americans up to 90 days, extendable once. 90 days kept; 64 rows now cite the Code, 19 keep the IGM classification source with the article as instrument."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "haiti",
+      "path": "visaPolicy.byPassport (176 visa-free rows)",
+      "field": "Max stay source",
+      "old": "UK travel advice (for Britons) only",
+      "new": "Embassy of Haiti in Canada",
+      "sourceUrl": "http://ambassade-haiti.ca/ambassade/structure-et-services/section-consulaire/visas",
+      "note": "The embassy says all foreign citizens staying beyond the 90-day courtesy stay, other than those of Haitian descent, need a long-stay permit from the DIE (Decree-Law of 26 December 1978, arts. 31-34). 90 days kept and cited; FAQ how-long-stay updated. CARICOM rows left unstated."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "kazakhstan",
+      "path": "visaPolicy.byPassport.LY",
+      "field": "Visa requirement (Libya)",
+      "old": "unconfirmed",
+      "new": "embassy-visa",
+      "sourceUrl": "https://www.gov.kz/memleket/entities/mfa/activities/34747?parentId=3053&lang=ru",
+      "note": "The English visa-regime table prints Canada twice (#72/#73) and Lebanon twice (#93/#94); the Russian version of the same table reads #73 Qatar (visa-free 30 days) and #94 Libya (visa for every passport type). Libya is not on the 2020 e-Visa list (Annex 1), so an embassy visa."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "kazakhstan",
+      "path": "visaPolicy.byPassport.QA, visaPolicy.byPassport.LB",
+      "field": "Row source",
+      "old": "English visa-regime table (Qatar row missing, Lebanon printed twice)",
+      "new": "Russian version of the same table",
+      "sourceUrl": "https://www.gov.kz/memleket/entities/mfa/activities/34747?parentId=3053&lang=ru",
+      "note": "Values unchanged: Qatar visa-free 30 days; Lebanon a visa for ordinary passports (Lebanon is on the e-Visa list)."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "kosovo",
+      "path": "visaPolicy.byPassport (66 rows on the MFA no-visa list)",
+      "field": "Source and wording of the 90-day stay",
+      "old": "Listed ... among the nationalities that need no short-stay visa (stays of under 3 months).",
+      "new": "Listed ... need no short-stay visa. Kosovo’s Law on Foreigners defines a short stay as up to 90 days within a 180-day period, with or without a visa.",
+      "sourceUrl": "https://gzk.rks-gov.net/ActDetail.aspx?ActID=16333",
+      "note": "Law No. 04/L-219 on Foreigners, art. 38(1) as amended by Law No. 06/L-036 art. 6 (Official Gazette no. 6, 3 May 2018). The MFA page only defines a short-stay visa as under 3 months. Values unchanged (90 days). gzk.rks-gov.net added to official-hosts.json."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "liberia",
+      "path": "visaPolicy.byPassport (184 embassy-visa rows)",
+      "field": "Max stay",
+      "old": "30 days",
+      "new": "null (not published)",
+      "sourceUrl": "https://visaonarrival.lis.gov.lr/",
+      "note": "No official source states a flat 30-day stay: the LIS portal says the officer grants 30 or 90 days, and the New York consulate sells 1-3-month visas (global rule)."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "qatar",
+      "path": "visaPolicy.byPassport.BS,MY,SC",
+      "field": "Max stay",
+      "old": "30 days",
+      "new": "90 days",
+      "sourceUrl": "https://hongkong.consulate.qa/en/services/consular-services",
+      "note": "Qatar's Consulate General in Hong Kong lists these nationalities for visa-free arrival with a maximum stay of 90 days in total within a 180-day, non-extendable waiver; row source now cites it."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "qatar",
+      "path": "visaPolicy.byPassport.IE",
+      "field": "Max stay",
+      "old": "90 days",
+      "new": "30 days",
+      "sourceUrl": "https://www.ireland.ie/en/dfa/overseas-travel/advice/qatar/",
+      "note": "Ireland's Department of Foreign Affairs says Irish citizens get a free 30-day visa waiver on arrival; Ireland is in neither of the Hong Kong consulate's visa-free lists."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "qatar",
+      "path": "visaPolicy.byPassport.JP,BA,CR,CU,EC,GE,GY,HK,KZ,MV",
+      "field": "Max stay",
+      "old": "30 days",
+      "new": "null (not published)",
+      "sourceUrl": "https://visitqatar.com/intl-en/plan-your-trip/visas",
+      "note": "Visit Qatar confirms visa-free entry but no length of stay, and the Hong Kong consulate's 30- and 90-day lists do not name these nationalities (global rule)."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "qatar",
+      "path": "visaPolicy.byPassport.IN",
+      "field": "Extension",
+      "old": "30 days",
+      "new": "null (not published)",
+      "sourceUrl": "https://hongkong.consulate.qa/en/services/consular-services",
+      "note": "The Hong Kong consulate confirms a 30-day visa waiver for Indian citizens (row source now cites it) but states no extension length."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "qatar",
+      "path": "visaPolicy.byPassport (59 visa-free rows: 29 at 30 days, 30 at 90 days)",
+      "field": "Max stay source",
+      "old": "none (unsourced)",
+      "new": "Consulate General of Qatar in Hong Kong",
+      "sourceUrl": "https://hongkong.consulate.qa/en/services/consular-services",
+      "note": "Values unchanged; the consulate's 'Visa-Free Arrival for 90 days' and 'for 30 Days' lists confirm them. EU FAQ answer rewritten to state the confirmed figures."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "rwanda",
+      "path": "visaPolicy.byPassport.CD",
+      "field": "Entry regime (DR Congo)",
+      "old": "freedom-of-movement, 180 days (EAC pass)",
+      "new": "visa-on-arrival, 90 days free of charge",
+      "sourceUrl": "https://migration.gov.rw/visa-on-arrival",
+      "note": "The immigration directorate page names the DRC on its 90-day free visa-on-arrival list and also gives EAC citizens (the EAC lists the DRC as a Partner State) a six-month pass, without saying which applies. Same source, no date to separate them: stricter wins; the EAC reading is recorded in source.conflict."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "tuvalu",
+      "path": "visaTypes[visitor-visa-arrival, visa-extension].entries",
+      "field": "Entries",
+      "old": "single",
+      "new": "not stated",
+      "sourceUrl": "https://www.un.int/tuvalu/sites/www.un.int/files/Tuvalu/Images/immigrationregulations2014_1.pdf",
+      "note": "The Immigration Regulations 2014 do not state the number of entries. The 30-day extension on the visitor rows is confirmed by regulation 2(3) and kept."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "tuvalu",
+      "path": "visaTypes[visa-extension].extendable",
+      "field": "Extension itself extendable by 30 days",
+      "old": "yes, 30 days",
+      "new": "not stated",
+      "sourceUrl": "https://www.un.int/tuvalu/sites/www.un.int/files/Tuvalu/Images/immigrationregulations2014_1.pdf",
+      "note": "Regulation 2(3) allows one extension of a visitors permit for up to 30 days; it says nothing about extending the extension."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "china",
+      "path": "visaPolicy.byPassport.HK.requirement",
+      "field": "HK passports",
+      "old": "eta",
+      "new": "travel-permit",
+      "sourceUrl": "https://www.gov.cn/flfg/2012-06/30/content_2174944.htm"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "china",
+      "path": "visaPolicy.byPassport.MO.requirement",
+      "field": "MO passports",
+      "old": "eta",
+      "new": "travel-permit",
+      "sourceUrl": "https://www.gov.cn/flfg/2012-06/30/content_2174944.htm"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "china",
+      "path": "visaPolicy.byPassport.TW.requirement",
+      "field": "TW passports",
+      "old": "eta",
+      "new": "travel-permit",
+      "sourceUrl": "https://www.gov.cn/flfg/2012-06/30/content_2174944.htm"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "macau",
+      "path": "visaPolicy.byPassport.CN.requirement",
+      "field": "CN passports",
+      "old": "eta",
+      "new": "travel-permit",
+      "sourceUrl": "https://www.gov.mo/en/services/ps-1474/ps-1474b/"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "hong-kong",
+      "path": "visaPolicy.byPassport.CN.requirement",
+      "field": "CN passports",
+      "old": "eta",
+      "new": "unconfirmed",
+      "sourceUrl": "https://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "qatar",
+      "path": "visaTypes[hayya-tourist]",
+      "field": "Hayya A1 tourist visa",
+      "old": "stay 30, valid 90, processing 1–5 days, extension 30, single entry",
+      "new": "not published",
+      "sourceUrl": "https://www.hayya.qa/",
+      "note": "The Hayya FAQ states none of these for the A1 visa."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "qatar",
+      "path": "visaPolicy.byPassport (eVisa rows)",
+      "field": "Maximum stay",
+      "old": "30 days",
+      "new": "not stated",
+      "sourceUrl": "https://www.hayya.qa/",
+      "note": "102 rows; no official page states the stay on the A1 visa."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "qatar",
+      "path": "visaPolicy.byPassport.AG/DO/UA/PK",
+      "field": "Maximum stay (visa-free)",
+      "old": "not stated",
+      "new": "AG, DO, UA 90 days; PK 30 days",
+      "sourceUrl": "https://hongkong.consulate.qa/en/services/consular-services"
     }
   ]
 }

@@ -20,7 +20,7 @@
   ],
   "summary": "Rwanda gives every nationality a visa on arrival: citizens of all African Union, Commonwealth and Francophonie states get it free of charge for a visit of 30 days, nationals of the countries on a separate list — among them Ghana, Senegal, Singapore, Indonesia, the Philippines and Qatar — get a 90-day visa free of charge, East African Community citizens get a free pass for six months, and every other nationality receives a 30-day visa on arrival (or applies online via Irembo).",
   "meta": {
-    "lastUpdated": "2026-10-06",
+    "lastUpdated": "2026-10-07",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -358,9 +358,23 @@
         "notes": "A 30-day tourist visa (V-1, USD 50) is issued on arrival to all nationalities. No advance application needed, though you can apply online via the Irembo portal."
       },
       "CD": {
-        "requirement": "freedom-of-movement",
-        "maxStayDays": 180,
-        "notes": "Rwanda's immigration directorate issues East African Community citizens a pass or entry visa free of charge on arrival for a stay of six months."
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 90,
+        "notes": "Rwanda's immigration directorate names the Democratic Republic of the Congo among the countries 'granted 90 days valid visa free of charge upon arrival'. The same page gives citizens of East African Community member states, which the EAC says include the DRC, a free pass or entry visa on arrival for six months; it does not say which of the two applies to Congolese citizens, so the shorter stay is shown.",
+        "source": {
+          "url": "https://migration.gov.rw/visa-on-arrival",
+          "name": "Directorate General of Immigration and Emigration (Rwanda) — Visa on arrival: countries granted a 90-day visa free of charge",
+          "type": "government",
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07",
+          "archiveUrl": "https://web.archive.org/web/20260725191701/https://www.migration.gov.rw/visa-on-arrival",
+          "conflict": {
+            "url": "https://www.eac.int/eac-partner-states",
+            "name": "East African Community — EAC Partner States (read with the six-month EAC rule on the Rwandan page)",
+            "states": "The DRC is an EAC Partner State, which would give Congolese citizens a free six-month pass on arrival.",
+            "resolvedBy": "stricter"
+          }
+        }
       },
       "DK": {
         "requirement": "visa-on-arrival",
@@ -1070,7 +1084,7 @@
       "RW": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "Home country. No entry requirements for Rwandan citizens."
+        "notes": "Home country."
       },
       "KN": {
         "requirement": "visa-on-arrival",
