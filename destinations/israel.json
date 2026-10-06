@@ -1403,13 +1403,15 @@
       "SD": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
-        "notes": "Israel's ETA-IL eligibility check says Sudanese regular-passport holders travelling for tourism cannot apply for an ETA-IL and \"may need to apply for a visa or another type of travel document\"; it lists no visa option. No official page we could read states which visa Sudanese citizens are issued.",
+        "visaTypes": [
+          "b2-visitor"
+        ],
+        "notes": "Israel's Foreign Ministry lists Sudan as requiring a tourist visa for national, diplomatic and service passports, with a fee for national passports, and Israel's ETA-IL eligibility check says Sudanese regular-passport holders cannot apply for an ETA-IL. The Population and Immigration Authority says B/2 tourist and visitor visa applications are submitted in person at Israeli missions abroad, or by an Israeli citizen or resident inviting the visitor at its offices in Israel.",
         "source": {
-          "url": "https://israel-entry.piba.gov.il/form/#/EligibilityNational?lang=en-US",
-          "name": "Israel Population and Immigration Authority — ETA-IL eligibility check (Sudan, regular passport, tourism: Not Eligible)",
+          "url": "https://www.gov.il/en/departments/dynamiccollectors/ashrotzarim?skip=170",
+          "name": "Israel Ministry of Foreign Affairs — Tourist Visa Requirements for Foreign Nationals (Sudan: national passport Required, fee Yes)",
           "type": "government",
-          "lastVerified": "2026-10-06",
-          "lastChanged": "2026-10-06"
+          "lastVerified": "2026-10-06"
         }
       },
       "SR": {
@@ -1941,7 +1943,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Israel?",
-      "answer": "If you are from one of the roughly 100 visa-exempt countries — the EU, US, UK, Canada, Australia, most of Latin America and others — you do not need a visa for stays of up to 90 days, but you must obtain an ETA-IL electronic travel authorization online before boarding. Most other nationalities need a B/2 visitor visa from an Israeli embassy or consulate; citizens of Iran, Iraq, Lebanon, Libya, Syria and Yemen are not admitted except with rare individual permission, and ordinary tourism is effectively closed to Afghan, Pakistani, Saudi, Somali and Sudanese passport holders."
+      "answer": "If you are from one of the roughly 100 visa-exempt countries — the EU, US, UK, Canada, Australia, most of Latin America and others — you do not need a visa for stays of up to 90 days, but you must obtain an ETA-IL electronic travel authorization online before boarding. Most other nationalities need a B/2 visitor visa from an Israeli embassy or consulate; citizens of Iran, Iraq, Lebanon, Libya, Syria and Yemen are not admitted except with rare individual permission, and the Foreign Ministry lists Afghan, Pakistani, Saudi, Somali and Sudanese passports as needing a tourist visa, with no ETA-IL available to them."
     },
     {
       "id": "eta-il-what",
