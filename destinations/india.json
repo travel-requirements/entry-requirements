@@ -2304,6 +2304,50 @@
           "type": "government",
           "lastVerified": "2026-10-03"
         }
+      },
+      {
+        "id": "e-arrival-card",
+        "name": "e-Arrival Card",
+        "mandatory": true,
+        "fee": {
+          "amount": 0,
+          "currency": "INR"
+        },
+        "submitAt": "before-travel",
+        "submitWindow": "Within 72 hours before arrival",
+        "url": "https://indianvisaonline.gov.in/earrival/",
+        "text": "The Bureau of Immigration says foreign nationals and OCI card holders must complete and submit the e-Arrival Card, a free service, online within 72 hours before arriving in India, at indianvisaonline.gov.in, boi.gov.in or the official 'Indian Visa Su-Swagatam' app. It is arrival information, not a visa.",
+        "source": {
+          "url": "https://indianvisaonline.gov.in/",
+          "name": "Indian Visa Online (Bureau of Immigration, Ministry of Home Affairs) — home page notice and advisory on the e-Arrival Card",
+          "type": "government",
+          "lastVerified": "2026-10-06"
+        }
+      },
+      {
+        "id": "air-suvidha",
+        "name": "Air Suvidha Self-Declaration Form",
+        "mandatory": true,
+        "fee": {
+          "amount": 0,
+          "currency": "INR"
+        },
+        "submitAt": "before-travel",
+        "submitWindow": "Within 72 hours before arrival",
+        "url": "https://airsuvidha.civilaviation.gov.in/",
+        "text": "The Bureau of Immigration says all passengers must also fill in the Air Suvidha Self-Declaration Form before reaching the arrival immigration counters. The Air Suvidha portal, run for the Ministry of Health and Family Welfare, says the form is free, can be filled up to 72 hours before arriving, is mandatory under the Epidemic Diseases Act, 1897 and the Disaster Management Act, 2005, and that the registration number is shown at the health desk on landing.",
+        "source": {
+          "url": "https://airsuvidha.civilaviation.gov.in/",
+          "name": "Air Suvidha 2.0 — official portal for the Self-Declaration Form (Ministry of Health & Family Welfare / Ministry of Civil Aviation)",
+          "type": "government",
+          "lastVerified": "2026-10-06",
+          "conflict": {
+            "url": "https://www.gov.uk/foreign-travel-advice/india/entry-requirements",
+            "name": "UK FCDO — India entry requirements",
+            "states": "The form should be completed up to 24 hours before arrival.",
+            "resolvedBy": "hierarchy"
+          }
+        }
       }
     ],
     "customs": {

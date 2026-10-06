@@ -110,7 +110,7 @@
       "AM": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free for up to 90 days, per the Foreign Ministry's visa-regime table for ordinary passports. Kazakhstan is piloting the QazETA electronic travel authorisation (ETA) for visa-exempt nationalities, applied for in the QazETA mobile app at least 72 hours before travel and valid 180 days; during the pilot it is recommended but not required.",
+        "notes": "Visa-free for up to 90 days within 180 days, per the Foreign Ministry's visa-regime table for ordinary passports. Kazakhstan is piloting the QazETA electronic travel authorisation (ETA) for visa-exempt nationalities, applied for in the QazETA mobile app at least 72 hours before travel and valid 180 days; during the pilot it is recommended but not required.",
         "visaTypes": [
           "qazeta-eta"
         ]
@@ -134,7 +134,7 @@
       "AZ": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free for up to 90 days, per the Foreign Ministry's visa-regime table for ordinary passports. Kazakhstan is piloting the QazETA electronic travel authorisation (ETA) for visa-exempt nationalities, applied for in the QazETA mobile app at least 72 hours before travel and valid 180 days; during the pilot it is recommended but not required.",
+        "notes": "Visa-free for up to 90 days within 180 days, per the Foreign Ministry's visa-regime table for ordinary passports. Kazakhstan is piloting the QazETA electronic travel authorisation (ETA) for visa-exempt nationalities, applied for in the QazETA mobile app at least 72 hours before travel and valid 180 days; during the pilot it is recommended but not required.",
         "visaTypes": [
           "qazeta-eta"
         ]
@@ -761,9 +761,9 @@
         "notes": "A visa is required, per the Foreign Ministry's visa-regime table. Tourist e-Visas, issued on an invitation from the Kazakh side, are applied for on the Visa-Migration Portal (vmp.gov.kz) by citizens of the states on the Foreign Ministry's e-Visa list; others apply at a Kazakh embassy."
       },
       "XK": {
-        "requirement": "embassy-visa",
+        "requirement": "unconfirmed",
         "maxStayDays": null,
-        "notes": "No official source we could read states the visa rule for this passport; it is not in the Foreign Ministry's visa-regime table."
+        "notes": "No official source we could read states the visa rule for this passport; it is not in the Foreign Ministry's visa-regime table or on its e-Visa list."
       },
       "KW": {
         "requirement": "visa-free",
@@ -822,12 +822,9 @@
         "notes": "A visa is required, per the Foreign Ministry's visa-regime table. Tourist e-Visas, issued on an invitation from the Kazakh side, are applied for on the Visa-Migration Portal (vmp.gov.kz) by citizens of the states on the Foreign Ministry's e-Visa list; others apply at a Kazakh embassy."
       },
       "LY": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "evisa-tourist"
-        ],
-        "notes": "No official source we could read states the visa rule for this passport; it is not in the Foreign Ministry's visa-regime table."
+        "requirement": "unconfirmed",
+        "maxStayDays": null,
+        "notes": "No official source we could read states the visa rule for this passport; it is not in the Foreign Ministry's visa-regime table or on its e-Visa list."
       },
       "LI": {
         "requirement": "visa-free",
@@ -926,12 +923,22 @@
         "notes": "A visa is required, per the Foreign Ministry's visa-regime table. Tourist e-Visas, issued on an invitation from the Kazakh side, are applied for on the Visa-Migration Portal (vmp.gov.kz) by citizens of the states on the Foreign Ministry's e-Visa list; others apply at a Kazakh embassy."
       },
       "MU": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "evisa-tourist"
-        ],
-        "notes": "The Foreign Ministry's visa-regime table lists a visa on arrival for Mauritius passport holders."
+        "requirement": "visa-on-arrival",
+        "maxStayDays": null,
+        "notes": "The Foreign Ministry's visa-regime table lists a visa on arrival for Mauritius passport holders and gives no length of stay. The ministry's older e-Visa list (Annex 1) also names Mauritius.",
+        "source": {
+          "url": "https://www.gov.kz/memleket/entities/mfa/activities/34747?parentId=3053&lang=en",
+          "name": "Ministry of Foreign Affairs of Kazakhstan — Visa regime of the Republic of Kazakhstan for foreign citizens",
+          "type": "government",
+          "lastVerified": "2026-10-06",
+          "lastChanged": "2026-10-06",
+          "conflict": {
+            "url": "https://www.gov.kz/uploads/2020/3/12/441bc79b3ed53dcbd8ab0c80851efeaa_original.47616.doc",
+            "name": "Ministry of Foreign Affairs of Kazakhstan — Annex 1, countries eligible for the electronic tourist visa (2020)",
+            "states": "Mauritius is on the list of countries whose citizens may be issued a single-entry electronic tourist visa (a visa obtained before travel).",
+            "resolvedBy": "newer"
+          }
+        }
       },
       "MX": {
         "requirement": "visa-free",
@@ -1118,12 +1125,9 @@
         "notes": "A visa is required, per the Foreign Ministry's visa-regime table. Tourist e-Visas, issued on an invitation from the Kazakh side, are applied for on the Visa-Migration Portal (vmp.gov.kz) by citizens of the states on the Foreign Ministry's e-Visa list; others apply at a Kazakh embassy."
       },
       "PS": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "evisa-tourist"
-        ],
-        "notes": "No official source we could read states the visa rule for this passport; it is not in the Foreign Ministry's visa-regime table."
+        "requirement": "unconfirmed",
+        "maxStayDays": null,
+        "notes": "No official source we could read states the visa rule for this passport; it is not in the Foreign Ministry's visa-regime table or on its e-Visa list."
       },
       "PA": {
         "requirement": "evisa",
@@ -1430,12 +1434,9 @@
         "notes": "A visa is required, per the Foreign Ministry's visa-regime table. Tourist e-Visas, issued on an invitation from the Kazakh side, are applied for on the Visa-Migration Portal (vmp.gov.kz) by citizens of the states on the Foreign Ministry's e-Visa list; others apply at a Kazakh embassy."
       },
       "TW": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
-        "visaTypes": [
-          "evisa-tourist"
-        ],
-        "notes": "No official source we could read states the visa rule for this passport; it is not in the Foreign Ministry's visa-regime table."
+        "requirement": "unconfirmed",
+        "maxStayDays": null,
+        "notes": "No official source we could read states the visa rule for this passport; it is not in the Foreign Ministry's visa-regime table or on its e-Visa list."
       },
       "TJ": {
         "requirement": "visa-free",
