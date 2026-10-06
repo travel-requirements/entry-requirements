@@ -21,9 +21,9 @@
     "azerbaijan",
     "georgia"
   ],
-  "summary": "Most nationalities can obtain an Iranian tourist visa online or on arrival at major airports, and a growing list of countries enters visa-free, but US, UK and Canadian citizens apply through an Iranian embassy (the UK Foreign Office says British passport holders need an organised tour or a sponsor in Iran), and Israeli passport holders are not admitted at all.",
+  "summary": "Most nationalities can obtain an Iranian tourist visa online or on arrival at major airports, and a growing list of countries enters visa-free. US, UK and Canadian citizens need a visa before travel according to their governments' advice (the UK Foreign Office says British passport holders need an organised tour or a sponsor in Iran), and Iran's visa portal says it may refuse visas to some nationalities for political and diplomatic considerations without naming them.",
   "meta": {
-    "lastUpdated": "2026-10-05",
+    "lastUpdated": "2026-10-06",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -818,7 +818,13 @@
       "IL": {
         "requirement": "banned",
         "maxStayDays": null,
-        "notes": "Israeli passport holders are not admitted to Iran under any circumstances. For other passports, the UK Foreign Office says that if your passport has stamps from Israel or other countries' border crossing points with Israel, you may be refused entry."
+        "notes": "No official page we could read states Iran's rule for Israeli passport holders. Iran's MFA visa portal says the citizens of some countries may not be issued a visa \"due to political and diplomatic considerations\" and should refer to an Iranian embassy, without naming the countries. For other passports, the UK Foreign Office says that if your passport has stamps from Israel or other countries' border crossing points with Israel, you may be refused entry.",
+        "source": {
+          "url": "https://evisa.mfa.ir/en/",
+          "name": "Iran eVisa — MFA visa portal (English, Important Tips: Visa Eligibility)",
+          "type": "government",
+          "lastVerified": "2026-10-06"
+        }
       },
       "IT": {
         "requirement": "evisa",
@@ -1844,7 +1850,19 @@
         "visaTypes": [
           "embassy-guided"
         ],
-        "notes": "Iran's MFA visa portal says some types of visa for the citizens of some countries can be applied for only in person through an Iranian embassy, without naming the countries. No official page we could read states a guided-tour rule for US passport holders. The US State Department says a tourist visa is required and advises against all travel to Iran (Level 4: Do Not Travel)."
+        "notes": "Iran's MFA visa portal says some types of visa for the citizens of some countries can be applied for only in person through an Iranian embassy, without naming the countries. No official page we could read states a guided-tour rule for US passport holders. The US State Department says U.S. passports are valid for travel to Iran and a tourist visa is required except for Kish Island, and advises against all travel to Iran (Level 4: Do Not Travel).",
+        "source": {
+          "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Iran.html",
+          "name": "US Department of State — Iran international travel information (Tourist visa required: yes, except for Kish Island)",
+          "type": "government",
+          "lastVerified": "2026-10-06",
+          "lastChanged": "2026-10-06",
+          "archiveUrl": "https://web.archive.org/web/20251205184008/https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Iran.html",
+          "unverifiable": {
+            "lastAttempt": "2026-10-06",
+            "reason": "blocked"
+          }
+        }
       },
       "UY": {
         "requirement": "evisa",
@@ -1997,19 +2015,19 @@
       "id": "embassy-guided",
       "category": "tourist",
       "method": "embassy",
-      "name": "Embassy visa (US, UK, Canada)",
+      "name": "Visa applied for in person at an Iranian embassy",
       "fee": null,
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://evisa.mfa.ir/en/",
-        "name": "Iran eVisa — MFA visa portal (English, Important Tips: some visas for citizens of some countries only in person through an embassy)",
+        "name": "Iran eVisa — MFA visa portal (English, Important Tips: \"some types of visa for the citizens of some countries should be applied for only in person through the relevant Embassy\")",
         "type": "government",
-        "lastVerified": "2026-10-05",
-        "lastChanged": "2026-10-05"
+        "lastVerified": "2026-10-06",
+        "lastChanged": "2026-10-06"
       }
     }
   ],
@@ -2269,7 +2287,7 @@
     {
       "id": "us-uk-ca-rules",
       "type": "warning",
-      "text": "US, UK and Canadian citizens must travel on a pre-approved itinerary with a government-licensed guide and are fingerprinted on arrival. The visa cannot be issued until the Ministry of Foreign Affairs grants an authorization code, so book through a specialist operator well ahead."
+      "text": "Iran's MFA visa portal says some types of visa for the citizens of some countries can be applied for only in person at an Iranian embassy, without naming the countries. The UK Foreign Office says the Iranian Embassy has told it that British passport holders must apply as part of an organised tour or have a sponsor in Iran. Canada's travel advice says a tourist visa is required, and the US State Department advises against all travel to Iran. Check with an Iranian embassy before you book."
     },
     {
       "id": "voa-airports-only",
@@ -2301,7 +2319,7 @@
     {
       "id": "israel-travel",
       "question": "Can I visit Iran if I have been to Israel?",
-      "answer": "The UK Foreign Office says that if your passport has stamps from Israel or other countries' border crossing points with Israel, you may be refused entry to Iran. Canada's travel advice says Canadians have been denied entry because their passports bore an Israeli visa, an Israeli border stamp or an Egyptian or Jordanian border stamp issued by an office bordering Israel. Israeli citizens are barred entirely."
+      "answer": "The UK Foreign Office says that if your passport has stamps from Israel or other countries' border crossing points with Israel, you may be refused entry to Iran. Canada's travel advice says Canadians have been denied entry because their passports bore an Israeli visa, an Israeli border stamp or an Egyptian or Jordanian border stamp issued by an office bordering Israel. No official page we could read states Iran's rule for Israeli passport holders; Iran's MFA visa portal says only that the citizens of some countries may not be issued a visa due to political and diplomatic considerations."
     },
     {
       "id": "credit-cards",

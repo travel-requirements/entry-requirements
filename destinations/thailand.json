@@ -19,7 +19,7 @@
   ],
   "summary": "Since 15 September 2026 Thailand grants visa-free entry of up to 30 days for tourism to passport holders of 60 countries and territories, with other stays for a few nationalities under bilateral agreements, and a visa on arrival for Azerbaijani, Belarusian and Serbian citizens; everyone else applies through a single global eVisa portal, and all foreign arrivals must submit the Thailand Digital Arrival Card (TDAC) before travel.",
   "meta": {
-    "lastUpdated": "2026-10-03",
+    "lastUpdated": "2026-10-06",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -344,7 +344,9 @@
       "AZ": {
         "requirement": "visa-on-arrival",
         "maxStayDays": null,
-        "visaTypes": [],
+        "visaTypes": [
+          "voa"
+        ],
         "notes": "Visa on arrival at designated immigration checkpoints for a 2,000 THB fee, under the scheme in force since 15 September 2026. The Foreign Ministry's summary does not state the length of stay."
       },
       "BS": {
@@ -380,7 +382,9 @@
       "BY": {
         "requirement": "visa-on-arrival",
         "maxStayDays": null,
-        "visaTypes": [],
+        "visaTypes": [
+          "voa"
+        ],
         "notes": "Visa on arrival at designated immigration checkpoints for a 2,000 THB fee, under the scheme in force since 15 September 2026. The Foreign Ministry's summary does not state the length of stay."
       },
       "BE": {
@@ -1258,7 +1262,9 @@
       "RS": {
         "requirement": "visa-on-arrival",
         "maxStayDays": null,
-        "visaTypes": [],
+        "visaTypes": [
+          "voa"
+        ],
         "notes": "Visa on arrival at designated immigration checkpoints for a 2,000 THB fee, under the scheme in force since 15 September 2026. The Foreign Ministry's summary does not state the length of stay."
       },
       "SC": {
@@ -1683,6 +1689,29 @@
           "states": "valid 3 months; 30 days per entry (page updated 25 Sep 2025)",
           "resolvedBy": "newer"
         }
+      }
+    },
+    {
+      "id": "voa",
+      "category": "tourist",
+      "method": "visa-on-arrival",
+      "name": "Visa on Arrival (VoA)",
+      "fee": {
+        "amount": 2000,
+        "currency": "THB",
+        "notes": "Paid at the designated immigration checkpoint. The Foreign Ministry's summary says the criteria are as prescribed by the Immigration Bureau."
+      },
+      "processing": null,
+      "validityDays": null,
+      "stayDays": null,
+      "entries": null,
+      "applyUrl": null,
+      "source": {
+        "url": "https://consular.mfa.go.th/th/content/1-9-69-00?cate=5ddbe42115e39c4768007e1d",
+        "name": "Thai MFA, Department of Consular Affairs — Summary: the revision of Thailand's visa exemption and VoA schemes, 2026 (ordinary passports, effective 15 September 2026)",
+        "type": "government",
+        "lastVerified": "2026-10-06",
+        "lastChanged": "2026-10-06"
       }
     }
   ],

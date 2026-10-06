@@ -16,7 +16,7 @@
   ],
   "summary": "Palau admits visitors of nearly every nationality with a 30-day entry permit issued on arrival; citizens of the Schengen states are visa-free for 90 days in any 180 and Russians for 30 days, while nationals of Bangladesh and Myanmar must apply before travelling. US, Micronesian and Marshallese citizens enter freely under the Compact of Free Association. Everyone pays the USD 100 Pristine Paradise Environmental Fee and signs the Palau Pledge stamped into their passport.",
   "meta": {
-    "lastUpdated": "2026-10-05",
+    "lastUpdated": "2026-10-06",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -156,7 +156,10 @@
         "requirement": "embassy-visa",
         "maxStayDays": 30,
         "extendableDays": 60,
-        "notes": "Nationals of Bangladesh and Myanmar cannot get the tourist visa on arrival: they must apply before travelling, from their country of residence, through a Palau diplomatic mission or the Ministry of Foreign Affairs. The tourist visa is valid for 30 days and can be extended twice, by 30 days each time."
+        "notes": "Nationals of Bangladesh and Myanmar cannot get the tourist visa on arrival: they must apply before travelling, from their country of residence, through a Palau diplomatic mission or the Ministry of Foreign Affairs. The tourist visa is valid for 30 days and can be extended twice, by 30 days each time.",
+        "visaTypes": [
+          "tourist-visa-prior"
+        ]
       },
       "BB": {
         "requirement": "visa-on-arrival",
@@ -1027,7 +1030,10 @@
         "requirement": "embassy-visa",
         "maxStayDays": 30,
         "extendableDays": 60,
-        "notes": "Nationals of Bangladesh and Myanmar cannot get the tourist visa on arrival: they must apply before travelling, from their country of residence, through a Palau diplomatic mission or the Ministry of Foreign Affairs. The tourist visa is valid for 30 days and can be extended twice, by 30 days each time."
+        "notes": "Nationals of Bangladesh and Myanmar cannot get the tourist visa on arrival: they must apply before travelling, from their country of residence, through a Palau diplomatic mission or the Ministry of Foreign Affairs. The tourist visa is valid for 30 days and can be extended twice, by 30 days each time.",
+        "visaTypes": [
+          "tourist-visa-prior"
+        ]
       },
       "NA": {
         "requirement": "visa-on-arrival",
@@ -1735,6 +1741,29 @@
         "type": "government",
         "lastVerified": "2026-10-05",
         "lastChanged": "2026-10-03"
+      }
+    },
+    {
+      "id": "tourist-visa-prior",
+      "category": "tourist",
+      "method": "embassy",
+      "name": "Tourist visa applied for before travel (Palau diplomatic mission or Ministry of Foreign Affairs)",
+      "fee": null,
+      "processing": null,
+      "validityDays": null,
+      "stayDays": 30,
+      "entries": null,
+      "extendable": {
+        "possible": true,
+        "days": 60
+      },
+      "applyUrl": null,
+      "source": {
+        "url": "https://bcbp.pw/?page_id=165",
+        "name": "Palau Bureau of Customs and Border Protection — Division of Immigration",
+        "type": "government",
+        "lastVerified": "2026-10-06",
+        "lastChanged": "2026-10-06"
       }
     }
   ],

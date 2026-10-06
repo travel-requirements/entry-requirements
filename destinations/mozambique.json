@@ -22,7 +22,7 @@
   ],
   "summary": "Mozambique's official eVisa portal sorts visitors into four groups: 17 nationalities, mostly from southern and eastern Africa, are visa-exempt for 30 or 90 days; 29 others, including the US, the UK, Canada, Japan and much of Western Europe, need an Electronic Travel Authorisation (eTA) for stays of up to 30 days; citizens of Pakistan, Bangladesh, Ethiopia, Nigeria, Nepal and Somalia must apply at an embassy; and everyone else applies online for an eVisa before travel.",
   "meta": {
-    "lastUpdated": "2026-10-05",
+    "lastUpdated": "2026-10-06",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -156,7 +156,10 @@
       "BD": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
-        "notes": "Mozambique's official eVisa portal lists Bangladesh among the nationalities that cannot apply for a visa through the portal; request the visa from the nearest Mozambican embassy or high commission before travel."
+        "notes": "Mozambique's official eVisa portal lists Bangladesh among the nationalities that cannot apply for a visa through the portal; request the visa from the nearest Mozambican embassy or high commission before travel.",
+        "visaTypes": [
+          "mz-embassy-tourist"
+        ]
       },
       "BB": {
         "requirement": "evisa",
@@ -551,7 +554,10 @@
       "ET": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
-        "notes": "Mozambique's official eVisa portal lists Ethiopia among the nationalities that cannot apply for a visa through the portal; request the visa from the nearest Mozambican embassy or high commission before travel."
+        "notes": "Mozambique's official eVisa portal lists Ethiopia among the nationalities that cannot apply for a visa through the portal; request the visa from the nearest Mozambican embassy or high commission before travel.",
+        "visaTypes": [
+          "mz-embassy-tourist"
+        ]
       },
       "FJ": {
         "requirement": "evisa",
@@ -1188,7 +1194,10 @@
       "NP": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
-        "notes": "Mozambique's official eVisa portal lists Nepal among the nationalities that cannot apply for a visa through the portal; request the visa from the nearest Mozambican embassy or high commission before travel."
+        "notes": "Mozambique's official eVisa portal lists Nepal among the nationalities that cannot apply for a visa through the portal; request the visa from the nearest Mozambican embassy or high commission before travel.",
+        "visaTypes": [
+          "mz-embassy-tourist"
+        ]
       },
       "NL": {
         "requirement": "eta",
@@ -1246,7 +1255,10 @@
       "NG": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
-        "notes": "Mozambique's official eVisa portal lists Nigeria among the nationalities that cannot apply for a visa through the portal; request the visa from the nearest Mozambican embassy or high commission before travel."
+        "notes": "Mozambique's official eVisa portal lists Nigeria among the nationalities that cannot apply for a visa through the portal; request the visa from the nearest Mozambican embassy or high commission before travel.",
+        "visaTypes": [
+          "mz-embassy-tourist"
+        ]
       },
       "KP": {
         "requirement": "evisa",
@@ -1297,7 +1309,10 @@
       "PK": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
-        "notes": "Mozambique's official eVisa portal lists Pakistan among the nationalities that cannot apply for a visa through the portal; request the visa from the nearest Mozambican embassy or high commission before travel."
+        "notes": "Mozambique's official eVisa portal lists Pakistan among the nationalities that cannot apply for a visa through the portal; request the visa from the nearest Mozambican embassy or high commission before travel.",
+        "visaTypes": [
+          "mz-embassy-tourist"
+        ]
       },
       "PW": {
         "requirement": "evisa",
@@ -1602,7 +1617,10 @@
       "SO": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
-        "notes": "Mozambique's official eVisa portal lists Somalia among the nationalities that cannot apply for a visa through the portal; request the visa from the nearest Mozambican embassy or high commission before travel."
+        "notes": "Mozambique's official eVisa portal lists Somalia among the nationalities that cannot apply for a visa through the portal; request the visa from the nearest Mozambican embassy or high commission before travel.",
+        "visaTypes": [
+          "mz-embassy-tourist"
+        ]
       },
       "ZA": {
         "requirement": "visa-free",
@@ -2083,6 +2101,31 @@
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-10-03"
       }
+    },
+    {
+      "id": "mz-embassy-tourist",
+      "category": "tourist",
+      "method": "embassy",
+      "name": "Tourist visa (Mozambican embassy or consulate)",
+      "fee": null,
+      "processing": null,
+      "validityDays": 60,
+      "stayDays": 90,
+      "entries": null,
+      "applyUrl": null,
+      "source": {
+        "url": "https://www.senami.gov.mz/wp-content/uploads/2020/09/Vistos-Tipos-Requisistos-Condi%C3%A7%C3%B5es-e-Taxas.pdf",
+        "name": "Serviço Nacional de Migração (SENAMI) — Vistos: tipos, requisitos, condições e taxas",
+        "type": "government",
+        "lastVerified": "2026-10-02",
+        "lastChanged": "2026-10-06",
+        "archiveUrl": "https://web.archive.org/web/20240914081135/https://www.senami.gov.mz/wp-content/uploads/2020/09/Vistos-Tipos-Requisistos-Condi%C3%A7%C3%B5es-e-Taxas.pdf",
+        "unverifiable": {
+          "lastAttempt": "2026-10-06",
+          "reason": "unreachable"
+        },
+        "instrument": "Lei 5/93, de 28 de Dezembro, artigo 11"
+      }
     }
   ],
   "entryRequirements": {
@@ -2344,7 +2387,7 @@
     {
       "id": "extend-stay",
       "question": "Can I extend my stay in Mozambique?",
-      "answer": "Yes — tourist stays can normally be extended once, for up to 30 further days, at migration service (migração) offices in provincial capitals, though the border visa issued on arrival cannot be extended. Apply before your current permission expires; overstays are fined per day."
+      "answer": "It depends on how you entered. Canada's travel advice says you may request one 30-day extension from the immigration authorities, that justification may be required and fees may apply, and that overstaying without authorisation may result in fines. For an eVisa, Mozambique's official eVisa portal says that if you need to extend your stay you must contact the Mozambique Embassy directly. The migration service's visa rules say the border visa issued on arrival cannot be extended."
     },
     {
       "id": "is-it-safe",

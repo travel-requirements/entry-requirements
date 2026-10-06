@@ -17,7 +17,7 @@
   ],
   "summary": "Morocco grants visa-free entry to a long list of nationalities — including the US, UK, EU, Canada, Australia, Japan, Brazil, Mexico, Russia and China — and runs an official eVisa system (acces-maroc.ma) for several other nationalities; the dirham is a closed currency, so bring foreign cash or cards and change money inside the country.",
   "meta": {
-    "lastUpdated": "2026-10-05",
+    "lastUpdated": "2026-10-06",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -1079,7 +1079,10 @@
           "type": "government",
           "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-27"
-        }
+        },
+        "visaTypes": [
+          "aevm"
+        ]
       },
       "EG": {
         "requirement": "embassy-visa",
@@ -1089,11 +1092,16 @@
         ],
         "notes": "A visa is required: Morocco’s eligibility check at acces-maroc.ma answers that you must apply for a Moroccan visa. Holders of a qualifying multiple-entry visa or residence permit (see the eVisa conditions) can use the eVisa; otherwise apply at a Moroccan embassy or consulate.",
         "source": {
-          "url": "https://api.acces-maroc.ma/api/api/referentiel/nationalite/en",
-          "name": "Accès Maroc — nationality reference list (eVisa eligibility and fee exemption per nationality)",
+          "url": "https://www.acces-maroc.ma/assets/docs/Conditions%20utilisation%20eVisa%20-%20An.pdf",
+          "name": "Accès Maroc — eVisa terms of use (Category A: nationalities that may use the eVisa without conditions)",
           "type": "government",
-          "lastVerified": "2026-10-05",
-          "lastChanged": "2026-09-27"
+          "lastVerified": "2026-10-06",
+          "conflict": {
+            "url": "https://api.acces-maroc.ma/api/api/referentiel/nationalite/en",
+            "name": "Accès Maroc — per-nationality list (eVisa flag)",
+            "states": "Egypt flagged eVisa: true",
+            "resolvedBy": "stricter"
+          }
         }
       },
       "SV": {
@@ -1254,7 +1262,10 @@
           "type": "government",
           "lastVerified": "2026-10-05",
           "lastChanged": "2026-09-27"
-        }
+        },
+        "visaTypes": [
+          "aevm"
+        ]
       },
       "GR": {
         "requirement": "visa-free",
@@ -1308,7 +1319,10 @@
           "type": "government",
           "lastVerified": "2026-10-05",
           "lastChanged": "2026-10-05"
-        }
+        },
+        "visaTypes": [
+          "aevm"
+        ]
       },
       "GW": {
         "requirement": "embassy-visa",
@@ -2135,7 +2149,10 @@
           "type": "government",
           "lastVerified": "2026-10-05",
           "lastChanged": "2026-10-05"
-        }
+        },
+        "visaTypes": [
+          "aevm"
+        ]
       },
       "RW": {
         "requirement": "embassy-visa",
@@ -2833,6 +2850,25 @@
         "name": "Ministry of Foreign Affairs of Morocco (consulat.ma) — ordinary visas: documents required",
         "type": "government",
         "lastVerified": "2026-10-04"
+      }
+    },
+    {
+      "id": "aevm",
+      "category": "tourist",
+      "method": "eta",
+      "name": "Electronic Travel Authorisation for Morocco (AEVM)",
+      "fee": null,
+      "processing": null,
+      "validityDays": null,
+      "stayDays": null,
+      "entries": null,
+      "applyUrl": "https://www.acces-maroc.ma/",
+      "source": {
+        "url": "https://www.acces-maroc.ma/#/autorisation-voyage",
+        "name": "Accès Maroc (Ministry of Foreign Affairs) — Autorisation Electronique de Voyage au Maroc (AEVM): presentation and application steps",
+        "type": "government",
+        "lastVerified": "2026-10-06",
+        "lastChanged": "2026-10-06"
       }
     }
   ],
