@@ -13,9 +13,9 @@
     "madagascar",
     "sri-lanka"
   ],
-  "summary": "Seychelles is visa-free for every nationality on earth — all visitors receive a Visitor's Permit on arrival for up to three months — but everyone must first obtain the paid Electronic Travel Authorisation online before boarding.",
+  "summary": "Seychelles says there are no visa requirements for any traveller — all visitors receive a Visitor's Permit on arrival for up to three months — but everyone must first obtain the paid Electronic Travel Authorisation online before travelling.",
   "meta": {
-    "lastUpdated": "2026-10-03",
+    "lastUpdated": "2026-10-06",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -758,7 +758,14 @@
         "visaTypes": [
           "travel-authorisation"
         ],
-        "notes": "Kosovo's recognition by Seychelles has shifted over the years. Entry is normally possible on the same visa-free terms, but confirm with the nearest Seychelles representation and complete the Travel Authorisation before booking."
+        "notes": "No visa: Seychelles says there are no visa requirements for any traveller. A Visitor's Permit is issued on arrival (up to 3 months, extendable), and every traveler must obtain the paid Electronic Travel Authorisation at seychelles.govtas.com before travelling.",
+        "source": {
+          "url": "https://seychelles.govtas.com/en/pages/FAQS",
+          "name": "Seychelles Electronic Border System — FAQs",
+          "type": "government",
+          "lastVerified": "2026-10-06",
+          "lastChanged": "2026-10-06"
+        }
       },
       "KW": {
         "requirement": "eta",
@@ -1637,7 +1644,11 @@
       "category": "other",
       "method": "eta",
       "name": "Electronic Travel Authorisation",
-      "fee": null,
+      "fee": {
+        "amount": 10,
+        "currency": "EUR",
+        "notes": "Standard processing (24 hours), adults and children 12 and under. Premium processing (6 hours) is €30; expedited processing (60 minutes) is €70 for adults and €30 for children. Bank charges are not included."
+      },
       "processing": {
         "minDays": 0,
         "maxDays": 1,
@@ -1711,7 +1722,7 @@
       "required": false,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Seychelles does not require visitors to have health or travel insurance, but the official border system highly recommends it.",
+      "text": "No official source we could read states a travel-insurance requirement for Seychelles.",
       "source": {
         "url": "https://seychelles.govtas.com/en/pages/FAQS",
         "name": "Seychelles Electronic Border System — FAQs (Information for Visitors & Tourists)",
@@ -1776,14 +1787,13 @@
     },
     "safety": {
       "level": "generally-safe",
-      "text": "Crime is generally non-violent, but break-ins, bag snatching and thefts from parked cars, boats, guest houses, hotels and beaches occur, and people walking at night have been robbed; use a hotel safe for valuables. Beaches do not always carry safety information and some, including Beau Vallon, have dangerous rip currents when the sea is rough: ask locally before swimming and follow warning signs.",
+      "text": "The UK government says crime is generally non-violent, but that break-ins, bag snatching and thefts from parked cars, boats and accommodation occur and people walking at night have been robbed; it advises using a hotel safe for valuables. It says beaches do not always have safety information and that some, including Beau Vallon, may have dangerous rip currents when the sea is rough.",
       "source": {
-        "url": "https://www.gov.uk/foreign-travel-advice/seychelles",
-        "name": "UK FCDO — Seychelles travel advice",
+        "url": "https://www.gov.uk/foreign-travel-advice/seychelles/safety-and-security",
+        "name": "UK FCDO — Seychelles travel advice: safety and security",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "archiveUrl": "https://web.archive.org/web/20260606035722/https://www.gov.uk/foreign-travel-advice/seychelles",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-06",
+        "lastChanged": "2026-10-06"
       }
     },
     "plugs": {
@@ -1810,12 +1820,7 @@
       "ambulance": "151"
     },
     "bestTimeToVisit": {
-      "months": [
-        4,
-        5,
-        10,
-        11
-      ],
+      "months": [],
       "text": "Canada's travel advice says the rainy season runs from December to March, when strong winds and torrential rain can hamper overland travel."
     },
     "languages": [],
@@ -1897,12 +1902,12 @@
     {
       "id": "eta-before-boarding",
       "type": "warning",
-      "text": "Complete the paid Travel Authorisation at seychelles.govtas.com before check-in — airlines cannot board you without it, and arriving without one costs a EUR 30 penalty. Apply once flights and accommodation are booked; standard processing takes 24 hours. Use only the official site."
+      "text": "Complete the paid Travel Authorisation at seychelles.govtas.com before you travel: the official site says you may be denied boarding without one and that arriving without one costs a EUR 30 penalty. Standard processing takes 24 hours."
     },
     {
       "id": "book-accommodation",
       "type": "tip",
-      "text": "Every night of your stay must be in licensed, pre-booked accommodation — immigration can ask for the bookings on arrival, so arrange the whole itinerary before you fly."
+      "text": "For stays of one night or more, the Travel Authorisation application asks for your hotel or accommodation booking, or a letter of invitation if you stay with family or friends; the official site says applications using accommodation not on the Tourism Department's list of licensed establishments may be denied."
     },
     {
       "id": "sea-conditions",
@@ -1914,12 +1919,12 @@
     {
       "id": "do-i-need-visa",
       "question": "Do I need a visa for Seychelles?",
-      "answer": "No — Seychelles is visa-free for every nationality, one of the very few countries in the world with no visa requirement at all. Visitors receive a Visitor's Permit on arrival, normally for the length of the visit up to three months. The only pre-travel step is the paid Electronic Travel Authorisation, mandatory for everyone."
+      "answer": "No — Seychelles says there are no visa requirements for any traveller visiting Seychelles. Visitors receive a Visitor's Permit on arrival for up to three months. Before travel, every visitor must obtain the paid Electronic Travel Authorisation."
     },
     {
       "id": "travel-authorisation",
       "question": "What is the Seychelles Travel Authorisation?",
-      "answer": "A digital entry clearance applied for at seychelles.govtas.com after you have booked flights and accommodation. Every non-citizen traveller, children included, must pay for it; the official site does not publish a single price, as the total depends on the processing speed (Standard 24 hours, Premium 6 hours, Expedited 60 minutes). It must be shown at check-in — without it, airlines will not board you."
+      "answer": "A digital entry clearance applied for at seychelles.govtas.com or in the official e-Border app. Every traveller, children included, must have one. The official site lists the fee by processing speed: for adults €10 (standard, 24 hours), €30 (premium, 6 hours) or €70 (expedited, 60 minutes); for children 12 and under €10, €30 and €30; bank charges are not included. It says you may be denied boarding by your airline without one."
     },
     {
       "id": "how-long-stay",
@@ -1934,7 +1939,7 @@
     {
       "id": "vaccinations",
       "question": "Do I need vaccinations for Seychelles?",
-      "answer": "There are no routine vaccination requirements. A yellow fever certificate is only demanded if you arrive from a country with transmission risk."
+      "answer": "A yellow fever certificate is only required of travellers aged 1 to 59 arriving from a country or region where the disease is endemic; a transit of less than 12 hours through an airport there does not count."
     }
   ]
 }
