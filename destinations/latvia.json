@@ -20,7 +20,7 @@
   ],
   "summary": "Latvia is part of the Schengen Area: EU and EFTA citizens enter freely, around 60 visa-exempt nationalities get 90 days in any 180-day period (ETIAS is not yet in operation), and everyone else needs a €90 Schengen short-stay visa. Under a Cabinet regulation in force until 1 January 2027, Russian citizens may cross Latvia's external border only in limited cases, such as holders of an EU residence permit or a long-stay visa, family members of EU citizens, and humanitarian cases.",
   "meta": {
-    "lastUpdated": "2026-10-06",
+    "lastUpdated": "2026-10-07",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -1033,9 +1033,9 @@
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
-          "schengen-c"
+          "schengen-c-ru"
         ],
-        "notes": "A Schengen visa is required. Under Cabinet Regulation No. 123 (2025, in force until 1 January 2027), Latvian missions accept visa applications from Russian citizens, and Latvia admits them across its external border, only in listed cases: among them holders of a Latvian, EU, EEA or Swiss residence permit or a Schengen long-stay visa, family members of Latvian or EU citizens, transport crews and seafarers, and humanitarian cases.",
+        "notes": "A Schengen visa is required. Under Cabinet Regulation No. 123 (2025, in force until 1 January 2027), Latvian missions accept visa applications from Russian citizens, and Latvia admits them across its external border, only in listed cases: among them holders of a Latvian, EU, EEA or Swiss residence permit or a Schengen long-stay visa, family members of Latvian or EU citizens, transport crews and seafarers, and humanitarian cases. The European Commission says that since 7 November 2025 Russian nationals no longer receive multiple-entry visas and must apply for a new visa for each trip, with exceptions for limited, justified cases such as independent journalists and human rights defenders.",
         "source": {
           "url": "https://likumi.lv/ta/id/358965",
           "name": "Cabinet of Ministers of Latvia — Regulation No. 123 of 25 February 2025 on restrictions on accepting visa applications from, and the entry of, third-country nationals (likumi.lv, official publisher Latvijas Vēstnesis)",
@@ -1423,9 +1423,9 @@
         "maxDays": 45,
         "unit": "calendar-days"
       },
-      "validityDays": 180,
+      "validityDays": null,
       "stayDays": 90,
-      "entries": "multiple",
+      "entries": null,
       "extendable": {
         "possible": false,
         "days": null
@@ -1435,9 +1435,42 @@
         "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611",
         "name": "Visa Code (Regulation (EC) No 810/2009), consolidated text — EUR-Lex",
         "type": "igo",
-        "lastVerified": "2026-10-03",
-        "instrument": "Regulation (EC) No 810/2009 establishing a Community Code on Visas, Article 16(1) (visa fee) and Article 1(1) (stays not exceeding 90 days in any 180-day period), consolidated to 11 June 2024",
-        "archiveUrl": "https://web.archive.org/web/20251008134447/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        "lastVerified": "2026-10-07",
+        "instrument": "Regulation (EC) No 810/2009 establishing a Community Code on Visas, Article 16(1) (visa fee), Article 1(1) (stays not exceeding 90 days in any 180-day period) and Article 24(1) (a visa may be issued for one, two or multiple entries; validity up to five years, set on examination of each application), consolidated to 11 June 2024",
+        "archiveUrl": "https://web.archive.org/web/20251008134447/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611",
+        "lastChanged": "2026-10-07"
+      }
+    },
+    {
+      "id": "schengen-c-ru",
+      "category": "tourist",
+      "method": "embassy",
+      "name": "Schengen Short-Stay Visa (Type C), single entry for Russian nationals",
+      "fee": {
+        "amount": 90,
+        "currency": "EUR",
+        "notes": "Standard fee under the Visa Code (Article 16): children aged 6 to 11 pay €45 and children under 6 pay nothing. The EU–Russia visa facilitation agreement is fully suspended (Council Decision (EU) 2022/1500), so its reduced fee does not apply."
+      },
+      "processing": {
+        "minDays": 15,
+        "maxDays": 45,
+        "unit": "calendar-days"
+      },
+      "validityDays": null,
+      "stayDays": 90,
+      "entries": "single",
+      "extendable": {
+        "possible": false,
+        "days": null
+      },
+      "applyUrl": "https://www.mfa.gov.lv/en",
+      "source": {
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_25_2635",
+        "name": "European Commission — Daily News 7 November 2025: the EU adopts stricter rules on visas for Russian nationals (no more multiple-entry visas)",
+        "type": "igo",
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-07",
+        "instrument": "Commission rules on visas for Russian nationals adopted 7 November 2025, following approval by all Member States in the Visa Committee"
       }
     },
     {

@@ -159,7 +159,15 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required. The UK government says only one border crossing point with Belarus remains open, Medininkai–Kamenny Log, and only by private vehicle."
+        "notes": "A Schengen short-stay visa is required. Lithuania's Foreign Ministry says that under Law No XIV-1888 its visa authorities abroad have suspended accepting Schengen visa applications from Belarusian citizens, except where the Ministry mediates the application: for family members of Lithuanian or EU citizens, holders of a certificate of Lithuanian origin or of the right to restore Lithuanian citizenship and their family members, and trips that cannot be postponed, such as a close relative's serious illness or death. The UK government says only one border crossing point with Belarus remains open, Medininkai–Kamenny Log, and only by private vehicle.",
+        "source": {
+          "url": "https://keliauk.urm.lt/en/entry-to-lithuania/visas",
+          "name": "Ministry of Foreign Affairs of the Republic of Lithuania — Visas: restrictive measures for citizens of Russia and Belarus",
+          "type": "government",
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07",
+          "instrument": "Law of the Republic of Lithuania No XIV-1888 on introducing restrictive measures in connection with military aggression against Ukraine (20 April 2023)"
+        }
       },
       "BE": {
         "requirement": "freedom-of-movement",
@@ -1016,9 +1024,9 @@
       "RU": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
-        "notes": "A Schengen short-stay visa is required (Regulation (EU) 2018/1806, Annex I). Lithuania's Foreign Ministry says that under Law No XIV-1888 its visa authorities abroad have suspended accepting Schengen visa applications from Russian citizens, except where the Ministry mediates the application: for family members of Lithuanian or EU citizens, holders of a certificate of Lithuanian origin or of the right to restore Lithuanian citizenship and their family members, and trips that cannot be postponed, such as a close relative's serious illness or death.",
+        "notes": "A Schengen short-stay visa is required (Regulation (EU) 2018/1806, Annex I). Lithuania's Foreign Ministry says that under Law No XIV-1888 its visa authorities abroad have suspended accepting Schengen visa applications from Russian citizens, except where the Ministry mediates the application: for family members of Lithuanian or EU citizens, holders of a certificate of Lithuanian origin or of the right to restore Lithuanian citizenship and their family members, and trips that cannot be postponed, such as a close relative's serious illness or death. The European Commission says that since 7 November 2025 Russian nationals no longer receive multiple-entry visas and must apply for a new visa for each trip, with exceptions for limited, justified cases such as independent journalists and human rights defenders.",
         "visaTypes": [
-          "schengen-c"
+          "schengen-c-ru"
         ],
         "source": {
           "url": "https://keliauk.urm.lt/en/entry-to-lithuania/visas",
@@ -1408,9 +1416,9 @@
         "maxDays": 45,
         "unit": "calendar-days"
       },
-      "validityDays": 180,
+      "validityDays": null,
       "stayDays": 90,
-      "entries": "multiple",
+      "entries": null,
       "extendable": {
         "possible": false,
         "days": null
@@ -1420,9 +1428,42 @@
         "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611",
         "name": "Visa Code (Regulation (EC) No 810/2009), consolidated text — EUR-Lex",
         "type": "igo",
-        "lastVerified": "2026-10-03",
-        "instrument": "Regulation (EC) No 810/2009 establishing a Community Code on Visas, Article 16(1) (visa fee) and Article 1(1) (stays not exceeding 90 days in any 180-day period), consolidated to 11 June 2024",
-        "archiveUrl": "https://web.archive.org/web/20251008134447/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        "lastVerified": "2026-10-07",
+        "instrument": "Regulation (EC) No 810/2009 establishing a Community Code on Visas, Article 16(1) (visa fee), Article 1(1) (stays not exceeding 90 days in any 180-day period) and Article 24(1) (a visa may be issued for one, two or multiple entries; validity up to five years, set on examination of each application), consolidated to 11 June 2024",
+        "archiveUrl": "https://web.archive.org/web/20251008134447/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611",
+        "lastChanged": "2026-10-07"
+      }
+    },
+    {
+      "id": "schengen-c-ru",
+      "category": "tourist",
+      "method": "embassy",
+      "name": "Schengen Short-Stay Visa (Type C), single entry for Russian nationals",
+      "fee": {
+        "amount": 90,
+        "currency": "EUR",
+        "notes": "Standard fee under the Visa Code (Article 16): children aged 6 to 11 pay €45 and children under 6 pay nothing. The EU–Russia visa facilitation agreement is fully suspended (Council Decision (EU) 2022/1500), so its reduced fee does not apply."
+      },
+      "processing": {
+        "minDays": 15,
+        "maxDays": 45,
+        "unit": "calendar-days"
+      },
+      "validityDays": null,
+      "stayDays": 90,
+      "entries": "single",
+      "extendable": {
+        "possible": false,
+        "days": null
+      },
+      "applyUrl": "https://migracija.lrv.lt/en/",
+      "source": {
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_25_2635",
+        "name": "European Commission — Daily News 7 November 2025: the EU adopts stricter rules on visas for Russian nationals (no more multiple-entry visas)",
+        "type": "igo",
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-07",
+        "instrument": "Commission rules on visas for Russian nationals adopted 7 November 2025, following approval by all Member States in the Visa Committee"
       }
     },
     {
@@ -1734,7 +1775,7 @@
     {
       "id": "russian-citizens",
       "question": "Can Russian citizens enter Lithuania?",
-      "answer": "Russian citizens need a Schengen short-stay visa (Regulation (EU) 2018/1806, Annex I). No official source we could read states Lithuania's current entry restrictions for Russian citizens."
+      "answer": "Russian citizens need a Schengen short-stay visa (Regulation (EU) 2018/1806, Annex I). Lithuania's Foreign Ministry says that under Law No XIV-1888 its visa authorities abroad have suspended accepting Schengen visa applications from Russian and Belarusian citizens, except where the Ministry mediates the application, for example for family members of Lithuanian or EU citizens or for trips that cannot be postponed. The European Commission says that since 7 November 2025 Russian nationals no longer receive multiple-entry visas."
     },
     {
       "id": "visa-cost",

@@ -1832,9 +1832,10 @@
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
+          "tourist-washington-gb",
           "embassy-guided"
         ],
-        "notes": "Iran's MFA visa portal says some types of visa for the citizens of some countries can be applied for only in person through an Iranian embassy, without naming the countries. The UK Foreign Office says the Iranian Embassy has told it that, to get a visa with a British passport, you must either apply as part of an organised tour or have a sponsor in Iran; check with the Iranian Embassy in the UK.",
+        "notes": "Iran's MFA visa portal says some types of visa for the citizens of some countries can be applied for only in person through an Iranian embassy, without naming the countries. The UK Foreign Office says the Iranian Embassy has told it that, to get a visa with a British passport, you must either apply as part of an organised tour or have a sponsor in Iran; check with the Iranian Embassy in the UK. Iran's Interests Section in Washington also says UK citizens must apply only through travel agencies or their host in Iran, and lists a UK tourist-visa fee of USD 200 (USD 300 expedited) for applications made there.",
         "source": {
           "url": "https://www.gov.uk/foreign-travel-advice/iran/entry-requirements",
           "name": "UK Foreign, Commonwealth & Development Office — Iran entry requirements (Applying for a visa)",
@@ -2064,6 +2065,33 @@
         "amount": 56,
         "currency": "USD",
         "notes": "USD 84 for expedited processing, plus a USD 40 shipping and processing fee per package of 1–10 requests, paid by money order in US dollars to the \"Embassy of Pakistan\". Iran's Interests Section in Washington says citizens of the United States, the United Kingdom and Canada must apply only through travel agencies or their host in Iran, that the visa is issued electronically, and that it allows entry within 3 months of issue for the stay stated on the visa."
+      },
+      "processing": {
+        "minDays": 5,
+        "maxDays": 10,
+        "unit": "business-days"
+      },
+      "validityDays": 90,
+      "stayDays": null,
+      "entries": null,
+      "applyUrl": null,
+      "source": {
+        "url": "https://www.daftar.org/portal/5?title=%D9%88%DB%8C%D8%B2%D8%A7",
+        "name": "Interests Section of the Islamic Republic of Iran, Washington DC (Embassy of Pakistan) — Visa page, Form 101: Visa Application Guide (rev. April 2024)",
+        "type": "government",
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-07"
+      }
+    },
+    {
+      "id": "tourist-washington-gb",
+      "category": "tourist",
+      "method": "embassy",
+      "name": "Tourist visa for UK citizens through Iran's Interests Section in Washington (via a travel agency or host in Iran)",
+      "fee": {
+        "amount": 200,
+        "currency": "USD",
+        "notes": "USD 300 for expedited processing, plus a USD 40 shipping and processing fee per package of 1–10 requests, paid by money order in US dollars to the \"Embassy of Pakistan\". Applicants with passports other than US or Canadian must send a copy of their valid immigration status document. Iran's Interests Section in Washington says citizens of the United States, the United Kingdom and Canada must apply only through travel agencies or their host in Iran, that the visa is issued electronically, and that it allows entry within 3 months of issue for the stay stated on the visa."
       },
       "processing": {
         "minDays": 5,

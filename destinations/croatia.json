@@ -21,7 +21,7 @@
   ],
   "summary": "Croatia has been a full Schengen Area member since January 2023: EU and EFTA citizens enter freely, around 60 visa-exempt nationalities can stay 90 days in any 180-day period (the ETIAS travel authorization is not yet in operation), and everyone else needs a Schengen short-stay visa costing €90.",
   "meta": {
-    "lastUpdated": "2026-10-06",
+    "lastUpdated": "2026-10-07",
     "lastFullReview": "2026-09-25",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -157,9 +157,9 @@
       "RU": {
         "requirement": "embassy-visa",
         "visaTypes": [
-          "schengen-c"
+          "schengen-c-ru"
         ],
-        "notes": "A Schengen short-stay visa is required, applied for at the Croatian embassy or visa center serving your place of residence; the standard fee is €90."
+        "notes": "A Schengen short-stay visa is required, applied for at the Croatian embassy or visa center serving your place of residence; the standard fee is €90. The European Commission says that since 7 November 2025 Russian nationals no longer receive multiple-entry visas and must apply for a new visa for each trip, with exceptions for limited, justified cases such as independent journalists and human rights defenders."
       },
       "CN": {
         "requirement": "embassy-visa",
@@ -1399,9 +1399,9 @@
         "maxDays": 45,
         "unit": "calendar-days"
       },
-      "validityDays": 180,
+      "validityDays": null,
       "stayDays": 90,
-      "entries": "multiple",
+      "entries": null,
       "extendable": {
         "possible": false,
         "days": null
@@ -1411,9 +1411,42 @@
         "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611",
         "name": "Visa Code (Regulation (EC) No 810/2009), consolidated text — EUR-Lex",
         "type": "igo",
-        "lastVerified": "2026-10-03",
-        "instrument": "Regulation (EC) No 810/2009 establishing a Community Code on Visas, Article 16(1) (visa fee) and Article 1(1) (stays not exceeding 90 days in any 180-day period), consolidated to 11 June 2024",
-        "archiveUrl": "https://web.archive.org/web/20251008134447/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        "lastVerified": "2026-10-07",
+        "instrument": "Regulation (EC) No 810/2009 establishing a Community Code on Visas, Article 16(1) (visa fee), Article 1(1) (stays not exceeding 90 days in any 180-day period) and Article 24(1) (a visa may be issued for one, two or multiple entries; validity up to five years, set on examination of each application), consolidated to 11 June 2024",
+        "archiveUrl": "https://web.archive.org/web/20251008134447/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611",
+        "lastChanged": "2026-10-07"
+      }
+    },
+    {
+      "id": "schengen-c-ru",
+      "category": "tourist",
+      "method": "embassy",
+      "name": "Schengen Short-Stay Visa (Type C), single entry for Russian nationals",
+      "fee": {
+        "amount": 90,
+        "currency": "EUR",
+        "notes": "Standard fee under the Visa Code (Article 16): children aged 6 to 11 pay €45 and children under 6 pay nothing. The EU–Russia visa facilitation agreement is fully suspended (Council Decision (EU) 2022/1500), so its reduced fee does not apply."
+      },
+      "processing": {
+        "minDays": 15,
+        "maxDays": 45,
+        "unit": "calendar-days"
+      },
+      "validityDays": null,
+      "stayDays": 90,
+      "entries": "single",
+      "extendable": {
+        "possible": false,
+        "days": null
+      },
+      "applyUrl": "https://mvep.gov.hr/services-for-citizens/consular-information-22802/visas-22853/22853",
+      "source": {
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_25_2635",
+        "name": "European Commission — Daily News 7 November 2025: the EU adopts stricter rules on visas for Russian nationals (no more multiple-entry visas)",
+        "type": "igo",
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-07",
+        "instrument": "Commission rules on visas for Russian nationals adopted 7 November 2025, following approval by all Member States in the Visa Committee"
       }
     },
     {
