@@ -18,7 +18,7 @@
   ],
   "summary": "Lebanon issues free one-month visas on arrival at Beirut airport to citizens of the EU, US, UK, Canada, Australia and many other countries — extendable to three months — while GCC nationals enter visa-free; other nationalities need a visa from a Lebanese embassy or prior approval from General Security, and Canada says travelers with evidence of travel to Israel may be refused entry.",
   "meta": {
-    "lastUpdated": "2026-10-06",
+    "lastUpdated": "2026-10-07",
     "lastFullReview": "2026-10-03",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -1710,16 +1710,19 @@
         "notes": "Free one-month tourist visa issued on arrival at Beirut airport and other border posts, extendable to three months at General Security before it expires."
       },
       "SY": {
-        "requirement": "embassy-visa",
+        "requirement": "visa-on-arrival",
         "maxStayDays": null,
         "notes": "Syrian nationals are not issued an ordinary tourist visa. General Security's table of entry criteria for Syrian nationals (annexed to a circular dated 24 September 2026) grants an entry permit at the crossing only for the purposes it lists, each with its own documents: tourism (groups or individuals) and religious delegations only through applications filed by licensed tourist offices in Lebanon, for the length of the programme; transit through Beirut airport or a seaport to Syria, 24 hours; university study, 15 days to obtain residence; holders of a residence permit valid for more than a month from a country whose citizens may enter Lebanon automatically, up to one month. Cases outside the table are referred to General Security for decision. Call centre: 1717.",
         "source": {
           "url": "https://www.general-security.gov.lb/uploads/syrian-entrance2026.pdf",
           "name": "Lebanese General Security — Table of entry criteria for Syrian nationals (annex to circular of 24 Sep 2026), linked from 'New criteria to facilitate the entry of Syrian nationals into Lebanon' (ar/posts/572)",
           "type": "government",
-          "lastVerified": "2026-10-06",
-          "lastChanged": "2026-10-06"
-        }
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07"
+        },
+        "visaTypes": [
+          "syrian-entry-permit"
+        ]
       },
       "TW": {
         "requirement": "embassy-visa",
@@ -2029,6 +2032,25 @@
         "type": "government",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-10-03"
+      }
+    },
+    {
+      "id": "syrian-entry-permit",
+      "category": "other",
+      "method": "visa-on-arrival",
+      "name": "Entry permit for Syrian nationals (by purpose of visit)",
+      "fee": null,
+      "processing": null,
+      "validityDays": null,
+      "stayDays": null,
+      "entries": null,
+      "applyUrl": null,
+      "source": {
+        "url": "https://www.general-security.gov.lb/uploads/syrian-entrance2026.pdf",
+        "name": "Lebanese General Security — Table of entry criteria for Syrian nationals (annex to circular of 24 Sep 2026), linked from 'New criteria to facilitate the entry of Syrian nationals into Lebanon' (ar/posts/572)",
+        "type": "government",
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-07"
       }
     }
   ],

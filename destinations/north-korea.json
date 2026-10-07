@@ -18,7 +18,7 @@
   ],
   "summary": "North Korea is essentially closed to tourism: the UK government says its borders have been closed to general entry since 2020 and only limited tourism has restarted. It says tourists can normally travel only on an organised tour and independent travellers need a sponsor and permission from the Ministry for Foreign Affairs. US passports are invalid for travel there unless the US State Department specially validates them.",
   "meta": {
-    "lastUpdated": "2026-10-06",
+    "lastUpdated": "2026-10-07",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -29,7 +29,7 @@
         "lastVerified": "2026-08-26",
         "archiveUrl": "https://web.archive.org/web/20260821154749/http://www.mfa.gov.kp/",
         "unverifiable": {
-          "lastAttempt": "2026-10-02",
+          "lastAttempt": "2026-10-07",
           "reason": "not-stated"
         },
         "portalOnly": true
@@ -44,7 +44,7 @@
       "lastVerified": "2026-08-26",
       "archiveUrl": "https://web.archive.org/web/20260821154749/http://www.mfa.gov.kp/",
       "unverifiable": {
-        "lastAttempt": "2026-10-03",
+        "lastAttempt": "2026-10-07",
         "reason": "not-stated"
       },
       "portalOnly": true
@@ -248,14 +248,18 @@
       "CN": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
-        "notes": "China's foreign ministry says Chinese citizens with ordinary private passports must obtain a visa or tourist card outside North Korea before travelling; diplomatic, service and public-affairs ordinary passports are visa-exempt for up to 30 days when invited by a North Korean host.",
+        "notes": "China's foreign ministry says Chinese citizens with ordinary private passports must obtain a visa or tourist card outside North Korea before travelling; diplomatic, service and public-affairs ordinary passports are visa-exempt for up to 30 days when invited by a North Korean host. The tourist card is applied for through a travel agency, and issued by the offices of North Korea's international travel company in China; a business trip needs an invitation from the North Korean host.",
         "source": {
           "url": "https://cs.mfa.gov.cn/zggmcg/ljmdd/yz_645708/cx_646206/",
           "name": "China Consular Service (Ministry of Foreign Affairs of China) — North Korea country guide: entry and residence",
           "type": "government",
-          "lastVerified": "2026-10-06",
-          "lastChanged": "2026-10-06"
-        }
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07"
+        },
+        "visaTypes": [
+          "tourist-card",
+          "business-visa"
+        ]
       },
       "CO": {
         "requirement": "unconfirmed",
@@ -427,9 +431,12 @@
           "url": "https://www.auswaertiges-amt.de/de/service/laender/koreademokratischevolksrepublik-node/koreademokratischevolksrepubliksicherheit-216104",
           "name": "German Federal Foreign Office — North Korea: travel and safety advice (entry requirements)",
           "type": "government",
-          "lastVerified": "2026-10-06",
+          "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-06"
-        }
+        },
+        "visaTypes": [
+          "tourist-visa"
+        ]
       },
       "GH": {
         "requirement": "unconfirmed",
@@ -1187,7 +1194,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/north-korea/entry-requirements",
@@ -1205,13 +1212,32 @@
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://travel.gc.ca/destinations/north-korea",
         "name": "Government of Canada — North Korea travel advice (entry and exit requirements)",
         "type": "government",
         "lastVerified": "2026-10-03"
+      }
+    },
+    {
+      "id": "tourist-card",
+      "category": "tourist",
+      "method": "embassy",
+      "name": "Tourist card (through a travel agency)",
+      "fee": null,
+      "processing": null,
+      "validityDays": null,
+      "stayDays": null,
+      "entries": null,
+      "applyUrl": null,
+      "source": {
+        "url": "https://cs.mfa.gov.cn/zggmcg/ljmdd/yz_645708/cx_646206/",
+        "name": "China Consular Service (Ministry of Foreign Affairs of China) — North Korea country guide: visas and entry",
+        "type": "government",
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-07"
       }
     }
   ],
