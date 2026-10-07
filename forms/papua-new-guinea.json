@@ -1,0 +1,144 @@
+{
+  "destination": "papua-new-guinea",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "PNG ICSA e-Visa — Tourist (Own Itinerary) and Business Short-Term Single Entry",
+      "appliesTo": [
+        "tourist-evisa",
+        "business-evisa"
+      ],
+      "startUrl": "https://evisa.ica.gov.pg/evisa/account/Apply",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "visaClass": "Visitor: Tourist - Own Itinerary; Business: Short-Term Single-Entry",
+        "nationality": "Poland"
+      },
+      "requiresAccount": true,
+      "stoppedAt": "Register step: an email address is required to start the application (\"If you are already registered then please Sign in\")",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Search for type of visa required and confirm visa requirements",
+          "read": true,
+          "fields": [
+            {
+              "label": "Visa Types",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Business",
+                "Entertainer",
+                "Restricted",
+                "Special Exemption",
+                "Visitor",
+                "Working",
+                "Resident"
+              ]
+            },
+            {
+              "label": "Visitor Visa Classes",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "Easy Visitor Permit (30 Day)",
+                "Easy Visitor Permit (60 Day)",
+                "Journalist",
+                "Sportsperson",
+                "Tourist - Own Itinerary",
+                "Tourist - Tour Package",
+                "Visiting Relatives",
+                "Yachtperson"
+              ]
+            }
+          ],
+          "notices": [
+            "Tourist - Own Itinerary: This visa is for holiday makers who intend to visit Papua New Guinea for holiday and sight-seeing. This visa is: valid for a single entry; and a period of Sixty (60) days from the date of arrival in Papua New Guinea.",
+            "How To Apply: Complete the Online Application or Application for Visa (Form 1); Pay the US$50* online lodgement fee (if applicable); and Provide copy of your passports bio data page. Provide copy of your return/ongoing ticket. Provide evidence of funds(if required).",
+            "Easy Visitor Permit (30 days): There is no Migration Service Fee (MSF) payable for the Visitor Permit, however, applications lodged via the e-Visa portal will attract a fee of US$50. ... Extension Of Stay: An extension of stay is not permitted.",
+            "Business Short-Term Single Entry: This visa is: valid for a single entry; and a period of thirty (30) days from the date of arrival in Papua New Guinea. ... Pay the Migration Service Fee (MSF) of US$190* and US$50* online lodgement fee (if applicable) ... No extension is allowed for this visa class.",
+            "*All MSF and online lodgement fees are levied in US Dollars and converted into PNG Kina (using the published conversion rate) prior to finalisation of application registration."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "What is your nationality? (Requirements to lodge application)",
+          "read": true,
+          "fields": [
+            {
+              "name": "applc_nation",
+              "label": "What is your nationality?",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            }
+          ],
+          "notices": [
+            "The following documents need to be provided before the application can be lodged: Cover Letter - (purpose,visit site, accommodation, contact details and addressed to CMO) / Evidence of funds / Return/onward ticket / Copy of Passport BIO Page (Tourist - Own Itinerary)",
+            "The following documents need to be provided before the application can be lodged: Letter from PNG based Sponsor / Return/on going ticket / Copy of Passport BIO Page (Business Short-Term Single-Entry, nationality Poland)",
+            "After completing the details and uploading the required documents, the application is ready to be submitted. The visa fee must then be paid before the application is automatically submitted."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Register to allow notification and enter application",
+          "read": true,
+          "fields": [
+            {
+              "name": "email",
+              "label": "Email",
+              "type": "email",
+              "required": null
+            }
+          ],
+          "notices": [
+            "An email will be sent to you at this email address and this will initiate the application process."
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Submit Application",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Issue confirmation",
+          "read": false,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "kind": "arrival-card",
+      "title": "PNG Digital Arrival Card (PNGDAC)",
+      "appliesTo": [
+        "arrival-declaration"
+      ],
+      "startUrl": "https://pngdac.ica.gov.pg/sbs-dac-ui/#/home",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "Home page: the \"PNGDAC\" button did not open the form behind the page's Cloudflare Turnstile check, and the form route (#/dac/arrival-card/add) returns to the home page",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Home (Important Notice)",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "The information set out here in is required by Papua New Guinea (PNG) legislation and must be completed by or for, every passenger arriving in PNG.",
+            "1. The PNGDAC is NOT a visa — and does not grant permission to enter Papua New Guinea.",
+            "2. Complete all sections honestly and accurately — false or misleading information is an offence under Papua New Guinea’s Migration laws.",
+            "3. Declare all goods, currency, and items as required — including food, plant or animal products, and amounts over the currency reporting threshold.",
+            "4. Answer health and quarantine questions carefully — to protect PNG from pets and diseases.",
+            "5. If in doubt, declare — penalties apply for failing to declare prohibited or restricted items.",
+            "6. A separate declaration must be completed by, or on behalf of, each incoming person.",
+            "You can only complete a declaration 72 hours before arrival into Papua New Guinea"
+          ]
+        }
+      ]
+    }
+  ]
+}

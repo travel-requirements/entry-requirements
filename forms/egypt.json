@@ -1,0 +1,100 @@
+{
+  "destination": "egypt",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Egypt e-Visa Portal (Ministry of Interior) — sign up",
+      "appliesTo": [
+        "tourist-evisa-single",
+        "tourist-evisa-multiple"
+      ],
+      "startUrl": "https://visa2egypt.gov.eg/eVisa/SignUp",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "Account sign-up (names, email, password). Steps 3–6 are named on the How to Apply page",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Portal home — e-Visa processing steps",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "Fill in the application form and pay using Visa card, MasterCard or other debit cards. You have to create an e-Visa application at least 7 days before your departure.",
+            "After you have completed your application and made the payment, your application will be processed. As soon as your visa application has been processed, you will receive an email informing you, with the current application status."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Sign up",
+          "read": true,
+          "fields": [
+            {
+              "name": "signup_frm:firstname",
+              "label": "First name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "signup_frm:surname",
+              "label": "Surname",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "signup_frm:emailAddress",
+              "label": "Email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "signup_frm:confirmemail",
+              "label": "Confirm Email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "signup_frm:password",
+              "label": "Password",
+              "type": "other",
+              "required": true
+            },
+            {
+              "name": "signup_frm:confirmpassword",
+              "label": "Confirm Password",
+              "type": "other",
+              "required": true
+            }
+          ],
+          "notices": [
+            "By clicking on the \"Sign Up\" button below, you understand and agree that the use of the Egypt e-Visa Portal web site is subject to visa2egypt.gov.eg Terms of Use , including the fact that the Egypt e-Visa Portal may transfer your personal information collected in connection with your registration on this website to its affiliates globally. and to third party entities that provide services to Egypt e-Visa Portal.",
+            "Before signing up, please make sure that you can apply for an eVisa from the portal."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Confirm account registration",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Apply Now — select the type of Visa",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Application form",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "Payment",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "destination": "south-korea",
+  "forms": [
+    {
+      "kind": "eta",
+      "title": "K-ETA (Korea Electronic Travel Authorization) — non-member application",
+      "appliesTo": [
+        "k-eta"
+      ],
+      "startUrl": "https://www.k-eta.go.kr/portal/newapply/applystep1.do",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "applicant": "non-member",
+        "age14OrOver": "Yes"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Step 2 (Email Verification): a verification code must be sent to an email address. Step 3 cannot be opened by URL (error ERR_SYS001)",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Terms and Conditions Agreement",
+          "read": true,
+          "fields": [
+            {
+              "name": "radio9",
+              "label": "I have read the contents of the Terms and Conditions and agree to them.",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Agree",
+                "Disagree"
+              ]
+            },
+            {
+              "name": "radio2",
+              "label": "Do you agree to the collection and use of required personal information as above?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Agree",
+                "Disagree"
+              ]
+            },
+            {
+              "name": "radio3",
+              "label": "Do you agree to the collection and use of the above optional items of personal information?",
+              "type": "radio",
+              "required": false,
+              "options": [
+                "Agree",
+                "Disagree"
+              ]
+            },
+            {
+              "name": "radio4",
+              "label": "Do you agree to the collection and use of the required information as stated above? (sensitive information)",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Agree",
+                "Disagree"
+              ]
+            },
+            {
+              "name": "ageYn",
+              "label": "Are you 14 years of age or older?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            }
+          ],
+          "notices": [
+            "K-ETA application is available only at \"www.k-eta.go.kr\" or the mobile app (K-ETA).(Application fee: approximately USD 7~8)",
+            "Items (Required) Email address, ID photo, copy of passport bio page, passport information (nationality, name, sex, date of birth, passport number, passport expiration date, personal identification number), purpose of entry, intended place of stay, contact information of intended place of stay, expected date of arrival, expected date of departure, occupation, contact information, whether you have visited Kore, whether or not you have multiple nationalities, country of birth, place of birth, address of current residence, whether or not you have changed your name, whether you have acquaintances in Korea, whether you have accompanying persons, whether you are engaged in economic activities, monthly income, experience of visiting other countries",
+            "(Optional) Planned departure flight number, SNS account",
+            "Items Information on infectious disease, overseas criminal record, and criminal record in Korea",
+            "Basis of collection, use, and processing: Article 7-3, Article 11, Article 12 of the Immigration Act, Article 101 of the Enforcement Decree of the Immigration Act",
+            "When applying for K-ETA as a non-member, children under the age of 14 cannot be designated as the \"Representative\"."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Email Verification",
+          "read": true,
+          "fields": [
+            {
+              "name": "emlAddr",
+              "label": "e-mail",
+              "type": "email",
+              "required": null
+            },
+            {
+              "name": "certCd",
+              "label": "Verification Number",
+              "type": "text",
+              "required": null
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Enter Passport Information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Enter Application Information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Check Information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "Make Payment",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 7,
+          "name": "Application Complete",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

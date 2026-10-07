@@ -1,0 +1,99 @@
+{
+  "destination": "democratic-republic-of-the-congo",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "DR Congo e-Visa (Direction Générale de Migration)",
+      "appliesTo": [
+        "evisa-tourist"
+      ],
+      "startUrl": "https://evisa.gouv.cd/home/new-request",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "\"New e-visa request\" redirects to the applicant login; an account (name, email, phone) is needed before the form. The steps are named on the portal home page.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Create your account",
+          "read": true,
+          "fields": [
+            {
+              "label": "Given name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "E-mail",
+              "type": "email",
+              "required": true
+            },
+            {
+              "label": "Nationality",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Telephone number",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "label": "Password",
+              "type": "other",
+              "required": true
+            },
+            {
+              "label": "Re-enter the password",
+              "type": "other",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Just one account for all your requests"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Apply and pay the administrative fees",
+          "read": false,
+          "fields": [],
+          "notices": [
+            "Please fill the application form."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Analysis",
+          "read": false,
+          "fields": [],
+          "notices": [
+            "Our teams will analyze your request before the expiration of 72 hours."
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Please pay your visa fees",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Download",
+          "read": false,
+          "fields": [],
+          "notices": [
+            "Download your e-visa in PDF format from your e-mail address"
+          ]
+        }
+      ]
+    }
+  ]
+}

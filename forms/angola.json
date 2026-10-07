@@ -1,0 +1,200 @@
+{
+  "destination": "angola",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Angola eVISA (SME, evisa.ao) — foreign user registration",
+      "appliesTo": [
+        "evisa-tourist"
+      ],
+      "startUrl": "https://evisa.ao/ao/utentes/novo/",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "Account registration (all fields personal); smevisa.gov.ao now redirects to evisa.ao, where \"Iniciar Pedido de Visto\" opens the login. Steps 3–5 are named on the portal home (\"Como Pedir o Seu Visto\")",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Registo de Utente Estrangeiro",
+          "read": true,
+          "fields": [
+            {
+              "name": "doc_numero",
+              "label": "Nº do Documento",
+              "type": "text",
+              "required": true,
+              "notes": "Exclusivo para Cidadãos Estrageiros"
+            },
+            {
+              "name": "nome",
+              "label": "Nome Completo",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "doc_tipo",
+              "label": "Tipo de Documento",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Passaporte"
+              ]
+            },
+            {
+              "name": "doc_emissor",
+              "label": "Emissor do Documento",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "doc_nacionalidade",
+              "label": "Nacionalidade no Documento",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "doc_morada",
+              "label": "Morada no Documento",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "doc_data_emissao",
+              "label": "Data de Emissão do Documento",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "doc_data_validade",
+              "label": "Data de Validade do Documento",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "doc_genero",
+              "label": "Género",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Masculino",
+                "Feminino"
+              ]
+            },
+            {
+              "name": "doc_naturalidade",
+              "label": "Naturalidade no Documento",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "doc_data_nasc",
+              "label": "Data de Nascimento",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "doc_estado_civil",
+              "label": "Estado Civil",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Solteiro",
+                "Casado",
+                "Divorciado",
+                "Viúvo"
+              ]
+            },
+            {
+              "name": "email",
+              "label": "E-mail",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "email2",
+              "label": "Confirme E-mail",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "password1",
+              "label": "Senha",
+              "type": "other",
+              "required": true,
+              "notes": "Mínimo 8 caracteres, incluindo pelo menos um número e uma letra"
+            },
+            {
+              "name": "password2",
+              "label": "Confirme Senha",
+              "type": "other",
+              "required": true
+            },
+            {
+              "name": "telemovel",
+              "label": "Telemóvel (validação SMS)",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "name": "security_code",
+              "label": "Chave de segurança",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "termos",
+              "label": "Ao prosseguir com o meu registo, informo que li e concordo com os Termos e condições de registo e utilização deste portal e dos serviços prestados através do mesmo.",
+              "type": "checkbox",
+              "required": true
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Área Reservada — Login",
+          "read": true,
+          "fields": [
+            {
+              "name": "usr",
+              "label": "E-mail ou Telemóvel",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "pwd",
+              "label": "Senha",
+              "type": "other",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Com a autenticação neste portal, concordo expressamente com os Termos de Serviço e compreendo que as informações da minha conta serão utilizadas de acordo com a Termos e Condições."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Preencher (application form and document upload)",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Pagar",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Notificação",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

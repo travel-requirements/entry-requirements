@@ -1726,13 +1726,20 @@
     ],
     "customs": {
       "currencyLimits": {
-        "text": "Cash or travellers' cheques worth XCD 10,000 or more must be declared to customs when you bring them in; you receive a certified declaration showing you brought the money with you.",
+        "text": "The customs declaration on Dominica's online ED card asks every arriving traveller whether they are carrying currency or monetary instruments over USD 10,000 or the equivalent, and says failure to make a full declaration is an offence that can result in seizure of the goods, fines and/or imprisonment.",
         "source": {
-          "url": "https://www.gov.uk/foreign-travel-advice/dominica/entry-requirements",
-          "name": "UK Foreign, Commonwealth & Development Office — Dominica entry requirements",
+          "url": "https://edcard.dominica.gov.dm/EDCard_arr/Create",
+          "name": "Government of Dominica — Online Immigration and Customs Declaration (ED) card, Customs step",
           "type": "government",
-          "lastVerified": "2026-10-03",
-          "lastChanged": "2026-10-03"
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07",
+          "portalOnly": true,
+          "conflict": {
+            "url": "https://www.gov.uk/foreign-travel-advice/dominica/entry-requirements",
+            "name": "UK Foreign, Commonwealth & Development Office — Dominica entry requirements",
+            "states": "XCD 10,000 or more must be declared",
+            "resolvedBy": "hierarchy"
+          }
         }
       },
       "notes": [

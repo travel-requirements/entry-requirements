@@ -118685,6 +118685,178 @@
       "new": "USD 40.27 (USD 17.00 authorization + USD 10.27 processing + USD 13.00 Treasury General Fund); denied applicants pay only USD 10.27; no refunds; card or PayPal",
       "sourceUrl": "https://esta.cbp.dhs.gov/disclaimer",
       "note": "The ESTA application's Disclaimers step (The Travel Promotion Act of 2009) states the breakdown, the USD 10.27 charge for denied applicants and that there are no refunds."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "cabo-verde",
+      "path": "entryRequirements.passportValidity",
+      "field": "Passport validity",
+      "old": "valid-for-stay: valid for longer than the authorised stay (Lei n.º 66/VIII/2014, art. 7(3))",
+      "new": "3-months-beyond-departure: at least 3 months longer than the intended stay, per the EASE pre-registration form; the law's rule kept in the text",
+      "sourceUrl": "https://www.ease.gov.cv/",
+      "note": "Pre-registration Summary step (registration.cv.zetes.com/Pages/CapeVerde/ContactInfo.aspx): 'Please note that, according to the legislation, the expiration date of the travel document must be at least 3 months longer than the duration of the intended stay.'"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "dominica",
+      "path": "entryRequirements.customs.currencyLimits",
+      "field": "Currency declaration threshold",
+      "old": "XCD 10,000 or more (UK FCDO)",
+      "new": "over USD 10,000 or the equivalent (Dominica ED card, Customs step); FCDO figure kept as source.conflict",
+      "sourceUrl": "https://edcard.dominica.gov.dm/EDCard_arr/Create",
+      "note": "Customs step question (e): 'I am (we are) carrying currency or monetary instruments over (USD $10,000) or equivalent'. The destination's own form outranks foreign travel advice."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "kyrgyzstan",
+      "path": "tips.evisa-invitation",
+      "field": "Tourist e-Visa invitation",
+      "old": "not stated",
+      "new": "tip added: the Tourist (TS) e-Visa form requires an inviting person or organisation (\"Invitation is required from Kyrgyz citizen.\")",
+      "sourceUrl": "https://www.evisa.e-gov.kg/step_1.php?lng=en",
+      "note": "Step 2 (Main Data) of the Tourist (TS) application, read for Polish and Indian ordinary passports; inviting-person fields are marked required."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "malaysia",
+      "path": "entryRequirements.declarations[mdac].submitWindow",
+      "field": "MDAC: when to submit",
+      "old": "Within 3 days before arrival",
+      "new": "Within 3 days before arrival, including the day you submit it",
+      "sourceUrl": "https://imigresen-online.imi.gov.my/mdac/main?registerMain",
+      "note": "The MDAC registration form's Traveling Information section says \"Please note that your trip must be within 3 days (including the date of submission)\"; the MyVISA portal announcement (28 Sep 2026) says all foreign nationals are required to register the MDAC within 3 days before arriving. The 3-day window had rested on Canada's travel advice; the declaration now cites the form (portalOnly), and Canada stays attributed for the free-of-charge point. AR overlay mirrored."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "mali",
+      "path": "entryRequirements.proofOfFunds",
+      "field": "Proof of funds",
+      "old": "not required (no official source)",
+      "new": "required for all foreigners, where applicable; no amount (Law No. 04-058, Article 8)",
+      "sourceUrl": "https://diplomatiemdc.gouv.ml/Administration/check_condition.php",
+      "note": "The visa application's entry-conditions step shows Law 04-058 of 25 November 2004; Article 8 requires documents on the purpose and conditions of stay and, 's'il y a lieu', on means of subsistence and repatriation guarantees."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "mali",
+      "path": "visaTypes.embassy-tourist.entries",
+      "field": "Tourist visa entries",
+      "old": "single",
+      "new": "not published (the form offers one, two or multiple entries)",
+      "sourceUrl": "https://diplomatiemdc.gouv.ml/Administration/form_wizards.php",
+      "note": "Etape 6 'Nombre d’entrées demandées': Une entrée / Deux entrées / Entrées multiples."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "sri-lanka",
+      "path": "visaTypes[tourist-eta].validityDays",
+      "field": "Tourist ETA: validity",
+      "old": "30",
+      "new": "90",
+      "sourceUrl": "https://www.eta.gov.lk/slvisa/visainfo/apply.jsp",
+      "note": "The Department of Immigration and Emigration's 'How to submit an ETA application' page says \"An ETA holder is entitled to enter Sri Lanka within three months from the date of issue of ETA\", and every ETA application form (tourist, business, transit) says at Intended Arrival Date \"An ETA is valid for up to 03 month from date of issue\". 30 days is the permitted stay, not the validity."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "sri-lanka",
+      "path": "visaTypes[business-eta].validityDays",
+      "field": "Business ETA: validity",
+      "old": "Not published",
+      "new": "90",
+      "sourceUrl": "https://www.eta.gov.lk/slvisa/visainfo/apply.jsp",
+      "note": "Same statement: an ETA holder may enter within three months of issue; the Business Purpose ETA form repeats \"An ETA is valid for up to 03 month from date of issue\"."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "sri-lanka",
+      "path": "visaTypes[transit-eta].validityDays",
+      "field": "Transit ETA: validity",
+      "old": "Not published",
+      "new": "90",
+      "sourceUrl": "https://www.eta.gov.lk/slvisa/visainfo/apply.jsp",
+      "note": "Same statement: an ETA holder may enter within three months of issue; the Transit ETA form repeats \"An ETA is valid for up to 03 month from date of issue\"."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "tajikistan",
+      "path": "visaTypes.evisa-tourist.fee.notes",
+      "field": "Tourist eVisa fee notes",
+      "old": "no refund statement",
+      "new": "adds: the consular fee and application amount are non-refundable in any case (cancelled application, unused e-visa, duplicate payment)",
+      "sourceUrl": "https://www.evisa.tj/#/apply",
+      "note": "Apply form, confirmation text above 'Validate'."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "tajikistan",
+      "path": "visaTypes.evisa-gbao.fee.notes",
+      "field": "Tourist eVisa with GBAO permit fee notes",
+      "old": "no refund statement",
+      "new": "adds: the consular fee and application amount are non-refundable in any case",
+      "sourceUrl": "https://www.evisa.tj/#/apply"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "uzbekistan",
+      "path": "visaTypes.evisa-tourist.fee.notes",
+      "field": "Tourist e-Visa fee notes",
+      "old": "fees only",
+      "new": "adds: terms say considered within 2 working days not counting the filing day, apply at least 3 working days before arrival; the application form gives processing as 3 working days excluding weekends and holidays",
+      "sourceUrl": "https://e-visa.gov.uz/application",
+      "note": "Country step notice, same for Albania and India, single and multiple entry: 'Visa for 30 days. processing time 3 WORKING DAYS, not include weekends and holidays. Fill out form in ENGLISH only.'"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "vietnam",
+      "path": "entryRequirements.declarations.pre-arrival-information",
+      "field": "Pre-arrival information form",
+      "old": "absent",
+      "new": "added: optional (recommended) online pre-arrival form; arrival date selectable up to two days ahead",
+      "sourceUrl": "https://prearrival.immigration.gov.vn/apps/submit-document/foreign",
+      "note": "The e-Visa portal's notes 'highly recommend' prearrival.immigration.gov.vn; the Passenger Information step offers only the submission day and the next two days as the expected arrival date."
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "mexico",
+      "path": "visaPolicy.byPassport.BR",
+      "field": "Brazilian passports",
+      "old": "consular visitor visa only",
+      "new": "also an electronic visa online since 5 February 2026",
+      "sourceUrl": "https://www.inm.gob.mx/sae/publico/en/solicitud.html"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "barbados",
+      "path": "visaTypes[welcome-stamp]",
+      "field": "Welcome Stamp income condition",
+      "old": "must show annual income of at least USD 50,000",
+      "new": "USD 50,000 and/or the means to support yourself",
+      "sourceUrl": "https://www.visitbarbados.org/"
+    },
+    {
+      "kind": "changed",
+      "date": "2026-10-07",
+      "destination": "antigua-and-barbuda",
+      "path": "visaTypes[tourist-visa].entries",
+      "field": "eVisa entries",
+      "old": "single",
+      "new": "not published (the form offers single or multiple entry)",
+      "sourceUrl": "https://evisa.immigration.gov.ag/agEvisa-app/"
     }
   ]
 }

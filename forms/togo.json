@@ -1,0 +1,123 @@
+{
+  "destination": "togo",
+  "forms": [
+    {
+      "kind": "arrival-card",
+      "title": "Togo Voyage — Togo Entry Formalities (immigration form, with visa application where required)",
+      "appliesTo": [
+        "immigration-form",
+        "togo-evisa"
+      ],
+      "startUrl": "https://beta.voyage.gouv.tg/form",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "procedure": "Enter Togo",
+        "countryThatIssuedTheDocument": "not chosen (list of 256 countries)"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Travel document sub-step: it needs a document number and expiry date, or an upload of the travel document. Later sub-steps were seen by name only",
+      "steps": [
+        {
+          "order": 1,
+          "name": "What would you like to do?",
+          "read": true,
+          "fields": [
+            {
+              "label": "Enter Togo / Leave Togo",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Enter Togo",
+                "Leave Togo"
+              ]
+            }
+          ],
+          "notices": [
+            "To allow the competent authorities to carry out optimization work on visa application procedures, visas on arrival and express visas are suspended until further notice.",
+            "Henceforth, visa applications must be submitted at least 5 days before arrival on Togolese territory.",
+            "All African nationals holding a valid passport may enter Togo without a visa for stays of up to 30 days, provided they have completed the immigration form at least 24 hours before arrival.",
+            "Enter Togo: Register your trip to enter Togo. A visa may be required depending on your nationality and the purpose of your trip.",
+            "Leave Togo: Register your departure from Togo. This procedure is required for all travelers leaving the country and does not require a visa."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Travel information — Travel document",
+          "read": true,
+          "fields": [
+            {
+              "label": "Upload a copy of your travel document (passport, ID card, etc.)",
+              "type": "file",
+              "required": null,
+              "notes": "PDF, JPG, JPEG, PNG (max 5Mb); used to prefill the fields"
+            },
+            {
+              "label": "Country that issued the document",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Document type",
+              "type": "select",
+              "required": true,
+              "options": [
+                "ECOWAS Card",
+                "National Identity Card",
+                "Laissez-passer",
+                "United Nations Passport",
+                "Service Passport",
+                "Diplomatic Passport",
+                "Ordinary Passport",
+                "Safe Conduct",
+                "Refugee Travel Document",
+                "African Union Passport"
+              ]
+            },
+            {
+              "name": "app-text-input-0",
+              "label": "Document number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Expiry date",
+              "type": "date",
+              "required": true
+            }
+          ],
+          "notices": [
+            "You can submit your request without creating an account. If you already have one, sign in to use a saved profile.",
+            "A legible copy of the main page of your passport or travel document. Accepted formats: PDF, JPG, PNG. Maximum size: 5 MB."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Travel information — Traveler information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Travel information — Travel information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Travel information — Return travel information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "Confirmation",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

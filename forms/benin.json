@@ -1,0 +1,86 @@
+{
+  "destination": "benin",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Benin e-Visa (Government of the Republic of Benin)",
+      "appliesTo": [
+        "evisa-30",
+        "evisa-90"
+      ],
+      "startUrl": "https://evisa.bj/",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "Initiation needs an email address and passport number, and the form itself opens only from a link emailed to the applicant; its four parts (Personal, E-Visa, Travel, Passport) are named on the How it works page.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Initiate your application",
+          "read": true,
+          "fields": [
+            {
+              "name": "email",
+              "label": "Your email address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "confirm_email",
+              "label": "Confirm your email address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "document_number",
+              "label": "Passport number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "document_expiry_date",
+              "label": "Passport expiry date",
+              "type": "date",
+              "required": true
+            }
+          ],
+          "notices": [
+            "After this first step, you will receive an email inviting you to confirm your request through a link."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Personal",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "E-Visa",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Travel",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Passport",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "Pay your application",
+          "read": false,
+          "fields": [],
+          "notices": [
+            "Credit card 3D Secure: Visa, Mastercard"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "destination": "turkey",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Türkiye e-Visa portal (Ministry of Foreign Affairs)",
+      "appliesTo": [
+        "tourist-evisa",
+        "tourist-evisa-conditional"
+      ],
+      "startUrl": "https://evisa.gov.tr/en/",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "visaType": "E-Visa",
+        "nationality": "Poland; India; Mexico",
+        "travelDocument": "Ordinary Passport"
+      },
+      "requiresAccount": true,
+      "stoppedAt": "Login / Register: the application itself needs an e-Visa account. Only the public eligibility check and the registration page were read",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Learn easily whether you meet the application requirements",
+          "read": true,
+          "fields": [
+            {
+              "label": "Visa Type",
+              "type": "select",
+              "required": true,
+              "options": [
+                "E-Visa",
+                "Airport Transit Visa",
+                "COP31 Visa"
+              ]
+            },
+            {
+              "label": "Nationality",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Type of Travel Document",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Ordinary Passport",
+                "Identity Card",
+                "Diplomatic Passport",
+                "Service Passport",
+                "Special Passport",
+                "Alien’s Passport",
+                "Travel Document",
+                "Nansen Passport",
+                "Others"
+              ]
+            }
+          ],
+          "notices": [
+            "The e-Visa service is provided by DTV Consulting Intermediary Organization Joint Stock Company, a subsidiary of the Foreign Affairs Strengthening Foundation.",
+            "You are exempt from visa. Your touristic travels are exempt from visa provided that the total duration of stay in Türkiye within the last 180 days does not exceed 90 days. (Poland, Ordinary Passport)",
+            "Congratulations! You can apply for an Electronic Visa for the Republic of Türkiye (India and Mexico, Ordinary Passport)"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Create Profile (Create Your E-Visa Account)",
+          "read": true,
+          "fields": [
+            {
+              "label": "Given/First Name(s)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Surname(s)",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Date of Birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Nationality",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Gender",
+              "type": "select",
+              "required": true
+            },
+            {
+              "label": "E-Mail Address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "label": "Password",
+              "type": "other",
+              "required": true,
+              "notes": "At least 8 characters, with upper- and lower-case letters, a number and a special character"
+            },
+            {
+              "label": "Verification",
+              "type": "text",
+              "required": true
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Upload Files",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Make Payment (Except for COP31 Visa)",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Download the E-Visa",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

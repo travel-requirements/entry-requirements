@@ -1,0 +1,42 @@
+{
+  "destination": "jordan",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Jordan e-Visa (Ministry of Interior e-services)",
+      "appliesTo": [
+        "moi-tourist-visa",
+        "moi-visit-visa"
+      ],
+      "startUrl": "https://eservices.moi.gov.jo/MOI_EVISA",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "Login to a Ministry of Interior e-services account (or Sanad); \"Electronic Visas\" opens only after login, and no application step is visible before it.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Login",
+          "read": true,
+          "fields": [
+            {
+              "label": "Username",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Password",
+              "type": "other",
+              "required": true
+            },
+            {
+              "label": "Confirmation Code",
+              "type": "text",
+              "required": true,
+              "notes": "Image captcha"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

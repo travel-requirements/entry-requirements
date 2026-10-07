@@ -1,0 +1,163 @@
+{
+  "destination": "ethiopia",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Ethiopia e-Visa (Immigration and Citizenship Service)",
+      "appliesTo": [
+        "evisa-30",
+        "evisa-90"
+      ],
+      "startUrl": "https://www.evisa.gov.et/visa",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "visaType": "Tourist Visa",
+        "visaValidity": "Single Entry 30 Days"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Arrival Information needs the arrival date and the address of the accommodation; later steps are seen only by name.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Visa Category",
+          "read": true,
+          "fields": [
+            {
+              "name": "visaType",
+              "label": "Visa Type",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Medical Treatment Visa",
+                "Sports Competition and Training Visa",
+                "Residence Visa",
+                "Religion Visa",
+                "Student Visa",
+                "Entertainment Industry Visa",
+                "Private Work Visa",
+                "NGO Visa-NV",
+                "Government Work Visa",
+                "Investment Visa",
+                "Tourist Visa",
+                "Workshop/Conference Visa",
+                "Journalist Visa"
+              ]
+            },
+            {
+              "name": "visaValidity",
+              "label": "Visa Validity",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Single Entry 30 Days"
+              ],
+              "notes": "Options offered for Tourist Visa on 2026-10-07."
+            },
+            {
+              "name": "accept",
+              "label": "I agree to the terms and conditions",
+              "type": "checkbox",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Visa Fee : $62"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Arrival Information",
+          "read": true,
+          "fields": [
+            {
+              "name": "arrivalDate",
+              "label": "Arrival Date",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "departureCountry",
+              "label": "Departure Country",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "departureCity",
+              "label": "Departure City",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "airline",
+              "label": "Airline",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "flightNumber",
+              "label": "Flight Number",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "accommodationType",
+              "label": "Accommodation Type",
+              "type": "select",
+              "required": true
+            },
+            {
+              "name": "accommodationName",
+              "label": "Accommodation Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "accommodationCity",
+              "label": "Accommodation City",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "accommodationStreetAddress",
+              "label": "Accommodation Street Address",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Accommodation Telephone",
+              "type": "tel",
+              "required": true
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Personal Information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Passport Information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Review",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "Attachments",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

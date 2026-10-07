@@ -1,0 +1,199 @@
+{
+  "destination": "morocco",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Morocco eVisa (Accès Maroc, Ministry of Foreign Affairs)",
+      "appliesTo": [
+        "tourist-evisa",
+        "tourist-evisa-free"
+      ],
+      "startUrl": "https://www.acces-maroc.ma/#/e-visa/verification",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "nationality": "Poland",
+        "residence": "Poland",
+        "documentType": "ORDINARY PASSPORT",
+        "purpose": "TOURIST",
+        "otherVisa": "NONE"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "\"Check Your email\" needs an email address; the following steps are seen only by name, and the form route (#/e-visa/formulaire) redirects to the tracking page. The eligibility check gave no visible answer for Poland.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Do I need a visa to enter Morocco?",
+          "read": true,
+          "fields": [
+            {
+              "label": "Nationality/Country Citizenship",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Country of Usual Residence",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Document type (Passport)",
+              "type": "select",
+              "required": true,
+              "options": [
+                "ORDINARY PASSPORT",
+                "REFUGEE OR STATELESS PASSEPORT",
+                "DIPLOMATIC PASSPORT",
+                "SERVICE OR MISSION PASSPORT",
+                "SPECIAL PASSPORT",
+                "OFFICIAL PASSPORT : FOR OFFICIAL PERSONALITY",
+                "UNITED NATIONS LAISSEZ-PASSER"
+              ]
+            },
+            {
+              "label": "Are you participating in an event in Morocco?",
+              "type": "select",
+              "required": true,
+              "options": [
+                "No"
+              ]
+            },
+            {
+              "label": "Purpose of the Trip",
+              "type": "select",
+              "required": true,
+              "options": [
+                "TOURIST",
+                "BUSINESS",
+                "Event",
+                "OTHER"
+              ]
+            },
+            {
+              "label": "Do you have another valid visa ?",
+              "type": "select",
+              "required": true,
+              "options": [
+                "NONE",
+                "AUSTRALIA VISA",
+                "CANADA VISA",
+                "IRELAND VISA",
+                "JAPAN VISA",
+                "NEW ZELAND VISA",
+                "NORWAY VISA",
+                "SCHENGEN VISA",
+                "UK VISA",
+                "USA VISA"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Check Your email",
+          "read": true,
+          "fields": [
+            {
+              "name": "mail",
+              "label": "Email Address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "confirmMail",
+              "label": "Confirmation Email Address",
+              "type": "email",
+              "required": true
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Eligibility",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Travel Conditions",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Personal Information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "Further Information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 7,
+          "name": "Attachments",
+          "read": false,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "kind": "eta",
+      "title": "Morocco Electronic Travel Authorisation (AEVM) (Accès Maroc)",
+      "appliesTo": [
+        "aevm"
+      ],
+      "startUrl": "https://www.acces-maroc.ma/#/autorisation-voyage",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "The AEVM is applied for from a portal account; the steps are named on the presentation page, which also says: \"Vérifiez que vous avez bien scanné les pièces jointes en extension jpg ou pdf avec une taille qui ne dépasse 1 Mo.\"",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Vérifier votre admissibilité",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 2,
+          "name": "Inscription ou connexion",
+          "read": false,
+          "fields": [],
+          "notices": [
+            "Pour pouvoir introduire une nouvelle demande d’AEVM, il faut avoir un compte d’accès à ce portail"
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Remplir le formulaire de demande d’Autorisation de Voyage.",
+          "read": false,
+          "fields": [],
+          "notices": [
+            "La photo d’identité,",
+            "La carte d’identité ou de séjour,",
+            "La page d’identité du passeport,"
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Validation de la demande",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Suivi de la demande",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

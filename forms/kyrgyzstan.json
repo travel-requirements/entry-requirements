@@ -1,0 +1,237 @@
+{
+  "destination": "kyrgyzstan",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Kyrgyz Republic e-Visa — Tourist (TS)",
+      "appliesTo": [
+        "evisa-tourist"
+      ],
+      "startUrl": "https://www.evisa.e-gov.kg/step_1.php?lng=en",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "passportCountry": "Poland, then India",
+        "passportType": "Ordinary",
+        "visaType": "Tourist (TS)",
+        "entries": "Single entry",
+        "serviceLevel": "Standard service"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Step 2 (Main data): applicant and inviting-person details. Steps 3 to 6 do not render by URL (they return to the portal home) and are shown only as numbers",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Country/Trip purpose",
+          "read": true,
+          "fields": [
+            {
+              "name": "doc_issued_by",
+              "label": "select passport country",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "doc_type",
+              "label": "select passport type",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Ordinary",
+                "Diplomatic",
+                "Service/Official",
+                "Stateless persons travel document",
+                "Other travel document"
+              ]
+            },
+            {
+              "name": "visaType",
+              "label": "Visa type",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Business (B)",
+                "Digital Nomad Visa (DN)",
+                "Diplomatic (D)",
+                "Emergency Exit Visa (E)",
+                "Foreigner Family Visa (FF)",
+                "Invest (I)",
+                "Leave (L)",
+                "Relatives visa (RL)",
+                "Religion (R)",
+                "Sapar visa (J)",
+                "Service/Official (O)",
+                "Special Working Visa(SW1) (SW1)",
+                "Special Working Visa(SW2) (SW2)",
+                "Study (S)",
+                "Tourist (TS)",
+                "Transit (TR)",
+                "Visa to ethnic Kyrgyz (М)",
+                "Tamchy-Business (TB)",
+                "Tamchy-Employee (TE)",
+                "Tamchy-Guest (TG)",
+                "Tamchy-Intra (TIA)",
+                "Tamchy-Invest (TI)",
+                "Tamchy-Resident (TPR)"
+              ]
+            },
+            {
+              "name": "visa_filtr",
+              "label": "Entries",
+              "type": "select",
+              "required": null,
+              "options": [
+                "SINGLE ENTRY",
+                "MULTI ENTRY"
+              ]
+            },
+            {
+              "label": "Duration",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "SINGLE ENTRY - 7 days",
+                "SINGLE ENTRY - 1 month(s)"
+              ],
+              "notes": "Poland was offered only 1 month(s); India 7 days and 1 month(s)"
+            },
+            {
+              "name": "service_level",
+              "label": "select service level",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Standard service",
+                "Consideration of the application within 2 business days"
+              ]
+            },
+            {
+              "name": "vpb_captcha_code",
+              "label": "Captcha",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "agree_step_1",
+              "label": "I agree to the terms and conditions.",
+              "type": "checkbox",
+              "required": null
+            }
+          ],
+          "notices": [
+            "Tourist visa («TS») is issued to an applicant, intending to visit Kyrgyz Republic with purpose of tourism, for a period up to 30 days.",
+            "This category of visa cannot be issued while the foreign national is on the territory of the Kyrgyz Republic.",
+            "A 7-day tourist visa is issued upon the request of a gambling establishment"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Main data",
+          "read": true,
+          "fields": [
+            {
+              "name": "inviting_surname",
+              "label": "Inviting person's surname",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "inviting_first_name",
+              "label": "Inviting person's name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "inviting_date_of_birth",
+              "label": "Inviting person's date of birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "inviting_passport_number",
+              "label": "Inviting person's passport number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "inviting_residence_address",
+              "label": "Inviting person's residence address",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "inviting_employment",
+              "label": "Inviting person's place of work and position",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "surname",
+              "label": "Surname",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "name",
+              "label": "Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "date_of_birth",
+              "label": "Date of birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "passport_number",
+              "label": "Passport number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "passport_issue_date",
+              "label": "Passport issue date",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "passport_expiration_date",
+              "label": "Passport expiration date",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "gender",
+              "label": "Gender",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Male",
+                "Female"
+              ]
+            },
+            {
+              "name": "email_address",
+              "label": "e-mail address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "vpb_captcha_code",
+              "label": "Captcha",
+              "type": "text",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Invitation is required from Kyrgyz citizen.",
+            "Tabs: APPLICANT / INVITING PERSON / INVITING ORGANIZATION"
+          ]
+        }
+      ]
+    }
+  ]
+}

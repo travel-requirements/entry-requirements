@@ -1,0 +1,112 @@
+{
+  "destination": "palestine",
+  "forms": [
+    {
+      "kind": "eta",
+      "title": "Israel ETA-IL application (Population and Immigration Authority)",
+      "appliesTo": [
+        "eta-il"
+      ],
+      "startUrl": "https://israel-entry.piba.gov.il/apply-for-an-eta-il-1",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "applyingFor": "My self"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Email verification (requires an email address and a one-time code); later steps are seen only by name in the stepper.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Before you start",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "To complete the form, you will need: A valid email address; Your travel information; Your personal information; A valid passport",
+            "You will need to complete your application in one go – you cannot save your progress and continue later.",
+            "If there will be no activity for 30 minutes, the service will time out. Your answers will be deleted and you will need to start again."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Start your application",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "Before boarding a flight to Israel, make sure you have a valid ETA-IL or a valid visa",
+            "Please answer all questions in English.",
+            "Pay the 25 NIS application fee.",
+            "We recommend submitting your application form at least 72 hours before your departure to Israel."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Terms and conditions",
+          "read": true,
+          "fields": [
+            {
+              "label": "I confirm the terms and conditions",
+              "type": "checkbox",
+              "required": true,
+              "name": "confirmConditions"
+            }
+          ],
+          "notices": [
+            "The applicant is required to obtain an Electronic Travel Authorization (ETA-IL) prior to the purchase of any airline tickets to the State of Israel.",
+            "For the express purpose of identifying or verifying the applicant's identity in connection with the regulation of their entry into, stay, residence, or departure from Israel, the applicant hereby consents to the collection of a facial image and two fingerprints, the specific requirements of which are determined by the class of residence permit granted.",
+            "The Electronic Travel Authorization grants the applicant solely the ability to reach the border crossing into Israel and does not confer automatic permission to enter or reside in Israel."
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Who are you applying for?",
+          "read": true,
+          "fields": [
+            {
+              "label": "Who are you applying for?",
+              "type": "radio",
+              "required": true,
+              "name": "groupTypeId",
+              "options": [
+                "My self",
+                "Someone else"
+              ]
+            }
+          ],
+          "notices": [
+            "If the applicant is under 18, a legal adult must complete the application on their behalf."
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Email verification",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "Travel information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 7,
+          "name": "Passport details",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 8,
+          "name": "Personal details",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 9,
+          "name": "Review & Pay",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

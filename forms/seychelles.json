@@ -1,0 +1,158 @@
+{
+  "destination": "seychelles",
+  "forms": [
+    {
+      "kind": "eta",
+      "title": "Seychelles Travel Authorisation (Seychelles Electronic Border System)",
+      "appliesTo": [
+        "travel-authorisation"
+      ],
+      "startUrl": "https://seychelles.govtas.com/en",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "device": "Public Device",
+        "travellerType": "Tourists, visitors, residents and workers",
+        "countryOfResidence": "Poland"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Passport Information (passport page upload). The Continue button on the consent step stays disabled in our browser, so Country of Residence was opened by in-app navigation; later steps do not open by URL and are seen only by name in the stepper.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Is this your personal device?",
+          "read": true,
+          "fields": [
+            {
+              "label": "Is this your personal device?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "My Device",
+                "Public Device"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Start your trip to Seychelles",
+          "read": true,
+          "fields": [
+            {
+              "label": "Start your trip to Seychelles",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Seychellois Citizens",
+                "Tourists, visitors, residents and workers",
+                "Diplomats, Foreign Delegates and Fee Exempted Travellers"
+              ]
+            }
+          ],
+          "notices": [
+            "All travelers to the Seychelles are required to submit Immigration forms in compliance with Immigration Decree Section 6 & 9 Form IMM/3A and Section 75(1) of the Anti-Money Laundering and Countering the Financing of Terrorism Act, 2020. Failure to comply may lead to a penalty fee upon arrival."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "What do I need to apply?",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "Apply for your Travel Authorisation anytime within the 30 days of your scheduled arrival to the Seychelles.",
+            "To apply for your Travel Authorisation, you need to: Scan or Upload Passport Photo Page; Take or Upload Traveller’s Photo; Provide information about your trip; Answer required health and custom questions; Upload a copy of a valid permit (if you are a non-citizen resident e.g. GOP, dependent, or permanent resident); Make Payment"
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Declaration of Consent",
+          "read": true,
+          "fields": [
+            {
+              "label": "I have read and agreed to the above.",
+              "type": "checkbox",
+              "required": true
+            },
+            {
+              "label": "Opt-in to enter giveaways, and receive special offers and exciting updates for your trip from third parties.",
+              "type": "checkbox",
+              "required": false
+            }
+          ],
+          "notices": [
+            "to ensure that you stay only in accommodations certified by the Department of Tourism and, to that end, to contact if necessary the establishments where you will be staying or the places that you will be visiting; and"
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Country of Residence",
+          "read": true,
+          "fields": [
+            {
+              "label": "Country of residence",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            }
+          ],
+          "notices": [
+            "Please select your country of residence. This is the country where you live and pay taxes."
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Passport Information",
+          "read": true,
+          "fields": [
+            {
+              "label": "Upload Passport Page",
+              "type": "file",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Provide a clear image of your passport's biographic page."
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Selfie or Photo",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 8,
+          "name": "Contact Information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 9,
+          "name": "Trip Information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 10,
+          "name": "Health Declaration",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 11,
+          "name": "Customs Declaration",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 12,
+          "name": "Confirm and Proceed",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

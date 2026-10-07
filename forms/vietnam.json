@@ -1,0 +1,535 @@
+{
+  "destination": "vietnam",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Viet Nam e-Visa application (Immigration Department, Ministry of Public Security)",
+      "appliesTo": [
+        "evisa-single",
+        "evisa-multiple"
+      ],
+      "startUrl": "https://evisa.gov.vn/e-visa/foreigners",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "Fill out the Application form: it needs a portrait photo, a passport data-page image and personal data. Its fields were read without typing; Review and Payment were seen by name only",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Declaration instructions",
+          "read": true,
+          "fields": [
+            {
+              "label": "Confirm compliance with Vietnamese laws upon entry",
+              "type": "checkbox",
+              "required": true
+            },
+            {
+              "label": "Confirmation of reading carefully instructions and having completed application",
+              "type": "checkbox",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Viet Nam e-Visa is valid for a maximum of 90 days, for single or multiple entries.",
+            "The e-visa application fee is paid through the e-visa portal's e-payment gateway and is non-refundable in case the visa is not granted.",
+            "E-visa fee: 25 USD for a single-entry visa / 50 USD for a multiple-entry visa.",
+            "Foreigners using e-visas must enter and exit Viet Nam through international border gates designated by the Government (list of border gates).",
+            "The Vietnam Immigration Department highly recommends that passengers access the following link: https://prearrival.immigration.gov.vn to complete their pre-arrival form prior to entering Vietnam. This proactive step will assist passengers in saving time and ensuring a swift and seamless entry procedure.",
+            "Applicant must declare sufficiently, accurately and honestly all true information in English.",
+            "e-Visa application will be denied if there is any dishonest information in the application found by Viet Nam Immigration Authority.",
+            "Visa is issued for foreigners who are currently abroad, wishing to enter into Viet Nam (not to foreigners who are currently temporary resident in Viet Nam).",
+            "Electronic visas can only be used for entry and exit through border gates that are on the list approved by the Government of Viet Nam.",
+            "The time for declaration and processing of documents is in the UTC+07:00 time zone"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Fill out the Application form",
+          "read": true,
+          "fields": [
+            {
+              "name": "basic_anhMat",
+              "label": "Portrait photography",
+              "type": "file",
+              "required": true
+            },
+            {
+              "name": "basic_anhHoChieu",
+              "label": "Passport data page image",
+              "type": "file",
+              "required": true
+            },
+            {
+              "name": "basic_ttcnHo",
+              "label": "Surname (Last name)",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "basic_ttcnDemVaTen",
+              "label": "Middle and given name (First name)",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "basic_ttcnNgayThangNamSinhStr",
+              "label": "Date of birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "basic_ttcnGioiTinh",
+              "label": "Sex",
+              "type": "select",
+              "required": null
+            },
+            {
+              "name": "basic_ttcnMaQt",
+              "label": "Nationality",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "basic_ttcnCccd",
+              "label": "Identity Card",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "basic_ttcnEmail",
+              "label": "Email",
+              "type": "email",
+              "required": null
+            },
+            {
+              "label": "Agree to create account by email",
+              "type": "checkbox",
+              "required": null
+            },
+            {
+              "name": "basic_ttcnTonGiao",
+              "label": "Religion",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "basic_ttcnNoiSinh",
+              "label": "Place of birth",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Have you ever used any other passports to enter into Viet Nam?",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "label": "Do you have multiple nationalities?",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "label": "Violation of the Vietnamese laws/regulations (if any)",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "label": "To issue e-Visa for",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "Single-entry",
+                "Multiple-entry"
+              ]
+            },
+            {
+              "name": "basic_nddnTtdtTuNgayStr",
+              "label": "Grant e-Visa valid from / To",
+              "type": "date",
+              "required": null
+            },
+            {
+              "name": "basic_hcSo",
+              "label": "Passport",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "basic_hcNoiCap",
+              "label": "Issuing Authority/Place of issue",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "basic_hcLoai",
+              "label": "Type",
+              "type": "select",
+              "required": null
+            },
+            {
+              "name": "basic_hcNgayCapStr",
+              "label": "Date of issue",
+              "type": "date",
+              "required": null
+            },
+            {
+              "name": "basic_hcGiaTriDenStr",
+              "label": "Expiry date",
+              "type": "date",
+              "required": null
+            },
+            {
+              "label": "Do you hold any other valid passports",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "name": "basic_ttllDcLienHe",
+              "label": "Contact address / Telephone number / Emergency contact",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "basic_nnNgheNghiep",
+              "label": "Occupation",
+              "type": "select",
+              "required": null
+            },
+            {
+              "name": "basic_nnTenCtyCq",
+              "label": "Name of Company/Agency/School",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "basic_ttcdMucDich",
+              "label": "Purpose of entry",
+              "type": "select",
+              "required": null
+            },
+            {
+              "name": "basic_ttcdThoiGianNcStr",
+              "label": "Intended date of entry",
+              "type": "date",
+              "required": null
+            },
+            {
+              "name": "basic_ttcdSoNgayTamTru",
+              "label": "Intended length of stay in Viet Nam",
+              "type": "number",
+              "required": null
+            },
+            {
+              "name": "basic_ttcdDcTamTru",
+              "label": "Residential address in Viet Nam",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "basic_ttcdNcCuaKhau",
+              "label": "Intended border gate of entry",
+              "type": "select",
+              "required": null
+            },
+            {
+              "name": "basic_ttcdXcCuaKhau",
+              "label": "Intended border gate of exit",
+              "type": "select",
+              "required": null
+            },
+            {
+              "name": "basic_ttcdCqTcCamDoan",
+              "label": "Committed to declare temporary residence according to the provisions of Vietnameses laws",
+              "type": "checkbox",
+              "required": null
+            },
+            {
+              "label": "Agency/Organization/Individual that the applicant plans to contact when enter into Viet Nam?",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "label": "Have you been to Viet Nam in the last 01 year?",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "label": "Do you have relatives who currently reside in Viet Nam?",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "label": "Accompany child(ren) under 14 years old who are issued with the same passport",
+              "type": "other",
+              "required": null
+            },
+            {
+              "name": "basic_kpbhDuTinh",
+              "label": "Intended expenses (in USD)",
+              "type": "number",
+              "required": null
+            },
+            {
+              "name": "basic_kpbhMuaBaoHiem",
+              "label": "Did you buy insurance?",
+              "type": "select",
+              "required": null
+            },
+            {
+              "name": "basic_kpbhNguoiDamBao",
+              "label": "Who will cover the trip’s expenses of the applicant",
+              "type": "select",
+              "required": null
+            },
+            {
+              "label": "I hereby declare that the above statements are true, accurate ... and I am aware that the application fee is not refunded if the application for e-Visa of Viet Nam is denied.",
+              "type": "checkbox",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Photo of the person requesting an electronic visa (newly taken, photo size 4x6 cm, jpg, jpeg format, size <2MB, straight face, no hat, no glasses, formal clothes, white background). Only upload 1 passport data page, upload clear photos, no lost corners *",
+            "Enter name as on the ICAO line in the passport; If the passport contains only the Surname or Given names, just enter Given names",
+            "According to the regulations of Vietnamese law, foreigners entering for investment must have documents proving their investment in Viet Nam as prescribed by the Investment Law; foreigners practicing as lawyers in VietNam must have a practice license as prescribed by the Law on Lawyers; foreigners entering for employment must have a work permit or a certificate confirming that they are not subject to work permit issuance as prescribed by the Labor Code; foreigners entering for study must have an acceptance document from the school or educational institution in Viet Nam; those entering for religious activities, journalism, healthcare, education must have permission from the competent authority.",
+            "Note: Do not request an electronic visa for a child issued with a shared passport if that child has been issued a separate passport."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Review application form",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Payment",
+          "read": false,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "kind": "arrival-card",
+      "title": "Viet Nam Pre-arrival Information Submission for Visitors",
+      "appliesTo": [
+        "pre-arrival-information"
+      ],
+      "startUrl": "https://prearrival.immigration.gov.vn/apps/submit-document/foreign",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "nationality": "Poland"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Passenger Information: it needs passport and personal data. A text captcha was solved only to open the form; Trip Information, Review & Submit and Result were seen by name only",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Select your nationality",
+          "read": true,
+          "fields": [
+            {
+              "name": "nationality",
+              "label": "Nationality",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            }
+          ],
+          "notices": [
+            "To ensure a smooth immigration process, please complete this declaration fully and accurately before arrival.",
+            "Submitting your declaration in advance helps reduce waiting time at the immigration area.",
+            "Your personal information will be kept confidential and used only for border control purposes."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Passenger Information",
+          "read": true,
+          "fields": [
+            {
+              "name": "0_arrivalDate",
+              "label": "Expected Arrival Date (DD/MM/YYYY GMT+7)",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "07/10/2026",
+                "08/10/2026",
+                "09/10/2026"
+              ],
+              "notes": "Read on 7 October 2026: only that day and the next two days are offered"
+            },
+            {
+              "label": "Passport Image",
+              "type": "file",
+              "required": false
+            },
+            {
+              "name": "0_passportType",
+              "label": "Passport Type",
+              "type": "select",
+              "required": true
+            },
+            {
+              "name": "0_passportNumber",
+              "label": "Passport Number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "0_expiryDate",
+              "label": "Date of Expiry (DD/MM/YYYY)",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "gender",
+              "label": "Gender",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Male",
+                "Female",
+                "Other"
+              ]
+            },
+            {
+              "label": "Surname",
+              "type": "text",
+              "required": false
+            },
+            {
+              "label": "Given Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "0_dob",
+              "label": "Date of Birth (DD/MM/YYYY)",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "0_nationality",
+              "label": "Nationality",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "0_phoneCountryCode",
+              "label": "Country Code",
+              "type": "select",
+              "required": true
+            },
+            {
+              "name": "0_phone",
+              "label": "Phone Number",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "name": "0_email",
+              "label": "Email Address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "label": "I have read and understood this information.",
+              "type": "checkbox",
+              "required": null
+            },
+            {
+              "name": "0_visaType",
+              "label": "Visa Type / Purpose",
+              "type": "select",
+              "required": true
+            },
+            {
+              "name": "0_visaNumber",
+              "label": "Number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "0_visaIssueDate",
+              "label": "Date of Issue (DD/MM/YYYY)",
+              "type": "date",
+              "required": false
+            },
+            {
+              "name": "0_visaExpiryDate",
+              "label": "Date of Expiry (DD/MM/YYYY)",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "0_visaIssuedPlace",
+              "label": "Issued Place",
+              "type": "text",
+              "required": false
+            }
+          ],
+          "notices": [
+            "MANDATORY FIELDS ARE INDICATED BY A RED ASTERISK *",
+            "Provide details of your Vietnam visa (if applicable)",
+            "Note: The selected visa type determines your permitted entry period.",
+            "Important: Please enter your visa number to enable the service at the airport."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Trip Information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Review & Submit",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Result",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

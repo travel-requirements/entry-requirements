@@ -1,0 +1,252 @@
+{
+  "destination": "tajikistan",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Tajikistan e-Visa (Ministry of Foreign Affairs)",
+      "appliesTo": [
+        "evisa-tourist",
+        "evisa-gbao"
+      ],
+      "startUrl": "https://www.evisa.tj/#/apply",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "nationality": "Poland",
+        "applicantType": "Individual",
+        "purpose": "Tourism (T)"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Step 1 of 3 is a single page of personal and passport data and was read in full; the processing fee shown beside the application data stayed empty for Poland. Pay and Get are seen only by name.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Apply form",
+          "read": true,
+          "fields": [
+            {
+              "name": "applicantNationality",
+              "label": "Country of citizenship",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "applicantType",
+              "label": "Applicant type",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Individual",
+                "Sponsor"
+              ]
+            },
+            {
+              "name": "categories",
+              "label": "GBAO Permit",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "typeOfPurposeOfVisit",
+              "label": "Purpose of visit type",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Tourism (T)",
+                "Sporting and cultural events visitor"
+              ]
+            },
+            {
+              "name": "firstName",
+              "label": "First name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "middleName",
+              "label": "Middle name",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "lastName",
+              "label": "Last name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "gender",
+              "label": "Gender",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Female",
+                "Male",
+                "Unknown"
+              ]
+            },
+            {
+              "name": "maritalStatus",
+              "label": "Marital status",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Married",
+                "Single"
+              ]
+            },
+            {
+              "name": "dateOfBirth",
+              "label": "Date of birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "cityOfBirth",
+              "label": "City of birth",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "districtOfBirth",
+              "label": "District of birth",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "countryOfBirth",
+              "label": "Country of birth",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "phoneNumber",
+              "label": "Phone Number",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "name": "permanentAddress",
+              "label": "Residential address",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "email",
+              "label": "Email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "comfirmEmail",
+              "label": "Confirm email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "group",
+              "label": "Group identifier",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "documentType",
+              "label": "Travel document type",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Diplomatic Passport",
+                "ID-Card",
+                "Laissez Passer",
+                "Official Passport",
+                "Other",
+                "Passport",
+                "Refugee Travel Document",
+                "Special Passport",
+                "Stateless Travel Document",
+                "Travel Certificate"
+              ]
+            },
+            {
+              "name": "passportNumber",
+              "label": "Passport number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "issuingCountry",
+              "label": "Current country of citizenship, as appears on your passport",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "passportDateOfIssue",
+              "label": "Passport date of issue",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "passportDateOfExpiry",
+              "label": "Passport date of expiry",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "dateOfArrival",
+              "label": "Date of arrival",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "placeOfStayInTajikistanAddress",
+              "label": "Address in Tajikistan",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "I confirm that the information provided in the application form is correct.",
+              "type": "checkbox",
+              "required": true
+            },
+            {
+              "label": "The question is to prevent spam attacks",
+              "type": "other",
+              "required": true,
+              "notes": "Captcha"
+            }
+          ],
+          "notices": [
+            "All fields marked * are mandatory fields",
+            "All fields must be filled in accordance with the passport information",
+            "The amount of the consular fee and application amount is charged only for consideration of the application for an evisa and is non-refundable in any cases, included but not limited to the following: Canceling the evisa application process by the Applicant initiative; Not using issued evisa; Duplicate payment processing. Cardholder need to make sure that previous transaction was unsuccessful before next payment.",
+            "Acceptance of evisa application and consular fee does not automatically guarantee the evisa."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Pay",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Get",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

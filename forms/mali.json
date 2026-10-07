@@ -1,0 +1,509 @@
+{
+  "destination": "mali",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Formulaire de demande de visa et autorisation d'entrée au Mali (Ministry of Foreign Affairs consular portal)",
+      "appliesTo": [
+        "embassy-tourist"
+      ],
+      "startUrl": "https://diplomatiemdc.gouv.ml/vitrine/",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "purpose": "Tourisme",
+        "nationality": "Polonais/Polonaise",
+        "passportType": "Ordinaire",
+        "countryOfResidence": "Pologne",
+        "placeOfSubmission": "Ambassade du Mali - Allemagne"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Etape 1 of the application form (personal information). Etapes 2 to 7 were read from the form markup served with Etape 1; nothing was typed",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Venir au Mali pour : Tourisme (visa check)",
+          "read": true,
+          "fields": [
+            {
+              "name": "nationalite",
+              "label": "Nationalité",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "type_passport",
+              "label": "Type de passeport",
+              "type": "select",
+              "required": null
+            },
+            {
+              "name": "pays_residence",
+              "label": "Pays de résidence",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "lieu_depot",
+              "label": "Lieu de dépôt",
+              "type": "select",
+              "required": null,
+              "notes": "Malian embassy or consulate that receives the application"
+            }
+          ],
+          "notices": [
+            "Un visa vous est requis pour voyager sur le territoire Malien. Cliquez sur OK pour commencer votre demande de visa."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Contrôle du code de dossier",
+          "read": true,
+          "fields": [
+            {
+              "name": "codeSession",
+              "label": "code dossier",
+              "type": "text",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Si vous possédez déjà un code de dossier, veuillez le saisir, puis cliquer sur \"Continuer\" pour poursuivre la transmission de votre demande de visa.",
+            "* Le code n'est valable que 7 jours après sa génération *"
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Conditions d'entrée (Loi n° 04-058 du 25 novembre 2004)",
+          "read": true,
+          "fields": [
+            {
+              "name": "exampleCheck1",
+              "label": "J'ai lu et j'accepte les conditions générales d'entrée au Mali",
+              "type": "checkbox",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Article 8: Entrer au Mali, tout etranger doit etre muni Du visa d'entrée; Des documents relatifs, d'une part à l'objet et aux conditions de séjour, et d'autre part, s'il y a lieu, à ses moyens d'existence et aux garanties de son rapatriement; Des documents nécessaires à l'exercice d'une activité proffessionnelle, s'il se propose d'exercer une activité professionnelle au Mali",
+            "Article 9: L'accès au territoire malien peut etre refusé à tout étranger dont la présence peut constituer une menace pour l'ordre public ou qui fait objet, soit d'une interdiction de territoire, ou d'une décision expulsion."
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Etape 1 — Informations personnelles / Personal informations",
+          "read": true,
+          "fields": [
+            {
+              "name": "nom",
+              "label": "Nom/ Surname",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "prenom",
+              "label": "Prénom/ First names",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "date_naiss",
+              "label": "Date et lieu de naissance/ Date and place of birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "nationalite",
+              "label": "Nationalité/ Nationality",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "nationalite_naissance",
+              "label": "Nationalité à la naissance/ Nationality at birth",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "sexe",
+              "label": "Sexe/ Sex",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "M",
+                "F"
+              ]
+            },
+            {
+              "name": "etat_civil",
+              "label": "Etat civil/ Marital status",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Célibataire",
+                "Marié(e)",
+                "Divorcé(e)",
+                "Veuf(ve)"
+              ]
+            },
+            {
+              "name": "num_identite",
+              "label": "Numéro d’identité national/ National identity number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "adresse_actuelle",
+              "label": "Adresse actuelle/ Present address",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "tel",
+              "label": "Téléphone/ Phone (Mobile)",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "name": "email",
+              "label": "Email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "titre_voyage1",
+              "label": "Type de passeport/ Passport type",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Ordinaire",
+                "Service",
+                "Diplomatique",
+                "Spécial",
+                "Réfugiés",
+                "Laissez passer Nations Unies",
+                "Laissez passer Union Européenne",
+                "Laissez passer Union Africaine",
+                "Autres"
+              ]
+            },
+            {
+              "name": "profession",
+              "label": "Profession/ Occupation",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "pj_professionnelle",
+              "label": "Carte professionnelle/ Business card",
+              "type": "file",
+              "required": null
+            },
+            {
+              "name": "pj_autorisation_voyage",
+              "label": "Autorisation de voyager/ Authorization to travel",
+              "type": "file",
+              "required": null
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Etape 2 — Informations sur l'employeur ou établissement d’enseignement",
+          "read": true,
+          "fields": [
+            {
+              "name": "name_employeur",
+              "label": "Nom complet/ Full name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "adresse_employeur",
+              "label": "Adresse/ Address",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "tel_employeur",
+              "label": "Téléphone/ Phone",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "name": "email_employeur",
+              "label": "Email",
+              "type": "email",
+              "required": false
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Etape 3 — Autorité parentale (pour les mineurs)",
+          "read": true,
+          "fields": [
+            {
+              "name": "name_parent",
+              "label": "Nom complet/ Full name",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "adresse_parent",
+              "label": "Adresse/ Address",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "tel_parent",
+              "label": "Téléphone/ Phone",
+              "type": "tel",
+              "required": null
+            },
+            {
+              "name": "email_parent",
+              "label": "Email",
+              "type": "email",
+              "required": false
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Etape 4 — Informations sur la personne ou organisation qui invite",
+          "read": true,
+          "fields": [
+            {
+              "name": "type_invite",
+              "label": "Avez-vous été invité par/ Have you been invited by:",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "UNE ORGANISATION",
+                "UNE PERSONNE"
+              ]
+            },
+            {
+              "name": "name_invite",
+              "label": "Nom complet/ Full name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "adresse_invite",
+              "label": "Adresse/ Address",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "tel_invite",
+              "label": "Téléphone/ Phone",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "name": "email_invite",
+              "label": "Email",
+              "type": "email",
+              "required": false
+            },
+            {
+              "name": "name_contact",
+              "label": "Contacts dans l'organisation/ Contact information in Organization",
+              "type": "text",
+              "required": false
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Etape 5 — Informations sur le passeport",
+          "read": true,
+          "fields": [
+            {
+              "name": "num_passeport",
+              "label": "Numéro passeport/ Passport number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "date_delivrance",
+              "label": "Date de delivrance/ Date of issue",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "validite",
+              "label": "Date d'expiration/ Validity",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "lieu_delivrance",
+              "label": "Autorité de délivrance/ Issuing authority",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "date_precedent_sejour",
+              "label": "Date et adresse du précedent séjour au Mali",
+              "type": "date",
+              "required": false
+            },
+            {
+              "name": "num_vignette",
+              "label": "Numéro du visa précedent/ Previous visa number",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "empreintes",
+              "label": "Empreintes digitales relevées précédemment aux fins d’une demande de visa / Fingerprints previously collected for the purposes of Visa application",
+              "type": "select",
+              "required": true,
+              "options": [
+                "NON",
+                "OUI"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 9,
+          "name": "Etape 6 — Informations sur le visa",
+          "read": true,
+          "fields": [
+            {
+              "name": "urgence_demande",
+              "label": "Type de délivrance/ Type of delivery",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Normal",
+                "Express"
+              ]
+            },
+            {
+              "name": "nbre_entre",
+              "label": "Nombre d’entrées demandées/ Number of requested entries",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Une entrée",
+                "Deux entrées",
+                "Entrées multiples"
+              ]
+            },
+            {
+              "name": "motif_change",
+              "label": "Motif de sejour/ Reason of journey",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Vaccances",
+                "Professionnelle",
+                "Affaires",
+                "Tourisme",
+                "Visite à la famille ou à des amis",
+                "Culture",
+                "Sports",
+                "Visite officielle",
+                "Raisons médicales",
+                "Études",
+                "Transit aéroportuaire",
+                "Autres"
+              ]
+            },
+            {
+              "name": "info_sejour",
+              "label": "Informations complémentaires sur l’objet du voyage/ Additional information on the purpose of the trip",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "name": "lieu_sejour",
+              "label": "Lieu de sejour/ Destination in",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "date_entre_sejour",
+              "label": "Date d'entrée souhaitée/ Effective date of entry",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "indication_lieu_sejour",
+              "label": "Voie d'entrée au Mali/ Entrance route in Mali",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Terrestre",
+                "Aérienne"
+              ]
+            },
+            {
+              "name": "date_sortie_sejour",
+              "label": "Date de sortie prévue/ Expected release date",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "duree_sejour",
+              "label": "Durée du séjour/ Duration of stay",
+              "type": "select",
+              "required": true,
+              "options": [
+                "3 MOIS",
+                "6 MOIS"
+              ]
+            },
+            {
+              "name": "lieu_destination_apres_mali",
+              "label": "Lieu de destination en sortant du Mali/ Destination after leaving Mali",
+              "type": "country",
+              "required": false,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "garantie_rapatriement",
+              "label": "Garantie de rapatriement/ Return garantee",
+              "type": "select",
+              "required": false,
+              "options": [
+                "NON",
+                "OUI"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 10,
+          "name": "Etape 7 — Date souhaitée pour le rendez-vous",
+          "read": true,
+          "fields": [
+            {
+              "label": "DATE SOUHAITEE POUR LE RENDEZ-VOUS",
+              "type": "date",
+              "required": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

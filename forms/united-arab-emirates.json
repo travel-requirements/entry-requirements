@@ -1,0 +1,40 @@
+{
+  "destination": "united-arab-emirates",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "ICP Smart Services — Issuance of a Visa",
+      "appliesTo": [
+        "tourist-evisa-30",
+        "tourist-evisa-60"
+      ],
+      "startUrl": "https://smartservices.icp.gov.ae/echannels/web/client/default.html#/login",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "Sign-in with UAE PASS or a Smart Services account; registration is open only to UAE/GCC citizens and residents, establishments and typing centres, so a visitor applies through a sponsor (hotel, airline, resident) rather than a form of their own",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Sign in",
+          "read": true,
+          "fields": [
+            {
+              "label": "Sign in with UAE PASS",
+              "type": "other",
+              "required": null
+            },
+            {
+              "label": "Use Other Login Option",
+              "type": "other",
+              "required": null
+            }
+          ],
+          "notices": [
+            "Smart Services registration is available for the following categories: Establishments Typing Centers Citizens of the United Arab Emirates and citizens of the Gulf Cooperation Council countries Residents of the United Arab Emirates and residents of the Gulf Cooperation Council countries Individuals under the files of corporate guarantors or guarantors from the Excellencies the Sheikhs",
+            "This service requires you to login using UAE Pass"
+          ]
+        }
+      ]
+    }
+  ]
+}

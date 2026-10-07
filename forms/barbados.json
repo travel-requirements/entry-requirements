@@ -1,0 +1,394 @@
+{
+  "destination": "barbados",
+  "forms": [
+    {
+      "kind": "arrival-card",
+      "title": "Barbados Online Immigration and Customs Form (ED card)",
+      "appliesTo": [
+        "online-travel-form"
+      ],
+      "startUrl": "https://www.travelform.gov.bb/en/create",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "residentialStatus": "Non-Resident/Visitor",
+        "entryType": "Air (and Sea)"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Arrival step: it needs the airline, flight number and arrival date. The later steps cannot be opened by URL (/en/create/personal answers 404; ?step=2 returns the Arrival step), so they were seen by name only",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Arrival (Port / Vessel Information)",
+          "read": true,
+          "fields": [
+            {
+              "label": "What is your residential Status in Barbados?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Permanent Address Is In Barbados",
+                "Non-Resident/Visitor"
+              ]
+            },
+            {
+              "label": "How are you entering Barbados?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Air",
+                "Sea"
+              ]
+            },
+            {
+              "label": "Airline",
+              "type": "text",
+              "required": true,
+              "notes": "Shown for Air; Sea shows \"Vessel Name\" instead"
+            },
+            {
+              "label": "Flight Registration Number",
+              "type": "text",
+              "required": true,
+              "notes": "Shown for Air; Sea shows \"Vessel Registration Number\" instead"
+            },
+            {
+              "label": "Country of Embarkation",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Port of Embarkation (Select a country first)",
+              "type": "select",
+              "required": true
+            },
+            {
+              "label": "Intended Date of Arrival",
+              "type": "date",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Travellers are required to complete the online Immigration and Customs Form which will be available 72 hours prior to your arrival. Fill in the form at a time and place convenient for you. Once the form is completed, the Immigration and Customs receipts should be saved to your mobile device or printed, for presentation to Immigration and Customs upon arrival.",
+            "What do I need? Flight Information / Passport of passengers / A valid email address",
+            "'Country of Embarkation' is the country in which you are boarding the flight/vessel to arrive in Barbados"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Personal",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Travel",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Destination",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Health",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "Family",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 7,
+          "name": "Customs",
+          "read": false,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "kind": "evisa",
+      "title": "12-Month Barbados Welcome Stamp visa application (Form C-5, Immigration Act Cap. 190)",
+      "appliesTo": [
+        "welcome-stamp"
+      ],
+      "startUrl": "https://barbadoswelcomestamp.bb/applynow/",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "applicationType": "New"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Step 1 needs the applicant's name, date of birth and email. Steps 2 to 4 were read from the form markup the page serves with step 1 (they are not displayed until step 1 is filled); nothing was typed or uploaded",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Step 1",
+          "read": true,
+          "fields": [
+            {
+              "name": "Type",
+              "label": "Type of Application",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "New",
+                "Renewal"
+              ]
+            },
+            {
+              "name": "Previous_Visa",
+              "label": "Previous Visa #",
+              "type": "text",
+              "required": null,
+              "notes": "For renewals"
+            },
+            {
+              "name": "Name_First",
+              "label": "Name (First / Middle / Last)",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "Gender",
+              "label": "Gender",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "Male",
+                "Female"
+              ]
+            },
+            {
+              "name": "Date_of_Birth",
+              "label": "Date of Birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "Country_of_birth",
+              "label": "Country of Birth",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "Country_of_citizenship",
+              "label": "Country of Citizenship",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "Former_nationality_if_applicable",
+              "label": "Former Nationality (if applicable)",
+              "type": "country",
+              "required": false,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "Income_Declaration_Consent",
+              "label": "I certify that I expect to earn an income of US$50,000.00 or more over the next 12 months and/or have the means to support myself, my spouse/partner and dependants accompanying me, during my stay in Barbados",
+              "type": "checkbox",
+              "required": null
+            },
+            {
+              "name": "Email",
+              "label": "Applicant Email Address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "Name_of_Employer",
+              "label": "Name of Employer",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "Brief_description_of_type_of_work",
+              "label": "Brief description of type of work / nature of business in which applicant will be engaged",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "name": "Marital_Status",
+              "label": "Marital / Relationship Status",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Single",
+                "Married / Partner",
+                "Divorced",
+                "Widowed"
+              ]
+            },
+            {
+              "name": "Linked",
+              "label": "Is this application linked to an existing application?",
+              "type": "checkbox",
+              "required": null,
+              "options": [
+                "No",
+                "Yes"
+              ]
+            }
+          ],
+          "notices": [
+            "APPLICATION FORM- to be completed by persons over the age of 18",
+            "Applicants wishing to apply under the 12 Month Barbados Welcome Stamp are required to complete and submit the following documents electronically: Passport sized photograph / Bio data page of passport / Proof of relationship of dependants",
+            "Upon approval the following non-refundable fees are applicable: Individual – Fee of US $2,000.00 / Family Bundle- Fee US $3,000.00"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Step 2",
+          "read": true,
+          "fields": [
+            {
+              "name": "Permanent_address_Street_Address",
+              "label": "Permanent address",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "Principal_Applicant_Email",
+              "label": "Email Address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "Telephone_Number",
+              "label": "Telephone Number",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "name": "Emergency_Contact",
+              "label": "Emergency Contact",
+              "type": "text",
+              "required": true
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Passport Details",
+          "read": true,
+          "fields": [
+            {
+              "name": "Passport_Number",
+              "label": "Passport Number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "Date_of_Issue",
+              "label": "Date of Issue",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "Date_of_Expiry",
+              "label": "Date of Expiry",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Country of Issue",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "Proposed_date_of_entry_into_Barbados",
+              "label": "Proposed date of entry into Barbados",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "Convicted_Criminal_Offense",
+              "label": "Have you ever been convicted of a serious criminal offence?",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "Any_Dependent",
+              "label": "Is there any person(s) in the family group (accompanying you) that would be defined as a dependant",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "Yes",
+                "No"
+              ],
+              "notes": "Yes adds, per dependant: name, gender, date and country of birth, citizenship, permanent address, passport number, issue and expiry dates, country of issue"
+            },
+            {
+              "name": "Dependants_attending_school_in_Barbados",
+              "label": "Will dependants be attending school in Barbados?",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Upload Documents",
+          "read": true,
+          "fields": [
+            {
+              "label": "Passport sized photograph",
+              "type": "file",
+              "required": null,
+              "notes": "Applicant and each dependant; .jpeg, .jpg, .png"
+            },
+            {
+              "label": "Bio data page of passport",
+              "type": "file",
+              "required": null,
+              "notes": "Applicant and each dependant; .jpeg, .jpg, .png"
+            },
+            {
+              "name": "DECLARATION_OF_APPLICANT_Consent",
+              "label": "I hereby declare that I, or any member of my family group included in this application, shall not accept any employment from or offer any services to a citizen, permanent resident, immigrant, work permit holder or any person or entity carrying on business in Barbados.",
+              "type": "checkbox",
+              "required": null
+            },
+            {
+              "name": "Consent_Consent",
+              "label": "I hereby certify that the information given by me in this application is true and correct to the best of my knowledge.",
+              "type": "checkbox",
+              "required": null
+            }
+          ],
+          "notices": [
+            "Max file size is 1MB and max number of files is 5.",
+            "I understand and agree that any false information, misrepresentation, or omission of facts in this application and the application process, may be justification for refusal of entry or revocation of status."
+          ]
+        }
+      ]
+    }
+  ]
+}

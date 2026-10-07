@@ -1,0 +1,251 @@
+{
+  "destination": "malaysia",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Malaysia eVISA (MyVISA) — individual application",
+      "appliesTo": [
+        "evisa-single"
+      ],
+      "startUrl": "https://malaysiavisa.imi.gov.my/evisa",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "Sign-in: applications are made from an individual account opened with an email one-time password",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Portal home — announcements and documents to prepare",
+          "read": true,
+          "fields": [
+            {
+              "name": "nationality",
+              "label": "Find Out Your Visa Eligibility — nationality",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            }
+          ],
+          "notices": [
+            "Please be informed that, in accordance with the implementation of the Immigration Department of Malaysia's new visa application policy, effective 1 October 2026, any application in “New Application” or “Pending Payment” status for more than 7 working days will automatically expire and be removed from the “My Application(s)” list. This policy applies to all applications, including those created prior to 1 September 2026.",
+            "Effective 1 September 2026, Multiple Entry Visa (MEV) will no longer be available for all nationalities and will be limited to 31 eligible nationalities for the following purposes: i. Fly & Cruise ii. Business iii. Medical Treatment iv. Wedding Tourism",
+            "All foreign nationals are REQUIRED to register the Malaysia Digital Arrival Card (MDAC) within 3 days before arriving in Malaysia. Passport must be valid for at least six (6) months from the date of entry.",
+            "Before you submit your application, make sure your passport-sized photo complies with the specification below. Non-compliant photos will lead to rejection of your application.",
+            "VTR Application: Plain white background, with no border or frame around the photo.",
+            "Photo size of 35mm (width) × 50mm (height).",
+            "Head height of 30–35mm, measured from chin to crown.",
+            "VTR Visa Without Reference: Passport sized studio photo. Passport biodata page with passport validity more than six (6) months from travel date to Malaysia. Passport page with previous passport number. Round trip flight ticket/ proof of journey. Proof of paid accommodation/hotel booking. Proof of financial support. Birth certificate for minor applicants. Other supporting documents."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Sign in — Individual",
+          "read": true,
+          "fields": [
+            {
+              "label": "Enter Email",
+              "type": "email",
+              "required": null,
+              "notes": "\"Enter email to send one time password\" (SEND OTP); returning users sign in with a password; new users Sign Up"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "arrival-card",
+      "title": "Malaysia Digital Arrival Card (MDAC) — foreign visitor registration",
+      "appliesTo": [
+        "mdac"
+      ],
+      "startUrl": "https://imigresen-online.imi.gov.my/mdac/main?registerMain",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "Both sections of the single registration page were read; nothing was entered or submitted",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Registration — Personal Information",
+          "read": true,
+          "fields": [
+            {
+              "name": "name",
+              "label": "Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "passNo",
+              "label": "Passport No.",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "dob",
+              "label": "Date of Birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "nationality",
+              "label": "Nationality / Citizenship",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "pob",
+              "label": "Place of Birth",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "sex",
+              "label": "Sex",
+              "type": "select",
+              "required": true,
+              "options": [
+                "MALE",
+                "FEMALE"
+              ]
+            },
+            {
+              "name": "passExpDte",
+              "label": "Date of Passport Expiry",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "email",
+              "label": "Email Address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "confirmEmail",
+              "label": "Confirm Email Address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "region",
+              "label": "Country / Region Code",
+              "type": "select",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "mobile",
+              "label": "Mobile No.",
+              "type": "tel",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Travellers carrying cash or bearer negotiable instruments more than USD 10,000 equivalent must declare to customs.",
+            "Travellers are not allowed to carry Malaysian Ringgit more than USD 10,000 equivalent without permission from Bank Negara Malaysia."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Registration — Traveling Information",
+          "read": true,
+          "fields": [
+            {
+              "name": "arrDt",
+              "label": "Date of Arrival",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "depDt",
+              "label": "Date of Departure",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "vesselNm",
+              "label": "Flight / Vessel / Transportation No.",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "trvlMode",
+              "label": "Mode of Travel",
+              "type": "select",
+              "required": true,
+              "options": [
+                "AIR",
+                "LAND",
+                "SEA"
+              ]
+            },
+            {
+              "name": "embark",
+              "label": "Last Port of Embarkation before Malaysia",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "accommodationStay",
+              "label": "Accommodation of Stay",
+              "type": "select",
+              "required": true,
+              "options": [
+                "HOTEL/MOTEL/REST HOUSE",
+                "RESIDENCE OF FRIENDS/RELATIVES",
+                "OTHERS"
+              ]
+            },
+            {
+              "name": "accommodationAddress1",
+              "label": "Address (In Malaysia)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "accommodationState",
+              "label": "State",
+              "type": "select",
+              "required": true,
+              "notes": "Malaysian states"
+            },
+            {
+              "name": "accommodationPostcode",
+              "label": "Postcode",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "accommodationCity",
+              "label": "City",
+              "type": "select",
+              "required": true
+            }
+          ],
+          "notices": [
+            "**  Please note that your trip must be within 3 days (including the date of submission)",
+            "**Please key-in alphanumeric only"
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Drag To Verify (slider check) and submit",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

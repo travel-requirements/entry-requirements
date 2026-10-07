@@ -1,0 +1,230 @@
+{
+  "destination": "mexico",
+  "forms": [
+    {
+      "kind": "eta",
+      "title": "Mexico Electronic Authorization (SAE, INM)",
+      "appliesTo": [
+        "sae"
+      ],
+      "startUrl": "https://www.inm.gob.mx/sae/publico/en/solicitud.html",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "The single-page form was read whole; it starts with personal data, so nothing was entered or saved",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Electronic authorization (single page)",
+          "read": true,
+          "fields": [
+            {
+              "name": "nombre",
+              "label": "Name(s)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "apellidos",
+              "label": "Surname(s)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "sexo",
+              "label": "Sex",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Female",
+                "Male"
+              ]
+            },
+            {
+              "name": "fechaNacimiento",
+              "label": "Birth date",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "nacionalidad",
+              "label": "Current nationality",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Russian Federation",
+                "Turkey",
+                "Ukraine"
+              ]
+            },
+            {
+              "name": "estadoCivil",
+              "label": "Marital status",
+              "type": "select",
+              "required": false,
+              "options": [
+                "Married",
+                "Divorced",
+                "Single",
+                "Common marriage",
+                "Widowed"
+              ]
+            },
+            {
+              "name": "paisNacimiento",
+              "label": "Place of birth — Country",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "tipoDocumentoPasaporte",
+              "label": "Identification document",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Travel Document",
+                "Passport"
+              ]
+            },
+            {
+              "name": "numeroPasaporte",
+              "label": "Document number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "paisExpedicionPasaporte",
+              "label": "Issuing country",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Russian Federation",
+                "Turkey",
+                "Ukraine"
+              ]
+            },
+            {
+              "name": "fechaExpedicionPasaporte",
+              "label": "Issuance date",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "fechaVencimientoPasaporte",
+              "label": "Expiration date",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "motivo",
+              "label": "Purpose of your visit",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Tourism",
+                "Business",
+                "Other"
+              ]
+            },
+            {
+              "name": "residencia",
+              "label": "Country where you live",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "fechaViaje",
+              "label": "Date of planned trip",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "tiempoViaje",
+              "label": "Days planning to stay in Mexico",
+              "type": "number",
+              "required": true
+            },
+            {
+              "name": "visitoMexico",
+              "label": "Have you ever visited Mexico?",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "religion",
+              "label": "Religion",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Roman catholic",
+                "Ortodox",
+                "Protestant",
+                "Other christian religion",
+                "Jewish",
+                "Buddhist",
+                "Hinduism",
+                "Islamic",
+                "Other religion",
+                "No religion (atheistic)"
+              ]
+            },
+            {
+              "name": "actividad",
+              "label": "Present occupation",
+              "type": "select",
+              "required": false,
+              "options": [
+                "Work",
+                "Study",
+                "Housework",
+                "Retired / pensioner",
+                "Minister of religion",
+                "Unemployed",
+                "Minor dependent"
+              ]
+            },
+            {
+              "name": "expulsado",
+              "label": "Have you ever been deported from Mexico?",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "antecedentes",
+              "label": "Do you have criminal records?",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "captcha",
+              "label": "Verification code",
+              "type": "text",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Important: In order to complete and print out your application form, please unblock your Web Browser pop-ups and verify that Adobe Reader is installed on your computer. Make sure all the information entered is correct and accurate, otherwise your application will be denied or your trip to Mexico will not be authorized.",
+            "Important notice for nationals of the Federative Republic of Brazil: Please be advised that starting February 5, 2026, you will be able to apply for the electronic visa through the following link. https://visaelectronica.sre.gob.mx/ingresar"
+          ]
+        }
+      ]
+    }
+  ]
+}

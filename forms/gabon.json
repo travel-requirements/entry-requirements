@@ -1,0 +1,245 @@
+{
+  "destination": "gabon",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Gabon e-Visa (Electronic Travel Authorisation), DGDI",
+      "appliesTo": [
+        "evisa-single",
+        "evisa-multiple"
+      ],
+      "startUrl": "https://evisa.dgdi.ga/#/apply",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "eVisaType": "Single",
+        "duration": "One (1) Month"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Step 2 (Fill the form): it needs the applicant's name, passport data, email and a contact in Gabon. Its fields were read without typing; steps 3 and 4 were seen by name only",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Select e-Visa Type",
+          "read": true,
+          "fields": [
+            {
+              "name": "categories",
+              "label": "e-Visa type",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Single",
+                "Multiple"
+              ]
+            },
+            {
+              "name": "permitDurations",
+              "label": "e-Visa duration",
+              "type": "select",
+              "required": true,
+              "notes": "Filled once a type is chosen; Single offered \"One (1) Month\" in the next step"
+            }
+          ],
+          "notices": [
+            "All fields marked * are mandatory fields",
+            "Currently e-Visas are valid only for those wanting to visit Gabon by air via Leon Mba International Airport in Libreville.",
+            "The visa application form should be completed on-line and include a copy of the passport data page, the date of validity of at least six months and a color photograph from less than 6 months of size 35 * 45 mm and has neither overexposure or underexposure.",
+            "The applicant for e-Visa should not travel before the arrival date specified in the registration or take the risk of traveling without having received the Travel Authorization Receipt. Applicants who do not respect these instructions will be drived back in accordance with Law N°5/86 of 18 June 1986, laying down the admission regime and stay of foreigners in the Gabonese republic.",
+            "From one (1) to three (3) months single entry, the cost is 70 EUR or 45000 XAF + 15 EUR as file processing fee. For six (6) months with multiple entries which cost 185 EUR or 120000 XAF + 15 EUR as file processing fee. Payments are made on arrival at the delivery of the e-visa sticker",
+            "The application processing time is 72 hours, after ETA reception. ETA request cannot be processed in a shorter period."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Fill the form",
+          "read": true,
+          "fields": [
+            {
+              "name": "givenName",
+              "label": "First name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "surname",
+              "label": "Last name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "birthday",
+              "label": "Date of birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "nationality",
+              "label": "Nationality",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "gender",
+              "label": "Gender",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Female",
+                "Male"
+              ]
+            },
+            {
+              "name": "placeOfBirth",
+              "label": "Place of birth",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "profession",
+              "label": "Profession",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "email",
+              "label": "eMail",
+              "type": "email",
+              "required": true,
+              "notes": "Email address where the e-Visa will be sent"
+            },
+            {
+              "name": "comfirmEmail",
+              "label": "Confirm email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "documentNumber",
+              "label": "Passport number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "documentType",
+              "label": "Passport type",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Ordinary Passport",
+                "Diplomatic Passport",
+                "Service Passport",
+                "Special Passport"
+              ]
+            },
+            {
+              "name": "issuingCountry",
+              "label": "Passport country",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "dateOfIssue",
+              "label": "Passport date of issue",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "dateOfExpiry",
+              "label": "Passport date of expiry",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Trip duration",
+              "type": "select",
+              "required": true,
+              "options": [
+                "One (1) Month"
+              ]
+            },
+            {
+              "name": "dateOfArrival",
+              "label": "Date of arrival",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "purposeOfVisit",
+              "label": "Purpose of visit",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Tourism",
+                "Business",
+                "Family Visit",
+                "Medical reason",
+                "Other",
+                "Friendly Visit",
+                "Professional",
+                "Fair or Event",
+                "Mission"
+              ]
+            },
+            {
+              "name": "contactFullName",
+              "label": "Contact in Gabon — Full name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "contactActingOn",
+              "label": "Acting on",
+              "type": "text",
+              "required": true,
+              "notes": "Enter the company name or the hotel name or « Moi-même » if you act for your own"
+            },
+            {
+              "name": "contactFullAddress",
+              "label": "Full address",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "contactPhoneNumber",
+              "label": "Phone number",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "name": "confirmation",
+              "label": "I confirm that all information provided in this form is accurate and valid",
+              "type": "checkbox",
+              "required": true
+            },
+            {
+              "label": "Validation (anti-spam question)",
+              "type": "text",
+              "required": true
+            }
+          ],
+          "notices": [
+            "All fields must be filled in accordance with the passport information"
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Add documents",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Submit",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

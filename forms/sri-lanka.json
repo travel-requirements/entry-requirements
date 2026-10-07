@@ -1,0 +1,1081 @@
+{
+  "destination": "sri-lanka",
+  "forms": [
+    {
+      "kind": "eta",
+      "title": "Sri Lanka ETA — Tourist, individual",
+      "appliesTo": [
+        "tourist-eta"
+      ],
+      "startUrl": "https://www.eta.gov.lk/slvisa/visainfo/center.jsp?locale=en_US",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "applicationType": "individual"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Applicant Information (the form is one page of personal data); the Review, Payment and Confirmation steps are named in the process list",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Terms & Conditions",
+          "read": true,
+          "fields": [
+            {
+              "name": "terms",
+              "label": "I Agree / I do not Agree",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "I Agree",
+                "I do not Agree"
+              ]
+            }
+          ],
+          "notices": [
+            "I understand that possession of an ETA does not entitle me to enter Sri Lanka upon arrival at a port of entry if I am found inadmissible.",
+            "1. All ETA holders should be able to prove: (i) A round trip ticket to show at the port of entry in Sri Lanka (only if you are travelling by air). (ii) Evidence of sufficient funds to cover your expenses in Sri Lanka.",
+            "2. Employment: Holder of ETA, should not engage in any form of employment, paid or unpaid, or in any trade or business other than specified in the ETA, during the period of his/her stay in Sri Lanka.",
+            "3. Fees and Payments: Tourist visa (ETA) for the nationals of the 40 countries, as well as nationals of Seychelles and Singapore for period of 30 days and, nationals of Maldives for 90 days, shall be granted free of charge. Please note that ETA fees paid by the applicants prior to 25.05.2026 are non-refundable.",
+            "You agree that your credit card(s) will be billed immediately after submission of your application. Requirements and Fees related to processing of your application are subject to change from time to time and you agree that the ETA processing fee once paid by you is not refundable and not transferable.",
+            "You must recheck/cross-check the above information to ensure that it has been entered correctly. You will be required to pay for the visa again upon arrival in case of any inconsistency in the above particulars.",
+            "You must make sure that the same travel document which was used for applying online visa is used for entering into Sri Lanka. In the event you produce a travel document other than the one used for applying online visa, you are required to pay again on arrival for the visa."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Select ETA type and applicant",
+          "read": true,
+          "fields": [
+            {
+              "label": "ETA type",
+              "type": "other",
+              "required": null,
+              "options": [
+                "Tourist ETA",
+                "Business Purpose ETA",
+                "Transit ETA"
+              ],
+              "notes": "Each offers Apply for an Individual / Apply for a Group / Apply for a Third Party"
+            }
+          ],
+          "notices": [
+            "ETA application process: 1.Submit Application — Fill all mandatory fields and submit your ETA application; 2.Review Information; 3.Payment Options; 4.ETA Confirmation"
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Applicant Information, Travel Information, Contact Details, Declaration",
+          "read": true,
+          "fields": [
+            {
+              "name": "surname",
+              "label": "Surname/Family Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "othernames",
+              "label": "Other/Given Names",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "title",
+              "label": "Title",
+              "type": "select",
+              "required": true,
+              "options": [
+                "DR",
+                "MASTER",
+                "MISS",
+                "MR",
+                "MRS",
+                "MS",
+                "REV"
+              ]
+            },
+            {
+              "name": "bdate",
+              "label": "Date of Birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "reenteredbdate",
+              "label": "Re Enter Date of Birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "gender",
+              "label": "Gender",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Male",
+                "Female"
+              ]
+            },
+            {
+              "name": "national",
+              "label": "Nationality",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "conbirth",
+              "label": "Country or Region of Birth",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "occupation",
+              "label": "Occupation",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "passportno",
+              "label": "Passport Number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "reenteredpassportno",
+              "label": "Re Enter Passport Number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "pidate",
+              "label": "Passport Issued Date",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "pedate",
+              "label": "Passport Expiry Date",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "redDep",
+              "label": "Child information in parent's passport (Enable)",
+              "type": "checkbox",
+              "required": false,
+              "notes": "Surname, Other Names, Date of Birth, Gender, Relationship (Child)"
+            },
+            {
+              "name": "fromDeparture",
+              "label": "Where you have been during last 14 days before this travel",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "RequestedVisaDays",
+              "label": "Visa Required Days",
+              "type": "select",
+              "required": true,
+              "options": [
+                "30",
+                "90"
+              ]
+            },
+            {
+              "name": "iadate",
+              "label": "Intended Arrival Date",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "puofvisit",
+              "label": "Purpose of Visit",
+              "type": "select",
+              "required": true,
+              "options": [
+                "M.I.C.E Tourism (Meetings, Incentives, Conferences & Exhibitions/Events)",
+                "Medical treatment including Ayurvedic (herbal)",
+                "Participate in Art, Music, and Dance Events",
+                "Participate in Pilgrimages",
+                "Participate in Sport Events",
+                "Participate in Weddings",
+                "Sightseeing or Holidaying",
+                "Visiting friends and relatives"
+              ]
+            },
+            {
+              "name": "depcity",
+              "label": "Port of Departure",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "airline",
+              "label": "Airline/Vessel",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "flightno",
+              "label": "Flight/Vessel Number",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "addone",
+              "label": "Address Line 1",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "addtwo",
+              "label": "Address Line 2",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "city",
+              "label": "City",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "state",
+              "label": "State",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "zipcode",
+              "label": "Zip/Postal Code",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "adcountry",
+              "label": "Country or Region",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "addinsl",
+              "label": "Address in Sri Lanka",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "name": "email",
+              "label": "Email Address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "reenteremail",
+              "label": "Re Enter Email Address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "telephon",
+              "label": "Telephone Number",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "name": "mobileno",
+              "label": "Mobile Number",
+              "type": "tel",
+              "required": false
+            },
+            {
+              "name": "faxno",
+              "label": "Fax Number",
+              "type": "tel",
+              "required": false
+            },
+            {
+              "label": "1 . Do you have a valid residence visa to Sri Lanka?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "2 . Are you currently in Sri Lanka with a valid ETA or obtained an extension of visa?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "3 . Do you have a multiple entry visa to Sri Lanka?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "conf",
+              "label": "I would like to confirm the above information is correct.",
+              "type": "checkbox",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Important - Tourist ETA can be used only for the purpose of Tourism. Any other purposes shall not be entertained through this scheme and please refrain from applying to avoid unnecessary hassles at the port of entry.",
+            "All information should be entered as per the applicant's passport",
+            "Children under 16 years of age possessing separate passport(s) should submit individual application(s)",
+            "Intended Arrival Date: When do you intend to travel to Sri Lanka?Please select the date you intend to enter Sri Lanka. An ETA is valid for up to 03 month from date of issue."
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Review Information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Payment Options",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "ETA Confirmation",
+          "read": false,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "kind": "eta",
+      "title": "Sri Lanka ETA — Business Purpose, individual",
+      "appliesTo": [
+        "business-eta"
+      ],
+      "startUrl": "https://www.eta.gov.lk/slvisa/visainfo/center.jsp?locale=en_US",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "applicationType": "individual"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Applicant Information (the form is one page of personal data); the Review, Payment and Confirmation steps are named in the process list",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Terms & Conditions",
+          "read": true,
+          "fields": [
+            {
+              "name": "terms",
+              "label": "I Agree / I do not Agree",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "I Agree",
+                "I do not Agree"
+              ]
+            }
+          ],
+          "notices": [
+            "I understand that possession of an ETA does not entitle me to enter Sri Lanka upon arrival at a port of entry if I am found inadmissible.",
+            "1. All ETA holders should be able to prove: (i) A round trip ticket to show at the port of entry in Sri Lanka (only if you are travelling by air). (ii) Evidence of sufficient funds to cover your expenses in Sri Lanka.",
+            "2. Employment: Holder of ETA, should not engage in any form of employment, paid or unpaid, or in any trade or business other than specified in the ETA, during the period of his/her stay in Sri Lanka.",
+            "3. Fees and Payments: Tourist visa (ETA) for the nationals of the 40 countries, as well as nationals of Seychelles and Singapore for period of 30 days and, nationals of Maldives for 90 days, shall be granted free of charge. Please note that ETA fees paid by the applicants prior to 25.05.2026 are non-refundable.",
+            "You agree that your credit card(s) will be billed immediately after submission of your application. Requirements and Fees related to processing of your application are subject to change from time to time and you agree that the ETA processing fee once paid by you is not refundable and not transferable.",
+            "You must recheck/cross-check the above information to ensure that it has been entered correctly. You will be required to pay for the visa again upon arrival in case of any inconsistency in the above particulars.",
+            "You must make sure that the same travel document which was used for applying online visa is used for entering into Sri Lanka. In the event you produce a travel document other than the one used for applying online visa, you are required to pay again on arrival for the visa."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Select ETA type and applicant",
+          "read": true,
+          "fields": [
+            {
+              "label": "ETA type",
+              "type": "other",
+              "required": null,
+              "options": [
+                "Tourist ETA",
+                "Business Purpose ETA",
+                "Transit ETA"
+              ],
+              "notes": "Each offers Apply for an Individual / Apply for a Group / Apply for a Third Party"
+            }
+          ],
+          "notices": [
+            "ETA application process: 1.Submit Application — Fill all mandatory fields and submit your ETA application; 2.Review Information; 3.Payment Options; 4.ETA Confirmation"
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Applicant Information, Travel Information, Contact Details, Declaration",
+          "read": true,
+          "fields": [
+            {
+              "name": "surname",
+              "label": "Surname/Family Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "othernames",
+              "label": "Other/Given Names",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "title",
+              "label": "Title",
+              "type": "select",
+              "required": true,
+              "options": [
+                "DR",
+                "MASTER",
+                "MISS",
+                "MR",
+                "MRS",
+                "MS",
+                "REV"
+              ]
+            },
+            {
+              "name": "bdate",
+              "label": "Date of Birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "reenteredbdate",
+              "label": "Re Enter Date of Birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "gender",
+              "label": "Gender",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Male",
+                "Female"
+              ]
+            },
+            {
+              "name": "national",
+              "label": "Nationality",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "conbirth",
+              "label": "Country or Region of Birth",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "occupation",
+              "label": "Occupation",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "passportno",
+              "label": "Passport Number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "reenteredpassportno",
+              "label": "Re Enter Passport Number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "pidate",
+              "label": "Passport Issued Date",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "pedate",
+              "label": "Passport Expiry Date",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "redDep",
+              "label": "Child information in parent's passport (Enable)",
+              "type": "checkbox",
+              "required": false,
+              "notes": "Surname, Other Names, Date of Birth, Gender, Relationship (Child)"
+            },
+            {
+              "name": "fromDeparture",
+              "label": "Where you have been during last 14 days before this travel",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "iadate",
+              "label": "Intended Arrival Date",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "puofvisit",
+              "label": "Purpose of Visit",
+              "type": "select",
+              "required": true,
+              "options": [
+                "PARTICIPATE IN BUSINESS MEETINGS AND NEGOTIATIONS",
+                "SHORT TERM TRAINING PROGRAMS"
+              ]
+            },
+            {
+              "label": "Purpose Description",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "name": "depcity",
+              "label": "Port of Departure",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "airline",
+              "label": "Airline/Vessel",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "flightno",
+              "label": "Flight/Vessel Number",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "addone",
+              "label": "Address Line 1",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "addtwo",
+              "label": "Address Line 2",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "city",
+              "label": "City",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "state",
+              "label": "State",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "zipcode",
+              "label": "Zip/Postal Code",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "adcountry",
+              "label": "Country or Region",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "addinsl",
+              "label": "Address in Sri Lanka",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "name": "email",
+              "label": "Email Address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "reenteremail",
+              "label": "Re Enter Email Address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "telephon",
+              "label": "Telephone Number",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "name": "mobileno",
+              "label": "Mobile Number",
+              "type": "tel",
+              "required": false
+            },
+            {
+              "name": "faxno",
+              "label": "Fax Number",
+              "type": "tel",
+              "required": false
+            },
+            {
+              "label": "1 . Do you have a valid residence visa to Sri Lanka?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "2 . Do you have a multiple entry visa to Sri Lanka?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "3 . Are you currently in Sri Lanka with a valid ETA or obtained an extension of visa?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "conf",
+              "label": "I would like to confirm the above information is correct.",
+              "type": "checkbox",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Important - Business ETA can be used only for the purpose of short term business matters. Any other purposes shall not be entertained through this scheme and please refrain from applying to avoid unnecessary hassles at the port of entry.",
+            "All information should be entered as per the applicant's passport",
+            "Children under 16 years of age possessing separate passport(s) should submit individual application(s)",
+            "Intended Arrival Date: When do you intend to travel to Sri Lanka?Please select the date you intend to enter Sri Lanka. An ETA is valid for up to 03 month from date of issue."
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Review Information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Payment Options",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "ETA Confirmation",
+          "read": false,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "kind": "eta",
+      "title": "Sri Lanka ETA — Transit, individual",
+      "appliesTo": [
+        "transit-eta"
+      ],
+      "startUrl": "https://www.eta.gov.lk/slvisa/visainfo/center.jsp?locale=en_US",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "applicationType": "individual"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Applicant Information (the form is one page of personal data); the Review, Payment and Confirmation steps are named in the process list",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Terms & Conditions",
+          "read": true,
+          "fields": [
+            {
+              "name": "terms",
+              "label": "I Agree / I do not Agree",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "I Agree",
+                "I do not Agree"
+              ]
+            }
+          ],
+          "notices": [
+            "I understand that possession of an ETA does not entitle me to enter Sri Lanka upon arrival at a port of entry if I am found inadmissible.",
+            "1. All ETA holders should be able to prove: (i) A round trip ticket to show at the port of entry in Sri Lanka (only if you are travelling by air). (ii) Evidence of sufficient funds to cover your expenses in Sri Lanka.",
+            "2. Employment: Holder of ETA, should not engage in any form of employment, paid or unpaid, or in any trade or business other than specified in the ETA, during the period of his/her stay in Sri Lanka.",
+            "3. Fees and Payments: Tourist visa (ETA) for the nationals of the 40 countries, as well as nationals of Seychelles and Singapore for period of 30 days and, nationals of Maldives for 90 days, shall be granted free of charge. Please note that ETA fees paid by the applicants prior to 25.05.2026 are non-refundable.",
+            "You agree that your credit card(s) will be billed immediately after submission of your application. Requirements and Fees related to processing of your application are subject to change from time to time and you agree that the ETA processing fee once paid by you is not refundable and not transferable.",
+            "You must recheck/cross-check the above information to ensure that it has been entered correctly. You will be required to pay for the visa again upon arrival in case of any inconsistency in the above particulars.",
+            "You must make sure that the same travel document which was used for applying online visa is used for entering into Sri Lanka. In the event you produce a travel document other than the one used for applying online visa, you are required to pay again on arrival for the visa."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Select ETA type and applicant",
+          "read": true,
+          "fields": [
+            {
+              "label": "ETA type",
+              "type": "other",
+              "required": null,
+              "options": [
+                "Tourist ETA",
+                "Business Purpose ETA",
+                "Transit ETA"
+              ],
+              "notes": "Each offers Apply for an Individual / Apply for a Group / Apply for a Third Party"
+            }
+          ],
+          "notices": [
+            "ETA application process: 1.Submit Application — Fill all mandatory fields and submit your ETA application; 2.Review Information; 3.Payment Options; 4.ETA Confirmation"
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Applicant Information, Travel Information, Contact Details, Declaration",
+          "read": true,
+          "fields": [
+            {
+              "name": "surname",
+              "label": "Surname/Family Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "othernames",
+              "label": "Other/Given Names",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "title",
+              "label": "Title",
+              "type": "select",
+              "required": true,
+              "options": [
+                "DR",
+                "MASTER",
+                "MISS",
+                "MR",
+                "MRS",
+                "MS",
+                "REV"
+              ]
+            },
+            {
+              "name": "bdate",
+              "label": "Date of Birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "reenteredbdate",
+              "label": "Re Enter Date of Birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "gender",
+              "label": "Gender",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Male",
+                "Female"
+              ]
+            },
+            {
+              "name": "national",
+              "label": "Nationality",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "conbirth",
+              "label": "Country or Region of Birth",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "occupation",
+              "label": "Occupation",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "passportno",
+              "label": "Passport Number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "reenteredpassportno",
+              "label": "Re Enter Passport Number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "pidate",
+              "label": "Passport Issued Date",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "pedate",
+              "label": "Passport Expiry Date",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "redDep",
+              "label": "Child information in parent's passport (Enable)",
+              "type": "checkbox",
+              "required": false,
+              "notes": "Surname, Other Names, Date of Birth, Gender, Relationship (Child)"
+            },
+            {
+              "name": "fromDeparture",
+              "label": "Where you have been during last 14 days before this travel",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "iadate",
+              "label": "Intended Arrival Date",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "puofvisit",
+              "label": "Purpose of Visit",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Transiting through Sri Lanka"
+              ]
+            },
+            {
+              "name": "depcity",
+              "label": "Port of Departure",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "intdDates",
+              "label": "Intended stay in days",
+              "type": "select",
+              "required": true,
+              "options": [
+                "1 days",
+                "2 days"
+              ]
+            },
+            {
+              "name": "airline",
+              "label": "Airline/Vessel",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "flightno",
+              "label": "Flight/Vessel Number",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "addone",
+              "label": "Address Line 1",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "addtwo",
+              "label": "Address Line 2",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "city",
+              "label": "City",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "state",
+              "label": "State",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "zipcode",
+              "label": "Zip/Postal Code",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "adcountry",
+              "label": "Country or Region",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "addinsl",
+              "label": "Address in Sri Lanka",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "name": "email",
+              "label": "Email Address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "reenteremail",
+              "label": "Re Enter Email Address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "telephon",
+              "label": "Telephone Number",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "name": "mobileno",
+              "label": "Mobile Number",
+              "type": "tel",
+              "required": false
+            },
+            {
+              "name": "faxno",
+              "label": "Fax Number",
+              "type": "tel",
+              "required": false
+            },
+            {
+              "label": "1 . Do you have a valid residence visa to Sri Lanka?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "2 . Do you have a multiple entry visa to Sri Lanka?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "3 . Are you currently in Sri Lanka and possess an ETA ?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "conf",
+              "label": "I would like to confirm the above information is correct.",
+              "type": "checkbox",
+              "required": true
+            }
+          ],
+          "notices": [
+            "All information should be entered as per the applicant's passport",
+            "Children under 16 years of age possessing separate passport(s) should submit individual application(s)",
+            "Intended Arrival Date: When do you intend to travel to Sri Lanka?Please select the date you intend to enter Sri Lanka. An ETA is valid for up to 03 month from date of issue."
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Review Information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Payment Options",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "ETA Confirmation",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

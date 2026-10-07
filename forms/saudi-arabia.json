@@ -1,0 +1,111 @@
+{
+  "destination": "saudi-arabia",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Saudi tourist eVisa (visa.visitsaudi.com) — create eVisa account",
+      "appliesTo": [
+        "tourist-evisa"
+      ],
+      "startUrl": "https://visa.visitsaudi.com/Registration/Verify",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "Account creation: the application is made from an eVisa account activated by an emailed link; the walk stopped before any account data",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Create eVisa account — passport and nationality",
+          "read": true,
+          "fields": [
+            {
+              "name": "PassportType",
+              "label": "Passport Type",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Regular Passport"
+              ]
+            },
+            {
+              "name": "Nationality",
+              "label": "Country of Nationality",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ],
+              "notes": "Lists the eligible nationalities (70 options)"
+            },
+            {
+              "name": "CaptchaCode",
+              "label": "Captcha",
+              "type": "text",
+              "required": null
+            }
+          ],
+          "notices": [
+            "In case your nationality country is not eligible for eVisa, please contact the nearest embassy of Saudi Arabia"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Account details and activation",
+          "read": false,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "kind": "eta",
+      "title": "Ministry of Foreign Affairs unified visa platform (visa.mofa.gov.sa) — visitor services",
+      "appliesTo": [
+        "eta",
+        "visa-waiver"
+      ],
+      "startUrl": "https://visa.mofa.gov.sa/Home/Index2?service_type=1",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "Sign-in: both the embassy visa application and the electronic visa waiver (الاعفاء الالكتروني من التأشيرة) open the same visitor login (Account/Loginindividuals)",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Visitor services",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "طلب الحصول على تأشيرة من الممثليات السعودية بالخارج — خدمة تتيح للأفراد والشركات او المكاتب المعتمدة تقديم طلبات تأشيرات الدخول للمملكة",
+            "الاعفاء الالكتروني من التأشيرة"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Sign in — visitors (unified national visa platform account)",
+          "read": true,
+          "fields": [
+            {
+              "name": "UserName",
+              "label": "البريد الإلكتروني",
+              "type": "email",
+              "required": null
+            },
+            {
+              "name": "Password",
+              "label": "كلمة المرور",
+              "type": "other",
+              "required": null
+            },
+            {
+              "name": "Captcha",
+              "label": "رمز الصورة",
+              "type": "text",
+              "required": null
+            }
+          ],
+          "notices": [
+            "يجب عليك الدخول ببيانات التسجيل التى قمت بإنشاءها في عملية التسجيل لاستكمال عملية تقديم طلب تأشيرة. يجب أن يكون هناك على الأقل طلب تأشيرة واحدة قيد الإعداد ولم يمضي عليه أكثر من 30 يوم من تاريخ إنشاء الحساب"
+          ]
+        }
+      ]
+    }
+  ]
+}

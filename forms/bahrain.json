@@ -1,0 +1,270 @@
+{
+  "destination": "bahrain",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Bahrain eVisa (NPRA) — Visit Visa, 2 Weeks Single Entry",
+      "appliesTo": [
+        "evisa-tourist",
+        "voa-tourist"
+      ],
+      "startUrl": "https://www.evisa.gov.bh/VISA/visaInput?nav=A0S&A0S=a",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "gccResidency": "NO",
+        "purpose": "General Visit",
+        "detailedPurpose": "Tourism",
+        "nationality": "Poland",
+        "visa": "Visit Visa - 2 Weeks Single Entry",
+        "familyMembers": "NO"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Applicant details (passport number, names, date of birth); the conditions of all six visa types offered to Poland were read",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Visa Selection Criteria",
+          "read": true,
+          "fields": [
+            {
+              "name": "gccResidency",
+              "label": "Do you have a current valid Residence Permit or Visit Visa for a GCC country?",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "YES",
+                "NO"
+              ]
+            },
+            {
+              "name": "gccCountry",
+              "label": "If YES, select the country",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Kuwait",
+                "Oman",
+                "Qatar",
+                "Saudi Arabia",
+                "United Arab Emirates"
+              ]
+            },
+            {
+              "name": "purposeOfVisit",
+              "label": "Purpose of your visit",
+              "type": "select",
+              "required": null,
+              "options": [
+                "General Visit",
+                "Investment",
+                "Self-Sponsor (Residence Permit)"
+              ]
+            },
+            {
+              "name": "detailedPurpose",
+              "label": "Detailed purpose",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Tourism",
+                "Family Visit",
+                "Business Meeting",
+                "Other"
+              ]
+            },
+            {
+              "name": "nationality",
+              "label": "Nationality as shown in your passport",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "captchaInput",
+              "label": "Captcha",
+              "type": "text",
+              "required": null
+            }
+          ],
+          "notices": [
+            "Please answer the following questions to determine which visas you are eligible for:"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Visa Type Selection",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "From the information you have supplied, you are eligible to apply for the following visa types:",
+            "Online: VB-01 Visit Visa - 2 Weeks Single Entry (Single, 2 Weeks); VJ-01 Visit Visa - Three Months Multiple Entry (Multiple, 1 Month); VO-01 Visit Visa - One Year Multiple Entry (Multiple, 90 Days); VT-03 Visit Visa - 5 Years Multiple Entry (Multiple, 90 Days)",
+            "Via Embassy: No Visa avilable to apply. Via Causeway: No Visa avilable to apply.",
+            "On-Arrival: C2-03 Visit Visa - 2 Weeks Single Entry (Single, 2 Weeks, Arrival Counter); V0-09 Visit Visa - Three Months Multiple Entry (Multiple, 1 Month, Arrival Counter)"
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Visa Conditions (See Conditions)",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "Applicant must be outside the Kingdom of Bahrain when applying for this visa.",
+            "If the visa expires before entry to the Kingdom of Bahrain, the applicant must apply again and another fee must be paid.",
+            "Passport must be valid for at least six months.",
+            "Applicant must not take up any paid or unpaid employment during his visit to Kingdom of Bahrain.",
+            "The visa can be used only once, for a single entry.",
+            "Length of stay allowed is 2 weeks.",
+            "If applicable extensions can be done at Nationality, Passports and Residence Affairs office (NPRA) or online.",
+            "Required Documents: Copy of the applicant’s passport. (Family Page and any additional information page). Copy of valid confirmed return air ticket. Copy of hotel booking in Kingdom of Bahrain. Alternately, in case you are staying with a relative/friend, please provide a copy of their ID reader's print out.",
+            "Fees: Application fee:BD 5.000 (payable on submitting the application - Non-refundable) Visa fee:BD 5.000 (payable on approval of the application) Total fee:BD 10.000",
+            "The refund process will take at least 45 days, starting from the refund request date.",
+            "Once the visa application is approved, visa fee has to be paid within a month.",
+            "After the visa is paid for and issued, applicant can enter the Kingdom of Bahrain until three months from the issuance date. If the visa is not used within three months, applicant has to apply and pay fees again.",
+            "Visit Visa - 5 Years Multiple Entry, Required Documents: Copy of a bank statement under the visitor's name covering the last three months with an ending balance of not less than the equivalent of USD 1000.",
+            "Visit Visa - 2 Weeks Single Entry on arrival: Proof of valid confirmed return air ticket. If requested by the passport officer the visitor must prove he/she is able to support himself and dependents during stay. If requested by the passport officer the visitor must have proof of accommodation. Visa fee:BD 5.000"
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Family members",
+          "read": true,
+          "fields": [
+            {
+              "name": "familyMembers",
+              "label": "Are you intending to travel to Bahrain with other family members?",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "NO",
+                "YES"
+              ]
+            }
+          ],
+          "notices": [
+            "You must complete the application details for the primary applicant first.",
+            "Note: If you are travelling to Bahrain with other family members, you must submit and pay for all visa applications together."
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Disclaimer",
+          "read": true,
+          "fields": [
+            {
+              "name": "ACK",
+              "label": "I Accept",
+              "type": "other",
+              "required": null
+            }
+          ],
+          "notices": [
+            "This is the only official website to apply for a visa to the Kingdom of Bahrain. Travelers who apply for a visa to enter the Kingdom of Bahrain are advised to be cautious in all dealings with other websites/companies that claim to offer any form of assistance or otherwise in getting an visa for the Kingdom of Bahrain. No website/company operates on behalf of the Government of the Kingdom of Bahrain.",
+            "Holding a visa does not guarantee you entry to the Kingdom of Bahrain. You must meet all of the conditions upon arrival to be granted entry. In the event that entry is not granted, no part of the fee will be refunded.",
+            "Payment of the application fee does not guarantee the approval of a visa. In the event of an application not being approved, the processing fee will not be refunded."
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Applicant details",
+          "read": true,
+          "fields": [
+            {
+              "name": "passportNumber",
+              "label": "Passport Number",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "nationality",
+              "label": "Nationality",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Poland"
+              ]
+            },
+            {
+              "label": "Date of Birth",
+              "type": "date",
+              "required": null,
+              "notes": "Day / Month / Year selects"
+            },
+            {
+              "name": "sex",
+              "label": "Sex",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Male",
+                "Female"
+              ]
+            },
+            {
+              "name": "countryOfBirth",
+              "label": "Country of Birth",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Passport Issue Date",
+              "type": "date",
+              "required": null
+            },
+            {
+              "label": "Passport Expiry Date",
+              "type": "date",
+              "required": null
+            },
+            {
+              "name": "familyName",
+              "label": "Family Name",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "givenNames",
+              "label": "Given Names",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "occupation",
+              "label": "Occupation",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "jobTitle",
+              "label": "Job Title",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "placeOfWork",
+              "label": "Place Of Work",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "emailAddress",
+              "label": "Email Address",
+              "type": "email",
+              "required": null
+            },
+            {
+              "name": "telephoneNumber",
+              "label": "Telephone number",
+              "type": "tel",
+              "required": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

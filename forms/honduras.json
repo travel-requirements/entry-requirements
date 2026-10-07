@@ -1,0 +1,257 @@
+{
+  "destination": "honduras",
+  "forms": [
+    {
+      "kind": "declaration",
+      "title": "Honduras Regional Traveller's Sworn Declaration (DJRV) (Administración Aduanera de Honduras)",
+      "appliesTo": [
+        "djrv"
+      ],
+      "startUrl": "https://sisglobal.aduanas.gob.hn/Pech/#/plataforma/otra_gestiones/formularioDJRV",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "The declaration is one public page (guest access) and was read in full; every field is personal or trip data, so nothing was filled in or registered.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Declaración Jurada Regional de Viajero",
+          "read": true,
+          "fields": [
+            {
+              "name": "operacion",
+              "label": "1. Operación",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Entrada",
+                "Salida"
+              ]
+            },
+            {
+              "label": "Medio de Transporte",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Aéreo",
+                "Terrestre",
+                "Marítimo"
+              ]
+            },
+            {
+              "name": "fecha_entradasalida",
+              "label": "2. Fecha de Entrada o Salida",
+              "type": "date",
+              "required": true,
+              "notes": "Válido hasta 5 días posteriores"
+            },
+            {
+              "label": "3. Aduana de Entrada o Salida",
+              "type": "select",
+              "required": true
+            },
+            {
+              "name": "person_namefirst",
+              "label": "4.01 Primer Nombre",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "person_namesecond",
+              "label": "4.02 Segundo Nombre",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "last_namefirst",
+              "label": "4.03 Primer Apellido",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "last_namesecond",
+              "label": "4.04 Segundo Apellido",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "docViajeNumero",
+              "label": "5. Documento No. (sin guiones o espacios)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "docViajeTipo",
+              "label": "6. Tipo de Documento",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Pasaporte",
+                "Otros"
+              ]
+            },
+            {
+              "label": "7. Nacionalidad",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "personaSexo",
+              "label": "8. Sexo",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Masculino",
+                "Femenino"
+              ]
+            },
+            {
+              "label": "País de Nacimiento",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "personaFNacimiento",
+              "label": "9. Fecha de Nacimiento",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "motivoMenorPermisoEspecial",
+              "label": "¿Es menor con Permiso Especial?",
+              "type": "checkbox",
+              "required": false
+            },
+            {
+              "label": "10. Motivo de Viaje",
+              "type": "checkbox",
+              "required": null,
+              "options": [
+                "Turismo",
+                "Oficial",
+                "Negocios",
+                "Residencia",
+                "Tránsito",
+                "Marino",
+                "Otros"
+              ]
+            },
+            {
+              "label": "11. Medio de Transporte",
+              "type": "select",
+              "required": null
+            },
+            {
+              "name": "transporteEmpresa",
+              "label": "Empresa y N° vuelo/Nombre de la embarcación y N° de viaje/N° de Matrícula del vehículo",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "12. País de Procedencia",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "13. País de Residencia",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "14. País de Destino",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "direccionPrevista",
+              "label": "15. Dirección Prevista",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "cantidadFamiliares",
+              "label": "16. Número de familiares que viajan con Ud.",
+              "type": "number",
+              "required": true
+            },
+            {
+              "name": "cantidadEquipaje",
+              "label": "17. Cantidad de equipaje que viaja con Ud.",
+              "type": "number",
+              "required": true
+            },
+            {
+              "name": "cantidadEquipajeNA",
+              "label": "18. Cantidad de equipaje no acompañado",
+              "type": "number",
+              "required": true
+            },
+            {
+              "label": "19. ¿Ha disfrutado en los últimos 6 meses de exoneración de tributos?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Si",
+                "No"
+              ]
+            },
+            {
+              "label": "20. ¿Lleva o trae consigo dinero en efectivo o valores monetarios, títulos valores, objetos, metales preciosos o una combinación de estos por un valor igual o superior a US$ 10,000.00 o su equivalente?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Si",
+                "No"
+              ]
+            },
+            {
+              "label": "21. ¿Lleva o trae animales vivos, plantas, productos alimenticios o derivado de cualquier de éstos?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Si",
+                "No"
+              ]
+            },
+            {
+              "label": "22. ¿Lleva o trae productos químicos, farmacéuticos, sustancias o residuos tóxicos, armas, municiones o explosivos?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Si",
+                "No"
+              ]
+            },
+            {
+              "label": "23. ¿Lleva o trae mercancías distintas del equipaje?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Si",
+                "No"
+              ],
+              "notes": "If yes: list of goods (quantity, unit, description, value in USD)."
+            }
+          ],
+          "notices": [
+            "TODO VIAJERO O JEFE DE FAMILIA QUE INGRESE O SALGA DEL PAÍS DEBE DECLARAR"
+          ]
+        }
+      ]
+    }
+  ]
+}

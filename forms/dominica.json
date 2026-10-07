@@ -1,0 +1,450 @@
+{
+  "destination": "dominica",
+  "forms": [
+    {
+      "kind": "arrival-card",
+      "title": "Dominica Online Immigration and Customs Declaration (ED card) — Landing Card",
+      "appliesTo": [
+        "immigration-customs-form"
+      ],
+      "startUrl": "https://edcard.dominica.gov.dm/EDCard_arr/Create",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "residentialStatus": "Non-Resident / Visitor"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Arrivals step: it needs a flight or vessel number and arrival date and time. The later steps were read from the form markup the page serves with the first step; nothing was typed",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Arrivals",
+          "read": true,
+          "fields": [
+            {
+              "name": "EdcardArr.TravelMethodIdFk",
+              "label": "How are you travelling to Dominica?",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Air",
+                "Sea"
+              ]
+            },
+            {
+              "name": "EdcardArr.ArilineIdFk",
+              "label": "Airline",
+              "type": "select",
+              "required": false,
+              "options": [
+                "American Airlines",
+                "Carib Aviation",
+                "Caribbean Airlines",
+                "Charters",
+                "Contour Airlines",
+                "Express Carrier",
+                "Intercaribbean Airway",
+                "LIAT",
+                "Other (Write In)",
+                "Private Air",
+                "Sunrise Airways",
+                "United Airlines",
+                "WINAir"
+              ]
+            },
+            {
+              "name": "EdcardArr.FerryIdFk",
+              "label": "Ferries",
+              "type": "select",
+              "required": false,
+              "options": [
+                "Cruise Ship",
+                "L'Express Des Iles",
+                "Other (Write In)",
+                "Val Ferry"
+              ]
+            },
+            {
+              "name": "EdcardArr.FlightNo",
+              "label": "Flight Number/ Vessel Number",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "EdcardArr.PortIdFk",
+              "label": "Port of Dissembarkation",
+              "type": "select",
+              "required": true
+            },
+            {
+              "name": "EdcardArr.BoardedAt",
+              "label": "Port of Last Departure",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Antigua",
+                "Barbados",
+                "British Virgin Islands",
+                "Castries",
+                "Guadeloupe/Marie Galante",
+                "Martinique",
+                "Miami",
+                "Newark/New Jersey",
+                "San Juan",
+                "St. Croix",
+                "St. Kitts",
+                "St. Maarten",
+                "St. Thomas",
+                "St. Vincent",
+                "Trinidad",
+                "Other Port (Please State)"
+              ]
+            },
+            {
+              "name": "EdcardArr.ArrivalDate",
+              "label": "Arrival Date",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "EdcardArr.ArrivalTime",
+              "label": "Arrival Time",
+              "type": "other",
+              "required": true,
+              "notes": "time input"
+            }
+          ],
+          "notices": [
+            "Each passenger MUST have the following: Flight Information / Valid Passport or Other Government-Issued Travel Document",
+            "The ED card should be submitted no more than three (3) days before travel to Dominica.",
+            "You will receive a confirmation with QR Code. Save the confirmation and QR Code to your mobile device or print for presentation to the Immigration and Customs authorities at the port of entry.",
+            "Please complete clearly in English"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Personal",
+          "read": true,
+          "fields": [
+            {
+              "name": "EdcardArr.LastName",
+              "label": "Family Name / Surname",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "EdcardArr.FirstName",
+              "label": "First Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "EdcardArr.GenderFk",
+              "label": "Sex",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Male",
+                "Female"
+              ]
+            },
+            {
+              "name": "EdcardArr.DateBirth",
+              "label": "Date of Birth (YYYY-MM-DD)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "EdcardArr.MarStatusFk",
+              "label": "Marital Status",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Single",
+                "Married",
+                "Other"
+              ]
+            },
+            {
+              "name": "EdcardArr.CountryBirthFk",
+              "label": "Country of Birth",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "EdcardArr.NationalityFk",
+              "label": "Nationality",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "EdcardArr.Occupation",
+              "label": "Occupation",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "EdcardArr.City",
+              "label": "City/Town of Residence",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "EdcardArr.State",
+              "label": "State/Province",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "EdcardArr.Zip",
+              "label": "Zip/Postal Code",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "EdcardArr.CountryFk",
+              "label": "Country of Residence",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "EdcardArr.ContactEmail",
+              "label": "Email Address",
+              "type": "email",
+              "required": false
+            },
+            {
+              "name": "EdcardArr.ContactPhone",
+              "label": "Contact Number",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "name": "EdcardArr.AccompdationTypeIdFk",
+              "label": "Accommodation Type",
+              "type": "select",
+              "required": true,
+              "options": [
+                "AirBnB",
+                "Apartments",
+                "Cottages",
+                "Guest Houses",
+                "Hotel",
+                "Other (Specify)",
+                "Private Home",
+                "Resort"
+              ]
+            },
+            {
+              "name": "EdcardArr.AccomodationIdFk",
+              "label": "Accommodations",
+              "type": "select",
+              "required": true,
+              "notes": "List of 53 named accommodations"
+            },
+            {
+              "name": "EdcardArr.IntendedAdd",
+              "label": "Contact Address in Dominica (in full)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "EdcardArr.IConfirm",
+              "label": "I confirm that the above is true and correct:",
+              "type": "checkbox",
+              "required": false
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Travel",
+          "read": true,
+          "fields": [
+            {
+              "name": "EdcardArr.PassNo",
+              "label": "Passport/Document No.",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "EdcardArr.DateIssue",
+              "label": "Date of Issue",
+              "type": "date",
+              "required": false
+            },
+            {
+              "name": "EdcardArr.CountryIssueFk",
+              "label": "Place of Issue",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Destination",
+          "read": true,
+          "fields": [
+            {
+              "name": "Purpose.SelectedPurposes",
+              "label": "Purpose of visit",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Vacation",
+                "Business",
+                "Visiting Friends",
+                "Relatives",
+                "Wedding / Honeymoon",
+                "Study",
+                "Meeting",
+                "Convention",
+                "Sports",
+                "Hotel",
+                "Festivals / Activities",
+                "Visiting Friends and Relatives",
+                "Other"
+              ],
+              "notes": "Multiple choice; \"Please select at least one purpose.\""
+            },
+            {
+              "name": "InTransit",
+              "label": "Are you in transit?",
+              "type": "checkbox",
+              "required": false
+            },
+            {
+              "name": "EdcardArr.LenStayRes",
+              "label": "Length of Stay in Dominica (days)",
+              "type": "number",
+              "required": true
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Health",
+          "read": true,
+          "fields": [
+            {
+              "name": "EdcardArr.CountriesVisit1Fk",
+              "label": "Countries Visited 1",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Countries Visited 2–5",
+              "type": "country",
+              "required": false,
+              "options": [
+                "<countries>"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Customs",
+          "read": true,
+          "fields": [
+            {
+              "name": "EdcardArr.NumAccom",
+              "label": "Accompanying Luggage",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "EdcardArr.NumUnacc",
+              "label": "Unaccompanying Luggage",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "EdcardArr.BringFruits",
+              "label": "(a) fruits, plants, cut flowers, vegetables, soil, meat, live animals and organisms, honey, wildlife products, plant material, food, animal products or live birds",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "EdcardArr.BringPharma",
+              "label": "(b) pharmaceuticals, narcotics and other illicit drugs, and biological substances",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "EdcardArr.BringArms",
+              "label": "(c) arms, ammunition, explosives, fireworks, toy guns or other weapons",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "EdcardArr.BringMerchandise",
+              "label": "(d) (articles for sale, samples used for soliciting orders or goods that are not considered personal effects)",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "EdcardArr.BringMoney",
+              "label": "(e) I am (we are) carrying currency or monetary instruments over (USD $10,000) or equivalent",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "Articles[0].DescripArt",
+              "label": "Description of Article / Value / Currency",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "EdcardArr.ICertify",
+              "label": "I certify that all statements I have made in this declaration are true, correct and complete.",
+              "type": "checkbox",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Residents - 18 yrs and over are entitled to (EC $400) duty free allowance per year on personal and household effects, not in commercial quantity as well as 227g tobacco, or Cigarettes not exceeding 200 or Cigars not exceeding 50, 1 litre of spirits or wine.",
+            "Visitor - Declare all dutiable articles whether remaining in Dominica or for subsequent re-export.",
+            "(If you have doubt, declare all items to the Customs Officer)",
+            "I understand that failure to make a full declaration is an offence and can result in seizure of the goods, fines and/or imprisonment."
+          ]
+        }
+      ]
+    }
+  ]
+}

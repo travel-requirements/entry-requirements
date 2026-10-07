@@ -1,0 +1,133 @@
+{
+  "destination": "nigeria",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Nigeria e-Visa (Nigeria Immigration Service)",
+      "appliesTo": [
+        "evisa-tourist",
+        "evisa-business"
+      ],
+      "startUrl": "https://evisa.immigration.gov.ng/",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "Sign-in to a Nigeria Immigration Service account (auth.immigration.gov.ng); the form is behind the login.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Login",
+          "read": true,
+          "fields": [
+            {
+              "name": "username",
+              "label": "Username or email",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "password",
+              "label": "Password",
+              "type": "other",
+              "required": null
+            }
+          ],
+          "notices": [
+            "You are required to login or authenticate to continue to your application."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Fill Application Form",
+          "read": false,
+          "fields": [],
+          "notices": [
+            "Let's know in brief about your personal, passport and travel information."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Make Payment",
+          "read": false,
+          "fields": [],
+          "notices": [
+            "For us to process your application, you must make payment first."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "arrival-card",
+      "title": "Nigeria Landing Card (Nigeria Immigration Service, Landing and Exit Cards)",
+      "appliesTo": [
+        "landing-exit-card"
+      ],
+      "startUrl": "https://lecard.immigration.gov.ng/",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "\"Apply for Landing Card\" leads to an account login (email and password, with sign-up); the public pre-login steps ask for a passport number.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Select your landing passport type to proceed",
+          "read": true,
+          "fields": [
+            {
+              "label": "Choose the type of passport type you want to verify",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "ECOWAS Passport",
+                "Visa Free / Exemption",
+                "Development Organisation",
+                "Other Passport"
+              ]
+            }
+          ],
+          "notices": [
+            "Provide your valid visa or passport number as it appears on the document. Ensure accuracy to avoid processing delays.",
+            "Ensure all details such as: Name, date of birth, and nationality match your official identification documents to prevent processing delays.",
+            "Valid visa holders with no expired or revoked status."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Landing Card Application Form",
+          "read": true,
+          "fields": [
+            {
+              "name": "passport_number",
+              "label": "Passport Number",
+              "type": "text",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Enter your Passport number in the fields below to proceed"
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Login",
+          "read": true,
+          "fields": [
+            {
+              "name": "email",
+              "label": "Email Address",
+              "type": "email",
+              "required": null
+            },
+            {
+              "name": "password",
+              "label": "Password",
+              "type": "other",
+              "required": null
+            }
+          ],
+          "notices": [
+            "Enter your email address and password to access your account"
+          ]
+        }
+      ]
+    }
+  ]
+}

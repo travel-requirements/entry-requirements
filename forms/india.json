@@ -1,0 +1,485 @@
+{
+  "destination": "india",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "India e-Visa application (Bureau of Immigration, Ministry of Home Affairs)",
+      "appliesTo": [
+        "e-tourist-30",
+        "e-tourist-1y",
+        "e-tourist-5y",
+        "e-business",
+        "e-medical"
+      ],
+      "startUrl": "https://indianvisaonline.gov.in/evisa/Registration",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "nationality": "Poland",
+        "passportType": "ORDINARY PASSPORT"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "The first step opens behind a passport check (passport number and name as in passport) and itself asks for date of birth, email and an image captcha. Later steps (applicant, passport, address, visa details, photo and document upload, payment) are not shown by name and cannot be opened by URL.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "e-Visa Application Form (passport check)",
+          "read": true,
+          "fields": [
+            {
+              "name": "gate_passport",
+              "label": "Passport No",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "gate_nationality",
+              "label": "Select Country/Region",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "gate_name",
+              "label": "Name as in passport",
+              "type": "text",
+              "required": null
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "e-Visa Application",
+          "read": true,
+          "fields": [
+            {
+              "name": "appl.nationality",
+              "label": "Nationality/Region",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "appl.ppt_type_id",
+              "label": "Passport Type",
+              "type": "select",
+              "required": true,
+              "options": [
+                "ORDINARY PASSPORT",
+                "OFFICIAL PASSPORT",
+                "DIPLOMATIC PASSPORT",
+                "SERVICE PASSPORT",
+                "SPECIAL PASSPORT"
+              ]
+            },
+            {
+              "name": "appl.missioncode",
+              "label": "Port Of Arrival",
+              "type": "select",
+              "required": true,
+              "notes": "Designated airports, seaports and land ports (about 85 in the list), e.g. AGARTALA LANDPORT, AHMEDABAD AIRPORT, DELHI AIRPORT, MUMBAI AIRPORT."
+            },
+            {
+              "name": "appl.birthdate",
+              "label": "Date of Birth (DD/MM/YYYY)",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "appl.email",
+              "label": "Email ID",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "appl.email_re",
+              "label": "Re-enter Email ID",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "evisa_purpose",
+              "label": "Visiting India for",
+              "type": "select",
+              "required": true,
+              "notes": "Purpose list grouped by e-visa: e-Tourist Visa 30 days, 1 year and 5 years (e-T1 V: recreation/sight-seeing, meeting friends/relatives, short term yoga programme, short courses, short voluntary work), e-Business (e-B1, e-B5, e-B6), e-Production Investment (e-B4), e-Medical (e-M1, e-M3), e-Medical Attendant (e-M2, e-M4), e-Student (e-S), e-Family (e-SX), e-Miscellaneous (e-X1), e-Transit."
+            },
+            {
+              "name": "appl.journeydate",
+              "label": "Expected Date of Arrival (DD/MM/YYYY)",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "captcha",
+              "label": "Please enter above text",
+              "type": "text",
+              "required": true,
+              "notes": "Image captcha"
+            },
+            {
+              "name": "read_instructions_check",
+              "label": "I have read the instructions ,I have all the required documents in scanned pdf format and photograph in jpg/jpeg format.",
+              "type": "checkbox",
+              "required": null
+            }
+          ],
+          "notices": [
+            "I have read the instructions ,I have all the required documents in scanned pdf format and photograph in jpg/jpeg format.",
+            "While entering India, Covid related measures shall be applicable as per guidelines issued by Govt of India from time to time."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "arrival-card",
+      "title": "India e-Arrival Card (Bureau of Immigration)",
+      "appliesTo": [
+        "e-arrival-card"
+      ],
+      "startUrl": "https://indianvisaonline.gov.in/earrival/",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "The whole card is one page and was read in full; every field is personal or trip data, so nothing was filled in or submitted.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Quick Fill From Existing Data",
+          "read": true,
+          "fields": [
+            {
+              "name": "passportNumberSrch",
+              "label": "Passport Number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Nationality/Region",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Captcha",
+              "type": "text",
+              "required": true
+            }
+          ],
+          "notices": [
+            "(It is free of cost service of Indian Immigration)"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Fill out the e-Arrival Card",
+          "read": true,
+          "fields": [
+            {
+              "name": "name",
+              "label": "Full Name (as in passport)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Nationality/Region",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "passportNumber",
+              "label": "Passport Number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Purpose",
+              "type": "select",
+              "required": true,
+              "options": [
+                "TOURIST",
+                "BUSINESS",
+                "MEDICAL",
+                "AYUSH",
+                "CONFERENCE",
+                "RESEARCH",
+                "STUDY",
+                "EMPLOYMENT",
+                "OFFICIAL/DIPLOMATIC",
+                "OTHER"
+              ]
+            },
+            {
+              "label": "Date of Arrival(DD/MM/YYYY)",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Countries Visited in Last 6 Days",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ],
+              "notes": "Multi-select, with a \"No Country Visited\" checkbox."
+            },
+            {
+              "name": "indiaAddress",
+              "label": "Address in India",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "State",
+              "type": "select",
+              "required": true,
+              "notes": "States and union territories of India."
+            },
+            {
+              "label": "District",
+              "type": "select",
+              "required": true
+            },
+            {
+              "name": "email",
+              "label": "Email ID",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "telephone",
+              "label": "Contact Number",
+              "type": "tel",
+              "required": true,
+              "notes": "With ISD code."
+            },
+            {
+              "name": "emrgncyCntct",
+              "label": "Emergency Contact Number",
+              "type": "tel",
+              "required": true,
+              "notes": "With ISD code."
+            },
+            {
+              "label": "Captcha",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "I declare that the information provided above is true and accurate. I understand that providing false information may result in denial of entry or legal consequences.",
+              "type": "checkbox",
+              "required": null
+            }
+          ],
+          "notices": [
+            "(This is for arrival information, not a visa)",
+            "I declare that the information provided above is true and accurate. I understand that providing false information may result in denial of entry or legal consequences."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "declaration",
+      "title": "Air Suvidha Self Declaration Form (Ministry of Health & Family Welfare / Ministry of Civil Aviation)",
+      "appliesTo": [
+        "air-suvidha"
+      ],
+      "startUrl": "https://airsuvidha.civilaviation.gov.in/",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "Personal & Travel (STEP 1 OF 4) needs name, passport number and an OTP-verified email or mobile number; the later steps are seen only by name in the stepper.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Personal & Travel",
+          "read": true,
+          "fields": [
+            {
+              "name": "travellingAs",
+              "label": "Are you travelling as",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Individual",
+                "Family"
+              ]
+            },
+            {
+              "name": "fullName",
+              "label": "Full Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "sex",
+              "label": "Gender",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Male",
+                "Female",
+                "Other"
+              ]
+            },
+            {
+              "name": "age",
+              "label": "Age",
+              "type": "number",
+              "required": true
+            },
+            {
+              "name": "nationality",
+              "label": "Nationality",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "passportNo",
+              "label": "Passport Number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "EBOLA AFFECTED COUNTRIES VISITED/TRANSITED IN LAST 21 DAYS",
+              "type": "checkbox",
+              "required": true,
+              "options": [
+                "None",
+                "DR Congo (DRC)",
+                "Uganda",
+                "South Sudan"
+              ],
+              "notes": "For each selected country, the date range of the visit or transit."
+            },
+            {
+              "name": "journeyPath",
+              "label": "Your journey to India",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Direct to India",
+                "Via transit (foreign country)"
+              ]
+            },
+            {
+              "name": "firstBoardingCountry",
+              "label": "First Country of Boarding",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Date of Departure from Boarding Country",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "boardingAirport",
+              "label": "Airport of First Boarding",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "destAirport",
+              "label": "First International Airport of Arrival in India",
+              "type": "select",
+              "required": true,
+              "notes": "35 Indian international airports."
+            },
+            {
+              "name": "f-airline",
+              "label": "Airline Name",
+              "type": "select",
+              "required": true
+            },
+            {
+              "name": "f-flight-select",
+              "label": "Flight Number Arriving to India",
+              "type": "select",
+              "required": true
+            },
+            {
+              "name": "seatNumber",
+              "label": "Seat Number",
+              "type": "text",
+              "required": false
+            },
+            {
+              "label": "Arrival Date & Time (IST)",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "travelType",
+              "label": "Select onward travel type",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "None",
+                "Domestic",
+                "Others (Road / Train)",
+                "International transit"
+              ]
+            },
+            {
+              "label": "Select each state and district you plan to visit. Add more rows if needed.",
+              "type": "select",
+              "required": true,
+              "notes": "Each row: State, District, Date From, Date To."
+            },
+            {
+              "name": "email",
+              "label": "Email Address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "mobileNum",
+              "label": "Mobile Number",
+              "type": "tel",
+              "required": true,
+              "notes": "Verified by OTP; an Indian mobile number is preferred."
+            }
+          ],
+          "notices": [
+            "To be Mandatorily Filled By All International Arriving Passengers to India",
+            "Applications are being accepted on behalf of the Ministry of Health & Family Welfare, Government of India",
+            "Passenger can fill the application up to 72 hrs before arriving in India.",
+            "*Passengers are advised to check the latest guidelines from the state APHOs or the airlines concerned before starting their journey.",
+            "Airsuvidha form fill is absolutely free of cost. Beware of fake websites charging money to fill the forms.",
+            "Passengers arriving from Ebola-affected countries must complete this form before travel. — MoHFW Advisory",
+            "Ebola Disease Surveillance — Air Suvidha 2.0 form is mandatory for all international arriving passengers from affected countries",
+            "Declaration is mandatory under the Epidemic Diseases Act, 1897 and Disaster Management Act, 2005",
+            "If you develop fever, vomiting, rash or bleeding within 21 days of arrival — call 1075 immediately",
+            "Present your Air Suvidha registration number at the APHO / Health Desk upon landing",
+            "Date you left the country of first boarding (within the past month and on or before your India arrival date)"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Contact & Address",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Verify & Submit",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

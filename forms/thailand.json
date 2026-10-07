@@ -1,0 +1,110 @@
+{
+  "destination": "thailand",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Thai e-Visa (Ministry of Foreign Affairs)",
+      "appliesTo": [
+        "tourist-evisa-single",
+        "tourist-metv",
+        "dtv",
+        "non-b-business",
+        "non-ed-student",
+        "transit"
+      ],
+      "startUrl": "https://www.thaievisa.go.th/",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "Sign-in to a Thai e-Visa account (account creation needs personal data); the application steps are seen only by name in \"How to apply online\".",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Sign in",
+          "read": true,
+          "fields": [
+            {
+              "name": "email",
+              "label": "E-mail",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "password",
+              "label": "Password",
+              "type": "other",
+              "required": true
+            },
+            {
+              "name": "recaptcha",
+              "label": "Enter your code",
+              "type": "text",
+              "required": null,
+              "notes": "Captcha"
+            }
+          ],
+          "notices": [
+            "You can sign in using your Thai E-Visa account to apply for a visa and track your application.",
+            "Attention : E-Visa applicants are no longer required to submit passports and supporting documents in person at the Royal Thai Embassy/Consulate-General. It is important to note that you are only able to apply if you are currently not in Thailand. After the e-Visa application has been approved, a confirmation e-mail will be sent to applicants, which can be printed out for presenting to airlines and Thai immigration officials when traveling to Thailand.",
+            "*All applications are subject to approval and the Royal Thai Embassy or Consulate-General may request for an interview or additional documents. Submission of a visa application does not necessarily mean that a visa will be granted. Please also note that the visa fees are non-refundable."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Fill in an application form",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Upload supporting documents",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Pay visa fee",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Wait for the visa to be processed",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "e-Visa confirmation document sent by email",
+          "read": false,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "kind": "arrival-card",
+      "title": "Thailand Digital Arrival Card (TDAC) (Immigration Bureau)",
+      "appliesTo": [
+        "tdac"
+      ],
+      "startUrl": "https://tdac.immigration.go.th/arrival-card/",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "\"Arrival Card\" is gated by a Cloudflare Turnstile check that does not complete in our browser; the form route (#/tac/arrival-card) renders blank without it.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Important notice",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "In accordance to Immigration Act, B.E. 2522",
+            "1. All passengers must complete the Thailand Digital Arrival Card.",
+            "2. If the alien stays in the Kingdom longer than 90 days, he/she must notify in writing the nearest Immigration Officer, concerning place of stay, as soon as possible upon expiration of 90 days. And required to do so every 90 days.",
+            "3. Aliens are not allowed to work unless they are granted Work Permit.",
+            "4. Foreigners are required to submit their arrival card information 3 days in advance of their arrival date in Thailand."
+          ]
+        }
+      ]
+    }
+  ]
+}

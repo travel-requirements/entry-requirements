@@ -1,0 +1,151 @@
+{
+  "destination": "botswana",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Botswana e-Visa application",
+      "appliesTo": [
+        "tourist-evisa"
+      ],
+      "startUrl": "https://evisa.gov.bw/#/newvisa",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "Registration: the first step asks for name, date of birth, passport number and email. The Documents step renders by URL (#/images); the Payment and Visa Form steps were seen by name only",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Registration",
+          "read": true,
+          "fields": [
+            {
+              "name": "surname",
+              "label": "1. Surname",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "firstname",
+              "label": "2. First name",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "middlename",
+              "label": "3. Middle name",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "dob",
+              "label": "4. Date of birth",
+              "type": "date",
+              "required": null
+            },
+            {
+              "name": "passportnum",
+              "label": "5. Passport number",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "passExpiryDate",
+              "label": "6. Passport expiry date",
+              "type": "date",
+              "required": null
+            },
+            {
+              "name": "Country_input",
+              "label": "7. Nationality",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "VisaCategory_input",
+              "label": "8. Type of Visa required",
+              "type": "select",
+              "required": null
+            },
+            {
+              "name": "VisaType_input",
+              "label": "9. Number of entries",
+              "type": "select",
+              "required": null
+            },
+            {
+              "name": "entries",
+              "label": "10. Proposed length of stay (days)",
+              "type": "number",
+              "required": null
+            },
+            {
+              "name": "email",
+              "label": "11. Email",
+              "type": "email",
+              "required": null
+            },
+            {
+              "name": "captcha",
+              "label": "I'm not a robot",
+              "type": "checkbox",
+              "required": null
+            },
+            {
+              "name": "conditions",
+              "label": "I hereby acknowledge that I have read, understand and agree to the terms and conditions.",
+              "type": "checkbox",
+              "required": null
+            }
+          ],
+          "notices": [
+            "You're travelling; itinerary planned, bags packed, and ready to board! But have you checked whether you need a tourist visa, or require a travel document?"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Payment",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Visa Form",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Documents",
+          "read": true,
+          "fields": [
+            {
+              "label": "Your photo",
+              "type": "file",
+              "required": null
+            },
+            {
+              "label": "Passport photo",
+              "type": "file",
+              "required": null
+            },
+            {
+              "label": "Supporting documents (affidavit letter)",
+              "type": "file",
+              "required": null
+            }
+          ],
+          "notices": [
+            "Each applicant must submit a color photograph, without corners, with a full face;",
+            "The photo must have been taken within the last six months;",
+            "The photo must be in color, on a white background, without frames and retouching",
+            "Please upload an image, in color, of your passport information page that contains photo and personal details in PDF format. The size of the photo must be less or equal to 1 megabyte (MB)",
+            "Use a scanner or camera for taking a photo of the passport (not a copy of it)",
+            "Upload here all relevant supporting documents for your Visa type. For details see the Visa Terms and Conditions page. All documents must be scanned in a single file not bigger that 5Mb in size."
+          ]
+        }
+      ]
+    }
+  ]
+}

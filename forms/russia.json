@@ -1,0 +1,81 @@
+{
+  "destination": "russia",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Russian unified e-visa (MFA Consular Department)",
+      "appliesTo": [
+        "unified-evisa"
+      ],
+      "startUrl": "https://evisa.kdmid.ru/",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "\"Fill out a new application form\" (after the four consent boxes) redirects to Account/Login: applications are made only from a personal account",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Conditions and consent",
+          "read": true,
+          "fields": [
+            {
+              "name": "cbAgreedWithConditions",
+              "label": "I am aware of the conditions of the e-visa issuance and the rules of entry, stay and exit with an e-visa",
+              "type": "checkbox",
+              "required": null
+            },
+            {
+              "name": "cbAgreedWithProcessing",
+              "label": "I agree to the automatic processing, transfer and storage of data provided in the application for e-visa purposes.",
+              "type": "checkbox",
+              "required": null
+            },
+            {
+              "name": "cbAgreedWithEmailNotifications",
+              "label": "I agree to receive automatic messages sent to my personal e-mail address concerning the status of my application and the decision thereon as well as detailed instructions for further steps.",
+              "type": "checkbox",
+              "required": null
+            },
+            {
+              "name": "cbTenDaysForCorrection",
+              "label": "In case the completed e-visa application is returned for revision, you will have 10 days to make the necessary corrections. No additional payment will be required. Upon the expiration of this period, a notification of the refusal to issue an e-visa on this application will be sent. The fee paid is non-refundable.",
+              "type": "checkbox",
+              "required": null
+            }
+          ],
+          "notices": [
+            "E-visa applicants are not required to submit an invitation letter, hotel booking confirmation or any other document confirming the purpose of their travel to the Russian Federation.",
+            "The unified e-visa is a single entry visa. The validity period of a unified electronic visa is 120 days from the date of issue. The permitted period of stay in the Russian Federation on the basis of a unified e-visa within its validity period shall not exceed 30 days from the date of entry.",
+            "ATTENTION! The permitted period of stay in the Russian Federation on the basis of a unified e-visa of up to 30 days DOES NOT IMPLY the possibility of staying for 720 hours net time (24 hours x 30). The day of arrival and the day of departure are counted as two days. We recommend using the visa calculator to calculate the permitted period of stay.",
+            "In order to apply for a unified e-visa, it is necessary to submit an application from your personal account on the specialized website of the Ministry of Foreign Affairs of Russia or through the Russian Foreign Ministry mobile application. The application can be submitted no earlier than 86 days and no later than 4 days before the expected date of entry into the Russian Federation.",
+            "The payment is non-refundable regardless of the result of the application processing. No consular fee is charged in case of e-visa applications for children under 6 years of age.",
+            "Applications for a unified e-visa will be processed in no more than 4 calendar days from the date of submission of the application.",
+            "Your passport must be machine-readable and issued by your country of nationality. Your passport must be valid for at least 6 months from the date of submitting the application for a unified e-visa. If your passport does not meet these requirements, the e-visa application cannot be accepted for processing. There must be sufficient space in your passport for border crossing stamps.",
+            "If you are travelling with minor children indicated in your passport, a separate application for a unified e-visa must be submitted for each child. All minor children travelling with their parents must have a separate e-visa.",
+            "Foreign citizens staying in the Russian Federation on the basis of unified e-visas are required to have a medical insurance valid in the territory of the Russian Federation for the entire duration of their stay, with the exception of citizens of the following foreign countries who are exempt from this requirement on the basis of reciprocity.",
+            "Make sure you have the following: ... Your valid national passport that you intend to use when crossing the state border of the Russian Federation. Digital photo of your passport data in JPEG format. Digital photo of your face in JPEG format that meets the requirements. Bank card for paying the visa fee."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Sign in",
+          "read": true,
+          "fields": [
+            {
+              "label": "Email",
+              "type": "email",
+              "required": null
+            },
+            {
+              "label": "Password",
+              "type": "other",
+              "required": null
+            }
+          ],
+          "notices": [
+            "Enter your personal email address specified during registration. If you haven't registered yet, click \"Register as a new user\"."
+          ]
+        }
+      ]
+    }
+  ]
+}

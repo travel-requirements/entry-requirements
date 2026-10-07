@@ -1,0 +1,46 @@
+{
+  "destination": "iraq",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Iraq Electronic Visa System (Ministry of Interior) — Direct e-Visa",
+      "appliesTo": [
+        "evisa-tourist",
+        "evisa-visit-sponsored"
+      ],
+      "startUrl": "https://eservice.evisa.iq/",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "nationality": "Polish"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Direct e-Visa: the next step needs an email address. The portal also offers Login (user name and password) and Track Application (application and passport numbers)",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Direct e-Visa",
+          "read": true,
+          "fields": [
+            {
+              "name": "searchableSelector2",
+              "label": "Nationality",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Email",
+              "type": "email",
+              "required": null
+            }
+          ],
+          "notices": [
+            "Verify the availability of an active entry visa to enter Iraqi territory"
+          ]
+        }
+      ]
+    }
+  ]
+}

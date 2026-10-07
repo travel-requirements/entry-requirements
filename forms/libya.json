@@ -1,0 +1,79 @@
+{
+  "destination": "libya",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "E-Visa Libya — individual account",
+      "appliesTo": [
+        "evisa-tourist"
+      ],
+      "startUrl": "https://evisa.gov.ly/travel-type",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "accountType": "Individual"
+      },
+      "requiresAccount": true,
+      "stoppedAt": "Account: Next after choosing Individual leads to the sign-in page; registration needs personal data. Steps 3–5 are named on the portal home (\"How to apply\")",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Select Your Account Type",
+          "read": true,
+          "fields": [
+            {
+              "label": "Account type",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "Individual",
+                "Agency",
+                "Company"
+              ]
+            }
+          ],
+          "notices": [
+            "Create your eVisa Libya account to Empower Your eVisa Experience:",
+            "Select Your Account Type to Get Started."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Sign in to E-visa Libya",
+          "read": true,
+          "fields": [
+            {
+              "name": "email",
+              "label": "Email",
+              "type": "email",
+              "required": null
+            },
+            {
+              "name": "password",
+              "label": "Password",
+              "type": "other",
+              "required": null
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Fill Application Form",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Upload Supporting Documents",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Pay Visa Fee",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

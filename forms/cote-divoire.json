@@ -1,0 +1,287 @@
+{
+  "destination": "cote-divoire",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Côte d'Ivoire e-Visa pre-enrolment (SNEDAI, Zetes Fastrace shop)",
+      "appliesTo": [
+        "evisa-tourist"
+      ],
+      "startUrl": "https://shopgov9.zetesft.com/StartSale.aspx?agnt=1793",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "language": "English",
+        "article": "VISA IVORY COAST valid for 3 months"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Personal information (names, date of birth). Steps 3–5 were read by opening their page URLs in the same session (AdditionalInfo.aspx, TravelInfo.aspx, ContactInfo.aspx), which render without earlier data; Payment was seen only as the next-step button",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Choose your Visa",
+          "read": true,
+          "fields": [
+            {
+              "name": "ctl00$PhMainContent$ArticleSelection",
+              "label": "VISA IVORY COAST valid for 3 months, deliverance on the airport (73€ - all TAX incl.) - EUR 73.00",
+              "type": "radio",
+              "required": null
+            }
+          ],
+          "notices": [
+            "Do you have any questions regarding purchasing and printing online entrance tickets or the online payment of the proof of payment ? Please mail to: contact@snedai.ci"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Personal information",
+          "read": true,
+          "fields": [
+            {
+              "label": "Gender",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Male",
+                "Female"
+              ]
+            },
+            {
+              "label": "First Name (according to passport)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Last Name (according to passport)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Date of birth",
+              "type": "date",
+              "required": null
+            },
+            {
+              "label": "Country of birth",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Place of birth",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Nationality of birth",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Current nationality",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Marital status",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Celibate",
+                "Married",
+                "Separated",
+                "Divorced",
+                "Widow/widower"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Additional personal information",
+          "read": true,
+          "fields": [
+            {
+              "label": "Private address",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "ZIP",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "City",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Country of residence",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Email",
+              "type": "email",
+              "required": null,
+              "notes": "VERIFY EMAIL button sends a code"
+            },
+            {
+              "label": "Confirm your Email",
+              "type": "email",
+              "required": null
+            },
+            {
+              "label": "Verification Code",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Telephone",
+              "type": "tel",
+              "required": null
+            },
+            {
+              "label": "Profession",
+              "type": "text",
+              "required": null
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Travel info",
+          "read": true,
+          "fields": [
+            {
+              "label": "Passport number",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Issuing country",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Issued on",
+              "type": "date",
+              "required": null
+            },
+            {
+              "label": "Expiration date",
+              "type": "date",
+              "required": null
+            },
+            {
+              "label": "Pickup location",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Aéroport de Abidjan"
+              ]
+            },
+            {
+              "label": "Reason of travel",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Business",
+                "Mission",
+                "Holiday",
+                "Health",
+                "Study",
+                "Other"
+              ]
+            },
+            {
+              "label": "Arrival date",
+              "type": "date",
+              "required": null
+            },
+            {
+              "label": "Date of return",
+              "type": "date",
+              "required": null
+            },
+            {
+              "label": "Travel documents — Passport",
+              "type": "file",
+              "required": null
+            },
+            {
+              "label": "Travel documents — Ticket reservation",
+              "type": "file",
+              "required": null
+            },
+            {
+              "label": "Travel documents — Hotel reservation",
+              "type": "file",
+              "required": null
+            },
+            {
+              "label": "Do you agree not to accept any job during your stay in Ivory Coast, not to seek to remain permanently and to leave the country at the expiration date of the visa should it be granted to you?",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "Yes, I Accept terms and conditions",
+              "type": "checkbox",
+              "required": null
+            }
+          ],
+          "notices": [
+            "Terms and conditions: I agree that Pre-registration VISA IVORY COAST and service costs are not refundable. In case off refund your visa will be cancelled!"
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Contact info",
+          "read": true,
+          "fields": [
+            {
+              "label": "Name and address of business contact — Name, Address, City, Telephone, Email",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Family in Ivory Coast — Name, Address, City, Telephone, Email",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Address of stay in Ivory Coast — Name, Address, City, Telephone, Email",
+              "type": "text",
+              "required": null
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Payment",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

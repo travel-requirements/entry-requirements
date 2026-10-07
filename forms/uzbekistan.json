@@ -1,0 +1,103 @@
+{
+  "destination": "uzbekistan",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Uzbekistan e-Visa (Ministry of Foreign Affairs, Consular Department)",
+      "appliesTo": [
+        "evisa-tourist"
+      ],
+      "startUrl": "https://e-visa.gov.uz/application",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "citizenship": "ALBANIA (Poland is not in the list)",
+        "visaEntryType": "SINGLE ENTRY 20$",
+        "purpose": "TOURISM"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Next on the Country step did not advance in our browser; Date, Personal information, Photo and passport, Activation and Payment are seen only by name in the stepper. The notice was the same for India and for a multiple-entry visa.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Country",
+          "read": true,
+          "fields": [
+            {
+              "name": "infoCitizenship",
+              "label": "Citizenship",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "applicantDocType",
+              "label": "Document type",
+              "type": "select",
+              "required": true,
+              "options": [
+                "ORDINARY PASSPORT"
+              ]
+            },
+            {
+              "name": "visaType",
+              "label": "Visa entry type",
+              "type": "select",
+              "required": true,
+              "options": [
+                "DOUBLE ENTRY 35$",
+                "MULTIPLY 50$",
+                "SINGLE ENTRY 20$"
+              ]
+            },
+            {
+              "name": "applicantPurposeVisit",
+              "label": "Purpose of visit",
+              "type": "select",
+              "required": true,
+              "options": [
+                "TOURISM",
+                "BUSINESS"
+              ]
+            }
+          ],
+          "notices": [
+            "The applicant is responsible for the accuracy of the data entered. Providing unreliable information or their inconsistency with passport data may cause refusing to issue visa. The applicant must come in Uzbekistan with the passport, used as basis for eVisa application. For citizens of Vietnam who have reached the age of 55, a visa-free regime has been established for entering the Republic of Uzbekistan for tourism purposes for a period not exceeding 30 days.",
+            "Visa for 30 days. processing time 3 WORKING DAYS, not include weekends and holidays. Fill out form in ENGLISH only."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Date",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Personal information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Photo and passport",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Activation",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "Payment",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

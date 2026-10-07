@@ -1,0 +1,239 @@
+{
+  "destination": "cabo-verde",
+  "forms": [
+    {
+      "kind": "declaration",
+      "title": "Cabo Verde EASE travellers pre-registration (with airport security tax)",
+      "appliesTo": [
+        "ease-preregistration",
+        "voa-tourist"
+      ],
+      "startUrl": "https://registration.cv.zetes.com/Pages/CapeVerde/ArticleSelection.aspx",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "Personal information needs names and date of birth. Travel info and Pre-registration Summary were read by opening their page URLs in the same session (they render empty without earlier data); Additional personal information does not open by URL, and Payment was not reached.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Registration — Choose your Visa",
+          "read": true,
+          "fields": [
+            {
+              "label": "Choose your Visa",
+              "type": "checkbox",
+              "required": null,
+              "options": [
+                "Zetes - Cabo Verde - EUR 30.83",
+                "Zetes - Cabo Verde VISUM - EUR 22.67",
+                "Zetes - CabO Verde -2 years - EUR 0.00",
+                "Zetes - Cabo Verde + visum - EUR 53.51"
+              ]
+            }
+          ],
+          "notices": [
+            "Pre-registration does not grant automatic entry into national territory. Please verify that you meet all required legal requirements ."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Personal information",
+          "read": true,
+          "fields": [
+            {
+              "name": "DdlGender",
+              "label": "Gender",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Male",
+                "Female",
+                "Unspecified"
+              ]
+            },
+            {
+              "name": "TxtFirstName",
+              "label": "First Name (according to passport)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "TxtSurName",
+              "label": "Last Name (according to passport)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "TxtSurNameConf",
+              "label": "Last Name confirmation",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Date of birth",
+              "type": "date",
+              "required": null
+            },
+            {
+              "name": "DdlCountryOfBirth",
+              "label": "Country of birth",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "TxtPlaceOfBirth",
+              "label": "Place of birth",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "DdlCurrentNationality",
+              "label": "Current nationality",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ],
+              "notes": "\"ADD ANOTHER NATIONALITY\" adds a second one."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Additional personal information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Travel info",
+          "read": true,
+          "fields": [
+            {
+              "name": "TxtPassportNr",
+              "label": "Passport number",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "TxtPassportNrConf",
+              "label": "Passport number confirmation",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "DdlDeliveredBy",
+              "label": "Issuing country",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Issued on",
+              "type": "date",
+              "required": null
+            },
+            {
+              "label": "Expiration date",
+              "type": "date",
+              "required": null
+            },
+            {
+              "name": "ChkAlreadyVisa",
+              "label": "I am already in possession of a valid Visa",
+              "type": "checkbox",
+              "required": null
+            },
+            {
+              "name": "DdlReasonOfTravel",
+              "label": "Reason of travel",
+              "type": "select",
+              "required": null,
+              "options": [
+                "BUSINESS",
+                "OFFICIAL VISIT",
+                "HOLIDAY",
+                "HEALTH",
+                "STUDY",
+                "OTHER"
+              ]
+            },
+            {
+              "label": "Arrival date",
+              "type": "date",
+              "required": null
+            },
+            {
+              "label": "Date of return",
+              "type": "date",
+              "required": null
+            },
+            {
+              "name": "DdlAirport",
+              "label": "Airport/Point of Entry",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Boa Vista",
+                "Praia",
+                "Sal",
+                "São Vicente"
+              ]
+            },
+            {
+              "name": "TxtFlightNumber",
+              "label": "Flight number (Example: TP1549)",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "DdlAddressType",
+              "label": "Address in Cabo Verde",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Hotel",
+                "Relatives",
+                "Other"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Pre-registration Summary",
+          "read": true,
+          "fields": [
+            {
+              "name": "ChkDataAuthenticity",
+              "label": "I confirm the authenticity and timeliness of the information provided",
+              "type": "checkbox",
+              "required": null
+            },
+            {
+              "label": "I confirm that I have sufficient means of subsistence for entry and stay in Cabo Verde",
+              "type": "checkbox",
+              "required": null
+            }
+          ],
+          "notices": [
+            "Please check the conformity of the information provided before clicking \"NEXT STEP - PAYMENT\"",
+            "Please note that, according to the legislation, the expiration date of the travel document must be at least 3 months longer than the duration of the intended stay.",
+            "Tourism Visa (30 days) (2500 CVE) 22,67 €",
+            "Pre-registration does not grant automatic entry into national territory. Please verify that you meet all required legal requirements."
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Payment",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

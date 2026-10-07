@@ -1,0 +1,157 @@
+{
+  "destination": "ghana",
+  "forms": [
+    {
+      "kind": "eta",
+      "title": "Ghana Electronic Travel Authorization (ETA) application",
+      "appliesTo": [
+        "au-eta",
+        "caribbean-eta",
+        "asia-eta"
+      ],
+      "startUrl": "https://evisa.immigration.gov.gh/apply/eta",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "Personal Information (the first step asks for name, date of birth, email and address). The later steps are shown only by name in the stepper and have no URL of their own",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Personal Information",
+          "read": true,
+          "fields": [
+            {
+              "label": "Given Name (First Name)",
+              "type": "text",
+              "required": false,
+              "notes": "Optional if not shown on passport"
+            },
+            {
+              "label": "Surname (Last Name)",
+              "type": "text",
+              "required": false,
+              "notes": "Optional if not shown on passport"
+            },
+            {
+              "label": "Date of Birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Gender",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Male",
+                "Female",
+                "Other"
+              ]
+            },
+            {
+              "label": "Nationality",
+              "type": "country",
+              "required": true
+            },
+            {
+              "label": "Email Address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "label": "Phone Number",
+              "type": "tel",
+              "required": null,
+              "notes": "Country code selector, local number without leading zero"
+            },
+            {
+              "label": "Residential Address",
+              "type": "textarea",
+              "required": null
+            }
+          ],
+          "notices": [
+            "Please provide your personal details as they appear on your passport",
+            "Names must exactly match your passport biodata page",
+            "Enter names exactly as printed on your passport biodata page. If your passport shows only one legal name, enter it in either the given name or surname field and leave the other blank."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Passport Information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Travel Details",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Health and Security Information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Review and Submit",
+          "read": false,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "kind": "evisa",
+      "title": "Ghana eVisa (tourist and business) — account registration",
+      "appliesTo": [
+        "evisa-tourist",
+        "evisa-business"
+      ],
+      "startUrl": "https://evisa.immigration.gov.gh/register",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "Account registration: the eVisa is applied for from an account (\"Apply for Visa\" opens Create Account), whose first step asks for names; /apply/evisa and /apply/tourist return 404",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Create Account — Step 1 of 3: Personal Identity",
+          "read": true,
+          "fields": [
+            {
+              "label": "Account Type",
+              "type": "select",
+              "required": true
+            },
+            {
+              "label": "Given Name (First Name)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Middle Name",
+              "type": "text",
+              "required": false
+            },
+            {
+              "label": "Surname (Last Name)",
+              "type": "text",
+              "required": true
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Create Account — Step 2 of 3: Contact",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Create Account — Step 3 of 3: Security",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}
