@@ -1,0 +1,60 @@
+{
+  "destination": "moldova",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Moldova eVisa — application (Ministry of Foreign Affairs and European Integration)",
+      "appliesTo": [
+        "evisa"
+      ],
+      "startUrl": "https://evisa.gov.md/VisaFile/Inregistrare?c=en-US",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "The registration form was closed on 2026-10-07 by the portal's daily application limit; it asks for name, nationality and email in any case. Later steps named from the portal's Visa Application Guide",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Start Your Visa Application (registration)",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "Dear applicants, the daily limit for visa applications for the Republic of Moldova has been reached for today. Please return after 00:00 UTC (Coordinated Universal Time) to submit your application.",
+            "Complete the initial registration form by providing: First name and last name; Nationality; Valid e-mail address",
+            "Important: Keep your Visa Reference Number in a safe place, as it will be required to access and continue your application."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Complete Your Visa Application",
+          "read": false,
+          "fields": [],
+          "notices": [
+            "Upload the required supporting documents, which may include: Passport copy; Recent photograph; Travel itinerary; Accommodation details; Invitation letter (if applicable); Other documents requested for the selected visa category.",
+            "The application must be completed within the timeframe specified in the confirmation e-mail. Applications that remain incomplete after the deadline will be automatically deleted from the e-Visa system and cannot be restored."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Submit the Application for Examination",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Track Your Application Status",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Receive the Decision",
+          "read": false,
+          "fields": [],
+          "notices": [
+            "Print or save the electronic visa and present it together with your passport when entering the Republic of Moldova."
+          ]
+        }
+      ]
+    }
+  ]
+}

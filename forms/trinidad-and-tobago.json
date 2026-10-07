@@ -1,0 +1,126 @@
+{
+  "destination": "trinidad-and-tobago",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Trinidad and Tobago eVisa (Immigration Division)",
+      "appliesTo": [
+        "evisa"
+      ],
+      "startUrl": "https://evisa.ttservices.online/tt-evisa-entitlement-online-ui/",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "Not reached: the portal's Cloudflare firewall answered \"Sorry, you have been blocked\" to the reading browser",
+      "steps": []
+    },
+    {
+      "kind": "arrival-card",
+      "title": "Trinidad and Tobago online Arrival Card (Immigration and Customs form)",
+      "appliesTo": [
+        "immigration-card"
+      ],
+      "startUrl": "https://travel.gov.tt/en/create",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "citizenshipStatus": "Non-Citizen",
+        "entering": "Air"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Arrival step, at the flight details (airline, flight number, departure country and port, arrival date); the other six steps were seen only in the stepper",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Arrival",
+          "read": true,
+          "fields": [
+            {
+              "label": "What is your citizenship Status Trinidad and Tobago?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Citizen",
+                "Non-Citizen"
+              ]
+            },
+            {
+              "label": "How are you entering Trinidad and Tobago?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Air",
+                "Sea"
+              ]
+            },
+            {
+              "label": "Airline",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Flight Number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Country of Departure",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Port of Departure (Select a country first)",
+              "type": "select",
+              "required": true
+            },
+            {
+              "label": "Intended Date of Arrival",
+              "type": "date",
+              "required": true
+            }
+          ],
+          "notices": [
+            "'Country of Departure' is the country in which you are boarding the flight/vessel to arrive in Trinidad and Tobago"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Personal",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Travel",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Destination",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Health",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "Family",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 7,
+          "name": "Customs",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

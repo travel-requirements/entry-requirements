@@ -1,0 +1,57 @@
+{
+  "destination": "nepal",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Nepal Electronic Travel Authorization (Department of Immigration)",
+      "appliesTo": [
+        "evisa-15",
+        "evisa-30",
+        "evisa-90"
+      ],
+      "startUrl": "https://nepaliport-new.immigration.gov.np/eta-visa-processing/application",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "First step: it asks for passport number and date of birth, and an \"ETA Application Stopped — Daily Limit Reached\" dialog covered the form",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Electronic Travel Authorization",
+          "read": true,
+          "fields": [
+            {
+              "label": "Select Country (Your Passport issuing country)",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Select Visa Type",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Tourist Visa"
+              ],
+              "notes": "Tourist Visa preselected; the list could not be opened behind the dialog"
+            },
+            {
+              "label": "Passport No.",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Date Of Birth",
+              "type": "date",
+              "required": true
+            }
+          ],
+          "notices": [
+            "ETA Application Stopped Daily Limit Reached The maximum number of eTA applications for today has been reached. Applicants are advised to apply again tomorrow."
+          ]
+        }
+      ]
+    }
+  ]
+}

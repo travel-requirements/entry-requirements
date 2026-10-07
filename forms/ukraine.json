@@ -1,0 +1,61 @@
+{
+  "destination": "ukraine",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Ukraine e-Visa application (Ministry of Foreign Affairs)",
+      "appliesTo": [
+        "evisa"
+      ],
+      "startUrl": "https://evisa.mfa.gov.ua/",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "citizenship": "Aland Islands (first listed; Poland is not offered)",
+        "purpose": "C-06 - Tourism"
+      },
+      "requiresAccount": true,
+      "stoppedAt": "The application form is filled in inside a personal account (Register / Login). The public visa check on the home page was read.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Visa check (public, before registration)",
+          "read": true,
+          "fields": [
+            {
+              "label": "Citizenship",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Purpose of the trip",
+              "type": "select",
+              "required": true,
+              "options": [
+                "C-01 - Business visit",
+                "C-02 - Private visit",
+                "C-06 - Tourism",
+                "C-07 - Medical Treatment",
+                "C-09 - Cultural, scientific, educational, sport activities",
+                "C-11 - Mass Media staff visits"
+              ]
+            }
+          ],
+          "notices": [
+            "To apply for a visa, you need to register - create your account to enter your personal account, where you can fill in a visa application form, register it for review and monitor the status of visa application.",
+            "The visa application form is submitted no later than one working day (in case of urgent e-Visa processing), or three working days (in case of general e-Visa processing) before the start of the planned trip.",
+            "Citizens of the selected country are not issued an e-Visa for this purpose of the trip"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Register / Login",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

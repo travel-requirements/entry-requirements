@@ -1,0 +1,265 @@
+{
+  "destination": "cuba",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Cuba electronic tourist visa (eVisa-Cuba) application",
+      "appliesTo": [
+        "tourist-card"
+      ],
+      "startUrl": "https://evisacuba.cu/en/solicitar/visa",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "countryWhereYouApply": "Poland",
+        "consulate": "POLONIA"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Details of the procedure (passport number, names, date of birth, email); the procedure-data panel (country where you apply, consulate, payment method, cost) renders without them and was read with Poland. Later steps are seen only by name in the stepper.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Details of the procedure",
+          "read": true,
+          "fields": [
+            {
+              "label": "National of",
+              "type": "country",
+              "required": true,
+              "name": "nacional_d",
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Passport No.",
+              "type": "text",
+              "required": true,
+              "name": "numeroPasaporte"
+            },
+            {
+              "label": "Surnames",
+              "type": "text",
+              "required": true,
+              "name": "papellido"
+            },
+            {
+              "label": "Given names",
+              "type": "text",
+              "required": true,
+              "name": "pnombre"
+            },
+            {
+              "label": "Date of Birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Email",
+              "type": "email",
+              "required": true,
+              "name": "correo"
+            },
+            {
+              "label": "Repeat email",
+              "type": "email",
+              "required": true,
+              "name": "correo2"
+            },
+            {
+              "label": "Sex",
+              "type": "select",
+              "required": true,
+              "name": "sexo",
+              "options": [
+                "M",
+                "F"
+              ]
+            },
+            {
+              "label": "Phone",
+              "type": "tel",
+              "required": false,
+              "name": "telefono"
+            },
+            {
+              "label": "Country where you apply",
+              "type": "country",
+              "required": true,
+              "name": "paisDelTramite",
+              "options": [
+                "<countries>"
+              ],
+              "notes": "Procedure Data panel: 'Choose the country where you want to carry out your visa process'."
+            },
+            {
+              "label": "Consulate",
+              "type": "select",
+              "required": true,
+              "name": "consulado",
+              "notes": "Lists the consulates in the chosen country (Poland: POLONIA, Warsaw)."
+            },
+            {
+              "label": "Select the payment method to use",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "TRANSFER",
+                "DEPOSIT"
+              ],
+              "notes": "Methods offered for Poland; they differ by consulate (e.g. POS in Germany and China, CASH in the UK and Argentina, MONEY ORDER or CHECK in the US)."
+            }
+          ],
+          "notices": [
+            "The tourist visa is valid for a single entry to Cuba, for a stay of 90 days, extendable for 90 days.",
+            "Cost of each visa 30.00EUR",
+            "Consular Information Location:VARSOVIA, POLONIA"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Details of extra procedures",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Payment details",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Review data",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Confirm and send",
+          "read": false,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "kind": "arrival-card",
+      "title": "D'Viajeros advance traveller information form (immigration, customs and health)",
+      "appliesTo": [
+        "dviajeros"
+      ],
+      "startUrl": "https://dviajeros.mitrans.gob.cu/datosPersonales",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "Datos Personales (names, date of birth, passport number); the later step URLs redirect back to it, so they are recorded by name only.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Datos Personales (Personal Data)",
+          "read": true,
+          "fields": [
+            {
+              "label": "Primer Nombre",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Segundo Nombre",
+              "type": "text",
+              "required": false
+            },
+            {
+              "label": "Primer Apellido",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Segundo Apellido",
+              "type": "text",
+              "required": false
+            },
+            {
+              "label": "Fecha de nacimiento",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Género",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Femenino",
+                "Masculino"
+              ]
+            },
+            {
+              "label": "Ciudadanía",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Número de pasaporte con el cual entrará al país",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "País de residencia permanente",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Correo",
+              "type": "email",
+              "required": false,
+              "notes": "Si inserta correo, se le enviará su código privado para la edición del formulario."
+            },
+            {
+              "label": "Teléfono",
+              "type": "tel",
+              "required": false
+            }
+          ],
+          "notices": [
+            "This form must be filled out by all travelers, whether Cuban or foreign, who enter to the Republic of Cuba through Airports.",
+            "All passengers are warned about the obligation to complete their forms 48 hours in advance.  The Airlines that operate in Cuba will verify the completion of your form before boarding your flight in print or on your mobile device.  In the event that you board the aircraft without completing your form, you will have to complete it at the airport of origin, thus making the travel experience difficult.",
+            "The form can be filled out from 72 hours before your arrival in the Republic of Cuba, until the moment before going through Immigration.",
+            "The QR code will be required for passengers to enter the Republic of Cuba when passing through the Sanitary and Customs authorities; this code is the one that validates that the form has been filled out correctly.",
+            "This single form replaces the three forms currently required: International Boarding and Disembarkation Card, Customs Declaration Form, and Traveler's Health Affidavit. Now all this information is in one single form.",
+            "If you are traveling as a family, you must fill out a form for each member of the family who is traveling.",
+            "For children, an individual form must also be filled out with all the required information.",
+            "Yes, the form must be filled out for each trip."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Datos Migratorios (Migratory Information)",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Datos Sanitarios (Sanitary Information)",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Datos de Aduana (Customs Information)",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Declaración Jurada (Sworn declaration)",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "destination": "zimbabwe",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Zimbabwe eVisa application (Department of Immigration)",
+      "appliesTo": [
+        "evisa-tourist"
+      ],
+      "startUrl": "https://www.evisa.gov.zw/app/index.html#/start",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "START THE VISA PROCESS opens the sign-in page; the application needs an account.",
+      "steps": []
+    },
+    {
+      "kind": "declaration",
+      "title": "Zimbabwe online entry declaration (eVisa platform, FILL THE DECLARATION)",
+      "startUrl": "https://www.evisa.gov.zw/app/index.html#/sign-in-kiosk-web",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "portOfEntry": "Robert Gabriel Mugabe International Airport"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "After the port of entry, the Participants step rendered an empty card with no fields or buttons, so nothing further could be read.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Application reference and port of entry",
+          "read": true,
+          "fields": [
+            {
+              "label": "Application reference",
+              "type": "text",
+              "required": null,
+              "name": "travelName",
+              "notes": "Pre-filled by the portal with a random code; read-only."
+            },
+            {
+              "label": "What is the planned port of entry in Zimbabwe?",
+              "type": "select",
+              "required": null,
+              "name": "plannedEntry",
+              "notes": "25 airports and border posts, from Beitbridge Border Post to Victoria Falls International Airport."
+            }
+          ],
+          "notices": [
+            "The application reference will be used to identify your application more easily."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Participants",
+          "read": true,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

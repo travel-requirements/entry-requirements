@@ -1,0 +1,204 @@
+{
+  "destination": "new-zealand",
+  "forms": [
+    {
+      "kind": "eta",
+      "title": "New Zealand Electronic Travel Authority (NZeTA) — web request form",
+      "appliesTo": [
+        "nzeta"
+      ],
+      "startUrl": "https://nzeta.immigration.govt.nz/",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "nationality": "Poland",
+        "passportIssuingCountry": "Poland"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Traveller information, at the passport number (personal data). The later steps have no URL of their own (the form is a single-page application whose only routes are the start page, check-status and payment), so they were seen by name in the stepper only.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Traveller information",
+          "read": true,
+          "fields": [
+            {
+              "name": "qCitizenship",
+              "label": "Nationality as shown on the passport you will use to travel to New Zealand",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "qIssuingCountry",
+              "label": "Issuing country / territory of your passport",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ],
+              "notes": "Pre-filled from the nationality."
+            },
+            {
+              "label": "Enter your passport number exactly as it appears on your passport",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Select the expiry date as shown on your passport",
+              "type": "date",
+              "required": true,
+              "notes": "Day, month and year selects."
+            }
+          ],
+          "notices": [
+            "You will need: a valid passport that you will use to travel to New Zealand; a credit card or debit card (Visa or Mastercard) to pay; an email address to contact you; a photo of your face, or a device like a mobile phone that can take one",
+            "NZD $23 for NZeTA, if applying on the web, or NZD $17 for NZeTA, if applying on the mobile app.",
+            "NZD $100 for the International Visitor Conservation and Tourism Levy (IVL)",
+            "The IVL helps pay for tourism infrastructure and conservation in New Zealand. You pay the IVL at the same time as your NZeTA.",
+            "Most NZeTA requests are processed within 72 hours. Complex NZeTA requests may take longer. Apply early and make sure your details match your passport.",
+            "An approved NZeTA is valid for 2 years.",
+            "Your photo will be collected and used as biometric information to establish a record of your identity, verify your identity, and assist in making a decision on your NZeTA request.",
+            "If your passport details are not correct you may not be able to travel."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Traveller photo",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Review and confirm details",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Declaration",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Pay and submit",
+          "read": false,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "kind": "evisa",
+      "title": "New Zealand Visitor Visa — online application (Immigration New Zealand)",
+      "appliesTo": [
+        "visitor-visa"
+      ],
+      "startUrl": "https://apply.immigration.govt.nz/",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "The application opens only after logging in with a RealMe account; no step of the form is public.",
+      "steps": []
+    },
+    {
+      "kind": "arrival-card",
+      "title": "New Zealand Traveller Declaration (NZTD) — web form",
+      "appliesTo": [
+        "nztd"
+      ],
+      "startUrl": "https://app.travellerdeclaration.govt.nz/",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "Kia ora and welcome (contact step: email address and phone number are required). The later routes redirect back to the start page without a declaration in progress, so the remaining parts are known only from the list on the introduction page.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Making a New Zealand Traveller Declaration",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "The earliest you can submit your New Zealand Traveller Declaration is 24 hours before you start your trip to New Zealand.",
+            "We will email you a reference number which you can use to update your declaration at any time, up until you reach passport control.",
+            "Answers must be provided in English.",
+            "Information you need to provide: Your passport, flight or sea voyage details and contact details including where you will be based in New Zealand; Your immigration status (if required); Details about your trip, including your recent travel history; Items you are bringing into New Zealand.",
+            "It will take approximately 10 minutes to complete."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Privacy policy",
+          "read": true,
+          "fields": [
+            {
+              "name": "legalAgreements",
+              "label": "I have read and understood the privacy policy, and understand how my personal information is being collected and used.",
+              "type": "checkbox",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Your information is being collected by New Zealand border agencies and will be used to make decisions about entry to New Zealand for you and your belongings.",
+            "All information is mandatory unless indicated otherwise."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Kia ora and welcome",
+          "read": true,
+          "fields": [
+            {
+              "name": "preferredName",
+              "label": "Your preferred name (optional)",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "contactEmail",
+              "label": "Your email address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "contactPhone",
+              "label": "Your contact phone number",
+              "type": "tel",
+              "required": true,
+              "notes": "Country code and phone number."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Passport, travel and contact details in New Zealand",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Immigration status (if required)",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "Trip details and recent travel history",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 7,
+          "name": "Items you are bringing into New Zealand",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 8,
+          "name": "Confirm",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

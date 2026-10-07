@@ -1,0 +1,284 @@
+{
+  "destination": "south-africa",
+  "forms": [
+    {
+      "kind": "eta",
+      "title": "South Africa Electronic Travel Authorisation (ETA) — Department of Home Affairs",
+      "appliesTo": [
+        "eta"
+      ],
+      "startUrl": "https://eta.dha.gov.za/",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "Account required: an application can be started only after registering or logging in. The steps below are named on the public home page.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Passport",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 2,
+          "name": "Application form",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Biometrics",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Payment",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Submit",
+          "read": false,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "kind": "declaration",
+      "title": "South African Traveller Management System — SARS Customs online traveller declaration",
+      "appliesTo": [
+        "online-traveller-declaration"
+      ],
+      "startUrl": "https://tools.sars.gov.za/sarsonlinequery/traveller",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "modeOfTravel": "Air",
+        "travelDocumentCountry": "Poland",
+        "nationality": "Poland"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Traveller Details (passport number, names, address, contact details). Travel, currency and possession details, payment and captcha steps are seen only by name.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Traveller Details",
+          "read": true,
+          "fields": [
+            {
+              "label": "Please select the type of declaration",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "I HAVE GOODS (INCLUDING VEHICLES) AND/OR CURRENCY TO DECLARE (FULL)",
+                "I HAVE NO GOODS AND / OR CURRENCY TO DECLARE (NIL)"
+              ]
+            },
+            {
+              "name": "modalitytype",
+              "label": "Mode of Travel Type",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Air",
+                "Rail",
+                "Road",
+                "Sea"
+              ]
+            },
+            {
+              "name": "travelport",
+              "label": "Port",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Bloemfontein Airport (Braam Fischer International Airport)",
+                "Cape Town International Airport",
+                "King Shaka International Airport",
+                "Lanseria Airport",
+                "Nelspruit Airport (Kruger Mpumalanga International Airport)",
+                "O.R. Tambo International Airport",
+                "PEZ International Airport (Dawid Stuurman International Airport)",
+                "Pietersburg (Polokwane International Airport)",
+                "Pilanesberg International Airport",
+                "Richardsbay Airport",
+                "Upington Airport"
+              ],
+              "notes": "Options shown for Mode of Travel Type Air."
+            },
+            {
+              "name": "travelmode",
+              "label": "Mode of Transport",
+              "type": "select",
+              "required": true,
+              "options": [
+                "International Aircraft",
+                "Private Aircraft"
+              ]
+            },
+            {
+              "name": "traveldocumenttype",
+              "label": "Travel Document Type",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Ordinary Passport",
+                "Diplomatic Passport",
+                "Official Passport",
+                "Service Passport",
+                "Special Passport",
+                "Emergency Travel Certificate",
+                "Emergency Passport",
+                "Foreign issued Refugee Passport"
+              ]
+            },
+            {
+              "name": "passport",
+              "label": "Travel Document Number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "passportcountry",
+              "label": "Travel Document Country",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ],
+              "notes": "Defaults to South Africa; with South Africa selected a 'South African ID Number *' field is also shown."
+            },
+            {
+              "name": "nationality",
+              "label": "Country of Origin / Nationality",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "name",
+              "label": "First Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "surname",
+              "label": "Surname",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Date of Birth",
+              "type": "date",
+              "required": true,
+              "notes": "CCYY/MM/DD"
+            },
+            {
+              "name": "occupation",
+              "label": "Occupation",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Civil Service",
+                "Diplomat",
+                "Military/Police",
+                "Media",
+                "Artist",
+                "Charity",
+                "Student",
+                "Education",
+                "Professional",
+                "Trade/Business",
+                "Other"
+              ]
+            },
+            {
+              "name": "mobilecode",
+              "label": "Mobile Code",
+              "type": "select",
+              "required": true
+            },
+            {
+              "name": "mobile",
+              "label": "Mobile Number",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "name": "email",
+              "label": "Email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "complexname",
+              "label": "Hotel / Place of Residence name",
+              "type": "text",
+              "required": false,
+              "notes": "Republic of South Africa Address Details"
+            },
+            {
+              "name": "streetname",
+              "label": "Street number and name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "suburb",
+              "label": "Suburb",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "city",
+              "label": "City/Town",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "postalcode",
+              "label": "Postal Code",
+              "type": "text",
+              "required": true
+            }
+          ],
+          "notices": [
+            "For additional information on Allowance and Regulation, please visit the SARS Customs Traveller Declaration Portal"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Travel Details",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Currency Details",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Possession Details",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Payments Summary",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "Captcha",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

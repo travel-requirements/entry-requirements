@@ -1,0 +1,160 @@
+{
+  "destination": "mauritius",
+  "forms": [
+    {
+      "kind": "declaration",
+      "title": "Mauritius All-in-One Travel Digital Form (Health Declaration Form)",
+      "appliesTo": [
+        "all-in-one-travel-form"
+      ],
+      "startUrl": "https://safemauritius.govmu.org/",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "travelMode": "By air",
+        "countryOfResidence": "Poland"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Travel information: the stepper will not advance without a flight, arrival date and length of stay; later steps are not reachable by URL (single-page form)",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Travel information",
+          "read": true,
+          "fields": [
+            {
+              "label": "You are travelling...",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "By air",
+                "By sea"
+              ]
+            },
+            {
+              "label": "Country of residence",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Airline",
+              "type": "select",
+              "required": null
+            },
+            {
+              "label": "Flight no",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "My flight is not listed",
+              "type": "checkbox",
+              "required": false
+            },
+            {
+              "label": "Date of arrival",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Purpose of travel",
+              "type": "select",
+              "required": null
+            },
+            {
+              "label": "Proposed length of stay (in days)",
+              "type": "number",
+              "required": true
+            },
+            {
+              "label": "Initial port of embarkation",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Countries visited in the last six months",
+              "type": "country",
+              "required": false
+            }
+          ],
+          "notices": [
+            "Travellers are required, under Mauritian law, to complete the Health Declaration Form before travelling to Mauritius. Proof of completion of the form will be required at boarding. Refusal to complete the form, or knowingly providing false information, may result in a fine of up to MUR 500,000 and imprisonment of up to 5 years.",
+            "The Health Declaration Form is completely free of charge and the Government of Mauritius does not charge any fee for this form. Data collected for the purpose of immigration and health surveillance complies with our Data Protection Act.",
+            "All fields marked with an asterix(*) are required"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Personal information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Accommodation information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Emergency contact",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Signs and symptoms",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "Declaration",
+          "read": false,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "kind": "evisa",
+      "title": "Mauritius Premium Visa — National E-Licensing (EDB) application",
+      "appliesTo": [
+        "premium-travel-visa"
+      ],
+      "startUrl": "https://residency.mu/live/mauritius-premium-visa/",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "The 'Apply for Premium Visa' link opens the Premium Visa page of the National E-Licensing portal (business.edbmauritius.org), where the application starts only after REGISTER / LOGIN",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Premium Visa information (EDB)",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "To qualify for the Premium Visa, interested visitors should produce proof of their long stay plans and sufficient travel and health insurance for the initial period of stay while meeting the following criteria: the applicants should not enter the Mauritius Labour market; the main place of business and source of income and profits should be outside Mauritius; documentary evidence to support application such as purpose of visit, accommodation etc.; and other basic immigration requirements.",
+            "It allows a non-citizen to stay in Mauritius for a period exceeding six (6) months up to one (1) year with an option to renew."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Premium Visa permit page (National E-Licensing portal)",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "Documents you will need to provide. General: Passport Size Photo; Copy of airline ticket including return ticket for intended period of stay beyond 6 months",
+            "Security Notice: You are accessing the official website of the National E-Licensing portal at https://business.edbmauritius.org. Always verify the website address before entering your login details. Please report any suspicious link/message to nels@edbmauritius.org."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Register / Login",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "destination": "antigua-and-barbuda",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Antigua and Barbuda Electronic Entry Visa (EEV) — application",
+      "appliesTo": [
+        "tourist-visa"
+      ],
+      "startUrl": "https://evisa.immigration.gov.ag/agEvisa-app/",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "visaType": "ENTRY EVISA - VISITOR"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Visa Request: Continue needs an arrival date, an address in Antigua and the applicant's financial means; the later steps are server-side actions that need the saved request. evisa.immigration.gov.ag redirects to abevisa.com/agEvisa-app/, where the form is served",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Before Starting Your Application",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "You will be required to complete the online application in a single web browser session. Before starting the application process, please ensure you have all of these required elements: A valid email address; A valid travel document (e.g. passport); A recent digital photograph; Supporting documents (scanned); A valid credit card to pay for the application",
+            "Please do not submit more than one application for each EEV request. Wait for the email confirmation. Multiple EEV applications for the same time period may delay the processing of your application.",
+            "Receive an email containing your EEV travel letter and print a copy for your records."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Visa Request",
+          "read": true,
+          "fields": [
+            {
+              "name": "visa.visaPrxyIndCode",
+              "label": "This application is being prepared by another person on my behalf",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "NO",
+                "YES"
+              ]
+            },
+            {
+              "name": "visa.prxyName",
+              "label": "Full name",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "visa.prxyAdrs",
+              "label": "Address",
+              "type": "textarea",
+              "required": null
+            },
+            {
+              "name": "visa.prxyRltnshp",
+              "label": "Relationship to applicant",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "visa.visaTypeCode",
+              "label": "Visa type",
+              "type": "select",
+              "required": true,
+              "options": [
+                "ENTRY EVISA - OFFICIAL",
+                "ENTRY EVISA - DEPENDENT",
+                "ENTRY EVISA - TRANSIT",
+                "ENTRY EVISA - BUSINESS",
+                "ENTRY EVISA - VISITOR",
+                "ENTRY EVISA - GOVERNMENT",
+                "ENTRY EVISA - STUDENT",
+                "ENTRY EVISA - WORK"
+              ]
+            },
+            {
+              "name": "visa.visaEntryTypeCode",
+              "label": "Entry type",
+              "type": "select",
+              "required": true,
+              "options": [
+                "SINGLE ENTRY",
+                "MULTIPLE ENTRY"
+              ],
+              "notes": "Options shown for ENTRY EVISA - VISITOR."
+            },
+            {
+              "name": "visa.antcptdArvlDate",
+              "label": "Intended arrival date [dd/mm/yyyy]",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "visa.prpsOfJrnyCode",
+              "label": "Purpose of trip",
+              "type": "select",
+              "required": true,
+              "options": [
+                "AMNESTY / RESIDENCY PERMIT",
+                "ASKED TO LEAVE",
+                "BUSINESS",
+                "CARGO VESSEL CREW",
+                "CARICOM SKILLED NATIONAL",
+                "CONVENTION",
+                "CRUISE SHIP",
+                "DAY TRIP",
+                "DENIED ENTRY",
+                "FERRY CREW",
+                "HONEYMOON/WEDDING",
+                "INTRANSIT",
+                "MEDICAL",
+                "MEETING",
+                "NOMAD DIGITAL RESIDENCE VISA PROGRAMME",
+                "OECS NATIONAL",
+                "RESIDENT",
+                "SPORT",
+                "STUDY",
+                "TANKER CREW",
+                "TEMPORARY RESIDENT",
+                "TRAINING",
+                "TRANSIT / ASKED TO LEAVE",
+                "VACATION",
+                "VISITING FRIENDS AND RELATIVES",
+                "WORK PERMIT"
+              ]
+            },
+            {
+              "name": "visa.antcptdVstPrd",
+              "label": "Duration of stay (in days)",
+              "type": "number",
+              "required": true
+            },
+            {
+              "name": "visa.adrsInCntry",
+              "label": "Intended Address in Antigua & Barbuda",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "name": "visa.fnclMnsForStay",
+              "label": "What financial means will be held on arrival for support during your stay?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Contact information of the person in Antigua & Barbuda who you are here to see — Full name / Primary phone / Email address / Other phone",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "visa.mayWorkIndCode",
+              "label": "I intend to work in Antigua & Barbuda",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "NO",
+                "YES"
+              ]
+            },
+            {
+              "name": "visa.mayStdyIndCode",
+              "label": "I plan to attend school in Antigua & Barbuda",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "NO",
+                "YES"
+              ]
+            },
+            {
+              "name": "visa.expdtdIndCode",
+              "label": "Request expedited processing",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "NO",
+                "YES"
+              ]
+            }
+          ],
+          "notices": [
+            "Select 'Yes' if you need expedited processing. An expedite charge may apply. Please refer to the Government of Antigua and Barbuda website for fee details."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Travel History",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Personal Data",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Documents",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "Review",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 7,
+          "name": "Payment",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

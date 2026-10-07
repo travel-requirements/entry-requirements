@@ -1,0 +1,55 @@
+{
+  "destination": "madagascar",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "eVisa Madagascar — tourist eVisa (Electronic Travel Authorisation)",
+      "appliesTo": [
+        "tourist-15",
+        "tourist-30",
+        "tourist-60"
+      ],
+      "startUrl": "https://evisamada-mg.com/en/visa/apply/index",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "'Apply' redirects to the log-in page (email and password); the application is filled in only after registering an account. Only the public pre-login pages were read.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Create your account",
+          "read": false,
+          "fields": [],
+          "notices": [
+            "Before you start: Valid passport; Payment card; Access to your email and phone",
+            "Fill in your information (identity and travel information)",
+            "The traveler can apply for a visa between one week and 6 months before departure.",
+            "All nationalities are eligible for eVisa",
+            "Currently only the tourist visa is supported by the eVisa system",
+            "The tourist eVisa is a single entry visa with a maximum duration of 60 days."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Proceed to payment",
+          "read": false,
+          "fields": [],
+          "notices": [
+            "Use your credit card to pay",
+            "The prices of the online visa are the same as those paid on arrival"
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Download your electronic travel authorisation",
+          "read": false,
+          "fields": [],
+          "notices": [
+            "This authorisation allows you to fly and enter Madagascar",
+            "An Electronic Travel Authorization is issued no later than 72 hours after validation of your online registration",
+            "The document is to be printed or kept in the smartphone for police control upon arrival"
+          ]
+        }
+      ]
+    }
+  ]
+}

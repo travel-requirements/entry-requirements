@@ -1,0 +1,91 @@
+{
+  "destination": "dominican-republic",
+  "forms": [
+    {
+      "kind": "arrival-card",
+      "title": "Dominican Republic e-Ticket (entry and exit)",
+      "appliesTo": [
+        "eticket"
+      ],
+      "startUrl": "https://eticket.migracion.gob.do/Auth/TravelRegister/",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "request": "New eTicket",
+        "travellingWithSomeoneElse": "No"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "E-ticket application: the next action, SUBMIT, generates an application code (a saved application), so it was not pressed; the new version at eticket.gob.do offers sign-in, registration or guest access and its New eTicket button did not open a form for the reading browser",
+      "steps": [
+        {
+          "order": 1,
+          "name": "What type of request?",
+          "read": true,
+          "fields": [
+            {
+              "label": "¿Qué tipo de solicitud desea realizar?",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "Nuevo eTicket",
+                "Crear desde un eTicket anterior",
+                "Prueba la nueva versión"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "E-TICKET APPLICATION",
+          "read": true,
+          "fields": [
+            {
+              "label": "ARE YOU TRAVELING WITH SOMEONE ELSE?",
+              "type": "checkbox",
+              "required": true,
+              "name": "HasCompanion",
+              "options": [
+                "YES",
+                "NO"
+              ]
+            },
+            {
+              "label": "HOW MANY PEOPLE ARE WITH YOU?",
+              "type": "number",
+              "required": null,
+              "name": "AcompanyNumber",
+              "notes": "Shown when YES: Maximun Of 6"
+            },
+            {
+              "label": "NATURE OF THE GROUP",
+              "type": "select",
+              "required": true,
+              "name": "Relation",
+              "options": [
+                "Friends",
+                "Workmates",
+                "Family",
+                "Couple"
+              ],
+              "notes": "Shown when YES"
+            },
+            {
+              "label": "DOES ANY MEMBER OF THE GROUP IDENTIFY AS A PERSON WITH REDUCED MOBILITY?",
+              "type": "checkbox",
+              "required": null,
+              "name": "PRMPeople",
+              "options": [
+                "YES",
+                "NO"
+              ],
+              "notes": "Shown when YES"
+            }
+          ],
+          "notices": [
+            "Make sure to enter the passport number and nationality the same as it appears in your passport with which you are going to travel",
+            "Fields marked with a red asterisk are required (*)"
+          ]
+        }
+      ]
+    }
+  ]
+}

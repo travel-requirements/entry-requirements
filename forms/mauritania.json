@@ -1,0 +1,96 @@
+{
+  "destination": "mauritania",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Mauritania e-Visa request (ANRPTS)",
+      "appliesTo": [
+        "evisa-tourist",
+        "evisa-90"
+      ],
+      "startUrl": "https://anrpts.gov.mr/visa/requestvisa",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "package": "30 days"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Passport (travel document number and dates); later steps are seen only by name in the stepper.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Visa Options",
+          "read": true,
+          "fields": [
+            {
+              "label": "Choose a Package",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "30 days",
+                "90 days",
+                "360 days"
+              ]
+            }
+          ],
+          "notices": [
+            "Please verify the entered information before proceeding to the payment stage.",
+            "All visas are issued electronically and allow entry via all international ports of entry."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Passport",
+          "read": true,
+          "fields": [
+            {
+              "label": "Travel Document Number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Travel Document Type",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Standard Passport"
+              ]
+            },
+            {
+              "label": "Date of Issue",
+              "type": "date",
+              "required": null
+            },
+            {
+              "label": "Expiration Date",
+              "type": "date",
+              "required": null
+            },
+            {
+              "label": "Place of Issue",
+              "type": "text",
+              "required": null
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Traveler",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Details",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Review",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "destination": "singapore",
+  "forms": [
+    {
+      "kind": "arrival-card",
+      "title": "SG Arrival Card — foreign visitors / In-Principle Approval holders, manual submission",
+      "appliesTo": [
+        "sgac"
+      ],
+      "startUrl": "https://eservices.ica.gov.sg/arrivalcard/sgac/fvipa/submit",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "travellerType": "Visitor",
+        "mode": "Fill in Manually"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Traveller Details (personal and passport data); Visit Details and Review seen by name only",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Traveller Details",
+          "read": true,
+          "fields": [
+            {
+              "label": "Date of Arrival",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "<today>",
+                "<today + 1 day>",
+                "<today + 2 days>"
+              ],
+              "notes": "on 7 October 2026 the choices were 07, 08 and 09 October 2026"
+            },
+            {
+              "label": "Full Name (In Passport)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Passport Number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Date of Passport Expiry",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Sex as indicated in Passport",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "FEMALE",
+                "MALE",
+                "OTHERS"
+              ]
+            },
+            {
+              "label": "Date of Birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Nationality/Citizenship",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Country/Place of Birth",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Place of Residence",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Email Address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "label": "Country Code",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Mobile Number",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "label": "Last City/Port of Embarkation before Singapore",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Purpose of Travel",
+              "type": "select",
+              "required": true
+            },
+            {
+              "label": "Date of Departure from Singapore",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Next City/ Port of Disembarkation after Singapore",
+              "type": "text",
+              "required": true,
+              "notes": "checkbox 'Same as Last City'"
+            },
+            {
+              "label": "Have you ever used a passport under different name to enter Singapore?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "YES",
+                "NO"
+              ]
+            },
+            {
+              "label": "Do you currently have fever, cough, shortness of breath, headache, vomiting, dizziness or rash?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "YES",
+                "NO"
+              ]
+            }
+          ],
+          "notices": [
+            "Estimated completion time: 5 to 7 mins",
+            "If you are a Long-Term Pass Holder, please submit your Singapore Arrival Card via Long-Term Pass Holder.",
+            "Providing False Declaration Is An Offence Under Singapore Law"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Visit Details",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Review",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

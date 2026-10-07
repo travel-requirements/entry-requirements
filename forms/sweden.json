@@ -1,0 +1,78 @@
+{
+  "destination": "sweden",
+  "forms": [
+    {
+      "kind": "other",
+      "title": "EU Entry/Exit System (EES) — registration at the border",
+      "appliesTo": [
+        "ees"
+      ],
+      "startUrl": "https://travel-europe.europa.eu/en/ees/how-does-the-ees-work",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "The EES has no online application: registration is taken by passport control at the external border",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Registration at the border crossing point",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "You will have to provide your personal data. Passport control officers will take a photo of your face and/or scan your fingerprints. This information will be recorded in a digital file.",
+            "Your passport (biometric or non-biometric) will not be stamped.",
+            "This process can be quicker if you register some of your data in advance. You can do this by using: the dedicated equipment (“self-service system”), if available at your border crossing point; and/or a mobile application - if made available by the country of arrival or departure."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "title": "Travel to Europe app — optional EES pre-registration when entering Sweden",
+      "appliesTo": [
+        "ees"
+      ],
+      "startUrl": "https://travel-europe.europa.eu/ees/Travel-to-Europe-mobile-app",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "Mobile app only (App Store / Google Play); steps listed from the app's official page",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Create a new journey (country, border crossing point, expected arrival time)",
+          "read": false,
+          "fields": [],
+          "notices": [
+            "Non-EU nationals can use the app to pre-register their data within 72 hours prior to entering or leaving a European country using the app.",
+            "The app does not replace border checks but makes border crossing smoother and faster and more efficient.",
+            "You can use the Travel to Europe app when entering Sweden, where it supports passport data, facial image and entry questionnaire and Portugal, where it supports the entry questionnaire.",
+            "Using the app is optional, but it can help you save time and speed up border checks."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Scan the personal details page and the chip of your passport",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Take a selfie to confirm your identity",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Answer a few questions about your travel plans",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Submit your journey",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

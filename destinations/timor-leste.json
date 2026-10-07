@@ -17,7 +17,7 @@
   ],
   "summary": "Most nationalities buy a US$30 tourist visa on arrival, good for 30 days and extendable once, while citizens of the EU (except Ireland) and the other Schengen states enter visa-free for up to 90 days in any 180 under the EU agreement and citizens of Indonesia, Malaysia, Singapore and Thailand visa-free for 30 days. The Migration Service says the visa on arrival is issued at every official border post, including land crossings from Indonesia.",
   "meta": {
-    "lastUpdated": "2026-10-06",
+    "lastUpdated": "2026-10-07",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -1745,17 +1745,25 @@
     ],
     "customs": {
       "currencyLimits": {
-        "text": "If you plan to bring cash or travellers cheques worth USD 20,000 or more, you must get authorisation from the Central Bank of Timor-Leste before you arrive. The online arrival and departure declaration that every traveller submits also serves the Central Bank as well as customs.",
+        "text": "The customs e-Passenger Declaration that every traveller submits asks whether you carry more than US$5,000 or the equivalent in other currencies; if you do, you must declare the exact amount to Customs. If you carry more than US$20,000 or the equivalent, you must also show Customs the Central Bank of Timor-Leste's authorisation to import that amount.",
         "source": {
-          "url": "https://www.gov.uk/foreign-travel-advice/timor-leste/entry-requirements",
-          "name": "UK Foreign, Commonwealth & Development Office — Timor-Leste travel advice: entry requirements",
+          "url": "https://tilesw.customs.gov.tl/#/eservice/traveller/declaration",
+          "name": "Timor-Leste Customs Authority — e-Passenger Declaration (arrival), Goods Questions step",
           "type": "government",
-          "lastVerified": "2026-10-03",
-          "lastChanged": "2026-10-03"
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07",
+          "portalOnly": true,
+          "conflict": {
+            "url": "https://www.gov.uk/foreign-travel-advice/timor-leste/entry-requirements",
+            "name": "UK Foreign, Commonwealth & Development Office — Timor-Leste travel advice: entry requirements",
+            "states": "Central Bank authorisation for cash or travellers cheques worth USD 20,000 or more, obtained before you arrive",
+            "resolvedBy": "hierarchy"
+          }
         }
       },
       "notes": [
-        "The UK Foreign Office says there are strict rules about goods you can take into or out of Timor-Leste, and you must declare anything that may be prohibited or subject to tax or duty."
+        "The UK Foreign Office says there are strict rules about goods you can take into or out of Timor-Leste, and you must declare anything that may be prohibited or subject to tax or duty.",
+        "Timor-Leste Customs' e-Passenger Declaration asks you to declare more than 200 cigarettes or 200 grams of other tobacco, more than 2.5 litres of alcoholic drinks, goods bought abroad worth more than US$300, goods or samples for commercial use, prohibited or dangerous goods (including narcotics, ammunition, weapons and knives), and any food, plants or plant products, live animals or animal products, seafood, animal feed, biological specimens, fertiliser, soil, vaccines or medicines, including traditional medicine."
       ]
     }
   },

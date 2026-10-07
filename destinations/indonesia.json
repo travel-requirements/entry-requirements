@@ -18,7 +18,7 @@
   ],
   "summary": "Indonesia offers a Visa on Arrival — or its online e-VOA version — of IDR 500,000 for 30 days, extendable once, to citizens of 97 countries and territories, admits ASEAN neighbors and a few other countries (including Brazil and Turkey) visa-free, and requires every arrival to submit a free customs declaration online before landing.",
   "meta": {
-    "lastUpdated": "2026-10-06",
+    "lastUpdated": "2026-10-07",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 7,
     "primarySources": [
@@ -2719,19 +2719,38 @@
       }
     },
     "proofOfFunds": {
-      "required": false,
-      "appliesTo": null,
+      "required": true,
+      "appliesTo": "visa-applicants",
       "amount": null,
-      "text": "Applicants for the C1 tourist visit visa must show a bank statement covering the last three months, in their own or a sponsor's name, with at least USD 2,000 or the equivalent in another currency.",
+      "text": "The e-Visa application states that holders of the B1 Visa on Arrival must have sufficient living expenses while in Indonesia, without naming an amount. Applicants for the C1 tourist visa must provide a personal bank statement for the last three months showing at least USD 2,000 or the equivalent.",
       "source": {
-        "url": "https://www.imigrasi.go.id/wna/daftar-visa-indonesia/C1",
-        "name": "Directorate General of Immigration — C1 tourist visit visa",
+        "url": "https://evisa.imigrasi.go.id/web/visa-selection",
+        "name": "Directorate General of Immigration — e-Visa application, visa detail step (B1 e-VOA and C1)",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-02"
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-07",
+        "portalOnly": true
       }
     },
     "declarations": [
+      {
+        "id": "all-indonesia-arrival-card",
+        "name": "All Indonesia arrival card",
+        "mandatory": true,
+        "fee": null,
+        "submitAt": "before-travel",
+        "submitWindow": "Within 3 days before arrival",
+        "url": "https://allindonesia.imigrasi.go.id/",
+        "text": "The immigration e-Visa portal states that all travellers are required to submit an arrival card within 3 days before arriving in Indonesia. It is filed on the immigration authority's All Indonesia site (allindonesia.imigrasi.go.id).",
+        "source": {
+          "url": "https://evisa.imigrasi.go.id/",
+          "name": "Directorate General of Immigration — official e-Visa portal home page (arrival card notice)",
+          "type": "government",
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07",
+          "portalOnly": true
+        }
+      },
       {
         "id": "e-cd",
         "name": "Electronic Customs Declaration (e-CD)",

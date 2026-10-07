@@ -1,0 +1,474 @@
+{
+  "destination": "hong-kong",
+  "forms": [
+    {
+      "kind": "eta",
+      "title": "Pre-arrival Registration for Indian nationals (Immigration Department, ESERVICES2)",
+      "appliesTo": [
+        "pre-arrival-registration"
+      ],
+      "startUrl": "https://www.gov.hk/en/apps/immdes2indianparreg.htm",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "The registration form (Parts A to I on one page), at the first personal field (name). The whole page rendered, so every part was read; the confirmation and result steps that follow submission were not reached.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Disclaimer",
+          "read": true,
+          "fields": [
+            {
+              "label": "I have read and agree to the above Copyright Notice, Privacy Policy, Statement of Purpose and Disclaimer.",
+              "type": "checkbox",
+              "required": true
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Requirement",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "To proceed with the registration, the following item is required: Printer",
+            "To minimise the chance of exposing your personal information to unauthorised person, you are advised to submit the application with your personal computer."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guidance Notes",
+          "read": true,
+          "fields": [
+            {
+              "label": "I have read, understood and agree to the Guidance Notes (including the Statement of Purpose thereon).",
+              "type": "checkbox",
+              "required": true
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Eligibility",
+          "read": true,
+          "fields": [
+            {
+              "label": "I have read the above and confirm to be eligible for this online pre-arrival registration.",
+              "type": "checkbox",
+              "required": true
+            }
+          ],
+          "notices": [
+            "You can make use of this online service free of charge to apply for pre-arrival registration for visiting or transiting the Hong Kong Special Administrative Region (HKSAR) if you are: an Indian national holding an Indian passport valid for at least six months; and intending to visit or transit (except in direct transit by air and not leaving the airport transit area) the HKSAR for a stay not exceeding 14 days.",
+            "Pre-arrival registration is not required for Indian nationals in direct transit by air and not leaving the airport transit area.",
+            "Subject to normal immigration requirements being met, you may visit the HKSAR without pre-arrival registration if you: hold a valid Indian diplomatic or official passport; hold an United Nations Laissez Passer and come to the HKSAR or transit the HKSAR to/from a third place for official United Nations business; have successfully enrolled for e-Channel service for Frequent Visitors Note; hold a valid HKSAR Travel Pass; or have obtained a valid entry visa for the HKSAR.",
+            "If you are an Indian national intending to visit the HKSAR for a stay exceeding 14 days or intending to come to the HKSAR for a purpose other than visit (e.g. employment, study, or take up residence in the HKSAR), you must apply to the Immigration Department for an appropriate visa.",
+            "A pre-arrival registration is normally valid for a six month period or until the expiry date of the Indian passport linked to it, whichever is earlier. During the validity of the registration, the registrant may make multiple visits to the HKSAR visa-free. On each visit, the registrant may stay in the HKSAR for up to 14 days."
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Registration details (Parts A to I)",
+          "read": true,
+          "fields": [
+            {
+              "name": "surNameEngTxt",
+              "label": "Name — Surname in English",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "givNameEnTxt",
+              "label": "Name — Given name in English",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Is there any alias in English on your passport?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "Have you ever been known by any other names?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "gender",
+              "label": "Sex",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Male",
+                "Female"
+              ]
+            },
+            {
+              "name": "marStatus",
+              "label": "Marital status",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Single",
+                "Married",
+                "Separated",
+                "Divorced",
+                "Widowed"
+              ]
+            },
+            {
+              "label": "Date of birth (DD MMM YYYY)",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "regPOB",
+              "label": "Place of birth (as shown on passport)",
+              "type": "select",
+              "required": true,
+              "notes": "A list of Indian places, or 'Others (Please specify below)'."
+            },
+            {
+              "label": "Is your residential address in India?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "Residential address other than India",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Contact telephone number",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "label": "Passport number",
+              "type": "text",
+              "required": true,
+              "notes": "Part B: Information of passport; entered twice."
+            },
+            {
+              "label": "Place of issue of passport",
+              "type": "select",
+              "required": true
+            },
+            {
+              "label": "Date of issue",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Date of expiry",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Any previous travels to the HKSAR within the past three years?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "Any previous visits to foreign countries/regions within the past three years?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "Employment sector",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Accounting",
+                "Administrative and Support Services",
+                "Art, Culture, Recreation and Sports",
+                "Banking, Finance and Insurance",
+                "Building and Construction",
+                "Education and Law",
+                "Engineering",
+                "Government and Public Services",
+                "Health and Medical Services",
+                "Hospitality and Catering",
+                "Information Technology",
+                "Manufacturing",
+                "Marketing, Media and Advertising",
+                "Merchandising, Purchasing and Retailing",
+                "Property and Real Estate Services",
+                "Transportation and Logistics",
+                "Homemaker",
+                "Retired",
+                "Student",
+                "Unemployed",
+                "Others"
+              ]
+            },
+            {
+              "label": "Name of company / employer / school",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Address of office / school",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Contact telephone number of company / employer / school",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "label": "Purpose of visit",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Leisure visit",
+                "Business visit",
+                "Family visit",
+                "Transit"
+              ]
+            },
+            {
+              "label": "Proposed duration of stay (days)",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Same day",
+                "1 to 14"
+              ]
+            },
+            {
+              "label": "Address of accommodation",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Hotel reservation number, if any",
+              "type": "text",
+              "required": false
+            },
+            {
+              "label": "Fund available for travel to the HKSAR in HK dollars (including cost of accommodation)",
+              "type": "select",
+              "required": true,
+              "options": [
+                "HK$0 - HK$4,999",
+                "HK$5,000 - HK$9,999",
+                "HK$10,000 - HK$14,999",
+                "HK$15,000 - HK$19,999",
+                "HK$20,000 - HK$29,999",
+                "HK$30,000 - HK$39,999",
+                "HK$40,000 or more"
+              ]
+            },
+            {
+              "label": "Local connection in the HKSAR",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "Will you experience hardship or difficulty in or after returning to India?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "Have you ever committed or been arrested for any overstaying, illegal immigration or other criminal offence in the HKSAR or any country/territory?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "Have you ever been refused a visa application by the HKSAR or any other country/territory?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "Have you ever been refused permission to enter the HKSAR or any other country/territory?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "Have you ever been deported/removed from the HKSAR or any other country/territory?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "Do you seek to engage in or have you ever engaged in terrorist activities?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "Identification Question",
+              "type": "select",
+              "required": true
+            },
+            {
+              "label": "Answer",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Validation (four capital letters or numerals as shown)",
+              "type": "text",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Fields marked with * are mandatory.",
+            "You must truthfully enter the correct information. The information you provide in this pre-arrival registration needs to be exactly the same as it appears in your passport and you must use the same passport that is linked to the pre-arrival registration when you visit the HKSAR. Failure to do so will render your pre-arrival registration invalid. If you do not hold the same passport that is linked to your pre-arrival registration, you will be refused boarding of a conveyance (a ship, aircraft, vehicle or any other means whatsoever of travel or transport) bound for the HKSAR, and your entry to the HKSAR will be refused upon arrival.",
+            "Warning: A person who knowingly and wilfully makes a statement or gives information which he/she knows to be false or does not believe to be true may be liable for prosecution under the Laws of Hong Kong.",
+            "If you fail to present a valid notification slip upon boarding a conveyance bound for the HKSAR and upon arrival immigration clearance in the HKSAR, you will be refused boarding the conveyance and refused entry to the HKSAR."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "eta",
+      "title": "Pre-arrival Registration for Taiwan Residents (Immigration Department, ESERVICES2)",
+      "appliesTo": [
+        "par-taiwan"
+      ],
+      "startUrl": "https://www.gov.hk/en/apps/immdes2taiwanparreg.htm",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "Step 1, Input Registration Details, at the first personal field (name in Chinese). The whole step rendered; Confirm Registration Details and Result of Registration follow submission and were seen by name only.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Input Registration Details",
+          "read": true,
+          "fields": [
+            {
+              "label": "I have read the above and confirm to be eligible for this online pre-arrival registration and that I do not have the right of abode or the right to land in the Hong Kong Special Administrative Region.",
+              "type": "checkbox",
+              "required": true
+            },
+            {
+              "label": "Name in Chinese",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Name in English (Surname, Given Name)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Sex",
+              "type": "select",
+              "required": true
+            },
+            {
+              "label": "Date of birth (DD-MM-YYYY)",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Place of birth",
+              "type": "select",
+              "required": true
+            },
+            {
+              "label": "Taiwan identity card number",
+              "type": "text",
+              "required": true,
+              "notes": "Entered twice."
+            },
+            {
+              "label": "Taiwan re-entry travel document number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Valid until (DD-MM-YYYY)",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Identification Question",
+              "type": "select",
+              "required": true
+            },
+            {
+              "label": "Answer",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Validation",
+              "type": "text",
+              "required": true
+            }
+          ],
+          "notices": [
+            "To proceed with the registration, the following item is required: Printer",
+            "You can make use of this online service to submit pre-arrival registration for visiting Hong Kong if you are a Chinese resident of Taiwan who: 1. (a)was born in Taiwan; or (b)was born outside Taiwan but has been admitted to Hong Kong as a Taiwan resident before; and 2. is not in possession of any travel document issued by other authorities outside Taiwan [except 'Mainland Travel Permit for Taiwan Residents' (commonly known as 'Tai Bao Zheng'), and Entry Permit issued by the Immigration Department of the Hong Kong Special Administrative Region].",
+            "You have to hold a travel document valid for at least 6 months for re-entry to Taiwan when making a pre-arrival registration as well as when presenting for arrival immigration clearance in Hong Kong.",
+            "This pre-arrival registration is not applicable to Hong Kong permanent resident who has the right of abode in the Hong Kong Special Administrative Region (HKSAR), or Hong Kong resident who has the right to land in the HKSAR.",
+            "It may take about 10 minutes to complete the registration process. Before you start, you are recommended to read the Guidance Notes.",
+            "Please note that the information inputted below must be true and correct and must tally with that on the travel document for re-entry to Taiwan. Any incorrect or false information provided may render your registration invalid and/or lead to refusal of your entry to Hong Kong. You may also be liable to prosecution.",
+            "If you fail to present a valid notification slip upon arrival immigration clearance, you may not be allowed to enter Hong Kong within the validity of this registration."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Confirm Registration Details",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Result of Registration",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

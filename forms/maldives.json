@@ -1,0 +1,144 @@
+{
+  "destination": "maldives",
+  "forms": [
+    {
+      "kind": "arrival-card",
+      "title": "Maldives Imuga Traveller Declaration (new declaration)",
+      "appliesTo": [
+        "imuga"
+      ],
+      "startUrl": "https://imuga.immigration.gov.mv/traveller/declaration",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "passportScan": "skipped",
+        "purpose": "Holiday"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Personal Details (name, passport, contact details and a photo upload). The step indicator shows five steps; the remaining three render only after Personal Details is completed and carry no names.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Scan passport",
+          "read": true,
+          "fields": [
+            {
+              "name": "photo",
+              "label": "Drop your passport's data page here or click to browse",
+              "type": "file",
+              "required": null,
+              "notes": "Optional: the step offers Skip Upload."
+            }
+          ],
+          "notices": [
+            "Used solely to complete this declaration. Not stored or shared for any other purpose."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Purpose of Visit",
+          "read": true,
+          "fields": [
+            {
+              "label": "Choose the purpose of your visit to the Maldives.",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "Holiday",
+                "Employment",
+                "Dependent",
+                "Business",
+                "Official or Diplomatic",
+                "Conference",
+                "Sponsorship",
+                "Crew"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Personal Details",
+          "read": true,
+          "fields": [
+            {
+              "name": "given_name",
+              "label": "Given Name",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "surname",
+              "label": "Surname",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Gender",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Male",
+                "Female",
+                "-"
+              ]
+            },
+            {
+              "label": "Date of Birth",
+              "type": "date",
+              "required": null
+            },
+            {
+              "name": "passport_number",
+              "label": "Passport Number",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Passport Expiry Date",
+              "type": "date",
+              "required": null
+            },
+            {
+              "label": "Nationality",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Country of Residence",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "email_address",
+              "label": "Email Address",
+              "type": "email",
+              "required": null
+            },
+            {
+              "name": "mobile_number",
+              "label": "Mobile Number",
+              "type": "tel",
+              "required": null
+            },
+            {
+              "name": "photo",
+              "label": "Upload Your Photo",
+              "type": "file",
+              "required": null,
+              "notes": "JPG, PNG up to 6MB"
+            }
+          ],
+          "notices": [
+            "Please provide your personal details as they appear on your passport."
+          ]
+        }
+      ]
+    }
+  ]
+}

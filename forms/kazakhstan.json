@@ -1,0 +1,63 @@
+{
+  "destination": "kazakhstan",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Kazakhstan Visa-Migration Portal — e-visa (issuance of entry/exit visas)",
+      "appliesTo": [
+        "evisa-tourist"
+      ],
+      "startUrl": "https://www.vmp.gov.kz/en/services/visa-service",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "'Get visa' redirects to the portal's log-in (eGov log-in for residents, or a registered foreigner account). Only the public service page before log-in was read; it lists the application steps.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Issuance of entry/exit visas (service page)",
+          "read": true,
+          "fields": [
+            {
+              "label": "Country",
+              "type": "country",
+              "required": null,
+              "notes": "Shows the visa categories available for the chosen country."
+            },
+            {
+              "label": "Visa multiplicity",
+              "type": "select",
+              "required": null
+            }
+          ],
+          "notices": [
+            "The following types of visas are available for E-Visa: single-entry business visa; single-entry tourist visa; single-entry treatment visa; single-entry investor visa.",
+            "Visas are issued after payment of consular fees and state duties in accordance with the legislation of the Republic of Kazakhstan.",
+            "Paid amounts of consular fees are non-refundable.",
+            "E-visa can be issued only if there is a valid invitation from the Kazakh side. To apply for an e-visa, you need an invitation number received from the inviting Kazakh side. The issued electronic visa must be printed out for presentation at the state border crossing and on the territory of the Republic of Kazakhstan. Electronic visa gives the right to enter / exit the Republic of Kazakhstan only through the international airports of Nur-Sultan and Almaty.",
+            "E-visas are not issued to foreigners with whom children travel together.",
+            "An electronic visa must be printed and presented when passing through passport control.",
+            "* if you are exempt from consular fees, you must apply to the Embassy of the Republic of Kazakhstan for a visa."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Log in to the portal",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Fill in personal data: Invitation number; Passport data",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Online payment of the consular fee",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

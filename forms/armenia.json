@@ -1,0 +1,113 @@
+{
+  "destination": "armenia",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Armenia E-VISA Issuance System (Ministry of Foreign Affairs) — visitor e-Visa",
+      "appliesTo": [
+        "evisa-21",
+        "evisa-120"
+      ],
+      "startUrl": "https://evisa.mfa.am/check-eligibility",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "nationality": "Afghanistan (Poland was offered but returns 'A Visa is Not Required'; Afghanistan is the first listed)",
+        "travelDocument": "Ordinary passport",
+        "purpose": "TOURISM/VISIT RELATIVE/FRIEND"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Document type and country, at the email address and captcha. The next step (Requested details) opens only from a link emailed to the applicant (/request-details/<token>); the other step URLs redirect to the start page, so they were seen by name only.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Document type and country",
+          "read": true,
+          "fields": [
+            {
+              "name": "purpose",
+              "label": "Purpose of visit",
+              "type": "select",
+              "required": true,
+              "options": [
+                "TOURISM/VISIT RELATIVE/FRIEND",
+                "BUSINESS",
+                "SPORT/CULTURAL/EVENTS",
+                "OTHER ACTIVITY",
+                "MEDICAL TREATMENT",
+                "FAMILY REUNION",
+                "STUDY/EDUCATION",
+                "AIRCRAFT/TRANSPORT CREW",
+                "EVENTS COP17"
+              ]
+            },
+            {
+              "name": "documentType",
+              "label": "Travel Document",
+              "type": "select",
+              "required": true,
+              "options": [
+                "ORDINARY PASSPORT",
+                "SERVICE PASSPORT",
+                "SPECIAL PASSPORT",
+                "DIPLOMATIC PASSPORT",
+                "TRAVEL DOCUMENT"
+              ]
+            },
+            {
+              "name": "country",
+              "label": "Travel Document Issuing Country/Territory/Org.",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "email",
+              "label": "Email",
+              "type": "email",
+              "required": true,
+              "notes": "Appears after NEXT for a nationality that needs a visa."
+            },
+            {
+              "name": "reCaptcha",
+              "label": "Captcha",
+              "type": "text",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Visitor visa (up to 21 days of stay) / Non-refundable fee - USD 8",
+            "Visitor visa (up to 120 days of stay) / Non-refundable fee - USD 39",
+            "E-VISA processing time is up to 3 working days",
+            "Citizens of POLAND with ORDINARY PASSPORT are not required to provide a visa when visiting the Republic of Armenia for a period up to 90 days. For a stay extending this period a residence permit card needs to be acquired. You can apply for a residence permit during your stay in Armenia."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Requested details",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Purpose and duration",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Data confirmation",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Payment",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

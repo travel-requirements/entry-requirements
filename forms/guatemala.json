@@ -1,0 +1,48 @@
+{
+  "destination": "guatemala",
+  "forms": [
+    {
+      "kind": "declaration",
+      "title": "Guatemala Regional Traveller Sworn Declaration (Declaración Jurada Regional de Viajero) — SAT",
+      "appliesTo": [
+        "traveller-declaration"
+      ],
+      "startUrl": "https://farm2.sat.gob.gt/declaDelViajeroGt-web/",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "language": "English"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "First step needs an email address and an hCaptcha; the form is a single-page app with no step URLs",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Email",
+          "read": true,
+          "fields": [
+            {
+              "label": "Email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "label": "Confirm email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "label": "Select the type of document that will be uses during the trip",
+              "type": "other",
+              "required": null
+            }
+          ],
+          "notices": [
+            "All travelers or heads of family must declare to enter of leave the country",
+            "Enter the email address where you will receive the information provided",
+            "Fill in the required fields to continue"
+          ]
+        }
+      ]
+    }
+  ]
+}

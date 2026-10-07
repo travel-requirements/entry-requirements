@@ -1,0 +1,204 @@
+{
+  "destination": "iran",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Iran eVisa — Online Non-immigrant Visa Application (MFA)",
+      "appliesTo": [
+        "tourist-evisa",
+        "voa-tourist"
+      ],
+      "startUrl": "https://evisatraveller.mfa.ir/en/request/applyrequest/",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "visaType": "Tourist",
+        "nationality": "Poland",
+        "passportType": "Ordinary",
+        "placeOfIssue": "Embassy of the Islamic Republic of Iran-Warsaw"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Step 1, Personal Information (names, date of birth, photo upload); steps after Step 2 did not render",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Visa Eligibility",
+          "read": true,
+          "fields": [
+            {
+              "label": "Visa Type",
+              "type": "select",
+              "required": true,
+              "name": "visa_type",
+              "options": [
+                "Entry",
+                "Tourist",
+                "Pilgrimage",
+                "Diplomatic",
+                "Service",
+                "Transit",
+                "Press",
+                "Family",
+                "Trading",
+                "Family visit",
+                "Tourist (Urgent)",
+                "Driver visa",
+                "Tourism (diplomat's guest)"
+              ]
+            },
+            {
+              "label": "Nationality",
+              "type": "country",
+              "required": true,
+              "name": "nationality",
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Type of passport",
+              "type": "select",
+              "required": true,
+              "name": "passport_type",
+              "options": [
+                "Ordinary",
+                "Service",
+                "Diplomatic",
+                "Travel Document",
+                "Laissez-Passer",
+                "Official"
+              ]
+            },
+            {
+              "label": "Place of Issue",
+              "type": "select",
+              "required": true,
+              "name": "issuer_agent",
+              "notes": "Iranian airports (visa on arrival) and Iranian embassies and consulates"
+            }
+          ],
+          "notices": [
+            "Persons who may have dual nationality should announce their nationality based on the travel documents/passport that they wish to carry.",
+            "In case nationality printed on visa is incompatible with nationality printed on passport, visa will be null and void.",
+            "An applicant may not be granted visa unless his/her passport is valid for at least six months.",
+            "You choose an airport as Place of Issue To apply for a Visa on Arrival, the following points should carefully be considered. You must submit a hardcopy of Submission Notice to the Visa-On-Arrival counter at the airport. Submission Notice will be available when you have completed online visa application form. Citizens of foreign countries, who are entitled to obtain visas at border checkpoints, must pay visa fee in euros through banking terminals at the airport. Refugee and Travel Document holder are not allowed to apply for a Visa on Arrival."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Step 1 — Personal Information",
+          "read": true,
+          "fields": [
+            {
+              "label": "First name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Surname",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Father’s name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Gender",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Male",
+                "Female"
+              ]
+            },
+            {
+              "label": "Former nationality",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Place of birth",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Date of birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Marital status",
+              "type": "select",
+              "required": true
+            },
+            {
+              "label": "Occupation",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Personal photo",
+              "type": "file",
+              "required": true,
+              "notes": "The maximum size of the file to upload is 500 kilobytes(KB)"
+            }
+          ],
+          "notices": [
+            "If your name is spelled differently on your official documents, please write your name as shown in your passport.",
+            "If you have a middle name on your travel documents/passport, please enter your middle name(s) after your name in the name filed."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Step 2 — Contact Information",
+          "read": true,
+          "fields": [
+            {
+              "label": "Applicant's Phone Number",
+              "type": "tel",
+              "required": true,
+              "notes": "Applicant's phone number outside Iran"
+            },
+            {
+              "label": "Applicant's Cell Phone Number",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "label": "Email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "label": "Zip code",
+              "type": "text",
+              "required": false
+            },
+            {
+              "label": "Residence address",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Phone Number in Iran",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "label": "Address in Iran",
+              "type": "text",
+              "required": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

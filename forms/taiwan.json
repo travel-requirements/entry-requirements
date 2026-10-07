@@ -1,0 +1,76 @@
+{
+  "destination": "taiwan",
+  "forms": [
+    {
+      "kind": "arrival-card",
+      "title": "Taiwan Arrival Card (TWAC) — National Immigration Agency",
+      "appliesTo": [
+        "arrival-card"
+      ],
+      "startUrl": "https://twac.immigration.gov.tw/notice",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "Email Verification (requires an email address and a code sent to it). The later steps are client-side and do not render by URL; they are seen only by name.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Notice",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "Please submit your Online Arrival Card before arriving in Taiwan.",
+            "Please fill out the Arrival Card accurately and truthfully. If there are any errors or omissions in the information provided, please fill out the Arrival Card again and submit it.",
+            "The \"English name\" field in the Arrival Card only accepts English letters and spaces. Please do not input any other symbols.",
+            "If you choose to fill out the Arrival Card in Chinese, only Traditional Chinese is accepted.",
+            "Once the Arrival Card is completed and submitted, you will receive a confirmation e-mail (please ensure the e-mail address you provide is correct and valid). Additionally, immigration officers may request you to present the confirmation e-mail for further verification if needed.",
+            "Submission is Free.",
+            "Complete and submit within 7 days before arrival."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Email Verification",
+          "read": true,
+          "fields": [
+            {
+              "name": "email",
+              "label": "Email Address",
+              "type": "email",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Please fill in your personal email address, then click \"Send Verification Code\". You will receive a verification email.",
+            "Fill in the received verification code in the blank below, then click \"Verify E-mail Address\". to continue the application process.",
+            "If you are using free e-mail service and have not yet received the verification email, please also check other folders (i.e. Spam or Advertisements). Alternatively, we suggest using a different email address for the application.",
+            "Please note that using email services from Mainland China may result in the inability to receive verification emails."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Traveler Information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Itinerary",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Review",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "Confirmation",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

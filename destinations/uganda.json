@@ -21,7 +21,7 @@
   ],
   "summary": "Nearly all visitors need a Ugandan visa, applied for online through the official eVisa portal (USD 50 single entry) before travel; East African Community citizens move freely, and a list of mostly African, Caribbean and Commonwealth countries is visa-exempt.",
   "meta": {
-    "lastUpdated": "2026-10-06",
+    "lastUpdated": "2026-10-07",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -1622,7 +1622,7 @@
       "fee": {
         "amount": 100,
         "currency": "USD",
-        "notes": "USD 100 for 6 or 12 months' validity and USD 200 for 24 months."
+        "notes": "USD 100 for 6 or 12 months' validity and USD 200 for 24 months. The application asks for a police clearance from Interpol or your home country, recommendation letters from two referees in Uganda, a cover letter giving the reasons for multiple entry and proof of your entries into and exits from Uganda in the last year, besides the passport bio-data page and a recent photo."
       },
       "processing": null,
       "validityDays": 365,
@@ -1633,8 +1633,14 @@
         "url": "https://www.immigration.go.ug/services/multiple-entry-visa",
         "name": "National Citizenship and Immigration Control — multiple-entry visa",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-03",
+        "conflict": {
+          "url": "https://visas.immigration.go.ug/#/apply",
+          "name": "Uganda Directorate of Citizenship and Immigration Control — Electronic Visa/Permit application, Select type of application step (Multiple-Entry, 24 Months)",
+          "states": "Application Fee USD 150 for 24 months",
+          "resolvedBy": "stricter"
+        }
       }
     }
   ],
@@ -1699,15 +1705,22 @@
       }
     },
     "onwardTicket": {
-      "required": false,
-      "appliesTo": null,
-      "text": "Not among the listed documents for the single-entry tourist visa, which asks for a travel itinerary or booking instead; East African Tourist Visa applicants must upload a return ticket.",
+      "required": true,
+      "appliesTo": "visa-applicants",
+      "text": "Uganda's eVisa application lists a return ticket among the documents to upload for a single-entry tourist visa when the purpose is tourism or a family visit, and for the East African Tourist Visa. The immigration service's tourist visa page lists a travel itinerary or booking for tourism instead. No official source we could read states a rule for visa-exempt visitors.",
       "source": {
-        "url": "https://www.immigration.go.ug/services/east-african-tourist-visa",
-        "name": "National Citizenship and Immigration Control — East African Tourist Visa",
+        "url": "https://visas.immigration.go.ug/#/apply",
+        "name": "Uganda Directorate of Citizenship and Immigration Control — Electronic Visa/Permit application, Select type of application step (Uganda Ordinary/Tourist Visa, Single Entry; East Africa Tourist Visa)",
         "type": "government",
-        "lastVerified": "2026-10-02",
-        "lastChanged": "2026-10-02"
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-07",
+        "portalOnly": true,
+        "conflict": {
+          "url": "https://www.immigration.go.ug/services/tourist-visa",
+          "name": "Uganda Directorate of Citizenship and Immigration Control — Uganda Tourist Visa, Single Entry",
+          "states": "Tourism attachments: tour plan and travel itinerary / booking, no return ticket",
+          "resolvedBy": "stricter"
+        }
       }
     },
     "proofOfFunds": {

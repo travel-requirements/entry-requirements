@@ -1,0 +1,274 @@
+{
+  "destination": "timor-leste",
+  "forms": [
+    {
+      "kind": "declaration",
+      "title": "Timor-Leste e-Passenger Declaration (arrival) — Customs Authority, Timor-Leste electronic Single Window",
+      "appliesTo": [
+        "traveller-declaration"
+      ],
+      "startUrl": "https://tilesw.customs.gov.tl/#/eservice/traveller/declaration",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "travelerType": "Visitor"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Lead Traveler (passport and personal details). The single-page app renders every step in the page, so the later steps were read without entering anything; nothing was submitted. A separate Traveller Departure Declaration exists (#/eservice/departure/declaration) and was not walked.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Residency Details — Traveler Type / Entry & Flight/voyage Details",
+          "read": true,
+          "fields": [
+            {
+              "label": "Purpose of travel",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Citizen/Timorense",
+                "Visitor",
+                "Long Term Visa Holder",
+                "Resident Permit Holder"
+              ],
+              "notes": "Despite its label, the list is a traveller type."
+            },
+            {
+              "label": "Country of embarkation",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Entry Point / Pontu de Entrada",
+              "type": "select",
+              "required": null,
+              "options": [
+                "BATUGADE",
+                "Presidente Nicolau Lobato International Airport",
+                "Tibar Port",
+                "Mozon Tunubibi Maliana",
+                "Oesilo - Land Border",
+                "Sakato - Land Border",
+                "Suai-Salele Land Border"
+              ]
+            },
+            {
+              "label": "Flight/Voyage Number/ Númeru viazeng aviaun nian",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Arrival Date / Loron tama (YYYY MM dd)",
+              "type": "date",
+              "required": null
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Personal Details — Lead Traveler",
+          "read": true,
+          "fields": [
+            {
+              "label": "Passport Number",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Nationality/Nasionalidade",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Expiry Date",
+              "type": "date",
+              "required": null
+            },
+            {
+              "label": "Email",
+              "type": "email",
+              "required": null
+            },
+            {
+              "label": "Phone Number",
+              "type": "tel",
+              "required": null
+            },
+            {
+              "label": "Given / First Name / Naran",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Family / Last Name / Apelido",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Date of birth / Data moris",
+              "type": "date",
+              "required": null
+            },
+            {
+              "label": "Sex/Sexu",
+              "type": "select",
+              "required": null
+            },
+            {
+              "label": "Occupation / Servisu",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Other Travelers — Add Traveler",
+              "type": "other",
+              "required": null,
+              "notes": "Each added traveller has passport, contact and personal details fields."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Other Details — Address",
+          "read": true,
+          "fields": [
+            {
+              "label": "Address in Timor-Leste / Hela Fatin iha Timor-Leste",
+              "type": "text",
+              "required": null
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Goods Details — Goods Questions",
+          "read": true,
+          "fields": [
+            {
+              "label": "Do you have more than US$ 20,000 or the equivalent in other currencies? If yes, please produce the authorization form from the Central Bank of Timor-Leste, to import this amount.",
+              "type": "select",
+              "required": null,
+              "options": [
+                "YES",
+                "NO"
+              ]
+            },
+            {
+              "label": "Do you have more than US$ 5,000 or the equivalent in other currencies? If yes, declare exact amount to Customs.",
+              "type": "select",
+              "required": null,
+              "options": [
+                "YES",
+                "NO"
+              ]
+            },
+            {
+              "label": "Do you have more than 200 sticks of cigarettes or 200 gram of other tobacco?",
+              "type": "select",
+              "required": null,
+              "options": [
+                "YES",
+                "NO"
+              ]
+            },
+            {
+              "label": "Are you carrying goods obtained overseas, worth more than U$D 300?",
+              "type": "select",
+              "required": null,
+              "options": [
+                "YES",
+                "NO"
+              ]
+            },
+            {
+              "label": "Are you bringing into Timor-Leste any food, plants or plants products including wood, live animals or animal products, seafood, live fish, animal feed, biological specimen, fertilizer, soil, vaccines, medicines and traditional medicine?",
+              "type": "select",
+              "required": null,
+              "options": [
+                "YES",
+                "NO"
+              ]
+            },
+            {
+              "label": "Do you have more than 2.5 liters of alcoholic beverages?",
+              "type": "select",
+              "required": null,
+              "options": [
+                "YES",
+                "NO"
+              ]
+            },
+            {
+              "label": "Are you carrying goods or samples for commercial use?",
+              "type": "select",
+              "required": null,
+              "options": [
+                "YES",
+                "NO"
+              ]
+            },
+            {
+              "label": "Are you carrying any prohibited or dangerous goods, narcotic goods, ammunition or weapons of any kind including knives?",
+              "type": "select",
+              "required": null,
+              "options": [
+                "YES",
+                "NO"
+              ]
+            },
+            {
+              "label": "I confirm that all answers to above questions are correct",
+              "type": "select",
+              "required": null
+            },
+            {
+              "label": "Number of baggages / Númeru volume bagazeng",
+              "type": "number",
+              "required": null
+            },
+            {
+              "label": "Merchandise To Declare/Sasan atu deklara",
+              "type": "select",
+              "required": null
+            },
+            {
+              "label": "Are you carrying money/osan more than 5000 USD or equivalent?",
+              "type": "select",
+              "required": null
+            },
+            {
+              "label": "Amount",
+              "type": "number",
+              "required": null
+            },
+            {
+              "label": "Currency",
+              "type": "select",
+              "required": null
+            }
+          ],
+          "notices": [
+            "The questions are shown in Portuguese, Tetum and English; the English wording is recorded here. Every question defaults to NO."
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Review & Submit",
+          "read": true,
+          "fields": [
+            {
+              "label": "I declare that the information provided is true and correct",
+              "type": "select",
+              "required": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

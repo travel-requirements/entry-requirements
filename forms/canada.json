@@ -1,0 +1,352 @@
+{
+  "destination": "canada",
+  "forms": [
+    {
+      "kind": "eta",
+      "title": "Canada Electronic Travel Authorization (eTA) — IRCC online application",
+      "appliesTo": [
+        "eta"
+      ],
+      "startUrl": "https://eta.onlineservices-servicesenligne.apps.cic.gc.ca/eta/welcome?lang=en",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "applyingOnBehalf": "No",
+        "passportIssuedBy": "Another country",
+        "purpose": "Visit as a tourist or visit family",
+        "travelDocument": "Passport - ordinary/regular",
+        "passportCode": "POL (Poland)",
+        "nationality": "Poland"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Personal details of applicant (passport number, names, date of birth). The form expands on one page, so its remaining sections were read without entering anything; it ends with 'Proceed to Payment', which was not used. Sections that appear only after answers about the applicant (previous applications, travel date) were not opened.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Final instructions to apply for an eTA (canada.ca)",
+          "read": true,
+          "fields": [
+            {
+              "label": "I’m applying for an eTA with a passport issued by:",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Austria",
+                "France",
+                "Mexico",
+                "Another country"
+              ]
+            },
+            {
+              "label": "What do you plan to do in Canada?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Visit as a tourist or visit family",
+                "Transit through Canada by air",
+                "Attend a meeting or conference",
+                "Study",
+                "Work"
+              ]
+            }
+          ],
+          "notices": [
+            "If you enter the wrong passport number OR country code, you may not be able to board your flight to Canada.",
+            "You may only find out at the airport if you made a mistake.",
+            "You’ll have to reapply for an eTA at the airport.",
+            "Depending on your situation, it may not be possible to get an eTA at the last minute."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Are you applying on behalf of someone?",
+          "read": true,
+          "fields": [
+            {
+              "name": "isRepresentative",
+              "label": "Are you applying on behalf of someone?",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Travel document",
+          "read": true,
+          "fields": [
+            {
+              "name": "travelDocumentType",
+              "label": "What travel document do you plan to use to travel to Canada?",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Passport - ordinary/regular",
+                "Passport - diplomatic",
+                "Passport - official",
+                "Passport - service",
+                "Emergency/temporary travel document",
+                "Refugee travel document",
+                "Alien passport/travel document issued for non-citizens",
+                "Permit to re-enter the United States (I-327)",
+                "U.S. Refugee travel document (I-571)"
+              ]
+            },
+            {
+              "name": "countryOfCitizenship",
+              "label": "Select the code that matches the one on your passport.",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "passportNotedNationality",
+              "label": "What is the nationality noted on this passport?",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            }
+          ],
+          "notices": [
+            "Before you submit an application, review it carefully. Make sure it is complete and accurate.",
+            "Entering incorrect information could lead to a delay or even a refusal of an eTA application. It could also prevent you from boarding your flight or boat."
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Passport details",
+          "read": true,
+          "fields": [
+            {
+              "name": "passportNumber",
+              "label": "Passport number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "passportNumberReEnter",
+              "label": "Passport number (re-enter)",
+              "type": "text",
+              "required": true,
+              "notes": "You cannot copy and paste into this field."
+            },
+            {
+              "name": "lastName",
+              "label": "Surname(s) / last name(s)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "firstName",
+              "label": "Given name(s) / first name(s)",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Date of birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "gender",
+              "label": "Gender",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Female",
+                "Male",
+                "Another gender"
+              ]
+            },
+            {
+              "name": "countryOfBirth",
+              "label": "Country/territory of birth",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "cityTownOfBirth",
+              "label": "City/town of birth",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Date of issue of passport",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Date of expiry of passport",
+              "type": "date",
+              "required": true
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Personal details of applicant",
+          "read": true,
+          "fields": [
+            {
+              "name": "additionalCitizenship",
+              "label": "Additional nationalities - Country/territory",
+              "type": "country",
+              "required": false,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "hasPreviouslyAppliedToCanada",
+              "label": "Have you ever applied for or obtained a visa, an eTA or a permit to visit, live, work or study in Canada?",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Contact information",
+          "read": true,
+          "fields": [
+            {
+              "name": "languageOfPreference",
+              "label": "Preferred language to contact you",
+              "type": "select",
+              "required": true,
+              "options": [
+                "English",
+                "French"
+              ]
+            },
+            {
+              "name": "emailAddress",
+              "label": "Email address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "emailAddressReEnter",
+              "label": "Email address (re-enter)",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "aptUnit",
+              "label": "Apartment/unit number (if applicable)",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "streetNo",
+              "label": "Street/civic number or house name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "streetAddress",
+              "label": "Street address/name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "streetAddressAlt",
+              "label": "Street address/name line 2 (if applicable)",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "city",
+              "label": "City/town",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "country",
+              "label": "Country/territory",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "district",
+              "label": "District/region",
+              "type": "text",
+              "required": false
+            }
+          ],
+          "notices": [
+            "Enter your permanent home address. Do not enter an address where you live temporarily."
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Travel information",
+          "read": true,
+          "fields": [
+            {
+              "name": "isTravelDateKnown",
+              "label": "Do you know when you will travel to Canada?",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            }
+          ],
+          "notices": [
+            "This information may help us to process your application. If you do not know when you will travel to Canada, please select \"no\"."
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Consent and declaration",
+          "read": true,
+          "fields": [
+            {
+              "name": "inAggreance",
+              "label": "I Agree",
+              "type": "checkbox",
+              "required": true
+            },
+            {
+              "name": "fullName",
+              "label": "Signature of applicant",
+              "type": "text",
+              "required": true,
+              "notes": "To sign, enter your name as it appears on your passport."
+            }
+          ],
+          "notices": [
+            "I declare that the information I have given in this application is truthful, complete and correct.",
+            "I understand that any false statements or concealment of a material fact may result in my inadmissibility to Canada and may be grounds for my prosecution or removal.",
+            "I also understand that should I be found to be inadmissible for misrepresentation under section 40 of the Immigration and Refugee Protection Act, I may be ineligible to apply to certain IRCC programs for a period of five years following a final determination of my inadmissibility or, if this determination is made in Canada, following my removal from Canada."
+          ]
+        },
+        {
+          "order": 9,
+          "name": "Payment",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

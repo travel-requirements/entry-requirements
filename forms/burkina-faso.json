@@ -1,0 +1,75 @@
+{
+  "destination": "burkina-faso",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Burkina Faso e-Visa — applicant portal",
+      "appliesTo": [
+        "evisa-tourist"
+      ],
+      "startUrl": "https://applicant.visaburkina.bf/#/",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "The application starts only after REGISTER / LOGIN (email and password account)",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Registration",
+          "read": true,
+          "fields": [
+            {
+              "label": "Email",
+              "type": "email",
+              "required": null
+            },
+            {
+              "label": "Confirm Email Address",
+              "type": "email",
+              "required": null
+            },
+            {
+              "label": "Password",
+              "type": "other",
+              "required": null
+            },
+            {
+              "label": "Confirm Password",
+              "type": "other",
+              "required": null
+            }
+          ],
+          "notices": [
+            "The eVisa Burkina Faso is an electronic travel authorization issued by the government of Burkina Faso. eVisa is an entry requirement to travel to and within Burkina Faso. The Burkinabe eVisa is for touristic or family purpose. Visitors who enter Burkina Faso are required to present a valid eVisa at the port of entry.",
+            "The applicants are requested to fill the Application Form accurately and provide all mentioned requirements and submit with the applicable fees.",
+            "Incomplete and double applications will not be accepted even if application fees have been paid for.",
+            "Visa fees are non-refundable and non-transferrable."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Application",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Submit Documents",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Privacy Payment",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Approval",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "destination": "burundi",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Visa d'entrée aéroport — demande de visa en ligne (Commissariat Général des Migrations)",
+      "appliesTo": [
+        "bdi-evisa-tourist"
+      ],
+      "startUrl": "https://migration.gov.bi/Apply/step1/8",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "visaProduct": "Visa d'entrée aéroport, 1 MOIS",
+        "accommodation": "Hôtel"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Informations personnelles (the first tab asks for name, passport and contact details and a photo and passport copy); the 'Autres informations' and 'Confirmation' tabs seen by name only",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Informations personnelles",
+          "read": true,
+          "fields": [
+            {
+              "name": "type_visa",
+              "label": "Catégorie",
+              "type": "select",
+              "required": true,
+              "options": [
+                "1 MOIS"
+              ]
+            },
+            {
+              "name": "adresse_precise",
+              "label": "Mode d'hébergement",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Hôtel",
+                "Hébergement chez l'habitant",
+                "Maison de passage",
+                "A domicile"
+              ]
+            },
+            {
+              "name": "hotel_id",
+              "label": "Hôtel",
+              "type": "select",
+              "required": true,
+              "options": [
+                "<hotels in Burundi>"
+              ],
+              "notes": "shown when the accommodation is a hotel"
+            },
+            {
+              "label": "Nom",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Prénom(s)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Genre",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Masculin",
+                "Féminin"
+              ]
+            },
+            {
+              "label": "Indicatif du pays",
+              "type": "select",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Téléphone (Avec indicatif pays)",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "label": "Profession",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Athlète",
+                "Autre",
+                "Diplomate",
+                "Electrician",
+                "Employé du Secteur privé",
+                "Enseignant",
+                "Entrepreneur",
+                "Etudiant/Elève",
+                "Fonctionnaire de l'État",
+                "Fonctionnaire international",
+                "Homme / Femme d'affaires",
+                "Magistrat",
+                "Membre des Forces de Sécurité/de l'ordre",
+                "Personnel de santé",
+                "Religieux",
+                "Retraité (e)",
+                "Sans profession"
+              ]
+            },
+            {
+              "label": "Adresse email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "label": "Confirmez l'adresse email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "label": "Date de naissance",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Lieu de naissance (Ville)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Nationalité",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Type de document de voyage",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Carte CEPGL",
+                "Laisser Passer",
+                "Passeport de service",
+                "Passeport diplomatique",
+                "Passeport ordinaire",
+                "Titre de voyage"
+              ]
+            },
+            {
+              "label": "Numéro du document",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Lieu de délivrance",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Date de délivrance",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Valide jusqu'au",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Motif du voyage",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Affaires",
+                "Etude",
+                "Mission officielle",
+                "Santé",
+                "Séminaire",
+                "Tourisme",
+                "Vacances",
+                "Visite familiale"
+              ]
+            },
+            {
+              "label": "Compagnie Aérienne",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Air Tanzania",
+                "Brussels Airlines",
+                "Ethiopian Airlines",
+                "Jet privé/ Private Plane",
+                "Kenya Airways",
+                "RwandAir",
+                "Uganda Airlines"
+              ]
+            },
+            {
+              "label": "Date d'arrivée au Burundi",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Photo passeport (Votre photo)",
+              "type": "file",
+              "required": true,
+              "notes": ".png, .jpg, .jpeg"
+            },
+            {
+              "label": "Photocopie du passeport",
+              "type": "file",
+              "required": true,
+              "notes": ".pdf, .png, .jpg, .jpeg"
+            }
+          ],
+          "notices": [
+            "Sélectionner un type de visa puis remplir le formulaire."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Autres informations",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Confirmation",
+          "read": false,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "kind": "evisa",
+      "title": "Visa de transit — demande de visa en ligne (Commissariat Général des Migrations)",
+      "appliesTo": [
+        "bdi-transit"
+      ],
+      "startUrl": "https://migration.gov.bi/Apply/step1/9",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "visaProduct": "Visa de transit, 3 Jours",
+        "accommodation": "Hôtel"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Informations personnelles (personal and passport data, photo and passport copy); later tabs seen by name only",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Informations personnelles",
+          "read": true,
+          "fields": [
+            {
+              "name": "type_visa",
+              "label": "Catégorie",
+              "type": "select",
+              "required": true,
+              "options": [
+                "3 Jours"
+              ]
+            },
+            {
+              "name": "adresse_precise",
+              "label": "Mode d'hébergement",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Hôtel",
+                "Hébergement chez l'habitant",
+                "Maison de passage"
+              ]
+            },
+            {
+              "name": "hotel_id",
+              "label": "Hôtel",
+              "type": "select",
+              "required": true,
+              "options": [
+                "<hotels in Burundi>"
+              ],
+              "notes": "shown when the accommodation is a hotel"
+            },
+            {
+              "label": "Nom",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Prénom(s)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Genre",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Masculin",
+                "Féminin"
+              ]
+            },
+            {
+              "label": "Indicatif du pays",
+              "type": "select",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Téléphone (Avec indicatif pays)",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "label": "Profession",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Athlète",
+                "Autre",
+                "Diplomate",
+                "Electrician",
+                "Employé du Secteur privé",
+                "Enseignant",
+                "Entrepreneur",
+                "Etudiant/Elève",
+                "Fonctionnaire de l'État",
+                "Fonctionnaire international",
+                "Homme / Femme d'affaires",
+                "Magistrat",
+                "Membre des Forces de Sécurité/de l'ordre",
+                "Personnel de santé",
+                "Religieux",
+                "Retraité (e)",
+                "Sans profession"
+              ]
+            },
+            {
+              "label": "Adresse email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "label": "Confirmez l'adresse email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "label": "Date de naissance",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Lieu de naissance (Ville)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Nationalité",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Type de document de voyage",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Carte CEPGL",
+                "Laisser Passer",
+                "Passeport de service",
+                "Passeport diplomatique",
+                "Passeport ordinaire",
+                "Titre de voyage"
+              ]
+            },
+            {
+              "label": "Numéro du document",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Lieu de délivrance",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Date de délivrance",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Valide jusqu'au",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Motif du voyage",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Affaires",
+                "Etude",
+                "Mission officielle",
+                "Santé",
+                "Séminaire",
+                "Tourisme",
+                "Vacances",
+                "Visite familiale"
+              ]
+            },
+            {
+              "label": "Compagnie Aérienne",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Air Tanzania",
+                "Brussels Airlines",
+                "Ethiopian Airlines",
+                "Jet privé/ Private Plane",
+                "Kenya Airways",
+                "RwandAir",
+                "Uganda Airlines"
+              ]
+            },
+            {
+              "label": "Date d'arrivée au Burundi",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Photo passeport (Votre photo)",
+              "type": "file",
+              "required": true,
+              "notes": ".png, .jpg, .jpeg"
+            },
+            {
+              "label": "Photocopie du passeport",
+              "type": "file",
+              "required": true,
+              "notes": ".pdf, .png, .jpg, .jpeg"
+            }
+          ],
+          "notices": [
+            "Sélectionner un type de visa puis remplir le formulaire."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Autres informations",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Confirmation",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

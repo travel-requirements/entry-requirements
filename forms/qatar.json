@@ -1,0 +1,39 @@
+{
+  "destination": "qatar",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Hayya E-Visa (Tourist A1, GCC Resident A2, Visa with ETA A3, Companion A4, US visa-free F1)",
+      "appliesTo": [
+        "hayya-tourist",
+        "hayya-f1",
+        "hayya-gcc-resident"
+      ],
+      "startUrl": "https://hayya.qa/en/login",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "Sign In: applications are made from a Hayya account; the public page offers only the list of visa types",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Hayya Tourist E-Visas",
+          "read": true,
+          "fields": [
+            {
+              "label": "E-Visa type",
+              "type": "other",
+              "required": null,
+              "options": [
+                "Tourist Visa (A1)",
+                "GCC Resident Visa (A2)",
+                "Visa with ETA (A3)",
+                "Visa for Companion of GCC Citizen (A4)",
+                "Visa-Free for US Citizens (F1)"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

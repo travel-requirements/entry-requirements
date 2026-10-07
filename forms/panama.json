@@ -1,0 +1,274 @@
+{
+  "destination": "panama",
+  "forms": [
+    {
+      "kind": "declaration",
+      "title": "Declaración Jurada de Viajero — traveller's sworn customs declaration (Autoridad Nacional de Aduanas)",
+      "appliesTo": [
+        "customs-declaration"
+      ],
+      "startUrl": "https://declaraciondeviajero.ana.gob.pa/Declaracion/pages/formulario1.php",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "Datos del Viajero (page 1 of 5) asks for names, document number, date of birth and email. Pages 2 to 4 rendered when opened by their URLs; page 5 redirects to page 1 with 'Debe completar todos los formularios anteriores antes de continuar.', so only its existence is known.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Datos del Viajero",
+          "read": true,
+          "fields": [
+            {
+              "name": "tipoDeclaracion",
+              "label": "Tipo de declaración",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Entrada al país",
+                "Salida del país"
+              ]
+            },
+            {
+              "name": "aduanaIngreso",
+              "label": "Aduana de Ingreso o Salida en Panamá",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Aeropuerto Internacional de Tocumen",
+                "Aeropuerto Marcos A. Gelabert",
+                "Aeropuerto Internacional Enrique Malek",
+                "Aeropuerto Internacional Enrique A. Jiménez",
+                "Aeropuerto Internacional Panamá Pacífico",
+                "Aeropuerto Internacional Scarlett Martínez",
+                "Aeropuerto Internacional Isla Colón José E. Hall",
+                "Guabito",
+                "Paso Canoas",
+                "Rio Sereno",
+                "Fuerte Amador Resort & Marina",
+                "Terminal de Cruceros de Panamá",
+                "Puerto de Cruceros Colón 2000",
+                "CCI-Darizara"
+              ]
+            },
+            {
+              "name": "nombres",
+              "label": "Nombres",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "apellidos",
+              "label": "Apellidos",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "nacionalidad",
+              "label": "Nacionalidad",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "genero",
+              "label": "Género",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Masculino",
+                "Femenino"
+              ]
+            },
+            {
+              "name": "documentoNo",
+              "label": "Documento No.",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "tipoDocumento",
+              "label": "Tipo de Documento",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Pasaporte",
+                "Otros"
+              ]
+            },
+            {
+              "name": "fechaNacimiento",
+              "label": "Fecha de Nacimiento + de 18 años",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "correo",
+              "label": "Correo Electrónico",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "confirmarCorreo",
+              "label": "Confirmar Correo",
+              "type": "email",
+              "required": true
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Datos del Viaje",
+          "read": true,
+          "fields": [
+            {
+              "name": "motivoViaje",
+              "label": "Motivo del viaje",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Turismo",
+                "Oficial",
+                "Negocios",
+                "Residencia",
+                "Tránsito",
+                "Otros"
+              ]
+            },
+            {
+              "label": "Medio de transporte",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Aéreo",
+                "Terrestre",
+                "Marítimo"
+              ]
+            },
+            {
+              "name": "paisProcedencia",
+              "label": "País de procedencia",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "paisResidencia",
+              "label": "País de residencia",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "paisDestino",
+              "label": "País de destino",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "direccionPrevista",
+              "label": "Dirección prevista",
+              "type": "text",
+              "required": true
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Datos del Equipaje",
+          "read": true,
+          "fields": [
+            {
+              "name": "numFamiliares",
+              "label": "Número de familiares que viajan con usted",
+              "type": "number",
+              "required": true
+            },
+            {
+              "name": "cantEquipajeViaja",
+              "label": "Cantidad de equipaje que viaja con usted",
+              "type": "number",
+              "required": true
+            },
+            {
+              "name": "cantEquipajeNoViaja",
+              "label": "Cantidad de equipaje que no viaja con usted",
+              "type": "number",
+              "required": true
+            },
+            {
+              "name": "exoneracionAtributos",
+              "label": "¿Has disfrutado en los últimos 6 meses de exoneración de tributos?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Sí",
+                "No"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Declaración de bienes y valores",
+          "read": true,
+          "fields": [
+            {
+              "name": "dinero",
+              "label": "¿Lleva o trae consigo dinero en efectivo o valores monetarios, títulos valores, objetos, metales preciosos o una combinación de estos por un valor igual o superior a US$ 10,000.00 o su equivalente?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Sí",
+                "No"
+              ]
+            },
+            {
+              "name": "animales",
+              "label": "¿Lleva o trae animales vivos, plantas, productos alimenticios o derivados de cualquiera de éstos?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Sí",
+                "No"
+              ]
+            },
+            {
+              "name": "quimicos",
+              "label": "¿Lleva o trae productos químicos, farmacéuticos, sustancias o residuos tóxicos, armas, municiones o explosivos?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Sí",
+                "No"
+              ]
+            },
+            {
+              "name": "mercancia",
+              "label": "¿Lleva o trae mercancías distintas a lo que se considera equipaje de viajero?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Sí",
+                "No"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Página 5 de 5",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

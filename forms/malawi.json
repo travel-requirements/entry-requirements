@@ -1,0 +1,338 @@
+{
+  "destination": "malawi",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Malawi e-Visa application (Department of Immigration and Citizenship Services)",
+      "appliesTo": [
+        "mw-evisa",
+        "mw-evisa-multiple"
+      ],
+      "startUrl": "https://www.evisa.gov.mw/ApplyVisa/Application",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "nationality": "Poland",
+        "visaType": "Single Entry / Multiple Entry - 6 Months / Multiple Entry - 12 Months",
+        "travelDocument": "Ordinary Passport",
+        "purpose": "Tourism"
+      },
+      "requiresAccount": true,
+      "stoppedAt": "The application form needs an e-Visa account (Apply for e-Visa redirects to the login page). The public Visa Eligibility Wizard, which states the requirements before applying, was read for a Polish ordinary passport, tourism.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Visa Eligibility Wizard (public, before login)",
+          "read": true,
+          "fields": [
+            {
+              "label": "Nationality",
+              "type": "country",
+              "required": true,
+              "name": "ddlNationalityCountry",
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Visa Type",
+              "type": "select",
+              "required": true,
+              "name": "ddlVisaType",
+              "options": [
+                "Transit Visa",
+                "Single Entry",
+                "Multiple Entry - 6 Months",
+                "Multiple Entry - 12 Months",
+                "Diplomatic Visa",
+                "Courtesy Visa",
+                "Official Visa"
+              ]
+            },
+            {
+              "label": "Type of Travel Document",
+              "type": "select",
+              "required": true,
+              "name": "ddlTravelDocument",
+              "options": [
+                "Ordinary Passport"
+              ]
+            },
+            {
+              "label": "Purpose of Travel/ Entry",
+              "type": "select",
+              "required": true,
+              "name": "ddlPurposeOfTravelEntry",
+              "options": [
+                "Business",
+                "Family Visit",
+                "Medical",
+                "Religious",
+                "Study",
+                "Tourism"
+              ]
+            },
+            {
+              "label": "Expected Date of Entry",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Expected Date of Departure",
+              "type": "date",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Ordinary Passport this document should be presented at Port of Entry",
+            "The Travel document should be valid for 180 days and bear at least 2 blank pages",
+            "Time for Visa Processing : 5 days",
+            "Fee : 50.00 USD Payable online at the time of application and is non-refundable. (Single Entry; Multiple Entry - 6 Months: 150.00 USD; Multiple Entry - 12 Months: 250.00 USD)",
+            "Validity of Visa approval : 90 days (from the day it was granted)",
+            "The following documents are required for Visa Application - Recent Photograph; Passport Copy (Bio Data Page); Covering letter from the host in Malawi (Must be signed by Host); Covering letter from Agent or Accommodation booking (Must be signed by Agent)",
+            "Below documents are required only if the Applicant is Minor: Birth Certificate (if Applicant is Minor); Passport Copy (Bio Data Page) of Guardian/ Parent (if Applicant is Minor); Form of Consent (if Applicant is Minor); Document Proof of Legal Guardianship (if not natural parent) (if Applicant is Minor)"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "e-Visa Portal Login",
+          "read": true,
+          "fields": [
+            {
+              "label": "Email",
+              "type": "email",
+              "required": null
+            },
+            {
+              "label": "Password",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Captcha",
+              "type": "text",
+              "required": null
+            }
+          ],
+          "notices": [
+            "It requires you to give the travelers information as per the data page of your passport, travel details, photograph, and other related documents.",
+            "After completing the visa application form, you need to do online payment for the visa fee and convenience fee by your credit card or debit card Visa/Master."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "declaration",
+      "title": "Malawi Traveller Health Check (Ministry of Health and Sanitation, Border Health)",
+      "appliesTo": [
+        "traveller-health-check"
+      ],
+      "startUrl": "https://poe.health.gov.mw/self-screen",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "entryPoint": "Mchinji (Mwami OSBP), land border",
+        "comingFrom": "Poland",
+        "transport": "Car or bus"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Step 2 (About you: names, ID number, address, phone). Steps 3 and 4 were displayed by switching the page's own step counter, without entering any data.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Your trip",
+          "read": true,
+          "fields": [
+            {
+              "label": "Where will you enter Malawi?",
+              "type": "text",
+              "required": true,
+              "notes": "Type-ahead of entry points: airports (Kamuzu International, Chileka International, Club Makokola, Karonga), land borders (e.g. Mchinji (Mwami OSBP), Dedza, Mwanza, Songwe) and lake ports (Nkhata Bay, Chilumba, Chipoka)."
+            },
+            {
+              "label": "What day will you arrive?",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Which country are you coming from?",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "How are you travelling?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Plane",
+                "Car or bus",
+                "Boat",
+                "Other"
+              ]
+            },
+            {
+              "label": "Flight number",
+              "type": "text",
+              "required": true,
+              "notes": "Shown when Plane is chosen."
+            },
+            {
+              "label": "Seat number",
+              "type": "text",
+              "required": true,
+              "notes": "Shown when Plane is chosen."
+            },
+            {
+              "label": "Countries you visited in the last 21 days",
+              "type": "country",
+              "required": false,
+              "options": [
+                "<countries>"
+              ]
+            }
+          ],
+          "notices": [
+            "Defaults to today. You can only declare up to 2 days ahead so your health status is current on arrival.",
+            "Add any you stayed in or passed through. Leave empty if none."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "About you",
+          "read": true,
+          "fields": [
+            {
+              "label": "First name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Last name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Sex",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Male",
+                "Female"
+              ]
+            },
+            {
+              "label": "Age (years)",
+              "type": "number",
+              "required": true
+            },
+            {
+              "label": "Which country are you a citizen of?",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "What ID are you using?",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Passport",
+                "National ID",
+                "Other"
+              ]
+            },
+            {
+              "label": "ID number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Your home address (where you usually live)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Where will you stay in Malawi?",
+              "type": "text",
+              "required": true,
+              "notes": "The first place you will sleep — hotel or address."
+            },
+            {
+              "label": "Your phone",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "label": "Email",
+              "type": "email",
+              "required": false
+            },
+            {
+              "label": "Emergency contact name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Emergency contact phone",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "label": "I am travelling alone",
+              "type": "checkbox",
+              "required": null,
+              "notes": "Who is travelling with you?"
+            }
+          ],
+          "notices": [
+            "Use the names on your passport or ID. All boxes here are needed."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Your health",
+          "read": true,
+          "fields": [
+            {
+              "label": "Do you feel sick or have any symptoms today?",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            }
+          ],
+          "notices": [
+            "This part is to keep everyone safe. Answer honestly."
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Confirm",
+          "read": true,
+          "fields": [
+            {
+              "label": "I understand and I agree. The details I gave are true.",
+              "type": "checkbox",
+              "required": true
+            },
+            {
+              "label": "I'm not a robot",
+              "type": "checkbox",
+              "required": null,
+              "notes": "ALTCHA check"
+            }
+          ],
+          "notices": [
+            "The Ministry of Health and Sanitation collects this information under the International Health Regulations and Malawian public-health law to keep travellers safe at the border.",
+            "We use it only for health screening and, if needed, to contact you. We check your answers for possible health risks and a health officer may follow up with you. Your details are kept for up to 100 days and then removed."
+          ]
+        }
+      ]
+    }
+  ]
+}

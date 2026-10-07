@@ -1,0 +1,378 @@
+{
+  "destination": "indonesia",
+  "forms": [
+    {
+      "kind": "visa-on-arrival",
+      "title": "Indonesia Electronic Visa on Arrival (e-VOA, B1 Tourist) — eVisa portal application",
+      "appliesTo": [
+        "e-voa"
+      ],
+      "startUrl": "https://evisa.imigrasi.go.id/web/visa-selection",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "passport": "Poland",
+        "purpose": "General, Family, or Social — Tourism, Family Visit, and Transit",
+        "visa": "B1 - Tourist (Visa On Arrival)"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Passport and photo upload (step 1 of the application proper); the later step URLs return 404 without an application in progress",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Visa selection",
+          "read": true,
+          "fields": [
+            {
+              "name": "selectCountry",
+              "label": "Passport/Country/Region",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "selectParentActivity",
+              "label": "The main purpose of my visit to Indonesia is",
+              "type": "select",
+              "required": null,
+              "options": [
+                "General, Family, or Social",
+                "Investment, Business, or Government",
+                "Golden Visa",
+                "Diaspora",
+                "Silver Hair & Retirement",
+                "Second Home",
+                "Professional or Employment",
+                "Journalist or Film",
+                "Sport or Performer",
+                "Study, Courses, Training or Research",
+                "Work and Holiday"
+              ]
+            },
+            {
+              "name": "selectActivity",
+              "label": "The sub purpose of my visit to Indonesia is",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Parent of Indonesian Citizen",
+                "Tourism, Family Visit, and Transit",
+                "Medical Treatment",
+                "Social",
+                "Family Dependant"
+              ],
+              "notes": "Options shown for 'General, Family, or Social'."
+            },
+            {
+              "name": "selectVisa",
+              "label": "I want to explore & choose a visa",
+              "type": "select",
+              "required": null,
+              "options": [
+                "B1 - Tourist (Visa On Arrival)",
+                "C1 - Tourist Single Entry Visitor Visa - 60 Days",
+                "D1 - Tourist Multiple Entry Visa (5 Years)",
+                "D1 - Tourist Multiple Entry Visa (2 Years)",
+                "D1 - Tourist Multiple Entry Visa (1 Year)"
+              ],
+              "notes": "Options shown for a Polish passport and 'Tourism, Family Visit, and Transit'."
+            },
+            {
+              "name": "selectStay",
+              "label": "I am planning to stay",
+              "type": "select",
+              "required": null,
+              "notes": "One option per visa: '30 Days' for B1, '60 Days' for C1."
+            }
+          ],
+          "notices": [
+            "Type of Visa B1. A person who is a national of visa on arrival country/special entity who will be visiting Indonesia for: ✓ Visiting certain places for the purpose of recreation, personal development, or studying the uniqueness of tourist attractions including but not limited to traveling by yacht, or attending as a participant in meetings, incentives, conventions, and exhibitions activities; ✓ Discussion, negotiation, and/or signing of business agreements including but not limited to offices, factories, or places of production of goods; ✓ Conduct field observations of offices, factories, places to produce goods, places to be invested, and or mining facilities; and ✓ Medical related activities.",
+            "Arrival Card Submission is Required. All travellers are required to submit an arrival card within 3 (three) days prior arrival in Indonesia",
+            "Electronic Visa on Arrival (e-VOA) application can be done simultaneously for 5 people"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Visa detail (Detail & Apply)",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "Stay: Up to 30 days (extendable for another 30 days)",
+            "Cost: Rp500.000",
+            "With this visa you can: Performing activities related to tourism, and visiting friends or family; Discussing, negotiating, and/or signing business agreements conducting field visits to production sites, mines, offices, factories (site visits); and Activities related to treatment including but not limited to medical facilities or other health facilities.",
+            "You must: Comply with laws and regulations. Respect local customs, culture, and wisdom. Have sufficient living expenses while in Indonesia.",
+            "Other information: Staying in Indonesia over the period of your stay permit, engaging in prohibited activities, not complying with visa conditions, and/or not complying with Indonesian laws may result in you paying fines, being deported, and/or other legal charges. You are prohibited from selling goods or services. You are prohibited from receiving rewards or wages from individuals or companies in Indonesia.",
+            "Document Requirement: Present the following documents to the immigration officer upon arrival for immigration inspection: Passport valid for at least 6 months. Outbound ticket from Indonesia.",
+            "Visa Validity: 90 day"
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Upload your passport and newest formal photo",
+          "read": true,
+          "fields": [
+            {
+              "label": "Passport",
+              "type": "file",
+              "required": true
+            },
+            {
+              "label": "Photo",
+              "type": "file",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Passport Term and Condition: Make sure the photo are sharp, in focus, and not ghosted. Make sure the photo is not covered, cropped or folded and not blurry. Make sure the passport photo is in landscape form.",
+            "Photo Term and Condition: Photos format: File format using *.JPEG/ .JPG/ .PNG in color. Min. 400x600px. Max. size 2Mb. Proper composition. The top of the head, including the hair, to the bottom of the chin must be between 50% and 60% of the image's total height. The eye height (measured from the bottom of the image to the level of the eyes) should be between 50% and 60% of the image's height. The layout and position of the photo must be proper (Too close and too far are not recommended). Unrecommended photo: Blurry photo. Others than face photo. Expression face photo.",
+            "Important Messages: Please use a national passport when applying. If you are travelling with any other travel document, including: Travel document, Titre de voyage, Certificate of identity, Laissez passer, Alien passport, Indigenous passport, Travel document for permanent residents, Others. Your visa application must be submitted through a guarantor account, accompanied by a return or onward ticket and a re-entry permit to your country of origin."
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Fill out the form complete, attach the applicable documents",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Review & Submit, tick in each checkboxes for review",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "Payment",
+          "read": false,
+          "fields": [],
+          "notices": [
+            "Make Visa fee payment by SIMPONI or Mastercard, Visa or JCB credit/debit card."
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Download e-Visa",
+          "read": false,
+          "fields": [],
+          "notices": [
+            "Once approved, a link to download the visa will be sent to your email."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "evisa",
+      "title": "Indonesia C1 Tourist Single Entry Visitor Visa (60 days) — eVisa portal application",
+      "appliesTo": [
+        "evisa-c1"
+      ],
+      "startUrl": "https://evisa.imigrasi.go.id/web/visa-selection",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "passport": "Poland",
+        "purpose": "General, Family, or Social — Tourism, Family Visit, and Transit",
+        "visa": "C1 - Tourist Single Entry Visitor Visa - 60 Days"
+      },
+      "requiresAccount": true,
+      "stoppedAt": "Apply leads to the account sign-in (the C1 is applied for from an account; the button reads 'Detail & Login')",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Visa selection",
+          "read": true,
+          "fields": [
+            {
+              "name": "selectCountry",
+              "label": "Passport/Country/Region",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "selectParentActivity",
+              "label": "The main purpose of my visit to Indonesia is",
+              "type": "select",
+              "required": null,
+              "options": [
+                "General, Family, or Social",
+                "Investment, Business, or Government",
+                "Golden Visa",
+                "Diaspora",
+                "Silver Hair & Retirement",
+                "Second Home",
+                "Professional or Employment",
+                "Journalist or Film",
+                "Sport or Performer",
+                "Study, Courses, Training or Research",
+                "Work and Holiday"
+              ]
+            },
+            {
+              "name": "selectActivity",
+              "label": "The sub purpose of my visit to Indonesia is",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Parent of Indonesian Citizen",
+                "Tourism, Family Visit, and Transit",
+                "Medical Treatment",
+                "Social",
+                "Family Dependant"
+              ],
+              "notes": "Options shown for 'General, Family, or Social'."
+            },
+            {
+              "name": "selectVisa",
+              "label": "I want to explore & choose a visa",
+              "type": "select",
+              "required": null,
+              "options": [
+                "B1 - Tourist (Visa On Arrival)",
+                "C1 - Tourist Single Entry Visitor Visa - 60 Days",
+                "D1 - Tourist Multiple Entry Visa (5 Years)",
+                "D1 - Tourist Multiple Entry Visa (2 Years)",
+                "D1 - Tourist Multiple Entry Visa (1 Year)"
+              ],
+              "notes": "Options shown for a Polish passport and 'Tourism, Family Visit, and Transit'."
+            },
+            {
+              "name": "selectStay",
+              "label": "I am planning to stay",
+              "type": "select",
+              "required": null,
+              "notes": "One option per visa: '30 Days' for B1, '60 Days' for C1."
+            }
+          ],
+          "notices": [
+            "C1. A person who plans to visit Indonesia for the purpose of tourism"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Visa detail (Detail & Login)",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "Stay: Up to 60 Days (Extendable)",
+            "Cost: IDR 1,000,000",
+            "With this visa you can: Conducting activities related to tourism, visiting friends or family, and transit. Attend as a participant at meetings, incentives, conventions, and exhibitions.",
+            "You must: Be staying in Indonesia for visit purposes only. Be financially sufficient during your stay in Indonesia. Comply with all visa conditions and Indonesia laws. Respect local customs, culture, and wisdom.",
+            "Other information: You can extend this visa or convert it into another visa or stay permit. You are prohibited from staying in Indonesia after your stay permit expires. You are prohibited from carrying out any profit-making activities in any form. You are prohibited from attending events as a speaker. Performing prohibited activities, not complying with the terms of your visa, and/or not complying with the laws of Indonesia may result in you paying fines, being deported, and/or other legal charges.",
+            "Document Requirement: Passport valid for at least 6 (six) months (for holders of travel documents other than passports such as emergency passports, documents of identity, etc. must be valid for 12 months). Personal bank statement with minimum amount USD $2000 or equivalent the last 3 months period (including name, date of period, and balance account). A recent color photograph.",
+            "Visa Validity: This visa must be used to enter Indonesia within a maximum of 90 days from the date of issue. Please note that the validity period of the visa is different from the period of stay, please check your visa for information on the period of stay."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Sign In",
+          "read": false,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "kind": "arrival-card",
+      "title": "All Indonesia arrival card — foreign visitor",
+      "appliesTo": [
+        "e-cd"
+      ],
+      "startUrl": "https://allindonesia.imigrasi.go.id/",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "traveller": "Foreign Visitor",
+        "language": "English"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Personal Information (passport data); the later step routes redirect to the home page without an arrival card in progress",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Personal Information",
+          "read": true,
+          "fields": [
+            {
+              "label": "Passport/Country/Region",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Full Name",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Date of Birth",
+              "type": "date",
+              "required": null
+            },
+            {
+              "label": "Country/Place of Birth",
+              "type": "country",
+              "required": null
+            },
+            {
+              "label": "Gender",
+              "type": "select",
+              "required": null
+            },
+            {
+              "label": "Passport Number",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Date of Passport Expiry",
+              "type": "date",
+              "required": null
+            },
+            {
+              "label": "Have you ever used a passport under different nationality/region to enter Indonesia?",
+              "type": "radio",
+              "required": null
+            },
+            {
+              "label": "Mobile Number",
+              "type": "tel",
+              "required": null
+            },
+            {
+              "label": "Email",
+              "type": "email",
+              "required": null
+            }
+          ],
+          "notices": [
+            "Please complete your Arrival Card before entering Indonesia by filling out the required information.",
+            "Please ensure that the data on this page is correct according to the passport, and then fill the remaining information.",
+            "Please use the same passport as for other immigration service applications",
+            "Enter your contact information properly and correctly. Please make sure your email address is correct"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Travel Details",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Mode of Transportation & Address",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Declaration",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

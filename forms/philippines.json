@@ -1,0 +1,93 @@
+{
+  "destination": "philippines",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Philippine e-Visa (eVisaPH)",
+      "appliesTo": [
+        "tourist-evisa"
+      ],
+      "startUrl": "https://evisa.gov.ph/",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "countryOfCitizenship": "Poland"
+      },
+      "requiresAccount": true,
+      "stoppedAt": "Log in / Sign Up: the application is reached only through an eVisaPH account (or eGovPH sign-in)",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Check if you need visa",
+          "read": true,
+          "fields": [
+            {
+              "label": "Country of Citizenship",
+              "type": "country",
+              "required": null,
+              "name": "country_code",
+              "options": [
+                "<countries>"
+              ]
+            }
+          ],
+          "notices": [
+            "No visa required for a stay not exceeding thirty (30) days. Traveler must hold valid ticket for return journey to country of origin or next country of destination and a passport valid for a period of at least six (6) months beyond the stay in the Philippines."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Log in to your account",
+          "read": true,
+          "fields": [
+            {
+              "label": "Email Address",
+              "type": "email",
+              "required": null
+            },
+            {
+              "label": "Password",
+              "type": "other",
+              "required": null
+            }
+          ],
+          "notices": [
+            "Don't have an account? Sign Up Now"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "arrival-card",
+      "title": "eTravel — Philippine Travel Information System",
+      "appliesTo": [
+        "etravel"
+      ],
+      "startUrl": "https://etravel.gov.ph/",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "Sign in: eTravel registration starts from an eTravel account (or eGovPH sign-in)",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Login",
+          "read": true,
+          "fields": [
+            {
+              "label": "Enter Email address",
+              "type": "email",
+              "required": null
+            },
+            {
+              "label": "Password",
+              "type": "other",
+              "required": null
+            }
+          ],
+          "notices": [
+            "eTravel is FREE"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "destination": "saint-lucia",
+  "forms": [
+    {
+      "kind": "arrival-card",
+      "title": "Saint Lucia Online Immigration & Customs form (visitor arriving by air)",
+      "appliesTo": [
+        "immigration-customs-form"
+      ],
+      "startUrl": "https://travelslu.govt.lc/en/create",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "residentialStatus": "Non-Resident/Visitor",
+        "entry": "Air"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Arrival (asks for flight number and travel dates before the next step opens; steps 2 to 7 cannot be opened directly and are seen by name only)",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Arrival — Port / Vessel Information",
+          "read": true,
+          "fields": [
+            {
+              "label": "What is your residential Status in Saint Lucia?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Resident/Returning National",
+                "Non-Resident/Visitor"
+              ]
+            },
+            {
+              "label": "How are you entering Saint Lucia?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Air",
+                "Sea"
+              ]
+            },
+            {
+              "label": "Airline",
+              "type": "select",
+              "required": true
+            },
+            {
+              "label": "Flight Registration Number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Country of Embarkation",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ],
+              "notes": "'Country of Embarkation' is the country in which you are boarding the flight/vessel to arrive in Saint Lucia"
+            },
+            {
+              "label": "Port of Embarkation",
+              "type": "select",
+              "required": true
+            },
+            {
+              "label": "Port of Debarkation",
+              "type": "select",
+              "required": true
+            },
+            {
+              "label": "Intended Date of Arrival",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Intended Date of Departure",
+              "type": "date",
+              "required": true
+            }
+          ],
+          "notices": [
+            "You may access the form no more than 72 hours before travel",
+            "Submit one form per family/group",
+            "After submission, you will receive a receipt by email which you will need to present on arrival",
+            "To make changes after submission, simply return to this page and follow the prompts",
+            "What do I need? Flight Information; Passport details for all family members travelling with you; A photo of the travel documents, more specifically your passport bio page or ID card for OECS citizens only; A valid email address"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Personal",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Travel",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Destination",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Health",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "Family",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 7,
+          "name": "Customs",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

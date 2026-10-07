@@ -1,0 +1,77 @@
+{
+  "destination": "pakistan",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Pakistan Online Visa System — eVisa application",
+      "appliesTo": [
+        "tourist-evisa",
+        "business-evisa"
+      ],
+      "startUrl": "https://visa.nadra.gov.pk/e-visa/",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "Registration: the application is behind an account created with name, email, passport number and a captcha",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Registration — Personal information",
+          "read": true,
+          "fields": [
+            {
+              "label": "Given name",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Surname",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "label": "Re-type your email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "label": "Passport number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Password",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Re-type your password",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Type the code from the picture",
+              "type": "text",
+              "required": true,
+              "notes": "captcha"
+            }
+          ],
+          "notices": [
+            "Create an account to register yourself in Pak-Visa System.",
+            "Password must be at least 12 characters and must contain an upper case character, a lower case character, a numeric character, and a special character."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Registration — Email verification",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

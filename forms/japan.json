@@ -1,0 +1,154 @@
+{
+  "destination": "japan",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "JAPAN eVISA — single-entry short-term stay visa for tourism",
+      "appliesTo": [
+        "evisa-single"
+      ],
+      "startUrl": "https://www.evisa.mofa.go.jp/index",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "nationality": "Afghanistan (first listed; Poland is visa-exempt and not offered)",
+        "countryOfResidence": "Australia (first listed)",
+        "purpose": "Tourism"
+      },
+      "requiresAccount": true,
+      "stoppedAt": "Log in: the application itself is behind an account registered with an email address; the public document check was read for three nationality/residence pairs (Afghanistan/Australia, China/United States, India/United Kingdom)",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Check your necessary documents",
+          "read": true,
+          "fields": [
+            {
+              "name": "courierIcaoCode",
+              "label": "Your nationality or citizenship",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "addressCountryCode",
+              "label": "Your place of residence (country or region)",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Australia",
+                "Brazil",
+                "Cambodia",
+                "Canada",
+                "Saudi Arabia",
+                "South Africa",
+                "Taiwan",
+                "United Kingdom",
+                "United States of America"
+              ]
+            },
+            {
+              "name": "addressLClassCode",
+              "label": "(state, prefecture, province, etc.)",
+              "type": "select",
+              "required": null
+            },
+            {
+              "label": "Your purpose of travel (category)",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Tourism"
+              ]
+            },
+            {
+              "label": "(details)",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Tourism"
+              ]
+            },
+            {
+              "name": "check",
+              "label": "I have checked the necessary documents.",
+              "type": "checkbox",
+              "required": null
+            }
+          ],
+          "notices": [
+            "Type of visa for which you need to apply. AS TEMPORARY VISITOR",
+            "Your necessary documents (Afghanistan national residing in Australia; items marked required): Passport; Facial photo (passport type); Itinerary with flight information; Document to prove the ability to pay for travel expenses; Schedule of stay; Document to prove the relationship with the financial guarantor / account holder; Passport or Identification card of financial guarantor; Document to prove legal residency (VEVO : Visa Entitlement Verification Online); Letter of authorization. Not marked required: Birth certificate; Marriage certificate; Proof of enrollment issued by a university; Parental consent form",
+            "Your necessary documents (China national residing in the United States; all marked required except the parental consent form): Passport; Facial photo (passport type); Proof of Immigration Status; Flight itinerary; Document to prove the ability to pay for travel expenses; Detailed schedule of stay describing daily activity plans (accommodation information, phone number and address including); Document to prove the relationship with the financial guarantor / account holder; Passport or Identification card of financial guarantor; Document to prove current residential address; Parental consent form; Letter of authorization",
+            "Your necessary documents (India national residing in the United Kingdom; items marked required): Passport; Facial photo (passport type); Document to prove the ability to pay for travel expenses; Schedule of stay; Document to prove the relationship with the financial guarantor / account holder; Passport or Identification card of financial guarantor; Document to prove legal residency; Letter of authorization. Not marked required: Itinerary with flight information; Hotel information; Certificate of enrollment / Certificate of employment; Parental consent form",
+            "Application documents may vary depending on embassies/consulates. Be sure to check the website of the embassy/consulate where you are applying.",
+            "Documents other than those \"required\" may also be requested.",
+            "The payment method for an eVISA is limited to online payment. We only accept the payment by your credit card.",
+            "If your application is incomplete or doesn't meet the requirements, it will be cancelled or returned without being processed. Please submit your application well in advance of your travel.",
+            "Effective July 1, 2026, the visa fee has been revised to 15,000 JPY due to a regulatory amendment.",
+            "▶ During the application process, you may be requested to appear in person for an interview at the Japanese overseas establishment with jurisdiction over your place of residence.",
+            "▶ Only online payment is available for an eVISA. You cannot pay a visa fee in cash at the Japanese overseas establishment.",
+            "▶ When the eVISA is issued through JAPAN eVISA, you will not have a visa sticker in your passport. You will be requested to display \"visa issuance notice\" on your device (e.g. smartphone, tablet) when checking in at the airport. Other forms (e.g. PDF, screenshots) will not be accepted.",
+            "[Application by Proxy]",
+            "If a proxy applies on your behalf, a letter of authorization is required. Once your visa has been issued, the proxy must give you a PDF or printed copy of the \"Visa Issuance Notice\" with QR code.",
+            "[Applications by Minors]",
+            "If a minor child is applying for an eVISA and travelling alone, a parental consent form must be submitted.",
+            "[Facial photo]",
+            "Photo should be taken within the last six months, against a plain, untextured background, with the entire face clearly centered horizontally. If it doesn't meet the requirements, the Japanese overseas establishment may request you to apply again, which might delay your whole visa application process.",
+            "Don't use photo retaken from passport, driver license, group photograph etc.",
+            "[Period for visa Issuance]",
+            "Some of the Japanese overseas establishments are experiencing delays in processing applications due to a large number of applications, many of which are incomplete and cannot be examined immediately. Please submit your application well in advance of your travel."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Log in",
+          "read": true,
+          "fields": [
+            {
+              "name": "mailAddress",
+              "label": "Email address",
+              "type": "email",
+              "required": null
+            },
+            {
+              "name": "password",
+              "label": "Password",
+              "type": "text",
+              "required": null
+            }
+          ],
+          "notices": [
+            "To log in, you must register your email address.",
+            "Please note that visa issued by this system is valid when the applicant visits Japan via international flights or international scheduled passenger ferries."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Application information entry",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Notification of examination result",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Visa fees payment",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "eVISA issuance procedure",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

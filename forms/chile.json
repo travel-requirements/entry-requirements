@@ -1,0 +1,99 @@
+{
+  "destination": "chile",
+  "forms": [
+    {
+      "kind": "declaration",
+      "title": "SAG Digital Affidavit for Entry to Chile (Declaración Jurada)",
+      "appliesTo": [
+        "sag-declaration"
+      ],
+      "startUrl": "https://dj.sag.gob.cl/declaracion-jurada",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "nationality": "Poland",
+        "foreignerResidingInChile": "No"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Identification step (name, email, gender); the stepper shows four numbered steps without names, and the later ones did not render",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Select",
+          "read": true,
+          "fields": [
+            {
+              "label": "Nationality",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Are you a foreigner residing in Chile?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            }
+          ],
+          "notices": [
+            "Declare the plant and animal origin products, goods, and currencies (money) you are carrying in your luggage and/or means of transportation.",
+            "The form can be completed with or without an internet connection, up to one day before your entry into the country and will be valid only for the date of arrival you indicate.",
+            "Procedure is free of charge and is individual and mandatory for all persons over 18 years of age."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Identification",
+          "read": true,
+          "fields": [
+            {
+              "label": "First Name(s)",
+              "type": "text",
+              "required": null,
+              "name": "nombre"
+            },
+            {
+              "label": "Last Name(s)",
+              "type": "text",
+              "required": null,
+              "name": "apellido"
+            },
+            {
+              "label": "Email",
+              "type": "email",
+              "required": null,
+              "name": "email"
+            },
+            {
+              "label": "Gender",
+              "type": "select",
+              "required": null,
+              "name": "generoId",
+              "options": [
+                "Male",
+                "Female"
+              ]
+            },
+            {
+              "label": "Does this declaration include luggage for minors under 18?",
+              "type": "radio",
+              "required": null,
+              "name": "menoresEdadIncluidos",
+              "options": [
+                "Yes",
+                "No"
+              ]
+            }
+          ],
+          "notices": [
+            "Indicate if the declaration includes the luggage of accompanying minors:"
+          ]
+        }
+      ]
+    }
+  ]
+}

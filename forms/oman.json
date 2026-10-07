@@ -1,0 +1,211 @@
+{
+  "destination": "oman",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Oman unsponsored Tourist Visit eVisa (26A–26D) — Royal Oman Police eVisa",
+      "appliesTo": [
+        "evisa-10-day",
+        "evisa-30-day",
+        "evisa-nz-3-month",
+        "evisa-free-30-day"
+      ],
+      "startUrl": "https://evisa.rop.gov.om/en/types-of-visa",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "visaClass": "Visit Unsponsored visas",
+        "visaType": "26 Tourist Visit Visa"
+      },
+      "requiresAccount": true,
+      "stoppedAt": "'Apply for Tourist Visa' opens 'Login as a Tourist' (email, password, captcha); the public visa-type wizard was read for 26A–26D",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Know your Visa Type (visa class, type and sub-type)",
+          "read": true,
+          "fields": [
+            {
+              "name": "visaType",
+              "label": "Select one of these visa classes",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "Resident Sponsored visas",
+                "Resident Unsponsored visas",
+                "Visit Sponsored visas",
+                "Visit Unsponsored visas"
+              ]
+            },
+            {
+              "name": "visaTypeId",
+              "label": "Visa type",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "36 Visit Visa Multi-Entry 1 year",
+                "29 GCC Resident Visa",
+                "20 Oman / Qatar Common Visa",
+                "21 Dubai / Oman Common Visa",
+                "26 Tourist Visit Visa",
+                "28 GCC Citizen Companion Visa",
+                "23 Airport Transit Visa",
+                "27 Short Transit Visa",
+                "12 Truck Driver Visa",
+                "25 Multi-entry Visit Visa",
+                "39 Diplomat Visit",
+                "35 Patient Visa",
+                "38 Off the Plan Owner Visa"
+              ],
+              "notes": "Visit Unsponsored visas."
+            },
+            {
+              "name": "subTypeId",
+              "label": "Sub-Type",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "26A Tourist Visit Visa 10D",
+                "26B Tourist Visit Visa 30D",
+                "26C Tourist Visit Visa 3MNF",
+                "26D Tourist Visit Visa 30DNF",
+                "26E Tourist Visit Visa 10DFAM",
+                "26F Tourist Visit Visa 30DFAM",
+                "26G Tourist Visit Visa 30DFAMC",
+                "26H Tourist Visit Visa 30DFAMD",
+                "26J Tourist Visit Visa D1M",
+                "26K Tourist Visit Visa D3M",
+                "26L Tourist Visit Visa D6M",
+                "26M Tourist Visit Visa 30DCG1",
+                "26N Tourist Visit Visa 10DCG1",
+                "26O Free Entry for 14 Days (Person from G1 Special Countries)",
+                "26P Free Entry for 14 Days (Companion to a person from G1 Special Countries)",
+                "26Q Iraqi National team fans"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Visa detail 26A — Tourist Visit Visa 10D",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "Visa Type code 26A — Tourist Visit Visa 10D. Visa Purpose: Tourism. Length of Stay 10 days. Use by Period 1M",
+            "Possession of a valid visa does not guarantee that a traveller will be granted entry to Oman. Entry to Oman is at the discretion of the Royal Oman Police officer at the port of entry.",
+            "Passport must be valid for at least 6 months on entry to Oman.",
+            "Visa can only be used for a single entry to Oman.",
+            "Document: A photograph of the applicant (digital). A copy of the applicant's passport.",
+            "Must not have other current Oman visa.",
+            "The fee for this visa is OMR 5.000.",
+            "First time Extension of Stay can be done by the applicant. Second and subsequent extensions can only be done by visiting a DGPCS office.",
+            "Extension of stay allowed is the same as the original visa.",
+            "If the visitor overstays in Oman, there is a fine of OMR 10.000 for each day of overstay.",
+            "Must be outside the Sultanate of Oman at time of application.",
+            "Must be a citizen of one of the Group1 countries.",
+            "This visa does not require a sponsor in Oman."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Visa detail 26B — Tourist Visit Visa 30D",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "Visa Type code 26B — Tourist Visit Visa 30D. Visa Purpose: Tourism. Length of Stay 30 days. Use by Period 1M",
+            "This visa cannot be changed to a work visa while inside the Sultanate of Oman.",
+            "Possession of a valid visa does not guarantee that a traveller will be granted entry to Oman. Entry to Oman is at the discretion of the Royal Oman Police officer at the port of entry.",
+            "Passport must be valid for at least 6 months on entry to Oman.",
+            "Visa can only be used for a single entry to Oman.",
+            "Applicant must have a valid hotel booking in Sultanate of Oman.",
+            "Applicant must have a return ticket.",
+            "Document: A photograph of the applicant (digital). A copy of the applicant's passport.",
+            "Must not have other current Oman visa.",
+            "The fee for this visa is OMR 20.000.",
+            "First time Extension of Stay can be done by the applicant. Second and subsequent extensions can only be done by visiting a DGPCS office.",
+            "Extension of stay allowed is the same as the original visa.",
+            "If the visitor overstays in Oman, there is a fine of OMR 10.000 for each day of overstay.",
+            "Must be outside the Sultanate of Oman at time of application.",
+            "Must be a citizen of one of the Group1 countries.",
+            "This visa does not require a sponsor in Oman."
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Visa detail 26C — Tourist Visit Visa 3MNF",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "Visa Type code 26C — Tourist Visit Visa 3MNF. Visa Purpose: Tourism. Length of Stay 3 months. Use by Period 1M",
+            "This visa cannot be changed to a work visa while inside the Sultanate of Oman.",
+            "Possession of a valid visa does not guarantee that a traveller will be granted entry to Oman. Entry to Oman is at the discretion of the Royal Oman Police officer at the port of entry.",
+            "Passport must be valid for at least 6 months on entry to Oman.",
+            "Visa can only be used for a single entry to Oman.",
+            "Applicant must have a valid hotel booking in Sultanate of Oman.",
+            "Applicant must have a return ticket.",
+            "Document: A photograph of the applicant (digital). A copy of the applicant's passport.",
+            "Must not have other current Oman visa.",
+            "Non-Group1 nationals are eligible if spouse or child of accompanying Group1 national.",
+            "There is no fee for this visa.",
+            "The stay in Oman cannot be extended.",
+            "If the visitor overstays in Oman, there is a fine of OMR 10.000 for each day of overstay.",
+            "Must be outside the Sultanate of Oman at time of application.",
+            "Must be a citizen of New Zealand.",
+            "This visa does not require a sponsor in Oman."
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Visa detail 26D — Tourist Visit Visa 30DNF",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "Visa Type code 26D — Tourist Visit Visa 30DNF. Visa Purpose: Tourism. Length of Stay 30 days. Use by Period 1M",
+            "This visa cannot be changed to a work visa while inside the Sultanate of Oman.",
+            "Possession of a valid visa does not guarantee that a traveller will be granted entry to Oman. Entry to Oman is at the discretion of the Royal Oman Police officer at the port of entry.",
+            "Passport must be valid for at least 6 months on entry to Oman.",
+            "Visa can only be used for a single entry to Oman.",
+            "Applicant must have a valid hotel booking in Sultanate of Oman.",
+            "Applicant must have a return ticket.",
+            "Document: A photograph of the applicant (digital). A copy of the applicant's passport.",
+            "Must not have other current Oman visa.",
+            "Non-Group1 nationals are eligible if spouse or child of accompanying Group1 national.",
+            "There is no fee for this visa.",
+            "The stay in Oman cannot be extended.",
+            "If the visitor overstays in Oman, there is a fine of OMR 10.000 for each day of overstay.",
+            "Must be outside the Sultanate of Oman at time of application.",
+            "This visa does not require a sponsor in Oman."
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Login as a Tourist",
+          "read": true,
+          "fields": [
+            {
+              "label": "Email Address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "label": "Password",
+              "type": "other",
+              "required": true
+            },
+            {
+              "label": "Text Verification",
+              "type": "text",
+              "required": true,
+              "notes": "Image captcha."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Application",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

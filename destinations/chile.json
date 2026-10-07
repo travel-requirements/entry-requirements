@@ -20,7 +20,7 @@
   ],
   "summary": "Chile admits most of Europe, North America, South America and much of Asia-Pacific visa-free for up to 90 days as visitors on a transitory stay permit. Everyone else applies for a consular tourist visa (autorización previa o visa) through Chile's online consular services.",
   "meta": {
-    "lastUpdated": "2026-10-06",
+    "lastUpdated": "2026-10-07",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -1588,16 +1588,21 @@
         "id": "sag-declaration",
         "name": "Sworn agricultural declaration (Declaración Jurada SAG)",
         "mandatory": true,
-        "fee": null,
+        "fee": {
+          "amount": 0,
+          "currency": "CLP"
+        },
         "submitAt": "on-arrival",
-        "submitWindow": "Before or on arrival",
-        "url": "https://www.sag.gob.cl/",
-        "text": "Every arriving traveler must complete a sworn declaration for the agricultural service (SAG) stating whether they carry food, plants, seeds, wood or animal products. It can be filed online before arrival or on the form handed out on the flight. SAG says that failing to declare risk products leads to sanctions and fines.",
+        "submitWindow": "From one day before arrival online, or on arrival",
+        "url": "https://dj.sag.gob.cl/declaracion-jurada",
+        "text": "Every traveller aged over 18 must complete a sworn declaration for the agricultural service (SAG): it is individual and free, and covers plant and animal products, goods and cash carried in your luggage. SAG's Digital Affidavit for Entry to Chile can be filled in with or without an internet connection from one day before you enter, and is valid only for the arrival date you give; SAG's information page says it can also be made on the form handed out on the flight, and that failing to declare risk products leads to sanctions and fines.",
         "source": {
-          "url": "https://www.sag.gob.cl/ambitos-de-accion/declaracion-jurada-sag-de-ingreso-chile",
-          "name": "Servicio Agrícola y Ganadero (SAG) — Declaración Jurada SAG de ingreso a Chile",
+          "url": "https://dj.sag.gob.cl/declaracion-jurada",
+          "name": "Servicio Agrícola y Ganadero (SAG) — Digital Affidavit for Entry to Chile (Declaración Jurada), start step",
           "type": "government",
-          "lastVerified": "2026-10-03"
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07",
+          "portalOnly": true
         }
       },
       {

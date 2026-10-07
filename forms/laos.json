@@ -1,0 +1,62 @@
+{
+  "destination": "laos",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Lao eVisa — application",
+      "appliesTo": [
+        "evisa-tourist"
+      ],
+      "startUrl": "https://laoevisa.gov.la/apply",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "countryOfPassport": "Poland",
+        "passportType": "Ordinary"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Security Verification (the first step asks for an email address and a captcha); later steps did not render by URL (/application redirects back to /apply)",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Security Verification",
+          "read": true,
+          "fields": [
+            {
+              "label": "COUNTRY OF PASSPORT",
+              "type": "country",
+              "required": true,
+              "name": "countryOfPassport",
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Type of Travel Document/Passport",
+              "type": "select",
+              "required": true,
+              "name": "passport_type",
+              "options": [
+                "Ordinary/普通护照",
+                "Diplomatic/外交护照",
+                "Service/Special/Official/公务护照/特殊护照",
+                "Travel Document for Stateless person/无国籍人士的旅行证件"
+              ]
+            },
+            {
+              "label": "Email",
+              "type": "email",
+              "required": true,
+              "name": "client_email"
+            },
+            {
+              "label": "Verify Code",
+              "type": "text",
+              "required": true,
+              "name": "verify_code"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

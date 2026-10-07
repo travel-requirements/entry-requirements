@@ -1,0 +1,350 @@
+{
+  "destination": "bolivia",
+  "forms": [
+    {
+      "kind": "declaration",
+      "title": "Bolivia customs Form 250 — Sworn Statement of Accompanied Baggage and Currency Transportation (electronic)",
+      "appliesTo": [
+        "customs-declaration"
+      ],
+      "startUrl": "http://anbsw01.aduana.gob.bo:7401/viajero/Publico250.jsp",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "language": "English"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Personal Particulars (names, document number, date of birth). The form renders every step in the page, so the later steps were read without entering anything; nothing was submitted.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Select language",
+          "read": true,
+          "fields": [
+            {
+              "name": "idiom",
+              "label": "Seleccione Idioma",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "Español",
+                "English"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "General Information",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "In accordance with the provisions of Supreme Decree No. 29681 of 20/08/2008, amended by Supreme Decree No. 5404 of 23/05/2025, all individual travelers or those responsible for a family group entering or leaving Bolivian territory, must fill out Form No. 250 - AFFIDAVIT FOR ACCOMPANIED BAGGAGE AND FOREIGN EXIT AND ENTRY OF CURRENCY and submit it to the customs administration for verification."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Travel Information",
+          "read": true,
+          "fields": [
+            {
+              "name": "tipo_divisa",
+              "label": "TRIP TYPE",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "ENTRY TO BOLIVIA",
+                "DEPARTURE FROM BOLIVIA"
+              ]
+            },
+            {
+              "name": "pais_procedencia",
+              "label": "COUNTRY OF PROVENANCE",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "propiosMediosOpcion",
+              "label": "TYPE OF TRANSPORT",
+              "type": "select",
+              "required": null,
+              "options": [
+                "AIRCRAFT",
+                "BUS",
+                "PRIVATE VEHICULE",
+                "TRUCK CARGO",
+                "WALKER",
+                "OTHERS"
+              ]
+            },
+            {
+              "name": "empresa_transporte",
+              "label": "NAME OF THE TRANSPORTATION COMPANY",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "vuelo_placa",
+              "label": "FLIGHT NUMBER / PLATE NUMBER",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "propiosMedios",
+              "label": "SPECIFY",
+              "type": "text",
+              "required": null,
+              "notes": "Shown for transport type OTHERS."
+            },
+            {
+              "name": "motivo_viaje",
+              "label": "REASON FOR TRIP",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "Tourism or Visit",
+                "Health",
+                "Business",
+                "Return",
+                "Others"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Personal Particulars",
+          "read": true,
+          "fields": [
+            {
+              "name": "nacionalidad",
+              "label": "NACIONALITY",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "Bolivian",
+                "Foreign"
+              ]
+            },
+            {
+              "name": "viaNacionalidadExtranjero",
+              "label": "Nationality (foreign)",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "sexo",
+              "label": "SEX",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "Male",
+                "Female"
+              ]
+            },
+            {
+              "name": "tipo_doc",
+              "label": "IDENTIFICATION DOCUMENT",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "Passport",
+                "CI",
+                "CIE",
+                "Other"
+              ]
+            },
+            {
+              "name": "nro_doc",
+              "label": "NUMBER",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "nombres",
+              "label": "FULL NAMES",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "apellidos",
+              "label": "FIRST SURNAME",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "segundo_apellido",
+              "label": "SECOND SURNAME",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "viaFechaNacimiento",
+              "label": "DATE OF BIRTH",
+              "type": "date",
+              "required": null
+            },
+            {
+              "name": "viaOcupacion",
+              "label": "OCCUPATION",
+              "type": "text",
+              "required": null
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Accompanied Baggage (information)",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "Is the set of traveler’s articles that are taken to the countries of their route or destination, in quantities and values that do not presume commercial purposes (Article 188 RLGA).",
+            "The traveler is authorized to introduce the following items without payment of customs duties as accompanied baggage:",
+            "1. USED ARTICLES: clothing and personal belongings, books, magazines, printed matter of all characters, a photographic machine, a portable computer, a video camera and accessories, a tape recorder, a radio recorder or a radio receiver, a cell phone, sporting goods, a musical instrument, children’s car, wheelchair for invalids and other goods for personal orthopedic use.",
+            "2. NEW ARTICLES: Articles of strict personal use or non-commercial personal consumption up to a value of $us 1.000 (one thousand $us dollars), with the following limitations: Up to 3 liters of alcoholic beverages. Up to 400 cigarettes. Up to 50 cigarettes or 500 grams of chopped tobacco up.",
+            "Note: All the items that are not detailed in numerals 1 and 2, or that exceed their franchise of us 1.000 (One thousand US Dollars), are subject to the payment of customs taxes.",
+            "IMPORTANT All checked Baggage and/or articles subject to the customs taxes payment that are not declared in this Statement, could be nationalized after rectification of numeral II of this Statement and the payment of the customs violation as a result of the customs offense commission established in article 188 of the Regulations to the General Customs Law, as long as the goods have been identified during customs control within the custom regime framework of the passenger in the primary zone.",
+            "The Accompanied Baggage franchise will be applied, as long as a period of more than ninety (90) days has elapsed since the last entry into the country."
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Accompanied Baggage",
+          "read": true,
+          "fields": [
+            {
+              "name": "tiene_equipaje",
+              "label": "After I have read the instructions on the reverse of this form, I declare articles subject to the payment of custom taxes.",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "YES",
+                "NO"
+              ]
+            },
+            {
+              "name": "cantidad_equipaje",
+              "label": "BAGGAGE QUANTITY",
+              "type": "number",
+              "required": null
+            },
+            {
+              "name": "mer_especial",
+              "label": "Declaring to bring aeronautical equipment AOG.",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "YES",
+                "NO"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Currency Registration (information)",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "IMPORTANT Regarding currency transportation, if a complete and truthful form has not been filled out, in this case the penalty is thirty percent (30%) applied to the difference between the amount established in a physical search and the amount declared without prejudice to the corresponding legal action within the D.S. 29681 framework."
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Currency Registration",
+          "read": true,
+          "fields": [
+            {
+              "name": "tiene_efectivo",
+              "label": "Cash between $us10,000 and $us50,000 or its equivalent in other currencies (entry) / between $us10,000 and $us20,000 (departure)",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "YES",
+                "NO"
+              ],
+              "notes": "The question has no label on the step itself; the wording is the Summary step's."
+            },
+            {
+              "name": "monto_usd",
+              "label": "$us (US dollars) without cents",
+              "type": "number",
+              "required": null
+            },
+            {
+              "name": "otro_monto1",
+              "label": "Other currencies (without cents): Amount",
+              "type": "number",
+              "required": null
+            },
+            {
+              "name": "otro_descripcion1",
+              "label": "Currency Description",
+              "type": "select",
+              "required": null,
+              "options": [
+                "BOLIVAR FUERTE - VENEZUELA",
+                "BOLIVIANOS",
+                "CORONA - DINAMARCA",
+                "CORONA - NORUEGA",
+                "CORONA - SUECIA",
+                "DOLAR - AUSTRALIA",
+                "DOLAR - CANADA",
+                "DOLAR - ECUADOR",
+                "DOLAR - HONG KONG",
+                "DOLAR - SINGAPUR",
+                "DOLAR - TAIWAN",
+                "EURO - UNION EUROPEA",
+                "FRANCO - SUIZA",
+                "GUARANI - PARAGUAY",
+                "LIBRA - REINO UNIDO",
+                "NUEVO SOL - PERU",
+                "PESO - ARGENTINA",
+                "PESO - CHILE",
+                "PESO - COLOMBIA",
+                "PESO - MEXICO",
+                "PESO - URUGUAY",
+                "REAL - BRASIL",
+                "RUPIA - INDIA",
+                "THAI BAHT - TAILANDIA",
+                "WON - COREA DEL SUR",
+                "YEN - JAPON",
+                "YUAN RENMINBI - REP.POPULAR CHINA"
+              ],
+              "notes": "A second amount/currency pair follows (otro_monto2, otro_descripcion2)."
+            },
+            {
+              "name": "origen_divisa",
+              "label": "FILL IN THE CURRENCY ORIGIN",
+              "type": "text",
+              "required": null
+            },
+            {
+              "name": "viaDestinoDivisas",
+              "label": "FILL IN THE CURRENCY DESTINATION",
+              "type": "text",
+              "required": null
+            }
+          ],
+          "notices": [
+            "IF YOUR ANSWER IS AFFIRMATIVE, YOU MUST DECLARE THE AMOUNT YOU BRING:"
+          ]
+        },
+        {
+          "order": 9,
+          "name": "Summary",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "These are the data you declared"
+          ]
+        }
+      ]
+    }
+  ]
+}

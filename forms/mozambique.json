@@ -1,0 +1,46 @@
+{
+  "destination": "mozambique",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Mozambique eVisa and eTA — online application (VFS Global for the National Immigration Service)",
+      "appliesTo": [
+        "mz-evisa",
+        "mz-eta"
+      ],
+      "startUrl": "https://mnzonline.vfsevisa.com/moz/en/login",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "'Apply Now' on evisa.gov.mz opens a log-in that sends a one-time password to a registered email (user type Normal or Oil & Gas); the application opens only after signing up. Only the public pre-login steps were read.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Apply Online",
+          "read": false,
+          "fields": [],
+          "notices": [
+            "Fill out the application on our platform. Provide your details and upload necessary documents. If you have dual nationality, use the passport you will travel with."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Pay the Fee",
+          "read": false,
+          "fields": [],
+          "notices": [
+            "Securely pay the fees."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Download & Print",
+          "read": false,
+          "fields": [],
+          "notices": [
+            "Check your email for the preliminary eVisa/ eTA. If approved, download the PDF, print it, and be sure to have it ready for both boarding and your arrival in Mozambique."
+          ]
+        }
+      ]
+    }
+  ]
+}

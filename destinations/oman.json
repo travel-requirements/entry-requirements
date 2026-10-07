@@ -2760,7 +2760,11 @@
       "category": "tourist",
       "method": "evisa",
       "name": "Unsponsored Tourist eVisa (10 days)",
-      "fee": null,
+      "fee": {
+        "amount": 5,
+        "currency": "OMR",
+        "notes": "The fee for the 10-day tourist eVisa (26A) is OMR 5, per the Royal Oman Police eVisa visa-type details."
+      },
       "processing": {
         "minDays": 1,
         "maxDays": 4,
@@ -2774,8 +2778,8 @@
         "url": "https://evisa.rop.gov.om/en/types-of-visa",
         "name": "Royal Oman Police eVisa — visa types (Visit Unsponsored: Tourist Visit Visa 26A, 10 days)",
         "type": "government",
-        "lastVerified": "2026-10-02",
-        "lastChanged": "2026-10-02"
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-07"
       },
       "extendable": {
         "possible": true,
@@ -2787,7 +2791,11 @@
       "category": "tourist",
       "method": "evisa",
       "name": "Unsponsored Tourist eVisa (30 days)",
-      "fee": null,
+      "fee": {
+        "amount": 20,
+        "currency": "OMR",
+        "notes": "The fee for the 30-day tourist eVisa (26B) is OMR 20, per the Royal Oman Police eVisa visa-type details."
+      },
       "processing": {
         "minDays": 1,
         "maxDays": 4,
@@ -2805,7 +2813,8 @@
         "url": "https://evisa.rop.gov.om/en/types-of-visa",
         "name": "Royal Oman Police eVisa — visa types (Visit Unsponsored: Tourist Visit Visa 26B, 30 days)",
         "type": "government",
-        "lastVerified": "2026-10-02"
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-07"
       }
     },
     {
@@ -2836,7 +2845,11 @@
       "category": "tourist",
       "method": "evisa",
       "name": "Tourist eVisa (30 days) — South Korea, Brunei, Kazakhstan, Russia, Turkey",
-      "fee": null,
+      "fee": {
+        "amount": 0,
+        "currency": "OMR",
+        "notes": "No fee for this visa (26D), per the Royal Oman Police eVisa visa-type details."
+      },
       "processing": null,
       "validityDays": 30,
       "stayDays": 30,
@@ -2850,8 +2863,8 @@
         "url": "https://evisa.rop.gov.om/en/types-of-visa",
         "name": "Royal Oman Police eVisa — visa types (Visit Unsponsored: Tourist Visit Visa 26D, 30DNF)",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-07"
       }
     },
     {
@@ -2859,7 +2872,11 @@
       "category": "tourist",
       "method": "evisa",
       "name": "Tourist eVisa (3 months) — New Zealand",
-      "fee": null,
+      "fee": {
+        "amount": 0,
+        "currency": "OMR",
+        "notes": "No fee for this visa (26C), per the Royal Oman Police eVisa visa-type details."
+      },
       "processing": null,
       "validityDays": 30,
       "stayDays": null,
@@ -2873,8 +2890,8 @@
         "url": "https://evisa.rop.gov.om/en/types-of-visa",
         "name": "Royal Oman Police eVisa — visa types (Visit Unsponsored: Tourist Visit Visa 26C, 3MNF)",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-07"
       }
     }
   ],
@@ -2923,14 +2940,15 @@
     },
     "onwardTicket": {
       "required": true,
-      "appliesTo": "visa-free-arrivals",
-      "text": "Visa-free visitors must be able to show a return or onward ticket at the border, and proof of accommodation such as a hotel booking.",
+      "appliesTo": "all",
+      "text": "The Royal Oman Police eVisa conditions require holders of the 30-day tourist eVisa (26B), the New Zealand 3-month eVisa (26C) and the 30-day eVisa for South Korea, Brunei, Kazakhstan, Russia and Turkey (26D) to have a return ticket and a valid hotel booking in Oman. The UK Foreign Office says visa-free visitors must also be able to show a return or onward ticket and proof of accommodation at the border.",
       "source": {
-        "url": "https://www.gov.uk/foreign-travel-advice/oman/entry-requirements",
-        "name": "UK Foreign, Commonwealth & Development Office — Oman travel advice: entry requirements",
+        "url": "https://evisa.rop.gov.om/en/types-of-visa",
+        "name": "Royal Oman Police eVisa — visa-type details (Tourist Visit Visa 26B, 26C, 26D: entry conditions)",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-07",
+        "portalOnly": true
       }
     },
     "proofOfFunds": {

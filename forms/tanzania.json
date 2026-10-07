@@ -1,0 +1,71 @@
+{
+  "destination": "tanzania",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Tanzania Electronic Visa Application System (Immigration Services Department)",
+      "appliesTo": [
+        "evisa-ordinary",
+        "evisa-multiple",
+        "transit-visa"
+      ],
+      "startUrl": "https://visa.immigration.go.tz/start",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "Apply for a new Visa — Basic Information, which asks for email, passport number and a security question to generate an application ID. Later steps open only with that application ID (Continue Application), and the system shows no step list, so nothing after step 1 was seen.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Basic Information",
+          "read": true,
+          "fields": [
+            {
+              "name": "Email",
+              "label": "Email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "PassportNumber",
+              "label": "Passport Number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "IssuedCountryID",
+              "label": "Passport Issue Country",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "SecurityQuestion",
+              "label": "Security Question",
+              "type": "select",
+              "required": true,
+              "options": [
+                "In what city/town/village you were born?",
+                "what is the name of the hospital you ware born?",
+                "what is the name of the street you grew up?",
+                "What was your childhood nickname?"
+              ]
+            },
+            {
+              "name": "SecurityAnswer",
+              "label": "Security Answer",
+              "type": "text",
+              "required": true
+            }
+          ],
+          "notices": [
+            "You are about to apply for a new Visa. Please fill the required information to generate an application ID which you can use for future references.",
+            "You are required to fill in the online form, make payment, and submit your application online. Your form will be internally reviewed and processed.",
+            "Applicants will be notified through their e-mails whether their applications have been accepted or rejected. They may also TRACK their application statuses through the online system. Applicants may as well be required to visit the nearest Tanzanian Embassies or Consular Offices for interviews."
+          ]
+        }
+      ]
+    }
+  ]
+}

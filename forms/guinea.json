@@ -1,0 +1,204 @@
+{
+  "destination": "guinea",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Guinea eVisa (Electronic Travel Authorisation) — tourist visa application",
+      "appliesTo": [
+        "evisa-tourist"
+      ],
+      "startUrl": "https://www.paf.gov.gn/visa",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "issuingCountry": "Poland",
+        "visaProduct": "Tourist Visa"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Contact Information (an email address must be verified with a code, behind a captcha); Part 1 read by opening its URL directly; Parts 2 and 3 seen by name only",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Visa type selection",
+          "read": true,
+          "fields": [
+            {
+              "name": "ddlCountry",
+              "label": "Issuing authority of the travel document",
+              "type": "country",
+              "required": false,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Visa type",
+              "type": "other",
+              "required": true,
+              "options": [
+                "Tourist Visa",
+                "Transborderment Visa",
+                "Transit Visa",
+                "Long Term Visa (VLS)",
+                "Diplomatic, Service and Courtesy (VDSC)"
+              ]
+            }
+          ],
+          "notices": [
+            "Note: The online application of eVisa does not entitle the visa. Your request can be accepted or rejected by the Authority and there will be no refund. The administrative costs incurred for the processing of your application. The amount paid is kept by the administration, even in cases where visas are denied.",
+            "Every foreign national who wishes to enter Guinea would need a Visa, except for visa waiver countries. Visitor must ensure to meet or possess the following entry requirements stated by Central Directorate of the Border Police (DCPAF)",
+            "Conditions: a valid passport or travel document; a scanned copy of valid passport’s datapage; a valid return ticket; Yellow Fever Certificate",
+            "Validity: Not exceeding ninety days (less than 90 days).",
+            "Fee: USD 100",
+            "An acknowledgement email of your successful submission will be sent to your registered email.",
+            "An Entry Visa Letter will be sent to you once the application is approved by the Authority.",
+            "Then, proceed to the visa on-arrival counter to get your visa. Applicant photo and fingerprint will be captured at the enrolment counter",
+            "What are the documents needed upon arrival at Guinean entry checkpoints? Valid Passport (with validity more than 6 months); Your Entry Visa Letter; Sufficient funds (Cash/ Travellers Cheque/Debit or Credit Cards) to cover expenses during your stay at Guinea; A valid return ticket; Proof of accommodation"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Contact Information",
+          "read": true,
+          "fields": [
+            {
+              "name": "email",
+              "label": "Email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "emailvercode",
+              "label": "Verification Code",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "m_tbCaptcha",
+              "label": "Type the code shown",
+              "type": "text",
+              "required": true,
+              "notes": "captcha"
+            }
+          ],
+          "notices": [
+            "Note that the Email Address is very important, as that is how we will send your confirmation. Double check the email very carefully. If there is no email found, please check in your email spam folder."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Part 1 - Traveler Information",
+          "read": true,
+          "fields": [
+            {
+              "name": "given_name",
+              "label": "First Name",
+              "type": "text",
+              "required": true,
+              "notes": "Must match passport"
+            },
+            {
+              "name": "fmly_name",
+              "label": "Last Name",
+              "type": "text",
+              "required": true,
+              "notes": "Must match passport"
+            },
+            {
+              "label": "Gender",
+              "type": "select",
+              "required": true,
+              "options": [
+                "FEMALE",
+                "MALE"
+              ]
+            },
+            {
+              "label": "Date Of Birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Place Of Birth",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Country Of Birth",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Nationality At Birth",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Current Nationality",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Marital Status",
+              "type": "select",
+              "required": true
+            },
+            {
+              "label": "Profession",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Part 1a - Place of Application: Correspondence Address",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "City",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Zip Code",
+              "type": "text",
+              "required": false
+            },
+            {
+              "label": "Country",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Phone Number",
+              "type": "tel",
+              "required": true
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Part 2",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Part 3",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

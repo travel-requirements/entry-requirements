@@ -1,0 +1,96 @@
+{
+  "destination": "brazil",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Brazil eVisa (VFS Global, for the Brazilian Government)",
+      "appliesTo": [
+        "evisa"
+      ],
+      "startUrl": "https://bronline.vfsevisa.com/bra/en/on-boarding",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "nationality": "Australia (first listed; Poland is not offered)",
+        "purpose": "Tourist"
+      },
+      "requiresAccount": true,
+      "stoppedAt": "Sign-up and Start Application: an account needs an email address, nationality and a mobile number verified by OTP",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Your Nationality",
+          "read": true,
+          "fields": [
+            {
+              "label": "Your Nationality",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Australia",
+                "Canada",
+                "China",
+                "United States"
+              ]
+            }
+          ],
+          "notices": [
+            "This is the only official portal where eligible travellers can apply for their electronic visa (eVisa)."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Purpose of Travel — Tourist Visa",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "Once in Brazil, you are authorised to stay for up to 90 days per year and if you need to extend your stay beyond 90 days, contact the Federal Police. The eVisa is valid for 5 years on Multiple entries.",
+            "Photograph Recent Photograph of the applicant (Photograph specifications link in pdf)",
+            "Passport Bio Page Color copy of the applicant's passport bio page (Photograph specifications link in pdf. Your Passport must be valid for at least 1 month before arrival)",
+            "Consular offices may request additional documents at their discretion.",
+            "Even if you hold a diplomatic or special passport you still require an entry eVisa.",
+            "eVisa Fee $80.90",
+            "Processing takes up to 10 business days once your verified application is submitted.",
+            "Upon arrival, airport authorities will verify your entry authorization. To avoid issues, carry your valid passport and a printed copy of your eVisa PDF (downloadable from the dashboard)"
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Sign-up and Start Application",
+          "read": true,
+          "fields": [
+            {
+              "label": "Email address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "label": "Current Nationality",
+              "type": "country",
+              "required": true
+            },
+            {
+              "label": "Mobile number",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "label": "By creating an account, I consent to the processing of my personal data as explained in the VFS Privacy Notice.",
+              "type": "checkbox",
+              "required": null
+            },
+            {
+              "label": "I consent to the international transfer of my data to VFS Global and the Brazilian Government whose visa is applied for.",
+              "type": "checkbox",
+              "required": null
+            },
+            {
+              "label": "By clicking here, I state that I have understood and agreed to the terms and conditions.",
+              "type": "checkbox",
+              "required": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

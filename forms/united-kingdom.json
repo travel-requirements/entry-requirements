@@ -1,0 +1,89 @@
+{
+  "destination": "united-kingdom",
+  "forms": [
+    {
+      "kind": "eta",
+      "title": "UK Electronic Travel Authorisation (ETA) — online application",
+      "appliesTo": [
+        "eta"
+      ],
+      "startUrl": "https://apply-for-an-eta.homeoffice.gov.uk/apply/electronic-travel-authorisation",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "Email address (a security code is sent to it); the later steps sit under an application id",
+      "steps": [
+        {
+          "order": 1,
+          "name": "The easiest way to apply is on the app",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "By applying on the UK ETA app you're more likely to: complete your application quicker; get a faster decision; it should only take 10 minutes to apply.",
+            "To apply on the app you will need: to take a photo of yourself - if you're applying for someone else, they must be with you; the passport you will use to travel to the UK; a credit card, debit card, Apple Pay or Google Pay"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Help downloading the UK ETA app",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "You should apply online if: you cannot download the app on your phone; the person you are applying for is not with you"
+          ]
+        },
+        {
+          "order": 3,
+          "name": "How to apply",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "Take or upload a photo of the passport you will use to travel to the UK. Scan your face with your device, if it has a camera. Children aged 9 and under will not be asked to scan their face. Take or upload a photo of yourself. Answer some questions about yourself. Pay for your application.",
+            "You will need to complete your application in one go - you cannot save your progress.",
+            "If you do not do anything for 20 minutes, the service will time out. Your answers will be deleted and you will need to start again.",
+            "By applying, you agree to the Electronic Travel Authorisation (ETA) privacy notice."
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Email address",
+          "read": true,
+          "fields": [
+            {
+              "name": "enter-email-address-value",
+              "label": "What email address do you want to use to receive your ETA decision?",
+              "type": "email",
+              "required": null
+            }
+          ],
+          "notices": [
+            "We will send a security code to this email address to check you can use it."
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Passport photo",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "Face scan and photo",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 7,
+          "name": "Questions about yourself",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 8,
+          "name": "Payment",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

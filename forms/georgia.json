@@ -1,0 +1,144 @@
+{
+  "destination": "georgia",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Georgia e-Visa — short-stay application",
+      "appliesTo": [
+        "tourist-evisa"
+      ],
+      "startUrl": "https://www.evisa.gov.ge/GeoVisa/en/VisaApp",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "citizenship": "Bhutan (Poland is offered but visa-exempt; first listed eligible country)",
+        "documentType": "Ordinary",
+        "purpose": "Tourism"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Travel Information (intended arrival date); Terms&Conditions, Personal Information and Verification were seen only in the stepper",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Citizenship/Country",
+          "read": true,
+          "fields": [
+            {
+              "label": "Citizenship/Country",
+              "type": "country",
+              "required": null,
+              "name": "Citizenship",
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Type of Travel Document/Passport",
+              "type": "select",
+              "required": null,
+              "name": "DocumentType",
+              "options": [
+                "Diplomatic",
+                "Ordinary",
+                "Service/Special/Official",
+                "Travel Document for Stateless Person"
+              ]
+            },
+            {
+              "label": "Purpose of visit",
+              "type": "select",
+              "required": null,
+              "name": "VisaType",
+              "options": [
+                "Tourism",
+                "Business/Professional",
+                "Visiting friends and relatives",
+                "Study and Training less than 90 days",
+                "Health and medical care",
+                "Religion/Pilgrimages"
+              ]
+            },
+            {
+              "label": "I have valid travel insurance.",
+              "type": "checkbox",
+              "required": null,
+              "name": "HasInsurance"
+            },
+            {
+              "label": "I am holder of valid visa and/or residence permit of respective country (if applicable)",
+              "type": "select",
+              "required": false,
+              "name": "SupportingDocumentCountry",
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Security verification",
+              "type": "text",
+              "required": null,
+              "name": "SecurityCode"
+            },
+            {
+              "label": "I confirm that I have read and understood terms and conditions for entering territory Georgia.",
+              "type": "checkbox",
+              "required": null,
+              "name": "HasReadBorderCrossInfo"
+            }
+          ],
+          "notices": [
+            "You are exempt from visa! Based on country and type of travel document you have selected, you are exempt from visa. (shown for Poland)",
+            "You can apply for e-Visa only in case if you are not on the territory of Georgia.",
+            "Please, note that validity of your travel document/passport should extend at least for three months after the validity of requested Georgian visa.",
+            "Please, note that you are eligible for the e-Visa only if you hold one of the travel documents/passports listed in the appropriate section.",
+            "e-Visa portal must be used for short-stay visits only (less than 90 days)",
+            "If you do not hold a supporting document, you must continue registration without filling out information about supporting document!",
+            "Attention! The information provided by you will be checked at the border crossing points of Georgia. If you provide incorrect information your e-Visa will be invalid and you will be refused to enter Georgia.",
+            "Be kindly informed that on the next stages you will have to upload documents listed below. Please, prepare required documents in advance to avoid resubmission of the application: Passport scanned in a single PDF.",
+            "Attention! In case of request at the border crossing point of Georgia, you must be able to present health/accident insurance, which covers the whole period of your stay. Otherwise, you could be denied from entering the territory of Georgia."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Travel Information",
+          "read": true,
+          "fields": [
+            {
+              "label": "Select the date of intended arrival to Georgia",
+              "type": "date",
+              "required": null,
+              "name": "ArrivalDate"
+            }
+          ],
+          "notices": [
+            "In case of approval e-Visa will be valid for 120 days with the right to stay in Georgia up to 30 days during the validity period.",
+            "Number of entries: Multiple",
+            "Visa Fee: 20 USD To be paid only by Mastercard/Visa credit or debit card. Bank service charge will be added to the visa fee",
+            "Date is indicated according to Georgia Standard Time UTC/GMT+4 hours",
+            "Please, note that the validity period of your e-Visa is different than period of stay. The validity period of visa shows time when you can use your visa. Duration of stay indicates number of days you can be in Georgia within the validity period of visa.",
+            "It is your responsibility not to overstay your visa, otherwise you will be required to pay fines, deported or banned from future travel to Georgia for certain period of time.",
+            "In case of approval you will get short term visa. Generally short term visits allow you to stay in Georgia up to 90 days in any 180-day period. If you have traveled to Georgia during last 180 days, it is your responsibility to calculate when and for how many days you will be permitted to enter Georgia.",
+            "If you wish to stay longer than 30 days, you must apply to the Diplomatic Missions and Consular Posts of Georgia abroad according to the country of your citizenship or residence ."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Terms&Conditions",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Personal Information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Verification",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

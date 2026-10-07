@@ -2525,17 +2525,22 @@
         "id": "e-arrival-card",
         "name": "Brunei E-Arrival Card",
         "mandatory": true,
-        "fee": null,
+        "fee": {
+          "amount": 0,
+          "currency": "BND"
+        },
         "submitAt": "before-travel",
-        "submitWindow": "Before arrival",
+        "submitWindow": "Before arrival; it can also be done at the immigration control post on your phone",
         "url": "https://www.imm.gov.bn/",
-        "text": "The UK Foreign Office says you must submit an e-arrival declaration before you travel to Brunei, as it may be requested at check-in, and that you do not need one if you are not passing through immigration. The E-Arrival Card is issued through the Immigration Department's portal after you register.",
+        "text": "All foreign nationals arriving in or leaving Brunei through a sea, air or land immigration control post must register on the E-Arrival Card portal before arriving, one registration per traveller; it replaced the paper arrival card (Form 19) and is free. Travellers in transit who do not pass through immigration do not need one. Registration needs an account on the Immigration Department's portal, your passport, your address in Brunei and your flight or vehicle details. If you forget, you can register at the immigration control post on your phone.",
         "source": {
-          "url": "https://www.gov.uk/foreign-travel-advice/brunei/entry-requirements",
-          "name": "UK FCDO — Brunei travel advice, entry requirements",
+          "url": "https://www.imm.gov.bn/ords/r/dl_portal/public_portal/faq",
+          "name": "Brunei Immigration and National Registration Department — INRS portal, E-Arrival Card FAQ (shown before login)",
           "type": "government",
-          "lastVerified": "2026-10-03",
-          "lastChanged": "2026-10-03"
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07",
+          "portalOnly": true,
+          "instrument": "Immigration Act, Chapter 17, Regulation 29(2)(b)"
         }
       }
     ],

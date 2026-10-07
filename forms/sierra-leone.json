@@ -1,0 +1,158 @@
+{
+  "destination": "sierra-leone",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Sierra Leone eVisa — application",
+      "appliesTo": [
+        "evisa-tourist"
+      ],
+      "startUrl": "https://www.evisa.sl/#/apply",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "nationality": "Poland",
+        "visa": "NonAfricanUnion SingleEntry"
+      },
+      "requiresAccount": true,
+      "stoppedAt": "Apply redirects to a login that needs an email, a last name and an emailed code; the form id route cannot be opened without it",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Select your nationality",
+          "read": true,
+          "fields": [
+            {
+              "name": "ddlCountry",
+              "label": "Select your nationality",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            }
+          ],
+          "notices": [
+            "Each traveler must obtain a separate VISA, including infants and children",
+            "You can only make payments with a major credit or debit card",
+            "Once you've been approved, you'll be issused your VISA upon arrival at the Terminal"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Select Visa applicable to you",
+          "read": true,
+          "fields": [
+            {
+              "label": "Select Visa applicable to you",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "NonAfricanUnion — MultipleEntry — $160",
+                "NonAfricanUnion — SingleEntry — $80"
+              ],
+              "notes": "Options shown for a Polish passport."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Login (email code)",
+          "read": true,
+          "fields": [
+            {
+              "label": "Email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "label": "Last Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Code",
+              "type": "text",
+              "required": true,
+              "notes": "Sent by 'Get Code via Email'; the page carries a reCAPTCHA."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Application form",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Submit electronic application and payment",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "Receive confirmation of your visa application status via email",
+          "read": false,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "kind": "declaration",
+      "title": "Sierra Leone Health Declaration Form (Health Travel Portal)",
+      "appliesTo": [
+        "health-declaration"
+      ],
+      "startUrl": "https://poep.npha.gov.sl/",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "Account registration (name and contact details) is required before the form",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Create traveller account",
+          "read": true,
+          "fields": [
+            {
+              "label": "First Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Last Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "How should we send your credentials?",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "Email only",
+                "Phone/SMS only",
+                "Email and Phone/SMS"
+              ]
+            }
+          ],
+          "notices": [
+            "All travelers MUST fill the Health Declaration Form. It MUST be filled not more than 72 hours before the intended date of travel.",
+            "A parent, guardian, family member, or travel agent may use the same contact for more than one traveller.",
+            "In accordance with international travel protocols, all travelers must complete a Health Declaration Form upon entry/exit. This measure supports border management, safeguards public health, and facilitates the monitoring of traveler movements for security and epidemiological purposes."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Fill the Form (Arrival Form / Departure Form)",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Verify & Submit",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

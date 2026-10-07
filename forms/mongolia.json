@@ -1,0 +1,99 @@
+{
+  "destination": "mongolia",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Mongolia Electronic Visa Application System — tourist eVisa",
+      "appliesTo": [
+        "evisa-tourist"
+      ],
+      "startUrl": "https://evisa.mn/en/apply",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "nationality": "Afghanistan (first listed; Poland is visa-exempt and not offered)",
+        "passportType": "Ordinary",
+        "applyingFor": "TOURISM"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Document type & Nationality, at the required email address (personal data). The later steps are built from the server's reply to step 1 and have no URL of their own, so they were seen only by name in the stepper.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Document type & Nationality",
+          "read": true,
+          "fields": [
+            {
+              "name": "applicantCountryId",
+              "label": "Nationality",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ],
+              "notes": "Only the nationalities eligible for the eVisa are listed (Poland is not; it is on the site's visa-free list)."
+            },
+            {
+              "name": "applicantPassTypeId",
+              "label": "Type of Passport",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Ordinary"
+              ]
+            },
+            {
+              "name": "applicantTypeId",
+              "label": "Applying for",
+              "type": "select",
+              "required": true,
+              "options": [
+                "TOURISM",
+                "SPORT OR CULTURAL EVENTS"
+              ],
+              "notes": "Options appear once nationality and passport type are chosen."
+            },
+            {
+              "name": "email",
+              "label": "Email Address",
+              "type": "email",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Due to the temporary maintenance of the system, we regret to inform you that the e-mails will be sent from helpdesk@veritech.mn"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Personal information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Purpose & Duration",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Data confirmation",
+          "read": false,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "kind": "other",
+      "title": "Registration of a foreign national within 48 hours (eimmigration.mn), done by the host",
+      "appliesTo": [
+        "immigration-registration"
+      ],
+      "startUrl": "https://eimmigration.mn/",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "Not reachable: eimmigration.mn answers with a redirect to itself (ERR_TOO_MANY_REDIRECTS), and www.eimmigration.mn does not resolve. The Immigration Agency's page names this site and a mobile app as the ways to register.",
+      "steps": []
+    }
+  ]
+}

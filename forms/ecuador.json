@@ -1,0 +1,114 @@
+{
+  "destination": "ecuador",
+  "forms": [
+    {
+      "kind": "declaration",
+      "title": "Galápagos Transit Control Card (TCT) online issue form",
+      "appliesTo": [
+        "galapagos-transit-card"
+      ],
+      "startUrl": "https://siig-registro.gobiernogalapagos.gob.ec/app/tct/emitir/",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "Datos de ingreso (airline, flight number and boarding date must be entered before any passenger can be added); the passenger list was seen with its column headings only.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Datos de ingreso",
+          "read": true,
+          "fields": [
+            {
+              "label": "Aerolínea",
+              "type": "select",
+              "required": null
+            },
+            {
+              "label": "Número de vuelo",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Origen",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "Guayaquil (Gye)",
+                "Cuenca (Cue)",
+                "Quito (Uio)",
+                "Otro"
+              ]
+            },
+            {
+              "label": "Destino",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "San Cristóbal (Gal)",
+                "Isabela (Gal)",
+                "Baltra (Gal)",
+                "Otro"
+              ]
+            },
+            {
+              "label": "Fecha de abordaje",
+              "type": "date",
+              "required": null
+            }
+          ],
+          "notices": [
+            "INDIQUE LOS DATOS DE SU INGRESO A LAS ISLAS GALÁPAGOS."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Listado de personas",
+          "read": true,
+          "fields": [
+            {
+              "label": "Tipo de Documento",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Cédula",
+                "Pasaporte",
+                "DNI"
+              ]
+            },
+            {
+              "label": "Categoría",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Turista",
+                "Transeúnte"
+              ]
+            },
+            {
+              "label": "Medio de Transporte",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Aéreo",
+                "Marítimo"
+              ]
+            },
+            {
+              "label": "Tipo de Hospedaje",
+              "type": "select",
+              "required": null,
+              "options": [
+                "Hotel",
+                "Crucero",
+                "Domicilio Amigo/Familiar"
+              ]
+            }
+          ],
+          "notices": [
+            "Registre a las personas del grupo. La categoría la define el primer pasajero según las fechas de viaje.",
+            "Complete primero los datos de ida y vuelta."
+          ]
+        }
+      ]
+    }
+  ]
+}

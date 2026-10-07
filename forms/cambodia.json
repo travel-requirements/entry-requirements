@@ -1,0 +1,499 @@
+{
+  "destination": "cambodia",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Cambodia e-Visa — tourist (Visa T) application",
+      "appliesTo": [
+        "tourist-evisa"
+      ],
+      "startUrl": "https://www.evisa.gov.kh/application_new",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "visaType": "Visa T $30 (Tourist visa)"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Application step: the first fields are a passport scan upload and an applicant photo; the Review, Payment and Complete steps were seen only in the stepper",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Security",
+          "read": true,
+          "fields": [
+            {
+              "label": "captcha",
+              "type": "text",
+              "required": true
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Application",
+          "read": true,
+          "fields": [
+            {
+              "label": "Visa Type (Select Visa Type dialog)",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Visa T $30 (Tourist visa)",
+                "Visa E $35 (Business visa)",
+                "Visa A Gratis (Diplomatic visa)",
+                "Visa B Gratis (Official visa)",
+                "Visa C Gratis (Courtesy visa)"
+              ]
+            },
+            {
+              "label": "Attach Passport (.JPG .JPEG .PNG, 2MB)",
+              "type": "file",
+              "required": true,
+              "notes": "Scan Passport: the name fields are read from the passport's MRZ"
+            },
+            {
+              "label": "Application Photo (.JPG .JPEG .PNG, 2MB)",
+              "type": "file",
+              "required": true
+            },
+            {
+              "label": "Surname",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Given Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Telephone",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "label": "Email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "label": "Retype Email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "label": "Country of Nationality",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Country of Birth",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Gender",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Male",
+                "Female"
+              ]
+            },
+            {
+              "label": "Date of Birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Residential Address",
+              "type": "text",
+              "required": false
+            },
+            {
+              "label": "State / Province",
+              "type": "text",
+              "required": false
+            },
+            {
+              "label": "Address During Visit (Address in Cambodia)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Occupation",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Student",
+                "Teacher",
+                "Farmer",
+                "Journalist",
+                "Government official",
+                "Company employee",
+                "Military personnel",
+                "Retired",
+                "Religious personnel",
+                "Member of parliament",
+                "Crew member",
+                "NGO staff",
+                "Artist",
+                "Self-employed",
+                "Worker",
+                "Police officer",
+                "Other"
+              ]
+            },
+            {
+              "label": "Heard About Us From ?",
+              "type": "select",
+              "required": false
+            },
+            {
+              "label": "Passport Type",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Ordinary/Normal",
+                "Official/Special",
+                "Diplomatic"
+              ]
+            },
+            {
+              "label": "Country of Passport",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Passport Number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Passport Date of Issue",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Passport Expiry Date",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Intended Date of Entry",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Port of Entry",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Techo International Airport (KTI)",
+                "Siem Reap Angkor International Airport (SAI)",
+                "Cham Yeam (Koh Kong)",
+                "Poi Pet (Banteay Meanchey)",
+                "Bavet (Svay Rieng)",
+                "Tropaeng Kreal Border Post (Stung Treng)",
+                "Sihanoukville International Airport (Not Cruising Ships)"
+              ]
+            },
+            {
+              "label": "Accommodation (support document, .JPG .JPEG .PNG .PDF, 2MB)",
+              "type": "file",
+              "required": false
+            },
+            {
+              "label": "Bank statements for the last 3 months (support document)",
+              "type": "file",
+              "required": false
+            },
+            {
+              "label": "Flight Ticket In / Bus In (support document)",
+              "type": "file",
+              "required": false
+            },
+            {
+              "label": "Flight Ticket Out / Bus Out (support document)",
+              "type": "file",
+              "required": false
+            },
+            {
+              "label": "Other (support document)",
+              "type": "file",
+              "required": false
+            }
+          ],
+          "notices": [
+            "Please verify your Surname follow the MRZ Passport",
+            "Please enter a correct email address. eVisa information and a certificate (.pdf) will be sent following this email. We are not liable if an email is not received due to a user error. But you can still download the eVisa certificate (.pdf) by manually clicking on \"Check & Change.\"",
+            "Support Document(s) (.JPG .JPEG .PNG .PDF, size 2MB..)"
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Review",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Payment",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Complete",
+          "read": false,
+          "fields": []
+        }
+      ]
+    },
+    {
+      "kind": "arrival-card",
+      "title": "Cambodia e-Arrival (CeA) — foreign passport holder, individual submission",
+      "appliesTo": [
+        "cea"
+      ],
+      "startUrl": "https://arrival.gov.kh/e-arrival/foreigner/individual-form/draft",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "signIn": "Sign in as Guest",
+        "passport": "Foreigner",
+        "submission": "individual"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Profile (passport and personal data); the Travel Information, Customs Declaration and Confirm Declaration steps are rendered in the page and were read without filling them; Health Information did not finish loading",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Profile",
+          "read": true,
+          "fields": [
+            {
+              "label": "Passport Number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Passport Issued Country",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Date Of Passport Expiry",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Surname",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Given Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Gender",
+              "type": "select",
+              "required": true
+            },
+            {
+              "label": "Date Of Birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Country of birth",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            }
+          ],
+          "notices": [
+            "Please enter your information as shown on your passport *",
+            "Please check the passport number correctly.",
+            "Please enter your passport number and make sure it is still within the expiration date.",
+            "Please enter your name as shown on your passport."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Travel Information",
+          "read": true,
+          "fields": [
+            {
+              "label": "Occupation",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Email",
+              "type": "email",
+              "required": null
+            },
+            {
+              "label": "Country/Region Code",
+              "type": "select",
+              "required": null
+            },
+            {
+              "label": "Phone Number",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "label": "Date of Arrival in Cambodia",
+              "type": "radio",
+              "required": true,
+              "notes": "Only today and the next six days are offered"
+            },
+            {
+              "label": "Date of Departure from Cambodia",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Mode of Travel",
+              "type": "select",
+              "required": null
+            },
+            {
+              "label": "Port of Entry",
+              "type": "select",
+              "required": true
+            },
+            {
+              "label": "Travel purpose",
+              "type": "select",
+              "required": null
+            },
+            {
+              "label": "Type of Air Transport",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Commercial"
+              ]
+            },
+            {
+              "label": "Flight Number",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Accommodation Type",
+              "type": "select",
+              "required": true
+            },
+            {
+              "label": "Private residential contact number",
+              "type": "tel",
+              "required": null
+            },
+            {
+              "label": "Province",
+              "type": "select",
+              "required": null
+            },
+            {
+              "label": "Last country/Port of Embarkation before Cambodia",
+              "type": "select",
+              "required": null
+            },
+            {
+              "label": "Next country/Port of Disembarkation after Cambodia",
+              "type": "select",
+              "required": null
+            },
+            {
+              "label": "Same as last country/port of embarkation before Cambodia",
+              "type": "checkbox",
+              "required": false
+            }
+          ],
+          "notices": [
+            "Please provide your personal phone number. For example, you can share your hotel phone number or the contact details of a friend or relative in Cambodia.",
+            "Declaration can only be done within 7 days prior to date of arrival (including the day of arrival) to Cambodia For example, if you are arriving on 7 Oct 2023, you can only submit your declaration from 1 Oct 2023 onwards.",
+            "This will be the place which you are residing during your stay in Cambodia.",
+            "Please provide the address of your accommodation during your stay in Cambodia, either from your hotel or your residence."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Health Information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Customs Declaration",
+          "read": true,
+          "fields": [
+            {
+              "label": "Are you carrying foreign currency or monetary instruments worth over US$10,000 or its equivalent?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "Have good to declare?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "I hereby confirm that all the statements in this declaration are true and correct.",
+              "type": "checkbox",
+              "required": null
+            }
+          ],
+          "notices": [
+            "Goods not to declare: Personal effects and duty-free allowances below: Alcohol 2L; Cigarettes 200 Sticks; Cigar 50 Sticks; Tobacco 250 Sticks; 35ml",
+            "Passenger less than 18 years old gets allowance on perfume only.",
+            "Goods to declare Commercial goods e.g.electronic devices, computers etc. Prohibited/restricted goods c.g. live animals. chemical substances, firearms, explosives etc.",
+            "Warning: Carrying illicit drugs is a crime and subject to life-time imprisonment.",
+            "Note Any false declaration or failure to declare shall be considered committing offense and subject to fine or penalty by laws."
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Confirm Declaration",
+          "read": true,
+          "fields": [
+            {
+              "label": "I have read and agreed to the declaration.",
+              "type": "checkbox",
+              "required": true
+            }
+          ],
+          "notices": [
+            "I hereby confirm that the information has provided herein, including my local contact and residential details, is true, accurate, and complete to the best of my knowledge and belief. I understand that the truth and accuracy of the information submitted in this form is my responsibility. Should there be any change to the information provided, I undertake to inform the General Department of Immigration (`Authority`), by submitting a fresh declaration. I also undertake to update the information required under this form if requested to do so by the Authority. I understand that if I provide any false, inaccurate, or incomplete information in this form, I may be held liable to offenses related to such action."
+          ]
+        }
+      ]
+    }
+  ]
+}

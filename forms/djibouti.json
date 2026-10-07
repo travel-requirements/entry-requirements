@@ -1,0 +1,37 @@
+{
+  "destination": "djibouti",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Djibouti eVisa — Immigration Directorate platform",
+      "appliesTo": [
+        "dj-evisa-short",
+        "dj-evisa-standard"
+      ],
+      "startUrl": "https://www.evisa.gouv.dj/applicant-api/",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "Account required: the application is filled in only after signing up, confirming an email address and logging in.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Sign up",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 2,
+          "name": "Fill in your application",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 3,
+          "name": "Get your visa",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

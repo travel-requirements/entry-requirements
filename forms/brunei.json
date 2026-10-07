@@ -1,0 +1,40 @@
+{
+  "destination": "brunei",
+  "forms": [
+    {
+      "kind": "arrival-card",
+      "title": "Brunei E-Arrival Card (Immigration and National Registration Department, INRS portal)",
+      "appliesTo": [
+        "e-arrival-card"
+      ],
+      "startUrl": "https://www.imm.gov.bn/ords/r/dl_portal/public_portal/home",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "The E-Arrival Card form is reached only after registering and logging in to the INRS portal (E-SERVICES > E-Arrival Cards opens the login). The portal's public FAQ was read.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "FAQ (public, before login)",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "E-Arrival Card is an online portal for the registration of foreign nationals arriving and departing to/from Brunei Darussalam electronically to replace the previous registration of arrival/departure using physical paper which is commonly known as Form 19.",
+            "E-Arrival Card is implemented in accordance with Regulation 29 (2)(b), Immigration Act, Chapter 17.",
+            "All foreign nationals arriving and departing to/from Brunei Darussalam through sea, air, and land immigration control posts are required to register on the E-Arrival Card portal before arriving and entering Brunei Darussalam.",
+            "Foreign nationals who travel to Brunei Darussalam for the purpose of stopover (transit) only WITHOUT going through the immigration control post (LTAB) are NOT required to register for an E-Arrival Card.",
+            "To ensure a smooth registration process, the following documents must be prepared: a) Passport/Valid Individual Travel Document b) Information on residence in Brunei Darussalam c) Flight or Vehicle information used",
+            "There are no fee or charges for the E-Arrival Card Registration.",
+            "Yes, the individual can register for an E-Arrival Card at the Immigration Control Post using the individual’s mobile phone, but it is recommended to register before arriving or departing to/from Brunei Darussalam.",
+            "Each individual intended to enter Brunei Darussalam must complete and submit E-Travel Card registration."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Register / Log in",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

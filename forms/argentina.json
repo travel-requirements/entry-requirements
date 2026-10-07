@@ -1,0 +1,92 @@
+{
+  "destination": "argentina",
+  "forms": [
+    {
+      "kind": "eta",
+      "title": "AVE — Autorización de Viaje Electrónica (Dirección Nacional de Migraciones)",
+      "appliesTo": [
+        "ave"
+      ],
+      "startUrl": "https://www.migraciones.gob.ar/ave/",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "category": "holder of an ordinary passport and a valid U.S. B2/J/B1/O/P/E/H-1B visa"
+      },
+      "requiresAccount": true,
+      "stoppedAt": "Payment: the fee is paid on Provincia NET (dnm.provincianet.com.ar, login or sign-up) and the application then opens only with the passport number and the payment 'Sticker' code",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Términos y condiciones",
+          "read": true,
+          "fields": [
+            {
+              "name": "terminos",
+              "label": "Acepto los términos y condiciones",
+              "type": "checkbox",
+              "required": true
+            },
+            {
+              "label": "Seleccione la opción en la que usted se encuentra comprendido",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Titular de pasaporte ordinario válido y vigente y poseer una visa vigente categoría B2/ J / B1 / O / P (P1-P2-P3) / E / H-1B emitida por los Estados Unidos de América",
+                "Ciudadano extranjero originario de jurisdicciones que se encuentran exceptuadas de visado para el ingreso a Estados Unidos de América, titular de pasaporte ordinario, diplomático, oficial o de servicio válidos y vigentes y poseer al menos UN (1) ingreso en los últimos DOS (2) años al país mencionado",
+                "Ciudadano extranjero originario de jurisdicciones que se encuentran exceptuadas de visado para el ingreso a Estados Unidos de América, titular de pasaporte ordinario, diplomático, oficial o de servicio válidos y vigentes y disponer de una autorización de ingreso vigente a ese país (ESTA o visas B2/ J / B1 / O / P (P1-P2-P3) / E / H-1B emitidas por los Estados Unidos de América)"
+              ]
+            }
+          ],
+          "notices": [
+            "Se informa que el trámite AVE alcanza a aquellos ciudadanos extranjeros que viajen por turismo a la República Argentina y posean un Pasaporte Ordinario válido y vigente, con una visa de los Estados Unidos de América para TURISMO (B1 / B2 - B2 - J - B1 - O - P (P1-P2-P3) - E - H-1B).",
+            "Respecto de los extranjeros originarios de jurisdicciones que se encuentren exceptuadas de visado para el ingreso a los ESTADOS UNIDOS DE AMÉRICA, titulares de pasaportes ordinarios, diplomáticos, oficiales o de servicio válidos y vigentes, podrán tramitar su AVE siempre que demuestren y sea verificable al menos UN (1) ingreso al mencionado país, en los DOS (2) años anteriores a la solicitud o bien que dispongan de un permiso vigente emitido por el Sistema Electrónico para la Autorización de Viaje (ESTA, por sus siglas en inglés) o visas B2/ J / B1 / O / P (P1-P2-P3) / E / H-1B emitidas por los Estados Unidos de América.",
+            "Se informa que, de acuerdo a la Disposición 4285/2019, se considera inadmisible la solicitud en Territorio Nacional del cambio de categoría o subcategoría una vez efectivizado el ingreso en virtud del AVE concedida. Resulta condición exigida en los términos del artículo 20 inciso a) del Decreto N° 616/10 que el ingreso al territorio no derive de una Autorización de Viaje Electrónica, atento que la misma regula facilidades determinadas exclusivamente con el objeto de simplificar el ingreso al territorio en caso de estadías efectivamente breves.",
+            "Cabe destacar que por Disposición DNM N° 538 del 27 de enero de 2020, queda suspendida en forma transitoria la tramitación de la Autorización de Viaje Electrónica para aquellos supuestos que presenten un visado emitido por alguno de los Estados de la UNIÓN EUROPEA que conforman el espacio Schengen de libre circulación de personas, u otros Estados que formen parte del espacio Schengen."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Pago de la tasa (Provincia NET)",
+          "read": true,
+          "fields": [
+            {
+              "label": "Username",
+              "type": "text",
+              "required": false
+            },
+            {
+              "label": "Password",
+              "type": "text",
+              "required": false
+            }
+          ],
+          "notices": [
+            "Welcome. Select the rate you want to pay from the panel below or sign in to access your history information."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Log in (AVE Turista)",
+          "read": true,
+          "fields": [
+            {
+              "name": "numero_pasaporte",
+              "label": "Passport Number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "codigo_bapro",
+              "label": "Sticker",
+              "type": "text",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Please make sure you have a single PDF file, no larger than 8 MB, that includes your valid passport and your U.S. Visa. If the Visa is in a previous passport, it must also be included in the file. Ensure that the images are clear, sharp, and in color."
+          ]
+        }
+      ]
+    }
+  ]
+}

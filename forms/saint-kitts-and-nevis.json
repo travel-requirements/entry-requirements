@@ -1,0 +1,173 @@
+{
+  "destination": "saint-kitts-and-nevis",
+  "forms": [
+    {
+      "kind": "eta",
+      "title": "St Kitts and Nevis Electronic Travel Authorisation (eTA) — individual application",
+      "appliesTo": [
+        "eta"
+      ],
+      "startUrl": "https://www.knatravelform.kn/en/enroll/intro",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "traveller": "Tourists, Visitors, CARICOM Nationals & eVISA Holders",
+        "applicationType": "individual",
+        "countryOfResidence": "Poland"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Passport Information (requires a passport scan or upload). Later step URLs (enroll/selfie, contactInfo, tripInfo and so on) redirect to the start without an application in progress, so they are recorded by name from the side menu.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Get Started",
+          "read": true,
+          "fields": [
+            {
+              "label": "Who is applying",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Citizens & Residents of St. Kitts and Nevis & OECS Nationals",
+                "Tourists, Visitors, CARICOM Nationals & eVISA Holders",
+                "Diplomats and Foreign Delegates"
+              ]
+            }
+          ],
+          "notices": [
+            "If you are a foreign national visiting St. Kitts and Nevis, you need to apply for an Electronic Travel Authorisation (eTA)",
+            "Citizens and residents of St. Kitts and Nevis, OECS citizens must submit the Immigration and Customs ED Form.",
+            "Choose this option if you are a citizen or resident of St. Kitts and Nevis or a national of Antigua and Barbuda, Dominica, Grenada, Montserrat, St. Lucia or St. Vincent and the Grenadines."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "How to Apply",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "All visitors including infants and children who intend to travel to the Federation of St. Kitts and Nevis must have an approved Electronic Travel Authorisation (eTA) before the start of their journey.",
+            "A valid passport for at least six (6) months after your planned date of arrival into St. Kitts and Nevis, with at least one blank page",
+            "Travel and accommodation details",
+            "A payment method - you can use Visa, Mastercard, American Express, JCB, Apple Pay or Google Pay"
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Declaration of Consent",
+          "read": true,
+          "fields": [
+            {
+              "label": "I have read and agreed to the above.",
+              "type": "checkbox",
+              "required": true
+            },
+            {
+              "label": "Opt-in to enter giveaways, and receive special offers and exciting updates for your trip from third parties.",
+              "type": "checkbox",
+              "required": false
+            }
+          ],
+          "notices": [
+            "that the possession of an approved eTA is not the final authority to enter the Federation of St. Kitts and Nevis. Admissibility is determined at the point of entry upon travellers' arrival.",
+            "providing false or incomplete information may result in the rejection of your travel authorisation.",
+            "that if this application is made by an agent or automated system of a third party website, it will be automatically denied."
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Individual or group",
+          "read": true,
+          "fields": [
+            {
+              "label": "Application type",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Individual application",
+                "Group application"
+              ]
+            }
+          ],
+          "notices": [
+            "If you are a family or a group of up to 6 people, you can save time by applying as a group."
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Country of Residence",
+          "read": true,
+          "fields": [
+            {
+              "label": "Country of residence",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            }
+          ],
+          "notices": [
+            "Please select your country of residence. This is the country where you live and pay taxes."
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Passport Information",
+          "read": true,
+          "fields": [
+            {
+              "label": "Scan Passport / Upload Passport Page",
+              "type": "file",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Provide a clear image of your passport's biographic page."
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Selfie or Photo",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 8,
+          "name": "Contact Information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 9,
+          "name": "Trip Information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 10,
+          "name": "Traveller Information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 11,
+          "name": "Health Declaration",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 12,
+          "name": "Customs Declaration",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 13,
+          "name": "Confirm and Proceed",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

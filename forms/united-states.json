@@ -1,0 +1,580 @@
+{
+  "destination": "united-states",
+  "forms": [
+    {
+      "kind": "eta",
+      "title": "ESTA — Electronic System for Travel Authorization, new individual application",
+      "appliesTo": [
+        "esta"
+      ],
+      "startUrl": "https://esta.cbp.dhs.gov/",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "applicationType": "individual"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Applicant Information (requires a passport upload and personal data); Personal Information, Travel Information and Eligibility Questions read by opening their step URLs, which render without earlier data; Review Application and Pay seen by name only",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Welcome / How do I apply",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "You are a citizen or eligible national of a Visa Waiver Program country.",
+            "You are currently not in possession of a visitor's visa.",
+            "Your travel is for 90 days or less.",
+            "You plan to travel to the United States for business or pleasure.",
+            "You want to apply for a new authorization for one person or a group of applications for two or more persons.",
+            "Valid passport(s) from a Visa Waiver Program country.",
+            "Traveler's selfie photo.",
+            "Traveler's valid email address.",
+            "Traveler's home address and phone number.",
+            "Traveler's emergency point of contact phone and email.",
+            "Fee for application is $40.27 USD.",
+            "Valid payment methods include MasterCard, VISA, American Express, Discover (JCB or Diners Club only), and PayPal.",
+            "The following information may also be required:",
+            "Traveler's aliases or other names (If Applicable).",
+            "Traveler's National ID or Personal ID number (If Applicable).",
+            "Traveler's Global Entry/NEXUS/SENTRI ID number (If Applicable).",
+            "Traveler's employer address and phone number (If Applicable).",
+            "Traveler's U.S. point of contact name, address, and phone (If Applicable)."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Security Notification",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "You are about to access a Department of Homeland Security computer system. This computer system and data therein are property of the U.S. Government and provided for official U.S. Government information and use. There is no expectation of privacy when you use this computer system. The use of a password or any other security measure does not establish an expectation of privacy. By using this system, you consent to the terms set forth in this notice. You may not process classified national security information on this computer system. Access to this system is restricted to authorized users only. Unauthorized access, use, or modification of this system or of data contained herein, or in transit to/from this system, may constitute a violation of section 1030 of title 18 of the U.S. Code and other criminal laws. Anyone who accesses a Federal computer system without authorization or exceeds access authority, or obtains, alters, damages, destroys, or discloses information, or prevents authorized use of information on the computer system, may be subject to penalties, fines or imprisonment. This computer system and any related equipment is subject to monitoring for administrative oversight, law enforcement, criminal investigative purposes, inquiries into alleged wrongdoing or misuse, and to ensure proper performance of applicable security features and procedures. DHS may conduct monitoring activities without further notice."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Disclaimers",
+          "read": true,
+          "fields": [
+            {
+              "name": "disclaimerRadios",
+              "label": "Disclaimer — Please indicate you have read and understand the information provided above",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes, I have read and understand the information and agree to these terms.",
+                "No, I need additional clarification or I decline to provide acknowledgment."
+              ]
+            },
+            {
+              "name": "travelRadios",
+              "label": "The Travel Promotion Act of 2009 — Please indicate you have read and understand the information provided above",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes, I have read and understand the information and agree to these terms.",
+                "No, I need additional clarification or I decline to provide acknowledgment."
+              ]
+            }
+          ],
+          "notices": [
+            "The Electronic System for Travel Authorization performs checks against law enforcement databases. All travelers seeking admission to the United States under the Visa Waiver Program are required to obtain an electronic travel authorization using this system prior to being granted boarding.",
+            "If your electronic travel authorization application is approved, it establishes that you are eligible to travel, but does not establish that you are admissible to the United States under the Visa Waiver Program. Upon arrival to the United States, you will be inspected by a U.S. Customs and Border Protection Officer at a port of entry who may determine that you are inadmissible under the Visa Waiver Program or for any reason under United States law.",
+            "A determination that you are not eligible for electronic travel authorization does not preclude you from applying for a visa to travel to the United States.",
+            "All information provided by you, or on your behalf by a designated third party, must be true and correct. An electronic travel authorization may be revoked at any time and for any reason, such as new information influencing eligibility. You may be subject to administrative or criminal penalties if you knowingly and willfully make a materially false, fictitious, or fraudulent statement or representation in an electronic travel authorization application submitted by you or on your behalf.",
+            "WARNING: If upon application for admission to the United States at a port of entry you are admitted under the Visa Waiver Program (VWP) by a US Customs and Border Protection Officer, you may not accept unauthorized employment; or attend school; or represent the foreign information media during your visit under the program. You may not apply for: 1) a change of nonimmigrant status, 2) an extension of stay, or 3) adjustment of status to temporary or permanent resident, unless eligible under section 245(c)(4) of the Immigration and Nationality Act. Violation of these terms will subject you to REMOVAL.",
+            "On March 4, 2010, President Obama signed into law the Travel Promotion Act (TPA) of 2009, Pub. L. No. 111-145. The Act directs the Secretary of Homeland Security to establish a fee for the use of the ESTA system. The One Big Beautiful Bill Act (PL 119-21), updated the ESTA application fee to $40.27, comprised of $17.00 for each VWP applicant receiving authorization to travel to the United States, $10.27 for the processing of the ESTA application, and $13.00 for the Treasury General Fund Fee. Applicants who are denied authorization to travel to the U.S. under the VWP will only be charged $10.27. The fee may only be paid by credit card or PayPal. Applicants may save the application data and return to the application at a later date to enter the payment information. However, the application will not be submitted for processing until all payment information is completed.",
+            "WARNING: The administrative fee will be collected by credit card or PayPal. It is crucial that all applicants enter their ESTA and payment information accurately. If information is entered incorrectly, the applicant may be charged additional fees to reapply. Updates to an application will not accrue additional fees. Applicants who do not complete the payment process will not receive authorization to travel to the United States and will not be allowed to board any aircraft or vessel destined for the United States. If an applicant stops payment of the fee, his or her authorization to travel to the United States will be revoked. CBP is not responsible for additional fees that may be charged by the applicant's credit card company or PayPal for the transaction. By pressing the \"Apply\" button in the application process, applicants agree not to dispute any administrative fee charged by CBP for the use of the ESTA system and further acknowledge that there are no refunds."
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Applicant Information",
+          "read": true,
+          "fields": [
+            {
+              "label": "Upload your passport (biographic page)",
+              "type": "file",
+              "required": true,
+              "notes": "gif, png, jpg or jpeg, or a camera scan; the upload populates the passport fields"
+            },
+            {
+              "name": "applicantLastName",
+              "label": "Family Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "applicantFirstName",
+              "label": "First (Given) Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "passportNum",
+              "label": "Passport Number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "issueCountry",
+              "label": "Issuing Country",
+              "type": "select",
+              "required": true,
+              "options": [
+                "<Visa Waiver Program countries and UK passport categories>"
+              ]
+            },
+            {
+              "label": "Issuance Date",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Expiration Date",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "citizenshipCountry",
+              "label": "Country of Citizenship / Nationality",
+              "type": "select",
+              "required": true,
+              "options": [
+                "<Visa Waiver Program countries and UK passport categories>"
+              ]
+            },
+            {
+              "name": "natIdNum",
+              "label": "National Identification Number",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "personalIdNum",
+              "label": "Personal Identification Number",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "gender",
+              "label": "Sex",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Male",
+                "Female"
+              ]
+            },
+            {
+              "label": "Date of Birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "name": "birthCity",
+              "label": "City of Birth",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "birthCountry",
+              "label": "Country of Birth",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "name": "otherCitizenshipRadios",
+              "label": "Are you now, a citizen or national of any other country?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "pastCitizenshipRadios",
+              "label": "Have you ever been a citizen or national of any other country?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "contactEmail",
+              "label": "E-mail Address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "contactEmailConfirm",
+              "label": "Confirm E-mail Address",
+              "type": "email",
+              "required": true
+            }
+          ],
+          "notices": [
+            "The following information is required of every non-immigrant visitor not in possession of a visitor's visa who is a national of one of the countries [1] listed in 8 CFR 217.2. Please enter all information requested. Each member of your traveling party must complete a separate application.",
+            "Refer to your passport and enter all information in the same format.",
+            "You must upload your passport to continue with your ESTA Application.",
+            "Please ensure you upload the entire Passport biographic page of the traveler applying for an ESTA.  The data from the uploaded passport MUST match the identity of the traveler.",
+            "IMPORTANT: Your application number will be sent to the email address entered below. You must verify your email address to complete your application.",
+            "Note: If your application is not completed within 7 days, it will be deleted."
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Personal Information",
+          "read": true,
+          "fields": [
+            {
+              "name": "hasAliasRadios",
+              "label": "Are you known by any other names or aliases?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "hasAddlTravelDocRadios",
+              "label": "Have you ever been issued a passport or national identity card for travel by any other country?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "Address Line 1",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Address Line 2",
+              "type": "text",
+              "required": false
+            },
+            {
+              "label": "Apartment Number",
+              "type": "text",
+              "required": false
+            },
+            {
+              "label": "City",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "State/Province/Region",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Country",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Telephone Type",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Home",
+                "Work",
+                "Mobile",
+                "Other"
+              ]
+            },
+            {
+              "label": "Country Code",
+              "type": "select",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Phone Number",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "label": "Social media — Provider / Platform",
+              "type": "select",
+              "required": false,
+              "options": [
+                "ASKfm",
+                "Facebook",
+                "Flickr",
+                "GitHub",
+                "Instagram",
+                "JustPaste.it",
+                "LinkedIn",
+                "Tumblr",
+                "Twitter",
+                "VKontakte (VK)",
+                "YouTube",
+                "TikTok",
+                "Other"
+              ]
+            },
+            {
+              "label": "Social Media Identifier",
+              "type": "text",
+              "required": false
+            },
+            {
+              "label": "Facebook Page ID",
+              "type": "text",
+              "required": false
+            },
+            {
+              "label": "LinkedIn Profile Link",
+              "type": "text",
+              "required": false
+            },
+            {
+              "label": "Twitter User ID",
+              "type": "text",
+              "required": false
+            },
+            {
+              "label": "Instagram User ID",
+              "type": "text",
+              "required": false
+            },
+            {
+              "label": "I do not have an online presence.",
+              "type": "checkbox",
+              "required": false
+            },
+            {
+              "label": "Are you a member of the CBP Global Entry/NEXUS/SENTRI Program?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "Parent 1 — Family Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Parent 1 — First (Given) Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Parent 2 — Family Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Parent 2 — First (Given) Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Do you have a current or previous employer?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            }
+          ],
+          "notices": [
+            "SOCIAL MEDIA (OPTIONAL) Please enter information associated with your online presence over the past five years.",
+            "Please list your parents names in the boxes to the right. All applicants are required to fill out this section."
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Travel Information",
+          "read": true,
+          "fields": [
+            {
+              "label": "Is your travel to the US occurring in transit to another country?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "Emergency contact — Family Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Emergency contact — First (Given) Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Emergency contact — E-mail Address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "label": "Emergency contact — Country Code",
+              "type": "select",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Emergency contact — Phone Number",
+              "type": "tel",
+              "required": true
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Eligibility Questions",
+          "read": true,
+          "fields": [
+            {
+              "name": "q1Radios",
+              "label": "Do you have a physical or mental disorder; or are you a drug abuser or addict; or do you currently have any of the following diseases (communicable diseases are specified pursuant to section 361(b) of the Public Health Service Act): Cholera; Diphtheria; Tuberculosis, infectious; Plague; Smallpox; Yellow Fever; Viral Hemorrhagic Fevers, including Ebola, Lassa, Marburg, Crimean-Congo; Severe acute respiratory illnesses capable of transmission to other persons and likely to cause mortality.",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "q2Radios",
+              "label": "Have you ever been arrested or convicted for a crime that resulted in serious damage to property, or serious harm to another person or government authority?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "q3Radios",
+              "label": "Have you ever violated any law related to possessing, using, or distributing illegal drugs?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "q4Radios",
+              "label": "Do you seek to engage in or have you ever engaged in terrorist activities, espionage, sabotage, or genocide?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "q5Radios",
+              "label": "Have you ever committed fraud or misrepresented yourself or others to obtain, or assist others to obtain, a visa or entry into the United States?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "q6Radios",
+              "label": "Are you currently seeking employment in the United States or were you previously employed in the United States without prior permission from the U.S. government?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "q7Radios",
+              "label": "Have you ever been denied a U.S. visa you applied for with your current or previous passport, or have you ever been refused admission to the United States or withdrawn your application for admission at a U.S. port of entry?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "q8Radios",
+              "label": "Have you ever stayed in the United States longer than the admission period granted to you by the U.S. government?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "q9Radios",
+              "label": "Have you traveled to, or been present in Cuba, Iran, Iraq, Libya, North Korea, Somalia, Sudan, Syria or Yemen on or after March 1, 2011?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "certificationCheckbox",
+              "label": "Certification (applicant)",
+              "type": "checkbox",
+              "required": null
+            },
+            {
+              "name": "thirdPartyCheckbox",
+              "label": "Third parties only — certification",
+              "type": "checkbox",
+              "required": null
+            }
+          ],
+          "notices": [
+            "I have read and understand that I hereby waive for the duration of my travel authorization obtained via ESTA any rights to review or appeal of a U.S. Customs and Border Protection Officer's determination as to my admissibility, or to contest, other than on the basis of an application for asylum, any removal action arising from an application for admission under the Visa Waiver Program.",
+            "In addition to the above waiver, as a condition of each admission into the United States under the Visa Waiver Program, I agree that the submission of biometric identifiers (including fingerprints and photographs) during processing upon arrival in the United States shall reaffirm my waiver of any rights to review or appeal of a U.S. Customs and Border Protection Officer's determination as to my admissibility, or to contest, other than on the basis of an application for asylum, any removal action arising from an application for admission under the Visa Waiver Program.",
+            "I, the applicant, hereby certify that I have read, or have had read to me, all the questions and statements on this application and understand all the questions and statements on this application. The answers and information furnished in this application are true and correct to the best of my knowledge and belief.",
+            "For third-parties submitting the application on behalf of the applicant, I hereby certify that I have read to the individual whose name appears on this application (applicant) all the questions and statements on this application. I further certify that the applicant certifies that he or she has read, or has had read to him or her, all the questions and statements on this application, understands all the questions and statements on this application, and waives any rights to review or appeal of a U.S. Customs and Border Protection Officer's determination as to his or her admissibility, or to contest, other than on the basis of an application for asylum, any removal action arising from an application for admission under the Visa Waiver Program. The answers and information furnished in this application are true and correct to the best of the applicant's knowledge and belief."
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Review Application",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 9,
+          "name": "Pay",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

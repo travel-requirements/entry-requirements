@@ -1853,13 +1853,25 @@
   "entryRequirements": {
     "passportValidity": {
       "rule": "6-months-on-arrival",
-      "text": "Your passport must be valid for at least 6 months from the date you arrive in St Kitts and Nevis.",
+      "text": "Your passport must be valid for at least six months after your planned date of arrival in St Kitts and Nevis and have at least one blank page.",
       "source": {
-        "url": "https://www.gov.uk/foreign-travel-advice/st-kitts-and-nevis/entry-requirements",
-        "name": "UK FCDO travel advice — St Kitts and Nevis entry requirements",
+        "url": "https://www.knatravelform.kn/en/enroll/intro",
+        "name": "Ministry of National Security of Saint Kitts and Nevis — eTA application, How to Apply step (what you need)",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-07",
+        "portalOnly": true
+      }
+    },
+    "blankPages": {
+      "count": 1,
+      "source": {
+        "url": "https://www.knatravelform.kn/en/enroll/intro",
+        "name": "Ministry of National Security of Saint Kitts and Nevis — eTA application, How to Apply step (what you need)",
+        "type": "government",
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-07",
+        "portalOnly": true
       }
     },
     "vaccinations": [
@@ -1929,15 +1941,22 @@
         "mandatory": true,
         "fee": null,
         "submitAt": "before-travel",
-        "submitWindow": "Before travel online; it can also be completed on arrival on your own device",
+        "submitWindow": null,
         "url": "https://www.knatravelform.kn/",
-        "text": "Citizens and visitors must complete the online Immigration and Customs (ED) form at knatravelform.kn. Fill it in before you travel to speed up arrival; it can also be completed on arrival on your own device, using a data connection or free public wifi.",
+        "text": "Citizens and residents of St Kitts and Nevis and nationals of the other OECS states (Antigua and Barbuda, Dominica, Grenada, Montserrat, St Lucia, St Vincent and the Grenadines) submit the online Immigration and Customs (ED) form at knatravelform.kn. Foreign visitors apply for an Electronic Travel Authorisation instead, and its application includes health and customs declaration steps.",
         "source": {
-          "url": "https://www.mofa.gov.kn/service/passport-and-visa-services/",
-          "name": "Ministry of Foreign Affairs of Saint Kitts and Nevis — Passport and Visa Services",
+          "url": "https://www.knatravelform.kn/en",
+          "name": "Ministry of National Security of Saint Kitts and Nevis — Electronic Border Management System, Get Started step (who submits the ED form and who applies for an eTA)",
           "type": "government",
-          "lastVerified": "2026-10-03",
-          "lastChanged": "2026-10-03"
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07",
+          "portalOnly": true,
+          "conflict": {
+            "url": "https://www.mofa.gov.kn/service/passport-and-visa-services/",
+            "name": "Ministry of Foreign Affairs of Saint Kitts and Nevis — Passport and Visa Services",
+            "states": "Citizens and visitors must complete the online Immigration and Customs (ED) form; it can also be completed on arrival on your own device",
+            "resolvedBy": "hierarchy"
+          }
         }
       }
     ],

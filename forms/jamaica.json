@@ -1,0 +1,311 @@
+{
+  "destination": "jamaica",
+  "forms": [
+    {
+      "kind": "arrival-card",
+      "title": "Jamaica Electronic C5 Immigration/Customs form — PICA and Jamaica Customs Agency",
+      "appliesTo": [
+        "c5-immigration-customs-form"
+      ],
+      "startUrl": "https://www.enterjamaica.gov.jm/",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "Email verification gate; the full form renders behind it and was read from the page without entering anything",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Email verification",
+          "read": true,
+          "fields": [
+            {
+              "name": "verifyEmail",
+              "label": "Please insert a valid email address",
+              "type": "email",
+              "required": null
+            }
+          ],
+          "notices": [
+            "You are required to complete email verification before continuing."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Personal information",
+          "read": true,
+          "fields": [
+            {
+              "name": "familyName",
+              "label": "Last Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "fName",
+              "label": "First Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "mName",
+              "label": "Middle Name",
+              "type": "text",
+              "required": false
+            },
+            {
+              "label": "Birth Date (As it appears on your Passport)",
+              "type": "date",
+              "required": null
+            },
+            {
+              "name": "gender",
+              "label": "Gender",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Male",
+                "Female"
+              ]
+            },
+            {
+              "name": "no_accomp_fam_members",
+              "label": "Family Members with you",
+              "type": "select",
+              "required": true,
+              "options": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Home address",
+          "read": true,
+          "fields": [
+            {
+              "label": "Street Address",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "City / Town",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "State / Province / Region",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Zip / Postal Code",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Country",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Occupation",
+              "type": "text",
+              "required": true
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Passport details",
+          "read": true,
+          "fields": [
+            {
+              "name": "passportNo",
+              "label": "Passport Number (As it appears on your Passport)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "issueCountry",
+              "label": "Country of Issue (As it appears on your Passport)",
+              "type": "text",
+              "required": true
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Trip details",
+          "read": true,
+          "fields": [
+            {
+              "name": "intendedAddress",
+              "label": "Address in Jamaica (eg. Hotel name or Residential address)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Countries visited in the last 6 weeks",
+              "type": "country",
+              "required": true,
+              "options": [
+                "None",
+                "<countries>"
+              ]
+            },
+            {
+              "name": "flightName",
+              "label": "Flight Name / Vessel(Ship) Name",
+              "type": "select",
+              "required": true
+            },
+            {
+              "label": "Flight # (eg. 0090)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Departure Port eg. Miami",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Travel Date (mm/dd/yyyy)",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Purpose of visit",
+              "type": "checkbox",
+              "required": null,
+              "options": [
+                "Visiting Friends / Relatives",
+                "Vacation",
+                "Business / Meeting",
+                "Intransit",
+                "Resident",
+                "Work",
+                "Honeymoon / Wedding",
+                "Other (please state)"
+              ]
+            },
+            {
+              "label": "Length of Stay (in days)",
+              "type": "number",
+              "required": true
+            },
+            {
+              "label": "Number of pieces of luggage — Accompanied (11A) / Unaccompanied (11B)",
+              "type": "number",
+              "required": true,
+              "notes": "checked luggage & hand luggage"
+            },
+            {
+              "label": "Number of packages shipped",
+              "type": "number",
+              "required": null,
+              "notes": "personal cargo sent by air or sea (barrel, box, etc.)"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Customs declaration — I am bringing",
+          "read": true,
+          "fields": [
+            {
+              "label": "Fruits, plants, cut flowers, vegetable, soil, meat, live animals and organisms, honey, wildlife products, plant material, food, animal products or live birds.",
+              "type": "checkbox",
+              "required": null,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "Pharmaceuticals, chemicals, narcotics and other illicit drugs or biological substances",
+              "type": "checkbox",
+              "required": null,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "Illicit drugs or narcotics.",
+              "type": "checkbox",
+              "required": null,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "Radioactive or nuclear substances.",
+              "type": "checkbox",
+              "required": null,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "Arms, ammunitions, explosives, fireworks, toy guns or other weapons",
+              "type": "checkbox",
+              "required": null,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "I am / we are carrying currency or monetary instruments over U$$10,000 or equivalent",
+              "type": "checkbox",
+              "required": null,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "I have goods exceeding the value of my (our) personal duty-free allowance",
+              "type": "checkbox",
+              "required": null,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "I have gifts or articles for resale",
+              "type": "checkbox",
+              "required": null,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "Description of item / Value / Currency",
+              "type": "text",
+              "required": null,
+              "notes": "Rows added with ADD MORE for declared goods."
+            }
+          ],
+          "notices": [
+            "IF YOU ARE IN DOUBT (Declare all your goods to the customs officer)",
+            "*Value should be the price paid or payable in the country of purchase"
+          ]
+        }
+      ]
+    }
+  ]
+}

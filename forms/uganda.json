@@ -1,0 +1,431 @@
+{
+  "destination": "uganda",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Uganda Electronic Visa/Permit Application — Uganda Ordinary/Tourist Visa, single entry",
+      "appliesTo": [
+        "evisa-tourist",
+        "east-africa-tourist-visa",
+        "evisa-multiple"
+      ],
+      "startUrl": "https://visas.immigration.go.ug/#/apply",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "type": "Visa",
+        "category": "Uganda Ordinary/Tourist Visa",
+        "subcategory": "Single Entry"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Step 2, Fill the form (personal and passport data); Add documents and Submit were seen only in the stepper",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Select type of application",
+          "read": true,
+          "fields": [
+            {
+              "label": "Visa or permit type",
+              "type": "select",
+              "required": null,
+              "name": "applicationTypes",
+              "options": [
+                "Entry Permit",
+                "Student Pass",
+                "Dependant Pass",
+                "Intern / Research pass",
+                "Citizenship",
+                "Certificate Of Residence",
+                "Special pass",
+                "Visa"
+              ]
+            },
+            {
+              "label": "Category",
+              "type": "select",
+              "required": null,
+              "name": "availableCategories",
+              "options": [
+                "Visa For Diplomatic and Official Passport Holders",
+                "Uganda Ordinary/Tourist Visa",
+                "East Africa Tourist Visa",
+                "Transit",
+                "Multiple-Entry"
+              ]
+            },
+            {
+              "label": "Subcategory",
+              "type": "select",
+              "required": null,
+              "name": "availableSubcategories",
+              "notes": "Ordinary/Tourist: Single Entry. Multiple-Entry: Diplomatic and Official, 6 Months, 12 Months, 24 Months"
+            }
+          ],
+          "notices": [
+            "The Uganda Electronic Visa/Permit Application System performs checks against law enforcement databases. All travelers seeking admission to Uganda are required to obtain a Visa using this system prior to being granted boarding.",
+            "Upon arrival to Uganda (at the selected point of entry) or to the Immigration Office Headquarters, you will be inspected by an Immigration Officer who may determine if your application is finally approved.",
+            "Be aware, that depending on the purpose of visit selected in the next step, different mandatory documents can be requested.",
+            "Supported formats are : JPEG, PNG, BMP, PDF Minimum file size is 5 KB. Maximum file size is 250 KB",
+            "Uganda Ordinary/Tourist Visa, Single Entry: A letter stating reason for transit and country of destination (Transit) Return Ticket (Tourism) Cover letter detailing the purpose of visit (Other) Support Document for the purpose of visit (Medical) (Medical) Return Ticket (Family_visit) Immigration Status of the Host (Family_visit) Invitation Letter (Family_visit) Invitation letter for the Conference (Conference) Passport bio-data page (with validity of at least 6 months)) (All) Recent Passport-size Photograph (All) Application Fee USD 50",
+            "East Africa Tourist Visa: Travel itinerary (Detailed Tour Plan) (All) Copy of recent Passport size Photograph (All) Copy of the passport (Bio-data page) (All) Return Ticket (All) Application Fee USD 100",
+            "Multiple-Entry, 6 Months: Passport (Bio-data page) with at least 6 months validity (All) Recent Passport size Photograph (All) Valid Police clearance from Interpol or home country (All) Recommendation letter from referee two (2) in Uganda (All) Cover Letter stating reasons for Multiple Entry (All) Proof entries and exits into Uganda in the last one year (All) Recommendation letter from referee one (1) in Uganda (All) Application Fee USD 100",
+            "Multiple-Entry, 12 Months: Application Fee USD 100",
+            "Multiple-Entry, 24 Months: Application Fee USD 150",
+            "Payment must be done before processing the application.This payment MUST be done online. The application will not be processed until the payment is done. Please note that online payments are Non-Refundable and may be subjected to a surcharge fee."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Fill the form",
+          "read": true,
+          "fields": [
+            {
+              "label": "Do you want to associate this Visa to a group? If so:",
+              "type": "select",
+              "required": false,
+              "options": [
+                "Create a new group",
+                "Use an existing group"
+              ]
+            },
+            {
+              "label": "Given names",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Surname",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Date of Birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Gender",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Female",
+                "Male"
+              ]
+            },
+            {
+              "label": "Marital status",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Divorced",
+                "Married",
+                "Other",
+                "Separated",
+                "Single",
+                "Widowed"
+              ]
+            },
+            {
+              "label": "Current nationality",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Do you have dual nationality?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "YES",
+                "NO"
+              ]
+            },
+            {
+              "label": "Former nationality (if applicable)",
+              "type": "country",
+              "required": false,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Place of Birth (City, State/Province)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Country of Birth",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Immigration status in country of residence",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Citizen",
+                "Other",
+                "Student",
+                "Tourist",
+                "Work"
+              ]
+            },
+            {
+              "label": "Country of residence",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "City of residence",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Current residential address",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Phone number",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "label": "Email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "label": "Confirm email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "label": "Passport type",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Diplomatic Passport",
+                "Id Card",
+                "Official Passport",
+                "Ordinary Passport",
+                "Other"
+              ]
+            },
+            {
+              "label": "Passport number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Issuing country",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Place of issue",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Date of issue",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Date of expiry",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Previous passports (if any)",
+              "type": "text",
+              "required": false
+            },
+            {
+              "label": "Do you have children endorsed on your passport accompanying you?",
+              "type": "radio",
+              "required": true
+            },
+            {
+              "label": "Address in Uganda (person, organization, hotel, travel agency…)",
+              "type": "text",
+              "required": true,
+              "notes": "Name and telephone number of your host (person, company, hotel...)"
+            },
+            {
+              "label": "Travel history",
+              "type": "text",
+              "required": true,
+              "notes": "List of the last five countries (or less) you visited or NONE if no countries were visited"
+            },
+            {
+              "label": "Purpose of visit",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Conference",
+                "Family visit (Former Ugandan/Relative of a Ugandan)",
+                "Family visit (Visiting a Foreign National)",
+                "Medical",
+                "Other",
+                "Returning Citizen",
+                "Returning Resident",
+                "Tourism",
+                "Transit"
+              ]
+            },
+            {
+              "label": "Date of arrival",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Point of entry or where you want to have your visa personalised",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Abu Dhabi",
+                "Abuja",
+                "Addis Ababa",
+                "Ankara",
+                "Arua Air Strip",
+                "Beijing",
+                "Berlin",
+                "Brussels",
+                "Busia",
+                "CYANIKA",
+                "Canberra",
+                "Copenhagen",
+                "ELEGU",
+                "Entebbe",
+                "GOLI",
+                "Geneva",
+                "Guangzhou",
+                "Kakira Airstrip",
+                "Katuna",
+                "London",
+                "Malaba",
+                "Mirama",
+                "Mogadishu",
+                "Mpondwe",
+                "Mutukula",
+                "New Delhi",
+                "New York",
+                "Ntoroko",
+                "Ottawa",
+                "Paris",
+                "Pretoria",
+                "Riyadh",
+                "Rome",
+                "Suam River",
+                "VURRA",
+                "Washington"
+              ]
+            },
+            {
+              "label": "Duration of stay requested",
+              "type": "number",
+              "required": true
+            },
+            {
+              "label": "Specify period in days, months or years",
+              "type": "select",
+              "required": true,
+              "options": [
+                "DAYS",
+                "MONTHS",
+                "YEARS"
+              ]
+            },
+            {
+              "label": "Have you been denied a Visa before?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "YES",
+                "NO"
+              ]
+            },
+            {
+              "label": "Have you been deported before?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "YES",
+                "NO"
+              ]
+            },
+            {
+              "label": "Have you been convicted in any country?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "YES",
+                "NO"
+              ]
+            },
+            {
+              "label": "Are there any criminal proceedings against you?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "YES",
+                "NO"
+              ]
+            },
+            {
+              "label": "Are you suffering from any mental illness?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "YES",
+                "NO"
+              ]
+            },
+            {
+              "label": "I confirm that all information provided in this form is accurate and valid",
+              "type": "checkbox",
+              "required": null
+            },
+            {
+              "label": "Validation",
+              "type": "text",
+              "required": null
+            }
+          ],
+          "notices": [
+            "Please provide all responses in English and in capital letters.",
+            "Required fields are indicated by a red asterisk *",
+            "If your country is not listed please check and verify that you need the visa or permit requested",
+            "You should go to the selected point to have your visa sticker printed and have your fingerprints captured",
+            "Enter the duration of stay requested. It shall be within 7 day/s and 3 month/s"
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Add documents",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Submit",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

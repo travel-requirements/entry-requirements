@@ -1,0 +1,54 @@
+{
+  "destination": "australia",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "ImmiAccount — online visa applications (eVisitor 651, Visitor 600, Working Holiday 417)",
+      "appliesTo": [
+        "evisitor-651",
+        "visitor-600",
+        "working-holiday-417"
+      ],
+      "startUrl": "https://online.immi.gov.au/lusc/login",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "Login: every online application is made inside an ImmiAccount",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Login to ImmiAccount",
+          "read": true,
+          "fields": [
+            {
+              "name": "username",
+              "label": "Username",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "password",
+              "label": "Password",
+              "type": "text",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Create an ImmiAccount to access the Department of Home Affairs's online services."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "eta",
+      "title": "Electronic Travel Authority (subclass 601) — Australian ETA app",
+      "appliesTo": [
+        "eta-601"
+      ],
+      "startUrl": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "No web form: Home Affairs says 'You must use the Australian ETA App (the ETA App) to apply for an ETA if you hold an ETA-eligible passport', so there are no steps to walk in a browser",
+      "steps": []
+    }
+  ]
+}

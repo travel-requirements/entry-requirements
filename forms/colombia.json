@@ -1,0 +1,121 @@
+{
+  "destination": "colombia",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Colombia online visa application (Cancillería, SITAC)",
+      "appliesTo": [
+        "visitor-v"
+      ],
+      "startUrl": "https://tramitesmre.cancilleria.gov.co/tramites/enlinea/solicitarVisa.xhtml",
+      "readOn": "2026-10-07",
+      "requiresAccount": false,
+      "stoppedAt": "Request Visa, the first page, which asks for passport number, names and date of birth before Continue.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Request Visa — Identification and Personal Data",
+          "read": true,
+          "fields": [
+            {
+              "label": "I have read",
+              "type": "checkbox",
+              "required": true,
+              "name": "idLeido"
+            },
+            {
+              "label": "If you have a statelessness determination administrative act issued by the Colombian Government, please check this box",
+              "type": "checkbox",
+              "required": false,
+              "name": "inputChecklistApatrida"
+            },
+            {
+              "label": "Passport Number",
+              "type": "text",
+              "required": true,
+              "name": "inputNumeroPasaporteBusqueda"
+            },
+            {
+              "label": "Nationality",
+              "type": "country",
+              "required": true,
+              "name": "inputNacionalidadPasaporte",
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Date of issue",
+              "type": "date",
+              "required": true,
+              "name": "fechaEmision"
+            },
+            {
+              "label": "Date of expiry",
+              "type": "date",
+              "required": true,
+              "name": "fechaExpiracion"
+            },
+            {
+              "label": "Authority that issued the passport",
+              "type": "text",
+              "required": true,
+              "name": "inputAutoridad"
+            },
+            {
+              "label": "First Name (Given Name)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Middle Name",
+              "type": "text",
+              "required": false
+            },
+            {
+              "label": "Last Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Second Last Name (if applicable)",
+              "type": "text",
+              "required": false
+            },
+            {
+              "label": "Date of Birth",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Country / Territory of Birth",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Application registry number",
+              "type": "text",
+              "required": false,
+              "notes": "Complete this field only if you already had made a previous application."
+            },
+            {
+              "label": "I consent to the transfer of my personal data in the terms indicated in this privacy notice.",
+              "type": "checkbox",
+              "required": null,
+              "name": "idAutorizaEnvioDatos"
+            }
+          ],
+          "notices": [
+            "Read carefully and submit the requested information avoiding typing mistakes. Any inaccuracy or error concerning the information you submit to this electronic form, may lead to the application refusal, without any refund of the amounts paid.",
+            "Before starting the online application process, you must have: a photo size 3x4cm, in color, with white background, recent, head-on, without accessories, clear visage, in JPG format with a maximum weight of 300 KB. Individual documents in PDF format, readable, in black and white presentation is advised. The maximum weight allowed for the total of documents attached to an application is 5MB.",
+            "Please note that you should not attend to the Visa Office in Bogotá unless the Visa Authority requires personal presentation, notified to the registered email in the application form. Otherwise the visa application process will continue online.",
+            "A visa does not guarantee access to Colombian territory, it only allows a foreigner to travel to a post of entry in Colombia and request permission to enter the country in accordance with the visa that has been issued."
+          ]
+        }
+      ]
+    }
+  ]
+}

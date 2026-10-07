@@ -1,0 +1,88 @@
+{
+  "destination": "albania",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Albania e-Visa application (Ministry for Europe and Foreign Affairs)",
+      "appliesTo": [
+        "evisa-c",
+        "evisa-d"
+      ],
+      "startUrl": "https://e-visa.al/apply",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "visaForm": "Electronic Visa",
+        "visaType": "C — Visa for tourism"
+      },
+      "requiresAccount": true,
+      "stoppedAt": "The application form needs an e-Visa account (Log in / Register). The public Apply page, with the document list for each visa type, was read.",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Apply (public information and visa-type selection)",
+          "read": true,
+          "fields": [
+            {
+              "label": "Select the desired visa type",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Electronic Visa",
+                "Stamped Visa"
+              ]
+            },
+            {
+              "label": "Visa type",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Visa Type “A” Airport transit visa",
+                "Visa Type “C” Short stay visa",
+                "Visa Type “D” Long stay visa",
+                "Viza Type “Visa At The Border” For crews of navigation vehicles"
+              ]
+            },
+            {
+              "label": "Browse type C visas",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Visa for tourism (C)",
+                "Visa for tourism, organized in tourist groups – invited by an Albanian tourism agency (C)",
+                "Visa for scientific, cultural, sports and humanitarian reasons (C)",
+                "Visa for Official visit (C)",
+                "Visa for medical reasons (C)",
+                "Professional, commercial and business purposes Visa (C)"
+              ]
+            }
+          ],
+          "notices": [
+            "Payment for the visa is not refunded / reimbursed in cases of rejection of the application .",
+            "The evaluation process after payment is received lasts a minimum of 15 working days and for exceptional cases, can take up to 30 working days .",
+            "In case of non-payment of the visa fee after 15 days, the application will change to \"Not paid\" status status and will be automatically refused .",
+            "All documents uploaded must be translated in Albanian or otherwise in the English language and must be scanned and in pdf format.",
+            "The photo must fulfill this criteria 47 mm X 36 mm or 555 px (Height) X 425 px (Width) X 300 DPI",
+            "Visa for tourism (C): Proof of employment from their country of birth or country of residence. In case of this criteria not being met, the foreign citizen has to provide sufficient evidence that they will return to their country of birth or country of residence, in english or albanian language.",
+            "Visa for tourism (C): Photograph of the applicant, which should have been taken no earlier than 6 (six) months before the application date, measuring 47 mm x 36 mm (555px X 435 px X 300 DPI), taken in a frontal view with a white background, clearly and distinctly focused.",
+            "Visa for tourism (C): Documents showing a booking in an accommodation facility, according to the legislation on tourism or invitation from the person, natural or legal, where they will be accommodated",
+            "Visa for tourism (C): Documents showing that the applicant has sufficient financial means for living, both for the duration of the stay and for returning to a third country, in which he is safe to enter or which is able to enjoy such financial and legal means in the Republic of Albania, in accordance with the provisions of this decision",
+            "Visa for tourism (C): Round-trip ticket reservation document, or to certify the possibility of personal transport.",
+            "Visa for tourism (C): The full bank statement showing the money going in and money leaving your account for the last 12 months.",
+            "Visa for tourism (C): Self-declaration for a residence permit with a term of over 12 months, issued by the country where the foreigner is resident, valid for at least 3 months longer than the term of the requested visa or a previous or current visa (Schengen, USA, United Kingdom) or an Albanian electronic visa/sticker.",
+            "Visa for tourism (C): Photocopy of the valid travel document which must be valid for at least 3 months longer than the requested visa period and have at least 2 blank pages, on which the visa stamp will be placed, as well as a photocopy of the pages with notes of interest for the trip.",
+            "Visa fees for minors aged 6-12 are half the visa fees for adults.",
+            "The visa fee does not apply to: children under the age of 6.",
+            "If you wish to travel to the Republic of Albania and are required to apply for a visa, the application must be made within 90 days of the intended date of travel . The application will be refused if your intended date of travel is longer than 90 days from the date of your visa application.",
+            "TYPE “C” VISA is a short-stay visa. It entitles the holder to enter and stay in the Republic of Albania for up to 90 days in any 180-day period, calculated from the date of first entry. The visa may be issued for one, two or multiple entries, and its validity may not exceed 5 years."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Log in / Register",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}

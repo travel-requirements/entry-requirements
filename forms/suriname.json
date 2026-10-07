@@ -1,0 +1,336 @@
+{
+  "destination": "suriname",
+  "forms": [
+    {
+      "kind": "evisa",
+      "title": "Suriname eVisa, e-Tourist Card and Entry Fee — online application (VFS Global for the Ministry of Foreign Affairs)",
+      "appliesTo": [
+        "entry-fee",
+        "entry-fee-multiple",
+        "evisa",
+        "etourist-card",
+        "business-visa"
+      ],
+      "startUrl": "https://kino-app-a.vfsevisa.com/sur/en-US/passport-verification",
+      "readOn": "2026-10-07",
+      "requiresAccount": true,
+      "stoppedAt": "Passport Details (requires an upload of the passport bio page). Identity Verification and Applicant Details were opened by their step URLs; Additional Documents and Review and Payment open only after signing in with an email one-time password (an account).",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Passport Details",
+          "read": true,
+          "fields": [
+            {
+              "label": "I have read and accepted the Privacy Policy",
+              "type": "checkbox",
+              "required": null
+            },
+            {
+              "label": "Upload a photo (JPEG, PNG)",
+              "type": "file",
+              "required": true,
+              "notes": "Or 'Use the camera'. The passport bio page is read by OCR."
+            }
+          ],
+          "notices": [
+            "Please upload the photo page of your passport, clearly visible and glare-free.",
+            "Important: Please upload only the Passport Bio Page (the page containing your photograph and personal details). Uploading additional passport pages may result in processing delays."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Identity Verification",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "Selfie time! Get ready",
+            "Good illumination",
+            "No accessories: glasses, mask, hat, etc.",
+            "Camera at eye level"
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Applicant Details",
+          "read": true,
+          "fields": [
+            {
+              "label": "Nationality at Present",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Full Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Application Type",
+              "type": "select",
+              "required": true,
+              "options": [
+                "E-TOURIST CARD",
+                "TOURIST VISA - 3 MONTHS",
+                "SHORT STAY - EASY PROCEDURE",
+                "BUSINESS MULTIPLE - 5 YEARS (USA PASSPORT HOLDERS)",
+                "BUSINESS VISA - 5 YEARS",
+                "TOURIST VISA - 1 YEAR",
+                "TRANSIT VISA",
+                "BUSINESS VISA - 3 MONTHS",
+                "SHORT STAY (MKV)",
+                "MULTIPLE ENTRY FEE (5 ENTRIES)",
+                "ENTRY FEE (SINGLE ENTRY)"
+              ]
+            },
+            {
+              "label": "Purpose of Visit",
+              "type": "select",
+              "required": true,
+              "options": [
+                "VACATION",
+                "BUSINESS",
+                "TOURISM",
+                "TRANSIT",
+                "CONCUBINE",
+                "STUDYING/TRAINING",
+                "VISITING FRIENDS/FAMILY",
+                "LABOUR",
+                "RE-MIGRATION",
+                "FAMILY REUNION",
+                "MEDICAL REASONS"
+              ]
+            },
+            {
+              "label": "ISD Code",
+              "type": "select",
+              "required": true
+            },
+            {
+              "label": "Phone Number",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "label": "(An)other given names / maiden name",
+              "type": "text",
+              "required": false
+            },
+            {
+              "label": "Place of Birth",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Gender",
+              "type": "select",
+              "required": true,
+              "options": [
+                "MALE",
+                "FEMALE"
+              ]
+            },
+            {
+              "label": "Nationality at Birth",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Permanent Address",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Profession or Occupation (Below 18 yrs, type N/A)",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Name of Employer",
+              "type": "text",
+              "required": false
+            },
+            {
+              "label": "Address of Employer",
+              "type": "text",
+              "required": false
+            },
+            {
+              "label": "ISD Code Of Employer",
+              "type": "select",
+              "required": false
+            },
+            {
+              "label": "Phone number of Employer",
+              "type": "tel",
+              "required": false
+            },
+            {
+              "label": "Marital Status",
+              "type": "select",
+              "required": true,
+              "options": [
+                "MARRIED",
+                "SINGLE",
+                "WIDOW",
+                "CONCUBINAGE",
+                "DIVORCED"
+              ]
+            },
+            {
+              "label": "Mode of Transportation",
+              "type": "select",
+              "required": true,
+              "options": [
+                "SEA",
+                "AIR",
+                "LAND"
+              ]
+            },
+            {
+              "label": "Carrier (Flight / Vehicle / Ship) Number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Ticket Number",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Date of Arrival",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "How long do you plan to stay (In Days)?",
+              "type": "number",
+              "required": true
+            },
+            {
+              "name": "surinameVisaApplied",
+              "label": "Have you ever applied for a Suriname Visa?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "beenToSurinameBefore",
+              "label": "Have you ever been to Suriname before?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "planningToVisitDestination",
+              "label": "Are you planning to visit other countries in the region?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "accompaniedWithSomeone",
+              "label": "Will you be accompanied by Spouse / Children?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "name": "stayedAbroadSixMonths",
+              "label": "Have you stayed in any country for more than 6 months in the last 5 years?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "Which country are you travelling to from Suriname?",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Are you authorized to enter that country?",
+              "type": "select",
+              "required": true,
+              "options": [
+                "I AM A CITIZEN",
+                "I HAVE A VALID VISA",
+                "I AM VISA EXEMPT"
+              ]
+            },
+            {
+              "label": "Name of place where you will stay in Suriname?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Address of place where you will stay in Suriname?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Telephone number of place where you will stay in Suriname?",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "label": "Name of reference person in Suriname?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Address of reference person in Suriname?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Telephone Number of reference person in Suriname?",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "label": "Please provide details of financial support during your stay?",
+              "type": "text",
+              "required": false
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Additional Documents",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Review and Payment",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}
