@@ -1,0 +1,276 @@
+{
+  "destination": "kenya",
+  "forms": [
+    {
+      "kind": "eta",
+      "title": "Kenya Electronic Travel Authorisation (eTA) — individual tourist application",
+      "appliesTo": [
+        "eta"
+      ],
+      "startUrl": "https://etakenya.go.ke/form/apply/declaration?type=tourist",
+      "readOn": "2026-10-07",
+      "readAs": {
+        "countryOfResidence": "Poland",
+        "applicationType": "individual",
+        "purpose": "tourist"
+      },
+      "requiresAccount": false,
+      "stoppedAt": "Passport Information (requires a passport scan); later steps read by their step URL where the portal renders them without earlier data",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Declaration of Consent",
+          "read": true,
+          "fields": [
+            {
+              "name": "form[terms_and_conditions]",
+              "label": "I have read and agreed to the above.",
+              "type": "checkbox",
+              "required": true
+            },
+            {
+              "name": "form[promotional_updates_opt_in]",
+              "label": "Opt-in to enter giveaways, and receive special offers and updates",
+              "type": "checkbox",
+              "required": false
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Country of Residence",
+          "read": true,
+          "fields": [
+            {
+              "name": "form[country_of_residence_id]",
+              "label": "Country of residence (where you live and pay taxes)",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Select Type",
+          "read": true,
+          "fields": [
+            {
+              "label": "Type of application",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Individual Application",
+                "Group Application (up to 6 people)"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Passport Information",
+          "read": true,
+          "fields": [
+            {
+              "name": "passport",
+              "label": "Upload Passport (photo or scan of the biodata page)",
+              "type": "file",
+              "required": true
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Selfie or Photo",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "Contact Information",
+          "read": true,
+          "fields": [
+            {
+              "label": "Phone Number",
+              "type": "tel",
+              "required": true
+            },
+            {
+              "label": "Email Address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "label": "Physical address",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Occupation",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Emergency Contact Name",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Emergency Contact Phone Number",
+              "type": "tel",
+              "required": null
+            }
+          ],
+          "notices": [
+            "By law one must only provide a valid email and contact number of the traveler. Travel agents, Visa/concierge services and other agencies must provide the travellers details or the applications will be denied and no refund"
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Trip Information",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 8,
+          "name": "Travel Information",
+          "read": true,
+          "fields": [
+            {
+              "label": "Is your trip financed by a third party, which is not your employer nor a government?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "What was your country of birth?",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "What was your nationality at birth?",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Have you ever been convicted of any offence, under any system of law, in the past 5 years?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "Have you ever been previously denied entry to Kenya?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            },
+            {
+              "label": "What is your marital status?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Single",
+                "Married",
+                "Separated",
+                "Divorced",
+                "Widowed"
+              ]
+            },
+            {
+              "label": "Have you previously visited Kenya more than three times?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 9,
+          "name": "Customs Declaration",
+          "read": true,
+          "fields": [
+            {
+              "label": "Will you be bringing into Republic of Kenya currency or monetary instruments of a value greater than $10,000 or foreign equivalent?",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 10,
+          "name": "Required Documents",
+          "read": true,
+          "fields": [
+            {
+              "label": "Previous eTA / Visa",
+              "type": "file",
+              "required": false
+            },
+            {
+              "label": "Consent/Commitment Letter",
+              "type": "file",
+              "required": true
+            },
+            {
+              "label": "Other Documents",
+              "type": "file",
+              "required": false
+            }
+          ]
+        },
+        {
+          "order": 11,
+          "name": "Confirm and Proceed",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 12,
+          "name": "Select type of TA",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 13,
+          "name": "Notices",
+          "read": true,
+          "fields": [],
+          "notices": [
+            "NOTICE MINISTRY OF HEALTH — Mandatory Inbound Travel Health Insurance Requirement. In accordance with Gazette Notice No. 11492, Vol. CXXVIII, No. 129 (30 July 2026), all travellers to Kenya are REQUIRED to have valid Inbound Travel Health Insurance issued under IRA.",
+            "Checking your travel insurance status: your information will be shared with the provider and participating insurers to facilitate issuance of your Inbound Travel Health Insurance."
+          ]
+        },
+        {
+          "order": 14,
+          "name": "Payment",
+          "read": false,
+          "fields": []
+        }
+      ]
+    }
+  ]
+}
