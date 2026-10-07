@@ -2799,8 +2799,14 @@
         "url": "https://api.acces-maroc.ma/api/api/referentiel/prixEvisa",
         "name": "Accès Maroc — eVisa price list (the portal's published tariff: Standard and Express)",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-09-30"
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-09-30",
+        "conflict": {
+          "url": "https://www.acces-maroc.ma/#/e-visa",
+          "name": "Accès Maroc — eVisa page (Standard and Express tracks)",
+          "states": "Processing time 3 business days (Standard) and 1 business day (Express); the eVisa terms of use (August 2024) give 72 and 24 hours, Moroccan working days",
+          "resolvedBy": "stricter"
+        }
       },
       "documents": {
         "items": [

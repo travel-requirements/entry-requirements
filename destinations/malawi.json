@@ -2221,34 +2221,26 @@
       "method": "evisa",
       "name": "Malawi Tourist eVisa (single entry)",
       "fee": {
-        "amount": 75,
+        "amount": 50,
         "currency": "USD",
-        "notes": "Single-entry visa paid online by Visa or Mastercard; not refunded if the application is rejected. Transit visa USD 50, six-month multiple entry USD 150, twelve-month multiple entry USD 250. The eVisa portal's own FAQ lists USD 50 for a single entry; the Department of Immigration's fee table (USD 75) is shown."
+        "notes": "Single-entry visa, payable online at the time of application and not refunded. The eVisa portal's FAQ lists a transit visa at USD 50, a six-month multiple-entry visa at USD 150 and a twelve-month one at USD 250."
       },
-      "processing": {
-        "minDays": 3,
-        "maxDays": 5,
-        "unit": "business-days"
-      },
+      "processing": null,
       "validityDays": 90,
-      "stayDays": 30,
+      "stayDays": null,
       "entries": "single",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
       "applyUrl": "https://www.evisa.gov.mw/",
       "source": {
-        "url": "https://www.immigration.gov.mw/visa/visa-fees/",
-        "name": "Department of Immigration and Citizenship Services, Malawi — Visa fees (payable online)",
+        "url": "https://www.evisa.gov.mw/VisaAssistance",
+        "name": "Malawi eVisa portal — Visa Eligibility Wizard (single entry)",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03",
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-07",
         "conflict": {
-          "url": "https://www.evisa.gov.mw/Faq",
-          "name": "Malawi eVisa portal — Frequently asked questions",
-          "states": "Single entry US$50",
-          "resolvedBy": "stricter"
+          "url": "https://www.immigration.gov.mw/visa/visa-fees/",
+          "name": "Department of Immigration and Citizenship Services, Malawi — Visa fees (page last modified 2 January 2020)",
+          "states": "Single entry USD 75",
+          "resolvedBy": "newer"
         }
       },
       "documents": {
@@ -2319,13 +2311,9 @@
         "currency": "USD",
         "notes": "Six-month multiple-entry visa paid online; a twelve-month multiple-entry visa costs USD 250."
       },
-      "processing": {
-        "minDays": 3,
-        "maxDays": 5,
-        "unit": "business-days"
-      },
+      "processing": null,
       "validityDays": 180,
-      "stayDays": 30,
+      "stayDays": null,
       "entries": "multiple",
       "applyUrl": "https://www.evisa.gov.mw/",
       "source": {
@@ -2399,9 +2387,9 @@
       "method": "visa-on-arrival",
       "name": "Visa on arrival (single entry)",
       "fee": {
-        "amount": 75,
+        "amount": 50,
         "currency": "USD",
-        "notes": "Malawi publishes no separate on-arrival fee. The Department of Immigration's fee table sets a single-entry visa at USD 75, a six-month multiple-entry visa at USD 150 and a twelve-month one at USD 250; the eVisa portal's FAQ and the UK FCDO give USD 50 for a single entry, and the higher figure is shown. The FCDO advises bringing US dollars in cash."
+        "notes": "The UK Foreign Office says single- or multiple-entry visas can be obtained on arrival and advises bringing US dollars in cash: USD 50 for a single entry, USD 150 for a six-month multiple-entry visa and USD 250 for a one-year one. Malawi's own pages publish no separate on-arrival fee."
       },
       "processing": null,
       "validityDays": null,
@@ -2409,17 +2397,11 @@
       "entries": "single",
       "applyUrl": null,
       "source": {
-        "url": "https://www.immigration.gov.mw/visa/visa-fees/",
-        "name": "Department of Immigration and Citizenship Services, Malawi — Visa fees",
+        "url": "https://www.gov.uk/foreign-travel-advice/malawi/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Malawi travel advice: entry requirements",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03",
-        "conflict": {
-          "url": "https://www.gov.uk/foreign-travel-advice/malawi/entry-requirements",
-          "name": "UK Foreign, Commonwealth & Development Office — Malawi travel advice: entry requirements",
-          "states": "USD 50 for a single-entry visa on arrival",
-          "resolvedBy": "hierarchy"
-        }
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-07"
       }
     },
     {
@@ -2708,7 +2690,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Malawi?",
-      "answer": "Most visitors do. About 40 nationalities — including South Africa, Zambia, Kenya, Ghana and Singapore — enter visa-free. Citizens of the US, UK, Canada, Australia, the EU and most other countries can buy a visa on arrival (USD 75 single entry on the Department of Immigration fee table) or apply in advance at evisa.gov.mw, while Category One countries such as India, China and Nigeria must get a visa before departure."
+      "answer": "Most visitors do. About 40 nationalities — including South Africa, Zambia, Kenya, Ghana and Singapore — enter visa-free. Citizens of the US, UK, Canada, Australia, the EU and most other countries can buy a visa on arrival (USD 50 for a single entry, according to the UK Foreign Office) or apply in advance at evisa.gov.mw, while Category One countries such as India, China and Nigeria must get a visa before departure."
     },
     {
       "id": "how-long-stay",
