@@ -1478,25 +1478,22 @@
         "currency": "USD",
         "notes": "Peru's Consular Fee Schedule sets a fixed S/C 30 for a tourist visa (tariff 67a; one consular sol equals USD 1). The payment is not refunded if the visa is refused. The Foreign Ministry's tourist-visa page (gob.pe/36240) says the 183-day stay comes \"sin posibilidad de prórroga\" (no extension), though a later line mentions applying to Migraciones for one."
       },
-      "processing": {
-        "minDays": 5,
-        "maxDays": 30,
-        "unit": "business-days"
-      },
-      "validityDays": 180,
+      "processing": null,
+      "validityDays": 365,
       "stayDays": 183,
-      "entries": "single",
+      "entries": "multiple",
       "extendable": {
         "possible": false,
         "days": null
       },
       "applyUrl": "https://www.gob.pe/rree",
       "source": {
-        "url": "https://cdn.www.gob.pe/uploads/document/file/10455903/6131528-tarifario-consular.pdf",
-        "name": "Ministerio de Relaciones Exteriores del Perú — Tabla de Tarifas de Derechos Consulares",
+        "url": "https://www.gob.pe/36240",
+        "name": "Gobierno del Perú (gob.pe) — Solicitar visa de turista en un consulado del Perú",
         "type": "government",
-        "lastVerified": "2026-10-02",
-        "instrument": "Tarifa de Derechos Consulares, Sección VII, tarifa 67 a)"
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-07",
+        "instrument": "\"El plazo máximo de permanencia con este visado es de hasta 183 días calendario ... en una visita continua o en varias visitas consecutivas dentro del plazo de 12 meses a partir de la fecha de la emisión del documento\"; fee: Tabla de Tarifas de Derechos Consulares, Sección VII, tarifa 67 a) \"Turista – temporal, Derecho fijo 30.00\" (https://cdn.www.gob.pe/uploads/document/file/10455903/6131528-tarifario-consular.pdf)"
       }
     }
   ],
@@ -1508,7 +1505,7 @@
         "url": "https://www.gob.pe/institucion/migraciones/campa%C3%B1as/64003-informacion-fundamental-para-turistas-en-peru",
         "name": "Superintendencia Nacional de Migraciones — Información fundamental para turistas en Perú",
         "type": "government",
-        "lastVerified": "2026-10-03"
+        "lastVerified": "2026-10-07"
       }
     },
     "vaccinations": [

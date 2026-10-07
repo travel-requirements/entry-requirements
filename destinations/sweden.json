@@ -1436,12 +1436,13 @@
       },
       "applyUrl": "https://www.migrationsverket.se/en",
       "source": {
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_25_2635",
-        "name": "European Commission — Daily News 7 November 2025: the EU adopts stricter rules on visas for Russian nationals (no more multiple-entry visas)",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611",
+        "name": "Visa Code (Regulation (EC) No 810/2009), consolidated text — EUR-Lex",
         "type": "igo",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-07",
-        "instrument": "Commission rules on visas for Russian nationals adopted 7 November 2025, following approval by all Member States in the Visa Committee"
+        "instrument": "Regulation (EC) No 810/2009 establishing a Community Code on Visas, Article 16(1) (visa fee EUR 90), Article 1(1) (stays not exceeding 90 days in any 180-day period) and Article 23(1)–(2) (decision within 15 calendar days, extendable to a maximum of 45 in individual cases), consolidated to 11 June 2024; no multiple-entry visas for Russian nationals under the Commission rules adopted 7 November 2025 (European Commission Daily News, https://ec.europa.eu/commission/presscorner/detail/en/mex_25_2635)",
+        "archiveUrl": "https://web.archive.org/web/20251008134447/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
       }
     },
     {
@@ -1454,13 +1455,9 @@
         "currency": "EUR",
         "notes": "For stays over 90 days. The Swedish Migration Agency says a visit of more than 90 days requires a visitor's residence permit."
       },
-      "processing": {
-        "minDays": 15,
-        "maxDays": 90,
-        "unit": "calendar-days"
-      },
-      "validityDays": 365,
-      "stayDays": 365,
+      "processing": null,
+      "validityDays": null,
+      "stayDays": null,
       "entries": "multiple",
       "extendable": {
         "possible": true,
@@ -1471,7 +1468,7 @@
         "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-1997691-om-avgifter-vid_sfs-1997-691/",
         "name": "Förordning (1997:691) om avgifter vid utlandsmyndigheterna, Avgiftslista",
         "type": "government",
-        "lastVerified": "2026-10-03",
+        "lastVerified": "2026-10-07",
         "instrument": "Förordning (1997:691) om avgifter vid utlandsmyndigheterna, Annex (Avgiftslista), \"Visering — Nationell visering enligt 3 kap. 4 § utlänningslagen (2005:716)\"",
         "lastChanged": "2026-08-31",
         "archiveUrl": "https://web.archive.org/web/20260521141409/https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-1997691-om-avgifter-vid_sfs-1997-691/"
@@ -1486,7 +1483,7 @@
         "url": "https://www.migrationsverket.se/en/you-want-to-apply/visiting-sweden/visiting-sweden-for-up-to-90-days-entry-visa.html",
         "name": "Swedish Migration Agency — Visiting Sweden for up to 90 days (entry visa)",
         "type": "government",
-        "lastVerified": "2026-10-03"
+        "lastVerified": "2026-10-07"
       }
     },
     "blankPages": {
@@ -1495,7 +1492,7 @@
         "url": "https://www.migrationsverket.se/en/you-want-to-apply/visiting-sweden/visiting-sweden-for-up-to-90-days-entry-visa.html",
         "name": "Swedish Migration Agency — Visiting Sweden for up to 90 days (entry visa)",
         "type": "government",
-        "lastVerified": "2026-10-03"
+        "lastVerified": "2026-10-07"
       }
     },
     "vaccinations": [],
@@ -1511,7 +1508,7 @@
         "url": "https://www.migrationsverket.se/en/you-want-to-apply/visiting-sweden/visiting-sweden-for-up-to-90-days-entry-visa.html",
         "name": "Swedish Migration Agency — Visiting Sweden for up to 90 days (entry visa)",
         "type": "government",
-        "lastVerified": "2026-10-06"
+        "lastVerified": "2026-10-07"
       }
     },
     "onwardTicket": {
@@ -1538,7 +1535,7 @@
         "url": "https://www.migrationsverket.se/en/you-want-to-apply/visiting-sweden/visiting-sweden-for-up-to-90-days-entry-visa.html",
         "name": "Swedish Migration Agency — Visiting Sweden for up to 90 days (entry visa)",
         "type": "government",
-        "lastVerified": "2026-10-03",
+        "lastVerified": "2026-10-07",
         "lastChanged": "2026-09-26"
       }
     },
@@ -1547,10 +1544,7 @@
         "id": "ees",
         "name": "EES — Entry/Exit System (biometric registration)",
         "mandatory": true,
-        "fee": {
-          "amount": 0,
-          "currency": "SEK"
-        },
+        "fee": null,
         "submitAt": "on-arrival",
         "submitWindow": "At the border on first entry",
         "url": "https://travel-europe.europa.eu/en/ees",

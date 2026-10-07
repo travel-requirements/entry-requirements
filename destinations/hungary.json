@@ -1444,12 +1444,12 @@
       },
       "applyUrl": "https://konzuliszolgalat.kormany.hu/en",
       "source": {
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_25_2635",
-        "name": "European Commission — Daily News 7 November 2025: the EU adopts stricter rules on visas for Russian nationals (no more multiple-entry visas)",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611",
+        "name": "Visa Code (Regulation (EC) No 810/2009), consolidated text — EUR-Lex",
         "type": "igo",
         "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-07",
-        "instrument": "Commission rules on visas for Russian nationals adopted 7 November 2025, following approval by all Member States in the Visa Committee"
+        "instrument": "Regulation (EC) No 810/2009 (Visa Code), Article 16(1) (visa fee EUR 90), Article 1(1) (stays not exceeding 90 days in any 180-day period) and Article 23(1)–(2) (decision within 15 calendar days, extendable to 45); single entry only under the Commission rules on visas for Russian nationals adopted 7 November 2025 (European Commission Daily News, 7 November 2025)",
+        "lastChanged": "2026-10-07"
       }
     },
     {
@@ -1460,13 +1460,9 @@
       "fee": {
         "amount": 110,
         "currency": "EUR",
-        "notes": "For stays over 90 days: the EUR 110 fee covers the residence permit application and the D visa to collect it when filed at a Hungarian consulate (26,000–39,000 HUF when filed in Hungary)."
+        "notes": "For stays over 90 days: OIF's procedure-fee list (oif.gov.hu/tajekoztatok/eljarasi-dijak, item III.1) sets EUR 110 for the residence permit and the D visa to collect it when filed at a Hungarian consulate (26,000–39,000 HUF when filed in Hungary). OIF says the D visa allows one entry and 30 days' stay and is valid for 3 months."
       },
-      "processing": {
-        "minDays": 15,
-        "maxDays": 70,
-        "unit": "calendar-days"
-      },
+      "processing": null,
       "validityDays": 90,
       "stayDays": 30,
       "entries": "single",
@@ -1476,11 +1472,11 @@
       },
       "applyUrl": "https://konzuliszolgalat.kormany.hu/en",
       "source": {
-        "url": "https://oif.gov.hu/tajekoztatok/eljarasi-dijak",
-        "name": "National Directorate-General for Aliens Policing (OIF) — Eljárási díjak (procedure fees)",
+        "url": "https://oif.gov.hu/tajekoztatok/foglalkoztatasi-celu-tartozkodasi-engedely",
+        "name": "National Directorate-General for Aliens Policing (OIF) — residence permit for employment (section 8: the D visa to collect the permit)",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-07"
       }
     },
     {
@@ -1491,15 +1487,15 @@
       "fee": {
         "amount": 110,
         "currency": "EUR",
-        "notes": "For courses longer than 90 days; needs proof of enrollment at a Hungarian institution, accommodation, funds and health insurance."
+        "notes": "For courses longer than 90 days; needs proof of enrollment at a Hungarian institution, accommodation, funds and health insurance. OIF's procedure-fee list (item III.1) sets the EUR 110 fee when filed at a Hungarian consulate."
       },
       "processing": {
         "minDays": 15,
         "maxDays": 60,
         "unit": "calendar-days"
       },
-      "validityDays": 365,
-      "stayDays": 365,
+      "validityDays": null,
+      "stayDays": null,
       "entries": "multiple",
       "extendable": {
         "possible": true,
@@ -1510,7 +1506,7 @@
         "url": "https://oif.gov.hu/tajekoztatok/a-hallgato-tanulo-tartozkodasa",
         "name": "National Directorate-General for Aliens Policing (OIF) — residence permit for studies",
         "type": "government",
-        "lastVerified": "2026-10-03",
+        "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-03"
       }
     },
@@ -1522,7 +1518,7 @@
       "fee": {
         "amount": 110,
         "currency": "EUR",
-        "notes": "Combined residence and work authorization for employment over 90 days; the application needs an employment contract or a preliminary agreement with the employer in Hungary."
+        "notes": "Combined residence and work authorization for employment over 90 days; the application needs an employment contract or a preliminary agreement with the employer in Hungary. OIF's procedure-fee list (item III.1) sets the EUR 110 fee when filed at a Hungarian consulate."
       },
       "processing": {
         "minDays": 21,
@@ -1541,7 +1537,7 @@
         "url": "https://oif.gov.hu/tajekoztatok/foglalkoztatasi-celu-tartozkodasi-engedely",
         "name": "National Directorate-General for Aliens Policing (OIF) — residence permit for employment",
         "type": "government",
-        "lastVerified": "2026-10-03",
+        "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-03"
       }
     }
@@ -1620,10 +1616,7 @@
         "id": "ees",
         "name": "EES — Entry/Exit System (biometric registration)",
         "mandatory": true,
-        "fee": {
-          "amount": 0,
-          "currency": "HUF"
-        },
+        "fee": null,
         "submitAt": "on-arrival",
         "submitWindow": "At the border on first entry",
         "url": "https://travel-europe.europa.eu/en/ees",

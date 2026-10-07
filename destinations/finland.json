@@ -1437,12 +1437,12 @@
       },
       "applyUrl": "https://finlandabroad.fi/",
       "source": {
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_25_2635",
-        "name": "European Commission — Daily News 7 November 2025: the EU adopts stricter rules on visas for Russian nationals (no more multiple-entry visas)",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611",
+        "name": "Visa Code (Regulation (EC) No 810/2009), consolidated text — EUR-Lex",
         "type": "igo",
         "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-07",
-        "instrument": "Commission rules on visas for Russian nationals adopted 7 November 2025, following approval by all Member States in the Visa Committee"
+        "instrument": "Regulation (EC) No 810/2009 (Visa Code), Article 16(1) (visa fee EUR 90), Article 1(1) (stays not exceeding 90 days in any 180-day period) and Article 23(1)–(2) (decision within 15 calendar days, extendable to 45); single entry only under the Commission rules on visas for Russian nationals adopted 7 November 2025 (European Commission Daily News, 7 November 2025)",
+        "lastChanged": "2026-10-07"
       }
     },
     {
@@ -1453,13 +1453,9 @@
       "fee": {
         "amount": 95,
         "currency": "EUR",
-        "notes": "€95 when applied for through the electronic e-service; €120 on a paper application. Finland grants a D visa only to applicants who have a residence permit for Finland; it is valid for 100 days."
+        "notes": "€95 when applied for through the electronic e-service; €120 on a paper application (Foreign Ministry service-fee list, um.fi/service-fees). Finland grants a D visa only to applicants who have a residence permit for Finland; the Foreign Ministry says it is valid for 100 days."
       },
-      "processing": {
-        "minDays": 15,
-        "maxDays": 60,
-        "unit": "calendar-days"
-      },
+      "processing": null,
       "validityDays": 100,
       "stayDays": 100,
       "entries": "multiple",
@@ -1469,11 +1465,11 @@
       },
       "applyUrl": "https://finlandabroad.fi/",
       "source": {
-        "url": "https://um.fi/service-fees",
-        "name": "Ministry for Foreign Affairs of Finland — Service fees in Finnish missions",
+        "url": "https://finlandabroad.fi/web/are/types-of-visa",
+        "name": "Ministry for Foreign Affairs of Finland (Embassy in Abu Dhabi) — Types of visa",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-07"
       }
     }
   ],
@@ -1540,10 +1536,7 @@
         "id": "ees",
         "name": "EES — Entry/Exit System (biometric registration)",
         "mandatory": true,
-        "fee": {
-          "amount": 0,
-          "currency": "EUR"
-        },
+        "fee": null,
         "submitAt": "on-arrival",
         "submitWindow": "At the border on first entry",
         "url": "https://travel-europe.europa.eu/en/ees",

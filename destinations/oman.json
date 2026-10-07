@@ -1058,17 +1058,17 @@
         }
       },
       "IN": {
-        "requirement": "evisa",
-        "maxStayDays": 30,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "evisa-30-day"
+          "sponsored-visit"
         ],
-        "notes": "Indian nationals can apply for the Royal Oman Police tourist eVisa. Indians who live in, or hold a valid visa for, the US, Canada, Australia, the UK, a Schengen country or Japan, or who live in a GCC country in an eligible profession, can instead enter visa-free for up to 14 days (not extendable) with a return ticket, hotel booking, health insurance and enough funds.",
+        "notes": "Visa needed unless you qualify for the 14-day exemption: citizens of this country who live in, or hold a valid visa for, the US, Canada, Australia, the UK, a Schengen country or Japan, or who live in a GCC country in an eligible profession, can enter visa-free for up to 14 days (not extendable) with a return ticket, hotel booking, health insurance and enough funds. Otherwise arrange a visa through a sponsor or check options on evisa.rop.gov.om.",
         "source": {
           "url": "https://www.fm.gov.om/en/visitors/entry-visas/",
           "name": "Ministry of Foreign Affairs of Oman — Entry visas (14-day visa exemption, first and second groups)",
           "type": "government",
-          "lastVerified": "2026-10-03",
+          "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-03"
         }
       },
@@ -2765,11 +2765,7 @@
         "currency": "OMR",
         "notes": "The fee for the 10-day tourist eVisa (26A) is OMR 5, per the Royal Oman Police eVisa visa-type details."
       },
-      "processing": {
-        "minDays": 1,
-        "maxDays": 4,
-        "unit": "business-days"
-      },
+      "processing": null,
       "validityDays": 30,
       "stayDays": 10,
       "entries": "single",
@@ -2818,11 +2814,7 @@
         "currency": "OMR",
         "notes": "The fee for the 30-day tourist eVisa (26B) is OMR 20, per the Royal Oman Police eVisa visa-type details."
       },
-      "processing": {
-        "minDays": 1,
-        "maxDays": 4,
-        "unit": "business-days"
-      },
+      "processing": null,
       "validityDays": 30,
       "stayDays": 30,
       "entries": "single",
@@ -2876,7 +2868,7 @@
         "url": "https://evisa.rop.gov.om/en/types-of-visa",
         "name": "Royal Oman Police eVisa — visa types (Visit Sponsored: Tourist Visa 6A/6B)",
         "type": "government",
-        "lastVerified": "2026-10-02",
+        "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-02"
       },
       "extendable": {

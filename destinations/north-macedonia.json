@@ -34,7 +34,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "stay-window"
     ]
   },
   "visaPolicy": {
@@ -43,6 +44,24 @@
       "name": "Ministry of Foreign Affairs and Foreign Trade of North Macedonia — Do you need a visa? (country-by-country visa requirement for foreign citizens)",
       "type": "government",
       "lastVerified": "2026-10-03"
+    },
+    "defaultStayWindow": {
+      "basis": "rolling",
+      "windowDays": 180,
+      "allowanceDays": 90,
+      "arrivalDayCounts": null,
+      "departureDayCounts": null,
+      "resetsOnExit": false,
+      "minGapDays": null,
+      "text": "A short stay, with or without a visa, may last no longer than 90 days in any 180-day period, counted back from each day of the stay. A foreigner who needs no visa must leave by the end of those 90 days.",
+      "source": {
+        "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-mvr-file-UtsW.pdf",
+        "name": "Law on Foreigners, consolidated text — published by the Ministry of Internal Affairs",
+        "type": "government",
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-07",
+        "instrument": "Law on Foreigners (Official Gazette 97/2018, as amended), Art. 2(9) (short stay: no longer than 90 days in any 180-day period preceding each day of stay), Art. 11(1) and Art. 21 (a foreigner who needs no visa leaves by the end of 90 days in the 180 preceding each day of stay)"
+      }
     },
     "byPassport": {
       "AF": {
@@ -1531,12 +1550,8 @@
         "currency": "EUR",
         "notes": "35 euros for children aged 6–12. Set by Tariff No. 135 of the Law on Administrative Fees."
       },
-      "processing": {
-        "minDays": 5,
-        "maxDays": 30,
-        "unit": "calendar-days"
-      },
-      "validityDays": 180,
+      "processing": null,
+      "validityDays": null,
       "stayDays": 90,
       "entries": "multiple",
       "extendable": {
@@ -1548,8 +1563,9 @@
         "url": "https://mfa.gov.mk/en-GB/konzularni-uslugi/vidovi-vizi-za-vlez-vo-rsm",
         "name": "Ministry of Foreign Affairs and Foreign Trade of North Macedonia — Types of entry visas for the Republic of North Macedonia",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "instrument": "Law on Administrative Fees, Tariff No. 135"
+        "lastVerified": "2026-10-07",
+        "instrument": "Law on Administrative Fees, Tariff No. 135",
+        "lastChanged": "2026-10-07"
       }
     },
     {
@@ -1562,13 +1578,9 @@
         "currency": "EUR",
         "notes": "35 euros for children aged 6–12. Set by Tariff No. 135 of the Law on Administrative Fees."
       },
-      "processing": {
-        "minDays": 15,
-        "maxDays": 45,
-        "unit": "calendar-days"
-      },
-      "validityDays": 180,
-      "stayDays": 180,
+      "processing": null,
+      "validityDays": null,
+      "stayDays": null,
       "entries": "multiple",
       "extendable": {
         "possible": false,
@@ -1579,8 +1591,8 @@
         "url": "https://mfa.gov.mk/en-GB/konzularni-uslugi/postapka-za-izdavanje-na-viza",
         "name": "Ministry of Foreign Affairs and Foreign Trade of North Macedonia — Visa Application Procedure",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-09-26",
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-07",
         "instrument": "Law on Administrative Fees, Tariff No. 135"
       }
     }

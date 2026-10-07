@@ -1431,12 +1431,13 @@
       },
       "applyUrl": "https://identita.gov.mt/central-visa-unit-main-page/",
       "source": {
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_25_2635",
-        "name": "European Commission — Daily News 7 November 2025: the EU adopts stricter rules on visas for Russian nationals (no more multiple-entry visas)",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611",
+        "name": "Visa Code (Regulation (EC) No 810/2009), consolidated text — EUR-Lex",
         "type": "igo",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-07",
-        "instrument": "Commission rules on visas for Russian nationals adopted 7 November 2025, following approval by all Member States in the Visa Committee"
+        "instrument": "Regulation (EC) No 810/2009 establishing a Community Code on Visas, Article 16(1) (visa fee EUR 90), Article 1(1) (stays not exceeding 90 days in any 180-day period) and Article 23(1)–(2) (decision within 15 calendar days, extendable to a maximum of 45 in individual cases), consolidated to 11 June 2024; no multiple-entry visas for Russian nationals under the Commission rules adopted 7 November 2025 (European Commission Daily News, https://ec.europa.eu/commission/presscorner/detail/en/mex_25_2635)",
+        "archiveUrl": "https://web.archive.org/web/20251008134447/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
       }
     },
     {
@@ -1447,15 +1448,11 @@
       "fee": {
         "amount": 100,
         "currency": "EUR",
-        "notes": "For stays over 90 days, for work, study and other long-stay purposes. Identità's Central Visa Unit charges its fees under Fee Ordinance L.N. 287 of 2020."
+        "notes": "For stays over 90 days. Under the Long-stay Visa Fees Regulations (L.N. 287 of 2020) the fee is €100 for any purpose other than study and €70 for study; children under 6 and family members of EU citizens pay nothing."
       },
-      "processing": {
-        "minDays": 15,
-        "maxDays": 60,
-        "unit": "calendar-days"
-      },
-      "validityDays": 365,
-      "stayDays": 365,
+      "processing": null,
+      "validityDays": null,
+      "stayDays": null,
       "entries": "multiple",
       "extendable": {
         "possible": true,
@@ -1463,11 +1460,12 @@
       },
       "applyUrl": "https://identita.gov.mt/central-visa-unit-national-visa-long-stay-visa/",
       "source": {
-        "url": "https://identita.gov.mt/central-visa-unit-applicable-fees-and-applications-applicable-fees/",
-        "name": "Identità — Central Visa Unit, applicable fees",
+        "url": "https://legislation.mt/eli/ln/2020/287/eng/pdf",
+        "name": "Long-stay Visa Fees Regulations, 2020 (L.N. 287 of 2020) — Legislation Malta",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "instrument": "Long-stay Visa Fees Regulations, 2020 (L.N. 287 of 2020), regulation 1(2) (validity not exceeding 365 days) and Schedule (EUR 100 for any purpose other than study)"
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-07",
+        "instrument": "Long-stay Visa Fees Regulations, 2020 (L.N. 287 of 2020), regulation 1(2) (a long-stay visa is valid for not less than 90 and not more than 365 days) and Schedule (EUR 100 for any purpose other than study)"
       }
     }
   ],
@@ -1559,10 +1557,7 @@
         "id": "ees",
         "name": "EES — Entry/Exit System (biometric registration)",
         "mandatory": true,
-        "fee": {
-          "amount": 0,
-          "currency": "EUR"
-        },
+        "fee": null,
         "submitAt": "on-arrival",
         "submitWindow": "At the border on first entry",
         "url": "https://travel-europe.europa.eu/en/ees",
