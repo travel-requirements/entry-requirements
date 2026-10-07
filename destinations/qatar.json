@@ -2005,7 +2005,7 @@
       "fee": {
         "amount": 100,
         "currency": "QAR",
-        "notes": "Hayya states the A1 visa costs QAR 100, paid on final approval and non-refundable; confirmed accommodation in Qatar is required."
+        "notes": "Hayya states the A1 visa costs QAR 100, paid on final approval and non-refundable."
       },
       "processing": null,
       "validityDays": null,
@@ -2017,6 +2017,28 @@
         "name": "Hayya — frequently asked questions (e-visa fee, Tourist Visa A1)",
         "type": "government",
         "lastVerified": "2026-10-02"
+      },
+      "documents": {
+        "items": [
+          {
+            "id": "accommodation",
+            "name": "Proof of accommodation",
+            "required": true,
+            "details": "an uploaded copy of a hotel booking with the hotel address, or hosting by family or friends; some applicants must book through Discover Qatar and some are exempted"
+          },
+          {
+            "id": "return-ticket",
+            "name": "Return flight ticket",
+            "required": true
+          }
+        ],
+        "source": {
+          "url": "https://hayya.qa/en/faq",
+          "name": "Hayya — FAQ: requirements for Tourist Visa (A1) and proof of accommodation",
+          "type": "government",
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07"
+        }
       }
     },
     {
@@ -2072,7 +2094,7 @@
       "fee": {
         "amount": 100,
         "currency": "QAR",
-        "notes": "For holders of a GCC residence permit valid for at least 3 months, travelling to Qatar from their country of residence; a return flight ticket is required when travelling by air. Dependants under 18 without GCC residence need a separate Tourist Visa (A1) or Visa with ETA (A3)."
+        "notes": "For holders of a GCC residence permit valid for at least 3 months, travelling to Qatar from their country of residence. Dependants under 18 without GCC residence need a separate Tourist Visa (A1) or Visa with ETA (A3)."
       },
       "processing": null,
       "validityDays": null,
@@ -2084,6 +2106,29 @@
         "name": "Hayya — frequently asked questions (GCC Resident Visa, A2)",
         "type": "government",
         "lastVerified": "2026-10-03"
+      },
+      "documents": {
+        "items": [
+          {
+            "id": "gcc-residence-permit",
+            "name": "Copy of your GCC residence permit (ID)",
+            "required": true,
+            "details": "valid at least three months from your arrival in Qatar"
+          },
+          {
+            "id": "return-ticket",
+            "name": "Return flight ticket",
+            "required": null,
+            "details": "required for check-in when travelling by air"
+          }
+        ],
+        "source": {
+          "url": "https://hayya.qa/en/faq",
+          "name": "Hayya — FAQ: requirements for GCC Resident Visa (A2)",
+          "type": "government",
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07"
+        }
       }
     }
   ],

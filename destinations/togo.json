@@ -19,7 +19,7 @@
   ],
   "summary": "Togo waives visas for ECOWAS citizens and, for stays of up to 30 days, for all other African nationals, and its Visa Assistant also answers 'no visa needed' for Malaysian and Singaporean passports. Everyone else needs an eVisa applied for on voyage.gouv.tg at least 5 days before arrival (Togo Voyage recommends six working days) — visas on arrival are suspended. Every traveller also completes the portal's online immigration form before arrival.",
   "meta": {
-    "lastUpdated": "2026-10-06",
+    "lastUpdated": "2026-10-07",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -1891,6 +1891,71 @@
         "type": "government",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-09-26"
+      },
+      "documents": {
+        "items": [
+          {
+            "id": "passport-scan",
+            "name": "Scan of the first three pages of the passport",
+            "required": true,
+            "details": "The passport must be valid for 3 months longer than the visa applied for."
+          },
+          {
+            "id": "photo",
+            "name": "Recent passport photo",
+            "required": true,
+            "details": "One photo."
+          },
+          {
+            "id": "flight",
+            "name": "Flight reservation or copy of the ticket",
+            "required": true,
+            "details": "Required if you arrive by air."
+          },
+          {
+            "id": "insurance",
+            "name": "Travel insurance",
+            "required": false,
+            "details": "Strongly recommended."
+          },
+          {
+            "id": "accommodation",
+            "name": "Hotel reservation or accommodation certificate from the town hall or prefecture",
+            "required": false,
+            "details": "Strongly recommended."
+          },
+          {
+            "id": "invitation",
+            "name": "Invitation letter from the inviting person or organisation",
+            "required": false,
+            "details": "Strongly recommended."
+          },
+          {
+            "id": "bank-statement",
+            "name": "Bank certificate or account statement",
+            "required": false,
+            "details": "As proof of sufficient funds for the stay."
+          }
+        ],
+        "source": {
+          "url": "https://voyage.gouv.tg/about",
+          "name": "Togo Voyage — À propos du e-Visa (pièces à fournir, visa touristique et affaires)",
+          "type": "government",
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07"
+        }
+      },
+      "applyWindow": {
+        "earliestDays": null,
+        "latestDays": 5,
+        "text": "Visa applications must be submitted at least 5 days before arrival in Togo.",
+        "source": {
+          "url": "https://voyage.gouv.tg/about",
+          "name": "Togo Voyage — À propos du e-Visa (pièces à fournir, visa touristique et affaires)",
+          "type": "government",
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07"
+        }
       }
     }
   ],

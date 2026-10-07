@@ -1590,7 +1590,7 @@
       "fee": {
         "amount": 200,
         "currency": "XCD",
-        "notes": "The government's page states an application fee of $200.00, paid at the Treasury Department in Roseau; it does not name the currency, and Dominican government fees are charged in Eastern Caribbean dollars. Applicants also supply a bank statement and invitation letter from their sponsor, a medical certificate and notarised documents."
+        "notes": "The government's page states an application fee of $200.00, paid at the Treasury Department in Roseau; it does not name the currency, and Dominican government fees are charged in Eastern Caribbean dollars. All documents, copies and signatures must be notarised or endorsed by certified translators, and anything in another language translated into English."
       },
       "processing": null,
       "validityDays": null,
@@ -1604,6 +1604,60 @@
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-07",
         "archiveUrl": "https://web.archive.org/web/20260517214342/https://dominica.gov.dm/services/passports-and-travel-documents-non-nationals/how-do-i-apply-for-a-visitor-s-visa"
+      },
+      "documents": {
+        "items": [
+          {
+            "id": "passport",
+            "name": "Valid passport",
+            "required": true
+          },
+          {
+            "id": "photos",
+            "name": "Two recent passport-size photographs",
+            "required": true
+          },
+          {
+            "id": "sponsor-bank-statement",
+            "name": "Bank statement from your sponsor",
+            "required": true,
+            "details": "the person inviting you"
+          },
+          {
+            "id": "invitation-letter",
+            "name": "Invitation letter from your sponsor",
+            "required": true
+          },
+          {
+            "id": "medical-certificate",
+            "name": "Valid medical certificate",
+            "required": true
+          },
+          {
+            "id": "employment-letter",
+            "name": "Employment letter or proof of self-employment",
+            "required": null
+          },
+          {
+            "id": "civil-status",
+            "name": "Marriage or birth certificate",
+            "required": null,
+            "details": "where applicable"
+          },
+          {
+            "id": "notarised-signature",
+            "name": "Your signature, notarised or sworn before a Commissioner of Oaths",
+            "required": true,
+            "details": "with the Commissioner's full contact details"
+          }
+        ],
+        "source": {
+          "url": "https://www.dominica.gov.dm/services/passports-and-travel-documents-non-nationals/how-do-i-apply-for-a-visitor-s-visa",
+          "name": "Government of Dominica — How do I apply for a visitor's visa? (requirements)",
+          "type": "government",
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07"
+        }
       }
     },
     {

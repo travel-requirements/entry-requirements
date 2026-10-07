@@ -1784,7 +1784,7 @@
       "fee": {
         "amount": 30,
         "currency": "USD",
-        "notes": "From USD 30 for normal processing (up to 72 hours); expedited, immediate processing costs USD 100 more. The standard eTA allows one entry; the portal also lists a one-year multiple-entry eTA (USD 300), a five-year multiple-entry eTA for US citizens (USD 185) and a transit eTA (USD 20). It does not state how long an eTA stays valid or the length of stay it allows. Every traveller needs one, including infants and children."
+        "notes": "From USD 30 for normal processing (up to 72 hours); expedited, immediate processing costs USD 100 more. The standard eTA allows one entry; the portal also lists a one-year multiple-entry eTA (USD 300), a five-year multiple-entry eTA for US citizens (USD 185) and a transit eTA (USD 20). Every traveller needs one, including infants and children."
       },
       "processing": {
         "minDays": 1,
@@ -1801,6 +1801,58 @@
         "type": "government",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-10-03"
+      },
+      "applyWindow": {
+        "earliestDays": null,
+        "latestDays": null,
+        "text": "Kenya's Directorate of Immigration Services recommends applying at least two weeks before travel.",
+        "source": {
+          "url": "https://etakenya.go.ke/general-information",
+          "name": "Kenya Directorate of Immigration Services — eTA General Information",
+          "type": "government",
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07"
+        }
+      },
+      "documents": {
+        "items": [
+          {
+            "id": "passport-biodata",
+            "name": "Passport biodata page",
+            "required": true,
+            "details": "a photo or scan; JPG, PNG or PDF"
+          },
+          {
+            "id": "selfie",
+            "name": "Selfie or photo",
+            "required": null,
+            "details": "JPG, PNG or WEBP, or taken with a webcam or phone camera"
+          },
+          {
+            "id": "consent-letter",
+            "name": "Consent/commitment letter",
+            "required": true,
+            "details": "JPG, PNG or PDF"
+          },
+          {
+            "id": "previous-eta-visa",
+            "name": "Previous eTA or visa",
+            "required": false
+          },
+          {
+            "id": "other-documents",
+            "name": "Other documents",
+            "required": false
+          }
+        ],
+        "source": {
+          "url": "https://etakenya.go.ke/form/apply/individual/required-documents?application_type=individual",
+          "name": "Kenya eTA application (individual tourist) — Passport Information, Selfie or Photo and Required Documents steps",
+          "type": "government",
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07",
+          "portalOnly": true
+        }
       }
     }
   ],

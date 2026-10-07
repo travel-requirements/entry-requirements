@@ -1929,7 +1929,7 @@
       "fee": {
         "amount": 102.5,
         "currency": "USD",
-        "notes": "Non-refundable, paid online by Visa or Mastercard. The visa is approved online and issued at Roberts International Airport only; the officer there grants 30 or 90 days depending on the planned visit. Apply at least 7 days before your flight. If there is a Liberian embassy in your country, you must apply there instead."
+        "notes": "Non-refundable, paid online by Visa or Mastercard. The visa is approved online and issued at Roberts International Airport only; the officer there grants 30 or 90 days depending on the planned visit. If there is a Liberian embassy in your country, you must apply there instead."
       },
       "processing": null,
       "validityDays": 90,
@@ -1942,6 +1942,53 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-03"
+      },
+      "documents": {
+        "items": [
+          {
+            "id": "passport",
+            "name": "Passport",
+            "required": true,
+            "details": "Valid for at least six months."
+          },
+          {
+            "id": "passport-scan",
+            "name": "Passport scan",
+            "required": true,
+            "details": "PDF, BMP, JPG, JPEG or PNG, up to 2 MB."
+          },
+          {
+            "id": "photo",
+            "name": "Portrait photo",
+            "required": true,
+            "details": "In colour, neutral background, following ICAO photo guidelines; BMP, JPG, JPEG or PNG, up to 2 MB."
+          },
+          {
+            "id": "flight-ticket",
+            "name": "Flight ticket scan",
+            "required": false,
+            "details": "PDF, BMP, JPG, JPEG or PNG, up to 2 MB."
+          }
+        ],
+        "source": {
+          "url": "https://visaonarrival.lis.gov.lr/",
+          "name": "Liberia Immigration Service — Visa on Arrival: how to apply",
+          "type": "government",
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07"
+        }
+      },
+      "applyWindow": {
+        "earliestDays": null,
+        "latestDays": 7,
+        "text": "The Liberia Immigration Service recommends applying at least 7 days before your flight and no more than 3 months in advance.",
+        "source": {
+          "url": "https://visaonarrival.lis.gov.lr/",
+          "name": "Liberia Immigration Service — Visa on Arrival: how to apply",
+          "type": "government",
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07"
+        }
       }
     }
   ],

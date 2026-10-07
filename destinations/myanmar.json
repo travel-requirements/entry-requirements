@@ -1645,6 +1645,41 @@
         "lastVerified": "2026-10-03",
         "archiveUrl": "https://web.archive.org/web/20260831101611/https://evisa.moip.gov.mm/notice/tourist",
         "lastChanged": "2026-09-26"
+      },
+      "documents": {
+        "items": [
+          {
+            "id": "photo",
+            "name": "Colour photo",
+            "required": true,
+            "details": "4.6 cm × 3.8 cm, taken during the last 3 months; uploaded."
+          },
+          {
+            "id": "passport-bio-page",
+            "name": "Passport bio-data page",
+            "required": true,
+            "details": "Uploaded."
+          },
+          {
+            "id": "return-ticket",
+            "name": "Proof of a return ticket from Myanmar",
+            "required": true,
+            "details": "Attach a trip plan instead if you will enter from the Kawthaung land border checkpoint."
+          },
+          {
+            "id": "accommodation",
+            "name": "Proof of hotel booking or of a stay on a boat",
+            "required": true,
+            "details": "Tourists must stay in registered hotels, motels, inns, guest houses, resorts or on a boat."
+          }
+        ],
+        "source": {
+          "url": "https://evisa.moip.gov.mm/notice/tourist",
+          "name": "Ministry of Immigration and Population — Notice to Tourist",
+          "type": "government",
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07"
+        }
       }
     },
     {
@@ -1654,8 +1689,7 @@
       "name": "Business eVisa",
       "fee": {
         "amount": 70,
-        "currency": "USD",
-        "notes": "Requires an invitation letter and registration documents from a company in Myanmar."
+        "currency": "USD"
       },
       "processing": {
         "minDays": 3,
@@ -1677,6 +1711,51 @@
       "extendable": {
         "possible": true,
         "days": null
+      },
+      "documents": {
+        "items": [
+          {
+            "id": "photo",
+            "name": "Colour photo",
+            "required": true,
+            "details": "4.6 cm × 3.8 cm, taken during the last 3 months; uploaded."
+          },
+          {
+            "id": "passport-bio-page",
+            "name": "Passport bio-data page",
+            "required": true,
+            "details": "Uploaded."
+          },
+          {
+            "id": "invitation",
+            "name": "Letter of invitation from a registered company",
+            "required": true
+          },
+          {
+            "id": "company-registration",
+            "name": "Company registration of the inviting company",
+            "required": true,
+            "details": "Certificate of Incorporation (local company) or Certificate of Registration of Branch Office (foreign investment company)."
+          },
+          {
+            "id": "company-extract",
+            "name": "Company Extract",
+            "required": true,
+            "details": "Issued by DICA within the past one month."
+          },
+          {
+            "id": "annual-return",
+            "name": "Proof of valid Annual Return",
+            "required": true
+          }
+        ],
+        "source": {
+          "url": "https://evisa.moip.gov.mm/notice/business",
+          "name": "Ministry of Immigration and Population — Notice to Business Traveller",
+          "type": "government",
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07"
+        }
       }
     },
     {

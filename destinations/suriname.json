@@ -2153,6 +2153,23 @@
         "type": "government",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-09-26"
+      },
+      "documents": {
+        "items": [
+          {
+            "id": "passport-copy",
+            "name": "Passport copy",
+            "required": true,
+            "details": "Uploaded for each traveller."
+          }
+        ],
+        "source": {
+          "url": "https://suriname.vfsevisa.com/single-entry.html",
+          "name": "Suriname eVisa service (VFS Global for the Ministry of Foreign Affairs) — Entry Fee, single entry",
+          "type": "government",
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07"
+        }
       }
     },
     {
@@ -2240,7 +2257,7 @@
       "fee": {
         "amount": 100,
         "currency": "USD",
-        "notes": "USD 100 or EUR 85 for three months, multiple entry; USD 360 or EUR 305 for five years (USD 160 for US passport holders); plus a VFS service fee of USD 18 or EUR 17. Needs an invitation letter from the Surinamese host and a Chamber of Commerce (KKF) extract for the inviting company. The Entry Fee does not cover business visits."
+        "notes": "USD 100 or EUR 85 for three months, multiple entry; USD 360 or EUR 305 for five years (USD 160 for US passport holders); plus a VFS service fee of USD 18 or EUR 17. The Entry Fee does not cover business visits."
       },
       "processing": {
         "minDays": 1,
@@ -2257,6 +2274,53 @@
         "type": "government",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-09-26"
+      },
+      "documents": {
+        "items": [
+          {
+            "id": "passport-bio-page",
+            "name": "Passport bio page",
+            "required": true,
+            "details": "A clear colour copy; the passport must be valid for at least six months from the date you leave Suriname."
+          },
+          {
+            "id": "photo",
+            "name": "Photo",
+            "required": true,
+            "details": "3 × 4 cm, in colour, white background, taken within the last six months."
+          },
+          {
+            "id": "itinerary",
+            "name": "Travel itinerary",
+            "required": true,
+            "details": "Arrival and departure dates; a confirmed ticket is not needed when applying unless the Ministry asks for one."
+          },
+          {
+            "id": "accommodation",
+            "name": "Accommodation reservation",
+            "required": true,
+            "details": "A confirmed hotel or apartment booking; when staying with family, their full address and telephone number."
+          },
+          {
+            "id": "invitation-letter",
+            "name": "Invitation or reference letter",
+            "required": true,
+            "details": "From the host company or partner in Suriname, confirming the purpose and length of the visit and who is responsible for it."
+          },
+          {
+            "id": "kkf-extract",
+            "name": "Chamber of Commerce (KKF) extract",
+            "required": true,
+            "details": "For the inviting company, not older than six months."
+          }
+        ],
+        "source": {
+          "url": "https://suriname.vfsevisa.com/evisa-business.html",
+          "name": "Suriname eVisa service (VFS Global for the Ministry of Foreign Affairs) — Business eVisa: mandatory documents",
+          "type": "government",
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07"
+        }
       }
     }
   ],

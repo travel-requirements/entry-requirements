@@ -1815,7 +1815,7 @@
       "fee": {
         "amount": 20,
         "currency": "USD",
-        "notes": "USD 20 single entry; USD 35 double entry and USD 50 multiple entry, per the Foreign Ministry's consular fee tariff and the eVisa portal. The portal's terms say an application is considered within 2 working days, not counting the day it is filed, and that you must apply at least 3 working days before arrival; the application form itself gives the processing time as 3 working days, not counting weekends and holidays."
+        "notes": "USD 20 single entry; USD 35 double entry and USD 50 multiple entry, per the Foreign Ministry's consular fee tariff and the eVisa portal. The portal's terms say an application is considered within 2 working days, not counting the day it is filed; the application form itself gives the processing time as 3 working days, not counting weekends and holidays."
       },
       "processing": {
         "minDays": 0,
@@ -1836,6 +1836,43 @@
         "type": "government",
         "lastVerified": "2026-10-05",
         "lastChanged": "2026-10-05"
+      },
+      "documents": {
+        "items": [
+          {
+            "id": "photo",
+            "name": "Facial photo",
+            "required": true,
+            "details": "35 × 45 mm at 300 dpi, no larger than 1 MB, meeting ICAO standards."
+          },
+          {
+            "id": "passport-page",
+            "name": "Passport data page copy",
+            "required": true,
+            "details": "Readable, no larger than 500 KB."
+          }
+        ],
+        "source": {
+          "url": "https://e-visa.gov.uz/assets/localization/en.json",
+          "name": "Uzbekistan official electronic visa portal (MFA) — application form and terms texts",
+          "type": "government",
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07",
+          "portalOnly": true
+        }
+      },
+      "applyWindow": {
+        "earliestDays": null,
+        "latestDays": null,
+        "text": "Apply at least 3 working days before the planned date of arrival.",
+        "source": {
+          "url": "https://e-visa.gov.uz/assets/localization/en.json",
+          "name": "Uzbekistan official electronic visa portal (MFA) — terms and conditions",
+          "type": "government",
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07",
+          "portalOnly": true
+        }
       }
     },
     {

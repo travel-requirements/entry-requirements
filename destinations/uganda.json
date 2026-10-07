@@ -1585,6 +1585,47 @@
         "type": "government",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-10-03"
+      },
+      "documents": {
+        "items": [
+          {
+            "id": "passport-bio-page",
+            "name": "Passport bio-data page",
+            "required": true,
+            "details": "passport valid for at least 6 months; every upload JPEG, PNG, BMP or PDF of 5–250 KB"
+          },
+          {
+            "id": "photo",
+            "name": "Recent passport-size photograph",
+            "required": true
+          },
+          {
+            "id": "return-ticket",
+            "name": "Return ticket",
+            "required": true,
+            "details": "for tourism and family visits"
+          },
+          {
+            "id": "invitation-letter",
+            "name": "Invitation letter",
+            "required": null,
+            "details": "for a family visit"
+          },
+          {
+            "id": "host-immigration-status",
+            "name": "Your host's immigration status",
+            "required": null,
+            "details": "for a family visit"
+          }
+        ],
+        "source": {
+          "url": "https://visas.immigration.go.ug/#/apply",
+          "name": "Uganda Electronic Visa/Permit Application — Select type of application: supporting documents for the Uganda Ordinary/Tourist Visa, single entry",
+          "type": "government",
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07",
+          "portalOnly": true
+        }
       }
     },
     {
@@ -1612,6 +1653,40 @@
         "type": "government",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-10-03"
+      },
+      "documents": {
+        "items": [
+          {
+            "id": "travel-itinerary",
+            "name": "Travel itinerary",
+            "required": true,
+            "details": "a detailed tour plan"
+          },
+          {
+            "id": "photo",
+            "name": "Recent passport-size photograph",
+            "required": true
+          },
+          {
+            "id": "passport-bio-page",
+            "name": "Copy of the passport bio-data page",
+            "required": true,
+            "details": "every upload JPEG, PNG, BMP or PDF of 5–250 KB"
+          },
+          {
+            "id": "return-ticket",
+            "name": "Return ticket",
+            "required": true
+          }
+        ],
+        "source": {
+          "url": "https://visas.immigration.go.ug/#/apply",
+          "name": "Uganda Electronic Visa/Permit Application — Select type of application: supporting documents for the East Africa Tourist Visa",
+          "type": "government",
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07",
+          "portalOnly": true
+        }
       }
     },
     {
@@ -1622,7 +1697,7 @@
       "fee": {
         "amount": 100,
         "currency": "USD",
-        "notes": "USD 100 for 6 or 12 months' validity and USD 200 for 24 months. The application asks for a police clearance from Interpol or your home country, recommendation letters from two referees in Uganda, a cover letter giving the reasons for multiple entry and proof of your entries into and exits from Uganda in the last year, besides the passport bio-data page and a recent photo."
+        "notes": "USD 100 for 6 or 12 months' validity and USD 200 for 24 months."
       },
       "processing": null,
       "validityDays": 365,
@@ -1640,6 +1715,51 @@
           "name": "Uganda Directorate of Citizenship and Immigration Control — Electronic Visa/Permit application, Select type of application step (Multiple-Entry, 24 Months)",
           "states": "Application Fee USD 150 for 24 months",
           "resolvedBy": "stricter"
+        }
+      },
+      "documents": {
+        "items": [
+          {
+            "id": "passport-bio-page",
+            "name": "Passport bio-data page",
+            "required": true,
+            "details": "every upload JPEG, PNG, BMP or PDF of 5–250 KB"
+          },
+          {
+            "id": "photo",
+            "name": "Recent passport-size photograph",
+            "required": true
+          },
+          {
+            "id": "police-clearance",
+            "name": "Police clearance",
+            "required": true,
+            "details": "from Interpol or your home country"
+          },
+          {
+            "id": "referee-letters",
+            "name": "Recommendation letters from two referees in Uganda",
+            "required": true
+          },
+          {
+            "id": "cover-letter",
+            "name": "Cover letter",
+            "required": true,
+            "details": "giving the reasons for multiple entry"
+          },
+          {
+            "id": "entry-exit-proof",
+            "name": "Proof of your entries into and exits from Uganda in the last year",
+            "required": true
+          }
+        ],
+        "source": {
+          "url": "https://visas.immigration.go.ug/#/apply",
+          "name": "Uganda Electronic Visa/Permit Application — Select type of application: supporting documents for the Multiple-Entry visa (6, 12 and 24 months)",
+          "type": "government",
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07",
+          "portalOnly": true
         }
       }
     }

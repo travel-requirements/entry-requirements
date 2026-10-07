@@ -3074,6 +3074,52 @@
         "lastVerified": "2026-10-06",
         "lastChanged": "2026-10-06",
         "archiveUrl": "https://web.archive.org/web/20261004224450/https://www.visitsaudi.com/bin/api/v1/geo/countries?locale=en"
+      },
+      "documents": {
+        "items": [
+          {
+            "id": "residence-proof",
+            "name": "Proof of residence in the country where you live",
+            "required": true
+          },
+          {
+            "id": "return-ticket",
+            "name": "Return ticket",
+            "required": true
+          },
+          {
+            "id": "flight-itinerary",
+            "name": "Flight itinerary",
+            "required": true
+          },
+          {
+            "id": "employment-proof",
+            "name": "Proof of employment",
+            "required": true
+          },
+          {
+            "id": "bank-statement",
+            "name": "Proof of financial solvency or bank statement",
+            "required": true
+          },
+          {
+            "id": "identification",
+            "name": "Identification",
+            "required": true
+          },
+          {
+            "id": "saudi-address",
+            "name": "Address where you will stay in Saudi Arabia",
+            "required": true
+          }
+        ],
+        "source": {
+          "url": "https://www.visitsaudi.com/en/plan-your-trip/visa-regulations",
+          "name": "Visit Saudi (Saudi Tourism Authority) — Visa Requirements tool, nationalities not eligible for the eVisa (Embassy/Consulate requirements)",
+          "type": "government",
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07"
+        }
       }
     },
     {
@@ -3105,6 +3151,28 @@
         "type": "government",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-10-03"
+      },
+      "documents": {
+        "items": [
+          {
+            "id": "passport",
+            "name": "Passport",
+            "required": true,
+            "details": "Valid for at least 6 months"
+          },
+          {
+            "id": "photo",
+            "name": "Recent personal photo",
+            "required": true
+          }
+        ],
+        "source": {
+          "url": "https://www.visitsaudi.com/en/plan-your-trip/visa-regulations",
+          "name": "Visit Saudi (Saudi Tourism Authority) — Visa Requirements tool, nationality: United Kingdom (Electronic Travel Authorization requirements)",
+          "type": "government",
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07"
+        }
       }
     },
     {
@@ -3115,7 +3183,7 @@
       "fee": {
         "amount": 150,
         "currency": "SAR",
-        "notes": "SAR 150 (about USD 40). Apply on the Ministry of Foreign Affairs' unified visa platform from 90 days to 48 hours before you travel, from outside Saudi Arabia; approval takes up to 24 hours and arrives by email. Print it and show it on arrival."
+        "notes": "SAR 150 (about USD 40). Apply on the Ministry of Foreign Affairs' unified visa platform from outside Saudi Arabia; approval takes up to 24 hours and arrives by email. Print it and show it on arrival."
       },
       "processing": {
         "minDays": 0,
@@ -3136,6 +3204,18 @@
         "type": "government",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-10-03"
+      },
+      "applyWindow": {
+        "earliestDays": 90,
+        "latestDays": 2,
+        "text": "Apply no earlier than 90 days and no later than 48 hours before you travel.",
+        "source": {
+          "url": "https://www.visitsaudi.com/en/plan-your-trip/visa-regulations",
+          "name": "Visit Saudi (Saudi Tourism Authority) — Visa Requirements tool, nationality: Ireland (Visa Waiver requirements)",
+          "type": "government",
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07"
+        }
       }
     }
   ],

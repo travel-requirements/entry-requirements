@@ -21,7 +21,7 @@
   ],
   "summary": "Colombia admits holders of the passports on its Foreign Ministry's List A — including the US, UK, EU, Canada and most of the Americas — without a visa for short stays; the UK government's travel advice gives the stay as up to 90 days, and Migración Colombia allows an extension up to a maximum of 180 days per calendar year. Nationalities that do need a visa apply for a Visitor (V) visa through the Foreign Ministry. Migración Colombia's free Check-Mig pre-registration, before entering or leaving, is optional and speeds up the immigration interview.",
   "meta": {
-    "lastUpdated": "2026-10-06",
+    "lastUpdated": "2026-10-07",
     "lastFullReview": "2026-09-25",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -1457,7 +1457,7 @@
         "maxDays": 30,
         "unit": "business-days"
       },
-      "validityDays": 730,
+      "validityDays": 365,
       "stayDays": 90,
       "entries": "multiple",
       "extendable": {
@@ -1471,6 +1471,47 @@
         "type": "government",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-09-25"
+      },
+      "documents": {
+        "items": [
+          {
+            "id": "letter",
+            "name": "Letter from the applicant",
+            "required": true,
+            "details": "Identifying you and explaining the planned activity: details, participants, duration, schedule and location."
+          },
+          {
+            "id": "invitation",
+            "name": "Host's written request",
+            "required": null,
+            "details": "If invited: signed by hand with a fingerprint by a Colombian host, or a foreign holder of a resident (R) visa, who takes on the costs of your trip and stay."
+          },
+          {
+            "id": "bank-statements",
+            "name": "Bank statements",
+            "required": true,
+            "details": "For the six months before the application, showing monthly income of at least ten legal monthly minimum wages (yours or your host's)."
+          },
+          {
+            "id": "health-insurance",
+            "name": "Health insurance",
+            "required": true,
+            "details": "Valid in Colombia for the planned stay, covering accident, illness, maternity, disability, hospitalisation, death and repatriation."
+          },
+          {
+            "id": "ticket-reservation",
+            "name": "Flight reservation",
+            "required": true,
+            "details": "Into and out of the country."
+          }
+        ],
+        "source": {
+          "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/tipos-de-visa",
+          "name": "Cancillería de Colombia — Visa types: Visitor (V), Tourism",
+          "type": "government",
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07"
+        }
       }
     },
     {
