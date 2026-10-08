@@ -17,7 +17,7 @@
   ],
   "summary": "Moldova's visa-exempt list covers the EU/EFTA countries, the US, UK, Canada, Japan, the Western Balkans, most CIS countries and much of Latin America, and its Border Police allows foreigners up to 90 days within 6 months. Nationalities that need a visa can apply online for a short-stay eVisa through the government portal evisa.gov.md.",
   "meta": {
-    "lastUpdated": "2026-10-07",
+    "lastUpdated": "2026-10-08",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -39,8 +39,25 @@
       "url": "https://mfa.gov.md/en/content/visa-regime-foreigners",
       "name": "Ministry of Foreign Affairs and European Integration of Moldova — Visa regime for foreigners",
       "type": "government",
-      "lastVerified": "2026-10-03",
-      "lastChanged": "2026-09-26"
+      "lastVerified": "2026-10-08",
+      "lastChanged": "2026-09-26",
+      "alsoStatedOn": [
+        {
+          "url": "https://mfa.gov.md/ro/content/regimul-de-vize",
+          "name": "Ministry of Foreign Affairs of Moldova — Regimul de vize pentru străini (Romanian version of the same lists)",
+          "lastVerified": "2026-10-08"
+        },
+        {
+          "url": "https://www.border.gov.md/intrebari-frecvente",
+          "name": "Border Police of the Republic of Moldova — Frequently asked questions (visa holders and visa-exempt foreigners may stay up to 90 days in any 180-day period)",
+          "lastVerified": "2026-10-08"
+        },
+        {
+          "url": "https://evisa.gov.md/Info/ThingsYouShouldKnow?c=ro-RO",
+          "name": "Moldova eVisa portal (MFAEI) — 10 things you should know about the eVisa (every foreigner who needs a short-stay visa can apply online)",
+          "lastVerified": "2026-10-07"
+        }
+      ]
     },
     "byPassport": {
       "AF": {
@@ -350,7 +367,13 @@
       "DM": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free. The Ministry of Foreign Affairs lists these passport holders among foreigners exempt from the visa requirement."
+        "notes": "Visa-free. The Ministry of Foreign Affairs lists Dominica among foreigners exempt from the visa requirement (the Romanian list names \"Uniunea Dominica\"; the English version mistranslates it as \"Dominican Republic\").",
+        "source": {
+          "url": "https://mfa.gov.md/ro/content/regimul-de-vize",
+          "name": "Ministry of Foreign Affairs of Moldova — Regimul de vize pentru străini (list of foreigners exempt from the visa: \"Uniunea Dominica\")",
+          "type": "government",
+          "lastVerified": "2026-10-08"
+        }
       },
       "DO": {
         "requirement": "evisa",
@@ -626,13 +649,20 @@
       "XK": {
         "requirement": "evisa",
         "maxStayDays": null,
-        "notes": "Kosovo is not on Moldova's visa-exempt list, so a visa is needed. Kosovo is offered on the nationality list of the official eVisa application form, and the portal says all foreigners can request an eVisa, so apply online at evisa.gov.md before travel.",
+        "notes": "A visa is needed: Moldova’s Border Police admits foreigners on a visa unless an international treaty provides otherwise, and Kosovo is not on the Foreign Ministry’s list of visa-exempt nationalities. The eVisa portal says every foreigner who needs a short-stay visa can apply online, and its nationality list includes Kosovo, so apply at evisa.gov.md before travel.",
         "source": {
           "url": "https://evisa.gov.md/Info/ThingsYouShouldKnow?c=ro-RO",
           "name": "Moldova eVisa portal (MFAEI) — 10 things you should know about the eVisa (\"All foreigners can request eVisa\")",
           "type": "government",
           "lastVerified": "2026-10-03",
-          "lastChanged": "2026-10-03"
+          "lastChanged": "2026-10-03",
+          "alsoStatedOn": [
+            {
+              "url": "https://www.border.gov.md/traversarea-frontierei-de-catre-cetatenii-straini",
+              "name": "Border Police of the Republic of Moldova — Border crossing by foreign citizens (entry condition b: a visa, unless an international treaty provides otherwise)",
+              "lastVerified": "2026-10-08"
+            }
+          ]
         },
         "visaTypes": [
           "evisa"
@@ -1171,18 +1201,18 @@
         "notes": "Apply for a Moldovan eVisa on the official evisa.gov.md portal before travel; some applicants may need an invitation or supporting documents."
       },
       "TW": {
-        "requirement": "evisa",
+        "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
-          "evisa"
+          "embassy-c"
         ],
-        "notes": "Taiwan is not on Moldova's visa-exempt list, so a visa is needed. The eVisa portal says all foreigners can request an eVisa, but its nationality list has no entry for Taiwan.",
+        "notes": "A visa is required. Taiwan’s Bureau of Consular Affairs says Republic of China nationals apply for a Moldovan visa with an invitation issued by Moldova’s migration and asylum authority, and that obtaining one is difficult. Taiwan is not on the eVisa portal’s nationality list.",
         "source": {
-          "url": "https://evisa.gov.md/Info/ThingsYouShouldKnow?c=ro-RO",
-          "name": "Moldova eVisa portal (MFAEI) — 10 things you should know about the eVisa (\"All foreigners can request eVisa\")",
+          "url": "https://www.boca.gov.tw/sp-foof-countrycp-03-147-ba17a-02-1.html",
+          "name": "Bureau of Consular Affairs, Ministry of Foreign Affairs (Taiwan) — Moldova: visa and entry information for ROC nationals",
           "type": "government",
-          "lastVerified": "2026-10-03",
-          "lastChanged": "2026-10-03"
+          "lastVerified": "2026-10-08",
+          "lastChanged": "2026-10-08"
         }
       },
       "TJ": {

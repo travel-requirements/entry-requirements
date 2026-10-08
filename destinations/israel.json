@@ -21,7 +21,7 @@
   ],
   "summary": "Citizens of around 100 visa-exempt countries — including the EU, US, UK, Canada and Australia — can visit Israel for up to 90 days but must obtain an ETA-IL electronic travel authorization before boarding; other nationalities need a B/2 visitor visa from an Israeli consulate.",
   "meta": {
-    "lastUpdated": "2026-10-07",
+    "lastUpdated": "2026-10-08",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -43,7 +43,14 @@
       "name": "Israel Population and Immigration Authority — ETA-IL eligibility check",
       "type": "government",
       "lastVerified": "2026-10-03",
-      "lastChanged": "2026-09-26"
+      "lastChanged": "2026-09-26",
+      "alsoStatedOn": [
+        {
+          "url": "https://www.gov.il/en/departments/dynamiccollectors/ashrotzarim?skip=0",
+          "name": "Israel Ministry of Foreign Affairs — Tourist Visa Requirements for Foreign Nationals (201 countries and territories, national passport \"Exempted\" or \"Required\")",
+          "lastVerified": "2026-10-08"
+        }
+      ]
     },
     "byPassport": {
       "AF": {
@@ -678,14 +685,34 @@
         "notes": "Apply for a B/2 visitor visa at an Israeli embassy or consulate before travel."
       },
       "IR": {
-        "requirement": "unconfirmed",
+        "requirement": "embassy-visa",
         "maxStayDays": null,
-        "notes": "No official source we could read states the entry rule for Iranian passports."
+        "visaTypes": [
+          "b2-visitor"
+        ],
+        "notes": "Israel's Foreign Ministry lists Iran as requiring a tourist visa for national passports.",
+        "source": {
+          "url": "https://www.gov.il/en/departments/dynamiccollectors/ashrotzarim?skip=80",
+          "name": "Israel Ministry of Foreign Affairs — Tourist Visa Requirements for Foreign Nationals (Iran: national passport Required, fee Yes)",
+          "type": "government",
+          "lastVerified": "2026-10-08",
+          "lastChanged": "2026-10-08"
+        }
       },
       "IQ": {
-        "requirement": "unconfirmed",
+        "requirement": "embassy-visa",
         "maxStayDays": null,
-        "notes": "No official source we could read states the entry rule for Iraqi passports."
+        "visaTypes": [
+          "b2-visitor"
+        ],
+        "notes": "Israel's Foreign Ministry lists Iraq as requiring a tourist visa for national passports.",
+        "source": {
+          "url": "https://www.gov.il/en/departments/dynamiccollectors/ashrotzarim?skip=80",
+          "name": "Israel Ministry of Foreign Affairs — Tourist Visa Requirements for Foreign Nationals (Iraq: national passport Required, fee Yes)",
+          "type": "government",
+          "lastVerified": "2026-10-08",
+          "lastChanged": "2026-10-08"
+        }
       },
       "IE": {
         "requirement": "eta",
@@ -805,7 +832,7 @@
         "notes": "Israel's Foreign Ministry lists Lebanon as requiring a tourist visa.",
         "source": {
           "url": "https://www.gov.il/en/departments/dynamiccollectors/ashrotzarim?skip=0",
-          "name": "Israel Ministry of Foreign Affairs — Tourist Visa Requirements for Foreign Nationals (Saudi Arabia: national passport Required, fee Yes)",
+          "name": "Israel Ministry of Foreign Affairs — Tourist Visa Requirements for Foreign Nationals",
           "type": "government",
           "lastVerified": "2026-10-06",
           "lastChanged": "2026-10-06"
@@ -836,7 +863,7 @@
         "notes": "Israel's Foreign Ministry lists Libya as requiring a tourist visa.",
         "source": {
           "url": "https://www.gov.il/en/departments/dynamiccollectors/ashrotzarim?skip=0",
-          "name": "Israel Ministry of Foreign Affairs — Tourist Visa Requirements for Foreign Nationals (Saudi Arabia: national passport Required, fee Yes)",
+          "name": "Israel Ministry of Foreign Affairs — Tourist Visa Requirements for Foreign Nationals",
           "type": "government",
           "lastVerified": "2026-10-06",
           "lastChanged": "2026-10-06"
@@ -963,12 +990,19 @@
         "notes": "Visa-exempt for stays of up to 90 days, but an ETA-IL electronic travel authorization (applied for online at israel-entry.piba.gov.il, valid 2 years) is now required before boarding."
       },
       "MD": {
-        "requirement": "eta",
-        "maxStayDays": 90,
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
         "visaTypes": [
-          "eta-il"
+          "b2-visitor"
         ],
-        "notes": "Visa-exempt for stays of up to 90 days, but an ETA-IL electronic travel authorization (applied for online at israel-entry.piba.gov.il, valid 2 years) is now required before boarding."
+        "notes": "Israel's Foreign Ministry lists Moldova as requiring a tourist visa for national passports (no visa fee).",
+        "source": {
+          "url": "https://www.gov.il/en/departments/dynamiccollectors/ashrotzarim?skip=110",
+          "name": "Israel Ministry of Foreign Affairs — Tourist Visa Requirements for Foreign Nationals (Moldova: national passport Required, fee Free)",
+          "type": "government",
+          "lastVerified": "2026-10-08",
+          "lastChanged": "2026-10-08"
+        }
       },
       "MC": {
         "requirement": "eta",
@@ -1467,7 +1501,7 @@
         "notes": "Israel's Foreign Ministry lists Syria as requiring a tourist visa.",
         "source": {
           "url": "https://www.gov.il/en/departments/dynamiccollectors/ashrotzarim?skip=0",
-          "name": "Israel Ministry of Foreign Affairs — Tourist Visa Requirements for Foreign Nationals (Saudi Arabia: national passport Required, fee Yes)",
+          "name": "Israel Ministry of Foreign Affairs — Tourist Visa Requirements for Foreign Nationals",
           "type": "government",
           "lastVerified": "2026-10-06",
           "lastChanged": "2026-10-06"
@@ -1666,7 +1700,7 @@
         "notes": "Israel's Foreign Ministry lists Yemen as requiring a tourist visa.",
         "source": {
           "url": "https://www.gov.il/en/departments/dynamiccollectors/ashrotzarim?skip=0",
-          "name": "Israel Ministry of Foreign Affairs — Tourist Visa Requirements for Foreign Nationals (Saudi Arabia: national passport Required, fee Yes)",
+          "name": "Israel Ministry of Foreign Affairs — Tourist Visa Requirements for Foreign Nationals",
           "type": "government",
           "lastVerified": "2026-10-06",
           "lastChanged": "2026-10-06"

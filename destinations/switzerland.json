@@ -21,7 +21,7 @@
   ],
   "summary": "Switzerland is not in the EU but joins the Schengen Area through association agreements: EU and EFTA citizens enter freely, visa-exempt nationals of 59 countries can stay 90 days in any 180-day period (the ETIAS travel authorization is not yet in operation), and everyone else needs a €90 Schengen short-stay visa.",
   "meta": {
-    "lastUpdated": "2026-10-07",
+    "lastUpdated": "2026-10-08",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -63,7 +63,14 @@
         "lastAttempt": "2026-10-02",
         "reason": "blocked",
         "status": 202
-      }
+      },
+      "alsoStatedOn": [
+        {
+          "url": "https://www.sem.admin.ch/dam/sem/en/data/rechtsgrundlagen/weisungen/visa/bfm/bfm-anh01-liste1-e.pdf",
+          "name": "State Secretariat for Migration (SEM) — ID and visa provisions according to nationality (Annex CH-1, List 1)",
+          "lastVerified": "2026-10-08"
+        }
+      ]
     },
     "byPassport": {
       "US": {
@@ -971,9 +978,19 @@
         "notes": "A Schengen short-stay visa is required, applied for at the Swiss embassy or visa center serving your place of residence."
       },
       "NR": {
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. ETIAS authorization will be required once mandatory."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "schengen-c"
+        ],
+        "notes": "Switzerland's State Secretariat for Migration lists Nauru as needing a visa for stays of up to 90 days; the EU visa regulation exempts Nauru only once a visa-waiver agreement with the EU is in force.",
+        "source": {
+          "url": "https://www.sem.admin.ch/dam/sem/en/data/rechtsgrundlagen/weisungen/visa/bfm/bfm-anh01-liste1-e.pdf",
+          "name": "State Secretariat for Migration (SEM) — ID and visa provisions according to nationality (Annex CH-1, List 1)",
+          "type": "government",
+          "lastVerified": "2026-10-08",
+          "lastChanged": "2026-10-08"
+        }
       },
       "NP": {
         "requirement": "embassy-visa",

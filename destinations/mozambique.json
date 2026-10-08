@@ -22,7 +22,7 @@
   ],
   "summary": "Mozambique's official eVisa portal sorts visitors into four groups: 17 nationalities, mostly from southern and eastern Africa, are visa-exempt for 30 or 90 days; 29 others, including the US, the UK, Canada, Japan and much of Western Europe, need an Electronic Travel Authorisation (eTA) for stays of up to 30 days; citizens of Pakistan, Bangladesh, Ethiopia, Nigeria, Nepal and Somalia must apply at an embassy; and everyone else applies online for an eVisa before travel.",
   "meta": {
-    "lastUpdated": "2026-10-07",
+    "lastUpdated": "2026-10-08",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -1039,9 +1039,19 @@
         "notes": "Mozambique's official eVisa portal lists Luxembourg under the eVisa scheme: apply online at evisa.gov.mz before travel. The tourist eVisa is issued for a stay of 30, 60 or 90 days, as stated on the approved visa. The portal does not list Luxembourg as visa-exempt, and no official source we could read says Luxembourgish citizens can get a visa on arrival."
       },
       "MO": {
-        "requirement": "unconfirmed",
-        "maxStayDays": null,
-        "notes": "No official source we could read states the entry rule for Macau passport holders: Mozambique's eVisa portal does not name Macau in its visa-exempt, eTA, eVisa or embassy-only lists."
+        "requirement": "visa-on-arrival",
+        "maxStayDays": 30,
+        "notes": "Visa on arrival for up to 30 days, or an eVisa, according to the Macao Identification Services Bureau's list for Macao SAR passport holders. Mozambique's eVisa portal does not name Macao in its lists.",
+        "visaTypes": [
+          "mz-border-visa",
+          "mz-evisa"
+        ],
+        "source": {
+          "url": "https://www.dsi.gov.mo/en/visa/371?doc=macau_passport&tab=visa_free",
+          "name": "Identification Services Bureau of Macao — Travel convenience for Macao SAR passport holders",
+          "type": "government",
+          "lastVerified": "2026-10-08"
+        }
       },
       "MG": {
         "requirement": "evisa",

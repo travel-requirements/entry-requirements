@@ -16,9 +16,9 @@
     "nicaragua",
     "costa-rica"
   ],
-  "summary": "El Salvador waives visas for a broad list including the US, UK, EU, Canada, Australia, Japan and most of the Americas. The UK Foreign Office says visitors can travel between El Salvador, Guatemala and Nicaragua for up to 90 days without a visa under the CA-4 agreement. Remaining nationalities need a consular visa.",
+  "summary": "El Salvador waives visas for a broad list including the US, UK, EU, Canada, Australia, Japan and most of the Americas. The UK Foreign Office says visitors can travel between El Salvador, Guatemala and Nicaragua for up to 90 days without a visa under the CA-4 agreement. Nationalities that Migración's classification list places in category B or C need a consular visa.",
   "meta": {
-    "lastUpdated": "2026-10-07",
+    "lastUpdated": "2026-10-08",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -249,24 +249,23 @@
         "notes": "A consular visa is required before travel, and some nationalities also need a \"consulted\" authorization from immigration headquarters. A valid US, Canadian or Schengen visa lets category B passports like this one enter visa-exempt."
       },
       "BO": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "Migración's classification list puts ordinary Bolivian passports in category B: a consular visa before travel. The Foreign Ministry's visa checker lists them as exempt; Migración runs the border, so its list is shown here. A valid US, Canadian or Schengen visa lets category B passports like this one enter visa-exempt.",
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Visa-free for up to 90 days: Migración's classification list now places ordinary Bolivian passports in category A (exempt), as does the Foreign Ministry's visa checker; the Special Migration and Aliens Act (art. 84) sets the 90-day tourist stay.",
         "source": {
           "url": "https://www.migracion.gob.sv/servicios/listado-visa/",
           "name": "Dirección General de Migración y Extranjería — Países que requieren visa para ingresar a El Salvador (CA-4 classification list, file dated 19 November 2024)",
           "type": "government",
-          "lastVerified": "2026-10-03",
-          "lastChanged": "2026-09-27",
-          "conflict": {
-            "url": "https://rree.gob.sv/visas/",
-            "name": "Ministerio de Relaciones Exteriores de El Salvador — Visas (country checker)",
-            "states": "visa-exempt (category A)",
-            "resolvedBy": "hierarchy"
-          }
+          "lastVerified": "2026-10-08",
+          "lastChanged": "2026-10-08",
+          "instrument": "Ley Especial de Migración y de Extranjería, Arts. 29 (visa categories) and 84 (tourists stay up to ninety calendar days)",
+          "alsoStatedOn": [
+            {
+              "url": "https://rree.gob.sv/visas/",
+              "name": "Ministerio de Relaciones Exteriores de El Salvador — Visas (country checker)",
+              "lastVerified": "2026-10-08"
+            }
+          ]
         }
       },
       "BA": {
@@ -1039,12 +1038,9 @@
         }
       },
       "MO": {
-        "requirement": "embassy-visa",
+        "requirement": "unconfirmed",
         "maxStayDays": null,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "A consular visa is required before travel, and some nationalities also need a \"consulted\" authorization from immigration headquarters. A valid US, Canadian or Schengen visa replaces the consular visa only for category B passports."
+        "notes": "No official source we could read states El Salvador's entry rule for Macao SAR passport holders: neither Migración's classification list nor the Foreign Ministry's visa checker names Macao."
       },
       "MG": {
         "requirement": "visa-free",
@@ -1675,12 +1671,9 @@
         }
       },
       "SS": {
-        "requirement": "embassy-visa",
+        "requirement": "unconfirmed",
         "maxStayDays": null,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": "A consular visa is required before travel, and some nationalities also need a \"consulted\" authorization from immigration headquarters. This passport is in category C, so a US, Canadian or Schengen visa does not replace the consular visa."
+        "notes": "No official source we could read states El Salvador's entry rule for South Sudanese citizens: neither Migración's classification list nor the Foreign Ministry's visa checker names South Sudan."
       },
       "ES": {
         "requirement": "visa-free",
@@ -2015,7 +2008,6 @@
           "BF",
           "BI",
           "BJ",
-          "BO",
           "BT",
           "BY",
           "CF",
@@ -2353,7 +2345,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for El Salvador?",
-      "answer": "Most visitors do not: the US, UK, EU, Canada, Australia, Japan and most of the Americas are visa-exempt for 90 days. Nationalities outside the exemption list need a consular visa, or, if their passport is in category B and they hold a valid US, Canadian or Schengen visa, can enter without one."
+      "answer": "Most visitors do not: the US, UK, EU, Canada, Australia, Japan and most of the Americas are visa-exempt for 90 days. Nationalities the list places in category B or C need a consular visa, or, if their passport is in category B and they hold a valid US, Canadian or Schengen visa, can enter without one."
     },
     {
       "id": "tourist-card",
