@@ -990,18 +990,30 @@
         "notes": "Visa-exempt for stays of up to 90 days, but an ETA-IL electronic travel authorization (applied for online at israel-entry.piba.gov.il, valid 2 years) is now required before boarding."
       },
       "MD": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "eta",
+        "maxStayDays": 90,
         "visaTypes": [
-          "b2-visitor"
+          "eta-il"
         ],
-        "notes": "Israel's Foreign Ministry lists Moldova as requiring a tourist visa for national passports (no visa fee).",
+        "notes": "Israel's Foreign Ministry lists Moldovan biometric national passports as visa-exempt; a non-biometric national passport needs a tourist visa (no visa fee). Visa-exempt visitors stay up to 90 days and need an ETA-IL electronic travel authorization (applied for online at israel-entry.piba.gov.il, valid 2 years) before boarding.",
         "source": {
           "url": "https://www.gov.il/en/departments/dynamiccollectors/ashrotzarim?skip=110",
-          "name": "Israel Ministry of Foreign Affairs — Tourist Visa Requirements for Foreign Nationals (Moldova: national passport Required, fee Free)",
+          "name": "Israel Ministry of Foreign Affairs — Tourist Visa Requirements for Foreign Nationals (Moldova: national passport Required, fee Free; biometric national passport Exempted)",
           "type": "government",
           "lastVerified": "2026-10-08",
-          "lastChanged": "2026-10-08"
+          "lastChanged": "2026-10-08",
+          "alsoStatedOn": [
+            {
+              "url": "https://israel-entry.piba.gov.il/api/getalldata",
+              "name": "Israel Population and Immigration Authority — ETA-IL eligibility data (Moldova: NEED_PERMIT 1, NEED_PERMIT_BIOMETRIC 0)",
+              "lastVerified": "2026-10-08"
+            },
+            {
+              "url": "https://israel-entry.piba.gov.il/learn-about",
+              "name": "Israel Population and Immigration Authority — Learn about ETA-IL (visa-exempt visitors apply; up to 90 days per visit; valid 2 years)",
+              "lastVerified": "2026-10-08"
+            }
+          ]
         }
       },
       "MC": {
@@ -2030,7 +2042,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Israel?",
-      "answer": "If you are from one of the 102 countries and territories exempted on the Foreign Ministry's visa list (as of 8 October 2026) — the EU, US, UK, Canada, Australia, most of Latin America and others — you do not need a visa for stays of up to 90 days, but you must obtain an ETA-IL electronic travel authorization online before boarding. Most other nationalities need a B/2 visitor visa from an Israeli embassy or consulate; the Foreign Ministry lists, among others, Afghan, Lebanese, Libyan, Pakistani, Saudi, Somali, Sudanese, Syrian and Yemeni passports as needing a tourist visa."
+      "answer": "If you are from one of the 102 countries and territories exempted on the Foreign Ministry's visa list (as of 8 October 2026) — the EU, US, UK, Canada, Australia, most of Latin America and others — you do not need a visa for stays of up to 90 days, but you must obtain an ETA-IL electronic travel authorization online before boarding. Moldovan citizens are visa-exempt only with a biometric passport, according to the Foreign Ministry. Most other nationalities need a B/2 visitor visa from an Israeli embassy or consulate; the Foreign Ministry lists, among others, Afghan, Lebanese, Libyan, Pakistani, Saudi, Somali, Sudanese, Syrian and Yemeni passports as needing a tourist visa."
     },
     {
       "id": "eta-il-what",
