@@ -859,9 +859,27 @@
         "notes": "A Schengen short-stay visa is required. San Marino's Foreign Ministry says visitors must cross the Schengen Area to reach San Marino and must hold the authorisations needed to enter it, applied for at the embassy or consulate of a Schengen state where they normally live."
       },
       "NR": {
-        "requirement": "visa-free",
-        "maxStayDays": 30,
-        "notes": "Visa-free under Schengen rules, entering through the Schengen Area — 90 days in any 180-day period across the whole Schengen Area. ETIAS authorization will be required once mandatory. San Marino itself allows 30 days without a permit of stay; to stay longer, apply to the Gendarmeria's Foreigners Office within those 30 days."
+        "requirement": "embassy-visa",
+        "maxStayDays": null,
+        "visaTypes": [
+          "schengen-c"
+        ],
+        "notes": "A Schengen short-stay visa is required. San Marino's Foreign Ministry says visitors must cross the Schengen Area to reach San Marino and must hold the authorisations needed to enter it, applied for at the embassy or consulate of a Schengen state where they normally live. EU Regulation 2018/1806 lists Nauru among visa-exempt countries only from the entry into force of a visa-waiver agreement with the EU (Annex II, footnote 11), and the EU’s summary of its visa-waiver agreements lists none with Nauru.",
+        "source": {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230",
+          "name": "Regulation (EU) 2018/1806 listing visa-required and visa-exempt nationalities, consolidated text — EUR-Lex",
+          "type": "igo",
+          "lastVerified": "2026-10-08",
+          "lastChanged": "2026-10-08",
+          "instrument": "Regulation (EU) 2018/1806, Annex II, footnote 11 (Nauru): the exemption applies only from the entry into force of a visa-exemption agreement with the EU",
+          "alsoStatedOn": [
+            {
+              "url": "https://eur-lex.europa.eu/EN/legal-content/summary/visa-waiver-agreements.html",
+              "name": "EUR-Lex summary of EU legislation — Visa waiver agreements (every EU short-stay visa waiver agreement and its date of entry into force; none with Nauru)",
+              "lastVerified": "2026-10-08"
+            }
+          ]
+        }
       },
       "NP": {
         "requirement": "embassy-visa",

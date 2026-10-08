@@ -19,7 +19,7 @@
   ],
   "summary": "Andorra requires no visa of any kind and has no airport: it is reached through France or Spain, so Schengen rules decide who can come. EU/EEA citizens and Schengen visa-free nationalities can travel there freely, while travelers who need a Schengen visa must hold a double- or multiple-entry one, because Andorra is outside the Schengen Area.",
   "meta": {
-    "lastUpdated": "2026-10-07",
+    "lastUpdated": "2026-10-08",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -853,9 +853,27 @@
         "notes": "Andorra requires no visa, but it is reached through France or Spain: Andorra's government says to apply to a French or Spanish embassy or consulate for a double- or multiple-entry Schengen visa."
       },
       "NR": {
-        "requirement": "visa-free",
-        "maxStayDays": null,
-        "notes": "No visa needed — this nationality enters the Schengen Area visa-free (90 days in any 180) and may visit Andorra freely through France or Spain."
+        "requirement": "embassy-visa",
+        "maxStayDays": 90,
+        "visaTypes": [
+          "schengen-multi"
+        ],
+        "notes": "Andorra requires no visa, but it is reached through France or Spain: Andorra's government says to apply to a French or Spanish embassy or consulate for a double- or multiple-entry Schengen visa. EU Regulation 2018/1806 lists Nauru among visa-exempt countries only from the entry into force of a visa-waiver agreement with the EU (Annex II, footnote 11), and the EU’s summary of its visa-waiver agreements lists none with Nauru.",
+        "source": {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230",
+          "name": "Regulation (EU) 2018/1806 listing visa-required and visa-exempt nationalities, consolidated text — EUR-Lex",
+          "type": "igo",
+          "lastVerified": "2026-10-08",
+          "lastChanged": "2026-10-08",
+          "instrument": "Regulation (EU) 2018/1806, Annex II, footnote 11 (Nauru): the exemption applies only from the entry into force of a visa-exemption agreement with the EU",
+          "alsoStatedOn": [
+            {
+              "url": "https://eur-lex.europa.eu/EN/legal-content/summary/visa-waiver-agreements.html",
+              "name": "EUR-Lex summary of EU legislation — Visa waiver agreements (every EU short-stay visa waiver agreement and its date of entry into force; none with Nauru)",
+              "lastVerified": "2026-10-08"
+            }
+          ]
+        }
       },
       "NP": {
         "requirement": "embassy-visa",
