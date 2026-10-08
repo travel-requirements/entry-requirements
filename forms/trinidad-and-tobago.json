@@ -8,10 +8,185 @@
         "evisa"
       ],
       "startUrl": "https://evisa.ttservices.online/tt-evisa-entitlement-online-ui/",
-      "readOn": "2026-10-07",
+      "readOn": "2026-10-08",
       "requiresAccount": false,
-      "stoppedAt": "Not reached: the portal's Cloudflare firewall answered \"Sorry, you have been blocked\" to the reading browser",
-      "steps": []
+      "stoppedAt": "Getting Started step (step 1 of 7), at the applicant's passport details (surname, given names, date of birth, passport number): personal data. The application runs on one URL, so the later steps cannot be opened directly and were seen only in the stepper",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Find out if you can apply online",
+          "read": true,
+          "fields": [
+            {
+              "label": "Nationality",
+              "type": "country",
+              "required": null,
+              "options": [
+                "<countries>"
+              ]
+            },
+            {
+              "label": "Purpose of visit",
+              "type": "select",
+              "required": null,
+              "options": [
+                "ACCOMPANYING PARENT/S",
+                "ACCOMPANYING SPOUSE",
+                "BUSINESS/CONVENTION",
+                "CARNIVAL",
+                "CRUISE",
+                "DIPLOMATIC/OFFICIAL/SERVICE",
+                "ECOTOURIST",
+                "INCENTIVE VACATION",
+                "INTRANSIT",
+                "LEISURE/BEACH VACATION",
+                "MEDICAL",
+                "MISSIONARY WORK",
+                "OTHER",
+                "PENDING P. R.",
+                "PERSONAL MATTERS",
+                "SCUBA DIVING",
+                "SPORTS/GOLF/GAME FISHING",
+                "STUDY",
+                "VISITING FRIENDS & RELATIVES",
+                "WEDDING/HONEYMOON",
+                "WORK",
+                "YACHTING"
+              ]
+            },
+            {
+              "label": "Intended period of visit (in days):",
+              "type": "text",
+              "required": null
+            },
+            {
+              "label": "Is the applicant's passport valid for at least six months from their intended date of travel to Trinidad and Tobago?",
+              "type": "radio",
+              "required": null,
+              "options": [
+                "Yes",
+                "No"
+              ]
+            }
+          ],
+          "notices": [
+            "If your passport is valid for less than 6 months, your visa application cannot be processed online.",
+            "Only foreign nationals from a country requiring a visa can be processed online. If you are unsure if a visa is required please contact the Trinidad and Tobago Immigration Division at immigration.visas@gov.tt for assistance.",
+            "You can apply for a new visa online.",
+            "Please ensure you have the following before starting your application",
+            "Digital passport compliant photo",
+            "Required supporting documentation",
+            "Credit card",
+            "If you don't have everything you need, you can start your application, then use the 'Save Application' button during the application process to save your incomplete application locally and resume it at a later time."
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Getting Started",
+          "read": true,
+          "fields": [
+            {
+              "label": "Visa type:",
+              "type": "select",
+              "required": true,
+              "options": [
+                "CARICOM SKILLED NATIONALS ACT CERTIFICATE",
+                "CARICOM VISA",
+                "CERTIFICATE OF CITIZENSHIP STATUS",
+                "CERTIFICATE OF IMMIGRATION STATUS",
+                "CERTIFICATE OF IMMIGRATION STATUS FOR CITIZENS BY DESCENT",
+                "CERTIFICATE OF NATURALISATION AS A CITIZEN",
+                "CERTIFICATE OF RE-ACQUISITION",
+                "CERTIFICATE OF REGISTRATION AS A CITIZEN",
+                "CERTIFICATE OF RESIDENCE",
+                "CERTIFICATE OF RESTORATION",
+                "E-VISA",
+                "MINISTER'S PERMIT",
+                "MISSIONARY PERMIT",
+                "STUDENT PERMIT",
+                "WORK PERMIT",
+                "WORK PERMIT - MANUAL",
+                "WORK PERMIT EXEMPTION"
+              ],
+              "notes": "Preselected: E-VISA"
+            },
+            {
+              "label": "Surname:",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Given name(s):",
+              "type": "text",
+              "required": true
+            },
+            {
+              "label": "Date of birth: (dd-mm-yyyy)",
+              "type": "date",
+              "required": true
+            },
+            {
+              "label": "Nationality:",
+              "type": "country",
+              "required": true,
+              "options": [
+                "<countries>"
+              ],
+              "notes": "Prefilled from the eligibility check"
+            },
+            {
+              "label": "Passport number:",
+              "type": "text",
+              "required": true
+            }
+          ],
+          "notices": [
+            "Enter the details exactly as they appear in the applicant's passport."
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Enter Details",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 4,
+          "name": "Upload Photo",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 5,
+          "name": "Upload Documents",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 6,
+          "name": "Review Application",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 7,
+          "name": "Submit Payment",
+          "read": false,
+          "fields": []
+        },
+        {
+          "order": 8,
+          "name": "Confirmation",
+          "read": false,
+          "fields": []
+        }
+      ],
+      "readAs": {
+        "nationality": "NIGERIAN",
+        "purposeOfVisit": "LEISURE/BEACH VACATION",
+        "intendedPeriodOfVisitDays": "14",
+        "passportValidSixMonths": "Yes"
+      }
     },
     {
       "kind": "arrival-card",
