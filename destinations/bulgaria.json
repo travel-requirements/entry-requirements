@@ -1471,11 +1471,11 @@
       "fee": {
         "amount": 100,
         "currency": "EUR",
-        "notes": "For stays over 90 days. A long-stay visa applied for under article 15(2) of the Foreigners in the Republic of Bulgaria Act costs EUR 200."
+        "notes": "For stays over 90 days. Under article 15(1) of the Foreigners in the Republic of Bulgaria Act the visa is issued for up to 6 months with a right to stay of up to 180 days; a long-stay visa applied for under article 15(2) — up to one year, with a stay of up to 360 days — costs EUR 200."
       },
       "processing": null,
       "validityDays": null,
-      "stayDays": null,
+      "stayDays": 180,
       "entries": "multiple",
       "extendable": {
         "possible": true,
@@ -1487,7 +1487,14 @@
         "name": "Ministry of Foreign Affairs of the Republic of Bulgaria — consular fees",
         "type": "government",
         "lastVerified": "2026-10-03",
-        "instrument": "Stamp Duty Act, Tariff No 4 (Ministry of Interior charges) — visa charges"
+        "instrument": "Stamp Duty Act, Tariff No 4 (Ministry of Interior charges) — visa charges",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.mfa.bg/upload/716/VISA_TYPE_D.pdf",
+            "name": "Ministry of Foreign Affairs of the Republic of Bulgaria — Long-stay visa (type D) leaflet",
+            "lastVerified": "2026-10-07"
+          }
+        ]
       }
     }
   ],
@@ -1562,16 +1569,27 @@
         "id": "ees",
         "name": "EES — Entry/Exit System (biometric registration)",
         "mandatory": true,
-        "fee": null,
+        "fee": {
+          "amount": 0,
+          "currency": "EUR"
+        },
         "submitAt": "on-arrival",
         "submitWindow": "At the border on first entry",
         "url": "https://travel-europe.europa.eu/en/ees",
-        "text": "Non-EU travelers have their face photo and/or fingerprints recorded in the EU Entry/Exit System the first time they cross a Schengen external border since the system started, and passports are no longer stamped. The EU says this can be quicker if you register some of your data in advance at self-service equipment or in a mobile app, where available.",
+        "text": "Non-EU travelers have their face photo and/or fingerprints recorded in the EU Entry/Exit System the first time they cross a Schengen external border since the system started, and passports are no longer stamped. The EU says this can be quicker if you register some of your data in advance at self-service equipment or in a mobile app, where available. The UK government's travel advice says there is no cost for EES registration.",
         "source": {
-          "url": "https://travel-europe.europa.eu/en/ees/how-does-the-ees-work",
-          "name": "EES — Official EU website",
+          "url": "https://www.gov.uk/foreign-travel-advice/bulgaria/entry-requirements",
+          "name": "UK Foreign, Commonwealth & Development Office — Bulgaria travel advice: entry requirements",
           "type": "government",
-          "lastVerified": "2026-10-03"
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07",
+          "alsoStatedOn": [
+            {
+              "url": "https://travel-europe.europa.eu/en/ees/how-does-the-ees-work",
+              "name": "European Commission (DG HOME) / eu-LISA — Travel to Europe: How does the EES work?",
+              "lastVerified": "2026-10-07"
+            }
+          ]
         }
       },
       {

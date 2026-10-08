@@ -1445,8 +1445,15 @@
         "type": "igo",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-07",
-        "instrument": "Regulation (EC) No 810/2009 establishing a Community Code on Visas, Article 16(1) (visa fee EUR 90), Article 1(1) (stays not exceeding 90 days in any 180-day period) and Article 23(1)–(2) (decision within 15 calendar days, extendable to a maximum of 45 in individual cases), consolidated to 11 June 2024; no multiple-entry visas for Russian nationals under the Commission rules adopted 7 November 2025 (European Commission Daily News, https://ec.europa.eu/commission/presscorner/detail/en/mex_25_2635)",
-        "archiveUrl": "https://web.archive.org/web/20251008134447/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        "instrument": "Regulation (EC) No 810/2009 establishing a Community Code on Visas, Article 16(1) (visa fee EUR 90), Article 1(1) (stays not exceeding 90 days in any 180-day period) and Article 23(1)–(2) (decision within 15 calendar days, extendable to a maximum of 45 in individual cases), consolidated to 11 June 2024",
+        "archiveUrl": "https://web.archive.org/web/20251008134447/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611",
+        "alsoStatedOn": [
+          {
+            "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_25_2635",
+            "name": "European Commission — Daily News 7 November 2025: no more multiple-entry visas for Russian nationals",
+            "lastVerified": "2026-10-07"
+          }
+        ]
       }
     },
     {
@@ -1631,16 +1638,27 @@
         "id": "ees",
         "name": "EES — Entry/Exit System (biometric registration)",
         "mandatory": true,
-        "fee": null,
+        "fee": {
+          "amount": 0,
+          "currency": "EUR"
+        },
         "submitAt": "on-arrival",
         "submitWindow": "At the border on first entry",
         "url": "https://travel-europe.europa.eu/en/ees",
-        "text": "Non-EU travelers are registered biometrically (fingerprints and photo) in the EU Entry/Exit System at Schengen external borders. Registration happens at the border. There is nothing to submit in advance; the EU says registration can be quicker if you register some data beforehand at a self-service kiosk or through a national app, where available.",
+        "text": "Non-EU travelers are registered biometrically (fingerprints and photo) in the EU Entry/Exit System at Schengen external borders. Registration happens at the border. There is nothing to submit in advance; the EU says registration can be quicker if you register some data beforehand at a self-service kiosk or through a national app, where available. The UK government's travel advice says there is no cost for EES registration.",
         "source": {
-          "url": "https://travel-europe.europa.eu/en/ees/how-does-the-ees-work",
-          "name": "EES — Official EU website",
+          "url": "https://www.gov.uk/foreign-travel-advice/italy/entry-requirements",
+          "name": "UK Foreign, Commonwealth & Development Office — Italy travel advice: entry requirements",
           "type": "government",
-          "lastVerified": "2026-10-03"
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07",
+          "alsoStatedOn": [
+            {
+              "url": "https://travel-europe.europa.eu/en/ees/how-does-the-ees-work",
+              "name": "European Commission (DG HOME) / eu-LISA — Travel to Europe: How does the EES work?",
+              "lastVerified": "2026-10-07"
+            }
+          ]
         }
       },
       {

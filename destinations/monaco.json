@@ -1483,16 +1483,27 @@
         "id": "ees",
         "name": "EES — Entry/Exit System (biometric registration)",
         "mandatory": true,
-        "fee": null,
+        "fee": {
+          "amount": 0,
+          "currency": "EUR"
+        },
         "submitAt": "on-arrival",
         "submitWindow": "At the border on first entry",
         "url": "https://travel-europe.europa.eu/en/ees",
-        "text": "Non-EU travelers are registered biometrically (fingerprints and photo) in the EU Entry/Exit System at Schengen external borders. Registration happens at the border; there is nothing to submit in advance.",
+        "text": "Non-EU travelers are registered biometrically (fingerprints and photo) in the EU Entry/Exit System at Schengen external borders. Registration happens at the border; there is nothing to submit in advance. The UK government's travel advice for France, which handles Monaco's immigration, says there is no cost for EES registration.",
         "source": {
-          "url": "https://travel-europe.europa.eu/en/ees/how-does-the-ees-work",
-          "name": "EES — Official EU website",
+          "url": "https://www.gov.uk/foreign-travel-advice/france/entry-requirements",
+          "name": "UK Foreign, Commonwealth & Development Office — France travel advice: entry requirements (France handles immigration matters for Monaco)",
           "type": "government",
-          "lastVerified": "2026-10-03"
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07",
+          "alsoStatedOn": [
+            {
+              "url": "https://travel-europe.europa.eu/en/ees/how-does-the-ees-work",
+              "name": "European Commission (DG HOME) / eu-LISA — Travel to Europe: How does the EES work?",
+              "lastVerified": "2026-10-07"
+            }
+          ]
         }
       },
       {

@@ -1776,7 +1776,7 @@
   "entryRequirements": {
     "passportValidity": {
       "rule": "6-months-on-arrival",
-      "text": "The SME eVisa requirements ask for a passport valid for at least 6 months; the UK Foreign Office says it must be valid for at least 6 months after the date you arrive in Angola and have at least 2 blank pages.",
+      "text": "The SME eVisa requirements ask for a passport valid for at least 6 months, and the portal's form instructions ask applicants for a passport valid for at least one year with at least 4 empty pages. The UK Foreign Office says it must be valid for at least 6 months after the date you arrive in Angola and have at least 2 blank pages.",
       "source": {
         "url": "https://smevisa.gov.ao/ao/perguntas-frequentes/evisa-english-version/",
         "name": "SME — Angola eVisa portal: FAQ, eVISA (english version)",
@@ -1786,12 +1786,19 @@
       }
     },
     "blankPages": {
-      "count": 2,
+      "count": 4,
       "source": {
-        "url": "https://www.gov.uk/foreign-travel-advice/angola/entry-requirements",
-        "name": "UK Foreign, Commonwealth & Development Office — Angola travel advice: entry requirements",
+        "url": "https://smevisa.gov.ao/ao/perguntas-frequentes/evisa-english-version/",
+        "name": "SME — Angola eVisa portal: FAQ, eVISA (english version), Instructions for Form (\"a valid passport for a minimum of one year with at least 4 empty pages\")",
         "type": "government",
-        "lastVerified": "2026-10-07"
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-07",
+        "conflict": {
+          "url": "https://www.gov.uk/foreign-travel-advice/angola/entry-requirements",
+          "name": "UK Foreign, Commonwealth & Development Office — Angola travel advice: entry requirements",
+          "states": "at least 2 blank pages",
+          "resolvedBy": "hierarchy"
+        }
       }
     },
     "vaccinations": [
@@ -2042,7 +2049,7 @@
     {
       "id": "border-documents",
       "question": "What documents do I need at the Angolan border?",
-      "answer": "The UK Foreign Office says your passport must be valid for at least 6 months after you arrive and have 2 blank pages, and WHO lists a yellow fever certificate as required from all travellers aged 9 months or over. eVisa applicants must also upload a round-trip flight booking, an accommodation booking and proof of financial means."
+      "answer": "The eVisa portal's form instructions ask for a passport with at least 4 empty pages; the UK Foreign Office says your passport must be valid for at least 6 months after you arrive and have 2 blank pages, and WHO lists a yellow fever certificate as required from all travellers aged 9 months or over. eVisa applicants must also upload a round-trip flight booking, an accommodation booking and proof of financial means."
     }
   ]
 }

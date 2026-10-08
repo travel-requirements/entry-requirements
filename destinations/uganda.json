@@ -2804,7 +2804,7 @@
       "fee": {
         "amount": 100,
         "currency": "USD",
-        "notes": "USD 100 for 6 or 12 months' validity and USD 200 for 24 months."
+        "notes": "USD 100 for 6 or 12 months' validity and USD 150 for 24 months."
       },
       "processing": null,
       "validityDays": 365,
@@ -2812,16 +2812,29 @@
       "entries": "multiple",
       "applyUrl": "https://visas.immigration.go.ug/",
       "source": {
-        "url": "https://www.immigration.go.ug/services/multiple-entry-visa",
-        "name": "National Citizenship and Immigration Control — multiple-entry visa",
+        "url": "https://www.immigration.go.ug/sites/default/files/2021-06/UGANDA%20CITIZENSHIP%20AND%20IMMIGRATION%20CONTROL%20FEES%2C2021.pdf",
+        "name": "Uganda Citizenship and Immigration Control (Fees) Regulations, 2021 — Schedule, item 2(c): multiple entry visa, 6–12 months US$100, 24 months US$150",
         "type": "government",
         "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-03",
+        "lastChanged": "2026-10-07",
+        "instrument": "Uganda Citizenship and Immigration Control (Fees) Regulations, 2021, Schedule, Part 1, item 2(c)",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.immigration.go.ug/services/multiple-entry-visa",
+            "name": "National Citizenship and Immigration Control — multiple-entry visa (6, 12 or 24 months; 6 to 12 months USD 100)",
+            "lastVerified": "2026-10-07"
+          },
+          {
+            "url": "https://visas.immigration.go.ug/#/apply",
+            "name": "Uganda Electronic Visa/Permit application — Select type of application (Multiple-Entry, 24 Months: Application Fee USD 150)",
+            "lastVerified": "2026-10-07"
+          }
+        ],
         "conflict": {
-          "url": "https://visas.immigration.go.ug/#/apply",
-          "name": "Uganda Directorate of Citizenship and Immigration Control — Electronic Visa/Permit application, Select type of application step (Multiple-Entry, 24 Months)",
-          "states": "Application Fee USD 150 for 24 months",
-          "resolvedBy": "stricter"
+          "url": "https://www.immigration.go.ug/services/multiple-entry-visa",
+          "name": "National Citizenship and Immigration Control — multiple-entry visa service page",
+          "states": "USD 200 for 24 months",
+          "resolvedBy": "hierarchy"
         }
       },
       "documents": {

@@ -1548,10 +1548,14 @@
       "fee": {
         "amount": 60,
         "currency": "EUR",
-        "notes": "35 euros for children aged 6–12. Set by Tariff No. 135 of the Law on Administrative Fees."
+        "notes": "35 euros for children aged 6–12. Set by Tariff No. 135 of the Law on Administrative Fees. Under the Law on Foreigners a decision is due within 15 calendar days of a complete application, extendable to 30 days and, where extra documents or prior consent are needed, to 60; the visa is issued with a validity of up to one year."
       },
-      "processing": null,
-      "validityDays": null,
+      "processing": {
+        "minDays": 15,
+        "maxDays": 60,
+        "unit": "calendar-days"
+      },
+      "validityDays": 365,
       "stayDays": 90,
       "entries": "multiple",
       "extendable": {
@@ -1565,7 +1569,14 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "instrument": "Law on Administrative Fees, Tariff No. 135",
-        "lastChanged": "2026-10-07"
+        "lastChanged": "2026-10-07",
+        "alsoStatedOn": [
+          {
+            "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-mvr-file-UtsW.pdf",
+            "name": "Law on Foreigners, consolidated text (Ministry of Internal Affairs) — Art. 35 (decision within 15 calendar days, up to 30, up to 60) and Art. 36(1) (C visa valid up to one year)",
+            "lastVerified": "2026-10-07"
+          }
+        ]
       }
     },
     {

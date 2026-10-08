@@ -2008,9 +2008,13 @@
       "fee": {
         "amount": 20.4,
         "currency": "USD",
-        "notes": "USD 20 visa fee plus a 2% service fee, paid online by Visa or Mastercard; not refundable. The portal says a decision takes at least 5 working days."
+        "notes": "USD 20 visa fee plus a 2% service fee, paid online by Visa or Mastercard; not refundable. The application form says a decision takes up to 5 working days, and up to 10 working days if additional examination is needed."
       },
-      "processing": null,
+      "processing": {
+        "minDays": 0,
+        "maxDays": 10,
+        "unit": "business-days"
+      },
       "validityDays": 120,
       "stayDays": 30,
       "entries": "single",
@@ -2021,11 +2025,23 @@
       "applyUrl": "https://www.evisa.gov.ge/",
       "source": {
         "url": "https://www.evisa.gov.ge/GeoVisa/en/VisaApp",
-        "name": "Georgia e-Visa Portal — application form, per-nationality visa terms",
+        "name": "Georgia e-Visa Portal — application form, per-nationality visa terms (e.g. India, Philippines, Laos: USD 20, 120 days, 30 days in Georgia) and decision time",
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-07",
-        "instrument": "Per-nationality terms shown by the application form (e.g. India, Philippines, Laos: USD 20, 120 days, 30 days in Georgia, single entry); the 2% service fee and non-refundability are stated in the portal FAQ (https://www.evisa.gov.ge/GeoVisa/en/Home/FAQ)"
+        "alsoStatedOn": [
+          {
+            "url": "https://www.evisa.gov.ge/GeoVisa/en/Home/FAQ",
+            "name": "Georgia e-Visa Portal — FAQ (2% service fee; fee not refundable)",
+            "lastVerified": "2026-10-07"
+          }
+        ],
+        "conflict": {
+          "url": "https://www.evisa.gov.ge/GeoVisa/en/Home/FAQ",
+          "name": "Georgia e-Visa Portal — FAQ, 'How long does it take to get my e-Visa?'",
+          "states": "not less than 5 working days",
+          "resolvedBy": "stricter"
+        }
       },
       "documents": {
         "items": [

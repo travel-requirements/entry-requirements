@@ -131,6 +131,32 @@
                 "type": "string",
                 "minLength": 3
               },
+              "alsoStatedOn": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "lastVerified": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "name",
+                    "lastVerified"
+                  ],
+                  "additionalProperties": false
+                }
+              },
               "portalOnly": {
                 "type": "boolean"
               },
@@ -273,6 +299,32 @@
             "instrument": {
               "type": "string",
               "minLength": 3
+            },
+            "alsoStatedOn": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "name": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "lastVerified": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  }
+                },
+                "required": [
+                  "url",
+                  "name",
+                  "lastVerified"
+                ],
+                "additionalProperties": false
+              }
             },
             "portalOnly": {
               "type": "boolean"
@@ -456,6 +508,32 @@
                 "instrument": {
                   "type": "string",
                   "minLength": 3
+                },
+                "alsoStatedOn": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "lastVerified": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "name",
+                      "lastVerified"
+                    ],
+                    "additionalProperties": false
+                  }
                 },
                 "portalOnly": {
                   "type": "boolean"
@@ -717,6 +795,32 @@
                         "type": "string",
                         "minLength": 3
                       },
+                      "alsoStatedOn": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "url": {
+                              "type": "string",
+                              "format": "uri"
+                            },
+                            "name": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "lastVerified": {
+                              "type": "string",
+                              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                            }
+                          },
+                          "required": [
+                            "url",
+                            "name",
+                            "lastVerified"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
                       "portalOnly": {
                         "type": "boolean"
                       },
@@ -837,6 +941,32 @@
                   "instrument": {
                     "type": "string",
                     "minLength": 3
+                  },
+                  "alsoStatedOn": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string",
+                          "format": "uri"
+                        },
+                        "name": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "lastVerified": {
+                          "type": "string",
+                          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "name",
+                        "lastVerified"
+                      ],
+                      "additionalProperties": false
+                    }
                   },
                   "portalOnly": {
                     "type": "boolean"
@@ -1009,6 +1139,32 @@
                   "instrument": {
                     "type": "string",
                     "minLength": 3
+                  },
+                  "alsoStatedOn": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string",
+                          "format": "uri"
+                        },
+                        "name": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "lastVerified": {
+                          "type": "string",
+                          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "name",
+                        "lastVerified"
+                      ],
+                      "additionalProperties": false
+                    }
                   },
                   "portalOnly": {
                     "type": "boolean"
@@ -1318,6 +1474,32 @@
                 "type": "string",
                 "minLength": 3
               },
+              "alsoStatedOn": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "lastVerified": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "name",
+                    "lastVerified"
+                  ],
+                  "additionalProperties": false
+                }
+              },
               "portalOnly": {
                 "type": "boolean"
               },
@@ -1456,6 +1638,32 @@
                   "instrument": {
                     "type": "string",
                     "minLength": 3
+                  },
+                  "alsoStatedOn": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string",
+                          "format": "uri"
+                        },
+                        "name": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "lastVerified": {
+                          "type": "string",
+                          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "name",
+                        "lastVerified"
+                      ],
+                      "additionalProperties": false
+                    }
                   },
                   "portalOnly": {
                     "type": "boolean"
@@ -1612,6 +1820,32 @@
                   "instrument": {
                     "type": "string",
                     "minLength": 3
+                  },
+                  "alsoStatedOn": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string",
+                          "format": "uri"
+                        },
+                        "name": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "lastVerified": {
+                          "type": "string",
+                          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "name",
+                        "lastVerified"
+                      ],
+                      "additionalProperties": false
+                    }
                   },
                   "portalOnly": {
                     "type": "boolean"
@@ -1860,6 +2094,32 @@
                 "type": "string",
                 "minLength": 3
               },
+              "alsoStatedOn": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "lastVerified": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "name",
+                    "lastVerified"
+                  ],
+                  "additionalProperties": false
+                }
+              },
               "portalOnly": {
                 "type": "boolean"
               },
@@ -2079,6 +2339,32 @@
                     "type": "string",
                     "minLength": 3
                   },
+                  "alsoStatedOn": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string",
+                          "format": "uri"
+                        },
+                        "name": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "lastVerified": {
+                          "type": "string",
+                          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "name",
+                        "lastVerified"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
                   "portalOnly": {
                     "type": "boolean"
                   },
@@ -2205,6 +2491,32 @@
             "instrument": {
               "type": "string",
               "minLength": 3
+            },
+            "alsoStatedOn": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "name": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "lastVerified": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  }
+                },
+                "required": [
+                  "url",
+                  "name",
+                  "lastVerified"
+                ],
+                "additionalProperties": false
+              }
             },
             "portalOnly": {
               "type": "boolean"
@@ -2395,6 +2707,32 @@
                 "type": "string",
                 "minLength": 3
               },
+              "alsoStatedOn": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "lastVerified": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "name",
+                    "lastVerified"
+                  ],
+                  "additionalProperties": false
+                }
+              },
               "portalOnly": {
                 "type": "boolean"
               },
@@ -2535,6 +2873,32 @@
                   "type": "string",
                   "minLength": 3
                 },
+                "alsoStatedOn": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "lastVerified": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "name",
+                      "lastVerified"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
                 "portalOnly": {
                   "type": "boolean"
                 },
@@ -2657,6 +3021,32 @@
                 "instrument": {
                   "type": "string",
                   "minLength": 3
+                },
+                "alsoStatedOn": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "lastVerified": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "name",
+                      "lastVerified"
+                    ],
+                    "additionalProperties": false
+                  }
                 },
                 "portalOnly": {
                   "type": "boolean"
@@ -2804,6 +3194,32 @@
                   "instrument": {
                     "type": "string",
                     "minLength": 3
+                  },
+                  "alsoStatedOn": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string",
+                          "format": "uri"
+                        },
+                        "name": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "lastVerified": {
+                          "type": "string",
+                          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "name",
+                        "lastVerified"
+                      ],
+                      "additionalProperties": false
+                    }
                   },
                   "portalOnly": {
                     "type": "boolean"
@@ -2973,6 +3389,32 @@
                   "type": "string",
                   "minLength": 3
                 },
+                "alsoStatedOn": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "lastVerified": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "name",
+                      "lastVerified"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
                 "portalOnly": {
                   "type": "boolean"
                 },
@@ -3113,6 +3555,32 @@
                 "instrument": {
                   "type": "string",
                   "minLength": 3
+                },
+                "alsoStatedOn": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "lastVerified": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "name",
+                      "lastVerified"
+                    ],
+                    "additionalProperties": false
+                  }
                 },
                 "portalOnly": {
                   "type": "boolean"
@@ -3287,6 +3755,32 @@
                 "instrument": {
                   "type": "string",
                   "minLength": 3
+                },
+                "alsoStatedOn": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "lastVerified": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "name",
+                      "lastVerified"
+                    ],
+                    "additionalProperties": false
+                  }
                 },
                 "portalOnly": {
                   "type": "boolean"
@@ -3486,6 +3980,32 @@
                     "type": "string",
                     "minLength": 3
                   },
+                  "alsoStatedOn": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string",
+                          "format": "uri"
+                        },
+                        "name": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "lastVerified": {
+                          "type": "string",
+                          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "name",
+                        "lastVerified"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
                   "portalOnly": {
                     "type": "boolean"
                   },
@@ -3616,6 +4136,32 @@
                     "instrument": {
                       "type": "string",
                       "minLength": 3
+                    },
+                    "alsoStatedOn": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "url": {
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          "name": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "lastVerified": {
+                            "type": "string",
+                            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                          }
+                        },
+                        "required": [
+                          "url",
+                          "name",
+                          "lastVerified"
+                        ],
+                        "additionalProperties": false
+                      }
                     },
                     "portalOnly": {
                       "type": "boolean"
@@ -3894,6 +4440,32 @@
                       "type": "string",
                       "minLength": 3
                     },
+                    "alsoStatedOn": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "url": {
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          "name": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "lastVerified": {
+                            "type": "string",
+                            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                          }
+                        },
+                        "required": [
+                          "url",
+                          "name",
+                          "lastVerified"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
                     "portalOnly": {
                       "type": "boolean"
                     },
@@ -4122,6 +4694,32 @@
                   "type": "string",
                   "minLength": 3
                 },
+                "alsoStatedOn": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "lastVerified": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "name",
+                      "lastVerified"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
                 "portalOnly": {
                   "type": "boolean"
                 },
@@ -4306,6 +4904,32 @@
                     "type": "string",
                     "minLength": 3
                   },
+                  "alsoStatedOn": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string",
+                          "format": "uri"
+                        },
+                        "name": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "lastVerified": {
+                          "type": "string",
+                          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "name",
+                        "lastVerified"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
                   "portalOnly": {
                     "type": "boolean"
                   },
@@ -4459,6 +5083,32 @@
                 "instrument": {
                   "type": "string",
                   "minLength": 3
+                },
+                "alsoStatedOn": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "lastVerified": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "name",
+                      "lastVerified"
+                    ],
+                    "additionalProperties": false
+                  }
                 },
                 "portalOnly": {
                   "type": "boolean"
@@ -4646,6 +5296,32 @@
                   "type": "string",
                   "minLength": 3
                 },
+                "alsoStatedOn": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "lastVerified": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "name",
+                      "lastVerified"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
                 "portalOnly": {
                   "type": "boolean"
                 },
@@ -4820,6 +5496,32 @@
                   "type": "string",
                   "minLength": 3
                 },
+                "alsoStatedOn": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "lastVerified": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "name",
+                      "lastVerified"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
                 "portalOnly": {
                   "type": "boolean"
                 },
@@ -4981,6 +5683,32 @@
                         "type": "string",
                         "minLength": 3
                       },
+                      "alsoStatedOn": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "url": {
+                              "type": "string",
+                              "format": "uri"
+                            },
+                            "name": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "lastVerified": {
+                              "type": "string",
+                              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                            }
+                          },
+                          "required": [
+                            "url",
+                            "name",
+                            "lastVerified"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
                       "portalOnly": {
                         "type": "boolean"
                       },
@@ -5123,6 +5851,32 @@
                 "instrument": {
                   "type": "string",
                   "minLength": 3
+                },
+                "alsoStatedOn": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "lastVerified": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "name",
+                      "lastVerified"
+                    ],
+                    "additionalProperties": false
+                  }
                 },
                 "portalOnly": {
                   "type": "boolean"
@@ -5334,6 +6088,32 @@
                   "type": "string",
                   "minLength": 3
                 },
+                "alsoStatedOn": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "lastVerified": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "name",
+                      "lastVerified"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
                 "portalOnly": {
                   "type": "boolean"
                 },
@@ -5465,6 +6245,32 @@
                     "instrument": {
                       "type": "string",
                       "minLength": 3
+                    },
+                    "alsoStatedOn": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "url": {
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          "name": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "lastVerified": {
+                            "type": "string",
+                            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                          }
+                        },
+                        "required": [
+                          "url",
+                          "name",
+                          "lastVerified"
+                        ],
+                        "additionalProperties": false
+                      }
                     },
                     "portalOnly": {
                       "type": "boolean"
@@ -5763,6 +6569,32 @@
                           "type": "string",
                           "minLength": 3
                         },
+                        "alsoStatedOn": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "url": {
+                                "type": "string",
+                                "format": "uri"
+                              },
+                              "name": {
+                                "type": "string",
+                                "minLength": 1
+                              },
+                              "lastVerified": {
+                                "type": "string",
+                                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                              }
+                            },
+                            "required": [
+                              "url",
+                              "name",
+                              "lastVerified"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
                         "portalOnly": {
                           "type": "boolean"
                         },
@@ -5886,6 +6718,32 @@
                 "instrument": {
                   "type": "string",
                   "minLength": 3
+                },
+                "alsoStatedOn": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "lastVerified": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "name",
+                      "lastVerified"
+                    ],
+                    "additionalProperties": false
+                  }
                 },
                 "portalOnly": {
                   "type": "boolean"
@@ -6043,6 +6901,32 @@
                     "instrument": {
                       "type": "string",
                       "minLength": 3
+                    },
+                    "alsoStatedOn": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "url": {
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          "name": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "lastVerified": {
+                            "type": "string",
+                            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                          }
+                        },
+                        "required": [
+                          "url",
+                          "name",
+                          "lastVerified"
+                        ],
+                        "additionalProperties": false
+                      }
                     },
                     "portalOnly": {
                       "type": "boolean"
@@ -6228,6 +7112,32 @@
                   "type": "string",
                   "minLength": 3
                 },
+                "alsoStatedOn": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "lastVerified": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "name",
+                      "lastVerified"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
                 "portalOnly": {
                   "type": "boolean"
                 },
@@ -6364,6 +7274,32 @@
               "instrument": {
                 "type": "string",
                 "minLength": 3
+              },
+              "alsoStatedOn": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "lastVerified": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "name",
+                    "lastVerified"
+                  ],
+                  "additionalProperties": false
+                }
               },
               "portalOnly": {
                 "type": "boolean"

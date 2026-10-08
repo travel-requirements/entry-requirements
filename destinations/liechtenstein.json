@@ -1510,16 +1510,27 @@
         "id": "ees",
         "name": "EES — Entry/Exit System (biometric registration)",
         "mandatory": true,
-        "fee": null,
+        "fee": {
+          "amount": 0,
+          "currency": "CHF"
+        },
         "submitAt": "on-arrival",
         "submitWindow": "At the border on first entry",
         "url": "https://travel-europe.europa.eu/en/ees",
-        "text": "Non-EU travelers have their face photo and/or fingerprints recorded in the EU Entry/Exit System the first time they cross a Schengen external border since the system started, and passports are no longer stamped. Canada's travel advice says Liechtenstein has no international airport; the closest is in Zurich.",
+        "text": "Non-EU travelers have their face photo and/or fingerprints recorded in the EU Entry/Exit System the first time they cross a Schengen external border since the system started, and passports are no longer stamped. Canada's travel advice says Liechtenstein has no international airport; the closest is in Zurich. The UK government's travel advice says there is no cost for EES registration.",
         "source": {
-          "url": "https://travel-europe.europa.eu/en/ees/how-does-the-ees-work",
-          "name": "EES — Official EU website",
+          "url": "https://www.gov.uk/foreign-travel-advice/liechtenstein/entry-requirements",
+          "name": "UK Foreign, Commonwealth & Development Office — Liechtenstein travel advice: entry requirements",
           "type": "government",
-          "lastVerified": "2026-10-03"
+          "lastVerified": "2026-10-07",
+          "lastChanged": "2026-10-07",
+          "alsoStatedOn": [
+            {
+              "url": "https://travel-europe.europa.eu/en/ees/how-does-the-ees-work",
+              "name": "European Commission (DG HOME) / eu-LISA — Travel to Europe: How does the EES work?",
+              "lastVerified": "2026-10-07"
+            }
+          ]
         }
       },
       {
