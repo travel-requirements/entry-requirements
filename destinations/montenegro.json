@@ -3201,7 +3201,11 @@
       "method": "embassy",
       "name": "Short-stay visa (visa C)",
       "fee": null,
-      "processing": null,
+      "processing": {
+        "minDays": null,
+        "maxDays": 60,
+        "unit": "calendar-days"
+      },
       "validityDays": null,
       "stayDays": 90,
       "entries": null,
@@ -3233,6 +3237,10 @@
         "method": {
           "text": "A visa application is submitted to the diplomatic or consular mission in person on the prescribed form.",
           "url": "https://www.gov.me/en/article/visas"
+        },
+        "processing": {
+          "text": "Exceptionally, when additional documentation is required for the issuance of a visa, the deadline may be extended up to 60 days.",
+          "url": "https://www.gov.me/en/article/visas"
         }
       }
     },
@@ -3242,7 +3250,11 @@
       "method": "embassy",
       "name": "Long-stay visa (D visa)",
       "fee": null,
-      "processing": null,
+      "processing": {
+        "minDays": null,
+        "maxDays": 60,
+        "unit": "calendar-days"
+      },
       "validityDays": null,
       "stayDays": null,
       "entries": null,
@@ -3269,6 +3281,10 @@
         },
         "method": {
           "text": "A visa application is submitted to the diplomatic or consular mission in person on the prescribed form.",
+          "url": "https://www.gov.me/en/article/visas"
+        },
+        "processing": {
+          "text": "Exceptionally, when additional documentation is required for the issuance of a visa, the deadline may be extended up to 60 days.",
           "url": "https://www.gov.me/en/article/visas"
         }
       }

@@ -2559,13 +2559,9 @@
       "method": "visa-on-arrival",
       "name": "Entry Permit (Indian nationals)",
       "fee": null,
-      "processing": {
-        "minDays": 3,
-        "maxDays": 3,
-        "unit": "business-days"
-      },
+      "processing": null,
       "validityDays": null,
-      "stayDays": null,
+      "stayDays": 90,
       "entries": null,
       "applyUrl": "https://immi.gov.bt/",
       "source": {
@@ -2576,16 +2572,16 @@
         "lastChanged": "2026-09-26"
       },
       "evidence": {
-        "processing": {
-          "text": "Turnaround time is 03 working days from the receipt of the complete application including the payment of applicable fee",
-          "url": "https://immi.gov.bt/faq"
-        },
         "name": {
           "text": "Nationals of India are eligible for entry permit on arrival at the port of entry.",
           "url": "https://immi.gov.bt/faq"
         },
         "method": {
           "text": "Nationals of India are issued an entry permit at the port of entry.",
+          "url": "https://immi.gov.bt/faq"
+        },
+        "stayDays": {
+          "text": "Foreigners can stay in the country as a tourist for a maximum of 90 days.",
           "url": "https://immi.gov.bt/faq"
         }
       },
@@ -2616,10 +2612,14 @@
       "category": "tourist",
       "method": "visa-on-arrival",
       "name": "Visa on Arrival (Bangladesh and Maldives nationals)",
-      "fee": null,
+      "fee": {
+        "amount": 40,
+        "currency": "USD",
+        "notes": null
+      },
       "processing": null,
       "validityDays": null,
-      "stayDays": null,
+      "stayDays": 90,
       "entries": null,
       "applyUrl": null,
       "source": {
@@ -2644,7 +2644,23 @@
         "method": {
           "text": "Visitors from Bangladesh and the Maldives also require a visa, but this can be applied for and approved either in advance of travel or upon arrival in Bhutan.",
           "url": "https://www.bhutan.travel/faqs"
+        },
+        "fee": {
+          "text": "There is a one-off fee of US$40 for the processing of your application.",
+          "url": "https://www.bhutan.travel/faqs"
+        },
+        "stayDays": {
+          "text": "The visa allows you to remain in Bhutan for a maximum of 90 days from the date of entry.",
+          "url": "https://www.bhutan.travel/faqs"
+        },
+        "extendable": {
+          "text": "Yes, provided the extension is applied for before the original visa or permit expires.",
+          "url": "https://www.bhutan.travel/faqs"
         }
+      },
+      "extendable": {
+        "possible": true,
+        "days": null
       }
     }
   ],

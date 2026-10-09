@@ -2570,14 +2570,14 @@
       "fee": {
         "amount": 50,
         "currency": "USD",
-        "notes": "Payable online at the time of application and non-refundable. The eVisa portal's FAQ lists a transit visa at USD 50, a six-month multiple-entry visa at USD 150 and a twelve-month one at USD 250, and says e-Visa applications are processed within three (3) working days; the portal's eligibility wizard gives a processing time of 5 days."
+        "notes": "Payable online and non-refundable. The eVisa portal's FAQ lists a transit visa at USD 50, a six-month multiple-entry visa at USD 150 and a twelve-month one at USD 250."
       },
       "processing": {
         "minDays": null,
-        "maxDays": 5,
-        "unit": "calendar-days"
+        "maxDays": 3,
+        "unit": "business-days"
       },
-      "validityDays": 90,
+      "validityDays": null,
       "stayDays": null,
       "entries": "single",
       "applyUrl": "https://www.evisa.gov.mw/",
@@ -2660,24 +2660,20 @@
       },
       "evidence": {
         "fee": {
-          "text": "Fee : 50.00 USD Payable online at the time of application and is non-refundable.",
-          "url": "https://www.evisa.gov.mw/VisaAssistance"
-        },
-        "validityDays": {
-          "text": "Validity of Visa approval : 90 days (from the day it was granted)",
-          "url": "https://www.evisa.gov.mw/VisaAssistance"
+          "text": "Single entry US$50",
+          "url": "https://www.evisa.gov.mw/Faq"
         },
         "entries": {
-          "text": "Visa Type : Single Entry",
-          "url": "https://www.evisa.gov.mw/VisaAssistance"
+          "text": "Single entry US$50",
+          "url": "https://www.evisa.gov.mw/Faq"
         },
         "processing": {
-          "text": "Time for Visa Processing : 5 days",
-          "url": "https://www.evisa.gov.mw/VisaAssistance"
+          "text": "E-Visa applications are processed within three (3) working days.",
+          "url": "https://www.evisa.gov.mw/Faq"
         },
         "name": {
-          "text": "Visa Type : Single Entry",
-          "url": "https://www.evisa.gov.mw/VisaAssistance"
+          "text": "Single entry US$50",
+          "url": "https://www.evisa.gov.mw/Faq"
         },
         "method": {
           "text": "Visa Eligibility Wizard is available to make your e-Visa application easier.",
@@ -2693,12 +2689,12 @@
       "fee": {
         "amount": 150,
         "currency": "USD",
-        "notes": "Six-month multiple-entry visa, payable online at the time of application and non-refundable; the eVisa portal's FAQ lists a twelve-month multiple-entry visa at USD 250."
+        "notes": "Six-month multiple-entry visa, payable online and non-refundable; the eVisa portal's FAQ lists a twelve-month multiple-entry visa at USD 250."
       },
       "processing": {
         "minDays": null,
-        "maxDays": 5,
-        "unit": "calendar-days"
+        "maxDays": 3,
+        "unit": "business-days"
       },
       "validityDays": 180,
       "stayDays": null,
@@ -2714,6 +2710,11 @@
           {
             "url": "https://www.evisa.gov.mw/VisaAssistance",
             "name": "Malawi eVisa portal — Visa Eligibility Wizard (Multiple Entry - 6 Months: fee 150.00 USD, time for visa processing 5 days)",
+            "lastVerified": "2026-10-09"
+          },
+          {
+            "url": "https://www.evisa.gov.mw/Faq",
+            "name": "Malawi eVisa portal — FAQs (fees; processing within three working days)",
             "lastVerified": "2026-10-09"
           }
         ]
@@ -2789,12 +2790,12 @@
           "url": "https://www.immigration.gov.mw/visa/visa-fees/"
         },
         "processing": {
-          "text": "Time for Visa Processing : 5 days",
-          "url": "https://www.evisa.gov.mw/VisaAssistance"
+          "text": "E-Visa applications are processed within three (3) working days.",
+          "url": "https://www.evisa.gov.mw/Faq"
         },
         "name": {
-          "text": "Visa Type : Multiple Entry - 6 Months",
-          "url": "https://www.evisa.gov.mw/VisaAssistance"
+          "text": "Multiple entry for 6 months US$150",
+          "url": "https://www.evisa.gov.mw/Faq"
         },
         "method": {
           "text": "Visa Eligibility Wizard is available to make your e-Visa application easier.",
@@ -3516,29 +3517,29 @@
     ],
     "visaTypes.mw-evisa.feeNotes": [
       {
-        "text": "50.00 USD Payable online at the time of application and is non-refundable.",
-        "url": "https://www.evisa.gov.mw/VisaAssistance"
+        "text": "Fees Payable Online",
+        "url": "https://www.immigration.gov.mw/visa/visa-fees/"
+      },
+      {
+        "text": "E-visa fees are non-refundable.",
+        "url": "https://www.evisa.gov.mw/Faq"
       },
       {
         "text": "Transit Visa US$50 · Single entry US$50 · Multiple entry for 6 months US$150 · Multiple entry for 12 months US$250",
         "url": "https://www.evisa.gov.mw/Faq"
-      },
-      {
-        "text": "E-Visa applications are processed within three (3) working days.",
-        "url": "https://www.evisa.gov.mw/Faq"
-      },
-      {
-        "text": "Time for Visa Processing : 5 days",
-        "url": "https://www.evisa.gov.mw/VisaAssistance"
       }
     ],
     "visaTypes.mw-evisa-multiple.feeNotes": [
       {
-        "text": "150.00 USD Payable online at the time of application and is non-refundable.",
-        "url": "https://www.evisa.gov.mw/VisaAssistance"
+        "text": "Multiple entry for 12 months US$250",
+        "url": "https://www.evisa.gov.mw/Faq"
       },
       {
-        "text": "Multiple entry for 12 months US$250",
+        "text": "Fees Payable Online",
+        "url": "https://www.immigration.gov.mw/visa/visa-fees/"
+      },
+      {
+        "text": "E-visa fees are non-refundable.",
         "url": "https://www.evisa.gov.mw/Faq"
       }
     ],
