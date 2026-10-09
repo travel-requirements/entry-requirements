@@ -14,7 +14,7 @@
     "mexico",
     "brazil"
   ],
-  "summary": "The Dominican Republic admits tourists from countries including the US, Canada and the UK visa-free for 30 days (for longer stays the Dirección General de Migración grants an extension it describes as extendable up to 120 days), requires every traveler to complete the free digital e-Ticket form for both arrival and departure, and lets anyone holding a valid US, Canadian, UK or Schengen multiple-entry visa or permanent residence enter for tourism with a valid passport and a tourist card.",
+  "summary": "The UK government says British citizens can visit the Dominican Republic for tourism without a visa for 30 days, and Canada's travel advice says a tourist visa is not required for up to 30 days. The Dirección General de Migración offers tourists who want to stay more than 30 days an extension (prórroga) of up to 120 days. Every passenger entering or leaving must complete the digital e-Ticket form, which Migration says is free. Under Decree No. 691-07, foreigners with permanent residence or a valid multiple-entry visa for the United States, the European Union (Schengen), Canada or Great Britain can enter for tourism with only a valid passport and a tourist card.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -82,6 +82,11 @@
           "url": "https://travel.gc.ca/destinations/dominican-republic",
           "name": "Government of Canada — Dominican Republic travel advice (tourist card included in the airline ticket when arriving by air)",
           "lastVerified": "2026-10-07"
+        },
+        {
+          "url": "https://consultas.mirex.gob.do/servicios/visas/consulta-de-requisitos-para-extranjeros-ingresar-a-la-republica-dominicana/results?condicion=Extranjeros&country=64&tipoPasaporte=Ordinario&tipoVisa=visa_ts",
+          "name": "MIREX — visa requirements checker, result for Estados Unidos de América, ordinary passport, tourist visa (TS)",
+          "lastVerified": "2026-10-09"
         }
       ],
       "list": {
@@ -1575,9 +1580,9 @@
       {
         "id": "us-visa",
         "requirement": "visa-free",
-        "maxStayDays": 30,
+        "maxStayDays": null,
         "appliesTo": "visa-required",
-        "text": "Travelers holding a valid US, Canadian, UK or Schengen multiple-entry visa or permanent residence may enter the Dominican Republic visa-free for up to 30 days.",
+        "text": "Under Decree No. 691-07, foreigners with permanent residence or a valid multiple-entry visa for the United States, the European Union (Schengen), Canada or Great Britain can enter the Dominican Republic for tourism with only a valid passport and a tourist card.",
         "source": {
           "url": "https://consultas.mirex.gob.do/servicios/visas/consulta-de-requisitos-para-extranjeros-ingresar-a-la-republica-dominicana",
           "name": "MIREX — Decree No. 691-07 (entry for holders of US, Canadian, UK or Schengen multiple-entry visas or permanent residence)",
@@ -1604,7 +1609,7 @@
       "fee": {
         "amount": 100,
         "currency": "USD",
-        "notes": "Single-entry tourist visa (TS); a multiple-entry tourist visa (TM) costs US$150. Under Decree 691-07, foreigners with permanent residence or a valid multiple-entry visa for the United States, the European Union (Schengen), Canada or Great Britain can enter for tourism with only a valid passport and a tourist card."
+        "notes": "Visa de Turismo Simple (TS) US$100.00; Visa de Turismo Múltiple (TM) US$150.00. MIREX describes the TS as for 60 days with one entry and the TM as for 60 days with two entries."
       },
       "processing": null,
       "validityDays": null,
@@ -1633,6 +1638,12 @@
             "name": "Dirección General de Migración — Permisos: Prórroga de estadía para turistas",
             "type": "government",
             "lastVerified": "2026-10-09"
+          },
+          {
+            "url": "https://servicios360.mirex.gob.do/visas/",
+            "name": "MIREX — Visas: Visa de Turismo Simple (TS) por 60 días una entrada o Turismo Múltiple (TM) por 60 días con dos entradas",
+            "type": "government",
+            "lastVerified": "2026-10-09"
           }
         ]
       },
@@ -1642,8 +1653,8 @@
           "url": "https://servicios360.mirex.gob.do/tasas-consulares/"
         },
         "entries": {
-          "text": "Visa de Turismo Simple (TS) US$100.00",
-          "url": "https://servicios360.mirex.gob.do/tasas-consulares/"
+          "text": "REQUISITOS VISA DE TURISMO SIMPLE (TS) POR 60 DÍAS UNA ENTRADA O TURISMO MÚLTIPLE (TM) POR 60 DÍAS CON DOS ENTRADAS",
+          "url": "https://servicios360.mirex.gob.do/visas/"
         },
         "extendable": {
           "text": "Autorizar a los extranjeros interesados en prolongar su estadía en la República Dominicana por más de 30, a través de una prórroga extensible hasta 120 días.",
@@ -1674,7 +1685,7 @@
         "name": "Yellow fever",
         "certificate": "International Certificate of Vaccination or Prophylaxis (ICVP)",
         "requiredWhen": "arriving-from-risk-country",
-        "text": "A yellow fever vaccination certificate is required from travelers aged one year and over arriving from a country with risk of yellow fever transmission, including anyone who spent more than 12 hours in transit through such a country's airport. The list of origin countries the requirement applies to is the Dominican Republic's own and differs from WHO's risk list.",
+        "text": "WHO's yellow fever list (International Travel and Health, Annex 1) shows the Dominican Republic requiring proof of yellow fever vaccination from travellers aged 1 year and over arriving from countries determined by WHO to be at risk of transmission, including travellers who transited more than 12 hours through the airport of such a country. WHO notes that the list of countries this requirement applies to differs from its list of countries at risk.",
         "source": {
           "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf",
           "name": "WHO, International Travel and Health, Annex 1 — countries requiring proof of vaccination against yellow fever",
@@ -1690,7 +1701,7 @@
       "required": null,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "No official source we could read states a travel insurance requirement for the Dominican Republic. The Government of Canada says medical facilities may require payment up front and that private hospitals may ask to see proof of insurance before admitting you.",
+      "text": "No official source we could read states a travel insurance requirement for the Dominican Republic. Canada's travel advice says medical facilities may require payment up front, and that private hospitals and doctors could request to see proof of your insurance before admitting you as a patient.",
       "source": {
         "url": "https://travel.gc.ca/destinations/dominican-republic",
         "name": "Government of Canada — Dominican Republic travel advice",
@@ -1714,7 +1725,7 @@
       "required": null,
       "appliesTo": null,
       "amount": null,
-      "text": "No official source we could read publishes a minimum amount. Canada's travel advice says you may need to prove adequate funds for the duration of your stay when you enter, and give the address where you will be staying.",
+      "text": "No official source we could read publishes a minimum amount. Canada's travel advice says that when you enter the Dominican Republic you may need to be able to prove adequate funds for the duration of your stay, and that you will also need to provide the address where you will be staying.",
       "source": {
         "url": "https://travel.gc.ca/destinations/dominican-republic",
         "name": "Government of Canada — Travel advice and advisories: Dominican Republic (entry and exit requirements)",
@@ -1735,7 +1746,7 @@
         "submitAt": "before-travel",
         "submitWindow": "Online, for arrival and again for departure",
         "url": "https://eticket.migracion.gob.do/",
-        "text": "Every passenger entering or leaving the Dominican Republic must complete the digital e-Ticket, a form required by the Dirección General de Migración and the Dirección General de Aduanas. The Dirección General de Migración says the e-Ticket is free and that unofficial lookalike sites charge for it, so use only the official eticket.migracion.gob.do site. The e-Ticket portal cites Laws 285-04, 115-17, 72-02 and 226-06, says the Ministry of Public Health also requires the form, and says the Unique Customs Declaration part is required only for adults (18 and over).",
+        "text": "The Dirección General de Migración says every passenger entering or leaving the Dominican Republic must truthfully complete the digital e-Ticket for the Dirección General de Migración and the Dirección General de Aduanas, under Laws 285-04, 115-17, 72-02 and 226-06. It says its e-Ticket service is free and urges travellers not to use unofficial pages that ask for data and payment for it. The e-Ticket portal (eticket.migracion.gob.do) says the form is also for the Ministry of Public Health and that the Unique Customs Declaration is only required for adults (18+).",
         "source": {
           "url": "https://migracion.gob.do/e-ticket-ticket-electronico-de-entrada-y-salida-de-la-republica-dominicana/",
           "name": "Dirección General de Migración — E-TICKET, ticket electrónico de entrada y salida",
@@ -1754,7 +1765,7 @@
     ],
     "customs": {
       "currencyLimits": {
-        "text": "Cash of USD 10,000 or more (or the equivalent in Dominican pesos or another currency) and bearer instruments must be declared to customs officers on entry or exit, using the form provided for that purpose, with documents showing that the money was lawfully obtained.",
+        "text": "The Dirección General de Aduanas says no tax is charged for carrying money, but that if you enter or leave with more than US$10,000 or the equivalent in Dominican pesos or another foreign currency, or in bearer securities, you must declare it to its officers on entry or exit using the form provided for that purpose, and have documents showing the lawful origin of the funds.",
         "source": {
           "url": "https://www.aduanas.gob.do/manual-del-viajero/",
           "name": "Dirección General de Aduanas — Manual del Viajero (traveller's guide)",
@@ -1774,7 +1785,7 @@
     "payments": null,
     "safety": {
       "level": "exercise-caution",
-      "text": "The UK government describes the crime rate as high, from bag-snatching and pickpocketing to violent crime and carjacking. It says thieves on motorcycles snatch bags from pedestrians and reach into cars stopped at red lights, and that assaults on foreigners have occurred, including at beach resorts. It advises avoiding remote areas, particularly after dark, and not wearing expensive jewellery or carrying large amounts of cash.",
+      "text": "The UK government says the crime rate in the Dominican Republic is high, with incidents ranging from opportunistic bag-snatching and pickpocketing to violent crime and carjacking. It says thieves on motorcycles snatch bags and valuables from pedestrians and sometimes reach through the windows of cars at red lights, and that incidents of assault against foreigners have occurred, including at beach resorts. It says you can reduce your personal risk by avoiding remote areas, particularly after dark, and by not wearing expensive jewellery or carrying large amounts of cash.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/dominican-republic/safety-and-security",
         "name": "UK Foreign, Commonwealth & Development Office — Dominican Republic travel advice: safety and security",
@@ -1820,7 +1831,7 @@
     },
     "bestTimeToVisit": {
       "months": [],
-      "text": "Canada's travel advice says the hurricane season runs from early June to the end of November."
+      "text": "Canada's travel advice says the hurricane season is from early June to the end of November in the Atlantic, Caribbean Sea and Gulf of Mexico."
     },
     "languages": [
       "Spanish"
@@ -1834,7 +1845,7 @@
         "conventions": [
           "1949-geneva"
         ],
-        "text": "Dominican Republic is a party to the 1949 Geneva Convention on Road Traffic (UN Treaty Collection).",
+        "text": "The UN Treaty Collection lists the Dominican Republic as a participant in the 1949 Geneva Convention on Road Traffic, with signature on 19 September 1949 and ratification on 15 August 1957.",
         "source": {
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
@@ -1849,7 +1860,7 @@
       "minRentalAge": null,
       "alcoholLimitBac": null,
       "mandatoryEquipment": [],
-      "text": "Dominican Republic is a party to the 1949 Geneva Convention on Road Traffic (UN Treaty Collection).",
+      "text": "The UN Treaty Collection lists the Dominican Republic as a participant in the 1949 Geneva Convention on Road Traffic, with signature on 19 September 1949 and ratification on 15 August 1957.",
       "source": {
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
@@ -1901,7 +1912,7 @@
     {
       "id": "eticket-free",
       "type": "warning",
-      "text": "The e-Ticket entry and exit form is free at eticket.migracion.gob.do; the Dirección General de Migración says lookalike websites charge for it."
+      "text": "The Dirección General de Migración says its e-Ticket service is free and urges travellers not to use unofficial pages that ask for data and payment for it. The official portal is eticket.migracion.gob.do."
     },
     {
       "id": "moto-taxis",
@@ -1918,27 +1929,293 @@
     {
       "id": "eticket-what",
       "question": "What is the Dominican Republic e-Ticket and who needs it?",
-      "answer": "The e-Ticket is a free, mandatory digital form required by the Dirección General de Migración and the Dirección General de Aduanas. Every passenger entering or leaving the country must complete it, at the official site eticket.migracion.gob.do; Migration says lookalike sites charge for it."
+      "answer": "The Dirección General de Migración says the e-Ticket is a digital form required by several institutions for entering or leaving the country, and that every passenger must complete it truthfully for the Dirección General de Migración and the Dirección General de Aduanas. It says its e-Ticket service is free and urges travellers not to use unofficial pages that ask for data and payment for it. The official portal is eticket.migracion.gob.do."
     },
     {
       "id": "us-need-visa",
       "question": "Do US citizens need a visa for the Dominican Republic?",
-      "answer": "No. US citizens enter visa-free as tourists for 30 days; when you arrive by air, the tourist card is included in your airline ticket, according to the Government of Canada. You need a valid passport and the free e-Ticket form. The UK government tells British nationals they can pay to extend a visit up to 120 days."
+      "answer": "No. The Dominican Foreign Ministry's visa requirements checker answers \"No\" to whether US ordinary passport holders need a tourist visa (TS). Every passenger entering or leaving must complete the digital e-Ticket form."
     },
     {
       "id": "extend-stay",
       "question": "Can I stay longer than 30 days in the Dominican Republic?",
-      "answer": "Yes. The Dirección General de Migración says foreigners who want to stay longer than the 30 days set for tourists can apply online for a stay extension (prórroga), which it describes as extendable up to 120 days. The Government of Canada says to apply after you arrive and before your tourist card expires, and that overstaying can lead to deportation or refusal of re-entry."
+      "answer": "Yes. The Dirección General de Migración offers tourists who want to stay in the Dominican Republic more than 30 days a stay extension (prórroga) of up to 120 days. Canada's travel advice says you can apply for an extension of up to 120 days at the Directorate General for Migration in Santo Domingo, after you arrive and before your tourist card expires, and that if you overstay your tourist card or extension you could be deported or refused re-entry."
     },
     {
       "id": "tourist-card",
       "question": "Do I still need to buy a tourist card for the Dominican Republic?",
-      "answer": "The Government of Canada says that if you arrive by air, the cost of the tourist card is included in your airline ticket, and that if you arrive by sea you obtain the card at the point of entry from the Dirección General de Impuestos Internos. It says the e-Ticket does not replace the tourist card."
+      "answer": "Canada's travel advice says that if you enter by air, the cost of the tourist card is included in your airline ticket, and that if you enter by sea you can obtain the card from the General Directorate of Internal Taxes at your point of entry. It says the e-Ticket form does not replace the tourist card."
     },
     {
       "id": "us-visa-exemption",
       "question": "Can I enter the Dominican Republic with a US, UK or Schengen visa instead of a Dominican visa?",
       "answer": "Yes. Under Decree No. 691-07, foreigners who hold permanent residence or a valid multiple-entry visa for the United States, the European Union (Schengen), Canada or Great Britain can enter for tourism with just a valid passport and a tourist card."
     }
-  ]
+  ],
+  "textQuotes": {
+    "summary": [
+      {
+        "text": "You can visit the Dominican Republic for tourism without a visa for 30 days.",
+        "url": "https://www.gov.uk/foreign-travel-advice/dominican-republic/entry-requirements"
+      },
+      {
+        "text": "Tourist visa: not required for up to 30 days",
+        "url": "https://travel.gc.ca/destinations/dominican-republic"
+      },
+      {
+        "text": "PRÓRROGA DE ESTADÍA PARA TURISTAS Autorizar a los extranjeros interesados en prolongar su estadía en la República Dominicana por más de 30, a través de una prórroga extensible hasta 120 días.",
+        "url": "https://migracion.gob.do/servicios/permisos/"
+      },
+      {
+        "text": "Es de carácter obligatorio para cada pasajero completar con veracidad la información en el Ticket electrónico para la Dirección General de Migración y la Dirección General de Aduanas, según la leyes 285-04 , 115-17, 72-02 y 226-06.",
+        "url": "https://migracion.gob.do/e-ticket-ticket-electronico-de-entrada-y-salida-de-la-republica-dominicana/"
+      },
+      {
+        "text": "Aclaró que el servicio de E-Ticket ofrecido por la institución es gratis",
+        "url": "https://migracion.gob.do/la-dgm-informa-que-su-plataforma-de-e-ticket-no-ha-sido-afectada-en-la-actualidad-y-asegura-usuarios-la-pueden-utilizar-de-manera-confiada/"
+      },
+      {
+        "text": "El Decreto Núm. 691-07, del 18 de diciembre de 2007, facilita la entrada a la República Dominicana a extranjeros con residencia permanente o visado de entradas múltiples vigente en Estados Unidos, Unión Europea (Schengen), Canadá o Gran Bretaña. Pueden ingresar solo con pasaporte válido y una Tarjeta de Turismo para fines turísticos.",
+        "url": "https://consultas.mirex.gob.do/servicios/visas/consulta-de-requisitos-para-extranjeros-ingresar-a-la-republica-dominicana"
+      }
+    ],
+    "faq.eticket-what": [
+      {
+        "text": "Es un formulario digital requerido por múltiples instituciones para el ingreso o salida del territorio nacional.",
+        "url": "https://migracion.gob.do/e-ticket-ticket-electronico-de-entrada-y-salida-de-la-republica-dominicana/"
+      },
+      {
+        "text": "Es de carácter obligatorio para cada pasajero completar con veracidad la información en el Ticket electrónico para la Dirección General de Migración y la Dirección General de Aduanas, según la leyes 285-04 , 115-17, 72-02 y 226-06.",
+        "url": "https://migracion.gob.do/e-ticket-ticket-electronico-de-entrada-y-salida-de-la-republica-dominicana/"
+      },
+      {
+        "text": "Aclaró que el servicio de E-Ticket ofrecido por la institución es gratis",
+        "url": "https://migracion.gob.do/la-dgm-informa-que-su-plataforma-de-e-ticket-no-ha-sido-afectada-en-la-actualidad-y-asegura-usuarios-la-pueden-utilizar-de-manera-confiada/"
+      },
+      {
+        "text": "Exhortamos a todos nuestros usuarios a que verifiquen las plataformas y que no accedan a páginas no oficiales que solicitan datos y pagos por el servicio",
+        "url": "https://migracion.gob.do/la-dgm-informa-que-su-plataforma-de-e-ticket-no-ha-sido-afectada-en-la-actualidad-y-asegura-usuarios-la-pueden-utilizar-de-manera-confiada/"
+      },
+      {
+        "text": "Welcome to the Electronic Ticket portal for entering and leaving the Dominican Republic",
+        "url": "https://eticket.migracion.gob.do/"
+      }
+    ],
+    "faq.us-need-visa": [
+      {
+        "text": "Visa Turismo (TS) Aplica a Extranjeros que quieran viajar a República Dominicana con pasaporte Ordinario. ¿Requiere visa? NO",
+        "url": "https://consultas.mirex.gob.do/servicios/visas/consulta-de-requisitos-para-extranjeros-ingresar-a-la-republica-dominicana/results?condicion=Extranjeros&country=64&tipoPasaporte=Ordinario&tipoVisa=visa_ts"
+      },
+      {
+        "text": "Es de carácter obligatorio para cada pasajero completar con veracidad la información en el Ticket electrónico para la Dirección General de Migración y la Dirección General de Aduanas, según la leyes 285-04 , 115-17, 72-02 y 226-06.",
+        "url": "https://migracion.gob.do/e-ticket-ticket-electronico-de-entrada-y-salida-de-la-republica-dominicana/"
+      }
+    ],
+    "faq.extend-stay": [
+      {
+        "text": "PRÓRROGA DE ESTADÍA PARA TURISTAS Autorizar a los extranjeros interesados en prolongar su estadía en la República Dominicana por más de 30, a través de una prórroga extensible hasta 120 días.",
+        "url": "https://migracion.gob.do/servicios/permisos/"
+      },
+      {
+        "text": "You can apply for a stay extension for a period of up to 120 days.",
+        "url": "https://travel.gc.ca/destinations/dominican-republic"
+      },
+      {
+        "text": "You must request to extend your stay at the Dominican Directorate General for Migration, in Santo Domingo, after you arrive in the Dominican Republic and before your tourist card expires.",
+        "url": "https://travel.gc.ca/destinations/dominican-republic"
+      },
+      {
+        "text": "If you overstay the duration of your tourist card or your extension, you could be deported or refused re-entry.",
+        "url": "https://travel.gc.ca/destinations/dominican-republic"
+      }
+    ],
+    "faq.tourist-card": [
+      {
+        "text": "If you enter the Dominican Republic by air, the cost of the tourist card is included in your airline ticket.",
+        "url": "https://travel.gc.ca/destinations/dominican-republic"
+      },
+      {
+        "text": "If you enter the Dominican Republic by sea, you can obtain the card from the General Directorate of Internal Taxes at your point of entry.",
+        "url": "https://travel.gc.ca/destinations/dominican-republic"
+      },
+      {
+        "text": "This electronic form doesn’t replace the Tourist card.",
+        "url": "https://travel.gc.ca/destinations/dominican-republic"
+      }
+    ],
+    "faq.us-visa-exemption": [
+      {
+        "text": "El Decreto Núm. 691-07, del 18 de diciembre de 2007, facilita la entrada a la República Dominicana a extranjeros con residencia permanente o visado de entradas múltiples vigente en Estados Unidos, Unión Europea (Schengen), Canadá o Gran Bretaña. Pueden ingresar solo con pasaporte válido y una Tarjeta de Turismo para fines turísticos.",
+        "url": "https://consultas.mirex.gob.do/servicios/visas/consulta-de-requisitos-para-extranjeros-ingresar-a-la-republica-dominicana"
+      }
+    ],
+    "tips.eticket-free": [
+      {
+        "text": "Aclaró que el servicio de E-Ticket ofrecido por la institución es gratis",
+        "url": "https://migracion.gob.do/la-dgm-informa-que-su-plataforma-de-e-ticket-no-ha-sido-afectada-en-la-actualidad-y-asegura-usuarios-la-pueden-utilizar-de-manera-confiada/"
+      },
+      {
+        "text": "Exhortamos a todos nuestros usuarios a que verifiquen las plataformas y que no accedan a páginas no oficiales que solicitan datos y pagos por el servicio",
+        "url": "https://migracion.gob.do/la-dgm-informa-que-su-plataforma-de-e-ticket-no-ha-sido-afectada-en-la-actualidad-y-asegura-usuarios-la-pueden-utilizar-de-manera-confiada/"
+      },
+      {
+        "text": "Welcome to the Electronic Ticket portal for entering and leaving the Dominican Republic",
+        "url": "https://eticket.migracion.gob.do/"
+      }
+    ],
+    "tips.moto-taxis": [
+      {
+        "text": "Motorbike taxis (‘motoconchos’) are often driven badly and do not always provide passengers with a helmet.",
+        "url": "https://www.gov.uk/foreign-travel-advice/dominican-republic/safety-and-security"
+      },
+      {
+        "text": "Use an authorised airport or hotel taxi service, or book from a registered provider.",
+        "url": "https://www.gov.uk/foreign-travel-advice/dominican-republic/safety-and-security"
+      }
+    ],
+    "tips.hurricane-season": [
+      {
+        "text": "The hurricane season in the Caribbean normally runs from June to November.",
+        "url": "https://www.gov.uk/foreign-travel-advice/dominican-republic/safety-and-security"
+      }
+    ],
+    "entryRequirements.passportValidity": [
+      {
+        "text": "Up until 31 December 2026, British passport holders can enter and leave the Dominican Republic for tourism purposes, as long as their passport remains valid for the duration of their visit. Rules may change after this date.",
+        "url": "https://www.gov.uk/foreign-travel-advice/dominican-republic/entry-requirements"
+      }
+    ],
+    "entryRequirements.vaccinations.yellow-fever": [
+      {
+        "text": "Dominican Republic - Yes5, 7 (≥ 1 year) -",
+        "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf"
+      },
+      {
+        "text": "Includes requirement of proof of vaccination against yellow fever for travellers having transited more than 12 hours through the airport of a country determined by WHO to be at risk for yellow fever transmission.",
+        "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf"
+      },
+      {
+        "text": "The list of countries these requirements apply differs from that of countries determined by WHO to be at risk for yellow fever transmission",
+        "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf"
+      }
+    ],
+    "entryRequirements.travelInsurance": [
+      {
+        "text": "Medical facilities may require payment up front for medical treatment.",
+        "url": "https://travel.gc.ca/destinations/dominican-republic"
+      },
+      {
+        "text": "They could also request to see proof of your insurance before admitting you as a patient.",
+        "url": "https://travel.gc.ca/destinations/dominican-republic"
+      }
+    ],
+    "entryRequirements.onwardTicket": [
+      {
+        "text": "You may be refused entry if you do not have proof of onward or return travel when you arrive in the country.",
+        "url": "https://www.gov.uk/foreign-travel-advice/dominican-republic/entry-requirements"
+      }
+    ],
+    "entryRequirements.proofOfFunds": [
+      {
+        "text": "When you enter the Dominican Republic, you may need to be able to prove adequate funds for the duration of your stay. You will also need to provide the address where you will be staying during your travel.",
+        "url": "https://travel.gc.ca/destinations/dominican-republic"
+      }
+    ],
+    "entryRequirements.declarations.eticket": [
+      {
+        "text": "Es un formulario digital requerido por múltiples instituciones para el ingreso o salida del territorio nacional.",
+        "url": "https://migracion.gob.do/e-ticket-ticket-electronico-de-entrada-y-salida-de-la-republica-dominicana/"
+      },
+      {
+        "text": "Es de carácter obligatorio para cada pasajero completar con veracidad la información en el Ticket electrónico para la Dirección General de Migración y la Dirección General de Aduanas, según la leyes 285-04 , 115-17, 72-02 y 226-06.",
+        "url": "https://migracion.gob.do/e-ticket-ticket-electronico-de-entrada-y-salida-de-la-republica-dominicana/"
+      },
+      {
+        "text": "Aclaró que el servicio de E-Ticket ofrecido por la institución es gratis",
+        "url": "https://migracion.gob.do/la-dgm-informa-que-su-plataforma-de-e-ticket-no-ha-sido-afectada-en-la-actualidad-y-asegura-usuarios-la-pueden-utilizar-de-manera-confiada/"
+      },
+      {
+        "text": "Exhortamos a todos nuestros usuarios a que verifiquen las plataformas y que no accedan a páginas no oficiales que solicitan datos y pagos por el servicio",
+        "url": "https://migracion.gob.do/la-dgm-informa-que-su-plataforma-de-e-ticket-no-ha-sido-afectada-en-la-actualidad-y-asegura-usuarios-la-pueden-utilizar-de-manera-confiada/"
+      },
+      {
+        "text": "Welcome to the Electronic Ticket portal for entering and leaving the Dominican Republic",
+        "url": "https://eticket.migracion.gob.do/"
+      },
+      {
+        "text": "It is mandatory for each passenger to truthfully complete the information on the electronic Ticket for the General Immigration Office, the General Customs Office and the Ministry of Public Health, according to dominican laws 285-04, 115-17, 72-02 and 226-06.",
+        "url": "https://eticket.migracion.gob.do/"
+      },
+      {
+        "text": "The Unique Customs Declaration is only required for adults (18+)",
+        "url": "https://eticket.migracion.gob.do/"
+      }
+    ],
+    "entryRequirements.customs.currencyLimits": [
+      {
+        "text": "No se cobran impuestos por portar dinero. Sin embargo, si ingresas o sales con más de US$10,000 o su equivalente en pesos dominicanos u otra moneda extranjera, títulos o valores al portador, estás obligado a declararlo ante los oficiales de la Dirección General de Aduanas al momento de tu entrada o salida utilizando el formulario habilitado para tal efecto y tener los documentos que justifiquen la procedencia lícita de esos valores.",
+        "url": "https://www.aduanas.gob.do/manual-del-viajero/"
+      }
+    ],
+    "countryFacts.safety": [
+      {
+        "text": "The crime rate in the Dominican Republic is high. Incidents range from opportunistic bag-snatching and pickpocketing to violent crime and carjacking.",
+        "url": "https://www.gov.uk/foreign-travel-advice/dominican-republic/safety-and-security"
+      },
+      {
+        "text": "Thieves on motorcycles snatch bags and valuables from pedestrians and sometimes reach through the windows of cars at red lights to steal belongings.",
+        "url": "https://www.gov.uk/foreign-travel-advice/dominican-republic/safety-and-security"
+      },
+      {
+        "text": "Incidents of assault, rape and sexual aggression against foreigners have occurred, including at beach resorts.",
+        "url": "https://www.gov.uk/foreign-travel-advice/dominican-republic/safety-and-security"
+      },
+      {
+        "text": "You can take steps to reduce your personal risk by: avoiding remote areas, particularly after dark",
+        "url": "https://www.gov.uk/foreign-travel-advice/dominican-republic/safety-and-security"
+      },
+      {
+        "text": "not wearing expensive jewellery or carrying large amounts of cash",
+        "url": "https://www.gov.uk/foreign-travel-advice/dominican-republic/safety-and-security"
+      }
+    ],
+    "countryFacts.bestTimeToVisit": [
+      {
+        "text": "The hurricane season is from early June to the end of November in the Atlantic, Caribbean Sea and Gulf of Mexico.",
+        "url": "https://travel.gc.ca/destinations/dominican-republic"
+      }
+    ],
+    "countryFacts.driving": [
+      {
+        "text": "Dominican Republic 19 Sep 1949 15 Aug 1957",
+        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11"
+      }
+    ],
+    "countryFacts.driving.idp": [
+      {
+        "text": "Dominican Republic 19 Sep 1949 15 Aug 1957",
+        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11"
+      }
+    ],
+    "visaTypes.tourist-embassy.feeNotes": [
+      {
+        "text": "Visa de Turismo Simple (TS) US$100.00",
+        "url": "https://servicios360.mirex.gob.do/tasas-consulares/"
+      },
+      {
+        "text": "Visa de Turismo Múltiple (TM) US$150.00",
+        "url": "https://servicios360.mirex.gob.do/tasas-consulares/"
+      },
+      {
+        "text": "REQUISITOS VISA DE TURISMO SIMPLE (TS) POR 60 DÍAS UNA ENTRADA O TURISMO MÚLTIPLE (TM) POR 60 DÍAS CON DOS ENTRADAS",
+        "url": "https://servicios360.mirex.gob.do/visas/"
+      }
+    ],
+    "visaPolicy.conditionalWaivers.us-visa": [
+      {
+        "text": "El Decreto Núm. 691-07, del 18 de diciembre de 2007, facilita la entrada a la República Dominicana a extranjeros con residencia permanente o visado de entradas múltiples vigente en Estados Unidos, Unión Europea (Schengen), Canadá o Gran Bretaña. Pueden ingresar solo con pasaporte válido y una Tarjeta de Turismo para fines turísticos.",
+        "url": "https://consultas.mirex.gob.do/servicios/visas/consulta-de-requisitos-para-extranjeros-ingresar-a-la-republica-dominicana"
+      }
+    ]
+  }
 }

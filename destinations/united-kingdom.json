@@ -13,7 +13,7 @@
     "united-states",
     "spain"
   ],
-  "summary": "GOV.UK says most visitors need an electronic travel authorisation (ETA) or a visa, and that you usually need an ETA rather than a visa if you are from Europe, the USA, Australia, Canada or certain other countries. An ETA costs £20 and lasts for 2 years or until your passport expires, whichever is sooner; a Standard Visitor visa costs £135. Visitors can usually stay in the UK for up to 6 months. People with a British or Irish passport, or with permission to live, work or study in the UK, do not need an ETA.",
+  "summary": "GOV.UK says most visitors need an electronic travel authorisation (ETA) or a visa, and that you usually need an ETA rather than a visa if you’re from Europe, the USA, Australia, Canada or certain other countries. An ETA costs £20 and lasts for 2 years or until your passport expires, whichever is sooner; a Standard Visitor visa costs £135 for up to 6 months. As a Standard Visitor you can usually stay in the UK for up to 6 months. Some people do not need an ETA, for example those with a British or Irish passport, or with permission to live, work or study in the UK.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -3062,7 +3062,7 @@
       "fee": {
         "amount": 20,
         "currency": "GBP",
-        "notes": "Apply via the official UK ETA app or GOV.UK. Every traveler needs their own ETA, including babies and children."
+        "notes": "GOV.UK says it costs £20 to apply online or through the UK ETA app, and that each person travelling needs an ETA, including babies and children."
       },
       "processing": {
         "minDays": null,
@@ -3163,7 +3163,7 @@
       "fee": {
         "amount": 135,
         "currency": "GBP",
-        "notes": "Apply online, then attend an appointment at a visa application centre. GOV.UK lists £234 for a Standard Visitor visa for medical reasons (11 months) or for academics (12 months). Long-term 2, 5 and 10-year visitor visas cost £506, £903 and £1,128; each allows 6 months per visit."
+        "notes": "GOV.UK says that if you need a Standard Visitor visa, you must apply online before you travel to the UK and attend an appointment at a visa application centre. It lists £234 for a Standard Visitor visa for medical reasons (maximum stay 11 months) or for academics (12 months), and £506, £903 and £1,128 for the 2, 5 and 10 year long-term Standard Visitor visas, each with a maximum stay of 6 months per visit."
       },
       "processing": {
         "minDays": null,
@@ -3233,7 +3233,7 @@
       "fee": {
         "amount": 558,
         "currency": "GBP",
-        "notes": "Plus the healthcare surcharge, paid as part of the application. Requires a place on a course offered by a licensed student sponsor; decisions usually take 3 weeks from outside the UK."
+        "notes": "GOV.UK says you’ll also have to pay the healthcare surcharge as part of your application. You can apply if you’re 16 or over and, among the listed conditions, have been offered a place on a course by a licensed student sponsor; you’ll usually get a decision within 3 weeks if you’re outside the UK."
       },
       "processing": {
         "minDays": null,
@@ -3328,7 +3328,7 @@
       "fee": {
         "amount": 74.5,
         "currency": "GBP",
-        "notes": "For passing through UK border control and leaving the UK within 48 hours; GOV.UK gives the fee as £74.50. A Direct Airside Transit visa covers changing flights without going through border control."
+        "notes": "GOV.UK says to apply for a Visitor in Transit visa if you’ll be going through UK border control but leaving the UK within 48 hours, and that it costs £74.50, which may change slightly depending on which country you’re in. A Direct Airside Transit visa is for changing flights in the UK without going through UK border control."
       },
       "processing": {
         "minDays": null,
@@ -3382,13 +3382,20 @@
   "entryRequirements": {
     "passportValidity": {
       "rule": "valid-for-stay",
-      "text": "Your passport must be valid for the whole of your stay in the UK.",
+      "text": "GOV.UK says your identity document (for example your passport or identity card) will be checked when you arrive at a UK port or airport, and that it should be valid for the whole of your stay.",
       "source": {
         "url": "https://www.gov.uk/uk-border-control",
         "name": "GOV.UK — Entering the UK",
         "type": "government",
         "lastVerified": "2026-10-03",
-        "archiveUrl": "https://web.archive.org/web/20260807193244/https://www.gov.uk/uk-border-control"
+        "archiveUrl": "https://web.archive.org/web/20260807193244/https://www.gov.uk/uk-border-control",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gov.uk/guidance/visiting-the-uk-as-an-eu-eea-or-swiss-citizen",
+            "name": "GOV.UK — Visiting the UK as an EU, EEA or Swiss citizen (passport or, in some cases, national identity card)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       }
     },
     "vaccinations": [],
@@ -3396,7 +3403,7 @@
       "required": null,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "No official source we could read states a travel insurance requirement for the UK. GOV.UK says overseas visitors are charged 150% of the cost of NHS treatment unless they are exempt, that people on a visitor visa or a visa of under 6 months pay for healthcare at the point of use unless exempt, and that A&E services are free of charge.",
+      "text": "No official source we could read states a travel insurance requirement for the UK. GOV.UK’s migrant health guide says all overseas visitors will be charged 150% of the cost of NHS treatment unless they are exempt, that people who have a visitor visa and those with a visa for under 6 months need to pay for any healthcare at the point of use unless they are exempt, and that accident and emergency services are free of charge irrespective of an overseas visitor’s country of normal residence.",
       "source": {
         "url": "https://www.gov.uk/guidance/nhs-entitlements-migrant-health-guide",
         "name": "GOV.UK (Department of Health and Social Care) — NHS entitlements: migrant health guide",
@@ -3421,7 +3428,7 @@
       "required": true,
       "appliesTo": "all",
       "amount": null,
-      "text": "GOV.UK says visitors must be able to show that they can support themselves and their dependants during the trip, or have funding from someone else; it states no amount.",
+      "text": "GOV.UK says visitors must be able to show that they can support themselves and their dependants during the trip, or have funding from someone else. No official source we could read states an amount.",
       "source": {
         "url": "https://www.gov.uk/standard-visitor",
         "name": "GOV.UK — Standard Visitor visa",
@@ -3439,11 +3446,23 @@
           "name": "GOV.UK — Taking cash in and out of Great Britain",
           "type": "government",
           "lastVerified": "2026-10-03",
-          "archiveUrl": "https://web.archive.org/web/20260815141150/https://www.gov.uk/bringing-cash-into-uk"
+          "archiveUrl": "https://web.archive.org/web/20260815141150/https://www.gov.uk/bringing-cash-into-uk",
+          "alsoStatedOn": [
+            {
+              "url": "https://www.gov.uk/bringing-goods-into-uk-personal-use/arriving-in-Great-Britain",
+              "name": "GOV.UK — Bringing goods into the UK for personal use: arriving in Great Britain from outside the UK (allowances)",
+              "lastVerified": "2026-10-09"
+            },
+            {
+              "url": "https://www.gov.uk/bringing-food-into-great-britain/meat-dairy-fish-animal-products",
+              "name": "GOV.UK — Bringing food into Great Britain: meat, dairy, fish and animal products",
+              "lastVerified": "2026-10-09"
+            }
+          ]
         }
       },
       "notes": [
-        "GOV.UK lists the personal allowance for arrivals in Great Britain as 200 cigarettes (or 250 g of tobacco), 42 litres of beer or cider and 18 litres of wine, plus 4 litres of spirits over 22% ABV (or 9 litres of drinks up to 22%), and other goods worth up to £390.",
+        "GOV.UK lists the personal allowance for travellers arriving in Great Britain from outside the UK: one of 200 cigarettes, 100 cigarillos, 50 cigars, 250g tobacco or 200 sticks of tobacco for electronic heated tobacco devices; 42 litres of beer and cider and 18 litres of wine, plus 4 litres of spirits and other alcoholic products over 22% ABV or 9 litres of alcoholic products up to 22% ABV (this last allowance can be split); and other goods worth up to £390 (or up to £270 if you arrive by private plane or boat).",
         "GOV.UK says you cannot bring meat or meat products, or milk-based products (except powdered infant milk, infant food or special food needed for medical reasons), into Great Britain from countries outside the EU, Switzerland, Norway, Iceland, Liechtenstein, the Faroe Islands and Greenland."
       ]
     }
@@ -3597,39 +3616,397 @@
     {
       "id": "eu-id-cards",
       "type": "warning",
-      "text": "GOV.UK says EU, EEA and Swiss citizens need a valid passport to enter the UK; a national identity card can be used only in some cases, such as by people with settled or pre-settled status or a pending EU Settlement Scheme application, an EU Settlement Scheme family permit, a frontier worker permit, or S2 Healthcare Visitors."
+      "text": "GOV.UK says citizens from the EU, Switzerland, Norway, Iceland or Liechtenstein need a valid passport, a valid Irish passport card or (in some cases) a valid national identity card to enter the UK. A national identity card can be used, for example, by those with settled or pre-settled status under the EU Settlement Scheme, an EU Settlement Scheme family permit or a frontier worker permit, or by S2 Healthcare Visitors."
     },
     {
       "id": "nhs-costs",
       "type": "warning",
-      "text": "GOV.UK says overseas visitors are charged 150% of the cost of NHS hospital treatment unless they are exempt; A&E treatment is free."
+      "text": "GOV.UK’s migrant health guide says all overseas visitors will be charged 150% of the cost of NHS treatment for any care they receive, unless they are exempt from charges for NHS hospital treatment. It lists accident and emergency services, such as those provided at an A&E department, among the NHS services that are free of charge irrespective of an overseas visitor’s country of normal residence, as long as they have not travelled to the UK to seek that treatment."
     }
   ],
   "faq": [
     {
       "id": "eta-what",
       "question": "What is the UK ETA and who needs it?",
-      "answer": "The Electronic Travel Authorisation lets visitors who do not need a visa travel to the UK for up to 6 months; GOV.UK says you usually need one rather than a visa if you are from Europe, the USA, Australia, Canada or certain other countries. It costs £20, lasts 2 years or until your passport expires, whichever is sooner, and lets you travel to the UK as many times as you want. GOV.UK says people with a British or Irish passport, or with permission to live, work or study in the UK, do not need one."
+      "answer": "GOV.UK says an electronic travel authorisation (ETA) lets you travel to the UK, Jersey, Guernsey or the Isle of Man for up to 6 months, and that you usually need one rather than a visa if you’re from Europe, the USA, Australia, Canada or certain other countries. An ETA costs £20 and lasts for 2 years or until your passport expires, whichever is sooner; you can travel to the UK as many times as you want while you have one. Some people do not need an ETA, for example if you have a British or Irish passport, or permission to live, work or study in the UK."
     },
     {
       "id": "us-need-visa",
       "question": "Do US citizens need a visa for the UK?",
-      "answer": "No visa, but they do need an ETA: US passport holders must obtain the £20 Electronic Travel Authorisation before traveling and can then visit for up to 6 months per trip."
+      "answer": "Usually an ETA rather than a visa: GOV.UK says you usually need an ETA rather than a visa if you’re from Europe, the USA, Australia, Canada or certain other countries. An ETA costs £20 and lets you travel to the UK for up to 6 months, and you must wait until you get an email confirming you have an ETA before you travel to the UK."
     },
     {
       "id": "visitor-visa-cost",
       "question": "How much does a UK Standard Visitor visa cost?",
-      "answer": "The Standard Visitor visa costs £135 for a 6-month visa. Long-term 2, 5 and 10-year versions cost £506, £903 and £1,128, and each allows 6 months per visit."
+      "answer": "GOV.UK lists the Standard Visitor visa at £135, with a maximum length of stay of 6 months. The 2, 5 and 10 year long-term Standard Visitor visas cost £506, £903 and £1,128, each with a maximum length of stay of 6 months per visit."
     },
     {
       "id": "eu-id-entry",
       "question": "Can EU citizens enter the UK with a national ID card?",
-      "answer": "Usually not. GOV.UK says EU, EEA and Swiss citizens need a valid passport, and accepts a national identity card only in some cases, such as from people with settled or pre-settled status or a pending EU Settlement Scheme application, an EU Settlement Scheme family permit, a frontier worker permit, or S2 Healthcare Visitors. Visitors who do not need a visa also need a £20 ETA; Irish citizens do not."
+      "answer": "Only in some cases. GOV.UK says citizens from the EU, Switzerland, Norway, Iceland or Liechtenstein need a valid passport, a valid Irish passport card or (in some cases) a valid national identity card to enter the UK. They can use a valid national identity card if they have settled or pre-settled status under the EU Settlement Scheme, an EU Settlement Scheme family permit or a frontier worker permit, or are an S2 Healthcare Visitor, or if they have applied for settled or pre-settled status and been issued with confirmation that the application is valid. GOV.UK says citizens from these countries, except Irish citizens, need an ETA to travel to the UK without a visa."
     },
     {
       "id": "how-long-stay",
       "question": "How long can visitors stay in the UK?",
-      "answer": "Visitors with an ETA, and Standard Visitor visa holders, can usually stay up to 6 months per visit. GOV.UK says visitors cannot do paid or unpaid work for a UK company or as a self-employed person (unless it is a permitted paid engagement or event) or live in the UK for long periods through frequent or successive visits."
+      "answer": "GOV.UK says an ETA lets you travel to the UK for up to 6 months, and that as a Standard Visitor you can usually stay in the UK for up to 6 months. As a Standard Visitor you cannot do paid or unpaid work for a UK company or as a self-employed person, unless you’re doing a permitted paid engagement or event, or live in the UK for long periods of time through frequent or successive visits."
     }
-  ]
+  ],
+  "textQuotes": {
+    "summary": [
+      {
+        "text": "Most visitors need an ETA or a visa.",
+        "url": "https://www.gov.uk/eta"
+      },
+      {
+        "text": "You usually need an ETA rather than a visa if you’re from Europe, the USA, Australia, Canada or certain other countries.",
+        "url": "https://www.gov.uk/eta"
+      },
+      {
+        "text": "An ETA costs £20.",
+        "url": "https://www.gov.uk/eta"
+      },
+      {
+        "text": "An ETA lasts for 2 years or until your passport expires, whichever is sooner.",
+        "url": "https://www.gov.uk/eta/apply"
+      },
+      {
+        "text": "A Standard Visitor visa costs £135 for up to 6 months.",
+        "url": "https://www.gov.uk/standard-visitor"
+      },
+      {
+        "text": "You can usually stay in the UK for up to 6 months.",
+        "url": "https://www.gov.uk/standard-visitor"
+      },
+      {
+        "text": "There are some people who do not need an ETA, for example if you have: a British or Irish passport permission to live, work or study in the UK",
+        "url": "https://www.gov.uk/eta"
+      }
+    ],
+    "faq.eta-what": [
+      {
+        "text": "An electronic travel authorisation (ETA) lets you travel to the UK, Jersey, Guernsey or the Isle of Man for up to 6 months.",
+        "url": "https://www.gov.uk/eta"
+      },
+      {
+        "text": "You usually need an ETA rather than a visa if you’re from Europe, the USA, Australia, Canada or certain other countries.",
+        "url": "https://www.gov.uk/eta"
+      },
+      {
+        "text": "An ETA costs £20.",
+        "url": "https://www.gov.uk/eta"
+      },
+      {
+        "text": "An ETA lasts for 2 years or until your passport expires, whichever is sooner.",
+        "url": "https://www.gov.uk/eta/apply"
+      },
+      {
+        "text": "You can travel to the UK as many times as you want while you have an ETA.",
+        "url": "https://www.gov.uk/eta/apply"
+      },
+      {
+        "text": "There are some people who do not need an ETA, for example if you have: a British or Irish passport permission to live, work or study in the UK",
+        "url": "https://www.gov.uk/eta"
+      }
+    ],
+    "faq.us-need-visa": [
+      {
+        "text": "You usually need an ETA rather than a visa if you’re from Europe, the USA, Australia, Canada or certain other countries.",
+        "url": "https://www.gov.uk/eta"
+      },
+      {
+        "text": "An ETA costs £20.",
+        "url": "https://www.gov.uk/eta"
+      },
+      {
+        "text": "An electronic travel authorisation (ETA) lets you travel to the UK, Jersey, Guernsey or the Isle of Man for up to 6 months.",
+        "url": "https://www.gov.uk/eta"
+      },
+      {
+        "text": "You must wait until you get an email confirming you have an ETA before you travel to the UK.",
+        "url": "https://www.gov.uk/eta/apply"
+      }
+    ],
+    "faq.visitor-visa-cost": [
+      {
+        "text": "Fee Maximum length of stay Standard Visitor visa £135 6 months",
+        "url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa"
+      },
+      {
+        "text": "2 year long-term Standard Visitor visa £506 6 months per visit",
+        "url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa"
+      },
+      {
+        "text": "5 year long-term Standard Visitor visa £903 6 months per visit",
+        "url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa"
+      },
+      {
+        "text": "10 year long-term Standard Visitor visa £1,128 6 months per visit",
+        "url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa"
+      }
+    ],
+    "faq.eu-id-entry": [
+      {
+        "text": "You will need a valid passport, a valid Irish passport card or (in some cases) a valid national identity card to enter the UK.",
+        "url": "https://www.gov.uk/guidance/visiting-the-uk-as-an-eu-eea-or-swiss-citizen"
+      },
+      {
+        "text": "You can use a valid national identity card to enter the UK if you’re from the EU, Switzerland, Norway, Iceland or Liechtenstein and you: have settled or pre-settled status under the EU Settlement Scheme, or Jersey, Guernsey or the Isle of Man’s settlement scheme have an EU Settlement Scheme family permit, or the equivalent from Jersey, Guernsey or the Isle of Man have a frontier worker permit are an S2 Healthcare Visitor",
+        "url": "https://www.gov.uk/guidance/visiting-the-uk-as-an-eu-eea-or-swiss-citizen"
+      },
+      {
+        "text": "You can also use a valid national identity card to enter the UK if all of the following are true: you’ve applied for settled or pre-settled status under the EU Settlement Scheme, or Jersey, Guernsey or the Isle of Man’s settlement scheme you’ve been issued with confirmation your application is valid",
+        "url": "https://www.gov.uk/guidance/visiting-the-uk-as-an-eu-eea-or-swiss-citizen"
+      },
+      {
+        "text": "Citizens from the EU, Switzerland, Norway, Iceland or Liechtenstein (except Irish citizens) need an electronic travel authorisation (ETA) to travel to the UK without a visa.",
+        "url": "https://www.gov.uk/guidance/visiting-the-uk-as-an-eu-eea-or-swiss-citizen"
+      }
+    ],
+    "faq.how-long-stay": [
+      {
+        "text": "An electronic travel authorisation (ETA) lets you travel to the UK, Jersey, Guernsey or the Isle of Man for up to 6 months.",
+        "url": "https://www.gov.uk/eta"
+      },
+      {
+        "text": "You can usually stay in the UK for up to 6 months.",
+        "url": "https://www.gov.uk/standard-visitor"
+      },
+      {
+        "text": "You cannot: do paid or unpaid work for a UK company or as a self-employed person, unless you’re doing a permitted paid engagement or event claim public funds (benefits) live in the UK for long periods of time through frequent or successive visits",
+        "url": "https://www.gov.uk/standard-visitor"
+      }
+    ],
+    "tips.eta-official": [
+      {
+        "text": "It costs £20 to apply online or through the UK ETA app.",
+        "url": "https://www.gov.uk/eta/apply"
+      },
+      {
+        "text": "Other websites may charge more to apply.",
+        "url": "https://www.gov.uk/eta"
+      },
+      {
+        "text": "You cannot get a faster decision by applying through another website or app.",
+        "url": "https://www.gov.uk/eta/apply"
+      }
+    ],
+    "tips.eta-everyone": [
+      {
+        "text": "Each person travelling needs an ETA, including babies and children.",
+        "url": "https://www.gov.uk/eta"
+      },
+      {
+        "text": "An ETA lasts for 2 years or until your passport expires, whichever is sooner.",
+        "url": "https://www.gov.uk/eta/apply"
+      },
+      {
+        "text": "You can travel to the UK as many times as you want while you have an ETA.",
+        "url": "https://www.gov.uk/eta/apply"
+      }
+    ],
+    "tips.eu-id-cards": [
+      {
+        "text": "You will need a valid passport, a valid Irish passport card or (in some cases) a valid national identity card to enter the UK.",
+        "url": "https://www.gov.uk/guidance/visiting-the-uk-as-an-eu-eea-or-swiss-citizen"
+      },
+      {
+        "text": "You can use a valid national identity card to enter the UK if you’re from the EU, Switzerland, Norway, Iceland or Liechtenstein and you: have settled or pre-settled status under the EU Settlement Scheme, or Jersey, Guernsey or the Isle of Man’s settlement scheme have an EU Settlement Scheme family permit, or the equivalent from Jersey, Guernsey or the Isle of Man have a frontier worker permit are an S2 Healthcare Visitor",
+        "url": "https://www.gov.uk/guidance/visiting-the-uk-as-an-eu-eea-or-swiss-citizen"
+      }
+    ],
+    "tips.nhs-costs": [
+      {
+        "text": "All overseas visitors will be charged 150% of the cost of NHS treatment for any care they receive, unless they are exempt from charges for NHS hospital treatment.",
+        "url": "https://www.gov.uk/guidance/nhs-entitlements-migrant-health-guide"
+      },
+      {
+        "text": "outline the NHS services that are currently free of charge irrespective of an overseas visitor’s country of normal residence (as long as they have not travelled to the UK for the purpose of seeking that treatment). These services are: accident and emergency services, such as those provided at an A&E department",
+        "url": "https://www.gov.uk/guidance/nhs-entitlements-migrant-health-guide"
+      }
+    ],
+    "entryRequirements.passportValidity": [
+      {
+        "text": "Your identity document (for example your passport or identity card) will be checked when you arrive at a UK port or airport to make sure you’re allowed to come into the country. It should be valid for the whole of your stay.",
+        "url": "https://www.gov.uk/uk-border-control"
+      }
+    ],
+    "entryRequirements.travelInsurance": [
+      {
+        "text": "All overseas visitors will be charged 150% of the cost of NHS treatment for any care they receive, unless they are exempt from charges for NHS hospital treatment.",
+        "url": "https://www.gov.uk/guidance/nhs-entitlements-migrant-health-guide"
+      },
+      {
+        "text": "People who have a visitor visa and those with a visa for under 6 months need to pay for any healthcare at the point of use unless they are exempt.",
+        "url": "https://www.gov.uk/guidance/nhs-entitlements-migrant-health-guide"
+      },
+      {
+        "text": "outline the NHS services that are currently free of charge irrespective of an overseas visitor’s country of normal residence (as long as they have not travelled to the UK for the purpose of seeking that treatment). These services are: accident and emergency services, such as those provided at an A&E department",
+        "url": "https://www.gov.uk/guidance/nhs-entitlements-migrant-health-guide"
+      }
+    ],
+    "entryRequirements.onwardTicket": [
+      {
+        "text": "You must be able to show that: you’ll leave the UK at the end of your visit",
+        "url": "https://www.gov.uk/standard-visitor"
+      },
+      {
+        "text": "you’re able to pay for your return or onward journey (or have funding from someone else to pay for the journey)",
+        "url": "https://www.gov.uk/standard-visitor"
+      }
+    ],
+    "entryRequirements.proofOfFunds": [
+      {
+        "text": "You must be able to show that:",
+        "url": "https://www.gov.uk/standard-visitor"
+      },
+      {
+        "text": "you’re able to support yourself and your dependants during your trip (or have funding from someone else to support you)",
+        "url": "https://www.gov.uk/standard-visitor"
+      },
+      {
+        "text": "If you do not need a visa, you must still meet the Standard Visitor eligibility requirements to visit the UK.",
+        "url": "https://www.gov.uk/standard-visitor"
+      }
+    ],
+    "entryRequirements.customs.currencyLimits": [
+      {
+        "text": "You must declare cash of £10,000 or more to UK customs if you’re carrying it between Great Britain (England, Scotland and Wales) and a country outside the UK.",
+        "url": "https://www.gov.uk/bringing-cash-into-uk"
+      },
+      {
+        "text": "You must declare cash of €10,000 or more if you carry it between Northern Ireland and any non-EU country.",
+        "url": "https://www.gov.uk/bringing-cash-into-uk"
+      }
+    ],
+    "entryRequirements.customs.notes.0": [
+      {
+        "text": "If you’re travelling to Great Britain (England, Wales or Scotland) from outside the UK, you can bring in a certain amount of goods without paying tax or duty. This is known as your personal allowance.",
+        "url": "https://www.gov.uk/bringing-goods-into-uk-personal-use/arriving-in-Great-Britain"
+      },
+      {
+        "text": "You can bring in one of the following: 200 cigarettes 100 cigarillos 50 cigars 250g tobacco 200 sticks of tobacco for electronic heated tobacco devices",
+        "url": "https://www.gov.uk/bringing-goods-into-uk-personal-use/arriving-in-Great-Britain"
+      },
+      {
+        "text": "beer and cider - 42 litres wine (still or sparkling) - 18 litres",
+        "url": "https://www.gov.uk/bringing-goods-into-uk-personal-use/arriving-in-Great-Britain"
+      },
+      {
+        "text": "spirits and other alcoholic products over 22% ABV (alcohol by volume) - 4 litres alcoholic products up to 22% alcohol ABV (not including beer, cider or wine) - 9 litres",
+        "url": "https://www.gov.uk/bringing-goods-into-uk-personal-use/arriving-in-Great-Britain"
+      },
+      {
+        "text": "You can split this last allowance.",
+        "url": "https://www.gov.uk/bringing-goods-into-uk-personal-use/arriving-in-Great-Britain"
+      },
+      {
+        "text": "You can bring in other goods worth up to £390 (or up to £270 if you arrive by private plane or boat).",
+        "url": "https://www.gov.uk/bringing-goods-into-uk-personal-use/arriving-in-Great-Britain"
+      }
+    ],
+    "entryRequirements.customs.notes.1": [
+      {
+        "text": "If you’re bringing food from a country outside the EU, Switzerland, Norway, Iceland, Liechtenstein, the Faroe Islands and Greenland, the following rules apply.",
+        "url": "https://www.gov.uk/bringing-food-into-great-britain/meat-dairy-fish-animal-products"
+      },
+      {
+        "text": "You cannot bring in: meat or meat products milk or milk-based products, except powdered infant milk, infant food or special food needed for medical reasons",
+        "url": "https://www.gov.uk/bringing-food-into-great-britain/meat-dairy-fish-animal-products"
+      }
+    ],
+    "countryFacts.safety": [
+      {
+        "text": "Exercise a high degree of caution in the United Kingdom due to the threat of terrorism.",
+        "url": "https://travel.gc.ca/destinations/united-kingdom"
+      },
+      {
+        "text": "Petty crime, such as pickpocketing and purse snatching, is common. Cellphone theft is common in certain tourist areas of London.",
+        "url": "https://travel.gc.ca/destinations/united-kingdom"
+      }
+    ],
+    "countryFacts.driving": [
+      {
+        "text": "United Kingdom of Great Britain and Northern Ireland 19 Sep 1949 8 Jul 1957",
+        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11"
+      },
+      {
+        "text": "United Kingdom of Great Britain and Northern Ireland 17, 18 8 Nov 1968 28 Mar 2018",
+        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
+      }
+    ],
+    "countryFacts.driving.idp": [
+      {
+        "text": "United Kingdom of Great Britain and Northern Ireland 19 Sep 1949 8 Jul 1957",
+        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11"
+      },
+      {
+        "text": "United Kingdom of Great Britain and Northern Ireland 17, 18 8 Nov 1968 28 Mar 2018",
+        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
+      }
+    ],
+    "visaTypes.eta.feeNotes": [
+      {
+        "text": "It costs £20 to apply online or through the UK ETA app.",
+        "url": "https://www.gov.uk/eta/apply"
+      },
+      {
+        "text": "Each person travelling needs an ETA, including babies and children.",
+        "url": "https://www.gov.uk/eta"
+      }
+    ],
+    "visaTypes.standard-visitor.feeNotes": [
+      {
+        "text": "If you need a Standard Visitor visa, you must apply online before you travel to the UK and attend an appointment at a visa application centre.",
+        "url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa"
+      },
+      {
+        "text": "Standard Visitor visa for medical reasons £234 11 months",
+        "url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa"
+      },
+      {
+        "text": "Standard Visitor visa for academics £234 12 months",
+        "url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa"
+      },
+      {
+        "text": "2 year long-term Standard Visitor visa £506 6 months per visit",
+        "url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa"
+      },
+      {
+        "text": "5 year long-term Standard Visitor visa £903 6 months per visit",
+        "url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa"
+      },
+      {
+        "text": "10 year long-term Standard Visitor visa £1,128 6 months per visit",
+        "url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa"
+      }
+    ],
+    "visaTypes.student.feeNotes": [
+      {
+        "text": "You’ll also have to pay the healthcare surcharge as part of your application.",
+        "url": "https://www.gov.uk/student-visa"
+      },
+      {
+        "text": "You can apply for a Student visa to study in the UK if you’re 16 or over and you: have been offered a place on a course by a licensed student sponsor",
+        "url": "https://www.gov.uk/student-visa"
+      },
+      {
+        "text": "You’ll usually get a decision on your visa within: 3 weeks, if you’re outside the UK",
+        "url": "https://www.gov.uk/student-visa"
+      }
+    ],
+    "visaTypes.transit-visitor.feeNotes": [
+      {
+        "text": "Apply for a Visitor in Transit visa if you’ll be going through UK border control but leaving the UK within 48 hours.",
+        "url": "https://www.gov.uk/transit-visa"
+      },
+      {
+        "text": "A Visitor in Transit visa costs £74.50. This may change slightly depending on which country you’re in.",
+        "url": "https://www.gov.uk/transit-visa/visitor-in-transit-visa"
+      },
+      {
+        "text": "Apply for a Direct Airside Transit visa if you’ll be changing flights in the UK and will not be going through UK border control.",
+        "url": "https://www.gov.uk/transit-visa"
+      }
+    ]
+  }
 }

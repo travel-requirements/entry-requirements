@@ -13,7 +13,7 @@
     "madagascar",
     "sri-lanka"
   ],
-  "summary": "Seychelles says there are no visa requirements for any traveller visiting Seychelles: a Visitor's Permit of up to three months is issued on arrival to visitors who meet its conditions, and every non-citizen must first obtain the paid Electronic Travel Authorisation online before travelling.",
+  "summary": "Seychelles' official Travel Authorisation site says there are no visa requirements for any traveller visiting Seychelles. Seychelles Immigration says a Visitor's Permit is issued on arrival, initially for a stay of up to three months, to visitors who meet its criteria, and that all visitors must hold a valid Electronic Travel Authorisation before departing.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -1678,7 +1678,7 @@
       "fee": {
         "amount": 10,
         "currency": "EUR",
-        "notes": "Standard processing (24 hours), adults and children 12 and under. Premium processing (6 hours) is €30; expedited processing (60 minutes) is €70 for adults and €30 for children. Bank charges are not included."
+        "notes": "Standard processing (24 hours) for adults and children 12 and under. Premium processing (6 hours) is €30; expedited processing (60 minutes) is €70 for adults and €30 for children. The official site says the fees do not include bank charges."
       },
       "processing": null,
       "validityDays": null,
@@ -1761,7 +1761,7 @@
       "fee": {
         "amount": 5000,
         "currency": "SCR",
-        "notes": "Charged for each additional period of up to three months, or part of one, after the first three months, which are free; the permit can be extended to twelve months in total. Apply online at permits.ics.gov.sc and pay by card, or in person at Independence House, Victoria."
+        "notes": "Seychelles Immigration says the initial Visitor's Permit is free for the first three months and that extensions cost SCR 5,000 for each additional three-month period or part thereof, up to twelve months in total; apply online at permits.ics.gov.sc and pay by card, or in person at Independence House, Victoria."
       },
       "processing": null,
       "validityDays": null,
@@ -1798,7 +1798,7 @@
   "entryRequirements": {
     "passportValidity": {
       "rule": "valid-for-stay",
-      "text": "The UK Foreign Office says your passport must be valid for the duration of your stay.",
+      "text": "Seychelles Immigration says the passport must be valid for the period of the intended stay until arrival back in the holder's country of origin or residence. The UK Foreign Office says your passport must be valid for the duration of your stay.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/seychelles/entry-requirements",
         "name": "UK FCDO — Seychelles travel advice (entry requirements)",
@@ -1813,7 +1813,7 @@
         "name": "Yellow fever",
         "certificate": "International Certificate of Vaccination (yellow card)",
         "requiredWhen": "arriving-from-risk-country",
-        "text": "Travellers aged 1 to 59 must upload a yellow fever vaccination certificate only if they are travelling from a country or region where the disease is endemic; a transit of less than 12 hours through an airport in such a region does not count. Travellers aged 60 and over need not submit one.",
+        "text": "The official Travel Authorisation site says you upload a yellow fever vaccination certificate only if you are travelling from a country or region where the disease is endemic, and that you do not need one if you transit through an airport in such a region for less than 12 hours.",
         "source": {
           "url": "https://seychelles.govtas.com/en/pages/FAQS",
           "name": "Seychelles Electronic Border System — FAQs",
@@ -1839,7 +1839,7 @@
     "onwardTicket": {
       "required": true,
       "appliesTo": "all",
-      "text": "A valid return or onward ticket for the duration of the visit is one of the conditions for the Visitor's Permit issued on arrival, and the official Travel Authorisation site says you can apply only after booking your airline ticket and accommodation.",
+      "text": "Seychelles Immigration says a valid return or onward ticket for the duration of the visit must be presented for the Visitor's Permit issued on arrival, and the official Travel Authorisation site says you can apply only after booking your airline ticket and accommodation.",
       "source": {
         "url": "https://www.ics.gov.sc/permits/visitors-permit",
         "name": "Seychelles Immigration and Civil Status — Visitor’s Permit",
@@ -1858,8 +1858,12 @@
     "proofOfFunds": {
       "required": true,
       "appliesTo": "all",
-      "amount": null,
-      "text": "Immigration requires proof of sufficient funds to cover the whole stay, together with a return or onward ticket and confirmed accommodation. No minimum amount is published.",
+      "amount": {
+        "value": 150,
+        "currency": "USD",
+        "per": "day"
+      },
+      "text": "Seychelles Immigration says a visitor must have sufficient funds for the duration of the stay, a minimum of US$150 or equivalent per day, together with a valid return or onward ticket and confirmed accommodation.",
       "source": {
         "url": "https://www.ics.gov.sc/permits/visitors-permit",
         "name": "Seychelles Immigration and Civil Status — Visitor’s Permit",
@@ -1871,7 +1875,7 @@
     "declarations": [],
     "customs": {
       "currencyLimits": {
-        "text": "Cash of SCR 50,000 or more (or the foreign-currency equivalent) must be declared to Customs on arrival and on departure.",
+        "text": "The UK Foreign Office says that if you are taking cash with a value of 50,000 Seychellois rupees or more into Seychelles, you must declare it when you apply for your travel authorisation.",
         "source": {
           "url": "https://src.gov.sc/customs-and-excises/",
           "name": "Seychelles Revenue Commission — Customs and Excise (Passenger Guide, cash declaration)",
@@ -1895,7 +1899,7 @@
     "payments": null,
     "safety": {
       "level": "generally-safe",
-      "text": "The UK government says crime is generally non-violent, but that break-ins, bag snatching and thefts from parked cars, boats and accommodation occur and people walking at night have been robbed; it advises using a hotel safe for valuables. It says beaches do not always have safety information and that some, including Beau Vallon, may have dangerous rip currents when the sea is rough.",
+      "text": "The UK Foreign Office says there is a risk of break-ins, robberies, burglaries and opportunistic thefts; crime is generally non-violent, but people can have their bags snatched, cars and boats broken into or be robbed while walking at night. It advises using a hotel safe or safety deposit box for valuables, money and passports.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/seychelles/safety-and-security",
         "name": "UK FCDO — Seychelles travel advice: safety and security",
@@ -1936,7 +1940,7 @@
     },
     "bestTimeToVisit": {
       "months": [],
-      "text": "Canada's travel advice says the rainy season runs from December to March, when strong winds and torrential rain can hamper overland travel."
+      "text": "No official source we could read gives a best time to visit Seychelles. The UK Foreign Office says the west coast is generally unsafe for swimming during the north-west monsoon (around December to March) and the east coast during the south-east winds season (around May to September)."
     },
     "languages": [],
     "timezone": "UTC+4",
@@ -1971,7 +1975,7 @@
       "minRentalAge": null,
       "alcoholLimitBac": null,
       "mandatoryEquipment": [],
-      "text": "Seychelles is a party to the 1968 Vienna Convention on Road Traffic (UN Treaty Collection). Whether a permit is required in addition to a national license, and for how long a foreign license may be used, are set by national road law and have not been checked for Seychelles yet.",
+      "text": "Seychelles is a party to the 1968 Vienna Convention on Road Traffic (UN Treaty Collection). Canada's travel advice says that to drive in Seychelles you must have a valid driver's licence and an international driving permit.",
       "source": {
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
@@ -2025,44 +2029,272 @@
     {
       "id": "eta-before-boarding",
       "type": "warning",
-      "text": "Complete the paid Travel Authorisation at seychelles.govtas.com before you travel: the official site says you may be denied boarding without one and that arriving without one costs a EUR 30 penalty. Standard processing takes 24 hours."
+      "text": "The official Travel Authorisation site says that without one you may be denied boarding by your airline, that arriving without a pre-approved authorisation costs a penalty fee of 30 EUR at the airport, and that standard processing takes 24 hours."
     },
     {
       "id": "book-accommodation",
       "type": "tip",
-      "text": "For stays of one night or more, the Travel Authorisation application asks for your hotel or accommodation booking, or a letter of invitation if you stay with family or friends; the official site says applications using accommodation not on the Tourism Department's list of licensed establishments may be denied."
+      "text": "The official Travel Authorisation site says that for a stay of one night or more you must submit a copy of your hotel or accommodation booking, or a letter of invitation from your host if you stay with family or friends, and that applications made with accommodation not on the Tourism Department's list of authorised establishments may be denied."
     },
     {
       "id": "sea-conditions",
       "type": "warning",
-      "text": "The UK Foreign Office says beaches can be safe at some times of year and dangerous at others: the west coast is generally unsafe during the north-west monsoon (around December to March) and the east coast during the south-east winds (around May to September), and Beau Vallon can have dangerous rip currents when the sea is rough."
+      "text": "The UK Foreign Office says beaches can be safe for swimming at some times of year and dangerous at others: in general the west coast is unsafe during the north-west monsoon (around December to March), the east coast during the south-east winds season (around May to September), and beaches at the southern tip are not suitable for swimming at any time."
     }
   ],
   "faq": [
     {
       "id": "do-i-need-visa",
       "question": "Do I need a visa for Seychelles?",
-      "answer": "No — Seychelles says there are no visa requirements for any traveller visiting Seychelles. Visitors receive a Visitor's Permit on arrival for up to three months. Before travel, every visitor must obtain the paid Electronic Travel Authorisation."
+      "answer": "No — Seychelles' official Travel Authorisation site says there are no visa requirements for any traveller visiting Seychelles. Seychelles Immigration says a Visitor's Permit is issued on arrival, initially for a stay of up to three months, and that all visitors must hold a valid Electronic Travel Authorisation before departing."
     },
     {
       "id": "travel-authorisation",
       "question": "What is the Seychelles Travel Authorisation?",
-      "answer": "A digital form that serves as approval for travel to Seychelles, applied for at seychelles.govtas.com or in the official Seychelles e-Border app. Every non-citizen travelling to Seychelles, whatever their age, must have one. The official site lists the fee by processing speed: for adults €10 (standard, 24 hours), €30 (premium, 6 hours) or €70 (expedited, 60 minutes); for children 12 and under €10, €30 and €30; bank charges are not included. It says you may be denied boarding by your airline without one."
+      "answer": "The official site says all non-citizens travelling to Seychelles must complete the Travel Authorisation, a digital form that serves as approval for travel, applied for on the official website or in the official Seychelles e-Border app, and that travellers of all ages must comply. It lists the fee by processing speed: for adults €10 (standard, 24 hours), €30 (premium, 6 hours) or €70 (expedited, 60 minutes); for children 12 and under €10, €30 and €30; bank charges are not included. It says that without one you may be denied boarding by your airline."
     },
     {
       "id": "how-long-stay",
       "question": "How long can I stay in Seychelles?",
-      "answer": "The Visitor's Permit is initially granted for a stay of up to three months. It can be extended in-country, in stages, up to a maximum of twelve months in total, provided you still have accommodation, funds and an onward ticket."
+      "answer": "Seychelles Immigration says the Visitor's Permit is initially granted for a stay of up to three months and can be extended for successive periods of up to three months each, to a maximum total of twelve months, provided you continue to meet its criteria (a return or onward ticket, confirmed accommodation and sufficient funds)."
     },
     {
       "id": "arrival-documents",
       "question": "What do I need to show on arrival in Seychelles?",
-      "answer": "Your approved Travel Authorisation, a confirmed return or onward ticket, confirmed accommodation arrangements, and evidence of sufficient funds for the whole stay. The UK Foreign Office says your passport must be valid for the duration of your stay."
+      "answer": "Seychelles Immigration says all visitors must hold a valid Electronic Travel Authorisation before departing, and that the Visitor's Permit requires a valid return or onward ticket, confirmed accommodation and sufficient funds for the stay (minimum of US$150 or equivalent per day). It says the passport must be valid for the period of the intended stay until arrival back in the holder's country of origin or residence."
     },
     {
       "id": "vaccinations",
       "question": "Do I need vaccinations for Seychelles?",
-      "answer": "A yellow fever certificate is only required of travellers aged 1 to 59 arriving from a country or region where the disease is endemic; a transit of less than 12 hours through an airport there does not count."
+      "answer": "The official Travel Authorisation site says you upload a yellow fever vaccination certificate only if you are travelling from a country or region where the disease is endemic, and that you do not need one if you transit through an airport in such a region for less than 12 hours."
     }
-  ]
+  ],
+  "textQuotes": {
+    "summary": [
+      {
+        "text": "There are no visa requirements for any traveller visiting Seychelles.",
+        "url": "https://seychelles.govtas.com/en/pages/FAQS"
+      },
+      {
+        "text": "A Visitor’s Permit is issued upon arrival in Seychelles to individuals traveling for purposes such as holiday, pleasure, business, or visiting friends and family.",
+        "url": "https://www.ics.gov.sc/permits/visitors-permit"
+      },
+      {
+        "text": "The Visitor’s Permit is initially granted for a stay of up to three months.",
+        "url": "https://www.ics.gov.sc/permits/visitors-permit"
+      },
+      {
+        "text": "All visitors to Seychelles must possess a valid Electronic Travel Authorisation (ETA) prior to departing from their country of origin.",
+        "url": "https://www.ics.gov.sc/permits/visitors-permit"
+      }
+    ],
+    "faq.do-i-need-visa": [
+      {
+        "text": "There are no visa requirements for any traveller visiting Seychelles.",
+        "url": "https://seychelles.govtas.com/en/pages/FAQS"
+      },
+      {
+        "text": "A Visitor’s Permit is issued upon arrival in Seychelles to individuals traveling for purposes such as holiday, pleasure, business, or visiting friends and family.",
+        "url": "https://www.ics.gov.sc/permits/visitors-permit"
+      },
+      {
+        "text": "The Visitor’s Permit is initially granted for a stay of up to three months.",
+        "url": "https://www.ics.gov.sc/permits/visitors-permit"
+      },
+      {
+        "text": "All visitors to Seychelles must possess a valid Electronic Travel Authorisation (ETA) prior to departing from their country of origin.",
+        "url": "https://www.ics.gov.sc/permits/visitors-permit"
+      }
+    ],
+    "faq.travel-authorisation": [
+      {
+        "text": "All non-citizens travelling to Seychelles must complete the Travel Authorisation, as per Seychelles law. This digital form replaces the blue paper form that was previously completed pre-arrival and serves as approval for travel to Seych",
+        "url": "https://seychelles.govtas.com/en/pages/FAQS"
+      },
+      {
+        "text": "You can apply for your Seychelles Travel Authorisation on this official government website or by using the official Seychelles e-border app.",
+        "url": "https://seychelles.govtas.com/en/pages/FAQS"
+      },
+      {
+        "text": "Travellers of all ages must comply with Immigration requirements.",
+        "url": "https://seychelles.govtas.com/en/pages/FAQS"
+      },
+      {
+        "text": "Adults Standard Processing (24 hours) - €10 Premium Processing (6 hours) - €30 Expedited Processing (60 minutes) - €70 Children (12 years and under) Standard Processing (24 hours) - €10 Premium Processing (6 hours) - €30 Expedited Processing (60 minutes) - €30 Please be advised that the indicated fees do not include bank charges and are subject to change.",
+        "url": "https://seychelles.govtas.com/en/pages/FAQS"
+      },
+      {
+        "text": "Without one, you may be denied boarding by your airline or face delays on arrival.",
+        "url": "https://seychelles.govtas.com/en/pages/FAQS"
+      }
+    ],
+    "faq.how-long-stay": [
+      {
+        "text": "The Visitor’s Permit is initially granted for a stay of up to three months. This permit can be extended for successive periods of up to three months each, to a maximum total duration of twelve months, provided the individual continues to meet the above criteria.",
+        "url": "https://www.ics.gov.sc/permits/visitors-permit"
+      },
+      {
+        "text": "Valid Travel Tickets: A valid return or onward ticket must be presented for the duration of the visit. Accommodation: Confirmed accommodation arrangements must be provided. Financial Support: Sufficient funds to cover the duration of the stay must be demonstrated.",
+        "url": "https://www.ics.gov.sc/permits/visitors-permit"
+      }
+    ],
+    "faq.arrival-documents": [
+      {
+        "text": "All visitors to Seychelles must possess a valid Electronic Travel Authorisation (ETA) prior to departing from their country of origin.",
+        "url": "https://www.ics.gov.sc/permits/visitors-permit"
+      },
+      {
+        "text": "Valid Travel Tickets: A valid return or onward ticket must be presented for the duration of the visit. Accommodation: Confirmed accommodation arrangements must be provided. Financial Support: Sufficient funds to cover the duration of the stay must be demonstrated.",
+        "url": "https://www.ics.gov.sc/permits/visitors-permit"
+      },
+      {
+        "text": "has sufficient funds for the duration of the stay. (minimum of US$150 or equivalent per day).",
+        "url": "https://www.ics.gov.sc/visa-and-travel/visiting-seychelles"
+      },
+      {
+        "text": "The passport MUST be valid for the period of the intended stay until arrival back in the holder’s country of origin or residence.",
+        "url": "https://www.ics.gov.sc/visa-and-travel/visiting-seychelles"
+      }
+    ],
+    "faq.vaccinations": [
+      {
+        "text": "You will be expected to upload your yellow fever vaccination certificate only if you are traveling from a country or region where the disease is endemic. If you are transiting through an airport in a yellow fever endemic region for less than 12 hours, you will not need the yellow fever certificate to travel to Seychelles.",
+        "url": "https://seychelles.govtas.com/en/pages/FAQS"
+      }
+    ],
+    "tips.eta-before-boarding": [
+      {
+        "text": "Without one, you may be denied boarding by your airline or face delays on arrival.",
+        "url": "https://seychelles.govtas.com/en/pages/FAQS"
+      },
+      {
+        "text": "You will be charged a penalty fee of 30EUR at the airport, if you arrive without a pre-approved eTA.",
+        "url": "https://seychelles.govtas.com/en/pages/FAQS"
+      },
+      {
+        "text": "Standard processing - 24 hours",
+        "url": "https://seychelles.govtas.com/en/pages/FAQS"
+      }
+    ],
+    "tips.book-accommodation": [
+      {
+        "text": "If you are staying in Seychelles for one night or more, you will be required to submit a copy of your hotel or accommodation booking.",
+        "url": "https://seychelles.govtas.com/en/pages/FAQS"
+      },
+      {
+        "text": "If you are staying with family and friends, you will need a letter of invitation from the host",
+        "url": "https://seychelles.govtas.com/en/pages/FAQS"
+      },
+      {
+        "text": "The Seychelles Tourism Department publish a list of authorised establishments on it's website. These are places that are fully vetted and licensed by the Tourism Department. Any applications made with accommodation not on this list may be denied.",
+        "url": "https://seychelles.govtas.com/en/pages/FAQS"
+      }
+    ],
+    "tips.sea-conditions": [
+      {
+        "text": "Beaches can be safe for swimming at some times of the year and dangerous at others. In general, the west coast is unsafe during the north-west monsoon (around December to March), and the east coast is unsafe during the south-east winds season (around May to September). Beaches at the southern tip are not suitable for swimming at any time.",
+        "url": "https://www.gov.uk/foreign-travel-advice/seychelles/safety-and-security"
+      }
+    ],
+    "entryRequirements.passportValidity": [
+      {
+        "text": "The passport MUST be valid for the period of the intended stay until arrival back in the holder’s country of origin or residence.",
+        "url": "https://www.ics.gov.sc/visa-and-travel/visiting-seychelles"
+      },
+      {
+        "text": "If you’re visiting Seychelles, your passport must be valid for the duration of your stay.",
+        "url": "https://www.gov.uk/foreign-travel-advice/seychelles/entry-requirements"
+      }
+    ],
+    "entryRequirements.vaccinations.yellow-fever": [
+      {
+        "text": "You will be expected to upload your yellow fever vaccination certificate only if you are traveling from a country or region where the disease is endemic. If you are transiting through an airport in a yellow fever endemic region for less than 12 hours, you will not need the yellow fever certificate to travel to Seychelles.",
+        "url": "https://seychelles.govtas.com/en/pages/FAQS"
+      }
+    ],
+    "entryRequirements.onwardTicket": [
+      {
+        "text": "Valid Travel Tickets: A valid return or onward ticket must be presented for the duration of the visit.",
+        "url": "https://www.ics.gov.sc/permits/visitors-permit"
+      },
+      {
+        "text": "it is only possible to apply for the TA after having booked your airline ticket and your accommodation(s).",
+        "url": "https://seychelles.govtas.com/en/pages/FAQS"
+      }
+    ],
+    "entryRequirements.proofOfFunds": [
+      {
+        "text": "has sufficient funds for the duration of the stay. (minimum of US$150 or equivalent per day).",
+        "url": "https://www.ics.gov.sc/visa-and-travel/visiting-seychelles"
+      },
+      {
+        "text": "Valid Travel Tickets: A valid return or onward ticket must be presented for the duration of the visit. Accommodation: Confirmed accommodation arrangements must be provided. Financial Support: Sufficient funds to cover the duration of the stay must be demonstrated.",
+        "url": "https://www.ics.gov.sc/permits/visitors-permit"
+      }
+    ],
+    "entryRequirements.customs.currencyLimits": [
+      {
+        "text": "If you are taking cash with a value of 50,000 Seychellois rupees or more into Seychelles, declare this when you apply for your travel authorisation.",
+        "url": "https://www.gov.uk/foreign-travel-advice/seychelles/entry-requirements"
+      }
+    ],
+    "entryRequirements.customs.notes.0": [
+      {
+        "text": "Strict regulations may be enforced on the temporary import or export of certain items, including: firearms spear-fishing equipment fruits and vegetables",
+        "url": "https://travel.gc.ca/destinations/seychelles"
+      }
+    ],
+    "countryFacts.safety": [
+      {
+        "text": "There is a risk of break-ins, robberies, burglaries and opportunistic thefts. Crime is generally non-violent, but people can have their bags snatched, cars and boats broken into or be robbed while walking at night.",
+        "url": "https://www.gov.uk/foreign-travel-advice/seychelles/safety-and-security"
+      },
+      {
+        "text": "use a hotel safe or safety deposit box to store valuables, money and passports",
+        "url": "https://www.gov.uk/foreign-travel-advice/seychelles/safety-and-security"
+      }
+    ],
+    "countryFacts.bestTimeToVisit": [
+      {
+        "text": "In general, the west coast is unsafe during the north-west monsoon (around December to March), and the east coast is unsafe during the south-east winds season (around May to September).",
+        "url": "https://www.gov.uk/foreign-travel-advice/seychelles/safety-and-security"
+      }
+    ],
+    "countryFacts.driving": [
+      {
+        "text": "Seychelles 11 Apr 1977 a",
+        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
+      },
+      {
+        "text": "To drive in Seychelles, you must have the following: a valid Canadian driver’s license an international driving permit",
+        "url": "https://travel.gc.ca/destinations/seychelles"
+      }
+    ],
+    "countryFacts.driving.idp": [
+      {
+        "text": "Seychelles 11 Apr 1977 a",
+        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
+      }
+    ],
+    "visaTypes.travel-authorisation.feeNotes": [
+      {
+        "text": "Adults Standard Processing (24 hours) - €10 Premium Processing (6 hours) - €30 Expedited Processing (60 minutes) - €70 Children (12 years and under) Standard Processing (24 hours) - €10 Premium Processing (6 hours) - €30 Expedited Processing (60 minutes) - €30 Please be advised that the indicated fees do not include bank charges and are subject to change.",
+        "url": "https://seychelles.govtas.com/en/pages/FAQS"
+      }
+    ],
+    "visaTypes.visitor-permit-extension.feeNotes": [
+      {
+        "text": "The initial Visitor’s Permit is issued free of charge for the first three months. For extensions beyond the initial three months, a fee of SCR 5,000 is required for each additional three-month period or part thereof.",
+        "url": "https://www.ics.gov.sc/permits/visitors-permit"
+      },
+      {
+        "text": "to a maximum total duration of twelve months",
+        "url": "https://www.ics.gov.sc/permits/visitors-permit"
+      },
+      {
+        "text": "Online Application: Complete your extension request at www.permits.ics.gov.sc. Payments for the extension application must be made via card. In-Person Application: Visit the Immigration and Civil Status Office located at Independence House, Victoria, Mahé, to submit your application.",
+        "url": "https://www.ics.gov.sc/permits/visitors-permit"
+      }
+    ]
+  }
 }

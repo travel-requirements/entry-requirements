@@ -8937,6 +8937,34 @@
         ],
         "additionalProperties": false
       }
+    },
+    "textQuotes": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "minItems": 1,
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "text": {
+              "type": "string",
+              "minLength": 10
+            },
+            "url": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "required": [
+            "text",
+            "url"
+          ],
+          "additionalProperties": false
+        }
+      }
     }
   },
   "required": [

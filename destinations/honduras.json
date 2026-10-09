@@ -17,7 +17,7 @@
     "nicaragua",
     "belize"
   ],
-  "summary": "Honduras's own per-nationality visa list is no longer online, so this page gives the entry rule only for passports an official source still states. The National Institute of Migration says a tourist may stay up to 90 days, extendable by 30 days, and distinguishes a consular visa from a \"consulted\" visa that it must authorise first. Citizens of Guatemala, El Salvador and Nicaragua can enter with a national identity card or a passport under the CA-4 agreement. An online immigration pre-check can be completed before arrival.",
+  "summary": "Honduras's own per-nationality visa list is no longer online, so this page gives the entry rule only for passports an official source still states. The National Institute of Migration says a tourist may stay up to 90 days, extendable by 30 days, and distinguishes a consular visa from a \"consulted\" visa that it must validate first. It says citizens of Guatemala, El Salvador and Nicaragua can use a national identity card or a passport under the CA-4 agreement. The Institute runs an online immigration pre-check (prechequeo).",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -237,19 +237,9 @@
         "notes": null
       },
       "CN": {
-        "requirement": "embassy-visa",
+        "requirement": "unconfirmed",
         "maxStayDays": null,
-        "visaTypes": [
-          "tourist-visa"
-        ],
-        "notes": null,
-        "source": {
-          "url": "http://cs.mfa.gov.cn/zggmcg/ljmdd/bmz_655327/hdls_656445/",
-          "name": "Ministry of Foreign Affairs of China, consular service — Honduras destination guide",
-          "type": "government",
-          "lastVerified": "2026-10-02",
-          "lastChanged": "2026-10-02"
-        }
+        "notes": null
       },
       "CO": {
         "requirement": "unconfirmed",
@@ -1162,23 +1152,7 @@
         "maxStayDays": null,
         "notes": null
       }
-    },
-    "conditionalWaivers": [
-      {
-        "id": "us-visa",
-        "requirement": "visa-free",
-        "maxStayDays": 90,
-        "appliesTo": "visa-required",
-        "text": "China's foreign ministry says a US, Canadian or Schengen visa with at least six months of validity left lets travelers enter Honduras without a Honduran visa (category A).",
-        "source": {
-          "url": "http://cs.mfa.gov.cn/zggmcg/ljmdd/bmz_655327/hdls_656445/",
-          "name": "Ministry of Foreign Affairs of China, consular service — Honduras destination guide",
-          "type": "government",
-          "lastVerified": "2026-10-02",
-          "lastChanged": "2026-10-02"
-        }
-      }
-    ]
+    }
   },
   "visaTypes": [
     {
@@ -1216,7 +1190,14 @@
           "name": "Embassy of Honduras in the United Kingdom — Visa",
           "states": "Tourists may stay up to 90 days, extendable by a further 90 days at the INM.",
           "resolvedBy": "hierarchy"
-        }
+        },
+        "alsoStatedOn": [
+          {
+            "url": "https://hondurasembassyuk.com/visa",
+            "name": "Embassy of Honduras in the United Kingdom — Visa",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       },
       "evidence": {
         "fee": {
@@ -1224,8 +1205,8 @@
           "url": "https://inm.gob.hn/visas.html"
         },
         "entries": {
-          "text": "Visa sencilla (30 días): $30.00",
-          "url": "https://inm.gob.hn/visas.html"
+          "text": "– Visa Fees: Single: $30 USD / Multiple: $60 USD",
+          "url": "https://hondurasembassyuk.com/visa"
         },
         "extendable": {
           "text": "Se puede permanecer como turista un máximo de 90 días, prorrogables por 30 días más, solicitando una extensión en el Instituto Nacional de Migración (INM) de Honduras.",
@@ -1236,7 +1217,7 @@
           "url": "https://inm.gob.hn/visas.html"
         },
         "method": {
-          "text": "El visado se coloca en su pasaporte y se entrega el día de la cita. El trámite es personal y presencial.",
+          "text": "Aquellas extendidas por el funcionario diplomático o consular hondureño, sin requerir autorización de la Secretaría de Relaciones Exteriores, siempre y cuando se verifiquen y validen todos los requisitos que dicha Oficina Consular solicite.",
           "url": "https://inm.gob.hn/visas.html"
         }
       }
@@ -1249,7 +1230,7 @@
       "fee": {
         "amount": 100,
         "currency": "USD",
-        "notes": "The USD 100 consulted-visa tariff is paid when the application is filed with the National Institute of Migration, through a lawyer holding a power of attorney and with a person in Honduras who signs a statement of responsibility for the traveller. Once it is approved, the visa itself is issued by a Honduran consulate."
+        "notes": "The USD 100 consulted-visa tariff is among the requirements when the application is filed at the National Institute of Migration, through a lawyer holding a power of attorney and with a person in Honduras who signs a statement of responsibility for the traveller. Once the Institute validates it, the traveller applies at any Honduran consulate."
       },
       "processing": null,
       "validityDays": null,
@@ -1399,7 +1380,7 @@
         "submitAt": "before-travel",
         "submitWindow": "Before arrival or departure",
         "url": "https://prechequeo.inm.gob.hn/",
-        "text": "Honduras's National Migration Institute runs an online immigration pre-check (prechequeo) for both entry and exit at prechequeo.inm.gob.hn: you request a one-time token by email, submit your details for approval, and can download the approved pre-check to show the immigration officer. No official source we could read says whether it is mandatory.",
+        "text": "Honduras's National Migration Institute runs an online immigration pre-check (prechequeo) at prechequeo.inm.gob.hn: you receive a one-time token by email to do the pre-check in its application, and can download your pre-check to present to the immigration inspector. No official source we could read says whether it is mandatory.",
         "source": {
           "url": "https://prechequeo.inm.gob.hn/",
           "name": "Instituto Nacional de Migración (Honduras) — Prechequeo Migratorio portal",
@@ -1417,7 +1398,7 @@
         "submitAt": "before-travel",
         "submitWindow": "Before entering or leaving the country",
         "url": "https://sisglobal.aduanas.gob.hn/Pech/#/plataforma/otra_gestiones/formularioDJRV",
-        "text": "Every traveller, Honduran or foreign, entering or leaving Honduras by air, sea or land must present the customs Regional Traveller's Sworn Declaration, stating whether they carry cash or other instruments worth USD 10,000 or more. It is filled in online on the customs portal; the UK government says to complete it before entering or leaving and show the QR code to customs, on paper or on screen.",
+        "text": "Honduras customs' Regional Traveller's Sworn Declaration says every traveller or head of family entering or leaving the country must declare, including whether they carry cash or monetary instruments worth USD 10,000 or more. The UK government says to complete the online form before entering or leaving and present the QR code to customs, on paper or electronically.",
         "source": {
           "url": "https://www.aduanas.gob.hn/LandingAAH/#/travelers-regime",
           "name": "Administración Aduanera de Honduras — Régimen del Viajero",
@@ -1430,7 +1411,7 @@
     ],
     "customs": {
       "currencyLimits": {
-        "text": "Honduras customs says every traveller, Honduran or foreign, entering or leaving the country must state on the Regional Traveller's Sworn Declaration whether they carry cash, electronic purses or negotiable instruments worth USD 10,000 or more (or the equivalent).",
+        "text": "Honduras customs' Regional Traveller's Sworn Declaration, which every traveller or head of family entering or leaving the country must make, asks whether you carry cash, monetary instruments, securities, objects or precious metals worth USD 10,000 or more (or the equivalent).",
         "source": {
           "url": "https://www.aduanas.gob.hn/LandingAAH/#/travelers-regime",
           "name": "Administración Aduanera de Honduras — Régimen del Viajero",
@@ -1462,7 +1443,7 @@
     "payments": null,
     "safety": {
       "level": "exercise-caution",
-      "text": "The UK Foreign Office says Honduras has one of the highest violent crime rates in Latin America, though most serious crime does not affect tourists. It advises avoiding walking around Tegucigalpa, San Pedro Sula and other mainland cities, using radio-dispatched or hotel taxis for short distances, not displaying valuables and avoiding road travel at night. Canada's travel advice says the Bay Islands are generally safe, with lower violent crime.",
+      "text": "The UK Foreign Office says Honduras has one of the highest violent crime rates in Latin America, though most serious crime does not affect tourists. It advises avoiding walking around Tegucigalpa, San Pedro Sula and other mainland cities, using radio-dispatched or hotel taxis for shorter distances, not displaying valuables and avoiding road travel at night. Canada's travel advice says the Bay Islands are generally safe, with lower violent crime.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/honduras/safety-and-security",
         "name": "UK FCDO — Honduras travel advice: safety and security",
@@ -1507,7 +1488,7 @@
     },
     "bestTimeToVisit": {
       "months": [],
-      "text": "No official seasonal guidance for visitors. Canada's travel advice says the rainy season runs from May to November and can cause severe flooding, and that the hurricane season runs from mid-May (Pacific) or early June (Atlantic and Caribbean) to the end of November."
+      "text": "No official source we could read gives a best time to visit. Canada's travel advice says the rainy season runs from May to November and can cause severe flooding, and that the hurricane season runs from mid-May (Pacific) or early June (Atlantic, Caribbean and Gulf of Mexico) to the end of November."
     },
     "languages": [
       "Spanish"
@@ -1591,12 +1572,12 @@
     {
       "id": "prechequeo",
       "type": "warning",
-      "text": "You can complete the online prechequeo at prechequeo.inm.gob.hn before you fly, for arrival and again for departure, and download the approved pre-check to show the immigration officer. Whether it is mandatory is not officially stated."
+      "text": "You can do the online immigration pre-check at prechequeo.inm.gob.hn and download it to present to the immigration inspector. No official source we could read says whether it is mandatory."
     },
     {
       "id": "ca4-clock",
       "type": "info",
-      "text": "Canada's travel advice says Canadians can travel between Honduras, Guatemala, El Salvador and Nicaragua (the CA-4) for up to 90 days, that an extension of up to 30 days must be requested from the National Institute of Migration before the first stay expires, and that Honduras allows a maximum of 120 days."
+      "text": "Canada's travel advice says Canadian tourists can travel between Honduras, Guatemala, El Salvador and Nicaragua (the CA-4) for up to 90 days, that an extension of up to 30 days must be requested from the National Migration Institute before the first stay expires, and that Honduras allows a maximum of 120 days."
     },
     {
       "id": "bay-islands-diving",
@@ -1606,34 +1587,336 @@
     {
       "id": "city-crime",
       "type": "warning",
-      "text": "The UK FCDO advises avoiding walking around Tegucigalpa, San Pedro Sula and other mainland cities, using radio-dispatched or hotel taxis for short distances, considering alternatives to public buses, and not displaying phones, jewellery or other valuables."
+      "text": "The UK FCDO advises avoiding walking around Tegucigalpa, San Pedro Sula and other main towns and cities in mainland Honduras, using radio-dispatched or hotel taxis for shorter distances, considering alternatives to public buses, and not displaying phones, jewellery or other valuables."
     }
   ],
   "faq": [
     {
       "id": "need-visa",
       "question": "Do I need a visa for Honduras?",
-      "answer": "It depends on your passport, and Honduras's own per-nationality visa list is no longer online. Foreign governments' travel advice says Canadian, Dutch and Italian citizens need no visa for stays of up to 90 days, and the UK Foreign Office says British citizens must have one. The National Institute of Migration says tourists may stay up to 90 days, extendable by 30, and distinguishes a consular visa from a \"consulted\" visa that it must authorise first."
+      "answer": "It depends on your passport, and Honduras's own per-nationality visa list is no longer online. Foreign governments' travel advice says Canadian, Dutch and Italian citizens need no visa for stays of up to 90 days, and the UK Foreign Office says British citizens must have one. The National Institute of Migration says tourists may stay up to 90 days, extendable by 30, and distinguishes a consular visa from a \"consulted\" visa that it must validate first."
     },
     {
       "id": "prechequeo",
       "question": "What is the Honduras prechequeo form?",
-      "answer": "An online immigration pre-check run by Honduras's National Migration Institute at prechequeo.inm.gob.hn, for entry or exit. You request a one-time token by email, submit your details for approval and can download the result to show the immigration officer. No official source we could read says whether it is mandatory."
+      "answer": "An online immigration pre-check (prechequeo migratorio) run by Honduras's National Migration Institute at prechequeo.inm.gob.hn. You receive a one-time token by email to do the pre-check in its application, and can download your pre-check to present to the immigration inspector. No official source we could read says whether it is mandatory."
     },
     {
       "id": "ca4",
       "question": "How does the CA-4 90-day rule work in Honduras?",
-      "answer": "Canada's travel advice says that under the CA-4 agreement Canadians can travel between Honduras, Guatemala, El Salvador and Nicaragua for up to 90 days, with the length of stay set by the officer at the first entry point. An extension of up to 30 days must be requested and paid for at the National Institute of Migration before the first stay expires, and Honduras allows a maximum of 120 days; after that you must change your status, leave the CA-4 region or travel to El Salvador."
+      "answer": "Canada's travel advice says that under the CA-4 agreement Canadian tourists can travel between Honduras, Guatemala, El Salvador and Nicaragua for up to 90 days, with the length of stay set by the immigration officer at the first entry point. An extension of up to 30 days must be requested and paid for at the National Migration Institute before the first stay expires, and Honduras allows a maximum of 120 days; after that you must change your status, leave the CA-4 region or travel to El Salvador."
     },
     {
       "id": "safety",
       "question": "Is Honduras safe for tourists?",
-      "answer": "The UK FCDO says Honduras has one of the highest violent crime rates in Latin America; most serious crime does not affect tourists, but incidents can happen anywhere, including tourist areas. Canada says the Bay Islands are generally safe, with lower violent crime, and advises avoiding non-essential travel to some areas, including within 20 km of the borders with Guatemala and El Salvador (Copán Ruinas and the El Florido crossing are excluded) and parts of San Pedro Sula. Both advise against road travel at night."
+      "answer": "The UK FCDO says Honduras has one of the highest violent crime rates in Latin America; most serious crime does not affect tourists, but incidents can happen anywhere, even in tourist areas. Canada says the Bay Islands are generally safe, with lower violent crime, and advises avoiding non-essential travel to some areas, including within 20 km of the borders with Guatemala and El Salvador (with listed exceptions such as Copán Ruinas and the El Florido crossing) and the eastern neighbourhoods of San Pedro Sula. Both advise avoiding road travel at night."
     },
     {
       "id": "roatan-money",
       "question": "Can I pay in US dollars on Roatán?",
-      "answer": "The UK FCDO says US dollars are widely accepted for exchange and payment in Honduras, and that British pounds are difficult to exchange. It advises checking with your hotel which ATMs to use, especially on Roatán."
+      "answer": "The UK FCDO says US dollars are widely accepted for exchange and payment in Honduras, and that British pounds are difficult to exchange. It advises checking with your hotel which ATMs to use, especially in Roatán."
     }
-  ]
+  ],
+  "textQuotes": {
+    "summary": [
+      {
+        "url": "https://inm.gob.hn/visas.html",
+        "text": "Se puede permanecer como turista un máximo de 90 días, prorrogables por 30 días más, solicitando una extensión en el Instituto Nacional de Migración (INM) de Honduras."
+      },
+      {
+        "url": "https://inm.gob.hn/visas.html",
+        "text": "Aquellas extendidas por el funcionario diplomático o consular hondureño, sin requerir autorización de la Secretaría de Relaciones Exteriores"
+      },
+      {
+        "url": "https://inm.gob.hn/visas.html",
+        "text": "Visa Consultada Es aquella que se expide a extranjeros previa validación del Instituto Nacional de Migración (INM), quien extenderá la autorización escrito, para que la persona extranjera que la solicitó pueda gestionar la solicitud ante cualquier Consulado hondureño."
+      },
+      {
+        "url": "https://inm.gob.hn/visas.html",
+        "text": "Los ciudadanos de Nicaragua, Guatemala y El Salvador, por el Convenio Centroamericano de Libre Movilidad o CA-4, pueden presentar como documento de identificación tanto Documento Nacional de Identificación (DNI) o pasaporte."
+      },
+      {
+        "url": "https://prechequeo.inm.gob.hn/",
+        "text": "PRECHEQUEO MIGRATORIO Pasos para realizar prechequeo migratorio: Recibirás un token único por correo electrónico para realizar un pre-check en nuestra aplicación Realice su prechequeo migratorio Usted puede descargar su prechequeo para presentarlo ante el inspector de migracion"
+      }
+    ],
+    "faq.need-visa": [
+      {
+        "url": "https://travel.gc.ca/destinations/honduras",
+        "text": "Tourist visa: not required for stays up to 90 days"
+      },
+      {
+        "url": "https://www.nederlandwereldwijd.nl/reisadvies/honduras",
+        "text": "Blijft u 90 dagen of korter in Honduras? En reist u met een Nederlands paspoort? Dan heeft u geen visum nodig."
+      },
+      {
+        "url": "https://www.viaggiaresicuri.it/find-country/country/HND",
+        "text": "Il visto d’ingresso non è necessario, per soggiorno turistico fino a 90 giorni."
+      },
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/honduras/entry-requirements",
+        "text": "You must have a visa to visit Honduras."
+      },
+      {
+        "url": "https://inm.gob.hn/visas.html",
+        "text": "Se puede permanecer como turista un máximo de 90 días, prorrogables por 30 días más, solicitando una extensión en el Instituto Nacional de Migración (INM) de Honduras."
+      },
+      {
+        "url": "https://inm.gob.hn/visas.html",
+        "text": "Aquellas extendidas por el funcionario diplomático o consular hondureño, sin requerir autorización de la Secretaría de Relaciones Exteriores"
+      },
+      {
+        "url": "https://inm.gob.hn/visas.html",
+        "text": "Visa Consultada Es aquella que se expide a extranjeros previa validación del Instituto Nacional de Migración (INM), quien extenderá la autorización escrito, para que la persona extranjera que la solicitó pueda gestionar la solicitud ante cualquier Consulado hondureño."
+      }
+    ],
+    "faq.prechequeo": [
+      {
+        "url": "https://prechequeo.inm.gob.hn/",
+        "text": "PRECHEQUEO MIGRATORIO Pasos para realizar prechequeo migratorio: Recibirás un token único por correo electrónico para realizar un pre-check en nuestra aplicación Realice su prechequeo migratorio Usted puede descargar su prechequeo para presentarlo ante el inspector de migracion"
+      }
+    ],
+    "faq.ca4": [
+      {
+        "url": "https://travel.gc.ca/destinations/honduras",
+        "text": "Under the terms of the Central America-4 Border Control Agreement (CA-4), Canadian tourists may travel freely within any of the following CA-4 countries: El Salvador Guatemala Honduras Nicaragua You can travel between these countries for up to 90 days without having to undergo entry and exit formalities at border immigration checkpoints."
+      },
+      {
+        "url": "https://travel.gc.ca/destinations/honduras",
+        "text": "The immigration officer at your first entry point into the CA-4 region will determine the exact length of your authorized stay."
+      },
+      {
+        "url": "https://travel.gc.ca/destinations/honduras",
+        "text": "You may request an extension of up to 30 days. However, you must request this extension and pay the required fee at the National Migration Institute before your first authorized stay expires."
+      },
+      {
+        "url": "https://travel.gc.ca/destinations/honduras",
+        "text": "You are authorized to stay in Honduras for a maximum of 120 days."
+      },
+      {
+        "url": "https://travel.gc.ca/destinations/honduras",
+        "text": "Once your total authorized stay expires, you must either: change your migratory status leave the CA-4 region travel to El Salvador"
+      }
+    ],
+    "faq.safety": [
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/honduras/safety-and-security",
+        "text": "Honduras has one of the highest violent crime rates in Latin America. Although most serious crime does not affect tourists, you could be caught up in incidents as they can happen anywhere and at any time, even in tourist areas."
+      },
+      {
+        "url": "https://travel.gc.ca/destinations/honduras",
+        "text": "The Bay Islands are generally safe. Violent crime is lower, but petty crime sometimes occurs."
+      },
+      {
+        "url": "https://travel.gc.ca/destinations/honduras",
+        "text": "Avoid non-essential travel to the following areas due to gang-related violence, high crime rate, and civil unrest: within 20 km of the border with Guatemala, excluding: Copán Ruinas El Florido border crossing"
+      },
+      {
+        "url": "https://travel.gc.ca/destinations/honduras",
+        "text": "within 20 km of the border with El Salvador, excluding"
+      },
+      {
+        "url": "https://travel.gc.ca/destinations/honduras",
+        "text": "the eastern neighbourhoods of San Pedro Sula:"
+      },
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/honduras/safety-and-security",
+        "text": "Avoid road travel at night."
+      },
+      {
+        "url": "https://travel.gc.ca/destinations/honduras",
+        "text": "avoid road travel at night"
+      }
+    ],
+    "faq.roatan-money": [
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/honduras/safety-and-security",
+        "text": "US dollars are widely accepted for exchange and payment. It is difficult to exchange British pounds in Honduras."
+      },
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/honduras/safety-and-security",
+        "text": "Check with your hotel which ATMs to use, especially in Roatán."
+      }
+    ],
+    "tips.prechequeo": [
+      {
+        "url": "https://prechequeo.inm.gob.hn/",
+        "text": "PRECHEQUEO MIGRATORIO Pasos para realizar prechequeo migratorio: Recibirás un token único por correo electrónico para realizar un pre-check en nuestra aplicación Realice su prechequeo migratorio Usted puede descargar su prechequeo para presentarlo ante el inspector de migracion"
+      }
+    ],
+    "tips.ca4-clock": [
+      {
+        "url": "https://travel.gc.ca/destinations/honduras",
+        "text": "Under the terms of the Central America-4 Border Control Agreement (CA-4), Canadian tourists may travel freely within any of the following CA-4 countries: El Salvador Guatemala Honduras Nicaragua You can travel between these countries for up to 90 days without having to undergo entry and exit formalities at border immigration checkpoints."
+      },
+      {
+        "url": "https://travel.gc.ca/destinations/honduras",
+        "text": "You may request an extension of up to 30 days. However, you must request this extension and pay the required fee at the National Migration Institute before your first authorized stay expires."
+      },
+      {
+        "url": "https://travel.gc.ca/destinations/honduras",
+        "text": "You are authorized to stay in Honduras for a maximum of 120 days."
+      }
+    ],
+    "tips.bay-islands-diving": [
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/honduras/safety-and-security",
+        "text": "There is a hyperbaric (recompression) chamber on Roatán and there are recompression facilities on the Bay Island of Utila. However, emergency medical facilities on the Bay Islands are extremely limited."
+      }
+    ],
+    "tips.city-crime": [
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/honduras/safety-and-security",
+        "text": "Avoid walking around Tegucigalpa, San Pedro Sula, and other main towns and cities in mainland Honduras."
+      },
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/honduras/safety-and-security",
+        "text": "consider alternatives to public transport (buses). For shorter distances, use radio-dispatched taxis or hotel taxis."
+      },
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/honduras/safety-and-security",
+        "text": "Avoid displaying valuable items like jewellery, cameras, tablets, laptops, and mobile phones."
+      }
+    ],
+    "entryRequirements.passportValidity": [
+      {
+        "url": "https://inm.gob.hn/visas.html",
+        "text": "Mientras ciudadanos de otras nacionalidades, pueden ingresar a Honduras exclusivamente con pasaporte vigente por al menos 6 meses."
+      },
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/honduras/entry-requirements",
+        "text": "To enter Honduras, your passport must have an ‘expiry date’ at least 6 months after the date you arrive and at least 2 blank pages."
+      }
+    ],
+    "entryRequirements.vaccinations.yellow-fever": [
+      {
+        "url": "https://inm.gob.hn/visas.html",
+        "text": "Obligatoriamente a todo viajero nacional o extranjero que egrese del país o ingrese de países en riesgo de transmisión de la fiebre amarilla."
+      },
+      {
+        "url": "https://inm.gob.hn/visas.html",
+        "text": "Centro América Panamá (algunas zonas del país son de riesgo de transmisión) América del Sur Argentina, Bolivia, Brasil, Colombia, Ecuador, Guyana Francesa, Guyana, Perú, Suriname, Venezuela y Paraguay África"
+      }
+    ],
+    "entryRequirements.travelInsurance": [
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/honduras/health",
+        "text": "you have appropriate travel insurance for local treatment or unexpected medical evacuation"
+      }
+    ],
+    "entryRequirements.onwardTicket": [
+      {
+        "url": "https://travel.gc.ca/destinations/honduras",
+        "text": "Customs officials may ask you to show them: a return or onward ticket"
+      }
+    ],
+    "entryRequirements.proofOfFunds": [
+      {
+        "url": "https://travel.gc.ca/destinations/honduras",
+        "text": "proof that you have sufficient funds for the duration of your stay"
+      }
+    ],
+    "entryRequirements.declarations.prechequeo": [
+      {
+        "url": "https://prechequeo.inm.gob.hn/",
+        "text": "PRECHEQUEO MIGRATORIO Pasos para realizar prechequeo migratorio: Recibirás un token único por correo electrónico para realizar un pre-check en nuestra aplicación Realice su prechequeo migratorio Usted puede descargar su prechequeo para presentarlo ante el inspector de migracion"
+      }
+    ],
+    "entryRequirements.declarations.djrv": [
+      {
+        "url": "https://sisglobal.aduanas.gob.hn/Pech/#/plataforma/otra_gestiones/formularioDJRV",
+        "text": "DECLARACIÓN JURADA REGIONAL DE VIAJERO TODO VIAJERO O JEFE DE FAMILIA QUE INGRESE O SALGA DEL PAÍS DEBE DECLARAR"
+      },
+      {
+        "url": "https://sisglobal.aduanas.gob.hn/Pech/#/plataforma/otra_gestiones/formularioDJRV",
+        "text": "20. ¿Lleva o trae consigo dinero en efectivo o valores monetarios, títulos valores, objetos, metales preciosos o una combinación de estos por un valor igual o superior a US$ 10,000.00 o su equivalente?"
+      },
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/honduras/entry-requirements",
+        "text": "You must complete the Government of Honduras’ customs declaration form prior to entering or leaving the country. After completing the online form, you must present the QR code to the customs authorities, either on paper or electronically."
+      }
+    ],
+    "entryRequirements.customs.currencyLimits": [
+      {
+        "url": "https://sisglobal.aduanas.gob.hn/Pech/#/plataforma/otra_gestiones/formularioDJRV",
+        "text": "DECLARACIÓN JURADA REGIONAL DE VIAJERO TODO VIAJERO O JEFE DE FAMILIA QUE INGRESE O SALGA DEL PAÍS DEBE DECLARAR"
+      },
+      {
+        "url": "https://sisglobal.aduanas.gob.hn/Pech/#/plataforma/otra_gestiones/formularioDJRV",
+        "text": "20. ¿Lleva o trae consigo dinero en efectivo o valores monetarios, títulos valores, objetos, metales preciosos o una combinación de estos por un valor igual o superior a US$ 10,000.00 o su equivalente?"
+      }
+    ],
+    "countryFacts.safety": [
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/honduras/safety-and-security",
+        "text": "Honduras has one of the highest violent crime rates in Latin America. Although most serious crime does not affect tourists, you could be caught up in incidents as they can happen anywhere and at any time, even in tourist areas."
+      },
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/honduras/safety-and-security",
+        "text": "Avoid walking around Tegucigalpa, San Pedro Sula, and other main towns and cities in mainland Honduras."
+      },
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/honduras/safety-and-security",
+        "text": "consider alternatives to public transport (buses). For shorter distances, use radio-dispatched taxis or hotel taxis."
+      },
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/honduras/safety-and-security",
+        "text": "Avoid displaying valuable items like jewellery, cameras, tablets, laptops, and mobile phones."
+      },
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/honduras/safety-and-security",
+        "text": "Avoid road travel at night."
+      },
+      {
+        "url": "https://travel.gc.ca/destinations/honduras",
+        "text": "The Bay Islands are generally safe. Violent crime is lower, but petty crime sometimes occurs."
+      }
+    ],
+    "countryFacts.bestTimeToVisit": [
+      {
+        "url": "https://travel.gc.ca/destinations/honduras",
+        "text": "The rainy season extends from May to November. It can lead to severe flooding."
+      },
+      {
+        "url": "https://travel.gc.ca/destinations/honduras",
+        "text": "The hurricane season is from mid-May to the end of November in the Pacific, and from early June to the end of November in the Atlantic, Caribbean Sea and Gulf of Mexico."
+      }
+    ],
+    "countryFacts.driving": [
+      {
+        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
+        "text": "Honduras 3 Feb 2020 a"
+      }
+    ],
+    "countryFacts.driving.idp": [
+      {
+        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
+        "text": "Honduras 3 Feb 2020 a"
+      }
+    ],
+    "visaTypes.tourist-visa.feeNotes": [
+      {
+        "url": "https://inm.gob.hn/visas.html",
+        "text": "Costo: Visa sencilla (30 días): $30.00 Visa múltilple (90 días): $60.00"
+      }
+    ],
+    "visaTypes.consulted-visa.feeNotes": [
+      {
+        "url": "https://inm.gob.hn/visas.html",
+        "text": "Solicitud presentada en la Secretaría General del Instituto Nacional de Migración. Carta poder, con la dirección exacta del abogado"
+      },
+      {
+        "url": "https://inm.gob.hn/visas.html",
+        "text": "Acta de responsabilidad, de quien se hace responsable en el país"
+      },
+      {
+        "url": "https://inm.gob.hn/visas.html",
+        "text": "Pago de $100.00, por tarifa de visa consultada."
+      },
+      {
+        "url": "https://inm.gob.hn/visas.html",
+        "text": "Visa Consultada Es aquella que se expide a extranjeros previa validación del Instituto Nacional de Migración (INM), quien extenderá la autorización escrito, para que la persona extranjera que la solicitó pueda gestionar la solicitud ante cualquier Consulado hondureño."
+      }
+    ]
+  }
 }

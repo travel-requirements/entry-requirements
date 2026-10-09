@@ -16,7 +16,7 @@
     "indonesia",
     "japan"
   ],
-  "summary": "Vietnam issues its eVisa to citizens of all countries and territories — 25 USD single entry or 50 USD multiple entry, valid up to 90 days — while citizens of the countries whose ordinary passports are exempt on the Ministry of Foreign Affairs' visa exemption list (September 2025) enter visa-free, among them the UK, Switzerland, Japan, South Korea and a number of EU countries for 45 days.",
+  "summary": "Vietnam has issued e-visas to citizens of all countries and territories since 15 August 2023 — 25 USD single entry or 50 USD multiple entry, valid for up to 90 days. Government resolutions exempt citizens of countries including the UK, Germany, France, Japan, South Korea and Switzerland from visas for stays of 45 days.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -2378,7 +2378,7 @@
       "fee": {
         "amount": 25,
         "currency": "USD",
-        "notes": "Paid online through the portal's e-payment gateway; non-refundable even if the visa is not granted. Open to citizens of all countries and territories."
+        "notes": "Paid online through the portal's e-payment gateway; non-refundable if the visa is not granted. Issued to citizens of all countries and territories."
       },
       "processing": {
         "minDays": null,
@@ -2459,7 +2459,7 @@
       "fee": {
         "amount": 50,
         "currency": "USD",
-        "notes": "Paid online through the portal's e-payment gateway; non-refundable even if the visa is not granted. Open to citizens of all countries and territories."
+        "notes": "Paid online through the portal's e-payment gateway; non-refundable if the visa is not granted. Issued to citizens of all countries and territories."
       },
       "processing": {
         "minDays": null,
@@ -2536,7 +2536,7 @@
   "entryRequirements": {
     "passportValidity": {
       "rule": "other",
-      "text": "For an e-visa, your passport must stay valid at least 30 days longer than the e-visa itself. No Vietnamese official source we could read states a passport-validity rule for visa-exempt visitors; the UK Foreign Office says a British passport must have an expiry date at least 6 months after the date you arrive.",
+      "text": "For an e-visa, the e-visa's validity must be at least 30 days shorter than your passport's. No Vietnamese official source we could read states a passport-validity rule for visa-exempt visitors; the UK Foreign Office says a British passport must have an expiry date at least 6 months after the date you arrive.",
       "source": {
         "url": "https://evisa.gov.vn/faq",
         "name": "Vietnam National e-Visa Portal (Immigration Department) — FAQs",
@@ -2567,7 +2567,7 @@
         "name": "Yellow fever",
         "certificate": "ICVP",
         "requiredWhen": "recommended",
-        "text": "No yellow fever certificate is required to enter Viet Nam: WHO's country list records no yellow fever entry requirement.",
+        "text": "WHO's country list records no yellow fever vaccination requirement at entry to Viet Nam.",
         "source": {
           "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
           "name": "WHO — Vaccination requirements and recommendations for international travellers, country list (ITH 2022)",
@@ -2648,7 +2648,7 @@
         "submitAt": "before-travel",
         "submitWindow": "Up to two days ahead: the form offers the day you submit and the next two days as the arrival date",
         "url": "https://prearrival.immigration.gov.vn/",
-        "text": "The Immigration Department's pre-arrival portal asks visitors to complete the declaration before arrival and says submitting it in advance helps reduce waiting time at immigration. The form asks for passport, contact and visa details, and offers as the expected arrival date only the day you submit it and the next two days.",
+        "text": "The Immigration Department highly recommends completing the pre-arrival form at prearrival.immigration.gov.vn before entering Vietnam, saying it saves time and makes entry swifter.",
         "source": {
           "url": "https://prearrival.immigration.gov.vn/apps/submit-document/foreign",
           "name": "Vietnam Immigration Department — Pre-arrival Information Submission for Visitors, Passenger Information step (recommended on the e-Visa portal, evisa.gov.vn)",
@@ -2661,7 +2661,7 @@
     ],
     "customs": {
       "currencyLimits": {
-        "text": "Cash over 5,000 USD (or equivalent foreign currency) or over 15,000,000 VND must be declared to customs on entry.",
+        "text": "Vietnam Customs says travellers entering with foreign-currency cash over 5,000 USD (or the equivalent) or Vietnamese cash over 15,000,000 VND must declare it to customs at the border gate.",
         "source": {
           "url": "https://www.customs.gov.vn/index.jsp?pageId=2&aid=1642&cid=46",
           "name": "General Department of Vietnam Customs — Cash and foreign currency carried on entry (Circular 15/2011/TT-NHNN)",
@@ -2672,7 +2672,7 @@
       "notes": [
         "The UK Foreign Office says to carry prescription medication in your hand luggage with a copy of the prescription, and to declare it at customs if its total import value is over 100 US dollars.",
         "The UK Foreign Office says vapes and related products are banned and cannot be brought into Vietnam.",
-        "Canada's travel advice says exporting antiques requires permits from the Ministry of Culture, Sports and Tourism and the General Department of Customs; without the paperwork, items may be confiscated."
+        "Canada's travel advice says that if you buy items that may be considered antiques, you should have export permits from the Ministry of Culture, Sports and Tourism and the General Department of Customs."
       ]
     }
   },
@@ -2826,7 +2826,7 @@
     {
       "id": "evisa-scams",
       "type": "warning",
-      "text": "Apply for the eVisa only at evisa.gov.vn or thithucdientu.gov.vn: the Immigration Department warns that unofficial sites may charge fees not provided for by Vietnamese regulations."
+      "text": "Apply for the e-visa only at evisa.gov.vn or thithucdientu.gov.vn: the Immigration Department warns that unofficial sites may charge fees not authorised by Vietnamese regulations."
     },
     {
       "id": "evisa-details",
@@ -2836,34 +2836,326 @@
     {
       "id": "traffic",
       "type": "warning",
-      "text": "Canada's travel advice says road safety is poor, fatal accidents often involve motorcycles, and you need a valid Vietnamese driver's licence for any vehicle of 50cc or more, including most motorcycles, that motorcycle riders and passengers must wear a helmet, and that there is zero tolerance for drinking and driving; the UK Foreign Office says British drivers need a 1968 International Driving Permit with their UK licence."
+      "text": "Canada's travel advice says road safety is poor and fatal accidents frequently involve motorcycles, that you need a valid Vietnamese driver's licence for any vehicle of 50cc or more, including most motorcycles, that motorcycle riders and passengers must wear a helmet, and that there is zero tolerance for drinking and driving; the UK Foreign Office says British drivers need a 1968 International Driving Permit with their UK licence."
     }
   ],
   "faq": [
     {
       "id": "us-need-visa",
       "question": "Do US citizens need a visa for Vietnam?",
-      "answer": "Yes. US passport holders need a visa, and can apply for the official eVisa — 25 USD single entry or 50 USD multiple entry, valid up to 90 days — at evisa.gov.vn (or thithucdientu.gov.vn). Processing normally takes up to 3 working days, or 3 to 15 when the application needs verification."
+      "answer": "US passport holders are not among the visa-exempt nationalities in the government resolutions we read, and Vietnam issues e-visas to citizens of all countries — 25 USD single entry or 50 USD multiple entry, valid up to 90 days — at evisa.gov.vn (or thithucdientu.gov.vn). Processing typically takes 3 working days, or 3 to 15 when the application needs verification."
     },
     {
       "id": "who-visa-free",
       "question": "Which nationalities can enter Vietnam without a visa?",
-      "answer": "Citizens of the countries whose ordinary passports are exempt on the Ministry of Foreign Affairs' Visa Exemption List (September 2025) enter visa-free. Citizens of the UK, Germany, France, Italy, Spain, Denmark, Sweden, Norway, Finland, Japan, South Korea and Russia get 45 days under the unilateral exemption (to 14 March 2028). Citizens of Belgium, Bulgaria, Croatia, Czechia, Hungary, Luxembourg, the Netherlands, Poland, Romania, Slovakia, Slovenia and Switzerland get 45 days for tourism under the Tourism Stimulus Program (to 14 August 2028). Under ASEAN and bilateral agreements, the Ministry of Foreign Affairs' visa exemption list gives ordinary passport holders of Chile and Panama 90 days; Cambodia, Indonesia, Laos, Malaysia, Myanmar, Singapore, Thailand, Belarus, Kazakhstan, Kyrgyzstan and Mongolia 30 days; the Philippines 21 days; and Brunei 14 days."
+      "answer": "Government resolutions exempt citizens of the UK, Germany, France, Italy, Spain, Denmark, Sweden, Norway, Finland, Japan, South Korea and Russia from visas for stays of 45 days from entry, from 15 March 2025 to 14 March 2028; and citizens of Belgium, Bulgaria, Croatia, Czechia, Hungary, Luxembourg, the Netherlands, Poland, Romania, Slovakia, Slovenia and Switzerland for 45 days for tourism under the Tourism Stimulus Program, from 15 August 2025 to 14 August 2028. No official page we could read lists the other exemptions."
     },
     {
       "id": "evisa-cost-time",
       "question": "How much does the Vietnam eVisa cost and how long does it take?",
-      "answer": "The eVisa costs 25 USD for single entry or 50 USD for multiple entry, is valid for up to 90 days, and is normally processed within 3 working days, or 3 to 15 working days when the application needs verification (working days exclude weekends and public holidays). It is available to citizens of all countries."
+      "answer": "The e-visa costs 25 USD for single entry or 50 USD for multiple entry, is valid for up to 90 days, and is typically processed within 3 working days, or 3 to 15 working days when the application needs verification (working days exclude weekends and public holidays). It is available to citizens of all countries and territories."
     },
     {
       "id": "extend-stay",
       "question": "Can I extend my stay in Vietnam?",
-      "answer": "No official source we could read describes extending an eVisa. The e-visa portal says an e-visa cannot be applied for from inside Viet Nam, and that e-visa holders in Viet Nam may be eligible for a new visa if invited or guaranteed by an authority, organization or individual in Viet Nam."
+      "answer": "No official source we could read describes extending an e-visa. The e-visa portal says e-visas are not issued to foreigners already in Viet Nam, and that e-visa holders in Viet Nam may be eligible for a new visa if invited or guaranteed by an authority, organization or individual in Viet Nam."
     },
     {
       "id": "arrival-card",
       "question": "Does Vietnam require an arrival card or customs declaration?",
-      "answer": "The UK Foreign Office says that since 15 April 2026 foreign nationals arriving at Tan Son Nhat Airport in Ho Chi Minh City are encouraged to complete a digital arrival card online before arrival; it is not currently mandatory, but this may change or extend to other airports at short notice. You must declare cash over 15 million dong or 5,000 US dollars."
+      "answer": "The UK Foreign Office says that since 15 April 2026 foreign nationals arriving at Tan Son Nhat Airport in Ho Chi Minh City are encouraged to complete a digital arrival card online before arrival; it is not currently mandatory, but this may change or extend to other airports with limited notice. It says you must declare cash over 15 million dong or 5,000 US dollars."
     }
-  ]
+  ],
+  "textQuotes": {
+    "summary": [
+      {
+        "url": "https://xaydungchinhsach.chinhphu.vn/tu-15-8-cap-thi-thuc-dien-tu-cho-cong-dan-tat-ca-cac-nuoc-vung-lanh-tho-119230814172713431.htm",
+        "text": "Từ 15/8/2023, thực hiện cấp thị thực điện tử cho công dân tất cả các nước, vùng lãnh thổ."
+      },
+      {
+        "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all",
+        "text": "E-visa fee: 25 USD for a single-entry visa / 50 USD for a multiple-entry visa."
+      },
+      {
+        "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all",
+        "text": "Viet Nam e-Visa is valid for a maximum of 90 days"
+      },
+      {
+        "url": "https://baochinhphu.vn/mien-thi-thuc-nhap-canh-viet-nam-cho-cong-dan-12-nuoc-102250307195144569.htm",
+        "text": "miễn thị thực cho công dân các nước: Cộng hòa Liên bang Đức, Cộng hòa Pháp, Cộng hòa Italia, Vương quốc Tây Ban Nha, Liên hiệp Vương quốc Anh và Bắc Ireland, Liên bang Nga, Nhật Bản, Đại Hàn Dân Quốc, Vương quốc Đan Mạch, Vương quốc Thụy Điển, Vương quốc Na Uy và Cộng hòa Phần Lan với thời hạn tạm trú 45 ngày kể từ ngày nhập cảnh"
+      },
+      {
+        "url": "https://baochinhphu.vn/tu-15-8-2025-mien-thi-thuc-cho-cong-dan-12-nuoc-vao-viet-nam-du-lich-102250811085114891.htm",
+        "text": "Miễn thị thực cho công dân các nước: Vương quốc Bỉ, Cộng hòa Bulgaria, Cộng hòa Croatia, Cộng hòa Séc, Hungary, Đại Công quốc Luxembourg, Vương quốc Hà Lan, Cộng hòa Ba Lan, Romania, Cộng hòa Slovakia, Cộng hòa Slovenia và Liên bang Thụy Sỹ với thời hạn tạm trú 45 ngày kể từ ngày nhập cảnh với mục đích du lịch"
+      }
+    ],
+    "faq.us-need-visa": [
+      {
+        "url": "https://xaydungchinhsach.chinhphu.vn/tu-15-8-cap-thi-thuc-dien-tu-cho-cong-dan-tat-ca-cac-nuoc-vung-lanh-tho-119230814172713431.htm",
+        "text": "Từ 15/8/2023, thực hiện cấp thị thực điện tử cho công dân tất cả các nước, vùng lãnh thổ."
+      },
+      {
+        "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all",
+        "text": "E-visa fee: 25 USD for a single-entry visa / 50 USD for a multiple-entry visa."
+      },
+      {
+        "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all",
+        "text": "Viet Nam e-Visa is valid for a maximum of 90 days"
+      },
+      {
+        "url": "https://evisa.gov.vn/faq",
+        "text": "please access Viet Nam's electronic visa information page at the following addresses: https://evisa.gov.vn or https://thithucdientu.gov.vn to complete the procedure. Make sure to visit the correct website to avoid accessing unofficial electronic information pages, which may result in unauthorized fees according to Viet Nam's regulations."
+      },
+      {
+        "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all",
+        "text": "Electronic visas are typically processed within 03 working days (*) after the electronic visa fee has been paid with complete and valid information."
+      },
+      {
+        "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all",
+        "text": "If the application needs to be verified by the Police Department, you will receive the results within 03 to 15 working days (*)."
+      }
+    ],
+    "faq.who-visa-free": [
+      {
+        "url": "https://baochinhphu.vn/mien-thi-thuc-nhap-canh-viet-nam-cho-cong-dan-12-nuoc-102250307195144569.htm",
+        "text": "miễn thị thực cho công dân các nước: Cộng hòa Liên bang Đức, Cộng hòa Pháp, Cộng hòa Italia, Vương quốc Tây Ban Nha, Liên hiệp Vương quốc Anh và Bắc Ireland, Liên bang Nga, Nhật Bản, Đại Hàn Dân Quốc, Vương quốc Đan Mạch, Vương quốc Thụy Điển, Vương quốc Na Uy và Cộng hòa Phần Lan với thời hạn tạm trú 45 ngày kể từ ngày nhập cảnh"
+      },
+      {
+        "url": "https://baochinhphu.vn/mien-thi-thuc-nhap-canh-viet-nam-cho-cong-dan-12-nuoc-102250307195144569.htm",
+        "text": "được thực hiện kể từ ngày 15/3/2025 đến hết ngày 14/3/2028"
+      },
+      {
+        "url": "https://baochinhphu.vn/tu-15-8-2025-mien-thi-thuc-cho-cong-dan-12-nuoc-vao-viet-nam-du-lich-102250811085114891.htm",
+        "text": "Miễn thị thực cho công dân các nước: Vương quốc Bỉ, Cộng hòa Bulgaria, Cộng hòa Croatia, Cộng hòa Séc, Hungary, Đại Công quốc Luxembourg, Vương quốc Hà Lan, Cộng hòa Ba Lan, Romania, Cộng hòa Slovakia, Cộng hòa Slovenia và Liên bang Thụy Sỹ với thời hạn tạm trú 45 ngày kể từ ngày nhập cảnh với mục đích du lịch"
+      },
+      {
+        "url": "https://baochinhphu.vn/tu-15-8-2025-mien-thi-thuc-cho-cong-dan-12-nuoc-vao-viet-nam-du-lich-102250811085114891.htm",
+        "text": "được thực hiện kể từ ngày 15/8/2025 đến hết ngày 14/8/2028 theo Chương trình kích cầu phát triển du lịch."
+      }
+    ],
+    "faq.evisa-cost-time": [
+      {
+        "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all",
+        "text": "E-visa fee: 25 USD for a single-entry visa / 50 USD for a multiple-entry visa."
+      },
+      {
+        "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all",
+        "text": "Viet Nam e-Visa is valid for a maximum of 90 days"
+      },
+      {
+        "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all",
+        "text": "Electronic visas are typically processed within 03 working days (*) after the electronic visa fee has been paid with complete and valid information."
+      },
+      {
+        "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all",
+        "text": "If the application needs to be verified by the Police Department, you will receive the results within 03 to 15 working days (*)."
+      },
+      {
+        "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all",
+        "text": "(*) Working days do not include weekends and public holidays."
+      },
+      {
+        "url": "https://xaydungchinhsach.chinhphu.vn/tu-15-8-cap-thi-thuc-dien-tu-cho-cong-dan-tat-ca-cac-nuoc-vung-lanh-tho-119230814172713431.htm",
+        "text": "Từ 15/8/2023, thực hiện cấp thị thực điện tử cho công dân tất cả các nước, vùng lãnh thổ."
+      }
+    ],
+    "faq.extend-stay": [
+      {
+        "url": "https://evisa.gov.vn/faq",
+        "text": "Electronic visas are issued to foreigners who wish to enter Vietnam (not applicable to foreigners currently residing in Vietnam)."
+      },
+      {
+        "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all",
+        "text": "e-Visa holders in Viet Nam may be eligible to apply for a new visa if invited or guaranteed by an authority, organization, or individual in Viet Nam"
+      }
+    ],
+    "faq.arrival-card": [
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/vietnam/entry-requirements",
+        "text": "From 15 April 2026, all foreign nationals entering Vietnam via Tan Son Nhat Airport (SGN), Ho Chi Minh City, are encouraged by the Vietnamese Government to complete a digital arrival card online before arrival."
+      },
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/vietnam/entry-requirements",
+        "text": "The digital arrival card system is not currently a mandatory requirement for entry into Vietnam via Tan Son Nhat airport, but this may change, or be rolled out to other airports in Vietnam with limited notice."
+      },
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/vietnam/entry-requirements",
+        "text": "If you’re taking cash into or out of Vietnam, you must declare amounts over: 15 million Vietnamese dong 5,000 US dollars"
+      }
+    ],
+    "tips.evisa-scams": [
+      {
+        "url": "https://evisa.gov.vn/faq",
+        "text": "please access Viet Nam's electronic visa information page at the following addresses: https://evisa.gov.vn or https://thithucdientu.gov.vn to complete the procedure. Make sure to visit the correct website to avoid accessing unofficial electronic information pages, which may result in unauthorized fees according to Viet Nam's regulations."
+      }
+    ],
+    "tips.evisa-details": [
+      {
+        "url": "https://evisa.gov.vn/faq",
+        "text": "You need to provide your full name, including your surname, middle name, and given name, exactly as it appears on the ICAO line in your passport, using uppercase letters."
+      },
+      {
+        "url": "https://evisa.gov.vn/faq",
+        "text": "Foreigners using an electronic visa are not required to exit Vietnam through the same border gate where they entered. Note that foreigners must enter and exit Vietnam through international border gates designated by the government"
+      }
+    ],
+    "tips.traffic": [
+      {
+        "url": "https://travel.gc.ca/destinations/vietnam",
+        "text": "Road safety is poor throughout the country."
+      },
+      {
+        "url": "https://travel.gc.ca/destinations/vietnam",
+        "text": "Fatal accidents are frequent. They frequently involve motorcycle"
+      },
+      {
+        "url": "https://travel.gc.ca/destinations/vietnam",
+        "text": "You must hold a valid Vietnamese driver's licence to drive a vehicle with an engine of 50CC or more. This includes most motorcycles. Motorcycle drivers and passengers must wear a helmet."
+      },
+      {
+        "url": "https://travel.gc.ca/destinations/vietnam",
+        "text": "The country has a zero-tolerance policy for drinking and driving or cycling."
+      },
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/vietnam/safety-and-security",
+        "text": "You’ll need to have both the 1968 version of the international driving permit and your UK driving licence with you whilst driving a car or motorbike in Vietnam."
+      }
+    ],
+    "entryRequirements.passportValidity": [
+      {
+        "url": "https://evisa.gov.vn/faq",
+        "text": "the validity of the electronic visa must be at least 30 days shorter than the passport validity."
+      },
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/vietnam/entry-requirements",
+        "text": "an ‘expiry date’ at least 6 months after the date you arrive"
+      }
+    ],
+    "entryRequirements.vaccinations.yellow-fever": [
+      {
+        "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
+        "text": "VIET NAM Yellow fever (2019) Country requirement at entry: no"
+      }
+    ],
+    "entryRequirements.travelInsurance": [
+      {
+        "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all",
+        "text": "Foreigners possessing passports and not falling into categories specified in Clauses 1, 2, 3 and 4 Article 8 of Law on Entry, Exit, Transit and Residence of Foreigners in Vietnam."
+      },
+      {
+        "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all",
+        "text": "Not falling under the cases of suspension from entry as prescribed in Article 21 of Law on Entry, Exit, Transit and Residence of Foreigners in Vietnam."
+      }
+    ],
+    "entryRequirements.onwardTicket": [
+      {
+        "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all",
+        "text": "Foreigners possessing passports and not falling into categories specified in Clauses 1, 2, 3 and 4 Article 8 of Law on Entry, Exit, Transit and Residence of Foreigners in Vietnam."
+      },
+      {
+        "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all",
+        "text": "Not falling under the cases of suspension from entry as prescribed in Article 21 of Law on Entry, Exit, Transit and Residence of Foreigners in Vietnam."
+      }
+    ],
+    "entryRequirements.proofOfFunds": [
+      {
+        "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all",
+        "text": "Foreigners possessing passports and not falling into categories specified in Clauses 1, 2, 3 and 4 Article 8 of Law on Entry, Exit, Transit and Residence of Foreigners in Vietnam."
+      },
+      {
+        "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all",
+        "text": "Not falling under the cases of suspension from entry as prescribed in Article 21 of Law on Entry, Exit, Transit and Residence of Foreigners in Vietnam."
+      }
+    ],
+    "entryRequirements.declarations.pre-arrival-information": [
+      {
+        "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all",
+        "text": "The Vietnam Immigration Department highly recommends that passengers access the following link: https://prearrival.immigration.gov.vn to complete their pre-arrival form prior to entering Vietnam. This proactive step will assist passengers in saving time and ensuring a swift and seamless entry procedure."
+      }
+    ],
+    "entryRequirements.customs.currencyLimits": [
+      {
+        "url": "https://www.customs.gov.vn/index.jsp?pageId=2&aid=1642&cid=46",
+        "text": "Cá nhân khi nhập cảnh qua các cửa khẩu quốc tế của Việt Nam bằng hộ chiếu mang theo ngoại tệ tiền mặt, đồng Việt Nam tiền mặt trên mức quy định dưới đây phải khai báo Hải quan cửa khẩu: 5.000 USD hoặc các loại ngoại tệ khác có giá trị tương đương; 15.000.000 đồng VNĐ"
+      }
+    ],
+    "entryRequirements.customs.notes.0": [
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/vietnam/entry-requirements",
+        "text": "If you’re taking prescription medication into Vietnam, carry it in your hand luggage with a copy of the prescription. If it has a total import value greater than 100 US dollars, you must declare it at customs."
+      }
+    ],
+    "entryRequirements.customs.notes.1": [
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/vietnam/safety-and-security",
+        "text": "Vapes and related products are banned. You cannot buy vapes in Vietnam or bring them into the country."
+      }
+    ],
+    "entryRequirements.customs.notes.2": [
+      {
+        "url": "https://travel.gc.ca/destinations/vietnam",
+        "text": "ensure you have the proper exportation permits from the Ministry of Culture, Sports and Tourism and the Vietnam General Department of Customs"
+      }
+    ],
+    "countryFacts.safety": [
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/vietnam/safety-and-security",
+        "text": "Violent crime against foreigners is rare, however petty crimes such as theft and pickpocketing occur regularly."
+      },
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/vietnam/safety-and-security",
+        "text": "Bag-snatching by thieves on motorcycles is common"
+      }
+    ],
+    "countryFacts.bestTimeToVisit": [
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/vietnam/safety-and-security",
+        "text": "The rain season extends: from June to September in the north and south from October to December in central Vietnam"
+      },
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/vietnam/safety-and-security",
+        "text": "The season normally runs from May to November, but tropical cyclones can happen at other times."
+      }
+    ],
+    "countryFacts.driving": [
+      {
+        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
+        "text": "Viet Nam 2 Nov 1953 a"
+      },
+      {
+        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
+        "text": "Viet Nam 19 20 Aug 2014 a"
+      }
+    ],
+    "countryFacts.driving.idp": [
+      {
+        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
+        "text": "Viet Nam 2 Nov 1953 a"
+      },
+      {
+        "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
+        "text": "Viet Nam 19 20 Aug 2014 a"
+      }
+    ],
+    "visaTypes.evisa-single.feeNotes": [
+      {
+        "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all",
+        "text": "The e-visa application fee is paid through the e-visa portal's e-payment gateway and is non-refundable in case the visa is not granted."
+      },
+      {
+        "url": "https://xaydungchinhsach.chinhphu.vn/tu-15-8-cap-thi-thuc-dien-tu-cho-cong-dan-tat-ca-cac-nuoc-vung-lanh-tho-119230814172713431.htm",
+        "text": "Từ 15/8/2023, thực hiện cấp thị thực điện tử cho công dân tất cả các nước, vùng lãnh thổ."
+      }
+    ],
+    "visaTypes.evisa-multiple.feeNotes": [
+      {
+        "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all",
+        "text": "The e-visa application fee is paid through the e-visa portal's e-payment gateway and is non-refundable in case the visa is not granted."
+      },
+      {
+        "url": "https://xaydungchinhsach.chinhphu.vn/tu-15-8-cap-thi-thuc-dien-tu-cho-cong-dan-tat-ca-cac-nuoc-vung-lanh-tho-119230814172713431.htm",
+        "text": "Từ 15/8/2023, thực hiện cấp thị thực điện tử cho công dân tất cả các nước, vùng lãnh thổ."
+      }
+    ]
+  }
 }
