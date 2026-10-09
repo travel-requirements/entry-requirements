@@ -245,7 +245,7 @@
       },
       "IN": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": null,
         "visaTypes": [
           "tourist-evisa-conditional",
           "embassy-tourist"
@@ -361,7 +361,7 @@
       },
       "ZA": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": null,
         "extendableDays": null,
         "visaTypes": [
           "tourist-evisa",
@@ -388,7 +388,7 @@
       },
       "MX": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": null,
         "visaTypes": [
           "tourist-evisa",
           "embassy-tourist"
@@ -530,7 +530,7 @@
       },
       "BD": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": null,
         "visaTypes": [
           "tourist-evisa-conditional"
         ],
@@ -980,7 +980,7 @@
       },
       "FJ": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": null,
         "visaTypes": [
           "tourist-evisa"
         ],
@@ -1160,11 +1160,11 @@
       },
       "IQ": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": null,
         "visaTypes": [
           "tourist-evisa-conditional"
         ],
-        "notes": "Türkiye's Ministry of Foreign Affairs says Iraqi ordinary passport holders under the age of 15 or over the age of 50 are exempt from visa for up to 90 days in any 180-day period, and those between the ages of 15 and 50 are required to have a visa to enter Türkiye.",
+        "notes": "Türkiye's Ministry of Foreign Affairs says Iraqi ordinary passport holders under the age of 15 or over the age of 50 are exempt from visa for up to 90 days in any 180-day period, and those between the ages of 15 and 50 are required to have a visa to enter Türkiye; those between 15 and 50 who hold a valid Schengen, US, UK or Irish visa or residence permit may get a single-entry e-Visa valid for one month at www.evisa.gov.tr, provided that they meet certain conditions.",
         "source": {
           "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
           "name": "Turkish MFA — Visa Information For Foreigners",
@@ -1174,7 +1174,7 @@
           "archiveUrl": "https://web.archive.org/web/20260824231240/https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa"
         },
         "quote": {
-          "text": "Ordinary passport holder Iraqi nationals under the age of 15 and over the age of 50 are exempted from visa up to 90 days in any 180-day period. Ordinary passport holder Iraqi nationals between the ages of 15-50 are required to have visa to enter Türkiye.",
+          "text": "Ordinary passport holder Iraqi nationals under the age of 15 and over the age of 50 are exempted from visa up to 90 days in any 180-day period. Ordinary passport holder Iraqi nationals between the ages of 15-50 are required to have visa to enter Türkiye. Ordinary passport holders between the ages of 15-50 who hold a valid Schengen members or USA, UK, Ireland visa or residence permit may get their single entry e-Visas valid for one month via the website www.evisa.gov.tr, provided that they meet certain conditions.",
           "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa"
         }
       },
@@ -1456,7 +1456,7 @@
       },
       "MU": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": null,
         "visaTypes": [
           "tourist-evisa",
           "embassy-tourist"
@@ -1572,7 +1572,7 @@
       },
       "NP": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": null,
         "visaTypes": [
           "tourist-evisa-conditional"
         ],
@@ -1955,7 +1955,7 @@
       },
       "TW": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": null,
         "visaTypes": [
           "tourist-evisa"
         ],
@@ -2225,8 +2225,8 @@
         "unit": "minutes"
       },
       "validityDays": null,
-      "stayDays": 90,
-      "entries": "multiple",
+      "stayDays": null,
+      "entries": null,
       "extendable": {
         "possible": false,
         "days": null
@@ -2236,8 +2236,8 @@
         "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
         "name": "Ministry of Foreign Affairs of Türkiye — visa information for foreigners",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09"
       }
     },
     {
@@ -2248,7 +2248,7 @@
       "fee": null,
       "processing": null,
       "validityDays": null,
-      "stayDays": 30,
+      "stayDays": null,
       "entries": "single",
       "extendable": {
         "possible": false,
@@ -2259,8 +2259,8 @@
         "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
         "name": "Ministry of Foreign Affairs of Türkiye — visa information for foreigners",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09"
       }
     },
     {
@@ -2315,7 +2315,7 @@
       }
     },
     "onwardTicket": {
-      "required": false,
+      "required": null,
       "appliesTo": null,
       "text": "No official source we could read states an onward- or return-ticket requirement for visitors to Türkiye.",
       "source": {
@@ -2536,7 +2536,7 @@
     {
       "id": "evisa-cost",
       "question": "How much does the Turkish eVisa cost?",
-      "answer": "The fee depends on your nationality and is shown on evisa.gov.tr before you pay; the Turkish Ministry of Foreign Affairs publishes no current fee table. Stays are 30 or 90 days depending on nationality; the ministry publishes no validity period."
+      "answer": "The fee depends on your nationality and is shown on evisa.gov.tr before you pay; the Turkish Ministry of Foreign Affairs publishes no current fee table. The ministry describes the e-Visa nationality by nationality: for some it is a one-month or 30-day single-entry e-Visa, for others a three-month multiple-entry e-Visa."
     },
     {
       "id": "eu-stay-length",

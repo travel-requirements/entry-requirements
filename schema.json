@@ -1458,8 +1458,15 @@
                 "type": "object",
                 "properties": {
                   "minDays": {
-                    "type": "number",
-                    "minimum": 0
+                    "anyOf": [
+                      {
+                        "type": "number",
+                        "minimum": 0
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
                   },
                   "maxDays": {
                     "type": "number",
@@ -1716,6 +1723,46 @@
               "lastVerified"
             ],
             "additionalProperties": false
+          },
+          "evidence": {
+            "type": "object",
+            "propertyNames": {
+              "type": "string",
+              "enum": [
+                "fee",
+                "processing",
+                "validityDays",
+                "stayDays",
+                "entries",
+                "extendable"
+              ]
+            },
+            "additionalProperties": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string",
+                  "minLength": 3
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                }
+              },
+              "required": [
+                "text",
+                "url"
+              ],
+              "additionalProperties": false
+            },
+            "required": [
+              "fee",
+              "processing",
+              "validityDays",
+              "stayDays",
+              "entries",
+              "extendable"
+            ]
           },
           "applyWindow": {
             "type": "object",
@@ -3651,7 +3698,14 @@
           "type": "object",
           "properties": {
             "required": {
-              "type": "boolean"
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "null"
+                }
+              ]
             },
             "appliesTo": {
               "anyOf": [
@@ -3865,7 +3919,14 @@
           "type": "object",
           "properties": {
             "required": {
-              "type": "boolean"
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "null"
+                }
+              ]
             },
             "appliesTo": {
               "anyOf": [
@@ -4053,7 +4114,14 @@
           "type": "object",
           "properties": {
             "required": {
-              "type": "boolean"
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "null"
+                }
+              ]
             },
             "appliesTo": {
               "anyOf": [
