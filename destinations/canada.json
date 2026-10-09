@@ -3256,7 +3256,7 @@
     {
       "id": "visitor-visa",
       "category": "tourist",
-      "method": "embassy",
+      "method": "unstated",
       "name": "Visitor Visa (Temporary Resident Visa, TRV)",
       "fee": {
         "amount": 100,
@@ -3328,7 +3328,7 @@
     {
       "id": "study-permit",
       "category": "student",
-      "method": "embassy",
+      "method": "unstated",
       "name": "Study Permit",
       "fee": {
         "amount": 150,
@@ -3387,7 +3387,7 @@
     {
       "id": "work-permit",
       "category": "work",
-      "method": "embassy",
+      "method": "unstated",
       "name": "Work Permit",
       "fee": {
         "amount": 155,
@@ -3441,14 +3441,20 @@
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "valid-for-stay",
-      "text": "The UK FCDO says your passport must be valid for the length of your planned stay in Canada.",
+      "rule": "other",
+      "text": "Immigration, Refugees and Citizenship Canada (IRCC) tells visitor visa applicants that their passport or travel document should be valid for at least 6 months from the date they plan to travel. The UK Foreign Office says your passport must be valid for the length of your planned stay in Canada.",
       "source": {
-        "url": "https://www.gov.uk/foreign-travel-advice/canada/entry-requirements",
-        "name": "UK FCDO — Canada travel advice (entry requirements)",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/apply-visitor-visa.html",
+        "name": "IRCC — Apply for a visitor visa: gather your required documents",
         "type": "government",
-        "lastVerified": "2026-10-06",
-        "lastChanged": "2026-10-06"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09",
+        "conflict": {
+          "url": "https://www.gov.uk/foreign-travel-advice/canada/entry-requirements",
+          "name": "UK FCDO — Canada travel advice (entry requirements)",
+          "states": "Your passport must be valid for the length of your planned stay in Canada.",
+          "resolvedBy": "hierarchy"
+        }
       }
     },
     "vaccinations": [],
