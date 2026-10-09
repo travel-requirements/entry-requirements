@@ -20,7 +20,7 @@
   ],
   "summary": "Chile admits most of Europe, North America, South America and much of Asia-Pacific visa-free for up to 90 days as visitors on a transitory stay permit. Everyone else applies for a consular tourist visa (autorización previa o visa) through Chile's online consular services.",
   "meta": {
-    "lastUpdated": "2026-10-07",
+    "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -48,6 +48,11 @@
           "url": "https://www.consulado.gob.cl/consulados/stat/info_visas/info_visas.json",
           "name": "Ministerio de Relaciones Exteriores de Chile — per-nationality visa table behind the selector on the cited page (¿Requiere visa?, plazo máximo de estadía)",
           "lastVerified": "2026-10-08"
+        },
+        {
+          "url": "https://serviciomigraciones.cl/permanencia-transitoria/prorroga/",
+          "name": "Servicio Nacional de Migraciones — Prórroga de Permanencia Transitoria (one extension of up to 90 days, USD 100, before the TUM expires)",
+          "lastVerified": "2026-10-07"
         }
       ]
     },
@@ -1598,14 +1603,21 @@
         "submitAt": "on-arrival",
         "submitWindow": "From one day before arrival online, or on arrival",
         "url": "https://dj.sag.gob.cl/declaracion-jurada",
-        "text": "Every traveller aged over 18 must complete a sworn declaration for the agricultural service (SAG): it is individual and free, and covers plant and animal products, goods and cash carried in your luggage. SAG's Digital Affidavit for Entry to Chile can be filled in with or without an internet connection from one day before you enter, and is valid only for the arrival date you give; SAG's information page says it can also be made on the form handed out on the flight, and that failing to declare risk products leads to sanctions and fines.",
+        "text": "Every traveller aged over 18 must complete a sworn declaration for the agricultural service (SAG): it is individual and free, and covers plant and animal products, goods and cash carried in your luggage. SAG's Digital Affidavit for Entry to Chile can be filled in with or without an internet connection from one day before you enter, and is valid only for the arrival date you give; SAG's information page says it can also be made on a paper form, and that failing to declare risk products leads to sanctions and fines.",
         "source": {
           "url": "https://dj.sag.gob.cl/declaracion-jurada",
           "name": "Servicio Agrícola y Ganadero (SAG) — Digital Affidavit for Entry to Chile (Declaración Jurada), start step",
           "type": "government",
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07",
-          "portalOnly": true
+          "portalOnly": true,
+          "alsoStatedOn": [
+            {
+              "url": "https://www.sag.gob.cl/ambitos-de-accion/declaracion-jurada-sag-de-ingreso-chile",
+              "name": "Servicio Agrícola y Ganadero (SAG) — Declaración Jurada SAG de ingreso a Chile (information page)",
+              "lastVerified": "2026-10-09"
+            }
+          ]
         }
       },
       {
@@ -1654,12 +1666,19 @@
     },
     "safety": {
       "level": "generally-safe",
-      "text": "The UK Foreign Office says pickpocketing, mugging and thefts from vehicles are very common throughout Chile, including in airports, hotels and bus stations. The Government of Canada advises a high degree of caution because of demonstrations, civil unrest and crime, and says armed assaults and robberies have increased in recent years. Both say Chile is in a very active seismic zone where earthquakes and tsunamis can occur.",
+      "text": "The UK Foreign Office says pickpocketing, mugging and thefts from vehicles are very common throughout Chile, including in airports, hotels and bus stations. The Government of Canada advises a high degree of caution because of demonstrations, civil unrest and crime, and says armed assaults and robberies have increased in recent years. Canada says Chile is in a very active seismic zone where earthquakes and tsunamis can occur, and the UK says major earthquakes are a risk.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/chile/safety-and-security",
         "name": "UK Foreign, Commonwealth & Development Office — Chile travel advice: safety and security",
         "type": "government",
-        "lastVerified": "2026-10-03"
+        "lastVerified": "2026-10-03",
+        "alsoStatedOn": [
+          {
+            "url": "https://travel.gc.ca/destinations/chile",
+            "name": "Government of Canada — Chile travel advice and advisories",
+            "lastVerified": "2026-10-07"
+          }
+        ]
       }
     },
     "plugs": {
@@ -1688,7 +1707,7 @@
     },
     "bestTimeToVisit": {
       "months": [],
-      "text": "No official seasonal guidance. The CIA World Factbook describes a desert climate in the north, a Mediterranean one in the central region and a cool, damp south; the UK notes that winter weather between June and September sometimes closes Andes border crossings, including Los Libertadores between Santiago and Mendoza."
+      "text": "No official seasonal guidance. The CIA World Factbook describes a desert climate in the north, a Mediterranean one in the central region and a cool, damp south; the UK Foreign Office notes that winter weather between June and September sometimes closes Andes border crossings, including Los Libertadores between Santiago and Mendoza."
     },
     "languages": [
       "Spanish"
@@ -1759,7 +1778,14 @@
         "unverifiable": {
           "lastAttempt": "2026-10-04",
           "reason": "gone"
-        }
+        },
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gov.uk/foreign-travel-advice/chile/safety-and-security",
+            "name": "UK Foreign, Commonwealth & Development Office — Chile travel advice: safety and security (winter closures of Andes crossings)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       },
       "currency": {
         "url": "https://travel.gc.ca/destinations/chile",
