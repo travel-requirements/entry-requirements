@@ -13,7 +13,7 @@
     "thailand",
     "singapore"
   ],
-  "summary": "New Zealand lets visa-waiver nationals (the US, UK, EU, Canada, Japan and around 30 others) visit for up to 3 months — 6 for British citizens — but they must first obtain an NZeTA and pay the NZD 100 International Visitor Levy. Australians enter freely, everyone else needs a Visitor Visa, and every traveler must complete the digital New Zealand Traveller Declaration before arrival.",
+  "summary": "New Zealand lets visa-waiver nationals (the US, UK, EU, Canada, Japan and around 30 others) visit for up to 3 months — 6 for British citizens — but they must first obtain an NZeTA and pay the NZD 100 International Visitor Levy. Australians enter freely, everyone else needs a Visitor Visa, and everyone travelling into New Zealand must submit the digital New Zealand Traveller Declaration by the time they reach passport control; it can be done before the flight.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -1753,7 +1753,7 @@
       "entries": "multiple",
       "extendable": {
         "possible": true,
-        "days": 180
+        "days": null
       },
       "applyUrl": "https://www.immigration.govt.nz/new-zealand-visas/visas/visa/visitor-visa",
       "source": {
@@ -1907,15 +1907,22 @@
           "amount": 0,
           "currency": "NZD"
         },
-        "submitAt": "before-travel",
-        "submitWindow": "Before departure for New Zealand (opens 24 hours before flights)",
+        "submitAt": "on-arrival",
+        "submitWindow": "By air: from 24 hours before you start your trip until you reach passport control in New Zealand. By sea: from 24 hours before departing the vessel’s last foreign port until it berths at its first New Zealand port.",
         "url": "https://www.travellerdeclaration.govt.nz/",
-        "text": "Every traveler must complete the free digital New Zealand Traveller Declaration (website or app) before arrival, covering customs and biosecurity questions. It is linked to your passport and checked at passport control; you do not need to print anything.",
+        "text": "Everyone travelling into New Zealand, including New Zealand passport holders, must complete the free New Zealand Traveller Declaration (website or app), which collects travel, customs, immigration and biosecurity information. Air travellers can submit it from 24 hours before they start their trip, and it needs to be submitted by the time they reach passport control in New Zealand; New Zealand Customs suggests doing it before the flight to make arrival easier. It is linked to your passport and checked at the eGate or by a border officer; you do not need to print anything.",
         "source": {
           "url": "https://www.travellerdeclaration.govt.nz/about/",
           "name": "New Zealand Traveller Declaration (NZTD) — About the NZTD (New Zealand Customs Service)",
           "type": "government",
-          "lastVerified": "2026-10-07"
+          "lastVerified": "2026-10-07",
+          "alsoStatedOn": [
+            {
+              "url": "https://www.travellerdeclaration.govt.nz/",
+              "name": "New Zealand Traveller Declaration — home page: \"It needs to be submitted by the time you reach passport control in New Zealand\"",
+              "lastVerified": "2026-10-09"
+            }
+          ]
         }
       }
     ],
@@ -2081,7 +2088,7 @@
     {
       "id": "nztd-app",
       "type": "tip",
-      "text": "Complete the free New Zealand Traveller Declaration online or in the NZTD app before you fly. New Zealand Customs says everyone travelling into New Zealand must complete one, and that it is free."
+      "text": "Complete the free New Zealand Traveller Declaration online or in the NZTD app before your flight: New Zealand Customs suggests it to make arrival easier, says everyone travelling into New Zealand must complete one, and says it needs to be submitted by the time you reach passport control."
     },
     {
       "id": "driving",
@@ -2113,7 +2120,7 @@
     {
       "id": "nztd-what",
       "question": "What is the New Zealand Traveller Declaration?",
-      "answer": "The NZTD is a free digital declaration every traveler must complete before arriving, at travellerdeclaration.govt.nz or in the NZTD app. It covers customs and biosecurity questions and replaces the old paper arrival card."
+      "answer": "The NZTD is a free digital declaration that everyone travelling into New Zealand must complete, at travellerdeclaration.govt.nz or in the NZTD app. It collects travel, customs, immigration and biosecurity information, replaces the old Passenger Arrival Card, and needs to be submitted by the time you reach passport control; New Zealand Customs suggests doing it before your flight."
     },
     {
       "id": "how-long-stay",
