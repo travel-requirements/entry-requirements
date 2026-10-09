@@ -52,7 +52,11 @@
       ],
       "list": {
         "kind": "visa-exempt",
-        "exhaustive": true
+        "exhaustive": true,
+        "evidence": {
+          "text": "All visitors to Seychelles must possess a valid Electronic Travel Authorisation (ETA) prior to departing from their country of origin.",
+          "url": "https://www.ics.gov.sc/permits/visitors-permit"
+        }
       }
     },
     "byPassport": {
@@ -1676,11 +1680,7 @@
         "currency": "EUR",
         "notes": "Standard processing (24 hours), adults and children 12 and under. Premium processing (6 hours) is €30; expedited processing (60 minutes) is €70 for adults and €30 for children. Bank charges are not included."
       },
-      "processing": {
-        "minDays": null,
-        "maxDays": 1,
-        "unit": "calendar-days"
-      },
+      "processing": null,
       "validityDays": null,
       "stayDays": null,
       "entries": "single",
@@ -1739,10 +1739,6 @@
           "text": "Standard Processing (24 hours) - €10",
           "url": "https://seychelles.govtas.com/en/pages/FAQS"
         },
-        "processing": {
-          "text": "The reviewing process may take up to 24 hours before validation.",
-          "url": "https://seychelles.govtas.com/en/pages/FAQS"
-        },
         "entries": {
           "text": "The TA is valid for one journey only and must be renewed for each additional journey.",
           "url": "https://seychelles.govtas.com/en/pages/FAQS"
@@ -1769,7 +1765,7 @@
       },
       "processing": null,
       "validityDays": null,
-      "stayDays": null,
+      "stayDays": 90,
       "entries": null,
       "applyUrl": null,
       "source": {
@@ -1790,6 +1786,10 @@
         },
         "method": {
           "text": "Online Application: Complete your extension request at www.permits.ics.gov.sc.",
+          "url": "https://www.ics.gov.sc/permits/visitors-permit"
+        },
+        "stayDays": {
+          "text": "This permit can be extended for successive periods of up to three months each, to a maximum total duration of twelve months, provided the individual continues to meet the above criteria.",
           "url": "https://www.ics.gov.sc/permits/visitors-permit"
         }
       }

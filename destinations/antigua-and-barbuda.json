@@ -39,7 +39,11 @@
       "lastChanged": "2026-09-27",
       "list": {
         "kind": "visa-exempt",
-        "exhaustive": true
+        "exhaustive": true,
+        "evidence": {
+          "text": "Citizens of countries which do not appear on any of the above list, require a visa.",
+          "url": "https://immigration.gov.ag/visa-services/countries-exempt-from-visa/"
+        }
       }
     },
     "byPassport": {
@@ -4468,9 +4472,9 @@
       "method": "exemption-extension",
       "name": "Extension of stay",
       "fee": {
-        "amount": 300,
+        "amount": 150,
         "currency": "XCD",
-        "notes": "Non-CARICOM nationals; CARICOM nationals pay XCD 150. The fee is a processing fee only and does not mean an extension will be granted. The application must be filed before the entry endorsement expires, and the applicant must appear in person."
+        "notes": "For non-CARICOM nationals, for up to 3 months, plus a non-refundable processing fee of XCD 50; CARICOM nationals pay XCD 75 for up to 3 months. The department's extensions page lists an application fee of $300.00 for non-CARICOM and $150.00 for CARICOM nationals without naming the currency, and says the fee is a processing fee only and does not mean an extension will be granted. The application must be filed before the entry endorsement expires, and the applicant must appear in person."
       },
       "processing": null,
       "validityDays": null,
@@ -4483,17 +4487,18 @@
         "type": "government",
         "lastVerified": "2026-10-09",
         "lastChanged": "2026-10-09",
-        "conflict": {
-          "url": "https://immigration.gov.ag/fees/extention-fees/",
-          "name": "Antigua and Barbuda Immigration Department — extension fees",
-          "states": "XCD 150 + XCD 50 processing fee",
-          "resolvedBy": "stricter"
-        }
+        "alsoStatedOn": [
+          {
+            "url": "https://immigration.gov.ag/fees/extention-fees/",
+            "name": "Antigua and Barbuda Immigration Department — Extension fees (table in XCD)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       },
       "evidence": {
         "fee": {
-          "text": "Application fee ($300.00 for the Non-CARICOM Nationals and $150.00 for CARICOM Nationals).",
-          "url": "https://immigration.gov.ag/general-services/extentions/"
+          "text": "Item Cost XCD Non-refundable Processing fee 50.00 Extension of time – (CARICOM NATIONALS) – Up to 3 months 75.00 Extension of time – (Non-CARICOM) – Up to 3 months 150.00",
+          "url": "https://immigration.gov.ag/fees/extention-fees/"
         },
         "stayDays": {
           "text": "This extension of stay is for a period of up to three (3) months",
