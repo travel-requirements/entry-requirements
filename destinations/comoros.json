@@ -2823,16 +2823,12 @@
       "fee": {
         "amount": 60,
         "currency": "EUR",
-        "notes": "Comoros Mission to the UN: EUR 60 for a 45-day visa on arrival (EUR 250 for one year, EUR 500 for ten years), in an undated letter from the mission’s ambassador. The UK FCDO (page updated December 2025) and France’s foreign ministry quote EUR 30. The Comorian figure is published because the destination’s own mission outranks foreign travel advice."
+        "notes": "Comoros Mission to the UN: EUR 60 for a 45-day visa obtained on the spot (EUR 250 for one year, EUR 500 for ten years), in an undated letter from the mission’s ambassador. The UK FCDO quotes EUR 30. The Comorian figure is published because the destination’s own mission outranks foreign travel advice."
       },
-      "processing": {
-        "minDays": 10,
-        "maxDays": 45,
-        "unit": "minutes"
-      },
-      "validityDays": 45,
+      "processing": null,
+      "validityDays": null,
       "stayDays": 45,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.un.int/comoros/comoros/passport-and-visa-process",
@@ -2845,6 +2841,16 @@
           "name": "UK Foreign, Commonwealth & Development Office — Comoros travel advice: entry requirements",
           "states": "EUR 30 visa on arrival (FCDO page updated 10 December 2025; France’s foreign ministry also says about EUR 30)",
           "resolvedBy": "hierarchy"
+        }
+      },
+      "evidence": {
+        "fee": {
+          "text": "45 days: 60 euros",
+          "url": "https://www.un.int/comoros/comoros/passport-and-visa-process"
+        },
+        "stayDays": {
+          "text": "45 days: 60 euros",
+          "url": "https://www.un.int/comoros/comoros/passport-and-visa-process"
         }
       }
     }

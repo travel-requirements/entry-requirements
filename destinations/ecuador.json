@@ -17,7 +17,7 @@
     "chile",
     "panama"
   ],
-  "summary": "Ecuador's Foreign Ministry lists 45 nationalities that must hold a visa, including India, the Philippines, Vietnam, Afghanistan, Bangladesh, Cuba, Nigeria, Pakistan, Venezuela and China. The list does not say that every other nationality is exempt; the UK, Canadian, Australian, French, German, Italian, Polish and Spanish governments say their citizens can visit without a visa.",
+  "summary": "Ecuador's Foreign Ministry lists the nationalities that must hold a visa, among them India, the Philippines, Vietnam, Afghanistan, Bangladesh, Cuba, Nigeria, Pakistan, Venezuela and China. The list does not say that every other nationality is exempt; the UK, Canadian, Australian, French, German, Italian, Polish and Spanish governments say their citizens can visit without a visa.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -997,11 +997,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": 90,
-      "entries": "multiple",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.gob.ec/mremh/tramites/concesion-visa-visitante-temporal-turista-90-dias",
@@ -1009,6 +1005,16 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-09-26"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Solicitud de visa USD $50, Otorgamiento de visa USD $30. No grava IVA",
+          "url": "https://www.gob.ec/mremh/tramites/concesion-visa-visitante-temporal-turista-90-dias"
+        },
+        "stayDays": {
+          "text": "La visa de turismo tendrá un periodo de noventa (90) días contados a partir del ingreso al territorio ecuatoriano.",
+          "url": "https://www.gob.ec/mremh/tramites/concesion-visa-visitante-temporal-turista-90-dias"
+        }
       }
     },
     {
@@ -1020,24 +1026,26 @@
       "processing": null,
       "validityDays": null,
       "stayDays": 90,
-      "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/ecuador/entry-requirements",
         "name": "UK Foreign, Commonwealth & Development Office — Ecuador entry requirements",
         "type": "government",
         "lastVerified": "2026-10-03"
+      },
+      "evidence": {
+        "stayDays": {
+          "text": "If you’re already in Ecuador and want to stay longer than 90 days, you can pay to extend your stay (in Spanish) by an extra 90 days.",
+          "url": "https://www.gov.uk/foreign-travel-advice/ecuador/entry-requirements"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
       "rule": "6-months-on-arrival",
-      "text": "The UK Foreign Office says your passport must be valid for at least 6 months on arrival.",
+      "text": "The UK Foreign Office tells British nationals that, to enter Ecuador, their passport must have an expiry date at least 6 months after the date they arrive.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/ecuador/entry-requirements",
         "name": "UK Foreign, Commonwealth & Development Office — Ecuador entry requirements",
@@ -1086,7 +1094,7 @@
       "required": null,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "The UK government lists health insurance as mandatory for foreign tourists visiting the Galápagos Islands. No official source we found states an insurance requirement for mainland Ecuador.",
+      "text": "The UK government tells British travellers that travel health insurance is mandatory for foreign tourists visiting the Galápagos Islands. No official source we could read states an insurance requirement for mainland Ecuador.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/ecuador/entry-requirements",
         "name": "UK FCDO travel advice — Ecuador entry requirements",
@@ -1098,20 +1106,27 @@
     "onwardTicket": {
       "required": true,
       "appliesTo": "all",
-      "text": "At border control you may be asked to show proof of a return or onward journey and to give your reason for travel.",
+      "text": "The UK government tells British travellers that at border control they may be asked to give their reason for travel and to show proof of a return or onward journey. Ecuador's Foreign Ministry lists a travel itinerary and outbound and return tickets among the requirements for its tourist visa.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/ecuador/entry-requirements",
         "name": "UK Foreign, Commonwealth & Development Office — Ecuador entry requirements",
         "type": "government",
         "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastChanged": "2026-10-03",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gob.ec/mremh/tramites/concesion-visa-visitante-temporal-turista-90-dias",
+            "name": "gob.ec — Concesión de visa de visitante temporal turista (90 días), Ministry of Foreign Affairs and Human Mobility",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       }
     },
     "proofOfFunds": {
-      "required": null,
-      "appliesTo": null,
+      "required": true,
+      "appliesTo": "visa-applicants",
       "amount": null,
-      "text": "No official source we could find states a funds requirement for visa-free visitors. Applicants for Ecuador's tourist visa must prove lawful means of support (Ministerial Agreement No. 70 of 28 June 2024).",
+      "text": "Ecuador's Foreign Ministry requires tourist-visa applicants to prove lawful means of support under Ministerial Agreement No. 70 of 28 June 2024. No official source we could read states a funds requirement for visitors who do not need a visa.",
       "source": {
         "url": "https://www.gob.ec/mremh/tramites/concesion-visa-visitante-temporal-turista-90-dias",
         "name": "gob.ec — Concesión de visa de visitante temporal turista (90 días), Ministry of Foreign Affairs and Human Mobility",
@@ -1305,7 +1320,7 @@
     {
       "id": "ninety-in-365",
       "type": "info",
-      "text": "The UK Foreign Office says visitors can stay without a visa for up to 90 days in any 12-month period, that an extension of a further 90 days must be applied for before the first 90 days end or you could be fined, and that overstayers are fined when they leave and cannot return to Ecuador unless they pay before leaving."
+      "text": "The UK Foreign Office tells British nationals they can visit without a visa for up to 90 days in any 12-month period, that an extension of an extra 90 days must be applied for before the first 90-day period ends or they could be fined, and that overstayers are fined when they leave and cannot return to Ecuador unless they pay before leaving."
     },
     {
       "id": "insurance-required",
@@ -1327,17 +1342,17 @@
     {
       "id": "do-i-need-a-visa",
       "question": "Do I need a visa for Ecuador?",
-      "answer": "Ecuador's Foreign Ministry lists 45 nationalities that must hold a visa, including India, the Philippines, Vietnam, Kenya, Afghanistan, Bangladesh, Cuba, Egypt, Ethiopia, Ghana, Iraq, Libya, Myanmar, Nigeria, North Korea, Pakistan, Senegal, Somalia, Sri Lanka, Syria, Venezuela, Yemen and China. The list does not say that every other nationality is exempt, and no official source we could read states the rule for most other passports. The UK, Canadian, Australian, French, German, Italian, Polish and Spanish governments say their citizens can visit without a visa."
+      "answer": "Ecuador's Foreign Ministry lists the nationalities that must hold a visa, among them India, the Philippines, Vietnam, Kenya, Afghanistan, Bangladesh, Cuba, Egypt, Ethiopia, Ghana, Iraq, Libya, Myanmar, Nigeria, North Korea, Pakistan, Senegal, Somalia, Sri Lanka, Syria, Venezuela, Yemen and China. The list does not say that every other nationality is exempt, and no official source we could read states the rule for most other passports. The UK, Canadian, Australian, French, German, Italian, Polish and Spanish governments say their citizens can visit without a visa."
     },
     {
       "id": "how-long-can-i-stay",
       "question": "How long can I stay in Ecuador?",
-      "answer": "The UK Foreign Office says visitors can stay without a visa for up to 90 days in any 12-month period, and can pay to extend their stay by a further 90 days, applying before the first 90-day period ends."
+      "answer": "The UK Foreign Office tells British nationals they can visit Ecuador without a visa for up to 90 days in any 12-month period, and can pay to extend their stay by an extra 90 days, applying before the first 90-day period ends."
     },
     {
       "id": "galapagos-requirements",
       "question": "What do I need to visit the Galápagos?",
-      "answer": "No separate visa — the Galápagos is part of Ecuador — but there are extra steps. The UK government says you need evidence of a hotel booking or an invitation letter, a return flight to the mainland, a Transit Control Card bought at your departure airport before check-in, and travel health insurance, which is mandatory for foreign tourists. The Galápagos Governing Council says tourists may stay up to 60 days in the year, counted from their first entry, and that the Transit Control Card costs USD 20 and is paid on every trip."
+      "answer": "No separate visa — the Galápagos is part of Ecuador — but there are extra steps. The UK government tells British travellers they need evidence of a hotel booking or an invitation letter, evidence of a return flight to the mainland, a transit control card bought at the departure airport before check-in, and travel health insurance, which it says is mandatory for foreign tourists. The Galápagos Governing Council says tourists may stay up to 60 days in the year, counted from their first entry, and that the Transit Control Card costs USD 20 and is paid on every trip."
     },
     {
       "id": "insurance-required-faq",

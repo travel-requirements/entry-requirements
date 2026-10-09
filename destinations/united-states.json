@@ -15,7 +15,7 @@
     "spain",
     "japan"
   ],
-  "summary": "The United States admits Visa Waiver Program nationals with an ESTA travel authorization ($40.27, valid 2 years) for stays up to 90 days, lets Canadians visit visa-free for up to 6 months, and requires most other visitors to obtain a B1/B2 visitor visa ($185) at a US embassy; citizens of the Marshall Islands and Micronesia, and Bahamians precleared in the Bahamas, also enter without a visa. Presidential proclamations of June and December 2025 suspend entry on visitor visas for citizens of 38 countries and for holders of Palestinian Authority travel documents, with limited exemptions.",
+  "summary": "The United States admits Visa Waiver Program nationals with an ESTA travel authorization ($40.27, valid 2 years) for stays up to 90 days, lets Canadians visit visa-free for up to 6 months, and requires other visitors to obtain a B1/B2 visitor visa ($185) at a US embassy; citizens of the Marshall Islands and Micronesia, and Bahamians precleared in the Bahamas, also enter without a visa. Presidential proclamations of June and December 2025 suspend entry on visitor visas for citizens of the countries they list and for holders of Palestinian Authority travel documents, with limited exemptions.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -2870,6 +2870,28 @@
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07"
         }
+      },
+      "evidence": {
+        "fee": {
+          "text": "Fee for application is $40.27 USD.",
+          "url": "https://esta.cbp.dhs.gov/"
+        },
+        "validityDays": {
+          "text": "Unless revoked, travel authorizations are valid for two years from the date of authorization, or until your passport expires, whichever comes first.",
+          "url": "https://esta.cbp.dhs.gov/faq"
+        },
+        "stayDays": {
+          "text": "The Visa Waiver Program allows foreign nationals from certain countries to travel to the United States for business or pleasure, for stays of 90 days or less without obtaining a visa.",
+          "url": "https://esta.cbp.dhs.gov/faq"
+        },
+        "entries": {
+          "text": "Approved ESTA applications are valid for a period of two years, or until the passport expires, whichever comes first, and multiple trips to the United States without the traveler having to re-apply for another ESTA.",
+          "url": "https://esta.cbp.dhs.gov/faq"
+        },
+        "extendable": {
+          "text": "If you are admitted to the United States under the Visa Waiver Program, you may not change or extend your non-immigrant status.",
+          "url": "https://esta.cbp.dhs.gov/faq"
+        }
       }
     },
     {
@@ -2885,7 +2907,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "multiple",
+      "entries": null,
       "applyUrl": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
       "source": {
         "url": "https://www.ecfr.gov/current/title-22/section-22.1",
@@ -2912,6 +2934,12 @@
             "lastVerified": "2026-10-09"
           }
         ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "(a) Non-petition-based nonimmigrant visa (except E category) $185",
+          "url": "https://www.ecfr.gov/current/title-22/section-22.1"
+        }
       }
     },
     {
@@ -2927,7 +2955,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "multiple",
+      "entries": null,
       "extendable": {
         "possible": true,
         "days": null
@@ -2963,6 +2991,16 @@
             "lastVerified": "2026-10-09"
           }
         ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "(a) Non-petition-based nonimmigrant visa (except E category) $185",
+          "url": "https://www.ecfr.gov/current/title-22/section-22.1"
+        },
+        "extendable": {
+          "text": "Students who need additional time from what is listed on their Admit Until Date must apply for an EOS with USCIS or depart the United States and obtain a new period of admission from CBP upon reentry.",
+          "url": "https://studyinthestates.dhs.gov/final-rule-establishing-a-fixed-time-period-of-admission-and-an-extension-of-stay-procedure-quick"
+        }
       }
     },
     {
@@ -2978,11 +3016,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": 29,
-      "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.ecfr.gov/current/title-22/section-22.1",
@@ -2997,15 +3031,30 @@
             "url": "https://esta.cbp.dhs.gov/faq",
             "name": "U.S. Customs and Border Protection — Official ESTA website, Frequently Asked Questions (fee parts, two-year validity, no change or extension of status under the VWP, transit)",
             "lastVerified": "2026-10-09"
+          },
+          {
+            "url": "https://www.ecfr.gov/current/title-8/section-214.2",
+            "name": "eCFR — 8 CFR 214.2(c)(1): C-1 transit aliens 'may be admitted for a period not to exceed 29 days'",
+            "lastVerified": "2026-10-09"
           }
         ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "(a) Non-petition-based nonimmigrant visa (except E category) $185",
+          "url": "https://www.ecfr.gov/current/title-22/section-22.1"
+        },
+        "stayDays": {
+          "text": "An alien of the class defined in section 101(a)(15)(C)(i) of the Act may be admitted for a period not to exceed 29 days.",
+          "url": "https://www.ecfr.gov/current/title-8/section-214.2"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
       "rule": "6-months-beyond-stay",
-      "text": "Your passport must be valid for at least six months beyond your intended stay, unless your country is on the US six-month exemption list, in which case it only needs to be valid for the length of the stay. The list covers most of Europe, the UK, Canada, Mexico, Japan, South Korea, Australia, New Zealand, India and many others. It includes every Visa Waiver country except Brunei, but not China, Vietnam, Bangladesh, Kenya or Ghana, for example.",
+      "text": "Your passport must be valid for at least six months beyond your intended stay, unless your country is on the US six-month exemption list, in which case it only needs to be valid for the length of the stay. The list includes the UK, Canada, Mexico, Japan, South Korea, Australia, New Zealand and India, among others; it does not include China, Vietnam, Bangladesh, Kenya or Ghana.",
       "source": {
         "url": "https://www.cbp.gov/document/bulletins/six-month-validity-update",
         "name": "U.S. Customs and Border Protection — Six-Month Passport Validity Update (Carrier Liaison Program, 18 December 2025)",
@@ -3262,7 +3311,7 @@
     {
       "id": "esta-what",
       "question": "What is ESTA and who needs it?",
-      "answer": "ESTA is the online travel authorization for the US Visa Waiver Program. Citizens of VWP countries (including the UK, most of Western Europe, Japan, South Korea, Australia and New Zealand) must obtain it before boarding. It costs $40.27 — $40.62 from 16 October 2026 under DHS's fiscal year 2027 adjustment — is valid for 2 years (or until your passport expires) and allows stays of up to 90 days."
+      "answer": "ESTA is the online travel authorization for the US Visa Waiver Program. Citizens of VWP countries (including the UK, Japan, South Korea, Australia and New Zealand) must obtain it before boarding. It costs $40.27 — $40.62 from 16 October 2026 under DHS's fiscal year 2027 adjustment — is valid for 2 years (or until your passport expires) and allows stays of up to 90 days."
     },
     {
       "id": "how-long-esta",

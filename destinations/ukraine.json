@@ -3015,7 +3015,7 @@
       "fee": {
         "amount": 20,
         "currency": "USD",
-        "notes": "Single entry; a double-entry eVisa costs USD 30, and the fee doubles for urgent processing. The MFA's e-Visa Requirements (Order No. 558, item I.6) issue it for single or double entry for up to 30 days."
+        "notes": "Single entry; a double-entry eVisa costs USD 30, and the fee doubles for urgent processing."
       },
       "processing": {
         "minDays": 1,
@@ -3025,24 +3025,27 @@
       "validityDays": null,
       "stayDays": 30,
       "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
       "applyUrl": "https://evisa.mfa.gov.ua/",
       "source": {
         "url": "https://mfa.gov.ua/en/consular-affairs/entry-and-stay-foreigners-ukraine/e-visa",
         "name": "Ministry of Foreign Affairs of Ukraine — e-Visa",
         "type": "government",
-        "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-03",
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09",
         "instrument": "MFA Order No. 558 of 18 December 2017, Requirements for issuing visas in electronic form (as amended 25 March 2025): single or double entry for up to 30 days; processed within 1 working day (urgent) or 3 working days",
         "conflict": {
           "url": "https://mfa.gov.ua/en/consular-affairs/entry-and-stay-foreigners-ukraine/visa-information",
           "name": "Ministry of Foreign Affairs of Ukraine — visa information",
           "states": "E-Visa applications are processed within 9 working days",
           "resolvedBy": "newer"
-        }
+        },
+        "alsoStatedOn": [
+          {
+            "url": "https://mfa.gov.ua/en/consular-affairs/entry-and-stay-foreigners-ukraine/visa-information",
+            "name": "Ministry of Foreign Affairs of Ukraine — Visa information (e-Visas: single or double entry 30-day visas)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       },
       "applyWindow": {
         "earliestDays": null,
@@ -3055,6 +3058,24 @@
           "lastVerified": "2026-10-09",
           "lastChanged": "2026-10-07",
           "portalOnly": true
+        }
+      },
+      "evidence": {
+        "fee": {
+          "text": "- single entry e-Visa - 20 USA dollars",
+          "url": "https://mfa.gov.ua/en/consular-affairs/entry-and-stay-foreigners-ukraine/e-visa"
+        },
+        "entries": {
+          "text": "- single entry e-Visa - 20 USA dollars",
+          "url": "https://mfa.gov.ua/en/consular-affairs/entry-and-stay-foreigners-ukraine/e-visa"
+        },
+        "processing": {
+          "text": "All e-Visa applications are processed within urgent (1 working day) or non-urgent (3 working days) procedure.",
+          "url": "https://mfa.gov.ua/en/consular-affairs/entry-and-stay-foreigners-ukraine/e-visa"
+        },
+        "stayDays": {
+          "text": "E-Visas are issued to foreigners-holders of passports of 45 specified countries as single or double entry 30-day visas",
+          "url": "https://mfa.gov.ua/en/consular-affairs/entry-and-stay-foreigners-ukraine/visa-information"
         }
       }
     },
@@ -3069,54 +3090,78 @@
         "notes": "Basic fee at Ukraine's embassies and consulates for regular service; doubled for expedited service. Some nationalities pay a different, reciprocal fee."
       },
       "processing": {
-        "minDays": 10,
+        "minDays": null,
         "maxDays": 30,
         "unit": "business-days"
       },
       "validityDays": 180,
       "stayDays": 90,
-      "entries": "multiple",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://mfa.gov.ua/en/consular-affairs/entry-and-stay-foreigners-ukraine/visa-information",
         "name": "Ministry of Foreign Affairs of Ukraine — visa information",
         "type": "government",
-        "lastVerified": "2026-10-07"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Ukraine’s Embassies/Consulates abroad charge $65.00 (basic visa fee) for processing visa applications via regular service.",
+          "url": "https://mfa.gov.ua/en/consular-affairs/entry-and-stay-foreigners-ukraine/visa-information"
+        },
+        "processing": {
+          "text": "in up to 10 working days from the day of application within regular service unless stipulated otherwise by Ukraine’s international treaties. Processing time of an application filed within regular service may be extended for up to 30 working days if additional checks are necessary.",
+          "url": "https://mfa.gov.ua/en/consular-affairs/entry-and-stay-foreigners-ukraine/visa-information"
+        },
+        "stayDays": {
+          "text": "C type visas are issued in cases where a foreigner/stateless person intends to stay in Ukraine for up to 90 days within every 180 days.",
+          "url": "https://mfa.gov.ua/en/consular-affairs/entry-and-stay-foreigners-ukraine/visa-information"
+        },
+        "validityDays": {
+          "text": "C type visas are issued as single / double / multiple entry visas valid for 6 months or another period depending on supporting documents",
+          "url": "https://mfa.gov.ua/en/consular-affairs/entry-and-stay-foreigners-ukraine/visa-information"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "valid-for-stay",
-      "text": "The UK FCDO says that if you travel without a visa your passport should be valid for your proposed stay, with no extra validity required. Canada's travel advice says at least 6 months beyond the date you leave Ukraine.",
+      "rule": "other",
+      "text": "The UK FCDO tells British nationals travelling without a visa that their passport should be valid for the proposed stay, with no extra validity required. Canada's travel advice tells Canadians at least 6 months beyond the date they leave Ukraine. No Ukrainian source we could read states the rule.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/ukraine/entry-requirements",
         "name": "UK FCDO — Ukraine travel advice: entry requirements",
         "type": "government",
-        "lastVerified": "2026-10-03",
+        "lastVerified": "2026-10-09",
         "conflict": {
           "url": "https://travel.gc.ca/destinations/ukraine",
           "name": "Government of Canada — Ukraine travel advice",
           "states": "passport valid at least 6 months beyond the date you expect to leave Ukraine",
           "resolvedBy": "newer"
-        }
+        },
+        "lastChanged": "2026-10-09"
       }
     },
     "vaccinations": [],
     "travelInsurance": {
       "required": true,
-      "appliesTo": "all",
+      "appliesTo": "visa-applicants",
       "minCoverage": null,
-      "text": "The UK FCDO says permanent residents of Ukraine do not need to show proof of insurance. The Ministry of Foreign Affairs says e-Visa applicants upload a health insurance policy with EUR 30,000 of cover.",
+      "text": "Ukraine's Ministry of Foreign Affairs says e-Visa applicants upload a health insurance policy with EUR 30,000 of cover. The UK FCDO says permanent residents of Ukraine do not need to show proof of insurance; no official source we could read states the rule for visa-free visitors.",
       "source": {
-        "url": "https://www.gov.uk/foreign-travel-advice/ukraine/entry-requirements",
-        "name": "UK FCDO — Ukraine travel advice: entry requirements",
+        "url": "https://mfa.gov.ua/en/consular-affairs/entry-and-stay-foreigners-ukraine/e-visa",
+        "name": "Ministry of Foreign Affairs of Ukraine — e-Visa (documents to upload: health insurance policy, EUR 30,000 coverage)",
         "type": "government",
-        "lastVerified": "2026-10-03"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gov.uk/foreign-travel-advice/ukraine/entry-requirements",
+            "name": "UK FCDO — Ukraine travel advice: entry requirements",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       }
     },
     "onwardTicket": {
@@ -3311,7 +3356,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Ukraine?",
-      "answer": "Citizens of the EU, US, UK, Canada and a broad list of other countries enter visa-free for up to 90 days in any 180-day period. Many other nationalities can apply online for the official eVisa; the rest need a visa from a Ukrainian consulate. The UK FCDO says Ukraine's airspace remains closed."
+      "answer": "Citizens of the EU, US, UK, Canada and a list of other countries enter visa-free for up to 90 days in any 180-day period. Nationals of the countries on the MFA's eVisa list can apply online for the official eVisa; others need a visa from a Ukrainian consulate. The UK FCDO says Ukraine's airspace remains closed."
     },
     {
       "id": "how-to-enter",

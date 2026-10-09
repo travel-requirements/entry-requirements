@@ -2447,7 +2447,7 @@
       "fee": {
         "amount": 40,
         "currency": "USD",
-        "notes": "One-off visa application fee paid online. The Sustainable Development Fee is charged separately for the full stay: US$100 per person per night until 31 August 2027 — half the standard US$200, under an incentive the Department of Immigration states — with US$50 for children aged 6–12 and nothing under 6."
+        "notes": "One-off visa fee, paid online with the application. The Sustainable Development Fee is charged separately for each night: Bhutan's Department of Immigration says it is USD 200 per person per night, with a 50% discount to USD 100 for US-dollar-paying tourists valid until 31 August 2027; children aged 6 to 11 get a 50% discount and children under 6 pay nothing."
       },
       "processing": {
         "minDays": 3,
@@ -2455,8 +2455,8 @@
         "unit": "business-days"
       },
       "validityDays": null,
-      "stayDays": null,
-      "entries": "single",
+      "stayDays": 90,
+      "entries": null,
       "extendable": {
         "possible": true,
         "days": null
@@ -2474,7 +2474,31 @@
             "name": "Department of Tourism, Bhutan — FAQs: 'How much is the SDF?' and 'How much does the visa cost?'",
             "lastVerified": "2026-10-07"
           }
-        ]
+        ],
+        "conflict": {
+          "url": "https://www.bhutan.travel/faqs",
+          "name": "Department of Tourism, Bhutan — FAQs: 'How long does it take to issue my visa?'",
+          "states": "A correctly input visa application can take up to five days to process.",
+          "resolvedBy": "hierarchy"
+        }
+      },
+      "evidence": {
+        "fee": {
+          "text": "The visa fee is US$40 per person; this fee is non-refundable and non-transferable.",
+          "url": "https://immi.gov.bt/faq"
+        },
+        "processing": {
+          "text": "Turnaround time is 03 working days from the receipt of the complete application including the payment of applicable fee",
+          "url": "https://immi.gov.bt/faq"
+        },
+        "stayDays": {
+          "text": "Foreigners can stay in the country as a tourist for a maximum of 90 days.",
+          "url": "https://immi.gov.bt/faq"
+        },
+        "extendable": {
+          "text": "Yes, guests can extend their stay via the online visa/permit application portal on the same site, using the same log-in details that were used to process the original visa/permit.",
+          "url": "https://immi.gov.bt/faq"
+        }
       },
       "applyWindow": {
         "earliestDays": null,
@@ -2524,13 +2548,13 @@
       "name": "Entry Permit (Indian nationals)",
       "fee": null,
       "processing": {
-        "minDays": 0,
+        "minDays": 3,
         "maxDays": 3,
         "unit": "business-days"
       },
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "applyUrl": "https://immi.gov.bt/",
       "source": {
         "url": "https://immi.gov.bt/faq",
@@ -2538,6 +2562,12 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-09-26"
+      },
+      "evidence": {
+        "processing": {
+          "text": "Turnaround time is 03 working days from the receipt of the complete application including the payment of applicable fee",
+          "url": "https://immi.gov.bt/faq"
+        }
       },
       "documents": {
         "items": [
@@ -2570,7 +2600,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.bhutan.travel/faqs",
@@ -2760,7 +2790,7 @@
     {
       "id": "sdf-budget",
       "type": "warning",
-      "text": "Budget for the Sustainable Development Fee: US$100 per person per night for most visitors until 31 August 2027 (half the standard US$200; US$50 for children 6–12, free under 6), paid together with the visa application. Indian nationals pay Nu. 1,200 (or the equivalent in Indian rupees) per night instead."
+      "text": "Budget for the Sustainable Development Fee: US$100 per person per night for US-dollar-paying visitors until 31 August 2027 (half the standard US$200; US$50 for children aged 6 to 11, free under 6), paid together with the visa application. Indian nationals pay Nu. 1,200 (or the equivalent in Indian rupees) per night instead."
     },
     {
       "id": "guide-rules",
@@ -2782,12 +2812,12 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Bhutan?",
-      "answer": "Yes, unless you hold an Indian passport (Indian nationals need an entry permit instead). Bangladeshi and Maldivian citizens can get the visa on arrival, though the Department of Tourism recommends arranging it beforehand. Everyone else applies online at immi.gov.bt — directly or through a tour operator — paying a US$40 visa fee plus the Sustainable Development Fee, before travel. A tourist may stay for the actual duration of the trip, up to 90 days."
+      "answer": "Yes, unless you hold an Indian passport (Indian nationals need an entry permit instead). Bangladeshi and Maldivian citizens can get the visa on arrival, though the Department of Tourism recommends arranging it beforehand. Everyone else applies online at immi.gov.bt — directly or through a tour operator — paying a US$40 visa fee plus the Sustainable Development Fee, before travel. Bhutan's Department of Immigration says foreigners can stay as tourists for a maximum of 90 days."
     },
     {
       "id": "daily-fee",
       "question": "How much is Bhutan's Sustainable Development Fee?",
-      "answer": "US$100 per person per night for most foreign visitors, with discounts for children (US$50 for ages 6–12, free under 6). Bhutan's Department of Immigration says this is a 50% reduction of the standard US$200 rate, valid until 31 August 2027. Indian nationals pay ₹1,200 per night. The fee funds healthcare, education and conservation, and is paid before your visa or permit is issued."
+      "answer": "US$100 per person per night for US-dollar-paying visitors, with a 50% discount for children aged 6 to 11 and nothing for children under 6. Bhutan's Department of Immigration says this is a 50% discount on the standard US$200 rate, valid until 31 August 2027. Indian nationals pay ₹1,200 per night. The SDF funds projects including free healthcare, education and conservation, and is paid at the time of processing the visa or permit."
     },
     {
       "id": "indian-citizens",
@@ -2802,7 +2832,7 @@
     {
       "id": "how-apply",
       "question": "How do I apply for a Bhutan visa?",
-      "answer": "Apply online at immi.gov.bt and pay the US$40 visa fee together with the Sustainable Development Fee. Bhutan's Department of Tourism says a correctly completed application can take up to five days to process."
+      "answer": "Apply online at immi.gov.bt and pay the US$40 visa fee together with the Sustainable Development Fee. Bhutan's Department of Immigration gives a turnaround time of 3 working days from receipt of the complete application and fee; the Department of Tourism says a correctly completed application can take up to five days to process."
     },
     {
       "id": "extend-stay",

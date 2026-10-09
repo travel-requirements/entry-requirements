@@ -1980,10 +1980,10 @@
       "fee": {
         "amount": 30,
         "currency": "USD",
-        "notes": "Consular tariff for a visa the consulate grants. A visa that needs authorization from the Dirección General de Migración y Extranjería, the route for restricted nationalities, costs USD 50, and a multiple-entry visa it authorizes USD 100."
+        "notes": "Consular tariff for granting a consular visa. A visa consulted with and authorized by the Dirección General de Migración y Extranjería costs USD 50, and a multiple-entry visa it authorizes USD 100."
       },
       "processing": null,
-      "validityDays": 60,
+      "validityDays": null,
       "stayDays": 30,
       "entries": "single",
       "extendable": {
@@ -2011,6 +2011,24 @@
             "lastVerified": "2026-10-07"
           }
         ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "Por el otorgamiento de visas consulares: $30",
+          "url": "https://www.rree.go.cr/?pais=&sec=servicios&cat=consulares&cont=612"
+        },
+        "stayDays": {
+          "text": "PERMANENCIA MÁXIMA: HASTA 30 DÍAS NATURALES, PRORROGABLES HASTA LOS NOVENTA DÍAS NATURALES.",
+          "url": "https://migracion.go.cr/wp-content/uploads/2025/11/Directrices-Generales-de-Visas-Noviembre-2025-Alcance-148-Gaceta-N%C2%B0-216-17-11-2025.pdf"
+        },
+        "entries": {
+          "text": "VIGENCIA DE LA VISA: UN ÚNICO INGRESO.",
+          "url": "https://migracion.go.cr/wp-content/uploads/2025/11/Directrices-Generales-de-Visas-Noviembre-2025-Alcance-148-Gaceta-N%C2%B0-216-17-11-2025.pdf"
+        },
+        "extendable": {
+          "text": "PERMANENCIA MÁXIMA: HASTA 30 DÍAS NATURALES, PRORROGABLES HASTA LOS NOVENTA DÍAS NATURALES.",
+          "url": "https://migracion.go.cr/wp-content/uploads/2025/11/Directrices-Generales-de-Visas-Noviembre-2025-Alcance-148-Gaceta-N%C2%B0-216-17-11-2025.pdf"
+        }
       }
     }
   ],
@@ -2039,7 +2057,7 @@
         "name": "Yellow fever",
         "certificate": "ICVP",
         "requiredWhen": "arriving-from-risk-country",
-        "text": "A yellow fever vaccination certificate (ICVP) is required if you are arriving from a country on Costa Rica's risk list: Bolivia, Brazil, Colombia, Ecuador, French Guiana, Guyana, Paraguay, Peru, Suriname, Trinidad and Tobago and Venezuela in the Americas, and 32 African countries, among them Angola, Ethiopia, Ghana, Kenya, Nigeria, Rwanda, Tanzania, Uganda and Zambia. The vaccine must be given at least 10 days before entry.",
+        "text": "A yellow fever vaccination certificate (ICVP) is required if you are arriving from a country on Costa Rica's risk list: Bolivia, Brazil, Colombia, Ecuador, French Guiana, Guyana, Paraguay, Peru, Suriname, Trinidad and Tobago and Venezuela in the Americas, and African countries including Angola, Ethiopia, Ghana, Kenya, Nigeria, Rwanda, Tanzania, Uganda and Zambia. The vaccine must be given at least 10 days before entry.",
         "source": {
           "url": "https://www.ministeriodesalud.go.cr/index.php/biblioteca-de-archivos-left/documentos-ministerio-de-salud/tramites/autorizaciones-y-certificaciones/carne-s/certificacion-de-fiebre-amarilla/1439-zonas-geografias-en-riesgo-de-transmision-de-fiebre-amarilla/file",
           "name": "Ministerio de Salud de Costa Rica — Resolución DM-RC-2214-2024: list of yellow fever risk countries",
@@ -2057,10 +2075,10 @@
       }
     ],
     "travelInsurance": {
-      "required": false,
+      "required": null,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Travel insurance is not among the entry requirements listed in Costa Rica's visa directives (a valid passport, a visa where required, proof of funds and a return or onward ticket).",
+      "text": "No official source we could read states a travel insurance requirement for entering Costa Rica. The entry requirements listed in Costa Rica's visa directives (a valid passport, a visa where required, proof of economic means, a return or onward ticket, and no entry ban) do not include it.",
       "source": {
         "url": "https://migracion.go.cr/wp-content/uploads/2025/11/Directrices-Generales-de-Visas-Noviembre-2025-Alcance-148-Gaceta-N%C2%B0-216-17-11-2025.pdf",
         "name": "Dirección General de Migración y Extranjería — Directrices Generales de Visas de Ingreso y Permanencia para No Residentes (November 2025)",
@@ -2283,7 +2301,7 @@
     {
       "id": "yellow-fever",
       "question": "Do I need a yellow fever vaccination for Costa Rica?",
-      "answer": "Only if you are arriving from a country on Costa Rica's yellow fever risk list: Bolivia, Brazil, Colombia, Ecuador, French Guiana, Guyana, Paraguay, Peru, Suriname, Trinidad and Tobago, Venezuela and 32 African countries. In that case you must show an ICVP certificate for a vaccine given at least 10 days before entry."
+      "answer": "Only if you are arriving from a country on Costa Rica's yellow fever risk list: Bolivia, Brazil, Colombia, Ecuador, French Guiana, Guyana, Paraguay, Peru, Suriname, Trinidad and Tobago, Venezuela, and African countries on the same list. In that case you must show an ICVP certificate for a vaccine given at least 10 days before entry."
     },
     {
       "id": "departure-tax",

@@ -2918,20 +2918,12 @@
       "fee": {
         "amount": 40,
         "currency": "EUR",
-        "notes": "Application fee for a short-stay visa, set by Kosovo's Ministry of Foreign Affairs. Pay by bank transfer to the account given by the Kosovo embassy or consulate where you apply."
+        "notes": "Application fee for a short-stay visa, set by Kosovo's Ministry of Foreign Affairs. The Ministry says to check the page of the Kosovo embassy or consulate where you apply for the details of the bank where the payment is made."
       },
-      "processing": {
-        "minDays": 0,
-        "maxDays": 60,
-        "unit": "calendar-days"
-      },
+      "processing": null,
       "validityDays": null,
       "stayDays": 90,
-      "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://ambasadat.net/vizat/",
@@ -2940,6 +2932,16 @@
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-07",
         "instrument": "Fee: Kosovo Ministry of Foreign Affairs visa page (EUR 40 for a C visa). Stay and decision period: Law No. 04/L-219 on Foreigners (https://gzk.rks-gov.net/ActDetail.aspx?ActID=8876), Article 23 (decision within 15 calendar days, extendable to 30, or to 60 where additional documents are required), and Article 38 as amended by Law No. 06/L-036, Article 6 (https://gzk.rks-gov.net/ActDetail.aspx?ActID=16333): a short stay is up to 90 days within 180 days."
+      },
+      "evidence": {
+        "fee": {
+          "text": "Taksa e aplikimit për vizën C është 40 Euro.",
+          "url": "https://ambasadat.net/vizat/"
+        },
+        "stayDays": {
+          "text": "Plotësojeni këtë aplikacion nëse qëllimi juaj është të qëndroni më shkurt se 3 muaj në Republikën e Kosovës.",
+          "url": "https://ambasadat.net/vizat/"
+        }
       }
     },
     {
@@ -2950,20 +2952,12 @@
       "fee": {
         "amount": 80,
         "currency": "EUR",
-        "notes": "For stays longer than 3 months, followed by a residence permit in Kosovo. Exempt: holders of diplomatic and official passports, children under 6, and pupils, students and accompanying teachers travelling for study or training. Pay by bank transfer to the account given by the Kosovo embassy or consulate where you apply."
+        "notes": "For stays longer than 3 months. Exempt: holders of diplomatic and official passports, children under 6, and pupils, students and accompanying teachers on visits for study or training. The Ministry says to check the page of the Kosovo embassy or consulate where you apply for the details of the bank where the payment is made."
       },
-      "processing": {
-        "minDays": 0,
-        "maxDays": 60,
-        "unit": "calendar-days"
-      },
+      "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "multiple",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://ambasadat.net/vizat/",
@@ -2972,6 +2966,12 @@
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-07",
         "instrument": "Fee: Kosovo Ministry of Foreign Affairs visa page (EUR 80 for a D visa). Decision period: Law No. 04/L-219 on Foreigners (https://gzk.rks-gov.net/ActDetail.aspx?ActID=8876), Article 23 (decision within 15 calendar days, extendable to 30, or to 60 where additional documents are required)."
+      },
+      "evidence": {
+        "fee": {
+          "text": "Taksa e aplikimit për vizën D është 80 Euro",
+          "url": "https://ambasadat.net/vizat/"
+        }
       }
     }
   ],
@@ -2989,8 +2989,8 @@
     },
     "vaccinations": [],
     "travelInsurance": {
-      "required": null,
-      "appliesTo": null,
+      "required": true,
+      "appliesTo": "visa-applicants",
       "minCoverage": null,
       "text": "Visa applicants must show health insurance valid in Kosovo for the whole stay, according to Kosovo's Ministry of Foreign Affairs. No official source we could read states an insurance requirement for visa-free visitors. The UK government says Kosovo's public health system is poorly funded and advises adequate travel health insurance.",
       "source": {
@@ -3003,7 +3003,7 @@
     "onwardTicket": {
       "required": null,
       "appliesTo": null,
-      "text": "Kosovo's Ministry of Foreign Affairs lists no return-ticket requirement. Visa applicants must show they can pay for the stay and for the journey home or on to a third country.",
+      "text": "No official source we could read states an onward or return ticket requirement. Visa applicants must show they can pay for the stay and for the journey home or on to a third country.",
       "source": {
         "url": "https://ambasadat.net/vizat/",
         "name": "Embassies of the Republic of Kosovo (MFA) — Visas for foreign nationals",
@@ -3162,12 +3162,12 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Kosovo?",
-      "answer": "Probably not: Kosovo's Ministry of Foreign Affairs lists the nationalities that need no short-stay visa (stays under 3 months), including EU and Schengen-area citizens, the US, UK, Canada, Australia, New Zealand, Japan, South Korea, Singapore, Malaysia, Israel, the Gulf states, most of Latin America and the Caribbean, many Pacific island states, and its neighbors Albania, Montenegro, North Macedonia and Serbia. Holders of a valid multiple-entry Schengen visa or a Schengen biometric residence permit can also enter visa-free for up to 15 days. Other nationalities, including Bosnia and Herzegovina, apply at a Kosovo embassy."
+      "answer": "Kosovo's Ministry of Foreign Affairs lists the nationalities that need no short-stay visa (stays under 3 months), including EU and Schengen-area citizens, the US, UK, Canada, Australia, New Zealand, Japan, South Korea, Singapore, Malaysia, Israel, the Gulf states, most of Latin America and the Caribbean, many Pacific island states, and its neighbors Albania, Montenegro, North Macedonia and Serbia. Holders of a valid multiple-entry Schengen visa or a Schengen biometric residence permit can also enter visa-free for up to 15 days. Other nationalities, including Bosnia and Herzegovina, apply at a Kosovo embassy."
     },
     {
       "id": "schengen-visa-entry",
       "question": "Can I enter Kosovo with a Schengen visa?",
-      "answer": "Yes — holders of a valid multiple-entry Schengen visa, or of a biometric residence permit issued by a Schengen state, can enter Kosovo without a Kosovo visa for up to 15 days. Kosovo's Ministry of Foreign Affairs names no such exemption for US or UK visas, and a single-entry Schengen visa does not qualify."
+      "answer": "Yes — holders of a valid multiple-entry Schengen visa, or of a biometric residence permit issued by a Schengen state, can enter Kosovo without a Kosovo visa for up to 15 days. Kosovo's Ministry of Foreign Affairs names no such exemption for US or UK visas."
     },
     {
       "id": "kosovo-serbia-travel",

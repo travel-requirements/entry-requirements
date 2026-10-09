@@ -2559,13 +2559,13 @@
         "notes": "Children aged 6–12: €45; under 6: free. €35 for nationals of the countries listed under EU visa facilitation agreements (Albania, Armenia, Azerbaijan, Belarus, Bosnia and Herzegovina, Georgia, Moldova, Montenegro, North Macedonia, Serbia and Ukraine); €67.50 for Cape Verde nationals. A visa extension costs €30."
       },
       "processing": {
-        "minDays": 15,
+        "minDays": null,
         "maxDays": 45,
         "unit": "calendar-days"
       },
-      "validityDays": 180,
+      "validityDays": null,
       "stayDays": 90,
-      "entries": "multiple",
+      "entries": null,
       "extendable": {
         "possible": true,
         "days": null
@@ -2577,18 +2577,36 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Single and multiple entry short-stay visa (1-90 days) (Category C) 90 euros",
+          "url": "https://www.gov.cy/en/information/visas/"
+        },
+        "processing": {
+          "text": "The above period for the examination of the application may be extended up to 45 days in the event that the on-site conditions and the application file require a more thorough check and possibly more supporting documents.",
+          "url": "https://www.gov.cy/en/information/visas/"
+        },
+        "stayDays": {
+          "text": "It enables foreigners to enter the territory of the Republic of Cyprus, for reasons other than immigration, with the intention of a maximum stay in the territory of the Republic of Cyprus not exceeding 90 days in any 180-day period.",
+          "url": "https://www.gov.cy/en/information/visas/"
+        },
+        "extendable": {
+          "text": "The period of validity and/or the duration of stay of an issued visa may be extended if the visa holder provides proof of serious personal reasons justifying the extension of the period of validity or the duration of stay.",
+          "url": "https://www.gov.cy/en/information/visas/"
+        }
       }
     },
     {
       "id": "cyprus-long-stay",
       "category": "other",
       "method": "embassy",
-      "name": "Long-Stay Visa / Temporary Residence (Pink Slip)",
+      "name": "Visa for long residence purposes",
       "fee": null,
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "multiple",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.gov.cy/en/information/visas/",
@@ -2650,26 +2668,41 @@
     },
     "onwardTicket": {
       "required": true,
-      "appliesTo": "all",
-      "text": "The UK FCDO says that at Cyprus border control you may need to show a return or onward ticket.",
+      "appliesTo": "visa-applicants",
+      "text": "Cyprus's Ministry of Foreign Affairs lists pre-bookings of round-trip flights among the documents for a visa application. The UK FCDO says that at Cyprus border control you may also need to show a return or onward ticket.",
       "source": {
-        "url": "https://www.gov.uk/foreign-travel-advice/cyprus/entry-requirements",
-        "name": "UK Foreign, Commonwealth & Development Office — Cyprus entry requirements",
+        "url": "https://www.gov.cy/en/information/visas/",
+        "name": "Gov.cy — Visas (Ministry of Foreign Affairs of the Republic of Cyprus)",
         "type": "government",
-        "lastVerified": "2026-10-03"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gov.uk/foreign-travel-advice/cyprus/entry-requirements",
+            "name": "UK Foreign, Commonwealth & Development Office — Cyprus entry requirements",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       }
     },
     "proofOfFunds": {
       "required": true,
       "appliesTo": "all",
       "amount": null,
-      "text": "No official source we could read states a fixed amount. The UK FCDO says that at Cyprus border control you may need to prove that you have enough money for your stay.",
+      "text": "Cyprus's Ministry of Foreign Affairs says third-country nationals must be able to prove that they have the necessary financial resources to cover their expenses in Cyprus. No fixed amount is published.",
       "source": {
-        "url": "https://www.gov.uk/foreign-travel-advice/cyprus/entry-requirements",
-        "name": "UK Foreign, Commonwealth & Development Office — Cyprus entry requirements",
+        "url": "https://www.gov.cy/en/information/visas/",
+        "name": "Gov.cy — Visas (Ministry of Foreign Affairs of the Republic of Cyprus)",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gov.uk/foreign-travel-advice/cyprus/entry-requirements",
+            "name": "UK Foreign, Commonwealth & Development Office — Cyprus entry requirements",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       }
     },
     "declarations": [

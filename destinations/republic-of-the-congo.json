@@ -1140,20 +1140,16 @@
       "fee": {
         "amount": 200,
         "currency": "USD",
-        "notes": "At the embassy in Washington, which serves the United States, Canada and Mexico: USD 200, paid in cash at drop-off or by money order, and not refunded once the application is submitted. Other embassies set their own fees."
+        "notes": "At the embassy in Washington: USD 200, paid in cash at drop-off or by money order, and not refunded once the application is submitted."
       },
       "processing": {
-        "minDays": 5,
+        "minDays": null,
         "maxDays": 10,
         "unit": "business-days"
       },
       "validityDays": 90,
-      "stayDays": 30,
-      "entries": "single",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
+      "stayDays": null,
+      "entries": "multiple",
       "applyUrl": null,
       "source": {
         "url": "https://www.ambacongo-us.org/en/consular-services/visa",
@@ -1161,6 +1157,24 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-02"
+      },
+      "evidence": {
+        "fee": {
+          "text": "The visa fees will still remain at 200 U.S Dollars.",
+          "url": "https://www.ambacongo-us.org/en/consular-services/visa"
+        },
+        "processing": {
+          "text": "The processing time for all consular services requests take up to 7-10 business days from the day a visa application or a consular service request is received.",
+          "url": "https://www.ambacongo-us.org/en/consular-services/visa"
+        },
+        "validityDays": {
+          "text": "The tourist visa is delivered for a period of 3 months ( 90 days) and allows for multiples entries for non-U.S citizens.",
+          "url": "https://www.ambacongo-us.org/en/consular-services/visa"
+        },
+        "entries": {
+          "text": "The tourist visa is delivered for a period of 3 months ( 90 days) and allows for multiples entries for non-U.S citizens.",
+          "url": "https://www.ambacongo-us.org/en/consular-services/visa"
+        }
       }
     },
     {
@@ -1171,10 +1185,10 @@
       "fee": {
         "amount": 200,
         "currency": "USD",
-        "notes": "At the embassy in Washington, which serves the United States, Canada and Mexico; cash at drop-off or money order, not refunded. The embassy in Paris charges EUR 55 for a 15-day visa and EUR 110 for a 91-day visa. Other embassies set their own fees."
+        "notes": "At the embassy in Washington: USD 200, cash at drop-off or money order, not refunded. The embassy in Paris charges EUR 55 for a 15-day visa (EUR 110 express)."
       },
       "processing": {
-        "minDays": 7,
+        "minDays": null,
         "maxDays": 10,
         "unit": "business-days"
       },
@@ -1199,6 +1213,32 @@
             "lastVerified": "2026-10-09"
           }
         ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "The visa fees will still remain at 200 U.S Dollars.",
+          "url": "https://www.ambacongo-us.org/en/consular-services/visa"
+        },
+        "processing": {
+          "text": "The processing time for all consular services requests take up to 7-10 business days from the day a visa application or a consular service request is received.",
+          "url": "https://www.ambacongo-us.org/en/consular-services/visa"
+        },
+        "validityDays": {
+          "text": "A business visa is delivered for only one month ( 30 days) and allows for multiple entries for Non-US Citizens. It cannot exceed 30 days.",
+          "url": "https://www.ambacongo-us.org/en/consular-services/visa"
+        },
+        "stayDays": {
+          "text": "A business visa is delivered for only one month ( 30 days) and allows for multiple entries for Non-US Citizens. It cannot exceed 30 days.",
+          "url": "https://www.ambacongo-us.org/en/consular-services/visa"
+        },
+        "entries": {
+          "text": "A business visa is delivered for only one month ( 30 days) and allows for multiple entries for Non-US Citizens. It cannot exceed 30 days.",
+          "url": "https://www.ambacongo-us.org/en/consular-services/visa"
+        },
+        "extendable": {
+          "text": "If a business applicant plans on staying in the Republic of Congo for more than 30 days, he should extend his visa at the nearest Office of Immigration.",
+          "url": "https://www.ambacongo-us.org/en/consular-services/visa"
+        }
       }
     },
     {
@@ -1213,8 +1253,8 @@
       },
       "processing": null,
       "validityDays": 90,
-      "stayDays": 90,
-      "entries": "single",
+      "stayDays": null,
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://sgg.cg/JO/2023/congo-jo-2023-39.pdf",
@@ -1223,12 +1263,22 @@
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-03",
         "instrument": "Congo–Rwanda cooperation agreement of 24 November 2021 on visa exemption for diplomatic and service passports and free visas on arrival for ordinary passports, Article 1(1); ratified by Law No. 24-2023 of 15 September 2023"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Les citoyens d’une Partie détenteurs d’un passeport ordinaire bénéﬁ cient de la gratuite du visa à l’entrée du territoire des deux Parties, valide pour une période ne dépassant pas quatre-vingt-dix (90 jours).",
+          "url": "https://sgg.cg/JO/2023/congo-jo-2023-39.pdf"
+        },
+        "validityDays": {
+          "text": "Les citoyens d’une Partie détenteurs d’un passeport ordinaire bénéﬁ cient de la gratuite du visa à l’entrée du territoire des deux Parties, valide pour une période ne dépassant pas quatre-vingt-dix (90 jours).",
+          "url": "https://sgg.cg/JO/2023/congo-jo-2023-39.pdf"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
+      "rule": "other",
       "text": "The embassy in Paris requires a passport valid for at least 6 months after the date of travel, and the embassy in Washington one that remains valid for 6 months. Canada's travel advice says at least 6 months beyond the date you expect to leave.",
       "source": {
         "url": "https://www.ambacongo-us.org/en/consular-services/visa",
@@ -1480,7 +1530,7 @@
     {
       "id": "two-congos",
       "type": "info",
-      "text": "Do not confuse the Republic of the Congo (Brazzaville) with the Democratic Republic of the Congo (Kinshasa) across the river: they are separate countries, each with its own visa."
+      "text": "Do not confuse the Republic of the Congo (Brazzaville) with the Democratic Republic of the Congo (Kinshasa) across the river: they are separate countries."
     },
     {
       "id": "yellow-card",
@@ -1517,7 +1567,7 @@
     {
       "id": "congo-vs-drc",
       "question": "Is this the same country as the DRC?",
-      "answer": "No. The Republic of the Congo (capital Brazzaville) and the Democratic Republic of the Congo (capital Kinshasa) are different countries facing each other across the Congo River, each with its own visa. A visa for one is not valid for the other."
+      "answer": "No. The Republic of the Congo (capital Brazzaville) and the Democratic Republic of the Congo (capital Kinshasa) are different countries. The UK government lists the Democratic Republic of the Congo among the countries the Republic of the Congo shares land boundaries with, and its travel advice describes the river border crossing between Brazzaville and Kinshasa."
     },
     {
       "id": "yellow-fever",

@@ -1477,16 +1477,12 @@
       "fee": {
         "amount": 0,
         "currency": "USD",
-        "notes": "Australia's Smartraveller says the tourist visa on arrival is free; the UK Foreign Office and Canada say it is granted for 30 days. Maldives Immigration lists the conditions: confirmed return tickets, a prepaid confirmed booking at a registered facility and sufficient funds, or a sponsorship it has approved. Entry is not granted on Israeli passports."
+        "notes": "The Maldives' Permanent Mission to the UN says a free tourist visa of up to thirty days is issued on arrival. Maldives Immigration lists the entry requirements: a machine-readable passport with at least 1 month's validity, confirmed return journey tickets, a prepaid confirmed booking at a registered facility and sufficient funds for the stay, or a sponsorship it has approved. It says entry is not granted on Israeli passports."
       },
-      "processing": {
-        "minDays": 0,
-        "maxDays": 0,
-        "unit": "minutes"
-      },
+      "processing": null,
       "validityDays": null,
       "stayDays": 30,
-      "entries": "single",
+      "entries": null,
       "extendable": {
         "possible": true,
         "days": null
@@ -1496,14 +1492,40 @@
         "url": "https://un.mdvmission.gov.mv/index.php/en/consular/for-foreigners/entry-to-maldives",
         "name": "Permanent Mission of Maldives to the UN (Ministry of Foreign Affairs) — Entry to Maldives",
         "type": "government",
-        "lastVerified": "2026-10-03",
+        "lastVerified": "2026-10-09",
         "archiveUrl": "https://web.archive.org/web/20260312155756/http://un.mdvmission.gov.mv/index.php/en/consular/for-foreigners/entry-to-maldives",
         "unverifiable": {
           "lastAttempt": "2026-10-03",
           "reason": "blocked",
           "status": 403
         },
-        "lastChanged": "2026-10-03"
+        "lastChanged": "2026-10-09",
+        "alsoStatedOn": [
+          {
+            "url": "https://immigration.gov.mv/visa/tourist-visa/",
+            "name": "Maldives Immigration — Tourist Visa (on arrival): entry requirements",
+            "lastVerified": "2026-10-09"
+          },
+          {
+            "url": "https://immigration.gov.mv/news/8510",
+            "name": "Maldives Immigration — Tourist visa extension process simplified (24 April 2026)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "Up to thirty-day free visa is issued on arrival for all nationalities.",
+          "url": "https://un.mdvmission.gov.mv/index.php/en/consular/for-foreigners/entry-to-maldives"
+        },
+        "stayDays": {
+          "text": "Up to thirty-day free visa is issued on arrival for all nationalities.",
+          "url": "https://un.mdvmission.gov.mv/index.php/en/consular/for-foreigners/entry-to-maldives"
+        },
+        "extendable": {
+          "text": "Tourists can apply for visa extensions by logging into the IMUGA portal.",
+          "url": "https://immigration.gov.mv/news/8510"
+        }
       }
     },
     {
@@ -1513,24 +1535,26 @@
       "name": "Tourist Visa Extension",
       "fee": null,
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 2,
         "unit": "calendar-days"
       },
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": "https://imuga.immigration.gov.mv/",
       "source": {
         "url": "https://immigration.gov.mv/news/8510",
         "name": "Maldives Immigration — Tourist Visa Extension Process Simplified (24 April 2026)",
         "type": "government",
-        "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09"
+      },
+      "evidence": {
+        "processing": {
+          "text": "Processing times have been significantly reduced, with visa extension applications now expected to be completed within 48 hours.",
+          "url": "https://immigration.gov.mv/news/8510"
+        }
       }
     }
   ],
@@ -1569,16 +1593,17 @@
       }
     ],
     "travelInsurance": {
-      "required": false,
+      "required": null,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Travel insurance is not among the entry requirements that Maldives Immigration lists for tourists.",
+      "text": "No official source we could read states a travel-insurance requirement for the Maldives; the basic entry requirements Maldives Immigration lists for tourists do not include insurance.",
       "source": {
         "url": "https://immigration.gov.mv/visa/tourist-visa/",
         "name": "Maldives Immigration — Tourist Visa",
         "type": "government",
-        "lastVerified": "2026-10-04",
-        "archiveUrl": "https://web.archive.org/web/20260820024401/https://www.immigration.gov.mv/visa/tourist-visa"
+        "lastVerified": "2026-10-09",
+        "archiveUrl": "https://web.archive.org/web/20260820024401/https://www.immigration.gov.mv/visa/tourist-visa",
+        "lastChanged": "2026-10-09"
       }
     },
     "onwardTicket": {

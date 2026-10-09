@@ -17,7 +17,7 @@
     "thailand",
     "indonesia"
   ],
-  "summary": "Malaysia grants visa-free entry to most nationalities — for visits of less than a month for ASEAN neighbors except Myanmar, up to 30 days per entry for Chinese citizens (visa-free from 1 September 2026), and for social visits by Indian citizens (exemption until 31 December 2026) — and the Immigration Department requires foreign visitors, except Singapore citizens, diplomatic and official passport holders and some residents and border-pass holders, to complete the Malaysia Digital Arrival Card (MDAC), which Canada's travel advice says is free and can be filled in up to 3 days before arrival.",
+  "summary": "Malaysia's Immigration Department says an eVISA is compulsory for only 31 specific nationalities; Chinese citizens may enter visa-free for social visits of up to 30 days per entry from 1 September 2026, and Indian citizens are exempt from the visa for social visits until 31 December 2026. The Department requires foreign visitors, except Singapore citizens, diplomatic and official passport holders and some residents and border-pass holders, to complete the Malaysia Digital Arrival Card (MDAC), which Canada's travel advice says is free and can be filled in up to 3 days before arrival.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -2466,11 +2466,7 @@
       "category": "tourist",
       "method": "evisa",
       "name": "Malaysia eVisa — Single Entry (Tourist)",
-      "fee": {
-        "amount": 105,
-        "currency": "MYR",
-        "notes": "RM105 is the processing charge only. A visa fee that depends on nationality is added, and the portal does not publish it; a convenience charge of 0.8% (card) or 1.7% (Alipay, WeChat Pay) of the transaction also applies. Non-refundable."
-      },
+      "fee": null,
       "processing": {
         "minDays": 2,
         "maxDays": 7,
@@ -2479,10 +2475,6 @@
       "validityDays": null,
       "stayDays": 30,
       "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
       "applyUrl": "https://malaysiavisa.imi.gov.my/",
       "source": {
         "url": "https://malaysiavisa.imi.gov.my/faq",
@@ -2547,18 +2539,39 @@
             }
           ]
         }
+      },
+      "evidence": {
+        "processing": {
+          "text": "It takes 2 - 7 working days to process.",
+          "url": "https://malaysiavisa.imi.gov.my/faq"
+        },
+        "stayDays": {
+          "text": "Applicants who apply for a visa will be entitled to stay in Malaysia for up to 30 days.",
+          "url": "https://malaysiavisa.imi.gov.my/faq"
+        },
+        "entries": {
+          "text": "An eVISA offers a Single Entry Visa (SEV) for a single journey to Malaysia",
+          "url": "https://malaysiavisa.imi.gov.my/faq"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
       "rule": "6-months-on-arrival",
-      "text": "Your passport must be valid for at least 6 months on the date of entry into Malaysia.",
+      "text": "Malaysia's Immigration Department says travel documents must be valid for six months or more from the date of entry into Malaysia.",
       "source": {
         "url": "https://malaysiavisa.imi.gov.my/faq",
         "name": "Malaysia eVisa — official portal, FAQ (Immigration Department of Malaysia)",
         "type": "government",
-        "lastVerified": "2026-10-03"
+        "lastVerified": "2026-10-03",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.imi.gov.my/wp-content/uploads/2023/02/2023-CR-Portal-JIM-24022023-BI.pdf",
+            "name": "Immigration Department of Malaysia — Entry requirements for foreign visitors (2023)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       }
     },
     "blankPages": {
@@ -2603,7 +2616,7 @@
     "onwardTicket": {
       "required": true,
       "appliesTo": "all",
-      "text": "Every visitor must hold a confirmed return ticket to their home country or a ticket onward to another country.",
+      "text": "Malaysia's Immigration Department says every visitor is required to have a fixed return ticket to their home country or to another country.",
       "source": {
         "url": "https://www.imi.gov.my/wp-content/uploads/2023/02/2023-CR-Portal-JIM-24022023-BI.pdf",
         "name": "Immigration Department of Malaysia — Entry requirements into Malaysia (PDF, item 1.3)",
@@ -2616,7 +2629,7 @@
       "required": true,
       "appliesTo": "all",
       "amount": null,
-      "text": "Every visitor must be able to prove they can support themselves financially during the stay in Malaysia; the Immigration Department's entry requirements name no amount.",
+      "text": "Malaysia's Immigration Department says every visitor is required to prove their financial ability while in Malaysia; it names no amount.",
       "source": {
         "url": "https://www.imi.gov.my/wp-content/uploads/2023/02/2023-CR-Portal-JIM-24022023-BI.pdf",
         "name": "Immigration Department of Malaysia — Entry requirements into Malaysia (PDF, item 1.3)",
@@ -2852,7 +2865,7 @@
     {
       "id": "evisa-cost",
       "question": "How much does a Malaysia eVisa cost?",
-      "answer": "For the nationalities that need one (including Pakistani and Nigerian citizens), the eVisa costs a RM105 processing charge plus a visa fee that depends on nationality and a convenience charge of 0.8% (card) or 1.7% (Alipay, WeChat Pay). The official portal malaysiavisa.imi.gov.my says processing takes 2 to 7 working days."
+      "answer": "No official page we could read states the eVisa fee: the portal shows it only during the application. The MyVISA FAQ says the eVISA is compulsory for 31 specific nationalities and that processing takes 2 to 7 working days."
     },
     {
       "id": "best-time",

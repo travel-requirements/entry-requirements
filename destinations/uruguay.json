@@ -16,7 +16,7 @@
     "chile",
     "paraguay"
   ],
-  "summary": "Citizens of the EU, the United Kingdom, the United States, Canada, most of Latin America and a long list of other countries enter Uruguay visa-free for up to 90 days, and the stay can be extended with the Dirección Nacional de Migración; other nationalities need a visa from a Uruguayan consulate.",
+  "summary": "Uruguay's Dirección Nacional de Migración lists, nationality by nationality, who needs a visa. Citizens of the EU, the United Kingdom, the United States, Canada and many other countries enter visa-free for up to 90 days, and the stay can be extended with the Dirección Nacional de Migración; nationalities that need a visa apply at a Uruguayan consulate.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -1492,7 +1492,7 @@
       "id": "tourist-embassy",
       "category": "tourist",
       "method": "embassy",
-      "name": "Uruguayan tourist visa",
+      "name": "Uruguayan visa (consulate)",
       "fee": {
         "amount": 42,
         "currency": "USD",
@@ -1501,7 +1501,7 @@
       "processing": null,
       "validityDays": 60,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "extendable": {
         "possible": true,
         "days": null
@@ -1512,34 +1512,28 @@
         "name": "Ministerio de Relaciones Exteriores — Inicio de solicitud de visas (gub.uy)",
         "type": "government",
         "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-07"
-      }
-    },
-    {
-      "id": "business-visa",
-      "category": "business",
-      "method": "embassy",
-      "name": "Business visa",
-      "fee": {
-        "amount": 42,
-        "currency": "USD",
-        "notes": "3 consular pesos (USD 42), the visa fee the Foreign Ministry publishes, charged only if the visa is granted. The application asks for an invitation letter or hotel booking and proof of funds."
+        "lastChanged": "2026-10-07",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gub.uy/tramites/prorroga-permanencia-temporaria",
+            "name": "Dirección Nacional de Migración — Prórroga de permanencia temporaria (extension of stay for foreigners in a regular migration situation)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       },
-      "processing": null,
-      "validityDays": 60,
-      "stayDays": null,
-      "entries": "multiple",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
-      "applyUrl": null,
-      "source": {
-        "url": "https://www.gub.uy/tramites/inicio-solicitud-visas",
-        "name": "Ministerio de Relaciones Exteriores — Inicio de solicitud de visas (gub.uy)",
-        "type": "government",
-        "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-07"
+      "evidence": {
+        "fee": {
+          "text": "3 pesos consulares = 42 USD (únicamente si la visa es otorgada).",
+          "url": "https://www.gub.uy/tramites/inicio-solicitud-visas"
+        },
+        "validityDays": {
+          "text": "Una vez que se estampa en su pasaporte, el interesado dispone de 60 días más para ingresar al país.",
+          "url": "https://www.gub.uy/tramites/inicio-solicitud-visas"
+        },
+        "extendable": {
+          "text": "Es el trámite por el cual se autoriza la prórroga de la permanencia en el País y se otorga a las personas extranjeras que se encuentran en una situación migratoria regular, con su plazo de permanencia vigente y acorde a la categoría prevista en la Ley N° 18.250.",
+          "url": "https://www.gub.uy/tramites/prorroga-permanencia-temporaria"
+        }
       }
     },
     {
@@ -1551,11 +1545,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": "https://www.gub.uy/ministerio-interior/direccion-nacional-migracion",
       "source": {
         "url": "https://www.gub.uy/tramites/prorroga-permanencia-temporaria",
@@ -1799,7 +1789,7 @@
     {
       "id": "do-i-need-visa",
       "question": "Do I need a visa for Uruguay?",
-      "answer": "Uruguay waives visas for a broad list of nationalities — including the EU, the United Kingdom, Switzerland, the United States, Canada, Australia, New Zealand, Japan, South Korea, Israel, Russia and most of Latin America and the Caribbean — for tourist stays of up to 90 days. Everyone else applies for a visa at a Uruguayan consulate."
+      "answer": "It depends on your nationality; the Dirección Nacional de Migración publishes the list. Citizens of the EU, the United Kingdom, Switzerland, the United States, Canada, Australia, New Zealand, Japan, South Korea, Israel, Russia, Argentina, Brazil and Chile, among others, need no visa for tourist stays of up to 90 days. Nationalities that need a visa apply at a Uruguayan consulate."
     },
     {
       "id": "how-long-stay",

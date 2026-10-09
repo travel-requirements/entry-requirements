@@ -2702,15 +2702,15 @@
         "notes": "€60 for single entry, €100 for multiple entry; some nationalities and categories are fee-exempt. Apply online via the AVATS system, then submit your passport and documents as instructed. Expect a decision within approximately 8 weeks of the application reaching the visa office, embassy or consulate."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 56,
         "unit": "calendar-days"
       },
-      "validityDays": 90,
+      "validityDays": null,
       "stayDays": 90,
-      "entries": "single",
+      "entries": null,
       "extendable": {
-        "possible": false,
+        "possible": true,
         "days": null
       },
       "applyUrl": "https://www.visas.inis.gov.ie/avats/OnlineHome.aspx",
@@ -2726,6 +2726,24 @@
             "lastVerified": "2026-10-07"
           }
         ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "Single entry: €60 Multi entry: €100 Transit: €25",
+          "url": "https://www.irishimmigration.ie/preclearance-and-entry-visas-fees/"
+        },
+        "processing": {
+          "text": "applicants can expect a decision within approximately 8 weeks from the date their application was received at the visa office, embassy or consulate.",
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/how-to-apply-for-a-short-stay-c-visit-tourist-visa/"
+        },
+        "stayDays": {
+          "text": "A short stay or ‘C’ visa allows you travel to Ireland for up to 90 days while you:",
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/how-to-apply-for-a-short-stay-c-visit-tourist-visa/"
+        },
+        "extendable": {
+          "text": "In rare and exceptional circumstances, you may apply to extend your permission to stay in Ireland",
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/how-to-apply-for-a-short-stay-c-visit-tourist-visa/"
+        }
       }
     }
   ],
@@ -2734,7 +2752,7 @@
       "rule": "other",
       "text": "If you need a visa for Ireland, your passport must be valid for at least 6 months after the date you plan to leave Ireland. No official source we could read states a validity rule for visa-exempt travellers.",
       "source": {
-        "url": "https://www.irishimmigration.ie/how-to-apply-for-a-short-stay-c-visit-tourist-visa/",
+        "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/how-to-apply-for-a-short-stay-c-visit-tourist-visa/",
         "name": "Immigration Service Delivery — How to apply for a short stay 'C' visit (tourist) visa",
         "type": "government",
         "lastVerified": "2026-10-02",
@@ -2756,9 +2774,9 @@
       }
     },
     "onwardTicket": {
-      "required": false,
+      "required": null,
       "appliesTo": null,
-      "text": "Not among the documents the Irish Immigration Service says you must present (passport, visa if needed, boarding card). It lists a travel itinerary, proof of sufficient funds, proof of health insurance and accommodation details among other useful documents an officer may ask about.",
+      "text": "No official source we could read states an onward or return ticket requirement for Ireland. The Immigration Service lists the passport, a visa if necessary and the boarding card as the minimum documents to present to the immigration officer, and a travel itinerary among other useful documents.",
       "source": {
         "url": "https://www.irishimmigration.ie/at-the-border/entry-for-non-eu-non-eea-non-swiss-and-non-uk-nationals/",
         "name": "Irish Immigration Service — Entry for non-EU/EEA/Swiss/UK nationals",
@@ -2771,7 +2789,7 @@
       "required": null,
       "appliesTo": null,
       "amount": null,
-      "text": "No official source we could read states an amount. The Immigration Service lists proof of sufficient funds among the useful documents an immigration officer may ask about.",
+      "text": "No official source we could read states a proof-of-funds requirement or an amount. The Immigration Service lists proof of sufficient funds among other useful documents to present to the immigration officer.",
       "source": {
         "url": "https://www.irishimmigration.ie/at-the-border/entry-for-non-eu-non-eea-non-swiss-and-non-uk-nationals/",
         "name": "Irish Immigration Service — Entry for non-EU/EEA/Swiss/UK nationals",

@@ -18,7 +18,7 @@
     "egypt",
     "morocco"
   ],
-  "summary": "All visitors to Kenya, including infants and children, need an approved Electronic Travel Authorisation (eTA) from etakenya.go.ke before the journey (from USD 30), unless exempt: citizens of the East African Community partner states (up to 180 days) and of the countries listed in the Kenya Citizenship and Immigration (Amendment) Rules, 2025 for 90 or 60 days, among them most African countries, including South Africa, many Caribbean and Pacific island states, and Singapore, Malaysia and Cyprus. Every traveller must also hold Inbound Travel Health Insurance issued under Kenya's Insurance Regulatory Authority (Ministry of Health, Gazette Notice No. 11492 of 30 July 2026).",
+  "summary": "All visitors to Kenya, including infants and children, need an approved Electronic Travel Authorisation (eTA) from etakenya.go.ke before the journey (from USD 30), unless exempt: citizens of the East African Community partner states (up to 180 days) and nationals of the countries listed in the Kenya Citizenship and Immigration (Amendment) Rules, 2025 for 90 or 60 days, among them South Africa, Ghana, Nigeria, Jamaica, Fiji, Singapore, Malaysia and Cyprus. Every traveller must also hold Inbound Travel Health Insurance issued under Kenya's Insurance Regulatory Authority (Ministry of Health, Gazette Notice No. 11492 of 30 July 2026).",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -1599,7 +1599,7 @@
         "notes": "From USD 30 for normal processing (up to 72 hours); expedited, immediate processing costs USD 100 more. The standard eTA allows one entry; the portal also lists a one-year multiple-entry eTA (USD 300), a five-year multiple-entry eTA for US citizens (USD 185) and a transit eTA (USD 20). Travellers who are not exempt need one, including infants and children."
       },
       "processing": {
-        "minDays": 1,
+        "minDays": null,
         "maxDays": 3,
         "unit": "business-days"
       },
@@ -1672,13 +1672,27 @@
           "lastChanged": "2026-10-07",
           "portalOnly": true
         }
+      },
+      "evidence": {
+        "fee": {
+          "text": "Fees vary depending on the type of travel application selected with normal (processing may take up to 72 hours) starting at $30 and expedited (immediate processing) at an addition $100.",
+          "url": "https://etakenya.go.ke/faqs"
+        },
+        "processing": {
+          "text": "Applications are generally processed within three (3) business days/72 hours but may take longer depending on the verification processes.",
+          "url": "https://etakenya.go.ke/faqs"
+        },
+        "entries": {
+          "text": "Standard eTA Allows entry into Kenya once $30",
+          "url": "https://etakenya.go.ke/eligibility"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
-      "text": "Your passport must have at least 6 months' validity and at least one blank page.",
+      "rule": "other",
+      "text": "The eTA portal lists a valid passport with a minimum of 6 months' validity and at least one blank page among the documents needed to apply.",
       "source": {
         "url": "https://etakenya.go.ke/how-to-apply",
         "name": "How to Apply · Kenya Electronic Travel Authorization (eTA)",
@@ -1742,9 +1756,9 @@
       }
     },
     "onwardTicket": {
-      "required": true,
-      "appliesTo": "all",
-      "text": "The eTA application asks for your travel itinerary (arrival and departure) and an accommodation booking confirmation.",
+      "required": null,
+      "appliesTo": null,
+      "text": "No official source we could read states an onward or return ticket requirement for Kenya. The eTA portal lists a travel itinerary (arrival and departure) and an accommodation booking confirmation among the documents an application typically includes.",
       "source": {
         "url": "https://etakenya.go.ke/how-to-apply",
         "name": "Kenya Directorate of Immigration Services — eTA: How to Apply",
@@ -1933,7 +1947,7 @@
     {
       "id": "eta-vs-visa",
       "question": "Is the Kenya eTA the same as a visa?",
-      "answer": "The eTA portal says the eTA replaces traditional visa requirements for most travellers. It is a permission to travel, applied for online at etakenya.go.ke before entering Kenya and costing from USD 30, and holding one is not the final authority to enter: admissibility is decided at the point of entry. Citizens of the East African Community partner states and of the countries listed in the Kenya Citizenship and Immigration (Amendment) Rules, 2025, including most African countries, Singapore, Malaysia and Cyprus, are exempt."
+      "answer": "The eTA portal says the eTA replaces traditional visa requirements for most travellers. It is a permission to travel, applied for online at etakenya.go.ke before entering Kenya and costing from USD 30, and holding one is not the final authority to enter: admissibility is decided at the point of entry. Citizens of the East African Community partner states and nationals of the countries listed in the Kenya Citizenship and Immigration (Amendment) Rules, 2025, among them South Africa, Ghana, Nigeria, Singapore, Malaysia and Cyprus, are exempt."
     },
     {
       "id": "how-early-eta",
@@ -1943,7 +1957,7 @@
     {
       "id": "yellow-fever-needed",
       "question": "Do I need a yellow fever certificate for Kenya?",
-      "answer": "It is required only if you are aged 1 year or over and arrive from a country with risk of yellow fever transmission. WHO recommends vaccination for travellers aged 9 months or over, except those staying only in certain areas, including the cities of Nairobi and Mombasa. The Government of Canada adds that Kenyan authorities regularly carry out spot checks for proof of yellow fever vaccination, and advises carrying a copy at all times."
+      "answer": "WHO's country list gives a certificate requirement only for travellers aged 1 year or over arriving from a country with risk of yellow fever transmission. WHO recommends vaccination for travellers aged 9 months or over, except those staying only in certain areas, including the cities of Nairobi and Mombasa. The Government of Canada adds that Kenyan authorities regularly carry out spot checks for proof of yellow fever vaccination, and advises carrying a copy at all times."
     },
     {
       "id": "safari-season",

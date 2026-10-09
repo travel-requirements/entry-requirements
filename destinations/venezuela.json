@@ -17,7 +17,7 @@
     "guyana",
     "peru"
   ],
-  "summary": "Venezuela admits citizens of the EU, the United Kingdom, Mexico and most of South America visa-free when they arrive by air, while everyone else, United States passport holders included, needs a tourist visa, which the Foreign Ministry now also issues electronically. The United Kingdom advises against all but essential travel and the United States says to reconsider travel, with both warning against any travel to the border regions.",
+  "summary": "Venezuela admits citizens of the countries on the Foreign Ministry's tourist visa exemption list — including the EU, the United Kingdom, Mexico, Argentina, Bolivia, Brazil, Colombia, Ecuador, Paraguay and Uruguay — visa-free when they arrive by air, while everyone else, United States passport holders included, needs a tourist visa, which the Foreign Ministry now also issues electronically. The United Kingdom advises against all but essential travel and the United States says to reconsider travel, with both warning against any travel to the border regions.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -3581,7 +3581,14 @@
         "name": "MPPRE — Requisitos Visa Electrónica (requirements for electronic visas, linked from mppre.gob.ve)",
         "type": "government",
         "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastChanged": "2026-10-03",
+        "alsoStatedOn": [
+          {
+            "url": "https://mppre.gob.ve/descripcion/28",
+            "name": "MPPRE — Visa descriptions (tourist visa: one-year validity, multiple entries, up to 90 days)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       },
       "documents": {
         "items": [
@@ -3635,6 +3642,12 @@
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07"
         }
+      },
+      "evidence": {
+        "entries": {
+          "text": "El visado de turista se otorgará con una vigencia de un (1) año, múltiples entradas y permitirá permanecer en el país por un período de hasta noventa (90) días.",
+          "url": "https://mppre.gob.ve/descripcion/28"
+        }
       }
     },
     {
@@ -3658,6 +3671,24 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "validityDays": {
+          "text": "El visado de turista se otorgará con una vigencia de un (1) año, múltiples entradas y permitirá permanecer en el país por un período de hasta noventa (90) días.",
+          "url": "https://mppre.gob.ve/descripcion/28"
+        },
+        "stayDays": {
+          "text": "El visado de turista se otorgará con una vigencia de un (1) año, múltiples entradas y permitirá permanecer en el país por un período de hasta noventa (90) días.",
+          "url": "https://mppre.gob.ve/descripcion/28"
+        },
+        "entries": {
+          "text": "El visado de turista se otorgará con una vigencia de un (1) año, múltiples entradas y permitirá permanecer en el país por un período de hasta noventa (90) días.",
+          "url": "https://mppre.gob.ve/descripcion/28"
+        },
+        "extendable": {
+          "text": "Agotado dicho término no habrá prórroga para permanecer en el país.",
+          "url": "https://mppre.gob.ve/descripcion/28"
+        }
       }
     },
     {
@@ -3689,10 +3720,6 @@
       "validityDays": null,
       "stayDays": 3,
       "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
       "applyUrl": null,
       "source": {
         "url": "https://mppre.gob.ve/descripcion/29",
@@ -3700,19 +3727,36 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "stayDays": {
+          "text": "El visado de viajero de tránsito se otorgará por setenta y dos (72) horas, una sola entrada",
+          "url": "https://mppre.gob.ve/descripcion/29"
+        },
+        "entries": {
+          "text": "El visado de viajero de tránsito se otorgará por setenta y dos (72) horas, una sola entrada",
+          "url": "https://mppre.gob.ve/descripcion/29"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
       "rule": "6-months-beyond-stay",
-      "text": "Your passport must be valid for at least 6 months after the date you plan to leave Venezuela; visa applications also need 6 months' validity.",
+      "text": "The UK government says your passport must be valid for at least 6 months after the date you plan to leave Venezuela. Venezuela's Foreign Ministry lists a passport with at least six months' validity as mandatory for a visa application.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/venezuela/entry-requirements",
         "name": "UK FCDO — Venezuela entry requirements",
         "type": "government",
         "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastChanged": "2026-10-03",
+        "alsoStatedOn": [
+          {
+            "url": "https://mppre.gob.ve/requisitos-visa-electronica",
+            "name": "MPPRE — Requisitos visa de turista (PDF)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       }
     },
     "vaccinations": [
@@ -3746,10 +3790,10 @@
       }
     ],
     "travelInsurance": {
-      "required": false,
+      "required": null,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Insurance is not an entry requirement, but the US State Department highly recommends it, including medical evacuation cover: hospitals are short of medical staff, medicines and equipment.",
+      "text": "No official source we could read states a travel insurance requirement for Venezuela. The US State Department highly recommends buying travel insurance and says to make sure it includes medical evacuation coverage; it says the healthcare system is recovering from a severe crisis, with critical shortages of medicines and broken equipment.",
       "source": {
         "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/venezuela-travel-advisory.html",
         "name": "U.S. Department of State — Venezuela Travel Advisory",
@@ -3777,16 +3821,23 @@
       }
     },
     "proofOfFunds": {
-      "required": null,
-      "appliesTo": null,
+      "required": true,
+      "appliesTo": "visa-applicants",
       "amount": null,
-      "text": "No official source we could read states a funds requirement or amount for Venezuela. Canada's travel advice says customs officials may ask you to show a return or onward ticket and proof of sufficient funds to cover your stay.",
+      "text": "Venezuela's Foreign Ministry lists proof of economic solvency (a bank statement) as mandatory for a tourist visa application; it publishes no amount. Canada's travel advice says customs officials may ask you to show a return or onward ticket and proof of sufficient funds to cover your stay.",
       "source": {
-        "url": "https://travel.gc.ca/destinations/venezuela",
-        "name": "Government of Canada — Travel advice and advisories: Venezuela",
+        "url": "https://mppre.gob.ve/requisitos-visa-electronica",
+        "name": "MPPRE — Requisitos visa de turista (PDF)",
         "type": "government",
-        "lastVerified": "2026-10-04",
-        "lastChanged": "2026-10-04"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09",
+        "alsoStatedOn": [
+          {
+            "url": "https://travel.gc.ca/destinations/venezuela",
+            "name": "Government of Canada — Travel advice and advisories: Venezuela",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       }
     },
     "declarations": [],
@@ -3957,7 +4008,7 @@
     {
       "id": "do-i-need-visa",
       "question": "Do I need a visa for Venezuela?",
-      "answer": "It depends on your passport. Citizens of the EU and EEA, the United Kingdom, Switzerland, Mexico and most South American countries enter visa-free for tourism when they arrive by air. Canadian and United States passport holders need a visa, as does everyone not on the Foreign Ministry's exemption list — including Chile, Peru, Panama, Cuba and the Dominican Republic. Apply online through the Foreign Ministry's Cancillería Digital portal, where the approved visa is downloaded, electronically signed."
+      "answer": "It depends on your passport. Citizens of the EU and EEA, the United Kingdom, Switzerland, Mexico, Argentina, Bolivia, Brazil, Colombia, Ecuador, Paraguay and Uruguay enter visa-free for tourism when they arrive by air. Canadian and United States passport holders need a visa, as does everyone not on the Foreign Ministry's exemption list — including Chile, Peru, Panama, Cuba and the Dominican Republic. Apply online through the Foreign Ministry's Cancillería Digital portal, where the approved visa is downloaded, electronically signed."
     },
     {
       "id": "us-citizens",

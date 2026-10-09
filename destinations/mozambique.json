@@ -20,7 +20,7 @@
     "zambia",
     "south-africa"
   ],
-  "summary": "Mozambique's official eVisa portal sorts visitors into four groups: 17 nationalities, mostly from southern and eastern Africa, are visa-exempt for 30 or 90 days; 29 others, including the US, the UK, Canada, Japan and much of Western Europe, need an Electronic Travel Authorisation (eTA) for stays of up to 30 days; citizens of Pakistan, Bangladesh, Ethiopia, Nigeria, Nepal and Somalia must apply at an embassy; and everyone else applies online for an eVisa before travel.",
+  "summary": "Mozambique's official eVisa portal sorts visitors into four groups: some nationalities are visa-exempt for 30 or 90 days; others, including the US, the UK, Canada, Japan, Germany, France and Italy, need an Electronic Travel Authorisation (eTA) for stays of up to 30 days; citizens of Pakistan, Bangladesh, Ethiopia, Nigeria, Nepal and Somalia must apply at an embassy; and everyone else applies online for an eVisa before travel.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -2237,11 +2237,7 @@
       "method": "evisa",
       "name": "Mozambique Tourist eVisa",
       "fee": null,
-      "processing": {
-        "minDays": 3,
-        "maxDays": 5,
-        "unit": "business-days"
-      },
+      "processing": null,
       "validityDays": 60,
       "stayDays": 90,
       "entries": "multiple",
@@ -2257,6 +2253,24 @@
         "lastVerified": "2026-10-05",
         "archiveUrl": "https://web.archive.org/web/20260828100643/https://evisa.gov.mz/tourist-visa.html",
         "lastChanged": "2026-10-05"
+      },
+      "evidence": {
+        "validityDays": {
+          "text": "The validity period of your eVisa is 2 months",
+          "url": "https://evisa.gov.mz/tourist-visa.html"
+        },
+        "stayDays": {
+          "text": "You can enter the country as per the duration of the visa 30, 60 or 90 days.",
+          "url": "https://evisa.gov.mz/tourist-visa.html"
+        },
+        "entries": {
+          "text": "The visa issued will be of multiple-entry type, determined based on the applicant's travel itinerary.",
+          "url": "https://evisa.gov.mz/tourist-visa.html"
+        },
+        "extendable": {
+          "text": "If you need to extend your stay, you must contact the Mozambique Embassy directly.",
+          "url": "https://evisa.gov.mz/tourist-visa.html"
+        }
       },
       "documents": {
         "items": [
@@ -2319,7 +2333,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": 30,
-      "entries": null,
+      "entries": "multiple",
       "applyUrl": "https://evisa.gov.mz/",
       "source": {
         "url": "https://mozambiquehighcommission.org.uk/files/br_63_i_serie_2023-2%5B1%5D.pdf",
@@ -2328,6 +2342,24 @@
         "lastVerified": "2026-10-09",
         "instrument": "Decreto n.º 10/2023, de 31 de Março, arts. 2 and 4 (30-day stay, extendable by 30 days; pre-registration on www.evisa.gov.mz at least 48 hours before boarding, MZN 650 processing fee)",
         "lastChanged": "2026-10-05"
+      },
+      "evidence": {
+        "stayDays": {
+          "text": "A isenção de visto de entrada permite aos cidadãos abrangidos pelo presente Decreto múltiplas entradas no território nacional por um período de estadia de 30 dias, a contar da data da primeira entrada.",
+          "url": "https://mozambiquehighcommission.org.uk/files/br_63_i_serie_2023-2%5B1%5D.pdf"
+        },
+        "entries": {
+          "text": "A isenção de visto de entrada permite aos cidadãos abrangidos pelo presente Decreto múltiplas entradas no território nacional por um período de estadia de 30 dias, a contar da data da primeira entrada.",
+          "url": "https://mozambiquehighcommission.org.uk/files/br_63_i_serie_2023-2%5B1%5D.pdf"
+        },
+        "extendable": {
+          "text": "O período de estadia referido no número anterior pode ser estendido por mais 30 dias, mediante fundamentação",
+          "url": "https://mozambiquehighcommission.org.uk/files/br_63_i_serie_2023-2%5B1%5D.pdf"
+        }
+      },
+      "extendable": {
+        "possible": true,
+        "days": 30
       }
     },
     {
@@ -2339,7 +2371,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": 30,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://travel.gc.ca/destinations/mozambique",
@@ -2347,6 +2379,12 @@
         "type": "government",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "stayDays": {
+          "text": "You may request one extension of 30 days from immigration authorities.",
+          "url": "https://travel.gc.ca/destinations/mozambique"
+        }
       }
     },
     {
@@ -2376,7 +2414,7 @@
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
+      "rule": "other",
       "text": "Your passport must be valid for at least 6 months. The UK Foreign Office says you also need at least 2 blank pages for entry stamps.",
       "source": {
         "url": "https://evisa.gov.mz/tourist-visa.html",
@@ -2425,8 +2463,8 @@
       }
     },
     "onwardTicket": {
-      "required": false,
-      "appliesTo": null,
+      "required": true,
+      "appliesTo": "all",
       "text": "Decree 10/2023 requires the citizens it exempts from the visa to hold a return air ticket (not required when travelling by land) and proof of accommodation. The eVisa portal lists confirmed return tickets among the documents for a tourist eVisa application.",
       "source": {
         "url": "https://mozambiquehighcommission.org.uk/files/br_63_i_serie_2023-2%5B1%5D.pdf",
@@ -2437,8 +2475,8 @@
       }
     },
     "proofOfFunds": {
-      "required": null,
-      "appliesTo": null,
+      "required": true,
+      "appliesTo": "visa-applicants",
       "amount": null,
       "text": "The eVisa portal lists proof of financial means, such as bank statements, among the documents for a tourist eVisa application. No official source we could read states an amount.",
       "source": {
@@ -2620,12 +2658,12 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Mozambique?",
-      "answer": "It depends on your passport. Mozambique's official eVisa portal (evisa.gov.mz) lists 17 nationalities, mostly from southern and eastern Africa, as visa-exempt for 30 or 90 days. Citizens of 29 countries, including the US, the UK, Canada, Portugal and most of Western Europe, need an Electronic Travel Authorisation (eTA) before travel, for stays of up to 30 days. Citizens of Pakistan, Bangladesh, Ethiopia, Nigeria, Nepal and Somalia cannot use the portal and must apply at a Mozambican embassy. Everyone else applies online for an eVisa before travelling."
+      "answer": "It depends on your passport. Mozambique's official eVisa portal (evisa.gov.mz) lists some nationalities as visa-exempt for 30 or 90 days. Citizens of other countries, including the US, the UK, Canada, Portugal, Germany and France, need an Electronic Travel Authorisation (eTA) before travel, for stays of up to 30 days. Citizens of Pakistan, Bangladesh, Ethiopia, Nigeria, Nepal and Somalia cannot use the portal and must apply at a Mozambican embassy. Everyone else applies online for an eVisa before travelling."
     },
     {
       "id": "border-fee",
       "question": "Is there a fee for the eTA?",
-      "answer": "Decree 10/2023, which exempted citizens of 29 countries from the visa, sets a MZN 650 processing fee, payable when pre-registering at evisa.gov.mz at least 48 hours before boarding; the portal now lists these countries under the eTA scheme. The UK Foreign Office says British travellers also pay a USD 37 visa fee (about USD 47 in total), online. The portal itself does not publish the eTA fee."
+      "answer": "Decree 10/2023, which exempted citizens of the countries it lists from the visa, sets a MZN 650 processing fee, payable when pre-registering at evisa.gov.mz at least 48 hours before boarding; the portal now lists these countries under the eTA scheme. The UK Foreign Office says British travellers also pay a USD 37 visa fee (about USD 47 in total), online. The portal itself does not publish the eTA fee."
     },
     {
       "id": "visa-on-arrival",

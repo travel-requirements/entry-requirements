@@ -13,7 +13,7 @@
     "singapore",
     "thailand"
   ],
-  "summary": "Australia requires almost every visitor to hold some form of authorization before boarding: holders of the European passports Home Affairs lists apply for the free eVisitor (subclass 651), passport holders from the US, Canada, Japan and other ETA countries use the Australian ETA app (subclass 601, AUD 20 service charge), and everyone else applies online for a Visitor visa (subclass 600). New Zealanders are the exception: they apply for a free Special Category Visa (subclass 444), usually each time they enter, which can be processed on arrival.",
+  "summary": "Holders of the European passports Home Affairs lists may be eligible for the free eVisitor (subclass 651); holders of an ETA-eligible passport, including those of the US, Canada and Japan, apply for the Electronic Travel Authority (subclass 601) through the Australian ETA app (AUD 20 service charge); other visitors can apply online for a Visitor visa (subclass 600). New Zealand citizens apply for a free Special Category Visa (subclass 444), usually each time they enter Australia; an application made on arrival is processed at the airport or seaport.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-25",
@@ -4944,11 +4944,7 @@
         "currency": "AUD",
         "notes": "Free. Home Affairs says European passport holders may be eligible; you must apply from outside Australia."
       },
-      "processing": {
-        "minDays": 0,
-        "maxDays": 1,
-        "unit": "calendar-days"
-      },
+      "processing": null,
       "validityDays": 365,
       "stayDays": 90,
       "entries": "multiple",
@@ -4963,6 +4959,28 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "archiveUrl": "https://web.archive.org/web/20260730202258/https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/evisitor-651"
+      },
+      "evidence": {
+        "fee": {
+          "text": "The eVisitor is free.",
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/evisitor-651"
+        },
+        "validityDays": {
+          "text": "The eVisitor visa is valid for travel to Australia for 12 months, starting from the date it is granted.",
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/evisitor-651"
+        },
+        "stayDays": {
+          "text": "You can stay in Australia for 3 months after each entry.",
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/evisitor-651"
+        },
+        "entries": {
+          "text": "The visa has multiple entry. You can leave and re-enter Australia as many times as you want while it is valid.",
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/evisitor-651"
+        },
+        "extendable": {
+          "text": "You can't stay in Australia longer by extending this visa.",
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/evisitor-651"
+        }
       }
     },
     {
@@ -4973,13 +4991,9 @@
       "fee": {
         "amount": 20,
         "currency": "AUD",
-        "notes": "AUD 20 service charge to use the Australian ETA app, with no other charge; holders of an ETA-eligible passport must apply through the app. Eligible passports include the US, Canada, Japan, South Korea, the UK, Ireland and several others."
+        "notes": "AUD 20 service charge to use the Australian ETA app, with no other charge; holders of an ETA-eligible passport must apply through the app."
       },
-      "processing": {
-        "minDays": 0,
-        "maxDays": 1,
-        "unit": "calendar-days"
-      },
+      "processing": null,
       "validityDays": 365,
       "stayDays": 90,
       "entries": "multiple",
@@ -4994,6 +5008,28 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "archiveUrl": "https://web.archive.org/web/20260826065703/https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601"
+      },
+      "evidence": {
+        "fee": {
+          "text": "There is a service charge of AUD20 to use the Australian ETA app. There is no other charge payable for an ETA.",
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601"
+        },
+        "validityDays": {
+          "text": "It is valid for travel to Australia for either 12 months, or for the period your passport is valid, whichever is shorter.",
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601"
+        },
+        "stayDays": {
+          "text": "You can remain in Australia for 3 months after each entry.",
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601"
+        },
+        "entries": {
+          "text": "The visa is granted with multiple entry.",
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601"
+        },
+        "extendable": {
+          "text": "You can't stay in Australia longer by extending this visa.",
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601"
+        }
       }
     },
     {
@@ -5006,16 +5042,12 @@
         "currency": "AUD",
         "notes": "Tourist stream, applied for from outside Australia; from AUD 250 (concessions apply in limited circumstances). Home Affairs may grant a stay of 3, 6 or 12 months."
       },
-      "processing": {
-        "minDays": 7,
-        "maxDays": 33,
-        "unit": "calendar-days"
-      },
-      "validityDays": 365,
+      "processing": null,
+      "validityDays": null,
       "stayDays": 365,
-      "entries": "multiple",
+      "entries": null,
       "extendable": {
-        "possible": true,
+        "possible": false,
         "days": null
       },
       "applyUrl": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
@@ -5025,7 +5057,14 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "archiveUrl": "https://web.archive.org/web/20260613180402/https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/",
-        "lastChanged": "2026-10-03"
+        "lastChanged": "2026-10-03",
+        "alsoStatedOn": [
+          {
+            "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas",
+            "name": "Department of Home Affairs — Visitor visa (subclass 600), Tourist stream (apply outside Australia)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       },
       "documents": {
         "items": [
@@ -5073,6 +5112,20 @@
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07"
         }
+      },
+      "evidence": {
+        "fee": {
+          "text": "This visa costs from AUD250.00 for each applicant (concessions apply in limited circumstances).",
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas"
+        },
+        "stayDays": {
+          "text": "Generally, we grant a stay period of 3 months. We might grant a stay of up to 12 months in certain circumstances.",
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas"
+        },
+        "extendable": {
+          "text": "You can't stay in Australia longer by extending this visa. You must apply for another visa in Australia.",
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas"
+        }
       }
     },
     {
@@ -5086,9 +5139,9 @@
         "notes": "For 18–30 year olds (35 for some countries) from eligible nations. Allows 12 months in Australia with work rights; second and third visas are possible for those who meet the eligibility criteria, including specified work."
       },
       "processing": null,
-      "validityDays": 365,
+      "validityDays": null,
       "stayDays": 365,
-      "entries": "multiple",
+      "entries": null,
       "applyUrl": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-417",
       "source": {
         "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-417",
@@ -5097,6 +5150,16 @@
         "lastVerified": "2026-10-07",
         "archiveUrl": "https://web.archive.org/web/20260807091328/https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-417",
         "lastChanged": "2026-09-25"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Stay 12 months Cost AUD840.00",
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-417"
+        },
+        "stayDays": {
+          "text": "Stay 12 months Cost AUD840.00",
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-417"
+        }
       }
     }
   ],
@@ -5130,10 +5193,10 @@
       }
     ],
     "travelInsurance": {
-      "required": false,
+      "required": null,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Home Affairs says you are liable for all your healthcare costs while in Australia and strongly recommends adequate health insurance. Visitor visa (600) holders granted a visa valid for more than 12 months must also have made adequate arrangements for health insurance.",
+      "text": "No official source we could read makes travel insurance a condition of entry for visitors. Home Affairs says you are liable for all your healthcare costs while in Australia and strongly recommends adequate health insurance; Visitor visa (600) holders granted a visa valid for more than 12 months must also have made adequate arrangements for health insurance.",
       "source": {
         "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas",
         "name": "Department of Home Affairs — Visitor visa (subclass 600), Tourist stream: About this visa",
@@ -5145,7 +5208,7 @@
     "onwardTicket": {
       "required": null,
       "appliesTo": null,
-      "text": "No Home Affairs page we could read requires an onward or return ticket. Visitor visa (600) applicants must show they have enough funds to support their stay and leave Australia.",
+      "text": "No official source we could read states an onward or return ticket requirement. Visitor visa (600) applicants must have enough funds to support their stay and leave Australia.",
       "source": {
         "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
         "name": "Department of Home Affairs — Visitor visa (subclass 600)",
@@ -5155,8 +5218,8 @@
       }
     },
     "proofOfFunds": {
-      "required": false,
-      "appliesTo": null,
+      "required": true,
+      "appliesTo": "visa-applicants",
       "amount": null,
       "text": "Visitor visa (600) applicants must have enough funds to support their stay and leave Australia; Home Affairs states no amount.",
       "source": {
@@ -5395,7 +5458,7 @@
     {
       "id": "evisitor-vs-eta",
       "question": "What is the difference between the eVisitor and the Australian ETA?",
-      "answer": "Both allow 3-month tourist or business visits over a 12-month validity. The eVisitor (subclass 651) is free and covers EU and other European passports, applied for on the Home Affairs website. The ETA (subclass 601) covers the US, Canada, Japan, South Korea, the UK and others, costs AUD 20 and is applied for only via the Australian ETA app."
+      "answer": "Both allow stays of 3 months after each entry during a 12-month validity, for tourism or business visitor activities. The eVisitor (subclass 651) is free; Home Affairs says European passport holders may be eligible. The ETA (subclass 601) is for holders of the passports Home Affairs lists, including those of the US, Canada, Japan, South Korea and the UK; it carries an AUD 20 service charge and is applied for through the Australian ETA app."
     },
     {
       "id": "nz-citizens",
@@ -5410,7 +5473,7 @@
     {
       "id": "extend-stay",
       "question": "Can I stay in Australia longer than 3 months as a tourist?",
-      "answer": "Not on an eVisitor or ETA — each visit is capped at 3 months. For longer trips, apply online for a Visitor visa (subclass 600), which can be granted for stays of 6 or even 12 months, before you travel or before your current stay expires."
+      "answer": "Not on an eVisitor or ETA: Home Affairs says you can stay for 3 months after each entry and cannot stay longer by extending either visa; you must apply for another visa. The Visitor visa (subclass 600) is generally granted for a stay of 3 months, and Home Affairs may grant a stay of up to 12 months in certain circumstances."
     }
   ]
 }

@@ -19,7 +19,7 @@
     "cambodia",
     "myanmar"
   ],
-  "summary": "Laos admits nationals of Brunei, Cambodia, Indonesia, Malaysia, the Philippines, Singapore, Thailand and Vietnam visa-free for up to 30 days (Myanmar for 14), plus Japan, South Korea, Russia, Switzerland and others on bilateral or unilateral waivers. Many other nationalities can get a 30-day tourist visa — online through the official Lao eVisa or on arrival at major airports and border crossings. The eVisa list names 162 countries and territories (as of 8 October 2026); for nationalities not on it, mostly in Africa and the Middle East plus Pakistan, Bangladesh and Iran, no official source we could read states how they get a visa.",
+  "summary": "Laos admits nationals of Brunei, Cambodia, Indonesia, Malaysia, the Philippines, Singapore, Thailand and Vietnam visa-free for up to 30 days (Myanmar for 14), plus Japan, South Korea, Russia, Switzerland and others on bilateral or unilateral waivers. Many other nationalities can get a 30-day tourist visa — online through the official Lao eVisa, for the countries on its list, or on arrival at major airports and border crossings. For nationalities not on the eVisa list, no official source we could read states how they get a visa.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -3886,23 +3886,15 @@
       "category": "tourist",
       "method": "evisa",
       "name": "Lao eVisa (tourist)",
-      "fee": {
-        "amount": 50,
-        "currency": "USD",
-        "notes": "The portal's fee calculator gives the fee per applicant, excluding bank charges; the fee is non-refundable."
-      },
+      "fee": null,
       "processing": {
-        "minDays": 1,
+        "minDays": null,
         "maxDays": 3,
         "unit": "business-days"
       },
       "validityDays": 60,
       "stayDays": 30,
       "entries": "single",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
       "applyUrl": "https://laoevisa.gov.la/",
       "source": {
         "url": "https://laoevisa.gov.la/faq",
@@ -3956,6 +3948,24 @@
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07"
         }
+      },
+      "evidence": {
+        "processing": {
+          "text": "An eVisa is processed within 03 working days after receiving the completed application and full eVisa fee",
+          "url": "https://laoevisa.gov.la/faq"
+        },
+        "validityDays": {
+          "text": "An eVisa is valid for a maximum of 60 days after receiving the Approval Letter.",
+          "url": "https://laoevisa.gov.la/faq"
+        },
+        "stayDays": {
+          "text": "The Stay Permit of eVisa is 30 days.",
+          "url": "https://laoevisa.gov.la/faq"
+        },
+        "entries": {
+          "text": "eVisa is valid for Single Entry only",
+          "url": "https://laoevisa.gov.la/faq"
+        }
       }
     },
     {
@@ -3967,7 +3977,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": 30,
-      "entries": "single",
+      "entries": null,
       "extendable": {
         "possible": true,
         "days": null
@@ -3986,6 +3996,16 @@
             "lastVerified": "2026-10-09"
           }
         ]
+      },
+      "evidence": {
+        "stayDays": {
+          "text": "This visa allows for a stay of up to 30 days and can be extended once.",
+          "url": "https://immigration.gov.la/en/visas"
+        },
+        "extendable": {
+          "text": "This visa allows for a stay of up to 30 days and can be extended once.",
+          "url": "https://immigration.gov.la/en/visas"
+        }
       }
     },
     {
@@ -3997,7 +4017,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": 60,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://immigration.gov.la/en/visas",
@@ -4015,13 +4035,23 @@
       "extendable": {
         "possible": true,
         "days": null
+      },
+      "evidence": {
+        "stayDays": {
+          "text": "permitting a stay of up to 60 days with the option of extension.",
+          "url": "https://immigration.gov.la/en/visas"
+        },
+        "extendable": {
+          "text": "permitting a stay of up to 60 days with the option of extension.",
+          "url": "https://immigration.gov.la/en/visas"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
       "rule": "6-months-on-arrival",
-      "text": "Your passport must be valid for at least 6 months on arrival in Laos.",
+      "text": "The Lao eVisa terms say the passport should have a minimum validity of 6 months from the date of arrival in Laos.",
       "source": {
         "url": "https://laoevisa.gov.la/term",
         "name": "Lao Official Online Visa - Get your lao eVisa online - Lao eVisa",
@@ -4269,7 +4299,7 @@
     {
       "id": "evisa-checkpoints",
       "type": "info",
-      "text": "The Lao eVisa is accepted only at nine designated ports: Wattay (Vientiane), Luang Prabang and Pakse international airports, Lao-Thai Friendship Bridges I, II and IV, Boten International Checkpoint, and Boten and Khamsavath railway stations. At any other port you need a visa on arrival, and the eVisa fee is not refunded."
+      "text": "The Lao eVisa is accepted only at the designated ports: Wattay (Vientiane), Luang Prabang and Pakse international airports, Lao-Thai Friendship Bridges I, II and IV, Boten International Checkpoint, and Boten and Khamsavath railway stations. The eVisa portal says that at any other port you must apply for a visa on arrival, and the eVisa fee is not refunded."
     },
     {
       "id": "uxo-caution",
@@ -4291,7 +4321,7 @@
     {
       "id": "evisa-vs-voa",
       "question": "Should I get the Lao eVisa or a visa on arrival?",
-      "answer": "Both give a 30-day single-entry tourist stay. The eVisa (USD 50, about three business days online) skips the arrival line but is accepted only at designated checkpoints; the visa on arrival is issued at major entry points, such as international airports and border crossings. No official page publishes its fee."
+      "answer": "Both give a 30-day tourist stay. The eVisa is single-entry, processed within 3 working days, and accepted only at the designated eVisa ports, where it has its own lane; the visa on arrival is issued at major entry points, such as international airports and border crossings, and can be extended once. No official page publishes either fee."
     },
     {
       "id": "which-borders",
@@ -4306,7 +4336,7 @@
     {
       "id": "us-citizens",
       "question": "Do US citizens need a visa for Laos?",
-      "answer": "Yes. US passport holders are not visa-exempt. Apply online for the Lao eVisa (USD 50) before travel or obtain a 30-day tourist visa on arrival at major airports and border crossings."
+      "answer": "Yes. US passport holders are not visa-exempt. Apply online for the Lao eVisa before travel or obtain a 30-day tourist visa on arrival at major airports and border crossings."
     }
   ]
 }

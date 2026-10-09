@@ -28,7 +28,7 @@
     "azerbaijan",
     "turkey"
   ],
-  "summary": "Russia issues a unified 30-day eVisa to citizens of the 65 countries and territories on the Foreign Ministry's e-visa list (as of 8 October 2026), including all 27 EU member states, admits CIS neighbors and much of Latin America and the Gulf visa-free, and requires an embassy visa from US, UK, Canadian and Australian travelers. Note that the UK Foreign Office advises against all travel to Russia and Canada says to avoid all travel.",
+  "summary": "Russia issues a unified eVisa (single entry, a stay of up to 30 days) to citizens of the countries on the list approved by the Russian Government; other foreign citizens need a visa unless an agreement provides visa-free entry, and the Foreign Ministry requires a consular visa of US, UK, Canadian and Australian travelers. The UK Foreign Office advises against all travel to Russia and Canada says to avoid all travel.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -61,7 +61,7 @@
         },
         {
           "url": "https://evisa.kdmid.ru/Home/Instruction",
-          "name": "Russian MFA Consular Department — unified e-visa: characteristics and conditions (65 eligible countries; single entry, 120 days' validity, stay up to 30 days, approved crossing points; arrival and departure days both count)",
+          "name": "Russian MFA Consular Department — unified e-visa: characteristics and conditions (single entry, 120 days' validity, stay up to 30 days, approved crossing points; arrival and departure days both count)",
           "lastVerified": "2026-10-09"
         }
       ],
@@ -1749,7 +1749,7 @@
       "name": "Unified e-Visa",
       "fee": null,
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 4,
         "unit": "calendar-days"
       },
@@ -1757,7 +1757,7 @@
       "stayDays": 30,
       "entries": "single",
       "extendable": {
-        "possible": false,
+        "possible": true,
         "days": null
       },
       "applyUrl": "https://evisa.kdmid.ru/",
@@ -1809,6 +1809,28 @@
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07"
         }
+      },
+      "evidence": {
+        "processing": {
+          "text": "Applications for a unified e-visa will be processed in no more than 4 calendar days from the date of submission of the application.",
+          "url": "https://evisa.kdmid.ru/Home/Instruction"
+        },
+        "validityDays": {
+          "text": "The validity period of a unified electronic visa is 120 days from the date of issue.",
+          "url": "https://evisa.kdmid.ru/Home/Instruction"
+        },
+        "stayDays": {
+          "text": "The permitted period of stay in the Russian Federation on the basis of a unified e-visa within its validity period shall not exceed 30 days from the date of entry.",
+          "url": "https://evisa.kdmid.ru/Home/Instruction"
+        },
+        "entries": {
+          "text": "The unified e-visa is a single entry visa.",
+          "url": "https://evisa.kdmid.ru/Home/Instruction"
+        },
+        "extendable": {
+          "text": "The period of validity of an electronic visa and/or the permitted period of stay may be extended only in cases where it is impossible to leave the territory of the Russian Federation due to the need of emergency treatment or unsurmountable circumstances (force majeure) or natural disasters.",
+          "url": "https://evisa.kdmid.ru/Home/Instruction"
+        }
       }
     },
     {
@@ -1818,13 +1840,9 @@
       "name": "Tourist visa (consular)",
       "fee": null,
       "processing": null,
-      "validityDays": 90,
-      "stayDays": 90,
-      "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "validityDays": null,
+      "stayDays": null,
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.kdmid.ru/cons/visas/",
@@ -1842,8 +1860,8 @@
       "fee": null,
       "processing": null,
       "validityDays": null,
-      "stayDays": 3,
-      "entries": "single",
+      "stayDays": null,
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.kdmid.ru/cons/visas/",
@@ -1856,7 +1874,7 @@
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-beyond-stay",
+      "rule": "other",
       "text": "eVisa applicants need a machine-readable passport issued by their country of nationality and valid for at least 6 months from the date they submit the application, with sufficient space for border-crossing stamps (no number of pages is stated). For a regular visa from a consulate, the Consular Department asks, as a rule, for a passport valid at least 6 months after the visa expires, with at least two blank visa pages.",
       "source": {
         "url": "https://evisa.kdmid.ru/Home/Instruction",
@@ -1897,7 +1915,7 @@
     "onwardTicket": {
       "required": null,
       "appliesTo": null,
-      "text": "No official source states an onward-ticket requirement for visitors in general. Transit-visa applicants must show tickets valid for leaving Russia, and e-visa holders must enter and leave through the border crossings approved for the e-visa.",
+      "text": "No official source we could read states an onward-ticket requirement for visitors in general. Transit-visa applicants must show tickets valid for leaving Russia, and e-visa holders must enter and leave through the border crossings approved for the e-visa.",
       "source": {
         "url": "https://www.kdmid.ru/cons/visas/",
         "name": "Russian MFA Consular Department — Issue of visas (documents required per visa category)",
@@ -1910,7 +1928,7 @@
       "required": null,
       "appliesTo": null,
       "amount": null,
-      "text": "No official source states a proof-of-funds requirement or amount for visitors to Russia.",
+      "text": "No official source we could read states a proof-of-funds requirement or amount for visitors to Russia.",
       "source": {
         "url": "https://evisa.kdmid.ru/Home/Instruction",
         "name": "Russian MFA Consular Department — unified e-visa: characteristics and conditions of issue",
@@ -2150,12 +2168,12 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Russia?",
-      "answer": "Most travelers do. Citizens of the 65 countries and territories on the Foreign Ministry's e-visa list (as of 8 October 2026) — including all 27 EU states, India, Japan and several Gulf monarchies — can use the unified 30-day eVisa, while CIS neighbors, much of Latin America and a handful of bilateral partners enter visa-free. US, UK, Canadian, Australian and New Zealand citizens must obtain a visa from a Russian consulate."
+      "answer": "Yes, unless an agreement exempts you. Citizens of the countries on the e-visa list approved by the Russian Government, including India, Japan and EU member states such as Germany, can use the unified 30-day eVisa; citizens of countries with visa-free agreements enter without a visa, and the Foreign Ministry's per-country table shows which. US, UK, Canadian, Australian and New Zealand citizens must obtain a visa from a Russian consulate."
     },
     {
       "id": "us-evisa",
       "question": "Can US or UK citizens get the Russian eVisa?",
-      "answer": "No. The United States, United Kingdom, Canada, Australia and New Zealand are not on the eVisa eligibility list, so their citizens need a visa from a Russian consulate; for a tourist visa the consulate asks for a confirmation from a registered tour operator or a hotel booking."
+      "answer": "No. The United States, United Kingdom, Canada, Australia and New Zealand are not on the eVisa eligibility list, so their citizens need a visa from a Russian consulate; for a tourist visa the consulate asks for a confirmation from a tour operator on the federal register or, for citizens of countries on a list approved by the Russian Government, a hotel booking."
     },
     {
       "id": "evisa-how",

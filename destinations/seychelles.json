@@ -1677,7 +1677,7 @@
         "notes": "Standard processing (24 hours), adults and children 12 and under. Premium processing (6 hours) is €30; expedited processing (60 minutes) is €70 for adults and €30 for children. Bank charges are not included."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 1,
         "unit": "calendar-days"
       },
@@ -1726,6 +1726,20 @@
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07"
         }
+      },
+      "evidence": {
+        "fee": {
+          "text": "Standard Processing (24 hours) - €10",
+          "url": "https://seychelles.govtas.com/en/pages/FAQS"
+        },
+        "processing": {
+          "text": "The reviewing process may take up to 24 hours before validation.",
+          "url": "https://seychelles.govtas.com/en/pages/FAQS"
+        },
+        "entries": {
+          "text": "The TA is valid for one journey only and must be renewed for each additional journey.",
+          "url": "https://seychelles.govtas.com/en/pages/FAQS"
+        }
       }
     },
     {
@@ -1741,7 +1755,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.ics.gov.sc/permits/visitors-permit",
@@ -1749,13 +1763,19 @@
         "type": "government",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "fee": {
+          "text": "For extensions beyond the initial three months, a fee of SCR 5,000 is required for each additional three-month period or part thereof.",
+          "url": "https://www.ics.gov.sc/permits/visitors-permit"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
       "rule": "valid-for-stay",
-      "text": "Your passport must be valid for the duration of your stay in Seychelles.",
+      "text": "The UK Foreign Office says your passport must be valid for the duration of your stay.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/seychelles/entry-requirements",
         "name": "UK FCDO — Seychelles travel advice (entry requirements)",

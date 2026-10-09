@@ -21,7 +21,7 @@
     "italy",
     "germany"
   ],
-  "summary": "France is part of the Schengen Area: EU and EFTA citizens enter freely, nationals of the 63 countries and territories on the EU's visa-exempt list (as of 30 December 2025) can stay 90 days in any 180-day period (the ETIAS travel authorization is not yet in operation), and everyone else needs a Schengen short-stay visa costing €90, applied for via the official France-Visas portal.",
+  "summary": "France is part of the Schengen Area: EU and EFTA citizens enter freely, nationals of the countries and territories on the EU's visa-exempt list (Annex II of Regulation 2018/1806) can stay 90 days in any 180-day period (the ETIAS travel authorisation is not yet in operation), and nationals of the countries on the EU's visa-required list (Annex I) need a Schengen short-stay visa costing €90, applied for via the official France-Visas portal.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-10-03",
@@ -2283,10 +2283,10 @@
       "fee": {
         "amount": 90,
         "currency": "EUR",
-        "notes": "Children 6–11: €45; under 6: free. Fee set EU-wide since June 11, 2024."
+        "notes": "Children aged 6 to 11 pay €45 and children under 6 pay nothing."
       },
       "processing": {
-        "minDays": 15,
+        "minDays": null,
         "maxDays": 45,
         "unit": "calendar-days"
       },
@@ -2294,7 +2294,7 @@
       "stayDays": 90,
       "entries": null,
       "extendable": {
-        "possible": false,
+        "possible": true,
         "days": null
       },
       "applyUrl": "https://france-visas.gouv.fr/",
@@ -2306,6 +2306,24 @@
         "instrument": "Regulation (EC) No 810/2009 establishing a Community Code on Visas, Article 16(1) (visa fee), Article 1(1) (stays not exceeding 90 days in any 180-day period) and Article 24(1) (a visa may be issued for one, two or multiple entries; validity up to five years, set on examination of each application), consolidated to 11 June 2024",
         "archiveUrl": "https://web.archive.org/web/20251008134447/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611",
         "lastChanged": "2026-10-07"
+      },
+      "evidence": {
+        "processing": {
+          "text": "That period may be extended up to a maximum of 45 calendar days in individual cases, notably when further scrutiny of the application is needed.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        },
+        "stayDays": {
+          "text": "an intended stay on the territory of the Member States not exceeding 90 days in any 180-day period",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        },
+        "extendable": {
+          "text": "The period of validity and/or the duration of stay of an issued visa shall be extended where the competent authority of a Member State considers that a visa holder has provided proof of force majeure or humanitarian reasons preventing him from leaving the territory of the Member States before the expiry of the period of validity of or the duration of stay authorised by the visa.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        },
+        "fee": {
+          "text": "Applicants shall pay a visa fee of EUR 90. 2. Children from the age of six years and below the age of 12 years shall pay a visa fee of EUR 45.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        }
       }
     },
     {
@@ -2319,7 +2337,7 @@
         "notes": "Set by the EU–Armenia visa facilitation agreement (Article 6) instead of the standard €90; waived for children under 12 and pensioners, among other listed categories."
       },
       "processing": {
-        "minDays": 10,
+        "minDays": null,
         "maxDays": 30,
         "unit": "calendar-days"
       },
@@ -2327,7 +2345,7 @@
       "stayDays": 90,
       "entries": null,
       "extendable": {
-        "possible": false,
+        "possible": true,
         "days": null
       },
       "applyUrl": "https://france-visas.gouv.fr/",
@@ -2345,6 +2363,24 @@
             "lastVerified": "2026-10-09"
           }
         ]
+      },
+      "evidence": {
+        "stayDays": {
+          "text": "an intended stay on the territory of the Member States not exceeding 90 days in any 180-day period",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        },
+        "extendable": {
+          "text": "The period of validity and/or the duration of stay of an issued visa shall be extended where the competent authority of a Member State considers that a visa holder has provided proof of force majeure or humanitarian reasons preventing him from leaving the territory of the Member States before the expiry of the period of validity of or the duration of stay authorised by the visa.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        },
+        "processing": {
+          "text": "The period of time for taking a decision on a visa application may be extended up to 30 calendar days in individual cases, notably when further scrutiny of the application is needed.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A22013A1031%2801%29"
+        },
+        "fee": {
+          "text": "The fee for processing visa applications shall amount to EUR 35.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A22013A1031%2801%29"
+        }
       }
     },
     {
@@ -2358,7 +2394,7 @@
         "notes": "Set by the EU–Azerbaijan visa facilitation agreement (Article 6) instead of the standard €90; waived for children under 12 and pensioners, among other listed categories."
       },
       "processing": {
-        "minDays": 10,
+        "minDays": null,
         "maxDays": 30,
         "unit": "calendar-days"
       },
@@ -2366,7 +2402,7 @@
       "stayDays": 90,
       "entries": null,
       "extendable": {
-        "possible": false,
+        "possible": true,
         "days": null
       },
       "applyUrl": "https://france-visas.gouv.fr/",
@@ -2384,6 +2420,24 @@
             "lastVerified": "2026-10-09"
           }
         ]
+      },
+      "evidence": {
+        "stayDays": {
+          "text": "an intended stay on the territory of the Member States not exceeding 90 days in any 180-day period",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        },
+        "extendable": {
+          "text": "The period of validity and/or the duration of stay of an issued visa shall be extended where the competent authority of a Member State considers that a visa holder has provided proof of force majeure or humanitarian reasons preventing him from leaving the territory of the Member States before the expiry of the period of validity of or the duration of stay authorised by the visa.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        },
+        "processing": {
+          "text": "The period of time for taking a decision on a visa application may be extended up to 30 calendar days in individual cases, notably when further scrutiny of the application is needed.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A22014A0430%2802%29"
+        },
+        "fee": {
+          "text": "The fee for processing visa applications shall amount to EUR 35.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A22014A0430%2802%29"
+        }
       }
     },
     {
@@ -2397,7 +2451,7 @@
         "notes": "Set by the EU–Belarus visa facilitation agreement (Article 6) instead of the standard €90; €70 when the applicant asks for a decision within two days and the consulate agrees; waived for children under 12, among other listed categories. Council Decision (EU) 2021/1940 suspended the agreement's facilitations for Belarusian officials and official delegations."
       },
       "processing": {
-        "minDays": 10,
+        "minDays": null,
         "maxDays": 30,
         "unit": "calendar-days"
       },
@@ -2405,7 +2459,7 @@
       "stayDays": 90,
       "entries": null,
       "extendable": {
-        "possible": false,
+        "possible": true,
         "days": null
       },
       "applyUrl": "https://france-visas.gouv.fr/",
@@ -2428,6 +2482,24 @@
             "lastVerified": "2026-10-09"
           }
         ]
+      },
+      "evidence": {
+        "stayDays": {
+          "text": "an intended stay on the territory of the Member States not exceeding 90 days in any 180-day period",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        },
+        "extendable": {
+          "text": "The period of validity and/or the duration of stay of an issued visa shall be extended where the competent authority of a Member State considers that a visa holder has provided proof of force majeure or humanitarian reasons preventing him from leaving the territory of the Member States before the expiry of the period of validity of or the duration of stay authorised by the visa.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        },
+        "processing": {
+          "text": "The period of time for taking a decision on a visa application may be extended up to 30 calendar days in individual cases, notably when further scrutiny of the application is needed.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A22020A0609%2802%29"
+        },
+        "fee": {
+          "text": "The fee for processing visa applications shall amount to EUR 35.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A22020A0609%2802%29"
+        }
       }
     },
     {
@@ -2435,13 +2507,9 @@
       "category": "tourist",
       "method": "embassy",
       "name": "Schengen Short-Stay Visa (Type C) — EU–Cabo Verde visa facilitation agreement",
-      "fee": {
-        "amount": 67.5,
-        "currency": "EUR",
-        "notes": "Set by the EU–Cabo Verde visa facilitation agreement as amended in 2021 (Article 5) at 75% of the standard €90 fee; children aged 12 to 17 pay half of it, and children under 12 pay nothing, among other listed categories."
-      },
+      "fee": null,
       "processing": {
-        "minDays": 15,
+        "minDays": null,
         "maxDays": 45,
         "unit": "calendar-days"
       },
@@ -2449,7 +2517,7 @@
       "stayDays": 90,
       "entries": null,
       "extendable": {
-        "possible": false,
+        "possible": true,
         "days": null
       },
       "applyUrl": "https://france-visas.gouv.fr/",
@@ -2472,28 +2540,42 @@
             "lastVerified": "2026-10-09"
           }
         ]
+      },
+      "evidence": {
+        "processing": {
+          "text": "That period may be extended up to a maximum of 45 calendar days in individual cases, notably when further scrutiny of the application is needed.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        },
+        "stayDays": {
+          "text": "an intended stay on the territory of the Member States not exceeding 90 days in any 180-day period",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        },
+        "extendable": {
+          "text": "The period of validity and/or the duration of stay of an issued visa shall be extended where the competent authority of a Member State considers that a visa holder has provided proof of force majeure or humanitarian reasons preventing him from leaving the territory of the Member States before the expiry of the period of validity of or the duration of stay authorised by the visa.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        }
       }
     },
     {
       "id": "schengen-c-ru",
       "category": "tourist",
       "method": "embassy",
-      "name": "Schengen Short-Stay Visa (Type C), single entry for Russian nationals",
+      "name": "Schengen Short-Stay Visa (Type C) for Russian nationals",
       "fee": {
         "amount": 90,
         "currency": "EUR",
-        "notes": "Standard fee under the Visa Code (Article 16): children aged 6 to 11 pay €45 and children under 6 pay nothing. The EU–Russia visa facilitation agreement is fully suspended (Council Decision (EU) 2022/1500), so its reduced fee does not apply."
+        "notes": "Standard fee under the Visa Code (Article 16): children aged 6 to 11 pay €45 and children under 6 pay nothing. Council Decision (EU) 2022/1500 suspended the EU–Russia visa facilitation agreement in whole as regards citizens of the Russian Federation from 12 September 2022."
       },
       "processing": {
-        "minDays": 15,
+        "minDays": null,
         "maxDays": 45,
         "unit": "calendar-days"
       },
       "validityDays": null,
       "stayDays": 90,
-      "entries": "single",
+      "entries": null,
       "extendable": {
-        "possible": false,
+        "possible": true,
         "days": null
       },
       "applyUrl": "https://france-visas.gouv.fr/",
@@ -2512,6 +2594,24 @@
             "lastVerified": "2026-10-09"
           }
         ]
+      },
+      "evidence": {
+        "processing": {
+          "text": "That period may be extended up to a maximum of 45 calendar days in individual cases, notably when further scrutiny of the application is needed.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        },
+        "stayDays": {
+          "text": "an intended stay on the territory of the Member States not exceeding 90 days in any 180-day period",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        },
+        "extendable": {
+          "text": "The period of validity and/or the duration of stay of an issued visa shall be extended where the competent authority of a Member State considers that a visa holder has provided proof of force majeure or humanitarian reasons preventing him from leaving the territory of the Member States before the expiry of the period of validity of or the duration of stay authorised by the visa.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        },
+        "fee": {
+          "text": "Applicants shall pay a visa fee of EUR 90. 2. Children from the age of six years and below the age of 12 years shall pay a visa fee of EUR 45.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        }
       }
     },
     {
@@ -2522,16 +2622,12 @@
       "fee": {
         "amount": 99,
         "currency": "EUR",
-        "notes": "For stays over 90 days: work, family and other long-stay purposes. Many long-stay visas act as residence permits (VLS-TS) and must be validated online within 3 months of arrival, with a tax on top of the visa fee."
+        "notes": "For stays of more than 3 months, most often for study, work or family reasons. The VLS-TS long-stay visa serves as a residence permit; within 3 months of arriving in France you must validate it and pay a tax on top of the visa fee."
       },
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "multiple",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": "https://france-visas.gouv.fr/",
       "source": {
         "url": "https://france-visas.gouv.fr/documents/d/france-visas/frais-de-visa-francais",
@@ -2547,6 +2643,12 @@
             "lastVerified": "2026-10-09"
           }
         ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "Visa de long séjour 99 euros 50 euros2",
+          "url": "https://france-visas.gouv.fr/documents/d/france-visas/frais-de-visa-francais"
+        }
       }
     },
     {
@@ -2557,16 +2659,12 @@
       "fee": {
         "amount": 50,
         "currency": "EUR",
-        "notes": "Reduced fee for students whose application was examined by a Centre pour les études en France (Campus France); €99 otherwise."
+        "notes": "Reduced fee for students whose application was examined by a Centre pour les études en France; €99 otherwise."
       },
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "multiple",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": "https://france-visas.gouv.fr/",
       "source": {
         "url": "https://france-visas.gouv.fr/documents/d/france-visas/frais-de-visa-francais",
@@ -2575,6 +2673,12 @@
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-03",
         "archiveUrl": "https://web.archive.org/web/20260917131855/https://france-visas.gouv.fr/documents/d/france-visas/frais-de-visa-francais"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Visa de long séjour 99 euros 50 euros2",
+          "url": "https://france-visas.gouv.fr/documents/d/france-visas/frais-de-visa-francais"
+        }
       }
     },
     {
@@ -2590,11 +2694,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "multiple",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": "https://france-visas.gouv.fr/",
       "source": {
         "url": "https://france-visas.gouv.fr/documents/d/france-visas/frais-de-visa-francais",
@@ -2603,6 +2703,12 @@
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-03",
         "archiveUrl": "https://web.archive.org/web/20260917131855/https://france-visas.gouv.fr/documents/d/france-visas/frais-de-visa-francais"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Visa de long séjour 99 euros 50 euros2",
+          "url": "https://france-visas.gouv.fr/documents/d/france-visas/frais-de-visa-francais"
+        }
       }
     },
     {
@@ -2618,11 +2724,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "multiple",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": "https://france-visas.gouv.fr/",
       "source": {
         "url": "https://france-visas.gouv.fr/documents/d/france-visas/frais-de-visa-francais",
@@ -2631,6 +2733,12 @@
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-03",
         "archiveUrl": "https://web.archive.org/web/20260917131855/https://france-visas.gouv.fr/documents/d/france-visas/frais-de-visa-francais"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Visa de long séjour 99 euros 50 euros2",
+          "url": "https://france-visas.gouv.fr/documents/d/france-visas/frais-de-visa-francais"
+        }
       }
     }
   ],
@@ -2674,9 +2782,9 @@
       }
     },
     "onwardTicket": {
-      "required": true,
-      "appliesTo": "all",
-      "text": "Border officers may ask non-EU visitors for proof of return or onward travel and accommodation details.",
+      "required": null,
+      "appliesTo": null,
+      "text": "No official source we could read makes a return or onward ticket a condition of entry in itself. Under the Schengen Borders Code (Annex I), the supporting documents border guards may check for tourist or private trips include a return or round-trip ticket.",
       "source": {
         "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02016R0399-20251012",
         "name": "Schengen Borders Code (Regulation (EU) 2016/399), consolidated text — EUR-Lex",
@@ -2932,7 +3040,7 @@
     {
       "id": "90-180-rule",
       "type": "warning",
-      "text": "The 90-day limit counts across the entire Schengen Area, not just France — days spent in Spain or Italy count against the same allowance."
+      "text": "The UK government tells British travellers that visits to Schengen countries in the 180 days before they travel count towards their 90 days, and that a trip that also takes in other Schengen countries must stay within the 90-day visa-free limit as a whole."
     },
     {
       "id": "etias-scams",
@@ -2959,7 +3067,7 @@
     {
       "id": "long-stay",
       "question": "How do I stay in France longer than 90 days?",
-      "answer": "You need a national long-stay visa (Type D), applied for via France-Visas before travel: €99, or €50 for students whose application went through a Centre pour les études en France. Many long-stay visas (VLS-TS) double as residence permits and must be validated online within 3 months of arrival."
+      "answer": "You need a national long-stay visa (Type D), applied for to the French consular authorities, via France-Visas, before travel: €99, or €50 for students whose application was examined by a Centre pour les études en France. The VLS-TS long-stay visa serves as a residence permit and must be validated within 3 months of arrival in France."
     },
     {
       "id": "insurance-required",

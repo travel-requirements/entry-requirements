@@ -20,7 +20,7 @@
     "ecuador",
     "paraguay"
   ],
-  "summary": "Bolivia sorts passports into three groups: Group 1 — most of the EU, the UK, the United States, most of the Americas and a number of others — enters visa-free for up to 90 days a year; Group 3 needs a consular visa. The Migration Directorate's page on the Group 2 tourist visa is no longer online; Hong Kong's government says HKSAR passport holders can get a tourist visa on arrival.",
+  "summary": "Bolivia sorts passports into three groups: Group 1, which includes the UK, the United States and many European and American countries, enters visa-free, and Supreme Decree 1923 limits a tourist's stay to 90 calendar days a year; Group 3 needs a consular visa. The Migration Directorate's page on the Group 2 tourist visa is no longer online; Hong Kong's government says HKSAR passport holders can get a tourist visa on arrival.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -2015,14 +2015,14 @@
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://migracion.gob.bo/",
         "name": "Dirección General de Migración de Bolivia — requirements to enter Bolivia as a tourist or visitor (country groups)",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-09-26",
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09",
         "instrument": "Decreto Supremo N° 27150 of 3 September 2003 (visa exemption list), as amended by Decreto Supremo N° 5497 of 1 December 2025"
       }
     },
@@ -2030,31 +2030,23 @@
       "id": "stay-extension",
       "category": "other",
       "method": "exemption-extension",
-      "name": "Extension of Stay (Prórroga de Permanencia)",
-      "fee": {
-        "amount": 838,
-        "currency": "BOB",
-        "notes": "250 UFV for a stay of up to 30 days (about Bs 838 at the UFV value of Bs 3.35 on 2 October 2026). The Migration Directorate lists this tourist stay procedure for every nationality; under Supreme Decree 1923 (Article 9), a tourist visa entitles its holder to two such periods, and a tourist’s stay is at most 90 calendar days a year."
-      },
+      "name": "Transitory stay for tourism or visit (Permanencia Transitoria por Turismo o Visita)",
+      "fee": null,
       "processing": {
-        "minDays": 1,
+        "minDays": null,
         "maxDays": 1,
         "unit": "calendar-days"
       },
       "validityDays": null,
-      "stayDays": 90,
-      "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "stayDays": null,
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://migracion.gob.bo/tramites_ext",
         "name": "Dirección General de Migración — Trámites para extranjeros (Permanencia transitoria por turismo o visita)",
         "type": "government",
-        "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-02",
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09",
         "alsoStatedOn": [
           {
             "url": "https://migracion.gob.bo/marco_legal",
@@ -2062,18 +2054,25 @@
             "lastVerified": "2026-10-07"
           }
         ]
+      },
+      "evidence": {
+        "processing": {
+          "text": "24 horas desde la presentación de todos los requisitos.",
+          "url": "https://migracion.gob.bo/tramites_ext"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
-      "text": "Bolivia's Migration Directorate asks for a passport valid for at least 6 months with a tourist visa or stay application. The UK Foreign Office says a British visitor's passport should be valid for at least 6 months after the date of arrival, with at least two blank pages.",
+      "rule": "other",
+      "text": "Bolivia's Migration Directorate asks for a passport valid for at least 6 months with a tourist stay application. The UK Foreign Office tells British visitors their passport should be valid for at least 6 months after the date of arrival, with at least two blank pages.",
       "source": {
         "url": "https://migracion.gob.bo/tramites_ext",
         "name": "Dirección General de Migración — Trámites para extranjeros (Permanencia transitoria por turismo o visita)",
         "type": "government",
-        "lastVerified": "2026-10-07"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09"
       }
     },
     "blankPages": {
@@ -2310,7 +2309,7 @@
     {
       "id": "do-i-need-a-visa",
       "question": "Do I need a visa for Bolivia?",
-      "answer": "It depends on which of Bolivia's three groups your passport falls into. Group 1 — most EU and Schengen states, the UK, the United States, Canada, Japan, South Korea, Israel, Turkey, Russia, Australia, New Zealand and most of Latin America — needs no visa and gets up to 90 days a year. For Group 2 the Migration Directorate's tourist-visa page is no longer online, so no official Bolivian page we could read states the rule; Hong Kong's government says HKSAR passport holders can get a tourist visa on arrival. Group 3 needs a consular visa from a Bolivian consulate."
+      "answer": "It depends on which of Bolivia's three groups your passport falls into. Group 1 — which includes many EU and Schengen states, the UK, the United States, Canada, Japan, South Korea, Israel, Turkey, Russia, Australia, New Zealand and many Latin American countries — needs no visa, and Supreme Decree 1923 limits a tourist's stay to 90 calendar days a year. For Group 2 the Migration Directorate's tourist-visa page is no longer online, so no official Bolivian page we could read states the rule; Hong Kong's government says HKSAR passport holders can get a tourist visa on arrival. Group 3 needs a consular visa from a Bolivian consulate."
     },
     {
       "id": "us-citizens",
@@ -2320,7 +2319,7 @@
     {
       "id": "how-long-can-i-stay",
       "question": "How long can I stay in Bolivia?",
-      "answer": "Bolivia's Migration Directorate puts the maximum stay for tourists at 90 calendar days per year. The UK Foreign Office says border officials issue 30-day stamps but that you can stay 90 days without any new stamp; Australia's Smartraveller says the stay permitted on entry is 30 days and can be extended to 90. Group 2 tourist-visa holders can apply to the Directorate for up to two further periods of up to 30 days, at 250 UFV each."
+      "answer": "Supreme Decree 1923 puts the maximum stay for tourists at 90 calendar days a year. The UK Foreign Office tells British travellers that border officials issue 30-day stamps but that they can stay 90 days without any new stamp; Australia's Smartraveller tells Australians that the stay permitted on entry is 30 days and can be extended to 90. The Migration Directorate's procedure for a transitory stay for tourism or visit, of up to 30 or 60 days, costs 250 UFV for up to 30 days and asks for a tourist or visit consular visa."
     },
     {
       "id": "visa-on-arrival-where",

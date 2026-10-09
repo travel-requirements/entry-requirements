@@ -1433,10 +1433,10 @@
       "fee": {
         "amount": 30,
         "currency": "USD",
-        "notes": "USD 30, paid online by card (fee cut from USD 36 on 1 January 2025). Valid for entry only at Techo (Phnom Penh), Siem Reap Angkor and Sihanoukville international airports and at the Bavet (Vietnam) and Trapeang Kriel (Laos) land crossings; Cham Yeam and Poipet on the Thai border are temporarily closed to e-Visa entry."
+        "notes": "USD 30, paid online by card (fee cut from USD 36 on 1 January 2025). Valid for entry only at Techo (Phnom Penh), Siem Reap Angkor and Sihanoukville international airports and at the Bavet (Svay Rieng) and Tropaeng Kreal (Stung Treng) land border checkpoints; Cham Yeam and Poipet on the Thai border are temporarily closed for e-Visa entry until further notice."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 3,
         "unit": "business-days"
       },
@@ -1464,6 +1464,11 @@
           {
             "url": "https://www.evisa.gov.kh/",
             "name": "Cambodia e-Visa (MFAIC) — home page: ports of entry accepting e-Visa and temporary closures",
+            "lastVerified": "2026-10-07"
+          },
+          {
+            "url": "https://travel.gc.ca/destinations/cambodia",
+            "name": "Government of Canada — Travel advice and advisories: Cambodia",
             "lastVerified": "2026-10-07"
           }
         ]
@@ -1509,13 +1514,39 @@
           "lastChanged": "2026-10-07",
           "portalOnly": true
         }
+      },
+      "evidence": {
+        "fee": {
+          "text": "Fee USD 30",
+          "url": "https://www.evisa.gov.kh/information/tourist_visa/4"
+        },
+        "processing": {
+          "text": "Receive your approval letter within 3 business days.",
+          "url": "https://www.evisa.gov.kh/"
+        },
+        "validityDays": {
+          "text": "Validity 3 months(starting from the date of issue)",
+          "url": "https://www.evisa.gov.kh/information/tourist_visa/4"
+        },
+        "stayDays": {
+          "text": "Length of Stay 1 month",
+          "url": "https://www.evisa.gov.kh/information/tourist_visa/4"
+        },
+        "entries": {
+          "text": "Entry Type Single entry only",
+          "url": "https://www.evisa.gov.kh/information/tourist_visa/4"
+        },
+        "extendable": {
+          "text": "Visas must be renewed for stays over 30 days and may only be extended once.",
+          "url": "https://travel.gc.ca/destinations/cambodia"
+        }
       }
     },
     {
       "id": "tourist-voa",
       "category": "tourist",
       "method": "visa-on-arrival",
-      "name": "Tourist Visa on Arrival (T class)",
+      "name": "Tourist visa on arrival",
       "fee": null,
       "processing": null,
       "validityDays": null,
@@ -1539,13 +1570,23 @@
             "lastVerified": "2026-10-07"
           }
         ]
+      },
+      "evidence": {
+        "stayDays": {
+          "text": "Tourist and business visas allow entry to Cambodia for 30 days only, counting from the date of entry.",
+          "url": "https://travel.gc.ca/destinations/cambodia"
+        },
+        "extendable": {
+          "text": "Visas must be renewed for stays over 30 days and may only be extended once.",
+          "url": "https://travel.gc.ca/destinations/cambodia"
+        }
       }
     },
     {
       "id": "ordinary-voa",
       "category": "business",
       "method": "visa-on-arrival",
-      "name": "Ordinary Visa on Arrival (E class)",
+      "name": "Business visa on arrival",
       "fee": null,
       "processing": null,
       "validityDays": null,
@@ -1562,13 +1603,23 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-07"
+      },
+      "evidence": {
+        "stayDays": {
+          "text": "Tourist and business visas allow entry to Cambodia for 30 days only, counting from the date of entry.",
+          "url": "https://travel.gc.ca/destinations/cambodia"
+        },
+        "extendable": {
+          "text": "Visas must be renewed for stays over 30 days and may only be extended once.",
+          "url": "https://travel.gc.ca/destinations/cambodia"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
       "rule": "6-months-on-arrival",
-      "text": "Your passport must be valid for at least 6 months on the date of arrival.",
+      "text": "Cambodia's eVisa site says your passport must have more than six months' validity left at the time of entry.",
       "source": {
         "url": "https://www.evisa.gov.kh/information/tourist_visa/4",
         "name": "Cambodia e-Visa — Visa Type Information",
@@ -1832,7 +1883,7 @@
     {
       "id": "extend-stay",
       "question": "Can I extend my stay in Cambodia?",
-      "answer": "The UK Foreign Office says you can extend a tourist visa while in Cambodia. Canada's travel advice says visas must be renewed for stays over 30 days and may be extended only once. No official source we could read states the length of an extension or of the ordinary (E-class) visa's extensions."
+      "answer": "The UK Foreign Office says you can extend a tourist visa while in Cambodia. Canada's travel advice says visas must be renewed for stays over 30 days and may be extended only once. No official source we could read states the length of an extension of an extension."
     },
     {
       "id": "asean-visa-free",

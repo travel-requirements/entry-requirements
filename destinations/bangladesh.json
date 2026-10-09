@@ -4799,14 +4799,10 @@
         "currency": "USD",
         "notes": "Paid in cash at the Sonali Bank counter in the arrivals hall. The immigration police’s visa-on-arrival page gives a visa fee of US$50, excluding processing fees, or as decided by the authority."
       },
-      "processing": {
-        "minDays": 15,
-        "maxDays": 90,
-        "unit": "minutes"
-      },
+      "processing": null,
       "validityDays": null,
       "stayDays": 30,
-      "entries": "single",
+      "entries": null,
       "extendable": {
         "possible": true,
         "days": null
@@ -4818,6 +4814,20 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-07"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Pay a visa fee USD 50 (excluding processing fees) OR fee's as per decided by the authority to the concerned SONALI BANK PLC. counter and get a receipt.",
+          "url": "https://voa.specialbranch.gov.bd/public/voa-instructions.html"
+        },
+        "stayDays": {
+          "text": "This visa is valid for a stay of a maximum of 30 days for tourism, business, investment, or a government job.",
+          "url": "https://voa.specialbranch.gov.bd/public/voa-instructions.html"
+        },
+        "extendable": {
+          "text": "Visitors who enter Bangladesh with a Visa on Arrival can extend their stay beyond the initial duration granted at the time of entry.",
+          "url": "https://voa.specialbranch.gov.bd/public/voa-instructions.html"
+        }
       }
     },
     {
@@ -4825,15 +4835,11 @@
       "category": "tourist",
       "method": "embassy",
       "name": "Tourist Visa (embassy / online application)",
-      "fee": {
-        "amount": 50,
-        "currency": "USD",
-        "notes": "Set per nationality by the fee schedule published on visa.gov.bd — for a single-entry visa, for example, US$160 for US citizens, US$65 for British, US$50 for Japanese and Kenyan, US$15 for German citizens, and less or nothing for some. The US$50 shown is the rate for some nationalities only, such as Japanese and Kenyan citizens."
-      },
+      "fee": null,
       "processing": null,
-      "validityDays": null,
+      "validityDays": 90,
       "stayDays": null,
-      "entries": "single",
+      "entries": "multiple",
       "applyUrl": "https://visa.gov.bd/",
       "source": {
         "url": "https://visa.gov.bd/",
@@ -4847,6 +4853,31 @@
           "lastAttempt": "2026-10-09",
           "reason": "unreachable",
           "status": 500
+        },
+        "alsoStatedOn": [
+          {
+            "url": "https://immi.specialbranch.gov.bd/docs/visa_policy.pdf",
+            "name": "Ministry of Home Affairs — Visa Policy 2026 (published by Immigration, Special Branch of Bangladesh Police)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
+      },
+      "extendable": {
+        "possible": true,
+        "days": null
+      },
+      "evidence": {
+        "validityDays": {
+          "text": "Total duration of visa shall be up to 03(three) months with multiple entry",
+          "url": "https://immi.specialbranch.gov.bd/docs/visa_policy.pdf"
+        },
+        "entries": {
+          "text": "Total duration of visa shall be up to 03(three) months with multiple entry",
+          "url": "https://immi.specialbranch.gov.bd/docs/visa_policy.pdf"
+        },
+        "extendable": {
+          "text": "If visa is issued for less than 03 (three) months, visa may be extended for the remaining period with single entry",
+          "url": "https://immi.specialbranch.gov.bd/docs/visa_policy.pdf"
         }
       }
     },
@@ -4855,11 +4886,7 @@
       "category": "business",
       "method": "embassy",
       "name": "Business Visa",
-      "fee": {
-        "amount": 50,
-        "currency": "USD",
-        "notes": "Set per nationality by the fee schedule on visa.gov.bd. Bangladesh’s Visa Policy 2026 asks for an invitation letter from a business registered in Bangladesh, the inviting firm’s certificate of incorporation or trade licence and 3–6 months of the applicant’s bank statements. Issued for up to one year, multiple entry, with stays of up to 90 days per entry."
-      },
+      "fee": null,
       "processing": null,
       "validityDays": 365,
       "stayDays": 90,
@@ -4872,6 +4899,28 @@
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-07",
         "instrument": "Visa Policy 2026, Ministry of Home Affairs (published August 2026), category B (Business): up to 1 year with multiple entry, 90 days stay per entry; fee per nationality from the visa fee schedule on the MRV portal (https://visa.gov.bd/)"
+      },
+      "evidence": {
+        "validityDays": {
+          "text": "Up to 1(one) year with multiple entry facility, 90(ninety) days stay per entry",
+          "url": "https://immi.specialbranch.gov.bd/docs/visa_policy.pdf"
+        },
+        "stayDays": {
+          "text": "Up to 1(one) year with multiple entry facility, 90(ninety) days stay per entry",
+          "url": "https://immi.specialbranch.gov.bd/docs/visa_policy.pdf"
+        },
+        "entries": {
+          "text": "Up to 1(one) year with multiple entry facility, 90(ninety) days stay per entry",
+          "url": "https://immi.specialbranch.gov.bd/docs/visa_policy.pdf"
+        },
+        "extendable": {
+          "text": "Visa may be extended up to 2(two) years, 90(ninety) days stay per entry",
+          "url": "https://immi.specialbranch.gov.bd/docs/visa_policy.pdf"
+        }
+      },
+      "extendable": {
+        "possible": true,
+        "days": null
       }
     }
   ],
@@ -4918,8 +4967,8 @@
     },
     "onwardTicket": {
       "required": true,
-      "appliesTo": "all",
-      "text": "Visa-on-arrival travellers may be asked for a return ticket, among the documents the immigration officer examines before granting the visa, under Bangladesh's Visa Policy 2026.",
+      "appliesTo": "visa-applicants",
+      "text": "Bangladesh's Visa Policy 2026 lists a return ticket among the documents for a first tourist (T) visa, and among the documents the immigration authority examines before granting a visa on arrival.",
       "source": {
         "url": "https://immi.specialbranch.gov.bd/docs/visa_policy.pdf",
         "name": "Ministry of Home Affairs — Visa Policy 2026 (published by Immigration, Special Branch of Bangladesh Police)",
@@ -5141,7 +5190,7 @@
     {
       "id": "voa-details",
       "question": "How does Bangladesh's visa on arrival work?",
-      "answer": "Eligible travellers pay the fee (US$50, excluding processing fees) in cash at the Sonali Bank counter at the port of entry, for a single-entry stay of up to 30 days. Under the Visa Policy 2026 the immigration officer grants the visa after examining documents such as a hotel reservation, a return ticket and proof of finance in card or cash."
+      "answer": "Eligible travellers pay the fee (US$50, excluding processing fees) in cash at the Sonali Bank counter at the port of entry, for a stay of up to 30 days. Under the Visa Policy 2026 the immigration officer grants the visa after examining documents such as a hotel reservation, a return ticket and proof of finance in card or cash."
     },
     {
       "id": "extend-stay",

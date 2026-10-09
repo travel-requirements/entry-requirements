@@ -13,7 +13,7 @@
     "thailand",
     "singapore"
   ],
-  "summary": "New Zealand lets visa-waiver nationals (the US, UK, EU, Canada, Japan and around 30 others) visit for up to 3 months — 6 for British citizens — but they must first obtain an NZeTA and pay the NZD 100 International Visitor Levy. Australians enter freely, everyone else needs a Visitor Visa, and everyone travelling into New Zealand must submit the digital New Zealand Traveller Declaration by the time they reach passport control; it can be done before the flight.",
+  "summary": "New Zealand lets visa-waiver nationals (including the US, UK, EU countries, Canada and Japan) visit for up to 3 months — 6 for British citizens — but they must first obtain an NZeTA, and most international visitors also pay the NZD 100 International Visitor Levy. Australians enter freely, everyone else needs a Visitor Visa, and everyone travelling into New Zealand must submit the digital New Zealand Traveller Declaration by the time they reach passport control; it can be done before the flight.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -1680,20 +1680,16 @@
       "fee": {
         "amount": 17,
         "currency": "NZD",
-        "notes": "NZD 17 request fee in the NZeTA app, or NZD 23 when requested on the web form (as the NZeTA request form states), plus the NZD 100 International Visitor Conservation and Tourism Levy (IVL) paid at the same time — about NZD 117 in total for most tourists using the app. Immigration New Zealand says to use the official NZeTA website or app."
+        "notes": "From NZD 17, according to Immigration New Zealand, which says to use the official NZeTA website or app. The Ministry of Business, Innovation and Employment says most international visitors also pay the NZD 100 International Visitor Conservation and Tourism Levy (IVL) when applying for an NZeTA."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 3,
         "unit": "calendar-days"
       },
       "validityDays": 730,
       "stayDays": 90,
-      "entries": "multiple",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": "https://www.immigration.govt.nz/new-zealand-visas/visas/visa/nzeta",
       "source": {
         "url": "https://www.immigration.govt.nz/visas/new-zealand-electronic-travel-authority-nzeta/",
@@ -1705,6 +1701,11 @@
           {
             "url": "https://nzeta.immigration.govt.nz/",
             "name": "Immigration New Zealand — official NZeTA request site: NZD 23 on the web, NZD 17 in the app, plus NZD 100 IVL",
+            "lastVerified": "2026-10-09"
+          },
+          {
+            "url": "https://www.mbie.govt.nz/immigration-and-tourism/tourism/tourism-funding/international-visitor-conservation-and-tourism-levy",
+            "name": "Ministry of Business, Innovation and Employment — International Visitor Conservation and Tourism Levy",
             "lastVerified": "2026-10-09"
           }
         ]
@@ -1731,6 +1732,24 @@
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07"
         }
+      },
+      "evidence": {
+        "fee": {
+          "text": "Cost From NZD $17",
+          "url": "https://www.immigration.govt.nz/visas/new-zealand-electronic-travel-authority-nzeta/"
+        },
+        "processing": {
+          "text": "Processing time Allow 72 hours",
+          "url": "https://www.immigration.govt.nz/visas/new-zealand-electronic-travel-authority-nzeta/"
+        },
+        "validityDays": {
+          "text": "Valid for 2 years for travellers",
+          "url": "https://www.immigration.govt.nz/visas/new-zealand-electronic-travel-authority-nzeta/"
+        },
+        "stayDays": {
+          "text": "To allow stays (each visit) for 3 months, or 6 months for UK citizens",
+          "url": "https://www.immigration.govt.nz/visas/new-zealand-electronic-travel-authority-nzeta/"
+        }
       }
     },
     {
@@ -1743,14 +1762,10 @@
         "currency": "NZD",
         "notes": "Immigration New Zealand gives the cost as from NZD 441. It says 80% of applications are processed within 2 weeks; processing is busiest between September and March."
       },
-      "processing": {
-        "minDays": 0,
-        "maxDays": 14,
-        "unit": "calendar-days"
-      },
+      "processing": null,
       "validityDays": null,
-      "stayDays": 180,
-      "entries": "multiple",
+      "stayDays": null,
+      "entries": null,
       "extendable": {
         "possible": true,
         "days": null
@@ -1840,6 +1855,16 @@
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07"
         }
+      },
+      "evidence": {
+        "fee": {
+          "text": "Cost From NZD $441",
+          "url": "https://www.immigration.govt.nz/visas/visitor-visa/"
+        },
+        "extendable": {
+          "text": "If you are in New Zealand now with a Visitor Visa and need more time for a genuine reason, you can apply to extend your visit.",
+          "url": "https://www.immigration.govt.nz/visas/visitor-visa/"
+        }
       }
     }
   ],
@@ -1857,10 +1882,10 @@
     },
     "vaccinations": [],
     "travelInsurance": {
-      "required": false,
+      "required": null,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "Not an entry requirement for tourists. Immigration New Zealand says visitors will need to pay for any health care or medical assistance they need, and recommends full medical insurance for the stay.",
+      "text": "No official source we could read makes travel insurance an entry requirement. Immigration New Zealand says visitors will need to pay for any health care or medical assistance they need in New Zealand, and recommends full medical insurance for the stay.",
       "source": {
         "url": "https://www.immigration.govt.nz/visas/new-zealand-electronic-travel-authority-nzeta/",
         "name": "Immigration New Zealand — NZeTA",
@@ -1884,12 +1909,8 @@
     "proofOfFunds": {
       "required": true,
       "appliesTo": "all",
-      "amount": {
-        "value": 1000,
-        "currency": "NZD",
-        "per": "person"
-      },
-      "text": "Visitors must be able to show NZD 1,000 per person per month of stay (NZD 400 per month if accommodation is already paid for).",
+      "amount": null,
+      "text": "Immigration New Zealand says visitors must have at least NZD 1,000 a month, or NZD 400 a month if accommodation is already paid for, and may be asked to show it at check-in or on arrival.",
       "source": {
         "url": "https://www.immigration.govt.nz/visas/new-zealand-electronic-travel-authority-nzeta/",
         "name": "Immigration New Zealand — NZeTA",
@@ -2098,19 +2119,19 @@
     {
       "id": "ivl-cost",
       "type": "info",
-      "text": "Budget for the NZD 100 International Visitor Levy on top of the NZD 17 NZeTA fee. It is charged in the same transaction and funds conservation and tourism infrastructure."
+      "text": "Budget for the NZD 100 International Visitor Levy on top of the NZeTA fee (from NZD 17): the Ministry of Business, Innovation and Employment says most international visitors pay it when applying for a visa or NZeTA, and that it funds conservation, infrastructure used for tourism and other tourism initiatives."
     }
   ],
   "faq": [
     {
       "id": "us-need-visa",
       "question": "Do US citizens need a visa for New Zealand?",
-      "answer": "No visa, but they must request an NZeTA before boarding and pay the International Visitor Levy — about NZD 117 in total. Once granted, it is valid for 2 years and allows visits of up to 3 months."
+      "answer": "No visa, but they must request an NZeTA before boarding (from NZD 17), and most international visitors also pay the NZD 100 International Visitor Levy. Once granted, it is valid for 2 years and allows visits of up to 3 months."
     },
     {
       "id": "nzeta-cost",
       "question": "How much does the NZeTA really cost?",
-      "answer": "The NZeTA request fee is NZD 17, but most international visitors also pay the NZD 100 International Visitor Conservation and Tourism Levy (IVL) in the same transaction, so expect about NZD 117. Immigration New Zealand says to use the official NZeTA website or app."
+      "answer": "Immigration New Zealand gives the NZeTA cost as from NZD 17 and says to use the official NZeTA website or app. The Ministry of Business, Innovation and Employment says most international visitors also pay the NZD 100 International Visitor Conservation and Tourism Levy (IVL), when applying for a visa or NZeTA."
     },
     {
       "id": "australians",

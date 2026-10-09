@@ -14,7 +14,7 @@
     "singapore",
     "indonesia"
   ],
-  "summary": "Brunei waives visas in tiers — 90 days for US, Canadian, UK, EU and EFTA passports, 30 days for several Asian, Gulf and European nationalities, and 14 days for most ASEAN neighbors — while Australians and four Gulf nationalities obtain a visa on arrival and most other travelers apply in advance for a visit visa through a Bruneian mission.",
+  "summary": "Brunei waives visas in tiers — 90 days for US, Canadian, UK, EU and EFTA passports, 30 days for nationalities including Japan, Malaysia, Singapore, South Korea and the UAE, and 14 days for nationalities including Cambodia, China, Indonesia, the Philippines, Thailand and Vietnam — while nationals of Australia, Bahrain, Kuwait, Qatar and Saudi Arabia obtain a visa on arrival and the nationalities in the Foreign Ministry's other categories apply in advance for a visit visa through a Bruneian mission.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -4424,26 +4424,32 @@
       "id": "voa-tourist",
       "category": "tourist",
       "method": "visa-on-arrival",
-      "name": "Visa on arrival (eligible nationalities, incl. Australians)",
+      "name": "Visa on arrival (Category C1 nationalities)",
       "fee": {
         "amount": 20,
         "currency": "BND",
         "notes": "BND 20 or BND 30, according to the foreign ministry, which lists the visa as single or multiple entry."
       },
-      "processing": {
-        "minDays": 15,
-        "maxDays": 30,
-        "unit": "minutes"
-      },
+      "processing": null,
       "validityDays": null,
       "stayDays": 30,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.mfa.gov.bn/Pages/C1---CS30.aspx",
         "name": "Ministry of Foreign Affairs, Brunei Darussalam — Visa Information, Category C1 (visa on arrival)",
         "type": "government",
         "lastVerified": "2026-10-07"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Fees: BND20.00 / BND30.00",
+          "url": "https://www.mfa.gov.bn/Pages/C1---CS30.aspx"
+        },
+        "stayDays": {
+          "text": "Visa duration: 30 days",
+          "url": "https://www.mfa.gov.bn/Pages/C1---CS30.aspx"
+        }
       }
     },
     {
@@ -4463,7 +4469,7 @@
       },
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.mfa.gov.bn/Pages/Category-A.aspx",
@@ -4471,6 +4477,16 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-07"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Visa is issued for a fee of BND20.00 or its equivalent.",
+          "url": "https://www.mfa.gov.bn/Pages/Category-A.aspx"
+        },
+        "processing": {
+          "text": "Fourteen (14) working days (excluding the date of submission application).",
+          "url": "https://www.mfa.gov.bn/Pages/Category-A.aspx"
+        }
       }
     }
   ],
@@ -4758,12 +4774,12 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Brunei?",
-      "answer": "Many visitors do not. US, Canadian and EU passport holders get 90 days visa-free, the UK 90 days, several Asian, Gulf and European nationalities get 30 days, and most ASEAN neighbors get 14 days. Australians and four Gulf nationalities obtain a visa on arrival, and the nationalities Brunei's Foreign Ministry lists in its categories A and B apply in advance for a visit visa through a Bruneian mission — no official Brunei source describes an online e-Visa."
+      "answer": "Many visitors do not. US, Canadian, UK and EU passport holders get 90 days visa-free; nationalities including Japan, Malaysia, Singapore and South Korea get 30 days; and nationalities including Cambodia, Indonesia, the Philippines, Thailand and Vietnam get 14 days. Nationals of Australia, Bahrain, Kuwait, Qatar and Saudi Arabia obtain a visa on arrival, and the nationalities Brunei's Foreign Ministry lists in its categories A and B apply in advance for a visit visa through a Bruneian mission — no official Brunei source describes an online e-Visa."
     },
     {
       "id": "australians",
       "question": "Do Australians need a visa for Brunei?",
-      "answer": "Australians obtain a visa on arrival, single or multiple entry, for stays up to 30 days. The fee is BND 20 for single entry and BND 30 for multiple entry."
+      "answer": "Australians obtain a visa on arrival. Brunei's Foreign Ministry lists the visa on arrival as single or multiple entry, with a visa duration of 30 days and fees of BND 20 or BND 30."
     },
     {
       "id": "alcohol",

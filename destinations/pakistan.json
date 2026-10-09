@@ -18,7 +18,7 @@
     "sri-lanka",
     "nepal"
   ],
-  "summary": "Pakistan issues tourist eVisas through its official online portal to citizens of the 192 countries on its eligibility list — with fees of USD 8.18 to 60 depending on nationality — and citizens of the six Gulf Cooperation Council states need no visa at all. Indian citizens apply for a visit visa at the Pakistan High Commission in New Delhi.",
+  "summary": "Pakistan's online visa system says it is open to citizens of 192 countries, and that the six GCC countries are not required to apply for a visa. Indian citizens apply for a visit visa at the Pakistan High Commission in New Delhi.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -52,7 +52,7 @@
         },
         {
           "url": "https://visa.nadra.gov.pk/evisaFee/wizard.php",
-          "name": "Pakistan Online Visa System — visa fee calculator (tourist, single entry up to 3 months: fee by nationality, USD 8.18 to 60)",
+          "name": "Pakistan Online Visa System — visa fee calculator",
           "lastVerified": "2026-10-08"
         }
       ],
@@ -1664,7 +1664,7 @@
       "fee": {
         "amount": 20,
         "currency": "USD",
-        "notes": "Set by nationality. The portal's fee calculator gives, for a single-entry tourist visa of up to 3 months: USD 20 for most eligible nationalities (100 of 192); USD 25 for 31 mostly Asian and Gulf states; USD 35 for most of Europe and Latin America; USD 50 for Germany; USD 60 for the United States, United Kingdom, Canada, Australia, New Zealand and Mexico; and USD 8.18 for ten countries including China, Japan, Malaysia, Saudi Arabia and the UAE. No nationality is shown as fee-free."
+        "notes": "Set by the country you apply from. For a tourist/visit visa (individual, less than 3 months, single entry) the portal's fee calculator gives USD 20 for an application from Algeria and USD 60 for one from the United States."
       },
       "processing": {
         "minDays": 7,
@@ -1685,7 +1685,14 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-03",
-        "instrument": "Fee: Pakistan Online Visa System fee calculator (Tourist/Visit, individual less than 3 months, single entry: e.g. USD 20 for Algeria, Ghana, Albania; USD 60 United States; USD 8.18 China) (https://visa.nadra.gov.pk/fee-structure/)"
+        "instrument": "Fee: Pakistan Online Visa System fee calculator (Tourist/Visit, individual less than 3 months, single entry, entry: USD 20 applying from Algeria, USD 60 applying from the United States) (https://visa.nadra.gov.pk/evisaFee/wizard.php)",
+        "alsoStatedOn": [
+          {
+            "url": "https://visa.nadra.gov.pk/evisaFee/wizard.php",
+            "name": "Pakistan Online Visa System — visa fee calculator",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       },
       "documents": {
         "items": [
@@ -1712,6 +1719,28 @@
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07"
         }
+      },
+      "evidence": {
+        "fee": {
+          "text": "Country of Application Algeria Application Type Entry Total Fees:20 USD",
+          "url": "https://visa.nadra.gov.pk/evisaFee/wizard.php"
+        },
+        "processing": {
+          "text": "Entry (Individual up-to 3 Months) : 7-10 days (Working Days)",
+          "url": "https://visa.nadra.gov.pk/tourist-visa/"
+        },
+        "stayDays": {
+          "text": "Single Entry for duration up to 3 months",
+          "url": "https://visa.nadra.gov.pk/tourist-visa/"
+        },
+        "entries": {
+          "text": "Single Entry for duration up to 3 months",
+          "url": "https://visa.nadra.gov.pk/tourist-visa/"
+        },
+        "extendable": {
+          "text": "Extension: You can apply for a visa extension if you possess a valid Pakistan visa and you are residing in Pakistan.",
+          "url": "https://visa.nadra.gov.pk/tourist-visa/"
+        }
       }
     },
     {
@@ -1720,11 +1749,7 @@
       "method": "evisa",
       "name": "Business eVisa",
       "fee": null,
-      "processing": {
-        "minDays": 1,
-        "maxDays": 20,
-        "unit": "business-days"
-      },
+      "processing": null,
       "validityDays": 1825,
       "stayDays": null,
       "entries": "multiple",
@@ -1778,6 +1803,20 @@
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07"
         }
+      },
+      "evidence": {
+        "validityDays": {
+          "text": "A Business Visa may be granted for up to 5 years.",
+          "url": "https://visa.nadra.gov.pk/business-visa/"
+        },
+        "entries": {
+          "text": "A Business Visa is valid for Multiple Entries in to Pakistan",
+          "url": "https://visa.nadra.gov.pk/business-visa/"
+        },
+        "extendable": {
+          "text": "Extension : You can apply for a visa extension if you posses a valid Pakistan visa and you are residing in Pakistan.",
+          "url": "https://visa.nadra.gov.pk/business-visa/"
+        }
       }
     },
     {
@@ -1789,7 +1828,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://pakhcnewdelhi.org.pk/requirements-for-visit-visa/",
@@ -1818,7 +1857,7 @@
         "name": "Yellow fever",
         "certificate": "ICVP",
         "requiredWhen": "arriving-from-risk-country",
-        "text": "A yellow fever vaccination certificate (ICVP) is required if you arrive from a country with risk of yellow fever transmission.",
+        "text": "The UK government says that to enter Pakistan you must have a certificate to prove you have had a yellow fever vaccination if you are coming from a country listed as a transmission risk.",
         "source": {
           "url": "https://www.gov.uk/foreign-travel-advice/pakistan/entry-requirements",
           "name": "UK Foreign, Commonwealth & Development Office — Pakistan travel advice: entry requirements",
@@ -2068,7 +2107,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Pakistan?",
-      "answer": "Almost everyone does. Citizens of the 192 countries on the official eligibility list can apply online for a tourist eVisa at visa.nadra.gov.pk — the fee, set by nationality, is USD 8.18 to 60. Citizens of the six GCC states (Bahrain, Kuwait, Oman, Qatar, Saudi Arabia and the United Arab Emirates) do not need a visa. Indian citizens apply for a visit visa at the Pakistan High Commission in New Delhi."
+      "answer": "Pakistan's visa portal says citizens of GCC countries do not require a visa to enter Pakistan, and that the online visa system is open to citizens of 192 countries. Its fee calculator sets the tourist eVisa fee by the country you apply from: USD 20 from Algeria and USD 60 from the United States for a single-entry visit of less than 3 months. Indian citizens apply for a visit visa at the Pakistan High Commission in New Delhi."
     },
     {
       "id": "evisa-processing",

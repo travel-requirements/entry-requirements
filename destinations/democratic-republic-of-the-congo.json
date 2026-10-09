@@ -1120,7 +1120,7 @@
         "notes": "USD 50 non-refundable administrative fee plus USD 250 for the eVisa. The 7-day airport visa (VAP) it entitles you to costs a further USD 90, payable at the port of entry."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": 3,
         "maxDays": 3,
         "unit": "calendar-days"
       },
@@ -1138,6 +1138,28 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-09-26"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Le eVisa coûte 300 USD dont 50$ constituent les frais administratifs et les 250$ le prix du eVIsa lui-même.",
+          "url": "https://evisa.gouv.cd/helps/faqs"
+        },
+        "processing": {
+          "text": "Le délai de traitement est de 72 heures dès la réception de la demande.",
+          "url": "https://evisa.gouv.cd/helps/faqs"
+        },
+        "validityDays": {
+          "text": "Un e-visa doit être utilisé dans les trois mois suivant la date de sa délivrance.",
+          "url": "https://evisa.gouv.cd/helps/faqs"
+        },
+        "entries": {
+          "text": "Il donne droit à un visa aéroportuaire de 7 jours avec une seule entrée.",
+          "url": "https://evisa.gouv.cd/helps/faqs"
+        },
+        "extendable": {
+          "text": "Le eVisa vous permet d'obtenir un VAP (Visa AéroPortuaire) qui sera apposé dans votre passeport avec une validité de 7 jours prorogeable.",
+          "url": "https://evisa.gouv.cd/helps/faqs"
+        }
       }
     },
     {
@@ -1148,7 +1170,7 @@
       "fee": {
         "amount": 100,
         "currency": "USD",
-        "notes": "Embassy in Washington: USD 100 for a single-entry visa valid one month, USD 135 for two months and USD 400 for six; multiple-entry visas cost USD 120, 150, 160 or 450 for one, two, three or six months. A letter of invitation or hotel booking is required."
+        "notes": "Embassy in Washington: USD 100 for a single-entry visa valid one month, USD 135 for two months and USD 400 for six; multiple-entry visas cost USD 120, 150, 160 or 450 for one, two, three or six months. The embassy says that under a DRC–US agreement, visas for American citizens travelling for tourism, study or business are valid for 2 years and cost USD 185. Tourists include a notarized invitation from a tourism agency or private host, or a notarized letter with their hotel reservation."
       },
       "processing": null,
       "validityDays": 30,
@@ -1168,13 +1190,27 @@
             "lastVerified": "2026-10-09"
           }
         ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "Single entry (1 month validity visa) $ 100.00",
+          "url": "https://www.ambadrcusa.org/consular-affairs/all-consular-affairs-related-fees/"
+        },
+        "validityDays": {
+          "text": "Single entry (1 month validity visa) $ 100.00",
+          "url": "https://www.ambadrcusa.org/consular-affairs/all-consular-affairs-related-fees/"
+        },
+        "entries": {
+          "text": "Single entry (1 month validity visa) $ 100.00",
+          "url": "https://www.ambadrcusa.org/consular-affairs/all-consular-affairs-related-fees/"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
       "rule": "6-months-on-arrival",
-      "text": "Your passport must be valid for at least 6 months after the date you arrive in the DRC.",
+      "text": "The UK Foreign Office says your passport must have an expiry date at least 6 months after the date you arrive in the DRC.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/democratic-republic-of-the-congo/entry-requirements",
         "name": "UK Foreign, Commonwealth & Development Office — Democratic Republic of the Congo entry requirements",
@@ -1217,9 +1253,9 @@
       }
     },
     "onwardTicket": {
-      "required": true,
-      "appliesTo": "visa-applicants",
-      "text": "Visa applicants must include a copy of their flight itinerary; the embassy in Washington specifies an itinerary, not an actual booking or ticket. Tourists also need a notarized invitation from a tour agency or private host, or a notarized letter with their hotel reservation.",
+      "required": null,
+      "appliesTo": null,
+      "text": "No official source we could read states an onward or return ticket requirement for the DRC. The embassy in Washington asks visa applicants for a copy of their flight itinerary, which it says is not an actual booking or ticket.",
       "source": {
         "url": "https://www.ambadrcusa.org/consular-affairs/passport-visa-tenant-lieu/",
         "name": "Embassy of the Democratic Republic of the Congo in Washington — Passport, visa and tenant-lieu requirements",

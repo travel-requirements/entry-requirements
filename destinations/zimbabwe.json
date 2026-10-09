@@ -19,7 +19,7 @@
     "namibia",
     "mozambique"
   ],
-  "summary": "Zimbabwe sorts visitors into three lists: SADC neighbors and much of the Caribbean and Pacific enter visa-free, while most Western tourists — including US, UK, EU, Canadian and Australian passports — simply buy a visa on arrival from USD 30. A minority of nationalities must have an eVisa or embassy visa approved before travel.",
+  "summary": "Zimbabwe's eVisa portal sorts nationalities into three categories: Category A, including South Africa and Botswana, needs no visa; Category B, including US, UK, EU, Canadian and Australian passports, pays for and obtains a visa on entering Zimbabwe (the Department of Immigration lists USD 30 for an ordinary single entry at the port of entry); and Category C must pay for and obtain a visa before travelling.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -1576,7 +1576,7 @@
       "fee": {
         "amount": 30,
         "currency": "USD",
-        "notes": "USD 30 single entry at the port of entry for most Category B passports. The Department of Immigration's fee schedule lists separate online rates for British citizens (USD 55 single, USD 70 double entry) and Chinese citizens (USD 60 single), and USD 55 for a multiple-entry visa; it publishes no other double-entry or nationality-specific rates. The UK government advises taking enough US dollars in small notes to pay for the visa. The eVisa portal says the visa on arrival is valid for one month."
+        "notes": "USD 30 single entry at the port of entry for most Category B passports. The Department of Immigration's fee schedule lists separate online rates for British citizens (USD 55 single, USD 70 double entry) and Chinese citizens (USD 60 single), and USD 55 for a multiple-entry visa; it publishes no other double-entry or nationality-specific rates. The UK government advises taking enough US dollars in small notes to pay for the visa."
       },
       "processing": null,
       "validityDays": null,
@@ -1605,6 +1605,24 @@
             "lastVerified": "2026-10-09"
           }
         ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "Ordinary single entry (port of entry) 30 USD",
+          "url": "https://www.zimimmigration.gov.zw/?page_id=6958"
+        },
+        "entries": {
+          "text": "Ordinary single entry (port of entry) 30 USD",
+          "url": "https://www.zimimmigration.gov.zw/?page_id=6958"
+        },
+        "stayDays": {
+          "text": "The visa on arrival is usually granted for 30 days.",
+          "url": "https://www.gov.uk/foreign-travel-advice/zimbabwe/entry-requirements"
+        },
+        "extendable": {
+          "text": "To extend or renew visas or permits, go in person to the Government of Zimbabwe Immigration Department.",
+          "url": "https://www.gov.uk/foreign-travel-advice/zimbabwe/entry-requirements"
+        }
       }
     },
     {
@@ -1623,7 +1641,7 @@
         "unit": "business-days"
       },
       "validityDays": 30,
-      "stayDays": 30,
+      "stayDays": null,
       "entries": "single",
       "extendable": {
         "possible": true,
@@ -1641,6 +1659,11 @@
             "url": "https://www.zimimmigration.gov.zw/?page_id=6958",
             "name": "Zimbabwe Department of Immigration — Fees (single entry USD 30)",
             "lastVerified": "2026-10-07"
+          },
+          {
+            "url": "https://www.gov.uk/foreign-travel-advice/zimbabwe/entry-requirements",
+            "name": "UK FCDO — Zimbabwe travel advice: entry requirements",
+            "lastVerified": "2026-10-09"
           }
         ]
       },
@@ -1654,6 +1677,28 @@
           "type": "government",
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07"
+        }
+      },
+      "evidence": {
+        "fee": {
+          "text": "Ordinary single-entry visa (online) 30 USD",
+          "url": "https://www.zimimmigration.gov.zw/?page_id=6958"
+        },
+        "processing": {
+          "text": "On average, the processing time for an e-Visa is seven (7) working days.",
+          "url": "https://www.evisa.gov.zw/faq.html"
+        },
+        "validityDays": {
+          "text": "The e-Visa is valid for one (1) month for a single entry or a KAZA UNIVISA",
+          "url": "https://www.evisa.gov.zw/faq.html"
+        },
+        "entries": {
+          "text": "Single Entry: Allows for a single entry with no re-entry without obtaining a new visa.",
+          "url": "https://www.evisa.gov.zw/faq.html"
+        },
+        "extendable": {
+          "text": "To extend or renew visas or permits, go in person to the Government of Zimbabwe Immigration Department.",
+          "url": "https://www.gov.uk/foreign-travel-advice/zimbabwe/entry-requirements"
         }
       }
     },
@@ -1669,12 +1714,8 @@
       },
       "processing": null,
       "validityDays": 30,
-      "stayDays": 30,
-      "entries": "multiple",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "stayDays": null,
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/zimbabwe/entry-requirements",
@@ -1682,13 +1723,23 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "fee": {
+          "text": "It costs 50 US dollars and is valid for 30 days.",
+          "url": "https://www.gov.uk/foreign-travel-advice/zimbabwe/entry-requirements"
+        },
+        "validityDays": {
+          "text": "It costs 50 US dollars and is valid for 30 days.",
+          "url": "https://www.gov.uk/foreign-travel-advice/zimbabwe/entry-requirements"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
       "rule": "6-months-on-arrival",
-      "text": "Your passport must be valid for at least 6 months on arrival in Zimbabwe.",
+      "text": "The UK government tells British nationals that to enter Zimbabwe their passport must have an expiry date at least 6 months after the date they arrive, and 3 blank pages.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/zimbabwe/entry-requirements",
         "name": "UK FCDO — Zimbabwe travel advice, entry requirements",
@@ -1711,7 +1762,7 @@
         "name": "Yellow fever",
         "certificate": "International Certificate of Vaccination (yellow card)",
         "requiredWhen": "arriving-from-risk-country",
-        "text": "A yellow fever vaccination certificate is required if you are coming from a country listed as a yellow fever transmission risk.",
+        "text": "The UK government says that to enter Zimbabwe you must have a certificate proving yellow fever vaccination if you are coming from a country listed as a transmission risk.",
         "source": {
           "url": "https://www.gov.uk/foreign-travel-advice/zimbabwe/entry-requirements",
           "name": "UK FCDO — Zimbabwe travel advice, entry requirements",
@@ -1962,7 +2013,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Zimbabwe?",
-      "answer": "Category B nationalities, including holders of US, UK, EU, Canadian, Australian and Japanese passports, pay for and obtain a visa on arrival, from USD 30. Category A nationalities, including SADC neighbours, need no visa, while Category C nationalities must obtain a visa before travel via evisa.gov.zw or an embassy."
+      "answer": "Zimbabwe's eVisa portal says Category B nationalities, including holders of US, UK, EU, Canadian, Australian and Japanese passports, pay for and obtain a visa on entering Zimbabwe, from USD 30. Category A nationalities, including South Africa and Botswana, need no visa, while Category C nationalities must pay for and obtain a visa before travelling, via evisa.gov.zw or an embassy."
     },
     {
       "id": "voa-cost",

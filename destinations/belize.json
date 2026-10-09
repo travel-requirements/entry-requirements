@@ -16,7 +16,7 @@
     "costa-rica",
     "honduras"
   ],
-  "summary": "Belize is visa-free for US, UK, Canadian, Australian and CARICOM passports and most EU passports, with visitors stamped in for up to 30 days and monthly extensions available for a fee. Nationalities that need a visa apply for a consular visa — though holders of a valid multiple-entry US, Canadian or Schengen visa, or of a US or Canadian permanent residence card, are exempt for visits of up to 30 days.",
+  "summary": "Belize's Immigration Department lists US, UK, Canadian, Australian, CARICOM and many EU passports as not needing a visa; it says a stay longer than 30 days must be extended at an Immigration Office with a Visitor's Permit Extension, which costs BZD 200. Nationalities that need a visa apply for a consular visa — though holders of a valid multiple-entry US, Canadian or Schengen visa, or of a US or Canadian permanent residence card, are exempt for visits of up to 30 days.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -2517,8 +2517,42 @@
         "url": "https://immigration.gov.bz/visa/visa-fees/",
         "name": "Belize Immigration Department — Visa Fees",
         "type": "government",
-        "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-03",
+        "alsoStatedOn": [
+          {
+            "url": "https://immigration.gov.bz/visa/visa-who-qualify/",
+            "name": "Belize Immigration Department — Do you need a visa to travel to Belize? (a visa allows a stay of up to 30 days)",
+            "lastVerified": "2026-10-09"
+          },
+          {
+            "url": "https://immigration.gov.bz/permits/visitors-permit/",
+            "name": "Belize Immigration Department — Visitor's Permit Extension",
+            "lastVerified": "2026-10-09"
+          }
+        ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "All other Nationals Single Entry $200.00",
+          "url": "https://immigration.gov.bz/visa/visa-fees/"
+        },
+        "validityDays": {
+          "text": "Single entry visas are valid for 6 months.",
+          "url": "https://immigration.gov.bz/visa/visa-fees/"
+        },
+        "entries": {
+          "text": "Single entry visas are valid for 6 months.",
+          "url": "https://immigration.gov.bz/visa/visa-fees/"
+        },
+        "stayDays": {
+          "text": "A visa allows you to enter Belize and remain legal in Belize for a maximum of 30 days from date of entry.",
+          "url": "https://immigration.gov.bz/visa/visa-who-qualify/"
+        },
+        "extendable": {
+          "text": "The Visitor’s Permit Extension allows you to stay in Belize for an additional 30 days. Fees Fees with effect from 1 May 2020. All fees are in Belize dollars. The Visitor’s Permit Extension fee is BZ$200.00 for all nationals. Who can Qualify Persons who want to extend their holidays in Belize or persons investigating the possibilities of settlement. Persons who require a visa (see Visa Section) after a predefined number of extended days in Belize, must acquire that visa before being issued a visitor’s permit extension. Holders of a Belize visa may qualify for visitor’s permit extension.",
+          "url": "https://immigration.gov.bz/permits/visitors-permit/"
+        }
       }
     },
     {
@@ -2534,30 +2568,36 @@
       "processing": null,
       "validityDays": null,
       "stayDays": 30,
-      "entries": "single",
-      "extendable": {
-        "possible": true,
-        "days": 30
-      },
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://immigration.gov.bz/permits/visitors-permit/",
         "name": "Belize Immigration Department — Visitor's Permit",
         "type": "government",
-        "lastVerified": "2026-10-07",
-        "lastChanged": "2026-09-26"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09"
+      },
+      "evidence": {
+        "fee": {
+          "text": "The Visitor’s Permit Extension fee is BZ$200.00 for all nationals.",
+          "url": "https://immigration.gov.bz/permits/visitors-permit/"
+        },
+        "stayDays": {
+          "text": "The Visitor’s Permit Extension allows you to stay in Belize for an additional 30 days.",
+          "url": "https://immigration.gov.bz/permits/visitors-permit/"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
       "rule": "other",
-      "text": "Belize's Immigration Department asks visa applicants for a passport valid for more than 6 months, and publishes no minimum for visa-exempt visitors. The UK Foreign Office says your passport must expire more than 3 months after the date you arrive, and that some airlines may refuse boarding if it does not run more than 6 months beyond arrival.",
+      "text": "Belize's Immigration Department asks visa applicants for a passport valid for more than 6 months, and publishes no minimum for visa-exempt visitors. The UK Foreign Office tells British nationals their passport must expire more than 3 months after the date they arrive, and that some airlines may refuse boarding if it does not run more than 6 months beyond arrival.",
       "source": {
         "url": "https://immigration.gov.bz/visa/visa-requirements/",
         "name": "Belize Immigration Department — Visa Requirements",
         "type": "government",
-        "lastVerified": "2026-10-03",
+        "lastVerified": "2026-10-09",
         "lastChanged": "2026-10-03",
         "conflict": {
           "url": "https://www.gov.uk/foreign-travel-advice/belize/entry-requirements",
@@ -2735,7 +2775,7 @@
     {
       "id": "thirty-day-stamp",
       "type": "tip",
-      "text": "Visitors can stay without a visa for 30 days. According to the UK Foreign Office, each additional 30 days costs BZD 200, requested at the nearest office of the Belize Immigration and Nationality Department."
+      "text": "Belize's Immigration Department says a stay longer than 30 days needs a Visitor's Permit Extension from an Immigration Office; each extension allows an additional 30 days and costs BZD 200."
     },
     {
       "id": "belize-city",
@@ -2747,12 +2787,12 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Belize?",
-      "answer": "US, UK, Canadian, Australian, New Zealand and CARICOM passports and most EU passports enter visa-free and are stamped in for up to 30 days. Nationalities that do need a visa apply at a Belizean consulate, or are exempt for visits of up to 30 days if they hold a valid multiple-entry US, Canadian or Schengen visa, or a US or Canadian permanent residence card."
+      "answer": "Belize's Immigration Department lists US, UK, Canadian, Australian, New Zealand, CARICOM and many EU passports as not needing a visa. Nationalities that do need a visa apply at a Belizean consulate, or are exempt for visits of up to 30 days if they hold a valid multiple-entry US, Canadian or Schengen visa, or a US or Canadian permanent residence card."
     },
     {
       "id": "how-long",
       "question": "How long can I stay in Belize?",
-      "answer": "The entry stamp is up to 30 days for everyone, including visa-free visitors. You can extend 30 days at a time at an Immigration office with a Visitor's Permit Extension, which costs BZD 200 each time."
+      "answer": "Belize's Immigration Department says that if you will stay longer than 30 days you must visit an Immigration Office to extend your stay with a Visitor's Permit Extension. Each extension allows an additional 30 days and costs BZD 200."
     },
     {
       "id": "us-visa-entry",

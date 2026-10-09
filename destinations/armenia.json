@@ -3764,18 +3764,18 @@
       "method": "evisa",
       "name": "e-Visa — visitor, 21 days",
       "fee": {
-        "amount": 3000,
-        "currency": "AMD",
-        "notes": "The e-Visa portal charges USD 8 for this visa and states that the fee is non-refundable."
+        "amount": 8,
+        "currency": "USD",
+        "notes": "Non-refundable, according to the e-Visa portal."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 3,
         "unit": "business-days"
       },
       "validityDays": null,
       "stayDays": 21,
-      "entries": "single",
+      "entries": null,
       "applyUrl": "https://evisa.mfa.am/",
       "source": {
         "url": "https://evisa.mfa.am/",
@@ -3784,6 +3784,20 @@
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-07",
         "instrument": "Fee in drams: Ministry of Foreign Affairs consular fee schedule, item 2.1 visitor visa (up to 21 days of stay) AMD 3,000 (https://www.mfa.am/en/fees/)"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Visitor visa (up to 21 days of stay) / Non-refundable fee - USD 8",
+          "url": "https://evisa.mfa.am/"
+        },
+        "processing": {
+          "text": "E-VISA processing time is up to 3 working days",
+          "url": "https://evisa.mfa.am/"
+        },
+        "stayDays": {
+          "text": "Visitor visa (up to 21 days of stay)",
+          "url": "https://evisa.mfa.am/"
+        }
       }
     },
     {
@@ -3792,21 +3806,21 @@
       "method": "evisa",
       "name": "e-Visa — visitor, 120 days",
       "fee": {
-        "amount": 15000,
-        "currency": "AMD",
-        "notes": "The e-Visa portal charges USD 39 for this visa and states that the fee is non-refundable."
+        "amount": 39,
+        "currency": "USD",
+        "notes": "Non-refundable, according to the e-Visa portal."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 3,
         "unit": "business-days"
       },
       "validityDays": null,
       "stayDays": 120,
-      "entries": "single",
+      "entries": null,
       "extendable": {
         "possible": true,
-        "days": null
+        "days": 60
       },
       "applyUrl": "https://evisa.mfa.am/",
       "source": {
@@ -3815,7 +3829,32 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-07",
-        "instrument": "Fee in drams: Ministry of Foreign Affairs consular fee schedule, item 2.2 visitor visa (up to 120 days of stay) AMD 15,000 (https://www.mfa.am/en/fees/)"
+        "instrument": "Fee in drams: Ministry of Foreign Affairs consular fee schedule, item 2.2 visitor visa (up to 120 days of stay) AMD 15,000 (https://www.mfa.am/en/fees/)",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.mfa.am/en/visa/",
+            "name": "Ministry of Foreign Affairs of Armenia — Visa",
+            "lastVerified": "2026-10-09"
+          }
+        ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "Visitor visa (up to 120 days of stay) / Non-refundable fee - USD 39",
+          "url": "https://evisa.mfa.am/"
+        },
+        "processing": {
+          "text": "E-VISA processing time is up to 3 working days",
+          "url": "https://evisa.mfa.am/"
+        },
+        "stayDays": {
+          "text": "Visitor visa (up to 120 days of stay)",
+          "url": "https://evisa.mfa.am/"
+        },
+        "extendable": {
+          "text": "Armenian visas are issued for a maximum of 120 days with the possibility to extend for another 60 days if no other term is defined by international agreements of the Republic of Armenia.",
+          "url": "https://www.mfa.am/en/visa/"
+        }
       }
     },
     {
@@ -3827,7 +3866,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": 120,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.mfa.am/en/visa/",
@@ -3835,6 +3874,12 @@
         "type": "government",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "stayDays": {
+          "text": "Armenian visas are issued for a maximum of 120 days with the possibility to extend for another 60 days if no other term is defined by international agreements of the Republic of Armenia.",
+          "url": "https://www.mfa.am/en/visa/"
+        }
       }
     },
     {
@@ -3859,6 +3904,16 @@
         "lastVerified": "2026-10-06",
         "lastChanged": "2026-10-06",
         "archiveUrl": "https://web.archive.org/web/20260606234320/https://www.mfa.am/en/fees/"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Visitor visa (up to 21 days of stay) / Non-refundable fee ֏3,000",
+          "url": "https://www.mfa.am/en/fees/"
+        },
+        "stayDays": {
+          "text": "Visitor visa (up to 21 days of stay)",
+          "url": "https://www.mfa.am/en/fees/"
+        }
       }
     },
     {
@@ -3883,6 +3938,16 @@
         "lastVerified": "2026-10-06",
         "lastChanged": "2026-10-06",
         "archiveUrl": "https://web.archive.org/web/20260606234320/https://www.mfa.am/en/fees/"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Visitor visa (up to 120 days of stay) / Non-refundable fee ֏15,000",
+          "url": "https://www.mfa.am/en/fees/"
+        },
+        "stayDays": {
+          "text": "Visitor visa (up to 120 days of stay)",
+          "url": "https://www.mfa.am/en/fees/"
+        }
       }
     }
   ],
@@ -3902,35 +3967,35 @@
       "required": null,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "No official source we could read states a travel insurance requirement for Armenia.",
+      "text": "No official source we could read states a travel insurance requirement for every visitor to Armenia. The Foreign Ministry's visa checker lists travel (medical) insurance among the mandatory documents for some nationalities' visa applications (for example India) and among the documents to provide if available for others (for example Canada).",
       "source": {
         "url": "https://www.mfa.am/en/visa/",
         "name": "Ministry of Foreign Affairs of Armenia — Visa (entry to Armenia)",
         "type": "government",
-        "lastVerified": "2026-10-05"
+        "lastVerified": "2026-10-09"
       }
     },
     "onwardTicket": {
       "required": null,
       "appliesTo": null,
-      "text": "No official source we could read states an onward or return ticket requirement for Armenia.",
+      "text": "No official source we could read states an onward or return ticket requirement for every visitor to Armenia. The Foreign Ministry's visa checker lists an air ticket reservation with return among the mandatory documents for some nationalities' visa applications (for example India), and says a one-way ticket is sufficient for those arriving for education or work or in other justified cases.",
       "source": {
         "url": "https://www.mfa.am/en/visa/",
         "name": "Ministry of Foreign Affairs of Armenia — Visa (entry to Armenia)",
         "type": "government",
-        "lastVerified": "2026-10-05"
+        "lastVerified": "2026-10-09"
       }
     },
     "proofOfFunds": {
       "required": null,
       "appliesTo": null,
       "amount": null,
-      "text": "No official source we could read states a proof-of-funds requirement or amount for Armenia.",
+      "text": "No official source we could read states a proof-of-funds requirement for every visitor to Armenia, or an amount. The Foreign Ministry's visa checker lists proof of financial means (a bank statement for the last 3 months, a certificate of employment with salary, a work contract or other proof) among the mandatory documents for some nationalities' visa applications (for example India).",
       "source": {
         "url": "https://www.mfa.am/en/visa/",
         "name": "Ministry of Foreign Affairs of Armenia — Visa (entry to Armenia)",
         "type": "government",
-        "lastVerified": "2026-10-05"
+        "lastVerified": "2026-10-09"
       }
     },
     "declarations": [],
@@ -4097,7 +4162,7 @@
     {
       "id": "visa-on-arrival",
       "question": "Can I get an Armenian visa on arrival?",
-      "answer": "For some nationalities. Twenty — including Canada, Mexico, South Africa, Thailand and Türkiye — can get a visitor visa at the border outright, according to the Foreign Ministry. Most other e-Visa nationalities qualify on arrival only if they hold a valid visa or residence permit from the EU or Schengen states, the US, the UK, Canada, Australia, New Zealand, South Korea, Russia or Japan, or a residence permit from a Gulf state; the Foreign Ministry lists none for Taiwanese passports. Applying online in advance at evisa.mfa.am works for all of them."
+      "answer": "For some nationalities. Some — including Canada — can get a visitor visa at the border outright, according to the Foreign Ministry's visa checker. Most other e-Visa nationalities qualify on arrival only if they hold a valid visa or residence permit from the EU or Schengen states, the US, the UK, Canada, Australia, New Zealand, South Korea, Russia or Japan, or a residence permit from a Gulf state; the Foreign Ministry lists none for Taiwanese passports. The Foreign Ministry recommends applying online in advance at evisa.mfa.am."
     },
     {
       "id": "turkey-border",

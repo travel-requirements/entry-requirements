@@ -17,7 +17,7 @@
     "iceland",
     "germany"
   ],
-  "summary": "Norway is in the Schengen Area through its association agreement with the EU: EU/EEA and Swiss citizens enter freely, nationals of the 64 countries and territories on the EU's visa-exempt list (as of 30 December 2025), including the US and UK, get 90 days in any 180-day period counted across the whole Schengen Area, and everyone else needs a Schengen visa. Canada's travel advice says Svalbard, though Norwegian territory, is not part of the Schengen Area.",
+  "summary": "Norway is in the Schengen Area through its association agreement with the EU: EU/EEA and Swiss citizens enter freely, nationals of the countries and territories on the EU's visa-exempt list (as of 30 December 2025), including the US and UK, get 90 days in any 180-day period counted across the whole Schengen Area, and everyone else needs a Schengen visa. Canada's travel advice says Svalbard, though Norwegian territory, is not part of the Schengen Area.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -1933,7 +1933,7 @@
         "notes": "Children 6–11: €45; under 6: free. Fee set EU-wide by Delegated Regulation (EU) 2024/1415."
       },
       "processing": {
-        "minDays": 15,
+        "minDays": null,
         "maxDays": 45,
         "unit": "calendar-days"
       },
@@ -1941,7 +1941,7 @@
       "stayDays": 90,
       "entries": null,
       "extendable": {
-        "possible": false,
+        "possible": true,
         "days": null
       },
       "applyUrl": "https://www.udi.no/en/",
@@ -1949,8 +1949,8 @@
         "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611",
         "name": "Visa Code (Regulation (EC) No 810/2009), consolidated text — EUR-Lex",
         "type": "igo",
-        "lastVerified": "2026-10-07",
-        "instrument": "Regulation (EC) No 810/2009 establishing a Community Code on Visas, Article 16(1) (visa fee), Article 1(1) (stays not exceeding 90 days in any 180-day period) and Article 24(1) (a visa may be issued for one, two or multiple entries; validity up to five years, set on examination of each application), consolidated to 11 June 2024",
+        "lastVerified": "2026-10-09",
+        "instrument": "Regulation (EC) No 810/2009 establishing a Community Code on Visas, Article 16(1) (visa fee), Article 1(1) (stays not exceeding 90 days in any 180-day period) and Article 24(1) (a visa may be issued for one, two or multiple entries; validity up to five years, set on examination of each application), consolidated to 11 June 2024; Visa Code Article 23(2) (decision period may be extended up to a maximum of 45 calendar days) and Article 33(1)–(2) (extension of an issued visa for force majeure, humanitarian or serious personal reasons)",
         "archiveUrl": "https://web.archive.org/web/20251008134447/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611",
         "lastChanged": "2026-10-07",
         "alsoStatedOn": [
@@ -1960,22 +1960,40 @@
             "lastVerified": "2026-10-09"
           }
         ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "Applicants shall pay a visa fee of EUR 90.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        },
+        "processing": {
+          "text": "That period may be extended up to a maximum of 45 calendar days in individual cases, notably when further scrutiny of the application is needed.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        },
+        "stayDays": {
+          "text": "This Regulation establishes the procedures and conditions for issuing visas for intended stays on the territory of the Member States not exceeding 90 days in any 180-day period.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        },
+        "extendable": {
+          "text": "The period of validity and/or the duration of stay of an issued visa shall be extended where the competent authority of a Member State considers that a visa holder has provided proof of force majeure or humanitarian reasons preventing him from leaving the territory of the Member States before the expiry of the period of validity of or the duration of stay authorised by the visa. Such an extension shall be granted free of charge. 2. The period of validity and/or the duration of stay of an issued visa may be extended if the visa holder provides proof of serious personal reasons justifying the extension of the period of validity or the duration of stay.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        }
       }
     },
     {
       "id": "national-d",
       "category": "other",
       "method": "embassy",
-      "name": "National Long-Stay Visa / Residence Permit (Type D)",
+      "name": "Residence permit (work or study)",
       "fee": {
         "amount": 6300,
         "currency": "NOK",
-        "notes": "Stays over 90 days (work, study, family) are handled as residence-permit applications; the Immigration Regulations (§ 17-10) set the fee by purpose."
+        "notes": "The Immigration Regulations (§ 17-10) set the fee by purpose: NOK 6,300 in work or study cases, NOK 5,400 for students and researchers with own means, NOK 9,300 for au pairs and NOK 11,900 for family immigration; children under 18 pay half."
       },
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "multiple",
+      "entries": null,
       "extendable": {
         "possible": true,
         "days": null
@@ -1988,13 +2006,23 @@
         "lastVerified": "2026-10-07",
         "instrument": "Utlendingsforskriften (FOR-2009-10-15-1286), § 17-10 first paragraph (a) — \"kr 6 300 i saker om arbeid eller studier\"",
         "archiveUrl": "https://web.archive.org/web/20260901161009/https://lovdata.no/dokument/SF/forskrift/2009-10-15-1286/KAPITTEL_17-9#%C2%A717-10"
+      },
+      "evidence": {
+        "fee": {
+          "text": "kr 6 300 i saker om arbeid eller studier mv., jf. lovens § 23 til § 26",
+          "url": "https://lovdata.no/forskrift/2009-10-15-1286/%C2%A717-10"
+        },
+        "extendable": {
+          "text": "Ved registrering av en søknad om oppholdstillatelse eller fornyelse av en slik tillatelse betales følgende gebyrer senest samtidig med innleveringen av søknaden",
+          "url": "https://lovdata.no/forskrift/2009-10-15-1286/%C2%A717-10"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
       "rule": "3-months-beyond-departure",
-      "text": "Non-EU passports must be valid for at least 3 months beyond your planned departure from the Schengen Area and have been issued within the last 10 years. EU/EEA citizens only need a valid passport or national ID card.",
+      "text": "The UK government tells British nationals that Norway follows Schengen area rules: their passport must have a date of issue less than 10 years before the date they arrive and an expiry date at least 3 months after the day they plan to leave the Schengen area.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/norway/entry-requirements",
         "name": "UK Foreign, Commonwealth & Development Office — Norway travel advice: entry requirements",
@@ -2034,7 +2062,7 @@
     "onwardTicket": {
       "required": true,
       "appliesTo": "all",
-      "text": "Border officers may ask non-EU visitors for proof of return or onward travel and accommodation details.",
+      "text": "The UK government tells British travellers that at Norwegian border control they may need to show a return or onward ticket, proof of accommodation and proof of travel insurance, and prove they have enough money for their stay.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/norway/entry-requirements",
         "name": "UK Foreign, Commonwealth & Development Office — Norway travel advice: entry requirements",
@@ -2043,20 +2071,27 @@
       }
     },
     "proofOfFunds": {
-      "required": false,
-      "appliesTo": null,
+      "required": true,
+      "appliesTo": "all",
       "amount": {
         "value": 1300,
         "currency": "NOK",
         "per": "day"
       },
-      "text": "Norway assesses sufficient means case by case. Without proof of accommodation the reference amount is NOK 1,300 per person per day (at least NOK 1,000 per person when more than one person travels); with hosted or prepaid accommodation it is NOK 300 per day.",
+      "text": "The European Commission's table of reference amounts says Norway assesses sufficient means on a case-by-case basis: NOK 300 per day with hosted or prepaid accommodation, NOK 1,300 per day without proof of accommodation, and at least NOK 1,000 per person per day when more than one person travels. The UK government tells British travellers they may need to prove they have enough money for their stay.",
       "source": {
         "url": "https://home-affairs.ec.europa.eu/document/download/9bf9a98f-3bd1-4e14-9b39-c9087a08a32f_en?filename=Reference_amounts_table.pdf",
         "name": "European Commission — Reference amounts required for the crossing of the external border, fixed by national authorities",
         "type": "igo",
         "lastVerified": "2026-10-03",
-        "lastChanged": "2026-09-26"
+        "lastChanged": "2026-09-26",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gov.uk/foreign-travel-advice/norway/entry-requirements",
+            "name": "UK FCDO — Norway travel advice, entry requirements",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       }
     },
     "declarations": [
@@ -2318,7 +2353,7 @@
     {
       "id": "do-i-need-visa",
       "question": "Do I need a visa for Norway?",
-      "answer": "EU/EEA and Swiss citizens don't need a visa at all. Citizens of the 64 countries and territories on the EU's visa-exempt list (as of 30 December 2025) — including the US, UK, Canada, Australia and Japan — can visit visa-free for up to 90 days in any 180-day period, counted across the whole Schengen Area. All other nationalities need a Schengen short-stay visa applied for through the Norwegian mission or visa center serving their place of residence."
+      "answer": "EU/EEA and Swiss citizens don't need a visa at all. Citizens of the countries and territories on the EU's visa-exempt list (as of 30 December 2025) — including the US, UK, Canada, Australia and Japan — can visit visa-free for up to 90 days in any 180-day period, counted across the whole Schengen Area. All other nationalities need a Schengen short-stay visa applied for through the Norwegian mission or visa center serving their place of residence."
     },
     {
       "id": "svalbard-visa",
@@ -2333,7 +2368,7 @@
     {
       "id": "uk-citizens",
       "question": "How long can UK citizens stay in Norway?",
-      "answer": "UK passport holders can visit visa-free for up to 90 days in any 180-day period, shared with the rest of the Schengen Area. The passport must have been issued within the last 10 years and be valid for at least 3 months beyond departure."
+      "answer": "UK passport holders can visit visa-free for up to 90 days in any 180-day period, shared with the rest of the Schengen Area. The UK government says the passport must have been issued less than 10 years before the date you arrive and expire at least 3 months after the day you plan to leave the Schengen area."
     },
     {
       "id": "etias-norway",

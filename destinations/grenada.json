@@ -14,7 +14,7 @@
     "trinidad-and-tobago",
     "dominica"
   ],
-  "summary": "Most nationalities need no visa for Grenada: CARICOM nationals are granted a six-month definite entry, and citizens of the EU, UK, US, Canada and many others are admitted without one. Nationals on Grenada's 'Port of Entry' list get a visa on arrival against a pre-clearance letter arranged before travel; nationals the list marks 'Prior to Arrival' need a visitor's visa from a Grenadian mission or consulate.",
+  "summary": "CARICOM nationals are granted a six-month definite entry, and citizens of the EU, UK, US, Canada and many others are admitted without one. Nationals on Grenada's 'Port of Entry' list get a visa on arrival against a pre-clearance letter arranged before travel; nationals the list marks 'Prior to Arrival' need a visitor's visa from a Grenadian mission or consulate.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-10-03",
@@ -2973,17 +2973,13 @@
         "notes": "Single entry, as charged by the Embassy in Washington; a multiple-entry visa is USD 375. Apply at least six weeks before departure."
       },
       "processing": {
-        "minDays": 10,
+        "minDays": null,
         "maxDays": 10,
         "unit": "business-days"
       },
       "validityDays": null,
       "stayDays": null,
       "entries": "single",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
       "applyUrl": null,
       "source": {
         "url": "https://grenadaembassyusa.org/wp-content/uploads/2018/03/Grenada-Visa-Requirements-for-Applicants-of-Visas-Prior-to-Arrival-in-Grenada-as-of-Mar-2018.pdf",
@@ -2991,6 +2987,20 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Application for a Single –Entry Visa is US$200.00 per applicant.",
+          "url": "https://grenadaembassyusa.org/wp-content/uploads/2018/03/Grenada-Visa-Requirements-for-Applicants-of-Visas-Prior-to-Arrival-in-Grenada-as-of-Mar-2018.pdf"
+        },
+        "processing": {
+          "text": "The processing time for the application is approximately ten (10) business days from date of receipt.",
+          "url": "https://grenadaembassyusa.org/wp-content/uploads/2018/03/Grenada-Visa-Requirements-for-Applicants-of-Visas-Prior-to-Arrival-in-Grenada-as-of-Mar-2018.pdf"
+        },
+        "entries": {
+          "text": "Application for a Single –Entry Visa is US$200.00 per applicant.",
+          "url": "https://grenadaembassyusa.org/wp-content/uploads/2018/03/Grenada-Visa-Requirements-for-Applicants-of-Visas-Prior-to-Arrival-in-Grenada-as-of-Mar-2018.pdf"
+        }
       }
     },
     {
@@ -3004,7 +3014,7 @@
         "notes": "Single entry, paid on arrival; multiple entry is EC$375. The pre-clearance letter from the Immigration and Passport Office costs a further USD 10 through the Embassy."
       },
       "processing": {
-        "minDays": 10,
+        "minDays": null,
         "maxDays": 10,
         "unit": "business-days"
       },
@@ -3018,18 +3028,32 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-02"
+      },
+      "evidence": {
+        "fee": {
+          "text": "upon arrival in Grenada the fee for a Single–Entry Visa is EC$200.00 per applicant",
+          "url": "https://grenadaembassyusa.org/wp-content/uploads/2018/03/Grenada-Visa-Requirements-for-Applicants-of-Visas-at-Port-of-Entry-in-Grenada-as-of-Mar-2018.pdf"
+        },
+        "processing": {
+          "text": "The processing time for the application is approximately ten (10) business days from date of receipt of application at the Embassy.",
+          "url": "https://grenadaembassyusa.org/wp-content/uploads/2018/03/Grenada-Visa-Requirements-for-Applicants-of-Visas-at-Port-of-Entry-in-Grenada-as-of-Mar-2018.pdf"
+        },
+        "entries": {
+          "text": "upon arrival in Grenada the fee for a Single–Entry Visa is EC$200.00 per applicant",
+          "url": "https://grenadaembassyusa.org/wp-content/uploads/2018/03/Grenada-Visa-Requirements-for-Applicants-of-Visas-at-Port-of-Entry-in-Grenada-as-of-Mar-2018.pdf"
+        }
       }
     },
     {
       "id": "extension-of-stay",
       "category": "other",
       "method": "exemption-extension",
-      "name": "Extension of Stay (Immigration Department)",
+      "name": "Authorisation to stay longer (Immigration and Passport Department)",
       "fee": null,
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "extendable": {
         "possible": true,
         "days": null
@@ -3040,7 +3064,20 @@
         "name": "Embassy of Grenada, Washington DC — Visa Requirements for Traveling to Grenada (updated April 2024), notes",
         "type": "government",
         "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastChanged": "2026-10-03",
+        "alsoStatedOn": [
+          {
+            "url": "https://travel.gc.ca/destinations/grenada",
+            "name": "Government of Canada — Grenada travel advice (entry and exit requirements)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
+      },
+      "evidence": {
+        "extendable": {
+          "text": "are required to obtain a visa when remaining beyond the periods indicated",
+          "url": "https://grenadaembassyusa.org/wp-content/uploads/2024/07/Visa-Requirements-for-Grenada-final-UPDATED-April-2024-Approved1.pdf"
+        }
       }
     }
   ],
@@ -3084,7 +3121,7 @@
         "name": "Yellow fever",
         "certificate": "International Certificate of Vaccination or Prophylaxis (yellow card)",
         "requiredWhen": "arriving-from-risk-country",
-        "text": "A yellow fever certificate is required of travelers aged one year or over who arrive from a country with risk of yellow fever transmission, or who spent more than 12 hours in transit at an airport in one. WHO's risk list includes Trinidad, so a Caribbean origin does not by itself exempt you.",
+        "text": "A yellow fever certificate is required of travelers aged one year or over who arrive from a country with risk of yellow fever transmission, or who spent more than 12 hours in transit at an airport in one. WHO's list of countries with risk of yellow fever transmission includes Trinidad and Tobago, except the urban areas of Port of Spain and travellers whose itineraries are limited to Tobago.",
         "source": {
           "url": "https://cdn.who.int/media/docs/default-source/travel-and-health/vaccination-requirements-and-who-recommendations-ith-2022-country-list.pdf",
           "name": "WHO — International Travel and Health country list: vaccination requirements (Grenada)",
@@ -3309,7 +3346,7 @@
     {
       "id": "yellow-fever",
       "question": "Do I need a yellow fever certificate for Grenada?",
-      "answer": "Only if you are aged one or over and arrive from a country with risk of yellow fever transmission, or spent more than 12 hours in transit at an airport in one. WHO's risk countries are in tropical Africa and South and Central America, and include Trinidad."
+      "answer": "Only if you are aged one or over and arrive from a country with risk of yellow fever transmission, or spent more than 12 hours in transit at an airport in one. WHO's list of countries with risk of yellow fever transmission includes Trinidad and Tobago (except the urban areas of Port of Spain and travellers whose itineraries are limited to Tobago)."
     },
     {
       "id": "driving",

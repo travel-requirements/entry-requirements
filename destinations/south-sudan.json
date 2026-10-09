@@ -20,7 +20,7 @@
     "kenya",
     "ethiopia"
   ],
-  "summary": "Most nationalities need a visa for South Sudan and apply online through the official eVisa portal (evisa.gov.ss); the UK Foreign Office says you can also apply through the South Sudanese Embassy. No official visa fee is currently published. The UK, Canadian and Australian governments advise against all travel to South Sudan.",
+  "summary": "Visitors apply for a visa online through South Sudan's official eVisa portal (evisa.gov.ss); the UK Foreign Office tells British nationals they must have a visa and can also apply through the South Sudanese Embassy. No official visa fee is currently published. The UK, Canadian and Australian governments advise against all travel to South Sudan.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -1627,11 +1627,8 @@
         }
       },
       "GH": {
-        "requirement": "evisa",
+        "requirement": "unconfirmed",
         "maxStayDays": null,
-        "visaTypes": [
-          "evisa-tourist"
-        ],
         "source": {
           "url": "https://www.evisa.gov.ss/themes/ss-evisa/assets/data/country-eligibility.json",
           "name": "South Sudan eVisa portal — visa eligibility and fee table by nationality (Directorate of Nationality, Passports and Immigration)",
@@ -1649,7 +1646,8 @@
               "lastVerified": "2026-10-08"
             }
           ]
-        }
+        },
+        "notes": null
       },
       "GR": {
         "requirement": "evisa",
@@ -4968,7 +4966,7 @@
       "name": "South Sudan Tourist eVisa",
       "fee": null,
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 3,
         "unit": "calendar-days"
       },
@@ -4995,6 +4993,16 @@
           }
         ],
         "portalOnly": true
+      },
+      "evidence": {
+        "processing": {
+          "text": "Download your e-visa PDF from anywhere within 72 hours",
+          "url": "https://evisa.gov.ss/"
+        },
+        "extendable": {
+          "text": "If you want to extend your visa, contact the Ministry of the Interior in person",
+          "url": "https://www.gov.uk/foreign-travel-advice/south-sudan/entry-requirements"
+        }
       }
     },
     {
@@ -5004,7 +5012,7 @@
       "name": "Business eVisa",
       "fee": null,
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 3,
         "unit": "calendar-days"
       },
@@ -5020,6 +5028,12 @@
         "archiveUrl": "https://web.archive.org/web/20260728230127/https://evisa.gov.ss/",
         "lastChanged": "2026-10-07",
         "portalOnly": true
+      },
+      "evidence": {
+        "processing": {
+          "text": "Download your e-visa PDF from anywhere within 72 hours",
+          "url": "https://evisa.gov.ss/"
+        }
       }
     },
     {
@@ -5031,7 +5045,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/south-sudan/entry-requirements",
@@ -5044,7 +5058,7 @@
   "entryRequirements": {
     "passportValidity": {
       "rule": "6-months-on-arrival",
-      "text": "Your passport must be valid for at least 6 months on arrival in South Sudan.",
+      "text": "The UK Foreign Office tells British nationals that to enter South Sudan their passport must have an expiry date at least 6 months after the day they arrive and at least 2 blank pages.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/south-sudan/entry-requirements",
         "name": "UK FCDO travel advice — South Sudan entry requirements",
@@ -5273,7 +5287,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for South Sudan?",
-      "answer": "For most nationalities, yes. You apply online through the official eVisa portal at evisa.gov.ss before travel; the UK Foreign Office says you can also apply through a South Sudanese embassy."
+      "answer": "No official page we could read currently lists which nationalities need one. The official eVisa portal at evisa.gov.ss takes applications online before travel, and the UK Foreign Office tells British nationals they must have a visa and can also apply through a South Sudanese embassy."
     },
     {
       "id": "visa-on-arrival",

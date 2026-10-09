@@ -16,7 +16,7 @@
     "brazil",
     "argentina"
   ],
-  "summary": "Mexico lets citizens of the 63 countries and regions on the National Migration Institute's no-visa list (as of 8 October 2026) — including the US, Canada, the UK, the EU and Japan — visit visa-free for up to 180 days, waives its visa for anyone holding a valid US visa, and offers a free electronic authorization (SAE) for air arrivals from Russia, Turkey and Ukraine.",
+  "summary": "Mexico lets citizens of the countries and regions on the National Migration Institute's no-visa list — including the US, Canada, the UK, the EU and Japan — visit visa-free for up to 180 days, waives its visa for anyone holding a valid US visa, and offers a free electronic authorization (SAE) for air arrivals from Russia, Turkey and Ukraine.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -2539,31 +2539,29 @@
       "fee": {
         "amount": 54,
         "currency": "USD",
-        "notes": "Set in US dollars by Mexico's Federal Duties Law for 2026 for receiving and studying the application and, where applicable, authorising and issuing the visa. Mexico's consulates (SRE) describe it as a visa to enter as a visitor without permission to work for a period of up to 180 days, and list the same USD 54.00 fee."
+        "notes": "Mexico's consulate in Petén lists USD 54.00 for receiving the application and, where applicable, authorising the visa, which lets you enter as a visitor without permission to work for up to 180 days."
       },
       "processing": null,
       "validityDays": null,
       "stayDays": 180,
       "entries": null,
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
       "applyUrl": "https://consulmex.sre.gob.mx/",
       "source": {
-        "url": "https://consulmex.sre.gob.mx/yuma/images/stories/pdfs/LFD2026.pdf",
-        "name": "SRE Directorate-General of Consular Services — extract of the Ley Federal de Derechos 2026 (consular fees)",
+        "url": "https://consulmex.sre.gob.mx/peten/visa-de-visitante-sin-permiso-para-realizar-actividades-remuneradas",
+        "name": "Consulado de México en Petén (SRE) — Visa de visitante sin permiso para realizar actividades remuneradas",
         "type": "government",
-        "lastVerified": "2026-10-07",
-        "instrument": "Ley Federal de Derechos 2026, art. 22, fr. III, inciso f)",
-        "lastChanged": "2026-10-07",
-        "alsoStatedOn": [
-          {
-            "url": "https://consulmex.sre.gob.mx/peten/visa-de-visitante-sin-permiso-para-realizar-actividades-remuneradas",
-            "name": "Consulado de México en Petén (SRE) — Visa de visitante sin permiso para realizar actividades remuneradas: up to 180 days, USD 54.00",
-            "lastVerified": "2026-10-09"
-          }
-        ]
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Pago de derechos: Por la recepción, solicitud, y en su caso, autorización de la visa 54.00 USD",
+          "url": "https://consulmex.sre.gob.mx/peten/visa-de-visitante-sin-permiso-para-realizar-actividades-remuneradas"
+        },
+        "stayDays": {
+          "text": "Aplicable a personas extranjeras que pretendan internarse a México en la condición de estancia de visitante sin permiso para realizar actividades remuneradas, por un periodo de hasta 180 días.",
+          "url": "https://consulmex.sre.gob.mx/peten/visa-de-visitante-sin-permiso-para-realizar-actividades-remuneradas"
+        }
       }
     },
     {
@@ -2579,10 +2577,6 @@
       "validityDays": 30,
       "stayDays": 180,
       "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
       "applyUrl": "https://www.inm.gob.mx/sae/publico/en/solicitud.html",
       "source": {
         "url": "https://embamex.sre.gob.mx/ucrania/index.php/servicios-consulares/visa-electronica",
@@ -2590,6 +2584,24 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "fee": {
+          "text": "La autorización electrónica se otorga para un viaje de una entrada, con estancia máxima de 180 días y es gratuita.",
+          "url": "https://embamex.sre.gob.mx/ucrania/index.php/servicios-consulares/visa-electronica"
+        },
+        "validityDays": {
+          "text": "La solicitud tiene una vigencia de 30 días para realizar su viaje e ingresar al país.",
+          "url": "https://embamex.sre.gob.mx/ucrania/index.php/servicios-consulares/visa-electronica"
+        },
+        "stayDays": {
+          "text": "La autorización electrónica se otorga para un viaje de una entrada, con estancia máxima de 180 días y es gratuita.",
+          "url": "https://embamex.sre.gob.mx/ucrania/index.php/servicios-consulares/visa-electronica"
+        },
+        "entries": {
+          "text": "La autorización electrónica se otorga para un viaje de una entrada, con estancia máxima de 180 días y es gratuita.",
+          "url": "https://embamex.sre.gob.mx/ucrania/index.php/servicios-consulares/visa-electronica"
+        }
       }
     },
     {
@@ -2638,9 +2650,9 @@
       }
     },
     "onwardTicket": {
-      "required": false,
+      "required": null,
       "appliesTo": null,
-      "text": "INM says the immigration authority may ask you to prove the purpose of your trip, for example with a hotel reservation, return tickets or tour tickets, and to state the means of transport you will use to leave the country.",
+      "text": "No official source we could read states that a return or onward ticket is required. INM says the immigration authority may ask you to prove the purpose of your trip, for example with a hotel reservation, return tickets or tour tickets, and to state the means of transport you will use to leave the country.",
       "source": {
         "url": "https://www.gob.mx/inm/documentos/paises-y-regiones-que-requieren-visa-para-viajar-a-mexico",
         "name": "INM — Países y regiones que requieren visa para viajar a México (alternatives to the visa; documents checked at the immigration filter)",
@@ -2649,10 +2661,10 @@
       }
     },
     "proofOfFunds": {
-      "required": false,
+      "required": null,
       "appliesTo": null,
       "amount": null,
-      "text": "No fixed amount is set. INM says the immigration authority may ask about your means of subsistence during your stay (except holders of a Mexican visa), your address and how long you will stay.",
+      "text": "No official source we could read states a proof-of-funds requirement or amount. INM says the immigration authority may ask about your means of subsistence during your stay (except holders of a Mexican visa), your address and how long you will stay.",
       "source": {
         "url": "https://www.gob.mx/inm/documentos/paises-y-regiones-que-requieren-visa-para-viajar-a-mexico",
         "name": "INM — Países y regiones que requieren visa para viajar a México (alternatives to the visa; documents checked at the immigration filter)",

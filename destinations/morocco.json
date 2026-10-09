@@ -15,7 +15,7 @@
     "turkey",
     "united-arab-emirates"
   ],
-  "summary": "Morocco grants visa-free entry to a long list of nationalities — including the US, UK, EU, Canada, Australia, Japan, Brazil, Mexico, Russia and China — and runs an official eVisa system (acces-maroc.ma) for several other nationalities; the dirham is a closed currency that cannot be exchanged outside Morocco.",
+  "summary": "Morocco grants visa-free entry to a long list of nationalities — including the US, UK, EU, Canada, Australia, Japan, Brazil, Mexico, Russia and China — and runs an official eVisa system (acces-maroc.ma) for several other nationalities; the dirham is a closed currency that cannot easily be exchanged outside Morocco, according to the UK Foreign Office.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -3506,20 +3506,16 @@
       "fee": {
         "amount": 770,
         "currency": "MAD",
-        "notes": "Standard track, decided in 3–7 working days. The Express track costs 1,100 MAD and is decided in 1–3 working days. Both amounts are the portal's own price list, charged before the application is processed."
+        "notes": "Standard track (decision in 3 to 7 days, per the portal's published terms). The Express track costs 1,100 MAD (decision in 1 to 3 days). Both amounts are the portal's own price list."
       },
       "processing": {
-        "minDays": 1,
+        "minDays": 3,
         "maxDays": 7,
-        "unit": "business-days"
+        "unit": "calendar-days"
       },
       "validityDays": 180,
       "stayDays": 30,
-      "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": "https://www.acces-maroc.ma/",
       "source": {
         "url": "https://api.acces-maroc.ma/api/api/referentiel/prixEvisa",
@@ -3532,6 +3528,24 @@
           "name": "Accès Maroc — eVisa page (Standard and Express tracks)",
           "states": "Processing time 3 business days (Standard) and 1 business day (Express); the eVisa terms of use (August 2024) give 72 and 24 hours, Moroccan working days",
           "resolvedBy": "stricter"
+        }
+      },
+      "evidence": {
+        "fee": {
+          "text": "\"libelle\":\"Standard\",\"code\":\"STANDARD\",\"prix\":770.0,\"dureeMin\":3.0,\"dureeMax\":7.0,\"sejour\":30,\"validite\":180",
+          "url": "https://api.acces-maroc.ma/api/api/referentiel/prixEvisa"
+        },
+        "processing": {
+          "text": "\"libelle\":\"Standard\",\"code\":\"STANDARD\",\"prix\":770.0,\"dureeMin\":3.0,\"dureeMax\":7.0,\"sejour\":30,\"validite\":180",
+          "url": "https://api.acces-maroc.ma/api/api/referentiel/prixEvisa"
+        },
+        "validityDays": {
+          "text": "\"libelle\":\"Standard\",\"code\":\"STANDARD\",\"prix\":770.0,\"dureeMin\":3.0,\"dureeMax\":7.0,\"sejour\":30,\"validite\":180",
+          "url": "https://api.acces-maroc.ma/api/api/referentiel/prixEvisa"
+        },
+        "stayDays": {
+          "text": "\"libelle\":\"Standard\",\"code\":\"STANDARD\",\"prix\":770.0,\"dureeMin\":3.0,\"dureeMax\":7.0,\"sejour\":30,\"validite\":180",
+          "url": "https://api.acces-maroc.ma/api/api/referentiel/prixEvisa"
         }
       },
       "documents": {
@@ -3581,17 +3595,13 @@
         "notes": "No fee: the portal exempts this nationality from the eVisa charge, on both the Standard and the Express track."
       },
       "processing": {
-        "minDays": 1,
+        "minDays": 3,
         "maxDays": 7,
-        "unit": "business-days"
+        "unit": "calendar-days"
       },
       "validityDays": 180,
       "stayDays": 30,
-      "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": "https://www.acces-maroc.ma/",
       "source": {
         "url": "https://api.acces-maroc.ma/api/api/referentiel/prixEvisa",
@@ -3599,7 +3609,32 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-07",
-        "instrument": "Accès Maroc eVisa terms: Standard and Express tracks both \"sejour\":30 and \"validite\":180, decided in 3–7 (Standard) or 1–3 (Express) days; the fee exemption per nationality is the \"eVisaGratuit\" flag of the nationality reference list (https://api.acces-maroc.ma/api/api/referentiel/nationalite/en)"
+        "instrument": "Accès Maroc eVisa terms: Standard and Express tracks both \"sejour\":30 and \"validite\":180, decided in 3–7 (Standard) or 1–3 (Express) days; the fee exemption per nationality is the \"eVisaGratuit\" flag of the nationality reference list (https://api.acces-maroc.ma/api/api/referentiel/nationalite/en)",
+        "alsoStatedOn": [
+          {
+            "url": "https://api.acces-maroc.ma/api/api/referentiel/nationalite/en",
+            "name": "Accès Maroc — nationality reference list (eVisa and eVisaGratuit flags)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "{\"id\":231,\"libelle\":\" Jordan\",\"code\":\"JOR\",\"lang\":\"en\",\"statut\":null,\"active\":true,\"localisationType\":\"TB_PAYS\",\"typePays\":\"reconnu\",\"dateDebutEffet\":null,\"dateFinEffet\":null},\"active\":true,\"eVisa\":true,\"eVisaGratuit\":true",
+          "url": "https://api.acces-maroc.ma/api/api/referentiel/nationalite/en"
+        },
+        "processing": {
+          "text": "\"libelle\":\"Standard\",\"code\":\"STANDARD\",\"prix\":770.0,\"dureeMin\":3.0,\"dureeMax\":7.0,\"sejour\":30,\"validite\":180",
+          "url": "https://api.acces-maroc.ma/api/api/referentiel/prixEvisa"
+        },
+        "validityDays": {
+          "text": "\"libelle\":\"Standard\",\"code\":\"STANDARD\",\"prix\":770.0,\"dureeMin\":3.0,\"dureeMax\":7.0,\"sejour\":30,\"validite\":180",
+          "url": "https://api.acces-maroc.ma/api/api/referentiel/prixEvisa"
+        },
+        "stayDays": {
+          "text": "\"libelle\":\"Standard\",\"code\":\"STANDARD\",\"prix\":770.0,\"dureeMin\":3.0,\"dureeMax\":7.0,\"sejour\":30,\"validite\":180",
+          "url": "https://api.acces-maroc.ma/api/api/referentiel/prixEvisa"
+        }
       },
       "documents": {
         "items": [
@@ -3646,7 +3681,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "applyUrl": "https://www.consulat.ma/",
       "source": {
         "url": "https://www.consulat.ma/fr/visas-ordinaires",
@@ -3954,12 +3989,12 @@
     {
       "id": "money-dirhams",
       "question": "Can I buy Moroccan dirhams before my trip?",
-      "answer": "Effectively no. The UK Foreign Office says the dirham is a closed, non-convertible currency that cannot easily be exchanged outside Morocco, and Moroccan Customs allows at most 2,000 MAD to be carried in or out. The Government of Canada says unused dirhams can be converted at the airport exchange counter on departure with proof of your original purchase."
+      "answer": "The UK Foreign Office says the dirham is a closed, non-convertible currency that cannot easily be exchanged outside Morocco, and Moroccan Customs allows at most 2,000 MAD to be carried in or out. The Government of Canada says unused dirhams can be converted at the airport exchange counter on departure with proof of your original purchase."
     },
     {
       "id": "evisa-who",
       "question": "Who needs Morocco's eVisa and where do you apply?",
-      "answer": "Most Western and East Asian passports, and several Latin American ones (Argentina, Brazil, Chile, Colombia, Mexico, Peru), do not need any visa. The eVisa is open to citizens of India, Thailand, Vietnam, Cambodia, Laos, Brunei, Jordan, Israel, Benin and Guatemala, and to other visa-required travelers who hold a valid multiple-entry visa from the US, Schengen, the UK, Ireland, Canada, Australia, Japan, Norway or New Zealand. Check eligibility and apply at the official portal acces-maroc.ma; the standard track is decided in 3–7 working days and the express track in 1–3. Travelers not eligible online apply at a Moroccan embassy."
+      "answer": "Many passports, including several Latin American ones (Argentina, Brazil, Chile, Colombia, Mexico, Peru), do not need any visa. The eVisa is open to citizens of India, Thailand, Vietnam, Cambodia, Laos, Brunei, Jordan, Israel, Benin and Guatemala, and to other visa-required travelers who hold a valid multiple-entry visa from the US, Schengen, the UK, Ireland, Canada, Australia, Japan, Norway or New Zealand. Check eligibility and apply at the official portal acces-maroc.ma; the standard track is decided in 3 to 7 days and the express track in 1–3. Travelers not eligible online apply at a Moroccan embassy."
     }
   ]
 }

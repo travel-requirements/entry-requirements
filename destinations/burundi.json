@@ -1222,27 +1222,35 @@
       "id": "bdi-evisa-tourist",
       "category": "tourist",
       "method": "evisa",
-      "name": "Tourist eVisa",
+      "name": "Single-entry visa (Visa d'entrée simple)",
       "fee": {
         "amount": 90,
         "currency": "USD",
-        "notes": "USD 90 (or the equivalent in euros) for one month. The multiple-entry visa can be renewed up to twice: USD 180 for two months, USD 270 for three."
+        "notes": "USD 90 or the equivalent in euros, for one month, obtained online, at Melchior Ndadaye International Airport or at embassies, according to the migration authority (CGM). The CGM's multiple-entry visa costs the same for one month, can be renewed at most twice (USD 180 for two months, USD 270 for three) and allows a stay of up to 90 days."
       },
       "processing": null,
-      "validityDays": 30,
+      "validityDays": null,
       "stayDays": 30,
-      "entries": "multiple",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
+      "entries": "single",
       "applyUrl": "https://migration.gov.bi/",
       "source": {
         "url": "https://migration.gov.bi/Services",
         "name": "Commissariat Général des Migrations (Burundi) — visa types and fees",
         "type": "government",
         "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-07"
+        "lastChanged": "2026-10-07",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gov.uk/foreign-travel-advice/burundi/entry-requirements",
+            "name": "GOV.UK (FCDO) — Burundi travel advice: entry requirements",
+            "lastVerified": "2026-10-09"
+          },
+          {
+            "url": "https://migration.gov.bi/Apply",
+            "name": "Commissariat Général des Migrations — visa application page (visa-type descriptions: tarif, validité, where obtained)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       },
       "documents": {
         "items": [
@@ -1267,6 +1275,20 @@
           "lastChanged": "2026-10-07",
           "portalOnly": true
         }
+      },
+      "evidence": {
+        "fee": {
+          "text": "Tarif - 90 USD ou équivalent en Euros Validité: 1 mois Obtenu en en ligne, à l’Aéroport International Melchior Ndadaye et au niveau des ambassades",
+          "url": "https://migration.gov.bi/Apply"
+        },
+        "stayDays": {
+          "text": "Ce visa permet à un citoyen étranger d’entrer et de rester au Burundi pour une période d’un mois seulement",
+          "url": "https://migration.gov.bi/Apply"
+        },
+        "entries": {
+          "text": "Visa d'entrée simple Ce visa permet à un citoyen étranger d’entrer et de rester au Burundi pour une période d’un mois seulement",
+          "url": "https://migration.gov.bi/Apply"
+        }
       }
     },
     {
@@ -1277,18 +1299,25 @@
       "fee": {
         "amount": 40,
         "currency": "USD",
-        "notes": "USD 40 (or the equivalent in euros), valid for three days and issued at any point of entry. Aircraft, train and ship crews do not need it."
+        "notes": "USD 40 or the equivalent in euros, valid for three days and issued at any point of entry. Aircraft, train and ship crews do not need it."
       },
       "processing": null,
-      "validityDays": null,
-      "stayDays": 3,
-      "entries": "single",
+      "validityDays": 3,
+      "stayDays": null,
+      "entries": null,
       "applyUrl": "https://migration.gov.bi/",
       "source": {
         "url": "https://migration.gov.bi/Services",
         "name": "Commissariat Général des Migrations (Burundi) — visa types and fees",
         "type": "government",
-        "lastVerified": "2026-10-07"
+        "lastVerified": "2026-10-07",
+        "alsoStatedOn": [
+          {
+            "url": "https://migration.gov.bi/Apply",
+            "name": "Commissariat Général des Migrations — visa application page (visa-type descriptions: tarif, validité, where obtained)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       },
       "documents": {
         "items": [
@@ -1313,6 +1342,16 @@
           "lastChanged": "2026-10-07",
           "portalOnly": true
         }
+      },
+      "evidence": {
+        "fee": {
+          "text": "Tarif: 40 USD ou équivalent en Euros Validité: 3 jours Octroyé à tout point d’entrée",
+          "url": "https://migration.gov.bi/Apply"
+        },
+        "validityDays": {
+          "text": "Tarif: 40 USD ou équivalent en Euros Validité: 3 jours Octroyé à tout point d’entrée",
+          "url": "https://migration.gov.bi/Apply"
+        }
       }
     },
     {
@@ -1328,7 +1367,7 @@
       "processing": null,
       "validityDays": 180,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://migration.gov.bi/Apply/step1/8",
@@ -1346,8 +1385,23 @@
             "url": "https://migration.gov.bi/Services",
             "name": "Commissariat Général des Migrations — Infos sur le visa: “Visa d’entrée EAC … Pour les citoyens des pays membres de l’EAC … Tarif: Gratuit Validité: 1 à 6 mois”",
             "lastVerified": "2026-10-09"
+          },
+          {
+            "url": "https://migration.gov.bi/Apply",
+            "name": "Commissariat Général des Migrations — visa application page (visa-type descriptions: tarif, validité, where obtained)",
+            "lastVerified": "2026-10-09"
           }
         ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "Visa d'entrée EAC Documents exigés: Pour les citoyens des pays membres de l'EAC Photocopie du passeport ou autre document de voyage Photocopie du cachet d'entrée Photo passeport Tarif: Gratuit Validité: 1 à 6 mois",
+          "url": "https://migration.gov.bi/Services"
+        },
+        "validityDays": {
+          "text": "Tarif - Gratuit Validité - 6 mois Octroyé au CGM ou à tout point d’entrée",
+          "url": "https://migration.gov.bi/Apply"
+        }
       }
     }
   ],

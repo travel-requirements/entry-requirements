@@ -1191,17 +1191,13 @@
         "currency": "USD",
         "notes": "USD 30 for a single-entry visa (30 days); a multiple-entry visa (90 days) costs USD 60, according to the National Institute of Migration."
       },
-      "processing": {
-        "minDays": 5,
-        "maxDays": 15,
-        "unit": "business-days"
-      },
-      "validityDays": 90,
+      "processing": null,
+      "validityDays": null,
       "stayDays": 30,
       "entries": "single",
       "extendable": {
         "possible": true,
-        "days": null
+        "days": 30
       },
       "applyUrl": null,
       "source": {
@@ -1221,6 +1217,24 @@
           "states": "Tourists may stay up to 90 days, extendable by a further 90 days at the INM.",
           "resolvedBy": "hierarchy"
         }
+      },
+      "evidence": {
+        "fee": {
+          "text": "Visa sencilla (30 días): $30.00",
+          "url": "https://inm.gob.hn/visas.html"
+        },
+        "stayDays": {
+          "text": "Visa sencilla (30 días): $30.00",
+          "url": "https://inm.gob.hn/visas.html"
+        },
+        "entries": {
+          "text": "Visa sencilla (30 días): $30.00",
+          "url": "https://inm.gob.hn/visas.html"
+        },
+        "extendable": {
+          "text": "Se puede permanecer como turista un máximo de 90 días, prorrogables por 30 días más, solicitando una extensión en el Instituto Nacional de Migración (INM) de Honduras.",
+          "url": "https://inm.gob.hn/visas.html"
+        }
       }
     },
     {
@@ -1233,18 +1247,10 @@
         "currency": "USD",
         "notes": "The USD 100 consulted-visa tariff is paid when the application is filed with the National Institute of Migration, through a lawyer holding a power of attorney and with a person in Honduras who signs a statement of responsibility for the traveller. Once it is approved, the visa itself is issued by a Honduran consulate."
       },
-      "processing": {
-        "minDays": 15,
-        "maxDays": 60,
-        "unit": "calendar-days"
-      },
-      "validityDays": 90,
-      "stayDays": 90,
-      "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "processing": null,
+      "validityDays": null,
+      "stayDays": null,
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://inm.gob.hn/visas.html",
@@ -1258,6 +1264,12 @@
           "lastAttempt": "2026-10-02",
           "reason": "unreachable"
         }
+      },
+      "evidence": {
+        "fee": {
+          "text": "Pago de $100.00, por tarifa de visa consultada.",
+          "url": "https://inm.gob.hn/visas.html"
+        }
       }
     },
     {
@@ -1266,18 +1278,10 @@
       "method": "exemption-extension",
       "name": "Tourist Stay Extension",
       "fee": null,
-      "processing": {
-        "minDays": 3,
-        "maxDays": 10,
-        "unit": "business-days"
-      },
+      "processing": null,
       "validityDays": null,
       "stayDays": 30,
-      "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://inm.gob.hn/visas.html",
@@ -1295,6 +1299,12 @@
           "name": "Embassy of Honduras in the United Kingdom — Visa",
           "states": "Tourists may stay up to 90 days, extendable by a further 90 days at the INM.",
           "resolvedBy": "hierarchy"
+        }
+      },
+      "evidence": {
+        "stayDays": {
+          "text": "Se puede permanecer como turista un máximo de 90 días, prorrogables por 30 días más, solicitando una extensión en el Instituto Nacional de Migración (INM) de Honduras.",
+          "url": "https://inm.gob.hn/visas.html"
         }
       }
     }
@@ -1316,7 +1326,7 @@
         "name": "Yellow fever",
         "certificate": "International Certificate of Vaccination (yellow card)",
         "requiredWhen": "arriving-from-risk-country",
-        "text": "The National Institute of Migration says yellow fever vaccination is mandatory for travellers entering from countries with a risk of transmission, which it lists as parts of Panama; Argentina, Bolivia, Brazil, Colombia, Ecuador, French Guiana, Guyana, Paraguay, Peru, Suriname and Venezuela; and 32 African countries.",
+        "text": "The National Institute of Migration says yellow fever vaccination is mandatory for travellers entering from countries with a risk of transmission, which it lists as parts of Panama; Argentina, Bolivia, Brazil, Colombia, Ecuador, French Guiana, Guyana, Paraguay, Peru, Suriname and Venezuela; and a list of African countries.",
         "source": {
           "url": "https://inm.gob.hn/visas.html",
           "name": "Instituto Nacional de Migración (INM), Honduras — Visas",
@@ -1344,9 +1354,9 @@
       }
     },
     "onwardTicket": {
-      "required": true,
-      "appliesTo": "all",
-      "text": "Canada's travel advice says customs officials may ask to see a return or onward ticket.",
+      "required": null,
+      "appliesTo": null,
+      "text": "No official source we could read requires a return or onward ticket. Canada's travel advice says customs officials may ask to see a return or onward ticket.",
       "source": {
         "url": "https://travel.gc.ca/destinations/honduras",
         "name": "Government of Canada — Travel advice: Honduras (entry and exit requirements)",

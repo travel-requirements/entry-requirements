@@ -13,7 +13,7 @@
     "hong-kong",
     "philippines"
   ],
-  "summary": "Taiwan waives visas for 65 nationalities — 90 days for the EU, UK, US, Canada, Japan, South Korea, Australia and New Zealand among others — and 20 more can apply online for an eVisa. Remaining nationalities apply for a visitor visa at a Taiwan overseas mission.",
+  "summary": "Taiwan waives visas for the nationalities BOCA lists — 90 days for the EU, UK, US, Canada, Japan, South Korea, Australia and New Zealand among others — and other nationalities can apply online for an eVisa or a Travel Authorization Certificate where eligible. Remaining nationalities apply for a visitor visa at a Taiwan overseas mission.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -2338,7 +2338,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "applyUrl": "https://www.boca.gov.tw/",
       "source": {
         "url": "https://www.boca.gov.tw/cp-160-7204-78395-2.html",
@@ -2346,6 +2346,12 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Single Entry Visitor Visa: NT$1,600 per application made in Taiwan; US$50 per application made overseas.",
+          "url": "https://www.boca.gov.tw/cp-160-7204-78395-2.html"
+        }
       }
     },
     {
@@ -2356,16 +2362,12 @@
       "fee": {
         "amount": 1600,
         "currency": "TWD",
-        "notes": "Plus an NT$46 processing fee for the online card payment (NT$1,646 in total), paid by Visa, MasterCard or JCB. The Bureau of Consular Affairs issues eVisas free of charge to citizens of Bosnia and Herzegovina, Colombia, Haiti, Mauritius, Montenegro, Panama, Peru and Türkiye. BOCA's eVisa page says the eVisa is valid three months from issue for a single entry and a stay of up to 30 days, and its 2020 notice gives the processing time as about three working days."
+        "notes": "Plus an NT$46 processing fee for the online credit card payment (NT$1,646 in total). BOCA's 2020 notice gives the eVisa processing time as about three working days."
       },
-      "processing": {
-        "minDays": 3,
-        "maxDays": 3,
-        "unit": "business-days"
-      },
-      "validityDays": 90,
-      "stayDays": 30,
-      "entries": "single",
+      "processing": null,
+      "validityDays": null,
+      "stayDays": null,
+      "entries": null,
       "applyUrl": "https://www.boca.gov.tw/",
       "source": {
         "url": "https://www.boca.gov.tw/cp-181-4492-0447f-2.html",
@@ -2403,6 +2405,12 @@
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07"
         }
+      },
+      "evidence": {
+        "fee": {
+          "text": "The application fee for an eVisa is NT$1,600.",
+          "url": "https://www.boca.gov.tw/cp-181-4492-0447f-2.html"
+        }
       }
     },
     {
@@ -2421,6 +2429,20 @@
         "name": "National Immigration Agency (Taiwan) — Online Application for Travel Authorization Certificate: notes for applicants (English)",
         "type": "government",
         "lastVerified": "2026-10-07"
+      },
+      "evidence": {
+        "validityDays": {
+          "text": "An approved TAC is valid for 90 days.",
+          "url": "https://niaspeedy.immigration.gov.tw/nia_southeast/doMessage?language=1"
+        },
+        "stayDays": {
+          "text": "The holder of an TAC may stay in Taiwan for 14 days, starting from the next day of arrival.",
+          "url": "https://niaspeedy.immigration.gov.tw/nia_southeast/doMessage?language=1"
+        },
+        "entries": {
+          "text": "Multiple entries within these 90 days are allowed.",
+          "url": "https://niaspeedy.immigration.gov.tw/nia_southeast/doMessage?language=1"
+        }
       }
     },
     {
@@ -2432,7 +2454,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": 30,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.immigration.gov.tw/5382/5385/12162/12209//CP_QA?alias=QAClass&type=%E6%B8%AF%E6%BE%B3%E4%BA%BA%E5%A3%AB%E7%94%B3%E8%BE%A6%E7%9B%B8%E9%97%9C",
@@ -2440,6 +2462,12 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "stayDays": {
+          "text": "自入境翌日起，可停留30天。",
+          "url": "https://www.immigration.gov.tw/5382/5385/12162/12209//CP_QA?alias=QAClass&type=%E6%B8%AF%E6%BE%B3%E4%BA%BA%E5%A3%AB%E7%94%B3%E8%BE%A6%E7%9B%B8%E9%97%9C"
+        }
       }
     }
   ],
@@ -2495,10 +2523,10 @@
       }
     },
     "proofOfFunds": {
-      "required": false,
+      "required": null,
       "appliesTo": null,
       "amount": null,
-      "text": "No fixed amount is published. Visa-exempt visitors from Thailand, the Philippines and Brunei must show a hotel booking, their host's contact details and sufficient travel funds.",
+      "text": "No official source we could read states a proof-of-funds requirement for all visitors, or an amount. BOCA says holders of Brunei, Philippines and Thailand passports entering visa-free must have proof of a hotel booking, their host or sponsor's contact information and sufficient travel funds.",
       "source": {
         "url": "https://www.boca.gov.tw/cp-149-4486-7785a-2.html",
         "name": "Bureau of Consular Affairs (Taiwan) — Visa-Exempt Entry",
@@ -2662,7 +2690,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Taiwan?",
-      "answer": "65 nationalities do not: the EU, UK, US, Canada, Japan, South Korea, Australia, New Zealand and others get 90 days visa-free; Singapore, Malaysia, the Dominican Republic, Belize, Saint Kitts and Nevis, Saint Lucia and Saint Vincent and the Grenadines get 30 days; and Thailand, the Philippines, Brunei and Oman get 14 days. 20 nationalities, including the Gulf states, can apply online for an eVisa, and citizens of India, Indonesia, Laos, Myanmar and Vietnam can apply online for a Travel Authorization Certificate. Everyone else applies for a visitor visa at a Taiwan overseas mission."
+      "answer": "Not if your nationality is on BOCA's visa-exempt list: the EU, UK, US, Canada, Japan, South Korea, Australia, New Zealand and others get 90 days visa-free; Singapore, Malaysia, the Dominican Republic, Belize, Saint Kitts and Nevis, Saint Lucia and Saint Vincent and the Grenadines get 30 days; and Thailand, the Philippines, Brunei and Oman get 14 days. Other nationalities, including the Gulf states, can apply online for an eVisa, and citizens of India, Indonesia, Laos, Myanmar and Vietnam can apply online for a Travel Authorization Certificate. Everyone else applies for a visitor visa at a Taiwan overseas mission."
     },
     {
       "id": "us-stay",

@@ -1253,11 +1253,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": 60,
-      "entries": "single",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://visit-micronesia.fm/regulations",
@@ -1265,19 +1261,32 @@
         "type": "government",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "stayDays": {
+          "text": "All other noncitizens may be issued an entry permit for an additional period not to exceed 60 days.",
+          "url": "https://visit-micronesia.fm/regulations"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
       "rule": "other",
-      "text": "Your passport must be valid for at least 120 days beyond the date you enter the FSM.",
+      "text": "The FSM's visitor regulations say the passport or other travel document must be valid for at least 120 days beyond the date of entry into the FSM.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/federated-states-of-micronesia/entry-requirements",
         "name": "UK Foreign, Commonwealth & Development Office — Micronesia entry requirements",
         "type": "government",
         "lastVerified": "2026-10-03",
-        "lastChanged": "2026-09-26"
+        "lastChanged": "2026-09-26",
+        "alsoStatedOn": [
+          {
+            "url": "https://visit-micronesia.fm/regulations",
+            "name": "Federated States of Micronesia — Regulations (visitor entry requirements)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       }
     },
     "blankPages": {

@@ -18,7 +18,7 @@
     "uruguay",
     "brazil"
   ],
-  "summary": "Chile admits most of Europe, North America, South America and much of Asia-Pacific visa-free for up to 90 days as visitors on a transitory stay permit. Everyone else applies for a consular tourist visa (autorización previa o visa) through Chile's online consular services.",
+  "summary": "Chile's foreign ministry publishes, nationality by nationality, whether a prior authorisation or visa (autorización previa o visa) is needed and the longest stay allowed. Those who need none, including nationals of the US, Canada, the UK and the EU, enter as visitors on a transitory stay permit (permanencia transitoria) for up to 90 days, or 30 or 60 days for some nationalities; the others apply for the visa through Chile's online consular services.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -1910,7 +1910,7 @@
       "id": "tourist-visa",
       "category": "tourist",
       "method": "embassy",
-      "name": "Consular Tourist Visa (Visa de Turismo)",
+      "name": "Prior authorisation or visa (Autorización previa o visa)",
       "fee": null,
       "processing": null,
       "validityDays": null,
@@ -1926,22 +1926,32 @@
         "name": "Ministerio de Relaciones Exteriores de Chile — Autorización previa o visa",
         "type": "government",
         "lastVerified": "2026-10-07"
+      },
+      "evidence": {
+        "stayDays": {
+          "text": "La autorización previa o visa puede autorizar una o múltiples entradas y permite una estadía de hasta 90 días.",
+          "url": "https://www.consulado.gob.cl/autorizacion-previa-o-visa"
+        },
+        "extendable": {
+          "text": "Una vez en Chile, el permiso de permanencia puede ser prorrogado por 90 días, a través del Servicio Nacional de Migraciones del Ministerio del Interior.",
+          "url": "https://www.consulado.gob.cl/autorizacion-previa-o-visa"
+        }
       }
     },
     {
       "id": "tourist-extension",
       "category": "other",
       "method": "exemption-extension",
-      "name": "Tourist Stay Extension (Prórroga de Turismo)",
+      "name": "Extension of transitory stay (Prórroga de Permanencia Transitoria)",
       "fee": {
         "amount": 100,
         "currency": "USD",
-        "notes": "USD 100, paid in the equivalent in Chilean pesos to the Servicio Nacional de Migraciones. Children and adolescents are exempt."
+        "notes": "Fee (pago de derechos) of USD 100. Children and adolescents are exempt."
       },
       "processing": null,
       "validityDays": null,
       "stayDays": 90,
-      "entries": "single",
+      "entries": null,
       "extendable": {
         "possible": false,
         "days": null
@@ -1953,6 +1963,20 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-09-26"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Pago de derechos: USD 100.",
+          "url": "https://serviciomigraciones.cl/permanencia-transitoria/prorroga/"
+        },
+        "stayDays": {
+          "text": "Si eres titular de un permiso de Permanencia Transitoria, cualquiera haya sido su duración original, podrás prorrogarla por una sola vez, por hasta noventa días corridos.",
+          "url": "https://serviciomigraciones.cl/permanencia-transitoria/prorroga/"
+        },
+        "extendable": {
+          "text": "Si eres titular de un permiso de Permanencia Transitoria, cualquiera haya sido su duración original, podrás prorrogarla por una sola vez, por hasta noventa días corridos.",
+          "url": "https://serviciomigraciones.cl/permanencia-transitoria/prorroga/"
+        }
       }
     }
   ],
@@ -2233,7 +2257,7 @@
     {
       "id": "do-i-need-a-visa",
       "question": "Do I need a visa for Chile?",
-      "answer": "It depends on your passport. Citizens of the EU and Schengen states, the UK, Ireland, the US, Canada, Mexico, Australia, New Zealand, Japan, South Korea, Israel, South Africa and most of Latin America enter visa-free for up to 90 days as tourists; Singapore, Malaysian, Macao and Belizean passport holders get 30 days and Indonesians 60. Everyone else applies for a consular tourist visa at a Chilean consulate before traveling."
+      "answer": "It depends on your passport. Citizens of the EU and Schengen states, the UK, Ireland, the US, Canada, Mexico, Australia, New Zealand, Japan, South Korea, Israel, South Africa, Argentina, Brazil, Colombia, Peru and Uruguay enter visa-free for up to 90 days as tourists; Singapore, Malaysian, Macao and Belizean passport holders get 30 days and Indonesians 60. Nationalities that need a prior authorisation or visa apply for it through Chile's online consular services before traveling."
     },
     {
       "id": "reciprocity-fee",
@@ -2243,7 +2267,7 @@
     {
       "id": "how-long-can-i-stay",
       "question": "How long can I stay in Chile?",
-      "answer": "Ninety days as a tourist for most visa-free nationalities — 30 days for Singapore, Malaysian, Macao and Belizean passports and 60 for Indonesian ones. One extension of up to a further 90 days can be requested from the Servicio Nacional de Migraciones for a fee of USD 100 (children and adolescents are exempt), and it must be applied for before your current permission expires."
+      "answer": "Up to 90 days on a transitory stay permit, except 30 days for Singapore, Malaysian, Macao and Belizean passports and 60 for Indonesian ones. One extension of up to a further 90 days can be requested from the Servicio Nacional de Migraciones for a fee of USD 100 (children and adolescents are exempt), and it must be applied for before your current permission expires."
     },
     {
       "id": "easter-island",

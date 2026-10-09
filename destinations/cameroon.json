@@ -1172,13 +1172,17 @@
       "id": "evisa-tourist",
       "category": "tourist",
       "method": "evisa",
-      "name": "Tourist eVisa (short stay)",
+      "name": "Short-stay visa (eVisa)",
       "fee": {
         "amount": 153,
         "currency": "EUR",
         "notes": "Administrative processing fee for a short-stay visa (1 to 180 days), paid online; 229 EUR for an express short-stay visa. Not refunded if the application is refused or withdrawn; waived for some categories of applicant."
       },
-      "processing": null,
+      "processing": {
+        "minDays": null,
+        "maxDays": 3,
+        "unit": "calendar-days"
+      },
       "validityDays": null,
       "stayDays": 180,
       "entries": null,
@@ -1190,7 +1194,34 @@
         "lastVerified": "2026-10-09",
         "archiveUrl": "https://web.archive.org/web/20260829140311/https://www.evisacam.cm/ords/dl_portal/r/public_portal/home",
         "lastChanged": "2026-10-07",
-        "portalOnly": true
+        "portalOnly": true,
+        "alsoStatedOn": [
+          {
+            "url": "https://www.evisacam.cm/ords/r/dl_portal/public_portal/faq-clob",
+            "name": "eVisa Cameroun — FAQ (dialog opened from the portal front page menu)",
+            "lastVerified": "2026-10-09"
+          }
+        ],
+        "conflict": {
+          "url": "https://www.diplocam.cm/e-visa/",
+          "name": "Ministère des Relations Extérieures du Cameroun (MINREX) — e-Visa: Modalités",
+          "states": "Ordinary short-stay visa (6 months): 100,000 FCFA (express 150,000 FCFA)",
+          "resolvedBy": "hierarchy"
+        }
+      },
+      "evidence": {
+        "fee": {
+          "text": "153€ for a normal short-stay visa (1 to 180 days)",
+          "url": "https://www.evisacam.cm/ords/r/dl_portal/public_portal/faq-clob"
+        },
+        "stayDays": {
+          "text": "180 days maximum for a short-stay visa, and",
+          "url": "https://www.evisacam.cm/ords/r/dl_portal/public_portal/faq-clob"
+        },
+        "processing": {
+          "text": "Under normal procedures, the visa is issued within 72 hours of payment of the online fee.",
+          "url": "https://www.evisacam.cm/ords/r/dl_portal/public_portal/faq-clob"
+        }
       }
     },
     {
@@ -1203,7 +1234,11 @@
         "currency": "EUR",
         "notes": "Administrative processing fee for a long-stay visa (181 to 360 days), for work, study or family, paid online. Not refunded if the application is refused or withdrawn."
       },
-      "processing": null,
+      "processing": {
+        "minDays": null,
+        "maxDays": 3,
+        "unit": "calendar-days"
+      },
       "validityDays": null,
       "stayDays": 360,
       "entries": null,
@@ -1221,7 +1256,28 @@
           "states": "Ordinary long-stay visa (12 months): 150,000 FCFA (express 200,000 FCFA)",
           "resolvedBy": "hierarchy"
         },
-        "portalOnly": true
+        "portalOnly": true,
+        "alsoStatedOn": [
+          {
+            "url": "https://www.evisacam.cm/ords/r/dl_portal/public_portal/faq-clob",
+            "name": "eVisa Cameroun — FAQ (dialog opened from the portal front page menu)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "305€ for a normal long-stay visa (181 to 360 days)",
+          "url": "https://www.evisacam.cm/ords/r/dl_portal/public_portal/faq-clob"
+        },
+        "stayDays": {
+          "text": "360 days maximum for long-stay visas.",
+          "url": "https://www.evisacam.cm/ords/r/dl_portal/public_portal/faq-clob"
+        },
+        "processing": {
+          "text": "Under normal procedures, the visa is issued within 72 hours of payment of the online fee.",
+          "url": "https://www.evisacam.cm/ords/r/dl_portal/public_portal/faq-clob"
+        }
       }
     },
     {
@@ -1234,7 +1290,11 @@
         "currency": "EUR",
         "notes": "Administrative processing fee for a transit visa (4 to 30 days), paid online. Needed even for an airport connection unless your visa is waived."
       },
-      "processing": null,
+      "processing": {
+        "minDays": null,
+        "maxDays": 3,
+        "unit": "calendar-days"
+      },
       "validityDays": null,
       "stayDays": 30,
       "entries": null,
@@ -1252,13 +1312,34 @@
           "states": "A transit visa of up to 5 days is free",
           "resolvedBy": "hierarchy"
         },
-        "portalOnly": true
+        "portalOnly": true,
+        "alsoStatedOn": [
+          {
+            "url": "https://www.evisacam.cm/ords/r/dl_portal/public_portal/faq-clob",
+            "name": "eVisa Cameroun — FAQ (dialog opened from the portal front page menu)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "153€ for a transit visa (4 to 30 days).",
+          "url": "https://www.evisacam.cm/ords/r/dl_portal/public_portal/faq-clob"
+        },
+        "stayDays": {
+          "text": "30 days maximum for transit visas",
+          "url": "https://www.evisacam.cm/ords/r/dl_portal/public_portal/faq-clob"
+        },
+        "processing": {
+          "text": "Under normal procedures, the visa is issued within 72 hours of payment of the online fee.",
+          "url": "https://www.evisacam.cm/ords/r/dl_portal/public_portal/faq-clob"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
+      "rule": "other",
       "text": "Visa applicants need a passport or other travel document valid for at least six months.",
       "source": {
         "url": "https://www.evisacam.cm/",
@@ -1267,7 +1348,14 @@
         "lastVerified": "2026-10-09",
         "archiveUrl": "https://web.archive.org/web/20260829140311/https://www.evisacam.cm/ords/dl_portal/r/public_portal/home",
         "lastChanged": "2026-10-03",
-        "portalOnly": true
+        "portalOnly": true,
+        "alsoStatedOn": [
+          {
+            "url": "https://www.evisacam.cm/ords/r/dl_portal/public_portal/faq-clob",
+            "name": "eVisa Cameroun — FAQ (dialog opened from the portal front page menu)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       }
     },
     "vaccinations": [
@@ -1309,15 +1397,22 @@
     },
     "onwardTicket": {
       "required": true,
-      "appliesTo": "all",
-      "text": "The eVisa application asks for a return or onward ticket and proof of accommodation (a firm hotel booking or a certificate of accommodation from your host).",
+      "appliesTo": "visa-applicants",
+      "text": "Cameroon's eVisa portal lists a return plane ticket or circular transport ticket among the documents for a short-stay visa, and an airline ticket valid to the destination or other proof of onward travel for a transit visa.",
       "source": {
         "url": "https://www.evisacam.cm/",
         "name": "eVisa Cameroon — official consular services portal (FAQ, opened from the front page menu)",
         "type": "government",
         "lastVerified": "2026-10-09",
         "archiveUrl": "https://web.archive.org/web/20260829140311/https://www.evisacam.cm/ords/dl_portal/r/public_portal/home",
-        "portalOnly": true
+        "portalOnly": true,
+        "alsoStatedOn": [
+          {
+            "url": "https://www.evisacam.cm/ords/r/dl_portal/public_portal/faq-clob",
+            "name": "eVisa Cameroun — FAQ (dialog opened from the portal front page menu)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       }
     },
     "proofOfFunds": {
@@ -1332,7 +1427,14 @@
         "lastVerified": "2026-10-09",
         "archiveUrl": "https://web.archive.org/web/20260829140311/https://www.evisacam.cm/ords/dl_portal/r/public_portal/home",
         "lastChanged": "2026-09-26",
-        "portalOnly": true
+        "portalOnly": true,
+        "alsoStatedOn": [
+          {
+            "url": "https://www.evisacam.cm/ords/r/dl_portal/public_portal/faq-clob",
+            "name": "eVisa Cameroun — FAQ (dialog opened from the portal front page menu)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       }
     },
     "declarations": [],

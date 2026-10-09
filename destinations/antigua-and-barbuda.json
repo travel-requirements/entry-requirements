@@ -14,7 +14,7 @@
     "grenada",
     "saint-lucia"
   ],
-  "summary": "Antigua and Barbuda waives visas for citizens of the 102 countries and territories on the Immigration Department's visa-exemption list (as of 8 October 2026), including the US, Canada, the UK, the EU and most Commonwealth countries, normally for stays of up to six months — while everyone else applies for an eVisa online (or at a mission) before traveling, unless they hold a US, Canadian, UK or Schengen visa, which qualifies them for a USD 100 visa on arrival.",
+  "summary": "Antigua and Barbuda waives visas for citizens of the countries and territories on the Immigration Department's visa-exemption list, including the US, Canada, the UK and the EU; the department says they may stay as long as their business takes, up to six months. Everyone else applies for an eVisa online (or at a mission) before traveling, unless they hold a US, Canadian, UK or Schengen visa or residence card, which qualifies them for a USD 100 visa on arrival.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -4246,7 +4246,7 @@
       "name": "Antigua and Barbuda e-Visa (visitor)",
       "fee": null,
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 7,
         "unit": "business-days"
       },
@@ -4262,8 +4262,8 @@
         "url": "https://immigration.gov.ag/frequently-asked-questions/visa-faqs/",
         "name": "Antigua and Barbuda Immigration Department — Visa FAQs",
         "type": "government",
-        "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09"
       },
       "applyWindow": {
         "earliestDays": null,
@@ -4304,6 +4304,16 @@
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07"
         }
+      },
+      "evidence": {
+        "processing": {
+          "text": "The processing time of the application is seven (7) working days. This time can be extended for up to 15 days and in exceptional cases for up to 30 days.",
+          "url": "https://immigration.gov.ag/frequently-asked-questions/visa-faqs/"
+        },
+        "extendable": {
+          "text": "If you wish to stay in Antigua and Barbuda longer than your e-Visa permits, you must apply to the Immigration Department for an extension of your entry permit.",
+          "url": "https://immigration.gov.ag/frequently-asked-questions/visa-faqs/"
+        }
       }
     },
     {
@@ -4313,11 +4323,11 @@
       "name": "Antigua and Barbuda e-Visa (visitor, multiple entry)",
       "fee": null,
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 7,
         "unit": "business-days"
       },
-      "validityDays": null,
+      "validityDays": 365,
       "stayDays": null,
       "entries": "multiple",
       "extendable": {
@@ -4329,8 +4339,8 @@
         "url": "https://immigration.gov.ag/frequently-asked-questions/visa-faqs/",
         "name": "Antigua and Barbuda Immigration Department — Visa FAQs (multiple-entry e-Visa)",
         "type": "government",
-        "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-07"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09"
       },
       "applyWindow": {
         "earliestDays": null,
@@ -4370,6 +4380,24 @@
           "type": "government",
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07"
+        }
+      },
+      "evidence": {
+        "processing": {
+          "text": "The processing time of the application is seven (7) working days. This time can be extended for up to 15 days and in exceptional cases for up to 30 days.",
+          "url": "https://immigration.gov.ag/frequently-asked-questions/visa-faqs/"
+        },
+        "entries": {
+          "text": "Can I obtain a multiple entry e-Visa? A Yes. Multiple entry e-visa last for one year.",
+          "url": "https://immigration.gov.ag/frequently-asked-questions/visa-faqs/"
+        },
+        "validityDays": {
+          "text": "Can I obtain a multiple entry e-Visa? A Yes. Multiple entry e-visa last for one year.",
+          "url": "https://immigration.gov.ag/frequently-asked-questions/visa-faqs/"
+        },
+        "extendable": {
+          "text": "If you wish to stay in Antigua and Barbuda longer than your e-Visa permits, you must apply to the Immigration Department for an extension of your entry permit.",
+          "url": "https://immigration.gov.ag/frequently-asked-questions/visa-faqs/"
         }
       }
     },
@@ -4387,17 +4415,27 @@
       "validityDays": null,
       "stayDays": 30,
       "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
       "applyUrl": null,
       "source": {
         "url": "https://immigration.gov.ag/visa-services/visa-on-arrival/",
         "name": "Antigua and Barbuda Immigration Department — Visa on Arrival",
         "type": "government",
-        "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09"
+      },
+      "evidence": {
+        "fee": {
+          "text": "A fee of US$100.00 or the equivalent Eastern Caribbean Currency per passenger (including children) will be charged per passenger on arrival for passengers requiring visas to enter Antigua and Barbuda.",
+          "url": "https://immigration.gov.ag/visa-services/visa-on-arrival/"
+        },
+        "stayDays": {
+          "text": "A single entry Tourist Visa-on-Arrival is granted for a stay up to 30 days.",
+          "url": "https://immigration.gov.ag/visa-services/visa-on-arrival/"
+        },
+        "entries": {
+          "text": "A single entry Tourist Visa-on-Arrival is granted for a stay up to 30 days.",
+          "url": "https://immigration.gov.ag/visa-services/visa-on-arrival/"
+        }
       }
     },
     {
@@ -4408,28 +4446,34 @@
       "fee": {
         "amount": 300,
         "currency": "XCD",
-        "notes": "Non-CARICOM nationals; CARICOM nationals pay XCD 150. A processing fee only — it does not guarantee the extension. Apply in person at the Immigration Department in St John's before your entry stamp expires; each extension is for up to three months."
+        "notes": "Non-CARICOM nationals; CARICOM nationals pay XCD 150. The fee is a processing fee only and does not mean an extension will be granted. The application must be filed before the entry endorsement expires, and the applicant must appear in person."
       },
       "processing": null,
       "validityDays": null,
       "stayDays": 90,
-      "entries": "single",
-      "extendable": {
-        "possible": true,
-        "days": 90
-      },
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://immigration.gov.ag/general-services/extentions/",
         "name": "Antigua and Barbuda Immigration Department — Extensions",
         "type": "government",
-        "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-07",
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09",
         "conflict": {
           "url": "https://immigration.gov.ag/fees/extention-fees/",
           "name": "Antigua and Barbuda Immigration Department — extension fees",
           "states": "XCD 150 + XCD 50 processing fee",
           "resolvedBy": "stricter"
+        }
+      },
+      "evidence": {
+        "fee": {
+          "text": "Application fee ($300.00 for the Non-CARICOM Nationals and $150.00 for CARICOM Nationals).",
+          "url": "https://immigration.gov.ag/general-services/extentions/"
+        },
+        "stayDays": {
+          "text": "This extension of stay is for a period of up to three (3) months",
+          "url": "https://immigration.gov.ag/general-services/extentions/"
         }
       }
     }
@@ -4473,37 +4517,38 @@
       "required": null,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "No official source makes insurance a condition of entry for ordinary visits. The UK government advises adequate travel health insurance: treatment can be expensive and serious cases may need an emergency evacuation.",
+      "text": "No official source we could read states a travel-insurance requirement for Antigua and Barbuda. The UK government tells British travellers to check they have appropriate travel insurance for local treatment or unexpected medical evacuation.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/antigua-and-barbuda/health",
         "name": "UK Foreign, Commonwealth & Development Office — Antigua and Barbuda travel advice (health)",
         "type": "government",
-        "lastVerified": "2026-10-03",
+        "lastVerified": "2026-10-09",
         "lastChanged": "2026-10-03"
       }
     },
     "onwardTicket": {
       "required": true,
-      "appliesTo": "all",
+      "appliesTo": "visa-free-arrivals",
       "text": "The Immigration Department says visa-exempt visitors must have an onward or return ticket and confirmation of accommodation.",
       "source": {
         "url": "https://immigration.gov.ag/visa-services/general-visa-information/",
         "name": "Antigua and Barbuda Immigration Department — General Visa Information",
         "type": "government",
-        "lastVerified": "2026-10-03"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09"
       }
     },
     "proofOfFunds": {
       "required": true,
-      "appliesTo": "all",
-      "text": "Visitors must be able to show evidence that they can maintain themselves during their stay, alongside an onward or return ticket and confirmed accommodation. No fixed amount is published.",
+      "appliesTo": "visa-free-arrivals",
+      "text": "The Immigration Department says visa-exempt visitors must be able to produce evidence of their ability to maintain themselves in Antigua and Barbuda, alongside an onward or return ticket and confirmed accommodation. No fixed amount is published.",
       "amount": null,
       "source": {
         "url": "https://immigration.gov.ag/visa-services/general-visa-information/",
         "name": "Antigua and Barbuda Immigration Department — General Visa Information",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-09-27"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09"
       }
     },
     "declarations": [
@@ -4658,7 +4703,7 @@
     {
       "id": "do-i-need-a-visa",
       "question": "Do I need a visa for Antigua and Barbuda?",
-      "answer": "Antigua and Barbuda waives visas for citizens of the 102 countries and territories on the Immigration Department's visa-exemption list (as of 8 October 2026), including the United States, Canada, the United Kingdom, the EU and most Commonwealth countries — visitors are normally admitted for up to six months. Everyone else needs a visitor visa before traveling, applied for online through the Immigration Department’s eVisa system or at an Antigua and Barbuda mission. Travellers who hold a valid US, Canadian, UK or Schengen visa or residence card can instead buy a 30-day Tourist Visa-on-Arrival for USD 100."
+      "answer": "Antigua and Barbuda waives visas for citizens of the countries and territories on the Immigration Department's visa-exemption list, including the United States, Canada, the United Kingdom and the EU; the department says they may stay as long as their business takes, up to six months. Everyone else needs a visitor visa before traveling, applied for online through the Immigration Department’s eVisa system or at an Antigua and Barbuda mission. Travellers who hold a valid US, Canadian, UK or Schengen visa or residence card can instead buy a 30-day Tourist Visa-on-Arrival for USD 100."
     },
     {
       "id": "how-long-can-i-stay",
@@ -4673,7 +4718,7 @@
     {
       "id": "return-ticket",
       "question": "Do I need a return ticket?",
-      "answer": "Yes. The Immigration Department says visitors must have an onward or return ticket and confirmation of accommodation, and may be asked to show they can support themselves during the stay."
+      "answer": "Yes, if you do not need a visa: the Immigration Department says visa-exempt visitors must have an onward or return ticket and confirmation of accommodation, and be able to produce evidence that they can maintain themselves. Holders of the Tourist Visa-on-Arrival must also have a return ticket."
     },
     {
       "id": "work-remotely",

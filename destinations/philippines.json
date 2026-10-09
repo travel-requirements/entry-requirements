@@ -1276,10 +1276,6 @@
       "validityDays": 90,
       "stayDays": null,
       "entries": "single",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
       "applyUrl": null,
       "source": {
         "url": "https://philippineembassy-dc.org/schedule-and-fees/",
@@ -1287,13 +1283,27 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-07"
+      },
+      "evidence": {
+        "fee": {
+          "text": "For Nationals of non visa-free countries: Single Entry $40 Visa Valid for three (3) months",
+          "url": "https://philippineembassy-dc.org/schedule-and-fees/"
+        },
+        "validityDays": {
+          "text": "For Nationals of non visa-free countries: Single Entry $40 Visa Valid for three (3) months",
+          "url": "https://philippineembassy-dc.org/schedule-and-fees/"
+        },
+        "entries": {
+          "text": "For Nationals of non visa-free countries: Single Entry $40 Visa Valid for three (3) months",
+          "url": "https://philippineembassy-dc.org/schedule-and-fees/"
+        }
       }
     },
     {
       "id": "tourist-evisa",
       "category": "tourist",
       "method": "evisa",
-      "name": "Philippine eVisa (9(a) temporary visitor visa)",
+      "name": "Philippine eVisa (9(a) temporary visitor visa), single entry",
       "fee": null,
       "processing": {
         "minDays": 7,
@@ -1314,6 +1324,20 @@
         "type": "government",
         "lastVerified": "2026-10-04",
         "lastChanged": "2026-10-04"
+      },
+      "evidence": {
+        "processing": {
+          "text": "The processing time of e-Visas will be 7-12 working days for single entry and 15-21 working days for multiple entries.",
+          "url": "https://evisa.gov.ph/page/faqs"
+        },
+        "entries": {
+          "text": "The processing time of e-Visas will be 7-12 working days for single entry and 15-21 working days for multiple entries.",
+          "url": "https://evisa.gov.ph/page/faqs"
+        },
+        "extendable": {
+          "text": "No, Philippine e-Visas are not valid for conversion to other types of Philippine visas, and their authorized period of stay cannot be extended.",
+          "url": "https://evisa.gov.ph/page/faqs"
+        }
       }
     },
     {
@@ -1324,12 +1348,12 @@
       "fee": {
         "amount": 3030,
         "currency": "PHP",
-        "notes": "PHP 500 visa waiver fee, PHP 1,000 application fee, PHP 500 certification fee, PHP 30 legal research fee and PHP 1,000 express fee, paid at a Bureau of Immigration office (the BI dates this table 6 March 2014). Further monthly extensions are possible afterward, up to 36 months in total for visa-free nationals."
+        "notes": "PHP 500 visa waiver fee, PHP 1,000 application fee, PHP 500 certification fee, PHP 30 legal research fee and PHP 1,000 express fee (the Bureau of Immigration dates this table 6 March 2014). Further extensions of stay are possible afterward; the Bureau gives 36 months as the maximum allowable stay for visa-free nationals."
       },
       "processing": null,
       "validityDays": null,
       "stayDays": 29,
-      "entries": "single",
+      "entries": null,
       "extendable": {
         "possible": true,
         "days": null
@@ -1341,6 +1365,20 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-07"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Visa Waiver 500.00 Visa Waiver Application Fee 1,000.00 Certification Fee 500.00 Legal Research Fee (LRF) for each immigration fee except Head Tax and Fines 30.00 Express Fee 1,000.00 TOTAL Php 3,030.00",
+          "url": "https://immigration.gov.ph/visas/visa-waiver/"
+        },
+        "stayDays": {
+          "text": "Non-visa required tourists admitted initially for thirty (30) days and is requesting for an initial extension of twenty-nine (29) days",
+          "url": "https://immigration.gov.ph/visas/visa-waiver/"
+        },
+        "extendable": {
+          "text": "A foreign national whose stay will exceed fifty-nine (59) days should secure extensions of stay with the Bureau of Immigration",
+          "url": "https://immigration.gov.ph/visas/visa-waiver/"
+        }
       }
     }
   ],

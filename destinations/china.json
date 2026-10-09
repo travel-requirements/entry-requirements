@@ -27,7 +27,7 @@
     "south-korea",
     "vietnam"
   ],
-  "summary": "China has unilaterally opened visa-free entry of up to 30 days to ordinary-passport holders of 50 countries — including most of the EU, the UK, Canada, Australia, New Zealand, Japan and South Korea — while US and Indian citizens still need an embassy visa; a separate 240-hour (10-day) visa-free transit scheme covers 57 nationalities passing through to a third country.",
+  "summary": "China has unilaterally opened visa-free entry of up to 30 days to ordinary-passport holders of 50 countries — including many EU members, the UK, Canada, Australia, New Zealand, Japan and South Korea — while US and Indian citizens still need an embassy visa; a separate 240-hour (10-day) visa-free transit scheme covers 57 nationalities passing through to a third country.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-25",
@@ -2091,24 +2091,20 @@
         "notes": "140 USD for US citizens. For other nationalities applying in the US, the reduced fees in force until 31 December 2026 are 23 USD single entry, 34 USD double, 45 USD six-month multiple and 68 USD for 12-month-or-longer multiple entry; express service adds 25 USD. The embassy notes that fees for certain non-US citizens differ. The embassy's application requirements (updated September 2025) give processing as 4 business days for regular service and 3 for express."
       },
       "processing": {
-        "minDays": 3,
+        "minDays": null,
         "maxDays": 4,
         "unit": "business-days"
       },
       "validityDays": null,
       "stayDays": null,
       "entries": "single",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
       "applyUrl": "https://cs.mfa.gov.cn/",
       "source": {
         "url": "https://us.china-embassy.gov.cn/eng/lsfw/zj/qz2021/202412/t20241227_11519914.htm",
         "name": "Embassy of China in the US — Notice on Extension of Visa-Fee Reduction (fees through 31 December 2026)",
         "type": "government",
-        "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-03",
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09",
         "alsoStatedOn": [
           {
             "url": "https://us.china-embassy.gov.cn/eng/lsfw/zj/qz2021/202509/t20250920_11712385.htm",
@@ -2116,6 +2112,20 @@
             "lastVerified": "2026-10-09"
           }
         ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "U.S.Citizen Non-U.S. Citizen* Single Entry $140",
+          "url": "https://us.china-embassy.gov.cn/eng/lsfw/zj/qz2021/202412/t20241227_11519914.htm"
+        },
+        "entries": {
+          "text": "U.S.Citizen Non-U.S. Citizen* Single Entry $140",
+          "url": "https://us.china-embassy.gov.cn/eng/lsfw/zj/qz2021/202412/t20241227_11519914.htm"
+        },
+        "processing": {
+          "text": "Regular service: 4 business days Express service: 3 business days (urgent situation)",
+          "url": "https://us.china-embassy.gov.cn/eng/lsfw/zj/qz2021/202509/t20250920_11712385.htm"
+        }
       }
     },
     {
@@ -2123,24 +2133,24 @@
       "category": "transit",
       "method": "exemption-extension",
       "name": "240-Hour Visa-Free Transit",
-      "fee": {
-        "amount": 0,
-        "currency": "CNY"
-      },
+      "fee": null,
       "processing": null,
       "validityDays": null,
       "stayDays": 10,
-      "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.nia.gov.cn/n741440/n741577/c1731205/content.html",
         "name": "National Immigration Administration — visa-free transit policy (过境免签政策)",
         "type": "government",
-        "lastVerified": "2026-10-07"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09"
+      },
+      "evidence": {
+        "stayDays": {
+          "text": "相关国家人员持本人普通护照和确定日期及行程的联程客票，从中国过境前往第三国或地区，可从24个省份65个开放口岸中的任一口岸免签入境，并在规定区域停留活动不超过10天。",
+          "url": "https://www.nia.gov.cn/n741440/n741577/c1731205/content.html"
+        }
       }
     }
   ],
@@ -2223,16 +2233,16 @@
       }
     },
     "proofOfFunds": {
-      "required": false,
+      "required": null,
       "appliesTo": null,
       "amount": null,
-      "text": "No amount is published. Border inspection examines the purpose of the visit, and the MFA advises visa-free visitors to carry documents that match it, such as an invitation letter, air tickets and accommodation bookings.",
+      "text": "No official source we could read states a proof-of-funds requirement or amount. Border inspection examines the purpose of the visit, and the MFA advises visa-free visitors to carry documents that match it, such as an invitation letter, air tickets and accommodation bookings.",
       "source": {
         "url": "https://cs.mfa.gov.cn/lh/lhqz_149493/cjwd/",
         "name": "Department of Consular Affairs, MFA of China — FAQs on visa-free entry into China",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09"
       }
     },
     "declarations": [],
@@ -2399,7 +2409,7 @@
     {
       "id": "who-visa-free",
       "question": "Which nationalities can visit China visa-free?",
-      "answer": "China's Foreign Ministry lists 50 countries whose ordinary-passport holders can visit visa-free for up to 30 days, including most EU members (Germany, France, Spain, Italy, the Netherlands, Poland and others), Switzerland, Ireland, the UK, Canada, Australia, New Zealand, Japan, South Korea, Brazil and Russia. It is announced as in force until December 31, 2026 (Russia until December 31, 2027; Brunei with no end date)."
+      "answer": "China's Foreign Ministry lists 50 countries whose ordinary-passport holders can visit visa-free for up to 30 days, including many EU members (Germany, France, Spain, Italy, the Netherlands, Poland and others), Switzerland, Ireland, the UK, Canada, Australia, New Zealand, Japan, South Korea, Brazil and Russia. It is announced as in force until December 31, 2026 (Russia until December 31, 2027; Brunei with no end date)."
     },
     {
       "id": "transit-240h",

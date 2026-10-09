@@ -20,7 +20,7 @@
     "mali",
     "cote-divoire"
   ],
-  "summary": "Most visitors to Guinea need an eVisa obtained in advance through the official border-police portal (paf.gov.gn), while ECOWAS citizens enter freely under the bloc's free-movement protocol.",
+  "summary": "Guinea's border police say every foreign national needs a visa except nationals of visa-waiver countries; the eVisa is obtained in advance through the official border-police portal (paf.gov.gn). ECOWAS citizens enter freely under the bloc's free-movement protocol.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -1759,20 +1759,16 @@
       "id": "evisa-tourist",
       "category": "tourist",
       "method": "evisa",
-      "name": "Tourist e-Visa (single entry)",
+      "name": "Tourist e-Visa",
       "fee": {
         "amount": 100,
         "currency": "USD",
-        "notes": "Standard fee for the entry visa applied for on the eVisa portal. Reciprocity rates apply to some nationalities: USD 185 for US citizens, USD 150 for UK citizens and USD 250 for Turkish citizens. The fee is not refunded if the application is refused."
+        "notes": "The fee the portal shows depends on the passport selected: USD 100 (Poland), USD 185 (United States), USD 150 (United Kingdom) and USD 250 (Turkey). The portal says the amount paid is kept by the administration even when the visa is denied."
       },
       "processing": null,
       "validityDays": 90,
-      "stayDays": 90,
-      "entries": "single",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
+      "stayDays": null,
+      "entries": null,
       "applyUrl": "https://www.paf.gov.gn/visa",
       "source": {
         "url": "https://www.paf.gov.gn/visa",
@@ -1808,13 +1804,23 @@
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07"
         }
+      },
+      "evidence": {
+        "fee": {
+          "text": "Validity Not exceeding ninety days (less than 90 days). Fee USD 100",
+          "url": "https://www.paf.gov.gn/visa"
+        },
+        "validityDays": {
+          "text": "Validity Not exceeding ninety days (less than 90 days).",
+          "url": "https://www.paf.gov.gn/visa"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
-      "text": "Your passport should be valid for at least 6 months on arrival in Guinea.",
+      "rule": "other",
+      "text": "Guinea's border police list a valid passport 'with validity more than 6 months' among the documents needed at Guinean entry checkpoints.",
       "source": {
         "url": "https://www.paf.gov.gn/visa",
         "name": "Police de l'Air et des Frontières — Guinea eVisa portal (visa types, fees and entry conditions)",
@@ -2039,7 +2045,7 @@
     {
       "id": "evisa-how",
       "question": "How does the Guinea eVisa work?",
-      "answer": "You apply on paf.gov.gn, the portal of Guinea's border police, upload your passport details and pay online. The portal lists the tourist visa at USD 100, valid for less than 90 days; some nationalities pay a higher reciprocity rate, and the fee is not refunded if the application is refused. Once approved you receive an Entry Visa Letter and collect the visa at the visa-on-arrival counter, where your photo and fingerprints are taken."
+      "answer": "You apply on paf.gov.gn, the portal of Guinea's border police, upload your passport details and pay online. The portal lists the tourist visa at USD 100, valid for less than 90 days; for some passports it shows a higher fee, and the amount paid is kept even if the visa is denied. Once approved you receive an Entry Visa Letter and collect the visa at the visa-on-arrival counter, where your photo and fingerprints are taken."
     },
     {
       "id": "voa",

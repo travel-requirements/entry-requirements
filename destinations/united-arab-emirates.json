@@ -15,7 +15,7 @@
     "india",
     "thailand"
   ],
-  "summary": "The United Arab Emirates lets many passport holders in without arranging anything — a free visa on arrival for 90 days within six months for passports such as the US, UK, Canada, Australia, Japan and South Korea (30 days for a smaller group), visa-free entry for most of Latin America and for China, and 90 days in any 180 visa-free for citizens of EU countries such as Germany, France, Spain and Italy — and routes everyone else through pre-arranged tourist eVisas sponsored by airlines, hotels or UAE residents.",
+  "summary": "Dubai's tourism department says citizens of more than 80 countries can get a visa on arrival in Dubai. It lists 90 days within six months for passports such as the US, UK, Canada, Australia, Japan and South Korea, and 30 days for others; under the EU–UAE visa waiver agreement, citizens of EU countries such as Germany, France, Spain and Italy can stay without a visa for up to 90 days in any 180-day period. Other travellers apply for a tourist visa through airlines, hotels or travel agents, as the UAE government portal describes.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -3456,10 +3456,7 @@
       "category": "tourist",
       "method": "visa-on-arrival",
       "name": "Visa on Arrival — 30 days",
-      "fee": {
-        "amount": 0,
-        "currency": "AED"
-      },
+      "fee": null,
       "processing": null,
       "validityDays": null,
       "stayDays": 30,
@@ -3475,6 +3472,20 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "stayDays": {
+          "text": "The visa on arrival is valid for 30 days from the date of entry.",
+          "url": "https://www.visitdubai.com/en/plan-your-trip/visa-information"
+        },
+        "entries": {
+          "text": "This is a multi-entry visa.",
+          "url": "https://www.visitdubai.com/en/plan-your-trip/visa-information"
+        },
+        "extendable": {
+          "text": "There is a 10-day grace period for extension. If extended, the total validity would be 60 days from the date of entry.",
+          "url": "https://www.visitdubai.com/en/plan-your-trip/visa-information"
+        }
       }
     },
     {
@@ -3482,10 +3493,7 @@
       "category": "tourist",
       "method": "visa-on-arrival",
       "name": "Visa on Arrival — 90 days",
-      "fee": {
-        "amount": 0,
-        "currency": "AED"
-      },
+      "fee": null,
       "processing": null,
       "validityDays": 180,
       "stayDays": 90,
@@ -3497,6 +3505,20 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "validityDays": {
+          "text": "The multiple-entry visa upon arrival is valid for 6 months from the date of entry for a stay of 90 days total.",
+          "url": "https://www.visitdubai.com/en/plan-your-trip/visa-information"
+        },
+        "stayDays": {
+          "text": "The multiple-entry visa upon arrival is valid for 6 months from the date of entry for a stay of 90 days total.",
+          "url": "https://www.visitdubai.com/en/plan-your-trip/visa-information"
+        },
+        "entries": {
+          "text": "The multiple-entry visa upon arrival is valid for 6 months from the date of entry for a stay of 90 days total.",
+          "url": "https://www.visitdubai.com/en/plan-your-trip/visa-information"
+        }
       }
     },
     {
@@ -3505,12 +3527,12 @@
       "method": "evisa",
       "name": "Tourist eVisa — 30 days",
       "fee": {
-        "amount": 300,
+        "amount": 200,
         "currency": "AED",
-        "notes": "ICP’s federal fees for a tourist visa issued through a licensed tourism establishment: AED 100 application + AED 100 per month of stay (AED 200 a month for multiple entry) + AED 100 smart-service fee. GDRFA Dubai prices its single-entry 30-day tourist visa at AED 200 plus 5% VAT and says the total may vary."
+        "notes": "GDRFA Dubai adds value added tax (5%) and says the total amount may vary. ICP lists, for visas issued through tourism establishments, an application fee of AED 100, an issuance fee of AED 100 per month for a single entry (AED 200 per month for multiple entry) and a smart-service fee of AED 100."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 2,
         "unit": "calendar-days"
       },
@@ -3535,6 +3557,32 @@
             "lastVerified": "2026-10-09"
           }
         ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "- 30-day tourist visa fee: AED 200.",
+          "url": "https://www.gdrfad.gov.ae/en/services/f9e586fe-0642-11ec-0320-0050569629e8"
+        },
+        "processing": {
+          "text": "Service Completion Duration 2 Days",
+          "url": "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e60"
+        },
+        "validityDays": {
+          "text": "The holder must enter the UAE within the 60-day validity period of the entry permit from its date of issuance.",
+          "url": "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e60"
+        },
+        "stayDays": {
+          "text": "The visa allows the beneficiary to stay in the UAE for 30, 60, or 90 days, depending on the selected duration.",
+          "url": "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e60"
+        },
+        "entries": {
+          "text": "Issuance of a single-entry tourist visa",
+          "url": "https://www.gdrfad.gov.ae/en/services/f9e586fe-0642-11ec-0320-0050569629e8"
+        },
+        "extendable": {
+          "text": "The Authority may extend the visa once or multiple times, provided that the total period of stay in the UAE does not exceed 120 days.",
+          "url": "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e60"
+        }
       }
     },
     {
@@ -3543,12 +3591,12 @@
       "method": "evisa",
       "name": "Tourist eVisa — 60 days",
       "fee": {
-        "amount": 400,
+        "amount": 300,
         "currency": "AED",
-        "notes": "ICP’s federal fees for a tourist visa issued through a licensed tourism establishment: AED 100 application + AED 100 per month of stay, so AED 200 for two months (AED 200 a month for multiple entry) + AED 100 smart-service fee. GDRFA Dubai prices its single-entry 60-day tourist visa at AED 300 plus 5% VAT and says the total may vary."
+        "notes": "GDRFA Dubai adds value added tax (5%) and says the total amount may vary. ICP lists, for visas issued through tourism establishments, an application fee of AED 100, an issuance fee of AED 100 per month for a single entry (AED 200 per month for multiple entry) and a smart-service fee of AED 100."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 2,
         "unit": "calendar-days"
       },
@@ -3573,6 +3621,32 @@
             "lastVerified": "2026-10-09"
           }
         ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "- 60-day tourist visa fee: AED 300.",
+          "url": "https://www.gdrfad.gov.ae/en/services/f9e586fe-0642-11ec-0320-0050569629e8"
+        },
+        "processing": {
+          "text": "Service Completion Duration 2 Days",
+          "url": "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e60"
+        },
+        "validityDays": {
+          "text": "The holder must enter the UAE within the 60-day validity period of the entry permit from its date of issuance.",
+          "url": "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e60"
+        },
+        "stayDays": {
+          "text": "The visa allows the beneficiary to stay in the UAE for 30, 60, or 90 days, depending on the selected duration.",
+          "url": "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e60"
+        },
+        "entries": {
+          "text": "Issuance of a single-entry tourist visa",
+          "url": "https://www.gdrfad.gov.ae/en/services/f9e586fe-0642-11ec-0320-0050569629e8"
+        },
+        "extendable": {
+          "text": "The Authority may extend the visa once or multiple times, provided that the total period of stay in the UAE does not exceed 120 days.",
+          "url": "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e60"
+        }
       }
     },
     {
@@ -3586,17 +3660,13 @@
         "notes": "GDRFA Dubai lists the fee for the 48- or 96-hour transit visa as AED 50, plus the service fee of the airline or other intermediary that applies for you. Applications go through approved airlines (GDRFA names Emirates, flydubai, dnata and airport hotels as channels), and the UAE Embassy in Washington says to receive a copy of the visa before travelling."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 2,
         "unit": "calendar-days"
       },
       "validityDays": null,
       "stayDays": 4,
-      "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://gdrfad.gov.ae/en/services/ee043e3c-5c61-11ea-0320-0050569629e8",
@@ -3611,6 +3681,20 @@
             "lastVerified": "2026-10-07"
           }
         ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "AED 50, plus fees for the mediator service(Airlines).",
+          "url": "https://gdrfad.gov.ae/en/services/ee043e3c-5c61-11ea-0320-0050569629e8"
+        },
+        "processing": {
+          "text": "Expected Completion Time 48.0 Hour(s)",
+          "url": "https://gdrfad.gov.ae/en/services/ee043e3c-5c61-11ea-0320-0050569629e8"
+        },
+        "stayDays": {
+          "text": "allowing a foreign national transiting through the country's airports to enter the country as a visitor and remain for a period not exceeding 48/96 hours",
+          "url": "https://gdrfad.gov.ae/en/services/ee043e3c-5c61-11ea-0320-0050569629e8"
+        }
       }
     }
   ],
@@ -3659,13 +3743,25 @@
     "onwardTicket": {
       "required": true,
       "appliesTo": "visa-applicants",
-      "text": "Tourist visa applicants must hold a confirmed return ticket to and from the UAE and proof of accommodation, according to Dubai's tourism department. The UAE Embassy in Washington tells US citizens, who get a visa on arrival, that they must have a round-trip ticket or a confirmed ticket to another destination.",
+      "text": "Dubai's tourism department lists a confirmed airline booking among the documents for a tourist visa, and the federal ICP lists a return travel ticket among its visa conditions. The UAE Embassy in Washington tells US citizens, who get a visa on arrival, that they must have a round-trip airline ticket or a confirmed ticket to another destination.",
       "source": {
         "url": "https://www.visitdubai.com/en/plan-your-trip/visa-information",
         "name": "Dubai Department of Economy and Tourism (Visit Dubai) — visa requirements by nationality",
         "type": "government",
         "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastChanged": "2026-10-03",
+        "alsoStatedOn": [
+          {
+            "url": "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e60",
+            "name": "ICP — Issuance of a Visa (service card, terms and conditions: \"Return Travel Ticket\")",
+            "lastVerified": "2026-10-09"
+          },
+          {
+            "url": "https://www.uae-embassy.org/visas-us-citizens",
+            "name": "UAE Embassy in Washington — visa requirements for US citizens",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       }
     },
     "proofOfFunds": {
@@ -3713,12 +3809,19 @@
     },
     "safety": {
       "level": "high-risk",
-      "text": "The Government of Canada says the crime rate is low and violent crime is rare, though petty crime such as pickpocketing and theft from cars may occur. Because of regional tensions, the UK Foreign Office says travellers should be prepared for flight cancellations and airspace closures at short notice.",
+      "text": "The Government of Canada says the crime rate is low and violent crime is rare, though petty crime such as pickpocketing and theft from cars may occur. The UK government tells British nationals currently in the Middle East to be prepared for possible flight cancellations, periodic airspace closures and potential travel disruptions.",
       "source": {
         "url": "https://travel.gc.ca/destinations/united-arab-emirates",
         "name": "Government of Canada — United Arab Emirates travel advice (safety and security)",
         "type": "government",
-        "lastVerified": "2026-10-06"
+        "lastVerified": "2026-10-06",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+            "name": "UK government (FCDO) — United Arab Emirates travel advice",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       }
     },
     "plugs": {
@@ -3748,7 +3851,7 @@
     },
     "bestTimeToVisit": {
       "months": [],
-      "text": "The UAE government describes a desert climate: warm and sunny in winter, hot and humid in summer, and generally cooler in the eastern mountains. The Government of Canada says humidity and heat may be most severe in the hot season from June to September, when sand and dust storms are also most likely."
+      "text": "The UAE government describes a desert climate: warm and sunny in winter, hot and humid in summer, and generally cooler in the eastern mountains. The Government of Canada says humidity and heat may be most severe in the hot season from June to September, and that sandstorms and dust storms may occur any time, particularly during the summer months."
     },
     "languages": [
       "Arabic"
@@ -3863,27 +3966,27 @@
     {
       "id": "us-need-visa",
       "question": "Do US citizens need a visa for the UAE?",
-      "answer": "No advance visa is needed. US passport holders receive a free visa on arrival at any UAE entry point, allowing up to 90 days in total within 180 days of the first entry, in one stay or several. The UAE Embassy in Washington says it cannot be renewed and that each day over 90 is fined AED 50."
+      "answer": "No. The UAE Embassy in Washington says US citizens are not required to apply for a visa before traveling: a visa is issued upon entry, allowing a maximum stay of 90 days, non-renewable, whether continuously or intermittently, within 180 days calculated from the date of first entry. It adds that a fine of AED 50 is imposed for each day over the 90 days."
     },
     {
       "id": "eu-stay-length",
       "question": "How long can EU citizens stay in the UAE?",
-      "answer": "Citizens of EU countries such as Germany, France, Spain and Italy (plus Switzerland) can stay visa-free for up to 90 days within any 180-day period. No visa on arrival stamp fee, no pre-arranged visa."
+      "answer": "Under the EU–UAE short-stay visa waiver agreement, citizens of EU countries such as Germany, France, Spain and Italy may stay in the UAE without a visa for a maximum of 90 days in any 180-day period. The agreement does not cover Ireland."
     },
     {
       "id": "india-rules",
       "question": "Can Indian citizens get a UAE visa on arrival?",
-      "answer": "Not as a rule. Indians holding a valid US, EU or UK visa or residence permit, a US green card, or a residence permit from Japan, South Korea, Australia, Canada, Singapore or New Zealand can get a 14-day visa (AED 100 plus AED 100 service fee, extendable once): the federal ICP issues it online before travel, and Dubai’s GDRFA also lists it as a visa on arrival for Indians with a US green card or visa or a UK/EU residence visa. All other Indian passport holders need a pre-arranged tourist eVisa (30 or 60 days), applied for through an airline, a hotel, a licensed travel agent or a sponsor resident in the UAE."
+      "answer": "ICP issues a 14-day entry visa to Indian ordinary passport holders who hold a valid visa, residence permit or US Green Card issued by the US, the EU or the UK, or a valid residence permit issued by Japan, South Korea, Australia, Canada, Singapore or New Zealand (issuance fee AED 100 plus smart-services fee AED 100; extendable once for the same duration). The UAE Embassy in Washington says Indian citizens with US visas, green cards, or UK or EU residence permits can obtain this visa on arrival for AED 100. Other Indian passport holders need a tourist visa arranged before the trip."
     },
     {
       "id": "evisa-cost",
       "question": "How much does a UAE tourist eVisa cost?",
-      "answer": "Through ICP, government fees for a single-entry tourist visa come to AED 300 for 30 days and AED 400 for 60 days (AED 100 application, AED 100 per month, AED 100 smart-service fee). GDRFA Dubai charges AED 200 for 30 days or AED 300 for 60 days, plus 5% VAT. Multiple-entry visas cost AED 200 a month through ICP instead of AED 100."
+      "answer": "GDRFA Dubai lists AED 200 for a 30-day and AED 300 for a 60-day single-entry tourist visa, in addition to value added tax (5%), and says the total amount may vary. ICP lists, for visas issued through tourism establishments, an application fee of AED 100, an issuance fee of AED 100 per month for a single entry or AED 200 per month for multiple entry, and a smart-service fee of AED 100."
     },
     {
       "id": "transit-visa",
       "question": "Do I need a visa to transit through Dubai or Abu Dhabi?",
-      "answer": "To leave the airport, nationalities without visa-free or visa-on-arrival access need a 48- or 96-hour transit visa, applied for through approved airlines or other channels GDRFA names, such as dnata or an airport hotel. GDRFA Dubai lists the government fee as AED 50, plus the airline’s own service fee. It must be arranged before travel."
+      "answer": "GDRFA Dubai issues a 48- or 96-hour transit visa that lets a foreign national transiting through the country's airports enter as a visitor. Applications go through approved airlines; GDRFA names Emirates Airlines, Flydubai, Dnata and airport hotels as channels, and lists the fee as AED 50 plus the intermediary's service fee. The UAE Embassy in Washington says to receive a copy of the visa before traveling."
     }
   ]
 }

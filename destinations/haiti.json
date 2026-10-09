@@ -15,7 +15,7 @@
     "cuba",
     "bahamas"
   ],
-  "summary": "The Embassy of Haiti in Washington says most tourists need no visa and pay a USD 10 fee on arrival at the airport, while nationals of nine countries need a visa in advance; the UK government says visits of up to 90 days need no visa. The UK and Canada advise against all travel to Haiti, and Canada says there are no regular international flights to or from Port-au-Prince until further notice.",
+  "summary": "The Embassy of Haiti in Washington says tourists generally do not need a visa and pay a USD 10 fee on arrival at the airport, while nationals of nine countries need a visa in advance; the UK government tells British nationals they do not need a visa for visits of up to 90 days. The UK and Canada advise against all travel to Haiti, and Canada says there are no regular international flights to or from Port-au-Prince until further notice.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -3051,16 +3051,29 @@
         "notes": "Charged by the Embassy of Haiti in Washington for a three-month tourist visa; a six-month multiple-entry visa is USD 200. Pay by money order, certified cheque or cashier's cheque."
       },
       "processing": null,
-      "validityDays": 90,
-      "stayDays": 90,
-      "entries": "single",
+      "validityDays": null,
+      "stayDays": null,
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.haiti.org/fees1/",
         "name": "Embassy of the Republic of Haiti in Washington — Fees",
         "type": "government",
         "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-02"
+        "lastChanged": "2026-10-02",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.haiti.org/tourist-visa/",
+            "name": "Embassy of the Republic of Haiti in Washington — Tourist Visa",
+            "lastVerified": "2026-10-07"
+          }
+        ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "Tourist Visa - 3 months $100.00",
+          "url": "https://www.haiti.org/fees1/"
+        }
       }
     },
     {
@@ -3072,7 +3085,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "extendable": {
         "possible": true,
         "days": null
@@ -3083,14 +3096,27 @@
         "name": "Government of Canada — Haiti travel advice (entry and exit requirements)",
         "type": "government",
         "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastChanged": "2026-10-03",
+        "alsoStatedOn": [
+          {
+            "url": "http://ambassade-haiti.ca/ambassade/structure-et-services/section-consulaire/visas",
+            "name": "Embassy of Haiti in Canada — Consular section: visas",
+            "lastVerified": "2026-10-07"
+          }
+        ]
+      },
+      "evidence": {
+        "extendable": {
+          "text": "If you plan to extend your stay beyond 90 days and are a Canadian of non-Haitian origin, you must apply to the Haitian Immigration Service before the 90 days have expired.",
+          "url": "https://travel.gc.ca/destinations/haiti"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
-      "text": "Your passport must be valid for at least six months.",
+      "rule": "other",
+      "text": "The Embassy of Haiti in Washington says tourists' passports must be valid for at least 6 months.",
       "source": {
         "url": "https://www.haiti.org/tourist-visa/",
         "name": "Embassy of Haiti in Washington — Tourist visa",
@@ -3142,7 +3168,7 @@
     },
     "onwardTicket": {
       "required": true,
-      "appliesTo": "all",
+      "appliesTo": "visa-applicants",
       "text": "China's Ministry of Foreign Affairs says its citizens entering visa-free must hold a return ticket, and the Embassy of Haiti in Washington asks visa applicants for an airline reservation or round-trip ticket. Canada's travel advice says customs officials may ask to see a return or onward ticket.",
       "source": {
         "url": "http://cs.mfa.gov.cn/zggmcg/ljmdd/bmz_655327/hd_656383/",
@@ -3156,7 +3182,7 @@
       "required": null,
       "appliesTo": null,
       "amount": null,
-      "text": "No official source we could read states an amount. Canada's travel advice says customs officials may ask to see a return or onward ticket and proof of sufficient funds to cover your stay.",
+      "text": "No official source we could read states a proof-of-funds requirement for Haiti. Canada's travel advice says customs officials may ask you to show them a return or onward ticket and proof of sufficient funds to cover your stay.",
       "source": {
         "url": "https://travel.gc.ca/destinations/haiti",
         "name": "Government of Canada — Haiti travel advice (entry and exit requirements)",
@@ -3177,7 +3203,7 @@
         "submitAt": "on-arrival",
         "submitWindow": "On arrival at the airport",
         "url": null,
-        "text": "Visitors entering without a visa pay a USD 10 fee on arrival at the airport, on top of completing the arrival card.",
+        "text": "The Embassy of Haiti in Washington says tourists must pay a fee of USD 10 on arrival at the airport.",
         "source": {
           "url": "https://www.haiti.org/tourist-visa/",
           "name": "Embassy of the Republic of Haiti in Washington — Tourist Visa",
@@ -3392,7 +3418,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Haiti?",
-      "answer": "Generally not: the Embassy of Haiti in Washington says tourists do not need a visa and pay a USD 10 fee on arrival at the airport, and the UK government says no visa is needed for visits of up to 90 days. Nine nationalities must obtain a visa from a Haitian mission first, applying at least a month before departure: Colombia, Cuba, the Dominican Republic, Iran, Libya, Panama, Syria, Vietnam and Yemen."
+      "answer": "Generally not: the Embassy of Haiti in Washington says tourists do not need a visa and pay a USD 10 fee on arrival at the airport, and the UK government tells British nationals they do not need a visa for visits of up to 90 days. Nine nationalities must obtain a visa from a Haitian mission first, applying at least a month before departure: Colombia, Cuba, the Dominican Republic, Iran, Libya, Panama, Syria, Vietnam and Yemen."
     },
     {
       "id": "is-it-safe",
@@ -3407,7 +3433,7 @@
     {
       "id": "how-long-stay",
       "question": "How long can I stay in Haiti without a visa?",
-      "answer": "The Embassy of Haiti in Canada says foreign citizens who will stay longer than 90 days, other than those of Haitian descent, must obtain a long-stay permit from the Direction de l'Immigration et de l'Émigration before the 90-day courtesy stay ends, under the Decree-Law of 26 December 1978 on Immigration and Emigration. The UK government says no visa is needed for visits of up to 90 days."
+      "answer": "The Embassy of Haiti in Canada says foreign citizens who will stay longer than 90 days, other than those of Haitian descent, must obtain a long-stay permit from the Direction de l'Immigration et de l'Émigration before the 90-day courtesy stay ends, under the Decree-Law of 26 December 1978 on Immigration and Emigration. The UK government tells British nationals they do not need a visa for visits of up to 90 days."
     },
     {
       "id": "flights",

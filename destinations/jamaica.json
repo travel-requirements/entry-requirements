@@ -14,7 +14,7 @@
     "cuba",
     "trinidad-and-tobago"
   ],
-  "summary": "Jamaica is visa-free for citizens of the US (for up to six months), Canada, the UK, most of the EU and most Commonwealth countries, though the period is 90 days for some passports and 30 for others, including France, Spain and most of Latin America. PICA lists most CARICOM nationalities as needing no visa, but not holders of Haitian ordinary passports, and a few nationalities can buy a visa at the port of entry. Whatever your nationality, every arriving passenger must present Jamaica's immigration and customs (C5) form, completed online before travel where possible or on paper.",
+  "summary": "PICA's visa table gives the rule nationality by nationality. Among the passports it lists as needing no visa are the United States (for 6 months), Canada, the United Kingdom and Commonwealth countries such as Australia and India; some passports are allowed 90 days, such as Germany, Brazil and South Korea, and others 30, such as France, Spain and Japan. Holders of Haitian ordinary passports need a visa, and some nationalities, such as Armenia and Georgia, may obtain the visa at the port of entry. Every arriving traveller must present a completed and signed Immigration/Customs C5 form, either online or on paper.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -1317,7 +1317,7 @@
       },
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "extendable": {
         "possible": true,
         "days": null
@@ -1328,7 +1328,24 @@
         "name": "Embassy of Jamaica, Washington DC (Ministry of Foreign Affairs and Foreign Trade) — Requirements for entry into Jamaica",
         "type": "government",
         "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-03"
+        "lastChanged": "2026-10-03",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.pica.gov.jm/immigration/extension-of-stays",
+            "name": "PICA — Extension of stays",
+            "lastVerified": "2026-10-07"
+          }
+        ]
+      },
+      "evidence": {
+        "processing": {
+          "text": "The processing time for visa applications submitted to the Embassy is between ten to fifteen business days.",
+          "url": "https://embwashington.mfaft.gov.jm/visitor_to_jamaica"
+        },
+        "extendable": {
+          "text": "A foreign national seeking to extend their stay in the island, can do so by submitting an application for an extension.",
+          "url": "https://www.pica.gov.jm/immigration/extension-of-stays"
+        }
       }
     },
     {
@@ -1344,7 +1361,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.pica.gov.jm/immigration/fees",
@@ -1352,6 +1369,12 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-09-26"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Port of Entry Visa US$100.00",
+          "url": "https://www.pica.gov.jm/immigration/fees"
+        }
       }
     },
     {
@@ -1363,7 +1386,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://embwashington.mfaft.gov.jm/visitor_to_jamaica",
@@ -1381,16 +1404,16 @@
       "fee": {
         "amount": 10000,
         "currency": "JMD",
-        "notes": "PICA's processing fee for an extension of stay, from its Immigration Processing Fee schedule. Staying beyond the visa-exemption period costs JM$50,000. A visitor's total stay is capped at 12 months for Commonwealth citizens and 6 months for others."
+        "notes": "PICA's processing fee for an extension of stay, from its Immigration Processing Fee schedule. The schedule lists JM$50,000 for persons who wish to extend their stay beyond the visa exemption period. PICA says Commonwealth citizens are allowed a maximum of 12 months' stay as visitors and non-Commonwealth citizens a maximum of 6 months."
       },
       "processing": {
-        "minDays": 1,
+        "minDays": null,
         "maxDays": 3,
         "unit": "business-days"
       },
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "extendable": {
         "possible": true,
         "days": null
@@ -1402,13 +1425,34 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-03",
-        "instrument": "PICA: \"Extensions of stay are processed within three (3) working days for all the categories\"; fee: PICA Immigration Processing Fee schedule, \"Extension of Stay (Processing Fee) JM$10,000.00\" (https://www.pica.gov.jm/immigration/fees)"
+        "instrument": "PICA: \"Extensions of stay are processed within three (3) working days for all the categories\"; fee: PICA Immigration Processing Fee schedule, \"Extension of Stay (Processing Fee) JM$10,000.00\" (https://www.pica.gov.jm/immigration/fees)",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.pica.gov.jm/immigration/fees",
+            "name": "PICA — Immigration processing fees",
+            "lastVerified": "2026-10-07"
+          }
+        ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "Extension of Stay (Processing Fee) JM$10,000.00",
+          "url": "https://www.pica.gov.jm/immigration/fees"
+        },
+        "processing": {
+          "text": "Extensions of stay are processed within three (3) working days for all the categories.",
+          "url": "https://www.pica.gov.jm/immigration/extension-of-stays"
+        },
+        "extendable": {
+          "text": "Commonwealth citizens are allowed a maximum of 12 months stay on the island and Non-Commonwealth citizens are allowed a maximum of 6 months stay on the island as a visitor.",
+          "url": "https://www.pica.gov.jm/immigration/extension-of-stays"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
+      "rule": "other",
       "text": "Jamaica's Embassy in Washington says your travel document should have at least six months' validity. The UK Foreign Office says your passport must be valid for the duration of your stay and have 2 blank pages for entry and exit stamps.",
       "source": {
         "url": "https://embwashington.mfaft.gov.jm/visitor_to_jamaica",
@@ -1706,7 +1750,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Jamaica?",
-      "answer": "Jamaica is visa-free for citizens of the US, Canada, the UK, most EU and Schengen countries, Japan, South Korea, much of Latin America and most Commonwealth countries. The period depends on the passport: PICA's table gives six months to US citizens, 90 days to, among others, Germany, the Netherlands, the Nordic countries, Brazil, Mexico and South Korea, and 30 days to France, Spain, Portugal, Japan and most of Latin America. Some nationalities, such as Armenia, Georgia and Uzbekistan, can get a visa at the port of entry for US$100; others need a visitor's visa from a Jamaican high commission or embassy before traveling."
+      "answer": "It depends on your passport; PICA's visa table gives the rule nationality by nationality. It lists no visa required for the United States for 6 months; for 90 days for, among others, Germany, the Netherlands, Denmark, Brazil, Mexico and South Korea; for 30 days for France, Spain, Portugal and Japan; and with no period for Canada, the United Kingdom and Commonwealth countries such as Australia and India. For Armenia, Georgia and some other nationalities a visa is required but may be obtained at the port of entry, where PICA's fee schedule lists the Port of Entry Visa at US$100. Others need a visa from a Jamaican consular office before travelling."
     },
     {
       "id": "c5-form",
@@ -1721,7 +1765,7 @@
     {
       "id": "how-long-stay",
       "question": "How long can I stay in Jamaica without a visa?",
-      "answer": "It depends on your passport: PICA's visa-requirements table allows 30 days for some nationalities, 90 for others and six months for US citizens. Jamaica's embassy says the length of stay is decided by the Immigration Officer at the port of entry, and the UK says the date you must leave is stamped in your passport. Extensions are handled by PICA and must be applied for before your stamp expires; a visitor may stay at most 12 months in total as a Commonwealth citizen, or 6 months otherwise."
+      "answer": "It depends on your passport: PICA's visa-requirements table allows 30 days for some nationalities, 90 for others and six months for US citizens. Jamaica's embassy says the length of stay is decided by the Immigration Officer at the port of entry, and the UK says the date you must leave is stamped in your passport. Extensions are handled by PICA and must be applied for before your stamp expires; PICA says Commonwealth citizens are allowed a maximum of 12 months' stay as visitors, and non-Commonwealth citizens a maximum of 6 months."
     },
     {
       "id": "passport-validity",

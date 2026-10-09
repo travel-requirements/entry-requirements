@@ -19,7 +19,7 @@
     "bosnia-and-herzegovina",
     "north-macedonia"
   ],
-  "summary": "Montenegro lets citizens of the 93 countries and territories listed in Article 1 of its Decree on Visa Regime (as of 8 October 2026), including the EU, UK and US, visit visa-free for up to 90 days (30 days for Peru, and until 31 October 2026 for Russia, Belarus, Türkiye and Saudi Arabia), and travelers who do need a visa can instead enter for up to 30 days on a valid Schengen, US, UK, Irish, Canadian, Australian, New Zealand or Japanese visa or residence permit.",
+  "summary": "Montenegro lets citizens of the countries and territories listed in Article 1 of its Decree on Visa Regime (as of 8 October 2026), including the EU, UK and US, visit visa-free for up to 90 days (30 days for Peru, and until 31 October 2026 for Russia, Belarus, Türkiye and Saudi Arabia), and travelers who do need a visa can instead enter for up to 30 days on a valid Schengen, US, UK, Irish, Canadian, Australian, New Zealand or Japanese visa or residence permit.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -3198,13 +3198,9 @@
       "name": "Short-Stay Visa (Type C)",
       "fee": null,
       "processing": null,
-      "validityDays": 180,
+      "validityDays": null,
       "stayDays": 90,
-      "entries": "multiple",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://wapi.gov.me/download/bbab924c-dc72-43fe-9208-2a9e5affb056?version=1.0",
@@ -3213,6 +3209,12 @@
         "instrument": "Law on Foreigners (Official Gazette of Montenegro 12/18 and amendments)",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "stayDays": {
+          "text": "A short-stay visa (visa C) is issued for the purpose of transit through Montenegro or for the purpose of entering and staying in the territory of Montenegro up to 90 days in a period of 180 days, counting from the day of first entry.",
+          "url": "https://wapi.gov.me/download/bbab924c-dc72-43fe-9208-2a9e5affb056?version=1.0"
+        }
       }
     },
     {
@@ -3224,11 +3226,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": 180,
-      "entries": "multiple",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://wapi.gov.me/download/bbab924c-dc72-43fe-9208-2a9e5affb056?version=1.0",
@@ -3237,6 +3235,12 @@
         "instrument": "Law on Foreigners (Official Gazette of Montenegro 12/18 and amendments)",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "stayDays": {
+          "text": "Long stay visa (D) may be issued to a foreigner intending to stay in the territory of Montenegro over 90 days, but no longer than 6 months in the period of one year, counting from the date of first entry.",
+          "url": "https://wapi.gov.me/download/bbab924c-dc72-43fe-9208-2a9e5affb056?version=1.0"
+        }
       }
     }
   ],
@@ -3253,10 +3257,10 @@
     },
     "vaccinations": [],
     "travelInsurance": {
-      "required": false,
-      "appliesTo": null,
+      "required": true,
+      "appliesTo": "visa-applicants",
       "minCoverage": null,
-      "text": "Not a condition of entry for visa-free visitors, though visa applicants must show travel health insurance for the stay.",
+      "text": "Montenegro's Ministry of Foreign Affairs lists travel health insurance among the requirements for a short-stay (C) visa. No official source we could read states an insurance requirement for visa-exempt visitors.",
       "source": {
         "url": "https://wapi.gov.me/download/bbab924c-dc72-43fe-9208-2a9e5affb056?version=1.0",
         "name": "Ministry of Foreign Affairs of Montenegro — Visa C and D requirements (published 13 January 2026)",
@@ -3472,7 +3476,7 @@
     {
       "id": "do-i-need-visa",
       "question": "Do I need a visa for Montenegro?",
-      "answer": "It depends on your passport: citizens of the 93 countries and territories listed in Article 1 of the Decree on Visa Regime (as of 8 October 2026), including the EU, UK, US, Canada, Australia and Japan, can stay up to 90 days visa-free, and Peruvians 30 days. Russians, Belarusians, Turks and Saudis get 30 days until 31 October 2026 and need a visa from 1 November 2026. Nationalities that do need a visa can either apply at a Montenegrin embassy or enter on a valid Schengen, US, UK, Irish, Canadian, Australian, New Zealand or Japanese visa or residence permit for up to 30 days."
+      "answer": "It depends on your passport: citizens of the countries and territories listed in Article 1 of the Decree on Visa Regime (as of 8 October 2026), including the EU, UK, US, Canada, Australia and Japan, can stay up to 90 days visa-free, and Peruvians 30 days. Russians, Belarusians, Turks and Saudis get 30 days until 31 October 2026 and need a visa from 1 November 2026. Nationalities that do need a visa can either apply at a Montenegrin embassy or enter on a valid Schengen, US, UK, Irish, Canadian, Australian, New Zealand or Japanese visa or residence permit for up to 30 days."
     },
     {
       "id": "schengen-visa-entry",

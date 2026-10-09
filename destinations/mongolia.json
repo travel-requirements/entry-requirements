@@ -16,7 +16,7 @@
     "china",
     "russia"
   ],
-  "summary": "Mongolia waives visas under standing bilateral arrangements for 32 nationalities — among them the US, Germany, Canada, Japan, South Korea (until the end of 2026), Kazakhstan, Brazil and the UAE — and, for tourism trips of up to 30 days in 2026, for 34 more countries, including most of the EU, the UK, Australia and New Zealand; most remaining travelers apply online for the official Mongolian eVisa.",
+  "summary": "Mongolia waives visas under standing bilateral arrangements for a number of nationalities — among them the US, Germany, Canada, Japan, South Korea (until the end of 2026), Kazakhstan, Brazil and the UAE — and, for tourism trips of up to 30 days in 2026, for 34 more countries, including EU countries, the UK, Australia and New Zealand; citizens of the countries on the eVisa list can apply online for the official Mongolian eVisa.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -3608,20 +3608,30 @@
       "name": "Mongolian eVisa (tourist)",
       "fee": null,
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 2,
         "unit": "calendar-days"
       },
       "validityDays": null,
       "stayDays": 30,
-      "entries": "single",
+      "entries": null,
       "applyUrl": "https://evisa.mn/",
       "source": {
         "url": "https://immigration.gov.mn/en/articles/264/",
         "name": "Immigration Agency of Mongolia — e-visa for citizens of 99 countries (K2 tourism up to 30 days)",
         "type": "government",
-        "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09"
+      },
+      "evidence": {
+        "processing": {
+          "text": "if the application is approved the ETA /Electronic Travel Authorization/ will be sent to your e-mail address within 48 hours.",
+          "url": "https://immigration.gov.mn/en/articles/264/"
+        },
+        "stayDays": {
+          "text": "Specifically, citizens of the countries included in the list can apply online for \"K2\" tourism, \"K4\" sports and cultural activities for up to 30 days, and transit or 10-day \"K6\" classification of visas.",
+          "url": "https://immigration.gov.mn/en/articles/264/"
+        }
       }
     },
     {
@@ -3635,7 +3645,7 @@
         "notes": "Embassy of Mongolia in London: USD 45 visa fee plus USD 5 service charge for a single-entry visa valid up to 90 days (30-day stay); double entry USD 65. Expedited service costs an additional surcharge."
       },
       "processing": {
-        "minDays": 3,
+        "minDays": null,
         "maxDays": 10,
         "unit": "business-days"
       },
@@ -3647,20 +3657,43 @@
         "url": "https://en.embassyofmongolia.co.uk/visa/general-information",
         "name": "Embassy of Mongolia in London — General visa information and visa fees",
         "type": "government",
-        "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Single entry valid for up to 90 days (30 days) $45.00 $5.00 $50.00",
+          "url": "https://en.embassyofmongolia.co.uk/visa/general-information"
+        },
+        "validityDays": {
+          "text": "Single entry valid for up to 90 days (30 days) $45.00",
+          "url": "https://en.embassyofmongolia.co.uk/visa/general-information"
+        },
+        "stayDays": {
+          "text": "Single entry valid for up to 90 days (30 days) $45.00",
+          "url": "https://en.embassyofmongolia.co.uk/visa/general-information"
+        },
+        "entries": {
+          "text": "Single entry valid for up to 90 days (30 days) $45.00",
+          "url": "https://en.embassyofmongolia.co.uk/visa/general-information"
+        },
+        "processing": {
+          "text": "Normal processing time for a visa application is 3 working days with an option for an expedited service at an additional surcharge (provided you have sufficient supporting documents). Depending on the visa application documents submitted, some visa applications may require up to 5-10 working days to process.",
+          "url": "https://en.embassyofmongolia.co.uk/visa/general-information"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
-      "text": "The UK Foreign Office says your passport must have an expiry date at least 6 months after the date you arrive in Mongolia.",
+      "rule": "other",
+      "text": "The UK Foreign Office tells British nationals their passport must have an expiry date at least 6 months after the date they arrive in Mongolia. The Embassy of Mongolia in London asks visa applicants for a passport valid for a minimum of six months before the intended travel.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/mongolia/entry-requirements",
         "name": "UK Foreign, Commonwealth & Development Office — Mongolia entry requirements",
         "type": "government",
-        "lastVerified": "2026-10-03"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09"
       }
     },
     "vaccinations": [],
@@ -3680,12 +3713,12 @@
     "onwardTicket": {
       "required": null,
       "appliesTo": null,
-      "text": "No official source makes a return or onward ticket an entry requirement. The Embassy of Mongolia in London advises visitors using the 30-day tourist visa exemption to book their return flight before arriving.",
+      "text": "No official source we could read states a return or onward ticket requirement. The Embassy of Mongolia in London advises visitors using the 30-day tourist visa exemption to book their return flight before arriving.",
       "source": {
         "url": "https://en.embassyofmongolia.co.uk/visa/general-information",
         "name": "Embassy of Mongolia in London — General visa information and visa fees",
         "type": "government",
-        "lastVerified": "2026-10-03",
+        "lastVerified": "2026-10-09",
         "lastChanged": "2026-10-03"
       }
     },
@@ -3927,7 +3960,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Mongolia?",
-      "answer": "Many travelers do not. The US, Germany, Canada, Japan, South Korea, Brazil, the UAE and 25 other countries have standing visa waivers of 14 to 90 days, and for 2026 the Government has also exempted 34 countries — most of the EU, the UK, Australia and New Zealand — for tourism trips of up to 30 days. Most other nationalities can apply online for the Mongolian eVisa at evisa.mn."
+      "answer": "The US, Germany, Canada, Japan, South Korea, Brazil, the UAE and other countries have standing visa waivers of 14 to 90 days, and for 2026 the Government has also exempted 34 countries — including EU countries, the UK, Australia and New Zealand — for tourism trips of up to 30 days. Citizens of the countries on the eVisa list can apply online for the Mongolian eVisa at evisa.mn."
     },
     {
       "id": "eu-waiver",

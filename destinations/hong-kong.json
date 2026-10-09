@@ -15,7 +15,7 @@
     "taiwan",
     "japan"
   ],
-  "summary": "Hong Kong's Immigration Department publishes its own visa requirements: nationals of the countries on its visa-free list visit without a visa for between 7 and 180 days depending on passport, Indian nationals complete a free online pre-arrival registration, and nationals of the countries on its visa-required list need an entry visa before travel.",
+  "summary": "Hong Kong's Immigration Department publishes its own visa requirements: nationals of the countries on its visa-free list visit without a visa for the period the list gives for their passport, Indian nationals complete a free online pre-arrival registration, and nationals of the countries on its visa-required list need a visa before travel.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -1244,14 +1244,10 @@
         "currency": "HKD",
         "notes": "The ordinary visa fee in the Immigration Department's fee table. Apply through the nearest Chinese diplomatic or consular mission, or to the Immigration Department directly by post or through a local sponsor; Indian nationals apply to the Immigration Department direct. The Immigration Department's guidebook (ID(E) 1004) says an application normally takes four weeks to process once all documents are received."
       },
-      "processing": {
-        "minDays": 28,
-        "maxDays": 28,
-        "unit": "calendar-days"
-      },
+      "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "applyUrl": "https://www.immd.gov.hk/eng/",
       "source": {
         "url": "https://www.immd.gov.hk/eng/services/fee-tables/index.html",
@@ -1272,6 +1268,12 @@
             "lastVerified": "2026-10-09"
           }
         ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "Ordinary visa — (a) issued pursuant to an approved specified scheme Note 1 application — (i) if the relevant period is more than 180 days $ 1,300 (ii) if the relevant period is not more than 180 days $ 600 (b) others $ 330",
+          "url": "https://www.immd.gov.hk/eng/services/fee-tables/index.html"
+        }
       }
     },
     {
@@ -1283,11 +1285,7 @@
         "amount": 0,
         "currency": "HKD"
       },
-      "processing": {
-        "minDays": 0,
-        "maxDays": 1,
-        "unit": "calendar-days"
-      },
+      "processing": null,
       "validityDays": 180,
       "stayDays": 14,
       "entries": "multiple",
@@ -1297,6 +1295,24 @@
         "name": "Hong Kong Immigration Department — Pre-arrival Registration for Indian Nationals",
         "type": "government",
         "lastVerified": "2026-10-07"
+      },
+      "evidence": {
+        "fee": {
+          "text": "An Indian national can make use of the online service to apply for pre-arrival registration free of charge if he/she:",
+          "url": "https://www.immd.gov.hk/eng/services/visas/pre-arrival_registration_for_indian_nationals.html"
+        },
+        "validityDays": {
+          "text": "A pre-arrival registration is valid for six months.",
+          "url": "https://www.immd.gov.hk/eng/services/visas/pre-arrival_registration_for_indian_nationals.html"
+        },
+        "stayDays": {
+          "text": "On each visit, a registrant may stay in the HKSAR for up to 14 days.",
+          "url": "https://www.immd.gov.hk/eng/services/visas/pre-arrival_registration_for_indian_nationals.html"
+        },
+        "entries": {
+          "text": "use a valid notification slip together with the specific and valid Indian passport linked to the successful pre-arrival registration to make multiple visits to the HKSAR visa-free.",
+          "url": "https://www.immd.gov.hk/eng/services/visas/pre-arrival_registration_for_indian_nationals.html"
+        }
       }
     },
     {
@@ -1308,11 +1324,7 @@
         "amount": 0,
         "currency": "HKD"
       },
-      "processing": {
-        "minDays": 0,
-        "maxDays": 1,
-        "unit": "calendar-days"
-      },
+      "processing": null,
       "validityDays": 60,
       "stayDays": 30,
       "entries": "double",
@@ -1322,6 +1334,24 @@
         "name": "Hong Kong Immigration Department — Pre-arrival Registration for Taiwan Residents",
         "type": "government",
         "lastVerified": "2026-10-07"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Pre-arrival registration is free of charge.",
+          "url": "https://www.immd.gov.hk/eng/services/visas/pre-arrival_registration_for_taiwan_residents.html"
+        },
+        "validityDays": {
+          "text": "A pre-arrival registration is valid for two months and good for two entries to the HKSAR with a stay up to 30 days as a visitor on each landing, provided the applicant meet the normal immigration requirements as mentioned below.",
+          "url": "https://www.immd.gov.hk/eng/services/visas/pre-arrival_registration_for_taiwan_residents.html"
+        },
+        "entries": {
+          "text": "A pre-arrival registration is valid for two months and good for two entries to the HKSAR with a stay up to 30 days as a visitor on each landing, provided the applicant meet the normal immigration requirements as mentioned below.",
+          "url": "https://www.immd.gov.hk/eng/services/visas/pre-arrival_registration_for_taiwan_residents.html"
+        },
+        "stayDays": {
+          "text": "A pre-arrival registration is valid for two months and good for two entries to the HKSAR with a stay up to 30 days as a visitor on each landing, provided the applicant meet the normal immigration requirements as mentioned below.",
+          "url": "https://www.immd.gov.hk/eng/services/visas/pre-arrival_registration_for_taiwan_residents.html"
+        }
       }
     }
   ],
@@ -1519,22 +1549,22 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Hong Kong?",
-      "answer": "Probably not: nationals of the countries on the Immigration Department’s visa-free list enter without a visa for 7 to 180 days depending on passport — for example 90 days for nationals of the US, Canada, Australia and Japan, and 180 days for British citizens. Indian nationals pre-register online for free; nationals of the countries on its visa-required list need an advance entry visa from the Immigration Department."
+      "answer": "Nationals of the countries on the Immigration Department’s visa-free list enter without a visa for the period the list gives for their passport — for example 90 days for nationals of the US, Canada, Australia and Japan, and 180 days for British citizens. Indian nationals pre-register online for free; nationals of the countries on its visa-required list need a visa before travel."
     },
     {
       "id": "china-visa",
       "question": "Is a Chinese visa valid for Hong Kong?",
-      "answer": "No official source we could read says a mainland Chinese visa is valid for Hong Kong: Hong Kong's Immigration Department publishes its own visa requirements, under which most nationalities visit visa-free. The Government of Canada says that if you plan to visit or transit through mainland China you should obtain a Chinese visa before your trip."
+      "answer": "No official source we could read says a mainland Chinese visa is valid for Hong Kong: Hong Kong's Immigration Department publishes its own visa requirements. The Government of Canada says that if you plan to visit or transit through mainland China you should obtain a Chinese visa before your trip."
     },
     {
       "id": "uk-stay",
       "question": "How long can British citizens stay in Hong Kong?",
-      "answer": "British citizens can visit visa-free for up to 180 days — the most generous tier of Hong Kong's visa-waiver arrangements."
+      "answer": "Hong Kong's Immigration Department lists British citizens as able to visit visa-free for up to 180 days."
     },
     {
       "id": "india-par",
       "question": "Do Indian citizens need a visa for Hong Kong?",
-      "answer": "Not a visa, but a Pre-arrival Registration (PAR) — a free online registration with the Immigration Department completed before travel. It is valid for 6 months and allows multiple visits of up to 14 days each; airlines check it at boarding."
+      "answer": "Not a visa, but a Pre-arrival Registration (PAR) — a free online registration with the Immigration Department completed before travel. It is valid for 6 months and allows multiple visits of up to 14 days each; transport operators check it before boarding."
     },
     {
       "id": "extend",

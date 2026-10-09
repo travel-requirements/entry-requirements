@@ -20,7 +20,7 @@
     "montenegro",
     "kosovo"
   ],
-  "summary": "North Macedonia grants 90 visa-free days to citizens of the EU, UK, US, most of the Americas and its Balkan neighbors, while visa-required nationalities can either apply at an embassy or enter for up to 15 days per visit on a valid multiple-entry Schengen visa, an EU residence permit or (through 2026) a multiple-entry US, UK or Canadian visa.",
+  "summary": "North Macedonia grants 90 visa-free days to citizens of countries including the EU states, the UK, the US and its Balkan neighbors, while visa-required nationalities can either apply at an embassy or enter for up to 15 days per visit on a valid multiple-entry Schengen visa, an EU residence permit or (through 2026) a multiple-entry US, UK or Canadian visa.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -4211,18 +4211,18 @@
       "fee": {
         "amount": 60,
         "currency": "EUR",
-        "notes": "35 euros for children aged 6–12. Set by Tariff No. 135 of the Law on Administrative Fees. Under the Law on Foreigners a decision is due within 15 calendar days of a complete application, extendable to 30 days and, where extra documents or prior consent are needed, to 60; the visa is issued with a validity of up to one year."
+        "notes": "35 euros for children aged 6–12. Set by Tariff No. 135 of the Law on Administrative Fees. Under the Law on Foreigners a decision is due within 15 calendar days of a complete application, extendable to 30 days and, where extra documents or prior consent are needed, to 60; the visa is issued with a validity of up to one year, and may be extended once for force majeure or humanitarian reasons."
       },
       "processing": {
-        "minDays": 15,
+        "minDays": null,
         "maxDays": 60,
         "unit": "calendar-days"
       },
       "validityDays": 365,
       "stayDays": 90,
-      "entries": "multiple",
+      "entries": null,
       "extendable": {
-        "possible": false,
+        "possible": true,
         "days": null
       },
       "applyUrl": null,
@@ -4236,10 +4236,32 @@
         "alsoStatedOn": [
           {
             "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-mvr-file-UtsW.pdf",
-            "name": "Law on Foreigners, consolidated text (Ministry of Internal Affairs) — Art. 35 (decision within 15 calendar days, up to 30, up to 60) and Art. 36(1) (C visa valid up to one year)",
+            "name": "Law on Foreigners, consolidated text (Ministry of Internal Affairs) — Art. 35 (decision within 15 calendar days, up to 30, up to 60), Art. 36(1) (C visa valid up to one year) and Art. 44 (extension of a C visa)",
             "lastVerified": "2026-10-07"
           }
         ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "The fee pursuant to the LAF – Tariff No. 135 for short-stay and transit visa is – 60 euros or 35 euros for children aged 6-12",
+          "url": "https://mfa.gov.mk/en-GB/konzularni-uslugi/vidovi-vizi-za-vlez-vo-rsm"
+        },
+        "processing": {
+          "text": "(3) Рокот од ставот (1) на овој член, може да биде продолжен најмногу до 60 дена, кога во посебни случаи е потребно доставување на дополнителни документи или претходна согласност.",
+          "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-mvr-file-UtsW.pdf"
+        },
+        "validityDays": {
+          "text": "визата за краткорочен престој и транзит (виза Ц), се издава со рок на важност до една година.",
+          "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-mvr-file-UtsW.pdf"
+        },
+        "stayDays": {
+          "text": "Document needed for short-stay visa, up to 90 days (‘C’ visa), i.e. transit visa of up to 5 days:",
+          "url": "https://mfa.gov.mk/en-GB/konzularni-uslugi/vidovi-vizi-za-vlez-vo-rsm"
+        },
+        "extendable": {
+          "text": "(1) Визата издадена за краткорочен престој и транзит (Виза Ц) може еднократно да се продолжи заради виша сила и хуманитарни причини кои го спречиле странецот да ја напушти Република Северна Македонија, пред истекот на валидност или времетраењето на престојот одобрен со визата.",
+          "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-mvr-file-UtsW.pdf"
+        }
       }
     },
     {
@@ -4253,13 +4275,9 @@
         "notes": "35 euros for children aged 6–12. Set by Tariff No. 135 of the Law on Administrative Fees."
       },
       "processing": null,
-      "validityDays": null,
-      "stayDays": null,
-      "entries": "multiple",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "validityDays": 90,
+      "stayDays": 30,
+      "entries": "single",
       "applyUrl": null,
       "source": {
         "url": "https://mfa.gov.mk/en-GB/konzularni-uslugi/postapka-za-izdavanje-na-viza",
@@ -4267,7 +4285,33 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-07",
-        "instrument": "Law on Administrative Fees, Tariff No. 135"
+        "instrument": "Law on Administrative Fees, Tariff No. 135",
+        "alsoStatedOn": [
+          {
+            "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-mvr-file-UtsW.pdf",
+            "name": "Law on Foreigners, consolidated text (Ministry of Internal Affairs) — Art. 27(1) (D visa: single entry, stay up to 30 days) and Art. 36(4) (D visa valid up to 90 days)",
+            "type": "government",
+            "lastVerified": "2026-10-07"
+          }
+        ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "The fee pursuant to the LAF – Tariff No. 135 for long-stay visa (‘D’ visa) is 70 euros or 35 euros for children aged 6-12",
+          "url": "https://mfa.gov.mk/en-GB/konzularni-uslugi/postapka-za-izdavanje-na-viza"
+        },
+        "entries": {
+          "text": "(1) Виза за регулирање привремен престој (виза Д) се издава за еднократен влез и право на престој до 30 дена",
+          "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-mvr-file-UtsW.pdf"
+        },
+        "stayDays": {
+          "text": "(1) Виза за регулирање привремен престој (виза Д) се издава за еднократен влез и право на престој до 30 дена",
+          "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-mvr-file-UtsW.pdf"
+        },
+        "validityDays": {
+          "text": "(4) Визата за регулирање на привремен престој (виза Д) се издава со рок на важење до 90 дена.",
+          "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-mvr-file-UtsW.pdf"
+        }
       }
     }
   ],
@@ -4291,10 +4335,10 @@
     },
     "vaccinations": [],
     "travelInsurance": {
-      "required": null,
-      "appliesTo": null,
+      "required": true,
+      "appliesTo": "visa-applicants",
       "minCoverage": null,
-      "text": "Visa applicants must show adequate travel medical insurance. No official source we read makes insurance a condition of entry for visa-free visitors.",
+      "text": "The Foreign Ministry says visa applicants must provide proof of valid travel medical insurance for the entire duration of their stay. No official source we read makes insurance a condition of entry for visa-free visitors.",
       "source": {
         "url": "https://mfa.gov.mk/en-GB/konzularni-uslugi/postapka-za-izdavanje-na-viza",
         "name": "Ministry of Foreign Affairs and Foreign Trade of North Macedonia — Visa Application Procedure",
@@ -4547,7 +4591,7 @@
     {
       "id": "do-i-need-visa",
       "question": "Do I need a visa for North Macedonia?",
-      "answer": "Most Western travelers don't: citizens of the EU, UK, US, Canada, Australia, Japan and most of the Americas can stay up to 90 days in any 180-day period visa-free. Nationalities that need a visa can apply at a North Macedonian embassy, or enter for up to 15 days per visit if they hold a valid multiple-entry Schengen visa or EU residence permit, or, under a decision in force through 31 December 2026, a valid multiple-entry US, UK or Canadian visa."
+      "answer": "Citizens of countries including the EU states, the UK, the US, Canada, Australia and Japan can stay up to 90 days in any 180-day period visa-free. Nationalities that need a visa can apply at a North Macedonian embassy, or enter for up to 15 days per visit if they hold a valid multiple-entry Schengen visa or EU residence permit, or, under a decision in force through 31 December 2026, a valid multiple-entry US, UK or Canadian visa."
     },
     {
       "id": "schengen-visa-entry",

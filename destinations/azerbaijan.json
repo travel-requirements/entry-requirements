@@ -3530,7 +3530,7 @@
         "notes": "USD 20 state fee plus a USD 9 ASAN Visa service fee. The standard e-Visa is issued within 3 working days; an urgent e-Visa is issued within 3 hours."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 3,
         "unit": "business-days"
       },
@@ -3550,6 +3550,24 @@
           "reason": "blocked",
           "status": 403
         }
+      },
+      "evidence": {
+        "fee": {
+          "text": "An amount of 9 (nine) US dollars is charged as a service fee for processing an electronic visa application. This amount is payable in addition to 20 (twenty) USD state fee for the electronic visa.",
+          "url": "https://evisa.gov.az/en/information"
+        },
+        "processing": {
+          "text": "Standard e-Visa is issued within 3 (three) working days.",
+          "url": "https://evisa.gov.az/en/information"
+        },
+        "stayDays": {
+          "text": "A foreigners or a stateless person can apply directly through the portal for a single entry visa valid for 30 days stay in the country.",
+          "url": "https://evisa.gov.az/en/information"
+        },
+        "entries": {
+          "text": "A foreigners or a stateless person can apply directly through the portal for a single entry visa valid for 30 days stay in the country.",
+          "url": "https://evisa.gov.az/en/information"
+        }
       }
     },
     {
@@ -3563,7 +3581,7 @@
         "notes": "State fee for a single-entry visa (multiple-entry USD 350), unless a treaty with your country sets a different amount. Not refunded if the visa is refused."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 15,
         "unit": "calendar-days"
       },
@@ -3577,7 +3595,37 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-07",
-        "instrument": "Validity: single-entry visa valid up to 90 days (this page); processing: considered no later than fifteen days from the date of application (MFA, Visa processing rules, https://mfa.gov.az/en/category/visa/visa-processing-rules); fee: Law of the Republic of Azerbaijan on State Fee, articles 16.1.6 and 16.1.7 (MFA, State fee, https://mfa.gov.az/en/category/visa/state-fee)"
+        "instrument": "Validity: single-entry visa valid up to 90 days (this page); processing: considered no later than fifteen days from the date of application (MFA, Visa processing rules, https://mfa.gov.az/en/category/visa/visa-processing-rules); fee: Law of the Republic of Azerbaijan on State Fee, articles 16.1.6 and 16.1.7 (MFA, State fee, https://mfa.gov.az/en/category/visa/state-fee)",
+        "alsoStatedOn": [
+          {
+            "url": "https://mfa.gov.az/en/category/visa/state-fee",
+            "name": "Ministry of Foreign Affairs of Azerbaijan — State fee",
+            "lastVerified": "2026-10-09"
+          },
+          {
+            "url": "https://mfa.gov.az/en/category/visa/visa-processing-rules",
+            "name": "Ministry of Foreign Affairs of Azerbaijan — Visa processing rules",
+            "lastVerified": "2026-10-09"
+          }
+        ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "Single entry visa – USD 20",
+          "url": "https://mfa.gov.az/en/category/visa/state-fee"
+        },
+        "processing": {
+          "text": "Visa application of foreigners and stateless persons is considered no later than fifteen days from the date of application",
+          "url": "https://mfa.gov.az/en/category/visa/visa-processing-rules"
+        },
+        "validityDays": {
+          "text": "Single entry visa – validity period of such type of visa is up to 90 days and allows only one entry-exit in this period.",
+          "url": "https://mfa.gov.az/en/category/visa/general-information-about-visa"
+        },
+        "entries": {
+          "text": "Single entry visa – validity period of such type of visa is up to 90 days and allows only one entry-exit in this period.",
+          "url": "https://mfa.gov.az/en/category/visa/general-information-about-visa"
+        }
       }
     }
   ],
@@ -3809,7 +3857,7 @@
     {
       "id": "armenia-connections",
       "type": "warning",
-      "text": "The UK government's travel advice says anyone who has visited certain areas in south-western Azerbaijan, including the town of Khankendi, without the Azerbaijani authorities' permission could be denied entry, and advises contacting an Azerbaijani embassy or consulate before you travel. The border with Armenia is closed."
+      "text": "The UK government's travel advice says anyone who has visited certain areas in south-western Azerbaijan, including the town of Khankendi, without the Azerbaijani authorities' permission could be denied entry, and advises contacting an Azerbaijani embassy or consulate before you travel. It says the border with Armenia remains closed."
     },
     {
       "id": "land-borders-closed",
@@ -3831,7 +3879,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Azerbaijan?",
-      "answer": "Most nationalities do. Citizens of many countries, including the EU, UK, US and India, apply online for the ASAN e-Visa (USD 29 in all, issued within 3 working days, 30-day stay). Türkiye, Russia, Ukraine, Georgia, Belarus, Moldova, Kazakhstan, Kyrgyzstan, Uzbekistan, Tajikistan, Serbia, Albania, Morocco, the Maldives, the Gulf states, China, Hong Kong, Macao, Japan, South Korea, Singapore and Bosnia and Herzegovina are visa-free, and the remaining nationalities apply for a visa at an Azerbaijani embassy or consulate."
+      "answer": "Citizens of many countries, including the EU, UK, US and India, apply online for the ASAN e-Visa (USD 29 in all, issued within 3 working days, 30-day stay). Türkiye, Russia, Ukraine, Georgia, Belarus, Moldova, Kazakhstan, Kyrgyzstan, Uzbekistan, Tajikistan, Serbia, Albania, Morocco, the Maldives, the Gulf states, China, Hong Kong, Macao, Japan, South Korea, Singapore and Bosnia and Herzegovina are visa-free, and the remaining nationalities apply for a visa at an Azerbaijani embassy or consulate."
     },
     {
       "id": "evisa-speed",

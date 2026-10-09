@@ -18,7 +18,7 @@
     "tajikistan",
     "georgia"
   ],
-  "summary": "Kyrgyzstan's Ministry of Foreign Affairs e-Visa portal lists visa-free stays of up to 30 days for many nationalities, including EU states, the UK and the US. The Regulation on the stay of foreign citizens gives longer visa-free stays to some: up to 90 days in every 180 for Eurasian Economic Union citizens and for Serbia, Turkey, Ukraine, Mongolia and Moldova, up to 60 days in every 120 for Uzbekistan, and up to 180 days in every 360 for six Gulf states. Other nationalities on the portal, except Afghanistan, can apply for a Tourist e-Visa there.",
+  "summary": "Kyrgyzstan's Ministry of Foreign Affairs e-Visa portal lists visa-free stays of up to 30 days for many nationalities, including EU states, the UK and the US. The Regulation on the stay of foreign citizens gives longer visa-free stays to some: up to 90 days in every 180 for Eurasian Economic Union citizens and for Serbia, Turkey, Ukraine, Mongolia and Moldova, up to 60 days in every 120 for Uzbekistan, and up to 180 days in every 360 for Saudi Arabia, the United Arab Emirates, Qatar, Kuwait, Oman and Bahrain. Other nationalities on the portal, except Afghanistan, can apply for a Tourist e-Visa there.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -1959,17 +1959,13 @@
       "name": "Tourist eVisa",
       "fee": null,
       "processing": {
-        "minDays": 5,
+        "minDays": null,
         "maxDays": 5,
         "unit": "business-days"
       },
       "validityDays": 30,
-      "stayDays": 30,
-      "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "stayDays": null,
+      "entries": null,
       "applyUrl": "https://www.evisa.e-gov.kg/",
       "source": {
         "url": "https://www.evisa.e-gov.kg/get_information.php?lng=en",
@@ -1999,6 +1995,16 @@
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07"
         }
+      },
+      "evidence": {
+        "validityDays": {
+          "text": "Tourist Visa (type \"TS\") is issued for short-term stays for the purpose of tourism — with a validity of up to 30 calendar days.",
+          "url": "https://www.evisa.e-gov.kg/get_information.php?lng=en"
+        },
+        "processing": {
+          "text": "The application review period 5 working days starts from the moment of correcting all the necessary information or adding the necessary package of documents.",
+          "url": "https://www.evisa.e-gov.kg/get_information.php?lng=en"
+        }
       }
     },
     {
@@ -2009,12 +2015,8 @@
       "fee": null,
       "processing": null,
       "validityDays": 30,
-      "stayDays": 30,
-      "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "stayDays": null,
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.evisa.e-gov.kg/get_information.php?lng=en",
@@ -2022,6 +2024,12 @@
         "type": "government",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "validityDays": {
+          "text": "Tourist Visa (type \"TS\") is issued for short-term stays for the purpose of tourism — with a validity of up to 30 calendar days.",
+          "url": "https://www.evisa.e-gov.kg/get_information.php?lng=en"
+        }
       }
     }
   ],
@@ -2312,7 +2320,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Kyrgyzstan?",
-      "answer": "The Ministry of Foreign Affairs' e-Visa portal lists visa-free stays of up to 30 days for many nationalities, including EU states, the UK, the US, Canada, Australia and Japan; under the Regulation on the stay of foreign citizens, citizens of six Gulf states get up to 180 days in every 360, citizens of Eurasian Economic Union states and of Serbia, Turkey, Ukraine, Mongolia and Moldova up to 90 days in every 180, and Uzbek citizens up to 60 days in every 120. Other nationalities on the portal, except Afghanistan, apply for a visa online at evisa.e-gov.kg."
+      "answer": "The Ministry of Foreign Affairs' e-Visa portal lists visa-free stays of up to 30 days for many nationalities, including EU states, the UK, the US, Canada, Australia and Japan; under the Regulation on the stay of foreign citizens, citizens of Saudi Arabia, the United Arab Emirates, Qatar, Kuwait, Oman and Bahrain get up to 180 days in every 360, citizens of Eurasian Economic Union states and of Serbia, Turkey, Ukraine, Mongolia and Moldova up to 90 days in every 180, and Uzbek citizens up to 60 days in every 120. Other nationalities on the portal, except Afghanistan, apply for a visa online at evisa.e-gov.kg."
     },
     {
       "id": "sixty-days",

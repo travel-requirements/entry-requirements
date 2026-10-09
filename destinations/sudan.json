@@ -1141,7 +1141,7 @@
       "fee": {
         "amount": 80,
         "currency": "EUR",
-        "notes": "Fee published by the Sudanese Embassy in Berlin, paid only once the application is approved and not refunded. A registered tour agency or sponsor in Sudan must first obtain an entry-permit number from the Ministry of the Interior. The embassy in Washington says it issues entry visas for business or official travel."
+        "notes": "Fee published by the Sudanese Embassy in Berlin, paid only once the application is approved and not refunded. A registered tour agency or sponsor in Sudan must first obtain an entry-permit number from the Ministry of the Interior."
       },
       "processing": {
         "minDays": 10,
@@ -1150,7 +1150,7 @@
       },
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://sudanembassy.de/index.php/ct-menu-item-29",
@@ -1159,6 +1159,16 @@
         "lastVerified": "2026-10-07",
         "archiveUrl": "https://web.archive.org/web/20260611171639/https://sudanembassy.de/index.php/ct-menu-item-29",
         "lastChanged": "2026-10-02"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Tourist visa 80 €",
+          "url": "https://sudanembassy.de/index.php/ct-menu-item-29"
+        },
+        "processing": {
+          "text": "Die Ausstellung des Einreise-Visums erfolgt bei Erfüllung aller Voraussetzungen nach einer Bearbeitungszeit von 10 Arbeitstagen nach Eingang des Antrages.",
+          "url": "https://sudanembassy.de/index.php/ct-menu-item-29"
+        }
       }
     },
     {
@@ -1172,13 +1182,13 @@
         "notes": "The processing fee at the Embassy of Sudan in Washington, which also asks for a letter from the sponsoring organisation and, from non-US passport holders, a US residence permit."
       },
       "processing": {
-        "minDays": 1,
+        "minDays": null,
         "maxDays": 10,
         "unit": "business-days"
       },
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://sudanembassy.org/entry-visa/",
@@ -1186,6 +1196,16 @@
         "type": "government",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "fee": {
+          "text": "$154 processing fees.",
+          "url": "https://sudanembassy.org/entry-visa/"
+        },
+        "processing": {
+          "text": "Please allow up to 10 working days for processing.",
+          "url": "https://sudanembassy.org/entry-visa/"
+        }
       }
     }
   ],
@@ -1262,14 +1282,21 @@
       "required": true,
       "appliesTo": "visa-applicants",
       "amount": null,
-      "text": "No fixed amount is published, but tourist visa applicants must attach a statement of their financial means, and business applicants' sponsor letters must state who is financially responsible for them.",
+      "text": "No fixed amount is published. Sudan's embassy in Berlin asks tourist visa applicants to attach a statement explaining their financial ability, and Sudan's embassy in Washington asks for a sponsor letter that includes a statement of financial responsibility.",
       "source": {
         "url": "https://sudanembassy.de/index.php/ct-menu-item-29",
         "name": "Embassy of the Republic of the Sudan in Berlin — Visa services and visa fees",
         "type": "government",
         "lastVerified": "2026-10-02",
         "archiveUrl": "https://web.archive.org/web/20260611171639/https://sudanembassy.de/index.php/ct-menu-item-29",
-        "lastChanged": "2026-10-02"
+        "lastChanged": "2026-10-02",
+        "alsoStatedOn": [
+          {
+            "url": "https://sudanembassy.org/entry-visa/",
+            "name": "Embassy of the Republic of the Sudan, Washington, D.C. — Entry Visa (sponsor letter with a statement of financial responsibility)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       }
     },
     "declarations": [],

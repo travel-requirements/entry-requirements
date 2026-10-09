@@ -19,7 +19,7 @@
     "france",
     "italy"
   ],
-  "summary": "Switzerland is not in the EU but joins the Schengen Area through association agreements: EU and EFTA citizens enter freely, nationals of the 63 countries and territories on the EU's visa-exempt list (as of 30 December 2025) can stay 90 days in any 180-day period (the ETIAS travel authorization is not yet in operation), and everyone else needs a Schengen short-stay visa (general fee €90).",
+  "summary": "Switzerland is not in the EU but joins the Schengen Area through association agreements: EU and EFTA citizens enter freely, nationals of the countries and territories on the EU's visa-exempt list (Annex II of Regulation 2018/1806) can stay 90 days in any 180-day period (the ETIAS travel authorization is not yet in operation), and everyone else needs a Schengen short-stay visa (general fee €90).",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -2174,7 +2174,7 @@
         "notes": "Children 6–11: €45; under 6: free. Where the application is lodged with an external service provider, as at most Swiss representations, the provider's service fee is payable on top."
       },
       "processing": {
-        "minDays": 15,
+        "minDays": null,
         "maxDays": 45,
         "unit": "calendar-days"
       },
@@ -2182,7 +2182,7 @@
       "stayDays": 90,
       "entries": null,
       "extendable": {
-        "possible": false,
+        "possible": true,
         "days": null
       },
       "applyUrl": "https://www.sem.admin.ch/sem/en/home/themen/einreise.html",
@@ -2198,6 +2198,31 @@
           "name": "State Secretariat for Migration (SEM) — Entry FAQ",
           "states": "decision generally within 15 days; exceptionally up to 30 or 60 days",
           "resolvedBy": "hierarchy"
+        },
+        "alsoStatedOn": [
+          {
+            "url": "https://www.sem.admin.ch/sem/en/home/themen/einreise/faq.html",
+            "name": "State Secretariat for Migration (SEM) — FAQ Entry (external service providers at most Swiss representations; service fee in addition to the visa fee)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "Applicants shall pay a visa fee of EUR 90.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        },
+        "processing": {
+          "text": "That period may be extended up to a maximum of 45 calendar days in individual cases, notably when further scrutiny of the application is needed.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        },
+        "stayDays": {
+          "text": "This Regulation establishes the procedures and conditions for issuing visas for intended stays on the territory of the Member States not exceeding 90 days in any 180-day period.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        },
+        "extendable": {
+          "text": "The period of validity and/or the duration of stay of an issued visa shall be extended where the competent authority of a Member State considers that a visa holder has provided proof of force majeure or humanitarian reasons preventing him from leaving the territory of the Member States before the expiry of the period of validity of or the duration of stay authorised by the visa.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
         }
       }
     },
@@ -2209,16 +2234,12 @@
       "fee": {
         "amount": 90,
         "currency": "EUR",
-        "notes": "The Swiss-franc equivalent of EUR 90 (EUR 45 for children aged 6–12; free under 6), collected in the currency the Swiss representation sets. For stays over 90 days (residence, family reunification); requires prior authorization from the cantonal migration authority."
+        "notes": "The Swiss-franc equivalent of EUR 90 (EUR 45 for children aged 6–12; free under 6), paid in advance abroad in the local currency. The State Secretariat for Migration says category D visas are issued for stays exceeding 90 days, and that the Swiss representation abroad forwards the application to the cantonal migration office for examination. It names gainful employment, education or vocational training and family reunification as the reasons."
       },
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "multiple",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": "https://www.sem.admin.ch/sem/en/home/themen/einreise.html",
       "source": {
         "url": "https://www.fedlex.admin.ch/eli/cc/2007/763/de",
@@ -2226,7 +2247,20 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-02",
-        "instrument": "GebV-AIG (SR 142.209), Art. 12 para. 1 let. a (EUR 90 for visa applications under VEV Arts. 8–10) and Art. 13; VEV (SR 142.204), Art. 9 (visa for long-term stays) and Art. 25 (fee under the GebV-AIG)"
+        "instrument": "GebV-AIG (SR 142.209), Art. 12 para. 1 let. a (EUR 90 for visa applications under VEV Arts. 8–10) and Art. 13; VEV (SR 142.204), Art. 9 (visa for long-term stays) and Art. 25 (fee under the GebV-AIG)",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.sem.admin.ch/sem/en/home/themen/einreise/faq.html",
+            "name": "State Secretariat for Migration (SEM) — FAQ Entry (category D visas for stays exceeding 90 days; applications forwarded to the cantonal migration office)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "für Visumgesuche nach den Artikeln 8–10 der Verordnung vom 15. August 201818 über die Einreise und die Visumerteilung 90",
+          "url": "https://www.fedlex.admin.ch/eli/cc/2007/763/de"
+        }
       }
     },
     {
@@ -2237,16 +2271,12 @@
       "fee": {
         "amount": 90,
         "currency": "EUR",
-        "notes": "The Swiss-franc equivalent of EUR 90 (EUR 45 for children aged 6–12; free under 6), collected in the currency the Swiss representation sets. For courses longer than 90 days; the cantonal migration authority must approve the stay before the visa is issued. Holders of scholarships from the federal institutes of technology, the Federal Scholarship Commission or the Swiss National Science Foundation get the visa free of charge."
+        "notes": "The Swiss-franc equivalent of EUR 90 (EUR 45 for children aged 6–12; free under 6), paid in advance abroad in the local currency. The State Secretariat for Migration says category D visas are issued for stays exceeding 90 days, and that the Swiss representation abroad forwards the application to the cantonal migration office for examination. Holders of scholarships from the federal institutes of technology, the Federal Scholarship Commission or the Swiss National Science Foundation get the visa free of charge."
       },
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "multiple",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": "https://www.sem.admin.ch/sem/en/home/themen/einreise.html",
       "source": {
         "url": "https://www.fedlex.admin.ch/eli/cc/2007/763/de",
@@ -2254,7 +2284,20 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-02",
-        "instrument": "GebV-AIG (SR 142.209), Art. 12 para. 1 let. a (EUR 90 for visa applications under VEV Arts. 8–10) and Art. 13; VEV (SR 142.204), Art. 9 (visa for long-term stays) and Art. 25 (fee under the GebV-AIG)"
+        "instrument": "GebV-AIG (SR 142.209), Art. 12 para. 1 let. a (EUR 90 for visa applications under VEV Arts. 8–10) and Art. 13; VEV (SR 142.204), Art. 9 (visa for long-term stays) and Art. 25 (fee under the GebV-AIG)",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.sem.admin.ch/sem/en/home/themen/einreise/faq.html",
+            "name": "State Secretariat for Migration (SEM) — FAQ Entry (category D visas for stays exceeding 90 days; applications forwarded to the cantonal migration office)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "für Visumgesuche nach den Artikeln 8–10 der Verordnung vom 15. August 201818 über die Einreise und die Visumerteilung 90",
+          "url": "https://www.fedlex.admin.ch/eli/cc/2007/763/de"
+        }
       }
     },
     {
@@ -2265,16 +2308,12 @@
       "fee": {
         "amount": 90,
         "currency": "EUR",
-        "notes": "The Swiss-franc equivalent of EUR 90 (EUR 45 for children aged 6–12; free under 6), collected in the currency the Swiss representation sets. The State Secretariat for Migration says people entering to work need both a visa and a work permit."
+        "notes": "The Swiss-franc equivalent of EUR 90 (EUR 45 for children aged 6–12; free under 6), paid in advance abroad in the local currency. The State Secretariat for Migration says people intending to enter Switzerland to pursue gainful employment are required to hold both a visa and a work permit."
       },
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "multiple",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": "https://www.sem.admin.ch/sem/en/home/themen/einreise.html",
       "source": {
         "url": "https://www.fedlex.admin.ch/eli/cc/2007/763/de",
@@ -2282,7 +2321,20 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-02",
-        "instrument": "GebV-AIG (SR 142.209), Art. 12 para. 1 let. a (EUR 90 for visa applications under VEV Arts. 8–10) and Art. 13; VEV (SR 142.204), Art. 9 (visa for long-term stays) and Art. 25 (fee under the GebV-AIG)"
+        "instrument": "GebV-AIG (SR 142.209), Art. 12 para. 1 let. a (EUR 90 for visa applications under VEV Arts. 8–10) and Art. 13; VEV (SR 142.204), Art. 9 (visa for long-term stays) and Art. 25 (fee under the GebV-AIG)",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.sem.admin.ch/sem/en/home/themen/einreise/faq.html",
+            "name": "State Secretariat for Migration (SEM) — FAQ Entry (category D visas for stays exceeding 90 days; applications forwarded to the cantonal migration office)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "für Visumgesuche nach den Artikeln 8–10 der Verordnung vom 15. August 201818 über die Einreise und die Visumerteilung 90",
+          "url": "https://www.fedlex.admin.ch/eli/cc/2007/763/de"
+        }
       }
     }
   ],
@@ -2326,9 +2378,9 @@
       }
     },
     "onwardTicket": {
-      "required": true,
-      "appliesTo": "all",
-      "text": "No official source we could read requires an onward ticket. The State Secretariat for Migration says visa-exempt third-country nationals must prove the purpose and circumstances of their stay and have enough money for the stay and for the return trip or transit to a third country.",
+      "required": null,
+      "appliesTo": null,
+      "text": "No official source we could read states that a return or onward ticket is required. The State Secretariat for Migration recommends that visitors also carry a return ticket valid for a maximum of 90 days or a ticket for continuing their journey to a country outside the Schengen area.",
       "source": {
         "url": "https://www.sem.admin.ch/sem/en/home/themen/einreise/faq.html",
         "name": "State Secretariat for Migration (SEM) — FAQ Entry",
@@ -2581,7 +2633,7 @@
     {
       "id": "90-180-rule",
       "type": "warning",
-      "text": "The 90-day limit counts across the entire Schengen Area, not just Switzerland — days spent in France or Italy count against the same allowance."
+      "text": "The 90-day limit counts stays across the whole Schengen Area, not only in Switzerland."
     },
     {
       "id": "motorway-vignette",

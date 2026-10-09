@@ -14,7 +14,7 @@
     "mexico",
     "brazil"
   ],
-  "summary": "The Dominican Republic admits tourists from the US, Canada, the UK, the EU and most of the Americas visa-free for 30 days (for longer stays the Dirección General de Migración grants an extension it describes as extendable up to 120 days), requires every traveler to complete the free digital e-Ticket form for both arrival and departure, and waives its visa entirely for anyone holding a valid US, Canadian, UK or Schengen multiple-entry visa or permanent residence.",
+  "summary": "The Dominican Republic admits tourists from countries including the US, Canada and the UK visa-free for 30 days (for longer stays the Dirección General de Migración grants an extension it describes as extendable up to 120 days), requires every traveler to complete the free digital e-Ticket form for both arrival and departure, and lets anyone holding a valid US, Canadian, UK or Schengen multiple-entry visa or permanent residence enter for tourism with a valid passport and a tourist card.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -1597,14 +1597,10 @@
       "fee": {
         "amount": 100,
         "currency": "USD",
-        "notes": "Single-entry tourist visa (TS); a multiple-entry tourist visa (TM) costs US$150. Not needed if you hold a valid US, Canadian, UK or Schengen multiple-entry visa or permanent residence."
+        "notes": "Single-entry tourist visa (TS); a multiple-entry tourist visa (TM) costs US$150. Under Decree 691-07, foreigners with permanent residence or a valid multiple-entry visa for the United States, the European Union (Schengen), Canada or Great Britain can enter for tourism with only a valid passport and a tourist card."
       },
-      "processing": {
-        "minDays": 10,
-        "maxDays": 20,
-        "unit": "business-days"
-      },
-      "validityDays": 60,
+      "processing": null,
+      "validityDays": null,
       "stayDays": null,
       "entries": "single",
       "extendable": {
@@ -1617,7 +1613,35 @@
         "name": "MIREX — Consular fees (Tasas Consulares)",
         "type": "government",
         "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-07"
+        "lastChanged": "2026-10-07",
+        "alsoStatedOn": [
+          {
+            "url": "https://consultas.mirex.gob.do/servicios/visas/consulta-de-requisitos-para-extranjeros-ingresar-a-la-republica-dominicana",
+            "name": "MIREX — visa requirements for foreigners entering the Dominican Republic (Decree 691-07)",
+            "type": "government",
+            "lastVerified": "2026-10-07"
+          },
+          {
+            "url": "https://migracion.gob.do/servicios/permisos/",
+            "name": "Dirección General de Migración — Permisos: Prórroga de estadía para turistas",
+            "type": "government",
+            "lastVerified": "2026-10-09"
+          }
+        ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "Visa de Turismo Simple (TS) US$100.00",
+          "url": "https://servicios360.mirex.gob.do/tasas-consulares/"
+        },
+        "entries": {
+          "text": "Visa de Turismo Simple (TS) US$100.00",
+          "url": "https://servicios360.mirex.gob.do/tasas-consulares/"
+        },
+        "extendable": {
+          "text": "Autorizar a los extranjeros interesados en prolongar su estadía en la República Dominicana por más de 30, a través de una prórroga extensible hasta 120 días.",
+          "url": "https://migracion.gob.do/servicios/permisos/"
+        }
       }
     }
   ],
@@ -1888,7 +1912,7 @@
     {
       "id": "us-need-visa",
       "question": "Do US citizens need a visa for the Dominican Republic?",
-      "answer": "No. US citizens enter visa-free as tourists for 30 days; when you arrive by air, the tourist card is included in your airline ticket, according to the Government of Canada. You need a valid passport and the free e-Ticket form. The UK government says a visit can be extended for a fee up to 120 days."
+      "answer": "No. US citizens enter visa-free as tourists for 30 days; when you arrive by air, the tourist card is included in your airline ticket, according to the Government of Canada. You need a valid passport and the free e-Ticket form. The UK government tells British nationals they can pay to extend a visit up to 120 days."
     },
     {
       "id": "extend-stay",
@@ -1903,7 +1927,7 @@
     {
       "id": "us-visa-exemption",
       "question": "Can I enter the Dominican Republic with a US, UK or Schengen visa instead of a Dominican visa?",
-      "answer": "Yes. Under Decree No. 691-07, nationals of visa-required countries (such as China, India, the Philippines or Vietnam) who hold permanent residence or a valid multiple-entry visa for the United States, the European Union (Schengen), Canada or the United Kingdom can enter for tourism with just a valid passport and a tourist card."
+      "answer": "Yes. Under Decree No. 691-07, foreigners who hold permanent residence or a valid multiple-entry visa for the United States, the European Union (Schengen), Canada or Great Britain can enter for tourism with just a valid passport and a tourist card."
     }
   ]
 }

@@ -1563,20 +1563,16 @@
       "fee": {
         "amount": 50,
         "currency": "EUR",
-        "notes": "EUR 50 is what Iran's embassy in Berlin charges German passport holders for a single-entry tourist visa (EUR 75 if urgent, issued the same day or within 72 hours), plus a EUR 10 travel-insurance fee. Fees differ by nationality and by the mission that issues the visa; visas collected on arrival are paid in euros at airport bank terminals. The embassy says visas applied for through the agencies it lists are usually issued within at most 10 to 12 days of the application being handed in."
+        "notes": "EUR 50 is what Iran's embassy in Berlin charges German passport holders for a normal single-entry tourist visa (EUR 75 if urgent, for the same day or within at most 72 hours), plus EUR 10 for travel insurance; holders of Afghan passports and refugee passports pay EUR 80 (EUR 120 urgent). The embassy says agencies charge at most EUR 20 for registering the application, and that visas applied for through the agencies it lists are usually issued within at most 10 to 12 days of the application being handed in."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 12,
         "unit": "calendar-days"
       },
       "validityDays": null,
       "stayDays": null,
       "entries": "single",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
       "applyUrl": "https://evisa.mfa.ir/",
       "source": {
         "url": "https://germany.mfa.ir/de/generalcategoryservices/10399",
@@ -1619,6 +1615,20 @@
             }
           ]
         }
+      },
+      "evidence": {
+        "fee": {
+          "text": "Normale Touristenvisa – einmalige Einreise – 90 Tage (50 Euro + 10 Euro Reiseversicherung)",
+          "url": "https://germany.mfa.ir/de/generalcategoryservices/10399"
+        },
+        "entries": {
+          "text": "Normale Touristenvisa – einmalige Einreise – 90 Tage (50 Euro + 10 Euro Reiseversicherung)",
+          "url": "https://germany.mfa.ir/de/generalcategoryservices/10399"
+        },
+        "processing": {
+          "text": "Die Ausstellung von Visa durch Firmen und Agenturen dauert i.d.R. ab dem Zeitpunkt der Übergabe des Antrags höchstens 10 bis 12 Tage.",
+          "url": "https://germany.mfa.ir/de/generalcategoryservices/10399"
+        }
       }
     },
     {
@@ -1630,11 +1640,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://evisa.mfa.ir/en/visa-arrival/",
@@ -1689,6 +1695,20 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-07"
+      },
+      "evidence": {
+        "fee": {
+          "text": "USA 75 113 100 150 34 51",
+          "url": "https://www.daftar.org/portal/5?title=%D9%88%DB%8C%D8%B2%D8%A7"
+        },
+        "processing": {
+          "text": "The average processing time for visa issuance is 10 business days, while urgent processing takes 2 business days from the date of document receipt.",
+          "url": "https://www.daftar.org/portal/5?title=%D9%88%DB%8C%D8%B2%D8%A7"
+        },
+        "validityDays": {
+          "text": "Applicants must enter Iran within 45 days of visa issuance",
+          "url": "https://www.daftar.org/portal/5?title=%D9%88%DB%8C%D8%B2%D8%A7"
+        }
       }
     },
     {
@@ -1716,6 +1736,20 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-07"
+      },
+      "evidence": {
+        "fee": {
+          "text": "CANADA 63 95 100 150 34 51",
+          "url": "https://www.daftar.org/portal/5?title=%D9%88%DB%8C%D8%B2%D8%A7"
+        },
+        "processing": {
+          "text": "The average processing time for visa issuance is 10 business days, while urgent processing takes 2 business days from the date of document receipt.",
+          "url": "https://www.daftar.org/portal/5?title=%D9%88%DB%8C%D8%B2%D8%A7"
+        },
+        "validityDays": {
+          "text": "Applicants must enter Iran within 45 days of visa issuance",
+          "url": "https://www.daftar.org/portal/5?title=%D9%88%DB%8C%D8%B2%D8%A7"
+        }
       }
     },
     {
@@ -1743,19 +1777,40 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-07"
+      },
+      "evidence": {
+        "fee": {
+          "text": "United Kingdom 225 338 250 375 85 128",
+          "url": "https://www.daftar.org/portal/5?title=%D9%88%DB%8C%D8%B2%D8%A7"
+        },
+        "processing": {
+          "text": "The average processing time for visa issuance is 10 business days, while urgent processing takes 2 business days from the date of document receipt.",
+          "url": "https://www.daftar.org/portal/5?title=%D9%88%DB%8C%D8%B2%D8%A7"
+        },
+        "validityDays": {
+          "text": "Applicants must enter Iran within 45 days of visa issuance",
+          "url": "https://www.daftar.org/portal/5?title=%D9%88%DB%8C%D8%B2%D8%A7"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
-      "text": "Your passport must have at least six months' validity beyond your travel date. The UK Foreign Office says that if your passport has stamps from Israel or other countries' border crossing points with Israel, you may be refused entry to Iran.",
+      "rule": "other",
+      "text": "Iran's Foreign Ministry eVisa portal says that to apply for any electronic visa your passport should have at least six months of validity beyond your actual travel date, and its visa-on-arrival page says all visitors must hold a passport or travel document valid for 6 months at the time of departure. The UK Foreign Office says that if your passport has stamps from Israel or other countries' border crossing points with Israel, you may be refused entry to Iran.",
       "source": {
         "url": "https://evisa.mfa.ir/en/",
         "name": "Iran eVisa — MFA visa portal (English: Important Tips, Passport Expiration)",
         "type": "government",
         "lastVerified": "2026-10-09",
-        "portalOnly": true
+        "portalOnly": true,
+        "alsoStatedOn": [
+          {
+            "url": "https://evisa.mfa.ir/en/visa-arrival/",
+            "name": "Iran eVisa (MFA) — Visa on Arrival",
+            "lastVerified": "2026-10-07"
+          }
+        ]
       }
     },
     "vaccinations": [
@@ -1803,7 +1858,7 @@
     "onwardTicket": {
       "required": null,
       "appliesTo": null,
-      "text": "No official source states an onward-ticket requirement. The MFA eVisa application asks for your travel itinerary only if you have already made travel arrangements.",
+      "text": "No official source we could read states an onward-ticket requirement. The MFA eVisa application asks for your travel itinerary only if you have already made travel arrangements.",
       "source": {
         "url": "https://evisatraveller.mfa.ir/en/request/how_to_apply/",
         "name": "Iran MFA eVisa — How to complete the application",

@@ -23,7 +23,7 @@
     "zambia",
     "mozambique"
   ],
-  "summary": "Visitors who need a Tanzanian visa can apply online, which Tanzania Immigration recommends, or obtain it on arrival: USD 50 for the ordinary single-entry visa, while US citizens must apply for the USD 100 multiple-entry visa. Nationals of the East African Community, of SADC countries except Comoros and of most Commonwealth countries do not need a visa, and the UK Foreign Office says all visitors except residents must also hold Tanzania's mandatory inbound travel insurance.",
+  "summary": "Visitors who need a Tanzanian visa can apply online, which Tanzania Immigration recommends, or obtain it on arrival: USD 50 for the ordinary single-entry visa, while US citizens must apply for the USD 100 multiple-entry visa. Nationals of the East African Community, of SADC countries except Comoros and of Commonwealth countries other than the United Kingdom, Canada, Nigeria, India, Pakistan, Australia and New Zealand do not need a visa, and the UK Foreign Office says all visitors except residents must also hold Tanzania's mandatory inbound travel insurance.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -2405,17 +2405,13 @@
         "notes": null
       },
       "processing": {
-        "minDays": 2,
+        "minDays": null,
         "maxDays": 10,
         "unit": "calendar-days"
       },
       "validityDays": 90,
-      "stayDays": 90,
+      "stayDays": null,
       "entries": "single",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
       "applyUrl": "https://visa.immigration.go.tz/",
       "source": {
         "url": "https://visa.immigration.go.tz/guidelines",
@@ -2450,6 +2446,24 @@
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07"
         }
+      },
+      "evidence": {
+        "fee": {
+          "text": "The fee for Ordinary Visa is 50 USD and has a validity of up to 90 days;",
+          "url": "https://visa.immigration.go.tz/guidelines"
+        },
+        "validityDays": {
+          "text": "The fee for Ordinary Visa is 50 USD and has a validity of up to 90 days;",
+          "url": "https://visa.immigration.go.tz/guidelines"
+        },
+        "entries": {
+          "text": "11.1 ORDINARY (SINGLE ENTRY) VISA;",
+          "url": "https://visa.immigration.go.tz/guidelines"
+        },
+        "processing": {
+          "text": "Visa applications will be processed within ten days save for Referral visa category.",
+          "url": "https://visa.immigration.go.tz/guidelines"
+        }
       }
     },
     {
@@ -2463,7 +2477,7 @@
         "notes": "Mandatory for US citizens, who are only eligible for the multiple-entry visa."
       },
       "processing": {
-        "minDays": 2,
+        "minDays": null,
         "maxDays": 10,
         "unit": "calendar-days"
       },
@@ -2509,6 +2523,28 @@
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07"
         }
+      },
+      "evidence": {
+        "fee": {
+          "text": "The fee for Multiple Visa is 100 USD and has a validity of 1 year.",
+          "url": "https://visa.immigration.go.tz/guidelines"
+        },
+        "validityDays": {
+          "text": "The fee for Multiple Visa is 100 USD and has a validity of 1 year.",
+          "url": "https://visa.immigration.go.tz/guidelines"
+        },
+        "entries": {
+          "text": "11.3 MULTIPLE ENTRY VISA",
+          "url": "https://visa.immigration.go.tz/guidelines"
+        },
+        "stayDays": {
+          "text": "Instead, in each visit a holder may stay in the country for a maximum period of three months (90 days).",
+          "url": "https://visa.immigration.go.tz/guidelines"
+        },
+        "processing": {
+          "text": "Visa applications will be processed within ten days save for Referral visa category.",
+          "url": "https://visa.immigration.go.tz/guidelines"
+        }
       }
     },
     {
@@ -2523,7 +2559,7 @@
       },
       "processing": null,
       "validityDays": null,
-      "stayDays": 90,
+      "stayDays": null,
       "entries": "single",
       "applyUrl": null,
       "source": {
@@ -2532,6 +2568,16 @@
         "type": "government",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "fee": {
+          "text": "The fee for Ordinary Visa is 50 USD and has a validity of up to 90 days;",
+          "url": "https://visa.immigration.go.tz/guidelines"
+        },
+        "entries": {
+          "text": "11.1 ORDINARY (SINGLE ENTRY) VISA;",
+          "url": "https://visa.immigration.go.tz/guidelines"
+        }
       }
     },
     {
@@ -2545,13 +2591,13 @@
         "notes": "For direct transit to a third country."
       },
       "processing": {
-        "minDays": 2,
+        "minDays": null,
         "maxDays": 10,
         "unit": "calendar-days"
       },
-      "validityDays": null,
-      "stayDays": 7,
-      "entries": "single",
+      "validityDays": 7,
+      "stayDays": null,
+      "entries": null,
       "applyUrl": "https://visa.immigration.go.tz/",
       "source": {
         "url": "https://visa.immigration.go.tz/guidelines",
@@ -2581,12 +2627,26 @@
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07"
         }
+      },
+      "evidence": {
+        "fee": {
+          "text": "4. TRANSIT VISA 30 USD",
+          "url": "https://visa.immigration.go.tz/guidelines"
+        },
+        "processing": {
+          "text": "Visa applications will be processed within ten days save for Referral visa category.",
+          "url": "https://visa.immigration.go.tz/guidelines"
+        },
+        "validityDays": {
+          "text": "It is issued for a period not exceeding seven days.",
+          "url": "https://visa.immigration.go.tz/guidelines"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
+      "rule": "other",
       "text": "Your passport must have at least six months' validity and at least one unused visa page when you apply for the visa.",
       "source": {
         "url": "https://visa.immigration.go.tz/guidelines",
@@ -2864,7 +2924,7 @@
     {
       "id": "visa-on-arrival",
       "question": "Can I get a Tanzanian visa on arrival?",
-      "answer": "For the nationalities on the guidelines' visa-on-arrival list, yes, at official entry points. Nationals of the 23 countries on the guidelines' no-visa-on-arrival list (among them Afghanistan, Bangladesh, Iran, Pakistan, Somalia and Syria), stateless people and refugees cannot, unless the Commissioner General of Immigration has given special permission: they must hold an approved eVisa before travelling. Tanzania Immigration recommends applying online."
+      "answer": "For the nationalities on the guidelines' visa-on-arrival list, yes, at official entry points. Nationals of the countries on the guidelines' no-visa-on-arrival list (among them Afghanistan, Bangladesh, Iran, Pakistan, Somalia and Syria), stateless people and refugees cannot, unless the Commissioner General of Immigration has given special permission: they must hold an approved eVisa before travelling. Tanzania Immigration recommends applying online."
     },
     {
       "id": "us-citizens-fee",

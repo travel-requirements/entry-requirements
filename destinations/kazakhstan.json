@@ -3068,6 +3068,28 @@
         "type": "government",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-09-26"
+      },
+      "evidence": {
+        "fee": {
+          "text": "The consular fee for a single tourist visa is 60 US Dollars, for business and medical treatment visas - 80 US Dollars.",
+          "url": "https://www.gov.kz/memleket/entities/mfa/activities/34748?parentId=3053&lang=en"
+        },
+        "validityDays": {
+          "text": "Tourist visa (category B12) is issued with a single entry for a period of up to 90 days and the right to stay in the Republic of Kazakhstan no more than 30 days.",
+          "url": "https://www.gov.kz/memleket/entities/mfa/activities/34748?parentId=3053&lang=en"
+        },
+        "stayDays": {
+          "text": "Tourist visa (category B12) is issued with a single entry for a period of up to 90 days and the right to stay in the Republic of Kazakhstan no more than 30 days.",
+          "url": "https://www.gov.kz/memleket/entities/mfa/activities/34748?parentId=3053&lang=en"
+        },
+        "entries": {
+          "text": "Tourist visa (category B12) is issued with a single entry for a period of up to 90 days and the right to stay in the Republic of Kazakhstan no more than 30 days.",
+          "url": "https://www.gov.kz/memleket/entities/mfa/activities/34748?parentId=3053&lang=en"
+        },
+        "extendable": {
+          "text": "The electronic visa is valid only for the visa recipient, it does not apply to accompanying persons and is not extendable.",
+          "url": "https://www.gov.kz/memleket/entities/mfa/activities/34748?parentId=3053&lang=en"
+        }
       }
     },
     {
@@ -3078,22 +3100,28 @@
       "fee": {
         "amount": 60,
         "currency": "USD",
-        "notes": "No official source we could read states the embassy tourist visa fee."
+        "notes": "The Foreign Ministry's consular fee table gives 60 US dollars (50 euros, 50 British pounds) for a single-entry tourist visa and 90 US dollars for a multiple-entry tourist visa."
       },
       "processing": null,
-      "validityDays": 90,
-      "stayDays": 30,
+      "validityDays": null,
+      "stayDays": null,
       "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
       "applyUrl": null,
       "source": {
         "url": "https://www.gov.kz/memleket/entities/mfa/press/article/details/6768?lang=en",
         "name": "Ministry of Foreign Affairs of Kazakhstan — Consular fee rates",
         "type": "government",
         "lastVerified": "2026-10-03"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Tourist visa: Single-entry visa 60 US dollars 50 euro 50 British pounds 60 Swiss francs 6000 Russian rubles 385 Chinese yuan",
+          "url": "https://www.gov.kz/memleket/entities/mfa/press/article/details/6768?lang=en"
+        },
+        "entries": {
+          "text": "Tourist visa: Single-entry visa 60 US dollars 50 euro 50 British pounds 60 Swiss francs 6000 Russian rubles 385 Chinese yuan",
+          "url": "https://www.gov.kz/memleket/entities/mfa/press/article/details/6768?lang=en"
+        }
       }
     },
     {
@@ -3105,7 +3133,7 @@
       "processing": null,
       "validityDays": 180,
       "stayDays": null,
-      "entries": "multiple",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.gov.kz/memleket/entities/mfa-washington/press/news/details/1145561?lang=en",
@@ -3113,6 +3141,12 @@
         "type": "government",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "validityDays": {
+          "text": "The validity period of the ETA is 180 days.",
+          "url": "https://www.gov.kz/memleket/entities/mfa-washington/press/news/details/1145561?lang=en"
+        }
       }
     },
     {
@@ -3138,7 +3172,7 @@
   "entryRequirements": {
     "passportValidity": {
       "rule": "other",
-      "text": "Your passport must be valid for at least 30 days from the date you arrive in Kazakhstan. If you travel on a Kazakh visa, it must remain valid for at least 3 months after the visa expires.",
+      "text": "The UK government says your passport must be valid for at least 30 days from the date you arrive in Kazakhstan, and that if you have a visa for Kazakhstan, your passport must have an expiry date at least 3 months after your visa's expiry date.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/kazakhstan/entry-requirements",
         "name": "UK FCDO — Kazakhstan entry requirements",
@@ -3169,7 +3203,7 @@
       "required": null,
       "appliesTo": null,
       "minCoverage": null,
-      "text": "No official source we could read states a travel-insurance requirement for visitors to Kazakhstan. The UK Foreign Office says medical facilities are not as advanced as in the UK and advises adequate travel health insurance and accessible funds for treatment, evacuation by air ambulance and repatriation.",
+      "text": "No official source we could read states whether travel insurance is required to enter Kazakhstan. The UK Foreign Office says the medical facilities in Kazakhstan are not as advanced as in the UK and tells travellers to make sure they have adequate travel health insurance and accessible funds to cover the cost of medical treatment or evacuation by air ambulance and repatriation.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/kazakhstan/health",
         "name": "UK Foreign, Commonwealth & Development Office — Kazakhstan travel advice: health",
@@ -3181,7 +3215,7 @@
     "onwardTicket": {
       "required": null,
       "appliesTo": null,
-      "text": "No official source we could read states an onward- or return-ticket requirement for Kazakhstan.",
+      "text": "No official source we could read states whether an onward or return ticket is required to enter Kazakhstan.",
       "source": {
         "url": "https://www.gov.kz/memleket/entities/mfa?lang=en",
         "name": "Ministry of Foreign Affairs of the Republic of Kazakhstan",
@@ -3199,7 +3233,7 @@
       "required": null,
       "appliesTo": null,
       "amount": null,
-      "text": "No official source we could read states a proof-of-funds requirement or amount for Kazakhstan.",
+      "text": "No official source we could read states whether proof of funds is required to enter Kazakhstan, or an amount.",
       "source": {
         "url": "https://www.gov.kz/memleket/entities/mfa?lang=en",
         "name": "Ministry of Foreign Affairs of the Republic of Kazakhstan",
@@ -3394,12 +3428,12 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Kazakhstan?",
-      "answer": "Ordinary passport holders from the EU states, the US, the UK, Canada, Japan, China and many other countries enter visa-free for up to 30 days, per the Foreign Ministry's visa-regime table; citizens of Russia, Belarus, Ukraine, Moldova, Georgia, Armenia, Azerbaijan, Uzbekistan, Kyrgyzstan, Tajikistan, Mongolia and Turkey, among others, get up to 90 days. Citizens of the states on the e-Visa list can get a tourist eVisa on the Visa-Migration Portal with an invitation from the Kazakh side; others apply at an embassy."
+      "answer": "Ordinary passport holders from the EU states, the US, the UK, Canada, Japan, China and many other countries enter visa-free for up to 30 days, per the Foreign Ministry's visa-regime table; citizens of Russia, Belarus, Ukraine, Moldova, Georgia, Armenia, Azerbaijan, Uzbekistan, Kyrgyzstan, Tajikistan, Mongolia and Turkey, among others, get up to 90 days. Citizens of the states on the e-Visa list can get a tourist eVisa on the Visa-Migration Portal with an invitation from the Kazakh side."
     },
     {
       "id": "how-long-visa-free",
       "question": "How long can I stay in Kazakhstan visa-free?",
-      "answer": "The Foreign Ministry's visa-regime table gives most visa-exempt ordinary passport holders, including EU, US, UK and Chinese citizens, up to 30 days. Some allowances differ: up to 90 days for several neighbouring states and for Albania, Andorra, Saint Kitts and Nevis, San Marino and Turkey, 60 days for the Dominican Republic, 28 days for Barbados, and 14 days for India, Iran, Hong Kong and Macau. The UK government's travel advice adds, for British nationals, a limit of 90 days without a visa in any 180-day period."
+      "answer": "The Foreign Ministry's visa-regime table gives ordinary passport holders of the EU states, the US, the UK and China up to 30 days. Some allowances differ: up to 90 days for several neighbouring states and for Albania, Andorra, Saint Kitts and Nevis, San Marino and Turkey, 60 days for the Dominican Republic, 28 days for Barbados, and 14 days for India, Iran, Hong Kong and Macau. The UK government's travel advice adds, for British nationals, a limit of 90 days without a visa in any 180-day period."
     },
     {
       "id": "registration",

@@ -1093,12 +1093,12 @@
       "fee": {
         "amount": 12,
         "currency": "USD",
-        "notes": "The eVisa portal's FAQ lists USD 12 for a visa of 1 to 14 days (it calls this the transit visa). The payment step gives the fee “with VAT (10%)”."
+        "notes": "The eVisa portal's FAQ lists USD 12 for a visa of 1 to 14 days (it calls this the transit visa)."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 3,
-        "unit": "business-days"
+        "unit": "calendar-days"
       },
       "validityDays": null,
       "stayDays": 14,
@@ -1110,6 +1110,24 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-07"
+      },
+      "evidence": {
+        "fee": {
+          "text": "eVisa fees vary by visa type; A transit visa (from 1 to 14 days) costs $12 and a short stay visa (from 15 to 90 days) will cost $23.",
+          "url": "https://www.evisa.gouv.dj/applicant-api/#/faq"
+        },
+        "processing": {
+          "text": "Your eVisa will usually be emailed to you within 72 hours of the date you completed your application and the decision elements are in place.",
+          "url": "https://www.evisa.gouv.dj/applicant-api/#/faq"
+        },
+        "stayDays": {
+          "text": "eVisa fees vary by visa type; A transit visa (from 1 to 14 days) costs $12 and a short stay visa (from 15 to 90 days) will cost $23.",
+          "url": "https://www.evisa.gouv.dj/applicant-api/#/faq"
+        },
+        "entries": {
+          "text": "No, the eVisa is only valid for one entry.",
+          "url": "https://www.evisa.gouv.dj/applicant-api/#/faq"
+        }
       },
       "documents": {
         "items": [
@@ -1155,12 +1173,12 @@
       "fee": {
         "amount": 23,
         "currency": "USD",
-        "notes": "The eVisa portal's FAQ lists USD 23 for a short-stay visa of 15 to 90 days. The payment step gives the fee “with VAT (10%)”."
+        "notes": "The eVisa portal's FAQ lists USD 23 for a short-stay visa of 15 to 90 days."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 3,
-        "unit": "business-days"
+        "unit": "calendar-days"
       },
       "validityDays": null,
       "stayDays": 90,
@@ -1172,6 +1190,24 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-07"
+      },
+      "evidence": {
+        "fee": {
+          "text": "eVisa fees vary by visa type; A transit visa (from 1 to 14 days) costs $12 and a short stay visa (from 15 to 90 days) will cost $23.",
+          "url": "https://www.evisa.gouv.dj/applicant-api/#/faq"
+        },
+        "processing": {
+          "text": "Your eVisa will usually be emailed to you within 72 hours of the date you completed your application and the decision elements are in place.",
+          "url": "https://www.evisa.gouv.dj/applicant-api/#/faq"
+        },
+        "stayDays": {
+          "text": "eVisa fees vary by visa type; A transit visa (from 1 to 14 days) costs $12 and a short stay visa (from 15 to 90 days) will cost $23.",
+          "url": "https://www.evisa.gouv.dj/applicant-api/#/faq"
+        },
+        "entries": {
+          "text": "No, the eVisa is only valid for one entry.",
+          "url": "https://www.evisa.gouv.dj/applicant-api/#/faq"
+        }
       },
       "documents": {
         "items": [
@@ -1212,7 +1248,7 @@
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
+      "rule": "other",
       "text": "The eVisa portal asks for a passport valid for at least 6 months.",
       "source": {
         "url": "https://www.evisa.gouv.dj/applicant-api/#/faq",
@@ -1251,7 +1287,7 @@
     },
     "onwardTicket": {
       "required": true,
-      "appliesTo": "all",
+      "appliesTo": "visa-applicants",
       "text": "The eVisa application asks for a flight reservation (or other means of transport), an accommodation address (hotel or host) and an invitation letter.",
       "source": {
         "url": "https://www.evisa.gouv.dj/applicant-api/#/faq",
@@ -1387,7 +1423,7 @@
     {
       "id": "evisa-cost",
       "question": "How much does the Djibouti eVisa cost?",
-      "answer": "The official eVisa portal lists USD 12 for a visa of up to 14 days and USD 23 for a stay of 15 to 90 days; the payment step gives the fee “with VAT (10%)”."
+      "answer": "The official eVisa portal lists USD 12 for a visa of up to 14 days and USD 23 for a stay of 15 to 90 days."
     }
   ]
 }

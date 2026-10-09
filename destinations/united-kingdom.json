@@ -13,7 +13,7 @@
     "united-states",
     "spain"
   ],
-  "summary": "The United Kingdom requires an Electronic Travel Authorisation (ETA, £20, valid 2 years or until the passport expires) from visitors who do not need a visa — including US, EU, Canadian and Australian citizens — while visa nationals apply online for a Standard Visitor visa (£135, stays up to 6 months). British and Irish citizens, and people who already have a UK visa or permission to live, work or study in the UK, do not need an ETA.",
+  "summary": "GOV.UK says most visitors need an electronic travel authorisation (ETA) or a visa, and that you usually need an ETA rather than a visa if you are from Europe, the USA, Australia, Canada or certain other countries. An ETA costs £20 and lasts for 2 years or until your passport expires, whichever is sooner; a Standard Visitor visa costs £135. Visitors can usually stay in the UK for up to 6 months. People with a British or Irish passport, or with permission to live, work or study in the UK, do not need an ETA.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -3065,7 +3065,7 @@
         "notes": "Apply via the official UK ETA app or GOV.UK. Every traveler needs their own ETA, including babies and children."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 3,
         "unit": "business-days"
       },
@@ -3073,7 +3073,7 @@
       "stayDays": 180,
       "entries": "multiple",
       "extendable": {
-        "possible": false,
+        "possible": true,
         "days": null
       },
       "applyUrl": "https://www.gov.uk/eta",
@@ -3083,7 +3083,19 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-09-26",
-        "archiveUrl": "https://web.archive.org/web/20260829113508/https://www.gov.uk/eta"
+        "archiveUrl": "https://web.archive.org/web/20260829113508/https://www.gov.uk/eta",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gov.uk/eta/apply",
+            "name": "GOV.UK — Get an ETA: Apply for an ETA (fee, decision time, how long it lasts)",
+            "lastVerified": "2026-10-09"
+          },
+          {
+            "url": "https://www.gov.uk/standard-visitor/extend-your-stay",
+            "name": "GOV.UK — Visit the UK as a Standard Visitor: When you can extend your stay",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       },
       "documents": {
         "items": [
@@ -3107,6 +3119,32 @@
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07"
         }
+      },
+      "evidence": {
+        "fee": {
+          "text": "An ETA costs £20.",
+          "url": "https://www.gov.uk/eta"
+        },
+        "processing": {
+          "text": "You’ll usually get a decision by email within a day, but it can take up to 3 working days.",
+          "url": "https://www.gov.uk/eta/apply"
+        },
+        "validityDays": {
+          "text": "An ETA lasts for 2 years or until your passport expires, whichever is sooner.",
+          "url": "https://www.gov.uk/eta/apply"
+        },
+        "stayDays": {
+          "text": "lets you travel to the UK, Jersey, Guernsey or the Isle of Man for up to 6 months.",
+          "url": "https://www.gov.uk/eta"
+        },
+        "entries": {
+          "text": "You can travel to the UK as many times as you want while you have an ETA.",
+          "url": "https://www.gov.uk/eta/apply"
+        },
+        "extendable": {
+          "text": "For example, if you have been in the UK for 3 months, you can apply to extend your stay for 3 more months. This applies if you needed a visa to visit the UK and also if you did not need one.",
+          "url": "https://www.gov.uk/standard-visitor/extend-your-stay"
+        }
       }
     },
     {
@@ -3120,15 +3158,15 @@
         "notes": "Apply online, then attend an appointment at a visa application centre. Long-term 2, 5 and 10-year visitor visas cost £506, £903 and £1,128; each still allows 6 months per visit."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 21,
         "unit": "calendar-days"
       },
-      "validityDays": 180,
+      "validityDays": null,
       "stayDays": 180,
-      "entries": "multiple",
+      "entries": null,
       "extendable": {
-        "possible": false,
+        "possible": true,
         "days": null
       },
       "applyUrl": "https://www.gov.uk/standard-visitor",
@@ -3138,7 +3176,37 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-09-26",
-        "archiveUrl": "https://web.archive.org/web/20260820021040/https://www.gov.uk/standard-visitor"
+        "archiveUrl": "https://web.archive.org/web/20260820021040/https://www.gov.uk/standard-visitor",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa",
+            "name": "GOV.UK — Apply for a Standard Visitor visa (fees, decision time)",
+            "lastVerified": "2026-10-09"
+          },
+          {
+            "url": "https://www.gov.uk/standard-visitor/extend-your-stay",
+            "name": "GOV.UK — Visit the UK as a Standard Visitor: When you can extend your stay",
+            "lastVerified": "2026-10-09"
+          }
+        ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "Standard Visitor visa £135 6 months",
+          "url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa"
+        },
+        "processing": {
+          "text": "you’ll usually get a decision on your visa within 3 weeks.",
+          "url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa"
+        },
+        "stayDays": {
+          "text": "You can usually stay in the UK for up to 6 months.",
+          "url": "https://www.gov.uk/standard-visitor"
+        },
+        "extendable": {
+          "text": "You may be able to extend your stay if you have permission to be in the UK for less than 6 months.",
+          "url": "https://www.gov.uk/standard-visitor/extend-your-stay"
+        }
       }
     },
     {
@@ -3152,13 +3220,13 @@
         "notes": "Plus the healthcare surcharge, paid as part of the application. Requires a place on a course offered by a licensed student sponsor; decisions usually take 3 weeks from outside the UK."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 21,
         "unit": "calendar-days"
       },
       "validityDays": null,
       "stayDays": null,
-      "entries": "multiple",
+      "entries": null,
       "extendable": {
         "possible": true,
         "days": null
@@ -3171,6 +3239,20 @@
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-09-26",
         "archiveUrl": "https://web.archive.org/web/20260818132733/https://www.gov.uk/student-visa"
+      },
+      "evidence": {
+        "fee": {
+          "text": "£558 to apply for a Student visa from outside the UK",
+          "url": "https://www.gov.uk/student-visa"
+        },
+        "processing": {
+          "text": "You’ll usually get a decision on your visa within: 3 weeks, if you’re outside the UK",
+          "url": "https://www.gov.uk/student-visa"
+        },
+        "extendable": {
+          "text": "extend your visa if you’re eligible, for example to continue your studies in the UK",
+          "url": "https://www.gov.uk/student-visa"
+        }
       }
     },
     {
@@ -3180,13 +3262,13 @@
       "name": "Skilled Worker Visa",
       "fee": null,
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 21,
         "unit": "calendar-days"
       },
       "validityDays": null,
       "stayDays": null,
-      "entries": "multiple",
+      "entries": null,
       "extendable": {
         "possible": true,
         "days": null
@@ -3198,6 +3280,16 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "archiveUrl": "https://web.archive.org/web/20260825061127/https://www.gov.uk/skilled-worker-visa"
+      },
+      "evidence": {
+        "processing": {
+          "text": "you’ll usually get a decision on your visa within: 3 weeks, if you’re outside the UK",
+          "url": "https://www.gov.uk/skilled-worker-visa"
+        },
+        "extendable": {
+          "text": "You can apply to extend your visa as many times as you like as long as you still meet the eligibility requirements.",
+          "url": "https://www.gov.uk/skilled-worker-visa"
+        }
       }
     },
     {
@@ -3211,17 +3303,13 @@
         "notes": "For passing through UK border control and leaving the UK within 48 hours; GOV.UK gives the fee as £74.50. A Direct Airside Transit visa covers changing flights without going through border control."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 21,
         "unit": "calendar-days"
       },
-      "validityDays": 180,
+      "validityDays": null,
       "stayDays": 2,
-      "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": "https://www.gov.uk/transit-visa",
       "source": {
         "url": "https://www.gov.uk/transit-visa",
@@ -3229,7 +3317,33 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-09-26",
-        "archiveUrl": "https://web.archive.org/web/20260819065805/https://www.gov.uk/transit-visa"
+        "archiveUrl": "https://web.archive.org/web/20260819065805/https://www.gov.uk/transit-visa",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gov.uk/transit-visa/visitor-in-transit-visa",
+            "name": "GOV.UK — Visa to pass through the UK in transit: Visitor in Transit visa (fee)",
+            "lastVerified": "2026-10-09"
+          },
+          {
+            "url": "https://www.gov.uk/transit-visa/apply",
+            "name": "GOV.UK — Visa to pass through the UK in transit: Apply (decision time)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "A Visitor in Transit visa costs £74.50.",
+          "url": "https://www.gov.uk/transit-visa/visitor-in-transit-visa"
+        },
+        "processing": {
+          "text": "You’ll usually get a decision on your visa within 3 weeks.",
+          "url": "https://www.gov.uk/transit-visa/apply"
+        },
+        "stayDays": {
+          "text": "Apply for a Visitor in Transit visa if you’ll be going through UK border control but leaving the UK within 48 hours.",
+          "url": "https://www.gov.uk/transit-visa"
+        }
       }
     }
   ],
@@ -3260,9 +3374,9 @@
       }
     },
     "onwardTicket": {
-      "required": false,
+      "required": null,
       "appliesTo": null,
-      "text": "GOV.UK says visitors must be able to show that they will leave the UK at the end of their visit and that they can pay for their return or onward journey, or have someone else fund it.",
+      "text": "No official source we could read states an onward or return ticket requirement. GOV.UK says visitors must be able to show that they will leave the UK at the end of their visit and that they can pay for their return or onward journey, or have someone else fund it.",
       "source": {
         "url": "https://www.gov.uk/standard-visitor",
         "name": "GOV.UK — Standard Visitor visa",
@@ -3272,8 +3386,8 @@
       }
     },
     "proofOfFunds": {
-      "required": false,
-      "appliesTo": null,
+      "required": true,
+      "appliesTo": "all",
       "amount": null,
       "text": "GOV.UK says visitors must be able to show that they can support themselves and their dependants during the trip, or have funding from someone else; it states no amount.",
       "source": {
@@ -3446,7 +3560,7 @@
     {
       "id": "eta-everyone",
       "type": "info",
-      "text": "Every traveler needs their own ETA, including babies and children; it is valid 2 years (or until your passport expires) for unlimited visits."
+      "text": "GOV.UK says each person travelling needs an ETA, including babies and children, and that an ETA lasts for 2 years or until your passport expires, whichever is sooner; you can travel to the UK as many times as you want while you have one."
     },
     {
       "id": "eu-id-cards",
@@ -3463,7 +3577,7 @@
     {
       "id": "eta-what",
       "question": "What is the UK ETA and who needs it?",
-      "answer": "The Electronic Travel Authorisation lets visitors who do not need a visa travel to the UK for up to 6 months; GOV.UK says you usually need one rather than a visa if you are from Europe, the USA, Australia, Canada or certain other countries. It costs £20, lasts 2 years or until your passport expires, whichever is sooner, and allows as many visits as you want. British and Irish citizens, UK visa holders and people with permission to live, work or study in the UK do not need one."
+      "answer": "The Electronic Travel Authorisation lets visitors who do not need a visa travel to the UK for up to 6 months; GOV.UK says you usually need one rather than a visa if you are from Europe, the USA, Australia, Canada or certain other countries. It costs £20, lasts 2 years or until your passport expires, whichever is sooner, and lets you travel to the UK as many times as you want. GOV.UK says people with a British or Irish passport, or with permission to live, work or study in the UK, do not need one."
     },
     {
       "id": "us-need-visa",

@@ -3759,11 +3759,11 @@
       "processing": {
         "minDays": 5,
         "maxDays": 7,
-        "unit": "business-days"
+        "unit": "calendar-days"
       },
       "validityDays": 60,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.egembassydc.com/visas",
@@ -3783,6 +3783,20 @@
           "status": 200
         },
         "archiveUrl": "https://web.archive.org/web/20260509222325/https://www.egembassydc.com/visas"
+      },
+      "evidence": {
+        "fee": {
+          "text": "The standard visa fee is $200.",
+          "url": "https://www.egembassydc.com/visas"
+        },
+        "processing": {
+          "text": "Processing time is 5-7 days from the date we receive the application.",
+          "url": "https://www.egembassydc.com/visas"
+        },
+        "validityDays": {
+          "text": "Visas must be used within 60 days of issuance.",
+          "url": "https://www.egembassydc.com/visas"
+        }
       }
     },
     {
@@ -3798,7 +3812,7 @@
       },
       "validityDays": 90,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/equatorial-guinea/entry-requirements",
@@ -3806,6 +3820,16 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "processing": {
+          "text": "The processing time is 72 hours.",
+          "url": "https://www.gov.uk/foreign-travel-advice/equatorial-guinea/entry-requirements"
+        },
+        "validityDays": {
+          "text": "Short-term visas are valid for 90 days.",
+          "url": "https://www.gov.uk/foreign-travel-advice/equatorial-guinea/entry-requirements"
+        }
       }
     },
     {
@@ -3821,11 +3845,11 @@
       "processing": {
         "minDays": 5,
         "maxDays": 7,
-        "unit": "business-days"
+        "unit": "calendar-days"
       },
       "validityDays": 60,
       "stayDays": null,
-      "entries": "multiple",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.egembassydc.com/visas",
@@ -3845,6 +3869,20 @@
           "status": 200
         },
         "archiveUrl": "https://web.archive.org/web/20260509222325/https://www.egembassydc.com/visas"
+      },
+      "evidence": {
+        "fee": {
+          "text": "The standard visa fee is $200.",
+          "url": "https://www.egembassydc.com/visas"
+        },
+        "processing": {
+          "text": "Processing time is 5-7 days from the date we receive the application.",
+          "url": "https://www.egembassydc.com/visas"
+        },
+        "validityDays": {
+          "text": "Visas must be used within 60 days of issuance.",
+          "url": "https://www.egembassydc.com/visas"
+        }
       }
     }
   ],
@@ -3896,8 +3934,8 @@
     },
     "onwardTicket": {
       "required": true,
-      "appliesTo": "all",
-      "text": "Tourist visa applications to the Embassy in Washington require a flight itinerary and proof of accommodation.",
+      "appliesTo": "visa-applicants",
+      "text": "Visa applications to the Embassy of Equatorial Guinea in Washington must include a flight itinerary and proof of accommodation.",
       "source": {
         "url": "https://www.egembassydc.com/visas",
         "name": "Embassy of the Republic of Equatorial Guinea in Washington, D.C. — Visas",
@@ -4053,7 +4091,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Equatorial Guinea?",
-      "answer": "Most nationalities do. The Embassy of Equatorial Guinea in Washington states that every visitor with a foreign passport must present a valid visa at the point of entry; you can apply at an embassy, and the UK FCDO also describes an online e-visa application. That includes US citizens, whose visa-free arrangement was cancelled in April 2023. No official source we could read states the entry rule for citizens of the other CEMAC states (Cameroon, Chad, the Central African Republic, Congo and Gabon)."
+      "answer": "The Embassy of Equatorial Guinea in Washington states that every visitor with a foreign passport must present a valid visa at the point of entry; you can apply at an embassy, and the UK FCDO also describes an online e-visa application. That includes US citizens, whose visa-free arrangement was cancelled in April 2023. No official source we could read states the entry rule for citizens of the other CEMAC states (Cameroon, Chad, the Central African Republic, Congo and Gabon)."
     },
     {
       "id": "us-citizens",

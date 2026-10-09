@@ -16,7 +16,7 @@
     "indonesia",
     "japan"
   ],
-  "summary": "Vietnam issues its eVisa to citizens of all countries and territories — 25 USD single entry or 50 USD multiple entry, valid up to 90 days — while citizens of the 39 countries whose ordinary passports are exempt on the Ministry of Foreign Affairs' visa exemption list (September 2025) enter visa-free, among them 18 EU countries, the UK, Switzerland, Japan and South Korea for 45 days.",
+  "summary": "Vietnam issues its eVisa to citizens of all countries and territories — 25 USD single entry or 50 USD multiple entry, valid up to 90 days — while citizens of the countries whose ordinary passports are exempt on the Ministry of Foreign Affairs' visa exemption list (September 2025) enter visa-free, among them the UK, Switzerland, Japan, South Korea and a number of EU countries for 45 days.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -2381,17 +2381,13 @@
         "notes": "Paid online through the portal's e-payment gateway; non-refundable even if the visa is not granted. Open to citizens of all countries and territories."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 15,
         "unit": "business-days"
       },
       "validityDays": 90,
-      "stayDays": 90,
+      "stayDays": null,
       "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
       "applyUrl": "https://evisa.gov.vn/",
       "source": {
         "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all",
@@ -2407,6 +2403,24 @@
             "lastVerified": "2026-10-09"
           }
         ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "E-visa fee: 25 USD for a single-entry visa / 50 USD for a multiple-entry visa.",
+          "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all"
+        },
+        "processing": {
+          "text": "If the application needs to be verified by the Police Department, you will receive the results within 03 to 15 working days (*).",
+          "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all"
+        },
+        "validityDays": {
+          "text": "Viet Nam e-Visa is valid for a maximum of 90 days",
+          "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all"
+        },
+        "entries": {
+          "text": "E-visa fee: 25 USD for a single-entry visa / 50 USD for a multiple-entry visa.",
+          "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all"
+        }
       },
       "documents": {
         "items": [
@@ -2444,17 +2458,13 @@
         "notes": "Paid online through the portal's e-payment gateway; non-refundable even if the visa is not granted. Open to citizens of all countries and territories."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 15,
         "unit": "business-days"
       },
       "validityDays": 90,
-      "stayDays": 90,
+      "stayDays": null,
       "entries": "multiple",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
       "applyUrl": "https://evisa.gov.vn/",
       "source": {
         "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all",
@@ -2470,6 +2480,24 @@
             "lastVerified": "2026-10-09"
           }
         ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "E-visa fee: 25 USD for a single-entry visa / 50 USD for a multiple-entry visa.",
+          "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all"
+        },
+        "processing": {
+          "text": "If the application needs to be verified by the Police Department, you will receive the results within 03 to 15 working days (*).",
+          "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all"
+        },
+        "validityDays": {
+          "text": "Viet Nam e-Visa is valid for a maximum of 90 days",
+          "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all"
+        },
+        "entries": {
+          "text": "E-visa fee: 25 USD for a single-entry visa / 50 USD for a multiple-entry visa.",
+          "url": "https://api.evisa.gov.vn/client-service/public/bai-viet/get-all"
+        }
       },
       "documents": {
         "items": [
@@ -2505,7 +2533,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/vietnam/entry-requirements",
@@ -2519,7 +2547,7 @@
   "entryRequirements": {
     "passportValidity": {
       "rule": "other",
-      "text": "For an e-visa, your passport must stay valid at least 30 days longer than the e-visa itself (so about 4 months for a 90-day e-visa). No Vietnamese official source we could read states a passport-validity rule for visa-exempt visitors; the UK Foreign Office says a British passport must have an expiry date at least 6 months after the date you arrive.",
+      "text": "For an e-visa, your passport must stay valid at least 30 days longer than the e-visa itself. No Vietnamese official source we could read states a passport-validity rule for visa-exempt visitors; the UK Foreign Office says a British passport must have an expiry date at least 6 months after the date you arrive.",
       "source": {
         "url": "https://evisa.gov.vn/faq",
         "name": "Vietnam National e-Visa Portal (Immigration Department) — FAQs",
@@ -2810,12 +2838,12 @@
     {
       "id": "who-visa-free",
       "question": "Which nationalities can enter Vietnam without a visa?",
-      "answer": "Citizens of the 39 countries whose ordinary passports are exempt on the Ministry of Foreign Affairs' Visa Exemption List (September 2025) enter visa-free. Citizens of the UK, Germany, France, Italy, Spain, Denmark, Sweden, Norway, Finland, Japan, South Korea and Russia get 45 days under the unilateral exemption (to 14 March 2028). Citizens of Belgium, Bulgaria, Croatia, Czechia, Hungary, Luxembourg, the Netherlands, Poland, Romania, Slovakia, Slovenia and Switzerland get 45 days for tourism under the Tourism Stimulus Program (to 14 August 2028). Under ASEAN and bilateral agreements, the Ministry of Foreign Affairs' visa exemption list gives ordinary passport holders of Chile and Panama 90 days; Cambodia, Indonesia, Laos, Malaysia, Myanmar, Singapore, Thailand, Belarus, Kazakhstan, Kyrgyzstan and Mongolia 30 days; the Philippines 21 days; and Brunei 14 days."
+      "answer": "Citizens of the countries whose ordinary passports are exempt on the Ministry of Foreign Affairs' Visa Exemption List (September 2025) enter visa-free. Citizens of the UK, Germany, France, Italy, Spain, Denmark, Sweden, Norway, Finland, Japan, South Korea and Russia get 45 days under the unilateral exemption (to 14 March 2028). Citizens of Belgium, Bulgaria, Croatia, Czechia, Hungary, Luxembourg, the Netherlands, Poland, Romania, Slovakia, Slovenia and Switzerland get 45 days for tourism under the Tourism Stimulus Program (to 14 August 2028). Under ASEAN and bilateral agreements, the Ministry of Foreign Affairs' visa exemption list gives ordinary passport holders of Chile and Panama 90 days; Cambodia, Indonesia, Laos, Malaysia, Myanmar, Singapore, Thailand, Belarus, Kazakhstan, Kyrgyzstan and Mongolia 30 days; the Philippines 21 days; and Brunei 14 days."
     },
     {
       "id": "evisa-cost-time",
       "question": "How much does the Vietnam eVisa cost and how long does it take?",
-      "answer": "The eVisa costs 25 USD for single entry or 50 USD for multiple entry, allows a stay of up to 90 days, and is normally processed within 3 working days, or 3 to 15 working days when the application needs verification (working days exclude weekends and public holidays). It is available to citizens of all countries."
+      "answer": "The eVisa costs 25 USD for single entry or 50 USD for multiple entry, is valid for up to 90 days, and is normally processed within 3 working days, or 3 to 15 working days when the application needs verification (working days exclude weekends and public holidays). It is available to citizens of all countries."
     },
     {
       "id": "extend-stay",

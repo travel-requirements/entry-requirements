@@ -19,7 +19,7 @@
     "morocco",
     "egypt"
   ],
-  "summary": "South Africa admits most Western passports visa-free — 90 days for the US, UK, most of Western Europe, Japan, Brazil and Russia, and 30 days for several others — while nationalities such as China and India need a visa, which they can now also get online through the Electronic Travel Authorisation (ETA) for arrival at four international airports. Home Affairs requires at least one blank passport page for endorsements.",
+  "summary": "South Africa admits citizens of the countries on Home Affairs' exemption list visa-free — for 90 days the US, the UK, many European countries, Japan, Brazil and Russia, and for 30 days some others — while nationalities such as China and India need a visa, which they can now also get online through the Electronic Travel Authorisation (ETA) for arrival at four international airports. Home Affairs requires at least one blank passport page for endorsements.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -2649,26 +2649,43 @@
         "currency": "ZAR",
         "notes": "Home Affairs’ tariff list charges R425 for a visitor’s visa (Immigration Act s.11). It is collected only from ordinary-passport holders of the countries on Home Affairs’ list of nationalities subject to visa fees."
       },
-      "processing": {
-        "minDays": 5,
-        "maxDays": 30,
-        "unit": "business-days"
-      },
-      "validityDays": 90,
+      "processing": null,
+      "validityDays": null,
       "stayDays": 90,
-      "entries": "single",
+      "entries": null,
       "extendable": {
         "possible": true,
-        "days": 90
+        "days": null
       },
       "applyUrl": "https://www.dha.gov.za/index.php/immigration-services/types-of-visas",
       "source": {
         "url": "https://www.dha.gov.za/index.php/immigration-services/types-of-visas",
         "name": "Department of Home Affairs — Types of Visas",
         "type": "government",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-09",
         "archiveUrl": "https://web.archive.org/web/20260601171132/https://www.dha.gov.za/index.php/immigration-services/types-of-visas",
-        "lastChanged": "2026-10-02"
+        "lastChanged": "2026-10-09",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.dha.gov.za/index.php/fees",
+            "name": "Department of Home Affairs — Fees (Gazette 55209, 17 August 2026): visitor's visa, including applications for renewal",
+            "lastVerified": "2026-10-09"
+          }
+        ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "Visitor's visa (including applications for renewal) 11 R425,00",
+          "url": "https://www.dha.gov.za/index.php/fees"
+        },
+        "extendable": {
+          "text": "Visitor's visa (including applications for renewal) 11 R425,00",
+          "url": "https://www.dha.gov.za/index.php/fees"
+        },
+        "stayDays": {
+          "text": "who wish to visit the country on a temporary basis for tourism or business purposes for a period of 90 days or less.",
+          "url": "https://www.dha.gov.za/index.php/immigration-services/types-of-visas"
+        }
       }
     },
     {
@@ -2682,24 +2699,20 @@
         "notes": "Home Affairs lists the eVisa as a port of entry visa (Immigration Act s.10) with a turnaround time of 10 days. Its tariff list (Government Gazette 55209, 17 August 2026) charges R425 for a port of entry visa, the same as a visitor's visa."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 10,
         "unit": "calendar-days"
       },
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": "https://www.dha.gov.za/",
       "source": {
         "url": "https://www.dha.gov.za/index.php/fees",
         "name": "Department of Home Affairs — Fees (tariffs under the Immigration Act, updated per Government Gazette 55209 of 17 August 2026)",
         "type": "government",
-        "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-03",
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09",
         "instrument": "Immigration Regulations tariff, Government Gazette 55209 (17 August 2026): port of entry visa s.10A R425; visitor’s visa s.11 R425",
         "alsoStatedOn": [
           {
@@ -2708,6 +2721,16 @@
             "lastVerified": "2026-10-09"
           }
         ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "Port of entry visa 10A R425,00",
+          "url": "https://www.dha.gov.za/index.php/fees"
+        },
+        "processing": {
+          "text": "Port of entry visa - Section 10 (Evisa) 10 days",
+          "url": "https://www.dha.gov.za/index.php/immigration-services/turnaround-times-for-visas-and-permits"
+        }
       }
     },
     {
@@ -2721,13 +2744,13 @@
         "notes": "Home Affairs' tariff list charges an electronic processing fee of R500 for the ETA (Immigration Act s.7(1)(i); Government Gazette 55209, 17 August 2026)."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 1,
         "unit": "calendar-days"
       },
       "validityDays": null,
       "stayDays": 90,
-      "entries": "multiple",
+      "entries": null,
       "extendable": {
         "possible": true,
         "days": 90
@@ -2737,8 +2760,8 @@
         "url": "https://www.dha.gov.za/index.php/statements-speeches/2079-address-by-the-minister-of-home-affairs-dr-leon-schreiber-at-the-official-launch-of-south-africa-s-electronic-travel-authorisation",
         "name": "Department of Home Affairs — Minister's address at the official launch of the Electronic Travel Authorisation (12 August 2026)",
         "type": "government",
-        "lastVerified": "2026-10-07",
-        "lastChanged": "2026-09-26",
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09",
         "alsoStatedOn": [
           {
             "url": "https://www.dha.gov.za/index.php/fees",
@@ -2769,6 +2792,24 @@
           "lastVerified": "2026-10-09",
           "lastChanged": "2026-10-07",
           "portalOnly": true
+        }
+      },
+      "evidence": {
+        "fee": {
+          "text": "Electronic processing fee (applicable to the ETA) 7(1 )(i) R500,00",
+          "url": "https://www.dha.gov.za/index.php/fees"
+        },
+        "processing": {
+          "text": "If the application is approved, the traveller will receive their ETA within 24 hours",
+          "url": "https://www.dha.gov.za/index.php/statements-speeches/2079-address-by-the-minister-of-home-affairs-dr-leon-schreiber-at-the-official-launch-of-south-africa-s-electronic-travel-authorisation"
+        },
+        "stayDays": {
+          "text": "the capability for legitimate travellers who enter South Africa for up to 90 days, to apply through the ETA to extend their stay for up to a further 90 days, as stipulated by the Immigration Act.",
+          "url": "https://www.dha.gov.za/index.php/statements-speeches/2079-address-by-the-minister-of-home-affairs-dr-leon-schreiber-at-the-official-launch-of-south-africa-s-electronic-travel-authorisation"
+        },
+        "extendable": {
+          "text": "the capability for legitimate travellers who enter South Africa for up to 90 days, to apply through the ETA to extend their stay for up to a further 90 days, as stipulated by the Immigration Act.",
+          "url": "https://www.dha.gov.za/index.php/statements-speeches/2079-address-by-the-minister-of-home-affairs-dr-leon-schreiber-at-the-official-launch-of-south-africa-s-electronic-travel-authorisation"
         }
       }
     }

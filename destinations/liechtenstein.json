@@ -15,7 +15,7 @@
     "austria",
     "germany"
   ],
-  "summary": "Liechtenstein applies Schengen rules through its association agreement: EU/EEA and Swiss citizens enter freely, nationals of the 64 countries and territories on the EU's visa-exempt list (as of 30 December 2025) get 90 days in any 180-day period, and everyone else needs a Schengen visa, applied for in most places at the Swiss representation where they live.",
+  "summary": "Liechtenstein applies Schengen rules through its association agreement: EU/EEA and Swiss citizens enter freely, nationals of the countries and territories on the EU's visa-exempt list (as of 30 December 2025) get 90 days in any 180-day period, and everyone else needs a Schengen visa, applied for in most places at the Swiss representation where they live.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -2072,7 +2072,7 @@
         "notes": "Children 6–11: €45; under 6: free. In most places applications are made at the Swiss representation where you live."
       },
       "processing": {
-        "minDays": 15,
+        "minDays": null,
         "maxDays": 45,
         "unit": "calendar-days"
       },
@@ -2080,7 +2080,7 @@
       "stayDays": 90,
       "entries": null,
       "extendable": {
-        "possible": false,
+        "possible": true,
         "days": null
       },
       "applyUrl": "https://www.llv.li/en",
@@ -2088,10 +2088,29 @@
         "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611",
         "name": "Visa Code (Regulation (EC) No 810/2009), consolidated text — EUR-Lex",
         "type": "igo",
-        "lastVerified": "2026-10-07",
-        "instrument": "Regulation (EC) No 810/2009 establishing a Community Code on Visas, Article 16(1) (visa fee), Article 1(1) (stays not exceeding 90 days in any 180-day period) and Article 24(1) (a visa may be issued for one, two or multiple entries; validity up to five years, set on examination of each application), consolidated to 11 June 2024",
+        "lastVerified": "2026-10-09",
+        "instrument": "Regulation (EC) No 810/2009 establishing a Community Code on Visas, Article 16(1) (visa fee), Article 1(1) (stays not exceeding 90 days in any 180-day period) and Article 24(1) (a visa may be issued for one, two or multiple entries; validity up to five years, set on examination of each application), consolidated to 11 June 2024; Visa Code Article 23(2) (decision period may be extended up to a maximum of 45 calendar days) and Article 33(1)–(2) (extension of an issued visa for force majeure, humanitarian or serious personal reasons)",
         "archiveUrl": "https://web.archive.org/web/20251008134447/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611",
-        "lastChanged": "2026-10-07"
+        "lastChanged": "2026-10-07",
+        "alsoStatedOn": []
+      },
+      "evidence": {
+        "fee": {
+          "text": "Applicants shall pay a visa fee of EUR 90.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        },
+        "processing": {
+          "text": "That period may be extended up to a maximum of 45 calendar days in individual cases, notably when further scrutiny of the application is needed.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        },
+        "stayDays": {
+          "text": "This Regulation establishes the procedures and conditions for issuing visas for intended stays on the territory of the Member States not exceeding 90 days in any 180-day period.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        },
+        "extendable": {
+          "text": "The period of validity and/or the duration of stay of an issued visa shall be extended where the competent authority of a Member State considers that a visa holder has provided proof of force majeure or humanitarian reasons preventing him from leaving the territory of the Member States before the expiry of the period of validity of or the duration of stay authorised by the visa. Such an extension shall be granted free of charge. 2. The period of validity and/or the duration of stay of an issued visa may be extended if the visa holder provides proof of serious personal reasons justifying the extension of the period of validity or the duration of stay.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        }
       }
     },
     {
@@ -2103,11 +2122,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "multiple",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.gesetze.li/konso/2020042000",
@@ -2121,7 +2136,7 @@
   "entryRequirements": {
     "passportValidity": {
       "rule": "3-months-beyond-departure",
-      "text": "Non-EU passports must be valid for at least 3 months beyond your planned departure from the Schengen Area and have been issued within the last 10 years.",
+      "text": "The UK government tells British nationals that Liechtenstein follows Schengen area rules: their passport must have a date of issue less than 10 years before the date they arrive and an expiry date at least 3 months after the day they plan to leave the Schengen area.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/liechtenstein/entry-requirements",
         "name": "UK FCDO — Liechtenstein travel advice, entry requirements",
@@ -2160,12 +2175,13 @@
     "onwardTicket": {
       "required": true,
       "appliesTo": "all",
-      "text": "Border officers may ask non-EU visitors for proof of return or onward travel and accommodation details.",
+      "text": "Under the Schengen Borders Code, which Liechtenstein applies, the documents border guards may check for tourist or private journeys include a return or round-trip ticket (Annex I).",
       "source": {
-        "url": "https://www.sem.admin.ch/sem/en/home/themen/einreise/faq.html",
-        "name": "State Secretariat for Migration (SEM) — FAQ on entry to Switzerland",
-        "type": "government",
-        "lastVerified": "2026-10-03"
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02016R0399-20251012",
+        "name": "Schengen Borders Code (Regulation (EU) 2016/399), consolidated text — EUR-Lex",
+        "type": "igo",
+        "lastVerified": "2026-10-09",
+        "instrument": "Regulation (EU) 2016/399, Annex I(c)(iii): supporting documents as regards return — a return or round-trip ticket"
       }
     },
     "proofOfFunds": {
@@ -2431,7 +2447,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Liechtenstein?",
-      "answer": "Liechtenstein follows Schengen rules: EU/EEA and Swiss citizens enter freely, and nationals of the 64 countries and territories on the EU's visa-exempt list (as of 30 December 2025) (among them the US, UK, Canada and Japan) can stay 90 days in any 180-day period. Everyone else needs a Schengen short-stay visa."
+      "answer": "Liechtenstein follows Schengen rules: EU/EEA and Swiss citizens enter freely, and nationals of the countries and territories on the EU's visa-exempt list (as of 30 December 2025) (among them the US, UK, Canada and Japan) can stay 90 days in any 180-day period. Everyone else needs a Schengen short-stay visa."
     },
     {
       "id": "own-visa",

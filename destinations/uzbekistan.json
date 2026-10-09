@@ -19,7 +19,7 @@
     "tajikistan",
     "azerbaijan"
   ],
-  "summary": "Uzbekistan admits citizens of the 91 countries on the Foreign Ministry's visa-free list (updated 1 June 2026) — including the whole EU, the UK, the United States, Japan, South Korea, Canada, Australia and New Zealand — visa-free, most of them for 30 days. 44 other nationalities use the USD 20 eVisa, and the rest apply at an Uzbek embassy.",
+  "summary": "Uzbekistan admits citizens of the countries on the Foreign Ministry's visa-free list (updated 1 June 2026) — including EU countries, the UK, the United States, Japan, South Korea, Canada, Australia and New Zealand — without a visa. Nationalities on the eVisa portal's list can use the USD 20 eVisa, and the rest apply at an Uzbek embassy.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -1867,27 +1867,30 @@
       "fee": {
         "amount": 20,
         "currency": "USD",
-        "notes": "USD 20 single entry; USD 35 double entry and USD 50 multiple entry, per the Foreign Ministry's consular fee tariff and the eVisa portal. The portal's terms say an application is considered within 2 working days, not counting the day it is filed; the application form itself gives the processing time as 3 working days, not counting weekends and holidays."
+        "notes": "USD 20 single entry; USD 35 double entry and USD 50 multiple entry, per the Foreign Ministry's consular fee tariff and the eVisa portal. The portal's terms say an application is considered within 2 working days, not counting the day it is filed, and that you must apply at least 3 working days before the planned date of arrival."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 2,
         "unit": "business-days"
       },
       "validityDays": 90,
       "stayDays": 30,
-      "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": "https://e-visa.gov.uz/",
       "source": {
         "url": "https://e-visa.gov.uz/assets/localization/en.json",
         "name": "Uzbekistan official electronic visa portal (MFA Consular Department) — Terms & Conditions text (fee, processing time, validity, stay)",
         "type": "government",
         "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-05"
+        "lastChanged": "2026-10-05",
+        "alsoStatedOn": [
+          {
+            "url": "https://gov.uz/en/mfa/pages/o-zbekiston-respublikasi-vizasi",
+            "name": "Ministry of Foreign Affairs of Uzbekistan — Visas of the Republic of Uzbekistan (consular fees)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       },
       "documents": {
         "items": [
@@ -1925,6 +1928,24 @@
           "lastChanged": "2026-10-07",
           "portalOnly": true
         }
+      },
+      "evidence": {
+        "fee": {
+          "text": "Effective 25th June 2018 e-visa Visa application fee is USD 20.00 for single entry, USD 35.00 for double entry and USD 50.00 for multiple entry.",
+          "url": "https://e-visa.gov.uz/assets/localization/en.json"
+        },
+        "processing": {
+          "text": "Consideration of an application for an e-visa is carried out within 2 (two) working days, not counting the date of filing the application.",
+          "url": "https://e-visa.gov.uz/assets/localization/en.json"
+        },
+        "stayDays": {
+          "text": "An electronic visa is issued for a single, double and multiple entries into the Republic of Uzbekistan with a stay of up to 30 days.",
+          "url": "https://e-visa.gov.uz/assets/localization/en.json"
+        },
+        "validityDays": {
+          "text": "The electronic visa is valid for entry into the Republic of Uzbekistan within 90 days from the date of registration.",
+          "url": "https://e-visa.gov.uz/assets/localization/en.json"
+        }
       }
     },
     {
@@ -1940,7 +1961,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": 30,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://gov.uz/en/mfa/pages/o-zbekiston-respublikasi-vizasi",
@@ -1948,6 +1969,16 @@
         "type": "government",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "fee": {
+          "text": "d) For tourist visas: For 30 days - 40 USD.",
+          "url": "https://gov.uz/en/mfa/pages/o-zbekiston-respublikasi-vizasi"
+        },
+        "stayDays": {
+          "text": "d) For tourist visas: For 30 days - 40 USD.",
+          "url": "https://gov.uz/en/mfa/pages/o-zbekiston-respublikasi-vizasi"
+        }
       }
     }
   ],
@@ -2188,7 +2219,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Uzbekistan?",
-      "answer": "Citizens of the 91 countries on the Foreign Ministry's visa-free list (updated 1 June 2026), including the whole EU, the UK, Switzerland, the United States, Japan, South Korea, Israel, Türkiye, Malaysia, Canada, Australia and New Zealand, enter visa-free, most of them for up to 30 days. 44 other nationalities, among them India, Vietnam, Thailand, Egypt and much of South America, apply for the USD 20 eVisa at e-visa.gov.uz; nationalities the portal does not list apply at an Uzbek embassy."
+      "answer": "Citizens of the countries on the Foreign Ministry's visa-free list (updated 1 June 2026), including EU countries, the UK, Switzerland, the United States, Japan, South Korea, Israel, Türkiye, Malaysia, Canada, Australia and New Zealand, enter visa-free. Nationalities on the eVisa portal's list, among them India, Vietnam, Thailand and Egypt, apply for the USD 20 eVisa at e-visa.gov.uz; nationalities the portal does not list apply at an Uzbek embassy."
     },
     {
       "id": "us-citizens",

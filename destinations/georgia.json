@@ -17,7 +17,7 @@
     "jordan",
     "united-arab-emirates"
   ],
-  "summary": "Citizens of the 96 countries and territories on Georgia's visa-free list (Government Resolution No. 255, as amended on 24 February 2026) — including the US, UK, EU, Ukraine, Turkey and Russia — can stay visa-free for a full year (Chinese citizens: 30 days, tourism only), while most other nationalities either qualify via a valid Schengen, US or UK visa or residence permit, or apply for a short-stay eVisa at evisa.gov.ge.",
+  "summary": "Citizens of the countries and territories on Georgia's visa-free list (Government Resolution No. 255, as amended on 24 February 2026) — including the US, UK, EU, Ukraine, Turkey and Russia — can stay visa-free for a full year (Chinese citizens: 30 days, tourism only), while other nationalities either qualify via a valid Schengen, US or UK visa or residence permit, or apply for a short-stay eVisa at evisa.gov.ge.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -2199,28 +2199,20 @@
       "method": "evisa",
       "name": "Short-stay eVisa",
       "fee": {
-        "amount": 20.4,
+        "amount": 20,
         "currency": "USD",
-        "notes": "USD 20 visa fee plus a 2% service fee, paid online by Visa or Mastercard; not refundable. The application form says a decision takes up to 5 working days, and up to 10 working days if additional examination is needed."
+        "notes": "Plus a 2% service fee, paid online by Visa or Mastercard; not refundable."
       },
-      "processing": {
-        "minDays": 0,
-        "maxDays": 10,
-        "unit": "business-days"
-      },
+      "processing": null,
       "validityDays": null,
       "stayDays": null,
       "entries": null,
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
       "applyUrl": "https://www.evisa.gov.ge/",
       "source": {
         "url": "https://www.evisa.gov.ge/GeoVisa/en/VisaApp",
         "name": "Georgia e-Visa Portal — application form (decision time)",
         "type": "government",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-09",
         "lastChanged": "2026-10-09",
         "alsoStatedOn": [
           {
@@ -2228,13 +2220,7 @@
             "name": "Georgia e-Visa Portal — FAQ (2% service fee; fee not refundable; validity and stay vary by the passport's country; e-Visas valid 120/30 and 180/90 described)",
             "lastVerified": "2026-10-09"
           }
-        ],
-        "conflict": {
-          "url": "https://www.evisa.gov.ge/GeoVisa/en/Home/FAQ",
-          "name": "Georgia e-Visa Portal — FAQ, 'How long does it take to get my e-Visa?'",
-          "states": "not less than 5 working days",
-          "resolvedBy": "stricter"
-        }
+        ]
       },
       "documents": {
         "items": [
@@ -2258,6 +2244,12 @@
           "lastChanged": "2026-10-07",
           "portalOnly": true
         }
+      },
+      "evidence": {
+        "fee": {
+          "text": "How much is a visa fee? 20 USD + 2% service fee.",
+          "url": "https://www.evisa.gov.ge/GeoVisa/en/Home/FAQ"
+        }
       }
     },
     {
@@ -2279,8 +2271,14 @@
         "url": "https://gc-api.mfa.gov.ge/v1/Visit/services?CitizenshipId=2&ConsulateId=149&ConculateType=2&FullDescription=false",
         "name": "Geoconsul (MFA of Georgia) — consular services and tariffs abroad for foreign citizens: \"Immigration, ordinary and transit visas\" (Embassy in Cairo listing; same 20 USD tariff at other missions checked)",
         "type": "government",
-        "lastVerified": "2026-10-06",
+        "lastVerified": "2026-10-09",
         "lastChanged": "2026-10-06"
+      },
+      "evidence": {
+        "fee": {
+          "text": "The service tariff is 20 USD.",
+          "url": "https://gc-api.mfa.gov.ge/v1/Visit/services?CitizenshipId=2&ConsulateId=149&ConculateType=2&FullDescription=false"
+        }
       }
     }
   ],
@@ -2317,12 +2315,12 @@
     "onwardTicket": {
       "required": null,
       "appliesTo": null,
-      "text": "A return or onward ticket is not on the official list of documents visa holders must carry at the border (passport, proof of the purpose of travel, accommodation, insurance and funds), and no rule is published for visa-free visitors.",
+      "text": "No official source we could read states a return or onward ticket requirement. Georgia's e-Visa portal lists the documents visa holders must carry at the border (passport, proof of the purpose of travel, accommodation, insurance and funds) without a ticket.",
       "source": {
         "url": "https://www.evisa.gov.ge/GeoVisa/en/Home/FAQ",
         "name": "Georgia e-VISA Portal (Ministry of Foreign Affairs) — FAQ: document requirements and crossing the border",
         "type": "government",
-        "lastVerified": "2026-10-03",
+        "lastVerified": "2026-10-09",
         "lastChanged": "2026-10-03"
       }
     },

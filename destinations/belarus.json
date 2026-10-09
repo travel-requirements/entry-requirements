@@ -4516,16 +4516,16 @@
       "fee": {
         "amount": 60,
         "currency": "EUR",
-        "notes": "Standard consular fee for a single-entry short-term visa. The foreign ministry says the fee is set by the Tax Code and that special rates for some categories of foreigners are set by the President. The Foreign Ministry's consular fee page sets EUR 60 for processing a visa application, for all types of visa with any number of entries (EUR 35 for citizens of the EU states covered by the visa facilitation agreement)."
+        "notes": "The foreign ministry says the consular fee is set by the Tax Code and that special rates for some categories of foreigners are set by the President. Its consular fee page sets EUR 60 for processing a visa application, for all types of visa with any number of entries (EUR 35 for citizens of the EU states covered by the visa facilitation agreement)."
       },
       "processing": {
-        "minDays": 2,
+        "minDays": null,
         "maxDays": 5,
         "unit": "business-days"
       },
       "validityDays": 90,
-      "stayDays": 90,
-      "entries": "single",
+      "stayDays": null,
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://mfa.gov.by/en/visa/oformlenie/",
@@ -4542,6 +4542,20 @@
             "lastVerified": "2026-10-07"
           }
         ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "Effective January 1, 2017 the fee for processing the visa application is 60 Euro (for all types of visa with any number of entries).",
+          "url": "https://mfa.gov.by/en/visa/stavki/"
+        },
+        "processing": {
+          "text": "Visa application decision is taken 5 working days (as a matter of urgency — within 2 working days) from the date of application.",
+          "url": "https://mfa.gov.by/en/visa/oformlenie/"
+        },
+        "validityDays": {
+          "text": "C – short-term visa, valid for up to 90 days;",
+          "url": "https://mfa.gov.by/en/visa/oformlenie/"
+        }
       }
     },
     {
@@ -4555,13 +4569,13 @@
         "notes": "The Foreign Ministry's consular fee page sets EUR 60 for processing a visa application, for all types of visa with any number of entries (EUR 35 for citizens of the EU states covered by the visa facilitation agreement)."
       },
       "processing": {
-        "minDays": 2,
+        "minDays": null,
         "maxDays": 5,
         "unit": "business-days"
       },
-      "validityDays": null,
+      "validityDays": 365,
       "stayDays": 90,
-      "entries": "multiple",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://mfa.gov.by/en/visa/oformlenie/",
@@ -4576,27 +4590,50 @@
             "url": "https://mfa.gov.by/en/visa/stavki/",
             "name": "Ministry of Foreign Affairs of Belarus — Consular fee rates (visa application fee EUR 60)",
             "lastVerified": "2026-10-07"
+          },
+          {
+            "url": "https://gpk.gov.by/en/border-crossing/",
+            "name": "State Border Committee of the Republic of Belarus — Border crossing rules for foreign citizens (types of entry visas)",
+            "lastVerified": "2026-10-07"
           }
         ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "Effective January 1, 2017 the fee for processing the visa application is 60 Euro (for all types of visa with any number of entries).",
+          "url": "https://mfa.gov.by/en/visa/stavki/"
+        },
+        "processing": {
+          "text": "Visa application decision is taken 5 working days (as a matter of urgency — within 2 working days) from the date of application.",
+          "url": "https://mfa.gov.by/en/visa/oformlenie/"
+        },
+        "stayDays": {
+          "text": "D – long-term visa, valid for the period exceeding 90 days with the right to stay in the Republic of Belarus up to 90 days",
+          "url": "https://mfa.gov.by/en/visa/oformlenie/"
+        },
+        "validityDays": {
+          "text": "D - long-term, valid for up to 1 year with the right to stay up to 90 days",
+          "url": "https://gpk.gov.by/en/border-crossing/"
+        }
       }
     },
     {
       "id": "evisa",
       "category": "tourist",
       "method": "evisa",
-      "name": "E-visa (single entry, up to 30 days)",
+      "name": "E-visa (single entry, issued for up to 30 days)",
       "fee": {
         "amount": 60,
         "currency": "EUR",
         "notes": "EUR 60 consular fee for most nationalities; EUR 35 for citizens of the EU member states on the list; free for citizens of Japan and for children (under 12 from those EU states, under 14 otherwise). An EUR 6 service fee is charged to every applicant on top."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 7,
         "unit": "calendar-days"
       },
-      "validityDays": null,
-      "stayDays": 30,
+      "validityDays": 30,
+      "stayDays": null,
       "entries": "single",
       "applyUrl": "https://e-pasluga.by/en_US/services/visas-and-travel/30401e-visa-issuance",
       "source": {
@@ -4605,6 +4642,24 @@
         "type": "government",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "fee": {
+          "text": "60 euros – for citizens of other states;",
+          "url": "https://mfa.gov.by/en/visa/general/evisa/"
+        },
+        "processing": {
+          "text": "An e-visa application is considered within seven calendar days.",
+          "url": "https://mfa.gov.by/en/visa/general/evisa/"
+        },
+        "validityDays": {
+          "text": "It is issued for a period not exceeding 30 days.",
+          "url": "https://mfa.gov.by/en/visa/general/evisa/"
+        },
+        "entries": {
+          "text": "An E-visa is a single-entry individual visa.",
+          "url": "https://mfa.gov.by/en/visa/general/evisa/"
+        }
       },
       "applyWindow": {
         "earliestDays": null,
@@ -4656,9 +4711,9 @@
       }
     },
     "onwardTicket": {
-      "required": false,
+      "required": null,
       "appliesTo": null,
-      "text": "Not required in itself. A ticket to your home country or a third country is one of the documents Belarus accepts as proof that you have enough money for the stay.",
+      "text": "No official source we could read states an onward or return ticket requirement in itself. The foreign ministry lists travel tickets to your country of citizenship or residence or to a third country among the documents that can prove you have the funds needed for the stay.",
       "source": {
         "url": "https://mfa.gov.by/en/visa/viezd_vyezd/general/",
         "name": "Ministry of Foreign Affairs of Belarus — rules of entry and exit for foreign citizens",

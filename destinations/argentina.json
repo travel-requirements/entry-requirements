@@ -4082,10 +4082,10 @@
       "fee": {
         "amount": 400,
         "currency": "USD",
-        "notes": "Migration services fee, paid online to the National Directorate of Migrations before you complete the application; the payment receipt alone does not authorise entry. Available to nationals of certain visa-required countries who hold a valid US visa."
+        "notes": "The payment receipt does not authorise entry into Argentina; only the AVE itself is accepted for entry. Applicants must hold a valid ordinary passport and a valid US visa in one of the listed categories, or, if their country's citizens do not need a US visa, a current ESTA or an entry into the United States within the last two years."
       },
       "processing": {
-        "minDays": 5,
+        "minDays": null,
         "maxDays": 20,
         "unit": "business-days"
       },
@@ -4104,6 +4104,32 @@
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-02",
         "instrument": "Decreto 584/2024, art. 15 (replacing art. 5 of Decreto 892/2016): AVE fee USD 400 for tourists"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Cost: The cost of the AVE is USD 400.",
+          "url": "https://esing.cancilleria.gob.ar/en/node/82017"
+        },
+        "processing": {
+          "text": "Processing Time: The DNM processes tourist AVE applications within 20 business days.",
+          "url": "https://esing.cancilleria.gob.ar/en/node/82017"
+        },
+        "validityDays": {
+          "text": "Validity: The AVE is valid for 90 days (3 consecutive months) from the date of issue.",
+          "url": "https://esing.cancilleria.gob.ar/en/node/82017"
+        },
+        "stayDays": {
+          "text": "Duration of Stay: You may stay in Argentina for up to 90 consecutive days from your first entry.",
+          "url": "https://esing.cancilleria.gob.ar/en/node/82017"
+        },
+        "entries": {
+          "text": "Multiple Entries: Multiple entries and exits are allowed during the 90-day validity period.",
+          "url": "https://esing.cancilleria.gob.ar/en/node/82017"
+        },
+        "extendable": {
+          "text": "Extension: Once in Argentina, you may request one 90-day extension from the DNM.",
+          "url": "https://esing.cancilleria.gob.ar/en/node/82017"
+        }
       },
       "documents": {
         "items": [
@@ -4137,10 +4163,6 @@
       "validityDays": null,
       "stayDays": 90,
       "entries": null,
-      "extendable": {
-        "possible": true,
-        "days": 90
-      },
       "applyUrl": "https://www.cancilleria.gob.ar/",
       "source": {
         "url": "https://cancilleria.gob.ar/es/servicios/visas/visa-para-turismo",
@@ -4148,6 +4170,16 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-07"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Arancel consular: $150 (Dólares estadounidenses o Euros, según la Representación Consular de tramitación, pagaderos en la moneda local donde se ubica la Representación).",
+          "url": "https://cancilleria.gob.ar/es/servicios/visas/visa-para-turismo"
+        },
+        "stayDays": {
+          "text": "El plazo de permanencia autorizado para este tipo de visa es de hasta noventa (90) días.",
+          "url": "https://cancilleria.gob.ar/es/servicios/visas/visa-para-turismo"
+        }
       }
     }
   ],
@@ -4199,26 +4231,42 @@
       }
     },
     "onwardTicket": {
-      "required": null,
-      "appliesTo": null,
-      "text": "No official Argentine source we could read states an onward-ticket requirement. Canada's travel advice says customs officials may ask you to show a return or onward ticket and proof of sufficient funds to cover your stay.",
+      "required": true,
+      "appliesTo": "visa-applicants",
+      "text": "Argentina's Foreign Ministry lists a round-trip ticket reservation among the documents for a consular tourist visa application. No official Argentine source we could read states an onward-ticket requirement for other travellers; Canada's travel advice says customs officials may ask you to show a return or onward ticket and proof of sufficient funds to cover your stay.",
       "source": {
-        "url": "https://travel.gc.ca/destinations/argentina",
-        "name": "Government of Canada — Travel advice and advisories: Argentina (entry and exit requirements)",
+        "url": "https://cancilleria.gob.ar/es/servicios/visas/visa-para-turismo",
+        "name": "Cancillería Argentina — Visa para turismo",
         "type": "government",
-        "lastVerified": "2026-10-03"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09",
+        "alsoStatedOn": [
+          {
+            "url": "https://travel.gc.ca/destinations/argentina",
+            "name": "Government of Canada — Travel advice and advisories: Argentina (entry and exit requirements)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       }
     },
     "proofOfFunds": {
-      "required": null,
-      "appliesTo": null,
+      "required": true,
+      "appliesTo": "visa-applicants",
       "amount": null,
-      "text": "No official source we could read states an amount. Canada's travel advice says customs officials may ask for proof of sufficient funds to cover your stay.",
+      "text": "Argentina's Foreign Ministry lists proof of economic solvency (for example recent pay slips, a credit card statement or a bank statement) among the documents for a consular tourist visa application. No official source we could read states an amount. Canada's travel advice says customs officials may ask for proof of sufficient funds to cover your stay.",
       "source": {
-        "url": "https://travel.gc.ca/destinations/argentina",
-        "name": "Government of Canada — Travel advice and advisories: Argentina (entry and exit requirements)",
+        "url": "https://cancilleria.gob.ar/es/servicios/visas/visa-para-turismo",
+        "name": "Cancillería Argentina — Visa para turismo",
         "type": "government",
-        "lastVerified": "2026-10-03"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09",
+        "alsoStatedOn": [
+          {
+            "url": "https://travel.gc.ca/destinations/argentina",
+            "name": "Government of Canada — Travel advice and advisories: Argentina (entry and exit requirements)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       }
     },
     "declarations": [],
@@ -4376,7 +4424,7 @@
     {
       "id": "china-ave",
       "question": "Do Chinese citizens need a visa for Argentina?",
-      "answer": "Chinese citizens need a consular tourist visa unless they hold a valid US visa, in which case they can enter without a visa or an AVE for tourism or business, for up to 30 days. Chinese citizens no longer apply for the AVE."
+      "answer": "Argentina's Embassy in Singapore says citizens of the People's Republic of China may enter Argentina without an AVE or a consular visa when they meet the conditions of Resolution 316/2025; for business travel it lists a valid US visa in a tourism or business category and a stay of up to 30 days."
     },
     {
       "id": "yellow-fever-iguazu",

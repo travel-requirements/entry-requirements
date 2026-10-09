@@ -19,7 +19,7 @@
     "ghana",
     "morocco"
   ],
-  "summary": "Senegal's Foreign Ministry lists the nationalities that need no visa for a stay of under 3 months — among them the EU (except Ireland), the UK, the US, Canada, India, Japan and much of West Africa. Nationals of countries not on the list, and holders of refugee travel documents, need a visa.",
+  "summary": "Senegal's Foreign Ministry lists the nationalities that need no visa for a stay of under 3 months — among them France, Germany and other EU states, the UK, the US, Canada, India and Japan, and African states including Côte d'Ivoire, Ghana, Morocco and Nigeria. Ireland's foreign ministry says Irish citizens can enter without a visa for up to 90 days. Nationals of countries not on the list, and holders of refugee travel documents, need a visa.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -1101,23 +1101,24 @@
         }
       },
       "IE": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
-        "visaTypes": [
-          "embassy-tourist"
-        ],
-        "notes": null,
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": "Ireland's Department of Foreign Affairs says Irish citizens can enter Senegal without a visa for up to 90 days.",
+        "quote": {
+          "text": "Irish citizens can enter Senegal without a visa for up to 90 days",
+          "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/senegal/"
+        },
         "source": {
-          "url": "https://www.diplomatie.gouv.sn/visiter-le-senegal",
-          "name": "Ministry of Foreign Affairs of Senegal — Visiter le Sénégal (visa exemptions)",
+          "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/senegal/",
+          "name": "Ireland Department of Foreign Affairs — Senegal travel advice (visa: 'Irish citizens can enter Senegal without a visa for up to 90 days')",
           "type": "government",
-          "lastVerified": "2026-10-03",
-          "lastChanged": "2026-10-03",
+          "lastVerified": "2026-10-09",
+          "lastChanged": "2026-10-09",
           "conflict": {
-            "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/senegal/",
-            "name": "Ireland Department of Foreign Affairs — Senegal travel advice (updated 8 April 2026)",
-            "states": "Irish citizens can enter Senegal without a visa for up to 90 days",
-            "resolvedBy": "hierarchy"
+            "url": "https://www.diplomatie.gouv.sn/visiter-le-senegal",
+            "name": "Ministry of Foreign Affairs of Senegal — Visiter le Sénégal (visa exemptions)",
+            "states": "Ireland is not on the list of nationalities exempt from a visa for stays of under 3 months, and nationals of countries not mentioned need a visa ('Si vous êtes ressortissant d'un pays qui n'est pas mentionné ci-dessus, vous avez besoin de Visa')",
+            "resolvedBy": "newer"
           }
         }
       },
@@ -2626,7 +2627,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.diplomatie.gouv.sn/visiter-le-senegal",
@@ -2639,8 +2640,8 @@
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
-      "text": "Your passport must be valid for at least 6 months from the date of arrival.",
+      "rule": "other",
+      "text": "Senegal's Foreign Ministry says visa-exempt visitors need a passport or laissez-passer valid for at least 6 months.",
       "source": {
         "url": "https://www.diplomatie.gouv.sn/visiter-le-senegal",
         "name": "Ministry of Foreign Affairs of Senegal — Visiter le Sénégal (visa exemptions)",
@@ -2904,7 +2905,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Senegal?",
-      "answer": "Many travelers don't. Senegal's Foreign Ministry says nationals of the countries on its list — including the EU (except Ireland), UK, US, Canada, India, Japan and a list of African and other states — need no visa for a stay of under 3 months, with a passport valid for at least 6 months. Nationals of countries not on the list need a visa."
+      "answer": "Senegal's Foreign Ministry says nationals of the countries on its list — including France, Germany and other EU states, the UK, the US, Canada, India, Japan and a list of African and other states — need no visa for a stay of under 3 months, with a passport valid for at least 6 months. Ireland's foreign ministry says Irish citizens can enter without a visa for up to 90 days. Nationals of countries not on the list need a visa."
     },
     {
       "id": "how-long-stay",

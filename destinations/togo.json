@@ -3216,17 +3216,13 @@
         "notes": "For 1–15 days, single entry. Multiple-entry tourist visas cost 35,000 (1–15 days), 45,000 (16–30 days) and 65,000 CFA francs (31–90 days). Paid online by Visa or Mastercard card or by mobile money; cash is not accepted."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 5,
         "unit": "business-days"
       },
       "validityDays": null,
       "stayDays": 15,
       "entries": "single",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
       "applyUrl": "https://voyage.gouv.tg/",
       "source": {
         "url": "https://voyage.gouv.tg/about",
@@ -3241,6 +3237,24 @@
             "lastVerified": "2026-10-07"
           }
         ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "1 à 15 jours Simple 25 000 Fr CFA",
+          "url": "https://voyage.gouv.tg/about"
+        },
+        "processing": {
+          "text": "Le traitement d’une demande de visa dure cinq (5) jours ouvrés au maximum.",
+          "url": "https://voyage.gouv.tg/about"
+        },
+        "stayDays": {
+          "text": "1 à 15 jours Simple 25 000 Fr CFA",
+          "url": "https://voyage.gouv.tg/about"
+        },
+        "entries": {
+          "text": "1 à 15 jours Simple 25 000 Fr CFA",
+          "url": "https://voyage.gouv.tg/about"
+        }
       },
       "documents": {
         "items": [
@@ -3312,7 +3326,7 @@
   "entryRequirements": {
     "passportValidity": {
       "rule": "3-months-beyond-departure",
-      "text": "Your passport must be valid for at least 3 months after the date you plan to leave Togo (for visa applicants, 3 months beyond the visa requested).",
+      "text": "The UK Foreign Office says your passport must be valid for at least 3 months after the date you plan to leave Togo. Togo Voyage asks visa applicants for a passport valid for three months longer than the visa requested.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/togo/entry-requirements",
         "name": "UK Foreign, Commonwealth & Development Office — Togo entry requirements",

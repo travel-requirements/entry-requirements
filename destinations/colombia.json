@@ -19,7 +19,7 @@
     "argentina",
     "peru"
   ],
-  "summary": "Colombia admits holders of the passports on its Foreign Ministry's List A — including the US, UK, EU, Canada and most of the Americas — without a visa for short stays; the UK government's travel advice gives the stay as up to 90 days, and Migración Colombia allows an extension up to a maximum of 180 days per calendar year. Nationalities that do need a visa apply for a Visitor (V) visa through the Foreign Ministry. Migración Colombia's free Check-Mig pre-registration, before entering or leaving, is optional and speeds up the immigration interview.",
+  "summary": "Colombia admits holders of the passports on its Foreign Ministry's List A — including the US, UK, EU, Canada and many countries of the Americas — without a visa for short stays; the UK government's travel advice gives the stay as up to 90 days, and Migración Colombia allows an extension up to a maximum of 180 days per calendar year. Nationalities that do need a visa apply for a Visitor (V) visa through the Foreign Ministry. Migración Colombia's free Check-Mig pre-registration, before entering or leaving, is optional and speeds up the immigration interview.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-25",
@@ -2782,24 +2782,24 @@
         "notes": "USD 56 application (study) fee, plus an issuance fee of USD 82 if approved (EUR 44 and EUR 63 in Europe and Cuba); some nationalities pay less."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 30,
         "unit": "calendar-days"
       },
-      "validityDays": null,
+      "validityDays": 365,
       "stayDays": 90,
-      "entries": "multiple",
+      "entries": null,
       "extendable": {
         "possible": true,
-        "days": null
+        "days": 90
       },
       "applyUrl": "https://tramitesmre.cancilleria.gov.co/tramites/enlinea/solicitarVisa.xhtml",
       "source": {
         "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/tipos-de-visa",
         "name": "Cancillería de Colombia — Tipos de visa (Visitante tipo V: Turismo)",
         "type": "government",
-        "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-07",
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09",
         "instrument": "Resolución 5477 de 2022 (Ministerio de Relaciones Exteriores): Visitante – Turismo \"Vigencia: Hasta un (1) año. La permanencia autorizada en el territorio nacional será de 90 días, prorrogable por otros 90 días\"; decision within 30 calendar days of paying the study fee (Article 13)",
         "alsoStatedOn": [
           {
@@ -2854,6 +2854,28 @@
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07"
         }
+      },
+      "evidence": {
+        "fee": {
+          "text": "Visitante - Turismo: COLOMBIA Y RESTO DEL MUNDO (USD) Estudio 56",
+          "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/costos?field_actividad_ocupacion_target_id=9339"
+        },
+        "processing": {
+          "text": "Tiempo de respuesta: hasta 30 días calendario.",
+          "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/abece-de-visas"
+        },
+        "validityDays": {
+          "text": "Vigencia: Hasta un (1) año. La permanencia autorizada en el territorio nacional será de 90 días, prorrogable por otros 90 días calendario, continuos o discontinuos.",
+          "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/tipos-de-visa"
+        },
+        "stayDays": {
+          "text": "Vigencia: Hasta un (1) año. La permanencia autorizada en el territorio nacional será de 90 días, prorrogable por otros 90 días calendario, continuos o discontinuos.",
+          "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/tipos-de-visa"
+        },
+        "extendable": {
+          "text": "Vigencia: Hasta un (1) año. La permanencia autorizada en el territorio nacional será de 90 días, prorrogable por otros 90 días calendario, continuos o discontinuos.",
+          "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/tipos-de-visa"
+        }
       }
     },
     {
@@ -2873,24 +2895,34 @@
       },
       "validityDays": null,
       "stayDays": 90,
-      "entries": "single",
-      "extendable": {
-        "possible": false,
-        "days": null
-      },
+      "entries": null,
       "applyUrl": "https://www.migracioncolombia.gov.co/tramites-y-servicios/tramites-generales/prorroga/permiso-temporal-de-permanencia-ptp-/-prorroga",
       "source": {
         "url": "https://www.migracioncolombia.gov.co/tramites-y-servicios/tramites-generales/prorroga/permiso-temporal-de-permanencia-ptp-/-prorroga",
         "name": "Migración Colombia — Permiso Temporal de Permanencia (PTP) / prórroga",
         "type": "government",
-        "lastVerified": "2026-10-07",
-        "lastChanged": "2026-09-27",
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09",
         "instrument": "Resolución 2061 de 2020 (Migración Colombia)",
         "conflict": {
           "url": "https://www.gov.uk/foreign-travel-advice/colombia/entry-requirements",
           "name": "UK FCDO — Colombia entry requirements",
           "states": "up to 120 days; 180 in any 12 months",
           "resolvedBy": "hierarchy"
+        }
+      },
+      "evidence": {
+        "fee": {
+          "text": "Tarifa 2026: $150.000 pesos colombianos.",
+          "url": "https://www.migracioncolombia.gov.co/tramites-y-servicios/tramites-generales/prorroga/permiso-temporal-de-permanencia-ptp-/-prorroga"
+        },
+        "processing": {
+          "text": "El documento será enviado por correo electrónico 3 días hábiles después del pago.",
+          "url": "https://www.migracioncolombia.gov.co/tramites-y-servicios/tramites-generales/prorroga/permiso-temporal-de-permanencia-ptp-/-prorroga"
+        },
+        "stayDays": {
+          "text": "Permiso de Turismo (PT) Hasta 90 días calendario",
+          "url": "https://www.migracioncolombia.gov.co/tramites-y-servicios/tramites-generales/prorroga/permiso-temporal-de-permanencia-ptp-/-prorroga"
         }
       }
     }
@@ -2924,16 +2956,23 @@
       }
     ],
     "travelInsurance": {
-      "required": null,
-      "appliesTo": null,
+      "required": true,
+      "appliesTo": "visa-applicants",
       "minCoverage": null,
-      "text": "No official source we could read makes insurance a condition of entry for visa-free visitors. The UK government advises insurance for local treatment and medical evacuation, and says private clinics in large cities give good care while public facilities and those in smaller cities are generally ill equipped.",
+      "text": "Colombia's Foreign Ministry asks applicants for a Visitor (V) tourism visa for health insurance valid in Colombia for the planned stay, covering accident, illness, maternity, disability, hospitalisation, death or repatriation. No official source we could read states an insurance requirement for visa-free visitors. The UK government advises British travellers to have insurance for local treatment and medical evacuation.",
       "source": {
-        "url": "https://www.gov.uk/foreign-travel-advice/colombia/health",
-        "name": "UK Foreign, Commonwealth & Development Office — Colombia travel advice (health)",
+        "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/tipos-de-visa",
+        "name": "Ministry of Foreign Affairs of Colombia — Tipos de Visa (Visitor V, Turismo: specific requirements)",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gov.uk/foreign-travel-advice/colombia/health",
+            "name": "UK Foreign, Commonwealth & Development Office — Colombia travel advice (health)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       }
     },
     "onwardTicket": {
@@ -2952,13 +2991,20 @@
       "required": true,
       "appliesTo": "all",
       "amount": null,
-      "text": "Foreign visitors must be able to demonstrate economic solvency where applicable, alongside an exit ticket. No official source we could read states an amount.",
+      "text": "Foreign visitors must be able to demonstrate economic solvency where applicable, alongside an exit ticket; Migración Colombia states no amount. Applicants for a Visitor (V) tourism visa must show bank statements for the six months before applying with monthly income of at least ten legal monthly minimum wages (SMLMV), their own or their host's.",
       "source": {
         "url": "https://www.migracioncolombia.gov.co/tramites-y-servicios/instructivos/requisitos-de-entrada-y-salida-del-pais",
         "name": "Migración Colombia — Requisitos de entrada y salida del país (Ingreso y salida de extranjeros)",
         "type": "government",
-        "lastVerified": "2026-10-02",
-        "lastChanged": "2026-10-02"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-02",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/tipos-de-visa",
+            "name": "Ministry of Foreign Affairs of Colombia — Tipos de Visa (Visitor V, Turismo: bank statements of the last six months)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       }
     },
     "declarations": [

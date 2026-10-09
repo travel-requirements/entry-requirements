@@ -17,7 +17,7 @@
     "cote-divoire",
     "togo"
   ],
-  "summary": "ECOWAS citizens enter Ghana without a visa, African Union citizens apply online for an AU ETA, and ten Caribbean passports and Singapore qualify for their own ETA; most other visitors need an eVisa (USD 260, up to 60 days) from the Ghana Immigration Service portal or a visa from a Ghanaian embassy.",
+  "summary": "The Ghana Immigration Service's eVisa portal lists ECOWAS and AES nationals as visa-free, although its ETA Applicant Guide places ECOWAS states under the ETA regime. Nationals of African Union member states and of countries with a bilateral visa waiver agreement with Ghana apply online for Ghana's free ETA. Other nationalities need an eVisa (USD 260, up to 60 days) from the Ghana Immigration Service portal or a visa from a Ghanaian embassy.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -108,19 +108,9 @@
         }
       },
       "AG": {
-        "requirement": "eta",
-        "maxStayDays": 90,
-        "visaTypes": [
-          "caribbean-eta"
-        ],
-        "notes": null,
-        "source": {
-          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
-          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
-          "type": "government",
-          "lastVerified": "2026-10-05",
-          "lastChanged": "2026-10-05"
-        }
+        "requirement": "unconfirmed",
+        "maxStayDays": null,
+        "notes": null
       },
       "AR": {
         "requirement": "evisa",
@@ -173,19 +163,9 @@
         "notes": null
       },
       "BS": {
-        "requirement": "eta",
-        "maxStayDays": 90,
-        "visaTypes": [
-          "caribbean-eta"
-        ],
-        "notes": null,
-        "source": {
-          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
-          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
-          "type": "government",
-          "lastVerified": "2026-10-05",
-          "lastChanged": "2026-10-05"
-        }
+        "requirement": "unconfirmed",
+        "maxStayDays": null,
+        "notes": null
       },
       "BH": {
         "requirement": "evisa",
@@ -208,19 +188,9 @@
         "notes": null
       },
       "BB": {
-        "requirement": "eta",
-        "maxStayDays": 90,
-        "visaTypes": [
-          "caribbean-eta"
-        ],
-        "notes": null,
-        "source": {
-          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
-          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
-          "type": "government",
-          "lastVerified": "2026-10-05",
-          "lastChanged": "2026-10-05"
-        }
+        "requirement": "unconfirmed",
+        "maxStayDays": null,
+        "notes": null
       },
       "BY": {
         "requirement": "evisa",
@@ -636,19 +606,9 @@
         }
       },
       "DM": {
-        "requirement": "eta",
-        "maxStayDays": 90,
-        "visaTypes": [
-          "caribbean-eta"
-        ],
-        "notes": null,
-        "source": {
-          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
-          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
-          "type": "government",
-          "lastVerified": "2026-10-05",
-          "lastChanged": "2026-10-05"
-        }
+        "requirement": "unconfirmed",
+        "maxStayDays": null,
+        "notes": null
       },
       "DO": {
         "requirement": "evisa",
@@ -871,19 +831,9 @@
         "notes": null
       },
       "GD": {
-        "requirement": "eta",
-        "maxStayDays": 90,
-        "visaTypes": [
-          "caribbean-eta"
-        ],
-        "notes": null,
-        "source": {
-          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
-          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
-          "type": "government",
-          "lastVerified": "2026-10-05",
-          "lastChanged": "2026-10-05"
-        }
+        "requirement": "unconfirmed",
+        "maxStayDays": null,
+        "notes": null
       },
       "GT": {
         "requirement": "evisa",
@@ -1076,19 +1026,9 @@
         "notes": null
       },
       "JM": {
-        "requirement": "eta",
-        "maxStayDays": 90,
-        "visaTypes": [
-          "caribbean-eta"
-        ],
-        "notes": null,
-        "source": {
-          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
-          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
-          "type": "government",
-          "lastVerified": "2026-10-05",
-          "lastChanged": "2026-10-05"
-        }
+        "requirement": "unconfirmed",
+        "maxStayDays": null,
+        "notes": null
       },
       "JP": {
         "requirement": "evisa",
@@ -1415,7 +1355,13 @@
           "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
           "type": "government",
           "lastVerified": "2026-10-05",
-          "lastChanged": "2026-10-05"
+          "lastChanged": "2026-10-05",
+          "conflict": {
+            "url": "https://gis.gov.gh/visas/",
+            "name": "Ghana Immigration Service — Visas: Ghana visa regime table",
+            "states": "Mauritius: 'Visa not required for all types of passports', 60 days (the same table still names Swaziland and lists African Union member states as 'Visa required … Granted on arrival/Mission')",
+            "resolvedBy": "newer"
+          }
         }
       },
       "MX": {
@@ -1827,49 +1773,19 @@
         }
       },
       "KN": {
-        "requirement": "eta",
-        "maxStayDays": 90,
-        "visaTypes": [
-          "caribbean-eta"
-        ],
-        "notes": null,
-        "source": {
-          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
-          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
-          "type": "government",
-          "lastVerified": "2026-10-05",
-          "lastChanged": "2026-10-05"
-        }
+        "requirement": "unconfirmed",
+        "maxStayDays": null,
+        "notes": null
       },
       "LC": {
-        "requirement": "eta",
-        "maxStayDays": 90,
-        "visaTypes": [
-          "caribbean-eta"
-        ],
-        "notes": null,
-        "source": {
-          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
-          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
-          "type": "government",
-          "lastVerified": "2026-10-05",
-          "lastChanged": "2026-10-05"
-        }
+        "requirement": "unconfirmed",
+        "maxStayDays": null,
+        "notes": null
       },
       "VC": {
-        "requirement": "eta",
-        "maxStayDays": 90,
-        "visaTypes": [
-          "caribbean-eta"
-        ],
-        "notes": null,
-        "source": {
-          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
-          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
-          "type": "government",
-          "lastVerified": "2026-10-05",
-          "lastChanged": "2026-10-05"
-        }
+        "requirement": "unconfirmed",
+        "maxStayDays": null,
+        "notes": null
       },
       "WS": {
         "requirement": "evisa",
@@ -1992,18 +1908,20 @@
         }
       },
       "SG": {
-        "requirement": "eta",
-        "maxStayDays": 90,
-        "visaTypes": [
-          "asia-eta"
-        ],
+        "requirement": "visa-free",
+        "maxStayDays": 60,
         "notes": null,
         "source": {
-          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
-          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "url": "https://gis.gov.gh/visas/",
+          "name": "Ghana Immigration Service — Visas: Ghana visa regime table (row 3: 'Singapore, Trinidad and Tobago, Mauritius — Visa not required for all types of passports — 60 days')",
           "type": "government",
-          "lastVerified": "2026-10-05",
-          "lastChanged": "2026-10-05"
+          "lastVerified": "2026-10-07",
+          "conflict": {
+            "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+            "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility)",
+            "states": "ETA required for nationals of countries holding a current bilateral visa waiver agreement with Ghana; the guide names no country, so the visa regime table that names this passport was published",
+            "resolvedBy": "hierarchy"
+          }
         }
       },
       "SK": {
@@ -2257,18 +2175,20 @@
         "notes": null
       },
       "TT": {
-        "requirement": "eta",
-        "maxStayDays": 90,
-        "visaTypes": [
-          "caribbean-eta"
-        ],
+        "requirement": "visa-free",
+        "maxStayDays": 60,
         "notes": null,
         "source": {
-          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
-          "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: AU nationals and visa-waiver countries; maximum stay 90 days from entry)",
+          "url": "https://gis.gov.gh/visas/",
+          "name": "Ghana Immigration Service — Visas: Ghana visa regime table (row 3: 'Singapore, Trinidad and Tobago, Mauritius — Visa not required for all types of passports — 60 days')",
           "type": "government",
-          "lastVerified": "2026-10-05",
-          "lastChanged": "2026-10-05"
+          "lastVerified": "2026-10-07",
+          "conflict": {
+            "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
+            "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility)",
+            "states": "ETA required for nationals of countries holding a current bilateral visa waiver agreement with Ghana; the guide names no country, so the visa regime table that names this passport was published",
+            "resolvedBy": "hierarchy"
+          }
         }
       },
       "TN": {
@@ -2485,7 +2405,7 @@
         "notes": "Total fee shown on the portal for Standard processing (within 96 hours). Priority (48 hours) and Express (5 hours) processing cost more."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 4,
         "unit": "calendar-days"
       },
@@ -2498,7 +2418,15 @@
         "name": "Ghana Immigration Service — eVisa Applicant Guide (§7 fees and processing, §11 validity and stay)",
         "type": "government",
         "lastVerified": "2026-10-07",
-        "lastChanged": "2026-09-27"
+        "lastChanged": "2026-09-27",
+        "alsoStatedOn": [
+          {
+            "url": "https://evisa.immigration.gov.gh/visa-information",
+            "name": "Ghana Immigration Service — eVisa portal, Visa Information (service tiers)",
+            "type": "government",
+            "lastVerified": "2026-10-07"
+          }
+        ]
       },
       "documents": {
         "items": [
@@ -2546,6 +2474,28 @@
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07"
         }
+      },
+      "evidence": {
+        "fee": {
+          "text": "Standard 96 hours US$260",
+          "url": "https://evisa.immigration.gov.gh/applicant-guide.html"
+        },
+        "processing": {
+          "text": "Processed within 96 hours",
+          "url": "https://evisa.immigration.gov.gh/visa-information"
+        },
+        "validityDays": {
+          "text": "A single-entry eVisa is valid for 90 days from its date of issue.",
+          "url": "https://evisa.immigration.gov.gh/applicant-guide.html"
+        },
+        "stayDays": {
+          "text": "On entry, the immigration officer at the port of entry determines the permitted length of stay, up to a maximum of 60 days.",
+          "url": "https://evisa.immigration.gov.gh/applicant-guide.html"
+        },
+        "entries": {
+          "text": "Ghana currently issues single-entry eVisas only.",
+          "url": "https://evisa.immigration.gov.gh/applicant-guide.html"
+        }
       }
     },
     {
@@ -2559,7 +2509,7 @@
         "notes": "Total fee shown on the portal for Standard processing (within 96 hours). Priority (48 hours) and Express (5 hours) processing cost more."
       },
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 4,
         "unit": "calendar-days"
       },
@@ -2572,7 +2522,15 @@
         "name": "Ghana Immigration Service — eVisa Applicant Guide (§7 fees and processing, §11 validity and stay)",
         "type": "government",
         "lastVerified": "2026-10-07",
-        "lastChanged": "2026-09-27"
+        "lastChanged": "2026-09-27",
+        "alsoStatedOn": [
+          {
+            "url": "https://evisa.immigration.gov.gh/visa-information",
+            "name": "Ghana Immigration Service — eVisa portal, Visa Information (service tiers)",
+            "type": "government",
+            "lastVerified": "2026-10-07"
+          }
+        ]
       },
       "documents": {
         "items": [
@@ -2632,22 +2590,44 @@
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07"
         }
+      },
+      "evidence": {
+        "fee": {
+          "text": "Standard 96 hours US$260",
+          "url": "https://evisa.immigration.gov.gh/applicant-guide.html"
+        },
+        "processing": {
+          "text": "Processed within 96 hours",
+          "url": "https://evisa.immigration.gov.gh/visa-information"
+        },
+        "validityDays": {
+          "text": "A single-entry eVisa is valid for 90 days from its date of issue.",
+          "url": "https://evisa.immigration.gov.gh/applicant-guide.html"
+        },
+        "stayDays": {
+          "text": "On entry, the immigration officer at the port of entry determines the permitted length of stay, up to a maximum of 60 days.",
+          "url": "https://evisa.immigration.gov.gh/applicant-guide.html"
+        },
+        "entries": {
+          "text": "Ghana currently issues single-entry eVisas only.",
+          "url": "https://evisa.immigration.gov.gh/applicant-guide.html"
+        }
       }
     },
     {
       "id": "au-eta",
       "category": "tourist",
       "method": "eta",
-      "name": "African Union ETA",
+      "name": "Electronic Travel Authorization (ETA)",
       "fee": {
         "amount": 0,
         "currency": "USD",
-        "notes": "Free: the ETA Applicant Guide says there is no fee to apply and that the maximum stay is 90 days from the date of entry. The eligibility checker shows the ETA as valid for 90 days, single entry, fee free."
+        "notes": "Free: the ETA Applicant Guide says there is no fee to apply. It says the ETA regime applies to nationals of all African Union member states, all ECOWAS member states and countries holding a current bilateral visa waiver agreement with Ghana."
       },
       "processing": null,
-      "validityDays": 90,
+      "validityDays": null,
       "stayDays": 90,
-      "entries": "single",
+      "entries": null,
       "applyUrl": "https://evisa.immigration.gov.gh/apply/eta",
       "source": {
         "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
@@ -2678,97 +2658,15 @@
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07"
         }
-      }
-    },
-    {
-      "id": "caribbean-eta",
-      "category": "tourist",
-      "method": "eta",
-      "name": "Caribbean ETA",
-      "fee": {
-        "amount": 0,
-        "currency": "USD",
-        "notes": "Free: the ETA Applicant Guide says there is no fee to apply and that the maximum stay is 90 days from the date of entry. The eligibility checker shows the ETA as valid for 90 days, single entry, fee free."
       },
-      "processing": null,
-      "validityDays": 90,
-      "stayDays": 90,
-      "entries": "single",
-      "applyUrl": "https://evisa.immigration.gov.gh/apply/eta",
-      "source": {
-        "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
-        "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: free, maximum stay 90 days from entry)",
-        "type": "government",
-        "lastVerified": "2026-10-05",
-        "lastChanged": "2026-10-05"
-      },
-      "documents": {
-        "items": [
-          {
-            "id": "photo",
-            "name": "Passport photo",
-            "required": true,
-            "details": "Recent colour photo taken within the last 6 months, about 3.5 × 4.5 cm."
-          },
-          {
-            "id": "passport-biodata-page",
-            "name": "Passport biodata page",
-            "required": true,
-            "details": "A clear, unedited scan or photo of the whole page, showing the photo, name, passport number and validity dates."
-          }
-        ],
-        "source": {
-          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
-          "name": "Ghana Immigration Service — ETA Applicant Guide: uploads",
-          "type": "government",
-          "lastVerified": "2026-10-07",
-          "lastChanged": "2026-10-07"
-        }
-      }
-    },
-    {
-      "id": "asia-eta",
-      "category": "tourist",
-      "method": "eta",
-      "name": "Asia ETA",
-      "fee": {
-        "amount": 0,
-        "currency": "USD",
-        "notes": "Free: the ETA Applicant Guide says there is no fee to apply and that the maximum stay is 90 days from the date of entry. The eligibility checker shows the ETA as valid for 90 days, single entry, fee free."
-      },
-      "processing": null,
-      "validityDays": 90,
-      "stayDays": 90,
-      "entries": "single",
-      "applyUrl": "https://evisa.immigration.gov.gh/apply/eta",
-      "source": {
-        "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
-        "name": "Ghana Immigration Service — ETA Applicant Guide (§2 Eligibility: free, maximum stay 90 days from entry)",
-        "type": "government",
-        "lastVerified": "2026-10-05",
-        "lastChanged": "2026-10-05"
-      },
-      "documents": {
-        "items": [
-          {
-            "id": "photo",
-            "name": "Passport photo",
-            "required": true,
-            "details": "Recent colour photo taken within the last 6 months, about 3.5 × 4.5 cm."
-          },
-          {
-            "id": "passport-biodata-page",
-            "name": "Passport biodata page",
-            "required": true,
-            "details": "A clear, unedited scan or photo of the whole page, showing the photo, name, passport number and validity dates."
-          }
-        ],
-        "source": {
-          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html",
-          "name": "Ghana Immigration Service — ETA Applicant Guide: uploads",
-          "type": "government",
-          "lastVerified": "2026-10-07",
-          "lastChanged": "2026-10-07"
+      "evidence": {
+        "fee": {
+          "text": "There is no fee to apply.",
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html"
+        },
+        "stayDays": {
+          "text": "The maximum permitted stay under the ETA is 90 days from the date of entry.",
+          "url": "https://evisa.immigration.gov.gh/eta-applicant-guide.html"
         }
       }
     },
@@ -2786,10 +2684,6 @@
       "validityDays": null,
       "stayDays": null,
       "entries": "single",
-      "extendable": {
-        "possible": true,
-        "days": null
-      },
       "applyUrl": null,
       "source": {
         "url": "https://washington.mfa.gov.gh/services/consular-fees",
@@ -2797,6 +2691,16 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Single Entry Visa $60.00 $100.00",
+          "url": "https://washington.mfa.gov.gh/services/consular-fees"
+        },
+        "entries": {
+          "text": "Single Entry Visa $60.00 $100.00",
+          "url": "https://washington.mfa.gov.gh/services/consular-fees"
+        }
       }
     },
     {
@@ -2812,7 +2716,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://gis.gov.gh/fees-and-charges/",
@@ -2827,6 +2731,12 @@
             "lastVerified": "2026-10-09"
           }
         ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "EEV PERMIT/ EMERGENCY VISA $200.00",
+          "url": "https://gis.gov.gh/fees-and-charges/"
+        }
       }
     }
   ],
@@ -3044,7 +2954,7 @@
     {
       "id": "au-visa-free",
       "type": "info",
-      "text": "The Ghana Immigration Service portal requires African Union citizens outside ECOWAS to apply online for an AU ETA before travel; its eligibility checker says the ETA replaces the visa on arrival."
+      "text": "The Ghana Immigration Service's ETA Applicant Guide says the ETA regime applies to nationals of all African Union member states, all ECOWAS member states and countries holding a current bilateral visa waiver agreement with Ghana, and that the ETA is free."
     },
     {
       "id": "december-voa",
@@ -3061,7 +2971,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Ghana?",
-      "answer": "It depends on your passport. ECOWAS citizens need neither a visa nor an ETA. Citizens of other African Union countries need an AU ETA, and a few Caribbean countries and Singapore have their own ETA. Most other nationalities, including the US, UK and EU, need a visa: an eVisa from the Ghana Immigration Service portal (USD 260, up to 60 days) or a visa from a Ghanaian embassy or high commission."
+      "answer": "It depends on your passport. The Ghana Immigration Service's eVisa portal lists ECOWAS and AES nationals as visa-free, although its ETA Applicant Guide places ECOWAS states under the ETA regime. Nationals of African Union member states and of countries with a bilateral visa waiver agreement with Ghana apply for the free ETA. Other nationalities, including the US, UK and EU, need a visa: an eVisa from the Ghana Immigration Service portal (USD 260, up to 60 days) or a visa from a Ghanaian embassy or high commission."
     },
     {
       "id": "us-need-visa",
@@ -3071,12 +2981,12 @@
     {
       "id": "african-visa-free",
       "question": "Is Ghana visa-free for African passport holders?",
-      "answer": "Only for ECOWAS citizens, who need neither a visa nor an ETA; the eligibility checker gives no length of stay. Citizens of the other African Union countries must apply online for an AU ETA before travel; it is single-entry and valid for 90 days, and the portal says it replaces the visa on arrival."
+      "answer": "The Ghana Immigration Service's eVisa portal lists ECOWAS and AES nationals as visa-free and gives no length of stay; its ETA Applicant Guide, however, places ECOWAS states under the ETA regime. Nationals of the other African Union member states apply online for the free ETA before travel; the guide gives a maximum stay of 90 days from the date of entry."
     },
     {
       "id": "december-voa",
       "question": "Can I get a visa on arrival in Ghana?",
-      "answer": "The Ghana Immigration Service's visa on arrival is the Emergency Entry Visa (USD 200). GIS says it may be granted to a person who appears before an immigration officer without a visa, subject to conditions, and that the application is a letter to the Comptroller-General of Immigration with the host's and the guest's passport bio pages. For African Union citizens, the eligibility checker says the AU ETA replaces the visa on arrival."
+      "answer": "The Ghana Immigration Service's visa on arrival is the Emergency Entry Visa (USD 200). GIS says it may be granted to a person who appears before an immigration officer without a visa, subject to conditions, and that the application is a letter to the Comptroller-General of Immigration with the host's and the guest's passport bio pages."
     },
     {
       "id": "yellow-fever",

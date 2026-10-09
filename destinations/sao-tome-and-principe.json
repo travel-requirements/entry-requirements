@@ -2480,17 +2480,13 @@
       "name": "e-Visa (tourist)",
       "fee": null,
       "processing": {
-        "minDays": 0,
+        "minDays": null,
         "maxDays": 7,
         "unit": "business-days"
       },
       "validityDays": null,
       "stayDays": null,
-      "entries": "single",
-      "extendable": {
-        "possible": true,
-        "days": 30
-      },
+      "entries": null,
       "applyUrl": null,
       "source": {
         "url": "https://www.smf.st/evisa",
@@ -2498,6 +2494,12 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "instrument": "Decree-Law 11/2009, art. 20(2)"
+      },
+      "evidence": {
+        "processing": {
+          "text": "Terá uma resposta ao seu pedido num período de 7 dias úteis.",
+          "url": "https://www.smf.st/evisa"
+        }
       }
     },
     {
@@ -2509,7 +2511,7 @@
       "processing": null,
       "validityDays": null,
       "stayDays": 30,
-      "entries": "single",
+      "entries": null,
       "extendable": {
         "possible": true,
         "days": 30
@@ -2522,6 +2524,16 @@
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-04",
         "instrument": "Lei n.º 5/2008, art. 43(1)(b)"
+      },
+      "evidence": {
+        "stayDays": {
+          "text": "Até trinta dias, prorrogáveis por um igual perí o- do, se o interessado for titular de um visto te m- porário, visto oficial, diplomático ou de cortesia ou tiver sido admitido no país sem exigência de visto",
+          "url": "https://www.smf.st/resource/upload/fileLegislacao/regimejuridico.pdf"
+        },
+        "extendable": {
+          "text": "Até trinta dias, prorrogáveis por um igual perí o- do, se o interessado for titular de um visto te m- porário, visto oficial, diplomático ou de cortesia ou tiver sido admitido no país sem exigência de visto",
+          "url": "https://www.smf.st/resource/upload/fileLegislacao/regimejuridico.pdf"
+        }
       }
     }
   ],
