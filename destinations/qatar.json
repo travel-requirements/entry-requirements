@@ -535,7 +535,7 @@
         }
       },
       "BH": {
-        "requirement": "freedom-of-movement",
+        "requirement": "visa-free",
         "maxStayDays": null,
         "notes": "Qatar Tourism says nationals of the Gulf Cooperation Council countries do not require a visa to enter Qatar."
       },
@@ -1114,7 +1114,7 @@
         "notes": "No official source we could read states Qatar's entry rule for Kosovo passport holders: Qatar Tourism's nationality checker, which gives the rule for each nationality, does not list Kosovo."
       },
       "KW": {
-        "requirement": "freedom-of-movement",
+        "requirement": "visa-free",
         "maxStayDays": null,
         "notes": "Qatar Tourism says nationals of the Gulf Cooperation Council countries do not require a visa to enter Qatar."
       },
@@ -1471,7 +1471,7 @@
         }
       },
       "OM": {
-        "requirement": "freedom-of-movement",
+        "requirement": "visa-free",
         "maxStayDays": null,
         "notes": "Qatar Tourism says nationals of the Gulf Cooperation Council countries do not require a visa to enter Qatar."
       },
@@ -1533,7 +1533,7 @@
         }
       },
       "QA": {
-        "requirement": "freedom-of-movement",
+        "requirement": "visa-free",
         "maxStayDays": null,
         "notes": "Home country."
       },
@@ -1610,7 +1610,7 @@
         "notes": "Not on the visa-waiver list. Apply for the Hayya A1 tourist visa online before travel; Hayya says it costs QAR 100 and confirmed accommodation in Qatar is required."
       },
       "SA": {
-        "requirement": "freedom-of-movement",
+        "requirement": "visa-free",
         "maxStayDays": null,
         "notes": "Qatar Tourism says nationals of the Gulf Cooperation Council countries do not require a visa to enter Qatar."
       },
@@ -1877,7 +1877,7 @@
         "notes": "Not on the visa-waiver list. Apply for the Hayya A1 tourist visa online before travel; Hayya says it costs QAR 100 and confirmed accommodation in Qatar is required."
       },
       "AE": {
-        "requirement": "freedom-of-movement",
+        "requirement": "visa-free",
         "maxStayDays": null,
         "notes": "Qatar Tourism says nationals of the Gulf Cooperation Council countries do not require a visa to enter Qatar."
       },
@@ -2238,20 +2238,28 @@
       "name": "Qatari riyal",
       "symbol": "ر.ق"
     },
-    "payments": {
-      "cardsAccepted": "widely",
-      "cashImportance": "low",
-      "text": "Canada's travel advice says credit cards are widely accepted in Qatar."
-    },
+    "payments": null,
     "safety": {
-      "level": "generally-safe",
+      "level": "high-risk",
       "text": "Canada's travel advice says the crime rate is low. The UK says that since 8 July there have been strikes and retaliatory attacks by Iran in a number of locations across the region, that travellers should be prepared for possible flight cancellations and airspace closures, and that they should stay away from areas around security or military facilities.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/qatar/warnings-and-insurance",
         "name": "UK Foreign, Commonwealth & Development Office — Qatar travel advice (warnings and insurance)",
         "type": "government",
         "lastVerified": "2026-10-03",
-        "lastChanged": "2026-09-26"
+        "lastChanged": "2026-09-26",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gov.uk/foreign-travel-advice/qatar",
+            "name": "UK FCDO — Qatar travel advice: warnings (areas where FCDO advises against travel)",
+            "lastVerified": "2026-10-07"
+          },
+          {
+            "url": "https://travel.gc.ca/destinations/qatar",
+            "name": "Government of Canada — travel advice and advisories: \"Avoid non-essential travel\"",
+            "lastVerified": "2026-10-07"
+          }
+        ]
       }
     },
     "plugs": {
@@ -2291,7 +2299,7 @@
         "conventions": [
           "1968-vienna"
         ],
-        "text": "Qatar is a party to the 1968 Vienna Convention on Road Traffic but not to the 1949 Geneva one, so the International Driving Permit it is bound to recognize is the 1968 Vienna version. A permit issued under the 1949 Geneva Convention carries no treaty obligation here.",
+        "text": "Qatar is a party to the 1968 Vienna Convention on Road Traffic (UN Treaty Collection).",
         "source": {
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
@@ -2307,7 +2315,7 @@
       "minRentalAge": null,
       "alcoholLimitBac": null,
       "mandatoryEquipment": [],
-      "text": "Qatar is a party to the 1968 Vienna Convention on Road Traffic but not to the 1949 Geneva one, so the International Driving Permit it is bound to recognize is the 1968 Vienna version. A permit issued under the 1949 Geneva Convention carries no treaty obligation here. No official source we could read states whether a permit is required in addition to a national licence, or for how long a foreign licence may be used.",
+      "text": "Qatar is a party to the 1968 Vienna Convention on Road Traffic (UN Treaty Collection). No official source we could read states whether a permit is required in addition to a national licence, or for how long a foreign licence may be used.",
       "source": {
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
@@ -2331,12 +2339,6 @@
         "lastVerified": "2026-10-04"
       },
       "drivingSide": {
-        "url": "https://travel.gc.ca/destinations/qatar",
-        "name": "Government of Canada — Travel advice and advisories for Qatar",
-        "type": "government",
-        "lastVerified": "2026-10-04"
-      },
-      "payments": {
         "url": "https://travel.gc.ca/destinations/qatar",
         "name": "Government of Canada — Travel advice and advisories for Qatar",
         "type": "government",
