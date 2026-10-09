@@ -3336,42 +3336,32 @@
         "name": "CEPICI / Ministère de l'Économie et des Finances — Informations essentielles relatives au visa d'entrée en Côte d'Ivoire (2018): every foreigner needs a biometric entry visa except the listed countries; embassy visa (Option 1) or e-visa pre-enrolled online and issued at Abidjan airport (Option 2), 73 euros, 3 months, multiple entry",
         "type": "government",
         "lastVerified": "2026-10-09",
-        "lastChanged": "2026-10-09",
-        "alsoStatedOn": [
-          {
-            "url": "https://snedai.com/e-visa/",
-            "name": "SNEDAI (the State's e-visa concessionaire) — e-visa procedure: 73 euros, 3 months multiple entry, enrolment at Abidjan airport",
-            "lastVerified": "2026-10-07"
-          }
-        ]
+        "lastChanged": "2026-10-09"
       },
       "documents": {
         "items": [
           {
             "id": "passport-identity-pages",
-            "name": "Passport identity page(s)",
-            "required": true,
-            "details": "Ordinary passport valid for at least 6 months on the date of application. JPG, PNG, GIF or PDF, up to 1 MB."
+            "name": "Passport identity page",
+            "required": true
           },
           {
-            "id": "return-ticket",
-            "name": "Return flight reservation",
-            "required": true,
-            "details": "JPG, PNG, GIF or PDF, up to 1 MB."
+            "id": "flight-booking",
+            "name": "Flight ticket reservation",
+            "required": true
           },
           {
             "id": "invitation-or-accommodation",
             "name": "Invitation letter or accommodation certificate",
-            "required": true,
-            "details": "An invitation letter must be typed, printed, signed, stamped and legalised. JPG, PNG, GIF or PDF, up to 1 MB."
+            "required": true
           }
         ],
         "source": {
-          "url": "https://snedai.com/e-visa/",
-          "name": "SNEDAI — Côte d'Ivoire e-Visa: procedure and documents",
+          "url": "https://sftp.225invest.ci/CEPICI/EDBI/DOCUMENTS/Informations_essentielles_Visa_02102018.pdf",
+          "name": "CEPICI / Ministère de l'Économie et des Finances — Informations essentielles relatives au visa d'entrée en Côte d'Ivoire (2018) — Option 2, step 1: the three documents uploaded at pre-enrolment",
           "type": "government",
-          "lastVerified": "2026-10-07",
-          "lastChanged": "2026-10-07"
+          "lastVerified": "2026-10-09",
+          "lastChanged": "2026-10-09"
         }
       },
       "evidence": {
@@ -3402,16 +3392,8 @@
       "category": "tourist",
       "method": "embassy",
       "name": "Embassy visa",
-      "fee": {
-        "amount": 50,
-        "currency": "EUR",
-        "notes": "EUR 50 visa fee whatever the length of stay (1 day to 3 months), paid online in euros; the SNEDAI FAQ gives EUR 58 in all: EUR 50 for the file, EUR 5 for the compulsory appointment and EUR 3 online-payment commission. SNEDAI says the file is processed within 48 hours of enrolment."
-      },
-      "processing": {
-        "minDays": null,
-        "maxDays": 2,
-        "unit": "calendar-days"
-      },
+      "fee": null,
+      "processing": null,
       "validityDays": null,
       "stayDays": 90,
       "entries": null,
@@ -3421,28 +3403,9 @@
         "name": "CEPICI / Ministère de l'Économie et des Finances — Informations essentielles relatives au visa d'entrée en Côte d'Ivoire (2018): Option 1, biometric visa from Côte d'Ivoire's embassies and consulates; a short-stay visa may not exceed three months",
         "type": "government",
         "lastVerified": "2026-10-09",
-        "alsoStatedOn": [
-          {
-            "url": "https://snedai.com/visaenambassade/",
-            "name": "SNEDAI (the State's appointed visa operator) — visa at an embassy: EUR 50 visa fee whatever the length of stay (1 day to 3 months); file processed within 48 hours of enrolment",
-            "lastVerified": "2026-10-09"
-          },
-          {
-            "url": "https://snedai.com/faq-visa-biometrique/",
-            "name": "SNEDAI — FAQ visa biométrique (58 euros: 50 dossier, 5 compulsory appointment, 3 online-payment commission)",
-            "lastVerified": "2026-10-09"
-          }
-        ]
+        "lastChanged": "2026-10-09"
       },
       "evidence": {
-        "fee": {
-          "text": "Droit de Visa : 50 Euros quelque soit la durée du séjour (de 1 jour à 3 mois);",
-          "url": "https://snedai.com/visaenambassade/"
-        },
-        "processing": {
-          "text": "Le dossier de visa est traité dans un délai de quarante-huit (48) heures après l’enrôlement.",
-          "url": "https://snedai.com/visaenambassade/"
-        },
         "stayDays": {
           "text": "Le visa court séjour ne peut excéder trois (03) mois",
           "url": "https://sftp.225invest.ci/CEPICI/EDBI/DOCUMENTS/Informations_essentielles_Visa_02102018.pdf"
@@ -3496,28 +3459,28 @@
       }
     },
     "onwardTicket": {
-      "required": true,
-      "appliesTo": "visa-applicants",
-      "text": "SNEDAI, the State's appointed e-visa operator, says e-visa applicants must upload proof of a round-trip flight booking when they pre-enrol, and that an application missing it is rejected. No official source we could read states an onward-ticket check for other arrivals.",
+      "required": null,
+      "appliesTo": null,
+      "text": "No official source we could read states an onward or return ticket requirement for Côte d'Ivoire. The government's 2018 visa guide lists a flight ticket booking among the three documents e-visa applicants upload when they pre-enrol.",
       "source": {
-        "url": "https://snedai.com/e-visa/",
-        "name": "SNEDAI — Côte d'Ivoire e-visa: procedure and documents",
+        "url": "https://sftp.225invest.ci/CEPICI/EDBI/DOCUMENTS/Informations_essentielles_Visa_02102018.pdf",
+        "name": "CEPICI / Ministère de l'Économie et des Finances — Informations essentielles relatives au visa d'entrée en Côte d'Ivoire (2018)",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09"
       }
     },
     "proofOfFunds": {
-      "required": true,
-      "appliesTo": "visa-applicants",
+      "required": null,
+      "appliesTo": null,
       "amount": null,
-      "text": "SNEDAI, the State's appointed visa operator, lists proof of financial means for the stay among the documents for embassy tourism and business visas; no amount is published. The government's 2018 guide does not list it among the e-visa documents.",
+      "text": "No official source we could read states a proof-of-funds requirement for Côte d'Ivoire. The government's 2018 visa guide does not list it among the e-visa documents.",
       "source": {
-        "url": "https://snedai.com/visaenambassade/",
-        "name": "SNEDAI — visa at an embassy (documents by visa type)",
+        "url": "https://sftp.225invest.ci/CEPICI/EDBI/DOCUMENTS/Informations_essentielles_Visa_02102018.pdf",
+        "name": "CEPICI / Ministère de l'Économie et des Finances — Informations essentielles relatives au visa d'entrée en Côte d'Ivoire (2018)",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-09"
       }
     },
     "declarations": [],
@@ -3682,7 +3645,7 @@
     {
       "id": "evisa-abidjan-only",
       "type": "warning",
-      "text": "SNEDAI describes e-Visa enrolment only at Abidjan airport's 'Visa aéroport' area, where your fingerprints and photo are taken and the visa is printed on the spot."
+      "text": "The government's 2018 visa guide describes e-Visa enrolment at Abidjan airport's 'Visa aéroport' area, where fingerprints and a photo are taken and the visa is printed and issued immediately."
     },
     {
       "id": "yellow-card",
@@ -3693,11 +3656,6 @@
       "id": "north-borders",
       "type": "warning",
       "text": "The UK, Canadian and Australian governments warn of a terrorist threat in the northern border areas with Mali and Burkina Faso, including Comoé National Park. Australia advises against all travel to the Folon, Bagoué, Poro, Bounkani and Tchologo regions and the north of Zanzan and Savanes."
-    },
-    {
-      "id": "snedai-official-only",
-      "type": "tip",
-      "text": "SNEDAI states that its site, snedai.com, is the only one officially recognised and approved by the State of Côte d'Ivoire for visa applications."
     }
   ],
   "faq": [
@@ -3709,12 +3667,12 @@
     {
       "id": "how-evisa-works",
       "question": "How does the Côte d'Ivoire eVisa work?",
-      "answer": "You pre-enrol and pay 73 euros online through SNEDAI, uploading your passport identity page, a round-trip flight booking and an invitation letter or accommodation certificate. The answer from the authorities arrives by email within 48 working hours, according to the government's 2018 visa guide. On arrival at Abidjan airport you go to the 'Visa aéroport' area, where your fingerprints and photo are taken and the visa is printed and issued immediately."
+      "answer": "According to the government's 2018 visa guide, you pre-enrol online, uploading your passport identity page, a flight ticket booking and an invitation letter or accommodation certificate, and pay 73 euros. The answer from the authorities arrives by email within 48 working hours. On arrival at Abidjan airport you go to the 'Visa aéroport' area, where your fingerprints and photo are taken and the visa is printed and issued immediately."
     },
     {
       "id": "land-border-entry",
       "question": "Can I use the eVisa at a land border?",
-      "answer": "SNEDAI describes e-Visa enrolment and issue only at Abidjan airport. No official source we could read states which visa applies to travellers entering by land."
+      "answer": "The government's 2018 visa guide describes e-Visa enrolment and issue at Abidjan airport. No official source we could read states which visa applies to travellers entering by land."
     },
     {
       "id": "yellow-fever-required",

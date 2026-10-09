@@ -2537,9 +2537,9 @@
       "method": "embassy",
       "name": "Visitor Visa Without Permission to Work (Visa de Visitante)",
       "fee": {
-        "amount": 54,
+        "amount": 56,
         "currency": "USD",
-        "notes": "Mexico's consulate in Petén lists USD 54.00 for receiving the application and, where applicable, authorising the visa, which lets you enter as a visitor without permission to work for up to 180 days."
+        "notes": "Mexico's 2026 Federal Duties Law (Ley Federal de Derechos, art. 22, III d) sets USD 56.00 for receiving and studying the application and, where applicable, authorising and issuing ordinary visas in foreign passports. It lists the long-duration visitor visa without permission to work separately, at USD 54.00 (art. 22, III f)."
       },
       "processing": null,
       "validityDays": null,
@@ -2547,16 +2547,30 @@
       "entries": null,
       "applyUrl": "https://consulmex.sre.gob.mx/",
       "source": {
-        "url": "https://consulmex.sre.gob.mx/peten/visa-de-visitante-sin-permiso-para-realizar-actividades-remuneradas",
-        "name": "Consulado de México en Petén (SRE) — Visa de visitante sin permiso para realizar actividades remuneradas",
+        "url": "https://consulmex.sre.gob.mx/yuma/images/stories/pdfs/LFD2026.pdf",
+        "name": "SRE, Dirección General de Servicios Consulares — Extracto de la Ley Federal de Derechos para 2026 (art. 22, fracción III: visas)",
         "type": "government",
         "lastVerified": "2026-10-09",
-        "lastChanged": "2026-10-09"
+        "lastChanged": "2026-10-09",
+        "instrument": "Ley Federal de Derechos 2026, art. 22, fracción III, incisos d) and f)",
+        "alsoStatedOn": [
+          {
+            "url": "https://consulmex.sre.gob.mx/peten/visa-de-visitante-sin-permiso-para-realizar-actividades-remuneradas",
+            "name": "Consulado de México en Petén (SRE) — Visa de visitante sin permiso para realizar actividades remuneradas (stay of up to 180 days; page last updated 11 August 2025)",
+            "lastVerified": "2026-10-09"
+          }
+        ],
+        "conflict": {
+          "url": "https://consulmex.sre.gob.mx/peten/visa-de-visitante-sin-permiso-para-realizar-actividades-remuneradas",
+          "name": "Consulado de México en Petén (SRE) — visitor visa without permission to work",
+          "states": "USD 54.00 for the visa (page last updated 11 August 2025)",
+          "resolvedBy": "hierarchy"
+        }
       },
       "evidence": {
         "fee": {
-          "text": "Pago de derechos: Por la recepción, solicitud, y en su caso, autorización de la visa 54.00 USD",
-          "url": "https://consulmex.sre.gob.mx/peten/visa-de-visitante-sin-permiso-para-realizar-actividades-remuneradas"
+          "text": "d). Por la recepción, estudio de la solicitud y, en su caso, la autorización y expedición de las visas ordinarias en pasaportes extranjeros…….………………………………..…………… 56.00",
+          "url": "https://consulmex.sre.gob.mx/yuma/images/stories/pdfs/LFD2026.pdf"
         },
         "stayDays": {
           "text": "Aplicable a personas extranjeras que pretendan internarse a México en la condición de estancia de visitante sin permiso para realizar actividades remuneradas, por un periodo de hasta 180 días.",

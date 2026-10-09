@@ -66,6 +66,11 @@
           "url": "https://image.mfa.go.th/mfa/0/zE6021nSnu/General_Information.pdf",
           "name": "Thailand Department of Consular Affairs — How to apply for a Thai visa: under the Immigration Act B.E. 2522 a foreigner without a valid visa is refused entry unless exempt from the visa requirement",
           "lastVerified": "2026-10-08"
+        },
+        {
+          "url": "https://image.mfa.go.th/mfa/0/91fPdh6NtO/Consular-Services/Visa/Final_edited_For_Foreign_Visitor_Travelling_to_Thailand.jpg",
+          "name": "Royal Thai Embassy, Washington D.C. — infographic \"For Foreign Visitors Travelling to Thailand\" (adapted from the MFA; effective 15 September 2026, information as of 31 August 2026), embedded in the visa exemption page; read by OCR",
+          "lastVerified": "2026-10-09"
         }
       ],
       "list": {
@@ -2248,7 +2253,11 @@
       "category": "tourist",
       "method": "visa-on-arrival",
       "name": "Visa on Arrival (VoA)",
-      "fee": null,
+      "fee": {
+        "amount": 2000,
+        "currency": "THB",
+        "notes": "The infographic says countries eligible apply for a visa on arrival at designated immigration checkpoints, and that the criteria are as prescribed by the Immigration Bureau."
+      },
       "processing": null,
       "validityDays": null,
       "stayDays": null,
@@ -2259,7 +2268,20 @@
         "name": "Royal Thai Embassy, Washington D.C. — New Visa Exemption and Visa on Arrival to Thailand (summary adapted from the Ministry of Foreign Affairs, effective 15 September 2026, information as of 31 August 2026)",
         "type": "government",
         "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-07"
+        "lastChanged": "2026-10-09",
+        "alsoStatedOn": [
+          {
+            "url": "https://image.mfa.go.th/mfa/0/91fPdh6NtO/Consular-Services/Visa/Final_edited_For_Foreign_Visitor_Travelling_to_Thailand.jpg",
+            "name": "Royal Thai Embassy, Washington D.C. — infographic \"For Foreign Visitors Travelling to Thailand\" (adapted from the MFA; effective 15 September 2026, information as of 31 August 2026), embedded in the visa exemption page; read by OCR",
+            "lastVerified": "2026-10-09"
+          }
+        ]
+      },
+      "evidence": {
+        "fee": {
+          "text": "Fee 2,000 THB",
+          "url": "https://image.mfa.go.th/mfa/0/91fPdh6NtO/Consular-Services/Visa/Final_edited_For_Foreign_Visitor_Travelling_to_Thailand.jpg"
+        }
       }
     }
   ],
@@ -2320,14 +2342,22 @@
       }
     },
     "onwardTicket": {
-      "required": true,
-      "appliesTo": "all",
-      "text": "The UK Foreign Office says you may be asked to show evidence of onward or return travel, and that British nationals have been refused entry for failing to provide it.",
+      "required": null,
+      "appliesTo": null,
+      "text": "No official source we could read states that an onward or return ticket is required of every visitor. The UK Foreign Office says you may be asked to show evidence of onward or return travel, and that British nationals have been refused entry for failing to provide it. The Tourism Authority of Thailand lists \"evidence of onward travel where required\" among the entry requirements that remain unchanged.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/thailand/entry-requirements",
         "name": "UK Foreign, Commonwealth & Development Office — Thailand entry requirements",
         "type": "government",
-        "lastVerified": "2026-10-03"
+        "lastVerified": "2026-10-03",
+        "lastChanged": "2026-10-09",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.tatnews.org/2026/07/thailand-entry-reminder-on-proof-of-funds-for-foreign-visitors/",
+            "name": "Tourism Authority of Thailand — Thailand entry reminder on proof of funds for foreign visitors (\"evidence of onward travel where required\")",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       }
     },
     "proofOfFunds": {
