@@ -57,7 +57,11 @@
           "name": "European Union, official ETIAS website (European Commission, DG Migration and Home Affairs, and eu-LISA) — Who should apply: the 30 European countries requiring ETIAS, the visa-exempt nationalities that will need it, and those exempt (including nationals of Andorra, San Marino, Monaco and holders of Vatican City State or Holy See passports); ETIAS is not yet in operation",
           "lastVerified": "2026-10-08"
         }
-      ]
+      ],
+      "list": {
+        "kind": "both",
+        "exhaustive": false
+      }
     },
     "byPassport": {
       "AF": {
@@ -65,62 +69,58 @@
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "AL": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), holders of a biometric passport of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "notes": "The EU visa regulation limits the visa exemption to holders of biometric passports.",
+        "quote": {
+          "text": "The exemption from the visa requirement shall only apply to holders of biometric passports.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230"
+        }
       },
       "DZ": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "AD": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website says nationals of Andorra, San Marino and Monaco, and holders of a passport issued by the Vatican City State or the Holy See, will not need an ETIAS travel authorization."
+        "maxStayDays": 90
       },
       "AO": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "AG": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "AR": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "AM": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c-am"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "AU": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "AT": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -139,6 +139,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "AZ": {
@@ -146,47 +150,41 @@
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c-az"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "BS": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "BH": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "BD": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "BB": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "BY": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c-by"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "BE": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -205,6 +203,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "BZ": {
@@ -212,60 +214,57 @@
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "BJ": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "BT": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "BO": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "BA": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), holders of a biometric passport of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "notes": "The EU visa regulation limits the visa exemption to holders of biometric passports.",
+        "quote": {
+          "text": "The exemption from the visa requirement shall only apply to holders of biometric passports.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230"
+        }
       },
       "BW": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "BR": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "BN": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "BG": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -284,6 +283,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "BF": {
@@ -291,105 +294,91 @@
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "BI": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "CV": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c-cv"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "KH": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "CM": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "CA": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "CF": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "TD": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "CL": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "CN": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "CO": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "KM": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "CR": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "CI": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "HR": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -408,6 +397,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "CU": {
@@ -415,13 +408,12 @@
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "CY": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -440,12 +432,16 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "CZ": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -464,6 +460,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "CD": {
@@ -471,13 +471,12 @@
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "DK": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -496,6 +495,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "DJ": {
@@ -503,63 +506,55 @@
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "DM": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "DO": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "EC": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "EG": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "SV": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "GQ": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "ER": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "EE": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -578,6 +573,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "SZ": {
@@ -585,29 +584,26 @@
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "ET": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "FJ": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "FI": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -626,12 +622,16 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "FR": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -650,6 +650,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "GA": {
@@ -657,26 +661,28 @@
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "GM": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "GE": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), holders of a biometric passport of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "notes": "The EU visa regulation limits the visa exemption to holders of biometric passports issued by Georgia in line with ICAO standards.",
+        "quote": {
+          "text": "The exemption from the visa requirement shall be limited to the holders of biometric passports issued by Georgia in line with standards of the International Civil Aviation Organisation (ICAO).",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230"
+        }
       },
       "DE": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -695,6 +701,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "GH": {
@@ -702,13 +712,12 @@
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "GR": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -727,64 +736,60 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "GD": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "GT": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "GN": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "GW": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "GY": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "HT": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "HN": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "HK": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "HU": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -803,12 +808,15 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "IS": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EFTA citizens enter Italy under free-movement rules.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A22007D0158",
           "name": "EEA Joint Committee Decision No 158/2007 incorporating Directive 2004/38/EC into the EEA Agreement — EUR-Lex",
@@ -829,37 +837,33 @@
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "ID": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "IR": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "IQ": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "IE": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -878,17 +882,19 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "IL": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "IT": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "Vatican City lies close to the right bank of the Tiber, according to the Vatican City State.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -914,76 +920,71 @@
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "JP": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "JO": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "KZ": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "KE": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "KI": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "XK": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), holders of a biometric passport of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "notes": "The EU visa regulation limits the visa exemption to holders of biometric passports issued by Kosovo in line with ICAO standards.",
+        "quote": {
+          "text": "The exemption from the visa requirement shall only apply to holders of biometric passports issued by Kosovo in line with the standards of the International Civil Aviation Organisation (ICAO).",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230"
+        }
       },
       "KW": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "KG": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "LA": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "LV": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1002,6 +1003,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "LB": {
@@ -1009,37 +1014,32 @@
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "LS": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "LR": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "LY": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "LI": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EFTA citizens enter Italy under free-movement rules.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A22007D0158",
           "name": "EEA Joint Committee Decision No 158/2007 incorporating Directive 2004/38/EC into the EEA Agreement — EUR-Lex",
@@ -1058,7 +1058,7 @@
       "LT": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1077,12 +1077,16 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "LU": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1101,54 +1105,52 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "MO": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "MG": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "MW": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "MY": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "MV": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "ML": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "MT": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1167,35 +1169,34 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "MH": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "MR": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "MU": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "MX": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "FM": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230",
           "name": "Regulation (EU) 2018/1806 listing visa-required and visa-exempt nationalities, consolidated text — EUR-Lex",
@@ -1235,57 +1236,59 @@
       "MD": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), holders of a biometric passport of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "notes": "The EU visa regulation limits the visa exemption to holders of biometric passports issued by Moldova in line with ICAO standards.",
+        "quote": {
+          "text": "The exemption from the visa requirement shall be limited to the holders of biometric passports issued by Moldova in line with standards of the International Civil Aviation Organisation (ICAO).",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230"
+        }
       },
       "MC": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website says nationals of Andorra, San Marino and Monaco, and holders of a passport issued by the Vatican City State or the Holy See, will not need an ETIAS travel authorization."
+        "maxStayDays": 90
       },
       "MN": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "ME": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), holders of a biometric passport of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "notes": "The EU visa regulation limits the visa exemption to holders of biometric passports.",
+        "quote": {
+          "text": "The exemption from the visa requirement shall only apply to holders of biometric passports.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230"
+        }
       },
       "MA": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "MZ": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "MM": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "NA": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "NR": {
         "requirement": "embassy-visa",
@@ -1293,7 +1296,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU Regulation 2018/1806 lists Nauru among visa-exempt countries only from the entry into force of a visa-waiver agreement with the EU (Annex II, footnote 11), and the EU’s summary of its visa-waiver agreements lists none with Nauru.",
+        "notes": "The EU visa regulation lists Nauru on condition that the visa exemption applies from the date of entry into force of a visa-exemption agreement to be concluded with the European Union.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230",
           "name": "Regulation (EU) 2018/1806 listing visa-required and visa-exempt nationalities, consolidated text — EUR-Lex",
@@ -1313,6 +1316,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "The exemption from the visa requirement shall apply from the date of entry into force of an agreement on visa exemption to be concluded with the European Union.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230"
         }
       },
       "NP": {
@@ -1320,13 +1327,12 @@
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "NL": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1345,51 +1351,53 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "NZ": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "NI": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "NE": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "NG": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "KP": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "MK": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), holders of a biometric passport of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "notes": "The EU visa regulation limits the visa exemption to holders of biometric passports.",
+        "quote": {
+          "text": "The exemption from the visa requirement shall only apply to holders of biometric passports.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230"
+        }
       },
       "NO": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EFTA citizens enter Italy under free-movement rules.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A22007D0158",
           "name": "EEA Joint Committee Decision No 158/2007 incorporating Directive 2004/38/EC into the EEA Agreement — EUR-Lex",
@@ -1410,65 +1418,56 @@
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "PK": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "PW": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "PS": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "PA": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "PG": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "PY": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "PE": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "PH": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "PL": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1487,12 +1486,16 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "PT": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1511,6 +1514,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "QA": {
@@ -1518,21 +1525,19 @@
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "CG": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "RO": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1551,6 +1556,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "RU": {
@@ -1559,7 +1568,7 @@
         "visaTypes": [
           "schengen-c-ru"
         ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them. The European Commission says that since 7 November 2025 Russian nationals no longer receive multiple-entry visas and must apply for a new visa for each trip, with exceptions for limited, justified cases such as independent journalists and human rights defenders.",
+        "notes": "The European Commission says Russian nationals will no longer be able to receive multiple-entry visas.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230",
           "name": "Regulation (EU) 2018/1806 listing visa-required and visa-exempt nationalities, consolidated text — EUR-Lex",
@@ -1578,6 +1587,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "From now on, Russian nationals will no longer be able to receive multiple-entry visas.",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_25_2635"
         }
       },
       "RW": {
@@ -1585,85 +1598,77 @@
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "KN": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "LC": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "VC": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "WS": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "SM": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website says nationals of Andorra, San Marino and Monaco, and holders of a passport issued by the Vatican City State or the Holy See, will not need an ETIAS travel authorization."
+        "maxStayDays": 90
       },
       "ST": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "SA": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "SN": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "RS": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), holders of a biometric passport of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "notes": "The EU visa regulation limits the visa exemption to holders of biometric passports issued in line with ICAO standards.",
+        "quote": {
+          "text": "The exemption from the visa requirement shall only apply to holders of biometric passports issued in line with the standards of the International Civil Aviation Organization (ICAO).",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230"
+        }
       },
       "SC": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "SL": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "SG": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "SK": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1682,12 +1687,16 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "SI": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1706,46 +1715,45 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "SB": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "SO": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "ZA": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "KR": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "SS": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "ES": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1764,6 +1772,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "LK": {
@@ -1771,29 +1783,26 @@
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "SD": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "SR": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "SE": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EU citizens need no visa to enter Italy (Directive 2004/38/EC, art. 5(1)).",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1812,12 +1821,15 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "CH": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. EFTA citizens enter Italy under free-movement rules.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A22002A0430%2801%29",
           "name": "Agreement between the European Community and its Member States and the Swiss Confederation on the free movement of persons — EUR-Lex",
@@ -1838,180 +1850,158 @@
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "TW": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "TJ": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "TZ": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "TH": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "TL": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "TG": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "TO": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "TT": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "TN": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "TR": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "TM": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "TV": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "UG": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "UA": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), holders of a biometric passport of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "notes": "The EU visa regulation limits the visa exemption to holders of biometric passports issued by Ukraine in line with ICAO standards.",
+        "quote": {
+          "text": "The exemption from the visa requirement shall be limited to the holders of biometric passports issued by Ukraine in line with standards of the International Civil Aviation Organisation (ICAO).",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230"
+        }
       },
       "AE": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "GB": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "US": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "UY": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "UZ": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "VU": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Vanuatu is on the EU's list of nationalities that need a visa (Annex I of Regulation (EU) 2018/1806, as amended by Regulation (EU) 2025/11), so its nationals need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "VA": {
         "requirement": "freedom-of-movement",
-        "maxStayDays": null,
-        "notes": "Home country."
+        "maxStayDays": null
       },
       "VE": {
         "requirement": "visa-free",
-        "maxStayDays": 90,
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex II), nationals of this country need no visa to cross the external borders of the Schengen states, Italy among them, for stays of no more than 90 days in any 180-day period. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization for the 30 European countries that will require it; Italy is one of those 30 and Vatican City is not, and ETIAS is not yet in operation."
+        "maxStayDays": 90
       },
       "VN": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "YE": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "ZM": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       },
       "ZW": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
           "schengen-c"
-        ],
-        "notes": "The U.S. State Department says Vatican City lies fully within Rome, Italy, and that there is no passport control at its border with Rome. Under EU Regulation 2018/1806 (Annex I), nationals of this country need a visa to cross the external borders of the Schengen states, Italy among them."
+        ]
       }
     }
   },

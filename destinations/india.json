@@ -56,7 +56,11 @@
       "name": "Indian Visa Online — e-Visa eligibility, instructions and FAQ (Bureau of Immigration)",
       "type": "government",
       "lastVerified": "2026-10-03",
-      "lastChanged": "2026-09-26"
+      "lastChanged": "2026-09-26",
+      "list": {
+        "kind": "visa-required",
+        "exhaustive": false
+      }
     },
     "byPassport": {
       "US": {
@@ -66,12 +70,16 @@
           "e-tourist-1y",
           "e-tourist-5y"
         ],
-        "notes": "Eligible for the Indian eVisa. The portal's fee table lists 25 USD for 30 days (10 USD from April to June), 40 USD for 1 year and 160 USD for 5 years for US citizens.",
+        "notes": "India’s country-wise e-Tourist Visa fee table (US$): 30 days, 10 (April to June) or 25 (July to March); 1 year, 40; 5 years, 160.",
         "source": {
           "url": "https://indianvisaonline.gov.in/evisa/images/Etourist_fee_final.pdf",
           "name": "Indian Visa Online — country-wise e-Tourist Visa fee (08 September 2026)",
           "type": "government",
           "lastVerified": "2026-10-06"
+        },
+        "quote": {
+          "text": "United States Of America 10 25 40 160",
+          "url": "https://indianvisaonline.gov.in/evisa/images/Etourist_fee_final.pdf"
         }
       },
       "GB": {
@@ -81,12 +89,16 @@
           "e-tourist-1y",
           "e-tourist-5y"
         ],
-        "notes": "Eligible for the Indian eVisa. The portal's fee table lists 25 USD for 30 days (10 USD from April to June), 40 USD for 1 year and 484 USD for 5 years for UK citizens.",
+        "notes": "India’s country-wise e-Tourist Visa fee table (US$): 30 days, 10 (April to June) or 25 (July to March); 1 year, 40; 5 years, 484.",
         "source": {
           "url": "https://indianvisaonline.gov.in/evisa/images/Etourist_fee_final.pdf",
           "name": "Indian Visa Online — country-wise e-Tourist Visa fee (08 September 2026)",
           "type": "government",
           "lastVerified": "2026-10-06"
+        },
+        "quote": {
+          "text": "United Kingdom (UK) 10 25 40 484",
+          "url": "https://indianvisaonline.gov.in/evisa/images/Etourist_fee_final.pdf"
         }
       },
       "CA": {
@@ -220,7 +232,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Turkish citizens are not on the eVisa eligibility list and apply through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -259,7 +270,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Chinese citizens are not on the eVisa eligibility list and apply through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -285,8 +295,7 @@
         }
       },
       "IN": {
-        "requirement": "freedom-of-movement",
-        "notes": "Home country."
+        "requirement": "freedom-of-movement"
       },
       "JP": {
         "requirement": "evisa",
@@ -296,7 +305,6 @@
           "e-tourist-5y",
           "voa-60"
         ],
-        "notes": "Japanese citizens can also get a double-entry visa on arrival for up to 60 days (INR 2,000) at Bengaluru, Chennai, Delhi, Hyderabad, Kolkata or Mumbai airport.",
         "source": {
           "url": "https://indianvisaonline.gov.in/visa/visa-on-arrival.html",
           "name": "Indian Visa Online (Bureau of Immigration, MHA) — Visa on Arrival",
@@ -312,7 +320,6 @@
           "e-tourist-5y",
           "voa-60"
         ],
-        "notes": "South Korean citizens can also get a double-entry visa on arrival for up to 60 days (INR 2,000) at Bengaluru, Chennai, Delhi, Hyderabad, Kolkata or Mumbai airport.",
         "source": {
           "url": "https://indianvisaonline.gov.in/visa/visa-on-arrival.html",
           "name": "Indian Visa Online (Bureau of Immigration, MHA) — Visa on Arrival",
@@ -351,15 +358,13 @@
         "requirement": "embassy-visa",
         "visaTypes": [
           "regular-tourist"
-        ],
-        "notes": "Pakistani citizens, and foreigners of Pakistani origin, are not eligible for the eVisa; the portal says they may apply for a regular visa at an Indian mission."
+        ]
       },
       "NG": {
         "requirement": "embassy-visa",
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Nigerian citizens are not on the eVisa eligibility list and apply through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -417,7 +422,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -449,8 +453,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "DZ": {
         "requirement": "embassy-visa",
@@ -458,7 +461,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -490,8 +492,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "AO": {
         "requirement": "evisa",
@@ -500,8 +501,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "AG": {
         "requirement": "evisa",
@@ -510,8 +510,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "AR": {
         "requirement": "evisa",
@@ -520,8 +519,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "AM": {
         "requirement": "evisa",
@@ -530,8 +528,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "AT": {
         "requirement": "evisa",
@@ -540,8 +537,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "AZ": {
         "requirement": "evisa",
@@ -550,8 +546,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "BS": {
         "requirement": "evisa",
@@ -560,8 +555,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "BH": {
         "requirement": "evisa",
@@ -570,8 +564,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "BD": {
         "requirement": "evisa",
@@ -579,8 +572,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Bangladesh is on the eVisa eligibility list of the Indian Visa Online portal. The portal's country-wise e-Tourist fee table does not list Bangladesh, so it states no fee."
+        ]
       },
       "BB": {
         "requirement": "evisa",
@@ -589,8 +581,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "BY": {
         "requirement": "evisa",
@@ -599,8 +590,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "BE": {
         "requirement": "evisa",
@@ -609,8 +599,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "BZ": {
         "requirement": "evisa",
@@ -619,8 +608,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "BJ": {
         "requirement": "evisa",
@@ -629,18 +617,21 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "BT": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "No visa needed: the Bureau of Immigration says citizens of Bhutan arriving from Bhutan by land or air need neither a passport nor an Indian visa, only a government-approved identity document with a photograph. Arriving from a third country they need a passport, and from China, Macau, Hong Kong or Pakistan a passport and an Indian visa.",
+        "notes": "India’s Bureau of Immigration says citizens of Nepal and Bhutan visiting India from Nepal or Bhutan by land or air need neither a passport nor an Indian visa, but must hold a government-approved document proving their nationality, with their photograph and details such as given name, last name, date of birth, nationality, issuing authority and period of validity.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/foreigners/visa-free-regime-visa-on-arrival",
           "name": "Bureau of Immigration (Ministry of Home Affairs, India) — Visa Free Regime",
           "type": "government",
           "lastVerified": "2026-10-06"
+        },
+        "quote": {
+          "text": "Citizens of Nepal and Bhutan visiting India from Nepal or Bhutan by land or air are exempted from the requirement of Passport and an Indian visa. However, they are required to hold any such Government approved document authenticating their Nationality which shall bear their Photograph along with information viz., Given Name, Last Name, Date of Birth, Nationality, Issuing Authority, Period of Validity etc.,",
+          "url": "https://boi.gov.in/boi/contents/travelling-to-india/foreigners/visa-free-regime-visa-on-arrival"
         }
       },
       "BO": {
@@ -650,8 +641,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "BA": {
         "requirement": "evisa",
@@ -660,8 +650,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "BW": {
         "requirement": "evisa",
@@ -670,8 +659,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "BN": {
         "requirement": "evisa",
@@ -680,8 +668,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "BG": {
         "requirement": "evisa",
@@ -690,8 +677,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "BF": {
         "requirement": "embassy-visa",
@@ -699,7 +685,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -731,8 +716,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "CV": {
         "requirement": "evisa",
@@ -741,8 +725,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "KH": {
         "requirement": "evisa",
@@ -751,8 +734,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "CM": {
         "requirement": "evisa",
@@ -761,8 +743,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "CF": {
         "requirement": "embassy-visa",
@@ -770,7 +751,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -801,7 +781,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -833,8 +812,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "CO": {
         "requirement": "evisa",
@@ -843,8 +821,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "KM": {
         "requirement": "evisa",
@@ -853,8 +830,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "CR": {
         "requirement": "evisa",
@@ -863,8 +839,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "CI": {
         "requirement": "evisa",
@@ -873,8 +848,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "HR": {
         "requirement": "evisa",
@@ -883,8 +857,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "CU": {
         "requirement": "evisa",
@@ -893,8 +866,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "CY": {
         "requirement": "evisa",
@@ -903,8 +875,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "CZ": {
         "requirement": "evisa",
@@ -913,8 +884,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "CD": {
         "requirement": "embassy-visa",
@@ -922,7 +892,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -954,8 +923,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "DJ": {
         "requirement": "evisa",
@@ -964,8 +932,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "DM": {
         "requirement": "evisa",
@@ -974,8 +941,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "DO": {
         "requirement": "evisa",
@@ -984,8 +950,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "EC": {
         "requirement": "evisa",
@@ -994,8 +959,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "EG": {
         "requirement": "embassy-visa",
@@ -1003,7 +967,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -1035,8 +998,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "GQ": {
         "requirement": "evisa",
@@ -1045,8 +1007,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "ER": {
         "requirement": "evisa",
@@ -1055,8 +1016,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "EE": {
         "requirement": "evisa",
@@ -1065,8 +1025,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "SZ": {
         "requirement": "evisa",
@@ -1075,8 +1034,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "ET": {
         "requirement": "embassy-visa",
@@ -1084,7 +1042,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -1116,8 +1073,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "FI": {
         "requirement": "evisa",
@@ -1126,8 +1082,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "GA": {
         "requirement": "evisa",
@@ -1136,8 +1091,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "GM": {
         "requirement": "evisa",
@@ -1146,8 +1100,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "GE": {
         "requirement": "evisa",
@@ -1156,8 +1109,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "GH": {
         "requirement": "evisa",
@@ -1166,8 +1118,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "GR": {
         "requirement": "evisa",
@@ -1176,8 +1127,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "GD": {
         "requirement": "evisa",
@@ -1186,8 +1136,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "GT": {
         "requirement": "evisa",
@@ -1196,8 +1145,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "GN": {
         "requirement": "evisa",
@@ -1206,8 +1154,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "GW": {
         "requirement": "embassy-visa",
@@ -1215,7 +1162,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -1247,8 +1193,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "HT": {
         "requirement": "evisa",
@@ -1257,8 +1202,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "HN": {
         "requirement": "evisa",
@@ -1267,8 +1211,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "HK": {
         "requirement": "embassy-visa",
@@ -1276,7 +1219,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -1308,8 +1250,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "IS": {
         "requirement": "evisa",
@@ -1318,8 +1259,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "IR": {
         "requirement": "embassy-visa",
@@ -1327,7 +1267,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -1358,7 +1297,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -1390,8 +1328,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "JM": {
         "requirement": "evisa",
@@ -1400,8 +1337,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "JO": {
         "requirement": "evisa",
@@ -1410,8 +1346,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "KZ": {
         "requirement": "evisa",
@@ -1420,8 +1355,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "KE": {
         "requirement": "evisa",
@@ -1430,8 +1364,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "KI": {
         "requirement": "evisa",
@@ -1440,8 +1373,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "XK": {
         "requirement": "embassy-visa",
@@ -1449,7 +1381,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -1481,8 +1412,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "KG": {
         "requirement": "evisa",
@@ -1491,8 +1421,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "LA": {
         "requirement": "evisa",
@@ -1501,8 +1430,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "LV": {
         "requirement": "evisa",
@@ -1511,8 +1439,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "LB": {
         "requirement": "embassy-visa",
@@ -1520,7 +1447,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -1552,8 +1478,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "LR": {
         "requirement": "evisa",
@@ -1562,8 +1487,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "LY": {
         "requirement": "embassy-visa",
@@ -1571,7 +1495,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -1603,8 +1526,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "LT": {
         "requirement": "evisa",
@@ -1613,8 +1535,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "LU": {
         "requirement": "evisa",
@@ -1623,8 +1544,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "MO": {
         "requirement": "embassy-visa",
@@ -1632,7 +1552,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -1664,8 +1583,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "MW": {
         "requirement": "evisa",
@@ -1674,8 +1592,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "MY": {
         "requirement": "evisa",
@@ -1684,18 +1601,21 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "MV": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free for up to 90 days for business, medical treatment or tourism; the Bureau of Immigration counts all stays in India in the 6 months before arrival toward the 90 days.",
+        "notes": "India’s Bureau of Immigration says Maldivians may enter visa-free when the purpose of the visit is exclusively business, medical treatment or tourism and the stay in India does not exceed 90 days.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/foreigners/visa-free-regime-visa-on-arrival",
           "name": "Bureau of Immigration (Ministry of Home Affairs, India) — Visa Free Regime",
           "type": "government",
           "lastVerified": "2026-10-06"
+        },
+        "quote": {
+          "text": "Visa free entry can be availed by Maldivians whose purpose of visit to India is exclusively for Business/Medical treatment/Tourism and the stay in India does not exceed a period of 90 days.",
+          "url": "https://boi.gov.in/boi/contents/travelling-to-india/foreigners/visa-free-regime-visa-on-arrival"
         }
       },
       "ML": {
@@ -1705,8 +1625,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "MT": {
         "requirement": "evisa",
@@ -1715,8 +1634,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "MH": {
         "requirement": "evisa",
@@ -1725,8 +1643,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "MR": {
         "requirement": "evisa",
@@ -1735,8 +1652,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "MU": {
         "requirement": "evisa",
@@ -1745,8 +1661,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "FM": {
         "requirement": "evisa",
@@ -1755,8 +1670,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "MD": {
         "requirement": "evisa",
@@ -1765,8 +1679,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "MC": {
         "requirement": "evisa",
@@ -1775,8 +1688,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "MN": {
         "requirement": "evisa",
@@ -1785,8 +1697,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "ME": {
         "requirement": "evisa",
@@ -1795,8 +1706,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "MA": {
         "requirement": "evisa",
@@ -1805,8 +1715,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "MZ": {
         "requirement": "evisa",
@@ -1815,8 +1724,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "MM": {
         "requirement": "evisa",
@@ -1825,8 +1733,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "NA": {
         "requirement": "evisa",
@@ -1835,8 +1742,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "NR": {
         "requirement": "evisa",
@@ -1845,18 +1751,21 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "NP": {
         "requirement": "visa-free",
         "maxStayDays": null,
-        "notes": "No visa needed: the Bureau of Immigration says citizens of Nepal arriving from Nepal by land or air need neither a passport nor an Indian visa, only a government-approved identity document with a photograph. Arriving from a third country they need a passport, and from China, Macau, Hong Kong or Pakistan a passport and an Indian visa.",
+        "notes": "India’s Bureau of Immigration says citizens of Nepal and Bhutan visiting India from Nepal or Bhutan by land or air need neither a passport nor an Indian visa, but must hold a government-approved document proving their nationality, with their photograph and details such as given name, last name, date of birth, nationality, issuing authority and period of validity.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/foreigners/visa-free-regime-visa-on-arrival",
           "name": "Bureau of Immigration (Ministry of Home Affairs, India) — Visa Free Regime",
           "type": "government",
           "lastVerified": "2026-10-06"
+        },
+        "quote": {
+          "text": "Citizens of Nepal and Bhutan visiting India from Nepal or Bhutan by land or air are exempted from the requirement of Passport and an Indian visa. However, they are required to hold any such Government approved document authenticating their Nationality which shall bear their Photograph along with information viz., Given Name, Last Name, Date of Birth, Nationality, Issuing Authority, Period of Validity etc.,",
+          "url": "https://boi.gov.in/boi/contents/travelling-to-india/foreigners/visa-free-regime-visa-on-arrival"
         }
       },
       "NI": {
@@ -1866,8 +1775,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "NE": {
         "requirement": "evisa",
@@ -1876,8 +1784,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "KP": {
         "requirement": "embassy-visa",
@@ -1885,7 +1792,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -1917,8 +1823,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "NO": {
         "requirement": "evisa",
@@ -1927,8 +1832,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "OM": {
         "requirement": "evisa",
@@ -1937,8 +1841,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "PW": {
         "requirement": "evisa",
@@ -1947,8 +1850,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "PS": {
         "requirement": "evisa",
@@ -1957,8 +1859,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "PA": {
         "requirement": "evisa",
@@ -1967,8 +1868,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "PG": {
         "requirement": "evisa",
@@ -1977,8 +1877,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "PY": {
         "requirement": "evisa",
@@ -1987,8 +1886,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "PE": {
         "requirement": "evisa",
@@ -1997,8 +1895,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "QA": {
         "requirement": "evisa",
@@ -2007,8 +1904,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "CG": {
         "requirement": "embassy-visa",
@@ -2016,7 +1912,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -2048,8 +1943,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "KN": {
         "requirement": "evisa",
@@ -2058,8 +1952,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "LC": {
         "requirement": "evisa",
@@ -2068,8 +1961,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "VC": {
         "requirement": "evisa",
@@ -2078,8 +1970,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "WS": {
         "requirement": "evisa",
@@ -2088,8 +1979,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "SM": {
         "requirement": "evisa",
@@ -2098,8 +1988,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "ST": {
         "requirement": "embassy-visa",
@@ -2107,7 +1996,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -2140,7 +2028,6 @@
           "e-tourist-1y",
           "e-tourist-5y"
         ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years.",
         "source": {
           "url": "https://indianvisaonline.gov.in/evisa/images/Etourist_fee_final.pdf",
           "name": "Indian Visa Online — country-wise e-Tourist Visa fee (08 September 2026)",
@@ -2155,8 +2042,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "RS": {
         "requirement": "evisa",
@@ -2165,8 +2051,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "SC": {
         "requirement": "evisa",
@@ -2175,8 +2060,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "SL": {
         "requirement": "evisa",
@@ -2185,8 +2069,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "SG": {
         "requirement": "evisa",
@@ -2195,8 +2078,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "SK": {
         "requirement": "evisa",
@@ -2205,8 +2087,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "SI": {
         "requirement": "evisa",
@@ -2215,8 +2096,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "SB": {
         "requirement": "evisa",
@@ -2225,8 +2105,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "SO": {
         "requirement": "embassy-visa",
@@ -2234,7 +2113,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -2265,7 +2143,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -2297,8 +2174,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "SD": {
         "requirement": "embassy-visa",
@@ -2306,7 +2182,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -2338,8 +2213,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "SE": {
         "requirement": "evisa",
@@ -2348,8 +2222,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "SY": {
         "requirement": "embassy-visa",
@@ -2357,7 +2230,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -2389,8 +2261,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "TJ": {
         "requirement": "evisa",
@@ -2399,8 +2270,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "TZ": {
         "requirement": "evisa",
@@ -2409,8 +2279,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "TH": {
         "requirement": "evisa",
@@ -2419,8 +2288,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "TL": {
         "requirement": "evisa",
@@ -2430,7 +2298,6 @@
           "e-tourist-1y",
           "e-tourist-5y"
         ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years.",
         "source": {
           "url": "https://indianvisaonline.gov.in/evisa/images/Etourist_fee_final.pdf",
           "name": "Indian Visa Online — country-wise e-Tourist Visa fee (08 September 2026)",
@@ -2445,8 +2312,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "TO": {
         "requirement": "evisa",
@@ -2455,8 +2321,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "TT": {
         "requirement": "evisa",
@@ -2465,8 +2330,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "TN": {
         "requirement": "embassy-visa",
@@ -2474,7 +2338,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -2505,7 +2368,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -2537,8 +2399,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "UG": {
         "requirement": "evisa",
@@ -2547,8 +2408,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "AE": {
         "requirement": "evisa",
@@ -2559,7 +2419,7 @@
           "e-tourist-5y",
           "voa-60"
         ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years. UAE nationals who have held an Indian e-Visa or paper visa before can instead get a visa on arrival (up to 60 days, INR 2,000) at six major airports.",
+        "notes": "India’s visa portal says the visa-on-arrival scheme applies to UAE nationals who earlier obtained an e-Visa or a regular/paper visa for India.",
         "source": {
           "url": "https://indianvisaonline.gov.in/visa/visa-on-arrival.html",
           "name": "Indian Visa Online (Bureau of Immigration, MHA) — Visa on Arrival",
@@ -2572,6 +2432,10 @@
             "states": "VoA for UAE nationals at Delhi, Mumbai, Chennai, Kolkata, Bengaluru, Hyderabad, Cochin, Calicut and Ahmedabad (nine airports); Japan and Korea at the six",
             "resolvedBy": "stricter"
           }
+        },
+        "quote": {
+          "text": "Visa-on-Arrival Scheme is applicable for such UAE nationals who had earlier obtained e-Visa or regular/paper visa for India.",
+          "url": "https://indianvisaonline.gov.in/visa/visa-on-arrival.html"
         }
       },
       "UY": {
@@ -2581,8 +2445,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "UZ": {
         "requirement": "evisa",
@@ -2591,8 +2454,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "VU": {
         "requirement": "evisa",
@@ -2601,8 +2463,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "VA": {
         "requirement": "evisa",
@@ -2611,8 +2472,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "VE": {
         "requirement": "evisa",
@@ -2621,8 +2481,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "YE": {
         "requirement": "embassy-visa",
@@ -2630,7 +2489,6 @@
         "visaTypes": [
           "regular-tourist"
         ],
-        "notes": "Not on the eVisa eligibility list. Apply for a regular visa through an Indian mission.",
         "source": {
           "url": "https://boi.gov.in/boi/contents/travelling-to-india/general-guidelines",
           "name": "Bureau of Immigration, India — General Guidelines for those travelling to India",
@@ -2662,8 +2520,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       },
       "ZW": {
         "requirement": "evisa",
@@ -2672,8 +2529,7 @@
           "e-tourist-30",
           "e-tourist-1y",
           "e-tourist-5y"
-        ],
-        "notes": "Eligible for the Indian eVisa. Apply online at least four days before travel; tourist eVisas are issued for 30 days, 1 year or 5 years."
+        ]
       }
     }
   },

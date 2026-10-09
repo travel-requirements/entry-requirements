@@ -62,7 +62,11 @@
           "name": "European Union, official ETIAS website (European Commission, DG Migration and Home Affairs, and eu-LISA) — Who should apply: the 30 European countries requiring ETIAS, the visa-exempt nationalities that will need it, and those exempt (including nationals of Andorra, San Marino, Monaco and holders of Vatican City State or Holy See passports); ETIAS is not yet in operation",
           "lastVerified": "2026-10-08"
         }
-      ]
+      ],
+      "list": {
+        "kind": "both",
+        "exhaustive": false
+      }
     },
     "byPassport": {
       "AF": {
@@ -71,12 +75,16 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "AL": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free with a biometric passport: 90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": "The EU visa regulation limits the visa exemption to holders of biometric passports.",
+        "quote": {
+          "text": "The exemption from the visa requirement shall only apply to holders of biometric passports.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230"
+        }
       },
       "DZ": {
         "requirement": "embassy-visa",
@@ -84,12 +92,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "AD": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website says nationals of Andorra, San Marino and Monaco, and holders of a passport issued by the Vatican City State or the Holy See, will not need an ETIAS travel authorization."
+        "notes": null
       },
       "AO": {
         "requirement": "embassy-visa",
@@ -97,17 +105,17 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "AG": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "AR": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "AM": {
         "requirement": "embassy-visa",
@@ -115,17 +123,17 @@
         "visaTypes": [
           "schengen-c-am"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "AU": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "AT": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -144,6 +152,10 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "AZ": {
@@ -152,12 +164,12 @@
         "visaTypes": [
           "schengen-c-az"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "BS": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "BH": {
         "requirement": "embassy-visa",
@@ -165,7 +177,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "BD": {
         "requirement": "embassy-visa",
@@ -173,12 +185,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "BB": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "BY": {
         "requirement": "embassy-visa",
@@ -186,12 +198,12 @@
         "visaTypes": [
           "schengen-c-by"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "BE": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "Home country."
+        "notes": null
       },
       "BZ": {
         "requirement": "embassy-visa",
@@ -199,7 +211,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "BJ": {
         "requirement": "embassy-visa",
@@ -207,7 +219,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "BT": {
         "requirement": "embassy-visa",
@@ -215,7 +227,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "BO": {
         "requirement": "embassy-visa",
@@ -223,12 +235,16 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "BA": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free with a biometric passport: 90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": "The EU visa regulation limits the visa exemption to holders of biometric passports.",
+        "quote": {
+          "text": "The exemption from the visa requirement shall only apply to holders of biometric passports.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230"
+        }
       },
       "BW": {
         "requirement": "embassy-visa",
@@ -236,22 +252,22 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "BR": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "BN": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "BG": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -270,6 +286,10 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "BF": {
@@ -278,7 +298,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "BI": {
         "requirement": "embassy-visa",
@@ -286,7 +306,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "CV": {
         "requirement": "embassy-visa",
@@ -294,7 +314,7 @@
         "visaTypes": [
           "schengen-c-cv"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "KH": {
         "requirement": "embassy-visa",
@@ -302,7 +322,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "CM": {
         "requirement": "embassy-visa",
@@ -310,12 +330,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "CA": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "CF": {
         "requirement": "embassy-visa",
@@ -323,7 +343,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "TD": {
         "requirement": "embassy-visa",
@@ -331,12 +351,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "CL": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "CN": {
         "requirement": "embassy-visa",
@@ -344,12 +364,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "CO": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "KM": {
         "requirement": "embassy-visa",
@@ -357,12 +377,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "CR": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "CI": {
         "requirement": "embassy-visa",
@@ -370,12 +390,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "HR": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -394,6 +414,10 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "CU": {
@@ -402,12 +426,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "CY": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -426,12 +450,16 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "CZ": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -450,6 +478,10 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "CD": {
@@ -458,12 +490,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "DK": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -482,6 +514,10 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "DJ": {
@@ -490,12 +526,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "DM": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "DO": {
         "requirement": "embassy-visa",
@@ -503,7 +539,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "EC": {
         "requirement": "embassy-visa",
@@ -511,7 +547,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "EG": {
         "requirement": "embassy-visa",
@@ -519,12 +555,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "SV": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "GQ": {
         "requirement": "embassy-visa",
@@ -532,7 +568,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "ER": {
         "requirement": "embassy-visa",
@@ -540,12 +576,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "EE": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -564,6 +600,10 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "SZ": {
@@ -572,7 +612,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "ET": {
         "requirement": "embassy-visa",
@@ -580,7 +620,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "FJ": {
         "requirement": "embassy-visa",
@@ -588,12 +628,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "FI": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -612,12 +652,16 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "FR": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -636,6 +680,10 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "GA": {
@@ -644,7 +692,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "GM": {
         "requirement": "embassy-visa",
@@ -652,17 +700,21 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "GE": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free with a biometric passport: 90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": "The EU visa regulation limits the visa exemption to holders of biometric passports issued by Georgia in line with ICAO standards.",
+        "quote": {
+          "text": "The exemption from the visa requirement shall be limited to the holders of biometric passports issued by Georgia in line with standards of the International Civil Aviation Organisation (ICAO).",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230"
+        }
       },
       "DE": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -681,6 +733,10 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "GH": {
@@ -689,12 +745,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "GR": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -713,17 +769,21 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "GD": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "GT": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "GN": {
         "requirement": "embassy-visa",
@@ -731,7 +791,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "GW": {
         "requirement": "embassy-visa",
@@ -739,7 +799,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "GY": {
         "requirement": "embassy-visa",
@@ -747,7 +807,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "HT": {
         "requirement": "embassy-visa",
@@ -755,22 +815,22 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "HN": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "HK": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "HU": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -789,12 +849,16 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "IS": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "Free movement: EFTA citizens need no visa.",
+        "notes": null,
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A22007D0158",
           "name": "EEA Joint Committee Decision No 158/2007 incorporating Directive 2004/38/EC into the EEA Agreement — EUR-Lex",
@@ -816,7 +880,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "ID": {
         "requirement": "embassy-visa",
@@ -824,7 +888,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "IR": {
         "requirement": "embassy-visa",
@@ -832,7 +896,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "IQ": {
         "requirement": "embassy-visa",
@@ -840,12 +904,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "IE": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -864,17 +928,21 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "IL": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "IT": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -893,6 +961,10 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "JM": {
@@ -901,12 +973,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "JP": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "JO": {
         "requirement": "embassy-visa",
@@ -914,7 +986,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "KZ": {
         "requirement": "embassy-visa",
@@ -922,7 +994,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "KE": {
         "requirement": "embassy-visa",
@@ -930,17 +1002,21 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "KI": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "XK": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free with a biometric passport: 90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": "The EU visa regulation limits the visa exemption to holders of biometric passports issued by Kosovo in line with ICAO standards.",
+        "quote": {
+          "text": "The exemption from the visa requirement shall only apply to holders of biometric passports issued by Kosovo in line with the standards of the International Civil Aviation Organisation (ICAO).",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230"
+        }
       },
       "KW": {
         "requirement": "embassy-visa",
@@ -948,7 +1024,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "KG": {
         "requirement": "embassy-visa",
@@ -956,7 +1032,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "LA": {
         "requirement": "embassy-visa",
@@ -964,12 +1040,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "LV": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -988,6 +1064,10 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "LB": {
@@ -996,7 +1076,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "LS": {
         "requirement": "embassy-visa",
@@ -1004,7 +1084,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "LR": {
         "requirement": "embassy-visa",
@@ -1012,7 +1092,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "LY": {
         "requirement": "embassy-visa",
@@ -1020,12 +1100,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "LI": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "Free movement: EFTA citizens need no visa.",
+        "notes": null,
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A22007D0158",
           "name": "EEA Joint Committee Decision No 158/2007 incorporating Directive 2004/38/EC into the EEA Agreement — EUR-Lex",
@@ -1044,7 +1124,7 @@
       "LT": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1063,12 +1143,16 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "LU": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1087,12 +1171,16 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "MO": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "MG": {
         "requirement": "embassy-visa",
@@ -1100,7 +1188,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "MW": {
         "requirement": "embassy-visa",
@@ -1108,12 +1196,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "MY": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "MV": {
         "requirement": "embassy-visa",
@@ -1121,7 +1209,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "ML": {
         "requirement": "embassy-visa",
@@ -1129,12 +1217,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "MT": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1153,12 +1241,16 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "MH": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "MR": {
         "requirement": "embassy-visa",
@@ -1166,22 +1258,22 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "MU": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "MX": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "FM": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation.",
+        "notes": null,
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230",
           "name": "Regulation (EU) 2018/1806 listing visa-required and visa-exempt nationalities, consolidated text — EUR-Lex",
@@ -1222,12 +1314,16 @@
       "MD": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free with a biometric passport: 90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": "The EU visa regulation limits the visa exemption to holders of biometric passports issued by Moldova in line with ICAO standards.",
+        "quote": {
+          "text": "The exemption from the visa requirement shall be limited to the holders of biometric passports issued by Moldova in line with standards of the International Civil Aviation Organisation (ICAO).",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230"
+        }
       },
       "MC": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website says nationals of Andorra, San Marino and Monaco, and holders of a passport issued by the Vatican City State or the Holy See, will not need an ETIAS travel authorization."
+        "notes": null
       },
       "MN": {
         "requirement": "embassy-visa",
@@ -1235,12 +1331,16 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "ME": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free with a biometric passport: 90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": "The EU visa regulation limits the visa exemption to holders of biometric passports.",
+        "quote": {
+          "text": "The exemption from the visa requirement shall only apply to holders of biometric passports.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230"
+        }
       },
       "MA": {
         "requirement": "embassy-visa",
@@ -1248,7 +1348,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "MZ": {
         "requirement": "embassy-visa",
@@ -1256,7 +1356,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "MM": {
         "requirement": "embassy-visa",
@@ -1264,7 +1364,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "NA": {
         "requirement": "embassy-visa",
@@ -1272,7 +1372,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "NR": {
         "requirement": "embassy-visa",
@@ -1280,7 +1380,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required. EU Regulation 2018/1806 lists Nauru among visa-exempt countries only from the entry into force of a visa-waiver agreement with the EU (Annex II, footnote 11), and the EU’s summary of its visa-waiver agreements lists none with Nauru.",
+        "notes": "The EU visa regulation lists Nauru on condition that the visa exemption applies from the date of entry into force of a visa-exemption agreement to be concluded with the European Union.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230",
           "name": "Regulation (EU) 2018/1806 listing visa-required and visa-exempt nationalities, consolidated text — EUR-Lex",
@@ -1295,6 +1395,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "The exemption from the visa requirement shall apply from the date of entry into force of an agreement on visa exemption to be concluded with the European Union.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230"
         }
       },
       "NP": {
@@ -1303,12 +1407,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "NL": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1327,17 +1431,21 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "NZ": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "NI": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "NE": {
         "requirement": "embassy-visa",
@@ -1345,7 +1453,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "NG": {
         "requirement": "embassy-visa",
@@ -1353,7 +1461,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "KP": {
         "requirement": "embassy-visa",
@@ -1361,17 +1469,21 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "MK": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free with a biometric passport: 90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": "The EU visa regulation limits the visa exemption to holders of biometric passports.",
+        "quote": {
+          "text": "The exemption from the visa requirement shall only apply to holders of biometric passports.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230"
+        }
       },
       "NO": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "Free movement: EFTA citizens need no visa.",
+        "notes": null,
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A22007D0158",
           "name": "EEA Joint Committee Decision No 158/2007 incorporating Directive 2004/38/EC into the EEA Agreement — EUR-Lex",
@@ -1393,7 +1505,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "PK": {
         "requirement": "embassy-visa",
@@ -1401,12 +1513,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "PW": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "PS": {
         "requirement": "embassy-visa",
@@ -1414,12 +1526,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "PA": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "PG": {
         "requirement": "embassy-visa",
@@ -1427,17 +1539,17 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "PY": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "PE": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "PH": {
         "requirement": "embassy-visa",
@@ -1445,12 +1557,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "PL": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1469,12 +1581,16 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "PT": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1493,6 +1609,10 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "QA": {
@@ -1501,7 +1621,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "CG": {
         "requirement": "embassy-visa",
@@ -1509,12 +1629,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "RO": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1533,12 +1653,16 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "RU": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
-        "notes": "A Schengen short-stay visa is required. The European Commission says that since 7 November 2025 Russian nationals no longer receive multiple-entry visas and must apply for a new visa for each trip, with exceptions for limited, justified cases such as independent journalists and human rights defenders.",
+        "notes": "The European Commission says Russian nationals will no longer be able to receive multiple-entry visas.",
         "visaTypes": [
           "schengen-c-ru"
         ],
@@ -1561,6 +1685,10 @@
               "lastVerified": "2026-10-07"
             }
           ]
+        },
+        "quote": {
+          "text": "From now on, Russian nationals will no longer be able to receive multiple-entry visas.",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_25_2635"
         }
       },
       "RW": {
@@ -1569,32 +1697,32 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "KN": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "LC": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "VC": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "WS": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "SM": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website says nationals of Andorra, San Marino and Monaco, and holders of a passport issued by the Vatican City State or the Holy See, will not need an ETIAS travel authorization."
+        "notes": null
       },
       "ST": {
         "requirement": "embassy-visa",
@@ -1602,7 +1730,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "SA": {
         "requirement": "embassy-visa",
@@ -1610,7 +1738,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "SN": {
         "requirement": "embassy-visa",
@@ -1618,17 +1746,21 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "RS": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free with a biometric passport: 90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": "The EU visa regulation limits the visa exemption to holders of biometric passports issued in line with ICAO standards.",
+        "quote": {
+          "text": "The exemption from the visa requirement shall only apply to holders of biometric passports issued in line with the standards of the International Civil Aviation Organization (ICAO).",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230"
+        }
       },
       "SC": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "SL": {
         "requirement": "embassy-visa",
@@ -1636,17 +1768,17 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "SG": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "SK": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1665,12 +1797,16 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "SI": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1689,12 +1825,16 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "SB": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "SO": {
         "requirement": "embassy-visa",
@@ -1702,7 +1842,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "ZA": {
         "requirement": "embassy-visa",
@@ -1710,12 +1850,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "KR": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "SS": {
         "requirement": "embassy-visa",
@@ -1723,12 +1863,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "ES": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1747,6 +1887,10 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "LK": {
@@ -1755,7 +1899,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "SD": {
         "requirement": "embassy-visa",
@@ -1763,7 +1907,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "SR": {
         "requirement": "embassy-visa",
@@ -1771,12 +1915,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "SE": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "EU citizens can enter with a passport or national ID card and stay without a visa.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1795,12 +1939,16 @@
               "lastVerified": "2026-06-15"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "CH": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "Free movement: EFTA citizens need no visa.",
+        "notes": null,
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A22002A0430%2801%29",
           "name": "Agreement between the European Community and its Member States and the Swiss Confederation on the free movement of persons — EUR-Lex",
@@ -1822,12 +1970,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "TW": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "TJ": {
         "requirement": "embassy-visa",
@@ -1835,7 +1983,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "TZ": {
         "requirement": "embassy-visa",
@@ -1843,7 +1991,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "TH": {
         "requirement": "embassy-visa",
@@ -1851,12 +1999,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "TL": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "TG": {
         "requirement": "embassy-visa",
@@ -1864,17 +2012,17 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "TO": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "TT": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "TN": {
         "requirement": "embassy-visa",
@@ -1882,7 +2030,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "TR": {
         "requirement": "embassy-visa",
@@ -1890,7 +2038,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "TM": {
         "requirement": "embassy-visa",
@@ -1898,12 +2046,12 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "TV": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "UG": {
         "requirement": "embassy-visa",
@@ -1911,32 +2059,36 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "UA": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free with a biometric passport: 90 days in any 180-day period."
+        "notes": "The EU visa regulation limits the visa exemption to holders of biometric passports issued by Ukraine in line with ICAO standards.",
+        "quote": {
+          "text": "The exemption from the visa requirement shall be limited to the holders of biometric passports issued by Ukraine in line with standards of the International Civil Aviation Organisation (ICAO).",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230"
+        }
       },
       "AE": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "GB": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "US": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "UY": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "UZ": {
         "requirement": "embassy-visa",
@@ -1944,7 +2096,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "VU": {
         "requirement": "embassy-visa",
@@ -1952,17 +2104,17 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "Vanuatu is on the EU list of countries whose nationals need a visa; a Schengen short-stay visa is required."
+        "notes": null
       },
       "VA": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website says nationals of Andorra, San Marino and Monaco, and holders of a passport issued by the Vatican City State or the Holy See, will not need an ETIAS travel authorization."
+        "notes": null
       },
       "VE": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "90 days in any 180-day period across the whole Schengen Area. The EU's official ETIAS website lists this country or territory among those whose nationals will need an ETIAS travel authorization; ETIAS is not yet in operation."
+        "notes": null
       },
       "VN": {
         "requirement": "embassy-visa",
@@ -1970,7 +2122,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "YE": {
         "requirement": "embassy-visa",
@@ -1978,7 +2130,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "ZM": {
         "requirement": "embassy-visa",
@@ -1986,7 +2138,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       },
       "ZW": {
         "requirement": "embassy-visa",
@@ -1994,7 +2146,7 @@
         "visaTypes": [
           "schengen-c"
         ],
-        "notes": "A Schengen short-stay visa is required."
+        "notes": null
       }
     },
     "defaultStayWindow": {

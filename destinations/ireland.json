@@ -52,13 +52,29 @@
       "name": "Irish Immigration Service — Visa & non-visa required nationalities",
       "type": "government",
       "lastVerified": "2026-10-03",
-      "lastChanged": "2026-09-26"
+      "lastChanged": "2026-09-26",
+      "alsoStatedOn": [
+        {
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/short-stay-visa-waiver-programme/",
+          "name": "Irish Immigration Service — Short-Stay Visa Waiver Programme (eligible nationalities; UK ETA not accepted)",
+          "lastVerified": "2026-10-09"
+        },
+        {
+          "url": "https://www.irishimmigration.ie/preclearance-and-entry-visas-fees/",
+          "name": "Irish Immigration Service — Preclearance and entry visa fees (nationalities exempt from visa fees)",
+          "lastVerified": "2026-10-09"
+        }
+      ],
+      "list": {
+        "kind": "per-nationality",
+        "exhaustive": true
+      }
     },
     "byPassport": {
       "US": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -77,19 +93,23 @@
       "GB": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed. The UK government says British and Irish citizens can travel freely between the UK and Ireland under the Common Travel Area, that British nationals are not legally required to show a passport to enter Ireland, and that some airlines and ferry operators require one as identification.",
+        "notes": "The UK government says British nationals are not legally required to show a passport to enter Ireland, but it may be useful to carry one in case they need to prove their identity, and that British and Irish citizens can continue to travel freely between the UK and Ireland under the Common Travel Area.",
         "source": {
           "url": "https://www.gov.uk/foreign-travel-advice/ireland/entry-requirements",
           "name": "UK FCDO — Ireland travel advice: entry requirements",
           "type": "government",
           "lastVerified": "2026-10-06",
           "lastChanged": "2026-10-06"
+        },
+        "quote": {
+          "text": "British nationals are not legally required to show a passport to enter Ireland, but it may be useful to carry in case you need to prove your identity. British and Irish citizens can continue to travel freely between the UK and Ireland under the Common Travel Area.",
+          "url": "https://www.gov.uk/foreign-travel-advice/ireland/entry-requirements"
         }
       },
       "CA": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -108,7 +128,7 @@
       "AU": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -127,7 +147,7 @@
       "NZ": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -146,12 +166,12 @@
       "IE": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "Home country."
+        "notes": null
       },
       "DE": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -165,12 +185,16 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "FR": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -184,12 +208,16 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "ES": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -203,12 +231,16 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "IT": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -222,12 +254,16 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "PT": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -241,12 +277,16 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "NL": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -260,12 +300,16 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "PL": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -279,24 +323,32 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "CH": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: Swiss citizens have free-movement rights in Ireland.",
+        "notes": "The EU–Switzerland Agreement on the free movement of persons says the parties allow each other's nationals, their family members and posted persons to enter simply upon production of a valid identity card or passport.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A22002A0430%2801%29",
           "name": "Agreement between the European Community and its Member States and the Swiss Confederation on the free movement of persons — EUR-Lex",
           "type": "igo",
           "lastVerified": "2026-10-08",
           "instrument": "EU–Swiss Agreement on the Free Movement of Persons (1999), Annex I, art. 1(1): entry on a valid identity card or passport; no entry visa may be demanded"
+        },
+        "quote": {
+          "text": "The Contracting Parties shall allow nationals of the other Contracting Parties and members of their family within the meaning of Article 3 of this Annex and posted persons within the meaning of Article 17 of this Annex to enter their territory simply upon production of a valid identity card or passport.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A22002A0430%2801%29"
         }
       },
       "RO": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -310,12 +362,16 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "UA": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: Ireland's Immigration Service says that, as announced by the Minister for Justice on 25 February 2022, citizens of Ukraine do not need a visa to travel to Ireland.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/short-stay-visa-waiver-programme/",
           "name": "Irish Immigration Service — Short Stay Visa Waiver Programme (Ukraine note)",
@@ -328,12 +384,16 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs. Under the Short-stay Visa Waiver Programme, holders of an eligible UK short-stay visa who have entered the UK on it can travel on to Ireland without an Irish visa.",
+        "notes": "Ireland's Immigration Service says the Short-Stay Visa Waiver Programme allows nationals of certain countries who have entered the UK on certain UK short-stay visas to travel to Ireland without the requirement to obtain an Irish visa.",
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/short-stay-visa-waiver-programme/",
           "name": "Irish Immigration Service — Short Stay Visa Waiver Programme",
           "type": "government",
           "lastVerified": "2026-10-03"
+        },
+        "quote": {
+          "text": "The Short-Stay Visa Waiver Programme allows nationals of certain countries, who have entered the UK on foot of certain UK short stay visas, to travel to Ireland without the requirement to obtain an Irish visa.",
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/short-stay-visa-waiver-programme/"
         }
       },
       "RU": {
@@ -341,19 +401,23 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "CN": {
         "requirement": "embassy-visa",
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs. Under the British Irish Visa Scheme, nationals living in China whose UK short-stay visa is endorsed \"BIVS\" can also visit Ireland on it after first entering the UK. Under the Short-stay Visa Waiver Programme, holders of an eligible UK short-stay visa who have entered the UK on it can travel on to Ireland without an Irish visa.",
+        "notes": "Ireland's Immigration Service says the British Irish Visa Scheme (BIVS) allows certain people to travel to and around the Common Travel Area (Ireland and the United Kingdom, excluding the Isle of Man and the Channel Islands) on a single visa for short stays only, and that to use it the visa must be endorsed with the letters 'BIVS'.",
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/british-irish-visa-scheme/",
           "name": "Irish Immigration Service — British Irish Visa Scheme",
           "type": "government",
           "lastVerified": "2026-10-03"
+        },
+        "quote": {
+          "text": "The British Irish Visa Scheme (BIVS) allows certain people to travel to and around the Common Travel Area (CTA) (Ireland and the United Kingdom – excluding the Isle of Man and the Channel Islands) on a single visa for short stays only. To avail of this scheme your visa must be endorsed with the letters ‘BIVS’.",
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/british-irish-visa-scheme/"
         }
       },
       "IN": {
@@ -361,18 +425,22 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs. Under the British Irish Visa Scheme, nationals living in India whose UK short-stay visa is endorsed \"BIVS\" can also visit Ireland on it after first entering the UK. Under the Short-stay Visa Waiver Programme, holders of an eligible UK short-stay visa who have entered the UK on it can travel on to Ireland without an Irish visa.",
+        "notes": "Ireland's Immigration Service says the British Irish Visa Scheme (BIVS) allows certain people to travel to and around the Common Travel Area (Ireland and the United Kingdom, excluding the Isle of Man and the Channel Islands) on a single visa for short stays only, and that to use it the visa must be endorsed with the letters 'BIVS'.",
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/british-irish-visa-scheme/",
           "name": "Irish Immigration Service — British Irish Visa Scheme",
           "type": "government",
           "lastVerified": "2026-10-03"
+        },
+        "quote": {
+          "text": "The British Irish Visa Scheme (BIVS) allows certain people to travel to and around the Common Travel Area (CTA) (Ireland and the United Kingdom – excluding the Isle of Man and the Channel Islands) on a single visa for short stays only. To avail of this scheme your visa must be endorsed with the letters ‘BIVS’.",
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/british-irish-visa-scheme/"
         }
       },
       "JP": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -391,7 +459,7 @@
       "KR": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -412,42 +480,54 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs. Under the Short-stay Visa Waiver Programme, holders of an eligible UK short-stay visa who have entered the UK on it can travel on to Ireland without an Irish visa."
+        "notes": "Ireland's Immigration Service says the Short-Stay Visa Waiver Programme allows nationals of certain countries who have entered the UK on certain UK short-stay visas to travel to Ireland without the requirement to obtain an Irish visa.",
+        "quote": {
+          "text": "The Short-Stay Visa Waiver Programme allows nationals of certain countries, who have entered the UK on foot of certain UK short stay visas, to travel to Ireland without the requirement to obtain an Irish visa.",
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/short-stay-visa-waiver-programme/"
+        }
       },
       "ID": {
         "requirement": "embassy-visa",
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required; the Immigration Service lists this nationality as exempt from the visa fee. Apply online via AVATS and submit documents as the application summary instructs. Under the Short-stay Visa Waiver Programme, holders of an eligible UK short-stay visa who have entered the UK on it can travel on to Ireland without an Irish visa."
+        "notes": "Ireland's Immigration Service says the Short-Stay Visa Waiver Programme allows nationals of certain countries who have entered the UK on certain UK short-stay visas to travel to Ireland without the requirement to obtain an Irish visa.",
+        "quote": {
+          "text": "The Short-Stay Visa Waiver Programme allows nationals of certain countries, who have entered the UK on foot of certain UK short stay visas, to travel to Ireland without the requirement to obtain an Irish visa.",
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/short-stay-visa-waiver-programme/"
+        }
       },
       "VN": {
         "requirement": "embassy-visa",
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs. Under the Short-stay Visa Waiver Programme, holders of an eligible UK short-stay visa who have entered the UK on it can travel on to Ireland without an Irish visa."
+        "notes": "Ireland's Immigration Service says the Short-Stay Visa Waiver Programme allows nationals of certain countries who have entered the UK on certain UK short-stay visas to travel to Ireland without the requirement to obtain an Irish visa.",
+        "quote": {
+          "text": "The Short-Stay Visa Waiver Programme allows nationals of certain countries, who have entered the UK on foot of certain UK short stay visas, to travel to Ireland without the requirement to obtain an Irish visa.",
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/short-stay-visa-waiver-programme/"
+        }
       },
       "PK": {
         "requirement": "embassy-visa",
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "NG": {
         "requirement": "embassy-visa",
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "ZA": {
         "requirement": "embassy-visa",
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — Visa & non-visa required nationalities",
@@ -458,7 +538,7 @@
       "BR": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -477,7 +557,7 @@
       "MX": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -499,7 +579,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "AL": {
         "requirement": "embassy-visa",
@@ -507,7 +587,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "DZ": {
         "requirement": "embassy-visa",
@@ -515,12 +595,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "AD": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -542,12 +622,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "AG": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -566,7 +646,7 @@
       "AR": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -588,12 +668,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "AT": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -607,6 +687,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "AZ": {
@@ -615,12 +699,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "BS": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -642,7 +726,11 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs. Under the Short-stay Visa Waiver Programme, holders of an eligible UK short-stay visa who have entered the UK on it can travel on to Ireland without an Irish visa (only with a UK visa issued before 1 February 2024; a UK ETA does not count)."
+        "notes": "Ireland's Immigration Service says that for nationals of Saudi Arabia, Bahrain, Kuwait, Oman, Qatar and Peru the UK Electronic Travel Authorisation cannot be used to travel to Ireland; only those who enter the UK with an existing valid short-stay UK visa issued before the ETA was introduced on 1 February 2024, including a multi-entry UK visa, can use the Short Stay Visa Waiver Scheme to travel to Ireland.",
+        "quote": {
+          "text": "In the case of nationals from the Saudi Arabia, Bahrain, Kuwait, Oman, Qatar and Peru, the United Kingdom (UK) Electronic Travel Authorisation cannot be used to travel to Ireland. Only those who enter the UK with an existing valid short-stay UK visa issued before the introduction of the ETA on 1 February 2024, including a multi-entry UK visa, are able to avail of the Short Stay Visa Waiver Scheme to travel to Ireland.",
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/short-stay-visa-waiver-programme/"
+        }
       },
       "BD": {
         "requirement": "embassy-visa",
@@ -650,12 +738,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "BB": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -677,12 +765,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "BE": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -696,12 +784,16 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "BZ": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -723,7 +815,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "BT": {
         "requirement": "embassy-visa",
@@ -731,7 +823,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "BO": {
         "requirement": "embassy-visa",
@@ -739,7 +831,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "BA": {
         "requirement": "embassy-visa",
@@ -747,7 +839,11 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required; the Immigration Service lists this nationality as exempt from the visa fee. Apply online via AVATS and submit documents as the application summary instructs. Under the Short-stay Visa Waiver Programme, holders of an eligible UK short-stay visa who have entered the UK on it can travel on to Ireland without an Irish visa."
+        "notes": "Ireland's Immigration Service says the Short-Stay Visa Waiver Programme allows nationals of certain countries who have entered the UK on certain UK short-stay visas to travel to Ireland without the requirement to obtain an Irish visa.",
+        "quote": {
+          "text": "The Short-Stay Visa Waiver Programme allows nationals of certain countries, who have entered the UK on foot of certain UK short stay visas, to travel to Ireland without the requirement to obtain an Irish visa.",
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/short-stay-visa-waiver-programme/"
+        }
       },
       "BW": {
         "requirement": "embassy-visa",
@@ -755,12 +851,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "BN": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -779,7 +875,7 @@
       "BG": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -793,6 +889,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "BF": {
@@ -801,7 +901,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "BI": {
         "requirement": "embassy-visa",
@@ -809,7 +909,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "CV": {
         "requirement": "embassy-visa",
@@ -817,7 +917,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "KH": {
         "requirement": "embassy-visa",
@@ -825,7 +925,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "CM": {
         "requirement": "embassy-visa",
@@ -833,7 +933,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "CF": {
         "requirement": "embassy-visa",
@@ -841,7 +941,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "TD": {
         "requirement": "embassy-visa",
@@ -849,12 +949,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "CL": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -876,7 +976,11 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs. Under the Short-stay Visa Waiver Programme, holders of an eligible UK short-stay visa who have entered the UK on it can travel on to Ireland without an Irish visa."
+        "notes": "Ireland's Immigration Service says the Short-Stay Visa Waiver Programme allows nationals of certain countries who have entered the UK on certain UK short-stay visas to travel to Ireland without the requirement to obtain an Irish visa.",
+        "quote": {
+          "text": "The Short-Stay Visa Waiver Programme allows nationals of certain countries, who have entered the UK on foot of certain UK short stay visas, to travel to Ireland without the requirement to obtain an Irish visa.",
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/short-stay-visa-waiver-programme/"
+        }
       },
       "KM": {
         "requirement": "embassy-visa",
@@ -884,12 +988,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "CR": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -911,12 +1015,16 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required; the Immigration Service lists this nationality as exempt from the visa fee. Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": "Ireland's Immigration Service lists this nationality among the nationalities exempt from visa fees.",
+        "quote": {
+          "text": "Nationalities Exempt from Visa Fees Bosnia Cote d’Ivoire Ecuador Indonesia Jamaica Kosovo Kyrgyzstan Montenegro Morocco North Macedonia Peru Serbia Sri Lanka Tunisia Uganda Zambia",
+          "url": "https://www.irishimmigration.ie/preclearance-and-entry-visas-fees/"
+        }
       },
       "HR": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -930,6 +1038,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "CU": {
@@ -938,12 +1050,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "CY": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -957,12 +1069,16 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "CZ": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -976,6 +1092,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "CD": {
@@ -984,12 +1104,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "DK": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1003,6 +1123,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "DJ": {
@@ -1011,7 +1135,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "DM": {
         "requirement": "embassy-visa",
@@ -1019,7 +1143,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "DO": {
         "requirement": "embassy-visa",
@@ -1027,7 +1151,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "EC": {
         "requirement": "embassy-visa",
@@ -1035,7 +1159,11 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required; the Immigration Service lists this nationality as exempt from the visa fee. Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": "Ireland's Immigration Service lists this nationality among the nationalities exempt from visa fees.",
+        "quote": {
+          "text": "Nationalities Exempt from Visa Fees Bosnia Cote d’Ivoire Ecuador Indonesia Jamaica Kosovo Kyrgyzstan Montenegro Morocco North Macedonia Peru Serbia Sri Lanka Tunisia Uganda Zambia",
+          "url": "https://www.irishimmigration.ie/preclearance-and-entry-visas-fees/"
+        }
       },
       "EG": {
         "requirement": "embassy-visa",
@@ -1043,12 +1171,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "SV": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -1070,7 +1198,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "ER": {
         "requirement": "embassy-visa",
@@ -1078,12 +1206,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "EE": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1097,6 +1225,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "SZ": {
@@ -1105,7 +1237,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "ET": {
         "requirement": "embassy-visa",
@@ -1113,12 +1245,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "FJ": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -1137,7 +1269,7 @@
       "FI": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1151,6 +1283,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "GA": {
@@ -1159,7 +1295,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "GM": {
         "requirement": "embassy-visa",
@@ -1167,7 +1303,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "GE": {
         "requirement": "embassy-visa",
@@ -1175,7 +1311,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "GH": {
         "requirement": "embassy-visa",
@@ -1183,12 +1319,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "GR": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1202,12 +1338,16 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "GD": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -1226,7 +1366,7 @@
       "GT": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -1248,7 +1388,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "GW": {
         "requirement": "embassy-visa",
@@ -1256,12 +1396,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "GY": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -1283,7 +1423,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "HN": {
         "requirement": "embassy-visa",
@@ -1291,12 +1431,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "HK": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -1315,7 +1455,7 @@
       "HU": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1329,12 +1469,16 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "IS": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EEA citizens have free-movement rights in Ireland.",
+        "notes": null,
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A22007D0158",
           "name": "EEA Joint Committee Decision No 158/2007 incorporating Directive 2004/38/EC into the EEA Agreement — EUR-Lex",
@@ -1349,7 +1493,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "IQ": {
         "requirement": "embassy-visa",
@@ -1357,12 +1501,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "IL": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -1384,7 +1528,11 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required; the Immigration Service lists this nationality as exempt from the visa fee. Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": "Ireland's Immigration Service lists this nationality among the nationalities exempt from visa fees.",
+        "quote": {
+          "text": "Nationalities Exempt from Visa Fees Bosnia Cote d’Ivoire Ecuador Indonesia Jamaica Kosovo Kyrgyzstan Montenegro Morocco North Macedonia Peru Serbia Sri Lanka Tunisia Uganda Zambia",
+          "url": "https://www.irishimmigration.ie/preclearance-and-entry-visas-fees/"
+        }
       },
       "JO": {
         "requirement": "embassy-visa",
@@ -1392,7 +1540,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "KZ": {
         "requirement": "embassy-visa",
@@ -1400,7 +1548,11 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs. Under the Short-stay Visa Waiver Programme, holders of an eligible UK short-stay visa who have entered the UK on it can travel on to Ireland without an Irish visa."
+        "notes": "Ireland's Immigration Service says the Short-Stay Visa Waiver Programme allows nationals of certain countries who have entered the UK on certain UK short-stay visas to travel to Ireland without the requirement to obtain an Irish visa.",
+        "quote": {
+          "text": "The Short-Stay Visa Waiver Programme allows nationals of certain countries, who have entered the UK on foot of certain UK short stay visas, to travel to Ireland without the requirement to obtain an Irish visa.",
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/short-stay-visa-waiver-programme/"
+        }
       },
       "KE": {
         "requirement": "embassy-visa",
@@ -1408,12 +1560,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "KI": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -1435,7 +1587,11 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required; the Immigration Service lists this nationality as exempt from the visa fee. Apply online via AVATS and submit documents as the application summary instructs. Under the Short-stay Visa Waiver Programme, holders of an eligible UK short-stay visa who have entered the UK on it can travel on to Ireland without an Irish visa."
+        "notes": "Ireland's Immigration Service says the Short-Stay Visa Waiver Programme allows nationals of certain countries who have entered the UK on certain UK short-stay visas to travel to Ireland without the requirement to obtain an Irish visa.",
+        "quote": {
+          "text": "The Short-Stay Visa Waiver Programme allows nationals of certain countries, who have entered the UK on foot of certain UK short stay visas, to travel to Ireland without the requirement to obtain an Irish visa.",
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/short-stay-visa-waiver-programme/"
+        }
       },
       "KW": {
         "requirement": "embassy-visa",
@@ -1443,7 +1599,11 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs. Under the Short-stay Visa Waiver Programme, holders of an eligible UK short-stay visa who have entered the UK on it can travel on to Ireland without an Irish visa (only with a UK visa issued before 1 February 2024; a UK ETA does not count)."
+        "notes": "Ireland's Immigration Service says that for nationals of Saudi Arabia, Bahrain, Kuwait, Oman, Qatar and Peru the UK Electronic Travel Authorisation cannot be used to travel to Ireland; only those who enter the UK with an existing valid short-stay UK visa issued before the ETA was introduced on 1 February 2024, including a multi-entry UK visa, can use the Short Stay Visa Waiver Scheme to travel to Ireland.",
+        "quote": {
+          "text": "In the case of nationals from the Saudi Arabia, Bahrain, Kuwait, Oman, Qatar and Peru, the United Kingdom (UK) Electronic Travel Authorisation cannot be used to travel to Ireland. Only those who enter the UK with an existing valid short-stay UK visa issued before the introduction of the ETA on 1 February 2024, including a multi-entry UK visa, are able to avail of the Short Stay Visa Waiver Scheme to travel to Ireland.",
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/short-stay-visa-waiver-programme/"
+        }
       },
       "KG": {
         "requirement": "embassy-visa",
@@ -1451,7 +1611,11 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required; the Immigration Service lists this nationality as exempt from the visa fee. Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": "Ireland's Immigration Service lists this nationality among the nationalities exempt from visa fees.",
+        "quote": {
+          "text": "Nationalities Exempt from Visa Fees Bosnia Cote d’Ivoire Ecuador Indonesia Jamaica Kosovo Kyrgyzstan Montenegro Morocco North Macedonia Peru Serbia Sri Lanka Tunisia Uganda Zambia",
+          "url": "https://www.irishimmigration.ie/preclearance-and-entry-visas-fees/"
+        }
       },
       "LA": {
         "requirement": "embassy-visa",
@@ -1459,12 +1623,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "LV": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1478,6 +1642,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "LB": {
@@ -1486,7 +1654,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "LS": {
         "requirement": "embassy-visa",
@@ -1494,7 +1662,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "LR": {
         "requirement": "embassy-visa",
@@ -1502,7 +1670,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "LY": {
         "requirement": "embassy-visa",
@@ -1510,12 +1678,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "LI": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EEA citizens have free-movement rights in Ireland.",
+        "notes": null,
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A22007D0158",
           "name": "EEA Joint Committee Decision No 158/2007 incorporating Directive 2004/38/EC into the EEA Agreement — EUR-Lex",
@@ -1527,7 +1695,7 @@
       "LT": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1541,12 +1709,16 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "LU": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1560,12 +1732,16 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "MO": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -1587,7 +1763,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "MW": {
         "requirement": "embassy-visa",
@@ -1595,12 +1771,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "MY": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -1619,7 +1795,7 @@
       "MV": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -1641,12 +1817,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "MT": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -1660,6 +1836,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "MH": {
@@ -1668,7 +1848,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "MR": {
         "requirement": "embassy-visa",
@@ -1676,7 +1856,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "MU": {
         "requirement": "embassy-visa",
@@ -1684,7 +1864,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "FM": {
         "requirement": "embassy-visa",
@@ -1692,7 +1872,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "MD": {
         "requirement": "embassy-visa",
@@ -1700,12 +1880,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "MC": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -1727,7 +1907,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "ME": {
         "requirement": "embassy-visa",
@@ -1735,7 +1915,11 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required; the Immigration Service lists this nationality as exempt from the visa fee. Apply online via AVATS and submit documents as the application summary instructs. Under the Short-stay Visa Waiver Programme, holders of an eligible UK short-stay visa who have entered the UK on it can travel on to Ireland without an Irish visa."
+        "notes": "Ireland's Immigration Service says the Short-Stay Visa Waiver Programme allows nationals of certain countries who have entered the UK on certain UK short-stay visas to travel to Ireland without the requirement to obtain an Irish visa.",
+        "quote": {
+          "text": "The Short-Stay Visa Waiver Programme allows nationals of certain countries, who have entered the UK on foot of certain UK short stay visas, to travel to Ireland without the requirement to obtain an Irish visa.",
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/short-stay-visa-waiver-programme/"
+        }
       },
       "MA": {
         "requirement": "embassy-visa",
@@ -1743,7 +1927,11 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required; the Immigration Service lists this nationality as exempt from the visa fee. Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": "Ireland's Immigration Service lists this nationality among the nationalities exempt from visa fees.",
+        "quote": {
+          "text": "Nationalities Exempt from Visa Fees Bosnia Cote d’Ivoire Ecuador Indonesia Jamaica Kosovo Kyrgyzstan Montenegro Morocco North Macedonia Peru Serbia Sri Lanka Tunisia Uganda Zambia",
+          "url": "https://www.irishimmigration.ie/preclearance-and-entry-visas-fees/"
+        }
       },
       "MZ": {
         "requirement": "embassy-visa",
@@ -1751,7 +1939,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "MM": {
         "requirement": "embassy-visa",
@@ -1759,7 +1947,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "NA": {
         "requirement": "embassy-visa",
@@ -1767,7 +1955,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "NR": {
         "requirement": "embassy-visa",
@@ -1775,7 +1963,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "NP": {
         "requirement": "embassy-visa",
@@ -1783,7 +1971,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "NI": {
         "requirement": "embassy-visa",
@@ -1791,7 +1979,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "NE": {
         "requirement": "embassy-visa",
@@ -1799,7 +1987,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "KP": {
         "requirement": "embassy-visa",
@@ -1807,7 +1995,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "MK": {
         "requirement": "embassy-visa",
@@ -1815,12 +2003,16 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required; the Immigration Service lists this nationality as exempt from the visa fee. Apply online via AVATS and submit documents as the application summary instructs. Under the Short-stay Visa Waiver Programme, holders of an eligible UK short-stay visa who have entered the UK on it can travel on to Ireland without an Irish visa."
+        "notes": "Ireland's Immigration Service says the Short-Stay Visa Waiver Programme allows nationals of certain countries who have entered the UK on certain UK short-stay visas to travel to Ireland without the requirement to obtain an Irish visa.",
+        "quote": {
+          "text": "The Short-Stay Visa Waiver Programme allows nationals of certain countries, who have entered the UK on foot of certain UK short stay visas, to travel to Ireland without the requirement to obtain an Irish visa.",
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/short-stay-visa-waiver-programme/"
+        }
       },
       "NO": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EEA citizens have free-movement rights in Ireland.",
+        "notes": null,
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A22007D0158",
           "name": "EEA Joint Committee Decision No 158/2007 incorporating Directive 2004/38/EC into the EEA Agreement — EUR-Lex",
@@ -1835,7 +2027,11 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs. Under the Short-stay Visa Waiver Programme, holders of an eligible UK short-stay visa who have entered the UK on it can travel on to Ireland without an Irish visa (only with a UK visa issued before 1 February 2024; a UK ETA does not count)."
+        "notes": "Ireland's Immigration Service says that for nationals of Saudi Arabia, Bahrain, Kuwait, Oman, Qatar and Peru the UK Electronic Travel Authorisation cannot be used to travel to Ireland; only those who enter the UK with an existing valid short-stay UK visa issued before the ETA was introduced on 1 February 2024, including a multi-entry UK visa, can use the Short Stay Visa Waiver Scheme to travel to Ireland.",
+        "quote": {
+          "text": "In the case of nationals from the Saudi Arabia, Bahrain, Kuwait, Oman, Qatar and Peru, the United Kingdom (UK) Electronic Travel Authorisation cannot be used to travel to Ireland. Only those who enter the UK with an existing valid short-stay UK visa issued before the introduction of the ETA on 1 February 2024, including a multi-entry UK visa, are able to avail of the Short Stay Visa Waiver Scheme to travel to Ireland.",
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/short-stay-visa-waiver-programme/"
+        }
       },
       "PW": {
         "requirement": "embassy-visa",
@@ -1843,7 +2039,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "PS": {
         "requirement": "embassy-visa",
@@ -1851,12 +2047,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "PA": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -1878,12 +2074,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "PY": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -1905,7 +2101,11 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required; the Immigration Service lists this nationality as exempt from the visa fee. Apply online via AVATS and submit documents as the application summary instructs. Under the Short-stay Visa Waiver Programme, holders of an eligible UK short-stay visa who have entered the UK on it can travel on to Ireland without an Irish visa (only with a UK visa issued before 1 February 2024; a UK ETA does not count)."
+        "notes": "Ireland's Immigration Service says that for nationals of Saudi Arabia, Bahrain, Kuwait, Oman, Qatar and Peru the UK Electronic Travel Authorisation cannot be used to travel to Ireland; only those who enter the UK with an existing valid short-stay UK visa issued before the ETA was introduced on 1 February 2024, including a multi-entry UK visa, can use the Short Stay Visa Waiver Scheme to travel to Ireland.",
+        "quote": {
+          "text": "In the case of nationals from the Saudi Arabia, Bahrain, Kuwait, Oman, Qatar and Peru, the United Kingdom (UK) Electronic Travel Authorisation cannot be used to travel to Ireland. Only those who enter the UK with an existing valid short-stay UK visa issued before the introduction of the ETA on 1 February 2024, including a multi-entry UK visa, are able to avail of the Short Stay Visa Waiver Scheme to travel to Ireland.",
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/short-stay-visa-waiver-programme/"
+        }
       },
       "QA": {
         "requirement": "embassy-visa",
@@ -1913,7 +2113,11 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs. Under the Short-stay Visa Waiver Programme, holders of an eligible UK short-stay visa who have entered the UK on it can travel on to Ireland without an Irish visa (only with a UK visa issued before 1 February 2024; a UK ETA does not count)."
+        "notes": "Ireland's Immigration Service says that for nationals of Saudi Arabia, Bahrain, Kuwait, Oman, Qatar and Peru the UK Electronic Travel Authorisation cannot be used to travel to Ireland; only those who enter the UK with an existing valid short-stay UK visa issued before the ETA was introduced on 1 February 2024, including a multi-entry UK visa, can use the Short Stay Visa Waiver Scheme to travel to Ireland.",
+        "quote": {
+          "text": "In the case of nationals from the Saudi Arabia, Bahrain, Kuwait, Oman, Qatar and Peru, the United Kingdom (UK) Electronic Travel Authorisation cannot be used to travel to Ireland. Only those who enter the UK with an existing valid short-stay UK visa issued before the introduction of the ETA on 1 February 2024, including a multi-entry UK visa, are able to avail of the Short Stay Visa Waiver Scheme to travel to Ireland.",
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/short-stay-visa-waiver-programme/"
+        }
       },
       "CG": {
         "requirement": "embassy-visa",
@@ -1921,7 +2125,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "RW": {
         "requirement": "embassy-visa",
@@ -1929,7 +2133,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "KN": {
         "requirement": "embassy-visa",
@@ -1937,7 +2141,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "LC": {
         "requirement": "embassy-visa",
@@ -1945,12 +2149,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "VC": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -1969,7 +2173,7 @@
       "WS": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -1988,7 +2192,7 @@
       "SM": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -2010,7 +2214,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "SA": {
         "requirement": "embassy-visa",
@@ -2018,7 +2222,11 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs. Under the Short-stay Visa Waiver Programme, holders of an eligible UK short-stay visa who have entered the UK on it can travel on to Ireland without an Irish visa (only with a UK visa issued before 1 February 2024; a UK ETA does not count)."
+        "notes": "Ireland's Immigration Service says that for nationals of Saudi Arabia, Bahrain, Kuwait, Oman, Qatar and Peru the UK Electronic Travel Authorisation cannot be used to travel to Ireland; only those who enter the UK with an existing valid short-stay UK visa issued before the ETA was introduced on 1 February 2024, including a multi-entry UK visa, can use the Short Stay Visa Waiver Scheme to travel to Ireland.",
+        "quote": {
+          "text": "In the case of nationals from the Saudi Arabia, Bahrain, Kuwait, Oman, Qatar and Peru, the United Kingdom (UK) Electronic Travel Authorisation cannot be used to travel to Ireland. Only those who enter the UK with an existing valid short-stay UK visa issued before the introduction of the ETA on 1 February 2024, including a multi-entry UK visa, are able to avail of the Short Stay Visa Waiver Scheme to travel to Ireland.",
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/short-stay-visa-waiver-programme/"
+        }
       },
       "SN": {
         "requirement": "embassy-visa",
@@ -2026,7 +2234,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "RS": {
         "requirement": "embassy-visa",
@@ -2034,12 +2242,16 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required; the Immigration Service lists this nationality as exempt from the visa fee. Apply online via AVATS and submit documents as the application summary instructs. Under the Short-stay Visa Waiver Programme, holders of an eligible UK short-stay visa who have entered the UK on it can travel on to Ireland without an Irish visa."
+        "notes": "Ireland's Immigration Service says the Short-Stay Visa Waiver Programme allows nationals of certain countries who have entered the UK on certain UK short-stay visas to travel to Ireland without the requirement to obtain an Irish visa.",
+        "quote": {
+          "text": "The Short-Stay Visa Waiver Programme allows nationals of certain countries, who have entered the UK on foot of certain UK short stay visas, to travel to Ireland without the requirement to obtain an Irish visa.",
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/short-stay-visa-waiver-programme/"
+        }
       },
       "SC": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -2061,12 +2273,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "SG": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -2085,7 +2297,7 @@
       "SK": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -2099,12 +2311,16 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "SI": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -2118,12 +2334,16 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "SB": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -2145,7 +2365,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "SS": {
         "requirement": "embassy-visa",
@@ -2153,7 +2373,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "LK": {
         "requirement": "embassy-visa",
@@ -2161,7 +2381,11 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required; the Immigration Service lists this nationality as exempt from the visa fee. Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": "Ireland's Immigration Service lists this nationality among the nationalities exempt from visa fees.",
+        "quote": {
+          "text": "Nationalities Exempt from Visa Fees Bosnia Cote d’Ivoire Ecuador Indonesia Jamaica Kosovo Kyrgyzstan Montenegro Morocco North Macedonia Peru Serbia Sri Lanka Tunisia Uganda Zambia",
+          "url": "https://www.irishimmigration.ie/preclearance-and-entry-visas-fees/"
+        }
       },
       "SD": {
         "requirement": "embassy-visa",
@@ -2169,7 +2393,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "SR": {
         "requirement": "embassy-visa",
@@ -2177,12 +2401,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "SE": {
         "requirement": "freedom-of-movement",
         "maxStayDays": null,
-        "notes": "No visa needed: EU citizens have free-movement rights in Ireland.",
+        "notes": "The EU's Your Europe portal says EU nationals have the right to travel freely in the 27 EU member countries and in Iceland, Liechtenstein, Norway and Switzerland carrying either a valid passport or a national identity card.",
         "source": {
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
           "name": "Directive 2004/38/EC on the right of citizens of the Union and their family members to move and reside freely — EUR-Lex",
@@ -2196,6 +2420,10 @@
               "lastVerified": "2026-10-08"
             }
           ]
+        },
+        "quote": {
+          "text": "As an EU national, you have the right to travel freely in the 27 EU member countries as well as in Iceland, Liechtenstein, Norway and Switzerland (non-EU countries but members of the Schengen area) carrying either a valid passport or a national identity card (ID card).",
+          "url": "https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm"
         }
       },
       "SY": {
@@ -2204,12 +2432,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "TW": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -2231,7 +2459,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "TZ": {
         "requirement": "embassy-visa",
@@ -2239,7 +2467,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "TH": {
         "requirement": "embassy-visa",
@@ -2247,7 +2475,11 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs. Under the Short-stay Visa Waiver Programme, holders of an eligible UK short-stay visa who have entered the UK on it can travel on to Ireland without an Irish visa."
+        "notes": "Ireland's Immigration Service says the Short-Stay Visa Waiver Programme allows nationals of certain countries who have entered the UK on certain UK short-stay visas to travel to Ireland without the requirement to obtain an Irish visa.",
+        "quote": {
+          "text": "The Short-Stay Visa Waiver Programme allows nationals of certain countries, who have entered the UK on foot of certain UK short stay visas, to travel to Ireland without the requirement to obtain an Irish visa.",
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/short-stay-visa-waiver-programme/"
+        }
       },
       "TL": {
         "requirement": "embassy-visa",
@@ -2255,7 +2487,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "TG": {
         "requirement": "embassy-visa",
@@ -2263,12 +2495,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "TO": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -2290,7 +2522,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "TN": {
         "requirement": "embassy-visa",
@@ -2298,7 +2530,11 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required; the Immigration Service lists this nationality as exempt from the visa fee. Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": "Ireland's Immigration Service lists this nationality among the nationalities exempt from visa fees.",
+        "quote": {
+          "text": "Nationalities Exempt from Visa Fees Bosnia Cote d’Ivoire Ecuador Indonesia Jamaica Kosovo Kyrgyzstan Montenegro Morocco North Macedonia Peru Serbia Sri Lanka Tunisia Uganda Zambia",
+          "url": "https://www.irishimmigration.ie/preclearance-and-entry-visas-fees/"
+        }
       },
       "TM": {
         "requirement": "embassy-visa",
@@ -2306,12 +2542,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "TV": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -2333,12 +2569,16 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required; the Immigration Service lists this nationality as exempt from the visa fee. Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": "Ireland's Immigration Service lists this nationality among the nationalities exempt from visa fees.",
+        "quote": {
+          "text": "Nationalities Exempt from Visa Fees Bosnia Cote d’Ivoire Ecuador Indonesia Jamaica Kosovo Kyrgyzstan Montenegro Morocco North Macedonia Peru Serbia Sri Lanka Tunisia Uganda Zambia",
+          "url": "https://www.irishimmigration.ie/preclearance-and-entry-visas-fees/"
+        }
       },
       "AE": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -2357,7 +2597,7 @@
       "UY": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -2379,7 +2619,11 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs. Under the Short-stay Visa Waiver Programme, holders of an eligible UK short-stay visa who have entered the UK on it can travel on to Ireland without an Irish visa."
+        "notes": "Ireland's Immigration Service says the Short-Stay Visa Waiver Programme allows nationals of certain countries who have entered the UK on certain UK short-stay visas to travel to Ireland without the requirement to obtain an Irish visa.",
+        "quote": {
+          "text": "The Short-Stay Visa Waiver Programme allows nationals of certain countries, who have entered the UK on foot of certain UK short stay visas, to travel to Ireland without the requirement to obtain an Irish visa.",
+          "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/short-stay-visa-waiver-programme/"
+        }
       },
       "VU": {
         "requirement": "embassy-visa",
@@ -2387,12 +2631,12 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "VA": {
         "requirement": "visa-free",
         "maxStayDays": 90,
-        "notes": "Visa-free: the Immigration Service does not require a visa for this nationality. The immigration officer decides how long you may stay, up to a maximum of 3 months.",
+        "notes": null,
         "source": {
           "url": "https://www.irishimmigration.ie/coming-to-visit-ireland/visit-ireland-travel-path/",
           "name": "Irish Immigration Service — visa and non-visa required nationalities",
@@ -2414,7 +2658,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "YE": {
         "requirement": "embassy-visa",
@@ -2422,7 +2666,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       },
       "ZM": {
         "requirement": "embassy-visa",
@@ -2430,7 +2674,11 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required; the Immigration Service lists this nationality as exempt from the visa fee. Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": "Ireland's Immigration Service lists this nationality among the nationalities exempt from visa fees.",
+        "quote": {
+          "text": "Nationalities Exempt from Visa Fees Bosnia Cote d’Ivoire Ecuador Indonesia Jamaica Kosovo Kyrgyzstan Montenegro Morocco North Macedonia Peru Serbia Sri Lanka Tunisia Uganda Zambia",
+          "url": "https://www.irishimmigration.ie/preclearance-and-entry-visas-fees/"
+        }
       },
       "ZW": {
         "requirement": "embassy-visa",
@@ -2438,7 +2686,7 @@
         "visaTypes": [
           "short-stay-c"
         ],
-        "notes": "Short stay 'C' visa required (€60 single entry). Apply online via AVATS and submit documents as the application summary instructs."
+        "notes": null
       }
     }
   },
