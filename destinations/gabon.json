@@ -1463,8 +1463,7 @@
         "maxStayDays": 90,
         "visaTypes": [
           "evisa-single",
-          "evisa-multiple",
-          "embassy-tourist"
+          "evisa-multiple"
         ],
         "source": {
           "url": "https://www.gov.uk/foreign-travel-advice/gabon/entry-requirements",
@@ -1551,7 +1550,7 @@
       "fee": {
         "amount": 70,
         "currency": "EUR",
-        "notes": "EUR 70 or XAF 45,000 for one to three months, single entry, plus EUR 15 as a file processing fee. Payment is made on arrival, when the e-visa sticker is delivered."
+        "notes": "EUR 70 or XAF 45,000 for one to three months, single entry, plus EUR 15 as a file processing fee. Payment is made on arrival, when the e-visa sticker is delivered. The DGDI says a one-month visa may be extended for two months and a two-month visa for one month, at its visa department in Libreville; a three-month visa is not extended."
       },
       "processing": {
         "minDays": 3,
@@ -1611,7 +1610,23 @@
         "entries": {
           "text": "From one (1) to three (3) months single entry, the cost is 70 EUR or 45000 XAF + 15 EUR as file processing fee.",
           "url": "https://evisa.dgdi.ga/"
+        },
+        "name": {
+          "text": "Gabon has established an electronic visa, also called e-visa to facilitate entry into its territory.",
+          "url": "https://evisa.dgdi.ga/"
+        },
+        "method": {
+          "text": "The visa application form should be completed on-line",
+          "url": "https://evisa.dgdi.ga/"
+        },
+        "extendable": {
+          "text": "A visa of one (1) months may be extended for two (2) months;",
+          "url": "https://evisa.dgdi.ga/"
         }
+      },
+      "extendable": {
+        "possible": true,
+        "days": null
       }
     },
     {
@@ -1690,26 +1705,15 @@
         "extendable": {
           "text": "A visa of six (6) months is not extended;",
           "url": "https://evisa.dgdi.ga/"
+        },
+        "name": {
+          "text": "Gabon has established an electronic visa, also called e-visa to facilitate entry into its territory.",
+          "url": "https://evisa.dgdi.ga/"
+        },
+        "method": {
+          "text": "The visa application form should be completed on-line",
+          "url": "https://evisa.dgdi.ga/"
         }
-      }
-    },
-    {
-      "id": "embassy-tourist",
-      "category": "tourist",
-      "method": "embassy",
-      "name": "Tourist visa (embassy)",
-      "fee": null,
-      "processing": null,
-      "validityDays": null,
-      "stayDays": null,
-      "entries": null,
-      "applyUrl": null,
-      "source": {
-        "url": "https://www.gov.uk/foreign-travel-advice/gabon/entry-requirements",
-        "name": "UK Foreign, Commonwealth & Development Office — Gabon travel advice (entry requirements)",
-        "type": "government",
-        "lastVerified": "2026-10-04",
-        "lastChanged": "2026-10-04"
       }
     }
   ],

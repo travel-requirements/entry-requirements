@@ -4465,19 +4465,19 @@
       "id": "voa-single",
       "category": "tourist",
       "method": "visa-on-arrival",
-      "name": "Visa on Arrival — single entry (JOD 40)",
+      "name": "Single-entry visa on arrival",
       "fee": {
         "amount": 40,
         "currency": "JOD",
         "notes": "The Ministry of Tourism's Jordan Pass site says the fee is waived if you buy the pass before arrival and stay at least two nights (3 days); the UK Foreign Office gives the minimum as 3 nights. The same site says the fee is also waived for travelers who enter at the Wadi Araba border, stay at least 2 nights and leave by the same border, and lists South Africa, Malaysia, Hong Kong, Japan and Vatican City as nationalities exempt from the fee."
       },
       "processing": null,
-      "validityDays": null,
+      "validityDays": 30,
       "stayDays": null,
       "entries": "single",
       "extendable": {
         "possible": true,
-        "days": null
+        "days": 60
       },
       "applyUrl": null,
       "source": {
@@ -4497,7 +4497,13 @@
             "name": "Jordan Tourism Board — Just the facts (\"Visas are valid for one month\")",
             "lastVerified": "2026-10-07"
           }
-        ]
+        ],
+        "conflict": {
+          "url": "https://www.gov.uk/foreign-travel-advice/jordan/entry-requirements",
+          "name": "UK FCDO — Jordan entry requirements",
+          "states": "single-entry visit visa valid for 3 months",
+          "resolvedBy": "hierarchy"
+        }
       },
       "evidence": {
         "fee": {
@@ -4509,8 +4515,20 @@
           "url": "https://www.gov.uk/foreign-travel-advice/jordan/entry-requirements"
         },
         "extendable": {
-          "text": "Visas are valid for one month, but can be extended at any police station.",
+          "text": "You can pay 3 JDs at the Airport for each day you stayed in Jordan after the 1 month validity, or you can pay 40 JDs at the Police Station for visa extension of 2 months.",
+          "url": "https://www.jordanpass.jo/Contents/FAQs.aspx"
+        },
+        "name": {
+          "text": "How long is the single entry visa valid for? The single entry visa is valid for 1 month, and can be extended easily from any police station by paying extra fees.",
+          "url": "https://www.jordanpass.jo/Contents/FAQs.aspx"
+        },
+        "method": {
+          "text": "A visa can also be obtained at Amman’s Queen Alia International Airport (for unrestricted nationalities) or at any other border crossing except King Hussein Bridge and the ferryboat from Egypt.",
           "url": "https://international.visitjordan.com/page/16/just-the-facts/"
+        },
+        "validityDays": {
+          "text": "The single entry visa is valid for 1 month, and can be extended easily from any police station by paying extra fees.",
+          "url": "https://www.jordanpass.jo/Contents/FAQs.aspx"
         }
       }
     },
@@ -4518,7 +4536,7 @@
       "id": "moi-tourist-visa",
       "category": "tourist",
       "method": "evisa",
-      "name": "Tourist visa with prior approval (applied for by a Jordanian tourism office)",
+      "name": "Tourist visa (applied for through a Jordanian tourism office)",
       "fee": {
         "amount": 2,
         "currency": "JOD",
@@ -4568,6 +4586,14 @@
         "fee": {
           "text": "A service allowance of two dinars per person in the regular application.",
           "url": "https://moi.gov.jo/ebv4.0/root_storage/en/eb_list_page/%D8%AA%D8%A7%D8%B4%D9%8A%D8%B1%D8%A9_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AD%D8%A9tourist_visa.docx"
+        },
+        "name": {
+          "text": "service card Tourist visa Terms of Service: 1. The application is submitted through the Jordanian tourism offices.",
+          "url": "https://moi.gov.jo/ebv4.0/root_storage/en/eb_list_page/%D8%AA%D8%A7%D8%B4%D9%8A%D8%B1%D8%A9_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AD%D8%A9tourist_visa.docx"
+        },
+        "method": {
+          "text": "The e-services website (https://eservices.moi.gov.jo/MOI_EVISA).",
+          "url": "https://moi.gov.jo/ebv4.0/root_storage/en/eb_list_page/%D8%AA%D8%A7%D8%B4%D9%8A%D8%B1%D8%A9_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AD%D8%A9tourist_visa.docx"
         }
       }
     },
@@ -4575,7 +4601,7 @@
       "id": "moi-visit-visa",
       "category": "other",
       "method": "evisa",
-      "name": "Visit visa with prior approval (applied for by a sponsor in Jordan)",
+      "name": "Visit visa (applied for by a sponsor in Jordan)",
       "fee": {
         "amount": 2,
         "currency": "JOD",
@@ -4643,6 +4669,14 @@
         "fee": {
           "text": "A service allowance of two dinars per person in the regular application.",
           "url": "https://moi.gov.jo/ebv4.0/root_storage/en/eb_list_page/service_card.docx"
+        },
+        "name": {
+          "text": "service card Visit visa",
+          "url": "https://moi.gov.jo/ebv4.0/root_storage/en/eb_list_page/service_card.docx"
+        },
+        "method": {
+          "text": "The e-services website (https://eservices.moi.gov.jo/MOI_EVISA).",
+          "url": "https://moi.gov.jo/ebv4.0/root_storage/en/eb_list_page/service_card.docx"
         }
       }
     }
@@ -4676,7 +4710,7 @@
     "onwardTicket": {
       "required": null,
       "appliesTo": null,
-      "text": "No official Jordanian source we could read states a general onward-ticket rule for visitors. The Ministry of Interior requires a return ticket only from air arrivals who get a visa on arrival on the strength of a foreign residence permit.",
+      "text": "No official Jordanian source we could read states a general onward-ticket rule for visitors. The Ministry of Interior requires a return ticket of air arrivals who qualify through a residence of at least six months in a country whose nationals need no prior approval.",
       "source": {
         "url": "https://moi.gov.jo/AR/Modules/FAQ",
         "name": "Jordan Ministry of Interior — FAQ (entry of residents of foreign countries; nationalities needing prior approval)",
@@ -4800,7 +4834,7 @@
       "minRentalAge": null,
       "alcoholLimitBac": null,
       "mandatoryEquipment": [],
-      "text": "Jordan is a party to the 1949 Geneva Convention on Road Traffic (UN Treaty Collection). Whether a permit is required in addition to a national license, and for how long a foreign license may be used, are set by national road law and have not been checked for Jordan yet.",
+      "text": "Jordan is a party to the 1949 Geneva Convention on Road Traffic (UN Treaty Collection). No official source we could read states whether a permit is required in addition to a national licence, or for how long a foreign licence may be used.",
       "source": {
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",

@@ -17,7 +17,7 @@
     "guinea",
     "cote-divoire"
   ],
-  "summary": "A Liberian visa is arranged before travel — through an embassy or Liberia's online eVisa channel — while ECOWAS citizens enter visa-free under the bloc's free-movement protocol, as do citizens of Burkina Faso, Mali and Niger, which left the bloc in January 2025 but remain on Liberia's exemption list.",
+  "summary": "Liberian visas are issued by Liberian embassies and consulates, and travellers from countries with no Liberian embassy can instead apply online for a Visa on Arrival, issued at Roberts International Airport. ECOWAS citizens enter visa-free under the bloc's free-movement protocol, as do citizens of Burkina Faso, Mali and Niger, which left the bloc in January 2025 but remain on Liberia's exemption list.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -1990,7 +1990,7 @@
       "id": "embassy-tourist",
       "category": "tourist",
       "method": "embassy",
-      "name": "Tourist Visa (embassy)",
+      "name": "Tourist or business visa (embassy or consulate)",
       "fee": {
         "amount": 70,
         "currency": "USD",
@@ -2016,21 +2016,29 @@
         "entries": {
           "text": "Visa-Other countries 1-3 months Single $70.00",
           "url": "https://liberiaconsulate-ny.com/consulate-services/visa/"
+        },
+        "name": {
+          "text": "visa fees for US Citizens travelling with Tourist or Business visas",
+          "url": "https://liberiaconsulate-ny.com/consulate-services/visa/"
+        },
+        "method": {
+          "text": "Applicants need to make an appointment before coming to the Consulate General",
+          "url": "https://liberiaconsulate-ny.com/consulate-services/visa/"
         }
       }
     },
     {
       "id": "evisa-tourist",
       "category": "tourist",
-      "method": "evisa",
-      "name": "Tourist e-Visa",
+      "method": "visa-on-arrival",
+      "name": "Visa on Arrival (applied for online before travel)",
       "fee": {
         "amount": 102.5,
         "currency": "USD",
-        "notes": "Non-refundable, paid online by Visa or Mastercard. The visa is approved online and issued at Roberts International Airport only; the officer there grants 30 or 90 days depending on the planned visit. If there is a Liberian embassy in your country, you must apply there instead."
+        "notes": "Non-refundable, paid online by Visa or Mastercard. Once approved, you must enter Liberia within 3 months; the visa is issued at Roberts International Airport only, and the officer there sets its validity (30 or 90 days) from the planned visit. If there is a Liberian embassy in your country, you must apply there instead."
       },
       "processing": null,
-      "validityDays": 90,
+      "validityDays": null,
       "stayDays": null,
       "entries": "single",
       "applyUrl": "https://visaonarrival.lis.gov.lr/",
@@ -2047,12 +2055,16 @@
           "text": "The Visa on Arrival fee costs USD 102.5 and is non-refundable.",
           "url": "https://visaonarrival.lis.gov.lr/"
         },
-        "validityDays": {
-          "text": "Once approved, the Visa on Arrival approval is valid for 3 months.",
-          "url": "https://visaonarrival.lis.gov.lr/"
-        },
         "entries": {
           "text": "A Visa on Arrival is valid for a single visit only.",
+          "url": "https://visaonarrival.lis.gov.lr/"
+        },
+        "name": {
+          "text": "The Liberia Visa on Arrival (VoA) allows travelers to obtain a Visa upon arrival in Liberia by plane. Travelers must pre-apply for the visa online through a dedicated portal,",
+          "url": "https://visaonarrival.lis.gov.lr/"
+        },
+        "method": {
+          "text": "Upon arrival at the airport, travelers present the Visa on Arrival confirmation form, complete the application process through biometric data collection, and receive a visa sticker in their passport.",
           "url": "https://visaonarrival.lis.gov.lr/"
         }
       },
@@ -2366,12 +2378,12 @@
     {
       "id": "us-need-visa",
       "question": "Do US citizens need a visa for Liberia?",
-      "answer": "Yes. US passport holders must obtain a visa before travel from a Liberian embassy or consulate. The Consulate General in New York charges US citizens USD 180 for a three-year multiple-entry visa. Liberia's online e-visa, issued at Roberts International Airport, is for applicants with no Liberian embassy in their country."
+      "answer": "Yes. US passport holders must obtain a visa before travel from a Liberian embassy or consulate. The Consulate General in New York charges US citizens USD 180 for a three-year multiple-entry visa. Liberia Immigration Service's Visa on Arrival, applied for online and issued at Roberts International Airport, is for applicants with no Liberian embassy in their country."
     },
     {
       "id": "voa",
       "question": "Can I get a visa on arrival in Liberia?",
-      "answer": "Only with approval in advance. Liberia Immigration Service's online e-visa (USD 102.50, non-refundable) is approved before travel and the visa is then issued at Roberts International Airport only; the service recommends applying at least 7 days before your flight. If there is a Liberian embassy in your country, you must apply there instead."
+      "answer": "Only with approval in advance. Liberia Immigration Service's Visa on Arrival (USD 102.50, non-refundable) is approved before travel and the visa is then issued at Roberts International Airport only; the service recommends applying at least 7 days before your flight. If there is a Liberian embassy in your country, you must apply there instead."
     },
     {
       "id": "yellow-fever",

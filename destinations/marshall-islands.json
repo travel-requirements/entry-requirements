@@ -14,7 +14,7 @@
     "micronesia",
     "nauru"
   ],
-  "summary": "The Marshall Islands lets US, Palauan and Micronesian citizens enter without a visa or time limit, waives visas for up to 90 days for EU and UK citizens, Taiwan and Guatemala, gives a free 90-day visa on arrival to citizens of the many countries it has diplomatic relations with, and requires everyone else to obtain a USD 100 visitor visa before travelling.",
+  "summary": "The Marshall Islands lets US, Palauan and Micronesian citizens enter without a visa or time limit, waives visas for up to 90 days for EU and UK citizens, Taiwan and Guatemala, gives a free 90-day visa on arrival to citizens of countries on its list of those it has diplomatic relations with, and requires everyone else to obtain a USD 100 visitor visa before travelling.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -2030,7 +2030,7 @@
       "id": "visa-on-arrival",
       "category": "tourist",
       "method": "visa-on-arrival",
-      "name": "Visitor Visa on Arrival",
+      "name": "Visa on Arrival",
       "fee": {
         "amount": 0,
         "currency": "USD",
@@ -2072,6 +2072,14 @@
         "extendable": {
           "text": "Not Permitted: * Extensions *Change of Status *Employment *Study *Research",
           "url": "https://rmiimmigration.org/wp-content/uploads/2026/03/voa-202403.pdf"
+        },
+        "name": {
+          "text": "SUMMARY OF COUNTRIES ENTITLED FOR VISA EXEMPTION/WAIVER OR VISA ON ARRIVAL",
+          "url": "https://rmiimmigration.org/wp-content/uploads/2026/03/voa-202403.pdf"
+        },
+        "method": {
+          "text": "SUMMARY OF COUNTRIES ENTITLED FOR VISA EXEMPTION/WAIVER OR VISA ON ARRIVAL",
+          "url": "https://rmiimmigration.org/wp-content/uploads/2026/03/voa-202403.pdf"
         }
       }
     },
@@ -2079,7 +2087,7 @@
       "id": "visitor-visa",
       "category": "tourist",
       "method": "embassy",
-      "name": "Entry Visa (issued in advance)",
+      "name": "Visitor's Visa (V-1)",
       "fee": {
         "amount": 100,
         "currency": "USD",
@@ -2112,6 +2120,10 @@
         },
         "extendable": {
           "text": "Apply for an extension before your permitted stay expires.",
+          "url": "https://rmiimmigration.org/visit-rmi-visa-entry/"
+        },
+        "name": {
+          "text": "How to Apply for a Visitor Visa (V-1)",
           "url": "https://rmiimmigration.org/visit-rmi-visa-entry/"
         }
       }
@@ -2194,8 +2206,8 @@
     },
     "onwardTicket": {
       "required": true,
-      "appliesTo": "all",
-      "text": "The RMI Division of Immigration requires a confirmed return or onward ticket out of the Marshall Islands, and a valid visa for the next destination where one is needed. Visitor-visa applicants must also give a confirmed hotel booking or contact details.",
+      "appliesTo": "visa-applicants",
+      "text": "Under its general entry requirements for the visa on arrival, the RMI Division of Immigration says all persons entering must hold a confirmed return or onward ticket out of the Marshall Islands and any visa needed for the next destination; its visa-waiver list sets the same conditions, and visitor-visa applicants must include the ticket in their application. The list sets no requirements for citizens of the United States, Palau and the Federated States of Micronesia.",
       "source": {
         "url": "https://rmiimmigration.org/visit-rmi-visa-entry/",
         "name": "RMI Division of Immigration — Visit RMI (Visa & Entry)",
@@ -2205,9 +2217,9 @@
     },
     "proofOfFunds": {
       "required": true,
-      "appliesTo": "all",
+      "appliesTo": "visa-applicants",
       "amount": null,
-      "text": "All visitors must have sufficient funds for their stay, according to the RMI Division of Immigration. No minimum amount is published.",
+      "text": "Under its general entry requirements for the visa on arrival, the RMI Division of Immigration says all persons entering must have sufficient funds for the duration of their stay; visitor-visa applicants must give evidence of financial ability to support themselves. No minimum amount is published.",
       "source": {
         "url": "https://rmiimmigration.org/visit-rmi-visa-entry/",
         "name": "RMI Division of Immigration — Visit RMI (Visa & Entry)",

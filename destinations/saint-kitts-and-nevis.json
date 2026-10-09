@@ -1362,13 +1362,9 @@
       "fee": {
         "amount": 17,
         "currency": "USD",
-        "notes": "Single-entry fee per traveller, plus payment and other fees; faster processing costs more. Mandatory for foreign visitors, children included; OECS nationals submit the ED form instead, and day-trip cruise passengers and air passengers transiting without leaving the airport are exempt. A traveller who arrives without one can apply on arrival but pays the expedited fee."
+        "notes": "Single-entry fee per traveller, plus payment and other fees; faster processing costs more. Mandatory for foreign visitors, children included; OECS nationals submit the ED form instead, and day-trip cruise passengers and air passengers transiting without leaving the airport are exempt. A traveller who arrives without one can apply on arrival but pays the expedited fee. The FAQ says applications are usually processed within 24 hours, based on the selected processing period."
       },
-      "processing": {
-        "minDays": null,
-        "maxDays": 1,
-        "unit": "calendar-days"
-      },
+      "processing": null,
       "validityDays": 90,
       "stayDays": null,
       "entries": "single",
@@ -1392,16 +1388,20 @@
           "text": "The single entry eTA fee is USD 17 per traveller, plus payment and other fees.",
           "url": "https://www.knatravelform.kn/faq"
         },
-        "processing": {
-          "text": "Applications are usually processed within 24 hours, based on your selected processing period.",
-          "url": "https://www.knatravelform.kn/faq"
-        },
         "validityDays": {
           "text": "Your eTA is valid for 90 days from the date of issuance and you must travel during this period.",
           "url": "https://www.knatravelform.kn/faq"
         },
         "entries": {
           "text": "Your eTA is valid for a single entry into St. Kitts and Nevis and can only be used for a single trip.",
+          "url": "https://www.knatravelform.kn/faq"
+        },
+        "name": {
+          "text": "What is the St. Kitts and Nevis Electronic Travel Authorization (eTA)?",
+          "url": "https://www.knatravelform.kn/faq"
+        },
+        "method": {
+          "text": "St. Kitts and Nevis eTA is a semi-automated system that determines the eligibility of visitors to travel to St. Kitts and Nevis.",
           "url": "https://www.knatravelform.kn/faq"
         }
       },
@@ -1431,9 +1431,9 @@
     },
     {
       "id": "visitor-visa",
-      "category": "tourist",
+      "category": "other",
       "method": "evisa",
-      "name": "Saint Kitts and Nevis Visitor's Visa",
+      "name": "Visa (applied for online)",
       "fee": null,
       "processing": null,
       "validityDays": null,
@@ -1445,26 +1445,20 @@
         "name": "Ministry of Foreign Affairs of Saint Kitts and Nevis — Passport and Visa Services",
         "type": "government",
         "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
-      }
-    },
-    {
-      "id": "business-visa",
-      "category": "business",
-      "method": "evisa",
-      "name": "Saint Kitts and Nevis Business Visa",
-      "fee": null,
-      "processing": null,
-      "validityDays": null,
-      "stayDays": null,
-      "entries": null,
-      "applyUrl": null,
-      "source": {
-        "url": "https://www.mofa.gov.kn/service/passport-and-visa-services/",
-        "name": "Ministry of Foreign Affairs of Saint Kitts and Nevis — Passport and Visa Services",
-        "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastChanged": "2026-10-03",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.mofa.gov.kn/visa-required-countries-for-entry-2/",
+            "name": "Ministry of Foreign Affairs of Saint Kitts and Nevis — Visa-Required Countries for Entry",
+            "lastVerified": "2026-10-07"
+          }
+        ]
+      },
+      "evidence": {
+        "name": {
+          "text": "Nationals of the countries and territories listed below require a visa for entry into Saint Kitts and Nevis.",
+          "url": "https://www.mofa.gov.kn/visa-required-countries-for-entry-2/"
+        }
       }
     },
     {
@@ -1491,6 +1485,14 @@
       },
       "evidence": {
         "extendable": {
+          "text": "If you want to stay longer, you must apply and pay for an extension through the St Kitts and Nevis Immigration Department.",
+          "url": "https://www.gov.uk/foreign-travel-advice/st-kitts-and-nevis/entry-requirements"
+        },
+        "name": {
+          "text": "If you want to stay longer, you must apply and pay for an extension through the St Kitts and Nevis Immigration Department.",
+          "url": "https://www.gov.uk/foreign-travel-advice/st-kitts-and-nevis/entry-requirements"
+        },
+        "method": {
           "text": "If you want to stay longer, you must apply and pay for an extension through the St Kitts and Nevis Immigration Department.",
           "url": "https://www.gov.uk/foreign-travel-advice/st-kitts-and-nevis/entry-requirements"
         }

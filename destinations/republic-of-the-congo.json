@@ -1076,7 +1076,7 @@
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
-          "embassy-tourist"
+          "embassy-tourist-us"
         ],
         "notes": "The Congolese embassy in Washington says US citizens travelling to the Republic of the Congo for tourism are granted a multiple-entry visa of 6 months (180 days).",
         "quote": {
@@ -1136,7 +1136,7 @@
       "id": "embassy-tourist",
       "category": "tourist",
       "method": "embassy",
-      "name": "Tourist visa (embassy)",
+      "name": "Tourist Visa",
       "fee": {
         "amount": 200,
         "currency": "USD",
@@ -1174,6 +1174,67 @@
         "entries": {
           "text": "The tourist visa is delivered for a period of 3 months ( 90 days) and allows for multiples entries for non-U.S citizens.",
           "url": "https://www.ambacongo-us.org/en/consular-services/visa"
+        },
+        "name": {
+          "text": "Tourist Visa: This visa is issued at any accredited Congolese Consulate.",
+          "url": "https://www.ambacongo-us.org/en/consular-services/visa"
+        },
+        "method": {
+          "text": "Tourist Visa: This visa is issued at any accredited Congolese Consulate.",
+          "url": "https://www.ambacongo-us.org/en/consular-services/visa"
+        }
+      }
+    },
+    {
+      "id": "embassy-tourist-us",
+      "category": "tourist",
+      "method": "embassy",
+      "name": "Tourist Visa (US citizens)",
+      "fee": {
+        "amount": 200,
+        "currency": "USD",
+        "notes": "At the embassy in Washington: USD 200, paid in cash at drop-off or by money order, and not refunded once the application is submitted."
+      },
+      "processing": {
+        "minDays": null,
+        "maxDays": 10,
+        "unit": "business-days"
+      },
+      "validityDays": 180,
+      "stayDays": null,
+      "entries": "multiple",
+      "applyUrl": null,
+      "source": {
+        "url": "https://www.ambacongo-us.org/en/consular-services/visa",
+        "name": "Embassy of the Republic of Congo to the USA — Visa",
+        "type": "government",
+        "lastVerified": "2026-10-07",
+        "lastChanged": "2026-10-02"
+      },
+      "evidence": {
+        "fee": {
+          "text": "The visa fees will still remain at 200 U.S Dollars.",
+          "url": "https://www.ambacongo-us.org/en/consular-services/visa"
+        },
+        "processing": {
+          "text": "The processing time for all consular services requests take up to 7-10 business days from the day a visa application or a consular service request is received.",
+          "url": "https://www.ambacongo-us.org/en/consular-services/visa"
+        },
+        "validityDays": {
+          "text": "For U.S citizens traveling to the Republic of Congo for touristic purposes, a visa of 6 months ( 180 days) multiple entries shall be granted.",
+          "url": "https://www.ambacongo-us.org/en/consular-services/visa"
+        },
+        "entries": {
+          "text": "For U.S citizens traveling to the Republic of Congo for touristic purposes, a visa of 6 months ( 180 days) multiple entries shall be granted.",
+          "url": "https://www.ambacongo-us.org/en/consular-services/visa"
+        },
+        "name": {
+          "text": "Tourist Visa: This visa is issued at any accredited Congolese Consulate.",
+          "url": "https://www.ambacongo-us.org/en/consular-services/visa"
+        },
+        "method": {
+          "text": "All visa applications should be submitted prior to the date of departure at the Consulate Section of the Embassy of the Republic of Congo to the United States of America ( Washington, D.C.)",
+          "url": "https://www.ambacongo-us.org/en/consular-services/visa"
         }
       }
     },
@@ -1181,7 +1242,7 @@
       "id": "embassy-business",
       "category": "business",
       "method": "embassy",
-      "name": "Business visa (embassy)",
+      "name": "Business Visa",
       "fee": {
         "amount": 200,
         "currency": "USD",
@@ -1238,6 +1299,14 @@
         "extendable": {
           "text": "If a business applicant plans on staying in the Republic of Congo for more than 30 days, he should extend his visa at the nearest Office of Immigration.",
           "url": "https://www.ambacongo-us.org/en/consular-services/visa"
+        },
+        "name": {
+          "text": "Business Visa: The business visa is issued for various reasons such as making feasibility studies, establishing professional and business contacts, and making arrangements for investments in the Republic of Congo.",
+          "url": "https://www.ambacongo-us.org/en/consular-services/visa"
+        },
+        "method": {
+          "text": "All visa applications should be submitted prior to the date of departure at the Consulate Section of the Embassy of the Republic of Congo to the United States of America ( Washington, D.C.)",
+          "url": "https://www.ambacongo-us.org/en/consular-services/visa"
         }
       }
     },
@@ -1270,6 +1339,14 @@
           "url": "https://sgg.cg/JO/2023/congo-jo-2023-39.pdf"
         },
         "validityDays": {
+          "text": "Les citoyens d’une Partie détenteurs d’un passeport ordinaire bénéﬁ cient de la gratuite du visa à l’entrée du territoire des deux Parties, valide pour une période ne dépassant pas quatre-vingt-dix (90 jours).",
+          "url": "https://sgg.cg/JO/2023/congo-jo-2023-39.pdf"
+        },
+        "name": {
+          "text": "Les citoyens d’une Partie détenteurs d’un passeport ordinaire bénéﬁ cient de la gratuite du visa à l’entrée du territoire des deux Parties, valide pour une période ne dépassant pas quatre-vingt-dix (90 jours).",
+          "url": "https://sgg.cg/JO/2023/congo-jo-2023-39.pdf"
+        },
+        "method": {
           "text": "Les citoyens d’une Partie détenteurs d’un passeport ordinaire bénéﬁ cient de la gratuite du visa à l’entrée du territoire des deux Parties, valide pour une période ne dépassant pas quatre-vingt-dix (90 jours).",
           "url": "https://sgg.cg/JO/2023/congo-jo-2023-39.pdf"
         }

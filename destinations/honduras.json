@@ -1095,7 +1095,7 @@
       },
       "GB": {
         "requirement": "embassy-visa",
-        "maxStayDays": 30,
+        "maxStayDays": null,
         "visaTypes": [
           "tourist-visa"
         ],
@@ -1185,7 +1185,7 @@
       "id": "tourist-visa",
       "category": "tourist",
       "method": "embassy",
-      "name": "Consular Tourist Visa",
+      "name": "Consular Visa",
       "fee": {
         "amount": 30,
         "currency": "USD",
@@ -1193,7 +1193,7 @@
       },
       "processing": null,
       "validityDays": null,
-      "stayDays": 30,
+      "stayDays": null,
       "entries": "single",
       "extendable": {
         "possible": true,
@@ -1223,16 +1223,20 @@
           "text": "Visa sencilla (30 días): $30.00",
           "url": "https://inm.gob.hn/visas.html"
         },
-        "stayDays": {
-          "text": "Visa sencilla (30 días): $30.00",
-          "url": "https://inm.gob.hn/visas.html"
-        },
         "entries": {
           "text": "Visa sencilla (30 días): $30.00",
           "url": "https://inm.gob.hn/visas.html"
         },
         "extendable": {
           "text": "Se puede permanecer como turista un máximo de 90 días, prorrogables por 30 días más, solicitando una extensión en el Instituto Nacional de Migración (INM) de Honduras.",
+          "url": "https://inm.gob.hn/visas.html"
+        },
+        "name": {
+          "text": "Aquellas extendidas por el funcionario diplomático o consular hondureño, sin requerir autorización de la Secretaría de Relaciones Exteriores, siempre y cuando se verifiquen y validen todos los requisitos que dicha Oficina Consular solicite.",
+          "url": "https://inm.gob.hn/visas.html"
+        },
+        "method": {
+          "text": "El visado se coloca en su pasaporte y se entrega el día de la cita. El trámite es personal y presencial.",
           "url": "https://inm.gob.hn/visas.html"
         }
       }
@@ -1268,6 +1272,14 @@
       "evidence": {
         "fee": {
           "text": "Pago de $100.00, por tarifa de visa consultada.",
+          "url": "https://inm.gob.hn/visas.html"
+        },
+        "name": {
+          "text": "Es aquella que se expide a extranjeros previa validación del Instituto Nacional de Migración (INM), quien extenderá la autorización escrito, para que la persona extranjera que la solicitó pueda gestionar la solicitud ante cualquier Consulado hondureño.",
+          "url": "https://inm.gob.hn/visas.html"
+        },
+        "method": {
+          "text": "Es aquella que se expide a extranjeros previa validación del Instituto Nacional de Migración (INM), quien extenderá la autorización escrito, para que la persona extranjera que la solicitó pueda gestionar la solicitud ante cualquier Consulado hondureño.",
           "url": "https://inm.gob.hn/visas.html"
         }
       }

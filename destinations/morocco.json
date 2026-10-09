@@ -3515,7 +3515,7 @@
       },
       "validityDays": 180,
       "stayDays": 30,
-      "entries": null,
+      "entries": "single",
       "applyUrl": "https://www.acces-maroc.ma/",
       "source": {
         "url": "https://api.acces-maroc.ma/api/api/referentiel/prixEvisa",
@@ -3528,7 +3528,14 @@
           "name": "Accès Maroc — eVisa page (Standard and Express tracks)",
           "states": "Processing time 3 business days (Standard) and 1 business day (Express); the eVisa terms of use (August 2024) give 72 and 24 hours, Moroccan working days",
           "resolvedBy": "stricter"
-        }
+        },
+        "alsoStatedOn": [
+          {
+            "url": "https://www.acces-maroc.ma/assets/docs/Conditions%20utilisation%20eVisa%20-%20An.pdf",
+            "name": "Accès Maroc — eVisa terms of use (general information note)",
+            "lastVerified": "2026-10-07"
+          }
+        ]
       },
       "evidence": {
         "fee": {
@@ -3546,6 +3553,18 @@
         "stayDays": {
           "text": "\"libelle\":\"Standard\",\"code\":\"STANDARD\",\"prix\":770.0,\"dureeMin\":3.0,\"dureeMax\":7.0,\"sejour\":30,\"validite\":180",
           "url": "https://api.acces-maroc.ma/api/api/referentiel/prixEvisa"
+        },
+        "entries": {
+          "text": "The maximum period of the electronic visa validity is 180 days, starting from the date of issue, for a single entry and a period of stay not exceeding 30 days.",
+          "url": "https://www.acces-maroc.ma/assets/docs/Conditions%20utilisation%20eVisa%20-%20An.pdf"
+        },
+        "name": {
+          "text": "The electronic visa is a one -person authorization allowing access and stay for a limited and uninterrupted time on the Moroccan territory.",
+          "url": "https://www.acces-maroc.ma/assets/docs/Conditions%20utilisation%20eVisa%20-%20An.pdf"
+        },
+        "method": {
+          "text": "It is issued online to certain categories of foreign citizens subject to the formality of visa to enter the Kingdom.",
+          "url": "https://www.acces-maroc.ma/assets/docs/Conditions%20utilisation%20eVisa%20-%20An.pdf"
         }
       },
       "documents": {
@@ -3601,7 +3620,7 @@
       },
       "validityDays": 180,
       "stayDays": 30,
-      "entries": null,
+      "entries": "single",
       "applyUrl": "https://www.acces-maroc.ma/",
       "source": {
         "url": "https://api.acces-maroc.ma/api/api/referentiel/prixEvisa",
@@ -3615,6 +3634,11 @@
             "url": "https://api.acces-maroc.ma/api/api/referentiel/nationalite/en",
             "name": "Accès Maroc — nationality reference list (eVisa and eVisaGratuit flags)",
             "lastVerified": "2026-10-09"
+          },
+          {
+            "url": "https://www.acces-maroc.ma/assets/docs/Conditions%20utilisation%20eVisa%20-%20An.pdf",
+            "name": "Accès Maroc — eVisa terms of use (general information note)",
+            "lastVerified": "2026-10-07"
           }
         ]
       },
@@ -3634,6 +3658,18 @@
         "stayDays": {
           "text": "\"libelle\":\"Standard\",\"code\":\"STANDARD\",\"prix\":770.0,\"dureeMin\":3.0,\"dureeMax\":7.0,\"sejour\":30,\"validite\":180",
           "url": "https://api.acces-maroc.ma/api/api/referentiel/prixEvisa"
+        },
+        "entries": {
+          "text": "The maximum period of the electronic visa validity is 180 days, starting from the date of issue, for a single entry and a period of stay not exceeding 30 days.",
+          "url": "https://www.acces-maroc.ma/assets/docs/Conditions%20utilisation%20eVisa%20-%20An.pdf"
+        },
+        "name": {
+          "text": "The electronic visa is a one -person authorization allowing access and stay for a limited and uninterrupted time on the Moroccan territory.",
+          "url": "https://www.acces-maroc.ma/assets/docs/Conditions%20utilisation%20eVisa%20-%20An.pdf"
+        },
+        "method": {
+          "text": "It is issued online to certain categories of foreign citizens subject to the formality of visa to enter the Kingdom.",
+          "url": "https://www.acces-maroc.ma/assets/docs/Conditions%20utilisation%20eVisa%20-%20An.pdf"
         }
       },
       "documents": {
@@ -3676,7 +3712,7 @@
       "id": "embassy-tourist",
       "category": "tourist",
       "method": "embassy",
-      "name": "Short-Stay Visa (Moroccan embassy or consulate)",
+      "name": "Entry visa for tourism (Moroccan consular services)",
       "fee": null,
       "processing": null,
       "validityDays": null,
@@ -3688,6 +3724,12 @@
         "name": "Ministry of Foreign Affairs of Morocco (consulat.ma) — ordinary visas: documents required",
         "type": "government",
         "lastVerified": "2026-10-04"
+      },
+      "evidence": {
+        "name": {
+          "text": "Formulaire de demande de visa d’entrée au Royaume du Maroc",
+          "url": "https://www.consulat.ma/fr/visas-ordinaires"
+        }
       }
     },
     {
@@ -3737,6 +3779,12 @@
           "lastVerified": "2026-10-09",
           "lastChanged": "2026-10-07",
           "portalOnly": true
+        }
+      },
+      "evidence": {
+        "name": {
+          "text": "L’Autorisation Electronique de Voyage au Maroc -AEVM- est un document requis",
+          "url": "https://www.acces-maroc.ma/#/autorisation-voyage"
         }
       }
     }
@@ -3814,7 +3862,7 @@
     "declarations": [],
     "customs": {
       "currencyLimits": {
-        "text": "The Moroccan dirham (MAD) is a closed currency: you may bring in or take out at most 2,000 MAD. Foreign currency can be imported freely but amounts of 100,000 MAD equivalent or more must be declared; keep exchange receipts to convert leftover dirhams back before departure.",
+        "text": "Moroccan Customs tolerates bringing in, or taking out, at most 2,000 MAD. Foreign currency can be imported freely but amounts of 100,000 MAD equivalent or more must be declared; keep exchange receipts to convert leftover dirhams back before departure.",
         "source": {
           "url": "https://www.douane.gov.ma/web/guest/particuliers?p_p_id=333_WAR_internetqr_INSTANCE_C4To&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_333_WAR_internetqr_INSTANCE_C4To_com.sun.faces.portlet.VIEW_ID=%2Fqr.jsp&_333_WAR_internetqr_INSTANCE_C4To_com.sun.faces.portlet.NAME_SPACE=_333_WAR_internetqr_INSTANCE_C4To_&cible=55",
           "name": "Moroccan Customs Administration (ADII) — foreigners visiting Morocco: currency and exchange",
@@ -3957,7 +4005,7 @@
     {
       "id": "closed-currency",
       "type": "warning",
-      "text": "The dirham is a closed currency. Moroccan Customs allows at most 2,000 MAD to be carried in or out of Morocco. The Government of Canada says unused dirhams can be converted at the airport exchange counter on departure with proof of your original purchase."
+      "text": "The UK Foreign Office says the Moroccan dirham is a closed, non-convertible currency. Moroccan Customs allows at most 2,000 MAD to be carried in or out of Morocco. The Government of Canada says unused dirhams can be converted at the airport exchange counter on departure with proof of your original purchase."
     },
     {
       "id": "faux-guides",

@@ -452,8 +452,8 @@
         }
       },
       "ID": {
-        "requirement": "embassy-visa",
-        "maxStayDays": null,
+        "requirement": "visa-free",
+        "maxStayDays": 15,
         "visaTypes": [
           "short-term-single"
         ],
@@ -4139,6 +4139,10 @@
         "extendable": {
           "text": "在留資格「短期滞在」に係る在留期間の更新は、原則として、人道上の真にやむをえない事情又はこれに相当する特別な事情がある場合に認められるものであり、例えば、病気治療をする必要がある場合などがこれに当たります。",
           "url": "https://www.moj.go.jp/isa/applications/status/temporaryvisitor.html"
+        },
+        "name": {
+          "text": "Currently, applicants who apply for a single-entry short-term stay visa for the purpose of tourism may use the JAPAN eVISA system.",
+          "url": "https://www.evisa.mofa.go.jp/index"
         }
       }
     },
@@ -4218,6 +4222,10 @@
         "extendable": {
           "text": "在留資格「短期滞在」に係る在留期間の更新は、原則として、人道上の真にやむをえない事情又はこれに相当する特別な事情がある場合に認められるものであり、例えば、病気治療をする必要がある場合などがこれに当たります。",
           "url": "https://www.moj.go.jp/isa/applications/status/temporaryvisitor.html"
+        },
+        "name": {
+          "text": "Short-Term Stay (A stay of up to 90 days for tourism, business, visiting friends or relatives, etc. that does not include remunerative activities)",
+          "url": "https://www.mofa.go.jp/j_info/visit/visa/index.html"
         }
       }
     },
@@ -4293,68 +4301,9 @@
         "extendable": {
           "text": "在留資格「短期滞在」に係る在留期間の更新は、原則として、人道上の真にやむをえない事情又はこれに相当する特別な事情がある場合に認められるものであり、例えば、病気治療をする必要がある場合などがこれに当たります。",
           "url": "https://www.moj.go.jp/isa/applications/status/temporaryvisitor.html"
-        }
-      }
-    },
-    {
-      "id": "transit",
-      "category": "transit",
-      "method": "embassy",
-      "name": "Transit Visa",
-      "fee": {
-        "amount": 15000,
-        "currency": "JPY",
-        "notes": "MOFA's visa-fee page says that for applications accepted on or after 1 July 2026 the fee is approximately 15,000 yen for a single-entry visa, as a general rule paid in local currency. MOFA says a single-entry visa is valid for three months."
-      },
-      "processing": {
-        "minDays": 5,
-        "maxDays": 5,
-        "unit": "business-days"
-      },
-      "validityDays": 90,
-      "stayDays": null,
-      "entries": "single",
-      "applyUrl": "https://www.mofa.go.jp/j_info/visit/visa/index.html",
-      "source": {
-        "url": "https://laws.e-gov.go.jp/law/327CO0000000074",
-        "name": "e-Gov — Cabinet Order on Fees Collected by Consular Officers (領事官の徴収する手数料に関する政令)",
-        "type": "government",
-        "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-02",
-        "instrument": "Cabinet Order No. 74 of 1952, Article 1(1)(iii)–(iv), as amended by Cabinet Order No. 204 of 2026 (in force 1 July 2026)",
-        "alsoStatedOn": [
-          {
-            "url": "https://www.mofa.go.jp/j_info/visit/visa/procedure/validity.html",
-            "name": "Ministry of Foreign Affairs of Japan — Validity of a Visa (single-entry visa valid for three months)",
-            "lastVerified": "2026-10-07"
-          },
-          {
-            "url": "https://www.mofa.go.jp/j_info/visit/visa/procedure/day.html",
-            "name": "Ministry of Foreign Affairs of Japan — Visa processing time (5 working days from the day after receipt)",
-            "lastVerified": "2026-10-07"
-          },
-          {
-            "url": "https://www.mofa.go.jp/j_info/visit/visa/procedure/pagewe_000001_00391.html",
-            "name": "Ministry of Foreign Affairs of Japan — Visa Fees (from 1 July 2026: about 15,000 yen single-entry, paid in local currency)",
-            "lastVerified": "2026-10-09"
-          }
-        ]
-      },
-      "evidence": {
-        "fee": {
-          "text": "For visa applications accepted at overseas diplomatic missions on or after that date, the fee, converted into Japanese yen, will be approximately 15,000 yen for a single-entry visa and approximately 30,000 yen for a multiple-entry visa.",
-          "url": "https://www.mofa.go.jp/j_info/visit/visa/procedure/pagewe_000001_00391.html"
         },
-        "processing": {
-          "text": "The time required from visa application to visa issuance is 5 working days from the day following the date of receipt of the application, provided that there is no particular problem with the content of application.",
-          "url": "https://www.mofa.go.jp/j_info/visit/visa/procedure/day.html"
-        },
-        "validityDays": {
-          "text": "The period of validity of the single-entry visa is three months.",
-          "url": "https://www.mofa.go.jp/j_info/visit/visa/procedure/validity.html"
-        },
-        "entries": {
-          "text": "Visas are only valid for entering Japan on one occasion.",
+        "name": {
+          "text": "Multiple-entry visas can be issued to business travelers, etc.",
           "url": "https://www.mofa.go.jp/j_info/visit/visa/procedure/validity.html"
         }
       }
@@ -4394,6 +4343,11 @@
             "url": "https://www.mofa.go.jp/j_info/visit/visa/procedure/day.html",
             "name": "Ministry of Foreign Affairs of Japan — Visa processing time (5 working days from the day after receipt)",
             "lastVerified": "2026-10-07"
+          },
+          {
+            "url": "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+            "name": "Ministry of Foreign Affairs of Japan — VISA (Work or Long-Term Stay: Certificate of Eligibility before applying at the Diplomatic Mission)",
+            "lastVerified": "2026-10-07"
           }
         ]
       },
@@ -4413,6 +4367,14 @@
         "entries": {
           "text": "Visas are only valid for entering Japan on one occasion.",
           "url": "https://www.mofa.go.jp/j_info/visit/visa/procedure/validity.html"
+        },
+        "name": {
+          "text": "Work or Long-Term Stay (If you do not meet the requirements for short-term stay, such as in cases where you intend to work in Japan for remuneration or stay in Japan for more than 90 days, you should, in principle, obtain a Certificate of Eligibility from the Immigration Services Agency of Japan before applying for a visa at the Diplomatic Mission of Japan with jurisdiction over your place of residence.)",
+          "url": "https://www.mofa.go.jp/j_info/visit/visa/index.html"
+        },
+        "method": {
+          "text": "before applying for a visa at the Diplomatic Mission of Japan with jurisdiction over your place of residence",
+          "url": "https://www.mofa.go.jp/j_info/visit/visa/index.html"
         }
       }
     }

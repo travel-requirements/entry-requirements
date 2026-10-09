@@ -3047,11 +3047,11 @@
       "id": "evisa-tourist",
       "category": "tourist",
       "method": "evisa",
-      "name": "Single-Entry Tourist eVisa",
+      "name": "Tourist electronic visa (category B12)",
       "fee": {
         "amount": 60,
         "currency": "USD",
-        "notes": "The Foreign Ministry's e-visa page gives a consular fee of US$60 for the single-entry tourist eVisa (US$80 for business and medical eVisas). The same page says an eVisa is issued on an invitation from the Kazakh side, that paid consular fees are not refundable, that you may enter and leave Kazakhstan on an eVisa only through the international airports it names as Nur-Sultan and Almaty, and that you must carry a printed copy of the eVisa at the border and during your stay. It also says an eVisa is valid only for its recipient and does not cover accompanying persons."
+        "notes": "The Foreign Ministry's e-visa page gives a consular fee of US$60 for the single-entry tourist eVisa (US$80 for business and medical eVisas). The same page says an eVisa is issued on an invitation from the Kazakh side, that paid consular fees are not refundable, that you may enter and leave Kazakhstan on an eVisa only through the checkpoints of the international airports of Nur-Sultan and Almaty (the Embassy in Washington's January 2026 QazETA notice says only through border crossing points of the international airports of Kazakhstan), and that you must carry a printed copy of the eVisa at the border and during your stay. It also says an eVisa is valid only for its recipient and does not cover accompanying persons."
       },
       "processing": null,
       "validityDays": 90,
@@ -3067,7 +3067,14 @@
         "name": "Ministry of Foreign Affairs of Kazakhstan — E-visa of the Republic of Kazakhstan",
         "type": "government",
         "lastVerified": "2026-10-03",
-        "lastChanged": "2026-09-26"
+        "lastChanged": "2026-09-26",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gov.kz/memleket/entities/mfa-washington/press/news/details/1145561?lang=en",
+            "name": "Embassy of Kazakhstan in the USA — Kazakhstan Launches the QazETA Digital Platform for Foreign Nationals in Pilot Mode (21 January 2026)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       },
       "evidence": {
         "fee": {
@@ -3089,6 +3096,14 @@
         "extendable": {
           "text": "The electronic visa is valid only for the visa recipient, it does not apply to accompanying persons and is not extendable.",
           "url": "https://www.gov.kz/memleket/entities/mfa/activities/34748?parentId=3053&lang=en"
+        },
+        "name": {
+          "text": "Tourist visa (category B12) is issued with a single entry for a period of up to 90 days and the right to stay in the Republic of Kazakhstan no more than 30 days.",
+          "url": "https://www.gov.kz/memleket/entities/mfa/activities/34748?parentId=3053&lang=en"
+        },
+        "method": {
+          "text": "The electronic visa is issued through the Visa and Migration Portal (https://vmp.gov.kz/en/)",
+          "url": "https://www.gov.kz/memleket/entities/mfa/activities/34748?parentId=3053&lang=en"
         }
       }
     },
@@ -3096,7 +3111,7 @@
       "id": "embassy-tourist",
       "category": "tourist",
       "method": "embassy",
-      "name": "Tourist Visa (Embassy)",
+      "name": "Tourist visa (single-entry)",
       "fee": {
         "amount": 60,
         "currency": "USD",
@@ -3111,7 +3126,8 @@
         "url": "https://www.gov.kz/memleket/entities/mfa/press/article/details/6768?lang=en",
         "name": "Ministry of Foreign Affairs of Kazakhstan — Consular fee rates",
         "type": "government",
-        "lastVerified": "2026-10-03"
+        "lastVerified": "2026-10-03",
+        "alsoStatedOn": []
       },
       "evidence": {
         "fee": {
@@ -3120,6 +3136,14 @@
         },
         "entries": {
           "text": "Tourist visa: Single-entry visa 60 US dollars 50 euro 50 British pounds 60 Swiss francs 6000 Russian rubles 385 Chinese yuan",
+          "url": "https://www.gov.kz/memleket/entities/mfa/press/article/details/6768?lang=en"
+        },
+        "name": {
+          "text": "Tourist visa: Single-entry visa 60 US dollars",
+          "url": "https://www.gov.kz/memleket/entities/mfa/press/article/details/6768?lang=en"
+        },
+        "method": {
+          "text": "The rates of the consular fee for performing consular actions on the territory of a foreign state",
           "url": "https://www.gov.kz/memleket/entities/mfa/press/article/details/6768?lang=en"
         }
       }
@@ -3140,11 +3164,16 @@
         "name": "Embassy of Kazakhstan in the USA (Ministry of Foreign Affairs) — \"Kazakhstan Launches the QazETA Digital Platform for Foreign Nationals in Pilot Mode\"",
         "type": "government",
         "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastChanged": "2026-10-03",
+        "alsoStatedOn": []
       },
       "evidence": {
         "validityDays": {
           "text": "The validity period of the ETA is 180 days.",
+          "url": "https://www.gov.kz/memleket/entities/mfa-washington/press/news/details/1145561?lang=en"
+        },
+        "name": {
+          "text": "During the pilot period, obtaining an ETA is recommended but not mandatory for citizens of countries exempt from the Republic of Kazakhstan’s visa requirements.",
           "url": "https://www.gov.kz/memleket/entities/mfa-washington/press/news/details/1145561?lang=en"
         }
       }
@@ -3165,7 +3194,14 @@
         "name": "Ministry of Foreign Affairs of Kazakhstan — Visa regime of the Republic of Kazakhstan for foreign citizens (Mauritius: “visa on the arrival” for diplomatic, service and ordinary passports)",
         "type": "government",
         "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-07"
+        "lastChanged": "2026-10-07",
+        "alsoStatedOn": []
+      },
+      "evidence": {
+        "name": {
+          "text": "Mauritius visa on the arrival",
+          "url": "https://www.gov.kz/memleket/entities/mfa/activities/34747?parentId=3053&lang=en"
+        }
       }
     }
   ],
@@ -3443,7 +3479,7 @@
     {
       "id": "evisa-how",
       "question": "How does the Kazakhstan eVisa work?",
-      "answer": "Eligible nationalities apply online at the Visa-Migration Portal (vmp.gov.kz) for a single-entry tourist eVisa for a consular fee of US$60, on the strength of an invitation from the Kazakh side. It allows a stay of up to 30 days, and travellers holding an eVisa may enter and leave Kazakhstan only through international airport border crossings."
+      "answer": "Eligible nationalities apply online at the Visa-Migration Portal (vmp.gov.kz) for a single-entry tourist eVisa for a consular fee of US$60, on the strength of an invitation from the Kazakh side. It allows a stay of up to 30 days, and the Foreign Ministry's e-visa page says that eVisa holders may enter and leave Kazakhstan only through the checkpoints of the international airports of Nur-Sultan and Almaty; the Embassy in Washington's January 2026 notice says only through border crossing points of the international airports of Kazakhstan."
     },
     {
       "id": "russians-cis",

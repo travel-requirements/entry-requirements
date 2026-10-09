@@ -252,7 +252,7 @@
       "CN": {
         "requirement": "embassy-visa",
         "maxStayDays": null,
-        "notes": null,
+        "notes": "China's foreign ministry says the tourist card is issued by bodies such as the offices of North Korea's international travel agency in China, and must be applied for through a travel agency.",
         "source": {
           "url": "https://cs.mfa.gov.cn/zggmcg/ljmdd/yz_645708/cx_646206/",
           "name": "China Consular Service (Ministry of Foreign Affairs of China) — North Korea country guide: entry and residence",
@@ -261,9 +261,12 @@
           "lastChanged": "2026-10-07"
         },
         "visaTypes": [
-          "tourist-card",
           "business-visa"
-        ]
+        ],
+        "quote": {
+          "text": "朝国际旅行社在华办事处等机构负责办理观光证，须通过旅行社申请。",
+          "url": "https://cs.mfa.gov.cn/zggmcg/ljmdd/yz_645708/cx_646206/"
+        }
       },
       "CO": {
         "requirement": "unconfirmed",
@@ -1224,7 +1227,7 @@
       "id": "tourist-visa",
       "category": "tourist",
       "method": "embassy",
-      "name": "Tourist visa (organised tour)",
+      "name": "Tourist visa",
       "fee": null,
       "processing": null,
       "validityDays": null,
@@ -1236,6 +1239,16 @@
         "name": "UK FCDO — North Korea travel advice: entry requirements",
         "type": "government",
         "lastVerified": "2026-10-02"
+      },
+      "evidence": {
+        "name": {
+          "text": "You must have a visa to enter North Korea.",
+          "url": "https://www.gov.uk/foreign-travel-advice/north-korea/entry-requirements"
+        },
+        "method": {
+          "text": "Send visa applications and enquires directly to the North Korean Embassy in the UK.",
+          "url": "https://www.gov.uk/foreign-travel-advice/north-korea/entry-requirements"
+        }
       }
     },
     {
@@ -1254,25 +1267,16 @@
         "name": "Government of Canada — North Korea travel advice (entry and exit requirements)",
         "type": "government",
         "lastVerified": "2026-10-03"
-      }
-    },
-    {
-      "id": "tourist-card",
-      "category": "tourist",
-      "method": "embassy",
-      "name": "Tourist card (through a travel agency)",
-      "fee": null,
-      "processing": null,
-      "validityDays": null,
-      "stayDays": null,
-      "entries": null,
-      "applyUrl": null,
-      "source": {
-        "url": "https://cs.mfa.gov.cn/zggmcg/ljmdd/yz_645708/cx_646206/",
-        "name": "China Consular Service (Ministry of Foreign Affairs of China) — North Korea country guide: visas and entry",
-        "type": "government",
-        "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-07"
+      },
+      "evidence": {
+        "name": {
+          "text": "Business visa: required",
+          "url": "https://travel.gc.ca/destinations/north-korea"
+        },
+        "method": {
+          "text": "You can obtain a visa from a North Korean mission in a third country after approval from the government in Pyongyang.",
+          "url": "https://travel.gc.ca/destinations/north-korea"
+        }
       }
     }
   ],

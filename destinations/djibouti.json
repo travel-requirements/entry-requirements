@@ -1087,7 +1087,7 @@
   "visaTypes": [
     {
       "id": "dj-evisa-short",
-      "category": "tourist",
+      "category": "transit",
       "method": "evisa",
       "name": "Transit eVisa (1–14 days)",
       "fee": {
@@ -1095,11 +1095,7 @@
         "currency": "USD",
         "notes": "The eVisa portal's FAQ lists USD 12 for a visa of 1 to 14 days (it calls this the transit visa)."
       },
-      "processing": {
-        "minDays": null,
-        "maxDays": 3,
-        "unit": "calendar-days"
-      },
+      "processing": null,
       "validityDays": null,
       "stayDays": 14,
       "entries": "single",
@@ -1116,16 +1112,20 @@
           "text": "eVisa fees vary by visa type; A transit visa (from 1 to 14 days) costs $12 and a short stay visa (from 15 to 90 days) will cost $23.",
           "url": "https://www.evisa.gouv.dj/applicant-api/#/faq"
         },
-        "processing": {
-          "text": "Your eVisa will usually be emailed to you within 72 hours of the date you completed your application and the decision elements are in place.",
-          "url": "https://www.evisa.gouv.dj/applicant-api/#/faq"
-        },
         "stayDays": {
           "text": "eVisa fees vary by visa type; A transit visa (from 1 to 14 days) costs $12 and a short stay visa (from 15 to 90 days) will cost $23.",
           "url": "https://www.evisa.gouv.dj/applicant-api/#/faq"
         },
         "entries": {
           "text": "No, the eVisa is only valid for one entry.",
+          "url": "https://www.evisa.gouv.dj/applicant-api/#/faq"
+        },
+        "name": {
+          "text": "eVisa fees vary by visa type; A transit visa (from 1 to 14 days) costs $12 and a short stay visa (from 15 to 90 days) will cost $23.",
+          "url": "https://www.evisa.gouv.dj/applicant-api/#/faq"
+        },
+        "method": {
+          "text": "Applicants can obtain their visa electronically, after providing the required information and making the payment online.",
           "url": "https://www.evisa.gouv.dj/applicant-api/#/faq"
         }
       },
@@ -1175,11 +1175,7 @@
         "currency": "USD",
         "notes": "The eVisa portal's FAQ lists USD 23 for a short-stay visa of 15 to 90 days."
       },
-      "processing": {
-        "minDays": null,
-        "maxDays": 3,
-        "unit": "calendar-days"
-      },
+      "processing": null,
       "validityDays": null,
       "stayDays": 90,
       "entries": "single",
@@ -1196,16 +1192,20 @@
           "text": "eVisa fees vary by visa type; A transit visa (from 1 to 14 days) costs $12 and a short stay visa (from 15 to 90 days) will cost $23.",
           "url": "https://www.evisa.gouv.dj/applicant-api/#/faq"
         },
-        "processing": {
-          "text": "Your eVisa will usually be emailed to you within 72 hours of the date you completed your application and the decision elements are in place.",
-          "url": "https://www.evisa.gouv.dj/applicant-api/#/faq"
-        },
         "stayDays": {
           "text": "eVisa fees vary by visa type; A transit visa (from 1 to 14 days) costs $12 and a short stay visa (from 15 to 90 days) will cost $23.",
           "url": "https://www.evisa.gouv.dj/applicant-api/#/faq"
         },
         "entries": {
           "text": "No, the eVisa is only valid for one entry.",
+          "url": "https://www.evisa.gouv.dj/applicant-api/#/faq"
+        },
+        "name": {
+          "text": "eVisa fees vary by visa type; A transit visa (from 1 to 14 days) costs $12 and a short stay visa (from 15 to 90 days) will cost $23.",
+          "url": "https://www.evisa.gouv.dj/applicant-api/#/faq"
+        },
+        "method": {
+          "text": "Applicants can obtain their visa electronically, after providing the required information and making the payment online.",
           "url": "https://www.evisa.gouv.dj/applicant-api/#/faq"
         }
       },

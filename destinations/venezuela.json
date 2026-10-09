@@ -3569,11 +3569,11 @@
       "id": "evisa-tourist",
       "category": "tourist",
       "method": "evisa",
-      "name": "Tourist visa, electronic application (Visa electrónica)",
+      "name": "Tourist visa, electronic application (Visa de Turista)",
       "fee": null,
       "processing": null,
-      "validityDays": null,
-      "stayDays": null,
+      "validityDays": 365,
+      "stayDays": 90,
       "entries": "multiple",
       "applyUrl": "https://cancilleriadigital.mppre.gob.ve/",
       "source": {
@@ -3647,14 +3647,34 @@
         "entries": {
           "text": "El visado de turista se otorgará con una vigencia de un (1) año, múltiples entradas y permitirá permanecer en el país por un período de hasta noventa (90) días.",
           "url": "https://mppre.gob.ve/descripcion/28"
+        },
+        "name": {
+          "text": "REQUISITOS VISA DE TURISTA",
+          "url": "https://mppre.gob.ve/requisitos-visa-electronica"
+        },
+        "validityDays": {
+          "text": "El visado de turista se otorgará con una vigencia de un (1) año, múltiples entradas y permitirá permanecer en el país por un período de hasta noventa (90) días.",
+          "url": "https://mppre.gob.ve/descripcion/28"
+        },
+        "stayDays": {
+          "text": "El visado de turista se otorgará con una vigencia de un (1) año, múltiples entradas y permitirá permanecer en el país por un período de hasta noventa (90) días.",
+          "url": "https://mppre.gob.ve/descripcion/28"
+        },
+        "extendable": {
+          "text": "Agotado dicho término no habrá prórroga para permanecer en el país.",
+          "url": "https://mppre.gob.ve/descripcion/28"
         }
+      },
+      "extendable": {
+        "possible": false,
+        "days": null
       }
     },
     {
       "id": "tourist-embassy",
       "category": "tourist",
       "method": "embassy",
-      "name": "Tourist visa (Visa de Turista, TU)",
+      "name": "Tourist visa (Visa de Turista, T)",
       "fee": null,
       "processing": null,
       "validityDays": 365,
@@ -3670,7 +3690,14 @@
         "name": "MPPRE — Visa de Transeúnte Negocios (TR-N) page, note on the tourist visa's validity, entries and stay (requirements: Visa de Turista page, mppre.gob.ve/descripcion/30)",
         "type": "government",
         "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-03"
+        "lastChanged": "2026-10-03",
+        "alsoStatedOn": [
+          {
+            "url": "https://mppre.gob.ve/descripcion/30",
+            "name": "MPPRE — Visa de Turista (T): requirements",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       },
       "evidence": {
         "validityDays": {
@@ -3688,6 +3715,14 @@
         "extendable": {
           "text": "Agotado dicho término no habrá prórroga para permanecer en el país.",
           "url": "https://mppre.gob.ve/descripcion/28"
+        },
+        "name": {
+          "text": "Visa de Turista (T)",
+          "url": "https://mppre.gob.ve/descripcion/30"
+        },
+        "method": {
+          "text": "Nota: El costo del arancel consular debe ser consultado en la Representación Diplomática o Consular.",
+          "url": "https://mppre.gob.ve/descripcion/30"
         }
       }
     },
@@ -3695,7 +3730,7 @@
       "id": "business-visa",
       "category": "business",
       "method": "embassy",
-      "name": "Business visa (Visa de Negocios, TR-N)",
+      "name": "Business visa (Visa de Transeúnte Negocios, TR-N)",
       "fee": null,
       "processing": null,
       "validityDays": null,
@@ -3708,17 +3743,23 @@
         "type": "government",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-10-07"
+      },
+      "evidence": {
+        "name": {
+          "text": "Visa de Transeúnte Negocios (TR-N)",
+          "url": "https://mppre.gob.ve/descripcion/28"
+        }
       }
     },
     {
       "id": "transit-visa",
       "category": "transit",
       "method": "embassy",
-      "name": "Transit visa (Visa de Transitorio)",
+      "name": "Transit visa (Visa de Tránsito, V-T)",
       "fee": null,
       "processing": null,
       "validityDays": null,
-      "stayDays": 3,
+      "stayDays": null,
       "entries": "single",
       "applyUrl": null,
       "source": {
@@ -3729,12 +3770,12 @@
         "lastChanged": "2026-10-03"
       },
       "evidence": {
-        "stayDays": {
+        "entries": {
           "text": "El visado de viajero de tránsito se otorgará por setenta y dos (72) horas, una sola entrada",
           "url": "https://mppre.gob.ve/descripcion/29"
         },
-        "entries": {
-          "text": "El visado de viajero de tránsito se otorgará por setenta y dos (72) horas, una sola entrada",
+        "name": {
+          "text": "Visa de Tránsito (V-T)",
           "url": "https://mppre.gob.ve/descripcion/29"
         }
       }
@@ -3743,7 +3784,7 @@
   "entryRequirements": {
     "passportValidity": {
       "rule": "6-months-beyond-stay",
-      "text": "The UK government says your passport must be valid for at least 6 months after the date you plan to leave Venezuela. Venezuela's Foreign Ministry lists a passport with at least six months' validity as mandatory for a visa application.",
+      "text": "The UK government tells British travellers their passport must be valid for at least 6 months after the date they plan to leave Venezuela. Venezuela's Foreign Ministry lists a passport with at least six months' validity as mandatory for a visa application.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/venezuela/entry-requirements",
         "name": "UK FCDO — Venezuela entry requirements",
@@ -3811,7 +3852,7 @@
     "onwardTicket": {
       "required": true,
       "appliesTo": "visa-free-arrivals",
-      "text": "Visitors entering visa-free by air on a tourist card must show a return or onward ticket, according to the UK government.",
+      "text": "The UK government tells British visitors that if they arrive by air they can stay up to 90 days visa-free on a tourist card issued on arrival, and must show their return or onward travel ticket.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/venezuela/entry-requirements",
         "name": "UK FCDO — Venezuela entry requirements",

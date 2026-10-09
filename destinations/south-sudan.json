@@ -4964,9 +4964,9 @@
   "visaTypes": [
     {
       "id": "evisa-tourist",
-      "category": "tourist",
+      "category": "other",
       "method": "evisa",
-      "name": "South Sudan Tourist eVisa",
+      "name": "Visa (applied for online)",
       "fee": null,
       "processing": {
         "minDays": null,
@@ -5005,43 +5005,20 @@
         "extendable": {
           "text": "If you want to extend your visa, contact the Ministry of the Interior in person",
           "url": "https://www.gov.uk/foreign-travel-advice/south-sudan/entry-requirements"
-        }
-      }
-    },
-    {
-      "id": "evisa-business",
-      "category": "business",
-      "method": "evisa",
-      "name": "Business eVisa",
-      "fee": null,
-      "processing": {
-        "minDays": null,
-        "maxDays": 3,
-        "unit": "calendar-days"
-      },
-      "validityDays": null,
-      "stayDays": null,
-      "entries": null,
-      "applyUrl": "https://evisa.gov.ss/",
-      "source": {
-        "url": "https://evisa.gov.ss/",
-        "name": "South Sudan eVisa portal — Directorate of Nationality, Passports and Immigration",
-        "type": "government",
-        "lastVerified": "2026-10-09",
-        "archiveUrl": "https://web.archive.org/web/20260728230127/https://evisa.gov.ss/",
-        "lastChanged": "2026-10-07",
-        "portalOnly": true
-      },
-      "evidence": {
-        "processing": {
-          "text": "Download your e-visa PDF from anywhere within 72 hours",
+        },
+        "name": {
+          "text": "Apply for a South Sudan Visa Online!",
+          "url": "https://evisa.gov.ss/"
+        },
+        "method": {
+          "text": "Apply for a South Sudan Visa Online!",
           "url": "https://evisa.gov.ss/"
         }
       }
     },
     {
       "id": "embassy-visa",
-      "category": "tourist",
+      "category": "other",
       "method": "embassy",
       "name": "Embassy visa",
       "fee": null,
@@ -5055,6 +5032,16 @@
         "name": "UK Foreign, Commonwealth & Development Office — South Sudan travel advice: entry requirements",
         "type": "government",
         "lastVerified": "2026-10-04"
+      },
+      "evidence": {
+        "name": {
+          "text": "apply through the South Sudanese Embassy for a visa",
+          "url": "https://www.gov.uk/foreign-travel-advice/south-sudan/entry-requirements"
+        },
+        "method": {
+          "text": "apply through the South Sudanese Embassy for a visa",
+          "url": "https://www.gov.uk/foreign-travel-advice/south-sudan/entry-requirements"
+        }
       }
     }
   ],

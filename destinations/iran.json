@@ -1565,11 +1565,7 @@
         "currency": "EUR",
         "notes": "EUR 50 is what Iran's embassy in Berlin charges German passport holders for a normal single-entry tourist visa (EUR 75 if urgent, for the same day or within at most 72 hours), plus EUR 10 for travel insurance; holders of Afghan passports and refugee passports pay EUR 80 (EUR 120 urgent). The embassy says agencies charge at most EUR 20 for registering the application, and that visas applied for through the agencies it lists are usually issued within at most 10 to 12 days of the application being handed in."
       },
-      "processing": {
-        "minDays": null,
-        "maxDays": 12,
-        "unit": "calendar-days"
-      },
+      "processing": null,
       "validityDays": null,
       "stayDays": null,
       "entries": "single",
@@ -1579,7 +1575,14 @@
         "name": "Embassy of the Islamic Republic of Iran, Berlin — Visa and visa fees (Visatarif für Inhaber deutscher Reisepässe)",
         "type": "government",
         "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-07"
+        "lastChanged": "2026-10-07",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/iran-node/iransicherheit-202396",
+            "name": "German Federal Foreign Office — Iran: Reise- und Sicherheitshinweise (Einreise und Zoll: Visum)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       },
       "documents": {
         "items": [
@@ -1625,9 +1628,13 @@
           "text": "Normale Touristenvisa – einmalige Einreise – 90 Tage (50 Euro + 10 Euro Reiseversicherung)",
           "url": "https://germany.mfa.ir/de/generalcategoryservices/10399"
         },
-        "processing": {
-          "text": "Die Ausstellung von Visa durch Firmen und Agenturen dauert i.d.R. ab dem Zeitpunkt der Übergabe des Antrags höchstens 10 bis 12 Tage.",
-          "url": "https://germany.mfa.ir/de/generalcategoryservices/10399"
+        "name": {
+          "text": "Vor Einreise kann ein Online-Visum (e-Visa) für die Einreise nach Iran beantragt werden.",
+          "url": "https://www.auswaertiges-amt.de/de/service/laender/iran-node/iransicherheit-202396"
+        },
+        "method": {
+          "text": "Das Visum wird nicht in den Pass geklebt, sondern als elektronisches Visum ausgestellt, das in Form eines Ausdrucks mitgeführt wird.",
+          "url": "https://www.auswaertiges-amt.de/de/service/laender/iran-node/iransicherheit-202396"
         }
       }
     },
@@ -1648,6 +1655,16 @@
         "type": "government",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "name": {
+          "text": "Apply for all Iranian International Airports",
+          "url": "https://evisa.mfa.ir/en/visa-arrival/"
+        },
+        "method": {
+          "text": "Citizens of foreign countries, who are entitled to obtain visas at border checkpoints, must pay visa fee through banking terminals at airport in euros.",
+          "url": "https://evisa.mfa.ir/en/visa-arrival/"
+        }
       }
     },
     {
@@ -1668,17 +1685,27 @@
         "lastVerified": "2026-10-09",
         "lastChanged": "2026-10-06",
         "portalOnly": true
+      },
+      "evidence": {
+        "name": {
+          "text": "some types of visa for the citizens of some countries should be applied for only in person through the relevant Embassy of the Islamic Republic of Iran.",
+          "url": "https://evisa.mfa.ir/en/"
+        },
+        "method": {
+          "text": "some types of visa for the citizens of some countries should be applied for only in person through the relevant Embassy of the Islamic Republic of Iran.",
+          "url": "https://evisa.mfa.ir/en/"
+        }
       }
     },
     {
       "id": "tourist-washington-us",
       "category": "tourist",
       "method": "embassy",
-      "name": "Tourist visa for US citizens through Iran's Interests Section in Washington (via a travel agency or host in Iran)",
+      "name": "Tourist visa for US citizens residing in the US or Canada, through Iran's Interests Section in Washington (via a travel agency or host in Iran)",
       "fee": {
         "amount": 75,
         "currency": "USD",
-        "notes": "USD 113 for expedited processing, plus a non-refundable insurance fee of USD 13 per application and a USD 40 processing and postage fee per package of up to 5 passports, paid by money order in US dollars to the \"Embassy of Pakistan\". Iran's Interests Section in Washington says citizens of the United States, the United Kingdom and Canada must apply only through travel agencies or their host in Iran, that the visa is issued electronically, that the average processing time is 10 business days (2 business days if urgent) from receipt of the documents, and that applicants must enter Iran within 45 days of issue and may stay for the period shown on the visa."
+        "notes": "USD 113 for expedited processing, plus a non-refundable insurance fee of USD 13 per application and a USD 40 processing and postage fee per package of up to 5 passports, paid by money order in US dollars to the \"Embassy of Pakistan\". Iran's Interests Section in Washington says only applicants currently residing in the USA and Canada may apply through it, that citizens of the United States, the United Kingdom and Canada must apply only through travel agencies or their host in Iran, that the visa is issued electronically, that the average processing time is 10 business days (2 business days if urgent) from receipt of the documents, and that applicants must enter Iran within 45 days of issue and may stay for the period shown on the visa."
       },
       "processing": null,
       "validityDays": 45,
@@ -1700,6 +1727,14 @@
         "validityDays": {
           "text": "Applicants must enter Iran within 45 days of visa issuance",
           "url": "https://www.daftar.org/portal/5?title=%D9%88%DB%8C%D8%B2%D8%A7"
+        },
+        "name": {
+          "text": "Only applicants currently residing in USA and Canada may apply through this office.",
+          "url": "https://www.daftar.org/portal/5?title=%D9%88%DB%8C%D8%B2%D8%A7"
+        },
+        "method": {
+          "text": "Applying with the United States, United Kingdom, and Canada passports must only apply through travel agencies or their host in Iran.",
+          "url": "https://www.daftar.org/portal/5?title=%D9%88%DB%8C%D8%B2%D8%A7"
         }
       }
     },
@@ -1707,11 +1742,11 @@
       "id": "tourist-washington-ca",
       "category": "tourist",
       "method": "embassy",
-      "name": "Tourist visa for Canadian citizens through Iran's Interests Section in Washington (via a travel agency or host in Iran)",
+      "name": "Tourist visa for Canadian citizens residing in the US or Canada, through Iran's Interests Section in Washington (via a travel agency or host in Iran)",
       "fee": {
         "amount": 63,
         "currency": "USD",
-        "notes": "USD 95 for expedited processing, plus a non-refundable insurance fee of USD 13 per application and a USD 40 processing and postage fee per package of up to 5 passports, paid by money order in US dollars to the \"Embassy of Pakistan\". Iran's Interests Section in Washington says citizens of the United States, the United Kingdom and Canada must apply only through travel agencies or their host in Iran, that the visa is issued electronically, that the average processing time is 10 business days (2 business days if urgent) from receipt of the documents, and that applicants must enter Iran within 45 days of issue and may stay for the period shown on the visa."
+        "notes": "USD 95 for expedited processing, plus a non-refundable insurance fee of USD 13 per application and a USD 40 processing and postage fee per package of up to 5 passports, paid by money order in US dollars to the \"Embassy of Pakistan\". Iran's Interests Section in Washington says only applicants currently residing in the USA and Canada may apply through it, that citizens of the United States, the United Kingdom and Canada must apply only through travel agencies or their host in Iran, that the visa is issued electronically, that the average processing time is 10 business days (2 business days if urgent) from receipt of the documents, and that applicants must enter Iran within 45 days of issue and may stay for the period shown on the visa."
       },
       "processing": null,
       "validityDays": 45,
@@ -1733,6 +1768,14 @@
         "validityDays": {
           "text": "Applicants must enter Iran within 45 days of visa issuance",
           "url": "https://www.daftar.org/portal/5?title=%D9%88%DB%8C%D8%B2%D8%A7"
+        },
+        "name": {
+          "text": "Only applicants currently residing in USA and Canada may apply through this office.",
+          "url": "https://www.daftar.org/portal/5?title=%D9%88%DB%8C%D8%B2%D8%A7"
+        },
+        "method": {
+          "text": "Applying with the United States, United Kingdom, and Canada passports must only apply through travel agencies or their host in Iran.",
+          "url": "https://www.daftar.org/portal/5?title=%D9%88%DB%8C%D8%B2%D8%A7"
         }
       }
     },
@@ -1740,11 +1783,11 @@
       "id": "tourist-washington-gb",
       "category": "tourist",
       "method": "embassy",
-      "name": "Tourist visa for UK citizens through Iran's Interests Section in Washington (via a travel agency or host in Iran)",
+      "name": "Tourist visa for UK citizens residing in the US or Canada, through Iran's Interests Section in Washington (via a travel agency or host in Iran)",
       "fee": {
         "amount": 225,
         "currency": "USD",
-        "notes": "USD 338 for expedited processing, plus a non-refundable insurance fee of USD 13 per application and a USD 40 processing and postage fee per package of up to 5 passports, paid by money order in US dollars to the \"Embassy of Pakistan\". Applicants with passports other than US or Canadian must send a copy of their valid immigration status document. Iran's Interests Section in Washington says citizens of the United States, the United Kingdom and Canada must apply only through travel agencies or their host in Iran, that the visa is issued electronically, that the average processing time is 10 business days (2 business days if urgent) from receipt of the documents, and that applicants must enter Iran within 45 days of issue and may stay for the period shown on the visa."
+        "notes": "USD 338 for expedited processing, plus a non-refundable insurance fee of USD 13 per application and a USD 40 processing and postage fee per package of up to 5 passports, paid by money order in US dollars to the \"Embassy of Pakistan\". Applicants with passports other than US or Canadian must send a copy of their valid immigration status document. Iran's Interests Section in Washington says only applicants currently residing in the USA and Canada may apply through it, that citizens of the United States, the United Kingdom and Canada must apply only through travel agencies or their host in Iran, that the visa is issued electronically, that the average processing time is 10 business days (2 business days if urgent) from receipt of the documents, and that applicants must enter Iran within 45 days of issue and may stay for the period shown on the visa."
       },
       "processing": null,
       "validityDays": 45,
@@ -1765,6 +1808,14 @@
         },
         "validityDays": {
           "text": "Applicants must enter Iran within 45 days of visa issuance",
+          "url": "https://www.daftar.org/portal/5?title=%D9%88%DB%8C%D8%B2%D8%A7"
+        },
+        "name": {
+          "text": "Only applicants currently residing in USA and Canada may apply through this office.",
+          "url": "https://www.daftar.org/portal/5?title=%D9%88%DB%8C%D8%B2%D8%A7"
+        },
+        "method": {
+          "text": "Applying with the United States, United Kingdom, and Canada passports must only apply through travel agencies or their host in Iran.",
           "url": "https://www.daftar.org/portal/5?title=%D9%88%DB%8C%D8%B2%D8%A7"
         }
       }

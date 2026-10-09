@@ -20,7 +20,7 @@
     "zambia",
     "south-africa"
   ],
-  "summary": "Mozambique's official eVisa portal sorts visitors into four groups: some nationalities are visa-exempt for 30 or 90 days; others, including the US, the UK, Canada, Japan, Germany, France and Italy, need an Electronic Travel Authorisation (eTA) for stays of up to 30 days; citizens of Pakistan, Bangladesh, Ethiopia, Nigeria, Nepal and Somalia must apply at an embassy; and everyone else applies online for an eVisa before travel.",
+  "summary": "Mozambique's official eVisa portal sorts visitors into four groups: some nationalities are visa-exempt for 30 or 90 days; others, including the US, the UK, Canada, Japan, Germany, France and Italy, need an Electronic Travel Authorisation (eTA) for stays of up to 30 days; citizens of Pakistan, Bangladesh, Ethiopia, Nigeria, Nepal and Somalia cannot apply through the portal but can request a visa at the nearest embassy; and everyone else applies online for an eVisa before travel.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -2211,7 +2211,7 @@
       "id": "mz-border-visa",
       "category": "tourist",
       "method": "visa-on-arrival",
-      "name": "Tourist border visa (visa on arrival)",
+      "name": "Border visa (Visto de fronteira)",
       "fee": null,
       "processing": null,
       "validityDays": null,
@@ -2226,8 +2226,18 @@
         "lastChanged": "2026-10-07",
         "archiveUrl": "https://web.archive.org/web/20240914081135/https://www.senami.gov.mz/wp-content/uploads/2020/09/Vistos-Tipos-Requisistos-Condi%C3%A7%C3%B5es-e-Taxas.pdf",
         "unverifiable": {
-          "lastAttempt": "2026-10-07",
+          "lastAttempt": "2026-10-09",
           "reason": "unreachable"
+        }
+      },
+      "evidence": {
+        "name": {
+          "text": "Visto de fronteira",
+          "url": "https://www.senami.gov.mz/wp-content/uploads/2020/09/Vistos-Tipos-Requisistos-Condi%C3%A7%C3%B5es-e-Taxas.pdf"
+        },
+        "method": {
+          "text": "É concedido ao cidadão estrangeiro pelos Serviços de Migração, nos Postos de Travessia, e destina-se a permitir a entrada em território nacional ao cidadão estrangeiro proveniente de país onde não haja representação diplomática ou consular da República de Moçambique;",
+          "url": "https://www.senami.gov.mz/wp-content/uploads/2020/09/Vistos-Tipos-Requisistos-Condi%C3%A7%C3%B5es-e-Taxas.pdf"
         }
       }
     },
@@ -2269,6 +2279,14 @@
         },
         "extendable": {
           "text": "If you need to extend your stay, you must contact the Mozambique Embassy directly.",
+          "url": "https://evisa.gov.mz/tourist-visa.html"
+        },
+        "name": {
+          "text": "You may apply for this eVisa if your purpose of travel is tourism, holiday or vacation",
+          "url": "https://evisa.gov.mz/tourist-visa.html"
+        },
+        "method": {
+          "text": "You may apply for this eVisa if your purpose of travel is tourism, holiday or vacation",
           "url": "https://evisa.gov.mz/tourist-visa.html"
         }
       },
@@ -2329,7 +2347,11 @@
       "category": "tourist",
       "method": "eta",
       "name": "Electronic Travel Authorisation (eTA)",
-      "fee": null,
+      "fee": {
+        "amount": 650,
+        "currency": "MZN",
+        "notes": "Processing fee set by Decree 10/2023, paid when pre-registering on evisa.gov.mz; the decree allows it to be updated by joint ministerial order. The UK government says the fee is approximately USD 47, including a USD 37 visa fee and the MZN 650 processing fee."
+      },
       "processing": null,
       "validityDays": null,
       "stayDays": 30,
@@ -2341,7 +2363,19 @@
         "type": "government",
         "lastVerified": "2026-10-09",
         "instrument": "Decreto n.º 10/2023, de 31 de Março, arts. 2 and 4 (30-day stay, extendable by 30 days; pre-registration on www.evisa.gov.mz at least 48 hours before boarding, MZN 650 processing fee)",
-        "lastChanged": "2026-10-05"
+        "lastChanged": "2026-10-05",
+        "alsoStatedOn": [
+          {
+            "url": "https://evisa.gov.mz/",
+            "name": "Mozambique eVisa & eTA official portal (National Immigration Service)",
+            "lastVerified": "2026-10-07"
+          },
+          {
+            "url": "https://www.gov.uk/foreign-travel-advice/mozambique/entry-requirements",
+            "name": "UK FCDO — Mozambique entry requirements",
+            "lastVerified": "2026-10-07"
+          }
+        ]
       },
       "evidence": {
         "stayDays": {
@@ -2355,6 +2389,18 @@
         "extendable": {
           "text": "O período de estadia referido no número anterior pode ser estendido por mais 30 dias, mediante fundamentação",
           "url": "https://mozambiquehighcommission.org.uk/files/br_63_i_serie_2023-2%5B1%5D.pdf"
+        },
+        "fee": {
+          "text": "O cidadão nacional do país abrangido pelo regime de isenção que pretenda entrar no território nacional deve proceder ao registro prévio, através do site www.evisa.gov.mz, com uma antecedência mínima de 48 horas antes do embarque, mediante o pagamento de uma taxa de processamento equivalente à 650 Meticais.",
+          "url": "https://mozambiquehighcommission.org.uk/files/br_63_i_serie_2023-2%5B1%5D.pdf"
+        },
+        "method": {
+          "text": "O cidadão nacional do país abrangido pelo regime de isenção que pretenda entrar no território nacional deve proceder ao registro prévio, através do site www.evisa.gov.mz, com uma antecedência mínima de 48 horas antes do embarque, mediante o pagamento de uma taxa de processamento equivalente à 650 Meticais.",
+          "url": "https://mozambiquehighcommission.org.uk/files/br_63_i_serie_2023-2%5B1%5D.pdf"
+        },
+        "name": {
+          "text": "British passport holders must get an Electronic Travel Authorisation (ETA) before travelling to Mozambique for tourism or business visits of up to 30 days.",
+          "url": "https://www.gov.uk/foreign-travel-advice/mozambique/entry-requirements"
         }
       },
       "extendable": {
@@ -2384,6 +2430,14 @@
         "stayDays": {
           "text": "You may request one extension of 30 days from immigration authorities.",
           "url": "https://travel.gc.ca/destinations/mozambique"
+        },
+        "name": {
+          "text": "You may request one extension of 30 days from immigration authorities.",
+          "url": "https://travel.gc.ca/destinations/mozambique"
+        },
+        "method": {
+          "text": "You may request one extension of 30 days from immigration authorities.",
+          "url": "https://travel.gc.ca/destinations/mozambique"
         }
       }
     },
@@ -2391,7 +2445,7 @@
       "id": "mz-embassy-tourist",
       "category": "tourist",
       "method": "embassy",
-      "name": "Tourist visa (Mozambican embassy or consulate)",
+      "name": "Tourist visa (Visto turístico)",
       "fee": null,
       "processing": null,
       "validityDays": null,
@@ -2406,8 +2460,18 @@
         "lastChanged": "2026-10-07",
         "archiveUrl": "https://web.archive.org/web/20240914081135/https://www.senami.gov.mz/wp-content/uploads/2020/09/Vistos-Tipos-Requisistos-Condi%C3%A7%C3%B5es-e-Taxas.pdf",
         "unverifiable": {
-          "lastAttempt": "2026-10-07",
+          "lastAttempt": "2026-10-09",
           "reason": "unreachable"
+        }
+      },
+      "evidence": {
+        "name": {
+          "text": "Visto turístico (artigo 11 da Lei 5/93, de 28 de Dezembro)",
+          "url": "https://www.senami.gov.mz/wp-content/uploads/2020/09/Vistos-Tipos-Requisistos-Condi%C3%A7%C3%B5es-e-Taxas.pdf"
+        },
+        "method": {
+          "text": "Concedido pelas Missões Diplomáticas e Consulares da República de Moçambique ao cidadão estrangeiro que se desloca a Moçambique em viagem de carácter turístico ou recreativo;",
+          "url": "https://www.senami.gov.mz/wp-content/uploads/2020/09/Vistos-Tipos-Requisistos-Condi%C3%A7%C3%B5es-e-Taxas.pdf"
         }
       }
     }
@@ -2464,14 +2528,20 @@
     },
     "onwardTicket": {
       "required": true,
-      "appliesTo": "all",
-      "text": "Decree 10/2023 requires the citizens it exempts from the visa to hold a return air ticket (not required when travelling by land) and proof of accommodation. The eVisa portal lists confirmed return tickets among the documents for a tourist eVisa application.",
+      "appliesTo": "visa-applicants",
+      "text": "The eVisa portal lists confirmed return tickets among the documents for a tourist eVisa application. Decree 10/2023 requires the citizens it exempts from the visa to hold a return air ticket, except when travelling by land, and proof of accommodation. No official source we could read states the requirement for the other visa-exempt nationalities.",
       "source": {
-        "url": "https://mozambiquehighcommission.org.uk/files/br_63_i_serie_2023-2%5B1%5D.pdf",
-        "name": "Decreto n.º 10/2023 (Boletim da República, I Série n.º 63, 31 March 2023)",
+        "url": "https://evisa.gov.mz/tourist-visa.html",
+        "name": "Mozambique eVisa portal — Tourist Visa",
         "type": "government",
-        "lastVerified": "2026-10-06",
-        "lastChanged": "2026-10-06"
+        "lastVerified": "2026-10-07",
+        "alsoStatedOn": [
+          {
+            "url": "https://mozambiquehighcommission.org.uk/files/br_63_i_serie_2023-2%5B1%5D.pdf",
+            "name": "Decreto n.º 10/2023 (Boletim da República, I Série n.º 63, 31 March 2023)",
+            "lastVerified": "2026-10-06"
+          }
+        ]
       }
     },
     "proofOfFunds": {
@@ -2658,7 +2728,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Mozambique?",
-      "answer": "It depends on your passport. Mozambique's official eVisa portal (evisa.gov.mz) lists some nationalities as visa-exempt for 30 or 90 days. Citizens of other countries, including the US, the UK, Canada, Portugal, Germany and France, need an Electronic Travel Authorisation (eTA) before travel, for stays of up to 30 days. Citizens of Pakistan, Bangladesh, Ethiopia, Nigeria, Nepal and Somalia cannot use the portal and must apply at a Mozambican embassy. Everyone else applies online for an eVisa before travelling."
+      "answer": "It depends on your passport. Mozambique's official eVisa portal (evisa.gov.mz) lists some nationalities as visa-exempt for 30 or 90 days. Citizens of other countries, including the US, the UK, Canada, Portugal, Germany and France, need an Electronic Travel Authorisation (eTA) before travel, for stays of up to 30 days. Citizens of Pakistan, Bangladesh, Ethiopia, Nigeria, Nepal and Somalia cannot use the portal but can request a visa at the nearest Mozambican embassy. Everyone else applies online for an eVisa before travelling."
     },
     {
       "id": "border-fee",

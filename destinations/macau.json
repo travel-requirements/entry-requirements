@@ -14,7 +14,7 @@
     "singapore",
     "taiwan"
   ],
-  "summary": "Macao runs its own entry regime, separate from mainland China: EU and other listed passports get 90 visa-free days (British citizens six months), others get 30, and visitors who are not exempt can apply for a visa on arrival at the border, except six nationalities (Bangladesh, Nepal, Nigeria, Pakistan, Sri Lanka and Vietnam) that the Public Security Police says must apply in advance through Chinese diplomatic missions.",
+  "summary": "Macao runs its own entry regime, separate from mainland China: the Public Security Police lists 88 visa-exempt nationalities, whose stay limit is 30 days unless otherwise listed (90 days for EU and Schengen passports and some others, 14 days for Brunei and Kazakhstan, 3 months for Cyprus, Israel, Lebanon and New Zealand, six months for British citizens), and visitors who are not exempt can apply for a visa-upon-arrival at the border, except six nationalities (Bangladesh, Nepal, Nigeria, Pakistan, Sri Lanka and Vietnam) that must apply in advance through Chinese diplomatic missions.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -1462,11 +1462,11 @@
       "id": "visa-on-arrival",
       "category": "tourist",
       "method": "visa-on-arrival",
-      "name": "Visa on Arrival",
+      "name": "Entry Permit (visa-upon-arrival)",
       "fee": {
         "amount": 200,
         "currency": "MOP",
-        "notes": "MOP 200 single entry or MOP 300 multiple entries within the 30-day stay; children under 12 and members of groups of 10 or more MOP 100 (MOP 150 multiple); family passports MOP 400 (MOP 600 multiple). Payable at the border checkpoint."
+        "notes": "MOP 200 single entry or MOP 300 multiple entries within the stay granted (a maximum of 30 days); children under 12, and groups of at least 10 people organized by a single travel manager and presenting a collective travel document, MOP 100 (MOP 150 multiple); family passports MOP 400 (MOP 600 multiple)."
       },
       "processing": null,
       "validityDays": null,
@@ -1489,6 +1489,14 @@
         "stayDays": {
           "text": "They will also be granted Authorization to Stay for a maximum of 30 days once the application is approved.",
           "url": "https://www.gov.mo/en/services/ps-1474/ps-1474b/"
+        },
+        "name": {
+          "text": "Apply for an “Entry Permit” (aka “Visa-upon-arrival”) at any of the border checkpoints of the Border Control Department of the Public Security Police upon arrival at Macao; or",
+          "url": "https://www.gov.mo/en/services/ps-1474/ps-1474b/"
+        },
+        "method": {
+          "text": "Apply for an “Entry Permit” (aka “Visa-upon-arrival”) at any of the border checkpoints of the Border Control Department of the Public Security Police upon arrival at Macao; or",
+          "url": "https://www.gov.mo/en/services/ps-1474/ps-1474b/"
         }
       }
     },
@@ -1496,17 +1504,13 @@
       "id": "advance-entry-visa",
       "category": "tourist",
       "method": "embassy",
-      "name": "Advance Entry Visa (via Chinese diplomatic missions)",
+      "name": "Macao ordinary visitor visa (applied for through Chinese diplomatic missions)",
       "fee": {
         "amount": 30,
         "currency": "USD",
-        "notes": "USD 30 per application plus USD 15 per accompanying child; a USD 20 communication fee is added when the mission relays the application to the Public Security Police Force. Collected by the Chinese diplomatic mission, whose charges prevail."
+        "notes": "USD 30 per regular application plus USD 15 per accompanying child; a USD 20 communication fee is added when the application is relayed to the Public Security Police Force. The Public Security Police says the charges are collected by the Chinese diplomatic mission and to ask the mission for its specific charge standard and processing time; regular applications not relayed to it are expected to be ready on the fourth working day, and its own vetting of relayed applications usually takes 7 working days."
       },
-      "processing": {
-        "minDays": 4,
-        "maxDays": 7,
-        "unit": "business-days"
-      },
+      "processing": null,
       "validityDays": null,
       "stayDays": null,
       "entries": null,
@@ -1524,8 +1528,12 @@
           "text": "Regular application: USD30, an additional USD15 per accompanying child",
           "url": "https://www.fsm.gov.mo/psp/eng/psp_top5_3m.html"
         },
-        "processing": {
-          "text": "Regular service: Expected to be ready for collection on the fourth working day (applications that do not have to be relayed to the Macao Public Security Police Force) Vetting process of the Macao Public Security Police Force usually takes 7 working days from the day all the required documents are correctly prepared",
+        "name": {
+          "text": "Types of Macao visa: (1) Diplomatic visa; (2) Official visa; (3) Ordinary visitor visa.",
+          "url": "https://www.fsm.gov.mo/psp/eng/psp_top5_3m.html"
+        },
+        "method": {
+          "text": "Application Approach Apply to the diplomatic missions of China or other representative offices accredited by the Ministry of Foreign Affairs of China",
           "url": "https://www.fsm.gov.mo/psp/eng/psp_top5_3m.html"
         }
       }
@@ -1560,7 +1568,7 @@
     "onwardTicket": {
       "required": true,
       "appliesTo": "all",
-      "text": "Visitors must hold a valid onward or return ticket, unless they can prove they live in mainland China or Hong Kong.",
+      "text": "Visitors must hold a valid onward or return ticket, unless they can prove they live in mainland China or Hong Kong; that exemption does not apply to Chinese or Hong Kong SAR passport holders transiting Macao to another country or region.",
       "source": {
         "url": "https://www.gov.mo/en/services/ps-1474/ps-1474b/",
         "name": "Macao SAR Government Portal — Immigration Clearance of Non-residents of Macao (Public Security Police Force)",

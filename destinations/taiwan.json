@@ -2329,7 +2329,7 @@
       "id": "visitor-visa",
       "category": "tourist",
       "method": "embassy",
-      "name": "Visitor visa (Taipei representative office)",
+      "name": "Visitor visa",
       "fee": {
         "amount": 50,
         "currency": "USD",
@@ -2351,6 +2351,14 @@
         "fee": {
           "text": "Single Entry Visitor Visa: NT$1,600 per application made in Taiwan; US$50 per application made overseas.",
           "url": "https://www.boca.gov.tw/cp-160-7204-78395-2.html"
+        },
+        "name": {
+          "text": "Single Entry Visitor Visa: NT$1,600 per application made in Taiwan; US$50 per application made overseas.",
+          "url": "https://www.boca.gov.tw/cp-160-7204-78395-2.html"
+        },
+        "method": {
+          "text": "The Ministry of Foreign Affairs (hereinafter referred to as the “Ministry”) and overseas missions of the Republic of China (hereinafter referred to as “ROC overseas missions”) shall collect the following fees when handling visas:",
+          "url": "https://www.boca.gov.tw/cp-160-7204-78395-2.html"
         }
       }
     },
@@ -2358,16 +2366,16 @@
       "id": "evisa",
       "category": "tourist",
       "method": "evisa",
-      "name": "Taiwan eVisa",
+      "name": "eVisa",
       "fee": {
         "amount": 1600,
         "currency": "TWD",
         "notes": "Plus an NT$46 processing fee for the online credit card payment (NT$1,646 in total). BOCA's 2020 notice gives the eVisa processing time as about three working days."
       },
       "processing": null,
-      "validityDays": null,
-      "stayDays": null,
-      "entries": null,
+      "validityDays": 90,
+      "stayDays": 30,
+      "entries": "single",
       "applyUrl": "https://www.boca.gov.tw/",
       "source": {
         "url": "https://www.boca.gov.tw/cp-181-4492-0447f-2.html",
@@ -2385,6 +2393,11 @@
             "url": "https://www.boca.gov.tw/cp-220-5572-6a35d-2.html",
             "name": "Bureau of Consular Affairs — notice of 30 April 2020: eVisa processing time about three working days",
             "lastVerified": "2026-10-07"
+          },
+          {
+            "url": "https://visawebapp.boca.gov.tw/BOCA_EVISA/MRV04FORM.do",
+            "name": "Bureau of Consular Affairs (Taiwan) — eVisa: eligibility, requirements, validity and duration of stay",
+            "lastVerified": "2026-10-09"
           }
         ],
         "conflict": {
@@ -2410,14 +2423,38 @@
         "fee": {
           "text": "The application fee for an eVisa is NT$1,600.",
           "url": "https://www.boca.gov.tw/cp-181-4492-0447f-2.html"
+        },
+        "validityDays": {
+          "text": "The validity of an eVisa is three months starting from the issue date. The eVisa is a single-entry visa, and the maximum duration of stay in Taiwan is 30 days, which cannot be extended and converted to other types of visas.",
+          "url": "https://visawebapp.boca.gov.tw/BOCA_EVISA/MRV04FORM.do"
+        },
+        "stayDays": {
+          "text": "The validity of an eVisa is three months starting from the issue date. The eVisa is a single-entry visa, and the maximum duration of stay in Taiwan is 30 days, which cannot be extended and converted to other types of visas.",
+          "url": "https://visawebapp.boca.gov.tw/BOCA_EVISA/MRV04FORM.do"
+        },
+        "entries": {
+          "text": "The validity of an eVisa is three months starting from the issue date. The eVisa is a single-entry visa, and the maximum duration of stay in Taiwan is 30 days, which cannot be extended and converted to other types of visas.",
+          "url": "https://visawebapp.boca.gov.tw/BOCA_EVISA/MRV04FORM.do"
+        },
+        "extendable": {
+          "text": "The validity of an eVisa is three months starting from the issue date. The eVisa is a single-entry visa, and the maximum duration of stay in Taiwan is 30 days, which cannot be extended and converted to other types of visas.",
+          "url": "https://visawebapp.boca.gov.tw/BOCA_EVISA/MRV04FORM.do"
+        },
+        "name": {
+          "text": "Nationals of the following countries are eligible for an eVisa when they meet relevant criteria: Armenia*, Bahrain, Bosnia and Herzegovina, Colombia*, Dominica, Ecuador, Haiti, Kazakhstan*, Kuwait, Mauritius, Montenegro, Oman, Panama, Peru, Qatar, Russia*, Saudi Arabia, Türkiye*, United Arab Emirates, Uzbekistan*.",
+          "url": "https://visawebapp.boca.gov.tw/BOCA_EVISA/MRV04FORM.do"
         }
+      },
+      "extendable": {
+        "possible": false,
+        "days": null
       }
     },
     {
       "id": "travel-authorization",
       "category": "tourist",
       "method": "eta",
-      "name": "Online travel authorization (Southeast Asia program)",
+      "name": "Travel Authorization Certificate (TAC)",
       "fee": null,
       "processing": null,
       "validityDays": 90,
@@ -2441,6 +2478,10 @@
         },
         "entries": {
           "text": "Multiple entries within these 90 days are allowed.",
+          "url": "https://niaspeedy.immigration.gov.tw/nia_southeast/doMessage?language=1"
+        },
+        "name": {
+          "text": "Nationals of India, Indonesia, Laos, Myanmar, and Vietnam can apply online for an R.O.C.(Taiwan) Travel Authorization Certificate (TAC)",
           "url": "https://niaspeedy.immigration.gov.tw/nia_southeast/doMessage?language=1"
         }
       }
@@ -2466,6 +2507,10 @@
       "evidence": {
         "stayDays": {
           "text": "自入境翌日起，可停留30天。",
+          "url": "https://www.immigration.gov.tw/5382/5385/12162/12209//CP_QA?alias=QAClass&type=%E6%B8%AF%E6%BE%B3%E4%BA%BA%E5%A3%AB%E7%94%B3%E8%BE%A6%E7%9B%B8%E9%97%9C"
+        },
+        "name": {
+          "text": "持憑網路申請的「香港澳門居民網路申辦入臺許可同意書暨入境登記表」（網簽）入臺後可停留多少天？",
           "url": "https://www.immigration.gov.tw/5382/5385/12162/12209//CP_QA?alias=QAClass&type=%E6%B8%AF%E6%BE%B3%E4%BA%BA%E5%A3%AB%E7%94%B3%E8%BE%A6%E7%9B%B8%E9%97%9C"
         }
       }
@@ -2683,14 +2728,14 @@
     {
       "id": "online-arrival-card",
       "type": "tip",
-      "text": "Submit the free online Taiwan Arrival Card through the National Immigration Agency's TWAC site, which says to complete it within 7 days before arrival. The UK and Canadian travel advice say within 3 days, so filing in the last 3 days satisfies both."
+      "text": "Submit the free online Taiwan Arrival Card through the National Immigration Agency's TWAC site, which says to complete it within 7 days before arrival. The UK and Canadian travel advice say within 3 days."
     }
   ],
   "faq": [
     {
       "id": "need-visa",
       "question": "Do I need a visa for Taiwan?",
-      "answer": "Not if your nationality is on BOCA's visa-exempt list: the EU, UK, US, Canada, Japan, South Korea, Australia, New Zealand and others get 90 days visa-free; Singapore, Malaysia, the Dominican Republic, Belize, Saint Kitts and Nevis, Saint Lucia and Saint Vincent and the Grenadines get 30 days; and Thailand, the Philippines, Brunei and Oman get 14 days. Other nationalities, including the Gulf states, can apply online for an eVisa, and citizens of India, Indonesia, Laos, Myanmar and Vietnam can apply online for a Travel Authorization Certificate. Everyone else applies for a visitor visa at a Taiwan overseas mission."
+      "answer": "Not if your nationality is on BOCA's visa-exempt list: the EU, UK, US, Canada, Japan, South Korea, Australia, New Zealand and others get 90 days visa-free; Singapore, Malaysia, the Dominican Republic, Belize, Saint Kitts and Nevis, Saint Lucia and Saint Vincent and the Grenadines get 30 days; and Thailand, the Philippines, Brunei and Oman get 14 days. BOCA lists other nationalities, among them Bahrain, Kuwait, Qatar, Saudi Arabia and the United Arab Emirates, as eligible for an online eVisa when they meet the relevant criteria, and nationals of India, Indonesia, Laos, Myanmar and Vietnam who meet the National Immigration Agency's requirements (such as holding certain visas or residence permits) can apply online for a Travel Authorization Certificate. Foreign nationals not eligible for an eVisa apply at a Taiwan overseas mission."
     },
     {
       "id": "us-stay",
@@ -2705,7 +2750,7 @@
     {
       "id": "hk-mo",
       "question": "Do Hong Kong and Macao residents need a visa for Taiwan?",
-      "answer": "Not a visa — Hong Kong and Macao residents can apply online to Taiwan's National Immigration Agency for an entry permit."
+      "answer": "Not a visa. Taiwan's National Immigration Agency says Hong Kong or Macao residents can apply for an online entry permit (網簽) if they meet its eligibility rules; those who do not qualify, or who plan to stay longer than 30 days, apply for an entry and exit permit."
     },
     {
       "id": "onward-needed",

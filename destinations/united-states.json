@@ -15,7 +15,7 @@
     "spain",
     "japan"
   ],
-  "summary": "The United States admits Visa Waiver Program nationals with an ESTA travel authorization ($40.27, valid 2 years) for stays up to 90 days, lets Canadians visit visa-free for up to 6 months, and requires other visitors to obtain a B1/B2 visitor visa ($185) at a US embassy; citizens of the Marshall Islands and Micronesia, and Bahamians precleared in the Bahamas, also enter without a visa. Presidential proclamations of June and December 2025 suspend entry on visitor visas for citizens of the countries they list and for holders of Palestinian Authority travel documents, with limited exemptions.",
+  "summary": "The United States admits Visa Waiver Program nationals with an ESTA travel authorization ($40.27, valid 2 years) for stays up to 90 days, generally exempts Canadian citizens from a visa (CBP says those arriving by land or sea may generally visit for up to six months), and requires other visitors to obtain a B-1/B-2 visitor visa ($185), with an interview at a US embassy or consulate; citizens of the Marshall Islands and Micronesia, and Bahamians precleared in the Bahamas, also enter without a visa. Presidential proclamations of June and December 2025 suspend entry on visitor visas for citizens of the countries they list and for holders of Palestinian Authority travel documents, with limited exemptions.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -64,6 +64,16 @@
           "url": "https://www.ecfr.gov/current/title-22/section-22.1",
           "name": "eCFR — 22 CFR 22.1, Schedule of fees for consular services, item 21(a): non-petition-based nonimmigrant visa (except E) USD 185",
           "lastVerified": "2026-10-09"
+        },
+        {
+          "url": "https://www.ecfr.gov/current/title-8/section-217.2",
+          "name": "eCFR — 8 CFR 217.2(a): \"Designated country refers to any country currently designated by the Secretary for participation in the Visa Waiver Program. DHS maintains a list of designated countries at https://www.dhs.gov/visa-waiver-program.\"",
+          "lastVerified": "2026-10-09"
+        },
+        {
+          "url": "https://www.dhs.gov/visa-waiver-program",
+          "name": "U.S. Department of Homeland Security — Visa Waiver Program, \"Current Program Countries: The following countries are currently designated for participation in the VWP\" (the list of 42 countries 8 CFR 217.2(a) points to)",
+          "lastVerified": "2026-10-09"
         }
       ],
       "list": {
@@ -101,14 +111,25 @@
       },
       "CA": {
         "requirement": "visa-free",
-        "maxStayDays": 180,
+        "maxStayDays": null,
         "extendableDays": null,
-        "notes": null,
+        "notes": "CBP says Canadian citizens traveling to the United States by land or sea must present one of the listed travel documents and may generally visit for up to six months.",
         "source": {
           "url": "https://www.help.cbp.gov/s/article/Article-1418?language=en_US",
           "name": "CBP Information Center — Documents required for Canadian citizens to enter the U.S. and how long they can stay",
           "type": "government",
-          "lastVerified": "2026-10-03"
+          "lastVerified": "2026-10-03",
+          "alsoStatedOn": [
+            {
+              "url": "https://www.ecfr.gov/current/title-8/section-212.1",
+              "name": "eCFR — 8 CFR 212.1(a)(1): \"A visa is generally not required for Canadian citizens, except those Canadians that fall under nonimmigrant visa categories E, K, S, or V\"",
+              "lastVerified": "2026-10-09"
+            }
+          ]
+        },
+        "quote": {
+          "text": "By land and sea (including ferries) - Canadian citizens traveling to the United States by land or sea are required to present one of the travel documents listed below, and may generally visit the United States for up to six months.",
+          "url": "https://www.help.cbp.gov/s/article/Article-1418?language=en_US"
         }
       },
       "AU": {
@@ -2833,8 +2854,24 @@
             "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-01/html/2026-20185.htm",
             "name": "Federal Register — Certain DHS Immigration-Related Fees Required by HR-1: Fiscal Year 2027 Adjustments for Inflation (ESTA USD 40.62 = 17 + 10.62 + 13 from 16 October 2026)",
             "lastVerified": "2026-10-09"
+          },
+          {
+            "url": "https://www.ecfr.gov/current/title-8/section-217.5",
+            "name": "eCFR — 8 CFR 217.5(a), (b)(2): every VWP traveller by air, sea or land must receive an ESTA travel authorization; by land, before applying for admission",
+            "lastVerified": "2026-10-09"
+          },
+          {
+            "url": "https://www.help.cbp.gov/s/article/Article-1418?language=en_US",
+            "name": "CBP Information Center — Article 1418: VWP travelers entering by land need an approved ESTA (effective 1 October 2022); apply at least 72 hours before arriving at a land port of entry",
+            "lastVerified": "2026-10-09"
           }
-        ]
+        ],
+        "conflict": {
+          "url": "https://esta.cbp.dhs.gov/faq",
+          "name": "U.S. Customs and Border Protection — Official ESTA website, Frequently Asked Questions",
+          "states": "If you are a citizen of a Visa Waiver Program country and you enter the U.S. by land from Mexico or Canada, an ESTA is not required",
+          "resolvedBy": "hierarchy"
+        }
       },
       "documents": {
         "items": [
@@ -2898,7 +2935,7 @@
       "id": "b1-b2",
       "category": "tourist",
       "method": "embassy",
-      "name": "B1/B2 Visitor Visa (Business/Tourism)",
+      "name": "B-1/B-2 Visitor Visa (Business/Tourism)",
       "fee": {
         "amount": 185,
         "currency": "USD",
@@ -2932,6 +2969,11 @@
             "url": "https://www.gov.uk/foreign-travel-advice/usa/entry-requirements",
             "name": "UK FCDO — USA travel advice: Entry requirements (US visa appointments)",
             "lastVerified": "2026-10-09"
+          },
+          {
+            "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+            "name": "U.S. Department of State — Visitor Visa (B-1 business, B-2 tourism, B-1/B-2 combination; interview at a U.S. Embassy or Consulate). Live page behind a Cloudflare challenge; read via Wayback 2026-05-02",
+            "lastVerified": "2026-10-09"
           }
         ]
       },
@@ -2939,6 +2981,14 @@
         "fee": {
           "text": "(a) Non-petition-based nonimmigrant visa (except E category) $185",
           "url": "https://www.ecfr.gov/current/title-22/section-22.1"
+        },
+        "name": {
+          "text": "Visitor visas are nonimmigrant visas for persons who want to enter the United States temporarily for business (B-1 visa), for tourism (B-2 visa), or for a combination of both purposes (B-1/B-2 visa).",
+          "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html"
+        },
+        "method": {
+          "text": "You should generally schedule an appointment for your visa interview at the U.S. Embassy or Consulate in the country where you live.",
+          "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html"
         }
       }
     },
@@ -3000,6 +3050,14 @@
         "extendable": {
           "text": "Students who need additional time from what is listed on their Admit Until Date must apply for an EOS with USCIS or depart the United States and obtain a new period of admission from CBP upon reentry.",
           "url": "https://studyinthestates.dhs.gov/final-rule-establishing-a-fixed-time-period-of-admission-and-an-extension-of-stay-procedure-quick"
+        },
+        "name": {
+          "text": "F-1 and M-1 student visas can be issued up to 365 days in advance of your course of study start date.",
+          "url": "https://studyinthestates.dhs.gov/students/prepare/students-and-the-form-i-20"
+        },
+        "method": {
+          "text": "You are expected to have the original Form I-20 at your visa interview.",
+          "url": "https://studyinthestates.dhs.gov/students/prepare/students-and-the-form-i-20"
         }
       }
     },
@@ -3036,6 +3094,11 @@
             "url": "https://www.ecfr.gov/current/title-8/section-214.2",
             "name": "eCFR — 8 CFR 214.2(c)(1): C-1 transit aliens 'may be admitted for a period not to exceed 29 days'",
             "lastVerified": "2026-10-09"
+          },
+          {
+            "url": "https://www.ecfr.gov/current/title-22/section-41.12",
+            "name": "eCFR — 22 CFR 41.12, Classification symbols (C1: Noncitizen in Transit, INA 101(a)(15)(C))",
+            "lastVerified": "2026-10-09"
           }
         ]
       },
@@ -3047,6 +3110,10 @@
         "stayDays": {
           "text": "An alien of the class defined in section 101(a)(15)(C)(i) of the Act may be admitted for a period not to exceed 29 days.",
           "url": "https://www.ecfr.gov/current/title-8/section-214.2"
+        },
+        "name": {
+          "text": "C1 Noncitizen in Transit INA 101(a)(15)(C).",
+          "url": "https://www.ecfr.gov/current/title-22/section-41.12"
         }
       }
     }
@@ -3105,7 +3172,7 @@
       "required": null,
       "appliesTo": null,
       "amount": null,
-      "text": "No official source we could read states a fixed amount. Visa Waiver travelers arriving at a land border must show evidence of financial solvency and a home abroad they will return to. Visa applicants may be asked at interview to show they can pay all the costs of the trip.",
+      "text": "No official source we could read states a fixed amount. Visa Waiver travelers arriving at a land border must show evidence of financial solvency and a home abroad they will return to. The State Department says visitor visa applicants may be asked for additional documents, which may include evidence of their ability to pay all costs of the trip.",
       "source": {
         "url": "https://www.cbp.gov/travel/international-visitors/visa-waiver-program/requirements-immigrant-and-nonimmigrant-visas",
         "name": "U.S. Customs and Border Protection — Visa Requirements and Visa Waiver Program conditions",
@@ -3289,12 +3356,12 @@
     {
       "id": "esta-official",
       "type": "tip",
-      "text": "Apply for ESTA on the official site esta.cbp.dhs.gov, where the fee is $40.27 ($40.62 from 16 October 2026)."
+      "text": "Apply for ESTA on the official site esta.cbp.dhs.gov, where the fee is $40.27. A DHS notice in the Federal Register raises it to $40.62 from 16 October 2026."
     },
     {
       "id": "esta-timing",
       "type": "info",
-      "text": "DHS recommends applying for ESTA when you make your travel plans, and an approved travel authorization is required before boarding. CBP encourages travelers entering by land to apply at least 72 hours ahead."
+      "text": "DHS recommends applying for ESTA when you make your travel plans, and an approved travel authorization is required before boarding. Visa Waiver Program travelers entering by land also need an approved ESTA before they apply for admission (8 CFR 217.5), and CBP encourages them to apply at least 72 hours before arriving at a U.S. land port of entry."
     },
     {
       "id": "visa-wait",
@@ -3321,17 +3388,17 @@
     {
       "id": "b1b2-cost",
       "question": "How much does a US visitor visa cost?",
-      "answer": "The B1/B2 visitor visa application fee is $185. Depending on nationality, a reciprocity issuance fee may also be due when the visa is issued."
+      "answer": "The B-1/B-2 visitor visa application fee is $185. Depending on nationality, a reciprocity issuance fee may also be due when the visa is issued."
     },
     {
       "id": "canada-esta",
       "question": "Do Canadian citizens need ESTA or a visa for the US?",
-      "answer": "No. Canadian citizens can enter the United States for tourism or business without a visa or ESTA and stay for up to 6 months."
+      "answer": "Canadian citizens generally do not need a visa: 8 CFR 212.1 says a visa is generally not required for Canadian citizens, except those in nonimmigrant visa categories E, K, S or V. ESTA is for citizens of the Visa Waiver Program countries listed by DHS, and Canada is not on that list. CBP says Canadian citizens traveling by land or sea may generally visit for up to six months."
     },
     {
       "id": "romania-vwp",
       "question": "Is Romania in the US Visa Waiver Program?",
-      "answer": "No. DHS designated Romania for the Visa Waiver Program on 9 January 2025, paused implementation on 25 March 2025 and rescinded the designation on 2 May 2025, so Romanian citizens need a B1/B2 visitor visa ($185)."
+      "answer": "No. DHS designated Romania for the Visa Waiver Program on 9 January 2025, paused implementation on 25 March 2025 and rescinded the designation on 2 May 2025, so Romanian citizens need a B-1/B-2 visitor visa ($185)."
     }
   ]
 }

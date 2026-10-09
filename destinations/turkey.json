@@ -21,7 +21,7 @@
     "spain",
     "thailand"
   ],
-  "summary": "Türkiye's Ministry of Foreign Affairs lists, nationality by nationality, who is exempt from a visa — ordinary passport holders of the US and of EU countries other than the Republic of Cyprus, for up to 90 days in any 180 — and who can obtain an e-Visa at www.evisa.gov.tr, including a conditional e-Visa for some nationalities holding a valid Schengen, US, UK or Irish visa or residence permit.",
+  "summary": "Türkiye's Ministry of Foreign Affairs lists, nationality by nationality, who is exempt from a visa — ordinary passport holders of the US and of EU countries other than the Republic of Cyprus, for up to 90 days in any 180 — and who can obtain an e-Visa at www.evisa.gov.tr, including, for some nationalities, a single-entry e-Visa for holders of a valid Schengen, US, UK or Irish visa or residence permit who meet certain conditions.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -2217,13 +2217,9 @@
       "id": "tourist-evisa",
       "category": "tourist",
       "method": "evisa",
-      "name": "e-Visa (Tourism / Business)",
+      "name": "e-Visa (tourism or commerce)",
       "fee": null,
-      "processing": {
-        "minDays": 3,
-        "maxDays": 3,
-        "unit": "minutes"
-      },
+      "processing": null,
       "validityDays": null,
       "stayDays": null,
       "entries": null,
@@ -2236,7 +2232,11 @@
         "lastChanged": "2026-10-09"
       },
       "evidence": {
-        "processing": {
+        "name": {
+          "text": "Please note that e-visa is only valid when the purpose of travel is tourism or commerce.",
+          "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa"
+        },
+        "method": {
           "text": "This system allows visitors travelling to Türkiye to easily obtain their e-Visas online (www.evisa.gov.tr), in approximately three minutes.",
           "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa"
         }
@@ -2246,10 +2246,10 @@
       "id": "tourist-evisa-conditional",
       "category": "tourist",
       "method": "evisa",
-      "name": "Conditional e-Visa (with supporting documents)",
+      "name": "Single-entry e-Visa for holders of a Schengen, US, UK or Irish visa or residence permit",
       "fee": null,
       "processing": null,
-      "validityDays": null,
+      "validityDays": 30,
       "stayDays": null,
       "entries": "single",
       "applyUrl": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
@@ -2264,6 +2264,18 @@
         "entries": {
           "text": "may get their single entry e-Visas valid for one month e-Visas via the website www.evisa.gov.tr, provided that they meet certain conditions.",
           "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa"
+        },
+        "validityDays": {
+          "text": "may get their single entry e-Visas valid for one month e-Visas via the website www.evisa.gov.tr, provided that they meet certain conditions.",
+          "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa"
+        },
+        "name": {
+          "text": "Ordinary, special and service passport holders with a valid Schengen members or USA, UK, Ireland visa or residence permit may get their single entry e-Visas valid for one month e-Visas via the website www.evisa.gov.tr",
+          "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa"
+        },
+        "method": {
+          "text": "may get their single entry e-Visas valid for one month e-Visas via the website www.evisa.gov.tr, provided that they meet certain conditions.",
+          "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa"
         }
       }
     },
@@ -2271,7 +2283,7 @@
       "id": "embassy-tourist",
       "category": "tourist",
       "method": "embassy",
-      "name": "Sticker Visa (Turkish embassy or consulate)",
+      "name": "Tourist/businessperson visa (Turkish representations abroad)",
       "fee": null,
       "processing": null,
       "validityDays": null,
@@ -2284,13 +2296,23 @@
         "type": "government",
         "lastVerified": "2026-10-03",
         "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "name": {
+          "text": "1- TOURIST/BUSINESSPERSON",
+          "url": "https://www.mfa.gov.tr/general-information-about-turkish-visas.en.mfa"
+        },
+        "method": {
+          "text": "All other applicants will need to obtain a visa through Turkish Representations in the abroad.",
+          "url": "https://www.mfa.gov.tr/general-information-about-turkish-visas.en.mfa"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
       "rule": "other",
-      "text": "Turkey requires your passport to be valid for at least 60 days beyond the end of your visa, visa exemption or residence permit period. The Ministry of Foreign Affairs also advises having a passport valid for at least 6 months from the date of arrival.",
+      "text": "Türkiye's Ministry of Foreign Affairs says that, under article 7.1b of the Law on Foreigners and International Protection, foreigners should carry a passport with an expiration date at least 60 days beyond the \"duration of stay\" of their visa, e-Visa, visa exemption or residence permit. It also advises having a passport valid for at least 6 months from the date of arrival.",
       "source": {
         "url": "https://www.mfa.gov.tr/passport-validity-requirements-while-entering-turkey-in-accordance-with-law-on-foreigners-and-international-protection.en.mfa",
         "name": "Turkish MFA — Passport validity requirements while entering Türkiye (Law on Foreigners and International Protection)",

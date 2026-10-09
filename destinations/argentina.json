@@ -18,7 +18,7 @@
     "mexico",
     "spain"
   ],
-  "summary": "Argentina grants visa-free entry of up to 90 days to citizens of the US, Canada, the UK, the EU, Australia, Japan and most of the Americas, and offers an electronic travel authorization (AVE) to some visa-required nationals who hold a valid US visa.",
+  "summary": "Argentina lets citizens of the countries Migraciones lists without a visa requirement, including the US, Canada, the UK, EU states, Australia and Japan, visit as tourists for up to three months, extendable once for a similar period, and offers an electronic travel authorization (AVE) to some visa-required nationals who hold a valid US visa or, for visa-exempt countries, a current ESTA or a recent US entry.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-25",
@@ -4129,6 +4129,10 @@
         "extendable": {
           "text": "Extension: Once in Argentina, you may request one 90-day extension from the DNM.",
           "url": "https://esing.cancilleria.gob.ar/en/node/82017"
+        },
+        "name": {
+          "text": "The Electronic Travel Authorization (ETA), known in Spanish as Autorización de Viaje Electrónica (AVE), is an official document that allows eligible foreign nationals to travel to Argentina exclusively for tourism purposes.",
+          "url": "https://esing.cancilleria.gob.ar/en/node/82017"
         }
       },
       "documents": {
@@ -4179,6 +4183,14 @@
         "stayDays": {
           "text": "El plazo de permanencia autorizado para este tipo de visa es de hasta noventa (90) días.",
           "url": "https://cancilleria.gob.ar/es/servicios/visas/visa-para-turismo"
+        },
+        "name": {
+          "text": "Las visas para turismo pueden tramitarse ante cualquier Representación Consular de la República Argentina.",
+          "url": "https://cancilleria.gob.ar/es/servicios/visas/visa-para-turismo"
+        },
+        "method": {
+          "text": "Las visas para turismo pueden tramitarse ante cualquier Representación Consular de la República Argentina.",
+          "url": "https://cancilleria.gob.ar/es/servicios/visas/visa-para-turismo"
         }
       }
     }
@@ -4186,12 +4198,19 @@
   "entryRequirements": {
     "passportValidity": {
       "rule": "valid-for-stay",
-      "text": "The UK Foreign Office says your passport must be valid for the proposed duration of your stay in Argentina; it sets no 6-month rule.",
+      "text": "The UK Foreign Office says your passport must be valid for the proposed duration of your stay in Argentina; it sets no 6-month rule. Argentina's Foreign Ministry asks consular tourist-visa applicants for a passport valid for at least 6 months from the date of entry.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/argentina/entry-requirements",
         "name": "UK Foreign, Commonwealth & Development Office — Argentina entry requirements",
         "type": "government",
-        "lastVerified": "2026-10-03"
+        "lastVerified": "2026-10-03",
+        "alsoStatedOn": [
+          {
+            "url": "https://cancilleria.gob.ar/es/servicios/visas/visa-para-turismo",
+            "name": "Argentina Foreign Ministry — Visa para turismo (passport valid at least 6 months from the date of entry, for visa applicants)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       }
     },
     "vaccinations": [
@@ -4217,10 +4236,10 @@
       }
     ],
     "travelInsurance": {
-      "required": true,
-      "appliesTo": "all",
+      "required": null,
+      "appliesTo": null,
       "minCoverage": null,
-      "text": "Decree 366/2025 (29 May 2025) amended the Migration Law so that every foreigner seeking admission must present a sworn declaration of the purpose of the visit and that they hold health insurance for their medical needs; the law says this declaration becomes enforceable once its implementation is regulated. Emergency care cannot be refused, but outside emergencies the national state's public hospitals treat non-resident foreigners only on presentation of health insurance or advance payment. No minimum cover is published.",
+      "text": "No official source we could read states that the health-insurance declaration is being enforced. Decree 366/2025 (29 May 2025) amended the Migration Law so that every foreigner seeking admission must present a sworn declaration of the purpose of the visit and that they hold health insurance for their medical needs, and the law says this declaration becomes enforceable once its implementation is regulated. Emergency care cannot be refused, but outside emergencies the national state's public hospitals treat non-resident foreigners only on presentation of health insurance or advance payment. No minimum cover is published.",
       "source": {
         "url": "https://www.argentina.gob.ar/normativa/nacional/ley-25871-92016/actualizacion",
         "name": "Ley 25.871 de Migraciones (texto actualizado), arts. 8 and 34 as replaced by Decreto 366/2025",
@@ -4419,7 +4438,7 @@
     {
       "id": "extend-stay",
       "question": "Can I extend my 90-day stay in Argentina?",
-      "answer": "Yes. Migraciones allows a tourist stay to be extended once for a similar period; request the extension (prórroga de permanencia) from the Dirección Nacional de Migraciones before your initial stay expires."
+      "answer": "Yes. Migraciones says a tourist's authorized stay of up to three months can be extended for another similar period. The extension (prórroga) is requested at the Dirección Nacional de Migraciones or its offices, within the 10 days before the transitory residence expires."
     },
     {
       "id": "china-ave",
@@ -4434,7 +4453,7 @@
     {
       "id": "cash-or-card",
       "question": "Should I bring cash or use cards in Argentina?",
-      "answer": "Canada's travel advice says foreign credit and debit cards are accepted in main cities, but ATM withdrawals on foreign cards are subject to low limits and substantial service charges may apply. You may be asked for photo ID, such as a copy of your passport, when paying by card."
+      "answer": "Canada's travel advice says foreign credit and debit cards are accepted in main cities, but ATM withdrawals on foreign cards are subject to low limits and substantial service charges may apply. You may be asked for photo ID, such as a copy of your passport, when paying with a credit card."
     }
   ]
 }

@@ -13,7 +13,7 @@
     "thailand",
     "singapore"
   ],
-  "summary": "New Zealand lets visa-waiver nationals (including the US, UK, EU countries, Canada and Japan) visit for up to 3 months — 6 for British citizens — but they must first obtain an NZeTA, and most international visitors also pay the NZD 100 International Visitor Levy. Australians enter freely, everyone else needs a Visitor Visa, and everyone travelling into New Zealand must submit the digital New Zealand Traveller Declaration by the time they reach passport control; it can be done before the flight.",
+  "summary": "New Zealand lets visa-waiver nationals (including the US, UK, EU countries, Canada and Japan) visit for up to 3 months — 6 for British citizens — but they must first obtain an NZeTA, and most international visitors also pay the NZD 100 International Visitor Levy. Australians enter freely, everyone else needs a Visitor Visa, and everyone travelling into New Zealand must complete a New Zealand Traveller Declaration; New Zealand Customs suggests doing the digital declaration before the flight, and for air travellers it needs to be submitted by the time they reach passport control.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-09-26",
@@ -1749,6 +1749,14 @@
         "stayDays": {
           "text": "To allow stays (each visit) for 3 months, or 6 months for UK citizens",
           "url": "https://www.immigration.govt.nz/visas/new-zealand-electronic-travel-authority-nzeta/"
+        },
+        "name": {
+          "text": "New Zealand Electronic Travel Authority (NZeTA)",
+          "url": "https://www.immigration.govt.nz/visas/new-zealand-electronic-travel-authority-nzeta/"
+        },
+        "method": {
+          "text": "Some people can use an NZeTA to travel to New Zealand without applying for a visa first.",
+          "url": "https://www.immigration.govt.nz/visas/new-zealand-electronic-travel-authority-nzeta/"
         }
       }
     },
@@ -1864,6 +1872,14 @@
         "extendable": {
           "text": "If you are in New Zealand now with a Visitor Visa and need more time for a genuine reason, you can apply to extend your visit.",
           "url": "https://www.immigration.govt.nz/visas/visitor-visa/"
+        },
+        "name": {
+          "text": "People travelling on a passport from some countries must apply for a Visitor Visa to visit New Zealand.",
+          "url": "https://www.immigration.govt.nz/visas/visitor-visa/"
+        },
+        "method": {
+          "text": "From 1 October 2026, applications for this visa must be made online.",
+          "url": "https://www.immigration.govt.nz/visas/visitor-visa/"
         }
       }
     }
@@ -1897,13 +1913,20 @@
     "onwardTicket": {
       "required": true,
       "appliesTo": "all",
-      "text": "At check-in for a flight to New Zealand, NZeTA travellers must show a paid ticket out of New Zealand to a country they have the right to enter (or a cruise itinerary or craft owner's letter if leaving by sea).",
+      "text": "Immigration New Zealand says NZeTA travellers must be able to show at check-in for a flight to New Zealand that they intend to leave at the end of their stay: a paid ticket out of New Zealand to a country they have the right to enter, or a cruise itinerary or craft owner's letter if leaving by sea. To apply for a Visitor Visa, it says, you must show you can leave New Zealand at the end of your stay.",
       "source": {
         "url": "https://www.immigration.govt.nz/visas/new-zealand-electronic-travel-authority-nzeta/",
         "name": "Immigration New Zealand — NZeTA",
         "type": "government",
         "lastVerified": "2026-10-03",
-        "archiveUrl": "https://web.archive.org/web/20260829112926/https://www.immigration.govt.nz/visas/new-zealand-electronic-travel-authority-nzeta/"
+        "archiveUrl": "https://web.archive.org/web/20260829112926/https://www.immigration.govt.nz/visas/new-zealand-electronic-travel-authority-nzeta/",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.immigration.govt.nz/visas/visitor-visa/",
+            "name": "Immigration New Zealand — Visitor Visa",
+            "lastVerified": "2026-10-07"
+          }
+        ]
       }
     },
     "proofOfFunds": {
@@ -1916,7 +1939,14 @@
         "name": "Immigration New Zealand — NZeTA",
         "type": "government",
         "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastChanged": "2026-10-03",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.immigration.govt.nz/visas/visitor-visa/",
+            "name": "Immigration New Zealand — Visitor Visa",
+            "lastVerified": "2026-10-07"
+          }
+        ]
       }
     },
     "declarations": [
@@ -2104,7 +2134,7 @@
     {
       "id": "biosecurity-gear",
       "type": "warning",
-      "text": "Declare any food or outdoor gear that may be prohibited, and if in doubt, declare it. The UK says it is illegal to import most food products, that tents, fishing equipment and golf clubs can carry pests, and that breaking the rules can mean a fine of up to NZ$100,000 or a prison sentence."
+      "text": "New Zealand's Ministry for Primary Industries says some foods, drinks, sports and outdoor equipment can carry harmful pests and diseases, and that if you're unsure you should declare your items when you arrive or put them in the bin, otherwise you can get a fine. The UK says it is illegal to import most food products, that tents, fishing equipment and golf clubs can carry pests, and that breaking the rules can mean a fine of up to NZ$100,000 or a prison sentence."
     },
     {
       "id": "nztd-app",
@@ -2136,17 +2166,17 @@
     {
       "id": "australians",
       "question": "Do Australians need an NZeTA or visa for New Zealand?",
-      "answer": "No. Immigration New Zealand says Australian citizens need neither a visa nor an NZeTA. Australian permanent residents (non-citizens), however, do need an NZeTA."
+      "answer": "No. Immigration New Zealand says Australian citizens need neither a visa nor an NZeTA. It lists Australian permanent residents among the travellers who can visit New Zealand on an NZeTA."
     },
     {
       "id": "nztd-what",
       "question": "What is the New Zealand Traveller Declaration?",
-      "answer": "The NZTD is a free digital declaration that everyone travelling into New Zealand must complete, at travellerdeclaration.govt.nz or in the NZTD app. It collects travel, customs, immigration and biosecurity information, replaces the old Passenger Arrival Card, and needs to be submitted by the time you reach passport control; New Zealand Customs suggests doing it before your flight."
+      "answer": "The NZTD is a free declaration that everyone travelling into New Zealand must complete, online at travellerdeclaration.govt.nz or in the NZTD app. It collects travel, customs, immigration and biosecurity information and replaces the old Passenger Arrival Card. New Zealand Customs suggests doing the digital declaration before your flight instead of filling in a paper declaration onboard; for air travellers it needs to be submitted by the time you reach passport control."
     },
     {
       "id": "how-long-stay",
       "question": "How long can I stay in New Zealand as a visitor?",
-      "answer": "Visa-waiver visitors get up to 3 months per visit (6 months for British citizens), with a maximum of 6 months in any 12-month period. For longer stays, apply for a Visitor Visa, which can allow up to 9 months."
+      "answer": "Immigration New Zealand says NZeTA visitors from visa waiver countries can stay up to 3 months per visit (6 months on a UK passport), and no more than 6 months within any 12-month period. For longer stays, it says a Visitor Visa lets you stay for up to 6 or 9 months, with a maximum of 9 months in an 18-month period."
     }
   ]
 }

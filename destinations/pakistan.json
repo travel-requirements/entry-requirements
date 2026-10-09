@@ -1660,7 +1660,7 @@
       "id": "tourist-evisa",
       "category": "tourist",
       "method": "evisa",
-      "name": "Tourist eVisa",
+      "name": "Tourist/Visit Visa (online)",
       "fee": {
         "amount": 20,
         "currency": "USD",
@@ -1740,6 +1740,14 @@
         "extendable": {
           "text": "Extension: You can apply for a visa extension if you possess a valid Pakistan visa and you are residing in Pakistan.",
           "url": "https://visa.nadra.gov.pk/tourist-visa/"
+        },
+        "name": {
+          "text": "Tourist/Visit Visa A Tourist Visa allows the foreigners to visit Pakistan for tourism purposes.",
+          "url": "https://visa.nadra.gov.pk/tourist-visa/"
+        },
+        "method": {
+          "text": "You can apply for two types of visas online:",
+          "url": "https://visa.nadra.gov.pk/tourist-visa/"
         }
       }
     },
@@ -1747,7 +1755,7 @@
       "id": "business-evisa",
       "category": "business",
       "method": "evisa",
-      "name": "Business eVisa",
+      "name": "Business Visa (online)",
       "fee": null,
       "processing": null,
       "validityDays": 1825,
@@ -1816,6 +1824,14 @@
         "extendable": {
           "text": "Extension : You can apply for a visa extension if you posses a valid Pakistan visa and you are residing in Pakistan.",
           "url": "https://visa.nadra.gov.pk/business-visa/"
+        },
+        "name": {
+          "text": "BEFORE APPLYING FOR PAKISTAN’S BUSINESS VISA",
+          "url": "https://visa.nadra.gov.pk/business-visa/"
+        },
+        "method": {
+          "text": "You can apply for two types of visas online :",
+          "url": "https://visa.nadra.gov.pk/business-visa/"
         }
       }
     },
@@ -1823,8 +1839,12 @@
       "id": "tourist-embassy",
       "category": "tourist",
       "method": "embassy",
-      "name": "Visit visa (High Commission application)",
-      "fee": null,
+      "name": "Visitor visa (High Commission, New Delhi)",
+      "fee": {
+        "amount": 120,
+        "currency": "INR",
+        "notes": "Rs. 120 per entry for Indian citizens, paid into the High Commission's bank account; card payment at the High Commission adds 3% for bank processing charges."
+      },
       "processing": null,
       "validityDays": null,
       "stayDays": null,
@@ -1836,6 +1856,16 @@
         "type": "government",
         "lastVerified": "2026-10-04",
         "lastChanged": "2026-10-04"
+      },
+      "evidence": {
+        "fee": {
+          "text": "Deposit/credit slip for the applicable visa fee (Rs. 120/- per entry for Indian citizens) credited to RBL Bank, Vasant Vihar Branch, New Delhi",
+          "url": "https://pakhcnewdelhi.org.pk/requirements-for-visit-visa/"
+        },
+        "name": {
+          "text": "Filled-in Visitor Visa Application Form (Please click to download) with passport size photo pasted on it and complete in all respects.",
+          "url": "https://pakhcnewdelhi.org.pk/requirements-for-visit-visa/"
+        }
       }
     }
   ],

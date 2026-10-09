@@ -16,7 +16,7 @@
     "vietnam",
     "malaysia"
   ],
-  "summary": "Cambodia's eVisa portal issues the tourist visa online for 30 USD and a one-month stay; the UK, Canadian and Australian governments say their citizens can also get one on arrival. ASEAN citizens enter visa-free. All travellers can submit the free Cambodia e-Arrival card within 7 days before arrival; Canada's travel advice says it must be completed.",
+  "summary": "Cambodia's eVisa portal issues the tourist visa online for 30 USD and a one-month stay; the UK, Canadian and Australian governments say their citizens can also get one on arrival. ASEAN citizens enter visa-free. All travellers can submit the free Cambodia e-Arrival card within 7 days before arrival; Cambodia's eVisa portal says all travellers are required to fill it in, even visa holders.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-10-03",
@@ -1429,7 +1429,7 @@
       "id": "tourist-evisa",
       "category": "tourist",
       "method": "evisa",
-      "name": "Cambodia Tourist eVisa (T class)",
+      "name": "Visa T (Tourist Visa), eVisa",
       "fee": {
         "amount": 30,
         "currency": "USD",
@@ -1539,6 +1539,14 @@
         "extendable": {
           "text": "Visas must be renewed for stays over 30 days and may only be extended once.",
           "url": "https://travel.gc.ca/destinations/cambodia"
+        },
+        "name": {
+          "text": "Visa T (Tourist Visa)",
+          "url": "https://www.evisa.gov.kh/information/tourist_visa/4"
+        },
+        "method": {
+          "text": "Apply online from any device anywhere.",
+          "url": "https://www.evisa.gov.kh/"
         }
       }
     },
@@ -1579,6 +1587,14 @@
         "extendable": {
           "text": "Visas must be renewed for stays over 30 days and may only be extended once.",
           "url": "https://travel.gc.ca/destinations/cambodia"
+        },
+        "name": {
+          "text": "You can get a tourist or business visa on arrival at international airports and major land border crossings.",
+          "url": "https://travel.gc.ca/destinations/cambodia"
+        },
+        "method": {
+          "text": "You can get a tourist or business visa on arrival at international airports and major land border crossings.",
+          "url": "https://travel.gc.ca/destinations/cambodia"
         }
       }
     },
@@ -1611,6 +1627,14 @@
         },
         "extendable": {
           "text": "Visas must be renewed for stays over 30 days and may only be extended once.",
+          "url": "https://travel.gc.ca/destinations/cambodia"
+        },
+        "name": {
+          "text": "You can get a tourist or business visa on arrival at international airports and major land border crossings.",
+          "url": "https://travel.gc.ca/destinations/cambodia"
+        },
+        "method": {
+          "text": "You can get a tourist or business visa on arrival at international airports and major land border crossings.",
           "url": "https://travel.gc.ca/destinations/cambodia"
         }
       }
@@ -1694,14 +1718,21 @@
         "submitAt": "before-travel",
         "submitWindow": "Within 7 days before arrival",
         "url": "https://arrival.gov.kh/",
-        "text": "Cambodia's e-Arrival card combines the immigration, customs and health declarations in one online form (web or Cambodia e-Arrival app). The portal says all travellers can submit it within 7 days before their arrival and that submission is free; it lists Techo (Phnom Penh), Siem Reap Angkor and Sihanoukville international airports. Canada's travel advice says the forms must be completed within 7 days of your scheduled arrival.",
+        "text": "Cambodia's e-Arrival card combines the immigration, customs and health declarations in one online form (web or Cambodia e-Arrival app). The portal says all travellers can submit it within 7 days before their arrival and that submission is free; it lists Techo (Phnom Penh), Siem Reap Angkor and Sihanoukville international airports. Cambodia's eVisa portal says all travellers are required to fill in the e-Arrival even if they have been granted a visa, and Canada's travel advice says the forms must be completed within 7 days of your scheduled arrival.",
         "source": {
           "url": "https://arrival.gov.kh/",
           "name": "Cambodia e-Arrival (CeA)",
           "type": "government",
           "lastVerified": "2026-10-09",
           "archiveUrl": "https://web.archive.org/web/20260728202008/https://arrival.gov.kh/",
-          "portalOnly": true
+          "portalOnly": true,
+          "alsoStatedOn": [
+            {
+              "url": "https://www.evisa.gov.kh/",
+              "name": "Cambodia e-Visa (Ministry of Foreign Affairs and International Cooperation) — home page",
+              "lastVerified": "2026-10-09"
+            }
+          ]
         }
       }
     ],
@@ -1861,24 +1892,24 @@
     {
       "id": "cea-free",
       "type": "tip",
-      "text": "The Cambodia e-Arrival card is free. All travellers can submit it within 7 days before arrival, at arrival.gov.kh or in the official Cambodia e-Arrival app."
+      "text": "The Cambodia e-Arrival card is free and is submitted within 7 days before arrival, at arrival.gov.kh or in the official Cambodia e-Arrival app. Cambodia's eVisa portal says all travellers are required to fill it in, even visa holders."
     }
   ],
   "faq": [
     {
       "id": "us-need-visa",
       "question": "Do US citizens need a visa for Cambodia?",
-      "answer": "Yes. US passport holders need a tourist visa: the eVisa (30 USD, applied for at evisa.gov.kh) allows a one-month stay, and no official source we could read states whether US citizens can get a visa on arrival. The land crossings with Thailand are currently closed; Canada's travel advice says a visa may be extended only once."
+      "answer": "No official source we could read states the rule for US passport holders, so this page shows none. Cambodia's eVisa portal issues the tourist visa (Visa T) online for USD 30, for a one-month stay; its tourist-visa page lists ASEAN nationalities under 'Visa Exemption' and does not mention the United States. Canada's travel advice says a visa may be extended only once."
     },
     {
       "id": "evisa-vs-voa",
       "question": "Is the Cambodia eVisa better than the visa on arrival?",
-      "answer": "The eVisa costs 30 USD; no official source we could read states the visa-on-arrival fee. Canada's travel advice says tourist and business visas allow 30 days, that the visa on arrival is issued at international airports and major land border crossings, that no photo is needed and that the fee can be paid by card, though cash may be needed if electronic systems are down; the UK Foreign Office says you need to provide a photo and pay in US dollars. The eVisa is accepted only at the Techo (Phnom Penh), Siem Reap Angkor and Sihanoukville airports and the Bavet and Trapeang Kriel land crossings — Cham Yeam and Poipet on the Thai border are temporarily closed to eVisa entry — so check your entry point first."
+      "answer": "The eVisa costs 30 USD; no official source we could read states the visa-on-arrival fee. Canada's travel advice says tourist and business visas allow 30 days, that the visa on arrival is issued at international airports and major land border crossings, that no photo is needed and that the fee can be paid by card, though cash may be needed if electronic systems are down; the UK Foreign Office says that if you do not get an e-visa you can get a visa on arrival at airports or land border crossings, and that you need to provide a photo and pay in US dollars. The eVisa is accepted only at the Techo (Phnom Penh), Siem Reap Angkor and Sihanoukville airports and the Bavet and Tropaeng Kreal land crossings — Cham Yeam and Poipet on the Thai border are temporarily closed to eVisa entry — so check your entry point first."
     },
     {
       "id": "e-arrival",
       "question": "What is the Cambodia e-Arrival card?",
-      "answer": "The Cambodia e-Arrival (CeA) is a free online form combining immigration, customs and health declarations, submitted within 7 days before arrival at arrival.gov.kh or via the Cambodia e-Arrival app. The portal says all travellers can submit it; Canada's travel advice says it must be completed within 7 days of your scheduled arrival."
+      "answer": "The Cambodia e-Arrival (CeA) is a free online form combining immigration, customs and health declarations, submitted within 7 days before arrival at arrival.gov.kh or via the Cambodia e-Arrival app. The portal says all travellers can submit it, and Cambodia's eVisa portal says all travellers are required to fill it in even if they have been granted a visa; Canada's travel advice says it must be completed within 7 days of your scheduled arrival."
     },
     {
       "id": "extend-stay",

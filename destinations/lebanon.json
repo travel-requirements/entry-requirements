@@ -16,7 +16,7 @@
     "turkey",
     "cyprus"
   ],
-  "summary": "Lebanon issues free one-month visas on arrival at Beirut airport to citizens of the EU, US, UK, Canada, Australia and many other countries — extendable to three months — while GCC nationals enter visa-free; other nationalities need a visa from a Lebanese embassy or prior approval from General Security, and Canada says travelers with evidence of travel to Israel may be refused entry.",
+  "summary": "Lebanon issues free one-month visas on arrival to citizens of the EU, US, UK, Canada, Australia and many other countries — extendable to three months — while GCC nationals enter visa-free; other nationalities need a visa from a Lebanese embassy or prior approval from General Security, and Canada says travelers with evidence of travel to Israel may be refused entry.",
   "meta": {
     "lastUpdated": "2026-10-09",
     "lastFullReview": "2026-10-03",
@@ -2496,7 +2496,14 @@
         "name": "Lebanese General Security — the list of countries that have the right to a Lebanese visa",
         "type": "government",
         "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastChanged": "2026-10-03",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gov.uk/foreign-travel-advice/lebanon/entry-requirements",
+            "name": "UK FCDO — Lebanon travel advice: entry requirements (visa on arrival at Beirut airport for British citizens)",
+            "lastVerified": "2026-10-07"
+          }
+        ]
       },
       "evidence": {
         "fee": {
@@ -2510,6 +2517,14 @@
         "extendable": {
           "text": "A cost-free visa of one month extendable to 3 months is granted for Citizens from the above countries.",
           "url": "https://www.general-security.gov.lb/en/posts/38"
+        },
+        "name": {
+          "text": "British citizens can normally apply for a free single-entry tourist or family visit visa on arrival at Beirut airport.",
+          "url": "https://www.gov.uk/foreign-travel-advice/lebanon/entry-requirements"
+        },
+        "method": {
+          "text": "British citizens can normally apply for a free single-entry tourist or family visit visa on arrival at Beirut airport.",
+          "url": "https://www.gov.uk/foreign-travel-advice/lebanon/entry-requirements"
         }
       }
     },
@@ -2517,7 +2532,7 @@
       "id": "embassy-tourist",
       "category": "tourist",
       "method": "embassy",
-      "name": "Embassy Tourist Visa",
+      "name": "Tourist or visit visa (General Security pre-authorization or Lebanese mission)",
       "fee": {
         "amount": 2000000,
         "currency": "LBP",
@@ -2533,12 +2548,27 @@
         "name": "Lebanese General Security — Types of visas (fees)",
         "type": "government",
         "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastChanged": "2026-10-03",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.general-security.gov.lb/en/posts/159",
+            "name": "Lebanese General Security — The terms and conditions to grant a Lebanese visa",
+            "lastVerified": "2026-10-07"
+          }
+        ]
       },
       "evidence": {
         "fee": {
           "text": "Toursit or visit visa 2.000.000 LBP",
           "url": "https://www.general-security.gov.lb/en/posts/37"
+        },
+        "name": {
+          "text": "Toursit or visit visa 2.000.000 LBP",
+          "url": "https://www.general-security.gov.lb/en/posts/37"
+        },
+        "method": {
+          "text": "Lebanese missions abroad can grant visas with the authorization of the general security, and under the responsibility of the mission’s director.",
+          "url": "https://www.general-security.gov.lb/en/posts/159"
         }
       }
     },
@@ -2559,12 +2589,18 @@
         "type": "government",
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-07"
+      },
+      "evidence": {
+        "name": {
+          "text": "يمنح إذن دخول وفقاً للمدّة الواردة في البرنامج السياحي أو الديني بالإضافة إلى إفادة مغادرة.",
+          "url": "https://www.general-security.gov.lb/uploads/syrian-entrance2026.pdf"
+        }
       }
     }
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
+      "rule": "other",
       "text": "General Security asks visa applicants for a copy of a passport valid for at least 6 months, and Canada's travel advice says 6 months beyond the date you leave. The UK's travel advice says 3 months from the date you enter.",
       "source": {
         "url": "https://www.general-security.gov.lb/en/posts/159",
@@ -2614,7 +2650,7 @@
         "currency": "USD",
         "per": "person"
       },
-      "text": "Nationalities given a one-month visa under General Security's Eighth Article (Algeria, Egypt, Morocco, Tunisia and others) must show US$2,000 in cash or a certified bank cheque. Individual tourist visa applicants show a bank statement or credit card and proof of profession and salary.",
+      "text": "Nationalities given a one-month visa under General Security's Eighth Article (Algeria, Egypt, Morocco, Tunisia and others) must have a sum equivalent to US$2,000, or a cheque for the same amount certified by the bank concerned. Individual tourist visa applicants show a bank statement or credit card and proof of profession and salary.",
       "source": {
         "url": "https://www.general-security.gov.lb/en/posts/38",
         "name": "Lebanese General Security — the list of countries that have the right to a Lebanese visa",
@@ -2730,7 +2766,7 @@
       "minRentalAge": null,
       "alcoholLimitBac": null,
       "mandatoryEquipment": [],
-      "text": "Lebanon is a party to the 1949 Geneva Convention on Road Traffic (UN Treaty Collection). Whether a permit is required in addition to a national license, and for how long a foreign license may be used, are set by national road law and have not been checked for Lebanon yet.",
+      "text": "Lebanon is a party to the 1949 Geneva Convention on Road Traffic (UN Treaty Collection). No official source we could read states whether a permit is required in addition to a national license, or for how long a foreign license may be used.",
       "source": {
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
@@ -2820,7 +2856,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Lebanon?",
-      "answer": "Citizens of the EU, UK, US, Canada, Australia, New Zealand, Japan and many other countries receive a free one-month visa on arrival at Beirut airport, extendable to three months. GCC nationals enter visa-free. Other nationalities need a visa from a Lebanese embassy or prior approval from General Security before travel."
+      "answer": "Citizens of the EU, UK, US, Canada, Australia, New Zealand, Japan and many other countries receive a free one-month visa on arrival, extendable to three months. GCC nationals enter visa-free. Other nationalities need a visa from a Lebanese embassy or prior approval from General Security before travel."
     },
     {
       "id": "israel-history",
@@ -2835,7 +2871,7 @@
     {
       "id": "voa-cost",
       "question": "How much does the Lebanese visa on arrival cost?",
-      "answer": "Nothing — the one-month visa issued on arrival at Beirut airport is free for eligible nationalities. Extensions to three months are handled by General Security in Lebanon."
+      "answer": "Nothing — General Security grants the one-month visa free of charge to the nationalities it lists. Extensions to three months are handled by General Security in Lebanon."
     },
     {
       "id": "what-money",

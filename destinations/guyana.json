@@ -1066,7 +1066,7 @@
       },
       "GB": {
         "requirement": "visa-free",
-        "maxStayDays": 30,
+        "maxStayDays": null,
         "extendableDays": 90,
         "source": {
           "url": "https://www.gov.uk/foreign-travel-advice/guyana/entry-requirements",
@@ -1145,7 +1145,24 @@
         "name": "Ministry of Foreign Affairs of Guyana — Advisory on visas on arrival and visa fees",
         "type": "government",
         "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastChanged": "2026-10-03",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.minfor.gov.gy/visa-information",
+            "name": "Ministry of Foreign Affairs of Guyana — Visa Information",
+            "lastVerified": "2026-10-07"
+          }
+        ]
+      },
+      "evidence": {
+        "name": {
+          "text": "Visitor's Visa Application Form",
+          "url": "https://www.minfor.gov.gy/visa-information"
+        },
+        "method": {
+          "text": "WHO MAY BE UNABLE TO APPLY AT ANY OF GUYANA’S MISSIONS OR CONS ULATES",
+          "url": "https://www.minfor.gov.gy/sites/default/files/2025-04/New_Immigration_Procedures_Visa_Fees_2.pdf"
+        }
       }
     },
     {
@@ -1204,14 +1221,22 @@
         "extendable": {
           "text": "A maximum of two (2) Extension of Stay will be granted. Each extension will be a period of three (3) months.",
           "url": "https://eservices.iss.gov.gy/visitor-visa-extension"
+        },
+        "name": {
+          "text": "Letter requesting visa on arrival (mandatory)",
+          "url": "https://eservices.iss.gov.gy/visitor-visa"
+        },
+        "method": {
+          "text": "VISAS WILL BE ISSUED ON ARRIVAL",
+          "url": "https://www.minfor.gov.gy/sites/default/files/2025-04/New_Immigration_Procedures_Visa_Fees_2.pdf"
         }
       }
     },
     {
       "id": "business-visa",
       "category": "business",
-      "method": "embassy",
-      "name": "Business Visa",
+      "method": "visa-on-arrival",
+      "name": "Business visa on arrival",
       "fee": {
         "amount": 140,
         "currency": "USD",
@@ -1236,6 +1261,14 @@
         },
         "validityDays": {
           "text": "Visas will be granted for a five (5) year period",
+          "url": "https://www.minfor.gov.gy/sites/default/files/2025-04/New_Immigration_Procedures_Visa_Fees_2.pdf"
+        },
+        "name": {
+          "text": "US$140.00 for business persons",
+          "url": "https://www.minfor.gov.gy/sites/default/files/2025-04/New_Immigration_Procedures_Visa_Fees_2.pdf"
+        },
+        "method": {
+          "text": "VISAS WILL BE ISSUED ON ARRIVAL",
           "url": "https://www.minfor.gov.gy/sites/default/files/2025-04/New_Immigration_Procedures_Visa_Fees_2.pdf"
         }
       }
@@ -1277,6 +1310,10 @@
         },
         "extendable": {
           "text": "A maximum of two (2) Extension of Stay will be granted. Each extension will be a period of three (3) months.",
+          "url": "https://eservices.iss.gov.gy/visitor-visa-extension"
+        },
+        "name": {
+          "text": "A maximum of two (2) Extension of Stay will be granted.",
           "url": "https://eservices.iss.gov.gy/visitor-visa-extension"
         }
       }
@@ -1493,7 +1530,7 @@
       "minRentalAge": null,
       "alcoholLimitBac": null,
       "mandatoryEquipment": [],
-      "text": "Guyana is a party to the 1968 Vienna Convention on Road Traffic (UN Treaty Collection). Whether a permit is required in addition to a national license, and for how long a foreign license may be used, are set by national road law and have not been checked for Guyana yet.",
+      "text": "Guyana is a party to the 1968 Vienna Convention on Road Traffic (UN Treaty Collection). No official source we could read states whether a permit is required in addition to a national licence, or for how long a foreign licence may be used.",
       "source": {
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
@@ -1591,7 +1628,7 @@
     {
       "id": "visa-on-arrival",
       "question": "Can I get a visa on arrival in Guyana?",
-      "answer": "Only as an exception. The Foreign Ministry's advisory says visas will be issued on arrival to visa nationals who are unable to apply at a Guyanese mission or consulate, and Immigration Support Services takes these applications online before travel, with a mandatory letter requesting a visa on arrival."
+      "answer": "The Foreign Ministry's advisory says that for persons travelling from countries whose passport holders require a visa to enter Guyana and who may be unable to apply at any of Guyana's missions or consulates, visas will be issued on arrival. Immigration Support Services takes the visitor application online, with a mandatory letter requesting a visa on arrival."
     },
     {
       "id": "extend-stay",

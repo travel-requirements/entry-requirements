@@ -3011,7 +3011,7 @@
       "id": "evisa",
       "category": "tourist",
       "method": "evisa",
-      "name": "Ukrainian eVisa",
+      "name": "e-Visa",
       "fee": {
         "amount": 20,
         "currency": "USD",
@@ -3076,6 +3076,14 @@
         "stayDays": {
           "text": "E-Visas are issued to foreigners-holders of passports of 45 specified countries as single or double entry 30-day visas",
           "url": "https://mfa.gov.ua/en/consular-affairs/entry-and-stay-foreigners-ukraine/visa-information"
+        },
+        "name": {
+          "text": "online via the evisa.mfa.gov.ua/ MFA website (e-Visa applications only)",
+          "url": "https://mfa.gov.ua/en/consular-affairs/entry-and-stay-foreigners-ukraine/visa-information"
+        },
+        "method": {
+          "text": "online via the evisa.mfa.gov.ua/ MFA website (e-Visa applications only)",
+          "url": "https://mfa.gov.ua/en/consular-affairs/entry-and-stay-foreigners-ukraine/visa-information"
         }
       }
     },
@@ -3083,7 +3091,7 @@
       "id": "visa-c",
       "category": "tourist",
       "method": "embassy",
-      "name": "Short-Stay Visa (Type C)",
+      "name": "Short-term visa (type C)",
       "fee": {
         "amount": 65,
         "currency": "USD",
@@ -3094,7 +3102,7 @@
         "maxDays": 30,
         "unit": "business-days"
       },
-      "validityDays": 180,
+      "validityDays": null,
       "stayDays": 90,
       "entries": null,
       "applyUrl": null,
@@ -3118,8 +3126,12 @@
           "text": "C type visas are issued in cases where a foreigner/stateless person intends to stay in Ukraine for up to 90 days within every 180 days.",
           "url": "https://mfa.gov.ua/en/consular-affairs/entry-and-stay-foreigners-ukraine/visa-information"
         },
-        "validityDays": {
-          "text": "C type visas are issued as single / double / multiple entry visas valid for 6 months or another period depending on supporting documents",
+        "name": {
+          "text": "short-term (C type) visas.",
+          "url": "https://mfa.gov.ua/en/consular-affairs/entry-and-stay-foreigners-ukraine/visa-information"
+        },
+        "method": {
+          "text": "Every foreigner or a stateless person who is required to have an entry Ukrainian visa may apply for her/his visa to the relevant Ukraine's Embassy or Consulate",
           "url": "https://mfa.gov.ua/en/consular-affairs/entry-and-stay-foreigners-ukraine/visa-information"
         }
       }
@@ -3180,7 +3192,7 @@
       "required": true,
       "appliesTo": "all",
       "amount": null,
-      "text": "Required by law (Article 21 of the Law on the Legal Status of Foreigners). Cabinet of Ministers Resolution No. 884 of 2013 sets the amount at 20 times Ukraine's monthly subsistence minimum per month of stay, worked out per day as (20 × the monthly minimum ÷ 30) × (days of stay + 5). It can be shown with cash, a bank card with a statement, an accommodation booking, a tour voucher, a host's guarantee letter or a return ticket, and can be checked when a visa is issued and at the border.",
+      "text": "Required by law (Article 21 of the Law on the Legal Status of Foreigners). Cabinet of Ministers Resolution No. 884 of 2013 sets the amount at 20 times Ukraine's monthly subsistence minimum per month of stay, worked out per day as (20 × the monthly minimum ÷ 30) × (days of stay + 5). It can be shown with cash, a bank card with a statement, an accommodation booking, a tour voucher, a host's guarantee letter or a return ticket, and can be checked by Ukraine's missions when a visa is issued, at border checkpoints during second-line control, and by the migration service when a stay is extended.",
       "source": {
         "url": "https://zakon.rada.gov.ua/laws/show/884-2013-%D0%BF",
         "name": "Cabinet of Ministers of Ukraine — Procedure for confirming sufficient financial support of foreigners (Resolution No. 884 of 4 December 2013)",
@@ -3279,7 +3291,7 @@
       "minRentalAge": null,
       "alcoholLimitBac": null,
       "mandatoryEquipment": [],
-      "text": "Ukraine is a party to the 1968 Vienna Convention on Road Traffic (UN Treaty Collection). Whether a permit is required in addition to a national license, and for how long a foreign license may be used, are set by national road law and have not been checked for Ukraine yet.",
+      "text": "Ukraine is a party to the 1968 Vienna Convention on Road Traffic (UN Treaty Collection). No official source we could read states whether a permit is required in addition to a national license, or for how long a foreign license may be used.",
       "source": {
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
@@ -3356,7 +3368,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Ukraine?",
-      "answer": "Citizens of the EU, US, UK, Canada and a list of other countries enter visa-free for up to 90 days in any 180-day period. Nationals of the countries on the MFA's eVisa list can apply online for the official eVisa; others need a visa from a Ukrainian consulate. The UK FCDO says Ukraine's airspace remains closed."
+      "answer": "Citizens of the EU, US, UK, Canada and a list of other countries enter visa-free for up to 90 days in any 180-day period. Nationals of the countries on the MFA's eVisa list can apply online for the official eVisa; nationalities the MFA lists as needing a visa apply at a Ukrainian embassy or consulate. The UK FCDO says Ukraine's airspace remains closed."
     },
     {
       "id": "how-to-enter",

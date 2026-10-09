@@ -3605,7 +3605,7 @@
       "id": "evisa-tourist",
       "category": "tourist",
       "method": "evisa",
-      "name": "Mongolian eVisa (tourist)",
+      "name": "e-visa (K2, tourism)",
       "fee": null,
       "processing": {
         "minDays": null,
@@ -3621,7 +3621,13 @@
         "name": "Immigration Agency of Mongolia — e-visa for citizens of 99 countries (K2 tourism up to 30 days)",
         "type": "government",
         "lastVerified": "2026-10-09",
-        "lastChanged": "2026-10-09"
+        "lastChanged": "2026-10-09",
+        "conflict": {
+          "url": "https://en.embassyofmongolia.co.uk/visa/general-information",
+          "name": "Embassy of Mongolia in London — General visa information",
+          "states": "e-visa received by email within 72 hours",
+          "resolvedBy": "hierarchy"
+        }
       },
       "evidence": {
         "processing": {
@@ -3631,6 +3637,14 @@
         "stayDays": {
           "text": "Specifically, citizens of the countries included in the list can apply online for \"K2\" tourism, \"K4\" sports and cultural activities for up to 30 days, and transit or 10-day \"K6\" classification of visas.",
           "url": "https://immigration.gov.mn/en/articles/264/"
+        },
+        "name": {
+          "text": "Specifically, citizens of the countries included in the list can apply online for \"K2\" tourism, \"K4\" sports and cultural activities for up to 30 days, and transit or 10-day \"K6\" classification of visas.",
+          "url": "https://immigration.gov.mn/en/articles/264/"
+        },
+        "method": {
+          "text": "Specifically, citizens of the countries included in the list can apply online for \"K2\" tourism, \"K4\" sports and cultural activities for up to 30 days, and transit or 10-day \"K6\" classification of visas.",
+          "url": "https://immigration.gov.mn/en/articles/264/"
         }
       }
     },
@@ -3638,7 +3652,7 @@
       "id": "embassy-tourist",
       "category": "tourist",
       "method": "embassy",
-      "name": "Tourist visa (embassy)",
+      "name": "Single-entry visa",
       "fee": {
         "amount": 50,
         "currency": "USD",
@@ -3679,6 +3693,10 @@
         },
         "processing": {
           "text": "Normal processing time for a visa application is 3 working days with an option for an expedited service at an additional surcharge (provided you have sufficient supporting documents). Depending on the visa application documents submitted, some visa applications may require up to 5-10 working days to process.",
+          "url": "https://en.embassyofmongolia.co.uk/visa/general-information"
+        },
+        "name": {
+          "text": "Single entry valid for up to 90 days (30 days)",
           "url": "https://en.embassyofmongolia.co.uk/visa/general-information"
         }
       }

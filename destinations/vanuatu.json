@@ -1882,7 +1882,7 @@
       "id": "evisa-tourist",
       "category": "tourist",
       "method": "evisa",
-      "name": "Visitor e-Visa",
+      "name": "Visitor visa",
       "fee": {
         "amount": 7420,
         "currency": "VUV",
@@ -1890,7 +1890,7 @@
       },
       "processing": null,
       "validityDays": 30,
-      "stayDays": null,
+      "stayDays": 30,
       "entries": null,
       "applyUrl": null,
       "source": {
@@ -1908,14 +1908,26 @@
         "validityDays": {
           "text": "A visitor visa for Vanuatu is valid for a maximum period of 30 days .",
           "url": "https://immigration.gov.vu/visit"
+        },
+        "stayDays": {
+          "text": "A visitor visa for Vanuatu is designed for individuals who are currently outside Vanuatu, are not exempt from visa requirements, and intend to visit Vanuatu for up to 30 days.",
+          "url": "https://immigration.gov.vu/visit"
+        },
+        "name": {
+          "text": "A visitor visa for Vanuatu is designed for individuals who are currently outside Vanuatu, are not exempt from visa requirements, and intend to visit Vanuatu for up to 30 days.",
+          "url": "https://immigration.gov.vu/visit"
+        },
+        "method": {
+          "text": "A visitor visa for Vanuatu is valid for a maximum period of 30 days . Apply Online",
+          "url": "https://immigration.gov.vu/visit"
         }
       }
     },
     {
       "id": "tourist-visa",
       "category": "tourist",
-      "method": "embassy",
-      "name": "Tourist Visa (up to 120 days)",
+      "method": "evisa",
+      "name": "Tourist visa",
       "fee": {
         "amount": 5150,
         "currency": "VUV",
@@ -1952,6 +1964,14 @@
         },
         "extendable": {
           "text": "This visa does not allow for extensions, and the holder must depart the country before the 120-day period expires.",
+          "url": "https://immigration.gov.vu/visit"
+        },
+        "name": {
+          "text": "A tourist visa for Vanuatu is designed for short-term travelers with a genuine intention of visiting the country for tourism, leisure, or social visits.",
+          "url": "https://immigration.gov.vu/visit"
+        },
+        "method": {
+          "text": "If you are from a non-exempted country, you must apply for the visa in advance and obtain approval before traveling to Vanuatu. Apply Online",
           "url": "https://immigration.gov.vu/visit"
         }
       }
@@ -2028,8 +2048,8 @@
     },
     "proofOfFunds": {
       "required": true,
-      "appliesTo": "visa-applicants",
-      "text": "Visitor visa applicants must show funds or income of at least 40,000 vatu for each month of the stay, or evidence of support from family or friends in Vanuatu. No sum is published for visa-exempt visitors.",
+      "appliesTo": "all",
+      "text": "The Department of Immigration lists having the financial means to support oneself and any dependents among the criteria for a tourist visa, which exempted nationals obtain on arrival provided they meet the grant criteria. Visitor visa applicants must show funds or income of at least 40,000 vatu per month of the stay, or evidence of support from family or friends in Vanuatu. No sum is published for the tourist visa.",
       "amount": null,
       "source": {
         "url": "https://immigration.gov.vu/visit",
@@ -2186,13 +2206,13 @@
     },
     {
       "id": "evisa-how",
-      "question": "How does the Vanuatu e-Visa work?",
-      "answer": "Travelers from countries outside the exemption list apply online to the Department of Immigration before departure, with a certified passport copy, a return ticket, and evidence of funds (at least 40,000 vatu a month) or of support from family or friends in Vanuatu. No processing time is published."
+      "question": "How do I apply for a Vanuatu visitor visa?",
+      "answer": "The Department of Immigration says visitor visa applicants must be outside Vanuatu when they apply, and lists a certified copy of the passport bio-data page, evidence of a return ticket, and funds or income of at least 40,000 vatu a month or support from family or friends in Vanuatu. Its page links an online application. No processing time is published."
     },
     {
       "id": "what-at-border",
       "question": "What will I be asked for on arrival?",
-      "answer": "A passport valid for more than 6 months on the date you arrive and a return airline ticket, according to the Department of Immigration, which also lists a confirmed accommodation or local address. Visitor-visa applicants must also show funds of at least 40,000 vatu for each month of the stay, or support from family or friends in Vanuatu; no amount is published for visa-exempt visitors."
+      "answer": "A passport valid for more than 6 months on the date you arrive and a return airline ticket, according to the Department of Immigration, which also lists a confirmed accommodation or local address. Visitor-visa applicants must also show funds of at least 40,000 vatu for each month of the stay, or support from family or friends in Vanuatu; the tourist visa that exempted nationals get on arrival requires the financial means to support yourself, with no amount published."
     }
   ]
 }

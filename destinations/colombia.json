@@ -2779,7 +2779,7 @@
       "fee": {
         "amount": 56,
         "currency": "USD",
-        "notes": "USD 56 application (study) fee, plus an issuance fee of USD 82 if approved (EUR 44 and EUR 63 in Europe and Cuba); some nationalities pay less."
+        "notes": "USD 56 application (study) fee, plus an issuance fee of USD 82 if approved (EUR 44 and EUR 63 in Europe and Cuba). Ecuadorian nationals pay no issuance fee and a study fee of USD 30 (EUR 23); Japanese and Korean nationals pay only the study fee; Spanish nationals pay neither."
       },
       "processing": {
         "minDays": null,
@@ -2875,6 +2875,14 @@
         "extendable": {
           "text": "Vigencia: Hasta un (1) año. La permanencia autorizada en el territorio nacional será de 90 días, prorrogable por otros 90 días calendario, continuos o discontinuos.",
           "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/tipos-de-visa"
+        },
+        "name": {
+          "text": "Visa de visitante (tipo V)",
+          "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/tipos-de-visa"
+        },
+        "method": {
+          "text": "El trámite de visa se realiza 100% de manera virtual.",
+          "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/abece-de-visas"
         }
       }
     },
@@ -2886,7 +2894,7 @@
       "fee": {
         "amount": 150000,
         "currency": "COP",
-        "notes": "COP 150,000 (2026 rate), paid online at the end of the application form; nationals of the European Union and Ecuador pay nothing. Apply at least 5 business days before your entry permit expires; processing takes 3 business days from payment."
+        "notes": "COP 150,000 (2026 rate), paid at the end of the application form, online or with a downloadable receipt for a bank deposit; nationals of the European Union and Ecuador pay nothing. Apply at least 5 business days before your entry permit expires; processing takes 3 business days from payment."
       },
       "processing": {
         "minDays": 3,
@@ -2922,6 +2930,14 @@
         },
         "stayDays": {
           "text": "Permiso de Turismo (PT) Hasta 90 días calendario",
+          "url": "https://www.migracioncolombia.gov.co/tramites-y-servicios/tramites-generales/prorroga/permiso-temporal-de-permanencia-ptp-/-prorroga"
+        },
+        "name": {
+          "text": "La expedición del permiso temporal de permanencia (PTP), también conocido como prórroga de permanencia, está regulada por la Resolución 2061 de 2020 de Migración Colombia.",
+          "url": "https://www.migracioncolombia.gov.co/tramites-y-servicios/tramites-generales/prorroga/permiso-temporal-de-permanencia-ptp-/-prorroga"
+        },
+        "method": {
+          "text": "El PTP es una autorización administrativa otorgada a extranjeros cuya nacionalidad no requiere visa y que desean extender su estadía en el país tras haber utilizado un permiso de ingreso y permanencia (PIP).",
           "url": "https://www.migracioncolombia.gov.co/tramites-y-servicios/tramites-generales/prorroga/permiso-temporal-de-permanencia-ptp-/-prorroga"
         }
       }
@@ -2978,20 +2994,27 @@
     "onwardTicket": {
       "required": true,
       "appliesTo": "all",
-      "text": "Every foreign visitor must present an exit (return or onward) ticket and show economic solvency where applicable, together with a visa where the nationality requires one. The UK government's travel advice says the ticket must be valid within the 90-day period.",
+      "text": "Migración Colombia says a foreign visitor's travel document must be accompanied, as applicable, by a visa where the nationality or activity requires one, an exit ticket and proof of economic solvency. The UK government's travel advice tells British visitors they must be able to show an onward or return ticket valid within the 90-day period.",
       "source": {
         "url": "https://www.migracioncolombia.gov.co/tramites-y-servicios/instructivos/requisitos-de-entrada-y-salida-del-pais",
         "name": "Migración Colombia — Requisitos de entrada y salida del país (Ingreso y salida de extranjeros)",
         "type": "government",
         "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastChanged": "2026-10-03",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gov.uk/foreign-travel-advice/colombia/entry-requirements",
+            "name": "UK FCDO — Colombia travel advice (entry requirements)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       }
     },
     "proofOfFunds": {
       "required": true,
       "appliesTo": "all",
       "amount": null,
-      "text": "Foreign visitors must be able to demonstrate economic solvency where applicable, alongside an exit ticket; Migración Colombia states no amount. Applicants for a Visitor (V) tourism visa must show bank statements for the six months before applying with monthly income of at least ten legal monthly minimum wages (SMLMV), their own or their host's.",
+      "text": "Migración Colombia says a foreign visitor's travel document must be accompanied, as applicable, by an exit ticket and proof of economic solvency; it states no amount. Applicants for a Visitor (V) tourism visa must show bank statements for the six months before applying with monthly income of at least ten legal monthly minimum wages (SMLMV), their own or their host's.",
       "source": {
         "url": "https://www.migracioncolombia.gov.co/tramites-y-servicios/instructivos/requisitos-de-entrada-y-salida-del-pais",
         "name": "Migración Colombia — Requisitos de entrada y salida del país (Ingreso y salida de extranjeros)",

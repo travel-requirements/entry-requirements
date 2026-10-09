@@ -1288,13 +1288,21 @@
         "entries": {
           "text": "Visa d'entrée simple Ce visa permet à un citoyen étranger d’entrer et de rester au Burundi pour une période d’un mois seulement",
           "url": "https://migration.gov.bi/Apply"
+        },
+        "name": {
+          "text": "Visa d'entrée simple Ce visa permet à un citoyen étranger d’entrer et de rester au Burundi pour une période d’un mois seulement",
+          "url": "https://migration.gov.bi/Apply"
+        },
+        "method": {
+          "text": "Il est obtenu en ligne, à l’Aéroport International Melchior Ndadaye et au niveau des ambassades",
+          "url": "https://migration.gov.bi/Apply"
         }
       }
     },
     {
       "id": "bdi-transit",
       "category": "transit",
-      "method": "evisa",
+      "method": "visa-on-arrival",
       "name": "Transit visa",
       "fee": {
         "amount": 40,
@@ -1351,6 +1359,14 @@
         "validityDays": {
           "text": "Tarif: 40 USD ou équivalent en Euros Validité: 3 jours Octroyé à tout point d’entrée",
           "url": "https://migration.gov.bi/Apply"
+        },
+        "name": {
+          "text": "Visa de transit Ce visa est destiné aux étrangers voyageant en transit via le Burundi pour se rendre dans un autre pays.",
+          "url": "https://migration.gov.bi/Apply"
+        },
+        "method": {
+          "text": "Tarif: 40 USD ou équivalent en Euros Validité: 3 jours Octroyé à tout point d’entrée",
+          "url": "https://migration.gov.bi/Apply"
         }
       }
     },
@@ -1358,7 +1374,7 @@
       "id": "eac-visa",
       "category": "tourist",
       "method": "visa-on-arrival",
-      "name": "EAC visa (East African Community citizens)",
+      "name": "EAC visa",
       "fee": {
         "amount": 0,
         "currency": "BIF",
@@ -1366,7 +1382,7 @@
       },
       "processing": null,
       "validityDays": 180,
-      "stayDays": null,
+      "stayDays": 180,
       "entries": null,
       "applyUrl": null,
       "source": {
@@ -1399,6 +1415,18 @@
           "url": "https://migration.gov.bi/Services"
         },
         "validityDays": {
+          "text": "Tarif - Gratuit Validité - 6 mois Octroyé au CGM ou à tout point d’entrée",
+          "url": "https://migration.gov.bi/Apply"
+        },
+        "stayDays": {
+          "text": "Les ressortissants des pays membres de la Communauté de l’Afrique de l’Est bénéficient d’un visa gratuit maximum de six mois leur permettant de séjourner dans le pays.",
+          "url": "https://migration.gov.bi/Apply"
+        },
+        "name": {
+          "text": "Visa EAC Les ressortissants des pays membres de la Communauté de l’Afrique de l’Est bénéficient d’un visa gratuit",
+          "url": "https://migration.gov.bi/Apply"
+        },
+        "method": {
           "text": "Tarif - Gratuit Validité - 6 mois Octroyé au CGM ou à tout point d’entrée",
           "url": "https://migration.gov.bi/Apply"
         }
@@ -1627,7 +1655,7 @@
     {
       "id": "eac-visa-free",
       "question": "Which passports get a free EAC visa?",
-      "answer": "The migration authority (CGM) lists a free “EAC entry visa” for citizens of East African Community member states — Kenya, Tanzania, Uganda, Rwanda, South Sudan, the DR Congo and Somalia — valid for 1 to 6 months."
+      "answer": "The migration authority (CGM) lists a free “EAC entry visa” for citizens of East African Community member states, valid for 1 to 6 months; the EAC names its Partner States as the DR Congo, Somalia, Burundi, Kenya, Rwanda, South Sudan, Uganda and Tanzania."
     },
     {
       "id": "visa-on-arrival",

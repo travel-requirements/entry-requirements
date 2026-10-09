@@ -3095,7 +3095,7 @@
       "id": "evisa-tourist",
       "category": "tourist",
       "method": "evisa",
-      "name": "Tourist eVisa (2 weeks)",
+      "name": "Two-week single-entry eVisa",
       "fee": {
         "amount": 10,
         "currency": "BHD",
@@ -3182,6 +3182,14 @@
         "extendable": {
           "text": "Extension fee 25 BHD (for 14 days)",
           "url": "https://www.npra.gov.bh/en/services/visas-residence-permit/visa-services/e-visa/evisa1/visit-visa-two-weeks-single-entry/"
+        },
+        "name": {
+          "text": "Two Weeks Single Entry Electronic Visa",
+          "url": "https://www.npra.gov.bh/en/services/visas-residence-permit/visa-services/e-visa/evisa1/visit-visa-two-weeks-single-entry/"
+        },
+        "method": {
+          "text": "The visa is issued and paid online.",
+          "url": "https://www.evisa.gov.bh/VISA/visaInput?nav=ADC&ADC=c&vt=2"
         }
       }
     },
@@ -3189,7 +3197,7 @@
       "id": "voa-tourist",
       "category": "tourist",
       "method": "visa-on-arrival",
-      "name": "Visa on Arrival",
+      "name": "Two-week single-entry visit visa on arrival",
       "fee": {
         "amount": 5,
         "currency": "BHD",
@@ -3234,14 +3242,22 @@
         "extendable": {
           "text": "If applicable extensions can be done at Nationality, Passports and Residence Affairs office (NPRA) or online",
           "url": "https://www.evisa.gov.bh/VISA/visaInput?nav=ADC&ADC=c&vt=0"
+        },
+        "name": {
+          "text": "Conditions for Visit Visa - 2 Weeks Single Entry",
+          "url": "https://www.evisa.gov.bh/VISA/visaInput?nav=ADC&ADC=c&vt=0"
+        },
+        "method": {
+          "text": "The visa is issued on arrival at any entry point for the Kingdom of Bahrain.",
+          "url": "https://www.evisa.gov.bh/VISA/visaInput?nav=ADC&ADC=c&vt=0"
         }
       }
     },
     {
       "id": "sponsored-visa",
       "category": "tourist",
-      "method": "embassy",
-      "name": "Sponsored Visit Visa (NPRA)",
+      "method": "evisa",
+      "name": "Visit visa (applied for by a guarantor in Bahrain)",
       "fee": {
         "amount": 30,
         "currency": "BHD",
@@ -3279,6 +3295,14 @@
         "extendable": {
           "text": "Visa extension fee 30 BHD",
           "url": "https://www.npra.gov.bh/en/services/visas-residence-permit/visa-services/general-visit-visas/"
+        },
+        "name": {
+          "text": "This visa is available for visitors who have family or relatives residing in Bahrain, within the applicable rules and regulations of the Kingdom of Bahrain",
+          "url": "https://www.npra.gov.bh/en/services/visas-residence-permit/visa-services/general-visit-visas/"
+        },
+        "method": {
+          "text": "The application must be submitted by a guarantor or authorized person",
+          "url": "https://www.npra.gov.bh/en/services/visas-residence-permit/visa-services/general-visit-visas/"
         }
       },
       "extendable": {
@@ -3289,8 +3313,8 @@
   ],
   "entryRequirements": {
     "passportValidity": {
-      "rule": "6-months-on-arrival",
-      "text": "NPRA asks eVisa applicants for a passport valid for more than 6 months, and the UK Foreign Office says your passport must have an expiry date at least 6 months after the date you arrive in Bahrain.",
+      "rule": "other",
+      "text": "NPRA asks eVisa applicants for a passport valid for more than 6 months. For the visa on arrival, NPRA's eVisa portal says the passport must be valid for the length of time you will be in Bahrain or the length of the visa, whichever is longer. The UK Foreign Office says your passport must have an expiry date at least 6 months after the date you arrive in Bahrain.",
       "source": {
         "url": "https://www.npra.gov.bh/en/services/visas-residence-permit/visa-services/e-visa/evisa1/visit-visa-two-weeks-single-entry/",
         "name": "Nationality, Passports & Residence Affairs (NPRA) — Two Weeks Single Entry Electronic Visa",
@@ -3300,6 +3324,11 @@
           {
             "url": "https://www.gov.uk/foreign-travel-advice/bahrain/entry-requirements",
             "name": "UK Foreign, Commonwealth & Development Office — Bahrain travel advice: entry requirements",
+            "lastVerified": "2026-10-09"
+          },
+          {
+            "url": "https://www.evisa.gov.bh/VISA/visaInput?nav=ADC&ADC=c&vt=0",
+            "name": "NPRA eVisa portal — Conditions for Visit Visa - 2 Weeks Single Entry (on arrival)",
             "lastVerified": "2026-10-09"
           }
         ]
@@ -3582,7 +3611,7 @@
     {
       "id": "gcc-residents",
       "question": "I live in Saudi Arabia / the UAE — can I get a visa on arrival?",
-      "answer": "NPRA offers residents of GCC states, whatever their nationality, a two-week single-entry eVisa applied for online from outside Bahrain, with the GCC residence permit attached and a return visa valid for at least 3 months; issuance takes one working day."
+      "answer": "NPRA offers GCC residents a two-week single-entry eVisa applied for online from outside Bahrain, with the GCC residence permit attached and a return visa valid for at least 3 months; issuance takes one working day."
     },
     {
       "id": "israeli-citizens",

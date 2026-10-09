@@ -231,11 +231,24 @@
         ],
         "notes": "Canada's travel advice says Canadians must obtain a visa from the DRC embassy in Ottawa before leaving Canada, and cannot obtain one at a port of entry or at a DRC embassy other than the one in their country of residence.",
         "source": {
-          "url": "https://travel.gc.ca/destinations/congo-kinshasa",
-          "name": "Government of Canada — DRC travel advice: entry and exit requirements (tourist visa: required)",
+          "url": "https://evisa.gouv.cd/helps/faqs",
+          "name": "Direction Générale de Migration (DGM), DR Congo — eVisa FAQ (\"Qui peut faire une demande de visa électronique en RDC ? … C. tout étranger désireux de venir en RDC pour la visite et tourisme\")",
           "type": "government",
-          "lastVerified": "2026-10-08",
-          "lastChanged": "2026-10-08"
+          "lastVerified": "2026-10-09",
+          "lastChanged": "2026-10-09",
+          "alsoStatedOn": [
+            {
+              "url": "https://travel.gc.ca/destinations/congo-kinshasa",
+              "name": "Government of Canada — DRC travel advice: entry and exit requirements (tourist visa: required)",
+              "lastVerified": "2026-10-08"
+            }
+          ],
+          "conflict": {
+            "url": "https://travel.gc.ca/destinations/congo-kinshasa",
+            "name": "Government of Canada — DRC travel advice: entry and exit requirements (tourist visa: required)",
+            "states": "visa obtained only from the DRC embassy in Ottawa, not at a port of entry",
+            "resolvedBy": "hierarchy"
+          }
         },
         "quote": {
           "text": "To enter DRC, Canadians must obtain a visa from the DRC embassy in Ottawa before leaving Canada. You cannot obtain a visa at a port of entry or at a DRC embassy other than that of your country of residence.",
@@ -500,11 +513,24 @@
         ],
         "notes": "Italy's Foreign Ministry travel advice says an entry visa is mandatory for all travellers, even for short stays, and is obtained from the DRC embassy or consulate in your country of residence.",
         "source": {
-          "url": "https://www.viaggiaresicuri.it/find-country/country/COD",
-          "name": "Ministry of Foreign Affairs of Italy, Viaggiare Sicuri — DR Congo (\"Visto d'ingresso: è obbligatorio per tutti i viaggiatori\")",
+          "url": "https://evisa.gouv.cd/helps/faqs",
+          "name": "Direction Générale de Migration (DGM), DR Congo — eVisa FAQ (\"Qui peut faire une demande de visa électronique en RDC ? … C. tout étranger désireux de venir en RDC pour la visite et tourisme\")",
           "type": "government",
-          "lastVerified": "2026-10-08",
-          "lastChanged": "2026-10-08"
+          "lastVerified": "2026-10-09",
+          "lastChanged": "2026-10-09",
+          "alsoStatedOn": [
+            {
+              "url": "https://www.viaggiaresicuri.it/find-country/country/COD",
+              "name": "Ministry of Foreign Affairs of Italy, Viaggiare Sicuri — DR Congo (\"Visto d'ingresso: è obbligatorio per tutti i viaggiatori\")",
+              "lastVerified": "2026-10-08"
+            }
+          ],
+          "conflict": {
+            "url": "https://www.viaggiaresicuri.it/find-country/country/COD",
+            "name": "Ministry of Foreign Affairs of Italy, Viaggiare Sicuri — DR Congo (\"Visto d'ingresso: è obbligatorio per tutti i viaggiatori\")",
+            "states": "visa obtained from the DRC embassy or consulate in the country of residence",
+            "resolvedBy": "hierarchy"
+          }
         },
         "quote": {
           "text": "Visto d'ingresso: è obbligatorio per tutti i viaggiatori, anche per soggiorni brevi; si ottiene presso l'Ambasciata o il Consolato della RDC nel Paese di residenza.",
@@ -1045,11 +1071,24 @@
         ],
         "notes": "The UK government's travel advice says to apply for a visa through the DRC Embassy in the UK and to allow at least 2 to 3 weeks for processing.",
         "source": {
-          "url": "https://www.gov.uk/foreign-travel-advice/democratic-republic-of-the-congo/entry-requirements",
-          "name": "UK FCDO — DRC travel advice: entry requirements (\"You must have a visa to visit DRC\")",
+          "url": "https://evisa.gouv.cd/helps/faqs",
+          "name": "Direction Générale de Migration (DGM), DR Congo — eVisa FAQ (\"Qui peut faire une demande de visa électronique en RDC ? … C. tout étranger désireux de venir en RDC pour la visite et tourisme\")",
           "type": "government",
-          "lastVerified": "2026-10-08",
-          "lastChanged": "2026-10-08"
+          "lastVerified": "2026-10-09",
+          "lastChanged": "2026-10-09",
+          "alsoStatedOn": [
+            {
+              "url": "https://www.gov.uk/foreign-travel-advice/democratic-republic-of-the-congo/entry-requirements",
+              "name": "UK FCDO — DRC travel advice: entry requirements (\"You must have a visa to visit DRC\")",
+              "lastVerified": "2026-10-08"
+            }
+          ],
+          "conflict": {
+            "url": "https://www.gov.uk/foreign-travel-advice/democratic-republic-of-the-congo/entry-requirements",
+            "name": "UK FCDO — DRC travel advice: entry requirements (\"You must have a visa to visit DRC\")",
+            "states": "visa applied for through the DRC Embassy in the UK",
+            "resolvedBy": "hierarchy"
+          }
         },
         "quote": {
           "text": "Apply for a visa through the DRC Embassy in the UK. Allow at least 2 to 3 weeks for application processing.",
@@ -1113,7 +1152,7 @@
       "id": "evisa-tourist",
       "category": "tourist",
       "method": "evisa",
-      "name": "Tourist eVisa",
+      "name": "eVisa (visa volant)",
       "fee": {
         "amount": 300,
         "currency": "USD",
@@ -1159,6 +1198,14 @@
         "extendable": {
           "text": "Le eVisa vous permet d'obtenir un VAP (Visa AéroPortuaire) qui sera apposé dans votre passeport avec une validité de 7 jours prorogeable.",
           "url": "https://evisa.gouv.cd/helps/faqs"
+        },
+        "name": {
+          "text": "Visa volant spécifique, visa volant ordinaire et visa volant pour visite de famille.",
+          "url": "https://evisa.gouv.cd/helps/faqs"
+        },
+        "method": {
+          "text": "C’est un visa sollicité et octroyé électroniquement.",
+          "url": "https://evisa.gouv.cd/helps/faqs"
         }
       }
     },
@@ -1166,7 +1213,7 @@
       "id": "embassy-tourist",
       "category": "tourist",
       "method": "embassy",
-      "name": "Tourist visa (embassy)",
+      "name": "Single entry visa (1 month validity), Embassy in Washington",
       "fee": {
         "amount": 100,
         "currency": "USD",
@@ -1203,6 +1250,14 @@
         "entries": {
           "text": "Single entry (1 month validity visa) $ 100.00",
           "url": "https://www.ambadrcusa.org/consular-affairs/all-consular-affairs-related-fees/"
+        },
+        "name": {
+          "text": "Single entry (1 month validity visa) $ 100.00",
+          "url": "https://www.ambadrcusa.org/consular-affairs/all-consular-affairs-related-fees/"
+        },
+        "method": {
+          "text": "All travelers must submit the following to apply for a visa:",
+          "url": "https://www.ambadrcusa.org/consular-affairs/passport-visa-tenant-lieu/"
         }
       }
     }

@@ -2197,7 +2197,7 @@
       "id": "tourist-evisa",
       "category": "tourist",
       "method": "evisa",
-      "name": "Short-stay eVisa",
+      "name": "e-Visa (short-term, C category)",
       "fee": {
         "amount": 20,
         "currency": "USD",
@@ -2218,6 +2218,11 @@
           {
             "url": "https://www.evisa.gov.ge/GeoVisa/en/Home/FAQ",
             "name": "Georgia e-Visa Portal — FAQ (2% service fee; fee not refundable; validity and stay vary by the passport's country; e-Visas valid 120/30 and 180/90 described)",
+            "lastVerified": "2026-10-09"
+          },
+          {
+            "url": "https://www.geoconsul.gov.ge/en/entering-georgia",
+            "name": "Geoconsul (MFA of Georgia) — Entering Georgia (visa categories, procedures, decision time limits)",
             "lastVerified": "2026-10-09"
           }
         ]
@@ -2249,6 +2254,14 @@
         "fee": {
           "text": "How much is a visa fee? 20 USD + 2% service fee.",
           "url": "https://www.evisa.gov.ge/GeoVisa/en/Home/FAQ"
+        },
+        "name": {
+          "text": "A visa application shall be submitted through the e-VISA PORTAL only by an alien staying abroad if the issuance of a C category short-term electronic visa by the Ministry is required.",
+          "url": "https://www.geoconsul.gov.ge/en/entering-georgia"
+        },
+        "method": {
+          "text": "All you need to do is to complete the online application form and pay with your credit/debit card instead of applying through Georgian Embassy.",
+          "url": "https://www.evisa.gov.ge/GeoVisa/en/Home/FAQ"
         }
       }
     },
@@ -2256,13 +2269,17 @@
       "id": "ordinary-embassy",
       "category": "tourist",
       "method": "embassy",
-      "name": "Ordinary short-stay visa (C category) from a Georgian embassy or consulate",
+      "name": "Ordinary visa (short-term, C category)",
       "fee": {
         "amount": 20,
         "currency": "USD",
         "notes": "Consular tariff for immigration, ordinary and transit visas at Georgian embassies and consulates abroad."
       },
-      "processing": null,
+      "processing": {
+        "minDays": null,
+        "maxDays": 10,
+        "unit": "calendar-days"
+      },
       "validityDays": null,
       "stayDays": null,
       "entries": null,
@@ -2272,12 +2289,31 @@
         "name": "Geoconsul (MFA of Georgia) — consular services and tariffs abroad for foreign citizens: \"Immigration, ordinary and transit visas\" (Embassy in Cairo listing; same 20 USD tariff at other missions checked)",
         "type": "government",
         "lastVerified": "2026-10-09",
-        "lastChanged": "2026-10-06"
+        "lastChanged": "2026-10-06",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.geoconsul.gov.ge/en/entering-georgia",
+            "name": "Geoconsul (MFA of Georgia) — Entering Georgia (visa categories, procedures, decision time limits)",
+            "lastVerified": "2026-10-09"
+          }
+        ]
       },
       "evidence": {
         "fee": {
           "text": "The service tariff is 20 USD.",
           "url": "https://gc-api.mfa.gov.ge/v1/Visit/services?CitizenshipId=2&ConsulateId=149&ConculateType=2&FullDescription=false"
+        },
+        "name": {
+          "text": "A Georgian visa shall be divided into the following categories: Diplomatic (A) Special (B) Ordinary (C) Immigration (D) Transit (T)",
+          "url": "https://www.geoconsul.gov.ge/en/entering-georgia"
+        },
+        "method": {
+          "text": "Obtain Georgian visa of any type through the Georgian Embassy or Consular Office.",
+          "url": "https://www.geoconsul.gov.ge/en/entering-georgia"
+        },
+        "processing": {
+          "text": "The decision to issue a visa is made within the following time limits after a visa application is submitted: Short-term visa – 10 calendar days",
+          "url": "https://www.geoconsul.gov.ge/en/entering-georgia"
         }
       }
     }
@@ -2302,7 +2338,7 @@
         "amount": 30000,
         "currency": "GEL"
       },
-      "text": "Since 1 January 2026 every tourist entering Georgia must hold health and accident insurance covering the whole stay, with a sum insured of at least GEL 30,000, issued by a Georgian or foreign insurer and shown on paper or electronically in Georgian or English. Holders of diplomatic, official, service and special passports, accredited diplomatic staff and international drivers are exempt.",
+      "text": "Since 1 January 2026 all tourists entering Georgia must hold health and accident insurance covering the whole stay, including the arrival and departure dates, with a sum insured of at least GEL 30,000, issued by a Georgian or foreign insurer and shown on paper or electronically in Georgian or English. Exempt are holders of diplomatic and special visas; holders of diplomatic, official, service and special passports; accredited staff of diplomatic missions, consulates and international organisations and their accredited family members; persons whose entry is provided for by Georgia's international treaties; and drivers in international road freight and passenger transport.",
       "source": {
         "url": "https://www.geoconsul.gov.ge/en/entering-georgia",
         "name": "Geoconsul (MFA of Georgia) — Entering Georgia",
@@ -2439,7 +2475,7 @@
       "minRentalAge": null,
       "alcoholLimitBac": null,
       "mandatoryEquipment": [],
-      "text": "Georgia is a party to the 1949 Geneva and the 1968 Vienna Conventions on Road Traffic (UN Treaty Collection). Whether a permit is required in addition to a national license, and for how long a foreign license may be used, are set by national road law and have not been checked for Georgia yet.",
+      "text": "Georgia is a party to the 1949 Geneva and the 1968 Vienna Conventions on Road Traffic (UN Treaty Collection). No official source we could read states whether a permit is required in addition to a national licence, or for how long a foreign licence may be used.",
       "source": {
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",

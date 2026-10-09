@@ -2788,7 +2788,7 @@
       "id": "visitor-visa-arrival",
       "category": "tourist",
       "method": "visa-on-arrival",
-      "name": "Visitor's Visa (free, issued on arrival)",
+      "name": "Visitor visa on arrival",
       "fee": {
         "amount": 0,
         "currency": "TOP"
@@ -2828,6 +2828,14 @@
         "extendable": {
           "text": "To extend your length of stay, contact the Immigration Department at their following Officers:",
           "url": "https://www.revenue.gov.to/immigration-and-general-services"
+        },
+        "name": {
+          "text": "Travellers who are citizens of the following countries may be issued a 30 day visitor visa on arrival into Tonga:",
+          "url": "https://www.revenue.gov.to/immigration-and-general-services"
+        },
+        "method": {
+          "text": "Border officials will issue a free visa on when you arrive.",
+          "url": "https://www.gov.uk/foreign-travel-advice/tonga/entry-requirements"
         }
       }
     },
@@ -2835,7 +2843,7 @@
       "id": "visitor-visa-embassy",
       "category": "tourist",
       "method": "embassy",
-      "name": "Visitor's Visa (applied for before travel)",
+      "name": "Visa (obtained before arrival)",
       "fee": null,
       "processing": null,
       "validityDays": null,
@@ -2858,6 +2866,10 @@
         "extendable": {
           "text": "To extend your length of stay, contact the Immigration Department at their following Officers:",
           "url": "https://www.revenue.gov.to/immigration-and-general-services"
+        },
+        "name": {
+          "text": "Citizens of all other countries need visas to enter Tonga (prior to arrival).",
+          "url": "https://www.revenue.gov.to/immigration-and-general-services"
         }
       }
     },
@@ -2865,7 +2877,7 @@
       "id": "visa-extension",
       "category": "other",
       "method": "exemption-extension",
-      "name": "Extension of Visitor's Visa",
+      "name": "Extension of stay",
       "fee": null,
       "processing": null,
       "validityDays": null,
@@ -2887,6 +2899,10 @@
       "evidence": {
         "extendable": {
           "text": "To extend your length of stay, contact the Immigration Department at their following Officers:",
+          "url": "https://www.revenue.gov.to/immigration-and-general-services"
+        },
+        "name": {
+          "text": "To extend your length of stay, contact the Immigration Department",
           "url": "https://www.revenue.gov.to/immigration-and-general-services"
         }
       }
@@ -2920,7 +2936,7 @@
     },
     "onwardTicket": {
       "required": true,
-      "appliesTo": "all",
+      "appliesTo": "visa-applicants",
       "text": "The visitor visa on arrival is issued on condition that you hold a valid return ticket out of Tonga to a country you are permitted to enter.",
       "source": {
         "url": "https://www.revenue.gov.to/immigration-and-general-services",
@@ -2932,8 +2948,8 @@
     },
     "proofOfFunds": {
       "required": true,
-      "appliesTo": "all",
-      "text": "Tonga's Ministry of Revenue and Customs says the customs officer must be satisfied that you have sufficient funds to maintain yourself while in Tonga. No official source we could read states a fixed amount. The UK Foreign Office says a bank statement is acceptable evidence and that you may also need to show confirmed accommodation.",
+      "appliesTo": "visa-applicants",
+      "text": "Tonga's Ministry of Revenue and Customs says the visitor visa on arrival is issued on condition that the customs officer is satisfied you have sufficient funds to maintain yourself while in Tonga. No official source we could read states a fixed amount. The UK Foreign Office says you may need to show sufficient funds (a bank statement is acceptable evidence) and confirmed accommodation.",
       "amount": null,
       "source": {
         "url": "https://www.revenue.gov.to/immigration-and-general-services",
@@ -3120,8 +3136,8 @@
     },
     {
       "id": "how-long-31-days",
-      "question": "How long is the visa on arrival valid for?",
-      "answer": "30 days. Tonga's Ministry of Revenue and Customs issues it on condition of a valid return ticket out of Tonga and sufficient funds, and requires a passport valid for at least 6 months on entry; the UK Foreign Office says you may also need to show confirmed accommodation. To extend your stay, the Ministry says to contact the Immigration Department."
+      "question": "How long can I stay on the visa on arrival?",
+      "answer": "Tonga's Ministry of Revenue and Customs says citizens of the listed countries may be issued a 30 day visitor visa on arrival, on condition of a valid return ticket out of Tonga and sufficient funds, and that passports must be valid for at least 6 months when entering Tonga. The UK Foreign Office says you may also need to show confirmed accommodation. To extend your stay, the Ministry says to contact the Immigration Department."
     },
     {
       "id": "extend-stay",
