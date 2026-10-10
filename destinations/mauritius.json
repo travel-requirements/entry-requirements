@@ -16,7 +16,7 @@
   ],
   "summary": "Mauritius's Passport and Immigration Office lists, country by country, the nationalities that need no visa — including EU member states, the UK and the US — those given a visa on arrival, and those that need a visa prior to travel; it says visas are free of cost.",
   "meta": {
-    "lastUpdated": "2026-10-09",
+    "lastUpdated": "2026-10-10",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -240,14 +240,14 @@
       },
       "AU": {
         "requirement": "visa-free",
-        "maxStayDays": 60,
+        "maxStayDays": null,
         "notes": null,
         "source": {
-          "url": "https://www.smartraveller.gov.au/destinations/africa/mauritius",
-          "name": "Australian Government Smartraveller — Mauritius travel advice",
+          "url": "https://passport.govmu.org/passport/wp-content/uploads/2021/03/Visa-Requirement-Country-2025.pdf",
+          "name": "Passport and Immigration Office, Mauritius — Visa requirement country-wise (2025)",
           "type": "government",
-          "lastVerified": "2026-10-03",
-          "lastChanged": "2026-10-03",
+          "lastVerified": "2026-10-10",
+          "lastChanged": "2026-10-10",
           "alsoStatedOn": [
             {
               "url": "https://passport.govmu.org/passport/?page_id=587",
@@ -255,13 +255,12 @@
               "lastVerified": "2026-10-08"
             }
           ],
-          "stayEvidence": [
-            {
-              "days": 60,
-              "text": "If you're staying for less than 60 days, you can get a 'free of charge visa' on arrival.",
-              "url": "https://www.smartraveller.gov.au/destinations/africa/mauritius"
-            }
-          ]
+          "conflict": {
+            "url": "https://www.smartraveller.gov.au/destinations/africa/mauritius",
+            "name": "Australian Government Smartraveller — Mauritius travel advice",
+            "states": "a free-of-charge visa on arrival for stays of less than 60 days",
+            "resolvedBy": "hierarchy"
+          }
         }
       },
       "AT": {

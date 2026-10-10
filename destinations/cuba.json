@@ -1220,11 +1220,7 @@
       "category": "tourist",
       "method": "evisa",
       "name": "Cuban tourist card",
-      "fee": {
-        "amount": 30,
-        "currency": "EUR",
-        "notes": "Set by the Cuban consulate your application is sent to: the eVisa-Cuba application shows a cost of 30.00 EUR for each visa at the consulate in Warsaw, Poland. The eVisa portal says you will receive an answer within the next 72 working hours."
-      },
+      "fee": null,
       "processing": null,
       "validityDays": null,
       "stayDays": 90,
@@ -1254,10 +1250,6 @@
         ]
       },
       "evidence": {
-        "fee": {
-          "text": "Cost of each visa 30.00EUR",
-          "url": "https://evisacuba.cu/en/solicitar/visa"
-        },
         "stayDays": {
           "text": "The tourist visa is valid for a single entry to Cuba, for a stay of 90 days, extendable for 90 days.",
           "url": "https://evisacuba.cu/en/solicitar/visa"
@@ -1628,6 +1620,11 @@
       "answer": "It is Cuba's advance traveller information form, which the D'Viajeros site says is mandatory for every passenger. The UK government says you must complete it within 72 hours before entering Cuba and show the QR code it emails you on arrival, that airlines check it at check-in, and that electronic-visa holders enter their visa code on the form."
     },
     {
+      "id": "tourist-card-cost",
+      "question": "How much does the Cuban tourist card cost?",
+      "answer": "Cuba's eVisa-Cuba application asks you to choose the consulate where your application will be sent. For the consulate in Warsaw, Poland, it shows a cost of 30.00 EUR for each visa. No official source we could read states the cost at other consulates."
+    },
+    {
       "id": "extend-stay",
       "question": "Can I extend my stay in Cuba?",
       "answer": "Yes. Cuba's foreign ministry says the tourist card can be extended once for the same period, and that for the procedure the tourist should ask at the desk of their hotel or go directly to the immigration authorities. The UK government says you could be detained if you overstay your visa."
@@ -1910,7 +1907,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
     ],
-    "visaTypes.tourist-card.feeNotes": [
+    "faq.tourist-card-cost": [
       {
         "text": "Choose the consulate where your application will be sent",
         "url": "https://evisacuba.cu/en/solicitar/visa"
@@ -1922,10 +1919,6 @@
       {
         "text": "Cost of each visa 30.00EUR",
         "url": "https://evisacuba.cu/en/solicitar/visa"
-      },
-      {
-        "text": "Usted recibirá respuesta dentro de las próximas 72 horas hábiles.",
-        "url": "https://evisacuba.cu/"
       }
     ]
   }
