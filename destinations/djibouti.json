@@ -17,7 +17,7 @@
     "egypt",
     "oman"
   ],
-  "summary": "Djibouti's immigration directorate issues eVisas through its official portal, evisa.gouv.dj, where the application is open to everyone except holders of diplomatic, service or official passports and those benefiting from a courtesy visa program: a transit visa covers 1 to 14 days and a short-stay visa 15 to 90 days. The portal does not say which nationalities need a visa; the UK, Canadian, Australian and Italian governments say their citizens do. The portal says no visas will be issued at the airport or any other border point as of May 1, 2018; the UK government says you can buy a tourist visa when you arrive, paid in cash in US dollars.",
+  "summary": "Djibouti's immigration directorate issues eVisas through its official portal, evisa.gouv.dj, where the application is open to everyone except holders of diplomatic, service or official passports and those benefiting from a courtesy visa program: a transit visa covers 1 to 14 days and a short-stay visa 15 to 90 days. The portal does not say which nationalities need a visa; the UK, Canadian, Australian and Italian governments say their citizens do, and Djibouti's embassy in Japan says a valid visa and passport are required to enter Djibouti. The portal says no visas will be issued at the airport or any other border point as of May 1, 2018; the UK government says you can buy a tourist visa when you arrive, paid in cash in US dollars.",
   "meta": {
     "lastUpdated": "2026-10-10",
     "lastFullReview": "2026-09-26",
@@ -29,6 +29,9 @@
         "type": "government",
         "lastVerified": "2026-10-07"
       }
+    ],
+    "modules": [
+      "driving"
     ]
   },
   "visaPolicy": {
@@ -36,7 +39,14 @@
       "url": "https://www.evisa.gouv.dj/applicant-api/#/faq",
       "name": "Djibouti eVisa — official immigration directorate portal: Frequently asked questions",
       "type": "government",
-      "lastVerified": "2026-10-07"
+      "lastVerified": "2026-10-07",
+      "alsoStatedOn": [
+        {
+          "url": "https://djiboutiembassy.jp/visa-info/",
+          "name": "Embassy of the Republic of Djibouti in Japan — Visa Information",
+          "lastVerified": "2026-10-10"
+        }
+      ]
     },
     "byPassport": {
       "AF": {
@@ -502,9 +512,17 @@
         "notes": null
       },
       "JP": {
-        "requirement": "unconfirmed",
+        "requirement": "evisa",
         "maxStayDays": null,
-        "notes": null
+        "visaTypes": [
+          "dj-evisa-short",
+          "dj-evisa-standard"
+        ],
+        "notes": "Djibouti's embassy in Japan says a valid visa and passport are required to enter Djibouti.",
+        "quote": {
+          "text": "A valid visa and passport are required to enter Djibouti.",
+          "url": "https://djiboutiembassy.jp/visa-info/"
+        }
       },
       "JO": {
         "requirement": "unconfirmed",
@@ -1378,6 +1396,39 @@
     "timezone": "UTC+3",
     "drivingSide": null,
     "tapWaterSafe": false,
+    "driving": {
+      "idp": {
+        "required": null,
+        "conventions": [],
+        "text": "Canada's travel advice says you should carry an international driving permit. No Djiboutian official source we could read states whether visitors need one.",
+        "source": {
+          "url": "https://travel.gc.ca/destinations/djibouti",
+          "name": "Government of Canada — Djibouti travel advice and advisories (driving)",
+          "type": "government",
+          "lastVerified": "2026-10-07"
+        }
+      },
+      "foreignLicenceMaxDays": null,
+      "translationAccepted": null,
+      "minDrivingAge": null,
+      "minRentalAge": null,
+      "alcoholLimitBac": null,
+      "mandatoryEquipment": [],
+      "text": "The UK government says you can use a UK photocard driving licence to drive in Djibouti for up to 12 months, and that if you still have a paper driving licence you may need to update it to a photocard licence or obtain a local Djiboutian driving licence through the Ministry of Interior; Canada's travel advice says you should carry an international driving permit. No Djiboutian official source we could read states the rule for visitors driving on a foreign licence.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/djibouti/safety-and-security",
+        "name": "UK Foreign, Commonwealth & Development Office — Djibouti travel advice: safety and security (driving)",
+        "type": "government",
+        "lastVerified": "2026-10-07",
+        "alsoStatedOn": [
+          {
+            "url": "https://travel.gc.ca/destinations/djibouti",
+            "name": "Government of Canada — Djibouti travel advice and advisories (driving)",
+            "lastVerified": "2026-10-07"
+          }
+        ]
+      }
+    },
     "sources": {
       "emergency": {
         "url": "https://www.gov.uk/foreign-travel-advice/djibouti/getting-help",
@@ -1422,7 +1473,7 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Djibouti?",
-      "answer": "The UK, Canadian, Australian and Italian governments say their citizens need a visa. Djibouti's official eVisa portal, evisa.gouv.dj, says the eVisa application is open to everyone except holders of diplomatic, service or official passports and those benefiting from a courtesy visa program, but no official source we could read states which other nationalities need a visa. A transit visa covers 1 to 14 days and a short-stay visa 15 to 90 days."
+      "answer": "The UK, Canadian, Australian and Italian governments say their citizens need a visa, and Djibouti's embassy in Japan says a valid visa and passport are required to enter Djibouti. Djibouti's official eVisa portal, evisa.gouv.dj, says the eVisa application is open to everyone except holders of diplomatic, service or official passports and those benefiting from a courtesy visa program, but no official source we could read states which other nationalities need a visa. A transit visa covers 1 to 14 days and a short-stay visa 15 to 90 days."
     },
     {
       "id": "visa-on-arrival",
@@ -1474,6 +1525,10 @@
       {
         "text": "You can buy a tourist visa when you arrive in Djibouti with payment in cash in US dollars.",
         "url": "https://www.gov.uk/foreign-travel-advice/djibouti/entry-requirements"
+      },
+      {
+        "text": "A valid visa and passport are required to enter Djibouti.",
+        "url": "https://djiboutiembassy.jp/visa-info/"
       }
     ],
     "faq.need-visa": [
@@ -1500,6 +1555,10 @@
       {
         "text": "A transit visa (from 1 to 14 days) costs $12 and a short stay visa (from 15 to 90 days) will cost $23.",
         "url": "https://www.evisa.gouv.dj/applicant-api/#/faq"
+      },
+      {
+        "text": "A valid visa and passport are required to enter Djibouti.",
+        "url": "https://djiboutiembassy.jp/visa-info/"
       }
     ],
     "faq.visa-on-arrival": [
@@ -1602,6 +1661,26 @@
       {
         "text": "a short stay visa (from 15 to 90 days) will cost $23",
         "url": "https://www.evisa.gouv.dj/applicant-api/#/faq"
+      }
+    ],
+    "countryFacts.driving": [
+      {
+        "text": "You can use a UK photocard driving licence to drive in Djibouti for up to 12 months.",
+        "url": "https://www.gov.uk/foreign-travel-advice/djibouti/safety-and-security"
+      },
+      {
+        "text": "If you still have a paper driving licence, you may need to update it to a photocard licence or obtain a local Djiboutian driving licence through the Ministry of Interior.",
+        "url": "https://www.gov.uk/foreign-travel-advice/djibouti/safety-and-security"
+      },
+      {
+        "text": "You should carry an international driving permit",
+        "url": "https://travel.gc.ca/destinations/djibouti"
+      }
+    ],
+    "countryFacts.driving.idp": [
+      {
+        "text": "You should carry an international driving permit",
+        "url": "https://travel.gc.ca/destinations/djibouti"
       }
     ]
   }
