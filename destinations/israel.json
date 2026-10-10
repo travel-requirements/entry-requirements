@@ -69,6 +69,11 @@
           "url": "https://www.gov.il/en/service/request_for_tourist_visa_b2",
           "name": "Population and Immigration Authority — Apply for tourist and visitor entry visas (B/2 applications can be submitted at Israeli missions in the country of origin; page last updated 01.01.2024)",
           "lastVerified": "2026-10-10"
+        },
+        {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "name": "Population and Immigration Authority — ETA-IL eligibility data behind the nationality checker (\"allcountry\": NEED_PERMIT 0 = no visa required, eligible for ETA-IL; 1 = visa required)",
+          "lastVerified": "2026-10-11"
         }
       ],
       "list": {
@@ -118,6 +123,11 @@
               "lastVerified": "2026-10-09"
             }
           ]
+        },
+        "evidence": {
+          "url": "https://www.gov.il/en/departments/dynamiccollectors/ashrotzarim?skip=0",
+          "rule": "Tourist Visa Requirements for Foreign Nationals Attention: Visa exemptions apply to national and official passports only.",
+          "entry": "Country/Territory Afghanistan Country Code AFG Fee (National Passport) Yes National Passport Required"
         }
       },
       "AL": {
@@ -126,7 +136,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\"",
+          "entry": "{\"COUNTRY_L\":\"ALBANIA\",\"COUNTRY_CODE\":\"ALB\",\"EXT_COUNTRY_ID\":440,\"NEED_PERMIT\":0"
+        }
       },
       "DZ": {
         "requirement": "embassy-visa",
@@ -146,7 +161,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"ANDORRA\",\"COUNTRY_CODE\":\"AND\",\"EXT_COUNTRY_ID\":662,\"NEED_PERMIT\":0"
+        }
       },
       "AO": {
         "requirement": "embassy-visa",
@@ -178,7 +198,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"ARGENTINA\",\"COUNTRY_CODE\":\"ARG\",\"EXT_COUNTRY_ID\":830,\"NEED_PERMIT\":0"
+        }
       },
       "AM": {
         "requirement": "embassy-visa",
@@ -198,7 +223,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"AUSTRALIA\",\"COUNTRY_CODE\":\"AUS\",\"EXT_COUNTRY_ID\":860,\"NEED_PERMIT\":0"
+        }
       },
       "AT": {
         "requirement": "eta",
@@ -206,7 +236,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"AUSTRIA\",\"COUNTRY_CODE\":\"AUT\",\"EXT_COUNTRY_ID\":510,\"NEED_PERMIT\":0"
+        }
       },
       "AZ": {
         "requirement": "embassy-visa",
@@ -226,7 +261,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"BAHAMAS\",\"COUNTRY_CODE\":\"BHS\",\"EXT_COUNTRY_ID\":735,\"NEED_PERMIT\":0"
+        }
       },
       "BH": {
         "requirement": "embassy-visa",
@@ -258,7 +298,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"BARBADOS\",\"COUNTRY_CODE\":\"BRB\",\"EXT_COUNTRY_ID\":732,\"NEED_PERMIT\":0"
+        }
       },
       "BY": {
         "requirement": "eta",
@@ -266,7 +311,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"BELARUS\",\"COUNTRY_CODE\":\"BLR\",\"EXT_COUNTRY_ID\":304,\"NEED_PERMIT\":0"
+        }
       },
       "BE": {
         "requirement": "eta",
@@ -274,7 +324,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"BELGIUM\",\"COUNTRY_CODE\":\"BEL\",\"EXT_COUNTRY_ID\":620,\"NEED_PERMIT\":0"
+        }
       },
       "BZ": {
         "requirement": "eta",
@@ -282,7 +337,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"BELIZE\",\"COUNTRY_CODE\":\"BLZ\",\"EXT_COUNTRY_ID\":269,\"NEED_PERMIT\":0"
+        }
       },
       "BJ": {
         "requirement": "embassy-visa",
@@ -338,7 +398,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"BOTSWANA\",\"COUNTRY_CODE\":\"BWA\",\"EXT_COUNTRY_ID\":271,\"NEED_PERMIT\":0"
+        }
       },
       "BR": {
         "requirement": "eta",
@@ -346,7 +411,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"BRAZIL\",\"COUNTRY_CODE\":\"BRA\",\"EXT_COUNTRY_ID\":810,\"NEED_PERMIT\":0"
+        }
       },
       "BN": {
         "requirement": "embassy-visa",
@@ -366,7 +436,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"BULGARIA\",\"COUNTRY_CODE\":\"BGR\",\"EXT_COUNTRY_ID\":420,\"NEED_PERMIT\":0"
+        }
       },
       "BF": {
         "requirement": "embassy-visa",
@@ -434,7 +509,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"CANADA\",\"COUNTRY_CODE\":\"CAN\",\"EXT_COUNTRY_ID\":700,\"NEED_PERMIT\":0"
+        }
       },
       "CF": {
         "requirement": "embassy-visa",
@@ -466,7 +546,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"CHILE\",\"COUNTRY_CODE\":\"CHL\",\"EXT_COUNTRY_ID\":840,\"NEED_PERMIT\":0"
+        }
       },
       "CN": {
         "requirement": "embassy-visa",
@@ -486,7 +571,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"COLOMBIA\",\"COUNTRY_CODE\":\"COL\",\"EXT_COUNTRY_ID\":770,\"NEED_PERMIT\":0"
+        }
       },
       "KM": {
         "requirement": "embassy-visa",
@@ -506,7 +596,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"COSTA RICA\",\"COUNTRY_CODE\":\"CRI\",\"EXT_COUNTRY_ID\":723,\"NEED_PERMIT\":0"
+        }
       },
       "CI": {
         "requirement": "embassy-visa",
@@ -526,7 +621,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"CROATIA\",\"COUNTRY_CODE\":\"HRV\",\"EXT_COUNTRY_ID\":412,\"NEED_PERMIT\":0"
+        }
       },
       "CU": {
         "requirement": "embassy-visa",
@@ -546,7 +646,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"CYPRUS\",\"COUNTRY_CODE\":\"CYP\",\"EXT_COUNTRY_ID\":10,\"NEED_PERMIT\":0"
+        }
       },
       "CZ": {
         "requirement": "eta",
@@ -554,7 +659,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"CZECH SOCIALIST REP\",\"COUNTRY_CODE\":\"CZE\",\"EXT_COUNTRY_ID\":531,\"NEED_PERMIT\":0"
+        }
       },
       "CD": {
         "requirement": "embassy-visa",
@@ -574,7 +684,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"DENMARK\",\"COUNTRY_CODE\":\"DNK\",\"EXT_COUNTRY_ID\":580,\"NEED_PERMIT\":0"
+        }
       },
       "DJ": {
         "requirement": "embassy-visa",
@@ -594,7 +709,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"DOMINICA\",\"COUNTRY_CODE\":\"DMA\",\"EXT_COUNTRY_ID\":751,\"NEED_PERMIT\":0"
+        }
       },
       "DO": {
         "requirement": "eta",
@@ -602,7 +722,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"DOMINICAN R\",\"COUNTRY_CODE\":\"DOM\",\"EXT_COUNTRY_ID\":734,\"NEED_PERMIT\":0"
+        }
       },
       "EC": {
         "requirement": "eta",
@@ -610,7 +735,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"ECUADOR\",\"COUNTRY_CODE\":\"ECU\",\"EXT_COUNTRY_ID\":780,\"NEED_PERMIT\":0"
+        }
       },
       "EG": {
         "requirement": "embassy-visa",
@@ -630,7 +760,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"EL SALVADOR\",\"COUNTRY_CODE\":\"SLV\",\"EXT_COUNTRY_ID\":724,\"NEED_PERMIT\":0"
+        }
       },
       "GQ": {
         "requirement": "embassy-visa",
@@ -662,7 +797,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"ESTONIA\",\"COUNTRY_CODE\":\"EST\",\"EXT_COUNTRY_ID\":303,\"NEED_PERMIT\":0"
+        }
       },
       "SZ": {
         "requirement": "eta",
@@ -670,7 +810,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"SWAZILAND\",\"COUNTRY_CODE\":\"SWZ\",\"EXT_COUNTRY_ID\":291,\"NEED_PERMIT\":0"
+        }
       },
       "ET": {
         "requirement": "embassy-visa",
@@ -690,7 +835,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"FIJI\",\"COUNTRY_CODE\":\"FJI\",\"EXT_COUNTRY_ID\":888,\"NEED_PERMIT\":0"
+        }
       },
       "FI": {
         "requirement": "eta",
@@ -698,7 +848,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"FINLAND\",\"COUNTRY_CODE\":\"FIN\",\"EXT_COUNTRY_ID\":550,\"NEED_PERMIT\":0"
+        }
       },
       "FR": {
         "requirement": "eta",
@@ -706,7 +861,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"FRANCE\",\"COUNTRY_CODE\":\"FRA\",\"EXT_COUNTRY_ID\":640,\"NEED_PERMIT\":0"
+        }
       },
       "GA": {
         "requirement": "embassy-visa",
@@ -738,7 +898,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"GEORGIA\",\"COUNTRY_CODE\":\"GEO\",\"EXT_COUNTRY_ID\":309,\"NEED_PERMIT\":0"
+        }
       },
       "DE": {
         "requirement": "eta",
@@ -746,7 +911,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"GERMANY\",\"COUNTRY_CODE\":\"D\",\"EXT_COUNTRY_ID\":500,\"NEED_PERMIT\":0"
+        }
       },
       "GH": {
         "requirement": "embassy-visa",
@@ -766,7 +936,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"GREECE\",\"COUNTRY_CODE\":\"GRC\",\"EXT_COUNTRY_ID\":430,\"NEED_PERMIT\":0"
+        }
       },
       "GD": {
         "requirement": "eta",
@@ -774,7 +949,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"GRENADA\",\"COUNTRY_CODE\":\"GRD\",\"EXT_COUNTRY_ID\":753,\"NEED_PERMIT\":0"
+        }
       },
       "GT": {
         "requirement": "eta",
@@ -782,7 +962,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"GUATEMALA\",\"COUNTRY_CODE\":\"GTM\",\"EXT_COUNTRY_ID\":726,\"NEED_PERMIT\":0"
+        }
       },
       "GN": {
         "requirement": "embassy-visa",
@@ -826,7 +1011,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"HAITI\",\"COUNTRY_CODE\":\"HTI\",\"EXT_COUNTRY_ID\":736,\"NEED_PERMIT\":0"
+        }
       },
       "HN": {
         "requirement": "eta",
@@ -834,7 +1024,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"HONDURAS\",\"COUNTRY_CODE\":\"HND\",\"EXT_COUNTRY_ID\":725,\"NEED_PERMIT\":0"
+        }
       },
       "HK": {
         "requirement": "eta",
@@ -842,7 +1037,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"HONG KONG\",\"COUNTRY_CODE\":\"CHN\",\"EXT_COUNTRY_ID\":141,\"NEED_PERMIT\":0"
+        }
       },
       "HU": {
         "requirement": "eta",
@@ -850,7 +1050,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"HUNGARY\",\"COUNTRY_CODE\":\"HUN\",\"EXT_COUNTRY_ID\":540,\"NEED_PERMIT\":0"
+        }
       },
       "IS": {
         "requirement": "eta",
@@ -858,7 +1063,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"ISLAND\",\"COUNTRY_CODE\":\"ISL\",\"EXT_COUNTRY_ID\":581,\"NEED_PERMIT\":0"
+        }
       },
       "IN": {
         "requirement": "evisa",
@@ -897,6 +1107,11 @@
           "type": "government",
           "lastVerified": "2026-10-08",
           "lastChanged": "2026-10-08"
+        },
+        "evidence": {
+          "url": "https://www.gov.il/en/departments/dynamiccollectors/ashrotzarim?skip=80",
+          "rule": "Tourist Visa Requirements for Foreign Nationals Attention: Visa exemptions apply to national and official passports only.",
+          "entry": "Country/Territory Iran Country Code IRN Fee (National Passport) Yes National Passport Required"
         }
       },
       "IQ": {
@@ -912,6 +1127,11 @@
           "type": "government",
           "lastVerified": "2026-10-08",
           "lastChanged": "2026-10-08"
+        },
+        "evidence": {
+          "url": "https://www.gov.il/en/departments/dynamiccollectors/ashrotzarim?skip=80",
+          "rule": "Tourist Visa Requirements for Foreign Nationals Attention: Visa exemptions apply to national and official passports only.",
+          "entry": "Country/Territory Iraq Country Code IRQ Fee (National Passport) Yes National Passport Required"
         }
       },
       "IE": {
@@ -920,7 +1140,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"IRELAND\",\"COUNTRY_CODE\":\"IRL\",\"EXT_COUNTRY_ID\":600,\"NEED_PERMIT\":0"
+        }
       },
       "IL": {
         "requirement": "freedom-of-movement",
@@ -942,7 +1167,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"ITALY\",\"COUNTRY_CODE\":\"ITA\",\"EXT_COUNTRY_ID\":670,\"NEED_PERMIT\":0"
+        }
       },
       "JM": {
         "requirement": "eta",
@@ -950,7 +1180,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"JAMAICA\",\"COUNTRY_CODE\":\"JAM\",\"EXT_COUNTRY_ID\":737,\"NEED_PERMIT\":0"
+        }
       },
       "JP": {
         "requirement": "eta",
@@ -958,7 +1193,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"JAPAN\",\"COUNTRY_CODE\":\"JPN\",\"EXT_COUNTRY_ID\":160,\"NEED_PERMIT\":0"
+        }
       },
       "JO": {
         "requirement": "embassy-visa",
@@ -1014,7 +1254,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"KOSOVO\",\"COUNTRY_CODE\":\"RKS\",\"EXT_COUNTRY_ID\":417,\"NEED_PERMIT\":0"
+        }
       },
       "KW": {
         "requirement": "embassy-visa",
@@ -1058,7 +1303,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"LATVIA\",\"COUNTRY_CODE\":\"LVA\",\"EXT_COUNTRY_ID\":302,\"NEED_PERMIT\":0"
+        }
       },
       "LB": {
         "requirement": "embassy-visa",
@@ -1073,6 +1323,11 @@
           "type": "government",
           "lastVerified": "2026-10-06",
           "lastChanged": "2026-10-06"
+        },
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":1",
+          "entry": "{\"COUNTRY_L\":\"LEBANON\",\"COUNTRY_CODE\":\"LBN\",\"EXT_COUNTRY_ID\":30,\"NEED_PERMIT\":1"
         }
       },
       "LS": {
@@ -1081,7 +1336,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"LESOTHO\",\"COUNTRY_CODE\":\"LSO\",\"EXT_COUNTRY_ID\":272,\"NEED_PERMIT\":0"
+        }
       },
       "LR": {
         "requirement": "embassy-visa",
@@ -1108,6 +1368,11 @@
           "type": "government",
           "lastVerified": "2026-10-06",
           "lastChanged": "2026-10-06"
+        },
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":1",
+          "entry": "{\"COUNTRY_L\":\"LIBYA\",\"COUNTRY_CODE\":\"LBY\",\"EXT_COUNTRY_ID\":230,\"NEED_PERMIT\":1"
         }
       },
       "LI": {
@@ -1116,7 +1381,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"LIECHTENSTEIN\",\"COUNTRY_CODE\":\"LIE\",\"EXT_COUNTRY_ID\":521,\"NEED_PERMIT\":0"
+        }
       },
       "LT": {
         "requirement": "eta",
@@ -1124,7 +1394,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"LITHUANIA\",\"COUNTRY_CODE\":\"LTU\",\"EXT_COUNTRY_ID\":301,\"NEED_PERMIT\":0"
+        }
       },
       "LU": {
         "requirement": "eta",
@@ -1132,7 +1407,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"LUXEMBOURG\",\"COUNTRY_CODE\":\"LUX\",\"EXT_COUNTRY_ID\":630,\"NEED_PERMIT\":0"
+        }
       },
       "MO": {
         "requirement": "eta",
@@ -1140,7 +1420,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"MACAO\",\"COUNTRY_CODE\":\"CHN\",\"EXT_COUNTRY_ID\":142,\"NEED_PERMIT\":0"
+        }
       },
       "MG": {
         "requirement": "embassy-visa",
@@ -1160,7 +1445,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"MALAWI\",\"COUNTRY_CODE\":\"MWI\",\"EXT_COUNTRY_ID\":263,\"NEED_PERMIT\":0"
+        }
       },
       "MY": {
         "requirement": "embassy-visa",
@@ -1204,7 +1494,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"MALTA\",\"COUNTRY_CODE\":\"MLT\",\"EXT_COUNTRY_ID\":673,\"NEED_PERMIT\":0"
+        }
       },
       "MH": {
         "requirement": "eta",
@@ -1212,7 +1507,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"MARSHALL ISLANDS\",\"COUNTRY_CODE\":\"MHL\",\"EXT_COUNTRY_ID\":867,\"NEED_PERMIT\":0"
+        }
       },
       "MR": {
         "requirement": "embassy-visa",
@@ -1232,7 +1532,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"MAURITIUS\",\"COUNTRY_CODE\":\"MUS\",\"EXT_COUNTRY_ID\":276,\"NEED_PERMIT\":0"
+        }
       },
       "MX": {
         "requirement": "eta",
@@ -1240,7 +1545,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"MEXICO\",\"COUNTRY_CODE\":\"MEX\",\"EXT_COUNTRY_ID\":720,\"NEED_PERMIT\":0"
+        }
       },
       "FM": {
         "requirement": "eta",
@@ -1248,7 +1558,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"MICRONESIA\",\"COUNTRY_CODE\":\"FSM\",\"EXT_COUNTRY_ID\":868,\"NEED_PERMIT\":0"
+        }
       },
       "MD": {
         "requirement": "eta",
@@ -1299,7 +1614,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"MONACO\",\"COUNTRY_CODE\":\"MCO\",\"EXT_COUNTRY_ID\":641,\"NEED_PERMIT\":0"
+        }
       },
       "MN": {
         "requirement": "eta",
@@ -1307,7 +1627,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"MONGOLIA\",\"COUNTRY_CODE\":\"MNG\",\"EXT_COUNTRY_ID\":150,\"NEED_PERMIT\":0"
+        }
       },
       "ME": {
         "requirement": "eta",
@@ -1315,7 +1640,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"MONTENEGRO\",\"COUNTRY_CODE\":\"MNE\",\"EXT_COUNTRY_ID\":416,\"NEED_PERMIT\":0"
+        }
       },
       "MA": {
         "requirement": "embassy-visa",
@@ -1371,7 +1701,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"NAURU\",\"COUNTRY_CODE\":\"NRU\",\"EXT_COUNTRY_ID\":886,\"NEED_PERMIT\":0"
+        }
       },
       "NP": {
         "requirement": "embassy-visa",
@@ -1391,7 +1726,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"NETHERLANDS\",\"COUNTRY_CODE\":\"NLD\",\"EXT_COUNTRY_ID\":610,\"NEED_PERMIT\":0"
+        }
       },
       "NZ": {
         "requirement": "eta",
@@ -1399,7 +1739,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"NEW ZEALAND\",\"COUNTRY_CODE\":\"NZL\",\"EXT_COUNTRY_ID\":870,\"NEED_PERMIT\":0"
+        }
       },
       "NI": {
         "requirement": "embassy-visa",
@@ -1455,7 +1800,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"MAKADONIA\",\"COUNTRY_CODE\":\"MKD\",\"EXT_COUNTRY_ID\":414,\"NEED_PERMIT\":0"
+        }
       },
       "NO": {
         "requirement": "eta",
@@ -1463,7 +1813,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"NORWAY\",\"COUNTRY_CODE\":\"NOR\",\"EXT_COUNTRY_ID\":570,\"NEED_PERMIT\":0"
+        }
       },
       "OM": {
         "requirement": "embassy-visa",
@@ -1502,6 +1857,11 @@
               "lastVerified": "2026-10-09"
             }
           ]
+        },
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":1",
+          "entry": "{\"COUNTRY_L\":\"PAKISTAN\",\"COUNTRY_CODE\":\"PAK\",\"EXT_COUNTRY_ID\":111,\"NEED_PERMIT\":1"
         }
       },
       "PW": {
@@ -1510,7 +1870,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"PALAU\",\"COUNTRY_CODE\":\"PLW\",\"EXT_COUNTRY_ID\":869,\"NEED_PERMIT\":0"
+        }
       },
       "PS": {
         "requirement": "unconfirmed",
@@ -1523,7 +1888,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"PANAMA\",\"COUNTRY_CODE\":\"PAN\",\"EXT_COUNTRY_ID\":740,\"NEED_PERMIT\":0"
+        }
       },
       "PG": {
         "requirement": "eta",
@@ -1531,7 +1901,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"PAPUA\",\"COUNTRY_CODE\":\"PNG\",\"EXT_COUNTRY_ID\":866,\"NEED_PERMIT\":0"
+        }
       },
       "PY": {
         "requirement": "eta",
@@ -1539,7 +1914,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"PARAGUAY\",\"COUNTRY_CODE\":\"PRY\",\"EXT_COUNTRY_ID\":831,\"NEED_PERMIT\":0"
+        }
       },
       "PE": {
         "requirement": "eta",
@@ -1547,7 +1927,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"PERU\",\"COUNTRY_CODE\":\"PER\",\"EXT_COUNTRY_ID\":790,\"NEED_PERMIT\":0"
+        }
       },
       "PH": {
         "requirement": "eta",
@@ -1555,7 +1940,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"PHILIPPINES\",\"COUNTRY_CODE\":\"PHL\",\"EXT_COUNTRY_ID\":131,\"NEED_PERMIT\":0"
+        }
       },
       "PL": {
         "requirement": "eta",
@@ -1563,7 +1953,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"POLAND\",\"COUNTRY_CODE\":\"POL\",\"EXT_COUNTRY_ID\":310,\"NEED_PERMIT\":0"
+        }
       },
       "PT": {
         "requirement": "eta",
@@ -1571,7 +1966,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"PORTUGAL\",\"COUNTRY_CODE\":\"PRT\",\"EXT_COUNTRY_ID\":650,\"NEED_PERMIT\":0"
+        }
       },
       "QA": {
         "requirement": "embassy-visa",
@@ -1603,7 +2003,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"ROMANIA\",\"COUNTRY_CODE\":\"ROU\",\"EXT_COUNTRY_ID\":400,\"NEED_PERMIT\":0"
+        }
       },
       "RU": {
         "requirement": "eta",
@@ -1611,7 +2016,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"RUSSIAN FEDERATION\",\"COUNTRY_CODE\":\"RUS\",\"EXT_COUNTRY_ID\":306,\"NEED_PERMIT\":0"
+        }
       },
       "RW": {
         "requirement": "embassy-visa",
@@ -1631,7 +2041,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"ST. KITTS & NEVIS\",\"COUNTRY_CODE\":\"KNA\",\"EXT_COUNTRY_ID\":742,\"NEED_PERMIT\":0"
+        }
       },
       "LC": {
         "requirement": "eta",
@@ -1639,7 +2054,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"ST LUCIA\",\"COUNTRY_CODE\":\"LCA\",\"EXT_COUNTRY_ID\":755,\"NEED_PERMIT\":0"
+        }
       },
       "VC": {
         "requirement": "eta",
@@ -1647,7 +2067,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"ST VINCENT\",\"COUNTRY_CODE\":\"VCT\",\"EXT_COUNTRY_ID\":754,\"NEED_PERMIT\":0"
+        }
       },
       "WS": {
         "requirement": "eta",
@@ -1655,7 +2080,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"WESTERN SAMOA\",\"COUNTRY_CODE\":\"WSM\",\"EXT_COUNTRY_ID\":883,\"NEED_PERMIT\":0"
+        }
       },
       "SM": {
         "requirement": "eta",
@@ -1663,7 +2093,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"SAN MARINO\",\"COUNTRY_CODE\":\"SMR\",\"EXT_COUNTRY_ID\":671,\"NEED_PERMIT\":0"
+        }
       },
       "ST": {
         "requirement": "embassy-visa",
@@ -1702,6 +2137,11 @@
               "lastVerified": "2026-10-09"
             }
           ]
+        },
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":1",
+          "entry": "{\"COUNTRY_L\":\"SAUDI ARABIA\",\"COUNTRY_CODE\":\"SAU\",\"EXT_COUNTRY_ID\":60,\"NEED_PERMIT\":1"
         }
       },
       "SN": {
@@ -1722,7 +2162,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"SERBIA\",\"COUNTRY_CODE\":\"SRB\",\"EXT_COUNTRY_ID\":415,\"NEED_PERMIT\":0"
+        }
       },
       "SC": {
         "requirement": "embassy-visa",
@@ -1754,7 +2199,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"SINGAPORE\",\"COUNTRY_CODE\":\"SGP\",\"EXT_COUNTRY_ID\":122,\"NEED_PERMIT\":0"
+        }
       },
       "SK": {
         "requirement": "eta",
@@ -1762,7 +2212,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"SLOVAKIA\",\"COUNTRY_CODE\":\"SVK\",\"EXT_COUNTRY_ID\":532,\"NEED_PERMIT\":0"
+        }
       },
       "SI": {
         "requirement": "eta",
@@ -1770,7 +2225,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"SLOVENIA\",\"COUNTRY_CODE\":\"SVN\",\"EXT_COUNTRY_ID\":411,\"NEED_PERMIT\":0"
+        }
       },
       "SB": {
         "requirement": "eta",
@@ -1778,7 +2238,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"SOLOMON ISLANDS\",\"COUNTRY_CODE\":\"SLB\",\"EXT_COUNTRY_ID\":861,\"NEED_PERMIT\":0"
+        }
       },
       "SO": {
         "requirement": "embassy-visa",
@@ -1805,6 +2270,11 @@
               "lastVerified": "2026-10-09"
             }
           ]
+        },
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":1",
+          "entry": "{\"COUNTRY_L\":\"SOMALIA\",\"COUNTRY_CODE\":\"SOM\",\"EXT_COUNTRY_ID\":252,\"NEED_PERMIT\":1"
         }
       },
       "ZA": {
@@ -1813,7 +2283,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"S AFRICA\",\"COUNTRY_CODE\":\"ZAF\",\"EXT_COUNTRY_ID\":270,\"NEED_PERMIT\":0"
+        }
       },
       "KR": {
         "requirement": "eta",
@@ -1821,7 +2296,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"KOREA\",\"COUNTRY_CODE\":\"KOR\",\"EXT_COUNTRY_ID\":151,\"NEED_PERMIT\":0"
+        }
       },
       "SS": {
         "requirement": "embassy-visa",
@@ -1841,7 +2321,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"SPAIN\",\"COUNTRY_CODE\":\"ESP\",\"EXT_COUNTRY_ID\":660,\"NEED_PERMIT\":0"
+        }
       },
       "LK": {
         "requirement": "evisa",
@@ -1879,6 +2364,11 @@
               "lastVerified": "2026-10-09"
             }
           ]
+        },
+        "evidence": {
+          "url": "https://www.gov.il/en/departments/dynamiccollectors/ashrotzarim?skip=170",
+          "rule": "Tourist Visa Requirements for Foreign Nationals Attention: Visa exemptions apply to national and official passports only.",
+          "entry": "Country/Territory Sudan Country Code SDN Fee (National Passport) Yes National Passport Required"
         }
       },
       "SR": {
@@ -1887,7 +2377,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"SURINAME\",\"COUNTRY_CODE\":\"SUR\",\"EXT_COUNTRY_ID\":813,\"NEED_PERMIT\":0"
+        }
       },
       "SE": {
         "requirement": "eta",
@@ -1895,7 +2390,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"SWEDEN\",\"COUNTRY_CODE\":\"SWE\",\"EXT_COUNTRY_ID\":560,\"NEED_PERMIT\":0"
+        }
       },
       "CH": {
         "requirement": "eta",
@@ -1903,7 +2403,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"SWITZERLAND\",\"COUNTRY_CODE\":\"CHE\",\"EXT_COUNTRY_ID\":520,\"NEED_PERMIT\":0"
+        }
       },
       "SY": {
         "requirement": "embassy-visa",
@@ -1918,6 +2423,11 @@
           "type": "government",
           "lastVerified": "2026-10-06",
           "lastChanged": "2026-10-06"
+        },
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":1",
+          "entry": "{\"COUNTRY_L\":\"SYRIA\",\"COUNTRY_CODE\":\"SYR\",\"EXT_COUNTRY_ID\":20,\"NEED_PERMIT\":1"
         }
       },
       "TW": {
@@ -1926,7 +2436,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"TAIWAN\",\"COUNTRY_CODE\":\"TWN\",\"EXT_COUNTRY_ID\":133,\"NEED_PERMIT\":0"
+        }
       },
       "TJ": {
         "requirement": "embassy-visa",
@@ -1994,7 +2509,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"TONGA\",\"COUNTRY_CODE\":\"TON\",\"EXT_COUNTRY_ID\":881,\"NEED_PERMIT\":0"
+        }
       },
       "TT": {
         "requirement": "eta",
@@ -2002,7 +2522,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"TRINIDAD AND TOBAGO\",\"COUNTRY_CODE\":\"TTO\",\"EXT_COUNTRY_ID\":761,\"NEED_PERMIT\":0"
+        }
       },
       "TN": {
         "requirement": "embassy-visa",
@@ -2046,7 +2571,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"TUVALU\",\"COUNTRY_CODE\":\"TUV\",\"EXT_COUNTRY_ID\":872,\"NEED_PERMIT\":0"
+        }
       },
       "UG": {
         "requirement": "embassy-visa",
@@ -2066,7 +2596,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"UKRAINE\",\"COUNTRY_CODE\":\"UKR\",\"EXT_COUNTRY_ID\":305,\"NEED_PERMIT\":0"
+        }
       },
       "AE": {
         "requirement": "eta",
@@ -2074,7 +2609,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"UNITED ARAB EMIRATES\",\"COUNTRY_CODE\":\"ARE\",\"EXT_COUNTRY_ID\":64,\"NEED_PERMIT\":0"
+        }
       },
       "GB": {
         "requirement": "eta",
@@ -2082,7 +2622,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"UNITED KINGDOM\",\"COUNTRY_CODE\":\"GBR\",\"EXT_COUNTRY_ID\":590,\"NEED_PERMIT\":0"
+        }
       },
       "US": {
         "requirement": "eta",
@@ -2090,7 +2635,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"USA\",\"COUNTRY_CODE\":\"USA\",\"EXT_COUNTRY_ID\":710,\"NEED_PERMIT\":0"
+        }
       },
       "UY": {
         "requirement": "eta",
@@ -2098,7 +2648,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"URUGUAY\",\"COUNTRY_CODE\":\"URY\",\"EXT_COUNTRY_ID\":820,\"NEED_PERMIT\":0"
+        }
       },
       "UZ": {
         "requirement": "embassy-visa",
@@ -2118,7 +2673,12 @@
         "visaTypes": [
           "eta-il"
         ],
-        "notes": null
+        "notes": null,
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":0",
+          "entry": "{\"COUNTRY_L\":\"VANUATU\",\"COUNTRY_CODE\":\"VUT\",\"EXT_COUNTRY_ID\":871,\"NEED_PERMIT\":0"
+        }
       },
       "VA": {
         "requirement": "embassy-visa",
@@ -2169,6 +2729,11 @@
           "type": "government",
           "lastVerified": "2026-10-06",
           "lastChanged": "2026-10-06"
+        },
+        "evidence": {
+          "url": "https://israel-entry.piba.gov.il/api/getalldata",
+          "rule": "\"NEED_PERMIT\":1",
+          "entry": "{\"COUNTRY_L\":\"YEMEN\",\"COUNTRY_CODE\":\"YEM\",\"EXT_COUNTRY_ID\":70,\"NEED_PERMIT\":1"
         }
       },
       "ZM": {
