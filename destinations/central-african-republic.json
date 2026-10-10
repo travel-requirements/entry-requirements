@@ -1523,11 +1523,7 @@
       "category": "tourist",
       "method": "embassy",
       "name": "Tourist Visa",
-      "fee": {
-        "amount": 150,
-        "currency": "USD",
-        "notes": "At the embassy in Washington: USD 150 for a short stay of 0-1 month, USD 175 for 45 days, USD 250 for a medium stay of 2-3 months and USD 300 for a long stay of 3 months and more. Express processing (24-48 hours) costs USD 50 more."
-      },
+      "fee": null,
       "processing": {
         "minDays": 5,
         "maxDays": 10,
@@ -1542,7 +1538,7 @@
         "name": "Embassy of the Central African Republic in Washington, D.C. — visa application (processing)",
         "type": "government",
         "lastVerified": "2026-10-09",
-        "lastChanged": "2026-10-09",
+        "lastChanged": "2026-10-10",
         "conflict": {
           "url": "https://www.usrcaembassy.org/visa",
           "name": "Embassy of the Central African Republic in Washington, D.C. — visa (notice page)",
@@ -1558,10 +1554,6 @@
         ]
       },
       "evidence": {
-        "fee": {
-          "text": "Short Stay (0–1 month): $150",
-          "url": "https://www.usrcaembassy.org/visa"
-        },
         "processing": {
           "text": "Standard processing time: 5-10 business days",
           "url": "https://www.usrcaembassy.org/apply-info/visa"
@@ -1574,18 +1566,15 @@
           "text": "Download the PDF form, fill it out manually, and submit by mail or in person at the embassy.",
           "url": "https://www.usrcaembassy.org/apply-info/visa"
         }
-      }
+      },
+      "feeText": "The Embassy of the Central African Republic in Washington, D.C. lists the visa fee by length of stay: USD 150 for a short stay of 0-1 month, USD 175 for 45 days, USD 250 for a medium stay of 2-3 months and USD 300 for a long stay of 3 months and more, plus USD 50 for express processing (24-48 hours). Its visa application page says the application fee varies by visa type (USD 100-250)."
     },
     {
       "id": "embassy-business",
       "category": "business",
       "method": "embassy",
       "name": "Business Visa",
-      "fee": {
-        "amount": 150,
-        "currency": "USD",
-        "notes": "At the embassy in Washington: USD 150 for a short stay of 0-1 month, USD 175 for 45 days, USD 250 for a medium stay of 2-3 months and USD 300 for a long stay of 3 months and more. Express processing (24-48 hours) costs USD 50 more."
-      },
+      "fee": null,
       "processing": {
         "minDays": 5,
         "maxDays": 10,
@@ -1600,7 +1589,7 @@
         "name": "Embassy of the Central African Republic in Washington, D.C. — visa application (processing)",
         "type": "government",
         "lastVerified": "2026-10-09",
-        "lastChanged": "2026-10-09",
+        "lastChanged": "2026-10-10",
         "conflict": {
           "url": "https://www.usrcaembassy.org/visa",
           "name": "Embassy of the Central African Republic in Washington, D.C. — visa (notice page)",
@@ -1616,10 +1605,6 @@
         ]
       },
       "evidence": {
-        "fee": {
-          "text": "Short Stay (0–1 month): $150",
-          "url": "https://www.usrcaembassy.org/visa"
-        },
         "processing": {
           "text": "Standard processing time: 5-10 business days",
           "url": "https://www.usrcaembassy.org/apply-info/visa"
@@ -1632,7 +1617,8 @@
           "text": "Download the PDF form, fill it out manually, and submit by mail or in person at the embassy.",
           "url": "https://www.usrcaembassy.org/apply-info/visa"
         }
-      }
+      },
+      "feeText": "The Embassy of the Central African Republic in Washington, D.C. lists the visa fee by length of stay: USD 150 for a short stay of 0-1 month, USD 175 for 45 days, USD 250 for a medium stay of 2-3 months and USD 300 for a long stay of 3 months and more, plus USD 50 for express processing (24-48 hours). Its visa application page says the application fee varies by visa type (USD 100-250)."
     }
   ],
   "entryRequirements": {
@@ -2196,16 +2182,24 @@
         "url": "https://travel.gc.ca/destinations/central-african-republic"
       }
     ],
-    "visaTypes.embassy-tourist.feeNotes": [
+    "visaTypes.embassy-tourist.feeText": [
       {
         "text": "Visa Fee: Short Stay (0–1 month): $150 Short Stay (45 days): $175 Medium Stay (2–3 months): $250 Long Stay (3 months and more): $300 Additional $50 for express visa processing: 24–48h processing time.",
         "url": "https://www.usrcaembassy.org/visa"
+      },
+      {
+        "text": "Application fee: Varies by visa type ($100-$250 USD)",
+        "url": "https://www.usrcaembassy.org/apply-info/visa"
       }
     ],
-    "visaTypes.embassy-business.feeNotes": [
+    "visaTypes.embassy-business.feeText": [
       {
         "text": "Visa Fee: Short Stay (0–1 month): $150 Short Stay (45 days): $175 Medium Stay (2–3 months): $250 Long Stay (3 months and more): $300 Additional $50 for express visa processing: 24–48h processing time.",
         "url": "https://www.usrcaembassy.org/visa"
+      },
+      {
+        "text": "Application fee: Varies by visa type ($100-$250 USD)",
+        "url": "https://www.usrcaembassy.org/apply-info/visa"
       }
     ]
   }
