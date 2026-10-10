@@ -21,7 +21,7 @@
   ],
   "summary": "Slovakia applies the EU's Schengen visa rules. Your Europe says EU nationals can travel freely in the EU and in Iceland, Liechtenstein, Norway and Switzerland with a valid passport or national identity card. Under Regulation (EU) 2018/1806, nationals of the third countries listed in Annex II are exempt from the visa requirement for stays of no more than 90 days in any 180-day period, and nationals of those listed in Annex I must hold a visa when crossing the external borders.",
   "meta": {
-    "lastUpdated": "2026-10-09",
+    "lastUpdated": "2026-10-10",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -66,7 +66,14 @@
       "list": {
         "kind": "both",
         "exhaustive": false
-      }
+      },
+      "stayEvidence": [
+        {
+          "days": 90,
+          "text": "Nationals of third countries listed in Annex II shall be exempt from the requirement set out in Article 3(1) for stays of no more than 90 days in any 180-day period.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230"
+        }
+      ]
     },
     "byPassport": {
       "AF": {
@@ -2697,14 +2704,14 @@
       "fee": {
         "amount": 90,
         "currency": "EUR",
-        "notes": "Slovakia's Foreign Ministry lists EUR 90 for a national visa granted in connection with a residence permit application to be submitted in Slovakia; other national visas cost EUR 15 (holders of a Slovak residence permit), EUR 30 (applicants over 15 accepted at a language school for at least 25 lessons a week) or EUR 50 (visas under international treaties or for the benefit of Slovakia). The fee is non-refundable if the visa is refused."
+        "notes": "Slovakia's Foreign Ministry lists EUR 90 for a national visa granted in connection with a residence permit application to be submitted in Slovakia; other national visas cost EUR 15 (holders of a Slovak residence permit), EUR 30 (applicants over 15 accepted at a language school for at least 25 lessons a week) or EUR 50 (visas under international treaties or for the benefit of Slovakia). The fee is non-refundable if the visa is refused. The Foreign Ministry says national visas are issued for stays longer than 3 months, with a maximum validity of one year."
       },
       "processing": {
         "minDays": null,
         "maxDays": 30,
         "unit": "calendar-days"
       },
-      "validityDays": 365,
+      "validityDays": null,
       "stayDays": null,
       "entries": null,
       "applyUrl": null,
@@ -2723,10 +2730,6 @@
         },
         "processing": {
           "text": "The diplomatic mission shall decide about an application for the granting of national visa within 30 days from its receipt.",
-          "url": "https://www.mzv.sk/en/web/en/visa-and-services/national-visa"
-        },
-        "validityDays": {
-          "text": "The national visas are issued for stays longer than 3 months, with maximum validity of one year.",
           "url": "https://www.mzv.sk/en/web/en/visa-and-services/national-visa"
         },
         "name": {
@@ -3297,6 +3300,10 @@
       },
       {
         "text": "In case of the refusal of granting of the national visa the fee is non-refundable.",
+        "url": "https://www.mzv.sk/en/web/en/visa-and-services/national-visa"
+      },
+      {
+        "text": "The national visas are issued for stays longer than 3 months, with maximum validity of one year.",
         "url": "https://www.mzv.sk/en/web/en/visa-and-services/national-visa"
       }
     ],

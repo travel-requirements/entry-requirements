@@ -54,7 +54,14 @@
       "list": {
         "kind": "both",
         "exhaustive": false
-      }
+      },
+      "stayEvidence": [
+        {
+          "days": 90,
+          "text": "Instead, in each visit a holder may stay in the country for a maximum period of three months (90 days).",
+          "url": "https://visa.immigration.go.tz/guidelines"
+        }
+      ]
     },
     "byPassport": {
       "AF": {
@@ -2507,14 +2514,14 @@
       "fee": {
         "amount": 50,
         "currency": "USD",
-        "notes": null
+        "notes": "Tanzania's visa guidelines say the ordinary visa has a validity of up to 90 days."
       },
       "processing": {
         "minDays": null,
         "maxDays": 10,
         "unit": "calendar-days"
       },
-      "validityDays": 90,
+      "validityDays": null,
       "stayDays": null,
       "entries": "single",
       "applyUrl": "https://visa.immigration.go.tz/",
@@ -2555,10 +2562,6 @@
       },
       "evidence": {
         "fee": {
-          "text": "The fee for Ordinary Visa is 50 USD and has a validity of up to 90 days;",
-          "url": "https://visa.immigration.go.tz/guidelines"
-        },
-        "validityDays": {
           "text": "The fee for Ordinary Visa is 50 USD and has a validity of up to 90 days;",
           "url": "https://visa.immigration.go.tz/guidelines"
         },
@@ -2678,10 +2681,10 @@
       "fee": {
         "amount": 50,
         "currency": "USD",
-        "notes": "Ordinary visa fee; Tanzania's visa guidelines say US passport holders must apply for the multiple visa (100 USD) instead."
+        "notes": "Ordinary visa fee; Tanzania's visa guidelines say US passport holders must apply for the multiple visa (100 USD) instead. The guidelines say the ordinary visa has a validity of up to 90 days."
       },
       "processing": null,
-      "validityDays": 90,
+      "validityDays": null,
       "stayDays": null,
       "entries": "single",
       "applyUrl": null,
@@ -2709,10 +2712,6 @@
         "method": {
           "text": "and the second option is obtaining Visa on arrival at official entry point.",
           "url": "https://visa.immigration.go.tz/guidelines"
-        },
-        "validityDays": {
-          "text": "The fee for Ordinary Visa is 50 USD and has a validity of up to 90 days;",
-          "url": "https://visa.immigration.go.tz/guidelines"
         }
       }
     },
@@ -2724,14 +2723,14 @@
       "fee": {
         "amount": 30,
         "currency": "USD",
-        "notes": "For foreign nationals entering Tanzania on transit to other countries."
+        "notes": "For foreign nationals entering Tanzania on transit to other countries. The guidelines say it is issued for a period not exceeding seven days."
       },
       "processing": {
         "minDays": null,
         "maxDays": 10,
         "unit": "calendar-days"
       },
-      "validityDays": 7,
+      "validityDays": null,
       "stayDays": null,
       "entries": null,
       "applyUrl": "https://visa.immigration.go.tz/",
@@ -2771,10 +2770,6 @@
         },
         "processing": {
           "text": "Visa applications will be processed within ten days save for Referral visa category.",
-          "url": "https://visa.immigration.go.tz/guidelines"
-        },
-        "validityDays": {
-          "text": "It is issued for a period not exceeding seven days.",
           "url": "https://visa.immigration.go.tz/guidelines"
         },
         "name": {
@@ -3439,11 +3434,25 @@
       {
         "text": "2. MULTIPLE ENTRY VISA 100 USD",
         "url": "https://visa.immigration.go.tz/guidelines"
+      },
+      {
+        "text": "The fee for Ordinary Visa is 50 USD and has a validity of up to 90 days;",
+        "url": "https://visa.immigration.go.tz/guidelines"
       }
     ],
     "visaTypes.transit-visa.feeNotes": [
       {
         "text": "This Visa may be issued to foreign nationals who seeks to enter the country on transit to other countries.",
+        "url": "https://visa.immigration.go.tz/guidelines"
+      },
+      {
+        "text": "It is issued for a period not exceeding seven days.",
+        "url": "https://visa.immigration.go.tz/guidelines"
+      }
+    ],
+    "visaTypes.evisa-ordinary.feeNotes": [
+      {
+        "text": "The fee for Ordinary Visa is 50 USD and has a validity of up to 90 days;",
         "url": "https://visa.immigration.go.tz/guidelines"
       }
     ]

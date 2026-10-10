@@ -21,7 +21,7 @@
   ],
   "summary": "Croatia's Ministry of Foreign and European Affairs says Croatia has applied the Schengen rules in full since 1 January 2023, and that third-country nationals, whether or not they need a visa, can stay in the Schengen Area up to 90 days in any 180-day period. EU nationals travel freely with a passport or ID card; nationals of the countries on the EU's visa-exempt list (Annex II of Regulation (EU) 2018/1806) need no visa (the ETIAS travel authorisation is not yet in operation), and others need a Schengen short-stay visa costing EUR 90.",
   "meta": {
-    "lastUpdated": "2026-10-09",
+    "lastUpdated": "2026-10-10",
     "lastFullReview": "2026-09-25",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -80,7 +80,14 @@
       "list": {
         "kind": "both",
         "exhaustive": false
-      }
+      },
+      "stayEvidence": [
+        {
+          "days": 90,
+          "text": "Nationals of third countries listed in Annex II shall be exempt from the requirement set out in Article 3(1) for stays of no more than 90 days in any 180-day period.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230"
+        }
+      ]
     },
     "byPassport": {
       "US": {
@@ -2332,14 +2339,14 @@
       "id": "national-d",
       "category": "other",
       "method": "embassy",
-      "name": "Long-Stay Visa (Type D)",
+      "name": "Long-Stay Visa D",
       "fee": {
         "amount": 93,
         "currency": "EUR",
         "notes": "Long-stay (D) visa fee, charged when you apply; a VFS Global service fee is added if you apply at a visa centre. The D visa is issued to third-country nationals already granted temporary stay (or issued a stay-and-work permit): valid up to six months for one or more entries, it allows up to 30 days in Croatia; within 30 days from the start of the visa's validity you report to the police to register your residence and have the biometric residence permit made."
       },
       "processing": null,
-      "validityDays": 180,
+      "validityDays": null,
       "stayDays": 30,
       "entries": null,
       "applyUrl": "https://mvep.gov.hr/services-for-citizens/consular-information-22802/visas-22853/22853",
@@ -2354,10 +2361,6 @@
       "evidence": {
         "fee": {
           "text": "uplatiti viznu pristojbu (93 EUR)",
-          "url": "https://mvep.gov.hr/konzularne-informacije-244593/konzularne-informacije-22730/vize-22733/postupak-izdavanja-viza/podnosenje-zahtjeva-i-dokumentacija-za-dugotrajnu-d-vizu/259932"
-        },
-        "validityDays": {
-          "text": "Navedenim kategorijama se dugotrajna viza (viza D) izdaje za jedan ili više ulazaka, s rokom valjanosti do šest mjeseci i s odobrenim trajanjem boravka do 30 dana.",
           "url": "https://mvep.gov.hr/konzularne-informacije-244593/konzularne-informacije-22730/vize-22733/postupak-izdavanja-viza/podnosenje-zahtjeva-i-dokumentacija-za-dugotrajnu-d-vizu/259932"
         },
         "stayDays": {
@@ -2378,14 +2381,14 @@
       "id": "student",
       "category": "student",
       "method": "embassy",
-      "name": "Long-Stay Visa (Type D) for those granted temporary stay for study",
+      "name": "Long-Stay Visa D for those granted temporary stay for study",
       "fee": {
         "amount": 0,
         "currency": "EUR",
         "notes": "No D-visa fee for third-country nationals granted stay for secondary education, study or research. The D visa is issued to third-country nationals already granted temporary stay (or issued a stay-and-work permit): valid up to six months for one or more entries, it allows up to 30 days in Croatia; within 30 days from the start of the visa's validity you report to the police to register your residence and have the biometric residence permit made."
       },
       "processing": null,
-      "validityDays": 180,
+      "validityDays": null,
       "stayDays": 30,
       "entries": null,
       "applyUrl": "https://mvep.gov.hr/services-for-citizens/consular-information-22802/visas-22853/22853",
@@ -2409,10 +2412,6 @@
           "text": "Od plaćanja pristojbi na zahtjeve za dugotrajnu vizu (viza D) oslobođeni su: djeca do navršenih 12 godina, državljani trećih zemalja kojima je odobren boravak u svrhu spajanja obitelji s hrvatskim državljaninom (supružnik, djeca), državljani trećih zemalja kojima je odobren boravak u svrhu: srednjoškolskog obrazovanja studiranja istraživanja",
           "url": "https://mvep.gov.hr/informacije-za-gradjane-244593/konzularne-informacije-22730/vize-22733/postupak-izdavanja-viza/pristojbe/22757"
         },
-        "validityDays": {
-          "text": "Navedenim kategorijama se dugotrajna viza (viza D) izdaje za jedan ili više ulazaka, s rokom valjanosti do šest mjeseci i s odobrenim trajanjem boravka do 30 dana.",
-          "url": "https://mvep.gov.hr/konzularne-informacije-244593/konzularne-informacije-22730/vize-22733/postupak-izdavanja-viza/podnosenje-zahtjeva-i-dokumentacija-za-dugotrajnu-d-vizu/259932"
-        },
         "stayDays": {
           "text": "Navedenim kategorijama se dugotrajna viza (viza D) izdaje za jedan ili više ulazaka, s rokom valjanosti do šest mjeseci i s odobrenim trajanjem boravka do 30 dana.",
           "url": "https://mvep.gov.hr/konzularne-informacije-244593/konzularne-informacije-22730/vize-22733/postupak-izdavanja-viza/podnosenje-zahtjeva-i-dokumentacija-za-dugotrajnu-d-vizu/259932"
@@ -2431,14 +2430,14 @@
       "id": "work",
       "category": "work",
       "method": "embassy",
-      "name": "Long-Stay Visa (Type D) for holders of a stay and work permit",
+      "name": "Long-Stay Visa D for holders of a stay and work permit",
       "fee": {
         "amount": 93,
         "currency": "EUR",
         "notes": "Long-stay (D) visa fee, charged when you apply; a VFS Global service fee is added at a visa centre. The D visa is issued to third-country nationals already granted temporary stay (or issued a stay-and-work permit): valid up to six months for one or more entries, it allows up to 30 days in Croatia; within 30 days from the start of the visa's validity you report to the police to register your residence and have the biometric residence permit made."
       },
       "processing": null,
-      "validityDays": 180,
+      "validityDays": null,
       "stayDays": 30,
       "entries": null,
       "applyUrl": "https://mvep.gov.hr/services-for-citizens/consular-information-22802/visas-22853/22853",
@@ -2453,10 +2452,6 @@
       "evidence": {
         "fee": {
           "text": "uplatiti viznu pristojbu (93 EUR)",
-          "url": "https://mvep.gov.hr/konzularne-informacije-244593/konzularne-informacije-22730/vize-22733/postupak-izdavanja-viza/podnosenje-zahtjeva-i-dokumentacija-za-dugotrajnu-d-vizu/259932"
-        },
-        "validityDays": {
-          "text": "Navedenim kategorijama se dugotrajna viza (viza D) izdaje za jedan ili više ulazaka, s rokom valjanosti do šest mjeseci i s odobrenim trajanjem boravka do 30 dana.",
           "url": "https://mvep.gov.hr/konzularne-informacije-244593/konzularne-informacije-22730/vize-22733/postupak-izdavanja-viza/podnosenje-zahtjeva-i-dokumentacija-za-dugotrajnu-d-vizu/259932"
         },
         "stayDays": {

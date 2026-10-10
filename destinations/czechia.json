@@ -20,7 +20,7 @@
   ],
   "summary": "Czechia is an EU member state and a member of the Schengen Area. EU citizens can travel there with a valid passport or national ID card. Nationals of the countries on the EU's visa-exempt list (Annex II of Regulation 2018/1806) are exempt from the visa requirement for stays of no more than 90 days in any 180-day period; the ETIAS travel authorisation is not yet in operation. The Czech Foreign Ministry lists the states whose citizens need visas; its standard Schengen visa fee is EUR 90.",
   "meta": {
-    "lastUpdated": "2026-10-09",
+    "lastUpdated": "2026-10-10",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -73,7 +73,14 @@
       "list": {
         "kind": "both",
         "exhaustive": false
-      }
+      },
+      "stayEvidence": [
+        {
+          "days": 90,
+          "text": "Nationals of third countries listed in Annex II shall be exempt from the requirement set out in Article 3(1) for stays of no more than 90 days in any 180-day period.",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1806-20251230"
+        }
+      ]
     },
     "byPassport": {
       "US": {
@@ -2529,10 +2536,10 @@
       "fee": {
         "amount": 2500,
         "currency": "CZK",
-        "notes": "A long-term visa is for a stay longer than 90 days. The Foreign Ministry's fee list gives reduced or other rates for citizens of some countries based on bilateral or facilitation agreements."
+        "notes": "A long-term visa is for a stay longer than 90 days. The Foreign Ministry's fee list gives reduced or other rates for citizens of some countries based on bilateral or facilitation agreements. The Interior Ministry's portal says this visa is valid for a maximum of one year."
       },
       "processing": null,
-      "validityDays": 365,
+      "validityDays": null,
       "stayDays": null,
       "entries": null,
       "extendable": {
@@ -2560,10 +2567,6 @@
           "text": "LONG-TERM VISA (type D) CZK 2,500",
           "url": "https://mzv.gov.cz/jnp/en/information_for_aliens/visa_fee_schedule/index.html"
         },
-        "validityDays": {
-          "text": "How long is this visa valid for? For a maximum of 1 year.",
-          "url": "https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-visa/long-term-visa-general-information/"
-        },
         "extendable": {
           "text": "If your current long-term visa is valid for a period shorter than one year, you can apply to extend the visa repeatedly but only up to the total period of one year.",
           "url": "https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-visa/long-term-visa-general-information/"
@@ -2586,14 +2589,14 @@
       "fee": {
         "amount": 2500,
         "currency": "CZK",
-        "notes": "A visa for a stay longer than 90 days for study. The Foreign Ministry's fee list says a long-term visa for Taiwanese citizens studying at universities registered by the Ministry of Education, Sport and Youth, or on a scholarship granted by the Czech government, is free."
+        "notes": "A visa for a stay longer than 90 days for study. The Foreign Ministry's fee list says a long-term visa for Taiwanese citizens studying at universities registered by the Ministry of Education, Sport and Youth, or on a scholarship granted by the Czech government, is free. The Interior Ministry's portal says this visa is valid for a maximum of one year."
       },
       "processing": {
         "minDays": null,
         "maxDays": 60,
         "unit": "calendar-days"
       },
-      "validityDays": 365,
+      "validityDays": null,
       "stayDays": null,
       "entries": null,
       "extendable": {
@@ -2629,10 +2632,6 @@
           "text": "What is the time limit to process the application? 60 days.",
           "url": "https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-visa/long-term-visa-for-the-purpose-of-studies/"
         },
-        "validityDays": {
-          "text": "How long is this visa valid for? For a maximum of 1 year.",
-          "url": "https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-visa/long-term-visa-for-the-purpose-of-studies/"
-        },
         "extendable": {
           "text": "If your current long-term visa is valid for a period shorter than one year, you can apply to extend the visa repeatedly but only up to the total period of one year.",
           "url": "https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-visa/long-term-visa-general-information/"
@@ -2655,14 +2654,14 @@
       "fee": {
         "amount": 5000,
         "currency": "CZK",
-        "notes": "The Foreign Ministry's fee list gives CZK 5,000 for an employee card. The Interior Ministry's portal gives an administrative fee of CZK 2,500, which can only be paid by credit card at the Ministry of the Interior office."
+        "notes": "The Foreign Ministry's fee list gives CZK 5,000 for an employee card. The Interior Ministry's portal gives an administrative fee of CZK 2,500, which can only be paid by credit card at the Ministry of the Interior office. The Interior Ministry's portal says the employee card is always valid for a maximum period of two years."
       },
       "processing": {
         "minDays": null,
         "maxDays": 90,
         "unit": "calendar-days"
       },
-      "validityDays": 730,
+      "validityDays": null,
       "stayDays": null,
       "entries": null,
       "extendable": {
@@ -2692,10 +2691,6 @@
         },
         "processing": {
           "text": "What is the time limit to process the application? 60 days; 90 days in especially complicated cases",
-          "url": "https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-residence-permits/employee-card/"
-        },
-        "validityDays": {
-          "text": "How long is this type of residence permit valid for? Always for a maximum period of 2 years.",
           "url": "https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-residence-permits/employee-card/"
         },
         "extendable": {
@@ -3628,6 +3623,10 @@
       {
         "text": "REDUCED/OTHER RATES based on bilateral or facilitation agreements:",
         "url": "https://mzv.gov.cz/jnp/en/information_for_aliens/visa_fee_schedule/index.html"
+      },
+      {
+        "text": "How long is this visa valid for? For a maximum of 1 year.",
+        "url": "https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-visa/long-term-visa-general-information/"
       }
     ],
     "visaTypes.student.feeNotes": [
@@ -3638,6 +3637,10 @@
       {
         "text": "long-term visa for the purpose of study at universities registered by the Ministry of Education, Sport and Youth or based on a scholarship granted by CZ Gvt free",
         "url": "https://mzv.gov.cz/jnp/en/information_for_aliens/visa_fee_schedule/index.html"
+      },
+      {
+        "text": "How long is this visa valid for? For a maximum of 1 year.",
+        "url": "https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-visa/long-term-visa-for-the-purpose-of-studies/"
       }
     ],
     "visaTypes.work.feeNotes": [
@@ -3647,6 +3650,10 @@
       },
       {
         "text": "What is the administrative fee? CZK 2,500. The administrative fee can only be paid by credit card at the Ministry of the Interior office.",
+        "url": "https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-residence-permits/employee-card/"
+      },
+      {
+        "text": "How long is this type of residence permit valid for? Always for a maximum period of 2 years.",
         "url": "https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-residence-permits/employee-card/"
       }
     ]

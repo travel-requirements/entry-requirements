@@ -65,7 +65,7 @@
       },
       "GB": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": null,
         "visaTypes": [
           "tourist-evisa-single",
           "tourist-evisa-multiple",
@@ -81,7 +81,7 @@
       },
       "CA": {
         "requirement": "evisa",
-        "maxStayDays": 30,
+        "maxStayDays": null,
         "visaTypes": [
           "tourist-evisa-single",
           "tourist-evisa-multiple",
@@ -403,7 +403,7 @@
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
-          "embassy-tourist"
+          "embassy-preapproval"
         ],
         "notes": "The Egyptian Consulate in Washington says holders of passports on its list of countries requiring pre-approval cannot get a visa on arrival.",
         "source": {
@@ -797,7 +797,7 @@
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
-          "embassy-tourist"
+          "embassy-preapproval"
         ],
         "notes": "The Egyptian Consulate in Washington says holders of passports on its list of countries requiring pre-approval cannot get a visa on arrival.",
         "source": {
@@ -927,7 +927,7 @@
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
-          "embassy-tourist"
+          "embassy-preapproval"
         ],
         "notes": "The Egyptian Consulate in Washington says holders of passports on its list of countries requiring pre-approval cannot get a visa on arrival.",
         "source": {
@@ -969,7 +969,7 @@
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
-          "embassy-tourist"
+          "embassy-preapproval"
         ],
         "notes": "The Egyptian Consulate in Washington says holders of passports on its list of countries requiring pre-approval cannot get a visa on arrival.",
         "source": {
@@ -1137,7 +1137,7 @@
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
-          "embassy-tourist"
+          "embassy-preapproval"
         ],
         "notes": "The Egyptian Consulate in Washington says holders of passports on its list of countries requiring pre-approval cannot get a visa on arrival.",
         "source": {
@@ -1265,7 +1265,7 @@
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
-          "embassy-tourist"
+          "embassy-preapproval"
         ],
         "notes": "The Egyptian Consulate in Washington says holders of passports on its list of countries requiring pre-approval cannot get a visa on arrival.",
         "source": {
@@ -1327,7 +1327,7 @@
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
-          "embassy-tourist"
+          "embassy-preapproval"
         ],
         "notes": "The Egyptian Consulate in Washington says holders of passports on its list of countries requiring pre-approval cannot get a visa on arrival.",
         "source": {
@@ -1520,7 +1520,7 @@
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
-          "embassy-tourist"
+          "embassy-preapproval"
         ],
         "notes": "The Egyptian Consulate in Washington lists Sudan among the countries requiring pre-approval, and says Sudanese nationals must apply with Sudanese passports only.",
         "source": {
@@ -1553,7 +1553,7 @@
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
-          "embassy-tourist"
+          "embassy-preapproval"
         ],
         "notes": "The Egyptian Consulate in Washington says holders of passports on its list of countries requiring pre-approval cannot get a visa on arrival.",
         "source": {
@@ -1710,10 +1710,10 @@
       "fee": {
         "amount": 30,
         "currency": "USD",
-        "notes": null
+        "notes": "The UK government's travel advice says tourist e-visas are valid for up to 3 months."
       },
       "processing": null,
-      "validityDays": 90,
+      "validityDays": null,
       "stayDays": null,
       "entries": "single",
       "applyUrl": "https://visa2egypt.gov.eg/",
@@ -1735,10 +1735,6 @@
         "fee": {
           "text": "Single entry visa (Tourism) 30$",
           "url": "https://visa2egypt.gov.eg/eVisa/FAQ"
-        },
-        "validityDays": {
-          "text": "tourist e-visas are valid for up to 3 months",
-          "url": "https://www.gov.uk/foreign-travel-advice/egypt/entry-requirements"
         },
         "entries": {
           "text": "Single entry visa (Tourism) 30$",
@@ -1770,14 +1766,14 @@
       "id": "tourist-evisa-multiple",
       "category": "tourist",
       "method": "evisa",
-      "name": "Tourist eVisa — Multiple Entry",
+      "name": "Tourist eVisa — Multiple entries",
       "fee": {
         "amount": 65,
         "currency": "USD",
-        "notes": null
+        "notes": "The UK government's travel advice says tourist e-visas are valid for up to 3 months."
       },
       "processing": null,
-      "validityDays": 90,
+      "validityDays": null,
       "stayDays": null,
       "entries": "multiple",
       "applyUrl": "https://visa2egypt.gov.eg/",
@@ -1799,10 +1795,6 @@
         "fee": {
           "text": "Multiple entries visa (Tourism) 65$",
           "url": "https://visa2egypt.gov.eg/eVisa/FAQ"
-        },
-        "validityDays": {
-          "text": "tourist e-visas are valid for up to 3 months",
-          "url": "https://www.gov.uk/foreign-travel-advice/egypt/entry-requirements"
         },
         "entries": {
           "text": "Multiple entries visa (Tourism) 65$",
@@ -1838,10 +1830,10 @@
       "fee": {
         "amount": 30,
         "currency": "USD",
-        "notes": "The UK government's travel advice says approved airports sell a physical visa for 30 USD cash at kiosks before immigration, and that since 1 August 2026 Cairo International Airport also sells a digital visa on arrival by card for 36 USD, including a 6 USD digital service fee, via self-service machines or the Visa on Arrival portal. The Egyptian Consulate in Washington says that from 1 September 2026 all Egyptian airports have moved from visa-on-arrival stickers to an electronic QR code."
+        "notes": "The UK government's travel advice says approved airports sell a physical visa for 30 USD cash at kiosks before immigration, and that since 1 August 2026 Cairo International Airport also sells a digital visa on arrival by card for 36 USD, including a 6 USD digital service fee, via self-service machines or the Visa on Arrival portal. The Egyptian Consulate in Washington says that from 1 September 2026 all Egyptian airports have moved from visa-on-arrival stickers to an electronic QR code. It says visas on arrival are valid for up to 30 days."
       },
       "processing": null,
-      "validityDays": 30,
+      "validityDays": null,
       "stayDays": null,
       "entries": null,
       "extendable": {
@@ -1868,10 +1860,6 @@
           "text": "approved airports have kiosks before you reach the immigration counters where you can buy a physical visa for 30 US dollars (cash only)",
           "url": "https://www.gov.uk/foreign-travel-advice/egypt/entry-requirements"
         },
-        "validityDays": {
-          "text": "Visas on arrival are valid for up to 30 days.",
-          "url": "https://www.gov.uk/foreign-travel-advice/egypt/entry-requirements"
-        },
         "extendable": {
           "text": "You can apply for a visa extension at the Egyptian Passport and Immigration Offices.",
           "url": "https://www.gov.uk/foreign-travel-advice/egypt/entry-requirements"
@@ -1890,11 +1878,11 @@
       "id": "embassy-tourist",
       "category": "tourist",
       "method": "embassy",
-      "name": "Tourist Visa (Egyptian embassy or consulate)",
+      "name": "Tourist Visa (Egyptian consulate)",
       "fee": {
         "amount": 32,
         "currency": "USD",
-        "notes": "Fee at the Egyptian Consulate in Washington for a single-entry visa; a multiple-entry visa costs USD 67, and the applicant has to provide a ticket reflecting multiple entry into the country."
+        "notes": "Fee at the Egyptian Consulate in Washington for a single-entry visa; a multiple-entry visa costs USD 67, and the applicant has to provide a ticket reflecting multiple entry into the country. The consulate says this procedure is for non-American passport holders except for the countries on its pre-approval list."
       },
       "processing": null,
       "validityDays": null,
@@ -1913,11 +1901,39 @@
           "url": "https://egyptembassy.net/consular-services/visas-travel/visa-requirements/"
         },
         "name": {
-          "text": "For Tourist Visa: Non-AMERICAN PASSPORT HOLDERS ONLY",
+          "text": "For Tourist Visa: Non-AMERICAN PASSPORT HOLDERS ONLY (except for the list of countries here) Applying in person at the Egyptian Consulate",
           "url": "https://egyptembassy.net/consular-services/visas-travel/visa-requirements/"
         },
         "method": {
           "text": "Applying in person at the Egyptian Consulate",
+          "url": "https://egyptembassy.net/consular-services/visas-travel/visa-requirements/"
+        }
+      }
+    },
+    {
+      "id": "embassy-preapproval",
+      "category": "tourist",
+      "method": "embassy",
+      "name": "Pre-approval visa (Egyptian Consulate)",
+      "fee": null,
+      "processing": null,
+      "validityDays": null,
+      "stayDays": null,
+      "entries": null,
+      "applyUrl": null,
+      "source": {
+        "url": "https://egyptembassy.net/consular-services/visas-travel/visa-requirements/",
+        "name": "Consulate of the Arab Republic of Egypt in Washington, DC — visa requirements",
+        "type": "government",
+        "lastVerified": "2026-10-10"
+      },
+      "evidence": {
+        "name": {
+          "text": "Applying is by Email only to the Egyptian Consulate in DC (must be one consolidated pdf file not exceeding 5 MB for pre-approval visas: consulate@egyptembassy.net",
+          "url": "https://egyptembassy.net/consular-services/visas-travel/visa-requirements/"
+        },
+        "method": {
+          "text": "Applying is by Email only to the Egyptian Consulate in DC (must be one consolidated pdf file not exceeding 5 MB for pre-approval visas: consulate@egyptembassy.net",
           "url": "https://egyptembassy.net/consular-services/visas-travel/visa-requirements/"
         }
       }
@@ -2499,12 +2515,32 @@
       {
         "url": "https://egyptembassy.net/consular-services/visas-travel/visa-requirements/",
         "text": "Effective September 1, 2026, all Egyptian airports have transitioned from traditional Visa on Arrival stickers to an electronic QR code."
+      },
+      {
+        "text": "Visas on arrival are valid for up to 30 days.",
+        "url": "https://www.gov.uk/foreign-travel-advice/egypt/entry-requirements"
       }
     ],
     "visaTypes.embassy-tourist.feeNotes": [
       {
         "url": "https://egyptembassy.net/consular-services/visas-travel/visa-requirements/",
         "text": "Fees: $32 (Single Entry) or $67 (Multiple Entry/ applicant has to provide a ticket reflecting multiple entry into the country)"
+      },
+      {
+        "url": "https://egyptembassy.net/consular-services/visas-travel/visa-requirements/",
+        "text": "For Tourist Visa: Non-AMERICAN PASSPORT HOLDERS ONLY (except for the list of countries here)"
+      }
+    ],
+    "visaTypes.tourist-evisa-single.feeNotes": [
+      {
+        "text": "tourist e-visas are valid for up to 3 months",
+        "url": "https://www.gov.uk/foreign-travel-advice/egypt/entry-requirements"
+      }
+    ],
+    "visaTypes.tourist-evisa-multiple.feeNotes": [
+      {
+        "text": "tourist e-visas are valid for up to 3 months",
+        "url": "https://www.gov.uk/foreign-travel-advice/egypt/entry-requirements"
       }
     ]
   }

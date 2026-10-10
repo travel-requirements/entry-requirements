@@ -160,6 +160,33 @@
               "portalOnly": {
                 "type": "boolean"
               },
+              "stayEvidence": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "days": {
+                      "type": "integer",
+                      "exclusiveMinimum": 0,
+                      "maximum": 9007199254740991
+                    },
+                    "text": {
+                      "type": "string",
+                      "minLength": 10
+                    },
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    }
+                  },
+                  "required": [
+                    "days",
+                    "text",
+                    "url"
+                  ],
+                  "additionalProperties": false
+                }
+              },
               "list": {
                 "type": "object",
                 "properties": {
@@ -368,6 +395,33 @@
             },
             "portalOnly": {
               "type": "boolean"
+            },
+            "stayEvidence": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "days": {
+                    "type": "integer",
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991
+                  },
+                  "text": {
+                    "type": "string",
+                    "minLength": 10
+                  },
+                  "url": {
+                    "type": "string",
+                    "format": "uri"
+                  }
+                },
+                "required": [
+                  "days",
+                  "text",
+                  "url"
+                ],
+                "additionalProperties": false
+              }
             },
             "list": {
               "type": "object",
@@ -617,6 +671,33 @@
                 },
                 "portalOnly": {
                   "type": "boolean"
+                },
+                "stayEvidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "days": {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      "text": {
+                        "type": "string",
+                        "minLength": 10
+                      },
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      }
+                    },
+                    "required": [
+                      "days",
+                      "text",
+                      "url"
+                    ],
+                    "additionalProperties": false
+                  }
                 },
                 "list": {
                   "type": "object",
@@ -966,6 +1047,33 @@
                       "portalOnly": {
                         "type": "boolean"
                       },
+                      "stayEvidence": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "days": {
+                              "type": "integer",
+                              "exclusiveMinimum": 0,
+                              "maximum": 9007199254740991
+                            },
+                            "text": {
+                              "type": "string",
+                              "minLength": 10
+                            },
+                            "url": {
+                              "type": "string",
+                              "format": "uri"
+                            }
+                          },
+                          "required": [
+                            "days",
+                            "text",
+                            "url"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
                       "list": {
                         "type": "object",
                         "properties": {
@@ -1152,6 +1260,33 @@
                   },
                   "portalOnly": {
                     "type": "boolean"
+                  },
+                  "stayEvidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "days": {
+                          "type": "integer",
+                          "exclusiveMinimum": 0,
+                          "maximum": 9007199254740991
+                        },
+                        "text": {
+                          "type": "string",
+                          "minLength": 10
+                        },
+                        "url": {
+                          "type": "string",
+                          "format": "uri"
+                        }
+                      },
+                      "required": [
+                        "days",
+                        "text",
+                        "url"
+                      ],
+                      "additionalProperties": false
+                    }
                   },
                   "list": {
                     "type": "object",
@@ -1391,6 +1526,33 @@
                   },
                   "portalOnly": {
                     "type": "boolean"
+                  },
+                  "stayEvidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "days": {
+                          "type": "integer",
+                          "exclusiveMinimum": 0,
+                          "maximum": 9007199254740991
+                        },
+                        "text": {
+                          "type": "string",
+                          "minLength": 10
+                        },
+                        "url": {
+                          "type": "string",
+                          "format": "uri"
+                        }
+                      },
+                      "required": [
+                        "days",
+                        "text",
+                        "url"
+                      ],
+                      "additionalProperties": false
+                    }
                   },
                   "list": {
                     "type": "object",
@@ -1774,6 +1936,33 @@
               "portalOnly": {
                 "type": "boolean"
               },
+              "stayEvidence": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "days": {
+                      "type": "integer",
+                      "exclusiveMinimum": 0,
+                      "maximum": 9007199254740991
+                    },
+                    "text": {
+                      "type": "string",
+                      "minLength": 10
+                    },
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    }
+                  },
+                  "required": [
+                    "days",
+                    "text",
+                    "url"
+                  ],
+                  "additionalProperties": false
+                }
+              },
               "list": {
                 "type": "object",
                 "properties": {
@@ -2013,6 +2202,33 @@
                   "portalOnly": {
                     "type": "boolean"
                   },
+                  "stayEvidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "days": {
+                          "type": "integer",
+                          "exclusiveMinimum": 0,
+                          "maximum": 9007199254740991
+                        },
+                        "text": {
+                          "type": "string",
+                          "minLength": 10
+                        },
+                        "url": {
+                          "type": "string",
+                          "format": "uri"
+                        }
+                      },
+                      "required": [
+                        "days",
+                        "text",
+                        "url"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
                   "list": {
                     "type": "object",
                     "properties": {
@@ -2234,6 +2450,33 @@
                   },
                   "portalOnly": {
                     "type": "boolean"
+                  },
+                  "stayEvidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "days": {
+                          "type": "integer",
+                          "exclusiveMinimum": 0,
+                          "maximum": 9007199254740991
+                        },
+                        "text": {
+                          "type": "string",
+                          "minLength": 10
+                        },
+                        "url": {
+                          "type": "string",
+                          "format": "uri"
+                        }
+                      },
+                      "required": [
+                        "days",
+                        "text",
+                        "url"
+                      ],
+                      "additionalProperties": false
+                    }
                   },
                   "list": {
                     "type": "object",
@@ -2548,6 +2791,33 @@
               "portalOnly": {
                 "type": "boolean"
               },
+              "stayEvidence": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "days": {
+                      "type": "integer",
+                      "exclusiveMinimum": 0,
+                      "maximum": 9007199254740991
+                    },
+                    "text": {
+                      "type": "string",
+                      "minLength": 10
+                    },
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    }
+                  },
+                  "required": [
+                    "days",
+                    "text",
+                    "url"
+                  ],
+                  "additionalProperties": false
+                }
+              },
               "list": {
                 "type": "object",
                 "properties": {
@@ -2833,6 +3103,33 @@
                   "portalOnly": {
                     "type": "boolean"
                   },
+                  "stayEvidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "days": {
+                          "type": "integer",
+                          "exclusiveMinimum": 0,
+                          "maximum": 9007199254740991
+                        },
+                        "text": {
+                          "type": "string",
+                          "minLength": 10
+                        },
+                        "url": {
+                          "type": "string",
+                          "format": "uri"
+                        }
+                      },
+                      "required": [
+                        "days",
+                        "text",
+                        "url"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
                   "list": {
                     "type": "object",
                     "properties": {
@@ -3025,6 +3322,33 @@
             },
             "portalOnly": {
               "type": "boolean"
+            },
+            "stayEvidence": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "days": {
+                    "type": "integer",
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991
+                  },
+                  "text": {
+                    "type": "string",
+                    "minLength": 10
+                  },
+                  "url": {
+                    "type": "string",
+                    "format": "uri"
+                  }
+                },
+                "required": [
+                  "days",
+                  "text",
+                  "url"
+                ],
+                "additionalProperties": false
+              }
             },
             "list": {
               "type": "object",
@@ -3281,6 +3605,33 @@
               "portalOnly": {
                 "type": "boolean"
               },
+              "stayEvidence": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "days": {
+                      "type": "integer",
+                      "exclusiveMinimum": 0,
+                      "maximum": 9007199254740991
+                    },
+                    "text": {
+                      "type": "string",
+                      "minLength": 10
+                    },
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    }
+                  },
+                  "required": [
+                    "days",
+                    "text",
+                    "url"
+                  ],
+                  "additionalProperties": false
+                }
+              },
               "list": {
                 "type": "object",
                 "properties": {
@@ -3487,6 +3838,33 @@
                 "portalOnly": {
                   "type": "boolean"
                 },
+                "stayEvidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "days": {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      "text": {
+                        "type": "string",
+                        "minLength": 10
+                      },
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      }
+                    },
+                    "required": [
+                      "days",
+                      "text",
+                      "url"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
                 "list": {
                   "type": "object",
                   "properties": {
@@ -3675,6 +4053,33 @@
                 },
                 "portalOnly": {
                   "type": "boolean"
+                },
+                "stayEvidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "days": {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      "text": {
+                        "type": "string",
+                        "minLength": 10
+                      },
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      }
+                    },
+                    "required": [
+                      "days",
+                      "text",
+                      "url"
+                    ],
+                    "additionalProperties": false
+                  }
                 },
                 "list": {
                   "type": "object",
@@ -3888,6 +4293,33 @@
                   },
                   "portalOnly": {
                     "type": "boolean"
+                  },
+                  "stayEvidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "days": {
+                          "type": "integer",
+                          "exclusiveMinimum": 0,
+                          "maximum": 9007199254740991
+                        },
+                        "text": {
+                          "type": "string",
+                          "minLength": 10
+                        },
+                        "url": {
+                          "type": "string",
+                          "format": "uri"
+                        }
+                      },
+                      "required": [
+                        "days",
+                        "text",
+                        "url"
+                      ],
+                      "additionalProperties": false
+                    }
                   },
                   "list": {
                     "type": "object",
@@ -4130,6 +4562,33 @@
                 "portalOnly": {
                   "type": "boolean"
                 },
+                "stayEvidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "days": {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      "text": {
+                        "type": "string",
+                        "minLength": 10
+                      },
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      }
+                    },
+                    "required": [
+                      "days",
+                      "text",
+                      "url"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
                 "list": {
                   "type": "object",
                   "properties": {
@@ -4343,6 +4802,33 @@
                 },
                 "portalOnly": {
                   "type": "boolean"
+                },
+                "stayEvidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "days": {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      "text": {
+                        "type": "string",
+                        "minLength": 10
+                      },
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      }
+                    },
+                    "required": [
+                      "days",
+                      "text",
+                      "url"
+                    ],
+                    "additionalProperties": false
+                  }
                 },
                 "list": {
                   "type": "object",
@@ -4590,6 +5076,33 @@
                 },
                 "portalOnly": {
                   "type": "boolean"
+                },
+                "stayEvidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "days": {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      "text": {
+                        "type": "string",
+                        "minLength": 10
+                      },
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      }
+                    },
+                    "required": [
+                      "days",
+                      "text",
+                      "url"
+                    ],
+                    "additionalProperties": false
+                  }
                 },
                 "list": {
                   "type": "object",
@@ -4855,6 +5368,33 @@
                   "portalOnly": {
                     "type": "boolean"
                   },
+                  "stayEvidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "days": {
+                          "type": "integer",
+                          "exclusiveMinimum": 0,
+                          "maximum": 9007199254740991
+                        },
+                        "text": {
+                          "type": "string",
+                          "minLength": 10
+                        },
+                        "url": {
+                          "type": "string",
+                          "format": "uri"
+                        }
+                      },
+                      "required": [
+                        "days",
+                        "text",
+                        "url"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
                   "list": {
                     "type": "object",
                     "properties": {
@@ -5051,6 +5591,33 @@
                     },
                     "portalOnly": {
                       "type": "boolean"
+                    },
+                    "stayEvidence": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "days": {
+                            "type": "integer",
+                            "exclusiveMinimum": 0,
+                            "maximum": 9007199254740991
+                          },
+                          "text": {
+                            "type": "string",
+                            "minLength": 10
+                          },
+                          "url": {
+                            "type": "string",
+                            "format": "uri"
+                          }
+                        },
+                        "required": [
+                          "days",
+                          "text",
+                          "url"
+                        ],
+                        "additionalProperties": false
+                      }
                     },
                     "list": {
                       "type": "object",
@@ -5395,6 +5962,33 @@
                     "portalOnly": {
                       "type": "boolean"
                     },
+                    "stayEvidence": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "days": {
+                            "type": "integer",
+                            "exclusiveMinimum": 0,
+                            "maximum": 9007199254740991
+                          },
+                          "text": {
+                            "type": "string",
+                            "minLength": 10
+                          },
+                          "url": {
+                            "type": "string",
+                            "format": "uri"
+                          }
+                        },
+                        "required": [
+                          "days",
+                          "text",
+                          "url"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
                     "list": {
                       "type": "object",
                       "properties": {
@@ -5689,6 +6283,33 @@
                 "portalOnly": {
                   "type": "boolean"
                 },
+                "stayEvidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "days": {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      "text": {
+                        "type": "string",
+                        "minLength": 10
+                      },
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      }
+                    },
+                    "required": [
+                      "days",
+                      "text",
+                      "url"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
                 "list": {
                   "type": "object",
                   "properties": {
@@ -5939,6 +6560,33 @@
                   "portalOnly": {
                     "type": "boolean"
                   },
+                  "stayEvidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "days": {
+                          "type": "integer",
+                          "exclusiveMinimum": 0,
+                          "maximum": 9007199254740991
+                        },
+                        "text": {
+                          "type": "string",
+                          "minLength": 10
+                        },
+                        "url": {
+                          "type": "string",
+                          "format": "uri"
+                        }
+                      },
+                      "required": [
+                        "days",
+                        "text",
+                        "url"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
                   "list": {
                     "type": "object",
                     "properties": {
@@ -6158,6 +6806,33 @@
                 },
                 "portalOnly": {
                   "type": "boolean"
+                },
+                "stayEvidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "days": {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      "text": {
+                        "type": "string",
+                        "minLength": 10
+                      },
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      }
+                    },
+                    "required": [
+                      "days",
+                      "text",
+                      "url"
+                    ],
+                    "additionalProperties": false
+                  }
                 },
                 "list": {
                   "type": "object",
@@ -6411,6 +7086,33 @@
                 "portalOnly": {
                   "type": "boolean"
                 },
+                "stayEvidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "days": {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      "text": {
+                        "type": "string",
+                        "minLength": 10
+                      },
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      }
+                    },
+                    "required": [
+                      "days",
+                      "text",
+                      "url"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
                 "list": {
                   "type": "object",
                   "properties": {
@@ -6651,6 +7353,33 @@
                 "portalOnly": {
                   "type": "boolean"
                 },
+                "stayEvidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "days": {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      "text": {
+                        "type": "string",
+                        "minLength": 10
+                      },
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      }
+                    },
+                    "required": [
+                      "days",
+                      "text",
+                      "url"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
                 "list": {
                   "type": "object",
                   "properties": {
@@ -6878,6 +7607,33 @@
                       "portalOnly": {
                         "type": "boolean"
                       },
+                      "stayEvidence": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "days": {
+                              "type": "integer",
+                              "exclusiveMinimum": 0,
+                              "maximum": 9007199254740991
+                            },
+                            "text": {
+                              "type": "string",
+                              "minLength": 10
+                            },
+                            "url": {
+                              "type": "string",
+                              "format": "uri"
+                            }
+                          },
+                          "required": [
+                            "days",
+                            "text",
+                            "url"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
                       "list": {
                         "type": "object",
                         "properties": {
@@ -7086,6 +7842,33 @@
                 },
                 "portalOnly": {
                   "type": "boolean"
+                },
+                "stayEvidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "days": {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      "text": {
+                        "type": "string",
+                        "minLength": 10
+                      },
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      }
+                    },
+                    "required": [
+                      "days",
+                      "text",
+                      "url"
+                    ],
+                    "additionalProperties": false
+                  }
                 },
                 "list": {
                   "type": "object",
@@ -7363,6 +8146,33 @@
                 "portalOnly": {
                   "type": "boolean"
                 },
+                "stayEvidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "days": {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      "text": {
+                        "type": "string",
+                        "minLength": 10
+                      },
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      }
+                    },
+                    "required": [
+                      "days",
+                      "text",
+                      "url"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
                 "list": {
                   "type": "object",
                   "properties": {
@@ -7560,6 +8370,33 @@
                     },
                     "portalOnly": {
                       "type": "boolean"
+                    },
+                    "stayEvidence": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "days": {
+                            "type": "integer",
+                            "exclusiveMinimum": 0,
+                            "maximum": 9007199254740991
+                          },
+                          "text": {
+                            "type": "string",
+                            "minLength": 10
+                          },
+                          "url": {
+                            "type": "string",
+                            "format": "uri"
+                          }
+                        },
+                        "required": [
+                          "days",
+                          "text",
+                          "url"
+                        ],
+                        "additionalProperties": false
+                      }
                     },
                     "list": {
                       "type": "object",
@@ -7924,6 +8761,33 @@
                         "portalOnly": {
                           "type": "boolean"
                         },
+                        "stayEvidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "days": {
+                                "type": "integer",
+                                "exclusiveMinimum": 0,
+                                "maximum": 9007199254740991
+                              },
+                              "text": {
+                                "type": "string",
+                                "minLength": 10
+                              },
+                              "url": {
+                                "type": "string",
+                                "format": "uri"
+                              }
+                            },
+                            "required": [
+                              "days",
+                              "text",
+                              "url"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
                         "list": {
                           "type": "object",
                           "properties": {
@@ -8113,6 +8977,33 @@
                 },
                 "portalOnly": {
                   "type": "boolean"
+                },
+                "stayEvidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "days": {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      "text": {
+                        "type": "string",
+                        "minLength": 10
+                      },
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      }
+                    },
+                    "required": [
+                      "days",
+                      "text",
+                      "url"
+                    ],
+                    "additionalProperties": false
+                  }
                 },
                 "list": {
                   "type": "object",
@@ -8336,6 +9227,33 @@
                     },
                     "portalOnly": {
                       "type": "boolean"
+                    },
+                    "stayEvidence": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "days": {
+                            "type": "integer",
+                            "exclusiveMinimum": 0,
+                            "maximum": 9007199254740991
+                          },
+                          "text": {
+                            "type": "string",
+                            "minLength": 10
+                          },
+                          "url": {
+                            "type": "string",
+                            "format": "uri"
+                          }
+                        },
+                        "required": [
+                          "days",
+                          "text",
+                          "url"
+                        ],
+                        "additionalProperties": false
+                      }
                     },
                     "list": {
                       "type": "object",
@@ -8587,6 +9505,33 @@
                 "portalOnly": {
                   "type": "boolean"
                 },
+                "stayEvidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "days": {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      "text": {
+                        "type": "string",
+                        "minLength": 10
+                      },
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      }
+                    },
+                    "required": [
+                      "days",
+                      "text",
+                      "url"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
                 "list": {
                   "type": "object",
                   "properties": {
@@ -8789,6 +9734,33 @@
               },
               "portalOnly": {
                 "type": "boolean"
+              },
+              "stayEvidence": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "days": {
+                      "type": "integer",
+                      "exclusiveMinimum": 0,
+                      "maximum": 9007199254740991
+                    },
+                    "text": {
+                      "type": "string",
+                      "minLength": 10
+                    },
+                    "url": {
+                      "type": "string",
+                      "format": "uri"
+                    }
+                  },
+                  "required": [
+                    "days",
+                    "text",
+                    "url"
+                  ],
+                  "additionalProperties": false
+                }
               },
               "list": {
                 "type": "object",

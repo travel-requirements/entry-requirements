@@ -21,7 +21,7 @@
   ],
   "summary": "Israel's Foreign Ministry lists, country by country, whether a national passport needs a tourist visa or is exempted. Visitors from visa-exempt countries apply for an ETA-IL electronic travel authorization and can stay up to 90 days per visit; the Population and Immigration Authority says that if you are not eligible for an ETA-IL, you need to apply for a visa. Applications for B/2 tourist visas can be submitted at Israeli missions in the country of origin.",
   "meta": {
-    "lastUpdated": "2026-10-09",
+    "lastUpdated": "2026-10-10",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -49,6 +49,16 @@
           "url": "https://www.gov.il/en/departments/dynamiccollectors/ashrotzarim?skip=0",
           "name": "Israel Ministry of Foreign Affairs — Tourist Visa Requirements for Foreign Nationals (201 countries and territories, national passport \"Exempted\" or \"Required\")",
           "lastVerified": "2026-10-08"
+        },
+        {
+          "url": "https://israel-entry.piba.gov.il/learn-about",
+          "name": "Israel Population and Immigration Authority — Learn about ETA-IL (up to 90 days per visit)",
+          "lastVerified": "2026-10-08"
+        },
+        {
+          "url": "https://israel-entry.piba.gov.il/learn-about-evisa-b2",
+          "name": "Israel Population and Immigration Authority — Learn about the B/2 visitor e-visa (up to 90 days, determined by border control)",
+          "lastVerified": "2026-10-08"
         }
       ],
       "list": {
@@ -58,7 +68,19 @@
           "text": "If you are not eligible for an ETA-IL, you need to apply for a visa.",
           "url": "https://israel-entry.piba.gov.il/form/#/EligibilityNational?lang=en-US"
         }
-      }
+      },
+      "stayEvidence": [
+        {
+          "days": 90,
+          "text": "Duration Up to 90 Days Per visit",
+          "url": "https://israel-entry.piba.gov.il/learn-about"
+        },
+        {
+          "days": 90,
+          "text": "Duration Up to 90 Days Determined by Border Control, upon arrival",
+          "url": "https://israel-entry.piba.gov.il/learn-about-evisa-b2"
+        }
+      ]
     },
     "byPassport": {
       "AF": {
@@ -1038,6 +1060,13 @@
               "name": "Israel Population and Immigration Authority — ETA-IL eligibility check (Moldovan citizens holding a biometric passport are eligible to apply for an ETA-IL)",
               "lastVerified": "2026-10-07"
             }
+          ],
+          "stayEvidence": [
+            {
+              "days": 90,
+              "text": "Duration Up to 90 Days Per visit",
+              "url": "https://israel-entry.piba.gov.il/learn-about"
+            }
           ]
         },
         "quote": {
@@ -1838,10 +1867,10 @@
       "fee": {
         "amount": 25,
         "currency": "ILS",
-        "notes": "The Population and Immigration Authority says you cannot get a refund after you apply."
+        "notes": "The Population and Immigration Authority says you cannot get a refund after you apply. It says an ETA-IL stays valid for up to 2 years, or until the current passport expires, whichever comes first."
       },
       "processing": null,
-      "validityDays": 730,
+      "validityDays": null,
       "stayDays": 90,
       "entries": null,
       "applyUrl": "https://israel-entry.piba.gov.il/",
@@ -1868,10 +1897,6 @@
       "evidence": {
         "fee": {
           "text": "Cost 25 NIS Application fee (You cannot get a refund after you apply)",
-          "url": "https://israel-entry.piba.gov.il/learn-about"
-        },
-        "validityDays": {
-          "text": "Your ETA-IL will stay valid for up to 2 years, or until your current passport expires – whichever comes first.",
           "url": "https://israel-entry.piba.gov.il/learn-about"
         },
         "stayDays": {
@@ -2555,6 +2580,10 @@
     "visaTypes.eta-il.feeNotes": [
       {
         "text": "Cost 25 NIS Application fee (You cannot get a refund after you apply)",
+        "url": "https://israel-entry.piba.gov.il/learn-about"
+      },
+      {
+        "text": "Your ETA-IL will stay valid for up to 2 years, or until your current passport expires – whichever comes first.",
         "url": "https://israel-entry.piba.gov.il/learn-about"
       }
     ],

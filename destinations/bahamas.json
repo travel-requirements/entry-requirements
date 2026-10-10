@@ -15,7 +15,7 @@
   ],
   "summary": "The Bahamas' Department of Immigration lists the countries whose citizens' Bahamian visa requirements are waived for visits of no more than three or eight months, as each individual agreement may dictate, and the countries whose citizens must apply for and obtain Bahamian visas before attempting entry. The Ministry of Foreign Affairs publishes its own lists of who does and does not need a visa. Travellers who are not citizens or legal residents must present a completed Bahamas Immigration Disembarkation/Embarkation Card at the border.",
   "meta": {
-    "lastUpdated": "2026-10-09",
+    "lastUpdated": "2026-10-10",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -401,7 +401,14 @@
           "name": "Government of Canada — Bahamas travel advice, entry and exit requirements",
           "type": "government",
           "lastVerified": "2026-10-07",
-          "lastChanged": "2026-10-07"
+          "lastChanged": "2026-10-07",
+          "stayEvidence": [
+            {
+              "days": 240,
+              "text": "Tourist visa: not required for stays of up to 8 months",
+              "url": "https://travel.gc.ca/destinations/bahamas"
+            }
+          ]
         }
       },
       "CF": {
@@ -879,6 +886,13 @@
               "url": "https://www.immigration.gov.bs/entry-requirements/before-your-arrival/",
               "name": "Bahamas Department of Immigration — Before Your Arrival (visa waiver list names China and Hong Kong)",
               "lastVerified": "2026-10-07"
+            }
+          ],
+          "stayEvidence": [
+            {
+              "days": 90,
+              "text": "12. Bahamas 3 months",
+              "url": "https://www.immd.gov.hk/pdf/Visa-free%20Access%20or%20Visa-on-arrival%20for%20HKSAR%20passport%20list_Eng.pdf"
             }
           ]
         }
@@ -2217,11 +2231,7 @@
       "category": "tourist",
       "method": "evisa",
       "name": "Self-Sponsored Visitor Visa",
-      "fee": {
-        "amount": 160,
-        "currency": "USD",
-        "notes": "Single-entry Visitor's Visa. The fees are payable at the time of visa application and are non-refundable, by credit or debit card (VISA, MasterCard or American Express only). Multiple-entry visas for 3 months, 6 months or 1 year cost $250, and the applicant must provide copies of three previous successful visas to The Bahamas; a 3-year multiple-entry visa costs $500 and is not available online."
-      },
+      "fee": null,
       "processing": {
         "minDays": 7,
         "maxDays": 10,
@@ -2250,10 +2260,6 @@
         ]
       },
       "evidence": {
-        "fee": {
-          "text": "Single Entry Visas Visitor’s Visa $160.00",
-          "url": "https://mofa.gov.bs/evisa-online-services/"
-        },
         "processing": {
           "text": "The standard processing time for an eVISA is 7-10 business days",
           "url": "https://mofa.gov.bs/evisa-online-services/"
@@ -2610,6 +2616,11 @@
       "id": "work-remotely",
       "question": "Can I work remotely from The Bahamas?",
       "answer": "No official source we could read describes a remote-work visa or permit for The Bahamas. The Department of Immigration says visitors must not intend to engage in any gainful employment while in The Bahamas."
+    },
+    {
+      "id": "visa-fee",
+      "question": "How much does a Bahamas visitor visa cost?",
+      "answer": "The Ministry of Foreign Affairs lists the single-entry Visitor’s Visa at $160.00; no official source we could read names the currency. The fees are payable at the time of visa application and are non-refundable, by credit or debit card (VISA, MasterCard or American Express only). Multiple-entry visas for 3 months, 6 months or 1 year cost $250, and the applicant must provide copies of three previous successful visas to The Bahamas; a 3-year multiple-entry visa costs $500 and is not available online."
     }
   ],
   "textQuotes": {
@@ -2915,7 +2926,7 @@
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
     ],
-    "visaTypes.tourist-visa.feeNotes": [
+    "faq.visa-fee": [
       {
         "text": "Single Entry Visas Visitor’s Visa $160.00",
         "url": "https://mofa.gov.bs/evisa-online-services/"
