@@ -22,7 +22,7 @@
   ],
   "summary": "Visit Saudi says the tourist eVisa is a multiple-entry visa valid for one year or a single-entry visa valid for three months, each allowing a stay of no more than 90 consecutive days, with medical insurance included in the visa price, and that the visa on arrival is also available to holders of used US, UK or Schengen business or tourist visas. It says GCC nationals do not need a visa, lists an Embassy/Consulate/Tasheer visa for others, and says Hajj needs a specific Hajj visa.",
   "meta": {
-    "lastUpdated": "2026-10-09",
+    "lastUpdated": "2026-10-10",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 7,
     "primarySources": [
@@ -2835,7 +2835,7 @@
       "id": "tourist-evisa",
       "category": "tourist",
       "method": "evisa",
-      "name": "Tourist eVisa — 1 year, multiple entry",
+      "name": "eVisa — multiple entry, valid for one year",
       "fee": {
         "amount": 395,
         "currency": "SAR",
@@ -2884,7 +2884,7 @@
       "id": "voa",
       "category": "tourist",
       "method": "visa-on-arrival",
-      "name": "Tourist Visa on Arrival — 1 year, multiple entry",
+      "name": "Visa on Arrival",
       "fee": {
         "amount": 395,
         "currency": "SAR",
@@ -2933,7 +2933,7 @@
       "id": "embassy-visit",
       "category": "tourist",
       "method": "embassy",
-      "name": "Visit visa through an embassy, consulate or Tasheer visa office",
+      "name": "Embassy, consulate or Tasheer visa",
       "fee": null,
       "processing": null,
       "validityDays": null,
@@ -3313,18 +3313,25 @@
     "tapWaterSafe": null,
     "driving": {
       "idp": {
-        "required": null,
+        "required": "recommended",
         "conventions": [
           "1968-vienna"
         ],
-        "text": "Saudi Arabia is a party to the 1968 Vienna Convention on Road Traffic (UN Treaty Collection).",
+        "text": "Saudi Arabia is a party to the 1968 Vienna Convention on Road Traffic (UN Treaty Collection). Visit Saudi, the Saudi Tourism Authority's site, says obtaining an International Driving Permit (IDP) before you travel to Saudi Arabia is highly recommended. No official source we could read states for how long a foreign licence may be used.",
         "source": {
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
           "type": "igo",
           "lastVerified": "2026-10-03",
           "instrument": "Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
-          "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
+          "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
+          "alsoStatedOn": [
+            {
+              "url": "https://www.visitsaudi.com/en/stories/rules-of-the-road",
+              "name": "Visit Saudi (Saudi Tourism Authority) — Rules of the road",
+              "lastVerified": "2026-10-10"
+            }
+          ]
         }
       },
       "foreignLicenceMaxDays": null,
@@ -3333,14 +3340,21 @@
       "minRentalAge": null,
       "alcoholLimitBac": null,
       "mandatoryEquipment": [],
-      "text": "Saudi Arabia is a party to the 1968 Vienna Convention on Road Traffic (UN Treaty Collection). No official source we could read states whether a permit is required in addition to a national licence, or for how long a foreign licence may be used.",
+      "text": "Saudi Arabia is a party to the 1968 Vienna Convention on Road Traffic (UN Treaty Collection). Visit Saudi, the Saudi Tourism Authority's site, says obtaining an International Driving Permit (IDP) before you travel to Saudi Arabia is highly recommended. No official source we could read states for how long a foreign licence may be used.",
       "source": {
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties",
         "type": "igo",
         "lastVerified": "2026-10-03",
         "instrument": "Convention on Road Traffic, Vienna, 8 November 1968 (UNTS vol. 1042, p. 17)",
-        "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
+        "archiveUrl": "https://web.archive.org/web/20260825081828/https://treaties.un.org/pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.visitsaudi.com/en/stories/rules-of-the-road",
+            "name": "Visit Saudi (Saudi Tourism Authority) — Rules of the road",
+            "lastVerified": "2026-10-10"
+          }
+        ]
       }
     },
     "sources": {
@@ -3715,12 +3729,20 @@
       {
         "text": "Saudi Arabia 12 May 2016 a",
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
+      },
+      {
+        "text": "Obtaining an International Driving Permit (IDP) before you travel to Saudi is highly recommended.",
+        "url": "https://www.visitsaudi.com/en/stories/rules-of-the-road"
       }
     ],
     "countryFacts.driving.idp": [
       {
         "text": "Saudi Arabia 12 May 2016 a",
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
+      },
+      {
+        "text": "Obtaining an International Driving Permit (IDP) before you travel to Saudi is highly recommended.",
+        "url": "https://www.visitsaudi.com/en/stories/rules-of-the-road"
       }
     ],
     "visaTypes.tourist-evisa.feeNotes": [

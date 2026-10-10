@@ -18,7 +18,7 @@
   ],
   "summary": "Spain's Interior Ministry says entry for stays of up to 90 days in any 180-day period is governed by the Schengen Borders Code. EU nationals travel freely with a passport or ID card; nationals of the countries on the EU's visa-exempt list need no visa (the ETIAS travel authorisation is not yet in operation), and others need a Schengen short-stay visa costing EUR 90.",
   "meta": {
-    "lastUpdated": "2026-10-09",
+    "lastUpdated": "2026-10-10",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -1994,7 +1994,7 @@
       "id": "schengen-c-am",
       "category": "tourist",
       "method": "embassy",
-      "name": "Schengen Short-Stay Visa — EU–Armenia visa facilitation agreement",
+      "name": "Schengen Short-Stay Visa — European Union and Armenia visa facilitation agreement",
       "fee": {
         "amount": 35,
         "currency": "EUR",
@@ -2059,7 +2059,7 @@
       "id": "schengen-c-az",
       "category": "tourist",
       "method": "embassy",
-      "name": "Schengen Short-Stay Visa — EU–Azerbaijan visa facilitation agreement",
+      "name": "Schengen Short-Stay Visa — European Union and Azerbaijan visa facilitation agreement",
       "fee": {
         "amount": 35,
         "currency": "EUR",
@@ -2124,7 +2124,7 @@
       "id": "schengen-c-by",
       "category": "tourist",
       "method": "embassy",
-      "name": "Schengen Short-Stay Visa — EU–Belarus visa facilitation agreement",
+      "name": "Schengen Short-Stay Visa — European Union and Belarus visa facilitation agreement",
       "fee": {
         "amount": 35,
         "currency": "EUR",
@@ -2194,7 +2194,7 @@
       "id": "schengen-c-cv",
       "category": "tourist",
       "method": "embassy",
-      "name": "Schengen Short-Stay Visa — EU–Cabo Verde visa facilitation agreement",
+      "name": "Schengen Short-Stay Visa — European Union and Cabo Verde agreement on facilitating the issue of short-stay visas",
       "fee": {
         "amount": 67.5,
         "currency": "EUR",
@@ -2232,16 +2232,16 @@
             "lastVerified": "2026-10-09"
           },
           {
-            "url": "https://mzv.gov.cz/public/db/ec/79/5710867_3321996_List_of_Visa_Fees_01_25.pdf",
-            "name": "Czech Ministry of Foreign Affairs — list of visa fees (EUR/GBP/CZK), January 2025",
-            "lastVerified": "2026-10-09"
+            "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en",
+            "name": "European Commission (Migration and Home Affairs) — Applying for a Schengen visa: visa fees",
+            "lastVerified": "2026-10-10"
           }
         ]
       },
       "evidence": {
         "fee": {
-          "text": "Application for Schengen Visa - specific visa fee based on EU decision (Cape Verde) - adult 67,5",
-          "url": "https://mzv.gov.cz/public/db/ec/79/5710867_3321996_List_of_Visa_Fees_01_25.pdf"
+          "text": "€67,50 for applicants from Cabo Verde",
+          "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en"
         },
         "processing": {
           "text": "That period may be extended up to a maximum of 45 calendar days in individual cases, notably when further scrutiny of the application is needed.",
@@ -2269,7 +2269,7 @@
       "id": "schengen-c-ru",
       "category": "tourist",
       "method": "embassy",
-      "name": "Schengen Short-Stay Visa (Type C) for Russian nationals",
+      "name": "Schengen Short-Stay Visa for Russian nationals",
       "fee": {
         "amount": 90,
         "currency": "EUR",
@@ -2328,6 +2328,10 @@
         "method": {
           "text": "An application shall be examined and decided on by the consulate of the competent Member State in whose jurisdiction the applicant legally resides.",
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+        },
+        "name": {
+          "text": "The Commission has adopted stricter rules on visas for Russian nationals, in view of the increased security risks stemming from Russia's unprovoked and unjustified war of aggression against Ukraine, including the weaponisation of migration, acts of sabotage and the potential misuse of visa.",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_25_2635"
         }
       },
       "applyWindow": {
@@ -2429,7 +2433,7 @@
         "maxDays": 10,
         "unit": "business-days"
       },
-      "validityDays": 365,
+      "validityDays": null,
       "stayDays": null,
       "entries": null,
       "applyUrl": "https://www.exteriores.gob.es/en/ServiciosAlCiudadano/Paginas/Servicios-consulares.aspx",
@@ -2452,10 +2456,6 @@
         "fee": {
           "text": "Visado nacional de larga duración (tipo D). 90 euros",
           "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-17292"
-        },
-        "validityDays": {
-          "text": "solicitarán el visado para teletrabajo de carácter internacional que tendrá una vigencia máxima de un año",
-          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-10074"
         },
         "name": {
           "text": "solicitarán el visado para teletrabajo de carácter internacional que tendrá una vigencia máxima de un año",
@@ -2748,32 +2748,46 @@
     "tapWaterSafe": true,
     "driving": {
       "idp": {
-        "required": null,
+        "required": "recommended",
         "conventions": [
           "1949-geneva"
         ],
-        "text": "Spain is a party to the 1949 Geneva Convention on Road Traffic (UN Treaty Collection).",
+        "text": "Spain is a party to the 1949 Geneva Convention on Road Traffic (UN Treaty Collection). Spain's Directorate-General for Traffic (DGT) advises drivers from countries outside the EU and the EEA to obtain an international driving permit in their own country before coming. It says licences from other countries are also valid for driving in Spain if they are written in Spanish or accompanied by an official translation, or issued in accordance with Annex 9 of the Geneva Convention or Annex 6 of the Vienna Convention, provided that no more than six months have passed since the holder took up normal residence in Spain, the licence is in force, and the holder is of the age required in Spain for the equivalent Spanish licence.",
         "source": {
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
           "type": "igo",
           "lastVerified": "2026-10-03",
-          "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
+          "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)",
+          "alsoStatedOn": [
+            {
+              "url": "https://www.dgt.es/nuestros-servicios/permisos-de-conducir/permisos-extranjeros-y-de-fuerzas-y-cuerpos-de-seguridad/conducir-con-un-permiso-extranjero/",
+              "name": "Dirección General de Tráfico (DGT) — Conducir con un permiso extranjero",
+              "lastVerified": "2026-10-10"
+            }
+          ]
         }
       },
       "foreignLicenceMaxDays": null,
-      "translationAccepted": null,
+      "translationAccepted": true,
       "minDrivingAge": null,
       "minRentalAge": null,
       "alcoholLimitBac": null,
       "mandatoryEquipment": [],
-      "text": "Spain is a party to the 1949 Geneva Convention on Road Traffic (UN Treaty Collection). No official source we could read states whether a permit is required in addition to a national license, or for how long a foreign license may be used.",
+      "text": "Spain is a party to the 1949 Geneva Convention on Road Traffic (UN Treaty Collection). Spain's Directorate-General for Traffic (DGT) advises drivers from countries outside the EU and the EEA to obtain an international driving permit in their own country before coming. It says licences from other countries are also valid for driving in Spain if they are written in Spanish or accompanied by an official translation, or issued in accordance with Annex 9 of the Geneva Convention or Annex 6 of the Vienna Convention, provided that no more than six months have passed since the holder took up normal residence in Spain, the licence is in force, and the holder is of the age required in Spain for the equivalent Spanish licence.",
       "source": {
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
         "type": "igo",
         "lastVerified": "2026-10-03",
-        "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)"
+        "instrument": "Convention on Road Traffic, Geneva, 19 September 1949 (UNTS vol. 125, p. 3)",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.dgt.es/nuestros-servicios/permisos-de-conducir/permisos-extranjeros-y-de-fuerzas-y-cuerpos-de-seguridad/conducir-con-un-permiso-extranjero/",
+            "name": "Dirección General de Tráfico (DGT) — Conducir con un permiso extranjero",
+            "lastVerified": "2026-10-10"
+          }
+        ]
       }
     },
     "sources": {
@@ -3113,12 +3127,68 @@
       {
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
         "text": "Spain 13 Feb 1958 a"
+      },
+      {
+        "text": "Si vienes de un país no perteneciente a la Unión Europea o al Espacio Económico Europeo (Islandia, Liechtenstein y Noruega) te aconsejamos siempre que, antes de venir, obtengas en tu país el permiso internacional.",
+        "url": "https://www.dgt.es/nuestros-servicios/permisos-de-conducir/permisos-extranjeros-y-de-fuerzas-y-cuerpos-de-seguridad/conducir-con-un-permiso-extranjero/"
+      },
+      {
+        "text": "Son válidos también para conducir en España los siguientes permisos de otros países:",
+        "url": "https://www.dgt.es/nuestros-servicios/permisos-de-conducir/permisos-extranjeros-y-de-fuerzas-y-cuerpos-de-seguridad/conducir-con-un-permiso-extranjero/"
+      },
+      {
+        "text": "Permisos de países que estén redactados en castellano o vayan acompañados de una traducción oficial del mismo.",
+        "url": "https://www.dgt.es/nuestros-servicios/permisos-de-conducir/permisos-extranjeros-y-de-fuerzas-y-cuerpos-de-seguridad/conducir-con-un-permiso-extranjero/"
+      },
+      {
+        "text": "Permisos de países que estén expedidos de conformidad con el Anexo 9 de la Convención de Ginebra, o con el Anexo 6 de la Convención de Viena, o que difieran de dichos modelos únicamente en la adopción o supresión de rúbricas no esenciales.",
+        "url": "https://www.dgt.es/nuestros-servicios/permisos-de-conducir/permisos-extranjeros-y-de-fuerzas-y-cuerpos-de-seguridad/conducir-con-un-permiso-extranjero/"
+      },
+      {
+        "text": "No haya transcurrido el plazo de seis meses, como máximo, contados desde que hayas adquirido la residencia normal en España.",
+        "url": "https://www.dgt.es/nuestros-servicios/permisos-de-conducir/permisos-extranjeros-y-de-fuerzas-y-cuerpos-de-seguridad/conducir-con-un-permiso-extranjero/"
+      },
+      {
+        "text": "El permiso de conducción se encuentre en vigor.",
+        "url": "https://www.dgt.es/nuestros-servicios/permisos-de-conducir/permisos-extranjeros-y-de-fuerzas-y-cuerpos-de-seguridad/conducir-con-un-permiso-extranjero/"
+      },
+      {
+        "text": "El titular tenga la edad requerida en España para la obtención de un permiso español equivalente.",
+        "url": "https://www.dgt.es/nuestros-servicios/permisos-de-conducir/permisos-extranjeros-y-de-fuerzas-y-cuerpos-de-seguridad/conducir-con-un-permiso-extranjero/"
       }
     ],
     "countryFacts.driving.idp": [
       {
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
         "text": "Spain 13 Feb 1958 a"
+      },
+      {
+        "text": "Si vienes de un país no perteneciente a la Unión Europea o al Espacio Económico Europeo (Islandia, Liechtenstein y Noruega) te aconsejamos siempre que, antes de venir, obtengas en tu país el permiso internacional.",
+        "url": "https://www.dgt.es/nuestros-servicios/permisos-de-conducir/permisos-extranjeros-y-de-fuerzas-y-cuerpos-de-seguridad/conducir-con-un-permiso-extranjero/"
+      },
+      {
+        "text": "Son válidos también para conducir en España los siguientes permisos de otros países:",
+        "url": "https://www.dgt.es/nuestros-servicios/permisos-de-conducir/permisos-extranjeros-y-de-fuerzas-y-cuerpos-de-seguridad/conducir-con-un-permiso-extranjero/"
+      },
+      {
+        "text": "Permisos de países que estén redactados en castellano o vayan acompañados de una traducción oficial del mismo.",
+        "url": "https://www.dgt.es/nuestros-servicios/permisos-de-conducir/permisos-extranjeros-y-de-fuerzas-y-cuerpos-de-seguridad/conducir-con-un-permiso-extranjero/"
+      },
+      {
+        "text": "Permisos de países que estén expedidos de conformidad con el Anexo 9 de la Convención de Ginebra, o con el Anexo 6 de la Convención de Viena, o que difieran de dichos modelos únicamente en la adopción o supresión de rúbricas no esenciales.",
+        "url": "https://www.dgt.es/nuestros-servicios/permisos-de-conducir/permisos-extranjeros-y-de-fuerzas-y-cuerpos-de-seguridad/conducir-con-un-permiso-extranjero/"
+      },
+      {
+        "text": "No haya transcurrido el plazo de seis meses, como máximo, contados desde que hayas adquirido la residencia normal en España.",
+        "url": "https://www.dgt.es/nuestros-servicios/permisos-de-conducir/permisos-extranjeros-y-de-fuerzas-y-cuerpos-de-seguridad/conducir-con-un-permiso-extranjero/"
+      },
+      {
+        "text": "El permiso de conducción se encuentre en vigor.",
+        "url": "https://www.dgt.es/nuestros-servicios/permisos-de-conducir/permisos-extranjeros-y-de-fuerzas-y-cuerpos-de-seguridad/conducir-con-un-permiso-extranjero/"
+      },
+      {
+        "text": "El titular tenga la edad requerida en España para la obtención de un permiso español equivalente.",
+        "url": "https://www.dgt.es/nuestros-servicios/permisos-de-conducir/permisos-extranjeros-y-de-fuerzas-y-cuerpos-de-seguridad/conducir-con-un-permiso-extranjero/"
       }
     ],
     "visaTypes.schengen-c.feeNotes": [

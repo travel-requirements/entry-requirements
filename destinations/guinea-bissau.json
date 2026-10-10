@@ -603,7 +603,7 @@
         "requirement": "embassy-visa",
         "maxStayDays": null,
         "visaTypes": [
-          "embassy-visa"
+          "embassy-visa-ie"
         ],
         "source": {
           "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/guinea-bissau/",
@@ -1377,15 +1377,11 @@
       "id": "embassy-visa",
       "category": "tourist",
       "method": "embassy",
-      "name": "Visa from a Guinea-Bissau mission",
-      "fee": {
-        "amount": 110,
-        "currency": "EUR",
-        "notes": "Ireland's foreign ministry says Irish citizens can apply in person at diplomatic missions of Guinea-Bissau, such as the embassies in Paris or Lisbon, and that the cost depends on the length of stay: 45 days (EUR 70), 90 days (EUR 110) or 180 days (EUR 200). No official source we could read states the fees for other nationalities."
-      },
+      "name": "Visa (diplomatic missions of Guinea-Bissau)",
+      "fee": null,
       "processing": null,
       "validityDays": null,
-      "stayDays": 90,
+      "stayDays": null,
       "entries": null,
       "applyUrl": null,
       "source": {
@@ -1396,14 +1392,6 @@
         "lastChanged": "2026-10-03"
       },
       "evidence": {
-        "fee": {
-          "text": "The cost of a visa depends on the length of stay: 45 days (€70.00), 90 days (€110.00) or 180 days (€200.00).",
-          "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/guinea-bissau/"
-        },
-        "stayDays": {
-          "text": "The cost of a visa depends on the length of stay: 45 days (€70.00), 90 days (€110.00) or 180 days (€200.00).",
-          "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/guinea-bissau/"
-        },
         "name": {
           "text": "Citizens can apply for a visa in person at diplomatic missions of Guinea-Bissau, such as the Embassy in Paris (Rue St Lazare 94) or the Embassy in Lisbon (Rua da Alcolena 17A).",
           "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/guinea-bissau/"
@@ -1413,6 +1401,36 @@
           "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/guinea-bissau/"
         }
       }
+    },
+    {
+      "id": "embassy-visa-ie",
+      "category": "tourist",
+      "method": "embassy",
+      "name": "Visa (diplomatic missions of Guinea-Bissau) — Irish citizens",
+      "fee": null,
+      "processing": null,
+      "validityDays": null,
+      "stayDays": null,
+      "entries": null,
+      "applyUrl": null,
+      "source": {
+        "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/guinea-bissau/",
+        "name": "Ireland Department of Foreign Affairs — Guinea-Bissau travel advice",
+        "type": "government",
+        "lastVerified": "2026-10-09",
+        "lastChanged": "2026-10-03"
+      },
+      "evidence": {
+        "name": {
+          "text": "Irish citizens need a visa to enter Guinea-Bissau. Passports must be valid for at least 6 months after the date of entry. Passport cards cannot be used. Citizens can apply for a visa in person at diplomatic missions of Guinea-Bissau, such as the Embassy in Paris (Rue St Lazare 94) or the Embassy in Lisbon (Rua da Alcolena 17A).",
+          "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/guinea-bissau/"
+        },
+        "method": {
+          "text": "Citizens can apply for a visa in person at diplomatic missions of Guinea-Bissau, such as the Embassy in Paris (Rue St Lazare 94) or the Embassy in Lisbon (Rua da Alcolena 17A).",
+          "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/guinea-bissau/"
+        }
+      },
+      "feeText": "Ireland's foreign ministry says Irish citizens can apply in person at diplomatic missions of Guinea-Bissau, such as the embassies in Paris or Lisbon, and that the cost depends on the length of stay: 45 days (EUR 70), 90 days (EUR 110) or 180 days (EUR 200)."
     },
     {
       "id": "voa-singapore",
@@ -1949,7 +1967,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/guinea-bissau/safety-and-security"
       }
     ],
-    "visaTypes.embassy-visa.feeNotes": [
+    "visaTypes.embassy-visa-ie.feeText": [
       {
         "text": "Citizens can apply for a visa in person at diplomatic missions of Guinea-Bissau, such as the Embassy in Paris (Rue St Lazare 94) or the Embassy in Lisbon (Rua da Alcolena 17A). The cost of a visa depends on the length of stay: 45 days (€70.00), 90 days (€110.00) or 180 days (€200.00).",
         "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/guinea-bissau/"
