@@ -1253,11 +1253,7 @@
       "category": "business",
       "method": "unstated",
       "name": "Business Visa",
-      "fee": {
-        "amount": 40,
-        "currency": "USD",
-        "notes": "The Ministry of Foreign Affairs lists the business visa fee as USD 40 to USD 300 and the visa's validity as one month to three years; it does not say which fee goes with which validity. The visa is issued against a valid business licence, a copy of the passport and supporting bank statements."
-      },
+      "fee": null,
       "processing": null,
       "validityDays": null,
       "stayDays": null,
@@ -1268,18 +1264,15 @@
         "name": "Ministry of Foreign Affairs of Afghanistan — Business Visa",
         "type": "government",
         "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-03"
+        "lastChanged": "2026-10-10"
       },
       "evidence": {
-        "fee": {
-          "text": "Fee 40$ – 300$",
-          "url": "https://mfa.gov.af/en/business-visa"
-        },
         "name": {
           "text": "Business visas are issued based on a valid business license, a copy of the passport, and supporting bank statements.",
           "url": "https://mfa.gov.af/en/business-visa"
         }
-      }
+      },
+      "feeText": "The Ministry of Foreign Affairs lists the business visa fee as USD 40 to USD 300 and the visa's validity as one month to three years; it does not say which fee goes with which validity. The visa is issued against a valid business licence, a copy of the passport and supporting bank statements."
     }
   ],
   "entryRequirements": {
@@ -1882,16 +1875,6 @@
         "text": "Visa on arrival is issued based on an official letter from a domestic organization or an official invitation from an international organization operating in Afghanistan. These visas are granted with the approval of the Ministry of Foreign Affairs at Kabul International Airport"
       }
     ],
-    "visaTypes.embassy-business.feeNotes": [
-      {
-        "url": "https://mfa.gov.af/en/business-visa",
-        "text": "Business visas are issued based on a valid business license, a copy of the passport, and supporting bank statements."
-      },
-      {
-        "url": "https://mfa.gov.af/en/business-visa",
-        "text": "Validity One month to Three years Fee 40$ – 300$"
-      }
-    ],
     "countryFacts.driving": [
       {
         "text": "You must carry an International Driving Permit.",
@@ -1902,6 +1885,20 @@
       {
         "text": "You must carry an International Driving Permit.",
         "url": "https://travel.gc.ca/destinations/afghanistan"
+      }
+    ],
+    "visaTypes.embassy-business.feeText": [
+      {
+        "url": "https://mfa.gov.af/en/business-visa",
+        "text": "Business visas are issued based on a valid business license, a copy of the passport, and supporting bank statements."
+      },
+      {
+        "url": "https://mfa.gov.af/en/business-visa",
+        "text": "Validity One month to Three years Fee 40$ – 300$"
+      },
+      {
+        "text": "Fee 40$ – 300$",
+        "url": "https://mfa.gov.af/en/business-visa"
       }
     ]
   }

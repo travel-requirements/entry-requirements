@@ -3489,11 +3489,7 @@
       "category": "tourist",
       "method": "evisa",
       "name": "Visitor visa, type V",
-      "fee": {
-        "amount": 56,
-        "currency": "USD",
-        "notes": "USD 56 study fee plus a USD 82 visa fee (EUR 44 and EUR 63 in Europe and Cuba). The visa is free for Ecuadorian nationals, whose study fee is USD 30 (EUR 23 in Europe and Cuba); Japanese and Korean nationals pay only the study fee; Spanish nationals pay neither. Colombia's foreign ministry gives the visa's validity as up to one year."
-      },
+      "fee": null,
       "processing": {
         "minDays": null,
         "maxDays": 30,
@@ -3512,7 +3508,7 @@
         "name": "Cancillería de Colombia — Tipos de visa (Visitante tipo V: Turismo)",
         "type": "government",
         "lastVerified": "2026-10-09",
-        "lastChanged": "2026-10-09",
+        "lastChanged": "2026-10-10",
         "instrument": "Resolución 5477 de 2022 (Ministerio de Relaciones Exteriores): Visitante – Turismo \"Vigencia: Hasta un (1) año. La permanencia autorizada en el territorio nacional será de 90 días, prorrogable por otros 90 días\"; decision within 30 calendar days of paying the study fee (Article 13)",
         "alsoStatedOn": [
           {
@@ -3569,10 +3565,6 @@
         }
       },
       "evidence": {
-        "fee": {
-          "text": "Visitante - Turismo: COLOMBIA Y RESTO DEL MUNDO (USD) Estudio 56",
-          "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/costos?field_actividad_ocupacion_target_id=9339"
-        },
         "processing": {
           "text": "Tiempo de respuesta: hasta 30 días calendario.",
           "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/abece-de-visas"
@@ -3593,7 +3585,8 @@
           "text": "El trámite de visa se realiza 100% de manera virtual. La visa electrónica permite: Ingresar, permanecer y salir de Colombia.",
           "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/abece-de-visas"
         }
-      }
+      },
+      "feeText": "USD 56 study fee plus a USD 82 visa fee (EUR 44 and EUR 63 in Europe and Cuba). The visa is free for Ecuadorian nationals, whose study fee is USD 30 (EUR 23 in Europe and Cuba); Japanese and Korean nationals pay only the study fee; Spanish nationals pay neither. Colombia's foreign ministry gives the visa's validity as up to one year."
     },
     {
       "id": "extension-pp",
@@ -4211,28 +4204,6 @@
         "url": "https://travel.gc.ca/destinations/colombia"
       }
     ],
-    "visaTypes.visitor-v.feeNotes": [
-      {
-        "text": "Visitante - Turismo: COLOMBIA Y RESTO DEL MUNDO (USD) Estudio 56 Visa 82 EUROPA Y CUBA (EUR) Estudio 44 Visa 63",
-        "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/costos?field_actividad_ocupacion_target_id=9339"
-      },
-      {
-        "text": "La expedición de visa para los nacionales ecuatorianos será gratuita; el estudio tendrá un costo de 23 Euros en Europa y Cuba, o 30 USD en el resto del mundo.",
-        "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/costos?field_actividad_ocupacion_target_id=9339"
-      },
-      {
-        "text": "Las visas para nacionales de Japón y Corea serán gratuitas; solo se paga el estudio según el tipo de visa.",
-        "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/costos?field_actividad_ocupacion_target_id=9339"
-      },
-      {
-        "text": "Para nacionales españoles, tanto estudio como expedición son gratuitos.",
-        "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/costos?field_actividad_ocupacion_target_id=9339"
-      },
-      {
-        "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/tipos-de-visa",
-        "text": "Vigencia: Hasta un (1) año."
-      }
-    ],
     "visaTypes.extension-pp.feeNotes": [
       {
         "text": "Tarifa 2026: $150.000 pesos colombianos.",
@@ -4299,6 +4270,32 @@
       {
         "text": "ARTÍCULO 25. LICENCIAS EXTRANJERAS. Las licencias de conducción, expedidas en otro país, que se encuentren vigentes y que sean utilizadas por turistas o personas en tránsito en el territorio nacional, serán válidas y admitidas para conducir en Colombia durante la permanencia autorizada a su titular, conforme a las disposiciones internacionales sobre la materia.",
         "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_0769_2002.html"
+      }
+    ],
+    "visaTypes.visitor-v.feeText": [
+      {
+        "text": "Visitante - Turismo: COLOMBIA Y RESTO DEL MUNDO (USD) Estudio 56 Visa 82 EUROPA Y CUBA (EUR) Estudio 44 Visa 63",
+        "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/costos?field_actividad_ocupacion_target_id=9339"
+      },
+      {
+        "text": "La expedición de visa para los nacionales ecuatorianos será gratuita; el estudio tendrá un costo de 23 Euros en Europa y Cuba, o 30 USD en el resto del mundo.",
+        "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/costos?field_actividad_ocupacion_target_id=9339"
+      },
+      {
+        "text": "Las visas para nacionales de Japón y Corea serán gratuitas; solo se paga el estudio según el tipo de visa.",
+        "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/costos?field_actividad_ocupacion_target_id=9339"
+      },
+      {
+        "text": "Para nacionales españoles, tanto estudio como expedición son gratuitos.",
+        "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/costos?field_actividad_ocupacion_target_id=9339"
+      },
+      {
+        "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/tipos-de-visa",
+        "text": "Vigencia: Hasta un (1) año."
+      },
+      {
+        "text": "Visitante - Turismo: COLOMBIA Y RESTO DEL MUNDO (USD) Estudio 56",
+        "url": "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/costos?field_actividad_ocupacion_target_id=9339"
       }
     ]
   }

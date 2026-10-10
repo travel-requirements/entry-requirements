@@ -1888,11 +1888,7 @@
       "category": "tourist",
       "method": "embassy",
       "name": "Tourist Visa (Egyptian consulate)",
-      "fee": {
-        "amount": 32,
-        "currency": "USD",
-        "notes": "Fee at the Egyptian Consulate in Washington for a single-entry visa; a multiple-entry visa costs USD 67, and the applicant has to provide a ticket reflecting multiple entry into the country. The consulate says this procedure is for non-American passport holders except for the countries on its pre-approval list."
-      },
+      "fee": null,
       "processing": null,
       "validityDays": null,
       "stayDays": null,
@@ -1902,13 +1898,10 @@
         "url": "https://egyptembassy.net/consular-services/visas-travel/visa-requirements/",
         "name": "Consulate of the Arab Republic of Egypt in Washington, DC — visa requirements",
         "type": "government",
-        "lastVerified": "2026-10-06"
+        "lastVerified": "2026-10-06",
+        "lastChanged": "2026-10-10"
       },
       "evidence": {
-        "fee": {
-          "text": "Fees: $32 (Single Entry) or $67 (Multiple Entry/ applicant has to provide a ticket reflecting multiple entry into the country) cash (except for UK, Canada, Zimbabwe, and Nigerian passport holders, fees are on the link here: Click here for the visa fees).",
-          "url": "https://egyptembassy.net/consular-services/visas-travel/visa-requirements/"
-        },
         "name": {
           "text": "For Tourist Visa: Non-AMERICAN PASSPORT HOLDERS ONLY (except for the list of countries here) Applying in person at the Egyptian Consulate",
           "url": "https://egyptembassy.net/consular-services/visas-travel/visa-requirements/"
@@ -1917,7 +1910,8 @@
           "text": "Applying in person at the Egyptian Consulate",
           "url": "https://egyptembassy.net/consular-services/visas-travel/visa-requirements/"
         }
-      }
+      },
+      "feeText": "The Egyptian Consulate in Washington lists USD 32 for a single-entry visa and USD 67 for a multiple-entry visa, for which the applicant has to provide a ticket reflecting multiple entry into the country; it says the fees for UK, Canadian, Zimbabwean and Nigerian passport holders are on a separate list. The consulate says this procedure is for non-American passport holders except for the countries on its pre-approval list."
     },
     {
       "id": "embassy-preapproval",
@@ -2574,16 +2568,6 @@
         "url": "https://www.gov.uk/foreign-travel-advice/egypt/entry-requirements"
       }
     ],
-    "visaTypes.embassy-tourist.feeNotes": [
-      {
-        "url": "https://egyptembassy.net/consular-services/visas-travel/visa-requirements/",
-        "text": "Fees: $32 (Single Entry) or $67 (Multiple Entry/ applicant has to provide a ticket reflecting multiple entry into the country)"
-      },
-      {
-        "url": "https://egyptembassy.net/consular-services/visas-travel/visa-requirements/",
-        "text": "For Tourist Visa: Non-AMERICAN PASSPORT HOLDERS ONLY (except for the list of countries here)"
-      }
-    ],
     "visaTypes.tourist-evisa-single.feeNotes": [
       {
         "text": "tourist e-visas are valid for up to 3 months",
@@ -2594,6 +2578,20 @@
       {
         "text": "tourist e-visas are valid for up to 3 months",
         "url": "https://www.gov.uk/foreign-travel-advice/egypt/entry-requirements"
+      }
+    ],
+    "visaTypes.embassy-tourist.feeText": [
+      {
+        "url": "https://egyptembassy.net/consular-services/visas-travel/visa-requirements/",
+        "text": "Fees: $32 (Single Entry) or $67 (Multiple Entry/ applicant has to provide a ticket reflecting multiple entry into the country)"
+      },
+      {
+        "url": "https://egyptembassy.net/consular-services/visas-travel/visa-requirements/",
+        "text": "For Tourist Visa: Non-AMERICAN PASSPORT HOLDERS ONLY (except for the list of countries here)"
+      },
+      {
+        "text": "Fees: $32 (Single Entry) or $67 (Multiple Entry/ applicant has to provide a ticket reflecting multiple entry into the country) cash (except for UK, Canada, Zimbabwe, and Nigerian passport holders, fees are on the link here: Click here for the visa fees).",
+        "url": "https://egyptembassy.net/consular-services/visas-travel/visa-requirements/"
       }
     ]
   }

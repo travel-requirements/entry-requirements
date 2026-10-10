@@ -4202,7 +4202,11 @@
         "currency": "BWP",
         "notes": "BWP 300 for a single entry for a period of up to one month; BWP 500 for multiple entries for a period of up to three months."
       },
-      "processing": null,
+      "processing": {
+        "minDays": 7,
+        "maxDays": 14,
+        "unit": "business-days"
+      },
       "validityDays": null,
       "stayDays": null,
       "entries": "single",
@@ -4212,7 +4216,7 @@
         "name": "Botswana eVisa — Visa Application Terms",
         "type": "government",
         "lastVerified": "2026-10-07",
-        "lastChanged": "2026-10-07",
+        "lastChanged": "2026-10-10",
         "instrument": "Processing: Government of Botswana, Visa Application – Tourism Visa, \"seven (7) to fourteen (14) working days\" (https://www.gov.bw/visa-applications/visa-application-tourism-visa; read from the 14 June 2026 archived copy, the live page failing)",
         "alsoStatedOn": [
           {
@@ -4268,6 +4272,10 @@
         },
         "method": {
           "text": "How do I get this service? Online at https://evisa.gov.bw/#/",
+          "url": "https://www.gov.bw/visa-applications/visa-application-tourism-visa"
+        },
+        "processing": {
+          "text": "Check the outcome of your application from the office where the application was submitted after seven (7) to fourteen (14) working days.",
           "url": "https://www.gov.bw/visa-applications/visa-application-tourism-visa"
         }
       }

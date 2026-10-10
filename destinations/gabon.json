@@ -2033,11 +2033,7 @@
       "category": "tourist",
       "method": "evisa",
       "name": "e-Visa — single entry, 1 to 3 months",
-      "fee": {
-        "amount": 70,
-        "currency": "EUR",
-        "notes": "The DGDI says that from one to three months single entry the cost is EUR 70 or XAF 45,000 plus EUR 15 as a file processing fee, and that payments are made on arrival at the delivery of the e-visa sticker. It says the e-visa may be extended at its visa department in Libreville: a one-month visa for two months and a two-month visa for one month; a three-month visa is not extended. It says the application processing time is 72 hours after receipt and cannot be shorter."
-      },
+      "fee": null,
       "processing": null,
       "validityDays": 90,
       "stayDays": null,
@@ -2049,7 +2045,7 @@
         "type": "government",
         "lastVerified": "2026-10-09",
         "archiveUrl": "https://web.archive.org/web/20260728194843/https://evisa.dgdi.ga/",
-        "lastChanged": "2026-10-09",
+        "lastChanged": "2026-10-10",
         "portalOnly": true
       },
       "documents": {
@@ -2077,10 +2073,6 @@
         }
       },
       "evidence": {
-        "fee": {
-          "text": "From one (1) to three (3) months single entry, the cost is 70 EUR or 45000 XAF + 15 EUR as file processing fee.",
-          "url": "https://evisa.dgdi.ga/"
-        },
         "validityDays": {
           "text": "From one (1) to three (3) months single entry, the cost is 70 EUR or 45000 XAF + 15 EUR as file processing fee.",
           "url": "https://evisa.dgdi.ga/"
@@ -2105,18 +2097,15 @@
       "extendable": {
         "possible": true,
         "days": null
-      }
+      },
+      "feeText": "The DGDI says that from one to three months single entry the cost is EUR 70 or XAF 45,000 plus EUR 15 as a file processing fee, and that payments are made on arrival at the delivery of the e-visa sticker. It says the e-visa may be extended at its visa department in Libreville: a one-month visa for two months and a two-month visa for one month; a three-month visa is not extended. It says the application processing time is 72 hours after receipt and cannot be shorter."
     },
     {
       "id": "evisa-multiple",
       "category": "tourist",
       "method": "evisa",
       "name": "e-Visa — multiple entries, 6 months",
-      "fee": {
-        "amount": 185,
-        "currency": "EUR",
-        "notes": "The DGDI says six months with multiple entries costs EUR 185 or XAF 120,000 plus EUR 15 as a file processing fee, and that payments are made on arrival at the delivery of the e-visa sticker. It says the application processing time is 72 hours after receipt and cannot be shorter."
-      },
+      "fee": null,
       "processing": null,
       "validityDays": 180,
       "stayDays": null,
@@ -2132,7 +2121,7 @@
         "type": "government",
         "lastVerified": "2026-10-09",
         "archiveUrl": "https://web.archive.org/web/20260728194843/https://evisa.dgdi.ga/",
-        "lastChanged": "2026-10-09",
+        "lastChanged": "2026-10-10",
         "portalOnly": true
       },
       "documents": {
@@ -2160,10 +2149,6 @@
         }
       },
       "evidence": {
-        "fee": {
-          "text": "For six (6) months with multiple entries which cost 185 EUR or 120000 XAF + 15 EUR as file processing fee.",
-          "url": "https://evisa.dgdi.ga/"
-        },
         "validityDays": {
           "text": "For six (6) months with multiple entries which cost 185 EUR or 120000 XAF + 15 EUR as file processing fee.",
           "url": "https://evisa.dgdi.ga/"
@@ -2184,7 +2169,8 @@
           "text": "The visa application form should be completed on-line",
           "url": "https://evisa.dgdi.ga/"
         }
-      }
+      },
+      "feeText": "The DGDI says six months with multiple entries costs EUR 185 or XAF 120,000 plus EUR 15 as a file processing fee, and that payments are made on arrival at the delivery of the e-visa sticker. It says the application processing time is 72 hours after receipt and cannot be shorter."
     }
   ],
   "entryRequirements": {
@@ -2668,7 +2654,7 @@
         "url": "https://travel.gc.ca/destinations/gabon"
       }
     ],
-    "visaTypes.evisa-single.feeNotes": [
+    "visaTypes.evisa-single.feeText": [
       {
         "text": "From one (1) to three (3) months single entry, the cost is 70 EUR or 45000 XAF + 15 EUR as file processing fee.",
         "url": "https://evisa.dgdi.ga/"
@@ -2690,7 +2676,7 @@
         "url": "https://evisa.dgdi.ga/"
       }
     ],
-    "visaTypes.evisa-multiple.feeNotes": [
+    "visaTypes.evisa-multiple.feeText": [
       {
         "text": "For six (6) months with multiple entries which cost 185 EUR or 120000 XAF + 15 EUR as file processing fee.",
         "url": "https://evisa.dgdi.ga/"
