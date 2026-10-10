@@ -19,7 +19,7 @@
   ],
   "summary": "Togo Voyage lists the countries exempt from visas, essentially the ECOWAS member states, and says all African nationals with a valid passport may enter without a visa for stays of up to 30 days if they complete the immigration form at least 24 hours before arrival. Nationals of the countries on its visa list need an eVisa applied for on voyage.gouv.tg at least 5 days before arrival (Togo Voyage encourages six working days); visas on arrival are suspended. Every traveller entering or leaving Togo by air completes the online immigration form.",
   "meta": {
-    "lastUpdated": "2026-10-09",
+    "lastUpdated": "2026-10-10",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -1815,15 +1815,15 @@
         }
       },
       "MY": {
-        "requirement": "visa-free",
+        "requirement": "unconfirmed",
         "maxStayDays": null,
         "notes": null,
         "source": {
-          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
-          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Malaysia",
+          "url": "https://voyage.gouv.tg/about",
+          "name": "Togo Voyage — À propos du e-Visa: lists of visa-exempt and visa-required countries (Malaysia is on neither)",
           "type": "government",
-          "lastVerified": "2026-10-05",
-          "lastChanged": "2026-10-05"
+          "lastVerified": "2026-10-10",
+          "lastChanged": "2026-10-10"
         }
       },
       "MV": {
@@ -2737,15 +2737,22 @@
         }
       },
       "SG": {
-        "requirement": "visa-free",
+        "requirement": "evisa",
         "maxStayDays": null,
-        "notes": null,
+        "visaTypes": [
+          "togo-evisa"
+        ],
+        "notes": "Singapore's Ministry of Foreign Affairs says Singaporeans are required to obtain an e-visa from the Togo Voyage website.",
         "source": {
-          "url": "https://beta.voyage.gouv.tg/visa/ai-je-besoin-de-visa",
-          "name": "Togo Voyage — Visa Assistant ('Do I need a visa?'), nationality: Singapore",
+          "url": "https://www.mfa.gov.sg/countries-regions/t/togo/travel-page",
+          "name": "Ministry of Foreign Affairs of Singapore — Togo travel page (Entry and Exit)",
           "type": "government",
-          "lastVerified": "2026-10-05",
-          "lastChanged": "2026-10-05"
+          "lastVerified": "2026-10-10",
+          "lastChanged": "2026-10-10"
+        },
+        "quote": {
+          "text": "Singaporeans are required to obtain an e-visa from the Togo Voyage website",
+          "url": "https://www.mfa.gov.sg/countries-regions/t/togo/travel-page"
         }
       },
       "SK": {
@@ -3671,7 +3678,7 @@
         "conventions": [
           "1949-geneva"
         ],
-        "text": "Togo is a party to the 1949 Geneva Convention on Road Traffic (UN Treaty Collection).",
+        "text": "Togo is a party to the 1949 Geneva Convention on Road Traffic (UN Treaty Collection). The UK government says British drivers can use a UK photocard driving licence to drive in Togo for up to 6 months, and that those staying longer than 6 months need the 1949 international driving permit (IDP). Canada's travel advice says Canadians may use a valid Canadian driver's licence to drive in Togo and recommends carrying an International Driving Permit. The UK government says there are no set blood alcohol content limits in Togo, but traffic control officers who suspect drink-driving can order a medical exam. No official source we could read states Togo's own rule for drivers holding a foreign licence.",
         "source": {
           "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
           "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
@@ -3683,6 +3690,16 @@
               "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
               "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties (Togo not listed)",
               "lastVerified": "2026-10-07"
+            },
+            {
+              "url": "https://www.gov.uk/foreign-travel-advice/togo/safety-and-security",
+              "name": "UK Foreign, Commonwealth & Development Office — Togo travel advice: safety and security (driving)",
+              "lastVerified": "2026-10-10"
+            },
+            {
+              "url": "https://travel.gc.ca/destinations/togo",
+              "name": "Government of Canada — Togo travel advice and advisories (driving)",
+              "lastVerified": "2026-10-10"
             }
           ]
         }
@@ -3693,7 +3710,7 @@
       "minRentalAge": null,
       "alcoholLimitBac": null,
       "mandatoryEquipment": [],
-      "text": "Togo is a party to the 1949 Geneva Convention on Road Traffic (UN Treaty Collection). No official source we could read states whether a permit is required in addition to a national licence, or for how long a foreign licence may be used.",
+      "text": "Togo is a party to the 1949 Geneva Convention on Road Traffic (UN Treaty Collection). The UK government says British drivers can use a UK photocard driving licence to drive in Togo for up to 6 months, and that those staying longer than 6 months need the 1949 international driving permit (IDP). Canada's travel advice says Canadians may use a valid Canadian driver's licence to drive in Togo and recommends carrying an International Driving Permit. The UK government says there are no set blood alcohol content limits in Togo, but traffic control officers who suspect drink-driving can order a medical exam. No official source we could read states Togo's own rule for drivers holding a foreign licence.",
       "source": {
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11",
         "name": "UN Treaty Collection — Convention on Road Traffic (Geneva, 1949), status of parties",
@@ -3705,6 +3722,16 @@
             "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11",
             "name": "UN Treaty Collection — Convention on Road Traffic (Vienna, 1968), status of parties (Togo not listed)",
             "lastVerified": "2026-10-07"
+          },
+          {
+            "url": "https://www.gov.uk/foreign-travel-advice/togo/safety-and-security",
+            "name": "UK Foreign, Commonwealth & Development Office — Togo travel advice: safety and security (driving)",
+            "lastVerified": "2026-10-10"
+          },
+          {
+            "url": "https://travel.gc.ca/destinations/togo",
+            "name": "Government of Canada — Togo travel advice and advisories (driving)",
+            "lastVerified": "2026-10-10"
           }
         ]
       }
@@ -4004,6 +4031,22 @@
       {
         "text": "Togo 27 Feb 1962 d",
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11"
+      },
+      {
+        "text": "You can use a UK photocard driving licence to drive in Togo for up to 6 months.",
+        "url": "https://www.gov.uk/foreign-travel-advice/togo/safety-and-security"
+      },
+      {
+        "text": "If you’re staying for longer than 6 months, you’ll need get the 1949 version of the international driving permit (IDP).",
+        "url": "https://www.gov.uk/foreign-travel-advice/togo/safety-and-security"
+      },
+      {
+        "text": "There are no set blood alcohol content limits, but if traffic control officers suspect you of drink-driving they can order a medical exam.",
+        "url": "https://www.gov.uk/foreign-travel-advice/togo/safety-and-security"
+      },
+      {
+        "text": "You may use your valid Canadian driver’s licence to drive in Togo. However, it is recommended to carry an International Driving Permit.",
+        "url": "https://travel.gc.ca/destinations/togo"
       }
     ],
     "countryFacts.driving.idp": [
@@ -4014,6 +4057,22 @@
       {
         "text": "Togo 27 Feb 1962 d",
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-1&chapter=11"
+      },
+      {
+        "text": "You can use a UK photocard driving licence to drive in Togo for up to 6 months.",
+        "url": "https://www.gov.uk/foreign-travel-advice/togo/safety-and-security"
+      },
+      {
+        "text": "If you’re staying for longer than 6 months, you’ll need get the 1949 version of the international driving permit (IDP).",
+        "url": "https://www.gov.uk/foreign-travel-advice/togo/safety-and-security"
+      },
+      {
+        "text": "There are no set blood alcohol content limits, but if traffic control officers suspect you of drink-driving they can order a medical exam.",
+        "url": "https://www.gov.uk/foreign-travel-advice/togo/safety-and-security"
+      },
+      {
+        "text": "You may use your valid Canadian driver’s licence to drive in Togo. However, it is recommended to carry an International Driving Permit.",
+        "url": "https://travel.gc.ca/destinations/togo"
       }
     ],
     "visaTypes.togo-evisa.feeNotes": [
