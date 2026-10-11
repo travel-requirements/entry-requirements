@@ -94,7 +94,7 @@
         "notes": null
       },
       "AU": {
-        "requirement": "embassy-visa",
+        "requirement": "visa-required",
         "maxStayDays": null,
         "notes": "The Australian Government's Smartraveller says that if, despite its advice, you travel to North Korea, you'll need a visa for all types of travel.",
         "quote": {
@@ -107,7 +107,8 @@
           "type": "government",
           "lastVerified": "2026-10-10",
           "lastChanged": "2026-10-10"
-        }
+        },
+        "visaTypes": []
       },
       "AT": {
         "requirement": "embassy-visa",
@@ -196,7 +197,7 @@
         "notes": null
       },
       "BA": {
-        "requirement": "embassy-visa",
+        "requirement": "visa-required",
         "maxStayDays": null,
         "notes": "Bosnia and Herzegovina's Foreign Ministry says a visa is required for BH citizens with a regular passport, issued in Sofia.",
         "quote": {
@@ -209,7 +210,8 @@
           "type": "government",
           "lastVerified": "2026-10-10",
           "lastChanged": "2026-10-10"
-        }
+        },
+        "visaTypes": []
       },
       "BW": {
         "requirement": "unconfirmed",
@@ -291,7 +293,7 @@
         "notes": null
       },
       "CN": {
-        "requirement": "embassy-visa",
+        "requirement": "visa-required",
         "maxStayDays": null,
         "notes": "China's foreign ministry says the tourist card is issued by bodies such as the offices of North Korea's international travel agency in China, and must be applied for through a travel agency.",
         "source": {
@@ -301,9 +303,7 @@
           "lastVerified": "2026-10-07",
           "lastChanged": "2026-10-07"
         },
-        "visaTypes": [
-          "business-visa"
-        ],
+        "visaTypes": [],
         "quote": {
           "text": "朝国际旅行社在华办事处等机构负责办理观光证，须通过旅行社申请。",
           "url": "https://cs.mfa.gov.cn/zggmcg/ljmdd/yz_645708/cx_646206/"
@@ -373,6 +373,10 @@
           "type": "government",
           "lastVerified": "2026-10-06",
           "lastChanged": "2026-10-06"
+        },
+        "evidence": {
+          "url": "https://mzv.gov.cz/jnp/cz/encyklopedie_statu/asie/korejska_lidove_demokraticka_republika/cestovani/visa.html",
+          "rule": "Držitelé pasů ČR potřebují pro vstup a pobyt na území KLDR vízum, o které lze požádat na konzulárním oddělení Velvyslanectví KLDR v Praze."
         }
       },
       "CD": {
@@ -491,6 +495,10 @@
           "type": "government",
           "lastVerified": "2026-10-06",
           "lastChanged": "2026-10-06"
+        },
+        "evidence": {
+          "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/coree-du-nord/conseils-aux-voyageurs-entree-sejour",
+          "rule": "Un visa est exigé pour l’entrée sur le territoire de la Corée du Nord. Il peut être obtenu auprès de la Délégation générale de la République populaire démocratique de Corée (Corée du Nord) en France"
         }
       },
       "GA": {
@@ -525,7 +533,11 @@
         },
         "visaTypes": [
           "tourist-visa"
-        ]
+        ],
+        "evidence": {
+          "url": "https://www.auswaertiges-amt.de/de/service/laender/koreademokratischevolksrepublik-node/koreademokratischevolksrepubliksicherheit-216104",
+          "rule": "Deutsche Staatsangehörige benötigen für die Einreise nach Nordkorea ein Visum, das in der Regel von der nordkoreanischen Botschaft in Berlin ausgestellt wird."
+        }
       },
       "GH": {
         "requirement": "unconfirmed",
@@ -1006,7 +1018,7 @@
         "visaTypes": []
       },
       "PT": {
-        "requirement": "embassy-visa",
+        "requirement": "visa-required",
         "maxStayDays": null,
         "notes": "Portugal's Foreign Ministry says the visa is compulsory and must be applied for through the organising travel agency at least 4 weeks in advance.",
         "quote": {
@@ -1019,7 +1031,8 @@
           "type": "government",
           "lastVerified": "2026-10-10",
           "lastChanged": "2026-10-10"
-        }
+        },
+        "visaTypes": []
       },
       "QA": {
         "requirement": "unconfirmed",
@@ -1111,11 +1124,9 @@
         "notes": null
       },
       "RS": {
-        "requirement": "embassy-visa",
+        "requirement": "visa-required",
         "maxStayDays": null,
-        "visaTypes": [
-          "tourist-visa"
-        ],
+        "visaTypes": [],
         "notes": "Serbia's foreign ministry says Serbian citizens holding national passports need a visa to enter North Korea, obtained ahead of arrival, and that a visa or a tourist pass cannot be obtained at the border crossing on arrival.",
         "quote": {
           "text": "Citizens of the Republic of Serbia holding national passports need a visa to enter DPR Korea, which must be obtained ahead of their arrival to DPR Korea. It is not possible to obtain a visa at the border crossing on arrival or a tourist pass.",
@@ -1353,6 +1364,10 @@
           "name": "UK FCDO — North Korea travel advice: entry requirements",
           "type": "government",
           "lastVerified": "2026-10-06"
+        },
+        "evidence": {
+          "url": "https://www.gov.uk/foreign-travel-advice/north-korea/entry-requirements",
+          "rule": "Send visa applications and enquires directly to the North Korean Embassy in the UK."
         }
       },
       "US": {
