@@ -22,7 +22,7 @@
   ],
   "summary": "Visit Saudi says the tourist eVisa is a multiple-entry visa valid for one year or a single-entry visa valid for three months, each allowing a stay of no more than 90 consecutive days, with medical insurance included in the visa price, and that the visa on arrival is also available to holders of used US, UK or Schengen business or tourist visas. It says GCC nationals do not need a visa, lists an Embassy/Consulate/Tasheer visa for others, and says Hajj needs a specific Hajj visa.",
   "meta": {
-    "lastUpdated": "2026-10-11",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 7,
     "primarySources": [
@@ -49,7 +49,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay"
     ]
   },
   "visaPolicy": {
@@ -5065,6 +5066,33 @@
         "The UK FCDO lists alcohol, pork and pork products, pornographic material, distillery equipment, weapons and narcotics among the items it is illegal to import.",
         "The UK FCDO says there is zero tolerance for drug offences in Saudi Arabia: possessing even small amounts can bring a prison sentence of up to 5 years and a fine of 30,000 Saudi riyals, and drug dealing and smuggling can result in a death sentence."
       ]
+    },
+    "overstay": {
+      "fine": {
+        "amount": 50000,
+        "currency": "SAR",
+        "per": "incident",
+        "maxAmount": 50000
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "The Ministry of Interior, in statements carried by the Saudi Press Agency, says a foreigner who is late leaving after their entry visa expires is punished with a fine of up to SAR 50,000, imprisonment of up to six months, and deportation.",
+      "source": {
+        "url": "https://www.spa.gov.sa/N2587211",
+        "name": "Saudi Press Agency — Ministry of Interior statement on foreigners who stay after their entry visa expires",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.spa.gov.sa/N2303482",
+            "name": "Saudi Press Agency — Ministry of Interior statement on overstaying an entry visa (earlier item)",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -5686,6 +5714,16 @@
       {
         "text": "You must provide a residency visa from one of the GCC countries with a minimum validity of at least three months beyond the date of entry into Saudi. Your passport must be valid for a minimum of six months beyond the date of entry into Saudi.",
         "url": "https://www.visitsaudi.com/en/plan-your-trip/visa-regulations"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "شددت وزارة الداخلية على أن الوافد الذي يتأخر عن المغادرة عقب انتهاء صلاحية تأشيرة الدخول الممنوحة له سيعاقب بغرامة مالية تصل إلى (50.000) ريال، والسجن مدة تصل إلى (6) أشهر والترحيل.",
+        "url": "https://www.spa.gov.sa/N2587211"
+      },
+      {
+        "text": "أكدت وزارة الداخلية تطبيق غرامة مالية تصل إلى (50.000) ريال، والسجن لمدة تصل إلى (ستة أشهر)، والترحيل بحق الوافد الذي يتأخر عن المغادرة عقب انتهاء صلاحية تأشيرة الدخول الممنوحة له.",
+        "url": "https://www.spa.gov.sa/N2303482"
       }
     ]
   }

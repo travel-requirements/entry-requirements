@@ -14,7 +14,7 @@
   ],
   "summary": "Sri Lanka's ETA portal says a traveller planning a holiday visit, a short business trip or a transit needs to obtain an Electronic Travel Authorization (ETA) before arrival. Its fee table gives USD 50 for a tourist ETA (USD 20 for South Asian countries), or USD 60 (USD 25) on arrival, and says that from 25 May 2026 nationals of 40 listed countries, including India, China and Russia, can obtain the tourist ETA free of charge for 30 days.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 7,
     "primarySources": [
@@ -34,7 +34,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay"
     ]
   },
   "visaPolicy": {
@@ -6101,6 +6102,27 @@
       "notes": [
         "The Government of Canada says exporting antiques without a proper licence is illegal."
       ]
+    },
+    "overstay": {
+      "fine": {
+        "amount": 250,
+        "currency": "USD",
+        "per": "incident",
+        "maxAmount": 500
+      },
+      "gracePeriodDays": 7,
+      "banDays": null,
+      "banText": null,
+      "payableAt": "airport-on-departure",
+      "text": "A visitor who leaves within 7 days after the original visa expires pays only the applicable visa fee, at the port of departure, and no penalty. An overstay of more than 7 and up to 14 days costs a penalty of 250 US dollars, and one of more than 14 days a penalty of 500 US dollars, in each case on top of the applicable visa fee.",
+      "source": {
+        "url": "https://www.immigration.gov.lk/pages_e.php?id=45",
+        "name": "Department of Immigration and Emigration, Sri Lanka — Visa fees and overstay penalties",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Gazette Extraordinary No. 2337/10 of 21 June 2023"
+      }
     }
   },
   "countryFacts": {
@@ -6634,6 +6656,24 @@
       },
       {
         "text": "Any other country except USA, Singapore, Maldives, Seychelles and Czech Republic USD 60 USD 150 USD 200",
+        "url": "https://www.immigration.gov.lk/pages_e.php?id=45"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "According to the Gazette 2337/10 of June 21, 2023 foreigners overstay penalty (charges) are amended as append below with effect from June 21, 2023.",
+        "url": "https://www.immigration.gov.lk/pages_e.php?id=45"
+      },
+      {
+        "text": "A person, who departs from Sri Lanka within seven (07) days calculated from the date of expiry of the period of validity of the original visa, may depart from Sri Lanka by paying the applicable visa fee at the port of departure without paying any penalty.",
+        "url": "https://www.immigration.gov.lk/pages_e.php?id=45"
+      },
+      {
+        "text": "Where the period of the overstay has exceeded seven days (07) and has continued up to fourteen days (14) days calculated from the date of expiry of the period of validity of the original visa, two hundred and fifty (250) United States Dollars will be charged as a penalty in addition to the applicable visa fee.",
+        "url": "https://www.immigration.gov.lk/pages_e.php?id=45"
+      },
+      {
+        "text": "Where the period of the overstay has exceeded fourteen (14) days calculated from the date of expiry of the period of validity of the original visa, five hundred (500) United States Dollars will be charged as a penalty in addition to the applicable visa fee; and",
         "url": "https://www.immigration.gov.lk/pages_e.php?id=45"
       }
     ]

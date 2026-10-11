@@ -17,7 +17,7 @@
   ],
   "summary": "Morocco's Foreign Ministry lists the nationalities exempt from an entry visa — including the US, the UK, France, Spain, Germany, Canada, Australia, Japan, Brazil, Mexico, Russia and China — and its official eVisa portal (acces-maroc.ma) is open to citizens of a listed group of other countries, such as India, Thailand and Vietnam. The UK Foreign Office says the dirham is a closed, non-convertible currency that cannot easily be exchanged outside Morocco.",
   "meta": {
-    "lastUpdated": "2026-10-11",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -45,7 +45,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay"
     ]
   },
   "visaPolicy": {
@@ -4753,6 +4754,27 @@
         }
       },
       "notes": []
+    },
+    "overstay": {
+      "fine": {
+        "amount": 2000,
+        "currency": "MAD",
+        "per": "incident",
+        "maxAmount": 20000
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "Article 42 of Law 02-03 punishes a foreigner who stays in Morocco beyond the period authorised by their visa, except in force majeure or with excuses accepted as valid, with a fine of 2,000 to 20,000 dirhams and imprisonment of one to six months, or one of the two. The penalty is doubled for a repeat offence, and the authorities may expel the foreigner. Article 21 allows a foreigner to be escorted to the border who stays beyond their visa or, if exempt from a visa, beyond three months from entry without a registration card.",
+      "source": {
+        "url": "https://image.mfa.go.th/mfa/0/tDJBi9m15g/Dahir_immigration_fr.pdf",
+        "name": "Law No. 02-03 on the entry and stay of foreigners in Morocco (Bulletin officiel n° 5162, 20 November 2003), copy published by the Ministry of Foreign Affairs of Thailand",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Loi n° 02-03 relative à l'entrée et au séjour des étrangers au Royaume du Maroc, articles 21 and 42"
+      }
     }
   },
   "countryFacts": {
@@ -5292,6 +5314,16 @@
       {
         "url": "https://www.acces-maroc.ma/assets/docs/Conditions%20utilisation%20eVisa%20-%20An.pdf",
         "text": "Category B: Foreign citizens, subject to the formality of visa, living in one of the countries which list is defined by the competent Moroccan authorities (European Union, United States of America, Australia, Canada, United Kingdom, Japan, Norway, New Zealand , United Arab Emirates and Switzerland) holders of a valid ordinary passport, at least 90 days from the date of the application, and with a residency card or residency permit valid for at least 180 days on the date of the electronic visa application."
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "Article 42 :Est puni d'une amende de 2.000 à 20.000 dirhams et d'un emprisonnement de un mois à six mois, ou de l'une de ces deux peines seulement, tout étranger pénétrant ou tentant de pénétrer sur le territoire marocain, en violation des dispositions de l'article3 de la présente loi, ou qui s'est maintenu sur le territoire marocain au-delà de la durée autorisée par son visa, sauf cas de force majeure ou excuses reconnues valables. En cas de récidive, la peine est portée au double. L'autorité administrative peut, toutefois, eu égard aux impératifs découlant de la sécurité et de l'ordre public, expulser l'étranger vers le pays dont il est ressortissant ou vers un autre pays, selon le souhait formulé par l'intéressé.",
+        "url": "https://image.mfa.go.th/mfa/0/tDJBi9m15g/Dahir_immigration_fr.pdf"
+      },
+      {
+        "text": "2 - si l'étranger s'est maintenu sur le territoire marocain au-delà de la durée de validité de son visa ou, s'il n'est pas soumis à l'obligation du visa, à l'expiration d'un délai de trois mois à compter de son entrée au territoire marocain, sans être titulaire d'une carte d'immatriculation régulièrement délivrée ;",
+        "url": "https://image.mfa.go.th/mfa/0/tDJBi9m15g/Dahir_immigration_fr.pdf"
       }
     ]
   }

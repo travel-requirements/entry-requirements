@@ -19,7 +19,7 @@
   ],
   "summary": "Egypt's Ministry of Interior issues tourist e-Visas through visa2egypt.gov.eg (30 USD single entry, 65 USD multiple entries) to nationals of the countries listed on the portal. The UK and Canadian governments say their citizens can also get a visa on arrival, paid in cash in US dollars, and the UK says visitors who fly into Sharm El-Sheikh and stay less than 15 days at the resorts of Sharm El Sheikh, Dahab, Nuweiba or Taba get a free entry permission stamp instead. For nationalities not on the portal's list, no official page we could read states the rule, except where the Egyptian Consulate in Washington or the traveller's own government names it.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -39,7 +39,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay"
     ]
   },
   "visaPolicy": {
@@ -2489,6 +2490,28 @@
         "Canada's travel advice says it is prohibited to export any antiquity or any item older than 100 years without a licence.",
         "The UK government's travel advice says officials are likely to confiscate satellite phones or radio communications equipment unless you have prior clearance from the Ministry of Telecommunications, and that high-value electronic devices and recording equipment should be declared on arrival."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "The UK government says that leaving Egypt on an expired visa may bring difficulties, including a fine if the visa expired more than 14 days earlier. The Canadian government says you may be fined on departure if you overstay your 30-day visa without authorisation. No Egyptian official page we read states the amount.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/egypt/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Egypt travel advice: entry requirements",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "alsoStatedOn": [
+          {
+            "url": "https://travel.gc.ca/destinations/egypt",
+            "name": "Government of Canada — Travel advice and advisories for Egypt",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -3044,6 +3067,16 @@
       {
         "text": "Fees: $32 (Single Entry) or $67 (Multiple Entry/ applicant has to provide a ticket reflecting multiple entry into the country) cash (except for UK, Canada, Zimbabwe, and Nigerian passport holders, fees are on the link here: Click here for the visa fees).",
         "url": "https://egyptembassy.net/consular-services/visas-travel/visa-requirements/"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "If you try to leave Egypt on an expired visa, you may face difficulties, including a fine if your visa has expired by more than 14 days.",
+        "url": "https://www.gov.uk/foreign-travel-advice/egypt/entry-requirements"
+      },
+      {
+        "text": "You may be fined upon departure if you overstay your 30-day visa period without proper authorization.",
+        "url": "https://travel.gc.ca/destinations/egypt"
       }
     ]
   }

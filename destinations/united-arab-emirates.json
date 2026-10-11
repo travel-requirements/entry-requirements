@@ -17,7 +17,7 @@
   ],
   "summary": "Dubai’s tourism department says citizens of more than 80 countries are able to get a visa on arrival in Dubai; it describes a multiple-entry visa upon arrival valid for 6 months from the date of entry for a stay of 90 days total, and a visa on arrival valid for 30 days from the date of entry. The EU–UAE short-stay visa waiver agreement provides for visa-free travel for citizens of the Union for a maximum period of 90 days in any 180-day period. The UAE government portal says a tourist visa is for those who are not eligible for visa on arrival or visa-free entry, and that you can apply for one through airlines, hotels and travel agents.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -45,7 +45,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay"
     ]
   },
   "visaPolicy": {
@@ -5107,6 +5108,33 @@
         "The Government of Canada says certain prescription and over-the-counter medications legally available in Canada, such as codeine and psychiatric medications, are controlled substances in the UAE and illegal to bring in, even in small quantities, without prior permission from the UAE Ministry of Health. The UK government says some products containing cannabidiol (CBD) are illegal in the UAE.",
         "The UK government says there is zero tolerance for drugs-related offences, that you can be arrested for carrying drugs, even residual amounts, and that the Emirati authorities count the presence of drugs in the blood stream as possession."
       ]
+    },
+    "overstay": {
+      "fine": {
+        "amount": 50,
+        "currency": "AED",
+        "per": "day",
+        "maxAmount": null
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "The ICP says a fine of AED 50 is imposed for each day of overstay after the entry permit has expired or been cancelled, starting the day after the grace period for that type of entry permit ends. No official page we read states how long that grace period is for a visit or tourist entry permit.",
+      "source": {
+        "url": "https://icp.gov.ae/en/services-details?serviceid=64afe3c1035448005bd52e63",
+        "name": "Federal Authority for Identity, Citizenship, Customs and Port Security (ICP) — Visa cancellation",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "alsoStatedOn": [
+          {
+            "url": "https://icp.gov.ae/en/media-center/icp-expands-eligibility-for-uae-entry-visa-for-nationals-of-certain-countries/",
+            "name": "ICP — ICP expands eligibility for UAE entry visa for nationals of certain countries",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -5727,6 +5755,16 @@
       {
         "text": "The profession of the applicant must be on the list of professions approved for issuing the visa (subject to evaluation by the concerned authority).",
         "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/Types-of-visas/tourist-visa"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "A fine of AED 50 will be imposed for each day of overstay inside the UAE after the entry permit has expired or been cancelled, starting from the day following the end of the grace period applicable to the specific type of entry permit.",
+        "url": "https://icp.gov.ae/en/services-details?serviceid=64afe3c1035448005bd52e63"
+      },
+      {
+        "text": "Visa holders are required to leave the UAE before the expiry of their authorized stay. An overstay fine of AED 50 per day will apply to violators.",
+        "url": "https://icp.gov.ae/en/media-center/icp-expands-eligibility-for-uae-entry-visa-for-nationals-of-certain-countries/"
       }
     ]
   }

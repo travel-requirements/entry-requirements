@@ -18,7 +18,7 @@
   ],
   "summary": "Indonesia offers a visa on arrival — which can also be applied for online as an e-VoA — costing IDR 500,000 for a stay of up to 30 days, extendable once, to citizens of the countries on its list, and admits the nationals on its visa-free list (among them Malaysia, Singapore, Thailand, Brazil and Türkiye) for up to 30 days without a visa. Indonesian Customs says every passenger entering or leaving Indonesia must submit a digital customs declaration, which is free. Indonesia's Immigration Law (Law No. 6 of 2011) says every foreigner entering Indonesia must hold a valid visa that is still in force, unless that law or an international agreement provides otherwise.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 7,
     "primarySources": [
@@ -46,7 +46,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay"
     ]
   },
   "visaPolicy": {
@@ -4391,6 +4392,27 @@
         "Indonesian customs allows each passenger personal goods worth up to USD 500 duty-free; each adult may also bring at most 200 cigarettes, 25 cigars or 100 g of tobacco, and 1 liter of alcoholic drink. Excess excise goods are destroyed by officers.",
         "The UK Foreign Office says those caught possessing, using, making or trafficking illegal drugs may face long prison sentences or the death penalty, and that cannabis and cannabis-based products, including CBD, are illegal. The Government of Canada says medicines containing morphine or codeine are controlled substances in Indonesia and cannot be brought in, even in small quantities, without prior permission from the Ministry of Health and the required documentation."
       ]
+    },
+    "overstay": {
+      "fine": {
+        "amount": 1000000,
+        "currency": "IDR",
+        "per": "day",
+        "maxAmount": null
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "The Directorate General of Immigration says a foreigner who overstays by less than 60 days is fined Rp 1,000,000 per day, and is deported and barred from entry if the fine is not paid. A foreigner who overstays by more than 60 days is deported and barred from entry directly.",
+      "source": {
+        "url": "https://www.imigrasi.go.id/en/2023/03/24/apa-sanksi-keimigrasian-bagi-wna-yang-melanggar-ketertiban-ini-jawabannya/",
+        "name": "Directorate General of Immigration — Immigration sanctions for foreigners (24 March 2023)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Law No. 6 of 2011 on Immigration, Article 78"
+      }
     }
   },
   "countryFacts": {
@@ -4988,6 +5010,12 @@
       {
         "text": "(4) Dalam hal terdapat perjanjian bilateral atau multilateral antara Negara Kesatuan Republik Indonesia dan negara lain, Surat Izin Mengemudi yang diterbitkan di Indonesia dapat pula berlaku di negara lain dan Surat Izin Mengemudi yang diterbitkan oleh negara lain berlaku di Indonesia.",
         "url": "https://peraturan.bpk.go.id/Download/27961/UU%20Nomor%2022%20Tahun%202009.pdf"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "Sementara itu, bagi WNA yang overstay selama kurang dari 60 hari akan diberikan sanksi berupa denda sebesar Rp 1.000.000,- per hari. Jika WNA tidak membayar denda tersebut, Ia akan dikenakan sanksi deportasi dan penangkalan. Apabila Orang Asing overstay selama lebih dari 60 hari, sebut Achmad, maka Ia akan langsung dikenakan sanksi deportasi dan penangkalan.",
+        "url": "https://www.imigrasi.go.id/en/2023/03/24/apa-sanksi-keimigrasian-bagi-wna-yang-melanggar-ketertiban-ini-jawabannya/"
       }
     ]
   }

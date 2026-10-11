@@ -20,7 +20,7 @@
   ],
   "summary": "Kenya's eTA portal says all visitors, including infants and children, must have an approved Electronic Travel Authorisation (eTA) before the start of their journey (the standard eTA costs USD 30), unless exempt under the Kenya Citizenship and Immigration (Amendment) Rules, 2025: citizens of the East African Partner States (up to 180 days) and nationals of the countries listed for 90 or 60 days, among them South Africa, Ghana, Nigeria, Jamaica, Fiji, Singapore, Malaysia and Cyprus. The Ministry of Health notice shown in the eTA application says all travellers must have valid Inbound Travel Health Insurance issued under the IRA (Gazette Notice No. 11492 of 30 July 2026).",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -42,7 +42,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay"
     ]
   },
   "visaPolicy": {
@@ -3459,6 +3460,21 @@
         "The Government of Canada says the use, manufacture or importation of plastic bags, including garbage and shopping bags, is illegal in Kenya; convicted offenders, including tourists, can face fines of up to USD 40,000, up to two years of imprisonment, or both.",
         "The Kenya Revenue Authority lists these allowable limits: spirits (including liquors) or wine not exceeding one litre, or wine not exceeding two litres; perfume and toilet water not exceeding in all one half litre, of which not more than a quarter may be perfume; and cigarettes, cigars, cheroots, cigarillos, tobacco and snuff not exceeding in all 250 grammes."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "The Department of Immigration Services says overstaying without approval violates Kenyan immigration law, and that failing to leave within the permitted time is subject to fines, detention or deportation. The page does not state the amount.",
+      "source": {
+        "url": "https://immigration.go.ke/travelers-obligations/",
+        "name": "Department of Immigration Services, Kenya — Travellers' obligations",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12"
+      }
     }
   },
   "countryFacts": {
@@ -3995,6 +4011,16 @@
       {
         "text": "Persons who are exempt from obtaining the Electronic Travel Authorisation (eTA)",
         "url": "https://etakenya.go.ke/how-to-apply"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "Overstaying without approval is a violation of Kenyan immigration law and can result in penalties, fines, or deportation.",
+        "url": "https://immigration.go.ke/travelers-obligations/"
+      },
+      {
+        "text": "Failure to exit within the permitted time frame constitutes an immigration violation, subject to fines, detention, or deportation.",
+        "url": "https://immigration.go.ke/travelers-obligations/"
       }
     ]
   }
