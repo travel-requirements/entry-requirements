@@ -17,7 +17,7 @@
     "uruguay",
     "bolivia"
   ],
-  "summary": "Paraguay's foreign ministry lists the countries whose nationals do not need a visa, among them the EU states, the United Kingdom, the United States, Canada, Australia and New Zealand, and says that anyone whose country is not listed does need one. The Dirección Nacional de Migraciones admits non-resident foreigners for a maximum of 90 days, extendable once, and accepts the national identity document of Mercosur and associated-country citizens as a travel document. Visa applications are made through the foreign ministry's online form, followed by an interview, and nationals of Qatar and Oman are granted a visa on arrival at Silvio Pettirossi International Airport.",
+  "summary": "Paraguay's foreign ministry lists the countries whose nationals do not need a visa, among them the EU states, the United Kingdom, the United States, Canada, Australia and New Zealand, and says that anyone whose country is not listed does need one. The Dirección Nacional de Migraciones admits non-resident foreigners for a maximum of 90 days, extendable once, and accepts the national identity document of Mercosur and associated-country citizens as a travel document. Visa applications are made through the foreign ministry's online form, followed by an interview.",
   "meta": {
     "lastUpdated": "2026-10-10",
     "lastFullReview": "2026-09-26",
@@ -2906,24 +2906,25 @@
         }
       },
       "OM": {
-        "requirement": "visa-on-arrival",
+        "requirement": "visa-required",
         "maxStayDays": null,
-        "visaTypes": [
-          "visa-on-arrival",
-          "tourist-embassy"
-        ],
+        "visaTypes": [],
         "source": {
-          "url": "https://www2.mre.gov.py/ny/index.php/tramites-y-servicios/visas",
-          "name": "Consulate General of Paraguay in New York (MRE) — Visas: visa en arribo",
+          "url": "https://www.mre.gov.py/requisitos-de-visa-por-paises/",
+          "name": "Ministerio de Relaciones Exteriores — Paraguay, Requisitos de Visa por Países (countries that do not require a visa)",
           "type": "government",
-          "lastVerified": "2026-10-09",
-          "lastChanged": "2026-10-03",
-          "archiveUrl": "https://web.archive.org/web/20260427135249/https://www2.mre.gov.py/ny/index.php/tramites-y-servicios/visas"
+          "lastVerified": "2026-10-11",
+          "lastChanged": "2026-10-11",
+          "conflict": {
+            "url": "https://www2.mre.gov.py/ny/index.php/tramites-y-servicios/visas",
+            "name": "Consulate General of Paraguay in New York (MRE) — Visas: visa en arribo",
+            "states": "Visa on arrival at Silvio Pettirossi International Airport (listed with the United States, Canada, Australia and New Zealand, which the ministry's list now names among countries that need no visa)",
+            "resolvedBy": "newer"
+          }
         },
         "evidence": {
-          "url": "https://www2.mre.gov.py/ny/index.php/tramites-y-servicios/visas",
-          "rule": "VISA EN ARRIBO Países que pueden solicitarla",
-          "entry": "Qatar, Omán y Taiwán"
+          "url": "https://www.mre.gov.py/requisitos-de-visa-por-paises/",
+          "rule": "Observación: Si su país no figura en el listado, usted SÍ requiere visa para ingresar al Paraguay."
         }
       },
       "PK": {
@@ -3179,24 +3180,26 @@
         }
       },
       "QA": {
-        "requirement": "visa-on-arrival",
+        "requirement": "visa-required",
         "maxStayDays": null,
-        "visaTypes": [
-          "visa-on-arrival",
-          "tourist-embassy"
-        ],
+        "visaTypes": [],
         "source": {
-          "url": "https://www2.mre.gov.py/ny/index.php/tramites-y-servicios/visas",
-          "name": "Consulate General of Paraguay in New York (MRE) — Visas: visa en arribo",
+          "url": "https://www.mre.gov.py/requisitos-de-visa-por-paises/",
+          "name": "Ministerio de Relaciones Exteriores — Paraguay, Requisitos de Visa por Países (countries that do not require a visa)",
           "type": "government",
-          "lastVerified": "2026-10-09",
-          "lastChanged": "2026-10-03",
-          "archiveUrl": "https://web.archive.org/web/20260427135249/https://www2.mre.gov.py/ny/index.php/tramites-y-servicios/visas"
+          "lastVerified": "2026-10-11",
+          "lastChanged": "2026-10-11",
+          "conflict": {
+            "url": "https://www2.mre.gov.py/ny/index.php/tramites-y-servicios/visas",
+            "name": "Consulate General of Paraguay in New York (MRE) — Visas: visa en arribo",
+            "states": "Visa on arrival at Silvio Pettirossi International Airport (listed with the United States, Canada, Australia and New Zealand, which the ministry's list now names among countries that need no visa)",
+            "resolvedBy": "newer"
+          }
         },
         "evidence": {
-          "url": "https://www2.mre.gov.py/ny/index.php/tramites-y-servicios/visas",
-          "rule": "VISA EN ARRIBO Países que pueden solicitarla",
-          "entry": "Nueva Zelanda, Qatar, Omán"
+          "url": "https://www.mre.gov.py/requisitos-de-visa-por-paises/",
+          "rule": "Exención solo para pasaportes diplomáticos, oficiales y de servicio, pasaporte común requiere visa:",
+          "entry": "Kazajistán Líbano Qatar Vietnam"
         }
       },
       "CG": {
@@ -4502,37 +4505,6 @@
           "url": "https://migraciones.gov.py/wp-content/uploads/2025/07/Prorroga-de-Permanencia-Transitoria-0725.pdf"
         }
       }
-    },
-    {
-      "id": "visa-on-arrival",
-      "category": "tourist",
-      "method": "visa-on-arrival",
-      "name": "Visa on arrival (visa en arribo), Silvio Pettirossi International Airport",
-      "fee": null,
-      "processing": null,
-      "validityDays": null,
-      "stayDays": null,
-      "entries": null,
-      "applyUrl": null,
-      "source": {
-        "url": "https://www2.mre.gov.py/ny/index.php/tramites-y-servicios/visas",
-        "name": "Consulate General of Paraguay in New York (MRE) — Visas: visa en arribo",
-        "type": "government",
-        "lastVerified": "2026-10-09",
-        "lastChanged": "2026-10-03",
-        "archiveUrl": "https://web.archive.org/web/20260427135249/https://www2.mre.gov.py/ny/index.php/tramites-y-servicios/visas",
-        "alsoStatedOn": []
-      },
-      "evidence": {
-        "name": {
-          "text": "Se recuerda que los nacionales de Estados Unidos de América, Canadá, Australia, Nueva Zelanda, Qatar, Omán y Taiwán tienen concedida la visa en arribo con la sola presentación del pasaporte vigente, al momento de su llegada al Aeropuerto Internacional Silvio Pettirossi.",
-          "url": "https://www2.mre.gov.py/ny/index.php/tramites-y-servicios/visas"
-        },
-        "method": {
-          "text": "Se recuerda que los nacionales de Estados Unidos de América, Canadá, Australia, Nueva Zelanda, Qatar, Omán y Taiwán tienen concedida la visa en arribo con la sola presentación del pasaporte vigente, al momento de su llegada al Aeropuerto Internacional Silvio Pettirossi.",
-          "url": "https://www2.mre.gov.py/ny/index.php/tramites-y-servicios/visas"
-        }
-      }
     }
   ],
   "entryRequirements": {
@@ -4795,7 +4767,7 @@
     {
       "id": "do-i-need-visa",
       "question": "Do I need a visa for Paraguay?",
-      "answer": "Not if your country is on the foreign ministry's list of countries whose nationals do not need a visa; it includes the EU states, the United Kingdom, Switzerland, the United States, Canada, Australia, New Zealand, Japan, South Korea and Israel, and the ministry says that if your country is not listed you do need a visa. The Dirección Nacional de Migraciones admits non-resident foreigners for a maximum of 90 days and accepts the national identity document of Mercosur and associated-country citizens as a travel document. Visa applications are made through the foreign ministry's online form, and nationals of Qatar and Oman are granted a visa on arrival at Silvio Pettirossi International Airport."
+      "answer": "Not if your country is on the foreign ministry's list of countries whose nationals do not need a visa; it includes the EU states, the United Kingdom, Switzerland, the United States, Canada, Australia, New Zealand, Japan, South Korea and Israel, and the ministry says that if your country is not listed you do need a visa. The Dirección Nacional de Migraciones admits non-resident foreigners for a maximum of 90 days and accepts the national identity document of Mercosur and associated-country citizens as a travel document. Visa applications are made through the foreign ministry's online form."
     },
     {
       "id": "us-citizens",
@@ -4810,7 +4782,7 @@
     {
       "id": "visa-de-arribo",
       "question": "Is there a Paraguayan eVisa?",
-      "answer": "No official page we read describes an electronic visa. Paraguay's Consulate General in New York says visa applications are made through the foreign ministry's online form (mre.gov.py/visasenlinea), after which the consulate contacts you to schedule an interview. It also says nationals of the United States, Canada, Australia, New Zealand, Qatar, Oman and Taiwan are granted a visa on arrival at Silvio Pettirossi International Airport on presentation of a valid passport."
+      "answer": "No official page we read describes an electronic visa. Paraguay's Consulate General in New York says visa applications are made through the foreign ministry's online form (mre.gov.py/visasenlinea), after which the consulate contacts you to schedule an interview."
     },
     {
       "id": "extend-stay",
@@ -4852,10 +4824,6 @@
       {
         "text": "Once your application is complete, we will contact you to schedule an interview.",
         "url": "https://www2.mre.gov.py/ny/index.php/tramites-y-servicios/visas"
-      },
-      {
-        "text": "It is reminded that nationals of the United States of America, Canada, Australia, New Zealand, Qatar, Oman, and Taiwan are granted visa on arrival upon presentation of a valid passport upon arrival at Silvio Pettirossi International Airport.",
-        "url": "https://www2.mre.gov.py/ny/index.php/tramites-y-servicios/visas"
       }
     ],
     "faq.do-i-need-visa": [
@@ -4890,10 +4858,6 @@
       {
         "text": "An online form has been developed for visa applications in the following categories: Non-Resident (Tourist and Technical), as well as Diplomatic, Official, and Courtesy visas.",
         "url": "https://www2.mre.gov.py/ny/index.php/tramites-y-servicios/visas"
-      },
-      {
-        "text": "It is reminded that nationals of the United States of America, Canada, Australia, New Zealand, Qatar, Oman, and Taiwan are granted visa on arrival upon presentation of a valid passport upon arrival at Silvio Pettirossi International Airport.",
-        "url": "https://www2.mre.gov.py/ny/index.php/tramites-y-servicios/visas"
       }
     ],
     "faq.us-citizens": [
@@ -4919,10 +4883,6 @@
       },
       {
         "text": "Once your application is complete, we will contact you to schedule an interview.",
-        "url": "https://www2.mre.gov.py/ny/index.php/tramites-y-servicios/visas"
-      },
-      {
-        "text": "It is reminded that nationals of the United States of America, Canada, Australia, New Zealand, Qatar, Oman, and Taiwan are granted visa on arrival upon presentation of a valid passport upon arrival at Silvio Pettirossi International Airport.",
         "url": "https://www2.mre.gov.py/ny/index.php/tramites-y-servicios/visas"
       }
     ],

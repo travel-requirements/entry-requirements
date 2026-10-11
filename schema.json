@@ -890,6 +890,24 @@
                   "entry": {
                     "type": "string",
                     "minLength": 2
+                  },
+                  "member": {
+                    "type": "object",
+                    "properties": {
+                      "url": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "text": {
+                        "type": "string",
+                        "minLength": 2
+                      }
+                    },
+                    "required": [
+                      "url",
+                      "text"
+                    ],
+                    "additionalProperties": false
                   }
                 },
                 "required": [
