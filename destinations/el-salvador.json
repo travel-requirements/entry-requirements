@@ -18,7 +18,7 @@
   ],
   "summary": "El Salvador's Foreign Ministry sorts passports into category A (exempt from visa), category B (consular visa without consultation) and category C (consulted visa), and its migration law treats tourists as staying up to 90 calendar days. The UK and Canadian governments say their citizens do not need a visa. The UK government says you can travel between El Salvador, Guatemala and Nicaragua for up to 90 days without a visa, and that the 90-day period starts when you enter any of these countries and does not restart when you cross borders.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-11",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -55,6 +55,11 @@
         {
           "url": "https://rree.gob.sv/visas/",
           "name": "Ministerio de Relaciones Exteriores de El Salvador — Visas (country checker: category by nationality and passport type)",
+          "lastVerified": "2026-10-11"
+        },
+        {
+          "url": "https://drive.google.com/file/d/16Zh5tqtgI80zfwqGU-hhzuqkbwdSPdh8/view?usp=sharing",
+          "name": "Dirección General de Migración y Extranjería — Clasificación para Fines de Exención y Obligatoriedad de Visas de El Salvador, Guatemala, Honduras y Nicaragua (the file linked from its page \"Países que requieren visa para ingresar a El Salvador\"; PDF titled 19.11.2024)",
           "lastVerified": "2026-10-11"
         }
       ],
@@ -895,9 +900,17 @@
         }
       },
       "CD": {
-        "requirement": "unconfirmed",
+        "requirement": "embassy-visa",
         "maxStayDays": null,
-        "notes": null
+        "visaTypes": [
+          "tourist-visa"
+        ],
+        "notes": null,
+        "evidence": {
+          "url": "https://drive.google.com/file/d/16Zh5tqtgI80zfwqGU-hhzuqkbwdSPdh8/view?usp=sharing",
+          "rule": "No. PAÍS PASAPORTE ORDINARIO",
+          "entry": "43 Congo, República Democrática de (C) CONSULTADA"
+        }
       },
       "DK": {
         "requirement": "visa-free",
@@ -3524,9 +3537,41 @@
         }
       },
       "VA": {
-        "requirement": "unconfirmed",
-        "maxStayDays": null,
-        "notes": null
+        "requirement": "visa-free",
+        "maxStayDays": 90,
+        "notes": null,
+        "source": {
+          "url": "https://drive.google.com/file/d/16Zh5tqtgI80zfwqGU-hhzuqkbwdSPdh8/view?usp=sharing",
+          "name": "Dirección General de Migración y Extranjería — Clasificación para Fines de Exención y Obligatoriedad de Visas de El Salvador, Guatemala, Honduras y Nicaragua (the file linked from its page \"Países que requieren visa para ingresar a El Salvador\"; PDF titled 19.11.2024)",
+          "type": "government",
+          "lastVerified": "2026-10-11",
+          "lastChanged": "2026-10-11",
+          "instrument": "Ley Especial de Migración y de Extranjería, Art. 84 (tourists stay up to ninety calendar days); visa exemption: Migración classification list, category (A)",
+          "alsoStatedOn": [
+            {
+              "url": "https://www.migracion.gob.sv/servicios/listado-visa/",
+              "name": "Dirección General de Migración y Extranjería — Países que requieren visa para ingresar a El Salvador (CA-4 classification list, file dated 19 November 2024)",
+              "lastVerified": "2026-10-11"
+            },
+            {
+              "url": "https://www.jurisprudencia.gob.sv/DocumentosBoveda/D/2/2010-2019/2019/04/D49FF.PDF",
+              "name": "Centro de Documentación Judicial (Supreme Court of El Salvador) — Ley Especial de Migración y de Extranjería, consolidated text: Art. 84 (tourists stay up to ninety calendar days)",
+              "lastVerified": "2026-10-07"
+            }
+          ],
+          "stayEvidence": [
+            {
+              "days": 90,
+              "text": "se consideran turistas las personas que ingresen al país con fines recreativos, científicos, familiares o religiosos, que permanezcan en el territorio nacional hasta un máximo de noventa días calendario, sin propósito o ánimo de residir temporal o permanentemente, ni con fines laborales, académicos o comerciales.",
+              "url": "https://www.jurisprudencia.gob.sv/DocumentosBoveda/D/2/2010-2019/2019/04/D49FF.PDF"
+            }
+          ]
+        },
+        "evidence": {
+          "url": "https://drive.google.com/file/d/16Zh5tqtgI80zfwqGU-hhzuqkbwdSPdh8/view?usp=sharing",
+          "rule": "No. PAÍS PASAPORTE ORDINARIO",
+          "entry": "154 Santa Sede (Ciudad del Vaticano) (A) EXENTO DE VISA"
+        }
       },
       "VE": {
         "requirement": "embassy-visa",

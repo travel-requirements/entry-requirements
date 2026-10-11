@@ -1,5 +1,5 @@
 {
-  "_comment": "Hosts we are willing to link to that a government-domain pattern does not already match. Every applyUrl/buyUrl/permitUrl/levy url must match the pattern or appear here, or `npm run validate` fails. operator: government | state-operator | igo | needs-review. Entries marked needs-review are a queue, not an endorsement.",
+  "_comment": "Hosts we are willing to link to that a government-domain pattern does not already match. Every applyUrl/buyUrl/permitUrl/levy url must match the pattern or appear here, or `npm run validate` fails. operator: government | state-operator | igo | needs-review. Entries marked needs-review are a queue, not an endorsement. `files` admits single files by exact URL (never their host): a file an official page links as its own, on a host that is not official as a whole; linkedFrom/linkText record that link and country the government publishing it.",
   "hosts": [
     {
       "host": "acces-maroc.ma",
@@ -1620,6 +1620,17 @@
       "host": "yemenembassy.org",
       "operator": "government",
       "note": "Embassy of the Republic of Yemen, Washington DC (checked 2026-10-02)"
+    }
+  ],
+  "files": [
+    {
+      "url": "https://drive.google.com/file/d/16Zh5tqtgI80zfwqGU-hhzuqkbwdSPdh8/view?usp=sharing",
+      "country": "SV",
+      "operator": "government",
+      "linkedFrom": "https://www.migracion.gob.sv/servicios/listado-visa/",
+      "linkText": "Descargue aquí el listado de países que requieren visa para ingresar a El Salvador.",
+      "note": "Dirección General de Migración y Extranjería, El Salvador — the CA-4 \"Clasificación para Fines de Exención y Obligatoriedad de Visas de El Salvador, Guatemala, Honduras y Nicaragua\" (PDF titled 19.11.2024). Migración publishes it only as this Google Drive file: the \"Descargue aquí\" link on its page \"Países que requieren visa para ingresar a El Salvador\" points at exactly this URL (read live 2026-10-11). Only this URL is admitted; drive.google.com as a host is not.",
+      "checked": "2026-10-11"
     }
   ]
 }
