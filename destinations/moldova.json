@@ -32,7 +32,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -2641,6 +2642,29 @@
         "lastVerified": "2026-10-12",
         "lastChanged": "2026-10-12"
       }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": null,
+      "responsibility": "either",
+      "appliesTo": "all",
+      "penaltyText": "Ireland's Department of Foreign Affairs says failure to register may result in fines, difficulties when departing, or both.",
+      "url": null,
+      "text": "Ireland's Department of Foreign Affairs says visitors arriving in Moldova by air are registered automatically by the Moldovan immigration authorities, and that hotels are also responsible for registering foreign visitors. Ireland's Department of Foreign Affairs says visitors who enter by land and stay in private accommodation for more than three days must register with the Department of Information Technologies or the local passport office within three working days. The Government of Canada says visitors who enter Moldova from Transnistria must register within 72 hours.",
+      "source": {
+        "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/moldova/",
+        "name": "Ireland's Department of Foreign Affairs — Moldova travel advice",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "alsoStatedOn": [
+          {
+            "url": "https://travel.gc.ca/destinations/moldova",
+            "name": "Government of Canada — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -3241,6 +3265,38 @@
       {
         "text": "The Moldovan authorities will automatically register your arrival date. They strictly enforce penalties, including fines and expulsion, against foreign visitors who stay in Moldova longer than allowed.",
         "url": "https://www.gov.uk/foreign-travel-advice/moldova/entry-requirements"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "Visitors arriving in the Republic of Moldova by air are automatically registered by the Moldovan immigration authorities. Moldovan hotels are also responsible for registering the presence of foreign visitors.",
+        "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/moldova/"
+      },
+      {
+        "text": "Visitors entering the country by land and staying in private accommodation for more than three days must register with the Department of Information Technologies (address: 42 Puşkin Str, Chişinău, tel: 504 656) or the local passport office, within three working days.",
+        "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/moldova/"
+      },
+      {
+        "text": "Failure to register may result in fines and/or difficulties when departing",
+        "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/moldova/"
+      },
+      {
+        "text": "You must register at one of the following locations within 72 hours if you enter Moldova from Transnistria:",
+        "url": "https://travel.gc.ca/destinations/moldova"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "Visitors arriving in the Republic of Moldova by air are automatically registered by the Moldovan immigration authorities. Moldovan hotels are also responsible for registering the presence of foreign visitors.",
+        "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/moldova/"
+      },
+      {
+        "text": "Visitors entering the country by land and staying in private accommodation for more than three days must register with the Department of Information Technologies (address: 42 Puşkin Str, Chişinău, tel: 504 656) or the local passport office, within three working days.",
+        "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/moldova/"
+      },
+      {
+        "text": "Failure to register may result in fines and/or difficulties when departing",
+        "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/moldova/"
       }
     ]
   }

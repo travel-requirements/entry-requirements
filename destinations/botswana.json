@@ -20,7 +20,7 @@
   ],
   "summary": "Botswana's official eVisa portal marks each nationality as needing a visa or not; the USA and the United Kingdom are among those marked as not needing one. The UK government tells British nationals they can visit for up to 90 days without a visa. The government's tourism visa page says non-citizens from countries that require a visa can apply online through the eVisa portal, or at any immigration office or Botswana embassy or consulate.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -34,7 +34,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay"
     ]
   },
   "visaPolicy": {
@@ -5384,6 +5385,21 @@
       "notes": [
         "The UK FCDO says it is illegal to buy, sell, kill or capture any protected wild animal or trade its parts, and that sentences on conviction can be severe."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "The UK government says overstaying a visa or a permitted visit can cause a delay to your departure.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/botswana/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Botswana travel advice",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12"
+      }
     }
   },
   "countryFacts": {
@@ -5815,6 +5831,12 @@
       {
         "text": "RETURN TICKET 300 Botswana Pula for single entry for a period up to 1 months 500 Botswana Pula for multiple entry for a period up to 3 months",
         "url": "https://evisa.gov.bw/#/appterms"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "Overstaying a visa or a permitted visit can cause a delay to your departure.",
+        "url": "https://www.gov.uk/foreign-travel-advice/botswana/entry-requirements"
       }
     ]
   }

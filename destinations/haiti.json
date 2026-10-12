@@ -17,7 +17,7 @@
   ],
   "summary": "The Embassy of Haiti in Washington says nationals of the Dominican Republic, Panama, Colombia, Cuba, Syria, Libya, Iran, Vietnam and Yemen require a visa to enter Haiti, and that tourists' passports must be valid for at least 6 months and they pay a US$10.00 fee on arrival at the airport. The UK government tells British nationals they do not need a visa to visit for up to 90 days. The UK and Canada advise against all travel to Haiti, and Canada says there are no regular international flights to or from Port-au-Prince until further notice.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -29,7 +29,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -1907,6 +1908,56 @@
         "text": "Fees must be paid by money order, certified check or cashier’s check payable to “Embassy of Haiti in Washington”.",
         "url": "https://www.haiti.org/tourist-visa/"
       }
+    ],
+    "levies.departure-tax": [
+      {
+        "text": "Tourists must pay a departure tax of 55 US dollars.",
+        "url": "https://www.gov.uk/foreign-travel-advice/haiti/entry-requirements"
+      },
+      {
+        "text": "For most international flights, this is included in the price of the ticket.",
+        "url": "https://www.gov.uk/foreign-travel-advice/haiti/entry-requirements"
+      },
+      {
+        "text": "If the departure tax is not included in your air fare, make sure you have enough US dollars or local currency on departure.",
+        "url": "https://www.gov.uk/foreign-travel-advice/haiti/entry-requirements"
+      }
+    ],
+    "levies.departure-tax.feeText": [
+      {
+        "text": "Tourists must pay a departure tax of 55 US dollars.",
+        "url": "https://www.gov.uk/foreign-travel-advice/haiti/entry-requirements"
+      },
+      {
+        "text": "For most international flights, this is included in the price of the ticket.",
+        "url": "https://www.gov.uk/foreign-travel-advice/haiti/entry-requirements"
+      },
+      {
+        "text": "If the departure tax is not included in your air fare, make sure you have enough US dollars or local currency on departure.",
+        "url": "https://www.gov.uk/foreign-travel-advice/haiti/entry-requirements"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "departure-tax",
+      "name": "Departure tax",
+      "kind": "departure-tax",
+      "fee": null,
+      "per": "person-per-trip",
+      "paidAt": null,
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "The UK government says tourists must pay a departure tax of 55 US dollars, included in the ticket price for most international flights.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/haiti/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Haiti travel advice",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12"
+      },
+      "feeText": "55 US dollars, according to the UK government"
+    }
+  ]
 }

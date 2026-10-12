@@ -16,7 +16,7 @@
   ],
   "summary": "Dominica's government lists who does not need a visa: persons from Commonwealth countries, CARICOM member states, the United States and the European countries it names may enter for a period not exceeding six months, and those from a second list of countries, among them France, Germany, the United Kingdom and the People's Republic of China, for a period not exceeding three months. Any in-transit passenger or bona fide tourist with a return ticket who satisfies the Immigration Officer that they do not intend to remain more than twenty-one days also needs no visa.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -30,7 +30,9 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -2835,6 +2837,21 @@
         "The UK government says it is illegal for anyone, including children, to dress in camouflage clothing.",
         "The Government of Canada says customs authorities may enforce strict regulations on the import or export of certain items, including business equipment, food and beverages, and chemicals, and that it is illegal for anyone, including children, to dress in army or camouflage clothing or to carry items made of camouflage material."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "The UK government says it is illegal to overstay or to work without a work permit.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/dominica/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Dominica travel advice",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12"
+      }
     }
   },
   "countryFacts": {
@@ -3228,6 +3245,77 @@
         "text": "Non-CARICOM Nationals: EC $50.00 for less than one month EC $100.00 for one to three months",
         "url": "https://www.dominica.gov.dm/services/passports-and-travel-documents-non-nationals/how-do-i-apply-for-an-extension-of-stay"
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "It is illegal to overstay or work without a work permit.",
+        "url": "https://www.gov.uk/foreign-travel-advice/dominica/entry-requirements"
+      }
+    ],
+    "levies.departure-tax": [
+      {
+        "text": "There is a departure tax of 86 East Caribbean dollars or 33 US dollars.",
+        "url": "https://www.gov.uk/foreign-travel-advice/dominica/entry-requirements"
+      },
+      {
+        "text": "It is usually included in the cost of your plane ticket.",
+        "url": "https://www.gov.uk/foreign-travel-advice/dominica/entry-requirements"
+      },
+      {
+        "text": "You also need to pay departure tax if travelling by ferry.",
+        "url": "https://www.gov.uk/foreign-travel-advice/dominica/entry-requirements"
+      },
+      {
+        "text": "You must pay a departure tax of 86 East Caribbean Dollars when leaving Dominica by ferry.",
+        "url": "https://travel.gc.ca/destinations/dominica"
+      }
+    ],
+    "levies.departure-tax.feeText": [
+      {
+        "text": "There is a departure tax of 86 East Caribbean dollars or 33 US dollars.",
+        "url": "https://www.gov.uk/foreign-travel-advice/dominica/entry-requirements"
+      },
+      {
+        "text": "It is usually included in the cost of your plane ticket.",
+        "url": "https://www.gov.uk/foreign-travel-advice/dominica/entry-requirements"
+      },
+      {
+        "text": "You also need to pay departure tax if travelling by ferry.",
+        "url": "https://www.gov.uk/foreign-travel-advice/dominica/entry-requirements"
+      },
+      {
+        "text": "You must pay a departure tax of 86 East Caribbean Dollars when leaving Dominica by ferry.",
+        "url": "https://travel.gc.ca/destinations/dominica"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "departure-tax",
+      "name": "Departure tax",
+      "kind": "departure-tax",
+      "fee": null,
+      "per": "person-per-trip",
+      "paidAt": null,
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "The UK government says there is a departure tax of 86 East Caribbean dollars or 33 US dollars, usually included in the cost of the plane ticket, and that it must also be paid when travelling by ferry. The Government of Canada says a departure tax of 86 East Caribbean dollars must be paid when leaving Dominica by ferry.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/dominica/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Dominica travel advice",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "alsoStatedOn": [
+          {
+            "url": "https://travel.gc.ca/destinations/dominica",
+            "name": "Government of Canada — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      },
+      "feeText": "86 East Caribbean dollars or 33 US dollars, according to the UK government; the Government of Canada gives 86 East Caribbean dollars for departures by ferry"
+    }
+  ]
 }

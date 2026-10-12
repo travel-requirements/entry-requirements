@@ -34,7 +34,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -6765,6 +6766,63 @@
         "text": "Artículo 16. No residente es el extranjero que ingresa ocasionalmente en el territorio nacional, que no tiene ánimo de establecer su residencia en éste ni de abandonar su residencia de origen mientras se encuentre en Panamá, y que debe contar con recursos económicos propios y adecuados para mantenerse mientras dure su permanencia y salir del país al expirar el periodo autorizado.",
         "url": "https://www.gacetaoficial.gob.pa/pdfTemp/25986/9070.pdf"
       }
+    ],
+    "levies.departure-tax": [
+      {
+        "text": "There is a charge of 40 US dollars on departure.",
+        "url": "https://www.gov.uk/foreign-travel-advice/panama/entry-requirements"
+      },
+      {
+        "text": "This is usually included in the price of your ticket.",
+        "url": "https://www.gov.uk/foreign-travel-advice/panama/entry-requirements"
+      },
+      {
+        "text": "You'll need to pay a departure tax at the Tocumen Airport in Panama City.",
+        "url": "https://www.smartraveller.gov.au/destinations/americas/panama"
+      },
+      {
+        "text": "Check if your airline ticket already includes this cost.",
+        "url": "https://www.smartraveller.gov.au/destinations/americas/panama"
+      }
+    ],
+    "levies.departure-tax.feeText": [
+      {
+        "text": "There is a charge of 40 US dollars on departure.",
+        "url": "https://www.gov.uk/foreign-travel-advice/panama/entry-requirements"
+      },
+      {
+        "text": "This is usually included in the price of your ticket.",
+        "url": "https://www.gov.uk/foreign-travel-advice/panama/entry-requirements"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "departure-tax",
+      "name": "Departure tax",
+      "kind": "departure-tax",
+      "fee": null,
+      "per": "person-per-trip",
+      "paidAt": null,
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "The UK government says there is a charge of 40 US dollars on departure, usually included in the ticket price. Australia's Smartraveller says you need to pay a departure tax at Tocumen Airport in Panama City.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/panama/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Panama travel advice",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.smartraveller.gov.au/destinations/americas/panama",
+            "name": "Australian Government, Smartraveller — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      },
+      "feeText": "40 US dollars, according to the UK government"
+    }
+  ]
 }

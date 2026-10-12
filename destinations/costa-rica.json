@@ -50,7 +50,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -3091,6 +3092,63 @@
         "text": "You may face deportation if you overstay the authorized 180-day period. Persons deported from Costa Rica will not be allowed to re-enter the country for 5 to 10 years.",
         "url": "https://travel.gc.ca/destinations/costa-rica"
       }
+    ],
+    "levies.departure-tax": [
+      {
+        "text": "When leaving the country by air, you may need to pay a departure tax of 29 US dollars.",
+        "url": "https://www.gov.uk/foreign-travel-advice/costa-rica/entry-requirements"
+      },
+      {
+        "text": "Most airlines include this in ticket prices.",
+        "url": "https://www.gov.uk/foreign-travel-advice/costa-rica/entry-requirements"
+      },
+      {
+        "text": "You must pay a departure tax to leave Costa Rica.",
+        "url": "https://www.smartraveller.gov.au/destinations/americas/costa-rica"
+      },
+      {
+        "text": "This might be included in your airline ticket.",
+        "url": "https://www.smartraveller.gov.au/destinations/americas/costa-rica"
+      }
+    ],
+    "levies.departure-tax.feeText": [
+      {
+        "text": "When leaving the country by air, you may need to pay a departure tax of 29 US dollars.",
+        "url": "https://www.gov.uk/foreign-travel-advice/costa-rica/entry-requirements"
+      },
+      {
+        "text": "Most airlines include this in ticket prices.",
+        "url": "https://www.gov.uk/foreign-travel-advice/costa-rica/entry-requirements"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "departure-tax",
+      "name": "Departure tax",
+      "kind": "departure-tax",
+      "fee": null,
+      "per": "person-per-trip",
+      "paidAt": null,
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "The UK government says that when leaving the country by air you may need to pay a departure tax of 29 US dollars, which most airlines include in ticket prices. Australia's Smartraveller says you must pay a departure tax to leave Costa Rica and that it might be included in your airline ticket.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/costa-rica/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Costa Rica travel advice",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.smartraveller.gov.au/destinations/americas/costa-rica",
+            "name": "Australian Government, Smartraveller — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      },
+      "feeText": "29 US dollars when leaving by air, according to the UK government"
+    }
+  ]
 }

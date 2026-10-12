@@ -30,7 +30,8 @@
       }
     ],
     "modules": [
-      "overstay"
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -2664,6 +2665,55 @@
         "text": "a. person who is unlawfully in Kiribati may not apply for a temporary visa",
         "url": "https://www.mfa.gov.ki/wp-content/uploads/2020/11/Immigration-Procedures-2020.pdf"
       }
+    ],
+    "levies.departure-tax": [
+      {
+        "text": "You must pay a 20 Australian dollar departure tax at the airport.",
+        "url": "https://www.gov.uk/foreign-travel-advice/kiribati/entry-requirements"
+      },
+      {
+        "text": "You must pay a 20 Australian dollar departure tax at the airport.",
+        "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/kiribati/"
+      }
+    ],
+    "levies.departure-tax.feeText": [
+      {
+        "text": "You must pay a 20 Australian dollar departure tax at the airport.",
+        "url": "https://www.gov.uk/foreign-travel-advice/kiribati/entry-requirements"
+      },
+      {
+        "text": "You must pay a 20 Australian dollar departure tax at the airport.",
+        "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/kiribati/"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "departure-tax",
+      "name": "Departure tax",
+      "kind": "departure-tax",
+      "fee": null,
+      "per": "person-per-trip",
+      "paidAt": null,
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "The UK government and Ireland's Department of Foreign Affairs say you must pay a 20 Australian dollar departure tax at the airport.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/kiribati/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Kiribati travel advice",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/kiribati/",
+            "name": "Department of Foreign Affairs, Ireland — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      },
+      "feeText": "20 Australian dollars, according to the UK government and Ireland's Department of Foreign Affairs"
+    }
+  ]
 }

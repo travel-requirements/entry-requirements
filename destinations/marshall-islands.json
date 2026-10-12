@@ -33,7 +33,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -3108,6 +3109,51 @@
         "text": "(2) Any person that has been deported or removed from the Republic under this Chapter shall not be allowed to re-enter the Republic.",
         "url": "https://rmiparliament.org/cms/images/LEGISLATION/PRINCIPAL/2006/2006-0062/2006-0062_2.pdf"
       }
+    ],
+    "levies.departure-tax": [
+      {
+        "text": "You must pay a departure tax of 20 US dollars in cash at the airport.",
+        "url": "https://www.gov.uk/foreign-travel-advice/marshall-islands/entry-requirements"
+      },
+      {
+        "text": "You must pay a cash departure fee in US dollars when you leave.",
+        "url": "https://www.smartraveller.gov.au/destinations/pacific/marshall-islands"
+      }
+    ],
+    "levies.departure-tax.feeText": [
+      {
+        "text": "You must pay a departure tax of 20 US dollars in cash at the airport.",
+        "url": "https://www.gov.uk/foreign-travel-advice/marshall-islands/entry-requirements"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "departure-tax",
+      "name": "Departure tax",
+      "kind": "departure-tax",
+      "fee": null,
+      "per": "person-per-trip",
+      "paidAt": "on-departure",
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "The UK government says you must pay a departure tax of 20 US dollars in cash at the airport. Australia's Smartraveller says you must pay a cash departure fee in US dollars when you leave.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/marshall-islands/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Marshall Islands travel advice",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.smartraveller.gov.au/destinations/pacific/marshall-islands",
+            "name": "Australian Government, Smartraveller — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      },
+      "feeText": "20 US dollars in cash, according to the UK government"
+    }
+  ]
 }

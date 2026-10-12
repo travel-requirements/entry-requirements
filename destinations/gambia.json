@@ -17,7 +17,7 @@
   ],
   "summary": "The Gambia Immigration Department says ECOWAS citizens do not need a visa for entry, and lists the countries with a visa exemption agreement — among them the UK, Canada, Australia, Germany, Italy, Spain, the Netherlands and Sweden; the UK government says British visitors get a passport stamp allowing a 28-day stay, and can get 2 extensions of 28 days. The department lists countries whose citizens need only an entry clearance, such as Kenya, Malaysia, Singapore, Thailand, Jamaica, Barbados and Fiji, and countries that need only a visa, such as the United States, France and Portugal.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -27,6 +27,9 @@
         "type": "government",
         "lastVerified": "2026-10-07"
       }
+    ],
+    "modules": [
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -5696,6 +5699,106 @@
         "text": "The rainy season extends from June to October. Seasonal flooding can hamper overland travel and reduce the provision of essential services. Roads may become impassable and bridges damaged.",
         "url": "https://travel.gc.ca/destinations/gambia-the"
       }
+    ],
+    "levies.airport-security-fee": [
+      {
+        "text": "You must pay an Airport Security Fee when you arrive in and leave the country.",
+        "url": "https://www.gov.uk/foreign-travel-advice/gambia/entry-requirements"
+      },
+      {
+        "text": "The fee is 20 US dollars, which can also be paid in euros, British pounds, or local currency.",
+        "url": "https://www.gov.uk/foreign-travel-advice/gambia/entry-requirements"
+      },
+      {
+        "text": "You can pay the fee at marked kiosks in Banjul International Airport.",
+        "url": "https://www.gov.uk/foreign-travel-advice/gambia/entry-requirements"
+      },
+      {
+        "text": "Children aged 1 or under and passengers transiting are exempt.",
+        "url": "https://www.gov.uk/foreign-travel-advice/gambia/entry-requirements"
+      },
+      {
+        "text": "A compulsory Security Airport Fee must be paid upon entering and exiting The Gambia by air.",
+        "url": "https://www.smartraveller.gov.au/destinations/africa/gambia"
+      },
+      {
+        "text": "The fee is US$20, or equivalent in euros, pound sterling or local currency.",
+        "url": "https://www.smartraveller.gov.au/destinations/africa/gambia"
+      },
+      {
+        "text": "You must pay an Airport Security Fee when you arrive in and leave The Gambia.",
+        "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/republic-of-the-gambia"
+      }
+    ],
+    "levies.airport-security-fee.exemptions": [
+      {
+        "text": "You must pay an Airport Security Fee when you arrive in and leave the country.",
+        "url": "https://www.gov.uk/foreign-travel-advice/gambia/entry-requirements"
+      },
+      {
+        "text": "The fee is 20 US dollars, which can also be paid in euros, British pounds, or local currency.",
+        "url": "https://www.gov.uk/foreign-travel-advice/gambia/entry-requirements"
+      },
+      {
+        "text": "You can pay the fee at marked kiosks in Banjul International Airport.",
+        "url": "https://www.gov.uk/foreign-travel-advice/gambia/entry-requirements"
+      },
+      {
+        "text": "Children aged 1 or under and passengers transiting are exempt.",
+        "url": "https://www.gov.uk/foreign-travel-advice/gambia/entry-requirements"
+      }
+    ],
+    "levies.airport-security-fee.feeText": [
+      {
+        "text": "You must pay an Airport Security Fee when you arrive in and leave the country.",
+        "url": "https://www.gov.uk/foreign-travel-advice/gambia/entry-requirements"
+      },
+      {
+        "text": "The fee is 20 US dollars, which can also be paid in euros, British pounds, or local currency.",
+        "url": "https://www.gov.uk/foreign-travel-advice/gambia/entry-requirements"
+      },
+      {
+        "text": "You can pay the fee at marked kiosks in Banjul International Airport.",
+        "url": "https://www.gov.uk/foreign-travel-advice/gambia/entry-requirements"
+      },
+      {
+        "text": "Children aged 1 or under and passengers transiting are exempt.",
+        "url": "https://www.gov.uk/foreign-travel-advice/gambia/entry-requirements"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "airport-security-fee",
+      "name": "Airport Security Fee",
+      "kind": "airport-fee",
+      "fee": null,
+      "per": "person",
+      "paidAt": null,
+      "appliesTo": "all",
+      "exemptions": "The UK government says children aged 1 or under and passengers transiting are exempt.",
+      "url": null,
+      "text": "The UK government says you must pay an Airport Security Fee of 20 US dollars (also payable in euros, British pounds or local currency) when you arrive in and when you leave the country, at marked kiosks in Banjul International Airport. Australia's Smartraveller says a compulsory Security Airport Fee of US$20, or the equivalent in euros, pounds sterling or local currency, must be paid on entering and leaving The Gambia by air. Ireland's Department of Foreign Affairs says you must pay an Airport Security Fee when you arrive in and leave The Gambia.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/gambia/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — The Gambia travel advice",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.smartraveller.gov.au/destinations/africa/gambia",
+            "name": "Australian Government, Smartraveller — travel advice",
+            "lastVerified": "2026-10-12"
+          },
+          {
+            "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/republic-of-the-gambia",
+            "name": "Department of Foreign Affairs, Ireland — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      },
+      "feeText": "20 US dollars (or the same in euros, British pounds or local currency), according to the UK government"
+    }
+  ]
 }

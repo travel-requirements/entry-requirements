@@ -33,7 +33,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -5368,6 +5369,59 @@
         "text": "If you overstay the 90 days, you’ll have to pay a fine before leaving the country. You can pay this fine at the main Institute of Migration (in Spanish) office in Guatemala City. You can also pay fines at the airport or land borders, but administrative processes can cause serious delays.",
         "url": "https://www.gov.uk/foreign-travel-advice/guatemala/entry-requirements"
       }
+    ],
+    "levies.departure-tax": [
+      {
+        "text": "You must pay airport departure tax of 30 US dollars (or the same amount in Guatemalan quetzal).",
+        "url": "https://www.gov.uk/foreign-travel-advice/guatemala/entry-requirements"
+      },
+      {
+        "text": "This is normally included in the price of your ticket.",
+        "url": "https://www.gov.uk/foreign-travel-advice/guatemala/entry-requirements"
+      },
+      {
+        "text": "There is a US$30 (or Quetzal equivalent) airport departure tax, which is normally included in the price of a flight ticket.",
+        "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/guatemala/"
+      }
+    ],
+    "levies.departure-tax.feeText": [
+      {
+        "text": "You must pay airport departure tax of 30 US dollars (or the same amount in Guatemalan quetzal).",
+        "url": "https://www.gov.uk/foreign-travel-advice/guatemala/entry-requirements"
+      },
+      {
+        "text": "This is normally included in the price of your ticket.",
+        "url": "https://www.gov.uk/foreign-travel-advice/guatemala/entry-requirements"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "departure-tax",
+      "name": "Airport departure tax",
+      "kind": "departure-tax",
+      "fee": null,
+      "per": "person-per-trip",
+      "paidAt": null,
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "The UK government says you must pay an airport departure tax of 30 US dollars (or the same amount in Guatemalan quetzal), normally included in the ticket price. Ireland's Department of Foreign Affairs gives the same amount, US$30 or the quetzal equivalent, normally included in the price of the flight ticket.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/guatemala/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Guatemala travel advice",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/guatemala/",
+            "name": "Department of Foreign Affairs, Ireland — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      },
+      "feeText": "30 US dollars or the same amount in Guatemalan quetzal, according to the UK government"
+    }
+  ]
 }

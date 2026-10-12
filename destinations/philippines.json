@@ -43,7 +43,8 @@
     "modules": [
       "driving",
       "overstay",
-      "post-arrival-registration"
+      "post-arrival-registration",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -3166,6 +3167,59 @@
         "text": "Foreign nationals staying in the Philippines for longer than 59 days must register with the local authorities.",
         "url": "https://travel.gc.ca/destinations/philippines"
       }
+    ],
+    "levies.departure-tax-cebu": [
+      {
+        "text": "If you’re leaving the country from Cebu Mactan airport, you must pay a departure tax of 850 Philippine pesos in local currency or the equivalent in US dollars.",
+        "url": "https://www.gov.uk/foreign-travel-advice/philippines/entry-requirements"
+      },
+      {
+        "text": "There’s no longer a departure tax at Manila airport.",
+        "url": "https://www.gov.uk/foreign-travel-advice/philippines/entry-requirements"
+      },
+      {
+        "text": "If you're leaving the Philippines from Mactan-Cebu or Clark International Airports, you need to pay a departure tax.",
+        "url": "https://www.smartraveller.gov.au/destinations/asia/philippines"
+      }
+    ],
+    "levies.departure-tax-cebu.feeText": [
+      {
+        "text": "If you’re leaving the country from Cebu Mactan airport, you must pay a departure tax of 850 Philippine pesos in local currency or the equivalent in US dollars.",
+        "url": "https://www.gov.uk/foreign-travel-advice/philippines/entry-requirements"
+      },
+      {
+        "text": "There’s no longer a departure tax at Manila airport.",
+        "url": "https://www.gov.uk/foreign-travel-advice/philippines/entry-requirements"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "departure-tax-cebu",
+      "name": "Departure tax at Mactan-Cebu airport",
+      "kind": "departure-tax",
+      "fee": null,
+      "per": "person-per-trip",
+      "paidAt": "on-departure",
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "The UK government says that if you leave the country from Cebu Mactan airport you must pay a departure tax of 850 Philippine pesos in local currency or the equivalent in US dollars, and that there is no longer a departure tax at Manila airport. Australia's Smartraveller says a departure tax is payable when leaving from Mactan-Cebu or Clark International Airports.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/philippines/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Philippines travel advice",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.smartraveller.gov.au/destinations/asia/philippines",
+            "name": "Australian Government, Smartraveller — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      },
+      "feeText": "850 Philippine pesos in local currency or the equivalent in US dollars, according to the UK government"
+    }
+  ]
 }

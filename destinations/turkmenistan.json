@@ -36,7 +36,8 @@
     "modules": [
       "driving",
       "overstay",
-      "post-arrival-registration"
+      "post-arrival-registration",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -3405,6 +3406,73 @@
         "text": "влекут наложение штрафа в размере от восьми до шестнадцати размеров базовой величины или административное выдворение за пределы Туркменистана с временным ограничением во въезде в Туркменистан сроком до пяти лет.",
         "url": "https://minjust.gov.tm/ru/hukuk/merkezi/hukuk/768"
       }
+    ],
+    "levies.tourism-tax": [
+      {
+        "text": "All foreign visitors must also pay a ‘tourism tax’ of 2 US dollars for each day of their stay in Turkmenistan.",
+        "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
+      },
+      {
+        "text": "Hotels include the tax as a separate item on your bill.",
+        "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
+      },
+      {
+        "text": "All foreign citizens, except accredited diplomats, must pay a tourist fee for each day of their stay.",
+        "url": "https://www.smartraveller.gov.au/destinations/asia/turkmenistan"
+      },
+      {
+        "text": "Your hotel may include the fee in your bill.",
+        "url": "https://www.smartraveller.gov.au/destinations/asia/turkmenistan"
+      }
+    ],
+    "levies.tourism-tax.exemptions": [
+      {
+        "text": "All foreign citizens, except accredited diplomats, must pay a tourist fee for each day of their stay.",
+        "url": "https://www.smartraveller.gov.au/destinations/asia/turkmenistan"
+      },
+      {
+        "text": "Your hotel may include the fee in your bill.",
+        "url": "https://www.smartraveller.gov.au/destinations/asia/turkmenistan"
+      }
+    ],
+    "levies.tourism-tax.feeText": [
+      {
+        "text": "All foreign visitors must also pay a ‘tourism tax’ of 2 US dollars for each day of their stay in Turkmenistan.",
+        "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
+      },
+      {
+        "text": "Hotels include the tax as a separate item on your bill.",
+        "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "tourism-tax",
+      "name": "Tourism tax",
+      "kind": "tourist-tax",
+      "fee": null,
+      "per": "person-per-night",
+      "paidAt": "at-accommodation",
+      "appliesTo": "all",
+      "exemptions": "Australia's Smartraveller says accredited diplomats are exempt.",
+      "url": null,
+      "text": "The UK government says all foreign visitors must pay a tourism tax of 2 US dollars for each day of their stay, which hotels include as a separate item on the bill. Australia's Smartraveller says all foreign citizens except accredited diplomats must pay a tourist fee for each day of their stay, and that the hotel may include the fee in the bill.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Turkmenistan travel advice",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.smartraveller.gov.au/destinations/asia/turkmenistan",
+            "name": "Australian Government, Smartraveller — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      },
+      "feeText": "2 US dollars for each day of stay, according to the UK government"
+    }
+  ]
 }

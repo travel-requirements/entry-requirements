@@ -30,7 +30,8 @@
       }
     ],
     "modules": [
-      "overstay"
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -2476,6 +2477,40 @@
         "text": "(2) In lieu of subsection (1) of this section or in addition thereto, any person who unlawfully enters the Federated States of Micronesia or having lawfully entered, willfully and unlawfully remains after expiration or revocation of his entry permit shall be subject to deportation after hearing upon application by the President or his designee to any competent court in the Federated States of Micronesia.",
         "url": "https://www.fsmlaw.org/fsm/code/title50/T50_Ch01.htm"
       }
+    ],
+    "levies.departure-tax": [
+      {
+        "text": "You must pay a departure tax of 20 US dollars when you leave the Federated States of Micronesia.",
+        "url": "https://www.gov.uk/foreign-travel-advice/federated-states-of-micronesia/entry-requirements"
+      }
+    ],
+    "levies.departure-tax.feeText": [
+      {
+        "text": "You must pay a departure tax of 20 US dollars when you leave the Federated States of Micronesia.",
+        "url": "https://www.gov.uk/foreign-travel-advice/federated-states-of-micronesia/entry-requirements"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "departure-tax",
+      "name": "Departure tax",
+      "kind": "departure-tax",
+      "fee": null,
+      "per": "person-per-trip",
+      "paidAt": "on-departure",
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "The UK government says you must pay a departure tax of 20 US dollars when you leave the Federated States of Micronesia.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/federated-states-of-micronesia/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Micronesia travel advice",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12"
+      },
+      "feeText": "20 US dollars, according to the UK government"
+    }
+  ]
 }
