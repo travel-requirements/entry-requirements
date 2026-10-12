@@ -38,7 +38,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -4610,6 +4611,23 @@
           }
         ]
       }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": 24,
+      "responsibility": "accommodation",
+      "appliesTo": "all",
+      "penaltyText": null,
+      "url": null,
+      "text": "A non-resident foreigner who lodges at a hotel or lodging house must present a valid travel document and be registered on a form prescribed by the Authority. The hotel or lodging house must report the foreigner to the Authority, the organ it has delegated or the nearest police station within 24 hours.",
+      "source": {
+        "url": "https://ics.gov.et/download/council-of-ministers-regulation-no-114-2004/",
+        "name": "Immigration and Citizenship Service (ics.gov.et) — Council of Ministers Regulation No. 114/2004 (Immigration Regulations), Federal Negarit Gazeta",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Council of Ministers Regulation No. 114/2004, art. 36 (Control at Hotels and Lodging Houses)"
+      }
     }
   },
   "countryFacts": {
@@ -5128,6 +5146,16 @@
       {
         "text": "Travelers who stay beyond the validity period without extending are subject to fines and legal penalties.",
         "url": "https://www.evisa.gov.et/information/tourist"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "Any non-resident foreigner who intends to lodge at any hotel or any lodging house shall have the obligation to present his valid travel document and be registered in a form prescribed by the Authority.",
+        "url": "https://ics.gov.et/download/council-of-ministers-regulation-no-114-2004/"
+      },
+      {
+        "text": "Where a hotel or a lodging house provides accom- modation to a non-resident foreigner, it shall have the obligation to report to the Authority, the organ delegated by the Authority or the nearest police station, within 24 hours.",
+        "url": "https://ics.gov.et/download/council-of-ministers-regulation-no-114-2004/"
       }
     ]
   }

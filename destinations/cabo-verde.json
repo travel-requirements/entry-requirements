@@ -31,7 +31,8 @@
     "modules": [
       "driving",
       "overstay",
-      "levies"
+      "levies",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -6387,6 +6388,23 @@
         "lastChanged": "2026-10-12",
         "instrument": "Lei n.º 66/VIII/2014, art. 105.º as republished by Lei n.º 27/X/2023 (art. 102.º in the 2014 original)"
       }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": null,
+      "responsibility": "accommodation",
+      "appliesTo": "all",
+      "penaltyText": "Fine of 2,000 to 10,000 escudos for each accommodation form not submitted within the legal deadline (Article 106).",
+      "url": null,
+      "text": "Owners and operators of hotels, guesthouses and similar lodgings, and anyone who lodges a foreigner, even by sublet, must send the police a copy of the individual accommodation form (boletim de alojamento) within 48 hours. They must report the foreigner's departure to the police within 48 hours, and register with the DEF to use the electronic collection system. Non-resident foreigners living in their own home send the form themselves, for themselves and for foreigners living with them. Each form not submitted on time: fine of 2,000 to 10,000 escudos.",
+      "source": {
+        "url": "https://boe.incv.cv/Bulletins/Download/4790",
+        "name": "Imprensa Nacional de Cabo Verde, Boletim Oficial I Série nº 51 (8 May 2023) — Lei n.º 27/X/2023 with republication of Lei n.º 66/VIII/2014 (entry, stay, exit and expulsion of foreigners)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Lei n.º 66/VIII/2014 as republished by Lei n.º 27/X/2023, artigos 23.º and 106.º"
+      }
     }
   },
   "countryFacts": {
@@ -6911,6 +6929,58 @@
       {
         "text": "O valor da contribuição turística é fixado em 276$00 (duzentos e setenta e seis escudos).",
         "url": "https://boe.incv.cv/Bulletins/Download/4568"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "Artigo 23.º Boletim de alojamento 1- O boletim de alojamento é o documento que se destina a permitir o controlo dos estrangeiros no território nacional.",
+        "url": "https://boe.incv.cv/Bulletins/Download/4790"
+      },
+      {
+        "text": "3- Os proprietários ou responsáveis pela exploração de hotéis, residenciais, pensões, casas de hóspedes e congéneres, pousadas, ainda que sejam pertença ou a sua exploração esteja a cargo das autarquias locais ou de outras entidades públicas, bem como aqueles que alberguem, mesmo por sublocação, ou cedam a qualquer título, casa para residência ou comércio, ficam obrigados a remeter às autoridades policiais um exemplar do boletim individual de alojamento, no prazo de quarenta e oito horas.",
+        "url": "https://boe.incv.cv/Bulletins/Download/4790"
+      },
+      {
+        "text": "4- Os estrangeiros não residentes que se instalem em habitação própria ficam responsáveis pela remessa do boletim de alojamento, tanto em relação a si próprios como às pessoas estrangeiras que com eles coabitam.",
+        "url": "https://boe.incv.cv/Bulletins/Download/4790"
+      },
+      {
+        "text": "5- Com vista a simplificar o envio dos boletins de alojamento, as pessoas referidas no número 3 devem proceder ao seu registo junto da DEF como utilizadores do Sistema Automático de Recolha de Boletins de Alojamento, de forma a poderem proceder à respetiva comunicação eletrónica em condições de segurança.",
+        "url": "https://boe.incv.cv/Bulletins/Download/4790"
+      },
+      {
+        "text": "7- Após a saída do cidadão estrangeiro do referido alojamento, o facto deve ser comunicado, no prazo de quarenta e oito horas, às autoridades policiais.",
+        "url": "https://boe.incv.cv/Bulletins/Download/4790"
+      },
+      {
+        "text": "Artigo 106.º Falta de boletim de alojamento A infração ao disposto no artigo 23.º, por cada boletim de alojamento não apresentado no prazo legal constitui contraordenação punível com coima de 2 000$00 (dois mil escudos) a 10 000$00 (dez mil escudos).",
+        "url": "https://boe.incv.cv/Bulletins/Download/4790"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "Artigo 23.º Boletim de alojamento 1- O boletim de alojamento é o documento que se destina a permitir o controlo dos estrangeiros no território nacional.",
+        "url": "https://boe.incv.cv/Bulletins/Download/4790"
+      },
+      {
+        "text": "3- Os proprietários ou responsáveis pela exploração de hotéis, residenciais, pensões, casas de hóspedes e congéneres, pousadas, ainda que sejam pertença ou a sua exploração esteja a cargo das autarquias locais ou de outras entidades públicas, bem como aqueles que alberguem, mesmo por sublocação, ou cedam a qualquer título, casa para residência ou comércio, ficam obrigados a remeter às autoridades policiais um exemplar do boletim individual de alojamento, no prazo de quarenta e oito horas.",
+        "url": "https://boe.incv.cv/Bulletins/Download/4790"
+      },
+      {
+        "text": "4- Os estrangeiros não residentes que se instalem em habitação própria ficam responsáveis pela remessa do boletim de alojamento, tanto em relação a si próprios como às pessoas estrangeiras que com eles coabitam.",
+        "url": "https://boe.incv.cv/Bulletins/Download/4790"
+      },
+      {
+        "text": "5- Com vista a simplificar o envio dos boletins de alojamento, as pessoas referidas no número 3 devem proceder ao seu registo junto da DEF como utilizadores do Sistema Automático de Recolha de Boletins de Alojamento, de forma a poderem proceder à respetiva comunicação eletrónica em condições de segurança.",
+        "url": "https://boe.incv.cv/Bulletins/Download/4790"
+      },
+      {
+        "text": "7- Após a saída do cidadão estrangeiro do referido alojamento, o facto deve ser comunicado, no prazo de quarenta e oito horas, às autoridades policiais.",
+        "url": "https://boe.incv.cv/Bulletins/Download/4790"
+      },
+      {
+        "text": "Artigo 106.º Falta de boletim de alojamento A infração ao disposto no artigo 23.º, por cada boletim de alojamento não apresentado no prazo legal constitui contraordenação punível com coima de 2 000$00 (dois mil escudos) a 10 000$00 (dez mil escudos).",
+        "url": "https://boe.incv.cv/Bulletins/Download/4790"
       }
     ]
   },

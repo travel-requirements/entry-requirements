@@ -19,7 +19,7 @@
   ],
   "summary": "Burundi’s migration authority (CGM) says its single-entry visa (visa d’entrée simple) lets a foreign citizen enter and stay in Burundi for one month only, and is obtained online, at Melchior Ndadaye International Airport or at embassies. No Burundian official source we could read states which nationalities need a visa; the UK and Canadian governments, among the governments shown by passport on this page, say their citizens do. The CGM lists a free EAC entry visa for citizens of East African Community member states, valid for 1 to 6 months.",
   "meta": {
-    "lastUpdated": "2026-10-11",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -33,7 +33,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -2409,6 +2410,41 @@
         "text": "You must have an International Driving Permit along with your valid Canadian driver’s licence and proof of insurance to drive in Burundi.",
         "url": "https://travel.gc.ca/destinations/burundi"
       }
+    ],
+    "levies.burundi-accommodation-services-tax": [
+      {
+        "text": "Il est opéré une taxe de consommation de services de 5% sur les tarifs d’hébergement hors toute taxe, appliqués par les établissements hôteliers pour le développement du secteur du tourisme. Cette taxe est collectée par les gestionnaires des hôtels, motels et maisons de passage, ensuite déclarée et reversée mensuellement au plus tard le 15ème jour du mois qui suit la période de collecte.",
+        "url": "https://www.obr.bi/images/PDF/LOI_DE_FINANCES_2026-2027_PROMULGUEE_compressed.pdf"
+      }
+    ],
+    "levies.burundi-accommodation-services-tax.feeText": [
+      {
+        "text": "Il est opéré une taxe de consommation de services de 5% sur les tarifs d’hébergement hors toute taxe, appliqués par les établissements hôteliers pour le développement du secteur du tourisme. Cette taxe est collectée par les gestionnaires des hôtels, motels et maisons de passage, ensuite déclarée et reversée mensuellement au plus tard le 15ème jour du mois qui suit la période de collecte.",
+        "url": "https://www.obr.bi/images/PDF/LOI_DE_FINANCES_2026-2027_PROMULGUEE_compressed.pdf"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "burundi-accommodation-services-tax",
+      "name": "Taxe de consommation de services sur les tarifs d’hébergement (5% accommodation tax for tourism development)",
+      "kind": "tourist-tax",
+      "fee": null,
+      "per": "booking",
+      "paidAt": "at-accommodation",
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "A 5% services consumption tax applies to accommodation rates (excluding taxes) charged by hotel establishments, for tourism-sector development; hotel, motel and guest-house managers collect it and remit it monthly by the 15th of the following month.",
+      "source": {
+        "url": "https://www.obr.bi/images/PDF/LOI_DE_FINANCES_2026-2027_PROMULGUEE_compressed.pdf",
+        "name": "Office Burundais des Recettes — Loi de finances 2026/2027 (promulgated text)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Loi n° 1/10 du 30 juin 2026 portant fixation du budget général de l’État pour l’exercice 2026/2027, art. 74"
+      },
+      "feeText": "5% of accommodation rates excluding all taxes, applied by hotel establishments."
+    }
+  ]
 }

@@ -47,7 +47,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -4413,6 +4414,40 @@
         "lastChanged": "2026-10-12",
         "instrument": "Law No. 6 of 2011 on Immigration, Article 78"
       }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": null,
+      "responsibility": "either",
+      "appliesTo": "all",
+      "penaltyText": "An owner or manager of lodging who does not give the data of foreign guests after an immigration officer asks: up to 3 months' detention or a fine of up to Rp25,000,000 (Law 6/2011, Art. 117). The UK government says a traveller in private accommodation who does not register with the police could be fined 5 million rupiah.",
+      "url": null,
+      "text": "Indonesian law obliges owners or managers of lodging to give data on foreign guests when an immigration officer asks (Art. 72(2)). Failing to do so after the request is punishable by up to 3 months' detention or a fine of up to Rp25,000,000 (Art. 117). The Directorate General of Immigration describes how lodging owners or managers report foreigners who check in at a hotel through its APOA application. The UK government says travellers in private accommodation must register with the local police and could be fined 5 million rupiah if they do not; hotel guests are registered automatically. Australia's Smartraveller says people staying in a private residence, including a private Airbnb or a rental, must register when they arrive.",
+      "source": {
+        "url": "https://imigrasi.go.id/berita/pengelola-penginapan-wajib-lapor-keberadaan-tamu-asing-lewat-apoa",
+        "name": "Directorate General of Immigration (imigrasi.go.id) — Pengelola Penginapan Wajib Lapor Keberadaan Tamu Asing Lewat APOA",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Law 6/2011 on Immigration, Art. 72(2) and Art. 117; APOA (Aplikasi Pengawasan Orang Asing)",
+        "alsoStatedOn": [
+          {
+            "url": "https://peraturan.bpk.go.id/Download/28550/UU%206%20Tahun%202011.pdf",
+            "name": "Official page — peraturan.bpk.go.id",
+            "lastVerified": "2026-10-12"
+          },
+          {
+            "url": "https://www.gov.uk/foreign-travel-advice/indonesia/entry-requirements",
+            "name": "UK Foreign, Commonwealth & Development Office — travel advice",
+            "lastVerified": "2026-10-12"
+          },
+          {
+            "url": "https://www.smartraveller.gov.au/destinations/asia/indonesia",
+            "name": "Australian Government, Smartraveller — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -5016,6 +5051,54 @@
       {
         "text": "Sementara itu, bagi WNA yang overstay selama kurang dari 60 hari akan diberikan sanksi berupa denda sebesar Rp 1.000.000,- per hari. Jika WNA tidak membayar denda tersebut, Ia akan dikenakan sanksi deportasi dan penangkalan. Apabila Orang Asing overstay selama lebih dari 60 hari, sebut Achmad, maka Ia akan langsung dikenakan sanksi deportasi dan penangkalan.",
         "url": "https://www.imigrasi.go.id/en/2023/03/24/apa-sanksi-keimigrasian-bagi-wna-yang-melanggar-ketertiban-ini-jawabannya/"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "(2) Pemilik atau pengurus tempat penginapan wajib memberikan data mengenai Orang Asing yang menginap di tempat penginapannya jika diminta oleh Pejabat Imigrasi yang bertugas.",
+        "url": "https://peraturan.bpk.go.id/Download/28550/UU%206%20Tahun%202011.pdf"
+      },
+      {
+        "text": "Pasal 117 Pemilik atau pengurus tempat penginapan yang tidak memberikan keterangan atau tidak memberikan data Orang Asing yang menginap di rumah atau di tempat penginapannya setelah diminta oleh Pejabat Imigrasi yang bertugas sebagaimana dimaksud dalam Pasal 72 ayat (2) dipidana dengan pidana kurungan paling lama 3 (tiga) bulan atau pidana denda paling banyak Rp25.000.000,00 (dua puluh lima juta rupiah).",
+        "url": "https://peraturan.bpk.go.id/Download/28550/UU%206%20Tahun%202011.pdf"
+      },
+      {
+        "text": "Proses pelaporan orang asing yang check-in di hotel melalui APOA dimulai dengan pemilik atau pengelola penginapan melakukan login ke sistem APOA.",
+        "url": "https://imigrasi.go.id/berita/pengelola-penginapan-wajib-lapor-keberadaan-tamu-asing-lewat-apoa"
+      },
+      {
+        "text": "Implementasi APOA berdasarkan pada Undang-Undang Nomor 6 Tahun 2011 tentang Keimigrasian dan perubahan dalam UU Nomor 6 Tahun 2024. Pasal 72 ayat (1) dan (2) dalam undang-undang tersebut menyebutkan bahwa pemilik atau pengelola penginapan wajib memberikan informasi mengenai tamu asing yang menginap apabila diminta oleh Petugas Imigrasi.",
+        "url": "https://imigrasi.go.id/berita/pengelola-penginapan-wajib-lapor-keberadaan-tamu-asing-lewat-apoa"
+      },
+      {
+        "text": "If you stay in private accommodation in Indonesia, you must register your presence with the local police at the nearest police station. You could be fined 5 million Indonesian rupiah if you do not register. If you’re staying in a hotel, you will be registered automatically.",
+        "url": "https://www.gov.uk/foreign-travel-advice/indonesia/entry-requirements"
+      },
+      {
+        "text": "If you're staying in a private residence, including private Airbnb or a rental, not a hotel, register when you arrive with both:",
+        "url": "https://www.smartraveller.gov.au/destinations/asia/indonesia"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "(2) Pemilik atau pengurus tempat penginapan wajib memberikan data mengenai Orang Asing yang menginap di tempat penginapannya jika diminta oleh Pejabat Imigrasi yang bertugas.",
+        "url": "https://peraturan.bpk.go.id/Download/28550/UU%206%20Tahun%202011.pdf"
+      },
+      {
+        "text": "Pasal 117 Pemilik atau pengurus tempat penginapan yang tidak memberikan keterangan atau tidak memberikan data Orang Asing yang menginap di rumah atau di tempat penginapannya setelah diminta oleh Pejabat Imigrasi yang bertugas sebagaimana dimaksud dalam Pasal 72 ayat (2) dipidana dengan pidana kurungan paling lama 3 (tiga) bulan atau pidana denda paling banyak Rp25.000.000,00 (dua puluh lima juta rupiah).",
+        "url": "https://peraturan.bpk.go.id/Download/28550/UU%206%20Tahun%202011.pdf"
+      },
+      {
+        "text": "Proses pelaporan orang asing yang check-in di hotel melalui APOA dimulai dengan pemilik atau pengelola penginapan melakukan login ke sistem APOA.",
+        "url": "https://imigrasi.go.id/berita/pengelola-penginapan-wajib-lapor-keberadaan-tamu-asing-lewat-apoa"
+      },
+      {
+        "text": "Implementasi APOA berdasarkan pada Undang-Undang Nomor 6 Tahun 2011 tentang Keimigrasian dan perubahan dalam UU Nomor 6 Tahun 2024. Pasal 72 ayat (1) dan (2) dalam undang-undang tersebut menyebutkan bahwa pemilik atau pengelola penginapan wajib memberikan informasi mengenai tamu asing yang menginap apabila diminta oleh Petugas Imigrasi.",
+        "url": "https://imigrasi.go.id/berita/pengelola-penginapan-wajib-lapor-keberadaan-tamu-asing-lewat-apoa"
+      },
+      {
+        "text": "If you stay in private accommodation in Indonesia, you must register your presence with the local police at the nearest police station. You could be fined 5 million Indonesian rupiah if you do not register. If you’re staying in a hotel, you will be registered automatically.",
+        "url": "https://www.gov.uk/foreign-travel-advice/indonesia/entry-requirements"
       }
     ]
   }

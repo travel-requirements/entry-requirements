@@ -16,7 +16,7 @@
   ],
   "summary": "PICA's visa table gives the rule nationality by nationality. Among the passports it lists as needing no visa are the United States (for 6 months), Canada, the United Kingdom and Commonwealth countries such as Australia and India; some are allowed 90 days, such as Germany, Brazil and South Korea, and others 30, such as France, Spain and Japan. Holders of Haitian ordinary passports need a visa, and for some nationalities, such as Armenia and Georgia, the visa may be obtained at the port of entry. PICA lists a completed and signed Immigration/Customs C5 form, either online or a physical form, among the documents required on arrival.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -28,7 +28,9 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -2531,6 +2533,34 @@
         "The UK FCDO says it is illegal to bring meat and dairy products into Jamaica, and the C5 form at enterjamaica.gov.jm asks travellers to declare fruits, plants, vegetables, meat, animal products and other foods.",
         "The Government of Canada says it is illegal to wear, buy or sell army or police camouflage clothing."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "An alien found in Jamaica after the period limited by the conditions of leave to land is deemed, for the purposes of the Aliens Act, to be an alien refused leave to land. The Government of Canada says overstaying a visa or entry stamp is a criminal offence and can lead to prison time, heavy fines and deportation. The UK government says that if you overstay without authority, you could be fined or arrested.",
+      "source": {
+        "url": "https://laws.moj.gov.jm/library/statute/the-aliens-act/download",
+        "name": "Laws of Jamaica (Ministry of Justice) — The Aliens Act",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Aliens Act, s. 7(3)",
+        "alsoStatedOn": [
+          {
+            "url": "https://travel.gc.ca/destinations/jamaica",
+            "name": "Government of Canada — travel advice",
+            "lastVerified": "2026-10-12"
+          },
+          {
+            "url": "https://www.gov.uk/foreign-travel-advice/jamaica/entry-requirements",
+            "name": "UK Foreign, Commonwealth & Development Office — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -3295,6 +3325,102 @@
         "text": "HONDURAS NO visa required for 30 days or less as tourists (Effective September 22, 2014) providing they have a USA, Canada, UK or Schengen Visa",
         "url": "https://www.pica.gov.jm/immigration/entry-visa-requirements"
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "(3) An alien who fails to comply with any condition attached to the grant of leave to land or imposed by way of variation of any condition so attached, or an alien who is found in the Island at any time after the expiration of the period limited by any such condition, shall for the purpose of this Act be deemed to be an alien to whom leave to land has been refused.",
+        "url": "https://laws.moj.gov.jm/library/statute/the-aliens-act/download"
+      },
+      {
+        "text": "Overstaying a visa or entry stamp is a criminal offence and can lead to prison time, heavy fines and deportation.",
+        "url": "https://travel.gc.ca/destinations/jamaica"
+      },
+      {
+        "text": "If you overstay without authority, you could be fined or arrested.",
+        "url": "https://www.gov.uk/foreign-travel-advice/jamaica/entry-requirements"
+      }
+    ],
+    "levies.tourism-enhancement-fee-air": [
+      {
+        "text": "4.—(1) Subject to the provisions of this Act, there shall be paid by each traveller, a tourism enhancement fee of— (a) US$20 or the Jamaican dollar equivalent, in respect of travel by air; (b) US$2 or the Jamaican dollar equivalent, in respect of travel by sea.",
+        "url": "https://laws.moj.gov.jm/library/statute/the-tourism-enhancement-act/download"
+      },
+      {
+        "text": "(a) collect from the traveller, the applicable tourism enhancement fee;",
+        "url": "https://laws.moj.gov.jm/library/statute/the-tourism-enhancement-act/download"
+      },
+      {
+        "text": "(c) are travelling by air destined for some other place outside Jamaica and who are in transit in Jamaica for twenty-four hours or less;",
+        "url": "https://laws.moj.gov.jm/library/statute/the-tourism-enhancement-act/download"
+      }
+    ],
+    "levies.tourism-enhancement-fee-air.exemptions": [
+      {
+        "text": "4.—(1) Subject to the provisions of this Act, there shall be paid by each traveller, a tourism enhancement fee of— (a) US$20 or the Jamaican dollar equivalent, in respect of travel by air; (b) US$2 or the Jamaican dollar equivalent, in respect of travel by sea.",
+        "url": "https://laws.moj.gov.jm/library/statute/the-tourism-enhancement-act/download"
+      },
+      {
+        "text": "(a) collect from the traveller, the applicable tourism enhancement fee;",
+        "url": "https://laws.moj.gov.jm/library/statute/the-tourism-enhancement-act/download"
+      },
+      {
+        "text": "(c) are travelling by air destined for some other place outside Jamaica and who are in transit in Jamaica for twenty-four hours or less;",
+        "url": "https://laws.moj.gov.jm/library/statute/the-tourism-enhancement-act/download"
+      }
+    ],
+    "levies.tourism-enhancement-fee-sea": [
+      {
+        "text": "(b) US$2 or the Jamaican dollar equivalent, in respect of travel by sea.",
+        "url": "https://laws.moj.gov.jm/library/statute/the-tourism-enhancement-act/download"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "tourism-enhancement-fee-air",
+      "name": "Tourism enhancement fee — travel by air",
+      "kind": "arrival-tax",
+      "fee": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "per": "person-per-trip",
+      "paidAt": null,
+      "appliesTo": "all",
+      "exemptions": "Travellers going by air to a place outside Jamaica who are in transit in Jamaica for 24 hours or less",
+      "url": null,
+      "text": "Each traveller pays a tourism enhancement fee of US$20 or the Jamaican-dollar equivalent for travel by air, and US$2 or the Jamaican-dollar equivalent for travel by sea. The fee is collected from the traveller. Air travellers to a place outside Jamaica in transit for 24 hours or less are exempt.",
+      "source": {
+        "url": "https://laws.moj.gov.jm/library/statute/the-tourism-enhancement-act/download",
+        "name": "Laws of Jamaica (Ministry of Justice) — The Tourism Enhancement Act",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Tourism Enhancement Act (2004, amended 16/2011), ss. 4 and 6"
+      }
+    },
+    {
+      "id": "tourism-enhancement-fee-sea",
+      "name": "Tourism enhancement fee — travel by sea",
+      "kind": "arrival-tax",
+      "fee": {
+        "amount": 2,
+        "currency": "USD"
+      },
+      "per": "person-per-trip",
+      "paidAt": null,
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "Each traveller pays a tourism enhancement fee of US$2 or the Jamaican-dollar equivalent for travel by sea.",
+      "source": {
+        "url": "https://laws.moj.gov.jm/library/statute/the-tourism-enhancement-act/download",
+        "name": "Laws of Jamaica (Ministry of Justice) — The Tourism Enhancement Act",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Tourism Enhancement Act, s. 4(1)(b)"
+      }
+    }
+  ]
 }

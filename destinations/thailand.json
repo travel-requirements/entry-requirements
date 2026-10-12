@@ -48,7 +48,8 @@
     "modules": [
       "driving",
       "overstay",
-      "levies"
+      "levies",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -3213,6 +3214,23 @@
           }
         ]
       }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": 24,
+      "responsibility": "accommodation",
+      "appliesTo": "all",
+      "penaltyText": null,
+      "url": null,
+      "text": "Under Section 38 of the Immigration Act 1979, the host, the house owner, or the possessor of the dwelling or the hotel accepting foreigners permitted to stay temporarily in Thailand must notify the immigration office of the area within 24 hours from the time of the foreigner's stay. Where there is no immigration office nearby, the notification goes to the local police station. The owner, landlord or operator of the place reports on Form TM.30. One way to notify is via the internet.",
+      "source": {
+        "url": "https://thailand.go.th/event-detail/001_01_060",
+        "name": "Government Public Relations Department (thailand.go.th) — Rules for establishments on notification of foreigners’ residence (source: Immigration Office)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Immigration Act B.E. 2522 (1979), Section 38; Form TM.30"
+      }
     }
   },
   "countryFacts": {
@@ -3858,6 +3876,20 @@
       {
         "text": "The PSC is included in the airfare at the time of ticket purchase. Travellers are not required to make any separate payment at the airport. Tickets issued from 20 June 2026 onward reflect the new rate, while tickets purchased before the effective date are not affected.",
         "url": "https://www.tatnews.org/2026/05/airports-of-thailand-to-raise-international-passenger-service-charge-from-20-june-2026/"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "Notification of foreigners’ residence shall be in accordance with the Immigration Act 1979, Section 38, stipulating the following: “The host, the house owner, or the possessor of the dwelling or the hotel accepting foreigners who are permitted to temporarily stay in the Kingdom must notify the competent official at the immigration office located in the dwelling area or hotel within 24 hours from the time of the foreigner’s stay. If any locality does not have an immigration office located nearby, notification must be made to the police officer at the local police station.”",
+        "url": "https://thailand.go.th/event-detail/001_01_060"
+      },
+      {
+        "text": "To report the residence of foreigners who reside in the dwelling place, which may be a hotel licensed under the Hotel Act, a guesthouse, a flat, an apartment, an establishment, or general rental house, the owner of such place, the landlord, or the entrepreneur must report with Form TM.30.",
+        "url": "https://thailand.go.th/event-detail/001_01_060"
+      },
+      {
+        "text": "3. Notify via the internet network.",
+        "url": "https://thailand.go.th/event-detail/001_01_060"
       }
     ]
   },

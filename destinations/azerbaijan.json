@@ -41,7 +41,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -5052,6 +5053,23 @@
           }
         ]
       }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": 360,
+      "responsibility": "traveler",
+      "appliesTo": "all",
+      "penaltyText": "Failure to register within the required period is a basis for administrative liability. The page does not state an amount.",
+      "url": "https://e-regv2.migration.gov.az/Security/SignIn?lang=2",
+      "text": "Foreigners staying in Azerbaijan for more than 15 days (more than 30 days for citizens of Kazakhstan) must register at their place of stay. They must apply within 15 days of arrival (30 days for citizens of Kazakhstan) through the State Migration Service's electronic services, by e-mail, or in person at regional migration departments or ASAN service centres. No state fee is charged for registration. Failure to register within the required period is a basis for administrative liability.",
+      "source": {
+        "url": "https://migration.gov.az/en/oyq",
+        "name": "State Migration Service of the Republic of Azerbaijan — Registration upon place of stay",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Migration Code of the Republic of Azerbaijan, arts. 21.2-21.5 (as cited by the page)"
+      }
     }
   },
   "countryFacts": {
@@ -5527,6 +5545,42 @@
       {
         "text": "If you overstay your visa without permission, you may have to leave the country within 48 hours. Contact the State Migration Service as soon as possible. They can issue a letter giving you permission to leave. You will have to pay a fine of 300 to 400 Azerbaijani manat. Make sure you get a receipt as proof of payment.",
         "url": "https://www.gov.uk/foreign-travel-advice/azerbaijan/entry-requirements"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "Foreigners or stateless persons temporarily staying in the Republic of Azerbaijan for more than 15 days (for more than 30 days for citizens of the Republic of Kazakhstan) have to register upon place of stay.",
+        "url": "https://migration.gov.az/en/oyq"
+      },
+      {
+        "text": "For the registration foreigner, within 15 days (within 30 days for citizens of the Republic of Kazakhstan) after arrival in the country, have to apply via electronic services of the official website of the State Migration Service of the Republic of Azerbaijan and e-mail (qeydiyyat@migration.gov.az ) or in person to regional migration departments, or \"ASAN service\" centers.",
+        "url": "https://migration.gov.az/en/oyq"
+      },
+      {
+        "text": "No state fee is required for registration of foreigners and stateless persons upon place of stay.",
+        "url": "https://migration.gov.az/en/oyq"
+      },
+      {
+        "text": "Failure to register upon place of stay within the required period is a basis for administrative liability.",
+        "url": "https://migration.gov.az/en/oyq"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "Foreigners or stateless persons temporarily staying in the Republic of Azerbaijan for more than 15 days (for more than 30 days for citizens of the Republic of Kazakhstan) have to register upon place of stay.",
+        "url": "https://migration.gov.az/en/oyq"
+      },
+      {
+        "text": "For the registration foreigner, within 15 days (within 30 days for citizens of the Republic of Kazakhstan) after arrival in the country, have to apply via electronic services of the official website of the State Migration Service of the Republic of Azerbaijan and e-mail (qeydiyyat@migration.gov.az ) or in person to regional migration departments, or \"ASAN service\" centers.",
+        "url": "https://migration.gov.az/en/oyq"
+      },
+      {
+        "text": "No state fee is required for registration of foreigners and stateless persons upon place of stay.",
+        "url": "https://migration.gov.az/en/oyq"
+      },
+      {
+        "text": "Failure to register upon place of stay within the required period is a basis for administrative liability.",
+        "url": "https://migration.gov.az/en/oyq"
       }
     ]
   }

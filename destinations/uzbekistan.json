@@ -36,7 +36,8 @@
     "modules": [
       "driving",
       "overstay",
-      "levies"
+      "levies",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -3629,6 +3630,30 @@
         "lastChanged": "2026-10-12",
         "instrument": "Code of Administrative Responsibility of the Republic of Uzbekistan, art. 225 (parts 1–3 and the two closing paragraphs; as amended by Law ZRU-1074 of 10 July 2025, in force 12 October 2025)"
       }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": null,
+      "responsibility": "either",
+      "appliesTo": "all",
+      "penaltyText": "Breaking the rules of stay, including the registration procedure at the place of stay: fine of five times the base calculation amount (Code of Administrative Responsibility, art. 225).",
+      "url": null,
+      "text": "Foreign nationals must register at their place of residence or place of stay. Foreign nationals permanently living in other countries must register at their place of stay no later than three working days after entering Uzbekistan, unless an international treaty or Uzbek law sets another period. In accommodation facilities, the facility's responsible staff register guests through the E-mehmon system. Owners of housing, or persons entitled to dispose of it, who provide living space must register those persons in good time. Breaking the rules of stay, including the registration procedure at the place of stay, is fined five times the base calculation amount.",
+      "source": {
+        "url": "https://lex.uz/ru/docs/7627933",
+        "name": "Lex.uz (National Database of Legislation of Uzbekistan) — Law ZRU-1074 of 10.07.2025 'On Registration of Citizens of the Republic of Uzbekistan, Foreign Citizens and Stateless Persons at the Place of Residence and Place of Stay'",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Law ZRU-1074 of 10 July 2025, arts. 6 and 7 (in force three months after publication); Code of Administrative Responsibility, art. 225 part 1",
+        "alsoStatedOn": [
+          {
+            "url": "https://lex.uz/ru/docs/97664",
+            "name": "Official page — lex.uz",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -4317,6 +4342,58 @@
       {
         "text": "мустақил саёҳат қиладиган, палаткали лагерлар ва тунаш учун қайта жиҳозланган ер усти транспортида яшайдиган хорижий фуқаролар томонидан тижорат банкларининг филиаллари, туристик ахборот марказлари ва электрон ахборот тизимлари орқали тўланади.",
         "url": "https://lex.uz/ru/docs/6173258"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "Граждане Республики Узбекистан, иностранные граждане и лица без гражданства обязаны регистрироваться по месту жительства или месту пребывания.",
+        "url": "https://lex.uz/ru/docs/7627933"
+      },
+      {
+        "text": "Иностранные граждане и лица без гражданства, постоянно проживающие на территории других государств, не позднее трех рабочих дней со дня их въезда в Республику Узбекистан обязаны зарегистрироваться по месту пребывания, если иной срок не предусмотрен международными договорами или законодательством Республики Узбекистан.",
+        "url": "https://lex.uz/ru/docs/7627933"
+      },
+      {
+        "text": "Регистрация лиц, находящихся в средствах размещения, по месту пребывания в уведомительном порядке осуществляется ответственными сотрудниками средств размещения посредством системы «E-mehmon».",
+        "url": "https://lex.uz/ru/docs/7627933"
+      },
+      {
+        "text": "Собственник жилого помещения или лицо, обладающее правом распоряжения жилым помещением, предоставляющее жилую площадь для проживания лиц, должны своевременно зарегистрировать этих лиц по месту жительства или месту пребывания.",
+        "url": "https://lex.uz/ru/docs/7627933"
+      },
+      {
+        "text": "Чет эл фуқаросининг ёки фуқаролиги бўлмаган шахснинг Ўзбекистон Республикасида бўлиш қоидаларини бузиши, яъни амал қилиш муддати тугаганлиги сабабли алмаштирилиши лозим бўлган ҳаракатланиш ҳужжатлари билан яшаши, турган жойи бўйича рўйхатдан ўтишнинг, кўчишнинг ёки яшаш жойини танлашнинг белгиланган тартибига риоя этмаганлиги, туриш муддати тугагач чиқиб кетишдан бўйин товлаши, худди шунингдек Ўзбекистон Республикаси ҳудуди орқали транзит ўтиш қоидаларига ўн суткагача риоя этмаганлиги.",
+        "url": "https://lex.uz/ru/docs/97664"
+      },
+      {
+        "text": "базавий ҳисоблаш миқдорининг беш баравари миқдорида жарима солишга сабаб бўлади.",
+        "url": "https://lex.uz/ru/docs/97664"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "Граждане Республики Узбекистан, иностранные граждане и лица без гражданства обязаны регистрироваться по месту жительства или месту пребывания.",
+        "url": "https://lex.uz/ru/docs/7627933"
+      },
+      {
+        "text": "Иностранные граждане и лица без гражданства, постоянно проживающие на территории других государств, не позднее трех рабочих дней со дня их въезда в Республику Узбекистан обязаны зарегистрироваться по месту пребывания, если иной срок не предусмотрен международными договорами или законодательством Республики Узбекистан.",
+        "url": "https://lex.uz/ru/docs/7627933"
+      },
+      {
+        "text": "Регистрация лиц, находящихся в средствах размещения, по месту пребывания в уведомительном порядке осуществляется ответственными сотрудниками средств размещения посредством системы «E-mehmon».",
+        "url": "https://lex.uz/ru/docs/7627933"
+      },
+      {
+        "text": "Собственник жилого помещения или лицо, обладающее правом распоряжения жилым помещением, предоставляющее жилую площадь для проживания лиц, должны своевременно зарегистрировать этих лиц по месту жительства или месту пребывания.",
+        "url": "https://lex.uz/ru/docs/7627933"
+      },
+      {
+        "text": "Чет эл фуқаросининг ёки фуқаролиги бўлмаган шахснинг Ўзбекистон Республикасида бўлиш қоидаларини бузиши, яъни амал қилиш муддати тугаганлиги сабабли алмаштирилиши лозим бўлган ҳаракатланиш ҳужжатлари билан яшаши, турган жойи бўйича рўйхатдан ўтишнинг, кўчишнинг ёки яшаш жойини танлашнинг белгиланган тартибига риоя этмаганлиги, туриш муддати тугагач чиқиб кетишдан бўйин товлаши, худди шунингдек Ўзбекистон Республикаси ҳудуди орқали транзит ўтиш қоидаларига ўн суткагача риоя этмаганлиги.",
+        "url": "https://lex.uz/ru/docs/97664"
+      },
+      {
+        "text": "базавий ҳисоблаш миқдорининг беш баравари миқдорида жарима солишга сабаб бўлади.",
+        "url": "https://lex.uz/ru/docs/97664"
       }
     ]
   },

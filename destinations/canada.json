@@ -16,7 +16,7 @@
   ],
   "summary": "Canada requires visa-exempt foreign nationals travelling by air to hold an eTA (CAD 7, valid for up to five years or until the passport expires), and exempts US citizens from both the eTA and the visitor visa. Travellers from visa-required countries need a visitor visa (temporary resident visa, CAD 100), though citizens of select visa-required countries may be eligible to apply for an eTA instead when flying. IRCC says most visitors can stay for up to 6 months.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-25",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -44,7 +44,9 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -4544,6 +4546,22 @@
         "The UK FCDO says it is illegal to take cannabis across the Canadian border without a permit or exemption authorised by Health Canada, even though recreational cannabis is legally available in Canada.",
         "The Canada Border Services Agency says you must declare all weapons and firearms at the port of entry, or the goods may be seized and you could face prosecution."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "A foreign national who fails to leave Canada by the end of the period authorized for their stay is issued an exclusion order. An exclusion order obliges the person to obtain written authorization to return to Canada during the 1-year period after it was enforced.",
+      "source": {
+        "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-227/FullText.html",
+        "name": "Justice Laws Website — Immigration and Refugee Protection Regulations (SOR/2002-227)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Immigration and Refugee Protection Regulations, s. 228(1)(c)(iv) and s. 225(1); IRPA s. 29(2)"
+      }
     }
   },
   "countryFacts": {
@@ -5117,6 +5135,75 @@
         "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/facts.html",
         "text": "An eTA costs CAD $7."
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "(iv) failing to leave Canada by the end of the period authorized for their stay as required by subsection 29(2) of the Act, an exclusion order,",
+        "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-227/FullText.html"
+      },
+      {
+        "text": "225 (1) For the purposes of subsection 52(1) of the Act, and subject to subsections (3) and (4), an exclusion order obliges the foreign national to obtain a written authorization in order to return to Canada during the one-year period after the exclusion order was enforced.",
+        "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-227/FullText.html"
+      }
+    ],
+    "levies.ca-air-travellers-security-charge": [
+      {
+        "text": "11 (1) Every person who acquires from a designated air carrier all or part of an air transportation service that includes a chargeable emplanement shall pay to Her Majesty a charge as determined under this Act in respect of the service.",
+        "url": "https://laws-lois.justice.gc.ca/eng/acts/A-10.5/FullText.html"
+      },
+      {
+        "text": "(c) $16.08 for each chargeable emplanement included in the service, to a maximum of $32.16, if",
+        "url": "https://laws-lois.justice.gc.ca/eng/acts/A-10.5/FullText.html"
+      },
+      {
+        "text": "(e) $34.42, if the service includes transportation to a destination outside the continental zone.",
+        "url": "https://laws-lois.justice.gc.ca/eng/acts/A-10.5/FullText.html"
+      },
+      {
+        "text": "14 (1) Subject to subsections (2) and (3), every designated air carrier from whom all or part of an air transportation service is acquired by a person who is required by this Act to pay a charge in respect of that service shall, as an agent of Her Majesty, collect the charge not later than the time the charge becomes payable by the person.",
+        "url": "https://laws-lois.justice.gc.ca/eng/acts/A-10.5/FullText.html"
+      }
+    ],
+    "levies.ca-air-travellers-security-charge.feeText": [
+      {
+        "text": "11 (1) Every person who acquires from a designated air carrier all or part of an air transportation service that includes a chargeable emplanement shall pay to Her Majesty a charge as determined under this Act in respect of the service.",
+        "url": "https://laws-lois.justice.gc.ca/eng/acts/A-10.5/FullText.html"
+      },
+      {
+        "text": "(c) $16.08 for each chargeable emplanement included in the service, to a maximum of $32.16, if",
+        "url": "https://laws-lois.justice.gc.ca/eng/acts/A-10.5/FullText.html"
+      },
+      {
+        "text": "(e) $34.42, if the service includes transportation to a destination outside the continental zone.",
+        "url": "https://laws-lois.justice.gc.ca/eng/acts/A-10.5/FullText.html"
+      },
+      {
+        "text": "14 (1) Subject to subsections (2) and (3), every designated air carrier from whom all or part of an air transportation service is acquired by a person who is required by this Act to pay a charge in respect of that service shall, as an agent of Her Majesty, collect the charge not later than the time the charge becomes payable by the person.",
+        "url": "https://laws-lois.justice.gc.ca/eng/acts/A-10.5/FullText.html"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "ca-air-travellers-security-charge",
+      "name": "Air Travellers Security Charge",
+      "kind": "airport-fee",
+      "fee": null,
+      "per": "person-per-trip",
+      "paidAt": "included-in-ticket",
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "Every person who acquires from a designated air carrier an air transportation service that includes a chargeable emplanement pays the Air Travellers Security Charge, and the air carrier collects it. The Act sets $34.42 if the service includes transportation to a destination outside the continental zone, and $16.08 per chargeable emplanement, to a maximum of $32.16, in other cases it sets out. The Act does not name the currency.",
+      "source": {
+        "url": "https://laws-lois.justice.gc.ca/eng/acts/A-10.5/FullText.html",
+        "name": "Justice Laws Website — Air Travellers Security Charge Act (S.C. 2002, c. 9, s. 5)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Air Travellers Security Charge Act, ss. 11, 12, 14"
+      },
+      "feeText": "$16.08 for each chargeable emplanement, to a maximum of $32.16, in the cases set out in the Act; $34.42 if the service includes transportation to a destination outside the continental zone. The Act does not name the currency."
+    }
+  ]
 }

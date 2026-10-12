@@ -15,7 +15,7 @@
   ],
   "summary": "Home Affairs says European passport holders may be eligible for an eVisitor (subclass 651) visa, which is free. Holders of an ETA-eligible passport must use the Australian ETA App to apply for an Electronic Travel Authority (subclass 601); there is a service charge of AUD 20 to use the app. Home Affairs lists the Visitor visa (subclass 600) for tourists, business visitors or to visit family for 3, 6 or 12 months. For New Zealand citizens, the Special Category visa (subclass 444) is free and is usually applied for each time they enter Australia; an application made on arrival is processed at the airport or seaport.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-25",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -42,7 +42,9 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -5913,6 +5915,21 @@
         "The Australian Border Force says that if you are aged 18 years or over you can bring 2.25 litres of alcoholic beverages duty free into Australia. It says most tobacco products are 'prohibited imports', but as a traveller you can bring tobacco products with you if you are aged 18 years or older, without a permit.",
         "For faster border clearance, the Department of Agriculture asks travellers to ensure that footwear and sporting and recreational equipment is dry and clean (free from soil, seeds and grass)."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "A re-entry ban, also known as an exclusion period, means a person may not be granted further visas to return to Australia. It can follow if you overstay your visa by more than 28 days. An exclusion period may last for up to 3 years, and some people can be permanently excluded.",
+      "source": {
+        "url": "https://immi.homeaffairs.gov.au/entering-and-leaving-australia/entering-australia/can-i-go-to-australia/re-entry-ban",
+        "name": "Department of Home Affairs — Re-entry ban",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12"
+      }
     }
   },
   "countryFacts": {
@@ -6559,6 +6576,69 @@
         "text": "Stay 12 months Cost AUD840.00",
         "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-417"
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "A re-entry ban means a person may not be granted further visas to return to Australia. This is also known as an exclusion period. An exclusion period may last for up to 3 years, although some people can be permanently excluded.",
+        "url": "https://immi.homeaffairs.gov.au/entering-and-leaving-australia/entering-australia/can-i-go-to-australia/re-entry-ban"
+      },
+      {
+        "text": "you overstay your visa by more than 28 days",
+        "url": "https://immi.homeaffairs.gov.au/entering-and-leaving-australia/entering-australia/can-i-go-to-australia/re-entry-ban"
+      }
+    ],
+    "levies.passenger-movement-charge": [
+      {
+        "text": "The Passenger Movement Charge (PMC) is an AUD70 cost for the departure of a person from Australia to another country regardless of whether the person returns to Australia.",
+        "url": "https://www.abf.gov.au/entering-and-leaving-australia/crossing-the-border/passenger-movement/passenger-movement-charge-(pmc)"
+      },
+      {
+        "text": "PMC is collected when a ticket is sold to a passenger and then forwarded by the carrier (airline, shipping companies and air charter operators) to the Department.",
+        "url": "https://www.abf.gov.au/entering-and-leaving-australia/crossing-the-border/passenger-movement/passenger-movement-charge-(pmc)"
+      },
+      {
+        "text": "11 years of age or younger at the date of departure.",
+        "url": "https://www.abf.gov.au/entering-and-leaving-australia/crossing-the-border/passenger-movement/passenger-movement-charge-(pmc)"
+      }
+    ],
+    "levies.passenger-movement-charge.exemptions": [
+      {
+        "text": "The Passenger Movement Charge (PMC) is an AUD70 cost for the departure of a person from Australia to another country regardless of whether the person returns to Australia.",
+        "url": "https://www.abf.gov.au/entering-and-leaving-australia/crossing-the-border/passenger-movement/passenger-movement-charge-(pmc)"
+      },
+      {
+        "text": "PMC is collected when a ticket is sold to a passenger and then forwarded by the carrier (airline, shipping companies and air charter operators) to the Department.",
+        "url": "https://www.abf.gov.au/entering-and-leaving-australia/crossing-the-border/passenger-movement/passenger-movement-charge-(pmc)"
+      },
+      {
+        "text": "11 years of age or younger at the date of departure.",
+        "url": "https://www.abf.gov.au/entering-and-leaving-australia/crossing-the-border/passenger-movement/passenger-movement-charge-(pmc)"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "passenger-movement-charge",
+      "name": "Passenger Movement Charge (PMC)",
+      "kind": "departure-tax",
+      "fee": {
+        "amount": 70,
+        "currency": "AUD"
+      },
+      "per": "person-per-trip",
+      "paidAt": "included-in-ticket",
+      "appliesTo": "all",
+      "exemptions": "Persons aged 11 or younger at the date of departure",
+      "url": null,
+      "text": "The Passenger Movement Charge is an AUD 70 cost for the departure of a person from Australia to another country, whether or not the person returns. It is collected when the ticket is sold and forwarded by the carrier to the Department. Children aged 11 or younger at the date of departure are exempt.",
+      "source": {
+        "url": "https://www.abf.gov.au/entering-and-leaving-australia/crossing-the-border/passenger-movement/passenger-movement-charge-(pmc)",
+        "name": "Australian Border Force — Passenger Movement Charge (PMC)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Passenger Movement Charge Act 1978; Passenger Movement Charge Collection Act 1978"
+      }
+    }
+  ]
 }

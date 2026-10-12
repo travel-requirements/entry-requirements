@@ -38,7 +38,8 @@
     "modules": [
       "driving",
       "overstay",
-      "levies"
+      "levies",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -3440,6 +3441,23 @@
         "lastChanged": "2026-10-12",
         "instrument": "Ley Nº 370 de Migración, arts. 32 and 39; Decreto Supremo Nº 1923, art. 37.II.c"
       }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": null,
+      "responsibility": "accommodation",
+      "appliesTo": "all",
+      "penaltyText": "Administrative fine for a legal person: UFV 200 to 2,000 for a first offence, UFV 400 to 4,000 for a second, and UFV 600 to 6,000 for a third or later.",
+      "url": null,
+      "text": "Hotels, hostels and other lodging establishments must ask foreigners for a valid travel document. They must send the General Directorate of Migration (DIGEMIG), digitally and at the time of check-in, the information on the foreigners they host, in the format DIGEMIG provides. Failing to send this information and the registration lists is an administrative infraction, fined in UFV (Unidades de Fomento a la Vivienda).",
+      "source": {
+        "url": "https://migracion.gob.bo/marco_legal",
+        "name": "Dirección General de Migración (DIGEMIG) — Marco legal: Compendio de Legislación Migratoria (Ley 370, DS 1923 and amendments), October 2023",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Ley N° 370 de Migración, art. 46; Decreto Supremo N° 1923, arts. 35, 38.I.b.2 and 39"
+      }
     }
   },
   "countryFacts": {
@@ -3987,6 +4005,66 @@
       {
         "text": "iv. Pasajeros en tránsito internacional con permanencia no mayor a ocho horas. v. Pasajeros menores de dos años de edad.",
         "url": "https://www.att.gob.bo/sites/default/files/archivos_portada/2024-01/Resoluci%C3%B3n%20Administrativa%20Regulatoria%20ATT-DJ-RAR-TR%20LP%202%202024%20%28DUA%29.pdf"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "ARTÍCULO 46. (HOTELES, HOSTALES, RESIDENCIALES Y ALOJAMIENTOS). Los propietarios o responsables de hoteles, hostales, residenciales y alojamientos que proporcionen hospedaje a personas extranjeras, tienen las siguientes obligaciones: 1. Exigir a la persona migrante extranjera que presente el documento de viaje válido y vigente, para proporcionar los servicios emergentes de su actividad. 2. Proporcionar listas de registros de personas extranjeras a las que otorgue hospedaje en su establecimiento, en el plazo y forma establecidos por la Dirección General de Migración.",
+        "url": "https://migracion.gob.bo/marco_legal"
+      },
+      {
+        "text": "ARTÍCULO 35.- (HOTELES, HOSTALES, RESIDENCIALES Y ALOJAMIENTOS). I. Es obligación de los hoteles, hostales, residenciales, alojamientos y otros establecimientos de hospedaje, remitir vía digital al momento de su registro, la información de personas extranjeras hospedadas en el formato proporcionado por la Dirección General de Migración.",
+        "url": "https://migracion.gob.bo/marco_legal"
+      },
+      {
+        "text": "2. Incumplir la obligación de remitir información y listas de registro de personas extranjeras a la Dirección General de Migración, de acuerdo a lo establecido en normativa vigente.",
+        "url": "https://migracion.gob.bo/marco_legal"
+      },
+      {
+        "text": "a. Infracción administrativa leve: Desde UFV200.- (DOSCIENTAS 00/100 UNIDADES DE FOMENTO A LA VIVIENDA) a UFV2000.- (DOS MIL 00/100 UNIDADES DE FOMENTO A LA VIVIENDA);",
+        "url": "https://migracion.gob.bo/marco_legal"
+      },
+      {
+        "text": "b. Infracción administrativa grave: Desde UFV400.- (CUATROCIENTAS 00/100 UNIDADES DE FOMENTO A LA VIVIENDA) a UFV4000.- (CUATRO MIL 00/100 UNIDADES DE FOMENTO A LA VIVIENDA);",
+        "url": "https://migracion.gob.bo/marco_legal"
+      },
+      {
+        "text": "c. Infracción administrativa gravísima: Desde UFV600.- (SEISCIENTAS 00/100 UNIDADES DE FOMENTO A LA VIVIENDA) a UFV6000.- (SEIS MIL 00/100 UNIDADES DE FOMENTO A LA VIVIENDA).",
+        "url": "https://migracion.gob.bo/marco_legal"
+      },
+      {
+        "text": "II. Las infracciones administrativas migratorias aplicables a personas jurídicas, son leves cuando se cometen por primera vez; graves cuando se cometen por segunda vez y gravísimas cuando se cometen por tercera o más veces.",
+        "url": "https://migracion.gob.bo/marco_legal"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "ARTÍCULO 46. (HOTELES, HOSTALES, RESIDENCIALES Y ALOJAMIENTOS). Los propietarios o responsables de hoteles, hostales, residenciales y alojamientos que proporcionen hospedaje a personas extranjeras, tienen las siguientes obligaciones: 1. Exigir a la persona migrante extranjera que presente el documento de viaje válido y vigente, para proporcionar los servicios emergentes de su actividad. 2. Proporcionar listas de registros de personas extranjeras a las que otorgue hospedaje en su establecimiento, en el plazo y forma establecidos por la Dirección General de Migración.",
+        "url": "https://migracion.gob.bo/marco_legal"
+      },
+      {
+        "text": "ARTÍCULO 35.- (HOTELES, HOSTALES, RESIDENCIALES Y ALOJAMIENTOS). I. Es obligación de los hoteles, hostales, residenciales, alojamientos y otros establecimientos de hospedaje, remitir vía digital al momento de su registro, la información de personas extranjeras hospedadas en el formato proporcionado por la Dirección General de Migración.",
+        "url": "https://migracion.gob.bo/marco_legal"
+      },
+      {
+        "text": "2. Incumplir la obligación de remitir información y listas de registro de personas extranjeras a la Dirección General de Migración, de acuerdo a lo establecido en normativa vigente.",
+        "url": "https://migracion.gob.bo/marco_legal"
+      },
+      {
+        "text": "a. Infracción administrativa leve: Desde UFV200.- (DOSCIENTAS 00/100 UNIDADES DE FOMENTO A LA VIVIENDA) a UFV2000.- (DOS MIL 00/100 UNIDADES DE FOMENTO A LA VIVIENDA);",
+        "url": "https://migracion.gob.bo/marco_legal"
+      },
+      {
+        "text": "b. Infracción administrativa grave: Desde UFV400.- (CUATROCIENTAS 00/100 UNIDADES DE FOMENTO A LA VIVIENDA) a UFV4000.- (CUATRO MIL 00/100 UNIDADES DE FOMENTO A LA VIVIENDA);",
+        "url": "https://migracion.gob.bo/marco_legal"
+      },
+      {
+        "text": "c. Infracción administrativa gravísima: Desde UFV600.- (SEISCIENTAS 00/100 UNIDADES DE FOMENTO A LA VIVIENDA) a UFV6000.- (SEIS MIL 00/100 UNIDADES DE FOMENTO A LA VIVIENDA).",
+        "url": "https://migracion.gob.bo/marco_legal"
+      },
+      {
+        "text": "II. Las infracciones administrativas migratorias aplicables a personas jurídicas, son leves cuando se cometen por primera vez; graves cuando se cometen por segunda vez y gravísimas cuando se cometen por tercera o más veces.",
+        "url": "https://migracion.gob.bo/marco_legal"
       }
     ]
   },

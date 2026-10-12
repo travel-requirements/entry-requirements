@@ -20,7 +20,7 @@
   ],
   "summary": "Argentina's National Directorate of Migrations publishes a visa-regime table showing, nationality by nationality, who needs a visa, and says tourists are admitted for up to three months, extendable for another similar period. Some nationals who need a tourist visa can instead apply for an electronic travel authorisation (AVE) if they hold a valid US visa in a listed category or — for nationals of countries exempt from US visas — a current ESTA or an entry into the US in the previous two years.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-25",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -49,7 +49,9 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -6026,6 +6028,39 @@
           "lastChanged": "2026-09-25"
         }
       }
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "A tourist is allowed a stay of up to 3 months, extendable for another similar period. Foreigners who have exceeded their authorised stay must pay an exit authorisation fee (Habilitación de Salida): 20 UMSM for nationals of MERCOSUR and associated states, 40 UMSM for others. The fee can no longer be paid at border crossings; the passenger is left with a debt and the transport company is fined. If the fee is not paid before leaving, a debt is generated, and the foreigner cannot re-enter Argentina until it is paid. Under Ley 25.871, a foreigner who stays after the authorised period is staying irregularly, and the National Migration Directorate may order them to regularise within a deadline it sets, under warning of expulsion.",
+      "source": {
+        "url": "https://www.argentina.gob.ar/migraciones/habilitacion-de-salida",
+        "name": "Dirección Nacional de Migraciones (argentina.gob.ar) — Exit authorisation (Habilitación de Salida)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Decreto 231/09 modified by Decreto 475/18 (exit fee); Disposición DNM 899/2013 (procedure); fee table per Decreto 584/2024; Ley 25.871 arts. 53 and 61 (as substituted by Decreto 366/2025)",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.argentina.gob.ar/migraciones/turistas",
+            "name": "Official page — www.argentina.gob.ar",
+            "lastVerified": "2026-10-12"
+          },
+          {
+            "url": "https://www.argentina.gob.ar/migraciones/cuadro-tasas-migratorias",
+            "name": "Official page — www.argentina.gob.ar",
+            "lastVerified": "2026-10-12"
+          },
+          {
+            "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/90000-94999/92016/texact.htm",
+            "name": "Official page — servicios.infoleg.gob.ar",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -6532,6 +6567,123 @@
         "url": "https://www.migraciones.gob.ar/ave/",
         "text": "Si sos ciudadano de China ya no necesitas tramitar AVE para turismo o negocios, siempre teniendo visa o green card de Estados Unidos de América en los mismos términos."
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "Turista: Es aquel extranjero que ingrese al país con propósito de descanso o esparcimiento, con un plazo de permanencia autorizado de hasta tres (3) meses, prorrogable por otro período similar.",
+        "url": "https://www.argentina.gob.ar/migraciones/turistas"
+      },
+      {
+        "text": "Tasa que deben abonar todos aquellos extranjeros que se han excedido del plazo de permanencia autorizado por la autoridad de control.",
+        "url": "https://www.argentina.gob.ar/migraciones/turistas"
+      },
+      {
+        "text": "La Habilitación de salida es una Tasa que se encuentra establecida en el Decreto 231/ 09 modificado por su similar 475/18. La misma es la que deben abonar todos aquellos extranjeros que su permanencia en el país se encuentre irregular.",
+        "url": "https://www.argentina.gob.ar/migraciones/habilitacion-de-salida"
+      },
+      {
+        "text": "2.- En los pasos fronterizos ya NO se podrán abonar dichas tasas, por lo que se generará una deuda al pasajero y se procederá a multar a la empresa transportista.",
+        "url": "https://www.argentina.gob.ar/migraciones/habilitacion-de-salida"
+      },
+      {
+        "text": "3.- En cualquier supuesto que no se abone la Tasa antes de egresar del Territorio Nacional, se generara automáticamente una deuda pendiente de pago. Hasta que la misma no sea cancelada, el extranjero no podrá reingresar al País.",
+        "url": "https://www.argentina.gob.ar/migraciones/habilitacion-de-salida"
+      },
+      {
+        "text": "MERCOSUR y Estados Asociados EXTRA MERCOSUR",
+        "url": "https://www.argentina.gob.ar/migraciones/cuadro-tasas-migratorias"
+      },
+      {
+        "text": "Habilitación de documentación al solo efecto de hacer abandono del país de extranjero residente irregular 20 UMSM 40 UMSM",
+        "url": "https://www.argentina.gob.ar/migraciones/cuadro-tasas-migratorias"
+      },
+      {
+        "text": "Será considerada irregular la permanencia en el territorio de la REPÚBLICA ARGENTINA de todo extranjero que:",
+        "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/90000-94999/92016/texact.htm"
+      },
+      {
+        "text": "c) permaneciere en el territorio nacional una vez vencido el plazo de permanencia autorizado;",
+        "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/90000-94999/92016/texact.htm"
+      },
+      {
+        "text": "Al constatar la irregularidad de la permanencia de un extranjero en el país, y atendiendo a las circunstancias de profesión del extranjero, su parentesco con nacionales argentinos, el plazo de permanencia acreditado y demás condiciones personales y sociales, la DIRECCIÓN NACIONAL DE MIGRACIONES podrá intimarlo a regularizar su situación en el plazo perentorio que fije a tal efecto, bajo apercibimiento de decretar su expulsión.",
+        "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/90000-94999/92016/texact.htm"
+      }
+    ],
+    "levies.airport-terminal-use-fee": [
+      {
+        "text": "Las tasas de uso de aeroestación son abonadas por los pasajeros de vuelos comerciales al momento de adquisición del ticket aéreo, y se encuentran identificadas en el mismo bajo el código “XR” (incluye IVA en el caso de los vuelos nacionales). Dado que están incluidas en el ticket aéreo, el pasajero no deberá abonar ningún importe adicional bajo este concepto.",
+        "url": "https://www.argentina.gob.ar/orsna/tasas"
+      },
+      {
+        "text": "El valor de la tasa de uso depende del tipo de vuelo (nacional, regional o internacional) y el aeropuerto de origen.",
+        "url": "https://www.argentina.gob.ar/orsna/tasas"
+      },
+      {
+        "text": "GRUPO A - Aeropuertos Argentina (CAT I)* USD 9,00 USD 57,00 USD 25,16",
+        "url": "https://www.argentina.gob.ar/orsna/tasas"
+      },
+      {
+        "text": "GRUPO A - Aeropuertos Argentina (CAT II)** USD 9,00 USD 43,97 USD 25,16",
+        "url": "https://www.argentina.gob.ar/orsna/tasas"
+      },
+      {
+        "text": "SNA - No Concesionados (CAT I)*** $5.685,00 USD 51,00 USD 25,16",
+        "url": "https://www.argentina.gob.ar/orsna/tasas"
+      },
+      {
+        "text": "Nota 1 (*): Aeroparque, Ezeiza, Mar del Plata, Catamarca, Resistencia, Comodoro Rivadavia, Esquel, Córdoba, Paraná, Formosa, San Salvador de Jujuy, Santa Rosa, La Rioja, Mendoza, Posadas, Puerto Iguazú, Bariloche, Viedma, Salta, San Juan, San Luis, Villa Reynolds, Río Gallegos, Río Hondo, Santiago del Estero, Río Grande, S. Miguel de Tucumán, San Fernando.",
+        "url": "https://www.argentina.gob.ar/orsna/tasas"
+      }
+    ],
+    "levies.airport-terminal-use-fee.feeText": [
+      {
+        "text": "Las tasas de uso de aeroestación son abonadas por los pasajeros de vuelos comerciales al momento de adquisición del ticket aéreo, y se encuentran identificadas en el mismo bajo el código “XR” (incluye IVA en el caso de los vuelos nacionales). Dado que están incluidas en el ticket aéreo, el pasajero no deberá abonar ningún importe adicional bajo este concepto.",
+        "url": "https://www.argentina.gob.ar/orsna/tasas"
+      },
+      {
+        "text": "El valor de la tasa de uso depende del tipo de vuelo (nacional, regional o internacional) y el aeropuerto de origen.",
+        "url": "https://www.argentina.gob.ar/orsna/tasas"
+      },
+      {
+        "text": "GRUPO A - Aeropuertos Argentina (CAT I)* USD 9,00 USD 57,00 USD 25,16",
+        "url": "https://www.argentina.gob.ar/orsna/tasas"
+      },
+      {
+        "text": "GRUPO A - Aeropuertos Argentina (CAT II)** USD 9,00 USD 43,97 USD 25,16",
+        "url": "https://www.argentina.gob.ar/orsna/tasas"
+      },
+      {
+        "text": "SNA - No Concesionados (CAT I)*** $5.685,00 USD 51,00 USD 25,16",
+        "url": "https://www.argentina.gob.ar/orsna/tasas"
+      },
+      {
+        "text": "Nota 1 (*): Aeroparque, Ezeiza, Mar del Plata, Catamarca, Resistencia, Comodoro Rivadavia, Esquel, Córdoba, Paraná, Formosa, San Salvador de Jujuy, Santa Rosa, La Rioja, Mendoza, Posadas, Puerto Iguazú, Bariloche, Viedma, Salta, San Juan, San Luis, Villa Reynolds, Río Gallegos, Río Hondo, Santiago del Estero, Río Grande, S. Miguel de Tucumán, San Fernando.",
+        "url": "https://www.argentina.gob.ar/orsna/tasas"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "airport-terminal-use-fee",
+      "name": "Airport terminal use fee (Tasa de Uso de Aeroestación)",
+      "kind": "airport-fee",
+      "fee": null,
+      "per": "person-per-trip",
+      "paidAt": "included-in-ticket",
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "Passengers on commercial flights pay the airport terminal use fee when they buy their ticket, where it appears under code XR. Because it is included in the ticket, the passenger pays nothing extra. The amount depends on the type of flight (domestic, regional or international) and the departure airport. For Group A CAT I airports, which include Aeroparque and Ezeiza, ORSNA's table lists USD 9.00, USD 57.00 and USD 25.16.",
+      "source": {
+        "url": "https://www.argentina.gob.ar/orsna/tasas",
+        "name": "ORSNA (Organismo Regulador del Sistema Nacional de Aeropuertos) — Tasa de Uso de Aeroestación",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "ORSNA Resolución 04/21 (TUAI, Aeropuertos Argentina) and Resolución 93/19 (TUAI, non-concession airports), plus per-airport tariff resolutions listed on the page"
+      },
+      "feeText": "ORSNA's table lists, by airport group: Group A, Aeropuertos Argentina (CAT I): USD 9.00, USD 57.00, USD 25.16; Group A, Aeropuertos Argentina (CAT II): USD 9.00, USD 43.97, USD 25.16; non-concession airports (CAT I): $5,685.00, USD 51.00, USD 25.16. The quoted rows do not name the type of flight for each column."
+    }
+  ]
 }

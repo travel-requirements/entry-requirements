@@ -48,7 +48,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -3235,6 +3236,29 @@
           }
         ]
       }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": null,
+      "responsibility": "either",
+      "appliesTo": "all",
+      "penaltyText": null,
+      "url": "https://fpcs.immigration.gov.kh/",
+      "text": "The UK government says Cambodia's Department of Immigration runs an online registration app, the Foreigners Present in Cambodia System (FPCS). It says the manager or landlord of a hotel, guesthouse or rented accommodation registers guests in the app, and people staying with friends or family or in their own home must register themselves; a Cambodian phone number is needed for the registration to be valid. The UK government also says that if you fail to register, you may be unable to extend your visa. Australia's Smartraveller says the General Department of Immigration requires all foreigners to be registered in FPCS.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/cambodia/entry-requirements",
+        "name": "UK FCDO — Cambodia travel advice: Entry requirements (Registering with the authorities)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.smartraveller.gov.au/destinations/asia/cambodia",
+            "name": "Australian Government, Smartraveller — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -3978,6 +4002,28 @@
       {
         "text": "You can be fined, detained and deported if you overstay your visa. There is no limit to this fine. If you overstay more than 30 days, you will need to leave Cambodia and pay the fine.",
         "url": "https://www.gov.uk/foreign-travel-advice/cambodia/entry-requirements"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "The Cambodian Department of Immigration runs an online registration app called the Foreigners Present in Cambodia System (FPCS).",
+        "url": "https://www.gov.uk/foreign-travel-advice/cambodia/entry-requirements"
+      },
+      {
+        "text": "If you’re staying in a hotel, guesthouse or rented accommodation, make sure the manager or landlord registers you using the app.",
+        "url": "https://www.gov.uk/foreign-travel-advice/cambodia/entry-requirements"
+      },
+      {
+        "text": "If you are staying with friends or family or own your own home in Cambodia, you will need to register yourself, using the app for Android or iOS. You need to enter a Cambodian phone number for your registration to be valid.",
+        "url": "https://www.gov.uk/foreign-travel-advice/cambodia/entry-requirements"
+      },
+      {
+        "text": "If you fail to get yourself registered, you may be unable to extend your visa if you want to.",
+        "url": "https://www.gov.uk/foreign-travel-advice/cambodia/entry-requirements"
+      },
+      {
+        "text": "The Cambodian General Department of Immigration requires all foreigners to be registered in the Foreigners Present in Cambodia System (FPCS). Registrations are completed by hotel/guesthouse staff or residence owners. Make sure they register you. Foreigners in self-owned accommodation are required to self-register.",
+        "url": "https://www.smartraveller.gov.au/destinations/asia/cambodia"
       }
     ]
   }

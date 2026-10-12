@@ -19,7 +19,7 @@
   ],
   "summary": "Suriname's eVisa service says that since 1 July 2022 travellers visiting for tourism pay an Entry Fee, applied for online: USD or EUR 50 for a single entry or 75 for the multiple Entry Fee, plus a USD or EUR 8 service fee, with a maximum stay of 90 days. Holders of CARICOM passports are excluded from paying it, and since 1 May 2023 visitors from 21 countries, including India, South Africa and Nigeria, must obtain a visa before travel.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -37,6 +37,9 @@
         "type": "government",
         "lastVerified": "2026-10-05"
       }
+    ],
+    "modules": [
+      "overstay"
     ]
   },
   "visaPolicy": {
@@ -3687,6 +3690,28 @@
         }
       },
       "notes": []
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "The UK government says it is illegal to overstay the entry period. The Aliens Act 1991 (Vreemdelingenwet) sets a period of three months for visa-exempt foreigners who came to Suriname for a stay of no more than three months, and eight days for other foreigners.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/suriname/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Suriname entry requirements",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.dna.sr/media/op2mkkgb/vreemdelingenwet_1991.pdf",
+            "name": "Official page — www.dna.sr",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -4188,6 +4213,16 @@
       {
         "text": "Effective 1 September 2026, Dominican Republic passport holders are eligible to enter Suriname upon payment of the applicable entry fee (single or multiple), provided they hold a valid Schengen visa or U.S. visa at the time of travel.",
         "url": "https://suriname.vfsevisa.com/"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "It’s illegal to overstay the entry period or to work without a work permit.",
+        "url": "https://www.gov.uk/foreign-travel-advice/suriname/entry-requirements"
+      },
+      {
+        "text": "c. voor niet visumplichtige vreemdelinge n die voor een verblijf van niet langer dan drie maanden naar Suriname zijn gekomen: drie maanden; d. voor andere vreemdelingen; acht dagen.",
+        "url": "https://www.dna.sr/media/op2mkkgb/vreemdelingenwet_1991.pdf"
       }
     ]
   }

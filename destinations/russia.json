@@ -46,7 +46,8 @@
     "modules": [
       "driving",
       "overstay",
-      "levies"
+      "levies",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -3739,6 +3740,30 @@
           }
         ]
       }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": null,
+      "responsibility": "accommodation",
+      "appliesTo": "all",
+      "penaltyText": "Breach of the migration registration rules by a foreign national: fine of 2,000 to 5,000 roubles, with or without administrative expulsion (Code of Administrative Offences, art. 18.8 part 1).",
+      "url": null,
+      "text": "A foreign national staying in Russia must be registered at the place of stay. The host party, or the foreign national directly, submits the notice of arrival to the migration registration authority within seven working days of arrival at the place of stay. When the foreign national stays in a hotel or other accommodation facility, the notice must be submitted within one working day after the day of arrival. A foreign national who breaks the migration registration rules is fined 2,000 to 5,000 roubles, with or without administrative expulsion from Russia.",
+      "source": {
+        "url": "http://pravo.gov.ru/proxy/ips/?doc_itself=&nd=102108015&fulltext=1",
+        "name": "Official Internet Portal of Legal Information (pravo.gov.ru) — Federal Law No. 109-FZ of 18.07.2006 'On Migration Registration of Foreign Citizens and Stateless Persons in the Russian Federation', consolidated",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Federal Law No. 109-FZ, art. 20 parts 1, 2, 3 and 3.1; Code of Administrative Offences, art. 18.8 part 1 and art. 18.9 part 4",
+        "alsoStatedOn": [
+          {
+            "url": "http://pravo.gov.ru/proxy/ips/?doc_itself=&nd=102074277&fulltext=1",
+            "name": "Official page — pravo.gov.ru",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -4514,6 +4539,74 @@
       {
         "text": "В случае, если исчисленная сумма налога менее суммы минимального налога, рассчитанной как произведение 100 рублей и количества суток проживания, сумма налога определяется в размере минимального налога.",
         "url": "https://www.nalog.gov.ru/rn77/taxation/taxes/tourist_tax/"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "Иностранный гражданин в случае нахождения в месте пребывания подлежит постановке на учет по месту пребывания в порядке и на условиях, которые установлены в соответствии с настоящим Федеральным законом или международным договором Российской Федерации.",
+        "url": "http://pravo.gov.ru/proxy/ips/?doc_itself=&nd=102108015&fulltext=1"
+      },
+      {
+        "text": "Уведомление о прибытии иностранного гражданина в место пребывания представляется в орган миграционного учета принимающей стороной или непосредственно данным иностранным гражданином",
+        "url": "http://pravo.gov.ru/proxy/ips/?doc_itself=&nd=102108015&fulltext=1"
+      },
+      {
+        "text": "Срок представления уведомления о прибытии иностранного гражданина в место пребывания составляет семь рабочих дней со дня прибытия в место пребывания",
+        "url": "http://pravo.gov.ru/proxy/ips/?doc_itself=&nd=102108015&fulltext=1"
+      },
+      {
+        "text": "находится в гостинице или ином средстве размещения, в котором предоставляются услуги средств размещения",
+        "url": "http://pravo.gov.ru/proxy/ips/?doc_itself=&nd=102108015&fulltext=1"
+      },
+      {
+        "text": "уведомление о прибытии иностранного гражданина в место пребывания должно быть представлено в орган миграционного учета в течение одного рабочего дня, следующего за днем прибытия иностранного гражданина в место пребывания.",
+        "url": "http://pravo.gov.ru/proxy/ips/?doc_itself=&nd=102108015&fulltext=1"
+      },
+      {
+        "text": "в нарушении правил миграционного учета",
+        "url": "http://pravo.gov.ru/proxy/ips/?doc_itself=&nd=102074277&fulltext=1"
+      },
+      {
+        "text": "влечет наложение административного штрафа в размере от двух тысяч до пяти тысяч рублей с административным выдворением за пределы Российской Федерации или без такового.",
+        "url": "http://pravo.gov.ru/proxy/ips/?doc_itself=&nd=102074277&fulltext=1"
+      },
+      {
+        "text": "Неисполнение принимающей стороной обязанностей в связи с осуществлением миграционного учета",
+        "url": "http://pravo.gov.ru/proxy/ips/?doc_itself=&nd=102074277&fulltext=1"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "Иностранный гражданин в случае нахождения в месте пребывания подлежит постановке на учет по месту пребывания в порядке и на условиях, которые установлены в соответствии с настоящим Федеральным законом или международным договором Российской Федерации.",
+        "url": "http://pravo.gov.ru/proxy/ips/?doc_itself=&nd=102108015&fulltext=1"
+      },
+      {
+        "text": "Уведомление о прибытии иностранного гражданина в место пребывания представляется в орган миграционного учета принимающей стороной или непосредственно данным иностранным гражданином",
+        "url": "http://pravo.gov.ru/proxy/ips/?doc_itself=&nd=102108015&fulltext=1"
+      },
+      {
+        "text": "Срок представления уведомления о прибытии иностранного гражданина в место пребывания составляет семь рабочих дней со дня прибытия в место пребывания",
+        "url": "http://pravo.gov.ru/proxy/ips/?doc_itself=&nd=102108015&fulltext=1"
+      },
+      {
+        "text": "находится в гостинице или ином средстве размещения, в котором предоставляются услуги средств размещения",
+        "url": "http://pravo.gov.ru/proxy/ips/?doc_itself=&nd=102108015&fulltext=1"
+      },
+      {
+        "text": "уведомление о прибытии иностранного гражданина в место пребывания должно быть представлено в орган миграционного учета в течение одного рабочего дня, следующего за днем прибытия иностранного гражданина в место пребывания.",
+        "url": "http://pravo.gov.ru/proxy/ips/?doc_itself=&nd=102108015&fulltext=1"
+      },
+      {
+        "text": "в нарушении правил миграционного учета",
+        "url": "http://pravo.gov.ru/proxy/ips/?doc_itself=&nd=102074277&fulltext=1"
+      },
+      {
+        "text": "влечет наложение административного штрафа в размере от двух тысяч до пяти тысяч рублей с административным выдворением за пределы Российской Федерации или без такового.",
+        "url": "http://pravo.gov.ru/proxy/ips/?doc_itself=&nd=102074277&fulltext=1"
+      },
+      {
+        "text": "Неисполнение принимающей стороной обязанностей в связи с осуществлением миграционного учета",
+        "url": "http://pravo.gov.ru/proxy/ips/?doc_itself=&nd=102074277&fulltext=1"
       }
     ]
   },

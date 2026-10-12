@@ -23,7 +23,7 @@
   ],
   "summary": "Canada's travel advice says there has been heavy fighting throughout Sudan since April 2023 and tells Canadians to avoid all travel; the UK advises against all travel to Sudan except the Hala’ib Triangle and the Bir Tawil Trapezoid, where it advises against all but essential travel. The UK, Canadian, Australian, Irish and German governments say their citizens need a visa to enter Sudan; for other passports, this page shows the rule only where the passport's own government states it.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-10-03",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -35,7 +35,9 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -1612,6 +1614,56 @@
         "Canada's travel advice says it is prohibited to import or consume alcohol, even in private.",
         "Australia's Smartraveller says you need a permit for any photography, and that even with a permit it is illegal to photograph certain areas, including military installations, infrastructure and slums."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "The French government says that, to avoid paying a fine for staying beyond the period allowed by the visa, travellers should obtain a visa extension from the police service in charge of foreigners. The Canadian government says visa irregularities or alleged immigration violations may result in significant financial penalties, and the authorities may hold onto the passport until they are paid in full.",
+      "source": {
+        "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/soudan/conseils-aux-voyageurs-entree-sejour",
+        "name": "France, Ministère de l'Europe et des Affaires étrangères — Soudan: conseils aux voyageurs, entrée et séjour",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "alsoStatedOn": [
+          {
+            "url": "https://travel.gc.ca/destinations/sudan",
+            "name": "Government of Canada — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": 72,
+      "responsibility": "traveler",
+      "appliesTo": "all",
+      "penaltyText": "The UK government says you may be fined if you do not register within 3 days of arrival.",
+      "url": null,
+      "text": "The UK government says you must register with the Aliens Department at the Ministry of Interior within 3 days of arrival, with 2 passport photos and a fee; if you do not, you may be fined, and some larger hotels will do it for you. The French government says visitors with ordinary passports must register within three days of arrival, whatever the purpose and length of stay, in each town where they stay, and that late or missed registration is fined. The Canadian government says foreigners must register with the Aliens' Registration Office within 3 days, and can do so at the point of entry when arriving by land or sea.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/sudan/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Sudan travel advice: entry requirements",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/soudan/conseils-aux-voyageurs-entree-sejour",
+            "name": "Official page — www.diplomatie.gouv.fr",
+            "lastVerified": "2026-10-12"
+          },
+          {
+            "url": "https://travel.gc.ca/destinations/sudan",
+            "name": "Government of Canada — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -2114,6 +2166,48 @@
       {
         "text": "To drive in Sudan, you must have an International Driving Permit along with your valid Canadian driver’s licence.",
         "url": "https://travel.gc.ca/destinations/sudan"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "En cas de dépassement de la durée du séjour autorisé par le visa, il convient, pour éviter d’avoir à payer une amende, d’obtenir auprès des services de police en charge des étrangers une prolongation de son visa.",
+        "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/soudan/conseils-aux-voyageurs-entree-sejour"
+      },
+      {
+        "text": "Visa irregularities or alleged immigration violations may result in significant financial penalties. The authorities may hold onto your passport until these penalties are paid in full.",
+        "url": "https://travel.gc.ca/destinations/sudan"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "You must register with the Aliens Department at the Ministry of Interior within 3 days of your arrival in Sudan. You will need 2 passport size photos and to pay a fee.",
+        "url": "https://www.gov.uk/foreign-travel-advice/sudan/entry-requirements"
+      },
+      {
+        "text": "If you do not register within 3 days of arrival, you may be fined. Some larger hotels will do this for you. Ask when you check-in.",
+        "url": "https://www.gov.uk/foreign-travel-advice/sudan/entry-requirements"
+      },
+      {
+        "text": "Les visiteurs et les expatriés titulaires de passeports ordinaires sont tenus, dans les trois jours suivant leur arrivée, de se faire enregistrer auprès de la direction générale des passeports, au service des étrangers, quels que soient l’objet et la durée de leur séjour. Il faut procéder à cet enregistrement auprès des autorités de police dans chaque ville où l’on séjourne. En cas d’oubli ou de retard, les contrevenants doivent payer une amende.",
+        "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/soudan/conseils-aux-voyageurs-entree-sejour"
+      },
+      {
+        "text": "As a foreigner, you must register with the Ministry of the Interior’s Aliens’ Registration Office within 3 days of your arrival in Sudan.",
+        "url": "https://travel.gc.ca/destinations/sudan"
+      },
+      {
+        "text": "If arriving by land or sea, you can register at your point of entry.",
+        "url": "https://travel.gc.ca/destinations/sudan"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "You must register with the Aliens Department at the Ministry of Interior within 3 days of your arrival in Sudan. You will need 2 passport size photos and to pay a fee.",
+        "url": "https://www.gov.uk/foreign-travel-advice/sudan/entry-requirements"
+      },
+      {
+        "text": "If you do not register within 3 days of arrival, you may be fined. Some larger hotels will do this for you. Ask when you check-in.",
+        "url": "https://www.gov.uk/foreign-travel-advice/sudan/entry-requirements"
       }
     ]
   }

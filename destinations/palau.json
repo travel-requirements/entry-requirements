@@ -16,7 +16,7 @@
   ],
   "summary": "Palau's Division of Immigration says a tourist visa, valid for 30 days, may be issued on arrival to short-term travellers visiting for tourism, leisure or social visits; nationals of Bangladesh and Myanmar must apply before they reach Palau. It says FSM, Marshall Islands (RMI) and US citizens visiting Palau do not need a visa, citizens of Schengen states can stay without a visa for up to 90 days in any 180-day period, and citizens of Russia for 30 days. Every visitor is assessed a USD 100 environmental fee (PPEF), from which transit passengers and accredited diplomats are among those exempt, and all visitors must sign the Palau Pledge, stamped into their passports on arrival.",
   "meta": {
-    "lastUpdated": "2026-10-11",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -28,6 +28,9 @@
         "archiveUrl": "https://web.archive.org/web/20260821171743/https://www.palaugov.pw/",
         "portalOnly": true
       }
+    ],
+    "modules": [
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -3208,6 +3211,46 @@
         "text": "You must apply at least seven days before the expiration date of your current visa at the Division of Immigration.",
         "url": "https://bcbp.pw/?page_id=165"
       }
+    ],
+    "levies.pristine-paradise-environmental-fee": [
+      {
+        "text": "As of Jan. 1, 2018, every visitor coming to Palau will be assessed a $100 environmental fee. Every international airline is required to include the fee in the price of the ticket into Palau sold on or after January 1, 2018. Individuals traveling with Palauan passports, spouses of Palauan passport holders or Palauan citizens, crew members on official duty, Diplomats / members of diplomatic mission in the course of their official duties recognized by the Ministry of State, transit passengers and those individuals determined by the Minister of Finance are exempt from the $100 PPEF, and are eligible for a cash refund upon arrival by presenting a travel itinerary indicating that the $100 fee was paid and a passport.",
+        "url": "https://bcbp.pw/?page_id=165"
+      }
+    ],
+    "levies.pristine-paradise-environmental-fee.exemptions": [
+      {
+        "text": "As of Jan. 1, 2018, every visitor coming to Palau will be assessed a $100 environmental fee. Every international airline is required to include the fee in the price of the ticket into Palau sold on or after January 1, 2018. Individuals traveling with Palauan passports, spouses of Palauan passport holders or Palauan citizens, crew members on official duty, Diplomats / members of diplomatic mission in the course of their official duties recognized by the Ministry of State, transit passengers and those individuals determined by the Minister of Finance are exempt from the $100 PPEF, and are eligible for a cash refund upon arrival by presenting a travel itinerary indicating that the $100 fee was paid and a passport.",
+        "url": "https://bcbp.pw/?page_id=165"
+      }
+    ],
+    "levies.pristine-paradise-environmental-fee.feeText": [
+      {
+        "text": "As of Jan. 1, 2018, every visitor coming to Palau will be assessed a $100 environmental fee. Every international airline is required to include the fee in the price of the ticket into Palau sold on or after January 1, 2018. Individuals traveling with Palauan passports, spouses of Palauan passport holders or Palauan citizens, crew members on official duty, Diplomats / members of diplomatic mission in the course of their official duties recognized by the Ministry of State, transit passengers and those individuals determined by the Minister of Finance are exempt from the $100 PPEF, and are eligible for a cash refund upon arrival by presenting a travel itinerary indicating that the $100 fee was paid and a passport.",
+        "url": "https://bcbp.pw/?page_id=165"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "pristine-paradise-environmental-fee",
+      "name": "Pristine Paradise Environmental Fee (PPEF)",
+      "kind": "conservation-fee",
+      "fee": null,
+      "per": "person-per-trip",
+      "paidAt": "included-in-ticket",
+      "appliesTo": "all",
+      "exemptions": "Palauan passport holders; spouses of Palauan passport holders or Palauan citizens; crew members on official duty; diplomats and members of diplomatic missions on official duties recognised by the Ministry of State; transit passengers; others determined by the Minister of Finance. They can get a cash refund on arrival.",
+      "url": null,
+      "text": "Since 1 January 2018 every visitor coming to Palau is assessed a $100 environmental fee; the page does not name the currency. International airlines must include it in the price of the ticket. Exempt travellers (Palauan passport holders and their spouses, crew on duty, diplomats, transit passengers and others set by the Minister of Finance) can get a cash refund on arrival by showing an itinerary that shows the fee was paid and a passport.",
+      "source": {
+        "url": "https://bcbp.pw/?page_id=165",
+        "name": "Bureau of Customs and Border Protection, Palau — Immigration (PPEF)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12"
+      },
+      "feeText": "$100 per visitor; the page does not name the currency"
+    }
+  ]
 }

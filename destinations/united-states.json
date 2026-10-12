@@ -17,7 +17,7 @@
   ],
   "summary": "CBP says the Visa Waiver Program lets citizens of 42 countries travel to the United States for business or tourism for stays of up to 90 days without a visa; ESTA applicants must be citizens or eligible nationals of a Visa Waiver Program country, and the application fee is $40.27 (an approved ESTA is valid for two years or until the passport expires). Under 8 CFR 212.1 a visa is generally not required for Canadian citizens. The non-petition-based nonimmigrant visa fee is $185, and the State Department says nonimmigrant visa applicants should schedule their interview at the U.S. embassy or consulate in their country of residence or nationality. A December 2025 presidential proclamation suspends and limits the entry of nationals of the countries it lists, subject to exceptions and case-by-case waivers.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -49,7 +49,9 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -4266,6 +4268,22 @@
       "notes": [
         "CBP says prohibited agricultural items that are not declared are confiscated, and that civil penalties for failing to declare them may range up to $1,000 for a first-time offense with non-commercial quantities."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "Staying after the authorized period of stay expires is unlawful presence. Unless an exception applies, a person who accrued more than 180 days but less than 1 year of unlawful presence in a single stay, and left before removal proceedings began, is inadmissible if they seek admission again within 3 years of leaving. A person who accrued 1 year or more is inadmissible if they seek admission again within 10 years of leaving or being removed.",
+      "source": {
+        "url": "https://www.uscis.gov/laws-and-policy/other-resources/unlawful-presence-and-inadmissibility",
+        "name": "U.S. Citizenship and Immigration Services — Unlawful Presence and Inadmissibility",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Immigration and Nationality Act §212(a)(9)(B)(i) and §212(a)(9)(C)(i)(I)"
+      }
     }
   },
   "countryFacts": {
@@ -4832,6 +4850,84 @@
         "url": "https://www.ecfr.gov/current/title-8/section-217.2",
         "text": "An alien who is in transit through the United States is eligible to apply for admission under the Visa Waiver Program, provided the applicant meets all other program requirements."
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "Unlawful presence is any period of time when you are present in the United States without being admitted or paroled, or when you are present in the United States after your “period of stay authorized by the Secretary” expires. Unless an exception applies, you will be found inadmissible based on your accrual of unlawful presence if you:",
+        "url": "https://www.uscis.gov/laws-and-policy/other-resources/unlawful-presence-and-inadmissibility"
+      },
+      {
+        "text": "Seek admission again within 3 years of leaving the United States before removal proceedings begin, after you accrued more than 180 days but less than 1 year of unlawful presence during a single stay;",
+        "url": "https://www.uscis.gov/laws-and-policy/other-resources/unlawful-presence-and-inadmissibility"
+      },
+      {
+        "text": "Seek admission again within 10 years of leaving or being removed from the United States, after you accrued 1 year or more of unlawful presence during a single stay; or",
+        "url": "https://www.uscis.gov/laws-and-policy/other-resources/unlawful-presence-and-inadmissibility"
+      },
+      {
+        "text": "You can find these inadmissibility grounds in the Immigration and Nationality Act at INA 212(a)(9)(B)(i) and INA 212(a)(9)(C)(i)(I).",
+        "url": "https://www.uscis.gov/laws-and-policy/other-resources/unlawful-presence-and-inadmissibility"
+      }
+    ],
+    "levies.us-immigration-user-fee": [
+      {
+        "text": "In addition to any other fee authorized by law, the Attorney General shall charge and collect $7 per individual for the immigration inspection of each passenger arriving at a port of entry in the United States, or for the preinspection of a passenger in a place outside of the United States prior to such arrival, aboard a commercial aircraft or commercial vessel.",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title8/html/USCODE-2024-title8-chap12-subchapII-partIX-sec1356.htm"
+      },
+      {
+        "text": "(a) It is the responsibility of the air or sea carriers, travel agents, tour wholesalers, or other parties, which issue tickets or documents for transportation on or after December 1, 1986, to collect the fee set forth in § 286.2 of this part from all passengers transported to the United States who are not excepted under § 286.3 of this part.",
+        "url": "https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-286"
+      }
+    ],
+    "levies.us-immigration-user-fee.exemptions": [
+      {
+        "text": "In addition to any other fee authorized by law, the Attorney General shall charge and collect $7 per individual for the immigration inspection of each passenger arriving at a port of entry in the United States, or for the preinspection of a passenger in a place outside of the United States prior to such arrival, aboard a commercial aircraft or commercial vessel.",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title8/html/USCODE-2024-title8-chap12-subchapII-partIX-sec1356.htm"
+      },
+      {
+        "text": "(a) It is the responsibility of the air or sea carriers, travel agents, tour wholesalers, or other parties, which issue tickets or documents for transportation on or after December 1, 1986, to collect the fee set forth in § 286.2 of this part from all passengers transported to the United States who are not excepted under § 286.3 of this part.",
+        "url": "https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-286"
+      }
+    ],
+    "levies.us-immigration-user-fee.feeText": [
+      {
+        "text": "In addition to any other fee authorized by law, the Attorney General shall charge and collect $7 per individual for the immigration inspection of each passenger arriving at a port of entry in the United States, or for the preinspection of a passenger in a place outside of the United States prior to such arrival, aboard a commercial aircraft or commercial vessel.",
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title8/html/USCODE-2024-title8-chap12-subchapII-partIX-sec1356.htm"
+      },
+      {
+        "text": "(a) It is the responsibility of the air or sea carriers, travel agents, tour wholesalers, or other parties, which issue tickets or documents for transportation on or after December 1, 1986, to collect the fee set forth in § 286.2 of this part from all passengers transported to the United States who are not excepted under § 286.3 of this part.",
+        "url": "https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-286"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "us-immigration-user-fee",
+      "name": "Immigration inspection fee",
+      "kind": "arrival-tax",
+      "fee": null,
+      "per": "person-per-trip",
+      "paidAt": "included-in-ticket",
+      "appliesTo": "all",
+      "exemptions": "Passengers excepted under 8 CFR 286.3.",
+      "url": null,
+      "text": "The law sets a fee of $7 per individual for the immigration inspection of each passenger arriving at a US port of entry aboard a commercial aircraft or commercial vessel, or for preinspection abroad before such arrival; the law does not name the currency. Air or sea carriers, travel agents, tour wholesalers and others who issue tickets must collect it from all passengers transported to the United States who are not excepted under 8 CFR 286.3.",
+      "source": {
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title8/html/USCODE-2024-title8-chap12-subchapII-partIX-sec1356.htm",
+        "name": "U.S. Code (govinfo.gov, 2024 edition) — 8 U.S.C. 1356(d) Schedule of fees",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "8 U.S.C. 1356(d) (INA §286(d)); 8 CFR part 286",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-286",
+            "name": "Official page — www.ecfr.gov",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      },
+      "feeText": "$7 per individual; the law does not name the currency."
+    }
+  ]
 }

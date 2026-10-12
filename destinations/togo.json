@@ -19,7 +19,7 @@
   ],
   "summary": "Togo Voyage lists the countries exempt from visas, essentially the ECOWAS member states, and says all African nationals with a valid passport may enter without a visa for stays of up to 30 days if they complete the immigration form at least 24 hours before arrival. Nationals of the countries on its visa list need an eVisa applied for on voyage.gouv.tg at least 5 days before arrival (Togo Voyage encourages six working days); visas on arrival are suspended. Every traveller entering or leaving Togo by air completes the online immigration form.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -32,7 +32,9 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -4403,6 +4405,27 @@
     ],
     "customs": {
       "notes": []
+    },
+    "overstay": {
+      "fine": {
+        "amount": 200000,
+        "currency": "XOF",
+        "per": "incident",
+        "maxAmount": 500000
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "A foreigner who stays in Togo without the appropriate authorisation, or after the period fixed by the authorisation has expired, faces 3 to 12 months' imprisonment and a fine of 200,000 to 500,000 CFA francs, or one of these two penalties (art. 27). A foreigner who is late in extending a visa may be fined 250,000 CFA francs (art. 21).",
+      "source": {
+        "url": "https://jo.gouv.tg/sites/default/files/JO/JOS_22_04_2022-67%20E%20ANNEE%20N%C2%B0%2015%20TER.pdf",
+        "name": "Journal officiel de la République togolaise, 22 avril 2022 (n° 15 ter) — Loi n° 2022-005 du 15/04/2022 relative à la police des étrangers",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Loi n° 2022-005 du 15/04/2022 relative à la police des étrangers en République togolaise, art. 21 and 27"
+      }
     }
   },
   "countryFacts": {
@@ -4885,6 +4908,59 @@
         "text": "Le paiement en espèce n'est pas autorisé.",
         "url": "https://voyage.gouv.tg/"
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "Art. 27 : Violation des règles relatives au séjour d’un étranger au Togo Est passible d’une peine d’emprisonnement de trois (3) mois à douze (12) mois et d’une amende de deux cent mille (200 000) à cinq cent mille (500 000) francs CFA ou de l’une de ces deux (2) peines, l’étranger qui :",
+        "url": "https://jo.gouv.tg/sites/default/files/JO/JOS_22_04_2022-67%20E%20ANNEE%20N%C2%B0%2015%20TER.pdf"
+      },
+      {
+        "text": "- sans avoir reçu l’autorisation appropriée ou après l’expiration du délai fixé par l’autorisation, séjourne ou s’établit au Togo.",
+        "url": "https://jo.gouv.tg/sites/default/files/JO/JOS_22_04_2022-67%20E%20ANNEE%20N%C2%B0%2015%20TER.pdf"
+      },
+      {
+        "text": "Art. 21 : Retard dans la prolongation du visa En cas de retard dans la prolongation du visa, l’étranger peut être puni d’une amende de deux cent cinquante mille (250 000) francs CFA.",
+        "url": "https://jo.gouv.tg/sites/default/files/JO/JOS_22_04_2022-67%20E%20ANNEE%20N%C2%B0%2015%20TER.pdf"
+      }
+    ],
+    "levies.air-ticket-issuance-tax": [
+      {
+        "text": "Art. 235 : Il est institué au profit du Budget de l’État une taxe dénommée taxe à l’émission des billets d’avion pour des transports internationaux de personnes.",
+        "url": "https://jo.gouv.tg/sites/default/files/JO/JOS_20_11_2018-63E%20ANNEE%20N%C2%B0%2023%20TER.pdf"
+      },
+      {
+        "text": "Art. 237 : La taxe est due et collectée par les redevables au moment de la vente du titre de transport.",
+        "url": "https://jo.gouv.tg/sites/default/files/JO/JOS_20_11_2018-63E%20ANNEE%20N%C2%B0%2023%20TER.pdf"
+      },
+      {
+        "text": "Art. 238 : Le tarif de la taxe fixé à deux mille (2 000) francs CFA, est incorporé au prix du billet.",
+        "url": "https://jo.gouv.tg/sites/default/files/JO/JOS_20_11_2018-63E%20ANNEE%20N%C2%B0%2023%20TER.pdf"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "air-ticket-issuance-tax",
+      "name": "Taxe à l’émission des billets d’avion (air ticket issuance tax)",
+      "kind": "departure-tax",
+      "fee": {
+        "amount": 2000,
+        "currency": "XOF"
+      },
+      "per": "person-per-trip",
+      "paidAt": "included-in-ticket",
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "A tax on the issue of air tickets for international passenger transport, collected by those liable for it when the ticket is sold. The rate is 2,000 CFA francs, included in the ticket price.",
+      "source": {
+        "url": "https://jo.gouv.tg/sites/default/files/JO/JOS_20_11_2018-63E%20ANNEE%20N%C2%B0%2023%20TER.pdf",
+        "name": "Journal officiel de la République togolaise, 20 novembre 2018 (n° 23 ter) — Loi n° 2018-024 portant Code général des impôts",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Loi n° 2018-024 du 20/11/2018 portant Code général des impôts, art. 235–239"
+      }
+    }
+  ]
 }

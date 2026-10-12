@@ -21,7 +21,7 @@
   ],
   "summary": "Under a CEMAC Additional Act, citizens of CEMAC member states may travel without a visa and stay in any other member state for up to 90 days. The Congolese embassy in Washington says no Congolese visa is issued at any port of entry and applications must be made before departure, and the UK, Canadian and German governments say their citizens need a visa obtained before travel. Law No. 29-2017 requires a foreigner who is not a national of a country with special immigration agreements with the Republic of the Congo to present a passport with a valid visa to be allowed to enter; no official source we could read lists those agreements.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -35,7 +35,9 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -2810,7 +2812,40 @@
       }
     },
     "declarations": [],
-    "customs": {}
+    "customs": {},
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "A visitor is admitted for a stay not exceeding three months. Removal to the border (reconduite à la frontière) is the administrative measure taken against any foreigner who has not left when the granted stay expired. Article 54 adds that on a repeat offence the foreigner is expelled and permanently banned from entering.",
+      "source": {
+        "url": "https://sgg.cg/JO/2017/congo-jo-2017-38.pdf",
+        "name": "Journal officiel de la République du Congo n° 38-2017 (Secrétariat général du Gouvernement) — Loi n° 29-2017 amending loi n° 23-96 on the entry, stay and exit of foreigners",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Loi n° 23-96 du 6 juin 1996 as amended by loi n° 29-2017 du 7 août 2017, art. 5, 46 and 54"
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": 24,
+      "responsibility": "accommodation",
+      "appliesTo": "all",
+      "penaltyText": "Failure to declare is subject to the sanctions in Title VII of the law.",
+      "url": null,
+      "text": "Anyone who lodges a foreigner, in any capacity and even free of charge, must declare it to the competent local authorities within 24 hours of taking them in, under penalty of the sanctions in Title VII of the law. A visitor or resident who changes residence must declare it 24 hours beforehand to the immigration authority and 48 hours afterwards to the local administration, police and gendarmerie of the new place of residence.",
+      "source": {
+        "url": "https://sgg.cg/JO/2017/congo-jo-2017-38.pdf",
+        "name": "Journal officiel de la République du Congo n° 38-2017 — Loi n° 29-2017 amending loi n° 23-96 on the entry, stay and exit of foreigners",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Loi n° 23-96 as amended by loi n° 29-2017, art. 20-21"
+      }
+    }
   },
   "countryFacts": {
     "currency": {
@@ -3376,6 +3411,40 @@
       {
         "text": "Article premier : Est autorisée la ratiﬁ cation de l’accord de coopération, signé le 24 novembre 2021",
         "url": "https://sgg.cg/JO/2023/congo-jo-2023-39.pdf"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "Article 5 : Est visiteur, l’étranger ou l’apatride admis sur le territoire de la République du Congo pour un séjour dont la durée ne peut excéder trois (3) mois et qui vient pour des raisons familiales, culturelles, scientiﬁ ques ou d’affaires, sans la volonté d’y ﬁ xer sa résidence.",
+        "url": "https://sgg.cg/JO/2017/congo-jo-2017-38.pdf"
+      },
+      {
+        "text": "Article 46 : La reconduite à la frontière est la mesure administrative prise à l’encontre de tout étranger : - qui est entré irrégulièrement sur le territoire de la République du Congo ; - qui n’a pas quitté le territoire de la République du Congo à l’expiration du délai de séjour qui lui a été accordé ;",
+        "url": "https://sgg.cg/JO/2017/congo-jo-2017-38.pdf"
+      },
+      {
+        "text": "Article 54 : En cas de récidive, l’étranger fera l’objet d’une expulsion et d’une interdiction déﬁ nitive d’entrer en République du Congo, sans préjudice des dispositions prévues au titre VII de la présente loi.",
+        "url": "https://sgg.cg/JO/2017/congo-jo-2017-38.pdf"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "Article 20 : Toute personne logeant un étranger en quelque qualité que ce soit, même à titre gracieux, doit en faire une déclaration, dans les 24 heures qui suivent la réception, aux autorités locales compé- tentes, sous peine des sanctions prévues au titre VII de la présente loi.",
+        "url": "https://sgg.cg/JO/2017/congo-jo-2017-38.pdf"
+      },
+      {
+        "text": "Article 21 : Tout changement de résidence par un visiteur ou un résident doit être déclaré 24 heures auparavant à l’autorité de l’immigration et 48 heures après, à l’autorité administrative locale compétente, à l’autorité de police et de gendarmerie du nouveau lieu de sa résidence.",
+        "url": "https://sgg.cg/JO/2017/congo-jo-2017-38.pdf"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "Article 20 : Toute personne logeant un étranger en quelque qualité que ce soit, même à titre gracieux, doit en faire une déclaration, dans les 24 heures qui suivent la réception, aux autorités locales compé- tentes, sous peine des sanctions prévues au titre VII de la présente loi.",
+        "url": "https://sgg.cg/JO/2017/congo-jo-2017-38.pdf"
+      },
+      {
+        "text": "Article 21 : Tout changement de résidence par un visiteur ou un résident doit être déclaré 24 heures auparavant à l’autorité de l’immigration et 48 heures après, à l’autorité administrative locale compétente, à l’autorité de police et de gendarmerie du nouveau lieu de sa résidence.",
+        "url": "https://sgg.cg/JO/2017/congo-jo-2017-38.pdf"
       }
     ]
   }

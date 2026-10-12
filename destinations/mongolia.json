@@ -40,7 +40,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -4854,6 +4855,30 @@
           }
         ]
       }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": 48,
+      "responsibility": "accommodation",
+      "appliesTo": "all",
+      "penaltyText": "Fines for registration violations under Article 16.2 of the Law on Infringement: the Immigration Agency's page lists 100, 250 and 2,500 units (1 unit = MNT 1,000).",
+      "url": "https://eimmigration.gov.mn",
+      "text": "Legal entities and individuals providing housing for a foreign national must register them online on the Immigration Agency of Mongolia's website (eimmigration.gov.mn) or the E-immigration mobile application within 48 hours after entry. The Immigration Agency's page lists fines for registration violations of 100, 250 and 2,500 units, where 1 unit equals MNT 1,000.",
+      "source": {
+        "url": "https://immigration.gov.mn/en/faq/",
+        "name": "Immigration Agency of Mongolia — Frequently asked questions",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Law on Infringement, art. 16.2",
+        "alsoStatedOn": [
+          {
+            "url": "https://immigration.gov.mn/en/registration-violation/",
+            "name": "Official page — immigration.gov.mn",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -5431,6 +5456,50 @@
       {
         "text": "2. Not leaving the country after their visa and residence permit expired (1-3 years of ban);",
         "url": "https://immigration.gov.mn/en/deportation-foreign-national/"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "Legal entity and individual who is providing housing for a foreign national must register them online on the Immigration Agency of Mongolia`s website (eimmigration.gov.mn) or E-immigration mobile application within 48 hours after entry.",
+        "url": "https://immigration.gov.mn/en/faq/"
+      },
+      {
+        "text": "Article 16.2 section 1.1 of Law on Infringement Amount of fine 100 units",
+        "url": "https://immigration.gov.mn/en/registration-violation/"
+      },
+      {
+        "text": "Amount of fine 250 units",
+        "url": "https://immigration.gov.mn/en/registration-violation/"
+      },
+      {
+        "text": "Amount of fine 2500 units",
+        "url": "https://immigration.gov.mn/en/registration-violation/"
+      },
+      {
+        "text": "1 unit equals 1000₮",
+        "url": "https://immigration.gov.mn/en/registration-violation/"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "Legal entity and individual who is providing housing for a foreign national must register them online on the Immigration Agency of Mongolia`s website (eimmigration.gov.mn) or E-immigration mobile application within 48 hours after entry.",
+        "url": "https://immigration.gov.mn/en/faq/"
+      },
+      {
+        "text": "Article 16.2 section 1.1 of Law on Infringement Amount of fine 100 units",
+        "url": "https://immigration.gov.mn/en/registration-violation/"
+      },
+      {
+        "text": "Amount of fine 250 units",
+        "url": "https://immigration.gov.mn/en/registration-violation/"
+      },
+      {
+        "text": "Amount of fine 2500 units",
+        "url": "https://immigration.gov.mn/en/registration-violation/"
+      },
+      {
+        "text": "1 unit equals 1000₮",
+        "url": "https://immigration.gov.mn/en/registration-violation/"
       }
     ]
   }

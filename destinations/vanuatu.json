@@ -16,7 +16,7 @@
   ],
   "summary": "Vanuatu's Department of Immigration and Passport Services lists the countries that do not need a visitor visa (exempted countries) — among them the US, the UK, France, Germany, China, India, Australia and New Zealand — whose travellers can obtain a tourist visa on arrival for a maximum stay of 120 days; travellers from non-exempted countries must apply in advance, either for a tourist visa or for a visitor visa of up to 30 days.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -29,7 +29,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay"
     ]
   },
   "visaPolicy": {
@@ -2497,6 +2498,27 @@
       "notes": [
         "The UK FCDO says possession of even small quantities of drugs can lead to imprisonment and a large fine."
       ]
+    },
+    "overstay": {
+      "fine": {
+        "amount": 500000,
+        "currency": "VUV",
+        "per": "incident",
+        "maxAmount": 500000
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "A non-citizen who entered lawfully but stays without a valid visa commits an offence punishable by a fine of up to VT500,000, up to 2 years' imprisonment, or both. A visa ceases to be in force at the end of the last day of the period for which it was granted. The Minister may order the removal of a non-citizen who is a prohibited immigrant.",
+      "source": {
+        "url": "https://vanuatuhighcomm-fj.gov.vu/images/acts/Immigration-Act-of-2010.pdf",
+        "name": "Vanuatu High Commission, Suva — Immigration Act No. 17 of 2010",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Immigration Act No. 17 of 2010, ss 26(4)-(5), 41(2), 50(1)(b), 53(1)(a)"
+      }
     }
   },
   "countryFacts": {
@@ -3045,6 +3067,24 @@
       {
         "text": "Those intending to stay in the country for more than 3 months are required to get a Vanuatu license by obtaining an approval from the Police Traffic Section.",
         "url": "https://vanuatucustoms.gov.vu/images/Brochures/IRD/eng/Drivers_Licence_21.pdf"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "(4) A non-citizen who lawfully enters Vanuatu commits an offence if he or she remains in Vanuatu and is not the holder of a valid visa. (5) A non-citizen who commits an offence under subsection (4) is liable on conviction to a fine not exceeding VT500,000 or a term of imprisonment of not more than 2 years or both.",
+        "url": "https://vanuatuhighcomm-fj.gov.vu/images/acts/Immigration-Act-of-2010.pdf"
+      },
+      {
+        "text": "(2) Subject to the cancellation of a visa, a visa ceases to be in force at the end of the last day of the period for which the visa has been granted.",
+        "url": "https://vanuatuhighcomm-fj.gov.vu/images/acts/Immigration-Act-of-2010.pdf"
+      },
+      {
+        "text": "(b) a person who attempts to enter or enters Vanuatu, or who enters and remains in Vanuatu, in contravention of this Act;",
+        "url": "https://vanuatuhighcomm-fj.gov.vu/images/acts/Immigration-Act-of-2010.pdf"
+      },
+      {
+        "text": "53 Grounds for removal orders (1) The Minister may make an order for the removal from Vanuatu of a person who is a non- citizen if the Minister is satisfied that: (a) the person is a prohibited immigrant; or",
+        "url": "https://vanuatuhighcomm-fj.gov.vu/images/acts/Immigration-Act-of-2010.pdf"
       }
     ]
   }

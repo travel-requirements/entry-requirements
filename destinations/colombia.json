@@ -50,7 +50,8 @@
     "modules": [
       "driving",
       "overstay",
-      "levies"
+      "levies",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -5235,6 +5236,30 @@
           }
         ]
       }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": null,
+      "responsibility": "accommodation",
+      "appliesTo": "all",
+      "penaltyText": "Economic sanctions apply when owners, managers, tenants or holders of hotels, guesthouses, hostels, aparthotels and other lodging providers fail any of the decree's obligations.",
+      "url": "https://apps.migracioncolombia.gov.co/sire/public/login.jsf",
+      "text": "Hotels, guesthouses, hostels, aparthotels, campsites and other lodging providers keep a daily register of foreign guests (full name, nationality, identity document, date of birth, gender, profession, place of origin, destination, and arrival and departure dates). They report the final arrivals and departures of foreigners to Migración Colombia daily, by the means set for that purpose. Failing any of these obligations gives rise to economic sanctions. SIRE is Migración Colombia's official tool for reporting the lodging of foreigners.",
+      "source": {
+        "url": "https://www.cancilleria.gov.co/normograma/compilacion/docs/decreto_1067_2015.htm",
+        "name": "Ministerio de Relaciones Exteriores (Cancillería) normograma — Decreto 1067 de 2015 (Decreto Único Reglamentario del Sector Administrativo de Relaciones Exteriores)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Decreto 1067 de 2015, artículos 2.2.1.11.5.8 and 2.2.1.13.1 (num. 10)",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.migracioncolombia.gov.co/tramites-y-servicios/aplicativos/registro-sire",
+            "name": "Official page — www.migracioncolombia.gov.co",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -5828,6 +5853,50 @@
       {
         "text": "El impuesto con destino al turismo tendrá un valor de USD15 y deberá ser incluido por las empresas que presten de manera regular el servicio de transporte aéreo internacional de pasajeros, en el valor de los tiquetes o pasajes aéreos.",
         "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_1101_2006.html"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "ARTÍCULO 2.2.1.11.5.8. DE LOS SERVICIOS DE HOSPEDAJE. En hoteles, pensiones, hostales, residencias, apartahoteles y demás establecimientos que presten el servicio de hospedaje y en campamentos en cualquier modalidad, están autorizados para solicitar la presentación del documento de identificación a los extranjeros para efectos de su registro o de la prestación del servicio y llevarán un registro diario de extranjeros con numeración continua del ingreso y salida de los usuarios de estos servicios, en el cual consten los siguientes datos: nombres y apellidos completos, nacionalidad y documento de identidad, fecha de nacimiento, género, profesión, lugar de procedencia, de destino y fechas de llegada y de salida.",
+        "url": "https://www.cancilleria.gov.co/normograma/compilacion/docs/decreto_1067_2015.htm"
+      },
+      {
+        "text": "Estos establecimientos reportarán diariamente a la Unidad Administrativa Especial Migración Colombia, las novedades sobre el ingreso y salida definitivos de extranjeros por el medio establecido para tal fin, sin perjuicio de la revisión que puedan efectuar en cualquier momento las autoridades de migración.",
+        "url": "https://www.cancilleria.gov.co/normograma/compilacion/docs/decreto_1067_2015.htm"
+      },
+      {
+        "text": "Habrá lugar a las sanciones económicas en los siguientes eventos:",
+        "url": "https://www.cancilleria.gov.co/normograma/compilacion/docs/decreto_1067_2015.htm"
+      },
+      {
+        "text": "10. Incumplimiento de alguna de las obligaciones establecidas en capítulos precedentes de este Decreto por parte de los dueños, administradores, arrendatarios, tenedores y comodatarios de hoteles, pensiones, hostales, residencias, apartahoteles, fincas, casas apartamentos y demás establecimientos que presten el servicio de hospedaje.",
+        "url": "https://www.cancilleria.gov.co/normograma/compilacion/docs/decreto_1067_2015.htm"
+      },
+      {
+        "text": "El Sistema de Reporte de Extranjeros(as) (SIRE) es la herramienta tecnológica oficial de Migración Colombia para reportar la vinculación, contratación, empleo, admisión, matrícula, desvinculación, retiro, ingreso, alojamiento, hospedaje, atención médica de urgencias y realización de espectáculos con extranjeros(as).",
+        "url": "https://www.migracioncolombia.gov.co/tramites-y-servicios/aplicativos/registro-sire"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "ARTÍCULO 2.2.1.11.5.8. DE LOS SERVICIOS DE HOSPEDAJE. En hoteles, pensiones, hostales, residencias, apartahoteles y demás establecimientos que presten el servicio de hospedaje y en campamentos en cualquier modalidad, están autorizados para solicitar la presentación del documento de identificación a los extranjeros para efectos de su registro o de la prestación del servicio y llevarán un registro diario de extranjeros con numeración continua del ingreso y salida de los usuarios de estos servicios, en el cual consten los siguientes datos: nombres y apellidos completos, nacionalidad y documento de identidad, fecha de nacimiento, género, profesión, lugar de procedencia, de destino y fechas de llegada y de salida.",
+        "url": "https://www.cancilleria.gov.co/normograma/compilacion/docs/decreto_1067_2015.htm"
+      },
+      {
+        "text": "Estos establecimientos reportarán diariamente a la Unidad Administrativa Especial Migración Colombia, las novedades sobre el ingreso y salida definitivos de extranjeros por el medio establecido para tal fin, sin perjuicio de la revisión que puedan efectuar en cualquier momento las autoridades de migración.",
+        "url": "https://www.cancilleria.gov.co/normograma/compilacion/docs/decreto_1067_2015.htm"
+      },
+      {
+        "text": "Habrá lugar a las sanciones económicas en los siguientes eventos:",
+        "url": "https://www.cancilleria.gov.co/normograma/compilacion/docs/decreto_1067_2015.htm"
+      },
+      {
+        "text": "10. Incumplimiento de alguna de las obligaciones establecidas en capítulos precedentes de este Decreto por parte de los dueños, administradores, arrendatarios, tenedores y comodatarios de hoteles, pensiones, hostales, residencias, apartahoteles, fincas, casas apartamentos y demás establecimientos que presten el servicio de hospedaje.",
+        "url": "https://www.cancilleria.gov.co/normograma/compilacion/docs/decreto_1067_2015.htm"
+      },
+      {
+        "text": "El Sistema de Reporte de Extranjeros(as) (SIRE) es la herramienta tecnológica oficial de Migración Colombia para reportar la vinculación, contratación, empleo, admisión, matrícula, desvinculación, retiro, ingreso, alojamiento, hospedaje, atención médica de urgencias y realización de espectáculos con extranjeros(as).",
+        "url": "https://www.migracioncolombia.gov.co/tramites-y-servicios/aplicativos/registro-sire"
       }
     ]
   },

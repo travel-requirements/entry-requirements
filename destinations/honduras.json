@@ -19,7 +19,7 @@
   ],
   "summary": "Honduras's own per-nationality visa list is no longer online, so this page gives the entry rule only for passports an official source still states. The National Institute of Migration says a tourist may stay up to 90 days, extendable by 30 days, and distinguishes a consular visa from a \"consulted\" visa that it must validate first. It says citizens of Guatemala, El Salvador and Nicaragua can use a national identity card or a passport under the CA-4 agreement. The Institute runs an online immigration pre-check (prechequeo).",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -37,7 +37,9 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -1851,6 +1853,28 @@
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-03"
       }
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "The UK government says overstayers may get a fine that must be paid before leaving Honduras, and refers them to the National Institute of Migration to extend their stay or pay a fine.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/honduras/entry-requirements",
+        "name": "UK FCDO — Honduras travel advice: Entry requirements",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "alsoStatedOn": [
+          {
+            "url": "https://travel.gc.ca/destinations/honduras",
+            "name": "Government of Canada — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -2365,6 +2389,46 @@
         "url": "https://inm.gob.hn/visas.html",
         "text": "Visa Consultada Es aquella que se expide a extranjeros previa validación del Instituto Nacional de Migración (INM), quien extenderá la autorización escrito, para que la persona extranjera que la solicitó pueda gestionar la solicitud ante cualquier Consulado hondureño."
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "url": "https://www.gov.uk/foreign-travel-advice/honduras/entry-requirements",
+        "text": "If you overstay, you may get a fine that you must pay before you leave Honduras. For information on how to extend your stay or pay a fine, contact the National Institute of Migration (Spanish language website)."
+      }
+    ],
+    "levies.hn-airport-departure-tax": [
+      {
+        "text": "There is an airport departure tax for international flights ranging from USD40 - USD55 (or the same amount in Honduran lempiras) depending on the airport. This is normally included in the cost of your ticket.",
+        "url": "https://www.gov.uk/foreign-travel-advice/honduras/entry-requirements"
+      }
+    ],
+    "levies.hn-airport-departure-tax.feeText": [
+      {
+        "text": "There is an airport departure tax for international flights ranging from USD40 - USD55 (or the same amount in Honduran lempiras) depending on the airport. This is normally included in the cost of your ticket.",
+        "url": "https://www.gov.uk/foreign-travel-advice/honduras/entry-requirements"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "hn-airport-departure-tax",
+      "name": "Airport departure tax (international flights)",
+      "kind": "departure-tax",
+      "fee": null,
+      "per": "person-per-trip",
+      "paidAt": "included-in-ticket",
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "The UK government says there is an airport departure tax for international flights of USD 40 to USD 55, or the same amount in Honduran lempiras, depending on the airport, and that it is normally included in the ticket price.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/honduras/entry-requirements",
+        "name": "UK FCDO — Honduras travel advice: Entry requirements",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12"
+      },
+      "feeText": "USD 40 to USD 55 (or the same amount in Honduran lempiras), depending on the airport, according to the UK government"
+    }
+  ]
 }

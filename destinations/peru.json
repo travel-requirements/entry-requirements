@@ -20,7 +20,7 @@
   ],
   "summary": "Peru's Foreign Ministry table of visa exemptions for ordinary passports lists citizens of the US, Canada, the UK, Ireland, Australia and Japan as exempt for 90 days, extendable once for the same period within 365 days of first entry, and Germany and other EU and Schengen states for 90 days in every 180 days. It lets Chinese and Indian citizens enter without a temporary tourist visa if they hold a visa valid for at least six months from the US, Canada, the UK, Australia or a Schengen state, or permanent residence in one of them. Canada's travel advice says international airports keep digital records of entry and exit instead of stamping passports.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -52,7 +52,9 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -3896,6 +3898,67 @@
         "Canada's travel advice says international airports in Peru will not stamp your passport and keep digital records of entry and exit instead; Peru's migration authority says you can check your authorized stay by downloading your virtual Andean Migration Card.",
         "The UK government advises not taking coca leaves or coca tea out of the country, as it is illegal to import these items into the UK."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "Tourists who exceed their permitted stay must pay a fine of 0.1% of the UIT (tax unit) for each day of overstay. A Migraciones page gives the value of the UIT for 2026 as S/ 5,500. The Canadian government says overstaying is a criminal offence, that there is a fine for each day of overstay and that it must be paid when leaving the country. The UK government says overstayers get a fine and could be detained.",
+      "source": {
+        "url": "https://www.gob.pe/institucion/migraciones/campa%C3%B1as/64003-informacion-fundamental-para-turistas-en-peru",
+        "name": "Superintendencia Nacional de Migraciones (gob.pe) — Información fundamental para turistas en Perú",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gob.pe/institucion/migraciones/noticias/1308644-migraciones-turistas-extranjeros-tienen-que-verificar-su-tiempo-de-permanencia-en-el-pais-para-evitar-inconvenientes",
+            "name": "Official page — www.gob.pe",
+            "lastVerified": "2026-10-12"
+          },
+          {
+            "url": "https://www.gob.pe/110834-conoce-las-multas-por-no-cumplir-con-el-registro-de-extranjeros",
+            "name": "Official page — www.gob.pe",
+            "lastVerified": "2026-10-12"
+          },
+          {
+            "url": "https://travel.gc.ca/destinations/peru",
+            "name": "Government of Canada — travel advice",
+            "lastVerified": "2026-10-12"
+          },
+          {
+            "url": "https://www.gov.uk/foreign-travel-advice/peru/entry-requirements",
+            "name": "UK Foreign, Commonwealth & Development Office — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": null,
+      "responsibility": "accommodation",
+      "appliesTo": "all",
+      "penaltyText": "Fines for lodging providers: 1 UIT for not asking the foreigner for the travel or identity documents with which they entered; 1 UIT for providing lodging without registering the foreigner's identification data; 2 UIT for not sending the registered information to Migraciones.",
+      "url": "https://registrohuespedes.migraciones.gob.pe/web_sigrhe",
+      "text": "Lodging establishments and landlords must register the foreigners to whom they provide lodging or housing rental on a free Migraciones platform. Registration is compulsory before providing the service, whether in hotels, hostels, rented houses, flats or rooms, or through platforms such as Airbnb, and the foreigner's identification data must be entered correctly so that it reaches Migraciones. The obligation has applied since 10 December 2024. Providers are fined 1 UIT for not asking for the foreigner's documents or for not registering them, and 2 UIT for not sending the data to Migraciones.",
+      "source": {
+        "url": "https://www.gob.pe/110824-todo-sobre-el-registro-de-huespedes-extranjeros",
+        "name": "Superintendencia Nacional de Migraciones (gob.pe) — Todo sobre el registro de huéspedes y arrendamiento a extranjeros",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Reglamento de Migraciones as updated by Decreto Supremo N.° 011-2024-IN (in force 10 December 2024)",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gob.pe/110834-conoce-las-multas-por-no-cumplir-con-el-registro-de-extranjeros",
+            "name": "Official page — www.gob.pe",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -4497,6 +4560,88 @@
       {
         "text": "(90**/180**/183**) Días no prorrogables dentro de un plazo de trescientos sesenta y cinco (365) días contados desde su primer ingreso al territorio nacional.",
         "url": "https://cdn.www.gob.pe/uploads/document/file/3284513/2315744-exoneracion-de-visas-pas-ordinario-16-07-2026-v2.pdf"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "Importante: No excedas tu tiempo de permanencia, de lo contrario deberás pagar una multa diaria equivalente al 0.1% de la Unidad Impositiva Tributaria (UIT), por cada día de exceso de permanencia (UIT para el año 2024 = S/ 5,150).",
+        "url": "https://www.gob.pe/institucion/migraciones/campa%C3%B1as/64003-informacion-fundamental-para-turistas-en-peru"
+      },
+      {
+        "text": "Asimismo, en caso de excederse el permiso otorgado, deberás pagar una multa, equivalente al 0.1% de la Unidad Impositiva Tributaria (UIT), por cada día de exceso de permanencia. Recuerda que la UIT para este año asciende a S/ 5350.",
+        "url": "https://www.gob.pe/institucion/migraciones/noticias/1308644-migraciones-turistas-extranjeros-tienen-que-verificar-su-tiempo-de-permanencia-en-el-pais-para-evitar-inconvenientes"
+      },
+      {
+        "text": "Su valor para el año 2026 es de S/ 5,500 de acuerdo con el Decreto Supremo Nº 301-2025-EF (17DIC2025).",
+        "url": "https://www.gob.pe/110834-conoce-las-multas-por-no-cumplir-con-el-registro-de-extranjeros"
+      },
+      {
+        "text": "Overstaying is a criminal offence. There is a fine for each day of overstay. This fee must be paid upon exiting the country.",
+        "url": "https://travel.gc.ca/destinations/peru"
+      },
+      {
+        "text": "If you overstay, you will get a fine and you could be detained.",
+        "url": "https://www.gov.uk/foreign-travel-advice/peru/entry-requirements"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "Migraciones ha implementado una plataforma gratuita para que los establecimientos de hospedaje y los arrendadores de inmuebles registren a las personas extranjeras a quienes brindan el servicio de hospedaje o alquiler con fines de vivienda.",
+        "url": "https://www.gob.pe/110824-todo-sobre-el-registro-de-huespedes-extranjeros"
+      },
+      {
+        "text": "Este registro es obligatorio antes de brindar el servicio, ya sea en hoteles, hostales, alquiler de casas, departamentos, habitaciones o mediante plataformas como Airbnb.",
+        "url": "https://www.gob.pe/110824-todo-sobre-el-registro-de-huespedes-extranjeros"
+      },
+      {
+        "text": "Consignar correctamente los datos de identificación solicitados de la persona extranjera, para que estos lleguen a Migraciones.",
+        "url": "https://www.gob.pe/110824-todo-sobre-el-registro-de-huespedes-extranjeros"
+      },
+      {
+        "text": "Esta obligación está vigente desde el 10 de diciembre de 2024, conforme al Decreto Supremo N.° 011-2024-IN.",
+        "url": "https://www.gob.pe/110824-todo-sobre-el-registro-de-huespedes-extranjeros"
+      },
+      {
+        "text": "No solicitar a la persona extranjera los documentos de viaje o identidad que autorizaron su ingreso al país. Multa: 1 UIT.",
+        "url": "https://www.gob.pe/110834-conoce-las-multas-por-no-cumplir-con-el-registro-de-extranjeros"
+      },
+      {
+        "text": "Brindar alojamiento sin registrar los datos de identificación de la persona extranjera. Multa: 1 UIT.",
+        "url": "https://www.gob.pe/110834-conoce-las-multas-por-no-cumplir-con-el-registro-de-extranjeros"
+      },
+      {
+        "text": "No remitir a Migraciones la información registrada de la persona extranjera hospedada. Multa: 2 UIT.",
+        "url": "https://www.gob.pe/110834-conoce-las-multas-por-no-cumplir-con-el-registro-de-extranjeros"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "Migraciones ha implementado una plataforma gratuita para que los establecimientos de hospedaje y los arrendadores de inmuebles registren a las personas extranjeras a quienes brindan el servicio de hospedaje o alquiler con fines de vivienda.",
+        "url": "https://www.gob.pe/110824-todo-sobre-el-registro-de-huespedes-extranjeros"
+      },
+      {
+        "text": "Este registro es obligatorio antes de brindar el servicio, ya sea en hoteles, hostales, alquiler de casas, departamentos, habitaciones o mediante plataformas como Airbnb.",
+        "url": "https://www.gob.pe/110824-todo-sobre-el-registro-de-huespedes-extranjeros"
+      },
+      {
+        "text": "Consignar correctamente los datos de identificación solicitados de la persona extranjera, para que estos lleguen a Migraciones.",
+        "url": "https://www.gob.pe/110824-todo-sobre-el-registro-de-huespedes-extranjeros"
+      },
+      {
+        "text": "Esta obligación está vigente desde el 10 de diciembre de 2024, conforme al Decreto Supremo N.° 011-2024-IN.",
+        "url": "https://www.gob.pe/110824-todo-sobre-el-registro-de-huespedes-extranjeros"
+      },
+      {
+        "text": "No solicitar a la persona extranjera los documentos de viaje o identidad que autorizaron su ingreso al país. Multa: 1 UIT.",
+        "url": "https://www.gob.pe/110834-conoce-las-multas-por-no-cumplir-con-el-registro-de-extranjeros"
+      },
+      {
+        "text": "Brindar alojamiento sin registrar los datos de identificación de la persona extranjera. Multa: 1 UIT.",
+        "url": "https://www.gob.pe/110834-conoce-las-multas-por-no-cumplir-con-el-registro-de-extranjeros"
+      },
+      {
+        "text": "No remitir a Migraciones la información registrada de la persona extranjera hospedada. Multa: 2 UIT.",
+        "url": "https://www.gob.pe/110834-conoce-las-multas-por-no-cumplir-con-el-registro-de-extranjeros"
       }
     ]
   }

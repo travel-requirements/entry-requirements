@@ -16,7 +16,7 @@
   ],
   "summary": "Madagascar's official eVisa portal says all nationalities are eligible for the tourist eVisa — a single-entry visa with a maximum duration of 60 days — and that the application can also be made on arrival at the eVisa counters, at the same prices. Fees depend on the length of stay: 1–15, 16–30 and 31–60 days.",
   "meta": {
-    "lastUpdated": "2026-10-11",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -28,7 +28,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay"
     ]
   },
   "visaPolicy": {
@@ -3926,6 +3927,28 @@
         "The UK FCDO says it is illegal to take any food, including fruit, into Madagascar. It says you may take out up to 2 kg of vanilla and up to 1 kg of pepper or cloves.",
         "The UK FCDO says it is illegal to collect, buy or export protected animals, plants or products made from them, including items made of rosewood."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "The UK government says visitors who overstay may be detained or deported. The Australian government says the same.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/madagascar/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Madagascar travel advice: entry requirements",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.smartraveller.gov.au/destinations/africa/madagascar",
+            "name": "Australian Government, Smartraveller — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -4524,6 +4547,16 @@
       {
         "url": "https://evisamada-mg.com/en/info/about",
         "text": "The tourist eVisa is a single entry visa with a maximum duration of 60 days."
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "You can extend either of these visas to a maximum total stay of 90 days while you are in Madagascar. If you overstay, you may be detained or deported.",
+        "url": "https://www.gov.uk/foreign-travel-advice/madagascar/entry-requirements"
+      },
+      {
+        "text": "Make sure your passport is stamped when passing through immigration. Take care not to overstay your visa otherwise you may be detained or deported.",
+        "url": "https://www.smartraveller.gov.au/destinations/africa/madagascar"
       }
     ]
   }

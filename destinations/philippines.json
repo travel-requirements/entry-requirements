@@ -42,7 +42,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -2506,6 +2507,30 @@
           }
         ]
       }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": null,
+      "responsibility": "traveler",
+      "appliesTo": "all",
+      "penaltyText": null,
+      "url": null,
+      "text": "The Bureau of Immigration says all foreign nationals, including holders of a Temporary Visitor's Visa, who have stayed more than 59 days in the Philippines must apply for an ACR I-Card, which is issued to registered aliens whose stay has exceeded 59 days. Canada's travel advice says foreign nationals staying longer than 59 days must register with the local authorities.",
+      "source": {
+        "url": "https://immigration.gov.ph/faqs/",
+        "name": "Bureau of Immigration Philippines — FAQs (Who are required to apply for an ACR I-Card?)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Alien Certificate of Registration Identity Card (ACR I-Card)",
+        "alsoStatedOn": [
+          {
+            "url": "https://travel.gc.ca/destinations/philippines",
+            "name": "Government of Canada — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -3126,6 +3151,20 @@
       {
         "text": "A Black List Order (BLO) disallows a foreign national entry into the Philippines. One of the common reasons for inclusion in the BL is that a foreign national has violated the Philippine Immigration law/s such as overstaying.",
         "url": "https://immigration.gov.ph/faqs/"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "All foreign nationals under immigrant and non-immigrant visas including holders of Temporary Visitor’s Visa, who have stayed for more than fifty nine (59) days in the Philippines.",
+        "url": "https://immigration.gov.ph/faqs/"
+      },
+      {
+        "text": "An ACR I-Card is a microchip based, credit card-sized, identification card issued to all registered aliens whose stay in the Philippines has exceeded fifty-nine (59) days.",
+        "url": "https://immigration.gov.ph/faqs/"
+      },
+      {
+        "text": "Foreign nationals staying in the Philippines for longer than 59 days must register with the local authorities.",
+        "url": "https://travel.gc.ca/destinations/philippines"
       }
     ]
   }

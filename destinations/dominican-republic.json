@@ -16,7 +16,7 @@
   ],
   "summary": "The UK government says British citizens can visit the Dominican Republic for tourism without a visa for 30 days, and Canada's travel advice says a tourist visa is not required for up to 30 days. The Dirección General de Migración offers tourists who want to stay more than 30 days an extension (prórroga) of up to 120 days. Every passenger entering or leaving must complete the digital e-Ticket form, which Migration says is free. Under Decree No. 691-07, foreigners with permanent residence or a valid multiple-entry visa for the United States, the European Union (Schengen), Canada or Great Britain can enter for tourism with only a valid passport and a tourist card.",
   "meta": {
-    "lastUpdated": "2026-10-11",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -63,7 +63,9 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -5139,6 +5141,28 @@
         }
       },
       "notes": []
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "Foreigners who have exceeded the stay authorised by law regularise their migration status when leaving the country by paying the fee for the overstay period. The service is offered at the administrative desks at authorised exit points in airports, ports and land border posts. The amount may vary with the total time spent in the country. The tax authority (DGII) says that a foreigner entering with a Tourist Card may stay 30 days, and after that may extend the stay by paying the fee set by the Directorate General of Migration.",
+      "source": {
+        "url": "https://migracion.gob.do/servicio/solicitud-del-calculo-y-pago-de-tasas-de-estadia/",
+        "name": "Dirección General de Migración (DR) — Servicio de cálculo y pago de tasas de estadía (stay-fee calculation and payment)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "alsoStatedOn": [
+          {
+            "url": "https://dgii.gov.do/sobreTarjetaTurista/Paginas/preguntasFrecuentes.aspx",
+            "name": "Official page — dgii.gov.do",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -5581,6 +5605,63 @@
         "text": "El Decreto Núm. 691-07, del 18 de diciembre de 2007, facilita la entrada a la República Dominicana a extranjeros con residencia permanente o visado de entradas múltiples vigente en Estados Unidos, Unión Europea (Schengen), Canadá o Gran Bretaña. Pueden ingresar solo con pasaporte válido y una Tarjeta de Turismo para fines turísticos.",
         "url": "https://consultas.mirex.gob.do/servicios/visas/consulta-de-requisitos-para-extranjeros-ingresar-a-la-republica-dominicana"
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "Servicio mediante el cual los extranjeros que han excedido el tiempo de permanencia autorizado por la Ley en la República Dominicana regularizan su situación migratoria al momento de salir del país, mediante el pago de la tasa correspondiente al período de sobreestadía.",
+        "url": "https://migracion.gob.do/servicio/solicitud-del-calculo-y-pago-de-tasas-de-estadia/"
+      },
+      {
+        "text": "DEPARTAMENTO QUE LO OFRECE Area administrativa en los Puntos de salidas autorizados en Aeropuertos, Puertos y Puestos Fronterizos Terrestre.",
+        "url": "https://migracion.gob.do/servicio/solicitud-del-calculo-y-pago-de-tasas-de-estadia/"
+      },
+      {
+        "text": "El monto a pagar por concepto de tarifa de estadía puede variar según el tiempo total de permanencia en el país.",
+        "url": "https://migracion.gob.do/servicio/solicitud-del-calculo-y-pago-de-tasas-de-estadia/"
+      },
+      {
+        "text": "Todo extranjero que ingrese al país con la Tarjeta de Turista puede permanecer en el territorio nacional por un período de 30 días. Pasado este tiempo, puede extender su estadía pagando la tarifa establecida por la Dirección General de Migración.",
+        "url": "https://dgii.gov.do/sobreTarjetaTurista/Paginas/preguntasFrecuentes.aspx"
+      }
+    ],
+    "levies.tourist-card": [
+      {
+        "text": "La Tarjeta de Turista es una tasa impositiva que cobra la República Dominicana a sus visitantes. Tiene base legal en la Ley 199-67 que establece que su adquisición es un requisito para el ingreso al territorio nacional, con fines turísticos, sin necesidad de una visa consular. Actualmente su costo es de US$10.00 y su uso se limita a una sola entrada.",
+        "url": "https://dgii.gov.do/sobreTarjetaTurista/Paginas/default.aspx"
+      },
+      {
+        "text": "Desde el 25 de abril de 2018, la Tarjeta de Turista se incluye en todos los boletos aéreos emitidos fuera de República Dominicana, por lo que los visitantes que ingresen al territorio nacional por vía aérea no necesitan adquirirla en el aeropuerto de llegada.",
+        "url": "https://dgii.gov.do/sobreTarjetaTurista/Paginas/default.aspx"
+      },
+      {
+        "text": "Para los visitantes que ingresen al país por vía terrestre o marítima, la Tarjeta de Turista puede adquirirse en los puntos de venta de la Dirección General de Impuestos Internos dispuestos en dichas localidades.",
+        "url": "https://dgii.gov.do/sobreTarjetaTurista/Paginas/default.aspx"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "tourist-card",
+      "name": "Tourist Card (Tarjeta de Turista)",
+      "kind": "arrival-tax",
+      "fee": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "per": "person-per-trip",
+      "paidAt": "included-in-ticket",
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "The Tourist Card is a tax the Dominican Republic charges its visitors. Under Law 199-67, buying it is a requirement to enter the country for tourism without a consular visa. It currently costs US$10.00 and is valid for one entry only. Since 25 April 2018 it is included in all air tickets issued outside the Dominican Republic, so visitors arriving by air do not need to buy it at the airport. Visitors arriving by land or sea can buy it at the tax authority's (DGII) points of sale there.",
+      "source": {
+        "url": "https://dgii.gov.do/sobreTarjetaTurista/Paginas/default.aspx",
+        "name": "Dirección General de Impuestos Internos (DGII) — Sobre Tarjeta de Turista",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Ley 199-67"
+      }
+    }
+  ]
 }

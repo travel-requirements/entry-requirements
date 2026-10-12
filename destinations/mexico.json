@@ -18,7 +18,7 @@
   ],
   "summary": "Mexico's National Migration Institute (INM) publishes a list of countries and regions whose nationals do not need a visa to travel to Mexico as visitors without permission to do paid work (tourism), and says a visitor cannot exceed 180 days. A valid visa from Canada, the United States, Japan, the United Kingdom or any Schengen country can be presented as an alternative to the Mexican visa, and a free electronic authorization (SAE) lets nationals of Ukraine, Turkey and Russia travel to Mexico by air without a paper visa.",
   "meta": {
-    "lastUpdated": "2026-10-09",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -46,6 +46,10 @@
         "archiveUrl": "https://web.archive.org/web/20260703080139/https://www.inm.gob.mx/sae/publico/en/solicitud.html",
         "portalOnly": true
       }
+    ],
+    "modules": [
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -4238,6 +4242,29 @@
         "Australia's Smartraveller says it is illegal to carry firearms or ammunition without a permit, including in Mexican waters, and that if you need a firearm permit you should apply at a Mexican embassy or consulate before you arrive. Canada's travel advice says anyone entering Mexico with a firearm or ammunition without prior written authorization from Mexican authorities is subject to imprisonment.",
         "The UK government says it is illegal to bring e-cigarettes, vaping devices and solutions into Mexico; customs officials will confiscate them and could fine or detain you."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "A foreigner who entered regularly and exceeded the period of stay first granted may apply to regularize their status, provided they apply within 60 calendar days after the authorized period expires. When regularization is authorized, a fine of 20 to 100 days of the general minimum wage in force in the Federal District is imposed.",
+      "source": {
+        "url": "https://www.gob.mx/cms/uploads/attachment/file/907543/LMigra.pdf",
+        "name": "Cámara de Diputados (copy on gob.mx) — Ley de Migración, última reforma DOF 29-04-2022",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Ley de Migración, artículos 134 fracción I y 146",
+        "alsoStatedOn": [
+          {
+            "url": "https://travel.gc.ca/destinations/mexico",
+            "name": "Government of Canada — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -4675,6 +4702,224 @@
         "text": "No podrás rebasar los 180 días (a menos de contar con una residencia o trámite migratorio).",
         "url": "https://www.gob.mx/inm/documentos/paises-y-regiones-que-requieren-visa-para-viajar-a-mexico"
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "Artículo 134. Los extranjeros también podrán solicitar la regularización de su situación migratoria, salvo lo dispuesto en el artículo 43 de esta Ley, cuando: I. Habiendo obtenido autorización para internarse de forma regular al país, hayan excedido el período de estancia inicialmente otorgado, siempre y cuando presenten su solicitud dentro de los sesenta días naturales siguientes al vencimiento del período de estancia autorizado, o",
+        "url": "https://www.gob.mx/cms/uploads/attachment/file/907543/LMigra.pdf"
+      },
+      {
+        "text": "Artículo 146. A los extranjeros que se les autorice la regularización de su situación migratoria en los términos previstos en el artículo 134 de esta Ley, se les impondrá una multa de veinte a cien días de salario mínimo general vigente en el Distrito Federal.",
+        "url": "https://www.gob.mx/cms/uploads/attachment/file/907543/LMigra.pdf"
+      }
+    ],
+    "levies.mx-derecho-no-residente": [
+      {
+        "text": "ARTÍCULO 8 FRACCIÓN I DE LA LEY FEDERAL DE DERECHOS (LFD) Por la recepción, estudio y, en su caso, la expedición del documento migratorio que acredita la condición de estancia de: Visitante sin permiso para realizar actividades remuneradas (DNR). $983.00 MXN",
+        "url": "https://www.gob.mx/cms/uploads/attachment/file/1045967/INTERNACIO_N_VI_A_AE_REA_2026.pdf"
+      },
+      {
+        "text": "Most foreign visitors must pay a migratory entry fee.",
+        "url": "https://travel.gc.ca/destinations/mexico"
+      },
+      {
+        "text": "This fee is normally included in airline and cruise ship tickets. Foreign visitors arriving by land will have to pay this fee at the migration entry booth with a credit or debit card, at a bank following entry, or online prior to arrival. The receipt must be attached to your FMM for submission at departure.",
+        "url": "https://travel.gc.ca/destinations/mexico"
+      },
+      {
+        "text": "You don’t have to pay this fee if you’re entering by land for tourism purposes and your stay will not exceed 7 days.",
+        "url": "https://travel.gc.ca/destinations/mexico"
+      }
+    ],
+    "levies.mx-derecho-no-residente.exemptions": [
+      {
+        "text": "ARTÍCULO 8 FRACCIÓN I DE LA LEY FEDERAL DE DERECHOS (LFD) Por la recepción, estudio y, en su caso, la expedición del documento migratorio que acredita la condición de estancia de: Visitante sin permiso para realizar actividades remuneradas (DNR). $983.00 MXN",
+        "url": "https://www.gob.mx/cms/uploads/attachment/file/1045967/INTERNACIO_N_VI_A_AE_REA_2026.pdf"
+      },
+      {
+        "text": "Most foreign visitors must pay a migratory entry fee.",
+        "url": "https://travel.gc.ca/destinations/mexico"
+      },
+      {
+        "text": "This fee is normally included in airline and cruise ship tickets. Foreign visitors arriving by land will have to pay this fee at the migration entry booth with a credit or debit card, at a bank following entry, or online prior to arrival. The receipt must be attached to your FMM for submission at departure.",
+        "url": "https://travel.gc.ca/destinations/mexico"
+      },
+      {
+        "text": "You don’t have to pay this fee if you’re entering by land for tourism purposes and your stay will not exceed 7 days.",
+        "url": "https://travel.gc.ca/destinations/mexico"
+      }
+    ],
+    "levies.mx-derecho-servicios-migratorios-salida": [
+      {
+        "text": "ARTÍCULO 12 DE LA LFD Por la prestación de los servicios migratorios en aeropuertos a pasajeros de vuelos internacionales que abandonen el territorio nacional (DSM). $232.00 MXN",
+        "url": "https://www.gob.mx/cms/uploads/attachment/file/1045967/INTERNACIO_N_VI_A_AE_REA_2026.pdf"
+      },
+      {
+        "text": "You may need to pay a departure tax when leaving Mexico by air or land. The cost can vary, and some airports or border crossings only accept cash. Most airlines include the cost within the ticket price. If in doubt, check with your airline or tour operator.",
+        "url": "https://www.gov.uk/foreign-travel-advice/mexico/entry-requirements"
+      }
+    ],
+    "levies.mx-qroo-visitax": [
+      {
+        "text": "Artículo 51-Octies. Las personas visitantes extranjeras al ingresar al Estado deberán pagar un derecho conforme a la tarifa siguiente: CONCEPTO UMA Por el uso o aprovechamiento de bienes inmuebles del dominio público del Estado. 2.50 El derecho previsto en este artículo deberá ser enterado en los medios autorizados por la Secretaría a través del SATQ, que se dará a conocer mediante reglas de carácter general. Estarán exentos del pago de los derechos a que se refiera el presente artículo, las personas visitantes extranjeras que ingresen al Estado de Quintana Roo por la frontera sur de la Entidad.",
+        "url": "https://documentos.congresoqroo.gob.mx/leyes/L195-XVIII-20251216-L1820251216186-Ley-de-Derechos.pdf"
+      },
+      {
+        "text": "Visitax is the State Government application for the payment of contributions from foreign tourists. To complete the process, provide the requested information and proceed to the corresponding payment.",
+        "url": "https://www.visitax.gob.mx/sitio/"
+      },
+      {
+        "text": "You must pay an entry tax to visit the state of Quintana Roo – you can pay the entry tax online before or during your stay. You can get help paying online at Cancun Airport. You must show proof of payment at the airport before leaving.",
+        "url": "https://www.gov.uk/foreign-travel-advice/mexico/entry-requirements"
+      }
+    ],
+    "levies.mx-qroo-visitax.exemptions": [
+      {
+        "text": "Artículo 51-Octies. Las personas visitantes extranjeras al ingresar al Estado deberán pagar un derecho conforme a la tarifa siguiente: CONCEPTO UMA Por el uso o aprovechamiento de bienes inmuebles del dominio público del Estado. 2.50 El derecho previsto en este artículo deberá ser enterado en los medios autorizados por la Secretaría a través del SATQ, que se dará a conocer mediante reglas de carácter general. Estarán exentos del pago de los derechos a que se refiera el presente artículo, las personas visitantes extranjeras que ingresen al Estado de Quintana Roo por la frontera sur de la Entidad.",
+        "url": "https://documentos.congresoqroo.gob.mx/leyes/L195-XVIII-20251216-L1820251216186-Ley-de-Derechos.pdf"
+      },
+      {
+        "text": "Visitax is the State Government application for the payment of contributions from foreign tourists. To complete the process, provide the requested information and proceed to the corresponding payment.",
+        "url": "https://www.visitax.gob.mx/sitio/"
+      }
+    ],
+    "levies.mx-qroo-visitax.feeText": [
+      {
+        "text": "Artículo 51-Octies. Las personas visitantes extranjeras al ingresar al Estado deberán pagar un derecho conforme a la tarifa siguiente: CONCEPTO UMA Por el uso o aprovechamiento de bienes inmuebles del dominio público del Estado. 2.50 El derecho previsto en este artículo deberá ser enterado en los medios autorizados por la Secretaría a través del SATQ, que se dará a conocer mediante reglas de carácter general. Estarán exentos del pago de los derechos a que se refiera el presente artículo, las personas visitantes extranjeras que ingresen al Estado de Quintana Roo por la frontera sur de la Entidad.",
+        "url": "https://documentos.congresoqroo.gob.mx/leyes/L195-XVIII-20251216-L1820251216186-Ley-de-Derechos.pdf"
+      },
+      {
+        "text": "Visitax is the State Government application for the payment of contributions from foreign tourists. To complete the process, provide the requested information and proceed to the corresponding payment.",
+        "url": "https://www.visitax.gob.mx/sitio/"
+      }
+    ],
+    "levies.mx-qroo-cruise-passenger-fee": [
+      {
+        "text": "Artículo 51-Nonies. Los pasajeros de cruceros turísticos cuya embarcación ingrese en algún puerto del Estado, deberán pagar en el momento de adquirir su pasaje, un derecho por el uso y goce de los bienes del dominio público del Estado, con una tarifa de cinco dólares de los EE.UU.",
+        "url": "https://documentos.congresoqroo.gob.mx/leyes/L195-XVIII-20251216-L1820251216186-Ley-de-Derechos.pdf"
+      }
+    ],
+    "levies.mx-qroo-cruise-passenger-fee.feeText": [
+      {
+        "text": "Artículo 51-Nonies. Los pasajeros de cruceros turísticos cuya embarcación ingrese en algún puerto del Estado, deberán pagar en el momento de adquirir su pasaje, un derecho por el uso y goce de los bienes del dominio público del Estado, con una tarifa de cinco dólares de los EE.UU.",
+        "url": "https://documentos.congresoqroo.gob.mx/leyes/L195-XVIII-20251216-L1820251216186-Ley-de-Derechos.pdf"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "mx-derecho-no-residente",
+      "name": "Migration document fee for visitors without permission for paid activities (DNR)",
+      "kind": "arrival-tax",
+      "fee": {
+        "amount": 983,
+        "currency": "MXN"
+      },
+      "per": "person-per-trip",
+      "paidAt": "included-in-ticket",
+      "appliesTo": "all",
+      "exemptions": "The Canadian government says visitors entering by land for tourism whose stay will not exceed 7 days do not pay it.",
+      "url": null,
+      "text": "The INM fee table charges MXN 983 for the receipt, review and issue of the migration document of a visitor without permission for paid activities (DNR). The Canadian government says most foreign visitors must pay this migratory entry fee and that it is normally included in airline and cruise ship tickets. It says visitors arriving by land pay at the migration entry booth by card, at a bank after entry or online before arrival, and that visitors entering by land for tourism for no more than 7 days do not pay it.",
+      "source": {
+        "url": "https://www.gob.mx/cms/uploads/attachment/file/1045967/INTERNACIO_N_VI_A_AE_REA_2026.pdf",
+        "name": "Instituto Nacional de Migración — Tabla de costos de pago de derechos, internación vía aérea 2026",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Ley Federal de Derechos, artículo 8 fracción I",
+        "alsoStatedOn": [
+          {
+            "url": "https://travel.gc.ca/destinations/mexico",
+            "name": "Government of Canada — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mx-derecho-servicios-migratorios-salida",
+      "name": "Migration services fee for international air passengers leaving Mexico (DSM)",
+      "kind": "departure-tax",
+      "fee": {
+        "amount": 232,
+        "currency": "MXN"
+      },
+      "per": "person-per-trip",
+      "paidAt": null,
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "The INM fee table charges MXN 232 for migration services at airports to passengers on international flights leaving Mexico (DSM). The UK government says a departure tax may be due when leaving Mexico by air or land, and that most airlines include it in the ticket price.",
+      "source": {
+        "url": "https://www.gob.mx/cms/uploads/attachment/file/1045967/INTERNACIO_N_VI_A_AE_REA_2026.pdf",
+        "name": "Instituto Nacional de Migración — Tabla de costos de pago de derechos, internación vía aérea 2026",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Ley Federal de Derechos, artículo 12",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gov.uk/foreign-travel-advice/mexico/entry-requirements",
+            "name": "UK Foreign, Commonwealth & Development Office — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mx-qroo-visitax",
+      "name": "Quintana Roo fee for foreign visitors (VISITAX)",
+      "kind": "tourist-tax",
+      "fee": null,
+      "per": "person-per-trip",
+      "paidAt": "online-before",
+      "appliesTo": "all",
+      "exemptions": "Foreign visitors entering Quintana Roo through the State's southern border.",
+      "url": null,
+      "text": "Foreign visitors entering Quintana Roo must pay a state fee of 2.50 UMA for the use of the State's public-domain property, through the means the Secretariat authorises through SATQ. Visitors entering through the State's southern border are exempt. Visitax is the State Government application for payments by foreign tourists. The UK government says the tax can be paid online before or during the stay, and proof of payment must be shown at the airport before leaving.",
+      "source": {
+        "url": "https://documentos.congresoqroo.gob.mx/leyes/L195-XVIII-20251216-L1820251216186-Ley-de-Derechos.pdf",
+        "name": "Congreso del Estado de Quintana Roo — Ley de Derechos del Estado de Quintana Roo (reform 16-12-2025)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Ley de Derechos del Estado de Quintana Roo, artículo 51-Octies",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.visitax.gob.mx/sitio/",
+            "name": "Official page — www.visitax.gob.mx",
+            "lastVerified": "2026-10-12"
+          },
+          {
+            "url": "https://www.gov.uk/foreign-travel-advice/mexico/entry-requirements",
+            "name": "UK Foreign, Commonwealth & Development Office — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      },
+      "feeText": "2.50 UMA per foreign visitor entering the State."
+    },
+    {
+      "id": "mx-qroo-cruise-passenger-fee",
+      "name": "Quintana Roo cruise passenger fee",
+      "kind": "access-fee",
+      "fee": null,
+      "per": "person-per-trip",
+      "paidAt": "included-in-ticket",
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "Passengers of tourist cruise ships whose vessel calls at a port in Quintana Roo must pay a fee of 5 US dollars for the use of the State's public-domain property when they buy their passage.",
+      "source": {
+        "url": "https://documentos.congresoqroo.gob.mx/leyes/L195-XVIII-20251216-L1820251216186-Ley-de-Derechos.pdf",
+        "name": "Congreso del Estado de Quintana Roo — Ley de Derechos del Estado de Quintana Roo (reform 16-12-2025)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Ley de Derechos del Estado de Quintana Roo, artículo 51-Nonies"
+      },
+      "feeText": "5 US dollars per passenger (the law writes the amount in words)."
+    }
+  ]
 }

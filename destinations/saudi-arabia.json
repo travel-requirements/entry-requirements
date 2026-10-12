@@ -50,7 +50,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -5093,6 +5094,23 @@
           }
         ]
       }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": null,
+      "responsibility": "accommodation",
+      "appliesTo": "all",
+      "penaltyText": "For an establishment that breaches paragraphs 2, 3 and 4 of Article 7 of the Regulation: a warning for a first offence; a fine of 5,000 riyals for the same offence a second time within six months of the first; a fine of 25,000 riyals for a third time within six months of the second; suspension of the activity for up to sixty days for a fourth time within six months of the third (Regulation, art. 9(2)).",
+      "url": null,
+      "text": "The Shomoos system applies to private establishments running tourist accommodation facilities and rest-house rentals. The data of every person using the service must be entered into Shomoos immediately, without exception, on the basis of national IDs, residence permits and passports. The establishment must send its customers' data to Shomoos within sixty minutes at most.",
+      "source": {
+        "url": "https://www.uqn.gov.sa/details?p=23508",
+        "name": "Umm al-Qura (official gazette of Saudi Arabia) — Implementing Regulation of the Shomoos Security System law, as amended by Minister of Interior Decision No. 1490 of 21/01/1445 AH (published 18-08-2023)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Law on the electronic transfer of information on customers of private establishments to the National Information Center (Shomoos Security System), Royal Decree M/43 of 21/6/1435 AH; Implementing Regulation arts. 3, 7, 9 (amended 1445 AH)"
+      }
     }
   },
   "countryFacts": {
@@ -5724,6 +5742,58 @@
       {
         "text": "أكدت وزارة الداخلية تطبيق غرامة مالية تصل إلى (50.000) ريال، والسجن لمدة تصل إلى (ستة أشهر)، والترحيل بحق الوافد الذي يتأخر عن المغادرة عقب انتهاء صلاحية تأشيرة الدخول الممنوحة له.",
         "url": "https://www.spa.gov.sa/N2303482"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "المادة الثالثة: يسري هذا النظام على المنشآت الخاصة التي تمارس الأنشطة الآتية: 1- مرافق الإيواء السياحي، وتأجير الاستراحات.",
+        "url": "https://www.uqn.gov.sa/details?p=23508"
+      },
+      {
+        "text": "(3 / 5) - يجب إدخال بيانات جميع المستفيدين من النشاط بشكل فوري في نظام شموس دون استثناء لأحد.",
+        "url": "https://www.uqn.gov.sa/details?p=23508"
+      },
+      {
+        "text": "(3 / 6) - يكون إدخال جميع بيانات المستفيدين من النشاط في نظام شموس بموجب الهويات الوطنية ورخص الإقامة وجوازات السفر، على أن يتحمل مُدخل البيانات مسؤولية ذلك.",
+        "url": "https://www.uqn.gov.sa/details?p=23508"
+      },
+      {
+        "text": "(7 / 1)- تلتزم المنشأة بإرسال بيانات المتعاملين معها إلى نظام شموس في مدة لا تتجاوز ستين دقيقة بحد أقصى.",
+        "url": "https://www.uqn.gov.sa/details?p=23508"
+      },
+      {
+        "text": "2- عند مخالفتها للفقرات (4.3.2) من المادة (السابعة) من هذا النظام؛ تكون العقوبات بالترتيب الآتي: أ - الإنذار عند ارتكاب المخالفة للمرة الأولى. ب- غرامة قدرها (5000) خمسة آلاف ريال في حال ارتكاب المخالفة نفسها للمرة الثانية خلال ستة أشهر من تاريخ ارتكاب المخالفة الأولى.",
+        "url": "https://www.uqn.gov.sa/details?p=23508"
+      },
+      {
+        "text": "ج- غرامة قدرها (25.000) خمسة وعشرون ألف ريال، في حال ارتكاب المخالفة نفسها للمرة الثالثة خلال ستة أشهر من تاريخ ارتكاب المخالفة الثانية. د- إيقاف النشاط لمدة لا تزيد على ستين يوماً في حال ارتكاب المخالفة نفسها للمرة الرابعة خلال ستة أشهر من تاريخ ارتكاب المخالفة الثالثة، وذلك بعد التنسيق مع الجهات الحكومية ذات العلاقة، مع مراعاة عدم إلحاق الضرر بالمتعاملين مع المنشأة.",
+        "url": "https://www.uqn.gov.sa/details?p=23508"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "المادة الثالثة: يسري هذا النظام على المنشآت الخاصة التي تمارس الأنشطة الآتية: 1- مرافق الإيواء السياحي، وتأجير الاستراحات.",
+        "url": "https://www.uqn.gov.sa/details?p=23508"
+      },
+      {
+        "text": "(3 / 5) - يجب إدخال بيانات جميع المستفيدين من النشاط بشكل فوري في نظام شموس دون استثناء لأحد.",
+        "url": "https://www.uqn.gov.sa/details?p=23508"
+      },
+      {
+        "text": "(3 / 6) - يكون إدخال جميع بيانات المستفيدين من النشاط في نظام شموس بموجب الهويات الوطنية ورخص الإقامة وجوازات السفر، على أن يتحمل مُدخل البيانات مسؤولية ذلك.",
+        "url": "https://www.uqn.gov.sa/details?p=23508"
+      },
+      {
+        "text": "(7 / 1)- تلتزم المنشأة بإرسال بيانات المتعاملين معها إلى نظام شموس في مدة لا تتجاوز ستين دقيقة بحد أقصى.",
+        "url": "https://www.uqn.gov.sa/details?p=23508"
+      },
+      {
+        "text": "2- عند مخالفتها للفقرات (4.3.2) من المادة (السابعة) من هذا النظام؛ تكون العقوبات بالترتيب الآتي: أ - الإنذار عند ارتكاب المخالفة للمرة الأولى. ب- غرامة قدرها (5000) خمسة آلاف ريال في حال ارتكاب المخالفة نفسها للمرة الثانية خلال ستة أشهر من تاريخ ارتكاب المخالفة الأولى.",
+        "url": "https://www.uqn.gov.sa/details?p=23508"
+      },
+      {
+        "text": "ج- غرامة قدرها (25.000) خمسة وعشرون ألف ريال، في حال ارتكاب المخالفة نفسها للمرة الثالثة خلال ستة أشهر من تاريخ ارتكاب المخالفة الثانية. د- إيقاف النشاط لمدة لا تزيد على ستين يوماً في حال ارتكاب المخالفة نفسها للمرة الرابعة خلال ستة أشهر من تاريخ ارتكاب المخالفة الثالثة، وذلك بعد التنسيق مع الجهات الحكومية ذات العلاقة، مع مراعاة عدم إلحاق الضرر بالمتعاملين مع المنشأة.",
+        "url": "https://www.uqn.gov.sa/details?p=23508"
       }
     ]
   }
