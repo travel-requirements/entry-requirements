@@ -22,7 +22,7 @@
   ],
   "summary": "North Macedonia's Foreign Ministry says nationals of EU Member States and Schengen Agreement signatories do not need a visa and may enter with a valid national identity card. Third-country nationals with a multiple-entry Schengen (type C) visa valid for at least 5 days beyond the intended stay, or with temporary or permanent residence in an EU Member State or Schengen signatory, may stay no longer than 15 days on every entry, within 90 days in any 180-day period; under a temporary decision valid from 1 January to 31 December 2026, so may holders of a valid multiple-entry British, American or Canadian visa in their passport that is valid 5 days longer than the planned stay. Other visa applications go to a North Macedonian diplomatic or consular mission.",
   "meta": {
-    "lastUpdated": "2026-10-09",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -35,7 +35,9 @@
     ],
     "modules": [
       "driving",
-      "stay-window"
+      "stay-window",
+      "overstay",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -4730,6 +4732,44 @@
         }
       },
       "notes": []
+    },
+    "overstay": {
+      "fine": {
+        "amount": 50,
+        "currency": "EUR",
+        "per": "incident",
+        "maxAmount": 250
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "A foreigner stays unlawfully if they do not meet, or no longer meet, the conditions for entry and stay; this includes a visa-exempt foreigner staying more than 90 days in the 180 days before each day of stay. Unlawful stay is fined 50 to 250 euros in denar equivalent, and the misdemeanour sanction of expulsion may also be imposed. A ban on re-entry cannot exceed five years; after an expulsion decision it is at least six months.",
+      "source": {
+        "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-mvr-file-UtsW.pdf",
+        "name": "Ministry of Internal Affairs of North Macedonia (via portal.mdt.gov.mk) — Law on Foreigners, editorial consolidated text",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Закон за странци (consolidated to Сл. весник 284/23), art. 147(1), art. 217(1) item 6 and (2), art. 153"
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": 48,
+      "responsibility": "either",
+      "appliesTo": "all",
+      "penaltyText": "A foreigner who does not register or deregister their stay or change of address as required by article 190(3) is fined 25 to 250 euros in denar equivalent.",
+      "url": null,
+      "text": "For a foreigner on a short stay, paid accommodation providers must report the stay to the Ministry of Internal Affairs within 12 hours of providing the service, and other hosts within 48 hours of arrival. A foreigner using neither must register within 48 hours of crossing the border, or report a change of address within 48 hours. A foreigner who fails to register is fined 25 to 250 euros in denar equivalent.",
+      "source": {
+        "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-mvr-file-UtsW.pdf",
+        "name": "Ministry of Internal Affairs of North Macedonia — Law on Foreigners, consolidated text",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Закон за странци, art. 190, arts. 213, 216, 218"
+      }
     }
   },
   "countryFacts": {
@@ -5260,6 +5300,56 @@
       {
         "text": "Third-country nationals with permanent residence in an EU Member State or a country signatory of the Schengen Agreement may stay no longer than 15 (fifteen) days upon every entry into the territory of the Republic of North Macedonia as long as the total length of stay does not exceed 90 days in any 180-day period.",
         "url": "https://mfa.gov.mk/en-GB/konzularni-uslugi/informacii-za-vlez-vo-rsm"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "(1) Странецот незаконски престојува во Република Северна Македонија ако не ги исполнува или повеќе не ги исполнува условите за влез и престој , односно ако: - незаконски влезе или излезе во Република Северна Македонија, - престојува подолго од 90 дена во текот на 180 дена кои претходат на секој ден престој во Република Северна Македонија, а за влез не му е потребна виза,",
+        "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-mvr-file-UtsW.pdf"
+      },
+      {
+        "text": "Член 217 (1) Глоба во износ од 50 до 250 евра во денарска противвредност ќе му се изрече за прекршок на странецот, ако:",
+        "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-mvr-file-UtsW.pdf"
+      },
+      {
+        "text": "6) незаконито престојува во Република Северна Македонија (член 147);",
+        "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-mvr-file-UtsW.pdf"
+      },
+      {
+        "text": "(2) За прекршоците од ставот (1) на овој член на странецот може да му се изрече и прекршочна санкција протерување странец од земјата.",
+        "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-mvr-file-UtsW.pdf"
+      },
+      {
+        "text": "(2) Временскиот период за кој на странецот му е забрането повторно влегување во Република Северна Македонија не може да биде подолг од пет години. (3) Забраната за влез кога е донесено решение за протерување не може да биде пократка од шест месеци.",
+        "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-mvr-file-UtsW.pdf"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "(1) Правните и физичките лица кои им даваат услуги на сместување на странците со наплата се должни да го пријават престојот на странецот на Министерството за внатрешни работи во рок од 12 часа од часот на давањето на услугата. (2) Други лица кај кои странците престојуваат се должни да го пријават престојот на странецот во рок од 48 часа од часот на доаѓањето на странецот. (3) Странецот кој не ги користи услугите од ставовите (1) и (2) на овој член, е должен самиот да го пријави своето престојувалиште на Министерството за внатрешни работи во рок од 48 часа од часот на преминување на државната граница, односно во рок од 48 часа да ја пријави промената на адресата на станот во местото на престојувалиштето. (4) Одредбите од ставовите (1), (2) и (3) на овој член, се однесуваат на странец кој во Република Северна Македонија краткорочно престојува.",
+        "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-mvr-file-UtsW.pdf"
+      },
+      {
+        "text": "Член 218 Глоба во износ од 25 до 250 евра во денарска противвредност ќе му се изрече за прекршок на странец кој:",
+        "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-mvr-file-UtsW.pdf"
+      },
+      {
+        "text": "8) не го пријави, односно одјави престојувалиштето и промената на адресата на странецот согласно со членот 190 став (3) од овој закон.",
+        "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-mvr-file-UtsW.pdf"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "(1) Правните и физичките лица кои им даваат услуги на сместување на странците со наплата се должни да го пријават престојот на странецот на Министерството за внатрешни работи во рок од 12 часа од часот на давањето на услугата. (2) Други лица кај кои странците престојуваат се должни да го пријават престојот на странецот во рок од 48 часа од часот на доаѓањето на странецот. (3) Странецот кој не ги користи услугите од ставовите (1) и (2) на овој член, е должен самиот да го пријави своето престојувалиште на Министерството за внатрешни работи во рок од 48 часа од часот на преминување на државната граница, односно во рок од 48 часа да ја пријави промената на адресата на станот во местото на престојувалиштето. (4) Одредбите од ставовите (1), (2) и (3) на овој член, се однесуваат на странец кој во Република Северна Македонија краткорочно престојува.",
+        "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-mvr-file-UtsW.pdf"
+      },
+      {
+        "text": "Член 218 Глоба во износ од 25 до 250 евра во денарска противвредност ќе му се изрече за прекршок на странец кој:",
+        "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-mvr-file-UtsW.pdf"
+      },
+      {
+        "text": "8) не го пријави, односно одјави престојувалиштето и промената на адресата на странецот согласно со членот 190 став (3) од овој закон.",
+        "url": "https://portal.mdt.gov.mk/post-body-files/zakoni-mvr-file-UtsW.pdf"
       }
     ]
   }

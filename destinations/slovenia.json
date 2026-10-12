@@ -20,7 +20,7 @@
   ],
   "summary": "Slovenia's government says EU citizens need no visa or residence permit to enter and may do so with a valid identity card or passport. Nationals of the countries listed in Annex II of Regulation (EU) 2018/1806 are exempt from the visa requirement for stays of no more than 90 days in any 180-day period — the UK government says British travellers can visit the Schengen area, which includes Slovenia, on those terms — and nationals of the countries listed in Annex I must hold a visa.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-10-03",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -35,7 +35,10 @@
     ],
     "modules": [
       "driving",
-      "stay-window"
+      "stay-window",
+      "overstay",
+      "levies",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -3565,6 +3568,44 @@
       "notes": [
         "The UK government's travel advice says you cannot take meat, milk or products containing them into EU countries, with exceptions such as powdered baby milk, baby food and special foods or pet feed needed for medical reasons."
       ]
+    },
+    "overstay": {
+      "fine": {
+        "amount": 800,
+        "currency": "EUR",
+        "per": "incident",
+        "maxAmount": 1200
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "A foreigner whose permitted stay under the law, the Schengen Convention or an international treaty has expired commits a misdemeanour and is fined 800 to 1,200 euros. The police issue a return decision to a foreigner staying illegally, except in certain cases. The return decision sets an entry ban to Slovenia and the EU and Schengen area: one year where a voluntary-departure period was set, not enforced if the foreigner leaves within that period, and five years where the stay is a danger to public order, public security or national security.",
+      "source": {
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO5761",
+        "name": "PISRS (Legal Information System of Slovenia) — Aliens Act (ZTuj-2), consolidated text",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Zakon o tujcih (ZTuj-2), Articles 60 (illegal stay), 64 (return decision), 67 (entry ban) and 145(1)(4) (misdemeanour fine)"
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": null,
+      "responsibility": "accommodation",
+      "appliesTo": "all",
+      "penaltyText": null,
+      "url": null,
+      "text": "A foreigner without a Slovenian residence permit who stays in accommodation must be registered by the accommodation provider (stanodajalec) with the police station of the area within three days of crossing the state border or of changing accommodation.",
+      "source": {
+        "url": "https://e-uprava.gov.si/si/podrocja/osebni-dokumenti-potrdila-selitev/selitev-prijava-odjava-prebivalisca/obveznosti-stanodajalca-pri-prijavi-ali-odjavi-zacasnega-prebivalisca-.html",
+        "name": "e-Uprava (Government of Slovenia portal; competent body Ministry of the Interior and Public Administration) — Landlord's obligations when registering or deregistering temporary residence",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Zakon o prijavi prebivališča (named on the page as the legal basis; article not given)"
+      }
     }
   },
   "countryFacts": {
@@ -4222,6 +4263,303 @@
         "text": "(b) children under 12 years of age;",
         "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A22021A1019%2801%29"
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "mu je potekel čas, ko lahko na podlagi zakona, Konvencije o izvajanju schengenskega sporazuma z dne 14. junija 1985 ali mednarodne pogodbe prebiva v Republiki Sloveniji;",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO5761"
+      },
+      {
+        "text": "(1) Z globo od 800 do 1.200 eurov se kaznuje za prekršek tujec, ki:",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO5761"
+      },
+      {
+        "text": "mu je potekel čas, ko lahko na podlagi zakona, Konvencije o izvajanju schengenskega sporazuma z dne 14. junija 1985 ali mednarodne pogodbe prebiva v Republiki Sloveniji (četrta alinea 60. člena tega zakona);",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO5761"
+      },
+      {
+        "text": "(1) Z odločbo o vrnitvi se tujcu določi prepoved vstopa v Republiko Slovenijo in tudi v območje držav članic Evropske unije in območje držav, pogodbenic Konvencije o izvajanju schengenskega sporazuma z dne 14. junija 1985, razen če ta zakon določa drugače, in sicer:",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO5761"
+      },
+      {
+        "text": "za obdobje enega leta tujcu, ki mu je bil z odločbo o vrnitvi določen rok za prostovoljni odhod;",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO5761"
+      },
+      {
+        "text": "za obdobje petih let tujcu, katerega bivanje v Republiki Sloveniji pomeni nevarnost za javni red, javno varnost ali varnost države.",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO5761"
+      },
+      {
+        "text": "(2) Prepoved vstopa iz prve alineje prejšnjega odstavka se ne izvrši, če tujec zapusti Republiko Slovenijo, območje držav članic Evropske unije in območje držav pogodbenic Konvencije o izvajanju schengenskega sporazuma z dne 14. junija 1985 v roku za prostovoljni odhod.",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO5761"
+      },
+      {
+        "text": "(1) Odločbo o vrnitvi policija izda tujcu, ki nezakonito prebiva v Republiki Sloveniji, razen v primerih:",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO5761"
+      }
+    ],
+    "levies.si-tourist-and-promotional-tax": [
+      {
+        "text": "(1) Turistično in promocijsko takso plačujejo državljani Republike Slovenije in tujci, ki prenočujejo v nastanitvenem obratu.",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "(2) Osebe iz prejšnjega odstavka plačajo turistično in promocijsko takso hkrati s plačilom storitev za prenočevanje. Plačati jo morajo tudi, če so deležne brezplačnih storitev za prenočevanje, razen če ta zakon ne določa drugače.",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "(1) Občina določi turistično takso v znesku do 2,5 eura.",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "(2) Promocijska taksa se obračuna poleg turistične takse in znaša 25 odstotkov zneska obračunane turistične takse.",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "(3) Občina pri določitvi višine zneska turistične takse upošteva vrsto in kategorijo nastanitvenih obratov, prebivanje v sezonskem ali zunajsezonskem obdobju ter obseg ugodnosti in storitev, ki jih brezplačno zagotavlja turistom.",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "otroci do sedmega leta starosti,",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "osebe od 7. do 18. leta starosti,",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "»turistična taksa« je pristojbina za prenočevanje v nastanitvenem obratu, počitniških hišah ali počitniških stanovanjih ali na plovilih na stalnih privezih v turističnih pristaniščih ali za potovanje na potniški ladji, namenjeni mednarodnemu potovanju za turistične namene, ki omogoča izkrcanje potnikov v pristanišču, ki se plača kot nadomestilo za določene storitve in ugodnosti, ki so na voljo na turističnem območju in se ob vsakokratnem koriščenju ne zaračunajo posebej;",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "(1) Plačila turistične takse in posledično promocijske takse so oproščeni:",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "osebe z zdravniško napotnico v naravnih zdraviliščih,",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "učenci, dijaki in študenti ter njihovi vodje oziroma mentorji, ki so udeleženci strokovnih ekskurzij in podobnih oblik dela, ki jih na nepridobitni podlagi izvajajo vzgojno-izobraževalne ustanove in so določene z letnim delovnim načrtom v okviru javno veljavnega vzgojno-izobraževalnega ali študijskega programa,",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "osebe do 18. leta in njihove vodje oziroma mentorji, ki so udeleženci letovanj, ki jih organizirajo društva, ki jim je bil podeljen status pravne osebe v javnem interesu,",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "osebe, ki prostovoljno odpravljajo posledice elementarnih nesreč,",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "pripadniki Slovenske policije v obdobju opravljanja nalog iz svoje pristojnosti,",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "osebe, ki so na začasnem delu in prebivajo v nastanitvenem obratu neprekinjeno več kot 30 dni,",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "tuji državljani, ki so po mednarodnih pogodbah oproščeni plačila turistične takse.",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "(2) Turistično takso v višini 50 odstotkov plačujejo:",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "osebe od 18. do 30. leta starosti, ki prenočujejo v nastanitvenih obratih, vključenih v mednarodno mrežo mladinskih prenočišč (IYHF).",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "(4) Občina lahko s svojim predpisom poleg oseb iz prvega odstavka tega člena dodatno določi osebe, ki so v celoti ali delno oproščene plačila turistične takse.",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      }
+    ],
+    "levies.si-tourist-and-promotional-tax.exemptions": [
+      {
+        "text": "(1) Turistično in promocijsko takso plačujejo državljani Republike Slovenije in tujci, ki prenočujejo v nastanitvenem obratu.",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "(2) Osebe iz prejšnjega odstavka plačajo turistično in promocijsko takso hkrati s plačilom storitev za prenočevanje. Plačati jo morajo tudi, če so deležne brezplačnih storitev za prenočevanje, razen če ta zakon ne določa drugače.",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "(1) Občina določi turistično takso v znesku do 2,5 eura.",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "(2) Promocijska taksa se obračuna poleg turistične takse in znaša 25 odstotkov zneska obračunane turistične takse.",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "(3) Občina pri določitvi višine zneska turistične takse upošteva vrsto in kategorijo nastanitvenih obratov, prebivanje v sezonskem ali zunajsezonskem obdobju ter obseg ugodnosti in storitev, ki jih brezplačno zagotavlja turistom.",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "otroci do sedmega leta starosti,",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "osebe od 7. do 18. leta starosti,",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "»turistična taksa« je pristojbina za prenočevanje v nastanitvenem obratu, počitniških hišah ali počitniških stanovanjih ali na plovilih na stalnih privezih v turističnih pristaniščih ali za potovanje na potniški ladji, namenjeni mednarodnemu potovanju za turistične namene, ki omogoča izkrcanje potnikov v pristanišču, ki se plača kot nadomestilo za določene storitve in ugodnosti, ki so na voljo na turističnem območju in se ob vsakokratnem koriščenju ne zaračunajo posebej;",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "(1) Plačila turistične takse in posledično promocijske takse so oproščeni:",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "osebe z zdravniško napotnico v naravnih zdraviliščih,",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "učenci, dijaki in študenti ter njihovi vodje oziroma mentorji, ki so udeleženci strokovnih ekskurzij in podobnih oblik dela, ki jih na nepridobitni podlagi izvajajo vzgojno-izobraževalne ustanove in so določene z letnim delovnim načrtom v okviru javno veljavnega vzgojno-izobraževalnega ali študijskega programa,",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "osebe do 18. leta in njihove vodje oziroma mentorji, ki so udeleženci letovanj, ki jih organizirajo društva, ki jim je bil podeljen status pravne osebe v javnem interesu,",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "osebe, ki prostovoljno odpravljajo posledice elementarnih nesreč,",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "pripadniki Slovenske policije v obdobju opravljanja nalog iz svoje pristojnosti,",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "osebe, ki so na začasnem delu in prebivajo v nastanitvenem obratu neprekinjeno več kot 30 dni,",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "tuji državljani, ki so po mednarodnih pogodbah oproščeni plačila turistične takse.",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "(2) Turistično takso v višini 50 odstotkov plačujejo:",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "osebe od 18. do 30. leta starosti, ki prenočujejo v nastanitvenih obratih, vključenih v mednarodno mrežo mladinskih prenočišč (IYHF).",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "(4) Občina lahko s svojim predpisom poleg oseb iz prvega odstavka tega člena dodatno določi osebe, ki so v celoti ali delno oproščene plačila turistične takse.",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      }
+    ],
+    "levies.si-tourist-and-promotional-tax.feeText": [
+      {
+        "text": "(1) Turistično in promocijsko takso plačujejo državljani Republike Slovenije in tujci, ki prenočujejo v nastanitvenem obratu.",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "(2) Osebe iz prejšnjega odstavka plačajo turistično in promocijsko takso hkrati s plačilom storitev za prenočevanje. Plačati jo morajo tudi, če so deležne brezplačnih storitev za prenočevanje, razen če ta zakon ne določa drugače.",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "(1) Občina določi turistično takso v znesku do 2,5 eura.",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "(2) Promocijska taksa se obračuna poleg turistične takse in znaša 25 odstotkov zneska obračunane turistične takse.",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "(3) Občina pri določitvi višine zneska turistične takse upošteva vrsto in kategorijo nastanitvenih obratov, prebivanje v sezonskem ali zunajsezonskem obdobju ter obseg ugodnosti in storitev, ki jih brezplačno zagotavlja turistom.",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "otroci do sedmega leta starosti,",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "osebe od 7. do 18. leta starosti,",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "»turistična taksa« je pristojbina za prenočevanje v nastanitvenem obratu, počitniških hišah ali počitniških stanovanjih ali na plovilih na stalnih privezih v turističnih pristaniščih ali za potovanje na potniški ladji, namenjeni mednarodnemu potovanju za turistične namene, ki omogoča izkrcanje potnikov v pristanišču, ki se plača kot nadomestilo za določene storitve in ugodnosti, ki so na voljo na turističnem območju in se ob vsakokratnem koriščenju ne zaračunajo posebej;",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "(1) Plačila turistične takse in posledično promocijske takse so oproščeni:",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "osebe z zdravniško napotnico v naravnih zdraviliščih,",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "učenci, dijaki in študenti ter njihovi vodje oziroma mentorji, ki so udeleženci strokovnih ekskurzij in podobnih oblik dela, ki jih na nepridobitni podlagi izvajajo vzgojno-izobraževalne ustanove in so določene z letnim delovnim načrtom v okviru javno veljavnega vzgojno-izobraževalnega ali študijskega programa,",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "osebe do 18. leta in njihove vodje oziroma mentorji, ki so udeleženci letovanj, ki jih organizirajo društva, ki jim je bil podeljen status pravne osebe v javnem interesu,",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "osebe, ki prostovoljno odpravljajo posledice elementarnih nesreč,",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "pripadniki Slovenske policije v obdobju opravljanja nalog iz svoje pristojnosti,",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "osebe, ki so na začasnem delu in prebivajo v nastanitvenem obratu neprekinjeno več kot 30 dni,",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "tuji državljani, ki so po mednarodnih pogodbah oproščeni plačila turistične takse.",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "(2) Turistično takso v višini 50 odstotkov plačujejo:",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "osebe od 18. do 30. leta starosti, ki prenočujejo v nastanitvenih obratih, vključenih v mednarodno mrežo mladinskih prenočišč (IYHF).",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      },
+      {
+        "text": "(4) Občina lahko s svojim predpisom poleg oseb iz prvega odstavka tega člena dodatno določi osebe, ki so v celoti ali delno oproščene plačila turistične takse.",
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "Tujca, ki biva v nastanitvenem objektu in nima dovoljenja za prebivanje v Republiki Sloveniji, mora stanodajalec prijaviti policijski postaji na območju nastanitve v treh dneh po prehodu državne meje oziroma spremembi nastanitve.",
+        "url": "https://e-uprava.gov.si/si/podrocja/osebni-dokumenti-potrdila-selitev/selitev-prijava-odjava-prebivalisca/obveznosti-stanodajalca-pri-prijavi-ali-odjavi-zacasnega-prebivalisca-.html"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "si-tourist-and-promotional-tax",
+      "name": "Tourist tax and promotional tax (turistična in promocijska taksa)",
+      "kind": "tourist-tax",
+      "fee": null,
+      "per": "person-per-night",
+      "paidAt": "at-accommodation",
+      "appliesTo": "all",
+      "exemptions": "Exempt from the tourist tax, and so from the promotional tax: children up to 7; persons with a medical referral in natural spas; persons who show a disability decision or certificate; pupils and students on non-profit school excursions, and their leaders; people up to 18 at holiday camps of public-interest associations, and their leaders; volunteers dealing with the effects of natural disasters; Slovenian police on duty; temporary workers staying in the same accommodation for more than 30 days without a break; foreign nationals exempt under international treaties. Half the tourist tax is paid by people aged 7 to 18 and by people aged 18 to 30 staying in IYHF youth hostels. A municipality may add further exemptions.",
+      "url": null,
+      "text": "Slovenian citizens and foreigners staying overnight in accommodation pay the tourist tax and the promotional tax together with the payment for the overnight stay. The municipality sets the tourist tax at up to 2.5 euros, taking account of the type and category of accommodation, the season and the free services offered to tourists. The promotional tax is charged on top at 25 per cent of the tourist tax. Children up to 7 are exempt; people aged 7 to 18 pay 50 per cent.",
+      "source": {
+        "url": "https://pisrs.si/pregledPredpisa?id=ZAKO6452",
+        "name": "PISRS (Legal Information System of Slovenia) — Act on the Promotion of Tourism Development (ZSRT-1), consolidated text",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Zakon o spodbujanju razvoja turizma (ZSRT-1), Uradni list RS 13/18 and 100/25, Articles 2, 16, 17, 18"
+      },
+      "feeText": "Each municipality sets the tourist tax at up to 2.5 euros. A promotional tax of 25 per cent of the tourist tax is charged on top. Children up to 7 are exempt; people aged 7 to 18 pay 50 per cent of the tourist tax."
+    }
+  ]
 }

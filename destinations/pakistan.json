@@ -20,7 +20,7 @@
   ],
   "summary": "Pakistan's online visa system says it is open to citizens of 192 countries and that the six GCC countries are not required to apply for a visa; its tourist visa page says citizens of GCC countries do not require a visa to enter Pakistan. The Pakistan High Commission in New Delhi lists its requirements for a visit visa, with a fee of Rs. 120 per entry for Indian citizens.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -34,7 +34,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay"
     ]
   },
   "visaPolicy": {
@@ -2948,6 +2949,28 @@
         "The UK FCDO says importing alcohol or pork products is illegal and you could be detained if you try to import them.",
         "Canada's travel advice says penalties for possession, use or trafficking of illegal drugs are severe, and convicted offenders can expect the death penalty, jail sentences, heavy fines and/or deportation."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "The Government of Canada says not to overstay your visa: you could face legal action or be banned from further entry into Pakistan, and if your visa has expired you may be able to apply for an exit permit online. The Australian Government says authorities may stop you from boarding your flight if your visa has expired, and you could face heavy penalties, including fines and detention; it says to contact the Ministry of Interior for an exit permit.",
+      "source": {
+        "url": "https://travel.gc.ca/destinations/pakistan",
+        "name": "Government of Canada — Travel advice and advisories: Pakistan",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.smartraveller.gov.au/destinations/asia/pakistan",
+            "name": "Australian Government, Smartraveller — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -3453,6 +3476,20 @@
       {
         "text": "The fee could also be paid by credit/debit card at the High Commission, New Delhi (an Additional 3% to be charged on account of Bank processing charges).",
         "url": "https://pakhcnewdelhi.org.pk/requirements-for-visit-visa/"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "Do not overstay the duration of your visa. You could face legal action or be banned from further entry into Pakistan. The status or nature of your visa cannot be changed while in Pakistan. If your visa has expired, you may be able to apply for an exit permit online.",
+        "url": "https://travel.gc.ca/destinations/pakistan"
+      },
+      {
+        "text": "Authorities may stop you from boarding your flight if your visa has expired. You could also face heavy penalties, including fines and detention.",
+        "url": "https://www.smartraveller.gov.au/destinations/asia/pakistan"
+      },
+      {
+        "text": "If your visa has expired, contact the Ministry of Interior for an exit permit.",
+        "url": "https://www.smartraveller.gov.au/destinations/asia/pakistan"
       }
     ]
   }

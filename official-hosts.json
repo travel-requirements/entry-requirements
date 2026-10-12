@@ -2,6 +2,11 @@
   "_comment": "Hosts we are willing to link to that a government-domain pattern does not already match. Every applyUrl/buyUrl/permitUrl/levy url must match the pattern or appear here, or `npm run validate` fails. operator: government | state-operator | igo | needs-review. Entries marked needs-review are a queue, not an endorsement. `files` admits single files by exact URL (never their host): a file an official page links as its own, on a host that is not official as a whole; linkedFrom/linkText record that link and country the government publishing it.",
   "hosts": [
     {
+      "host": "aade.gr",
+      "operator": "government",
+      "note": "AADE, the Independent Authority for Public Revenue of Greece (checked 2026-10-12)"
+    },
+    {
       "host": "acces-maroc.ma",
       "operator": "government",
       "note": "Morocco's eVisa portal, run by the Ministry of Foreign Affairs (MAECI) — the domain's registrant, and linked as \"eVisa\" from the ministry's consular portal consulat.ma (checked 2026-09-30)"
@@ -25,6 +30,11 @@
       "host": "algerianembassy.fi",
       "operator": "government",
       "note": "Embassy of Algeria in Helsinki — the embassy's own site; its page on the Algerian MFA's domain (embhelsinki.mfa.gov.dz) gives helsinki@algerianembassy.fi as its address and links its visa form there (checked 2026-10-08)"
+    },
+    {
+      "host": "alloggiatiweb.poliziadistato.it",
+      "operator": "government",
+      "note": "Alloggiati Web, the guest-reporting service of the Polizia di Stato (Italian State Police) (checked 2026-10-12)"
     },
     {
       "host": "almeezan.qa",
@@ -97,6 +107,11 @@
       "note": "Algérie Presse Service, Algeria's official state news agency; publishes Foreign Ministry communiqués verbatim (checked 2026-10-03)"
     },
     {
+      "host": "aref.government.bg",
+      "operator": "government",
+      "note": "Bulgarian Government (government.bg) document host (checked 2026-10-12)"
+    },
+    {
       "host": "arlis.am",
       "operator": "government",
       "note": "ARLIS, Armenia's official legal information system, run under the Ministry of Justice (checked 2026-10-02)"
@@ -105,6 +120,11 @@
       "host": "asfinag.at",
       "operator": "state-operator",
       "note": "ASFINAG, Austrian state motorway company"
+    },
+    {
+      "host": "atc.gencat.cat",
+      "operator": "government",
+      "note": "Agència Tributària de Catalunya, the tax agency of the Generalitat de Catalunya (checked 2026-10-12)"
     },
     {
       "host": "attorneygeneral.govmu.org",
@@ -262,6 +282,11 @@
       "note": "Citizens Information Board (Ireland)"
     },
     {
+      "host": "comercioturismo.cm-porto.pt",
+      "operator": "government",
+      "note": "Câmara Municipal do Porto (cm-porto.pt), commerce and tourism department; linked from cm-porto.pt (checked 2026-10-12)"
+    },
+    {
       "host": "comunidadandina.org",
       "operator": "igo",
       "note": "General Secretariat of the Andean Community (Comunidad Andina); its homepage title and the decisions' headers name the General Secretariat"
@@ -285,6 +310,16 @@
       "host": "conseil-constitutionnel.fr",
       "operator": "government",
       "note": "Constitutional Council of France (added 2026-10-04 from verification-agent reports)"
+    },
+    {
+      "host": "consellgeneral.ad",
+      "operator": "government",
+      "note": "Consell General, the Parliament of the Principality of Andorra (checked 2026-10-12)"
+    },
+    {
+      "host": "consigliograndeegenerale.sm",
+      "operator": "government",
+      "note": "Consiglio Grande e Generale, the Parliament of the Republic of San Marino (checked 2026-10-12)"
     },
     {
       "host": "conslondra.esteri.it",
@@ -727,6 +762,11 @@
       "note": "Government of Andorra — exteriors.ad now redirects here"
     },
     {
+      "host": "government.is",
+      "operator": "government",
+      "note": "Government Offices of Iceland (Stjórnarráð Íslands) (checked 2026-10-12)"
+    },
+    {
       "host": "government.nl",
       "operator": "government",
       "note": "Government of the Netherlands (English) (added 2026-10-04)"
@@ -862,6 +902,11 @@
       "note": "Department of Justice immigration service (Ireland)"
     },
     {
+      "host": "irishstatutebook.ie",
+      "operator": "government",
+      "note": "Electronic Irish Statute Book, published by the Office of the Attorney General (checked 2026-10-12)"
+    },
+    {
       "host": "island.is",
       "operator": "government",
       "note": "Government portal (Iceland)"
@@ -905,6 +950,11 @@
       "host": "konzuliszolgalat.kormany.hu",
       "operator": "government",
       "note": "Consular Service (Hungary)"
+    },
+    {
+      "host": "korea.kr",
+      "operator": "government",
+      "note": "Korea.kr, the official policy portal of the Government of the Republic of Korea (Ministry of Culture, Sports and Tourism) (checked 2026-10-12)"
     },
     {
       "host": "kororstategov.com",
@@ -1112,6 +1162,11 @@
       "note": "Ministry of Foreign Affairs (Slovakia)"
     },
     {
+      "host": "narodne-novine.nn.hr",
+      "operator": "government",
+      "note": "Narodne novine, the Official Gazette of the Republic of Croatia (checked 2026-10-12)"
+    },
+    {
       "host": "nawasa.gd",
       "operator": "state-operator",
       "note": "National Water and Sewerage Authority of Grenada (added 2026-10-04 from verification-agent reports)"
@@ -1192,6 +1247,11 @@
       "note": "Embassy of the Philippines, Washington DC, linked as the embassy website from dfa.gov.ph (checked 2026-10-02)"
     },
     {
+      "host": "pisrs.si",
+      "operator": "government",
+      "note": "PISRS, the Legal Information System of the Republic of Slovenia (Government Office for Legislation) (checked 2026-10-12)"
+    },
+    {
       "host": "police.govmu.org",
       "operator": "government",
       "note": "Mauritius Police Force (govmu.org is the Government of Mauritius domain); the Traffic Branch page states it issues and controls driving licences and gives the legal prescribed alcohol limits. Cited in mauritius countryFacts.driving."
@@ -1205,6 +1265,11 @@
       "host": "portal.etoll.ro",
       "operator": "state-operator",
       "note": "TollRo portal of CNAIR, Romania's national road agency; erovinieta.ro redirects here (checked 2026-10-03)"
+    },
+    {
+      "host": "pravno-informacioni-sistem.rs",
+      "operator": "government",
+      "note": "Legal Information System of the Republic of Serbia, run by the Official Gazette public enterprise for the Government (checked 2026-10-12)"
     },
     {
       "host": "pravo.by",
@@ -1270,6 +1335,11 @@
       "host": "revenue.ie",
       "operator": "government",
       "note": "Office of the Revenue Commissioners (Ireland)"
+    },
+    {
+      "host": "riigiteataja.ee",
+      "operator": "government",
+      "note": "Riigi Teataja, the official State Gazette of Estonia (Ministry of Justice) (checked 2026-10-12)"
     },
     {
       "host": "rijksoverheid.nl",
@@ -1377,6 +1447,11 @@
       "note": "Inland Revenue Department of St Christopher (St Kitts) and Nevis. The site footer reads \"© 2020 Inland Revenue Department St. Christopher (St. Kitts) & Nevis\", its contact address is inlandrevenue@ird.gov.kn, and the Government of Canada travel advice for Saint Kitts and Nevis links https://www.sknird.com/drivers-licence/ as \"Driver’s licence – Government of Saint Kitts and Nevis\". Cited in saint-"
     },
     {
+      "host": "sluzbenilist.me",
+      "operator": "government",
+      "note": "Službeni list Crne Gore, the Official Gazette of Montenegro (checked 2026-10-12)"
+    },
+    {
       "host": "smf.st",
       "operator": "government",
       "note": "Serviço de Migração e Fronteiras, São Tomé and Príncipe — the e-Visa portal (linked by FCDO and Canada)"
@@ -1390,6 +1465,11 @@
       "host": "ssb.no",
       "operator": "government",
       "note": "Statistics Norway (added 2026-10-04 from verification-agent reports)"
+    },
+    {
+      "host": "static.slov-lex.sk",
+      "operator": "government",
+      "note": "Slov-Lex, the legal and information portal of the Ministry of Justice of the Slovak Republic (static file host) (checked 2026-10-12)"
     },
     {
       "host": "stluciahcuk.org",
@@ -1560,6 +1640,11 @@
       "host": "vbpl.vn",
       "operator": "government",
       "note": "National Database of Legal Normative Documents (Cơ sở dữ liệu quốc gia về văn bản pháp luật), Ministry of Justice of Viet Nam (checked 2026-10-12)"
+    },
+    {
+      "host": "vdl.lu",
+      "operator": "government",
+      "note": "Ville de Luxembourg, the municipal administration of Luxembourg City (checked 2026-10-12)"
     },
     {
       "host": "vegvesen.no",

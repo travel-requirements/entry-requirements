@@ -18,7 +18,7 @@
   ],
   "summary": "Spain's Interior Ministry says entry for stays of up to 90 days in any 180-day period is governed by the Schengen Borders Code. EU nationals travel freely with a passport or ID card; nationals of the countries on the EU's visa-exempt list need no visa (the ETIAS travel authorisation is not yet in operation), and others need a Schengen short-stay visa costing EUR 90.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -46,7 +46,10 @@
     ],
     "modules": [
       "driving",
-      "stay-window"
+      "stay-window",
+      "overstay",
+      "levies",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -3646,6 +3649,51 @@
         "Under EU rules, travellers arriving from outside the EU may bring in 200 cigarettes, 1 litre of spirits and other goods worth up to €300 (€430 when arriving by air or sea) duty-free, according to Your Europe.",
         "Between EU countries, no further duty or tax is due on alcohol and tobacco bought for your own use, though customs may check whether the goods are for your own use, according to Your Europe."
       ]
+    },
+    "overstay": {
+      "fine": {
+        "amount": 501,
+        "currency": "EUR",
+        "per": "incident",
+        "maxAmount": 10000
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "Being irregularly in Spain because a stay extension was not obtained, or because the person has no residence authorisation or it expired more than three months ago without a timely renewal application, is a serious infringement fined EUR 501 to 10,000. Instead of the fine, expulsion may be applied, on the principle of proportionality, after an administrative procedure. Expulsion and a fine are never imposed together. Expulsion carries an entry ban, set case by case, of at most five years, and exceptionally up to ten years for a serious threat to public order, public security, national security or public health.",
+      "source": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-544",
+        "name": "Boletín Oficial del Estado (BOE) — Ley Orgánica 4/2000 on the rights and freedoms of foreigners in Spain, consolidated text",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Ley Orgánica 4/2000, de 11 de enero, arts. 53.1.a, 55.1.b, 57.1, 57.3, 58.1–2"
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": 24,
+      "responsibility": "accommodation",
+      "appliesTo": "all",
+      "penaltyText": "For the accommodation provider: missing records or omitted mandatory communications are serious infringements under article 36.20 of Ley Orgánica 4/2015 (fine EUR 601 to 30,000); late communications are minor infringements (fine EUR 100 to 600).",
+      "url": null,
+      "text": "Accommodation providers collect their guests' data. Every guest over 14 signs the entry form (parte de entrada). The provider sends the data to the competent authorities immediately, and in any case within 24 hours of the booking and of the start of the service. The data are kept in files of the Secretary of State for Security and may be processed only by the security forces. Missing records or communications are serious infringements by the provider (fine EUR 601 to 30,000 under LO 4/2015); late communication is a minor one (EUR 100 to 600).",
+      "source": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-17461",
+        "name": "Boletín Oficial del Estado (BOE) — Real Decreto 933/2021 on documentary registration and information obligations of accommodation and car-rental providers, consolidated text",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Real Decreto 933/2021, de 26 de octubre, arts. 4, 6.3, 7, 8; Ley Orgánica 4/2015 art. 39.1",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-3442",
+            "name": "Official page — www.boe.es",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -4316,6 +4364,371 @@
         "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-17292",
         "text": "Visado nacional de larga duración (tipo D). 90 euros"
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "Artículo 53. Infracciones graves. 1. Son infracciones graves: a) Encontrarse irregularmente en territorio español, por no haber obtenido la prórroga de estancia, carecer de autorización de residencia o tener caducada más de tres meses la mencionada autorización, y siempre que el interesado no hubiere solicitado la renovación de la misma en el plazo previsto reglamentariamente.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-544"
+      },
+      {
+        "text": "b) Las infracciones graves con multa de 501 hasta 10.000 euros.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-544"
+      },
+      {
+        "text": "1. Cuando los infractores sean extranjeros y realicen conductas de las tipificadas como muy graves, o conductas graves de las previstas en los apartados a), b), c), d) y f) del artículo 53.1 de esta Ley Orgánica, podrá aplicarse, en atención al principio de proporcionalidad, en lugar de la sanción de multa, la expulsión del territorio español, previa la tramitación del correspondiente expediente administrativo y mediante la resolución motivada que valore los hechos que configuran la infracción.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-544"
+      },
+      {
+        "text": "3. En ningún caso podrán imponerse conjuntamente las sanciones de expulsión y multa.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-544"
+      },
+      {
+        "text": "1. La expulsión llevará consigo la prohibición de entrada en territorio español. La duración de la prohibición se determinará en consideración a las circunstancias que concurran en cada caso y su vigencia no excederá de cinco años.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-544"
+      },
+      {
+        "text": "2. Excepcionalmente, cuando el extranjero suponga una amenaza grave para el orden público, la seguridad pública, la seguridad nacional o para la salud pública, podrá imponerse un período de prohibición de entrada de hasta diez años.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-544"
+      }
+    ],
+    "levies.es-catalonia-tourist-stay-tax": [
+      {
+        "text": "Han de pagar aquest impost les persones que s’allotgen en un establiment turístic (hotel, hotel apartament, hostal, pensió, apartament turístic, càmping, establiment de turisme rural, habitatge d'ús turístic, llar compartida, alberg de joventut que presti el servei turístic d'allotjament o embarcació de creuer turístic).",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "L'import a pagar es calcula en funció del nombre d'estades, amb pernoctació o sense, i de la categoria de l'establiment. El pagament es fa a través de l'establiment turístic que, a la factura que emet per l'estada, inclou el concepte i l'import.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "Del municipi de Catalunya on es troba l’establiment turístic i de la seva categoria.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "A més, a la ciutat de Barcelona i a altres municipis s’hi afegeix un recàrrec municipal.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "El càlcul per a cada persona es fa multiplicant el nombre de dies d’estada, amb un màxim de 7 dies, per la tarifa corresponent més el recàrrec municipal, si escau.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "L'import màxim del recàrrec per a cada categoria d'establiment es fixa en 4 euros i no pot superar en cap cas l'import de la tarifa fixat en cada moment per a cada tipus d'establiment.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "Els menors de 17 anys.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "Estan exemptes de l'impost:",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "Les estades per motius de salut que compleixin els requisits establerts.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "Les estades subvencionades per programes socials d'una administració pública de qualsevol estat membre de la Unió Europea.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "Les estades per causa de força major, determinades per reglament.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      }
+    ],
+    "levies.es-catalonia-tourist-stay-tax.exemptions": [
+      {
+        "text": "Han de pagar aquest impost les persones que s’allotgen en un establiment turístic (hotel, hotel apartament, hostal, pensió, apartament turístic, càmping, establiment de turisme rural, habitatge d'ús turístic, llar compartida, alberg de joventut que presti el servei turístic d'allotjament o embarcació de creuer turístic).",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "L'import a pagar es calcula en funció del nombre d'estades, amb pernoctació o sense, i de la categoria de l'establiment. El pagament es fa a través de l'establiment turístic que, a la factura que emet per l'estada, inclou el concepte i l'import.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "Del municipi de Catalunya on es troba l’establiment turístic i de la seva categoria.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "A més, a la ciutat de Barcelona i a altres municipis s’hi afegeix un recàrrec municipal.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "El càlcul per a cada persona es fa multiplicant el nombre de dies d’estada, amb un màxim de 7 dies, per la tarifa corresponent més el recàrrec municipal, si escau.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "L'import màxim del recàrrec per a cada categoria d'establiment es fixa en 4 euros i no pot superar en cap cas l'import de la tarifa fixat en cada moment per a cada tipus d'establiment.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "Els menors de 17 anys.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "Estan exemptes de l'impost:",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "Les estades per motius de salut que compleixin els requisits establerts.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "Les estades subvencionades per programes socials d'una administració pública de qualsevol estat membre de la Unió Europea.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "Les estades per causa de força major, determinades per reglament.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      }
+    ],
+    "levies.es-catalonia-tourist-stay-tax.feeText": [
+      {
+        "text": "Han de pagar aquest impost les persones que s’allotgen en un establiment turístic (hotel, hotel apartament, hostal, pensió, apartament turístic, càmping, establiment de turisme rural, habitatge d'ús turístic, llar compartida, alberg de joventut que presti el servei turístic d'allotjament o embarcació de creuer turístic).",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "L'import a pagar es calcula en funció del nombre d'estades, amb pernoctació o sense, i de la categoria de l'establiment. El pagament es fa a través de l'establiment turístic que, a la factura que emet per l'estada, inclou el concepte i l'import.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "Del municipi de Catalunya on es troba l’establiment turístic i de la seva categoria.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "A més, a la ciutat de Barcelona i a altres municipis s’hi afegeix un recàrrec municipal.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "El càlcul per a cada persona es fa multiplicant el nombre de dies d’estada, amb un màxim de 7 dies, per la tarifa corresponent més el recàrrec municipal, si escau.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "L'import màxim del recàrrec per a cada categoria d'establiment es fixa en 4 euros i no pot superar en cap cas l'import de la tarifa fixat en cada moment per a cada tipus d'establiment.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "Els menors de 17 anys.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "Estan exemptes de l'impost:",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "Les estades per motius de salut que compleixin els requisits establerts.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "Les estades subvencionades per programes socials d'una administració pública de qualsevol estat membre de la Unió Europea.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      },
+      {
+        "text": "Les estades per causa de força major, determinades per reglament.",
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/"
+      }
+    ],
+    "levies.es-balearics-tourist-stay-tax": [
+      {
+        "text": "1. La cuota tributaria íntegra se obtendrá del resultado de aplicar a la base imponible la tarifa contenida en el siguiente cuadro: Clases de establecimientos turísticos Euros/día de estancia o fracción Hoteles, hoteles de ciudad y hoteles apartamentos de cinco estrellas, cinco estrellas gran lujo y cuatro estrellas superior 4 Hoteles, hoteles de ciudad y hoteles apartamentos de cuatro estrellas y tres estrellas superior 3 Hoteles, hoteles de ciudad y hoteles apartamentos de una, dos y tres estrellas 2 Apartamentos turísticos de cuatro llaves y cuatro llaves superior 4 Apartamentos turísticos de tres llaves superior 3 Apartamentos turísticos de una, dos y tres llaves 2 Establecimientos de alojamiento no residenciales de empresas turístico-residenciales 4 Viviendas turísticas de vacaciones, viviendas objeto de comercialización de estancias turísticas y viviendas objeto de comercialización turística 2 Hoteles rurales, agroturismos, hospederías y alojamientos de turismo de interior 2 Hostales, hostales-residencia, pensiones, posadas y casas de huéspedes, campamentos de turismo o campings 1 Albergues y refugios 1 Otros establecimientos o viviendas de carácter turístico 2 Embarcaciones de crucero turístico 2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2016-4175"
+      },
+      {
+        "text": "a) Una bonificación del 75% sobre la cuota tributaria íntegra para las estancias que se realicen en temporada baja. b) Una bonificación del 50% sobre la cuota tributaria íntegra -o, en su caso, minorada por la aplicación de la bonificación anterior- correspondiente a los días noveno y siguientes en todos los casos de estancias en un mismo establecimiento turístico superiores a los ocho días.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2016-4175"
+      },
+      {
+        "text": "3. A los efectos de la bonificación a que se refiere la letra a) del apartado anterior, se entiende por temporada baja el periodo comprendido entre el 1 de noviembre de cada año y el 30 de abril del año siguiente.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2016-4175"
+      },
+      {
+        "text": "1. Quedan exentas de este impuesto las siguientes estancias: a) Las estancias de menores de 16 años.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2016-4175"
+      },
+      {
+        "text": "1. El sustituto exigirá el impuesto al contribuyente en cualquier momento antes del final del período de estancia.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2016-4175"
+      },
+      {
+        "text": "2. En todo caso, el contribuyente estará obligado a satisfacer su correspondiente importe al sustituto y no lo podrá repercutir en otra persona o entidad.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2016-4175"
+      },
+      {
+        "text": "1. Son sujetos pasivos contribuyentes de este impuesto todas las personas físicas que llevan a cabo una estancia en los establecimientos turísticos a los que se refiere el artículo 4.1 de la presente ley.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2016-4175"
+      }
+    ],
+    "levies.es-balearics-tourist-stay-tax.exemptions": [
+      {
+        "text": "1. La cuota tributaria íntegra se obtendrá del resultado de aplicar a la base imponible la tarifa contenida en el siguiente cuadro: Clases de establecimientos turísticos Euros/día de estancia o fracción Hoteles, hoteles de ciudad y hoteles apartamentos de cinco estrellas, cinco estrellas gran lujo y cuatro estrellas superior 4 Hoteles, hoteles de ciudad y hoteles apartamentos de cuatro estrellas y tres estrellas superior 3 Hoteles, hoteles de ciudad y hoteles apartamentos de una, dos y tres estrellas 2 Apartamentos turísticos de cuatro llaves y cuatro llaves superior 4 Apartamentos turísticos de tres llaves superior 3 Apartamentos turísticos de una, dos y tres llaves 2 Establecimientos de alojamiento no residenciales de empresas turístico-residenciales 4 Viviendas turísticas de vacaciones, viviendas objeto de comercialización de estancias turísticas y viviendas objeto de comercialización turística 2 Hoteles rurales, agroturismos, hospederías y alojamientos de turismo de interior 2 Hostales, hostales-residencia, pensiones, posadas y casas de huéspedes, campamentos de turismo o campings 1 Albergues y refugios 1 Otros establecimientos o viviendas de carácter turístico 2 Embarcaciones de crucero turístico 2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2016-4175"
+      },
+      {
+        "text": "a) Una bonificación del 75% sobre la cuota tributaria íntegra para las estancias que se realicen en temporada baja. b) Una bonificación del 50% sobre la cuota tributaria íntegra -o, en su caso, minorada por la aplicación de la bonificación anterior- correspondiente a los días noveno y siguientes en todos los casos de estancias en un mismo establecimiento turístico superiores a los ocho días.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2016-4175"
+      },
+      {
+        "text": "3. A los efectos de la bonificación a que se refiere la letra a) del apartado anterior, se entiende por temporada baja el periodo comprendido entre el 1 de noviembre de cada año y el 30 de abril del año siguiente.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2016-4175"
+      },
+      {
+        "text": "1. Quedan exentas de este impuesto las siguientes estancias: a) Las estancias de menores de 16 años.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2016-4175"
+      },
+      {
+        "text": "1. El sustituto exigirá el impuesto al contribuyente en cualquier momento antes del final del período de estancia.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2016-4175"
+      },
+      {
+        "text": "2. En todo caso, el contribuyente estará obligado a satisfacer su correspondiente importe al sustituto y no lo podrá repercutir en otra persona o entidad.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2016-4175"
+      },
+      {
+        "text": "1. Son sujetos pasivos contribuyentes de este impuesto todas las personas físicas que llevan a cabo una estancia en los establecimientos turísticos a los que se refiere el artículo 4.1 de la presente ley.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2016-4175"
+      }
+    ],
+    "levies.es-balearics-tourist-stay-tax.feeText": [
+      {
+        "text": "1. La cuota tributaria íntegra se obtendrá del resultado de aplicar a la base imponible la tarifa contenida en el siguiente cuadro: Clases de establecimientos turísticos Euros/día de estancia o fracción Hoteles, hoteles de ciudad y hoteles apartamentos de cinco estrellas, cinco estrellas gran lujo y cuatro estrellas superior 4 Hoteles, hoteles de ciudad y hoteles apartamentos de cuatro estrellas y tres estrellas superior 3 Hoteles, hoteles de ciudad y hoteles apartamentos de una, dos y tres estrellas 2 Apartamentos turísticos de cuatro llaves y cuatro llaves superior 4 Apartamentos turísticos de tres llaves superior 3 Apartamentos turísticos de una, dos y tres llaves 2 Establecimientos de alojamiento no residenciales de empresas turístico-residenciales 4 Viviendas turísticas de vacaciones, viviendas objeto de comercialización de estancias turísticas y viviendas objeto de comercialización turística 2 Hoteles rurales, agroturismos, hospederías y alojamientos de turismo de interior 2 Hostales, hostales-residencia, pensiones, posadas y casas de huéspedes, campamentos de turismo o campings 1 Albergues y refugios 1 Otros establecimientos o viviendas de carácter turístico 2 Embarcaciones de crucero turístico 2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2016-4175"
+      },
+      {
+        "text": "a) Una bonificación del 75% sobre la cuota tributaria íntegra para las estancias que se realicen en temporada baja. b) Una bonificación del 50% sobre la cuota tributaria íntegra -o, en su caso, minorada por la aplicación de la bonificación anterior- correspondiente a los días noveno y siguientes en todos los casos de estancias en un mismo establecimiento turístico superiores a los ocho días.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2016-4175"
+      },
+      {
+        "text": "3. A los efectos de la bonificación a que se refiere la letra a) del apartado anterior, se entiende por temporada baja el periodo comprendido entre el 1 de noviembre de cada año y el 30 de abril del año siguiente.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2016-4175"
+      },
+      {
+        "text": "1. Quedan exentas de este impuesto las siguientes estancias: a) Las estancias de menores de 16 años.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2016-4175"
+      },
+      {
+        "text": "1. El sustituto exigirá el impuesto al contribuyente en cualquier momento antes del final del período de estancia.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2016-4175"
+      },
+      {
+        "text": "2. En todo caso, el contribuyente estará obligado a satisfacer su correspondiente importe al sustituto y no lo podrá repercutir en otra persona o entidad.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2016-4175"
+      },
+      {
+        "text": "1. Son sujetos pasivos contribuyentes de este impuesto todas las personas físicas que llevan a cabo una estancia en los establecimientos turísticos a los que se refiere el artículo 4.1 de la presente ley.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2016-4175"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "1. Las personas titulares de las actividades de hospedaje y de alquiler de vehículos incluidos en el ámbito de aplicación de esta norma recogerán los datos de las personas usuarias de las mismas con el objeto de proceder a su registro y a la comunicación necesarias para el cumplimiento de las obligaciones legales que se desarrollan mediante este real decreto.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-17461"
+      },
+      {
+        "text": "2. Los partes de entrada para el uso de los servicios de hospedaje deberán ser firmados por toda persona mayor de catorce años que haga uso de los mismos, conforme al sistema y modelo que se establezca.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-17461"
+      },
+      {
+        "text": "3. Adicionalmente, los sujetos obligados deberán transmitir a las autoridades competentes los datos relativos al ejercicio de su actividad comprendidos en los incisos 3 y 4 del apartado A) o B) del anexo I, o en los incisos 2, 3, 4 y 5 del anexo II, según la actividad de que se trate. Esta comunicación se realizará de manera inmediata, y en todo caso en un plazo no superior a 24 horas, respectivamente, a partir de los siguientes momentos: a) Al realizar la reserva o la formalización del contrato o, en su caso, su anulación. b) Al inicio de los servicios contratados.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-17461"
+      },
+      {
+        "text": "1. Los datos personales generados en ejecución de lo establecido en este real decreto serán conservados, en función de la actividad, en dos ficheros radicados en la Secretaría de Estado de Seguridad. Su tratamiento podrá ser realizado únicamente por las Fuerzas y Cuerpos de Seguridad en el desempeño de sus respectivas competencias en el ámbito de prevención, detección e investigación del delito que tengan asignadas.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-17461"
+      },
+      {
+        "text": "2. Se considerarán infracciones graves, en relación con el artículo 36.20 de la Ley Orgánica 4/2015, de 30 de marzo , las siguientes: a) La carencia de los registros documentales previstos en este real decreto. b) La omisión de las comunicaciones obligatorias.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-17461"
+      },
+      {
+        "text": "b) La realización de las comunicaciones obligatorias fuera del plazo establecido.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-17461"
+      },
+      {
+        "text": "4. La responsabilidad por las infracciones cometidas recaerá directamente en los sujetos obligados que sean autores del hecho en que consista la infracción.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-17461"
+      },
+      {
+        "text": "1. Las infracciones muy graves se sancionarán con multa de 30.001 a 600.000 euros; las graves, con multa de 601 a 30.000 euros, y las leves, con multa de 100 a 600 euros.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-3442"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "1. Las personas titulares de las actividades de hospedaje y de alquiler de vehículos incluidos en el ámbito de aplicación de esta norma recogerán los datos de las personas usuarias de las mismas con el objeto de proceder a su registro y a la comunicación necesarias para el cumplimiento de las obligaciones legales que se desarrollan mediante este real decreto.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-17461"
+      },
+      {
+        "text": "2. Los partes de entrada para el uso de los servicios de hospedaje deberán ser firmados por toda persona mayor de catorce años que haga uso de los mismos, conforme al sistema y modelo que se establezca.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-17461"
+      },
+      {
+        "text": "3. Adicionalmente, los sujetos obligados deberán transmitir a las autoridades competentes los datos relativos al ejercicio de su actividad comprendidos en los incisos 3 y 4 del apartado A) o B) del anexo I, o en los incisos 2, 3, 4 y 5 del anexo II, según la actividad de que se trate. Esta comunicación se realizará de manera inmediata, y en todo caso en un plazo no superior a 24 horas, respectivamente, a partir de los siguientes momentos: a) Al realizar la reserva o la formalización del contrato o, en su caso, su anulación. b) Al inicio de los servicios contratados.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-17461"
+      },
+      {
+        "text": "1. Los datos personales generados en ejecución de lo establecido en este real decreto serán conservados, en función de la actividad, en dos ficheros radicados en la Secretaría de Estado de Seguridad. Su tratamiento podrá ser realizado únicamente por las Fuerzas y Cuerpos de Seguridad en el desempeño de sus respectivas competencias en el ámbito de prevención, detección e investigación del delito que tengan asignadas.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-17461"
+      },
+      {
+        "text": "2. Se considerarán infracciones graves, en relación con el artículo 36.20 de la Ley Orgánica 4/2015, de 30 de marzo , las siguientes: a) La carencia de los registros documentales previstos en este real decreto. b) La omisión de las comunicaciones obligatorias.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-17461"
+      },
+      {
+        "text": "b) La realización de las comunicaciones obligatorias fuera del plazo establecido.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-17461"
+      },
+      {
+        "text": "4. La responsabilidad por las infracciones cometidas recaerá directamente en los sujetos obligados que sean autores del hecho en que consista la infracción.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-17461"
+      },
+      {
+        "text": "1. Las infracciones muy graves se sancionarán con multa de 30.001 a 600.000 euros; las graves, con multa de 601 a 30.000 euros, y las leves, con multa de 100 a 600 euros.",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-3442"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "es-catalonia-tourist-stay-tax",
+      "name": "Catalonia tax on stays in tourist establishments (Impost sobre les estades en establiments turístics)",
+      "kind": "tourist-tax",
+      "fee": null,
+      "per": "person-per-night",
+      "paidAt": "at-accommodation",
+      "appliesTo": "all",
+      "exemptions": "Under-17s; stays for health reasons that meet the set requirements; stays subsidised by social programmes of a public administration of any EU member state; stays due to force majeure, as set by regulation.",
+      "url": null,
+      "text": "People staying in a tourist establishment in Catalonia (hotels, hostels, campsites, tourist flats, cruise ships and others) pay this tax through the establishment, which shows it on the invoice. The amount depends on the municipality and the category of the establishment. Per person, it is the number of days (at most 7) times the tariff, plus the municipal surcharge where it applies (Barcelona and other municipalities; at most 4 euros). Under-17s and certain stays are exempt.",
+      "source": {
+        "url": "https://atc.gencat.cat/ca/tributs/ieet/",
+        "name": "Agència Tributària de Catalunya — Impost sobre les estades en establiments turístics",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12"
+      },
+      "feeText": "Depends on the Catalan municipality where the establishment is and on its category. Per person, the number of days of stay (at most 7) is multiplied by the tariff, plus the municipal surcharge where it applies. Barcelona and other municipalities add a surcharge of at most 4 euros per establishment category, never above the tariff."
+    },
+    {
+      "id": "es-balearics-tourist-stay-tax",
+      "name": "Balearic Islands tax on tourist stays (Impuesto sobre estancias turísticas)",
+      "kind": "tourist-tax",
+      "fee": null,
+      "per": "person-per-night",
+      "paidAt": "at-accommodation",
+      "appliesTo": "all",
+      "exemptions": "Stays of under-16s.",
+      "url": null,
+      "text": "Everyone staying in a tourist establishment in the Balearic Islands pays a tax per day of stay or fraction, from 1 to 4 euros depending on the class of establishment. There is a 75% reduction in low season (1 November to 30 April) and a 50% reduction from the ninth day of stays of more than eight days in the same establishment. Stays of under-16s are exempt. The establishment charges the tax to the guest at any time before the stay ends.",
+      "source": {
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2016-4175",
+        "name": "Boletín Oficial del Estado (BOE) — Ley 2/2016 of the Balearic Islands on the tax on tourist stays, consolidated text",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Ley 2/2016, de 30 de marzo, del impuesto sobre estancias turísticas en las Illes Balears, arts. 5, 6, 10, 13 (consolidated, last update published 17/05/2025)"
+      },
+      "feeText": "Euros per day of stay or fraction, by class of establishment: 4 (five-star, five-star grand luxury and four-star superior hotels; four-key and four-key superior tourist apartments; non-residential accommodation of tourist-residential companies), 3 (four-star and three-star superior hotels; three-key superior apartments), 2 (one- to three-star hotels; one- to three-key apartments; holiday homes and homes marketed for tourist stays; rural hotels, agrotourism and inland tourism accommodation; other tourist establishments or homes; cruise ships), 1 (hostels, guesthouses, inns, campsites, albergues and refuges). 75% reduction in low season (1 November to 30 April); 50% reduction from the ninth day for stays of more than eight days in the same establishment."
+    }
+  ]
 }

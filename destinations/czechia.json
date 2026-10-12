@@ -20,7 +20,7 @@
   ],
   "summary": "Czechia is an EU member state and a member of the Schengen Area. EU citizens can travel there with a valid passport or national ID card. Nationals of the countries on the EU's visa-exempt list (Annex II of Regulation 2018/1806) are exempt from the visa requirement for stays of no more than 90 days in any 180-day period; the ETIAS travel authorisation is not yet in operation. The Czech Foreign Ministry lists the states whose citizens need visas; its standard Schengen visa fee is EUR 90.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -47,7 +47,10 @@
     ],
     "modules": [
       "driving",
-      "stay-window"
+      "stay-window",
+      "overstay",
+      "levies",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -3664,6 +3667,39 @@
         "The EU's Your Europe portal says that when you enter the EU from a non-EU country you can bring goods free of VAT and excise duties if they are not for resale and within the limits: 4 litres of still wine and 16 litres of beer, plus 1 litre of spirits over 22 % vol. or 2 litres of fortified or sparkling wine, and other goods up to €300 per traveller or €430 for travellers by air and sea. For tobacco, a higher or lower limit may apply depending on the EU country.",
         "The EU's Your Europe portal says that when you travel between EU countries no further tax is due on alcohol and tobacco bought for your own use and not for resale. Each EU country sets guideline values that may not be lower than, for example, 800 cigarettes or 10 litres of spirits; if customs suspect goods are not for your own use, you may be asked to prove that they are."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "The police issue an administrative expulsion decision against a foreigner staying temporarily. It sets a period during which the foreigner may not enter the EU member states, Iceland, Liechtenstein, Norway and Switzerland, and the foreigner is entered in the contracting states' information system. The period is up to 5 years if the foreigner stays without a valid residence authorisation, and up to 3 years if the foreigner cannot prove that the stay is within the period allowed visa-free or on a short-stay visa.",
+      "source": {
+        "url": "https://e-sbirka.gov.cz/sb/1999/326",
+        "name": "e-Sbírka (Czech official Collection of Laws) — Act No. 326/1999 Coll. on the Residence of Foreign Nationals",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Zákon č. 326/1999 Sb., o pobytu cizinců na území České republiky, § 119 odst. 1 písm. b) bod 4 and písm. c) bod 2"
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": null,
+      "responsibility": "either",
+      "appliesTo": "all",
+      "penaltyText": "Breaching the duty under § 93(1) is an offence; the fine the Act sets for it is CZK 3,000.",
+      "url": null,
+      "text": "A foreigner must report their place of stay to the police within 3 working days of entering. This does not apply to foreigners under 15, to certain diplomatic and international-organisation staff and their registered family members, to foreigners housed by the ministry, or to a foreigner who has met the duty at the accommodation provider. An accommodation provider must notify the police of a foreigner's accommodation within 3 working days. Not reporting is an offence; the fine the Act sets for it is CZK 3,000.",
+      "source": {
+        "url": "https://e-sbirka.gov.cz/sb/1999/326",
+        "name": "e-Sbírka — Act No. 326/1999 Coll. on the Residence of Foreign Nationals",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Zákon č. 326/1999 Sb., § 93 odst. 1, § 102 odst. 1, § 103 písm. b), § 156 odst. 1 písm. d) a odst. 5 písm. d)"
+      }
     }
   },
   "countryFacts": {
@@ -4524,6 +4560,189 @@
         "text": "How long is this type of residence permit valid for? Always for a maximum period of 2 years.",
         "url": "https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-residence-permits/employee-card/"
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "Policie vydá rozhodnutí o správním vyhoštění cizince, který pobývá na území přechodně, s dobou, po kterou nelze cizinci umožnit vstup na území členských států Evropské unie, Islandské republiky, Lichtenštejnského knížectví, Norského království a Švýcarské konfederace, a zařadí cizince do informačního systému smluvních států,",
+        "url": "https://e-sbirka.gov.cz/sb/1999/326"
+      },
+      {
+        "text": "až na 5 let,",
+        "url": "https://e-sbirka.gov.cz/sb/1999/326"
+      },
+      {
+        "text": "pobývá-li cizinec na území nebo na území členských států Evropské unie, Islandské republiky, Lichtenštejnského knížectví, Norského království a Švýcarské konfederace, bez platného oprávnění k pobytu, ač k tomu není oprávněn,",
+        "url": "https://e-sbirka.gov.cz/sb/1999/326"
+      },
+      {
+        "text": "až na 3 roky,",
+        "url": "https://e-sbirka.gov.cz/sb/1999/326"
+      },
+      {
+        "text": "neprokáže-li cizinec, že na území smluvních států pobývá po dobu, po kterou je na tomto území oprávněn pobývat přechodně bez víza nebo na krátkodobé vízum,",
+        "url": "https://e-sbirka.gov.cz/sb/1999/326"
+      }
+    ],
+    "levies.poplatek-z-pobytu": [
+      {
+        "text": "Obec může zavést tyto místní poplatky (dále jen „poplatky“)",
+        "url": "https://e-sbirka.gov.cz/sb/1990/565"
+      },
+      {
+        "text": "poplatek z pobytu,",
+        "url": "https://e-sbirka.gov.cz/sb/1990/565"
+      },
+      {
+        "text": "Poplatníkem poplatku z pobytu je osoba, která v obci není přihlášená.",
+        "url": "https://e-sbirka.gov.cz/sb/1990/565"
+      },
+      {
+        "text": "Předmětem poplatku z pobytu je úplatný pobyt trvající nejvýše 60 po sobě jdoucích kalendářních dnů u jednotlivého poskytovatele pobytu.",
+        "url": "https://e-sbirka.gov.cz/sb/1990/565"
+      },
+      {
+        "text": "Základem poplatku z pobytu je počet započatých dnů pobytu, s výjimkou dne počátku pobytu.",
+        "url": "https://e-sbirka.gov.cz/sb/1990/565"
+      },
+      {
+        "text": "Sazba poplatku z pobytu činí nejvýše 50 Kč.",
+        "url": "https://e-sbirka.gov.cz/sb/1990/565"
+      },
+      {
+        "text": "Plátcem poplatku z pobytu je poskytovatel úplatného pobytu.",
+        "url": "https://e-sbirka.gov.cz/sb/1990/565"
+      },
+      {
+        "text": "mladší 18 let,",
+        "url": "https://e-sbirka.gov.cz/sb/1990/565"
+      }
+    ],
+    "levies.poplatek-z-pobytu.exemptions": [
+      {
+        "text": "Obec může zavést tyto místní poplatky (dále jen „poplatky“)",
+        "url": "https://e-sbirka.gov.cz/sb/1990/565"
+      },
+      {
+        "text": "poplatek z pobytu,",
+        "url": "https://e-sbirka.gov.cz/sb/1990/565"
+      },
+      {
+        "text": "Poplatníkem poplatku z pobytu je osoba, která v obci není přihlášená.",
+        "url": "https://e-sbirka.gov.cz/sb/1990/565"
+      },
+      {
+        "text": "Předmětem poplatku z pobytu je úplatný pobyt trvající nejvýše 60 po sobě jdoucích kalendářních dnů u jednotlivého poskytovatele pobytu.",
+        "url": "https://e-sbirka.gov.cz/sb/1990/565"
+      },
+      {
+        "text": "Základem poplatku z pobytu je počet započatých dnů pobytu, s výjimkou dne počátku pobytu.",
+        "url": "https://e-sbirka.gov.cz/sb/1990/565"
+      },
+      {
+        "text": "Sazba poplatku z pobytu činí nejvýše 50 Kč.",
+        "url": "https://e-sbirka.gov.cz/sb/1990/565"
+      },
+      {
+        "text": "Plátcem poplatku z pobytu je poskytovatel úplatného pobytu.",
+        "url": "https://e-sbirka.gov.cz/sb/1990/565"
+      },
+      {
+        "text": "mladší 18 let,",
+        "url": "https://e-sbirka.gov.cz/sb/1990/565"
+      }
+    ],
+    "levies.poplatek-z-pobytu.feeText": [
+      {
+        "text": "Obec může zavést tyto místní poplatky (dále jen „poplatky“)",
+        "url": "https://e-sbirka.gov.cz/sb/1990/565"
+      },
+      {
+        "text": "poplatek z pobytu,",
+        "url": "https://e-sbirka.gov.cz/sb/1990/565"
+      },
+      {
+        "text": "Poplatníkem poplatku z pobytu je osoba, která v obci není přihlášená.",
+        "url": "https://e-sbirka.gov.cz/sb/1990/565"
+      },
+      {
+        "text": "Předmětem poplatku z pobytu je úplatný pobyt trvající nejvýše 60 po sobě jdoucích kalendářních dnů u jednotlivého poskytovatele pobytu.",
+        "url": "https://e-sbirka.gov.cz/sb/1990/565"
+      },
+      {
+        "text": "Základem poplatku z pobytu je počet započatých dnů pobytu, s výjimkou dne počátku pobytu.",
+        "url": "https://e-sbirka.gov.cz/sb/1990/565"
+      },
+      {
+        "text": "Sazba poplatku z pobytu činí nejvýše 50 Kč.",
+        "url": "https://e-sbirka.gov.cz/sb/1990/565"
+      },
+      {
+        "text": "Plátcem poplatku z pobytu je poskytovatel úplatného pobytu.",
+        "url": "https://e-sbirka.gov.cz/sb/1990/565"
+      },
+      {
+        "text": "mladší 18 let,",
+        "url": "https://e-sbirka.gov.cz/sb/1990/565"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "Cizinec je povinen do 3 pracovních dnů ode dne vstupu na území ohlásit na policii místo pobytu na území (§ 97); to neplatí, pokud jde o cizince mladšího 15 let, člena zastupitelského úřadu cizího státu nebo zastoupení mezinárodní vládní organizace, veřejné instituce nebo entity70) akreditovaných v České republice, jeho rodinného příslušníka registrovaného Ministerstvem zahraničních věcí nebo cizince, kterému ministerstvo zajišťuje ubytování. Povinnost ohlásit místo pobytu na policii se dále nevztahuje na cizince, který tuto povinnost splnil u ubytovatele [§ 103 písm. b)].",
+        "url": "https://e-sbirka.gov.cz/sb/1999/326"
+      },
+      {
+        "text": "Ubytovatel je povinen oznámit ubytování cizince do 3 pracovních dnů po jeho ubytování; oznámení učiní útvaru policie.",
+        "url": "https://e-sbirka.gov.cz/sb/1999/326"
+      },
+      {
+        "text": "nesplní povinnost podle § 93 odst. 1 nebo 2 anebo podle § 98 odst. 1, 3, 4 nebo 5,",
+        "url": "https://e-sbirka.gov.cz/sb/1999/326"
+      },
+      {
+        "text": "3 000 Kč, jde-li o přestupek podle odstavce 1 písm. a), b), d), e), g) nebo k).",
+        "url": "https://e-sbirka.gov.cz/sb/1999/326"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "Cizinec je povinen do 3 pracovních dnů ode dne vstupu na území ohlásit na policii místo pobytu na území (§ 97); to neplatí, pokud jde o cizince mladšího 15 let, člena zastupitelského úřadu cizího státu nebo zastoupení mezinárodní vládní organizace, veřejné instituce nebo entity70) akreditovaných v České republice, jeho rodinného příslušníka registrovaného Ministerstvem zahraničních věcí nebo cizince, kterému ministerstvo zajišťuje ubytování. Povinnost ohlásit místo pobytu na policii se dále nevztahuje na cizince, který tuto povinnost splnil u ubytovatele [§ 103 písm. b)].",
+        "url": "https://e-sbirka.gov.cz/sb/1999/326"
+      },
+      {
+        "text": "Ubytovatel je povinen oznámit ubytování cizince do 3 pracovních dnů po jeho ubytování; oznámení učiní útvaru policie.",
+        "url": "https://e-sbirka.gov.cz/sb/1999/326"
+      },
+      {
+        "text": "nesplní povinnost podle § 93 odst. 1 nebo 2 anebo podle § 98 odst. 1, 3, 4 nebo 5,",
+        "url": "https://e-sbirka.gov.cz/sb/1999/326"
+      },
+      {
+        "text": "3 000 Kč, jde-li o přestupek podle odstavce 1 písm. a), b), d), e), g) nebo k).",
+        "url": "https://e-sbirka.gov.cz/sb/1999/326"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "poplatek-z-pobytu",
+      "name": "Local fee for stay (poplatek z pobytu)",
+      "kind": "tourist-tax",
+      "fee": null,
+      "per": "person-per-night",
+      "paidAt": "at-accommodation",
+      "appliesTo": "all",
+      "exemptions": "Persons under 18.",
+      "url": null,
+      "text": "A municipality may introduce a fee for stay. It is paid by a person not registered as resident in the municipality, for a paid stay of at most 60 consecutive calendar days with one provider. The base is the number of started days of stay, excluding the first day. The rate is at most CZK 50. The provider of the paid stay is the payer of the fee. Persons under 18 are exempt.",
+      "source": {
+        "url": "https://e-sbirka.gov.cz/sb/1990/565",
+        "name": "e-Sbírka — Act No. 565/1990 Coll. on Local Fees",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Zákon č. 565/1990 Sb., o místních poplatcích, § 1 písm. b), § 3–3e"
+      },
+      "feeText": "At most CZK 50 per started day of stay, excluding the first day."
+    }
+  ]
 }

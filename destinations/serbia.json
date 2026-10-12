@@ -24,7 +24,7 @@
   ],
   "summary": "Serbia's Ministry of Foreign Affairs says holders of ordinary passports of, for example, Germany, the US and the UK need no visa for visits of up to 90 days in a 6-month period from the first entry, and that ordinary-passport holders of Russia, China and Belarus need none for visits of up to 30 days, and of the UAE and Bahrain for up to 90 days within 6 months. Under a 2014 Government decision, holders of a valid Schengen, UK, EU member state or US visa, or of a Schengen, EU or US residence permit, can also enter without a Serbian visa. Visa applications are submitted to a Serbian embassy or consulate general abroad or online.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -38,7 +38,10 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay",
+      "levies",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -3838,6 +3841,44 @@
         "The UK Foreign Office says you must declare personal items of value you are carrying, for example jewellery, cameras and computing equipment, and that these are exempt from customs duties. Canada says these items should be intended for your own personal use and you must take them with you when leaving the country.",
         "The UK Foreign Office says that if you take any Serbian dinars into the country you must show the receipt from the bank where you bought them, and that you should exchange any unwanted dinars before you leave."
       ]
+    },
+    "overstay": {
+      "fine": {
+        "amount": 50000,
+        "currency": "RSD",
+        "per": "incident",
+        "maxAmount": 150000
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "A stay is unlawful if the foreigner stays in Serbia more than 90 days in a 180-day period (or longer than an international agreement allows), or longer than the stay granted in the visa, or if the visa was annulled or revoked. A foreigner who stays unlawfully is fined 50,000 to 150,000 dinars and may also be given the protective measure of removal from Serbia. An entry ban is set case by case and not for longer than five years, unless the foreigner is a serious threat to the security of Serbia and its citizens.",
+      "source": {
+        "url": "https://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2018/24/1/reg",
+        "name": "Pravno-informacioni sistem RS (Official Gazette) — Law on Foreigners (Zakon o strancima), consolidated 24/2018, 31/2019, 62/2023",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Zakon o strancima (Sl. glasnik RS 24/2018, 31/2019, 62/2023), art. 74(1) items 2-3, art. 122(1) item 2 and (2), art. 78(3)"
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": 24,
+      "responsibility": "either",
+      "appliesTo": "all",
+      "penaltyText": "A foreigner who does not register the stay within 24 hours of entering Serbia, or of changing residence, is fined 5,000 to 150,000 dinars.",
+      "url": null,
+      "text": "Businesses and individuals providing paid accommodation to foreigners must register the foreigner's stay with the police within 24 hours of providing accommodation. People and businesses receiving a foreigner on a visit must do so within 24 hours of the visit starting. A foreigner who uses neither must register personally within 24 hours of entering Serbia or of changing residence. A foreigner who fails to do so is fined 5,000 to 150,000 dinars.",
+      "source": {
+        "url": "https://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2018/24/1/reg",
+        "name": "Pravno-informacioni sistem RS — Law on Foreigners",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Zakon o strancima, art. 111(1)-(3), art. 120"
+      }
     }
   },
   "countryFacts": {
@@ -4356,6 +4397,241 @@
         "text": "On basis of this decision, the above-mentioned categories of foreign nationals may, without prior visa application, enter, transit and stay in the Republic of Serbia up to 90 days during a six-month period, and within validity of said visas or residence permits.",
         "url": "https://www.mfa.gov.rs/en/citizens/travel-serbia/visa-requirements"
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "2) странац у Републици Србији остао дуже од 90 дана у периоду од 180 дана, односно дуже од периода боравка странца одређеног међународним уговором;",
+        "url": "https://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2018/24/1/reg"
+      },
+      {
+        "text": "3) странац у Републици Србији остао дуже од периода боравка који му је одобрен у издатој визи, или му је виза поништена или укинута;",
+        "url": "https://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2018/24/1/reg"
+      },
+      {
+        "text": "(1) Новчаном казном у износу од 50.000 до 150.000 динара казниће се за прекршај странац који:",
+        "url": "https://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2018/24/1/reg"
+      },
+      {
+        "text": "2) незаконито борави у Републици Србији (члан 74. став (1) овог закона);",
+        "url": "https://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2018/24/1/reg"
+      },
+      {
+        "text": "(2) Уз казну за прекршај из става (1) овог члана странцу се може изрећи и заштитна мера удаљења странца са територије Републике Србије.",
+        "url": "https://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2018/24/1/reg"
+      },
+      {
+        "text": "(3) Дужина забране уласка одређује се узимајући у обзир све околности појединачног случаја и не изриче се на период дужи од пет година, осим у случају да странац представља озбиљну претњу по безбедност Републике Србије и њених грађана.",
+        "url": "https://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2018/24/1/reg"
+      }
+    ],
+    "levies.boravisna-taksa": [
+      {
+        "text": "Боравишну таксу плаћа корисник услуге смештаја који изван свог места пребивалишта користи услугу смештаја у угоститељском објекту за смештај за коришћење комуналне, саобраћајне и туристичке инфраструктуре и супраструктуре на подручју јединице локалне самоуправе.",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "Боравишна такса плаћа се за сваки дан боравка у угоститељском објекту за смештај.",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "Боравишна такса се наплаћује истовремено са наплатом услуге смештаја.",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "Висину боравишне таксе утврђује јединица локалне самоуправе у зависности од категорије туристичког места или у различитој висини по деловима општине, односно града у зависности од изграђености комуналне, саобраћајне и туристичке инфраструктуре.",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "1) деца до седам година старости;",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "6) лица која непрекидно бораве у објекту за смештај дуже од 30 дана.",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "Боравишну таксу умањену за 50% плаћају лица од седам до 15 година старости.",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "Боравишну таксу не плаћају:",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "2) лица упућена на бањско и климатско лечење, односно специјализовану рехабилитацију од стране надлежне лекарске комисије;",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "3) особе са инвалидитетом са телесним оштећењем од најмање 70%, војни инвалиди од прве до пете групе, цивилни инвалиди рата од прве до пете групе, слепа лица, лица оболела од дистрофије и сродних мишићних и неуромишићних обољења, параплегије и квадриплегије, церебралне и дечје парализе и мултиплекс склерозе, особе ометене у развоју, као и пратилац наведених особа;",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "4) ученици и студенти који организовано бораве у угоститељском објекту за смештај ради извођења спортско-рекреативних и других активности по програму министарства надлежног за послове просвете, студенти који организовано бораве у угоститељском објекту за смештај ради извођења обавезне наставе у складу са наставним планом образовне установе, као и учесници републичких и регионалних такмичења у знању и вештинама;",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "5) страни држављани који су по међународним конвенцијама и споразумима ослобођени плаћања таксе;",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      }
+    ],
+    "levies.boravisna-taksa.exemptions": [
+      {
+        "text": "Боравишну таксу плаћа корисник услуге смештаја који изван свог места пребивалишта користи услугу смештаја у угоститељском објекту за смештај за коришћење комуналне, саобраћајне и туристичке инфраструктуре и супраструктуре на подручју јединице локалне самоуправе.",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "Боравишна такса плаћа се за сваки дан боравка у угоститељском објекту за смештај.",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "Боравишна такса се наплаћује истовремено са наплатом услуге смештаја.",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "Висину боравишне таксе утврђује јединица локалне самоуправе у зависности од категорије туристичког места или у различитој висини по деловима општине, односно града у зависности од изграђености комуналне, саобраћајне и туристичке инфраструктуре.",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "1) деца до седам година старости;",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "6) лица која непрекидно бораве у објекту за смештај дуже од 30 дана.",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "Боравишну таксу умањену за 50% плаћају лица од седам до 15 година старости.",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "Боравишну таксу не плаћају:",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "2) лица упућена на бањско и климатско лечење, односно специјализовану рехабилитацију од стране надлежне лекарске комисије;",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "3) особе са инвалидитетом са телесним оштећењем од најмање 70%, војни инвалиди од прве до пете групе, цивилни инвалиди рата од прве до пете групе, слепа лица, лица оболела од дистрофије и сродних мишићних и неуромишићних обољења, параплегије и квадриплегије, церебралне и дечје парализе и мултиплекс склерозе, особе ометене у развоју, као и пратилац наведених особа;",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "4) ученици и студенти који организовано бораве у угоститељском објекту за смештај ради извођења спортско-рекреативних и других активности по програму министарства надлежног за послове просвете, студенти који организовано бораве у угоститељском објекту за смештај ради извођења обавезне наставе у складу са наставним планом образовне установе, као и учесници републичких и регионалних такмичења у знању и вештинама;",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "5) страни држављани који су по међународним конвенцијама и споразумима ослобођени плаћања таксе;",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      }
+    ],
+    "levies.boravisna-taksa.feeText": [
+      {
+        "text": "Боравишну таксу плаћа корисник услуге смештаја који изван свог места пребивалишта користи услугу смештаја у угоститељском објекту за смештај за коришћење комуналне, саобраћајне и туристичке инфраструктуре и супраструктуре на подручју јединице локалне самоуправе.",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "Боравишна такса плаћа се за сваки дан боравка у угоститељском објекту за смештај.",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "Боравишна такса се наплаћује истовремено са наплатом услуге смештаја.",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "Висину боравишне таксе утврђује јединица локалне самоуправе у зависности од категорије туристичког места или у различитој висини по деловима општине, односно града у зависности од изграђености комуналне, саобраћајне и туристичке инфраструктуре.",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "1) деца до седам година старости;",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "6) лица која непрекидно бораве у објекту за смештај дуже од 30 дана.",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "Боравишну таксу умањену за 50% плаћају лица од седам до 15 година старости.",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "Боравишну таксу не плаћају:",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "2) лица упућена на бањско и климатско лечење, односно специјализовану рехабилитацију од стране надлежне лекарске комисије;",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "3) особе са инвалидитетом са телесним оштећењем од најмање 70%, војни инвалиди од прве до пете групе, цивилни инвалиди рата од прве до пете групе, слепа лица, лица оболела од дистрофије и сродних мишићних и неуромишићних обољења, параплегије и квадриплегије, церебралне и дечје парализе и мултиплекс склерозе, особе ометене у развоју, као и пратилац наведених особа;",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "4) ученици и студенти који организовано бораве у угоститељском објекту за смештај ради извођења спортско-рекреативних и других активности по програму министарства надлежног за послове просвете, студенти који организовано бораве у угоститељском објекту за смештај ради извођења обавезне наставе у складу са наставним планом образовне установе, као и учесници републичких и регионалних такмичења у знању и вештинама;",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      },
+      {
+        "text": "5) страни држављани који су по међународним конвенцијама и споразумима ослобођени плаћања таксе;",
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "(1) Правна лица, предузетници и физичка лица која пружају услуге смештаја странцима уз накнаду дужна су да полицијској управи према месту смештаја странца изврше пријаву боравишта странца у року од 24 часа од часа пружања услуге смештаја.",
+        "url": "https://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2018/24/1/reg"
+      },
+      {
+        "text": "(2) Правна лица, предузетници и физичка лица код којих странци долазе у посету дужна су да полицијској управи према месту смештаја странца изврше пријаву боравишта странца у року од 24 часа од доласка странца у посету.",
+        "url": "https://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2018/24/1/reg"
+      },
+      {
+        "text": "(3) Странац који не користи смештај из става (1) овог члана или не одседа на приватној адреси код физичког или правног лица, дужан је да полицијској управи према месту смештаја, сам пријави своје боравиште у року од 24 часа од уласка у Републику Србију, односно од дана промене боравишта.",
+        "url": "https://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2018/24/1/reg"
+      },
+      {
+        "text": "(4) Новчаном казном у износу од 5.000 до 150.000 динара казниће се странац који надлежном органу у року од 24 часа од уласка у Републику Србију, односно од дана промене боравишта не изврши пријаву боравишта (члан 111. став (3) овог закона).",
+        "url": "https://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2018/24/1/reg"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "(1) Правна лица, предузетници и физичка лица која пружају услуге смештаја странцима уз накнаду дужна су да полицијској управи према месту смештаја странца изврше пријаву боравишта странца у року од 24 часа од часа пружања услуге смештаја.",
+        "url": "https://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2018/24/1/reg"
+      },
+      {
+        "text": "(2) Правна лица, предузетници и физичка лица код којих странци долазе у посету дужна су да полицијској управи према месту смештаја странца изврше пријаву боравишта странца у року од 24 часа од доласка странца у посету.",
+        "url": "https://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2018/24/1/reg"
+      },
+      {
+        "text": "(3) Странац који не користи смештај из става (1) овог члана или не одседа на приватној адреси код физичког или правног лица, дужан је да полицијској управи према месту смештаја, сам пријави своје боравиште у року од 24 часа од уласка у Републику Србију, односно од дана промене боравишта.",
+        "url": "https://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2018/24/1/reg"
+      },
+      {
+        "text": "(4) Новчаном казном у износу од 5.000 до 150.000 динара казниће се странац који надлежном органу у року од 24 часа од уласка у Републику Србију, односно од дана промене боравишта не изврши пријаву боравишта (члан 111. став (3) овог закона).",
+        "url": "https://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2018/24/1/reg"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "boravisna-taksa",
+      "name": "Tourist tax (boravišna taksa)",
+      "kind": "tourist-tax",
+      "fee": null,
+      "per": "person-per-night",
+      "paidAt": "at-accommodation",
+      "appliesTo": "all",
+      "exemptions": "Not paid by: children up to seven; people sent for spa or climate treatment or specialised rehabilitation by the competent medical commission; persons with listed disabilities (including a physical impairment of at least 70%) and their companions; pupils and students staying in organised groups under an education ministry programme or for compulsory teaching, and participants in national and regional knowledge and skills competitions; foreign nationals exempt under international conventions and agreements; people staying in the same accommodation for more than 30 days without a break. People aged 7 to 15 pay 50%.",
+      "url": null,
+      "text": "A guest who uses accommodation in a hospitality establishment outside their place of residence pays the tourist tax for each day of stay. It is charged at the same time as the accommodation. Each local government sets the amount by category of tourist place or by part of the municipality or city. Not paid by children up to seven, people staying more than 30 days without a break, and other listed groups. People aged 7 to 15 pay half.",
+      "source": {
+        "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2019/17/6/reg",
+        "name": "Pravno-informacioni sistem RS — Law on Hospitality (Zakon o ugostiteljstvu), Sl. glasnik RS 17/2019",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Zakon o ugostiteljstvu (Sl. glasnik RS 17/2019), arts. 70, 73, 74"
+      },
+      "feeText": "The local government sets the amount according to the category of the tourist place, or at different amounts for parts of the municipality or city according to how developed the communal, transport and tourist infrastructure is."
+    }
+  ]
 }

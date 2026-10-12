@@ -17,7 +17,7 @@
   ],
   "summary": "Timor-Leste's Migration Service says travellers of all nationalities, except those subject to separate visa waiver arrangements, may apply for and, if they satisfy the criteria, obtain a tourist visa on arrival, valid for 30 days' stay and extendable once for the same period; the fee is US$30, paid in US$ cash. It says the visa can be obtained at all official border posts, air, land or sea, that are open to foreign nationals and have a Migration Service presence. Schengen Area citizens travel visa-free for 90 days in any 180-day period (citizens of the United Kingdom and Ireland are not included), and citizens of Indonesia, Malaysia, Singapore and Thailand are visa exempt for stays of up to 30 days for tourism purposes.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -30,7 +30,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay"
     ]
   },
   "visaPolicy": {
@@ -3283,6 +3284,27 @@
         "The UK Foreign Office says there are strict rules about goods you can take into or out of Timor-Leste, and you must declare anything that may be prohibited or subject to tax or duty.",
         "Timor-Leste Customs' e-Passenger Declaration asks whether you have more than 200 sticks of cigarettes or 200 grams of other tobacco, more than 2.5 litres of alcoholic beverages, goods obtained overseas worth more than US$300, goods or samples for commercial use, any prohibited or dangerous goods, narcotic goods, ammunition or weapons of any kind including knives, and any food, plants or plant products including wood, live animals or animal products, seafood, live fish, animal feed, biological specimens, fertiliser, soil, vaccines, medicines and traditional medicine."
       ]
+    },
+    "overstay": {
+      "fine": {
+        "amount": 150,
+        "currency": "USD",
+        "per": "incident",
+        "maxAmount": 580
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "A foreigner who exceeds the authorised period of stay is fined USD 150–230 if the overstay is up to 30 days, USD 230–350 if over 30 and up to 90 days, and USD 350–580 if over 90 days.",
+      "source": {
+        "url": "https://www.mj.gov.tl/jornal/public/docs/2021/serie_1/SERIE_I_NO_25_NORMAL.pdf",
+        "name": "Jornal da República (Timor-Leste), Série I, N.º 25, 16 June 2021 — Lei n.º 10/2021 republishing Lei n.º 11/2017, Lei de Migração e Asilo",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Lei n.º 11/2017 (Lei de Migração e Asilo), art. 141, as republished with Lei n.º 10/2021"
+      }
     }
   },
   "countryFacts": {
@@ -3859,6 +3881,16 @@
       {
         "text": "Considera-se sob influência de álcool o condutor que apresente uma taxa de álcool no sangue superior a 0,5 g/l",
         "url": "https://timor-leste.gov.tl/wp-content/uploads/2010/03/DL_2003_6_codigo_estrada_1.pdf"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "Artigo 141.º Permanência ilegal Nos casos em que o estrangeiro exceda o período de permanência autorizado em território nacional, aplicam-se as seguintes coimas:",
+        "url": "https://www.mj.gov.tl/jornal/public/docs/2021/serie_1/SERIE_I_NO_25_NORMAL.pdf"
+      },
+      {
+        "text": "a) De 150 a 230 dólares norte-americanos quando o período de excesso de permanência não exceda trinta dias; b) De 230 a 350 dólares norte-americanos quando o período de excesso de permanência for superior a trinta dias mas não exceda noventa dias; c) De 350 a 580 dólares norte-americanos quando o período de excesso de permanência for superior a noventa dias.",
+        "url": "https://www.mj.gov.tl/jornal/public/docs/2021/serie_1/SERIE_I_NO_25_NORMAL.pdf"
       }
     ]
   }

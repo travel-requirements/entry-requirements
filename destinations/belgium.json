@@ -20,7 +20,7 @@
   ],
   "summary": "Belgium is part of the Schengen Area: EU citizens travel freely, and Swiss and EEA nationals enter with a valid identity card or passport; nationals of the countries and territories on the EU's visa-exempt list (Annex II of Regulation (EU) 2018/1806) can stay up to 90 days in any 180-day period (ETIAS is not yet in operation), and nationals on the EU's visa-required list (Annex I) need a Schengen short-stay visa (€90 under the Visa Code, €35 for Armenian, Azerbaijani and Belarusian nationals under EU visa facilitation agreements, and 75% of the standard fee for Cabo Verdean nationals). Belgium's embassy pages say the application is submitted at the Belgian embassy when Belgium is the first entry into the Schengen zone and/or the main purpose of the trip lies in Belgium.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -40,7 +40,9 @@
     ],
     "modules": [
       "driving",
-      "stay-window"
+      "stay-window",
+      "overstay",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -3609,6 +3611,39 @@
         "Arriving from outside the EU, the EU's Your Europe portal gives a duty-free allowance of 4 litres of still wine and 16 litres of beer, plus 1 litre of spirits over 22% vol. (or 2 litres of fortified or sparkling wine); 200 cigarettes (or 250 g of tobacco) where the higher tobacco limit applies, since a higher or lower limit may apply depending on the EU country; and other goods worth up to €300, or €430 for travellers by air and sea. Under-17s are not entitled to a duty-free allowance for tobacco or alcohol.",
         "Between EU countries, Your Europe says no further payments are due in another EU country on products bought for your own use and not for resale, and that each EU country can set its own guideline values for the quantities of tobacco and alcohol you can bring in."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "A foreigner who entered Belgium lawfully may not stay more than ninety days, unless the visa sets another period. A foreigner staying illegally is punishable by eight days to three months' imprisonment and a fine of twenty-six to two hundred euros, or either. Imprisonment is possible only if an earlier detention measure ended without removal and the person still stays illegally without a justified reason for not returning. A repeat offence within three years carries one to twelve months' imprisonment and a fine of one hundred to one thousand euros, or either. A third-country national not authorised under article 6 to stay more than three months is given a period of seven to thirty days. A removal decision carries an entry ban of up to three years when no period for voluntary departure is given or an earlier removal decision was not carried out.",
+      "source": {
+        "url": "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=1980121530&table_name=loi",
+        "name": "Justel / Moniteur belge (FPS Justice) — Loi du 15 décembre 1980 sur l'accès au territoire, le séjour, l'établissement et l'éloignement des étrangers (consolidated)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Loi du 15 décembre 1980, art. 6, art. 7 al. 1 2°, art. 74/11 § 1er, art. 74/14 § 1er, art. 75 § 2-3 (art. 75 as amended by L 2024-05-12, in force 20-07-2024)"
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": null,
+      "responsibility": "traveler",
+      "appliesTo": "all",
+      "penaltyText": null,
+      "url": null,
+      "text": "A third-country national coming to Belgium for a stay of up to ninety days who does not lodge in an establishment subject to the travellers-control legislation must communicate their residence address within three working days of entry, either electronically to the Immigration Office or in person at the municipality; the King may exempt categories. Holders of another member state's residence permit or long-stay visa must do it in person at the municipality.",
+      "source": {
+        "url": "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=1980121530&table_name=loi",
+        "name": "Justel / Moniteur belge (FPS Justice) — Loi du 15 décembre 1980 sur les étrangers, art. 5 (consolidated)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Loi du 15 décembre 1980, art. 5 § 1er (as replaced by L 2023-03-19/09, art. 6, in force 10-04-2026)"
+      }
     }
   },
   "countryFacts": {
@@ -4260,6 +4295,54 @@
       {
         "text": "The visa fee shall be waived for applicants belonging to one of the following categories: (a) children under six years;",
         "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "Sauf dérogations prévues par un traité international, par la loi ou par un arrêté royal, l'étranger qui est entré régulièrement dans le Royaume ne peut y séjourner plus de nonante jours, à moins que le visa ou l'autorisation tenant lieu de visa, apposé sur son passeport ou sur le titre de voyage en tenant lieu, ne fixe une autre durée.",
+        "url": "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=1980121530&table_name=loi"
+      },
+      {
+        "text": "2° s'il demeure dans le Royaume au-delà du délai fixé conformément à l'article 6, ou ne peut apporter la preuve que ce délai n'est pas dépassé;",
+        "url": "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=1980121530&table_name=loi"
+      },
+      {
+        "text": "§ 2. Sous réserve des articles 53 et 79, l'étranger qui séjourne illégalement dans le Royaume est puni, dans les limites prévues à l'alinéa 2, d'un emprisonnement de huit jours à trois mois et d'une amende de vingt-six euros à deux cents euros, ou d'une de ces peines seulement.",
+        "url": "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=1980121530&table_name=loi"
+      },
+      {
+        "text": "L'emprisonnement, visé à l'alinéa 1er, peut être imposé uniquement si l'étranger a déjà fait l'objet d'une mesure de maintien ou d'une mesure de maintien moins coercitive ayant pris fin sans qu'il ait pu être procédé à son éloignement et s'il continue, sans motif justifié de non-retour, à séjourner illégalement dans le Royaume.",
+        "url": "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=1980121530&table_name=loi"
+      },
+      {
+        "text": "§ 3. En cas de récidive dans le délai de trois ans d'une des infractions prévues aux paragraphes 1 et 2, ces peines sont portées à un emprisonnement d'un mois à douze mois et à une amende de cent euros à mille euros, ou à une de ces peines seulement.",
+        "url": "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=1980121530&table_name=loi"
+      },
+      {
+        "text": "Le ressortissant d'un pays tiers qui, conformément à l'article 6, n'est pas autorisé à séjourner plus de trois mois dans le Royaume, bénéficie d'un délai de sept à trente jours.",
+        "url": "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=1980121530&table_name=loi"
+      },
+      {
+        "text": "La décision d'éloignement est assortie d'une interdiction d'entrée de maximum trois ans, dans les cas suivants :",
+        "url": "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=1980121530&table_name=loi"
+      },
+      {
+        "text": "1° lorsqu'aucun délai n'est accordé pour le départ volontaire ou;",
+        "url": "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=1980121530&table_name=loi"
+      },
+      {
+        "text": "2° lorsqu'une décision d'éloignement antérieure n'a pas été exécutée.",
+        "url": "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=1980121530&table_name=loi"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "Le ressortissant d'un pays tiers qui vient en Belgique pour un séjour n'excédant pas nonante jours et qui ne loge pas dans une maison d'hébergement soumise à la législation relative au contrôle des voyageurs communique son adresse de résidence dans les trois jours ouvrables de son entrée dans le Royaume, soit par voie électronique à l'Office des étrangers, soit en personne auprès de l'administration communale de son lieu de résidence. Le Roi peut dispenser certaines catégories d'étrangers de cette obligation.",
+        "url": "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=1980121530&table_name=loi"
+      },
+      {
+        "text": "Le ressortissant d'un pays tiers visé à l'alinéa 1er, qui possède un titre de séjour ou un visa de longue durée délivré par un autre Etat membre, communique son adresse de résidence en personne auprès de l'administration communale de son lieu de résidence dans les trois jours ouvrables de son entrée dans le Royaume.",
+        "url": "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=1980121530&table_name=loi"
       }
     ]
   }

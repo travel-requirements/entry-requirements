@@ -19,7 +19,7 @@
   ],
   "summary": "The UK government says Lithuania follows Schengen area rules, and EU nationals have the right to travel freely there. Under Regulation (EU) 2018/1806 (consolidated to 30 December 2025), nationals of the countries in its Annex II are exempt from the visa requirement for stays of no more than 90 days in any 180-day period, and nationals of the countries in Annex I must hold a visa; the Schengen Visa Code sets the visa fee at EUR 90. The UK government says only one border crossing point between Lithuania and Belarus remains open.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -39,7 +39,9 @@
     ],
     "modules": [
       "driving",
-      "stay-window"
+      "stay-window",
+      "overstay",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -3506,6 +3508,46 @@
         "The EU's Your Europe site lists duty-free allowances from outside the EU including 1 litre of spirits and other goods up to EUR 300 per traveller (EUR 430 for air and sea travellers). It says EU countries may apply a lower tobacco limit, 40 cigarettes, and that Lithuania applies it to land and sea travellers only.",
         "The EU's Your Europe site says that alcohol and tobacco bought in another EU country for your own use carry no further payments in any other EU country, and that customs may look at quantities against guide levels that may not be lower than, for example, 800 cigarettes or 10 litres of spirits."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "Breaching the rules on foreigners' entry, stay, transit or departure is punished by a warning or a fine of seventy to three hundred euro. A foreigner must leave Lithuania before the end of the permitted stay, unless they receive a document confirming their right to stay. A foreigner who has been expelled from Lithuania is banned from entering it for a period of up to 5 years.",
+      "source": {
+        "url": "https://e-seimas.lrs.lt/rs/actualedition/b8d908c0215b11e58a4198cd62929b7a/SNZeTYcDqr/format/ISO_PDF/",
+        "name": "Seimas (e-seimas.lrs.lt) — Code of Administrative Offences, consolidated edition (PDF)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Administracinių nusižengimų kodeksas, 538 straipsnis; Įstatymas dėl užsieniečių teisinės padėties (IX-2206), 124 str. 2 d., 125 str. 1 d. 3 and 6 p., 126 str., 133 str. 1–2 d.",
+        "alsoStatedOn": [
+          {
+            "url": "https://e-seimas.lrs.lt/rs/actualedition/TAIS.232378/RZsVWVTDPS/format/ISO_PDF/",
+            "name": "Official page — e-seimas.lrs.lt",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": 24,
+      "responsibility": "accommodation",
+      "appliesTo": "all",
+      "penaltyText": null,
+      "url": null,
+      "text": "Accommodation providers must make sure every guest, except accompanying minor children, shows a valid identity document. Within 24 hours of the day of accommodation, the provider must submit the guest's identity-document data electronically to the National Tourism Information System, a state information system. Rural-tourism providers are excluded from this rule.",
+      "source": {
+        "url": "https://e-seimas.lrs.lt/rs/actualedition/TAIS.52605/OaiiveAmuI/",
+        "name": "Seimas (e-seimas.lrs.lt) — Law on Tourism VIII-667, consolidated edition from 2025-11-01",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Turizmo įstatymas (VIII-667), 32 straipsnio 1 dalies 3 punktas and 2 dalis; 43 straipsnis"
+      }
     }
   },
   "countryFacts": {
@@ -4119,6 +4161,38 @@
       {
         "text": "From now on, Russian nationals will no longer be able to receive multiple-entry visas.",
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_25_2635"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "Užsieniečių atvykimo į Lietuvos Respubliką, buvimo ar gyvenimo Lietuvos Respublikoje, vykimo per Lietuvos Respubliką tranzitu ar išvykimo iš Lietuvos Respublikos tvarkos pažeidimas užtraukia įspėjimą arba baudą nuo septyniasdešimt iki trijų šimtų eurų.",
+        "url": "https://e-seimas.lrs.lt/rs/actualedition/b8d908c0215b11e58a4198cd62929b7a/SNZeTYcDqr/format/ISO_PDF/"
+      },
+      {
+        "text": "2. Užsienietis privalo išvykti iš Lietuvos Respublikos iki šio Įstatymo 11 straipsnio 2–9, 11 dalyse užsieniečiams nustatyto buvimo laiko pabaigos, išskyrus atvejus, kai jis gauna dokumentą, patvirtinantį jo teisę likti Lietuvos Respublikos teritorijoje, teisę būti arba gyventi Lietuvos Respublikoje.",
+        "url": "https://e-seimas.lrs.lt/rs/actualedition/TAIS.232378/RZsVWVTDPS/format/ISO_PDF/"
+      },
+      {
+        "text": "6) jis yra Lietuvos Respublikoje laikotarpį, viršijantį šio Įstatymo 11 straipsnio 2–9, 11 dalyse užsieniečiams nustatytą buvimo laiką;",
+        "url": "https://e-seimas.lrs.lt/rs/actualedition/TAIS.232378/RZsVWVTDPS/format/ISO_PDF/"
+      },
+      {
+        "text": "3) jis yra Lietuvos Respublikoje pasibaigus kelionės leidimo arba vizos galiojimui;",
+        "url": "https://e-seimas.lrs.lt/rs/actualedition/TAIS.232378/RZsVWVTDPS/format/ISO_PDF/"
+      },
+      {
+        "text": "2. Užsieniečiui, kuris buvo išsiųstas iš Lietuvos Respublikos, uždraudžiama atvykti į Lietuvos Respubliką ne ilgesniam kaip 5 metų laikotarpiui.",
+        "url": "https://e-seimas.lrs.lt/rs/actualedition/TAIS.232378/RZsVWVTDPS/format/ISO_PDF/"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "3) užtikrinti, kad apgyvendinami asmenys, išskyrus kartu su jais atvykusius nepilnamečius vaikus, patvirtintų savo tapatybę – pateiktų apgyvendinimo paslaugos teikėjui, išskyrus apgyvendinimo paslaugų teikėją, teikiantį kaimo turizmo paslaugas, galiojantį asmens tapatybę patvirtinantį dokumentą. Apgyvendinimo paslaugų teikėjas, išskyrus apgyvendinimo paslaugų teikėją, teikiantį kaimo turizmo paslaugas, ne vėliau kaip per 24 valandas nuo asmens apgyvendinimo dienos informuoja apie apgyvendintus asmenis, išskyrus kartu su jais atvykusius nepilnamečius vaikus, ekonomikos ir inovacijų ministro nustatyta tvarka elektroniniu būdu Nacionalinei turizmo informacinei sistemai pateikia reikiamus asmens tapatybę patvirtinančiuose dokumentuose esančius duomenis.",
+        "url": "https://e-seimas.lrs.lt/rs/actualedition/TAIS.52605/OaiiveAmuI/"
+      },
+      {
+        "text": "1. Nacionalinė turizmo informacinė sistema yra valstybės informacinė sistema, skirta keliautojų ir turistų asmens duomenims, turizmo išteklių duomenims, informacijai ir dokumentams rinkti, kaupti, saugoti, sisteminti, analizuoti, vertinti, taip pat su jais susijusioms viešosioms paslaugoms teikti.",
+        "url": "https://e-seimas.lrs.lt/rs/actualedition/TAIS.52605/OaiiveAmuI/"
       }
     ]
   }

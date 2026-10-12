@@ -16,7 +16,7 @@
   ],
   "summary": "Singapore's Immigration & Checkpoints Authority says the period of stay is determined by the Visit Pass issued as an e-Pass at the checkpoint on entry, not by any visa. Its list of travel documents that need a visa includes India, Russia and Pakistan among others; Singapore's embassy in Beijing says holders of ordinary Chinese passports are exempt from visas for a stay of up to 30 days from 9 February 2024. ICA says all travellers must submit the free SG Arrival Card within three days, including the day of arrival, before arriving.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-10-03",
     "reviewIntervalDays": 7,
     "primarySources": [
@@ -43,7 +43,9 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -4402,6 +4404,27 @@
         "The UK government lists among items illegal to bring into Singapore vaporisers and e-cigarettes, tobacco products that are chewed or injected, chewing gum to sell, weapons and ammunition, and replica guns.",
         "Australia's Smartraveller says penalties for the use and possession of drugs include caning and the mandatory death sentence for some trafficking offences."
       ]
+    },
+    "overstay": {
+      "fine": {
+        "amount": 4000,
+        "currency": "SGD",
+        "per": "incident",
+        "maxAmount": 4000
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "Remaining in Singapore after a pass expires, without reasonable cause and without other authority to remain, is an offence. For an unlawful stay of up to 90 days: a fine of up to S$4,000, or up to 6 months' imprisonment, or both. For more than 90 days: up to 6 months' imprisonment and caning of at least 3 strokes. A person who cannot be caned under the Criminal Procedure Code is fined up to S$6,000 instead of caning.",
+      "source": {
+        "url": "https://sso.agc.gov.sg/Act/IA1959?ProvIds=pr15-",
+        "name": "Singapore Statutes Online (AGC) — Immigration Act 1959, section 15",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Immigration Act 1959, s. 15(1) and (3)"
+      }
     }
   },
   "countryFacts": {
@@ -4935,6 +4958,82 @@
         "text": "Extension of stay for transit travellers under VFTF is strictly not allowed.",
         "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa-free-transit-facility"
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "15.—(1) A person must not remain in Singapore after the cancellation of any permit or certificate, or after the making of a declaration under section 14(4) or after the expiration or notification to him or her, in such manner as may be prescribed, of the cancellation of any pass relating to or issued to him or her unless he or she is otherwise entitled or authorised to remain in Singapore under the provisions of this Act or the regulations.",
+        "url": "https://sso.agc.gov.sg/Act/IA1959?ProvIds=pr15-"
+      },
+      {
+        "text": "(3) Any person who contravenes, without reasonable cause, this section shall be guilty of an offence and —",
+        "url": "https://sso.agc.gov.sg/Act/IA1959?ProvIds=pr15-"
+      },
+      {
+        "text": "in the case where he or she remains unlawfully for a period not exceeding 90 days, shall be liable on conviction to a fine not exceeding $4,000 or to imprisonment for a term not exceeding 6 months or to both;",
+        "url": "https://sso.agc.gov.sg/Act/IA1959?ProvIds=pr15-"
+      },
+      {
+        "text": "in the case where he or she remains unlawfully for a period exceeding 90 days, shall on conviction be punished with imprisonment for a term not exceeding 6 months and shall also be punished with caning with not less than 3 strokes, or where by virtue of section 325(1)(a) or (b) of the Criminal Procedure Code 2010 he or she is not punishable with caning, he or she shall, in lieu of caning, be punished with a fine not exceeding $6,000.",
+        "url": "https://sso.agc.gov.sg/Act/IA1959?ProvIds=pr15-"
+      }
+    ],
+    "levies.pssf-od": [
+      {
+        "text": "Origin/Destination[1] (OD) passengers departing from Changi Airport: Passenger Service and Security Fee (PSSF) for OD passengers, presently S$46.40, will remain unchanged for two years until 31 March 2027. This will then increase by S$3 annually for four years from 1 April 2027.",
+        "url": "https://www.caas.gov.sg/resources/media-and-publication/newsroom/changi-airport-to-invest-s3-billion-over-next-six-years-to-strengthen-singapores/"
+      }
+    ],
+    "levies.aviation-levy": [
+      {
+        "text": "The Aviation Levy which finances CAAS’s operations, presently S$8 for OD passengers, will remain unchanged until 1 April 2027, when it will see a one-time increase of $2, to $10.",
+        "url": "https://www.caas.gov.sg/resources/media-and-publication/newsroom/changi-airport-to-invest-s3-billion-over-next-six-years-to-strengthen-singapores/"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "pssf-od",
+      "name": "Passenger Service and Security Fee (PSSF) for origin/destination passengers",
+      "kind": "airport-fee",
+      "fee": {
+        "amount": 46.4,
+        "currency": "SGD"
+      },
+      "per": "person-per-trip",
+      "paidAt": null,
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "Origin/destination (OD) passengers departing Changi Airport pay a Passenger Service and Security Fee of S$46.40. It stays unchanged until 31 March 2027, then rises by S$3 a year for four years from 1 April 2027.",
+      "source": {
+        "url": "https://www.caas.gov.sg/resources/media-and-publication/newsroom/changi-airport-to-invest-s3-billion-over-next-six-years-to-strengthen-singapores/",
+        "name": "Civil Aviation Authority of Singapore — Changi Airport to invest S$3 billion… (7 November 2024)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12"
+      }
+    },
+    {
+      "id": "aviation-levy",
+      "name": "Aviation Levy",
+      "kind": "departure-tax",
+      "fee": {
+        "amount": 8,
+        "currency": "SGD"
+      },
+      "per": "person-per-trip",
+      "paidAt": null,
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "The Aviation Levy, which funds the operations of the Civil Aviation Authority of Singapore (CAAS), is S$8 for OD passengers. It stays unchanged until 1 April 2027, when it rises once by S$2 to S$10.",
+      "source": {
+        "url": "https://www.caas.gov.sg/resources/media-and-publication/newsroom/changi-airport-to-invest-s3-billion-over-next-six-years-to-strengthen-singapores/",
+        "name": "Civil Aviation Authority of Singapore — Changi Airport to invest S$3 billion… (7 November 2024)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12"
+      }
+    }
+  ]
 }

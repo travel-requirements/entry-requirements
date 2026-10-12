@@ -21,7 +21,7 @@
   ],
   "summary": "Slovakia applies the EU's Schengen visa rules. Your Europe says EU nationals can travel freely in the EU and in Iceland, Liechtenstein, Norway and Switzerland with a valid passport or national identity card. Under Regulation (EU) 2018/1806, nationals of the third countries listed in Annex II are exempt from the visa requirement for stays of no more than 90 days in any 180-day period, and nationals of those listed in Annex I must hold a visa when crossing the external borders.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -35,7 +35,10 @@
     ],
     "modules": [
       "driving",
-      "stay-window"
+      "stay-window",
+      "overstay",
+      "levies",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -3377,6 +3380,44 @@
       "notes": [
         "Your Europe (EU) says that when you enter the EU from a non-EU country you can bring, free of VAT and excise duties, 1 litre of spirits over 22% vol. (among other alcohol allowances) and other goods up to a value of €300 per traveller or €430 for travellers by air and sea. It lists Slovakia among the countries that may apply the lower tobacco limit (40 cigarettes instead of 200) to land and sea travellers."
       ]
+    },
+    "overstay": {
+      "fine": {
+        "amount": 1600,
+        "currency": "EUR",
+        "per": "incident",
+        "maxAmount": 1600
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "A third-country national must leave at the latest on the last day of authorised stay. Unauthorised stay in Slovakia is an offence punishable by a fine of up to 1,600 euros, or up to 165 euros in on-the-spot (block) proceedings. The police administratively expel a third-country national with unauthorised stay and may impose an entry ban of one to five years in the expulsion decision.",
+      "source": {
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2011/404/20261001.html",
+        "name": "Slov-Lex (Ministry of Justice of the Slovak Republic) — Act No. 404/2011 Coll. on Residence of Foreigners, version in force from 1 October 2026",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Zákon č. 404/2011 Z. z. o pobyte cudzincov, § 111 ods. 1 písm. p), § 118 ods. 1 písm. a), ods. 6 písm. a) and ods. 7, § 82 ods. 1 písm. b) and ods. 3 písm. b)"
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": null,
+      "responsibility": "either",
+      "appliesTo": "all",
+      "penaltyText": "A third-country national who fails to report the stay may be fined up to 300 euros. An accommodation provider who commits the administrative offence is fined up to 3,300 euros.",
+      "url": null,
+      "text": "A third-country national with a Schengen or national visa, or exempt from the visa, must report the start, place and expected length of stay to the police within three working days of entry, unless the accommodation provider has this duty. The police issue a confirmation on request. An accommodation provider must verify the foreigner's identity, record their nationality and date of birth in the guest book, and have the official stay-report form completed and delivered to the police within five days of accommodation; delivery is also possible through an electronic service. The foreigner may be fined up to 300 euros, and the provider up to 3,300 euros.",
+      "source": {
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2011/404/20261001.html",
+        "name": "Slov-Lex (Ministry of Justice of the Slovak Republic) — Act No. 404/2011 Coll. on Residence of Foreigners, version in force from 1 October 2026",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Zákon č. 404/2011 Z. z. o pobyte cudzincov, § 111 ods. 2 písm. a), § 113 písm. c), § 118 ods. 1 písm. c) and ods. 6 písm. b), § 119 ods. 1 písm. a) and ods. 2"
+      }
     }
   },
   "countryFacts": {
@@ -4033,6 +4074,153 @@
         "text": "€67,50 for applicants from Cabo Verde",
         "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en"
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "Priestupku na úseku pobytu sa dopustí štátny príslušník tretej krajiny, ak a) má neoprávnený pobyt na území Slovenskej republiky,",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2011/404/20261001.html"
+      },
+      {
+        "text": "(6) Za priestupok podľa a) odseku 1 písm. a) a b) a odseku 4 písm. b) možno uložiť pokutu do 1 600 eur,",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2011/404/20261001.html"
+      },
+      {
+        "text": "(7) V blokovom konaní možno uložiť za priestupky podľa odsekov 1 až 3 a odseku 4 písm. b) pokutu do 165 eur.",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2011/404/20261001.html"
+      },
+      {
+        "text": "(1) Policajný útvar administratívne vyhostí štátneho príslušníka tretej krajiny, ak a) neoprávnene prekročil vonkajšiu hranicu, alebo sa úmyselne vyhne, alebo sa odmietne podrobiť hraničnej kontrole pri prekročení vonkajšej hranice, b) má neoprávnený pobyt na území Slovenskej republiky.",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2011/404/20261001.html"
+      },
+      {
+        "text": "(3) Policajný útvar môže v rozhodnutí o administratívnom vyhostení uložiť zákaz vstupu a) podľa odseku 2 písm. a) na desať rokov, b) podľa odseku 1 a odseku 2 písm. b) až i) na jeden rok až päť rokov,",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2011/404/20261001.html"
+      },
+      {
+        "text": "p) vycestovať najneskôr posledný deň oprávneného pobytu;",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2011/404/20261001.html"
+      }
+    ],
+    "levies.sk-accommodation-tax": [
+      {
+        "text": "(1) Miestnymi daňami, ktoré môže ukladať obec, sú: a) daň z nehnuteľností, b) daň za psa, c) daň za užívanie verejného priestranstva, d) daň za ubytovanie,",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2004/582/20260901.html"
+      },
+      {
+        "text": "§ 38 Osoby zúčastnené na plnení daňovej povinnosti (1) Daňovníkom je fyzická osoba, ktorá sa v zariadení odplatne prechodne ubytuje. (2) Platiteľom dane je prevádzkovateľ zariadenia, ktorý odplatné prechodné ubytovanie fyzickej osobe poskytuje.",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2004/582/20260901.html"
+      },
+      {
+        "text": "§ 39 Základ dane Základom dane je počet prenocovaní, najviac však 60 prenocovaní daňovníka u jedného platiteľa dane v jednom kalendárnom roku. § 40 Sadzba dane (1) Sadzbu dane určí obec v eurách na osobu a prenocovanie. (2) Obec môže všeobecne záväzným nariadením 11 ) ustanoviť rôznu sadzbu dane pre časti obce 23a ) alebo pre jej jednotlivé katastrálne územia.",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2004/582/20260901.html"
+      },
+      {
+        "text": "§ 38a Daňovníkom nie je odídenec podľa osobitného predpisu.",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2004/582/20260901.html"
+      }
+    ],
+    "levies.sk-accommodation-tax.exemptions": [
+      {
+        "text": "(1) Miestnymi daňami, ktoré môže ukladať obec, sú: a) daň z nehnuteľností, b) daň za psa, c) daň za užívanie verejného priestranstva, d) daň za ubytovanie,",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2004/582/20260901.html"
+      },
+      {
+        "text": "§ 38 Osoby zúčastnené na plnení daňovej povinnosti (1) Daňovníkom je fyzická osoba, ktorá sa v zariadení odplatne prechodne ubytuje. (2) Platiteľom dane je prevádzkovateľ zariadenia, ktorý odplatné prechodné ubytovanie fyzickej osobe poskytuje.",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2004/582/20260901.html"
+      },
+      {
+        "text": "§ 39 Základ dane Základom dane je počet prenocovaní, najviac však 60 prenocovaní daňovníka u jedného platiteľa dane v jednom kalendárnom roku. § 40 Sadzba dane (1) Sadzbu dane určí obec v eurách na osobu a prenocovanie. (2) Obec môže všeobecne záväzným nariadením 11 ) ustanoviť rôznu sadzbu dane pre časti obce 23a ) alebo pre jej jednotlivé katastrálne územia.",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2004/582/20260901.html"
+      },
+      {
+        "text": "§ 38a Daňovníkom nie je odídenec podľa osobitného predpisu.",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2004/582/20260901.html"
+      }
+    ],
+    "levies.sk-accommodation-tax.feeText": [
+      {
+        "text": "(1) Miestnymi daňami, ktoré môže ukladať obec, sú: a) daň z nehnuteľností, b) daň za psa, c) daň za užívanie verejného priestranstva, d) daň za ubytovanie,",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2004/582/20260901.html"
+      },
+      {
+        "text": "§ 38 Osoby zúčastnené na plnení daňovej povinnosti (1) Daňovníkom je fyzická osoba, ktorá sa v zariadení odplatne prechodne ubytuje. (2) Platiteľom dane je prevádzkovateľ zariadenia, ktorý odplatné prechodné ubytovanie fyzickej osobe poskytuje.",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2004/582/20260901.html"
+      },
+      {
+        "text": "§ 39 Základ dane Základom dane je počet prenocovaní, najviac však 60 prenocovaní daňovníka u jedného platiteľa dane v jednom kalendárnom roku. § 40 Sadzba dane (1) Sadzbu dane určí obec v eurách na osobu a prenocovanie. (2) Obec môže všeobecne záväzným nariadením 11 ) ustanoviť rôznu sadzbu dane pre časti obce 23a ) alebo pre jej jednotlivé katastrálne územia.",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2004/582/20260901.html"
+      },
+      {
+        "text": "§ 38a Daňovníkom nie je odídenec podľa osobitného predpisu.",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2004/582/20260901.html"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "(2) Štátny príslušník tretej krajiny je povinný do troch pracovných dní od vstupu hlásiť policajnému útvaru a) začiatok, miesto a predpokladanú dĺžku pobytu, ak mu bolo udelené schengenské vízum alebo národné vízum alebo ak sa od neho vízum nevyžaduje, ak túto povinnosť nemá ubytovateľ; policajný útvar na požiadanie štátneho príslušníka tretej krajiny vydá potvrdenie o jeho pobyte,",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2011/404/20261001.html"
+      },
+      {
+        "text": "§ 113 Povinnosti ubytovateľa Ubytovateľ je povinný a) pri ubytovaní overiť totožnosť cudzinca, b) do knihy ubytovaných 90 ) uviesť pri cudzincovi aj štátnu príslušnosť a dátum narodenia, c) zabezpečiť vyplnenie úradného tlačiva o hlásení pobytu cudzinca a doručiť ho policajnému útvaru do piatich dní od ubytovania; doručenie je možné aj prostredníctvom elektronickej služby zavedenej na tento účel,",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2011/404/20261001.html"
+      },
+      {
+        "text": "c) poruší povinnosť podľa § 111 ods. 1 písm. a) , g) , i) , m) , n) alebo písm. s) alebo ods. 2 , 3 alebo ods. 4 .",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2011/404/20261001.html"
+      },
+      {
+        "text": "b) odseku 1 písm. c), odsekov 2 a 3 možno uložiť pokutu do 300 eur,",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2011/404/20261001.html"
+      },
+      {
+        "text": "(2) Za správny delikt podľa odseku 1 policajný útvar uloží pokutu do 3 300 eur.",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2011/404/20261001.html"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "(2) Štátny príslušník tretej krajiny je povinný do troch pracovných dní od vstupu hlásiť policajnému útvaru a) začiatok, miesto a predpokladanú dĺžku pobytu, ak mu bolo udelené schengenské vízum alebo národné vízum alebo ak sa od neho vízum nevyžaduje, ak túto povinnosť nemá ubytovateľ; policajný útvar na požiadanie štátneho príslušníka tretej krajiny vydá potvrdenie o jeho pobyte,",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2011/404/20261001.html"
+      },
+      {
+        "text": "§ 113 Povinnosti ubytovateľa Ubytovateľ je povinný a) pri ubytovaní overiť totožnosť cudzinca, b) do knihy ubytovaných 90 ) uviesť pri cudzincovi aj štátnu príslušnosť a dátum narodenia, c) zabezpečiť vyplnenie úradného tlačiva o hlásení pobytu cudzinca a doručiť ho policajnému útvaru do piatich dní od ubytovania; doručenie je možné aj prostredníctvom elektronickej služby zavedenej na tento účel,",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2011/404/20261001.html"
+      },
+      {
+        "text": "c) poruší povinnosť podľa § 111 ods. 1 písm. a) , g) , i) , m) , n) alebo písm. s) alebo ods. 2 , 3 alebo ods. 4 .",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2011/404/20261001.html"
+      },
+      {
+        "text": "b) odseku 1 písm. c), odsekov 2 a 3 možno uložiť pokutu do 300 eur,",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2011/404/20261001.html"
+      },
+      {
+        "text": "(2) Za správny delikt podľa odseku 1 policajný útvar uloží pokutu do 3 300 eur.",
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2011/404/20261001.html"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "sk-accommodation-tax",
+      "name": "Accommodation tax (daň za ubytovanie)",
+      "kind": "tourist-tax",
+      "fee": null,
+      "per": "person-per-night",
+      "paidAt": "at-accommodation",
+      "appliesTo": "all",
+      "exemptions": "A displaced person (odídenec) under a special law is not a taxpayer.",
+      "url": null,
+      "text": "Accommodation tax is one of the local taxes a municipality may levy. The taxpayer is the natural person who stays for payment in an accommodation facility; the payer is the operator who provides that accommodation. The tax base is the number of overnight stays, at most 60 per taxpayer with one payer in a calendar year. The municipality sets the rate in euros per person and night and may set different rates for parts of the municipality or its cadastral areas.",
+      "source": {
+        "url": "https://static.slov-lex.sk/static/SK/ZZ/2004/582/20260901.html",
+        "name": "Slov-Lex (Ministry of Justice of the Slovak Republic) — Act No. 582/2004 Coll. on local taxes and the local fee for municipal waste, version in force from 1 September 2026",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Zákon č. 582/2004 Z. z. o miestnych daniach a miestnom poplatku za komunálne odpady a drobné stavebné odpady, § 2 ods. 1 písm. d), §§ 37–41"
+      },
+      "feeText": "The municipality sets the rate in euros per person and night (Sadzbu dane určí obec v eurách na osobu a prenocovanie). At most 60 nights per guest with one accommodation operator in a calendar year are taxed."
+    }
+  ]
 }

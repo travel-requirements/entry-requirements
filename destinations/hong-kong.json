@@ -17,7 +17,7 @@
   ],
   "summary": "Hong Kong's Immigration Department says you may not need a visa or entry permit for a visit, depending on your nationality or the type of travel document you hold; its table gives, for each listed nationality or travel document, either a visa-free period for a visit or that a visa is required. Indian nationals must complete pre-arrival registration online, free of charge, before they can visit visa-free, and anyone who needs a visa or entry permit for a visit should obtain it before travelling.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -31,7 +31,9 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -2446,6 +2448,34 @@
         "Hong Kong Customs says a passenger aged 18 or above may bring into Hong Kong duty-free, for their own use, 1 litre of alcoholic liquor above 30% alcohol by volume, and 19 cigarettes, or 1 cigar or 25 grams of cigars, or 25 grams of other manufactured tobacco.",
         "The UK FCDO says it is prohibited to bring e-cigarettes, heated tobacco products, herbal cigarettes or related devices into Hong Kong, including in personal luggage."
       ]
+    },
+    "overstay": {
+      "fine": {
+        "amount": 50000,
+        "currency": "HKD",
+        "per": "incident",
+        "maxAmount": 50000
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "Unless an extension of stay is approved, visitors must leave Hong Kong before their limit of stay expires; otherwise they are deemed to have overstayed. Anyone who breaches a condition of stay, such as by overstaying, commits an offence and is liable on conviction to a fine of up to HK$50,000 and imprisonment for 2 years.",
+      "source": {
+        "url": "https://www.immd.gov.hk/eng/faq/visit-transit.html",
+        "name": "Immigration Department (HKSAR) — FAQ: Visit / Transit",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Immigration Ordinance (Cap. 115), s. 41",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.info.gov.hk/gia/general/201502/04/P201502040639.htm",
+            "name": "Official page — www.info.gov.hk",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -2894,6 +2924,85 @@
         "text": "Regulation 37 of the Road Traffic (Driving Licences) Regulations (Cap. 374B) provides that a visitor who holds a valid international driving permit or a domestic driving licence issued in a place outside Hong Kong may drive in Hong Kong, during the period of 12 months following the date of his last entry into Hong Kong, a motor vehicle of any class which he is authorized by that permit or licence to drive notwithstanding that he is not a holder of a driving licence issued under these regulations, but so long as he has attained the age specified in regulation 7 for the issue of such driving licence in respect of the class of motor vehicle.",
         "url": "https://td.gov.hk/en/public_services/licences_and_permits/driving_licences/how_to_apply_for_a_driving_licence/driving_in_hong_kong_for_overseas_driving_licence_/index.html"
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "Generally speaking, unless the application for extension of stay is approved, visitors must depart Hong Kong before the expiry of their limit of stay, otherwise they will be deemed to have overstayed.",
+        "url": "https://www.immd.gov.hk/eng/faq/visit-transit.html"
+      },
+      {
+        "text": "Any person who contravenes a condition of stay in force in respect of him shall be guilty of an offence and shall be liable on conviction to a maximum fine of HK$50,000 and to imprisonment for 2 years under section 41 of the Immigration Ordinance (Chapter 115), Laws of Hong Kong.",
+        "url": "https://www.immd.gov.hk/eng/faq/visit-transit.html"
+      },
+      {
+        "text": "Note 2: Including persons who have contravened the conditions of stay (such as overstaying) and illegal immigrants.",
+        "url": "https://www.info.gov.hk/gia/general/201502/04/P201502040639.htm"
+      },
+      {
+        "text": "Pursuant to section 41 of the Immigration Ordinance (Cap. 115), any person who contravenes a condition of stay in force against him shall be guilty of an offence and shall be liable on conviction to a fine of $50,000 and to imprisonment for two years.",
+        "url": "https://www.info.gov.hk/gia/general/201502/04/P201502040639.htm"
+      }
+    ],
+    "levies.air-passenger-departure-tax": [
+      {
+        "text": "The current rate of the Air Passenger Departure Tax is HK$200 per passenger (12 years of age) departing by air from Hong Kong through Hong Kong International Airport, or by helicopter from Hong Kong at the Heliport at the Hong Kong-Macao Ferry Terminal.",
+        "url": "https://www.cad.gov.hk/english/faq.html"
+      },
+      {
+        "text": "Air passengers will pay the Air Passenger Departure Tax when they purchase air ticket from the airlines, travel agents or helicopter companies.",
+        "url": "https://www.cad.gov.hk/english/faq.html"
+      },
+      {
+        "text": "passengers under 12 years of age",
+        "url": "https://www.cad.gov.hk/english/faq.html"
+      },
+      {
+        "text": "direct transit passengers / connecting airside transfer passengers who do not pass through arrival immigration control",
+        "url": "https://www.cad.gov.hk/english/faq.html"
+      }
+    ],
+    "levies.air-passenger-departure-tax.exemptions": [
+      {
+        "text": "The current rate of the Air Passenger Departure Tax is HK$200 per passenger (12 years of age) departing by air from Hong Kong through Hong Kong International Airport, or by helicopter from Hong Kong at the Heliport at the Hong Kong-Macao Ferry Terminal.",
+        "url": "https://www.cad.gov.hk/english/faq.html"
+      },
+      {
+        "text": "Air passengers will pay the Air Passenger Departure Tax when they purchase air ticket from the airlines, travel agents or helicopter companies.",
+        "url": "https://www.cad.gov.hk/english/faq.html"
+      },
+      {
+        "text": "passengers under 12 years of age",
+        "url": "https://www.cad.gov.hk/english/faq.html"
+      },
+      {
+        "text": "direct transit passengers / connecting airside transfer passengers who do not pass through arrival immigration control",
+        "url": "https://www.cad.gov.hk/english/faq.html"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "air-passenger-departure-tax",
+      "name": "Air Passenger Departure Tax",
+      "kind": "departure-tax",
+      "fee": {
+        "amount": 200,
+        "currency": "HKD"
+      },
+      "per": "person-per-trip",
+      "paidAt": "included-in-ticket",
+      "appliesTo": "all",
+      "exemptions": "Passengers under 12; direct transit and connecting airside transfer passengers who do not pass through arrival immigration control.",
+      "url": null,
+      "text": "The Air Passenger Departure Tax is HK$200 per passenger departing by air through Hong Kong International Airport, or by helicopter from the heliport at the Hong Kong-Macao Ferry Terminal. Passengers pay it when they buy the ticket from the airline, travel agent or helicopter company. Passengers under 12, and direct transit or airside transfer passengers who do not pass through arrival immigration control, are exempt.",
+      "source": {
+        "url": "https://www.cad.gov.hk/english/faq.html",
+        "name": "Civil Aviation Department (HKSAR) — Frequently Asked Questions: Air Passenger Departure Tax",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Air Passenger Departure Tax Ordinance (Cap. 140)"
+      }
+    }
+  ]
 }

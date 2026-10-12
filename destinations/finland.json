@@ -19,7 +19,7 @@
   ],
   "summary": "Finland is a Schengen member state. EU citizens can travel there with a valid passport or national ID card; nationals of the countries on the EU's visa-exempt list (Annex II of Regulation 2018/1806) are exempt from the visa requirement for stays of no more than 90 days in any 180-day period (ETIAS is not yet in operation); the Schengen states have jointly agreed which countries' citizens must present a visa, and the Visa Code sets the visa fee at EUR 90. The UK Foreign Office says all border crossing points on the land border between Finland and Russia will remain closed until further notice.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -34,7 +34,9 @@
     ],
     "modules": [
       "driving",
-      "stay-window"
+      "stay-window",
+      "overstay",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -3481,6 +3483,39 @@
         "The EU's Your Europe portal says that when you enter the EU from a non-EU country you can bring goods free of VAT and excise duties if they are not for resale and within the limits: 4 litres of still wine and 16 litres of beer, plus 1 litre of spirits over 22 % vol. or 2 litres of fortified or sparkling wine, and other goods up to €300 per traveller or €430 for travellers by air and sea. For tobacco, a higher or lower limit may apply depending on the EU country.",
         "The EU's Your Europe portal says that when you travel between EU countries no further tax is due on alcohol and tobacco bought for your own use and not for resale. Each EU country sets guideline values that may not be lower than, for example, 800 cigarettes or 10 litres of spirits; if customs suspect goods are not for your own use, you may be asked to prove that they are."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "A foreigner who intentionally stays in Finland without the required travel document, visa or residence permit is to be sentenced to a fine for an aliens offence. A foreigner who entered without a residence permit, whose stay would require a visa or residence permit that they have not applied for or been granted, may also be refused entry. An entry ban is imposed for a fixed period of at most five years.",
+      "source": {
+        "url": "https://www.finlex.fi/fi/laki/ajantasa/2004/20040301",
+        "name": "Finlex (Ministry of Justice) — Aliens Act 301/2004, consolidated",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Ulkomaalaislaki 301/2004, 148 §, 150 b §, 185 §"
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": null,
+      "responsibility": "accommodation",
+      "appliesTo": "all",
+      "penaltyText": null,
+      "url": null,
+      "text": "The accommodation operator is responsible for making a traveller notification for each guest, and the traveller must confirm the data by signature. The operator must send the traveller data of foreigners without delay to the police department of the area where the accommodation is located.",
+      "source": {
+        "url": "https://www.finlex.fi/fi/laki/ajantasa/2006/20060308",
+        "name": "Finlex (Ministry of Justice) — Act on Accommodation and Food Service Operations 308/2006",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Laki majoitus- ja ravitsemistoiminnasta 308/2006, 6 § and 8 §"
+      }
     }
   },
   "countryFacts": {
@@ -4117,6 +4152,34 @@
       {
         "text": "Finland grants Schengen category D visas to certain categories of applicants. A D visa is valid for 100 days. To be eligible for a D-visa, you must have a residence permit for Finland.",
         "url": "https://finlandabroad.fi/web/are/types-of-visa"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "185 § Ulkomaalaisrikkomus Ulkomaalainen, joka tahallaan 1) oleskelee maassa ilman vaadittavaa matkustusasiakirjaa, viisumia tai oleskelulupaa taikka laiminlyö velvollisuutensa rekisteröidä oleskelunsa taikka hakea oleskelulupakortti, oleskelukortti tai pysyvä oleskelukortti, 2) oikeudetta tekee ansiotyötä tai harjoittaa elinkeinoa tai 3) jättää noudattamatta 118 §:n nojalla määrätyn ilmoittautumisvelvollisuuden, 119 §:n nojalla määrätyn muun velvollisuuden, 120 a §:n nojalla määrätyn asumisvelvollisuuden, 120 b §:n nojalla määrätyn lapsen asumisvelvollisuuden tai 130 §:n nojalla annetun kutsun saapua antamaan tietoja oleskelustaan, on tuomittava ulkomaalaisrikkomuksesta sakkoon.",
+        "url": "https://www.finlex.fi/fi/laki/ajantasa/2004/20040301"
+      },
+      {
+        "text": "Käännyttää voidaan myös ilman oleskelulupaa maahan tullut ulkomaalainen, jonka oleskelu Suomessa edellyttäisi viisumia tai oleskelulupaa, mutta joka ei ole sitä hakenut tai jolle ei ole sitä myönnetty.",
+        "url": "https://www.finlex.fi/fi/laki/ajantasa/2004/20040301"
+      },
+      {
+        "text": "Maahantulokielto määrätään enintään viiden vuoden määräajaksi.",
+        "url": "https://www.finlex.fi/fi/laki/ajantasa/2004/20040301"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "Majoitustoiminnan harjoittaja on vastuussa siitä, että matkustajasta tehdään ilmoitus (matkustajailmoitus).",
+        "url": "https://www.finlex.fi/fi/laki/ajantasa/2006/20060308"
+      },
+      {
+        "text": "Majoitustoiminnan harjoittajan on salassapitosäännösten estämättä toimitettava ulkomaalaista koskevat 6 §:n 1 momentissa tarkoitetut matkustajatiedot viivytyksettä sen kihlakunnan poliisilaitokselle, jonka toimialueella toiminnanharjoittajan majoitusliike sijaitsee.",
+        "url": "https://www.finlex.fi/fi/laki/ajantasa/2006/20060308"
+      },
+      {
+        "text": "Matkustajan on vahvistettava matkustajailmoituksen matkustajatiedot allekirjoituksellaan.",
+        "url": "https://www.finlex.fi/fi/laki/ajantasa/2006/20060308"
       }
     ]
   }

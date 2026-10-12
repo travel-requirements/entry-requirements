@@ -18,7 +18,7 @@
   ],
   "summary": "The Embassy of Yemen in Washington sets out visa requirements for US passport holders and lists other nationalities that need a visa — among them the United Kingdom, France, Germany, Saudi Arabia, Kuwait, Qatar, Oman, Bahrain, Japan and Australia — asks for an invitation letter from Yemen's Department of Immigration with applications, and says it is not issuing tourist visas at this time. Canada's travel advice says Yemeni authorities do not issue visas at ports of entry. Yemen's Law No. 47 of 1991 on the Entry and Residence of Foreigners says no foreigner may enter without a valid passport endorsed with permission to enter, that entry visas are issued by the head of the immigration authority or a body the government authorizes, and that the Minister of the Interior may exempt some nationals from the entry visa on a reciprocal basis, with the Council of Ministers' approval; no official page we could read names exempted nationalities. No official page we could read states where a tourist visa can currently be obtained.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -28,6 +28,10 @@
         "type": "government",
         "lastVerified": "2026-10-05"
       }
+    ],
+    "modules": [
+      "overstay",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -2401,6 +2405,63 @@
       "notes": [
         "The UK Foreign Office says taking pictures in or around military sites is likely to result in arrest and arbitrary detention, and that you should not photograph people without their consent."
       ]
+    },
+    "overstay": {
+      "fine": {
+        "amount": 30,
+        "currency": "YER",
+        "per": "day",
+        "maxAmount": null
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "Every foreigner must hold a residence permit and must leave Yemen when the stay ends, unless the head of the authority has extended it beforehand (art. 17). By exception to article 17, a foreigner whose residence ends without renewal, or who has not obtained residence, is penalised 30 riyals for each day; the Minister or a delegate may waive this for accepted excuses (art. 43). The Government of Canada says you can expect heavy penalties if you overstay your visa.",
+      "source": {
+        "url": "http://yemen-nic.info/db/laws_ye/detail.php?ID=11321",
+        "name": "National Information Center, Yemen (yemen-nic.info) — Republican Decree by Law No. 47 of 1991 on the Entry and Residence of Foreigners",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Republican Decree by Law No. 47 of 1991 on the Entry and Residence of Foreigners, arts. 17 and 43",
+        "alsoStatedOn": [
+          {
+            "url": "https://travel.gc.ca/destinations/yemen",
+            "name": "Government of Canada — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": 48,
+      "responsibility": "either",
+      "appliesTo": "all",
+      "penaltyText": "Imprisonment of up to six months and a fine of up to 3,000 riyals, or one of the two, for anyone who breaches articles 9, 11, 13, 15, 17, 21, 23 or 25 (art. 42).",
+      "url": null,
+      "text": "Every foreigner must, after entering Yemen, go in person to the foreigners' registration office or the police station in the area where they live and make a declaration of their personal status and the purpose of their visit; the executive regulation sets the procedure, conditions and period (art. 9). Hotel managers, and anyone who houses a foreigner or rents them a place to live, must report the foreigner's name and address to the registration office or police within 48 hours of arrival, and report the departure within 48 hours (art. 13). Breaches are punishable by up to six months' imprisonment and a fine of up to 3,000 riyals, or one of the two (art. 42). The UK and Canadian governments say that if you stay in Yemen for more than 14 days, you must register your passport with the immigration authorities.",
+      "source": {
+        "url": "http://yemen-nic.info/db/laws_ye/detail.php?ID=11321",
+        "name": "National Information Center, Yemen (yemen-nic.info) — Republican Decree by Law No. 47 of 1991 on the Entry and Residence of Foreigners",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Republican Decree by Law No. 47 of 1991, arts. 9, 13 and 42",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gov.uk/foreign-travel-advice/yemen/entry-requirements",
+            "name": "UK Foreign, Commonwealth & Development Office — travel advice",
+            "lastVerified": "2026-10-12"
+          },
+          {
+            "url": "https://travel.gc.ca/destinations/yemen",
+            "name": "Government of Canada — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -2831,6 +2892,64 @@
       {
         "url": "https://www.yemenembassy.org/consuloraffairs/visa-services/",
         "text": "For Business Visa requests: a letter from employer in Yemen must be provided."
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "مادة(43): استثناء من الحكم الوارد في المادة(17)بشأن الأجنبي الذي تنتهي إقامته دون تجديد أو لم يحصل على إقامة يعاقب بدفع مبلغ 30ريال عن كل يوم ويحق للوزير أو من يفوضه الإعفاء لأعذار يقبلها حسبما هو مبين في اللائحة.",
+        "url": "http://yemen-nic.info/db/laws_ye/detail.php?ID=11321"
+      },
+      {
+        "text": "مادة(17):يجب على كل أجنبي أن يكون حاصلاً على ترخيص بالإقامة وعليه أن يغادر أراضي الجمهورية عند إنتها مدة إقامتة مالم يكن قد حصل قبل ذلك على ترخيص من رئيس المصلحة لمد الإقامة وفقاً لأحكام هذا القانون.",
+        "url": "http://yemen-nic.info/db/laws_ye/detail.php?ID=11321"
+      },
+      {
+        "text": "You can expect heavy penalties if you overstay the duration of your visa.",
+        "url": "https://travel.gc.ca/destinations/yemen"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "مادة(9):يجب على كل أجنبي أن يتقدم بنفسه بعد دخوله أراضي الجمهورية إلى مكتب تسجيل الأجانب أو قسم الشرطة في المنطقة التي يقيم فيها وأن يحرر إقراراً عن حالته الشخصية وعن الغرض من حضوره وتبين اللائحة التنفيذية الإجراءات والشروط والمدة وغير ذلك من البيانات.",
+        "url": "http://yemen-nic.info/db/laws_ye/detail.php?ID=11321"
+      },
+      {
+        "text": "مادة(13): يجب على مدراء الفنادق أو أي محل آخر من هذا القبيل وكذلك كل من أوى أجنبياً أو أجر له محلاً للسكن إبلاغ مكتب التسجيل أو مقر الشرطة الواقع في دائرته محل سكن الأجنبي عن أسم هذا الأجنبي ومحل سكنه خلال(48)ساعة من وقت نزوله به ...وعليه كذلك الإبلاغ عن مغادرة الأجنبي خلال(48) ساعة.",
+        "url": "http://yemen-nic.info/db/laws_ye/detail.php?ID=11321"
+      },
+      {
+        "text": "مادة(42): يعاقب بالحبس مدة لا تزيد عن ستة اشهر وبغرامة لا تتجاوز(3000)آلاف ريال أو بأحدى هاتين العقوبتين كل من خالف أحكام الموارد (9،11،13،15،17،21،23،25،)والقرارات الصادرة تنفيذاً لها.",
+        "url": "http://yemen-nic.info/db/laws_ye/detail.php?ID=11321"
+      },
+      {
+        "text": "If you visit Yemen for more than 14 days, you must register your passport with the Yemen immigration authorities after you arrive.",
+        "url": "https://www.gov.uk/foreign-travel-advice/yemen/entry-requirements"
+      },
+      {
+        "text": "If you intend to stay in Yemen for more than 14 days, you must register your passport with the Yemeni Immigration authorities.",
+        "url": "https://travel.gc.ca/destinations/yemen"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "مادة(9):يجب على كل أجنبي أن يتقدم بنفسه بعد دخوله أراضي الجمهورية إلى مكتب تسجيل الأجانب أو قسم الشرطة في المنطقة التي يقيم فيها وأن يحرر إقراراً عن حالته الشخصية وعن الغرض من حضوره وتبين اللائحة التنفيذية الإجراءات والشروط والمدة وغير ذلك من البيانات.",
+        "url": "http://yemen-nic.info/db/laws_ye/detail.php?ID=11321"
+      },
+      {
+        "text": "مادة(13): يجب على مدراء الفنادق أو أي محل آخر من هذا القبيل وكذلك كل من أوى أجنبياً أو أجر له محلاً للسكن إبلاغ مكتب التسجيل أو مقر الشرطة الواقع في دائرته محل سكن الأجنبي عن أسم هذا الأجنبي ومحل سكنه خلال(48)ساعة من وقت نزوله به ...وعليه كذلك الإبلاغ عن مغادرة الأجنبي خلال(48) ساعة.",
+        "url": "http://yemen-nic.info/db/laws_ye/detail.php?ID=11321"
+      },
+      {
+        "text": "مادة(42): يعاقب بالحبس مدة لا تزيد عن ستة اشهر وبغرامة لا تتجاوز(3000)آلاف ريال أو بأحدى هاتين العقوبتين كل من خالف أحكام الموارد (9،11،13،15،17،21،23،25،)والقرارات الصادرة تنفيذاً لها.",
+        "url": "http://yemen-nic.info/db/laws_ye/detail.php?ID=11321"
+      },
+      {
+        "text": "If you visit Yemen for more than 14 days, you must register your passport with the Yemen immigration authorities after you arrive.",
+        "url": "https://www.gov.uk/foreign-travel-advice/yemen/entry-requirements"
+      },
+      {
+        "text": "If you intend to stay in Yemen for more than 14 days, you must register your passport with the Yemeni Immigration authorities.",
+        "url": "https://travel.gc.ca/destinations/yemen"
       }
     ]
   }

@@ -19,7 +19,7 @@
   ],
   "summary": "Bosnia and Herzegovina's Foreign Investment Promotion Agency lists the countries whose citizens do not require a visa to enter — among them Australia, Canada, China, Kuwait, Qatar, Turkey, the United Arab Emirates, the United Kingdom and the United States — and the Ministry of Foreign Affairs says nationals of EU member states and Schengen signatory states may enter with a passport or a valid identity card. The ministry says citizens of Ukraine need no visa for up to 30 days within two months of first entry, and that Russian citizens may stay up to 30 days without a visa with a tourist voucher, and need a verified invitation letter or a tourist voucher to stay up to 90 days. Citizens of countries under a visa regime may enter without a visa if they hold a valid multiple-entry visa or residence permit issued by a Schengen state, an EU member state or the United States, for single stays of up to 30 days; visas are issued at Bosnia and Herzegovina's diplomatic and consular missions abroad.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -32,7 +32,9 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -2810,6 +2812,58 @@
           "lastChanged": "2026-10-07"
         }
       }
+    },
+    "overstay": {
+      "fine": {
+        "amount": 300,
+        "currency": "BAM",
+        "per": "incident",
+        "maxAmount": 1500
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "A foreigner who stays in Bosnia and Herzegovina longer than the visa or temporary residence permit allows, or does not leave within the period set by law or by decision, is fined 300 to 1,500 KM. If the overstay is no more than three days and the foreigner can justify the delay, the Service or the Border Police may issue a misdemeanour order and collect 100 KM for each day of overstay, without other measures. Expulsion orders a foreigner to leave and bans entry and stay for one to five years. The UK government says that if you do not have a stamp, the Border Police may fine you when you leave.",
+      "source": {
+        "url": "https://sps.gov.ba/dokumenti/29/ba-zakoni/1291/zakon-o-strancima",
+        "name": "Service for Foreigners' Affairs of BiH (sps.gov.ba) — Law on Foreigners (Zakon o strancima), Sl. glasnik BiH 88/15",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Zakon o strancima BiH (Sl. glasnik BiH 88/15), art. 135(1)(b) and (2), art. 106(1)(b), art. 105(1)",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gov.uk/foreign-travel-advice/bosnia-and-herzegovina/entry-requirements",
+            "name": "UK Foreign, Commonwealth & Development Office — travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": 48,
+      "responsibility": "either",
+      "appliesTo": "all",
+      "penaltyText": "A foreigner who is not in paid accommodation, is not visiting a private host and has not registered is fined 100 to 500 KM.",
+      "url": null,
+      "text": "A foreigner on a visa or visa-free stay must register their address with the Service or the police within 48 hours of entering Bosnia and Herzegovina, unless staying less than 3 days. If the foreigner uses accommodation services, the provider, not the foreigner, has this duty and must register within 12 hours of providing accommodation. A foreigner who should register and does not is fined 100 to 500 KM.",
+      "source": {
+        "url": "https://sps.gov.ba/informacije-za-strance/boravak-stranaca-u-bih/",
+        "name": "Service for Foreigners' Affairs of BiH — Stay of foreigners in BiH (Boravak stranaca u BiH)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Zakon o strancima BiH, art. 103, art. 134",
+        "alsoStatedOn": [
+          {
+            "url": "https://sps.gov.ba/dokumenti/29/ba-zakoni/1291/zakon-o-strancima",
+            "name": "Official page — sps.gov.ba",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -3345,6 +3399,76 @@
       {
         "text": "a total stay of 90 days in any 180-day period is possible, provided that a single uninterrupted stay in Bosnia and Herzegovina does not exceed 30 days and within the validity of the visa or residence permit issued by the aforementioned countries.",
         "url": "https://fipa.vijeceministara.gov.ba/en/visasinformation-for-visitors"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "(1) Novčanom kaznom u iznosu od 300 KM do 1.500 KM kaznit će se za prekršaj stranac ako:",
+        "url": "https://sps.gov.ba/dokumenti/29/ba-zakoni/1291/zakon-o-strancima"
+      },
+      {
+        "text": "b) protivno članu 21. ( Oslobađanje od obaveze pribavljanja vize ) stav (2) ovog zakona, u BiH boravi duţe od vremena odreĎenog u vizi ili u dozvoli privremenog boravka, odn osno ako u roku odreĎenom ovim z akonom ili rješenjem nadleţnog organa ne napusti BiH;",
+        "url": "https://sps.gov.ba/dokumenti/29/ba-zakoni/1291/zakon-o-strancima"
+      },
+      {
+        "text": "(2) Sluţbeno lice Sluţbe ili policijski sluţbenik Granične policije , kada utvrdi prekršaj iz stava (1) tačka b) ovog člana, moţe izdati prekršajni nalog i naplatiti novčanu kaznu u iznosu od 100 KM za svaki dan du ţeg boravka, ako stranac nije prekoračio vrijeme boravka za više od tri dana i u mogućnosti je opravdati razloge kašnjenja, ne preduzimajući druge mjere po ovom zakonu.",
+        "url": "https://sps.gov.ba/dokumenti/29/ba-zakoni/1291/zakon-o-strancima"
+      },
+      {
+        "text": "b) je ostao u BiH nakon isteka roka vaţenja vize ili dozvole boravka ili nakon isteka vaţenja bezviznog boravka,",
+        "url": "https://sps.gov.ba/dokumenti/29/ba-zakoni/1291/zakon-o-strancima"
+      },
+      {
+        "text": "(1) Protjerivanje je mjera kojom se strancu nalaţe izlazak iz BiH i zabranj uje ulazak i boravak u BiH u odreĎenom vremenskom periodu koji ne moţe biti kraći od jedne ni duţi od pet godina.",
+        "url": "https://sps.gov.ba/dokumenti/29/ba-zakoni/1291/zakon-o-strancima"
+      },
+      {
+        "text": "If you do not have a stamp, the Border Police may fine you when you leave.",
+        "url": "https://www.gov.uk/foreign-travel-advice/bosnia-and-herzegovina/entry-requirements"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "Ukoliko stranac boravi u BiH po osnovu viznog ili bezviznog boravka svoje boravište je dužan prijaviti nadležnoj organizacionoj jedinici Službe ili policiji u roku od 48 sati od momenta ulaska u BiH. Ukoliko stranac ima namjeru boraviti kraće od 3 dana nije dužan da se prijavi.",
+        "url": "https://sps.gov.ba/informacije-za-strance/boravak-stranaca-u-bih/"
+      },
+      {
+        "text": "Ukoliko stranac koristi usluge smještaja fizičkih i pravnih lica koja pružaju usluge smještaja, obavezu prijavljivanja ne snosi stranac lično, nego fizičko ili pravno lice kod kojeg je stranac odsjeo.",
+        "url": "https://sps.gov.ba/informacije-za-strance/boravak-stranaca-u-bih/"
+      },
+      {
+        "text": "(1) Pravna i fizička lica koja pruţaju usluge smještaja duţna su nadleţnoj organizacionoj jedinici Sluţbe ili policije prijaviti boravište stranca najkasnije u roku od 12 sati od trenutka pruţanja usluge smještaja strancu.",
+        "url": "https://sps.gov.ba/dokumenti/29/ba-zakoni/1291/zakon-o-strancima"
+      },
+      {
+        "text": "(3) Stranac koji ne koristi usluge smještaja pravnih i fizičkih lica iz stava (1) ovog člana ili fizičko lice kod kojeg je stranac u posjeti duţni su nadleţnoj organizacionoj jedinici Sluţbe ili policije prijaviti boravak stranca u BiH u roku od 48 sati od ulaska stranca u BiH ako će stranac u BiH boraviti duţe od tri dana.",
+        "url": "https://sps.gov.ba/dokumenti/29/ba-zakoni/1291/zakon-o-strancima"
+      },
+      {
+        "text": "(5) Stranac koji ne koristi usluge smještaja pravnog ili fizičkog lica iz člana 103. (Ostala lica obavezna da prijave boravište stranca ) stav (3) ovog zakona niti je u posjeti kod fizičkog lica, a nije izvršio prijavu boravišta, kaznit će se novčanom kaznom u iznosu od 100 KM do 500 KM.",
+        "url": "https://sps.gov.ba/dokumenti/29/ba-zakoni/1291/zakon-o-strancima"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "Ukoliko stranac boravi u BiH po osnovu viznog ili bezviznog boravka svoje boravište je dužan prijaviti nadležnoj organizacionoj jedinici Službe ili policiji u roku od 48 sati od momenta ulaska u BiH. Ukoliko stranac ima namjeru boraviti kraće od 3 dana nije dužan da se prijavi.",
+        "url": "https://sps.gov.ba/informacije-za-strance/boravak-stranaca-u-bih/"
+      },
+      {
+        "text": "Ukoliko stranac koristi usluge smještaja fizičkih i pravnih lica koja pružaju usluge smještaja, obavezu prijavljivanja ne snosi stranac lično, nego fizičko ili pravno lice kod kojeg je stranac odsjeo.",
+        "url": "https://sps.gov.ba/informacije-za-strance/boravak-stranaca-u-bih/"
+      },
+      {
+        "text": "(1) Pravna i fizička lica koja pruţaju usluge smještaja duţna su nadleţnoj organizacionoj jedinici Sluţbe ili policije prijaviti boravište stranca najkasnije u roku od 12 sati od trenutka pruţanja usluge smještaja strancu.",
+        "url": "https://sps.gov.ba/dokumenti/29/ba-zakoni/1291/zakon-o-strancima"
+      },
+      {
+        "text": "(3) Stranac koji ne koristi usluge smještaja pravnih i fizičkih lica iz stava (1) ovog člana ili fizičko lice kod kojeg je stranac u posjeti duţni su nadleţnoj organizacionoj jedinici Sluţbe ili policije prijaviti boravak stranca u BiH u roku od 48 sati od ulaska stranca u BiH ako će stranac u BiH boraviti duţe od tri dana.",
+        "url": "https://sps.gov.ba/dokumenti/29/ba-zakoni/1291/zakon-o-strancima"
+      },
+      {
+        "text": "(5) Stranac koji ne koristi usluge smještaja pravnog ili fizičkog lica iz člana 103. (Ostala lica obavezna da prijave boravište stranca ) stav (3) ovog zakona niti je u posjeti kod fizičkog lica, a nije izvršio prijavu boravišta, kaznit će se novčanom kaznom u iznosu od 100 KM do 500 KM.",
+        "url": "https://sps.gov.ba/dokumenti/29/ba-zakoni/1291/zakon-o-strancima"
       }
     ]
   }

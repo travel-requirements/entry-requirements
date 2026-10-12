@@ -29,7 +29,7 @@
   ],
   "summary": "China's Ministry of Foreign Affairs says ordinary-passport holders of 50 countries, among them France, Germany, the UK, Canada, Australia, New Zealand, Japan and the Republic of Korea, can enter without a visa for business, tourism, family or friends visits, exchange and transit, staying no more than 30 days. China's National Immigration Administration says nationals of 57 countries, including the United States, Russia and the UK, can transit without a visa through any of 65 ports in 24 provinces on their way to a third country or region, staying in the permitted areas for up to 10 days.",
   "meta": {
-    "lastUpdated": "2026-10-11",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-25",
     "reviewIntervalDays": 7,
     "primarySources": [
@@ -59,7 +59,10 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay",
+      "levies",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -3573,6 +3576,58 @@
         "Canada's travel advice says there are absolute prohibitions against importing arms, drugs and plant or animal products that could carry disease or pests, and restrictions on the entry of printed material, film, photos, videotapes and CDs considered detrimental to China's interests.",
         "The UK Foreign Office says the import, possession and use of drones and drone components are strictly regulated, and to contact the Civil Aviation Administration of China before travel for the latest rules on registration and use."
       ]
+    },
+    "overstay": {
+      "fine": {
+        "amount": 500,
+        "currency": "CNY",
+        "per": "day",
+        "maxAmount": 10000
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "A foreigner who resides in China illegally is given a warning. In serious cases the foreigner is fined RMB 500 for each day of illegal residence, up to RMB 10,000 in total, or detained for 5 to 15 days. Repatriated persons may not enter China for one to five years from the date of repatriation.",
+      "source": {
+        "url": "https://www.nia.gov.cn/n741440/n741547/c1013311/content.html",
+        "name": "National Immigration Administration (China) — Exit and Entry Administration Law of the PRC",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Exit and Entry Administration Law of the PRC (2012), art. 78 (fine), art. 62 (repatriation and 1–5-year entry ban)",
+        "alsoStatedOn": [
+          {
+            "url": "https://ru.china-embassy.gov.cn/lsfw/lqdt/202504/t20250430_11611165.htm",
+            "name": "Official page — ru.china-embassy.gov.cn",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": 24,
+      "responsibility": "either",
+      "appliesTo": "all",
+      "penaltyText": "Persons who fail to register a stay outside a hotel: warning, and a fine of up to RMB 2,000 may also be imposed. Hotels that fail to submit foreigners' registration data to the police: warning; in serious cases a fine of RMB 1,000 to 5,000.",
+      "url": null,
+      "text": "Hotels register foreign guests and send the registration data to the local police. A foreigner staying anywhere other than a hotel must register with the local police within 24 hours of arrival, in person or through the host. If this is not done, a warning is given and a fine of up to RMB 2,000 may also be imposed. Hotels that fail to send the data are given a warning; in serious cases they are fined RMB 1,000 to 5,000.",
+      "source": {
+        "url": "https://www.nia.gov.cn/n741440/n741547/c1013311/content.html",
+        "name": "National Immigration Administration (China) — Exit and Entry Administration Law of the PRC",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Exit and Entry Administration Law of the PRC, art. 39 (registration), art. 76 (penalties)",
+        "alsoStatedOn": [
+          {
+            "url": "https://ru.china-embassy.gov.cn/lsfw/lqdt/202504/t20250430_11611165.htm",
+            "name": "Official page — ru.china-embassy.gov.cn",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -4061,6 +4116,156 @@
         "text": "对入境短期停留的，可以申领有效期为三个月的临时机动车驾驶许可；停居留时间超过三个月的，有效期可以延长至一年。",
         "url": "https://www.gov.cn/gongbao/content/2022/content_5679696.htm"
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "第七十八条 外国人非法居留的，给予警告；情节严重的，处每非法居留一日五百元，总额不超过一万元的罚款或者五日以上十五日以下拘留。",
+        "url": "https://www.nia.gov.cn/n741440/n741547/c1013311/content.html"
+      },
+      {
+        "text": "Article 78 Foreigners who reside in China illegally shall be given a warning; where circumstances are serious, they shall be imposed with a fine of RMB 500 yuan per day, with a cap of RMB 10,000 yuan in total, or be detained for not less than five days but not more than 15 days.",
+        "url": "https://ru.china-embassy.gov.cn/lsfw/lqdt/202504/t20250430_11611165.htm"
+      },
+      {
+        "text": "Repatriated persons shall not be allowed to enter China for one to five years, calculating from the date of repatriation.",
+        "url": "https://ru.china-embassy.gov.cn/lsfw/lqdt/202504/t20250430_11611165.htm"
+      },
+      {
+        "text": "(3) Illegally reside or work in China ; or",
+        "url": "https://ru.china-embassy.gov.cn/lsfw/lqdt/202504/t20250430_11611165.htm"
+      },
+      {
+        "text": "被遣送出境的人员，自被遣送出境之日起一至五年内不准入境。",
+        "url": "https://www.nia.gov.cn/n741440/n741547/c1013311/content.html"
+      }
+    ],
+    "levies.civil-aviation-development-fund": [
+      {
+        "text": "民航发展基金是经国务院批准设立的政府性基金，根据《民航发展基金征收使用管理暂行办法》（财综〔2012〕17号）和《民航发展基金征收实施细则》（民航发〔2013〕22号）的相关规定，向旅客征收标准为国内航班每人次50元、国际和地区航班每人次70元缴纳民航发展基金。",
+        "url": "http://www.caac.gov.cn/PHONE/XXGK_17/XXGK/JYTNDF/202309/t20230908_221316.html"
+      },
+      {
+        "text": "第十五条 航空旅客应缴纳的民航发展基金，由航空公司或者销售代理机构在旅客购买机票时一并代征。",
+        "url": "https://www.gov.cn/gongbao/content/2012/content_2182764.htm"
+      },
+      {
+        "text": "（一）持外交护照乘坐国际及地区航班出境的旅客；",
+        "url": "https://www.gov.cn/gongbao/content/2012/content_2182764.htm"
+      },
+      {
+        "text": "（二）年龄在12周岁以下（含12周岁）的乘机儿童；",
+        "url": "https://www.gov.cn/gongbao/content/2012/content_2182764.htm"
+      }
+    ],
+    "levies.civil-aviation-development-fund.exemptions": [
+      {
+        "text": "民航发展基金是经国务院批准设立的政府性基金，根据《民航发展基金征收使用管理暂行办法》（财综〔2012〕17号）和《民航发展基金征收实施细则》（民航发〔2013〕22号）的相关规定，向旅客征收标准为国内航班每人次50元、国际和地区航班每人次70元缴纳民航发展基金。",
+        "url": "http://www.caac.gov.cn/PHONE/XXGK_17/XXGK/JYTNDF/202309/t20230908_221316.html"
+      },
+      {
+        "text": "第十五条 航空旅客应缴纳的民航发展基金，由航空公司或者销售代理机构在旅客购买机票时一并代征。",
+        "url": "https://www.gov.cn/gongbao/content/2012/content_2182764.htm"
+      },
+      {
+        "text": "（一）持外交护照乘坐国际及地区航班出境的旅客；",
+        "url": "https://www.gov.cn/gongbao/content/2012/content_2182764.htm"
+      },
+      {
+        "text": "（二）年龄在12周岁以下（含12周岁）的乘机儿童；",
+        "url": "https://www.gov.cn/gongbao/content/2012/content_2182764.htm"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "第三十九条 外国人在中国境内旅馆住宿的，旅馆应当按照旅馆业治安管理的有关规定为其办理住宿登记，并向所在地公安机关报送外国人住宿登记信息。",
+        "url": "https://www.nia.gov.cn/n741440/n741547/c1013311/content.html"
+      },
+      {
+        "text": "外国人在旅馆以外的其他住所居住或者住宿的，应当在入住后二十四小时内由本人或者留宿人，向居住地的公安机关办理登记。",
+        "url": "https://www.nia.gov.cn/n741440/n741547/c1013311/content.html"
+      },
+      {
+        "text": "Article 39 Where foreigners stay in hotels in China, the hotels shall register their accommodation in accordance with the regulations on the public security administration of the hotel industry, and submit foreigners’ accommodation registration information to the public security organs in the places where the hotels are located.",
+        "url": "https://ru.china-embassy.gov.cn/lsfw/lqdt/202504/t20250430_11611165.htm"
+      },
+      {
+        "text": "For foreigners who reside or stay in domiciles other than hotels, they or the persons who accommodate them shall, within 24 hours after the foreigners’ arrival, go through the registration formalities with the public security organs in the places of residence.",
+        "url": "https://ru.china-embassy.gov.cn/lsfw/lqdt/202504/t20250430_11611165.htm"
+      },
+      {
+        "text": "Article 76 Under any of the following circumstances, a warning shall be given, and a fine of not more than RMB 2,000 yuan may also be imposed:",
+        "url": "https://ru.china-embassy.gov.cn/lsfw/lqdt/202504/t20250430_11611165.htm"
+      },
+      {
+        "text": "(6) Persons concerned fail to go through registration formalities in accordance with the provisions in the second paragraph of Article 39 of this Law.",
+        "url": "https://ru.china-embassy.gov.cn/lsfw/lqdt/202504/t20250430_11611165.htm"
+      },
+      {
+        "text": "hotels that fail to submit foreigners’ accommodation registration information to public security organs shall be given a warning; where circumstances are serious, such hotels shall be fined not less than RMB 1,000 yuan but not more than RMB 5,000 yuan.",
+        "url": "https://ru.china-embassy.gov.cn/lsfw/lqdt/202504/t20250430_11611165.htm"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "第三十九条 外国人在中国境内旅馆住宿的，旅馆应当按照旅馆业治安管理的有关规定为其办理住宿登记，并向所在地公安机关报送外国人住宿登记信息。",
+        "url": "https://www.nia.gov.cn/n741440/n741547/c1013311/content.html"
+      },
+      {
+        "text": "外国人在旅馆以外的其他住所居住或者住宿的，应当在入住后二十四小时内由本人或者留宿人，向居住地的公安机关办理登记。",
+        "url": "https://www.nia.gov.cn/n741440/n741547/c1013311/content.html"
+      },
+      {
+        "text": "Article 39 Where foreigners stay in hotels in China, the hotels shall register their accommodation in accordance with the regulations on the public security administration of the hotel industry, and submit foreigners’ accommodation registration information to the public security organs in the places where the hotels are located.",
+        "url": "https://ru.china-embassy.gov.cn/lsfw/lqdt/202504/t20250430_11611165.htm"
+      },
+      {
+        "text": "For foreigners who reside or stay in domiciles other than hotels, they or the persons who accommodate them shall, within 24 hours after the foreigners’ arrival, go through the registration formalities with the public security organs in the places of residence.",
+        "url": "https://ru.china-embassy.gov.cn/lsfw/lqdt/202504/t20250430_11611165.htm"
+      },
+      {
+        "text": "Article 76 Under any of the following circumstances, a warning shall be given, and a fine of not more than RMB 2,000 yuan may also be imposed:",
+        "url": "https://ru.china-embassy.gov.cn/lsfw/lqdt/202504/t20250430_11611165.htm"
+      },
+      {
+        "text": "(6) Persons concerned fail to go through registration formalities in accordance with the provisions in the second paragraph of Article 39 of this Law.",
+        "url": "https://ru.china-embassy.gov.cn/lsfw/lqdt/202504/t20250430_11611165.htm"
+      },
+      {
+        "text": "hotels that fail to submit foreigners’ accommodation registration information to public security organs shall be given a warning; where circumstances are serious, such hotels shall be fined not less than RMB 1,000 yuan but not more than RMB 5,000 yuan.",
+        "url": "https://ru.china-embassy.gov.cn/lsfw/lqdt/202504/t20250430_11611165.htm"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "civil-aviation-development-fund",
+      "name": "Civil Aviation Development Fund (民航发展基金)",
+      "kind": "departure-tax",
+      "fee": {
+        "amount": 70,
+        "currency": "CNY"
+      },
+      "per": "person-per-trip",
+      "paidAt": "included-in-ticket",
+      "appliesTo": "all",
+      "exemptions": "Passengers departing on international or regional flights with a diplomatic passport; children aged 12 or under.",
+      "url": null,
+      "text": "Passengers pay the Civil Aviation Development Fund: CNY 50 per person per domestic flight and CNY 70 per person per international or regional flight. The airline or sales agent collects it when the ticket is bought. Passengers departing on international or regional flights with a diplomatic passport, and children aged 12 or under, are exempt.",
+      "source": {
+        "url": "http://www.caac.gov.cn/PHONE/XXGK_17/XXGK/JYTNDF/202309/t20230908_221316.html",
+        "name": "Civil Aviation Administration of China — reply to NPC suggestion No. 0889 (2023)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Interim Measures on the Collection and Use of the Civil Aviation Development Fund (Cai Zong [2012] No. 17); CAAC implementing rules (Min Hang Fa [2013] No. 22)",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gov.cn/gongbao/content/2012/content_2182764.htm",
+            "name": "Official page — www.gov.cn",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
+    }
+  ]
 }

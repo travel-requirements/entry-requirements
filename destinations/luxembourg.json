@@ -19,7 +19,7 @@
   ],
   "summary": "Luxembourg is part of the Schengen Area: EU citizens travel freely, and Swiss and EEA nationals enter with a valid identity card or passport; nationals of the countries and territories on the EU's visa-exempt list (Annex II of Regulation (EU) 2018/1806) can stay up to 90 days in any 180-day period (ETIAS is not yet in operation), and nationals of the countries on its visa-required list (Annex I) must be in possession of a Schengen visa when crossing the external borders (standard fee €90 under the Visa Code).",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-10-03",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -40,7 +40,10 @@
     ],
     "modules": [
       "driving",
-      "stay-window"
+      "stay-window",
+      "overstay",
+      "levies",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -3495,6 +3498,39 @@
         "Arriving from outside the EU, the EU's Your Europe portal gives a duty-free allowance of 4 litres of still wine and 16 litres of beer, plus 1 litre of spirits over 22% vol. (or 2 litres of fortified or sparkling wine); 200 cigarettes (or 100 cigarillos, 50 cigars or 250 g of tobacco) where the higher tobacco limit applies, since a higher or lower limit may apply depending on the EU country; and other goods worth up to €300, or €430 for travellers by air and sea. Under-17s are not entitled to a duty-free allowance for tobacco or alcohol.",
         "Arriving from another EU country, Your Europe says no further payments are due on alcohol and tobacco bought for your own use and not for resale. Each EU country sets guideline quantities, which may not be lower than, for example, 800 cigarettes or 10 litres of spirits; if customs suspect goods are not for your own use, you may be asked to prove that they are."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "A third-country national who stays beyond the validity of the visa or travel authorisation, or beyond three months from entry, is staying irregularly, and a return decision is taken. A return decision may carry an entry ban of up to five years. The minister imposes an entry ban on anyone given no period for voluntary return, or who stays after that period has expired. A prison term of eight days to one year and a fine of EUR 251 to 1,250, or one of these penalties, applies to a third-country national who, without a justified reason for not returning, stays irregularly after detention or house arrest ended without removal.",
+      "source": {
+        "url": "https://legilux.public.lu/eli/etat/leg/loi/2008/08/29/n1/consolide/20260612",
+        "name": "Legilux (Luxembourg official journal) — Amended Law of 29 August 2008 on free movement of persons and immigration, consolidated version of 12.06.2026",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Loi modifiée du 29 août 2008 sur la libre circulation des personnes et l'immigration, Art. 100(1)(b) and (1bis), Art. 112(1), Art. 140"
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": null,
+      "responsibility": "either",
+      "appliesTo": "all",
+      "penaltyText": "Failure to make the arrival declaration within the time limit is punished by a fine of EUR 25 to 250.",
+      "url": null,
+      "text": "A third-country national intending to stay less than three months must, within three working days of entry, make an arrival declaration at the commune where they intend to stay, and receives a copy as a receipt. When the person stays for tourism in an accommodation establishment covered by the traveller-control legislation, the accommodation form (fiche d'hébergement) replaces the declaration. Failing to declare in time is punished by a fine of EUR 25 to 250.",
+      "source": {
+        "url": "https://legilux.public.lu/eli/etat/leg/loi/2008/08/29/n1/consolide/20260612",
+        "name": "Legilux (Luxembourg official journal) — Amended Law of 29 August 2008 on free movement of persons and immigration, consolidated version of 12.06.2026",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Loi modifiée du 29 août 2008, Art. 36 and Art. 139(c)"
+      }
     }
   },
   "countryFacts": {
@@ -4067,6 +4103,129 @@
         "text": "The visa fee shall be waived for applicants belonging to one of the following categories: (a) children under six years;",
         "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240611"
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "b)qui se maintient sur le territoire au-delà de la durée de validité de son visa ou de son autorisation de voyage ou au-delà de la durée de trois mois à compter de son entrée sur le territoire ;",
+        "url": "https://legilux.public.lu/eli/etat/leg/loi/2008/08/29/n1/consolide/20260612"
+      },
+      {
+        "text": "(1bis)Une décision de retour est prise conformément à l’article 111 à l’encontre de tout ressortissant de pays tiers en séjour irrégulier sur le territoire, sans préjudice des paragraphes (2) et (3).",
+        "url": "https://legilux.public.lu/eli/etat/leg/loi/2008/08/29/n1/consolide/20260612"
+      },
+      {
+        "text": "(1)Les décisions de retour peuvent être assorties d’une interdiction d’entrée sur le territoire d’une durée maximale de cinq ans prononcée soit simultanément à la décision de retour, soit par décision séparée postérieure.",
+        "url": "https://legilux.public.lu/eli/etat/leg/loi/2008/08/29/n1/consolide/20260612"
+      },
+      {
+        "text": "Une interdiction d’entrée sur le territoire est prononcée par le ministre à l’encontre du ressortissant de pays tiers auquel aucun délai n’a été accordé pour le retour volontaire ou qui se maintient sur le territoire après expiration du délai imparti pour quitter volontairement le territoire conformément à l’article 111, paragraphe (2).",
+        "url": "https://legilux.public.lu/eli/etat/leg/loi/2008/08/29/n1/consolide/20260612"
+      },
+      {
+        "text": "Est puni d’un emprisonnement de huit jours à un an et d’une amende de 251 à 1.250 euros ou d’une de ces peines seulement, le ressortissant de pays tiers qui, sans motif justifié de non-retour, séjourne irrégulièrement sur le territoire après avoir fait l’objet d’une mesure régulière de placement en rétention ou d’assignation à résidence ayant pris fin sans qu’il ait pu être procédé à son éloignement.",
+        "url": "https://legilux.public.lu/eli/etat/leg/loi/2008/08/29/n1/consolide/20260612"
+      }
+    ],
+    "levies.taxe-de-sejour-luxembourg-city": [
+      {
+        "text": "Les personnes qui ont pris en location des chambres ou des appartements garnis dans les hôtels, auberges et pensions de famille et qui ne sont pas inscrites aux registres de la population comme y résidant sont redevables d’une taxe au profit de la ville.",
+        "url": "https://www.vdl.lu/sites/default/files/media/ni/document/R%C3%A8glement%20taxe%20juillet%202026_1.pdf"
+      },
+      {
+        "text": "Les personnes qui font profession de donner en location lesdits chambres et appartements sont tenues de percevoir les montants dus du chef de la taxe et de les transmettre à la recette communale, selon les modalités fixées aux articles suivants.",
+        "url": "https://www.vdl.lu/sites/default/files/media/ni/document/R%C3%A8glement%20taxe%20juillet%202026_1.pdf"
+      },
+      {
+        "text": "La taxe est fixée à 3% des montants hors TVA facturés pour la location proprement dite.",
+        "url": "https://www.vdl.lu/sites/default/files/media/ni/document/R%C3%A8glement%20taxe%20juillet%202026_1.pdf"
+      }
+    ],
+    "levies.taxe-de-sejour-luxembourg-city.exemptions": [
+      {
+        "text": "Les personnes qui ont pris en location des chambres ou des appartements garnis dans les hôtels, auberges et pensions de famille et qui ne sont pas inscrites aux registres de la population comme y résidant sont redevables d’une taxe au profit de la ville.",
+        "url": "https://www.vdl.lu/sites/default/files/media/ni/document/R%C3%A8glement%20taxe%20juillet%202026_1.pdf"
+      },
+      {
+        "text": "Les personnes qui font profession de donner en location lesdits chambres et appartements sont tenues de percevoir les montants dus du chef de la taxe et de les transmettre à la recette communale, selon les modalités fixées aux articles suivants.",
+        "url": "https://www.vdl.lu/sites/default/files/media/ni/document/R%C3%A8glement%20taxe%20juillet%202026_1.pdf"
+      },
+      {
+        "text": "La taxe est fixée à 3% des montants hors TVA facturés pour la location proprement dite.",
+        "url": "https://www.vdl.lu/sites/default/files/media/ni/document/R%C3%A8glement%20taxe%20juillet%202026_1.pdf"
+      }
+    ],
+    "levies.taxe-de-sejour-luxembourg-city.feeText": [
+      {
+        "text": "Les personnes qui ont pris en location des chambres ou des appartements garnis dans les hôtels, auberges et pensions de famille et qui ne sont pas inscrites aux registres de la population comme y résidant sont redevables d’une taxe au profit de la ville.",
+        "url": "https://www.vdl.lu/sites/default/files/media/ni/document/R%C3%A8glement%20taxe%20juillet%202026_1.pdf"
+      },
+      {
+        "text": "Les personnes qui font profession de donner en location lesdits chambres et appartements sont tenues de percevoir les montants dus du chef de la taxe et de les transmettre à la recette communale, selon les modalités fixées aux articles suivants.",
+        "url": "https://www.vdl.lu/sites/default/files/media/ni/document/R%C3%A8glement%20taxe%20juillet%202026_1.pdf"
+      },
+      {
+        "text": "La taxe est fixée à 3% des montants hors TVA facturés pour la location proprement dite.",
+        "url": "https://www.vdl.lu/sites/default/files/media/ni/document/R%C3%A8glement%20taxe%20juillet%202026_1.pdf"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "Le ressortissant de pays tiers qui a l’intention de séjourner moins de trois mois sur le territoire, doit, dans les trois jours ouvrables à partir de son entrée sur le territoire, faire une déclaration d’arrivée à l’administration communale du lieu où il entend séjourner. Une copie de sa déclaration sera délivrée à l’intéressé en guise de récépissé.",
+        "url": "https://legilux.public.lu/eli/etat/leg/loi/2008/08/29/n1/consolide/20260612"
+      },
+      {
+        "text": "En cas d’hébergement dans les établissements visés par la législation ayant pour objet le contrôle des voyageurs dans les établissements d’hébergement, la fiche d’hébergement tiendra lieu de déclaration dans tous les cas où le ressortissant de pays tiers séjourne au pays pour des raisons touristiques.",
+        "url": "https://legilux.public.lu/eli/etat/leg/loi/2008/08/29/n1/consolide/20260612"
+      },
+      {
+        "text": "Sont punies d’une amende de 25 à 250 euros:",
+        "url": "https://legilux.public.lu/eli/etat/leg/loi/2008/08/29/n1/consolide/20260612"
+      },
+      {
+        "text": "c)les personnes qui ont omis de faire dans les délais prescrits une déclaration d'arrivée conformément aux articles 36 et 40, paragraphe (1) ou de solliciter la délivrance du titre de séjour conformément à l'article 40, paragraphe (2);",
+        "url": "https://legilux.public.lu/eli/etat/leg/loi/2008/08/29/n1/consolide/20260612"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "Le ressortissant de pays tiers qui a l’intention de séjourner moins de trois mois sur le territoire, doit, dans les trois jours ouvrables à partir de son entrée sur le territoire, faire une déclaration d’arrivée à l’administration communale du lieu où il entend séjourner. Une copie de sa déclaration sera délivrée à l’intéressé en guise de récépissé.",
+        "url": "https://legilux.public.lu/eli/etat/leg/loi/2008/08/29/n1/consolide/20260612"
+      },
+      {
+        "text": "En cas d’hébergement dans les établissements visés par la législation ayant pour objet le contrôle des voyageurs dans les établissements d’hébergement, la fiche d’hébergement tiendra lieu de déclaration dans tous les cas où le ressortissant de pays tiers séjourne au pays pour des raisons touristiques.",
+        "url": "https://legilux.public.lu/eli/etat/leg/loi/2008/08/29/n1/consolide/20260612"
+      },
+      {
+        "text": "Sont punies d’une amende de 25 à 250 euros:",
+        "url": "https://legilux.public.lu/eli/etat/leg/loi/2008/08/29/n1/consolide/20260612"
+      },
+      {
+        "text": "c)les personnes qui ont omis de faire dans les délais prescrits une déclaration d'arrivée conformément aux articles 36 et 40, paragraphe (1) ou de solliciter la délivrance du titre de séjour conformément à l'article 40, paragraphe (2);",
+        "url": "https://legilux.public.lu/eli/etat/leg/loi/2008/08/29/n1/consolide/20260612"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "taxe-de-sejour-luxembourg-city",
+      "name": "City of Luxembourg visitor tax (taxe de séjour)",
+      "kind": "tourist-tax",
+      "fee": null,
+      "per": "booking",
+      "paidAt": "at-accommodation",
+      "appliesTo": "all",
+      "exemptions": "Persons registered in the population registers as residing in the city are not liable.",
+      "url": null,
+      "text": "People renting furnished rooms or apartments in hotels, inns and guesthouses in the City of Luxembourg who are not registered as residents owe a city tax of 3% of the amount invoiced for the rental, excluding VAT. The landlord collects it and pays it to the city's revenue office.",
+      "source": {
+        "url": "https://www.vdl.lu/sites/default/files/media/ni/document/R%C3%A8glement%20taxe%20juillet%202026_1.pdf",
+        "name": "Ville de Luxembourg — Règlement-taxe (July 2026), Chapter G-4 Taxe de séjour",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Règlement-taxe de la Ville de Luxembourg, Chapitre G-4 (référence 23/06/2014 du 20 décembre 2013), Articles 1–2"
+      },
+      "feeText": "3% of the amounts invoiced for the rental itself, excluding VAT."
+    }
+  ]
 }

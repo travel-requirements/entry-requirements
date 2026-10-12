@@ -21,7 +21,7 @@
   ],
   "summary": "The European Commission says Bulgaria and Romania were the last countries to join the Schengen Area, on 1 January 2025. Romania's General Inspectorate for Immigration says EU, EEA and Swiss citizens can enter with a valid national identity document or passport. Under the EU visa regulation, nationals of the countries in its Annex II are exempt from the visa requirement for stays of no more than 90 days in any 180-day period, and Romania's Foreign Ministry says previous stays in the Schengen Area count towards that maximum cumulatively. Others need a visa, filed through the Foreign Ministry's e-Viza portal and sent to the Romanian diplomatic mission or consular office they choose. Canada's travel advice says the currency is the leu (RON).",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -36,7 +36,9 @@
     ],
     "modules": [
       "driving",
-      "stay-window"
+      "stay-window",
+      "overstay",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -3478,6 +3480,39 @@
         "The EU's Your Europe portal says that when travelling between EU countries, alcohol and tobacco bought for your own use and not for resale owe no further payments in any other EU country, as taxes are included in the price where you bought them.",
         "Arriving from outside the EU, the EU's Your Europe portal gives a duty-free allowance of 4 litres of still wine and 16 litres of beer, plus 1 litre of spirits over 22% (or 2 litres of fortified or sparkling wine), and other goods worth up to €300 (€430 for travellers by air and sea). It lists Romania among the countries applying the lower tobacco limit to all travellers (40 cigarettes or 20 cigarillos or 10 cigars or 50 g tobacco), and says travellers under 17 get no duty-free allowance for tobacco or alcohol."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "Visa-exempt foreigners may enter Romania and stay up to 90 days in any 180-day period. Foreigners staying legally for a time may stay only until their right of stay under the visa or residence permit ends. Failing to leave Romania after the right of stay ends is fined: 400 to 700 lei for a stay of up to 30 days after it ends, 600 to 1,000 lei for up to 60 days, and 800 to 1,200 lei for more than 60 days. For foreigners who entered legally but whose stay became illegal, the entry ban is 6 months to 1 year for an illegal stay of 30 days to one year, 1 to 2 years for an illegal stay of 1 to 2 years, 2 to 3 years for 2 to 3 years, and 3 to 4 years for over 3 years. If a foreigner misses the voluntary-departure deadline in a return decision and the illegal stay is under 30 days, the ban is 1 year.",
+      "source": {
+        "url": "https://igi.mai.gov.ro/wp-content/uploads/2026/04/ORDONANTA-DE-URGENTA-nr.-194-din-12-decembrie-2002.pdf",
+        "name": "General Inspectorate for Immigration (igi.mai.gov.ro) — Government Emergency Ordinance No. 194/2002 on the regime of foreigners in Romania, consolidated text",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "OUG nr. 194/2002 privind regimul străinilor în România: art. 11 (right of stay), art. 134 pct. 2 and art. 135 alin. (1) lit. e) (fine), art. 106^4 (entry ban duration)"
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": null,
+      "responsibility": "either",
+      "appliesTo": "all",
+      "penaltyText": "Failure by the foreigner or the host to announce the stay to the police is a contravention fined 400 to 800 lei.",
+      "url": null,
+      "text": "A foreigner who entered Romania legally, and the person hosting them, must notify the territorial police within 3 days of entry or of the start of hosting. When staying in a hotel or other tourist accommodation, the foreigner completes the registration formalities with the establishment, which sends the data to the territorial police within 24 hours. The rule also refers to sending the foreigner's registration data to the General Inspectorate for Immigration through an IT application provided for this purpose. Failing to announce the stay is fined 400 to 800 lei.",
+      "source": {
+        "url": "https://igi.mai.gov.ro/wp-content/uploads/2026/04/ORDONANTA-DE-URGENTA-nr.-194-din-12-decembrie-2002.pdf",
+        "name": "General Inspectorate for Immigration (igi.mai.gov.ro) — Government Emergency Ordinance No. 194/2002 on the regime of foreigners in Romania, consolidated text",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "OUG nr. 194/2002, art. 12 (announcement of stay/accommodation), art. 134 pct. 3 and art. 135 alin. (1) lit. a) (fine)"
+      }
     }
   },
   "countryFacts": {
@@ -4230,6 +4265,80 @@
       {
         "text": "From now on, Russian nationals will no longer be able to receive multiple-entry visas.",
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_25_2635"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "(2) Străinilor care nu au obligaţia obţinerii vizei în conformitate cu prevederile Regulamentului (UE) 2018/1.806 al Parlamentului European şi al Consiliului din 14 noiembrie 2018 de stabilire a listei ţărilor terţe ai căror resortisanţi trebuie să deţină viză pentru trecerea frontierelor externe şi a listei ţărilor terţe ai căror resortisanţi sunt exoneraţi de această obligaţie, cu modificările ulterioare, li se permite intrarea pe teritoriul României şi pot să rămână pentru o perioadă de maximum 90 de zile în decursul oricărei perioade de 180 de zile precedente fiecărei zile de şedere pe teritoriul oricărui stat Schengen.",
+        "url": "https://igi.mai.gov.ro/wp-content/uploads/2026/04/ORDONANTA-DE-URGENTA-nr.-194-din-12-decembrie-2002.pdf"
+      },
+      {
+        "text": "Străinii aflaţi temporar în mod legal în România pot rămâne pe teritoriul statului român numai până la data la care încetează dreptul de şedere stabilit prin viză sau, după caz, prin permisul de şedere.",
+        "url": "https://igi.mai.gov.ro/wp-content/uploads/2026/04/ORDONANTA-DE-URGENTA-nr.-194-din-12-decembrie-2002.pdf"
+      },
+      {
+        "text": "2. neîndeplinirea de către străin a obligaţiei de a părăsi teritoriul României după data la care încetează dreptul de şedere în România",
+        "url": "https://igi.mai.gov.ro/wp-content/uploads/2026/04/ORDONANTA-DE-URGENTA-nr.-194-din-12-decembrie-2002.pdf"
+      },
+      {
+        "text": "(i) de la 400 lei la 700 lei, în cazul unei şederi de până la 30 de zile după încetarea dreptului de şedere; (ii) de la 600 lei la 1000 lei, în cazul unei şederi de până la 60 de zile după încetarea dreptului de şedere; (iii) de la 800 lei la 1200 lei, în cazul unei şederi de peste 60 de zile după încetarea dreptului de şedere.",
+        "url": "https://igi.mai.gov.ro/wp-content/uploads/2026/04/ORDONANTA-DE-URGENTA-nr.-194-din-12-decembrie-2002.pdf"
+      },
+      {
+        "text": "(1) În cazul străinilor care au intrat legal în România, dar a căror şedere a devenit ilegală, durata interdicţiei de intrare se stabileşte după cum urmează: a) de la 6 luni la 1 an, în cazul: (i) unei şederi ilegale de la 30 de zile la un an, pentru străinii care nu au părăsit teritoriul României la expirarea dreptului de şedere conferit prin viză ori în conformitate cu",
+        "url": "https://igi.mai.gov.ro/wp-content/uploads/2026/04/ORDONANTA-DE-URGENTA-nr.-194-din-12-decembrie-2002.pdf"
+      },
+      {
+        "text": "b) de la 1 an la 2 ani - în cazul unei şederi ilegale de la 1 an la 2 ani; c) de la 2 ani la 3 ani - în cazul unei şederi ilegale de la 2 ani la 3 ani; d) de la 3 ani la 4 ani - în cazul unei şederi ilegale de peste 3 ani.",
+        "url": "https://igi.mai.gov.ro/wp-content/uploads/2026/04/ORDONANTA-DE-URGENTA-nr.-194-din-12-decembrie-2002.pdf"
+      },
+      {
+        "text": "În cazul străinilor care nu respectă termenul de plecare voluntară prevăzut în decizia de returnare, iar şederea ilegală este mai mică de 30 de zile, durata interdicţiei de intrare este de 1 an.",
+        "url": "https://igi.mai.gov.ro/wp-content/uploads/2026/04/ORDONANTA-DE-URGENTA-nr.-194-din-12-decembrie-2002.pdf"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "(1) Străinul intrat legal pe teritoriul României, precum şi persoana care îl găzduieşte au obligaţia să anunţe despre aceasta organul de poliţie competent teritorial, în termen de 3 zile de la data intrării şi, respectiv, a găzduirii.",
+        "url": "https://igi.mai.gov.ro/wp-content/uploads/2026/04/ORDONANTA-DE-URGENTA-nr.-194-din-12-decembrie-2002.pdf"
+      },
+      {
+        "text": "(2) În situaţia cazării în hoteluri sau în alte amenajări turistice, străinul va îndeplini formalităţile de luare în evidenţă la administraţia locului respectiv care, în termen de 24 de ore, va comunica datele necesare organului de poliţie competent teritorial.",
+        "url": "https://igi.mai.gov.ro/wp-content/uploads/2026/04/ORDONANTA-DE-URGENTA-nr.-194-din-12-decembrie-2002.pdf"
+      },
+      {
+        "text": "3. neîndeplinirea de către străin sau de către persoana care îl găzduieşte a obligaţiei de anunţare a şederii acestuia la organul de poliţie competent teritorial, până cel târziu după 3 zile de la împlinirea termenului prevăzut la",
+        "url": "https://igi.mai.gov.ro/wp-content/uploads/2026/04/ORDONANTA-DE-URGENTA-nr.-194-din-12-decembrie-2002.pdf"
+      },
+      {
+        "text": "a) cu amendă de la 400 lei la 800 lei, cele prevăzute la , , şi ;pct. 3-5 7 8 10-14",
+        "url": "https://igi.mai.gov.ro/wp-content/uploads/2026/04/ORDONANTA-DE-URGENTA-nr.-194-din-12-decembrie-2002.pdf"
+      },
+      {
+        "text": "Imigrări cu privire la sosirea pe teritoriul României ori cu privire la găzduirea străinului, după caz, respectiv prin comunicarea datelor privind luarea în evidenţă a străinului către Inspectoratul General pentru Imigrări, prin intermediul unei aplicaţii informatice puse la dispoziţie în acest scop.",
+        "url": "https://igi.mai.gov.ro/wp-content/uploads/2026/04/ORDONANTA-DE-URGENTA-nr.-194-din-12-decembrie-2002.pdf"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "(1) Străinul intrat legal pe teritoriul României, precum şi persoana care îl găzduieşte au obligaţia să anunţe despre aceasta organul de poliţie competent teritorial, în termen de 3 zile de la data intrării şi, respectiv, a găzduirii.",
+        "url": "https://igi.mai.gov.ro/wp-content/uploads/2026/04/ORDONANTA-DE-URGENTA-nr.-194-din-12-decembrie-2002.pdf"
+      },
+      {
+        "text": "(2) În situaţia cazării în hoteluri sau în alte amenajări turistice, străinul va îndeplini formalităţile de luare în evidenţă la administraţia locului respectiv care, în termen de 24 de ore, va comunica datele necesare organului de poliţie competent teritorial.",
+        "url": "https://igi.mai.gov.ro/wp-content/uploads/2026/04/ORDONANTA-DE-URGENTA-nr.-194-din-12-decembrie-2002.pdf"
+      },
+      {
+        "text": "3. neîndeplinirea de către străin sau de către persoana care îl găzduieşte a obligaţiei de anunţare a şederii acestuia la organul de poliţie competent teritorial, până cel târziu după 3 zile de la împlinirea termenului prevăzut la",
+        "url": "https://igi.mai.gov.ro/wp-content/uploads/2026/04/ORDONANTA-DE-URGENTA-nr.-194-din-12-decembrie-2002.pdf"
+      },
+      {
+        "text": "a) cu amendă de la 400 lei la 800 lei, cele prevăzute la , , şi ;pct. 3-5 7 8 10-14",
+        "url": "https://igi.mai.gov.ro/wp-content/uploads/2026/04/ORDONANTA-DE-URGENTA-nr.-194-din-12-decembrie-2002.pdf"
+      },
+      {
+        "text": "Imigrări cu privire la sosirea pe teritoriul României ori cu privire la găzduirea străinului, după caz, respectiv prin comunicarea datelor privind luarea în evidenţă a străinului către Inspectoratul General pentru Imigrări, prin intermediul unei aplicaţii informatice puse la dispoziţie în acest scop.",
+        "url": "https://igi.mai.gov.ro/wp-content/uploads/2026/04/ORDONANTA-DE-URGENTA-nr.-194-din-12-decembrie-2002.pdf"
       }
     ]
   }

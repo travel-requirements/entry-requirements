@@ -21,7 +21,7 @@
   ],
   "summary": "Switzerland is not in the EU but is a member of the Schengen area. Under the EU–Switzerland agreement on the free movement of persons, EU nationals enter simply upon production of a valid identity card or passport. Nationals of the countries listed in Annex II of Regulation (EU) 2018/1806 are exempt from the visa requirement for stays of no more than 90 days in any 180-day period, and nationals of the countries listed in Annex I need a visa; the State Secretariat for Migration gives the Schengen visa fee as EUR 90 for adults. ETIAS is not yet in operation.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -48,7 +48,9 @@
     ],
     "modules": [
       "driving",
-      "stay-window"
+      "stay-window",
+      "overstay",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -3325,6 +3327,53 @@
           "archiveUrl": "https://web.archive.org/web/20260415225245/https://www.bazg.admin.ch/en/cash-foreign-currency-securities"
         }
       }
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "Anyone who stays in Switzerland unlawfully, in particular after the permit-free or permitted stay has expired, is liable to a custodial sentence of up to one year or a monetary penalty. If the offence is committed negligently, the penalty is a fine (Busse). An entry ban lasts at most five years, or longer if the person is a serious danger to public security and order. Foreigners without gainful activity need no permit for a stay of up to three months within six months of entry (VZAE Art. 9).",
+      "source": {
+        "url": "https://www.fedlex.admin.ch/eli/cc/2007/758/de",
+        "name": "Fedlex (Federal Chancellery) — Federal Act on Foreign Nationals and Integration (AIG), SR 142.20",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Ausländer- und Integrationsgesetz (AIG, SR 142.20), Art. 115 para. 1 let. b and para. 3; Art. 67 para. 1 let. b and para. 3 (Stand am 12. Juni 2026)",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.fedlex.admin.ch/eli/cc/2007/759/de",
+            "name": "Official page — www.fedlex.admin.ch",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": null,
+      "responsibility": "accommodation",
+      "appliesTo": "all",
+      "penaltyText": "Anyone who intentionally or negligently breaches the registration or deregistration duties (Art. 10 to 16 AIG) is punished with a fine (Busse).",
+      "url": null,
+      "text": "Foreigners without gainful activity staying up to three months within six months of entry need no permit and do not have to register. Anyone who accommodates foreigners commercially must report them to the competent cantonal authority. Anyone who accommodates a foreigner for payment must fill in a registration form from the identity document, have the guest sign it (the guest must show the document) and send it to the competent cantonal authority. Breaching the registration duties is punished with a fine.",
+      "source": {
+        "url": "https://www.fedlex.admin.ch/eli/cc/2007/759/de",
+        "name": "Fedlex (Federal Chancellery) — Ordinance on Admission, Residence and Gainful Employment (VZAE), SR 142.201",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "AIG Art. 16 and Art. 120 para. 1 let. a; VZAE Art. 9 para. 1 and Art. 18",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.fedlex.admin.ch/eli/cc/2007/758/de",
+            "name": "Official page — www.fedlex.admin.ch",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -3983,6 +4032,76 @@
       {
         "text": "Please note that you require a permit to stay in Switzerland for more than 90 days. For this purpose, the Swiss representation abroad will forward your visa application to the cantonal migration office for examination.",
         "url": "https://www.sem.admin.ch/sem/en/home/themen/einreise/faq.html"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "1 Mit Freiheitsstrafe bis zu einem Jahr oder Geldstrafe wird bestraft, wer:",
+        "url": "https://www.fedlex.admin.ch/eli/cc/2007/758/de"
+      },
+      {
+        "text": "sich rechtswidrig, namentlich nach Ablauf des bewilligungsfreien oder des bewilligten Aufenthalts, in der Schweiz aufhält;",
+        "url": "https://www.fedlex.admin.ch/eli/cc/2007/758/de"
+      },
+      {
+        "text": "3 Wird die Tat fahrlässig begangen, so ist die Strafe Busse.",
+        "url": "https://www.fedlex.admin.ch/eli/cc/2007/758/de"
+      },
+      {
+        "text": "3 Das Einreiseverbot wird für eine Dauer von höchstens fünf Jahren verfügt. Es kann für eine längere Dauer verfügt werden, wenn die betroffene Person eine schwerwiegende Gefahr für die öffentliche Sicherheit und Ordnung darstellt.",
+        "url": "https://www.fedlex.admin.ch/eli/cc/2007/758/de"
+      },
+      {
+        "text": "diese nicht innerhalb der angesetzten Frist ausgereist sind;",
+        "url": "https://www.fedlex.admin.ch/eli/cc/2007/758/de"
+      },
+      {
+        "text": "1 Ausländerinnen und Ausländer ohne Erwerbstätigkeit in der Schweiz benötigen für einen Aufenthalt von bis zu drei Monaten innerhalb eines Zeitraums von sechs Monaten nach der Einreise keine Bewilligung, und sie müssen sich nicht anmelden (bewilligungsfreier Aufenthalt). Bei Bedarf muss die betroffene Person den Zeitpunkt der Einreise mit geeigneten Unterlagen nachweisen.",
+        "url": "https://www.fedlex.admin.ch/eli/cc/2007/759/de"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "Wer Ausländerinnen oder Ausländer gewerbsmässig beherbergt, muss sie der zuständigen kantonalen Behörde melden.",
+        "url": "https://www.fedlex.admin.ch/eli/cc/2007/758/de"
+      },
+      {
+        "text": "1 Wer eine Ausländerin oder einen Ausländer gegen Entgelt beherbergt, ist verpflichtet, einen Meldeschein gemäss den Angaben im Ausweispapier auszufüllen und diesen von der beherbergten Person unterschreiben zu lassen. Die beherbergte Person muss ihre Ausweispapiere zu diesem Zweck vorlegen. Der Meldeschein ist der zuständigen kantonalen Behörde zu übermitteln.",
+        "url": "https://www.fedlex.admin.ch/eli/cc/2007/759/de"
+      },
+      {
+        "text": "1 Ausländerinnen und Ausländer ohne Erwerbstätigkeit in der Schweiz benötigen für einen Aufenthalt von bis zu drei Monaten innerhalb eines Zeitraums von sechs Monaten nach der Einreise keine Bewilligung, und sie müssen sich nicht anmelden (bewilligungsfreier Aufenthalt). Bei Bedarf muss die betroffene Person den Zeitpunkt der Einreise mit geeigneten Unterlagen nachweisen.",
+        "url": "https://www.fedlex.admin.ch/eli/cc/2007/759/de"
+      },
+      {
+        "text": "1 Mit Busse wird bestraft, wer vorsätzlich oder fahrlässig:",
+        "url": "https://www.fedlex.admin.ch/eli/cc/2007/758/de"
+      },
+      {
+        "text": "die An- oder Abmeldepflichten verletzt (Art. 10–16);",
+        "url": "https://www.fedlex.admin.ch/eli/cc/2007/758/de"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "Wer Ausländerinnen oder Ausländer gewerbsmässig beherbergt, muss sie der zuständigen kantonalen Behörde melden.",
+        "url": "https://www.fedlex.admin.ch/eli/cc/2007/758/de"
+      },
+      {
+        "text": "1 Wer eine Ausländerin oder einen Ausländer gegen Entgelt beherbergt, ist verpflichtet, einen Meldeschein gemäss den Angaben im Ausweispapier auszufüllen und diesen von der beherbergten Person unterschreiben zu lassen. Die beherbergte Person muss ihre Ausweispapiere zu diesem Zweck vorlegen. Der Meldeschein ist der zuständigen kantonalen Behörde zu übermitteln.",
+        "url": "https://www.fedlex.admin.ch/eli/cc/2007/759/de"
+      },
+      {
+        "text": "1 Ausländerinnen und Ausländer ohne Erwerbstätigkeit in der Schweiz benötigen für einen Aufenthalt von bis zu drei Monaten innerhalb eines Zeitraums von sechs Monaten nach der Einreise keine Bewilligung, und sie müssen sich nicht anmelden (bewilligungsfreier Aufenthalt). Bei Bedarf muss die betroffene Person den Zeitpunkt der Einreise mit geeigneten Unterlagen nachweisen.",
+        "url": "https://www.fedlex.admin.ch/eli/cc/2007/759/de"
+      },
+      {
+        "text": "1 Mit Busse wird bestraft, wer vorsätzlich oder fahrlässig:",
+        "url": "https://www.fedlex.admin.ch/eli/cc/2007/758/de"
+      },
+      {
+        "text": "die An- oder Abmeldepflichten verletzt (Art. 10–16);",
+        "url": "https://www.fedlex.admin.ch/eli/cc/2007/758/de"
       }
     ]
   }

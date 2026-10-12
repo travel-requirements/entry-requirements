@@ -17,7 +17,7 @@
   ],
   "summary": "The UK government says Liechtenstein follows Schengen area rules. EU nationals have the right to travel freely in Liechtenstein, a non-EU member of the Schengen area. Under Regulation (EU) 2018/1806 (consolidated to 30 December 2025), nationals of the countries in its Annex II are exempt from the visa requirement for stays of no more than 90 days in any 180-day period, and nationals of the countries in Annex I must hold a visa; Liechtenstein's Immigration and Passport Office says visa-required people can apply at the Swiss representation where they live.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -36,7 +36,10 @@
     ],
     "modules": [
       "driving",
-      "stay-window"
+      "stay-window",
+      "overstay",
+      "levies",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -3248,6 +3251,46 @@
         "The UK government says Switzerland handles customs matters for Liechtenstein, that there is an open border between the two countries, and refers travellers to its advice on customs rules for Switzerland.",
         "Canada's travel advice says random border checks can be done, and customs officials may ask to see a return or onward ticket and proof of sufficient funds for your stay."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "Staying unlawfully, in particular after the permit-free or permitted stay has expired, is punished by the Landgericht (court) with up to one year's imprisonment or a monetary penalty of up to 360 daily rates. Committing it negligently is punished by a monetary penalty of up to 360 daily rates. Prosecution may be waived if the person is removed at once. The permit-free stay may not exceed three months within six months from the first entry, or the shorter stay set in the visa. A removal order sets a departure period of seven to thirty days. A removed foreigner who was given no departure period, or did not leave within it, receives an entry ban of at most five years.",
+      "source": {
+        "url": "https://www.gesetze.li/konso/pdf/2008311000?version=25",
+        "name": "Liechtenstein Government Legal Service (Lilex) — Foreigners Act (Ausländergesetz, AuG), consolidated version of 12.06.2026",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Ausländergesetz (AuG), LGBl. 2008 Nr. 311, Art. 9 Abs. 2, Art. 52b Abs. 1, Art. 54 Abs. 1 and 4, Art. 83"
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": null,
+      "responsibility": "accommodation",
+      "appliesTo": "all",
+      "penaltyText": "A host who intentionally breaches the reporting duty is fined up to CHF 5,000 by the Government.",
+      "url": null,
+      "text": "Anyone who accommodates people for payment must register them in the reporting procedure, or have them registered. The reports go to the Office of Economic Affairs and the National Police. The host must enter the guest's details in the electronic reporting system immediately after the guest arrives. The ordinance also requires the host to make sure that the completed and signed reporting form reaches the National Police on the guest's day of arrival. Intentionally breaching the reporting duty is fined up to CHF 5,000.",
+      "source": {
+        "url": "https://www.gesetze.li/konso/pdf/2011544000?version=3",
+        "name": "Liechtenstein Government Legal Service (Lilex) — Location Promotion Act (Standortförderungsgesetz, SFG), version of 01.01.2025",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Standortförderungsgesetz (SFG) Art. 19 and 21; BMTV Art. 3–5",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gesetze.li/konso/pdf/2011581000?version=3",
+            "name": "Official page — www.gesetze.li",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -3748,6 +3791,168 @@
         "text": "Visumspflichtige Personen können am Ort ihres Wohnsitzes im Ausland bei der Schweizer Vertretung einen Antrag auf ein Visum einreichen. Die Entscheidung über den Antrag liegt teils bei den Schweizer Behörden und teils beim Ausländer- und Passamt.",
         "url": "https://www.llv.li/de/landesverwaltung/auslaender-und-passamt/visum"
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "1) Vom Landgericht wird mit Freiheitsstrafe bis zu einem Jahr oder Geldstrafe bis zu 360 Tagessätzen bestraft, wer sich rechtswidrig, namentlich nach Ablauf des bewilligungsfreien oder des bewilligten Aufenthalts, im Inland aufhält.",
+        "url": "https://www.gesetze.li/konso/pdf/2008311000?version=25"
+      },
+      {
+        "text": "2) Vom Landgericht wird mit Geldstrafe bis zu 360 Tagessätzen bestraft, wer die Tat fahrlässig begeht.",
+        "url": "https://www.gesetze.li/konso/pdf/2008311000?version=25"
+      },
+      {
+        "text": "3) Von der Strafverfolgung kann bei rechtswidrig anwesenden Ausländern abgesehen werden, sofern sie sofort ausgeschafft werden.",
+        "url": "https://www.gesetze.li/konso/pdf/2008311000?version=25"
+      },
+      {
+        "text": "2) Innerhalb von sechs Monaten ab Datum der Ersteinreise darf der bewilligungsfreie Aufenthalt drei Monate nicht überschreiten. Enthält das Visum eine kürzere Aufenthaltsdauer, so gilt diese.",
+        "url": "https://www.gesetze.li/konso/pdf/2008311000?version=25"
+      },
+      {
+        "text": "1) Gegenüber weggewiesenen Ausländern wird ein Einreiseverbot verfügt, wenn:",
+        "url": "https://www.gesetze.li/konso/pdf/2008311000?version=25"
+      },
+      {
+        "text": "a) keine Ausreisefrist angesetzt wurde (Art. 52b Abs. 3); b) sie nicht innerhalb der angesetzten Frist ausgereist sind;",
+        "url": "https://www.gesetze.li/konso/pdf/2008311000?version=25"
+      },
+      {
+        "text": "4) Das Einreiseverbot wird für eine Dauer von höchstens fünf Jahren verfügt.",
+        "url": "https://www.gesetze.li/konso/pdf/2008311000?version=25"
+      },
+      {
+        "text": "1) Mit der Wegweisungsverfügung ist eine angemessene Ausreisefrist zwischen sieben und dreissig Tagen anzusetzen.",
+        "url": "https://www.gesetze.li/konso/pdf/2008311000?version=25"
+      }
+    ],
+    "levies.kurtaxe": [
+      {
+        "text": "1) Wer gegen Entgelt Personen beherbergt, hat von diesen für jede Nächtigung eine Kurtaxe einzuheben und periodisch abzuliefern.",
+        "url": "https://www.gesetze.li/konso/pdf/2011544000?version=3"
+      },
+      {
+        "text": "1) Die Kurtaxe darf vier Franken pro Nächtigung nicht übersteigen.",
+        "url": "https://www.gesetze.li/konso/pdf/2011544000?version=3"
+      },
+      {
+        "text": "Taxpflichtig sind alle beherbergten Personen, mit Ausnahme von: a) Kindern, die das 15. Lebensjahr noch nicht vollendet haben; b) Personen, die in den Hütten des Liechtensteiner Alpenvereins übernachten.",
+        "url": "https://www.gesetze.li/konso/pdf/2011581000?version=3"
+      },
+      {
+        "text": "Die Einzelkurtaxe beträgt vorbehaltlich Art. 10 pro Nacht und Person für: a) Hotels, Gasthäuser, Pensionen und Bildungsstätten: 3.50 Franken; b) Ferienhäuser, -wohnungen und -zimmer: 2.50 Franken; c) Jugendherbergen, Massenlager sowie Zelte, Wohnwagen und Wohnmobile auf Campingplätzen: 1.50 Franken.",
+        "url": "https://www.gesetze.li/konso/pdf/2011581000?version=3"
+      }
+    ],
+    "levies.kurtaxe.exemptions": [
+      {
+        "text": "1) Wer gegen Entgelt Personen beherbergt, hat von diesen für jede Nächtigung eine Kurtaxe einzuheben und periodisch abzuliefern.",
+        "url": "https://www.gesetze.li/konso/pdf/2011544000?version=3"
+      },
+      {
+        "text": "1) Die Kurtaxe darf vier Franken pro Nächtigung nicht übersteigen.",
+        "url": "https://www.gesetze.li/konso/pdf/2011544000?version=3"
+      },
+      {
+        "text": "Taxpflichtig sind alle beherbergten Personen, mit Ausnahme von: a) Kindern, die das 15. Lebensjahr noch nicht vollendet haben; b) Personen, die in den Hütten des Liechtensteiner Alpenvereins übernachten.",
+        "url": "https://www.gesetze.li/konso/pdf/2011581000?version=3"
+      },
+      {
+        "text": "Die Einzelkurtaxe beträgt vorbehaltlich Art. 10 pro Nacht und Person für: a) Hotels, Gasthäuser, Pensionen und Bildungsstätten: 3.50 Franken; b) Ferienhäuser, -wohnungen und -zimmer: 2.50 Franken; c) Jugendherbergen, Massenlager sowie Zelte, Wohnwagen und Wohnmobile auf Campingplätzen: 1.50 Franken.",
+        "url": "https://www.gesetze.li/konso/pdf/2011581000?version=3"
+      }
+    ],
+    "levies.kurtaxe.feeText": [
+      {
+        "text": "1) Wer gegen Entgelt Personen beherbergt, hat von diesen für jede Nächtigung eine Kurtaxe einzuheben und periodisch abzuliefern.",
+        "url": "https://www.gesetze.li/konso/pdf/2011544000?version=3"
+      },
+      {
+        "text": "1) Die Kurtaxe darf vier Franken pro Nächtigung nicht übersteigen.",
+        "url": "https://www.gesetze.li/konso/pdf/2011544000?version=3"
+      },
+      {
+        "text": "Taxpflichtig sind alle beherbergten Personen, mit Ausnahme von: a) Kindern, die das 15. Lebensjahr noch nicht vollendet haben; b) Personen, die in den Hütten des Liechtensteiner Alpenvereins übernachten.",
+        "url": "https://www.gesetze.li/konso/pdf/2011581000?version=3"
+      },
+      {
+        "text": "Die Einzelkurtaxe beträgt vorbehaltlich Art. 10 pro Nacht und Person für: a) Hotels, Gasthäuser, Pensionen und Bildungsstätten: 3.50 Franken; b) Ferienhäuser, -wohnungen und -zimmer: 2.50 Franken; c) Jugendherbergen, Massenlager sowie Zelte, Wohnwagen und Wohnmobile auf Campingplätzen: 1.50 Franken.",
+        "url": "https://www.gesetze.li/konso/pdf/2011581000?version=3"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "1) Wer gegen Entgelt Personen beherbergt, ist verpflichtet, diese im Meldeverfahren zu registrieren oder registrieren zu lassen.",
+        "url": "https://www.gesetze.li/konso/pdf/2011544000?version=3"
+      },
+      {
+        "text": "2) Die Meldungen sind dem Amt für Volkswirtschaft und der Landespolizei zu übermitteln.",
+        "url": "https://www.gesetze.li/konso/pdf/2011544000?version=3"
+      },
+      {
+        "text": "1) Von der Regierung wird wegen Übertretung mit einer Busse bis 5 000 Franken bestraft, wer vorsätzlich: a) die Taxpflicht nach Art. 15 Abs. 1 verletzt; b) die Meldepflicht nach Art. 19 Abs. 1 und 2 verletzt;",
+        "url": "https://www.gesetze.li/konso/pdf/2011544000?version=3"
+      },
+      {
+        "text": "1) Der Meldepflichtige hat die Angaben nach Art. 3 unverzüglich nach Ankunft der beherbergten Person im elektronischen Meldesystem zu erfassen.",
+        "url": "https://www.gesetze.li/konso/pdf/2011581000?version=3"
+      },
+      {
+        "text": "4) Der Meldepflichtige hat sicherzustellen, dass das ausgefüllte und unterschriebene Meldeformular am Anreisetag der beherbergten Person bei der Landespolizei eintrifft.",
+        "url": "https://www.gesetze.li/konso/pdf/2011581000?version=3"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "1) Wer gegen Entgelt Personen beherbergt, ist verpflichtet, diese im Meldeverfahren zu registrieren oder registrieren zu lassen.",
+        "url": "https://www.gesetze.li/konso/pdf/2011544000?version=3"
+      },
+      {
+        "text": "2) Die Meldungen sind dem Amt für Volkswirtschaft und der Landespolizei zu übermitteln.",
+        "url": "https://www.gesetze.li/konso/pdf/2011544000?version=3"
+      },
+      {
+        "text": "1) Von der Regierung wird wegen Übertretung mit einer Busse bis 5 000 Franken bestraft, wer vorsätzlich: a) die Taxpflicht nach Art. 15 Abs. 1 verletzt; b) die Meldepflicht nach Art. 19 Abs. 1 und 2 verletzt;",
+        "url": "https://www.gesetze.li/konso/pdf/2011544000?version=3"
+      },
+      {
+        "text": "1) Der Meldepflichtige hat die Angaben nach Art. 3 unverzüglich nach Ankunft der beherbergten Person im elektronischen Meldesystem zu erfassen.",
+        "url": "https://www.gesetze.li/konso/pdf/2011581000?version=3"
+      },
+      {
+        "text": "4) Der Meldepflichtige hat sicherzustellen, dass das ausgefüllte und unterschriebene Meldeformular am Anreisetag der beherbergten Person bei der Landespolizei eintrifft.",
+        "url": "https://www.gesetze.li/konso/pdf/2011581000?version=3"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "kurtaxe",
+      "name": "Kurtaxe (visitor's tax)",
+      "kind": "tourist-tax",
+      "fee": null,
+      "per": "person-per-night",
+      "paidAt": "at-accommodation",
+      "appliesTo": "all",
+      "exemptions": "Children under 15; people staying overnight in the huts of the Liechtenstein Alpine Club.",
+      "url": null,
+      "text": "Anyone who accommodates people for payment must collect a Kurtaxe from them for every night and pay it over periodically. By law it may not exceed 4 francs per night. All guests are liable except children under 15 and people staying in Liechtenstein Alpine Club huts. The rate per person per night is CHF 3.50 in hotels, inns, guesthouses and education centres, CHF 2.50 in holiday homes, flats and rooms, and CHF 1.50 in youth hostels, dormitories and on campsites.",
+      "source": {
+        "url": "https://www.gesetze.li/konso/pdf/2011581000?version=3",
+        "name": "Liechtenstein Government Legal Service (Lilex) — Ordinance on the duty to report and pay tax for accommodation (BMTV), version of 01.01.2024",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Standortförderungsgesetz (SFG), LGBl. 2011 Nr. 544, Art. 15 and 17; Verordnung über die Melde- und Taxpflicht bei Beherbergungen (BMTV), LGBl. 2011 Nr. 581, Art. 8 and 9",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gesetze.li/konso/pdf/2011544000?version=3",
+            "name": "Official page — www.gesetze.li",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      },
+      "feeText": "Per night and person: hotels, inns, guesthouses and education centres CHF 3.50; holiday homes, flats and rooms CHF 2.50; youth hostels, dormitories, and tents, caravans and motorhomes on campsites CHF 1.50."
+    }
+  ]
 }

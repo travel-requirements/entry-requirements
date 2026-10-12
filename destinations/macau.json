@@ -16,7 +16,7 @@
   ],
   "summary": "Macao’s Public Security Police exempts nationals of 88 listed countries from a visa. Holders of a valid passport get a stay of a maximum of 30 days unless its table lists otherwise: 90 days for EU and Schengen passports and some others, 14 days for Brunei and Kazakhstan, 3 months for Cyprus, Israel, Lebanon and New Zealand, and 6 months for British citizens holding a British passport. Visitors who are not exempt can apply for an Entry Permit (visa-upon-arrival) at the border checkpoints on arrival, but visitors from Bangladesh, Nepal, Nigeria, Pakistan, Sri Lanka and Vietnam must apply for a Macao visa in advance through a Chinese embassy or consulate.",
   "meta": {
-    "lastUpdated": "2026-10-09",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -42,7 +42,9 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -2481,6 +2483,44 @@
         "Macao Customs says passengers entering Macao may bring goods for their own use without a customs declaration as long as they do not exceed the quantities in its table, which include 19 cigarettes, 1 cigar (of no more than 3 g), 25 g of leaf tobacco and 1 litre of drinks over 30% alcohol by volume.",
         "Canada’s travel advice says it is prohibited to import, export or distribute e-cigarettes, vaporizers and their refills in Macao, and that convicted offenders can expect heavy fines."
       ]
+    },
+    "overstay": {
+      "fine": {
+        "amount": 500,
+        "currency": "MOP",
+        "per": "day",
+        "maxAmount": 15000
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "An overstay beyond the authorised period is fined MOP 500 to 800 for each full day or part of a day, up to MOP 15,000. An overstay without a justified reason that is not the non-resident's fault leads, in addition to expulsion, to an entry ban. The ban is at least one year, or as long as the overstay if it was over a year, when the person reported to the authorities voluntarily, and double that otherwise. The ban does not apply when the overstay is 30 days or less and the person is not a repeat offender, provided they pay the minimum fine immediately when they report or are detected.",
+      "source": {
+        "url": "https://bo.dsaj.gov.mo/bo/i/2021/33/lei16.asp",
+        "name": "Boletim Oficial da RAEM (DSAJ) — Lei n.º 16/2021, Regime jurídico do controlo de migração",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Lei n.º 16/2021 (Regime jurídico do controlo de migração e das autorizações de permanência e residência), arts. 58 and 90(1)(2)"
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": 24,
+      "responsibility": "accommodation",
+      "appliesTo": "all",
+      "penaltyText": "Failing to record or send the data, or doing so incorrectly, incompletely, falsely or late: fine of MOP 5,000 to 15,000.",
+      "url": null,
+      "text": "Accommodation operators must record the check-in and check-out of guests, and of companions over 16, who do not hold a Macao resident identity card, a special stay permit or a non-resident worker card. They must send these records and the guests' identity data to the Public Security Police (CPSP) within 24 hours. They must refuse lodging to an occupant who does not provide the data or objects to its processing. Failing to meet these duties, or meeting them incorrectly, incompletely, falsely or late, is fined MOP 5,000 to 15,000.",
+      "source": {
+        "url": "https://bo.dsaj.gov.mo/bo/i/2021/33/lei16.asp",
+        "name": "Boletim Oficial da RAEM (DSAJ) — Lei n.º 16/2021",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Lei n.º 16/2021, art. 61(1) (duties of hotel operators), art. 89(1)(2) (fines)"
+      }
     }
   },
   "countryFacts": {
@@ -2947,6 +2987,64 @@
       {
         "text": "《道路交通法》第八十條第一款(一)至(三)項所指文件持有人在澳門特別行政區駕駛之期間上限為一年；",
         "url": "https://www.gov.mo/zh-hant/services/ps-1488/ps-1488a/"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "2) 500 a 800 patacas, por cada dia completo, ou fracção, que exceda o prazo de autorização, até ao máximo de 15 000 patacas, o excesso de permanência na RAEM;",
+        "url": "https://bo.dsaj.gov.mo/bo/i/2021/33/lei16.asp"
+      },
+      {
+        "text": "1. A situação de imigração ilegal por excesso de permanência, sem que tenha por causa motivo justificado, não imputável ao não residente, para além da expulsão, determina:",
+        "url": "https://bo.dsaj.gov.mo/bo/i/2021/33/lei16.asp"
+      },
+      {
+        "text": "(1) Nos casos em que o infractor se tenha apresentado voluntariamente às autoridades, um ano, no mínimo, ou o período de tempo igual ao do excesso de permanência, quando este tenha sido superior a um ano;",
+        "url": "https://bo.dsaj.gov.mo/bo/i/2021/33/lei16.asp"
+      },
+      {
+        "text": "(2) Fora dos casos de apresentação voluntária do infractor, o dobro do período de interdição apurado nos termos da subalínea anterior;",
+        "url": "https://bo.dsaj.gov.mo/bo/i/2021/33/lei16.asp"
+      },
+      {
+        "text": "3. Não há lugar à aplicação do disposto no n.º 1 quando o período de excesso de permanência não exceda 30 dias e o infractor não seja reincidente nesse tipo de infracção, desde que o mesmo pague, de imediato, no momento da sua apresentação voluntária ou detecção, a multa correspondente pelo respectivo valor mínimo.",
+        "url": "https://bo.dsaj.gov.mo/bo/i/2021/33/lei16.asp"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "1) Registar os dados de entrada e saída dos hóspedes e seus acompanhantes de idade superior a 16 anos que não sejam portadores de bilhete de identidade de residente, de título especial de permanência ou de título de identificação de trabalhador não residente;",
+        "url": "https://bo.dsaj.gov.mo/bo/i/2021/33/lei16.asp"
+      },
+      {
+        "text": "2) Comunicar ao CPSP, no prazo de 24 horas, os registos efectuados nos termos da alínea anterior, bem como os dados de identificação pessoal das pessoas registadas;",
+        "url": "https://bo.dsaj.gov.mo/bo/i/2021/33/lei16.asp"
+      },
+      {
+        "text": "3) Recusar a hospedagem e o acesso às instalações, invocando justa causa, sempre que se verifique existir ocupante efectivo que não providencie os dados necessários para efeitos das alíneas anteriores ou se oponha ao tratamento desses dados;",
+        "url": "https://bo.dsaj.gov.mo/bo/i/2021/33/lei16.asp"
+      },
+      {
+        "text": "2) 5 000 a 15 000 patacas, o incumprimento dos deveres previstos nos n. os 2 e 3 do artigo 60.º, bem como dos deveres previstos nas alíneas 1) e 2) do n.º 1 do artigo 61.º, ou o seu cumprimento de forma incorrecta, incompleta, falsa ou após o prazo;",
+        "url": "https://bo.dsaj.gov.mo/bo/i/2021/33/lei16.asp"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "1) Registar os dados de entrada e saída dos hóspedes e seus acompanhantes de idade superior a 16 anos que não sejam portadores de bilhete de identidade de residente, de título especial de permanência ou de título de identificação de trabalhador não residente;",
+        "url": "https://bo.dsaj.gov.mo/bo/i/2021/33/lei16.asp"
+      },
+      {
+        "text": "2) Comunicar ao CPSP, no prazo de 24 horas, os registos efectuados nos termos da alínea anterior, bem como os dados de identificação pessoal das pessoas registadas;",
+        "url": "https://bo.dsaj.gov.mo/bo/i/2021/33/lei16.asp"
+      },
+      {
+        "text": "3) Recusar a hospedagem e o acesso às instalações, invocando justa causa, sempre que se verifique existir ocupante efectivo que não providencie os dados necessários para efeitos das alíneas anteriores ou se oponha ao tratamento desses dados;",
+        "url": "https://bo.dsaj.gov.mo/bo/i/2021/33/lei16.asp"
+      },
+      {
+        "text": "2) 5 000 a 15 000 patacas, o incumprimento dos deveres previstos nos n. os 2 e 3 do artigo 60.º, bem como dos deveres previstos nas alíneas 1) e 2) do n.º 1 do artigo 61.º, ou o seu cumprimento de forma incorrecta, incompleta, falsa ou após o prazo;",
+        "url": "https://bo.dsaj.gov.mo/bo/i/2021/33/lei16.asp"
       }
     ]
   }

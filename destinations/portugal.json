@@ -17,7 +17,7 @@
   ],
   "summary": "The EU lists Portugal among the Schengen area countries. EU nationals can travel there with a valid passport or a national identity card. Nationals of the countries listed in Annex II of Regulation (EU) 2018/1806 are exempt from the visa requirement for stays of no more than 90 days in any 180-day period, and nationals of the countries listed in Annex I need a visa; the Visa Code sets the visa fee at EUR 90. ETIAS is not yet in operation. Portugal's visa portal lists residency visas for people living from passive income and for a professional activity done remotely (digital nomads).",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -45,7 +45,10 @@
     ],
     "modules": [
       "driving",
-      "stay-window"
+      "stay-window",
+      "overstay",
+      "levies",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -3815,6 +3818,39 @@
         "The EU's Your Europe portal says that when you enter the EU from a non-EU country you can bring goods free of VAT and excise duties if they are not for resale: 4 litres of still wine and 16 litres of beer, plus 1 litre of spirits over 22% vol. or 2 litres of fortified or sparkling wine; where the higher tobacco limit applies, 200 cigarettes (or 100 cigarillos, 50 cigars or 250 g of tobacco), since a higher or lower limit may apply depending on the EU country; and other goods worth up to €300, or €430 for travellers by air and sea. Travellers under 17 are not entitled to a duty-free allowance for tobacco or alcohol.",
         "The UK FCDO says you cannot take meat, milk or products containing them into EU countries, with some exceptions such as powdered baby milk, baby food and special foods or pet feed required for medical reasons."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "Staying in Portugal, or in other EU member states and states applying the Schengen Convention, beyond the authorised period is an administrative offence. The fine is EUR 80 to 160 for up to 30 days, EUR 160 to 320 for over 30 and up to 90 days, EUR 320 to 500 for over 90 and up to 180 days, and EUR 500 to 700 for over 180 days. The same fine applies when the overstay is detected on departure. A foreigner who enters or stays illegally is removed or judicially expelled. A person subject to a removal decision is barred from entering and staying for up to five years, or longer if they are a serious threat to public order, public security or national security. A person who left under article 139(1) or 160(1) is barred for up to three years.",
+      "source": {
+        "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445",
+        "name": "Diário da República (diariodarepublica.pt) — Lei n.º 23/2007 (Aliens Act), consolidated text",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Lei n.º 23/2007, de 4 de julho, art. 192.º (as amended by Lei n.º 18/2022), art. 134.º(1)(a), art. 144.º"
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": null,
+      "responsibility": "accommodation",
+      "appliesTo": "all",
+      "penaltyText": "For the accommodation provider: failing to register foreign guests electronically or to submit the accommodation bulletin is fined EUR 100 to 500 (1 to 10 bulletins or guests), EUR 200 to 900 (11 to 50) or EUR 400 to 2,000 (more than 51). For the traveller, failing to make the entry declaration under article 14(1) is fined EUR 60 to 160.",
+      "url": null,
+      "text": "An accommodation bulletin is filled in and signed in person for every foreign guest, including nationals of other EU member states. Anyone providing paid accommodation to foreigners must send it to the GNR or PSP within three working days, and report the guest's departure within the same period. Foreigners who enter Portugal from another member state across a border without controls must declare their entry within three working days, unless right after entry they stay in a hotel or other accommodation covered by article 16(1). Failing to declare is fined EUR 60 to 160. Accommodation providers who fail to send the bulletins are fined according to the number of bulletins or guests.",
+      "source": {
+        "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445",
+        "name": "Diário da República (diariodarepublica.pt) — Lei n.º 23/2007 (Aliens Act), consolidated text",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Lei n.º 23/2007, arts. 14.º, 15.º, 16.º, 197.º, 203.º"
+      }
     }
   },
   "countryFacts": {
@@ -4563,6 +4599,181 @@
         "text": "Subordinate work activity Work contract, work promise or demonstration of interest;",
         "url": "https://vistos.mne.gov.pt/en/national-visas/necessary-documentation/residency"
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "1 - A permanência de cidadão estrangeiro em território português ou no território de Estados membros da União Europeia e de Estados onde vigore a Convenção de Aplicação por período superior ao autorizado constitui contraordenação punível com as coimas que a seguir se especificam: a) De (euro) 80 a (euro) 160, se o período de permanência não exceder 30 dias; b) De (euro) 160 a (euro) 320, se o período de permanência for superior a 30 dias mas não exceder 90 dias; c) De (euro) 320 a (euro) 500, se o período de permanência for superior a 90 dias mas não exceder 180 dias; d) De (euro) 500 a (euro) 700, se o período de permanência for superior a 180 dias.",
+        "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445"
+      },
+      {
+        "text": "2 - A mesma coima é aplicada quando a infracção prevista no número anterior for detectada à saída do País.",
+        "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445"
+      },
+      {
+        "text": "é afastado coercivamente ou expulso judicialmente do território português, o cidadão estrangeiro: a) Que entre ou permaneça ilegalmente no território português;",
+        "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445"
+      },
+      {
+        "text": "1 - Ao cidadão estrangeiro sujeito a decisão de afastamento é vedada a entrada e a permanência em território nacional por período até cinco anos, podendo tal período ser superior quando se verifique existir ameaça grave para a ordem pública, a segurança pública ou a segurança nacional.",
+        "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445"
+      },
+      {
+        "text": "4 - Ao cidadão que tenha abandonado o território nos termos do n.º 1 do artigo 139.º e do n.º 1 do artigo 160.º é vedada a entrada e permanência em território nacional por um período até três anos.",
+        "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445"
+      }
+    ],
+    "levies.pt-porto-taxa-municipal-turistica": [
+      {
+        "text": "A Taxa Municipal Turística traduz-se numa contribuição dos utilizadores de Empreendimentos Turísticos e de Alojamento Local da Cidade para a sustentabilidade do Porto enquanto destino turístico, permitindo uma melhor resposta do Município ao desgaste inerente à pegada turística na Cidade.",
+        "url": "https://comercioturismo.cm-porto.pt/turismo/taxa-municipal-turistica-do-porto"
+      },
+      {
+        "text": "No dia 1 de dezembro de 2024 entrou em vigor o novo Regulamento da Taxa Municipal Turística do Porto (TMT).",
+        "url": "https://comercioturismo.cm-porto.pt/turismo/taxa-municipal-turistica-do-porto"
+      },
+      {
+        "text": "Com esta atualização, o valor da Taxa Municipal Turística do Porto passou a ser de 3€ por dormida (e não por reserva).",
+        "url": "https://comercioturismo.cm-porto.pt/turismo/taxa-municipal-turistica-do-porto"
+      },
+      {
+        "text": "Crianças e jovens com idade inferior ou igual a 12 anos;",
+        "url": "https://comercioturismo.cm-porto.pt/turismo/taxa-municipal-turistica-do-porto"
+      },
+      {
+        "text": "Estadia motivada por ato médico, estendendo-se esta não sujeição a dois acompanhantes;",
+        "url": "https://comercioturismo.cm-porto.pt/turismo/taxa-municipal-turistica-do-porto"
+      },
+      {
+        "text": "Pessoas com deficiência e/ou incapacidade igual ou superior a 60 %, estendendo-se esta não sujeição a dois acompanhantes;",
+        "url": "https://comercioturismo.cm-porto.pt/turismo/taxa-municipal-turistica-do-porto"
+      },
+      {
+        "text": "O registo dos valores cobrados deve ser efetuado pelos Alojamentos Turísticos na Plataforma da Taxa Municipal Turística do Porto .",
+        "url": "https://comercioturismo.cm-porto.pt/turismo/taxa-municipal-turistica-do-porto"
+      }
+    ],
+    "levies.pt-porto-taxa-municipal-turistica.exemptions": [
+      {
+        "text": "A Taxa Municipal Turística traduz-se numa contribuição dos utilizadores de Empreendimentos Turísticos e de Alojamento Local da Cidade para a sustentabilidade do Porto enquanto destino turístico, permitindo uma melhor resposta do Município ao desgaste inerente à pegada turística na Cidade.",
+        "url": "https://comercioturismo.cm-porto.pt/turismo/taxa-municipal-turistica-do-porto"
+      },
+      {
+        "text": "No dia 1 de dezembro de 2024 entrou em vigor o novo Regulamento da Taxa Municipal Turística do Porto (TMT).",
+        "url": "https://comercioturismo.cm-porto.pt/turismo/taxa-municipal-turistica-do-porto"
+      },
+      {
+        "text": "Com esta atualização, o valor da Taxa Municipal Turística do Porto passou a ser de 3€ por dormida (e não por reserva).",
+        "url": "https://comercioturismo.cm-porto.pt/turismo/taxa-municipal-turistica-do-porto"
+      },
+      {
+        "text": "Crianças e jovens com idade inferior ou igual a 12 anos;",
+        "url": "https://comercioturismo.cm-porto.pt/turismo/taxa-municipal-turistica-do-porto"
+      },
+      {
+        "text": "Estadia motivada por ato médico, estendendo-se esta não sujeição a dois acompanhantes;",
+        "url": "https://comercioturismo.cm-porto.pt/turismo/taxa-municipal-turistica-do-porto"
+      },
+      {
+        "text": "Pessoas com deficiência e/ou incapacidade igual ou superior a 60 %, estendendo-se esta não sujeição a dois acompanhantes;",
+        "url": "https://comercioturismo.cm-porto.pt/turismo/taxa-municipal-turistica-do-porto"
+      },
+      {
+        "text": "O registo dos valores cobrados deve ser efetuado pelos Alojamentos Turísticos na Plataforma da Taxa Municipal Turística do Porto .",
+        "url": "https://comercioturismo.cm-porto.pt/turismo/taxa-municipal-turistica-do-porto"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "1 - O boletim de alojamento destina-se a permitir o controlo dos cidadãos estrangeiros em território nacional.",
+        "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445"
+      },
+      {
+        "text": "2 - Por cada cidadão estrangeiro, incluindo os nacionais dos outros Estados membros da União Europeia, é preenchido e assinado pessoalmente um boletim de alojamento, cujo modelo é aprovado por portaria do Ministro da Administração Interna.",
+        "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445"
+      },
+      {
+        "text": "1 - As empresas exploradoras de estabelecimentos hoteleiros, meios complementares de alojamento turístico ou conjuntos turísticos, bem como todos aqueles que facultem, a título oneroso, alojamento a cidadãos estrangeiros, ficam obrigadas a comunicá-lo, no prazo de três dias úteis, por meio de boletim de alojamento, à GNR ou à PSP.",
+        "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445"
+      },
+      {
+        "text": "2 - Após a saída do cidadão estrangeiro do referido alojamento, o facto deve ser comunicado, no mesmo prazo, às entidades mencionadas no número anterior.",
+        "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445"
+      },
+      {
+        "text": "1 - Os cidadãos estrangeiros que entrem no País por uma fronteira não sujeita a controlo, vindos de outro Estado membro, são obrigados a declarar esse facto no prazo de três dias úteis a contar da data de entrada.",
+        "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445"
+      },
+      {
+        "text": "b) Que, logo após a entrada no País, se instalem em estabelecimentos hoteleiros ou noutro tipo de alojamento em que seja aplicável o disposto no n.º 1 do artigo 16.º;",
+        "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445"
+      },
+      {
+        "text": "Artigo 197.º Falta de declaração de entrada A infracção ao disposto no n.º 1 do artigo 14.º constitui contra-ordenação punível com uma coima de (euro) 60 a (euro) 160.",
+        "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445"
+      },
+      {
+        "text": "1 - A omissão de registo em suporte electrónico de cidadãos estrangeiros, em conformidade com o n.º 4 do artigo 15.º, ou a não apresentação do boletim de alojamento, nos termos do n.º 1 ou do n.º 2 do artigo 16.º, constitui contra-ordenação punível com as seguintes coimas: a) De (euro) 100 a (euro) 500, de 1 a 10 boletins ou cidadãos cujo registo é omisso; b) De (euro) 200 a (euro) 900, de 11 a 50 boletins ou cidadãos cujo registo é omisso; c) De (euro) 400 a (euro) 2000, no caso de não terem sido remetidos os boletins ou estiver omisso o registo referente a mais de 51 cidadãos.",
+        "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "1 - O boletim de alojamento destina-se a permitir o controlo dos cidadãos estrangeiros em território nacional.",
+        "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445"
+      },
+      {
+        "text": "2 - Por cada cidadão estrangeiro, incluindo os nacionais dos outros Estados membros da União Europeia, é preenchido e assinado pessoalmente um boletim de alojamento, cujo modelo é aprovado por portaria do Ministro da Administração Interna.",
+        "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445"
+      },
+      {
+        "text": "1 - As empresas exploradoras de estabelecimentos hoteleiros, meios complementares de alojamento turístico ou conjuntos turísticos, bem como todos aqueles que facultem, a título oneroso, alojamento a cidadãos estrangeiros, ficam obrigadas a comunicá-lo, no prazo de três dias úteis, por meio de boletim de alojamento, à GNR ou à PSP.",
+        "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445"
+      },
+      {
+        "text": "2 - Após a saída do cidadão estrangeiro do referido alojamento, o facto deve ser comunicado, no mesmo prazo, às entidades mencionadas no número anterior.",
+        "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445"
+      },
+      {
+        "text": "1 - Os cidadãos estrangeiros que entrem no País por uma fronteira não sujeita a controlo, vindos de outro Estado membro, são obrigados a declarar esse facto no prazo de três dias úteis a contar da data de entrada.",
+        "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445"
+      },
+      {
+        "text": "b) Que, logo após a entrada no País, se instalem em estabelecimentos hoteleiros ou noutro tipo de alojamento em que seja aplicável o disposto no n.º 1 do artigo 16.º;",
+        "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445"
+      },
+      {
+        "text": "Artigo 197.º Falta de declaração de entrada A infracção ao disposto no n.º 1 do artigo 14.º constitui contra-ordenação punível com uma coima de (euro) 60 a (euro) 160.",
+        "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445"
+      },
+      {
+        "text": "1 - A omissão de registo em suporte electrónico de cidadãos estrangeiros, em conformidade com o n.º 4 do artigo 15.º, ou a não apresentação do boletim de alojamento, nos termos do n.º 1 ou do n.º 2 do artigo 16.º, constitui contra-ordenação punível com as seguintes coimas: a) De (euro) 100 a (euro) 500, de 1 a 10 boletins ou cidadãos cujo registo é omisso; b) De (euro) 200 a (euro) 900, de 11 a 50 boletins ou cidadãos cujo registo é omisso; c) De (euro) 400 a (euro) 2000, no caso de não terem sido remetidos os boletins ou estiver omisso o registo referente a mais de 51 cidadãos.",
+        "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "pt-porto-taxa-municipal-turistica",
+      "name": "Porto Municipal Tourist Tax (Taxa Municipal Turística do Porto)",
+      "kind": "tourist-tax",
+      "fee": {
+        "amount": 3,
+        "currency": "EUR"
+      },
+      "per": "person-per-night",
+      "paidAt": "at-accommodation",
+      "appliesTo": "all",
+      "exemptions": "Children and young people aged 12 or under; stays for medical treatment, extended to two companions; persons with a disability or incapacity of 60% or more, extended to two companions.",
+      "url": null,
+      "text": "Porto's municipal tourist tax is a contribution by guests of tourist establishments and local accommodation in the city. Under the regulation in force since 1 December 2024, it is EUR 3 per overnight stay (dormida), not per booking. Not liable: children aged 12 or under, medical stays (and two companions), and persons with a disability or incapacity of 60% or more (and two companions). Accommodation providers record the amounts collected on the municipal tourist tax platform.",
+      "source": {
+        "url": "https://comercioturismo.cm-porto.pt/turismo/taxa-municipal-turistica-do-porto",
+        "name": "Câmara Municipal do Porto — Taxa Municipal Turística do Porto",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Regulamento da Taxa Municipal Turística do Porto (in force 1 December 2024)"
+      }
+    }
+  ]
 }

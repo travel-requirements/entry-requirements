@@ -23,7 +23,7 @@
   ],
   "summary": "The EU lists Poland among the Schengen area countries. EU law says Member States let Union citizens enter with a valid identity card or passport and may impose no entry visa on them; the EEA Agreement extends this to nationals of the EFTA States. Nationals of the countries listed in Annex II of Regulation (EU) 2018/1806 are exempt from the visa requirement for stays of no more than 90 days in any 180-day period, and nationals of the countries listed in Annex I must hold a visa; ETIAS is currently not in operation. The Visa Code sets the visa fee at €90.",
   "meta": {
-    "lastUpdated": "2026-10-11",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -50,7 +50,10 @@
     ],
     "modules": [
       "driving",
-      "stay-window"
+      "stay-window",
+      "overstay",
+      "levies",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -3926,6 +3929,39 @@
         "Travelling between EU countries, the EU's Your Europe portal says no further payments are due on alcohol and tobacco bought for your own use and not for resale, as taxes are included in the price in the country where you bought them. Each EU country can set guideline values, which may not be lower than, for example, 800 cigarettes or 10 litres of spirits.",
         "The UK government says certain checkpoints on the Poland-Belarus border are closed and that access to parts of the Polish border with Belarus is restricted, and that access to within 15m of the Poland-Ukraine border is restricted except at designated crossing points. Canada says Polish authorities have shut down certain border crossings with Belarus and Russia (Kaliningrad)."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "A return decision is issued to a foreigner who stays in Poland without a required valid visa or other document, or who has not left Poland after using up the permitted visa-free stay in the Schengen area, or the stay allowed by a Schengen visa, in any 180-day period, or the stay allowed by a national visa. The return decision imposes a ban on re-entering Poland and the other Schengen states; in these cases the ban is from 6 months to 3 years. Anyone staying in Poland without a legal basis is liable to a fine.",
+      "source": {
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250001079/T/D20251079L.pdf",
+        "name": "Sejm ISAP — Act on Foreigners of 12 December 2013, consolidated text (Dz.U. 2025 poz. 1079)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Ustawa o cudzoziemcach (Dz.U. 2025 poz. 1079) art. 302 ust. 1 pkt 1–3, art. 318 ust. 1, art. 319 ust. 1 pkt 1, art. 465 ust. 1 pkt 1"
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": null,
+      "responsibility": "traveler",
+      "appliesTo": "all",
+      "penaltyText": "A foreigner who is not a citizen of an EU member state, of an EFTA state party to the EEA Agreement or of Switzerland, and who does not fulfil the registration duty, is liable to a fine.",
+      "url": null,
+      "text": "Foreigners are exempt from the registration duty if their stay in Poland does not exceed 30 days. A foreigner not listed in paragraphs 1 to 2a of the article must register at their place of permanent or temporary stay no later than the fourth day after arriving there. A foreigner who is not a citizen of an EU member state, of an EFTA state party to the EEA Agreement or of Switzerland, and who does not register, is liable to a fine.",
+      "source": {
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20260000384/O/D20260384.pdf",
+        "name": "Sejm ISAP — Act on population records (ustawa o ewidencji ludności), consolidated text (Dz.U. 2026 poz. 384)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Ustawa o ewidencji ludności (Dz.U. 2026 poz. 384) art. 41 ust. 3, art. 42 ust. 2, art. 59 ust. 1"
+      }
     }
   },
   "countryFacts": {
@@ -4663,6 +4699,234 @@
         "text": "(b) children under 12 years of age;",
         "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A22021A1019%2801%29"
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "Art. 302. 1. Decyzję o zobowiązaniu cudzoziemca do powrotu wydaje się cudzoziemcowi, gdy: 1) przebywa lub przebywał na terytorium Rzeczypospolitej Polskiej bez ważnej wizy lub innego ważnego dokumentu uprawniającego go do wjazdu na to terytorium i pobytu na nim, jeżeli wiza lub inny dokument są lub były wymagane lub 2) nie opuścił terytorium Rzeczypospolitej Polskiej po wykorzystaniu dopuszczalnego okresu jego pobytu na terytorium wszystkich lub niektórych państw obszaru Schengen, do którego był uprawniony bez konieczności posiadania wizy, w każdym okresie 180 dni, chyba że umowy międzynarodowe stanowią inaczej, lub 3) nie opuścił terytorium Rzeczypospolitej Polskiej po wykorzystaniu dopuszczalnego okresu jego pobytu wskazanego w wizie Schengen w każdym okresie 180 dni, lub po wykorzystaniu dopuszczalnego okresu pobytu na podstawie wizy krajowej,",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250001079/T/D20251079L.pdf"
+      },
+      {
+        "text": "Art. 318. 1. W decyzji o zobowiązaniu cudzoziemca do powrotu orzeka się o zakazie ponownego wjazdu na teryto- rium Rzeczypospolitej Polskiej i innych państw obszaru Schengen oraz określa się okres tego zakazu.",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250001079/T/D20251079L.pdf"
+      },
+      {
+        "text": "Art. 319. 1. Zakazy, o których mowa w art. 318, określa się na następujące okresy: 1) od 6 miesięcy do 3 lat – w przypadkach, o których mowa w art. 302 ust. 1 pkt 1–3, 6–8, 10, 12, 13, 15 lub 16;",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250001079/T/D20251079L.pdf"
+      },
+      {
+        "text": "Art. 465. 1. Kto: 1) przebywa na terytorium Rzeczypospolitej Polskiej, nie posiadając do tego tytułu prawnego,",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250001079/T/D20251079L.pdf"
+      },
+      {
+        "text": "– podlega karze grzywny.",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250001079/T/D20251079L.pdf"
+      }
+    ],
+    "levies.oplata-miejscowa": [
+      {
+        "text": "Art. 17. 1. Rada gminy może wprowadzić opłatę miejscową. Opłatę miejscową pobiera się od osób fizycznych prze- bywających dłużej niż dobę w celach turystycznych, wypoczynkowych lub szkoleniowych:",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250000707/T/D20250707L.pdf"
+      },
+      {
+        "text": "– za każdą rozpoczętą dobę pobytu.",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250000707/T/D20250707L.pdf"
+      },
+      {
+        "text": "b) stawka opłaty miejscowej w miejscowościach, o których mowa w art. 17 ust. 1 pkt 1, nie może przekroczyć 1,67 zł7) dziennie, c) stawka opłaty miejscowej w miejscowościach posiadających status obszaru ochrony uzdrowiskowej nie może przekroczyć 2,40 zł 7) dziennie,",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250000707/T/D20250707L.pdf"
+      },
+      {
+        "text": "7) Górne granice stawek kwotowych na każdy rok podatkowy są ogłaszane na podstawie art. 20 ust. 2 niniejszej ustawy.",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250000707/T/D20250707L.pdf"
+      },
+      {
+        "text": "art. 19 pkt 1: a) lit. a – 1176,67 zł, b) lit. b – 3,46 zł, c) lit. c – 4,89 zł,",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WMP20250000726/O/M20250726.pdf"
+      },
+      {
+        "text": "2. Opłaty miejscowej oraz opłaty uzdrowiskowej nie pobiera się: 1) pod warunkiem wzajemności – od członków personelu przedstawicielstw dyplomatycznych i urzędów konsularnych oraz innych osób zrównanych z nimi na podstawie ustaw, umów lub zwyczajów międzynarodowych, jeżeli nie są obywatelami polskimi i nie mają miejsca pobytu stałego na terytorium Rzeczypospolitej Polskiej; 2) od osób przebywających w szpitalach; 3) od osób niewidomych i ich przewodników; 4) od podatników podatku od nieruchomości z tytułu posiadania domów letniskowych położonych w miejscowości, w której pobiera się opłatę miejscową albo uzdrowiskową; 5) od zorganizowanych grup dzieci i młodzieży szkolnej.",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250000707/T/D20250707L.pdf"
+      }
+    ],
+    "levies.oplata-miejscowa.exemptions": [
+      {
+        "text": "Art. 17. 1. Rada gminy może wprowadzić opłatę miejscową. Opłatę miejscową pobiera się od osób fizycznych prze- bywających dłużej niż dobę w celach turystycznych, wypoczynkowych lub szkoleniowych:",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250000707/T/D20250707L.pdf"
+      },
+      {
+        "text": "– za każdą rozpoczętą dobę pobytu.",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250000707/T/D20250707L.pdf"
+      },
+      {
+        "text": "b) stawka opłaty miejscowej w miejscowościach, o których mowa w art. 17 ust. 1 pkt 1, nie może przekroczyć 1,67 zł7) dziennie, c) stawka opłaty miejscowej w miejscowościach posiadających status obszaru ochrony uzdrowiskowej nie może przekroczyć 2,40 zł 7) dziennie,",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250000707/T/D20250707L.pdf"
+      },
+      {
+        "text": "7) Górne granice stawek kwotowych na każdy rok podatkowy są ogłaszane na podstawie art. 20 ust. 2 niniejszej ustawy.",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250000707/T/D20250707L.pdf"
+      },
+      {
+        "text": "art. 19 pkt 1: a) lit. a – 1176,67 zł, b) lit. b – 3,46 zł, c) lit. c – 4,89 zł,",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WMP20250000726/O/M20250726.pdf"
+      },
+      {
+        "text": "2. Opłaty miejscowej oraz opłaty uzdrowiskowej nie pobiera się: 1) pod warunkiem wzajemności – od członków personelu przedstawicielstw dyplomatycznych i urzędów konsularnych oraz innych osób zrównanych z nimi na podstawie ustaw, umów lub zwyczajów międzynarodowych, jeżeli nie są obywatelami polskimi i nie mają miejsca pobytu stałego na terytorium Rzeczypospolitej Polskiej; 2) od osób przebywających w szpitalach; 3) od osób niewidomych i ich przewodników; 4) od podatników podatku od nieruchomości z tytułu posiadania domów letniskowych położonych w miejscowości, w której pobiera się opłatę miejscową albo uzdrowiskową; 5) od zorganizowanych grup dzieci i młodzieży szkolnej.",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250000707/T/D20250707L.pdf"
+      }
+    ],
+    "levies.oplata-miejscowa.feeText": [
+      {
+        "text": "Art. 17. 1. Rada gminy może wprowadzić opłatę miejscową. Opłatę miejscową pobiera się od osób fizycznych prze- bywających dłużej niż dobę w celach turystycznych, wypoczynkowych lub szkoleniowych:",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250000707/T/D20250707L.pdf"
+      },
+      {
+        "text": "– za każdą rozpoczętą dobę pobytu.",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250000707/T/D20250707L.pdf"
+      },
+      {
+        "text": "b) stawka opłaty miejscowej w miejscowościach, o których mowa w art. 17 ust. 1 pkt 1, nie może przekroczyć 1,67 zł7) dziennie, c) stawka opłaty miejscowej w miejscowościach posiadających status obszaru ochrony uzdrowiskowej nie może przekroczyć 2,40 zł 7) dziennie,",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250000707/T/D20250707L.pdf"
+      },
+      {
+        "text": "7) Górne granice stawek kwotowych na każdy rok podatkowy są ogłaszane na podstawie art. 20 ust. 2 niniejszej ustawy.",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250000707/T/D20250707L.pdf"
+      },
+      {
+        "text": "art. 19 pkt 1: a) lit. a – 1176,67 zł, b) lit. b – 3,46 zł, c) lit. c – 4,89 zł,",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WMP20250000726/O/M20250726.pdf"
+      },
+      {
+        "text": "2. Opłaty miejscowej oraz opłaty uzdrowiskowej nie pobiera się: 1) pod warunkiem wzajemności – od członków personelu przedstawicielstw dyplomatycznych i urzędów konsularnych oraz innych osób zrównanych z nimi na podstawie ustaw, umów lub zwyczajów międzynarodowych, jeżeli nie są obywatelami polskimi i nie mają miejsca pobytu stałego na terytorium Rzeczypospolitej Polskiej; 2) od osób przebywających w szpitalach; 3) od osób niewidomych i ich przewodników; 4) od podatników podatku od nieruchomości z tytułu posiadania domów letniskowych położonych w miejscowości, w której pobiera się opłatę miejscową albo uzdrowiskową; 5) od zorganizowanych grup dzieci i młodzieży szkolnej.",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250000707/T/D20250707L.pdf"
+      }
+    ],
+    "levies.oplata-uzdrowiskowa": [
+      {
+        "text": "1a. Rada gminy może wprowadzić opłatę uzdrowiskową. Opłatę uzdrowiskową pobiera się od osób fizycznych prze- bywających dłużej niż dobę w celach zdrowotnych, turystycznych, wypoczynkowych lub szkoleniowych w miejscowoś- ciach znajdujących się na obszarach, którym nadano status uzdrowiska na zasadach określonych w ustawie z dnia 28 lipca 2005 r. o lecznictwie uzdrowiskowym, uzdrowiskach i obszarach ochrony uzdrowiskowej oraz o gminach uzdrowiskowych – za każdą rozpoczętą dobę pobytu.",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250000707/T/D20250707L.pdf"
+      },
+      {
+        "text": "d) stawka opłaty uzdrowiskowej nie może przekroczyć 3,33 zł 7) dziennie,",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250000707/T/D20250707L.pdf"
+      },
+      {
+        "text": "d) lit. d – 6,67 zł,",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WMP20250000726/O/M20250726.pdf"
+      }
+    ],
+    "levies.oplata-uzdrowiskowa.exemptions": [
+      {
+        "text": "1a. Rada gminy może wprowadzić opłatę uzdrowiskową. Opłatę uzdrowiskową pobiera się od osób fizycznych prze- bywających dłużej niż dobę w celach zdrowotnych, turystycznych, wypoczynkowych lub szkoleniowych w miejscowoś- ciach znajdujących się na obszarach, którym nadano status uzdrowiska na zasadach określonych w ustawie z dnia 28 lipca 2005 r. o lecznictwie uzdrowiskowym, uzdrowiskach i obszarach ochrony uzdrowiskowej oraz o gminach uzdrowiskowych – za każdą rozpoczętą dobę pobytu.",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250000707/T/D20250707L.pdf"
+      },
+      {
+        "text": "d) stawka opłaty uzdrowiskowej nie może przekroczyć 3,33 zł 7) dziennie,",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250000707/T/D20250707L.pdf"
+      },
+      {
+        "text": "d) lit. d – 6,67 zł,",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WMP20250000726/O/M20250726.pdf"
+      }
+    ],
+    "levies.oplata-uzdrowiskowa.feeText": [
+      {
+        "text": "1a. Rada gminy może wprowadzić opłatę uzdrowiskową. Opłatę uzdrowiskową pobiera się od osób fizycznych prze- bywających dłużej niż dobę w celach zdrowotnych, turystycznych, wypoczynkowych lub szkoleniowych w miejscowoś- ciach znajdujących się na obszarach, którym nadano status uzdrowiska na zasadach określonych w ustawie z dnia 28 lipca 2005 r. o lecznictwie uzdrowiskowym, uzdrowiskach i obszarach ochrony uzdrowiskowej oraz o gminach uzdrowiskowych – za każdą rozpoczętą dobę pobytu.",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250000707/T/D20250707L.pdf"
+      },
+      {
+        "text": "d) stawka opłaty uzdrowiskowej nie może przekroczyć 3,33 zł 7) dziennie,",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250000707/T/D20250707L.pdf"
+      },
+      {
+        "text": "d) lit. d – 6,67 zł,",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WMP20250000726/O/M20250726.pdf"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "3. Cudzoziemiec niewymieniony w ust. 1–2a, przebywający na terytorium Rzeczypospolitej Polskiej, ma obowiązek zameldować się w miejscu pobytu stałego lub czasowego najpóźniej czwartego dnia, licząc od dnia przybycia do tego miejsca.",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20260000384/O/D20260384.pdf"
+      },
+      {
+        "text": "2. Cudzoziemcy są zwolnieni z obowiązku meldunkowego, jeżeli okres ich pobytu na terytorium Rzeczypospolitej Polskiej nie przekracza 30 dni.",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20260000384/O/D20260384.pdf"
+      },
+      {
+        "text": "Art. 59. 1. Cudzoziemiec niebędący obywatelem państwa członkowskiego Unii Europejskiej, obywatelem państwa członkowskiego Europejskiego Porozumienia o Wolnym Handlu (EFTA) – strony umowy o Europejskim Obszarze Gospo- darczym lub obywatelem Konfederacji Szwajcarskiej, który nie dopełnia ciążącego na nim obowiązku meldunkowego, pod- lega karze grzywny.",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20260000384/O/D20260384.pdf"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "3. Cudzoziemiec niewymieniony w ust. 1–2a, przebywający na terytorium Rzeczypospolitej Polskiej, ma obowiązek zameldować się w miejscu pobytu stałego lub czasowego najpóźniej czwartego dnia, licząc od dnia przybycia do tego miejsca.",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20260000384/O/D20260384.pdf"
+      },
+      {
+        "text": "2. Cudzoziemcy są zwolnieni z obowiązku meldunkowego, jeżeli okres ich pobytu na terytorium Rzeczypospolitej Polskiej nie przekracza 30 dni.",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20260000384/O/D20260384.pdf"
+      },
+      {
+        "text": "Art. 59. 1. Cudzoziemiec niebędący obywatelem państwa członkowskiego Unii Europejskiej, obywatelem państwa członkowskiego Europejskiego Porozumienia o Wolnym Handlu (EFTA) – strony umowy o Europejskim Obszarze Gospo- darczym lub obywatelem Konfederacji Szwajcarskiej, który nie dopełnia ciążącego na nim obowiązku meldunkowego, pod- lega karze grzywny.",
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20260000384/O/D20260384.pdf"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "oplata-miejscowa",
+      "name": "Local visitor fee (opłata miejscowa)",
+      "kind": "tourist-tax",
+      "fee": null,
+      "per": "person-per-night",
+      "paidAt": "at-accommodation",
+      "appliesTo": "all",
+      "exemptions": "Not charged (on reciprocity) to staff of diplomatic missions and consular offices and persons treated as equal to them, if they are not Polish citizens and do not live permanently in Poland; to people staying in hospitals; to blind people and their guides; to people paying property tax on summer houses in the locality; and to organised groups of children and school youth.",
+      "url": null,
+      "text": "A municipal council may introduce a local fee, charged to natural persons staying more than a day for tourist, holiday or training purposes in qualifying localities, for each started day of stay. The cap on the rate is announced for each tax year. For 2026 the caps are PLN 3.46 a day (localities referred to in art. 17(1)(1)) and PLN 4.89 a day (localities with spa-protection-area status).",
+      "source": {
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250000707/T/D20250707L.pdf",
+        "name": "Sejm ISAP — Act on local taxes and fees of 12 January 1991, consolidated text (Dz.U. 2025 poz. 707)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Ustawa o podatkach i opłatach lokalnych (Dz.U. 2025 poz. 707) art. 17 ust. 1–2, art. 19 pkt 1 lit. b–c, art. 20; Obwieszczenie Ministra Finansów i Gospodarki z 1 sierpnia 2025 (M.P. 2025 poz. 726) for 2026 caps",
+        "alsoStatedOn": [
+          {
+            "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WMP20250000726/O/M20250726.pdf",
+            "name": "Official page — isap.sejm.gov.pl",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      },
+      "feeText": "Each municipal council that introduces the fee sets the rate, up to a cap announced for each tax year. 2026 caps: PLN 3.46 a day in the localities referred to in art. 17(1)(1) (art. 19(1)(b)) and PLN 4.89 a day in localities with spa-protection-area status (art. 19(1)(c))."
+    },
+    {
+      "id": "oplata-uzdrowiskowa",
+      "name": "Spa fee (opłata uzdrowiskowa)",
+      "kind": "tourist-tax",
+      "fee": null,
+      "per": "person-per-night",
+      "paidAt": "at-accommodation",
+      "appliesTo": "all",
+      "exemptions": "The same exemptions as for the local fee: diplomatic and consular staff (on reciprocity), people staying in hospitals, blind people and their guides, people paying property tax on summer houses in the locality, and organised groups of children and school youth.",
+      "url": null,
+      "text": "A municipal council may introduce a spa fee, charged to natural persons staying more than a day for health, tourist, holiday or training purposes in localities in areas with spa status, for each started day of stay. For 2026 the cap is PLN 6.67 a day.",
+      "source": {
+        "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250000707/T/D20250707L.pdf",
+        "name": "Sejm ISAP — Act on local taxes and fees of 12 January 1991, consolidated text (Dz.U. 2025 poz. 707)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Ustawa o podatkach i opłatach lokalnych art. 17 ust. 1a, art. 19 pkt 1 lit. d; M.P. 2025 poz. 726",
+        "alsoStatedOn": [
+          {
+            "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WMP20250000726/O/M20250726.pdf",
+            "name": "Official page — isap.sejm.gov.pl",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      },
+      "feeText": "Each municipal council that introduces the fee sets the rate, up to a cap announced for each tax year. 2026 cap: PLN 6.67 a day (art. 19(1)(d))."
+    }
+  ]
 }

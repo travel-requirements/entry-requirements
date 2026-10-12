@@ -18,7 +18,7 @@
   ],
   "summary": "The EU lists Estonia among the Schengen area countries. EU law says Member States let Union citizens enter with a valid identity card or passport and may impose no entry visa on them; the EEA Agreement extends this to nationals of the EFTA States, and the EU–Swiss free movement agreement lets Swiss nationals enter on a valid identity card or passport. Nationals of the countries listed in Annex II of Regulation (EU) 2018/1806 are exempt from the visa requirement for stays of no more than 90 days in any 180-day period, and nationals of the countries listed in Annex I must hold a visa; the Visa Code sets the visa fee at €90, and ETIAS is currently not in operation. Estonia's government restricts temporary entry, from 19 September 2022, for Russian citizens who hold a valid short-term Schengen visa.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -33,7 +33,8 @@
     ],
     "modules": [
       "driving",
-      "stay-window"
+      "stay-window",
+      "overstay"
     ]
   },
   "visaPolicy": {
@@ -3483,6 +3484,34 @@
         "Entering the EU from a non-EU country, the EU's Your Europe portal lists duty-free allowances of 4 litres of still wine and 16 litres of beer, plus 1 litre of spirits over 22% vol. or 2 litres of fortified or sparkling wine, and other goods up to €300 per traveller or €430 for travellers by air and sea. For tobacco it lists Estonia among the countries that apply the lower limit to all travellers: 40 cigarettes or 20 cigarillos or 10 cigars or 50 g tobacco. Travellers under 17 are not entitled to a duty-free allowance for tobacco or alcohol.",
         "Travelling between EU countries, the EU's Your Europe portal says no further payments are due in any other EU country on alcohol and tobacco bought for your own use and not for resale, as taxes are included in the price in the country where you bought them."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "Staying in Estonia without a legal basis is a misdemeanour punishable by a fine of up to 300 fine units or by detention. A fine unit is 8 euros; detention for a misdemeanour is up to thirty days. Visa-exempt nationals may stay up to 90 days in any 180-day period, unless an agreement says otherwise. A foreigner staying without a legal basis is issued a precept to leave, with a voluntary departure period of 7 to 30 days. The precept imposes an entry ban of three years from the day it is complied with, or five years if no voluntary departure period is given. A shorter ban may be set if the term would be disproportionate, and the ban may be waived on humanitarian grounds.",
+      "source": {
+        "url": "https://www.riigiteataja.ee/akt/VMS",
+        "name": "Riigi Teataja — Aliens Act (Välismaalaste seadus), § 298",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Välismaalaste seadus § 298 (penalty); Karistusseadustik §§ 47(1), 48 (fine unit, detention); Väljasõidukohustuse ja sissesõidukeelu seadus §§ 7(1), 72(4), 74 (precept to leave, entry ban)",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.riigiteataja.ee/akt/KarS",
+            "name": "Official page — www.riigiteataja.ee",
+            "lastVerified": "2026-10-12"
+          },
+          {
+            "url": "https://www.riigiteataja.ee/akt/VSS",
+            "name": "Official page — www.riigiteataja.ee",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -4184,6 +4213,48 @@
       {
         "text": "(b) children under 12 years of age;",
         "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A22021A1019%2801%29"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "§ 298. Välismaalase seadusliku aluseta Eestis viibimine Välismaalase seadusliku aluseta Eestis viibimise eest – karistatakse rahatrahviga kuni 300 trahviühikut või arestiga.",
+        "url": "https://www.riigiteataja.ee/akt/VMS"
+      },
+      {
+        "text": "(2) Kui välisriigiga on sõlmitud leping viisavaba liikumise kohta või välisriigi kodanike suhtes on viisanõudest loobutud, võib selle välisriigi kodanik Schengeni konventsiooni liikmesriikides, sealhulgas Eestis, viibida kokku kuni 90 päeva mis tahes 180-päevase ajavahemiku jooksul, kui välisleping ei sätesta teisiti.",
+        "url": "https://www.riigiteataja.ee/akt/VMS"
+      },
+      {
+        "text": "(1) Kohus või kohtuväline menetleja võib väärteo eest kohaldada rahatrahvi üks kuni kolmsada trahviühikut. Trahviühik on rahatrahvi baassumma, mille suurus on 8 eurot.",
+        "url": "https://www.riigiteataja.ee/akt/KarS"
+      },
+      {
+        "text": "Kohus võib väärteo eest mõista aresti kuni kolmkümmend päeva ja alaealisena väärteo toimepannud isikule kuni kümme päeva.",
+        "url": "https://www.riigiteataja.ee/akt/KarS"
+      },
+      {
+        "text": "(1) Viibimisaluseta Eestis viibivale välismaalasele tehakse ettekirjutus Eestist lahkumiseks (edaspidi lahkumisettekirjutus). Lahkumisettekirjutus tehakse lahkumiseks käesoleva seaduse §-s 17 nimetatud vastuvõtvasse riiki.",
+        "url": "https://www.riigiteataja.ee/akt/VSS"
+      },
+      {
+        "text": "(4) Lahkumisettekirjutusega määratakse lahkumiskohustuse vabatahtliku täitmise tähtaeg ajavahemikus 7 kuni 30 päeva.",
+        "url": "https://www.riigiteataja.ee/akt/VSS"
+      },
+      {
+        "text": "(1) Lahkumisettekirjutuses kohaldatakse välismaalase suhtes sissesõidukeeldu kolmeks aastaks lahkumisettekirjutuse täitmise päevast arvates.",
+        "url": "https://www.riigiteataja.ee/akt/VSS"
+      },
+      {
+        "text": "(2) Kui välismaalasele ei anta vabatahtliku lahkumise tähtaega, kohaldatakse lahkumisettekirjutuses välismaalase suhtes sissesõidukeeldu viieks aastaks, välja arvatud juhul, kui välismaalasel on kehtiv sissesõidukeeld kauemaks kui viieks aastaks lahkumisettekirjutuse tegemise päevast arvates.",
+        "url": "https://www.riigiteataja.ee/akt/VSS"
+      },
+      {
+        "text": "(3) Kui sissesõidukeelu kohaldamise tähtaeg on kõiki tähtsust omavaid asjaolusid arvestades ebaproportsionaalne, võib lahkumisettekirjutuses kohaldada sissesõidukeeldu lühemaks ajaks.",
+        "url": "https://www.riigiteataja.ee/akt/VSS"
+      },
+      {
+        "text": "(4) Sissesõidukeelu võib humaansetel kaalutlustel jätta kohaldamata.",
+        "url": "https://www.riigiteataja.ee/akt/VSS"
       }
     ]
   }

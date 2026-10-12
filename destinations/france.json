@@ -23,7 +23,7 @@
   ],
   "summary": "France applies the EU's Schengen visa rules. Under Regulation (EU) 2018/1806, nationals of the third countries listed in Annex II are exempt from the visa requirement for stays of no more than 90 days in any 180-day period, and nationals of those listed in Annex I must hold a visa when crossing the external borders. The EU Visa Code sets the short-stay visa fee at EUR 90, and France-Visas is the official visa website for France. The EU says ETIAS, the travel authorisation for visa-exempt travellers, is currently not in operation.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-10-03",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -51,7 +51,9 @@
     ],
     "modules": [
       "driving",
-      "stay-window"
+      "stay-window",
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -3591,6 +3593,29 @@
         "Your Europe (EU) says that when you enter the EU from a non-EU country you can bring, free of VAT and excise duties, 1 litre of spirits over 22% vol. (among other alcohol allowances), 200 cigarettes where the higher tobacco limit applies, and other goods up to a value of €300 per traveller or €430 for travellers by air and sea.",
         "Your Europe (EU) says that for alcohol and tobacco bought in another EU country for your own use no further payments are due, and that each EU country sets guideline values that may not be lower than, for example, 800 cigarettes or 10 litres of spirits; if customs suspect goods are not for your own use, you may be asked to prove that they are."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "The French government's page on the obligation to leave French territory (OQTF) lists this case: a person entered France lawfully but stayed beyond the validity of their visa, or, if visa-exempt, more than 3 months after entry. A ban on return (IRTF) is imposed after an OQTF if the person stayed in France beyond the 30 days granted for voluntary departure. It lasts at most 5 years from the person's actual departure and bars return to France and to every Schengen country.",
+      "source": {
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F18362",
+        "name": "Service-Public.fr (DILA, Prime Minister) — Obligation to leave French territory (OQTF)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Code de l'entrée et du séjour des étrangers et du droit d'asile (OQTF and IRTF provisions; article numbers not quoted)",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2782",
+            "name": "Official page — www.service-public.gouv.fr",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -4263,6 +4288,144 @@
         "text": "(b) children under 12 years of age;",
         "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A22021A1019%2801%29"
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "Vous êtes entré régulièrement en France, mais vous y êtes resté au-delà de la durée de validité de votre visa (ou, si vous êtes dispensé de visa, vous êtes resté plus de 3 mois après votre entrée en France)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F18362"
+      },
+      {
+        "text": "L'IRTF est prononcée après une obligation de quitter le territoire français (OQTF) si vous êtes resté en France au-delà du délai des 30 jours accordés pour un départ volontaire.",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2782"
+      },
+      {
+        "text": "L'IRTF dure 5 ans maximum à partir du moment où vous avez effectivement quitté le territoire.",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2782"
+      },
+      {
+        "text": "L'IRTF vous interdit de revenir non seulement en France, mais aussi dans tout pays de l' espace Schengen",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2782"
+      }
+    ],
+    "levies.taxe-de-sejour": [
+      {
+        "text": "Certaines communes peuvent demander aux vacanciers séjournant sur leur territoire de payer une taxe de séjour.",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2048"
+      },
+      {
+        "text": "La taxe de séjour est due par personne et par nuit.",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2048"
+      },
+      {
+        "text": "Le vacancier doit payer la taxe de séjour : au logeur, à l'hôtelier ou au propriétaire ou au professionnel qui assure le service de réservation par internet pour le compte du logeur, de l'hôtelier, du propriétaire.",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2048"
+      },
+      {
+        "text": "Certaines personnes sont exonérées : Enfant de moins de 18 ans Titulaire d'un contrat de travail saisonnier employé dans la commune Bénéficiaire d'un hébergement d'urgence ou d'un relogement temporaire Personne occupant des locaux dont le loyer est inférieur à un montant déterminé par le conseil municipal",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2048"
+      },
+      {
+        "text": "Tableau - Barème de la taxe de séjour 2026Type d'hébergement et classementTarif minimumTarif maximumPalace0,70 €4,90 €HôtelRésidence de tourismeMeublé de tourismeClassé 5 étoiles0,70 €3,60 €Classé 4 étoiles0,70 €2,60 €Classé 3 étoiles0,50 €1,70 €Classé 2 étoiles0,30 €1,00 €Classé 1 étoile0,20 €0,80 €Village de vacancesClassé 4 ou 5 étoiles0,30 €1,00 €Classé 1 ou 2 ou 3 étoiles0,20 €0,80 €Chambre d'hôtes0,20 €0,80 €Auberge collective (type gîte d'étape)0,20 €0,80 €Terrain de campingTerrain de caravanageTout autre terrain d'hébergement de plein air de caractéristiques équivalentesClassé 3 ou 4 ou 5 étoiles0,20 €0,60 €Classé 1 ou 2 étoiles0,20 €0,20 €",
+        "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F31635"
+      },
+      {
+        "text": "Pour tous les hébergements en attente de classement ou sans classement à l'exception des catégories d'hébergements mentionnées dans le tableau, le tarif applicable par personne et par nuitée est compris entre 1 % et 5 % du coût par personne de la nuitée dans la limite du tarif le plus élevé adopté par la collectivité.",
+        "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F31635"
+      },
+      {
+        "text": "En Île-de-France, une taxe additionnelle de 200 % s'ajoute au tarif de la taxe de séjour.",
+        "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F31635"
+      }
+    ],
+    "levies.taxe-de-sejour.exemptions": [
+      {
+        "text": "Certaines communes peuvent demander aux vacanciers séjournant sur leur territoire de payer une taxe de séjour.",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2048"
+      },
+      {
+        "text": "La taxe de séjour est due par personne et par nuit.",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2048"
+      },
+      {
+        "text": "Le vacancier doit payer la taxe de séjour : au logeur, à l'hôtelier ou au propriétaire ou au professionnel qui assure le service de réservation par internet pour le compte du logeur, de l'hôtelier, du propriétaire.",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2048"
+      },
+      {
+        "text": "Certaines personnes sont exonérées : Enfant de moins de 18 ans Titulaire d'un contrat de travail saisonnier employé dans la commune Bénéficiaire d'un hébergement d'urgence ou d'un relogement temporaire Personne occupant des locaux dont le loyer est inférieur à un montant déterminé par le conseil municipal",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2048"
+      },
+      {
+        "text": "Tableau - Barème de la taxe de séjour 2026Type d'hébergement et classementTarif minimumTarif maximumPalace0,70 €4,90 €HôtelRésidence de tourismeMeublé de tourismeClassé 5 étoiles0,70 €3,60 €Classé 4 étoiles0,70 €2,60 €Classé 3 étoiles0,50 €1,70 €Classé 2 étoiles0,30 €1,00 €Classé 1 étoile0,20 €0,80 €Village de vacancesClassé 4 ou 5 étoiles0,30 €1,00 €Classé 1 ou 2 ou 3 étoiles0,20 €0,80 €Chambre d'hôtes0,20 €0,80 €Auberge collective (type gîte d'étape)0,20 €0,80 €Terrain de campingTerrain de caravanageTout autre terrain d'hébergement de plein air de caractéristiques équivalentesClassé 3 ou 4 ou 5 étoiles0,20 €0,60 €Classé 1 ou 2 étoiles0,20 €0,20 €",
+        "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F31635"
+      },
+      {
+        "text": "Pour tous les hébergements en attente de classement ou sans classement à l'exception des catégories d'hébergements mentionnées dans le tableau, le tarif applicable par personne et par nuitée est compris entre 1 % et 5 % du coût par personne de la nuitée dans la limite du tarif le plus élevé adopté par la collectivité.",
+        "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F31635"
+      },
+      {
+        "text": "En Île-de-France, une taxe additionnelle de 200 % s'ajoute au tarif de la taxe de séjour.",
+        "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F31635"
+      }
+    ],
+    "levies.taxe-de-sejour.feeText": [
+      {
+        "text": "Certaines communes peuvent demander aux vacanciers séjournant sur leur territoire de payer une taxe de séjour.",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2048"
+      },
+      {
+        "text": "La taxe de séjour est due par personne et par nuit.",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2048"
+      },
+      {
+        "text": "Le vacancier doit payer la taxe de séjour : au logeur, à l'hôtelier ou au propriétaire ou au professionnel qui assure le service de réservation par internet pour le compte du logeur, de l'hôtelier, du propriétaire.",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2048"
+      },
+      {
+        "text": "Certaines personnes sont exonérées : Enfant de moins de 18 ans Titulaire d'un contrat de travail saisonnier employé dans la commune Bénéficiaire d'un hébergement d'urgence ou d'un relogement temporaire Personne occupant des locaux dont le loyer est inférieur à un montant déterminé par le conseil municipal",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2048"
+      },
+      {
+        "text": "Tableau - Barème de la taxe de séjour 2026Type d'hébergement et classementTarif minimumTarif maximumPalace0,70 €4,90 €HôtelRésidence de tourismeMeublé de tourismeClassé 5 étoiles0,70 €3,60 €Classé 4 étoiles0,70 €2,60 €Classé 3 étoiles0,50 €1,70 €Classé 2 étoiles0,30 €1,00 €Classé 1 étoile0,20 €0,80 €Village de vacancesClassé 4 ou 5 étoiles0,30 €1,00 €Classé 1 ou 2 ou 3 étoiles0,20 €0,80 €Chambre d'hôtes0,20 €0,80 €Auberge collective (type gîte d'étape)0,20 €0,80 €Terrain de campingTerrain de caravanageTout autre terrain d'hébergement de plein air de caractéristiques équivalentesClassé 3 ou 4 ou 5 étoiles0,20 €0,60 €Classé 1 ou 2 étoiles0,20 €0,20 €",
+        "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F31635"
+      },
+      {
+        "text": "Pour tous les hébergements en attente de classement ou sans classement à l'exception des catégories d'hébergements mentionnées dans le tableau, le tarif applicable par personne et par nuitée est compris entre 1 % et 5 % du coût par personne de la nuitée dans la limite du tarif le plus élevé adopté par la collectivité.",
+        "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F31635"
+      },
+      {
+        "text": "En Île-de-France, une taxe additionnelle de 200 % s'ajoute au tarif de la taxe de séjour.",
+        "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F31635"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "taxe-de-sejour",
+      "name": "Taxe de séjour (tourist tax)",
+      "kind": "tourist-tax",
+      "fee": null,
+      "per": "person-per-night",
+      "paidAt": "at-accommodation",
+      "appliesTo": "all",
+      "exemptions": "Children under 18; holders of a seasonal employment contract working in the commune; people in emergency accommodation or temporary rehousing; people occupying premises whose rent is below an amount set by the municipal council.",
+      "url": null,
+      "text": "Some communes may ask holidaymakers staying in their area to pay a tourist tax. It is due per person per night and is paid to the host, the hotel, the owner, or the online booking service acting for them. The 2026 national scale runs from EUR 0.20 to 4.90 per person per night depending on accommodation type and rating; unclassified accommodation pays 1% to 5% of the nightly cost per person. Children under 18, seasonal workers employed in the commune, people in emergency accommodation or temporary rehousing, and occupants of premises with a rent below a level set by the municipal council are exempt. In Île-de-France an additional tax of 200% is added.",
+      "source": {
+        "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F31635",
+        "name": "Entreprendre.Service-Public.fr (DILA / Ministry of Economy) — Tourist tax: what are the rates?",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Code général des collectivités territoriales, articles L2333-26 à L2333-47",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2048",
+            "name": "Official page — www.service-public.gouv.fr",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      },
+      "feeText": "2026 national scale, per person per night (minimum to maximum): Palace EUR 0.70 to 4.90; hotel, tourist residence or furnished tourist let rated 5 stars EUR 0.70 to 3.60, 4 stars EUR 0.70 to 2.60, 3 stars EUR 0.50 to 1.70, 2 stars EUR 0.30 to 1.00, 1 star EUR 0.20 to 0.80; holiday village rated 4 or 5 stars EUR 0.30 to 1.00, 1 to 3 stars EUR 0.20 to 0.80; bed and breakfast (chambre d'hôtes) EUR 0.20 to 0.80; group hostel (auberge collective) EUR 0.20 to 0.80; campsites and similar outdoor sites rated 3 to 5 stars EUR 0.20 to 0.60, 1 or 2 stars EUR 0.20. Unclassified accommodation (other than the types in the table): 1% to 5% of the cost per person per night, within the highest rate adopted by the local authority. In Île-de-France an additional tax of 200% is added."
+    }
+  ]
 }

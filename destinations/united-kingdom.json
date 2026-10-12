@@ -15,7 +15,7 @@
   ],
   "summary": "GOV.UK says most visitors need an electronic travel authorisation (ETA) or a visa, and that you usually need an ETA rather than a visa if you’re from Europe, the USA, Australia, Canada or certain other countries. An ETA costs £20 and lasts for 2 years or until your passport expires, whichever is sooner; a Standard Visitor visa costs £135 for up to 6 months. As a Standard Visitor you can usually stay in the UK for up to 6 months. Some people do not need an ETA, for example those with a British or Irish passport, or with permission to live, work or study in the UK.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -46,7 +46,9 @@
     ],
     "modules": [
       "driving",
-      "stay-window"
+      "stay-window",
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -5636,6 +5638,29 @@
         "GOV.UK lists the personal allowance for travellers arriving in Great Britain from outside the UK: one of 200 cigarettes, 100 cigarillos, 50 cigars, 250g tobacco or 200 sticks of tobacco for electronic heated tobacco devices; 42 litres of beer and cider and 18 litres of wine, plus 4 litres of spirits and other alcoholic products over 22% ABV or 9 litres of alcoholic products up to 22% ABV (this last allowance can be split); and other goods worth up to £390 (or up to £270 if you arrive by private plane or boat).",
         "GOV.UK says you cannot bring meat or meat products, or milk-based products (except powdered infant milk, infant food or special food needed for medical reasons), into Great Britain from countries outside the EU, Switzerland, Norway, Iceland, Liechtenstein, the Faroe Islands and Greenland."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "Knowingly remaining in the UK beyond the time limited by one's leave is a criminal offence. On summary conviction the penalty is imprisonment up to the general limit in a magistrates' court or a fine, or both (England and Wales); up to 12 months or a fine up to the statutory maximum, or both (Scotland); up to six months or a fine up to the statutory maximum, or both (Northern Ireland). On indictment it is up to four years or a fine, or both. Under the Immigration Rules, a person aged 18 or over who overstayed is treated as having breached immigration laws, and an application for entry clearance or permission to enter must be refused if made within the relevant period: 12 months if they left voluntarily at their own expense; 2 years if they left voluntarily at public expense within 6 months of notice of liability for removal (or of the end of any appeal or review, whichever is later); 5 years if they left voluntarily at public expense later than that; 10 years if they were removed at public expense. An overstay of 30 days or less that began on or after 6 April 2017 is disregarded if the person left voluntarily and not at the Secretary of State's expense.",
+      "source": {
+        "url": "https://www.legislation.gov.uk/ukpga/1971/77/section/24",
+        "name": "legislation.gov.uk (The National Archives) — Immigration Act 1971, section 24 (Illegal entry and similar offences)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Immigration Act 1971, s.24(C1) and (F1); Immigration Rules, Part Suitability, SUI 11.1, 11.4, 11.5, 12.1",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-suitability",
+            "name": "UK Home Office — Immigration Rules, Part Suitability",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -6222,6 +6247,184 @@
         "text": "Apply for a Direct Airside Transit visa if you’ll be changing flights in the UK and will not be going through UK border control.",
         "url": "https://www.gov.uk/transit-visa"
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "(C1)A person who- (a)has only a limited leave to enter or remain in the United Kingdom, and (b)knowingly remains beyond the time limited by the leave, commits an offence.",
+        "url": "https://www.legislation.gov.uk/ukpga/1971/77/section/24"
+      },
+      {
+        "text": "(a)on summary conviction in England and Wales, to imprisonment for a term not exceeding [F4the general limit in a magistrates' court] or a fine (or both);",
+        "url": "https://www.legislation.gov.uk/ukpga/1971/77/section/24"
+      },
+      {
+        "text": "(b)on summary conviction in Scotland, to imprisonment for a term not exceeding 12 months or a fine not exceeding the statutory maximum (or both);",
+        "url": "https://www.legislation.gov.uk/ukpga/1971/77/section/24"
+      },
+      {
+        "text": "(c)on summary conviction in Northern Ireland, to imprisonment for a term not exceeding six months or a fine not exceeding the statutory maximum (or both);",
+        "url": "https://www.legislation.gov.uk/ukpga/1971/77/section/24"
+      },
+      {
+        "text": "(ii)for an offence under any of subsections (B1) to (E1), to imprisonment for a term not exceeding four years or a fine (or both);",
+        "url": "https://www.legislation.gov.uk/ukpga/1971/77/section/24"
+      },
+      {
+        "text": "SUI 11.1. An application for entry clearance or permission to enter must be refused if: (a) the applicant has previously breached immigration laws as defined in SUI 11.4; and (b) the application was made within the relevant time period in SUI 12.1.",
+        "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-suitability"
+      },
+      {
+        "text": "SUI 11.4. An applicant will be treated as having breached immigration laws if, aged 18 or over, they: (a) overstayed their permission, unless an exception in SUI 11.5. or SUI 11.6. applied to that period of overstaying; or",
+        "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-suitability"
+      },
+      {
+        "text": "SUI 11.5. A period of overstaying will be disregarded for the purpose of SUI 11.4.(a) where the person left the UK voluntarily, not at the expense (directly or indirectly) of the Secretary of State, and:",
+        "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-suitability"
+      },
+      {
+        "text": "(b) the person overstayed for 30 days or less, where the overstaying began on or after 6 April 2017; or",
+        "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-suitability"
+      },
+      {
+        "text": "SUI 12.1. The relevant time period under SUI 11.1. and SUI 11.2. is as set out in the following table (and where the person previously breached more than one immigration law, only the breach which leads to the longest period of absence from the UK will apply):",
+        "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-suitability"
+      },
+      {
+        "text": "(a) 12 months left voluntarily at their own expense N/A",
+        "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-suitability"
+      },
+      {
+        "text": "(b) 2 years left voluntarily at public expense Within 6 months of being given notice of liability for removal or when they no longer had a pending appeal or administrative review, whichever is later.",
+        "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-suitability"
+      },
+      {
+        "text": "(c) 5 years left voluntarily at public expense more than 6 months after being given notice of liability for removal or when they no longer had a pending appeal or administrative review, whichever is later.",
+        "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-suitability"
+      },
+      {
+        "text": "(e) 10 years was removed from the UK at public expense -",
+        "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-part-suitability"
+      }
+    ],
+    "levies.gb-edinburgh-visitor-levy": [
+      {
+        "text": "is a 5% payment on the cost of the paid, overnight accommodation. It will be charged before VAT and will not be charged on extras like parking, meals, drinks or transport",
+        "url": "https://www.edinburgh.gov.uk/business/visitor-levy-edinburgh"
+      },
+      {
+        "text": "is only charged on the first 5 nights’ stay",
+        "url": "https://www.edinburgh.gov.uk/business/visitor-levy-edinburgh"
+      },
+      {
+        "text": "is charged at the same rate every day of the year, indefinitely, for stays from 24 July 2026 onwards. Stays on or after 24 July 2026 which were booked and paid for (in part or full) before 1 October 2025 will not be subject to the levy.",
+        "url": "https://www.edinburgh.gov.uk/business/visitor-levy-edinburgh"
+      },
+      {
+        "text": "Anyone who is staying in paid, overnight accommodation in Edinburgh needs to pay the levy. This includes tourists, people staying for work or visiting the city for other reasons. UK and Scottish residents are included.",
+        "url": "https://www.edinburgh.gov.uk/business/visitor-levy-edinburgh"
+      },
+      {
+        "text": "If you're staying in paid, overnight accommodation in Edinburgh a 5% visitor levy charge may be added to your accommodation cost.",
+        "url": "https://www.edinburgh.gov.uk/business/information-visitors-exemptions/1"
+      },
+      {
+        "text": "The Visitor Levy (Scotland) Act 2024 is written so the levy is only charged on paid overnight stays away from the visitor's home. This means that people who might not have a permanent or safe home are not liable to pay the levy.",
+        "url": "https://www.edinburgh.gov.uk/business/information-visitors-exemptions/1"
+      },
+      {
+        "text": "The Visitor Levy (Scotland) Act 2024 also allows for people in receipt of one of the below benefits, to be reimbursed the Visitor Levy paid.",
+        "url": "https://www.edinburgh.gov.uk/business/information-visitors-exemptions/1"
+      }
+    ],
+    "levies.gb-edinburgh-visitor-levy.exemptions": [
+      {
+        "text": "is a 5% payment on the cost of the paid, overnight accommodation. It will be charged before VAT and will not be charged on extras like parking, meals, drinks or transport",
+        "url": "https://www.edinburgh.gov.uk/business/visitor-levy-edinburgh"
+      },
+      {
+        "text": "is only charged on the first 5 nights’ stay",
+        "url": "https://www.edinburgh.gov.uk/business/visitor-levy-edinburgh"
+      },
+      {
+        "text": "is charged at the same rate every day of the year, indefinitely, for stays from 24 July 2026 onwards. Stays on or after 24 July 2026 which were booked and paid for (in part or full) before 1 October 2025 will not be subject to the levy.",
+        "url": "https://www.edinburgh.gov.uk/business/visitor-levy-edinburgh"
+      },
+      {
+        "text": "Anyone who is staying in paid, overnight accommodation in Edinburgh needs to pay the levy. This includes tourists, people staying for work or visiting the city for other reasons. UK and Scottish residents are included.",
+        "url": "https://www.edinburgh.gov.uk/business/visitor-levy-edinburgh"
+      },
+      {
+        "text": "If you're staying in paid, overnight accommodation in Edinburgh a 5% visitor levy charge may be added to your accommodation cost.",
+        "url": "https://www.edinburgh.gov.uk/business/information-visitors-exemptions/1"
+      },
+      {
+        "text": "The Visitor Levy (Scotland) Act 2024 is written so the levy is only charged on paid overnight stays away from the visitor's home. This means that people who might not have a permanent or safe home are not liable to pay the levy.",
+        "url": "https://www.edinburgh.gov.uk/business/information-visitors-exemptions/1"
+      },
+      {
+        "text": "The Visitor Levy (Scotland) Act 2024 also allows for people in receipt of one of the below benefits, to be reimbursed the Visitor Levy paid.",
+        "url": "https://www.edinburgh.gov.uk/business/information-visitors-exemptions/1"
+      }
+    ],
+    "levies.gb-edinburgh-visitor-levy.feeText": [
+      {
+        "text": "is a 5% payment on the cost of the paid, overnight accommodation. It will be charged before VAT and will not be charged on extras like parking, meals, drinks or transport",
+        "url": "https://www.edinburgh.gov.uk/business/visitor-levy-edinburgh"
+      },
+      {
+        "text": "is only charged on the first 5 nights’ stay",
+        "url": "https://www.edinburgh.gov.uk/business/visitor-levy-edinburgh"
+      },
+      {
+        "text": "is charged at the same rate every day of the year, indefinitely, for stays from 24 July 2026 onwards. Stays on or after 24 July 2026 which were booked and paid for (in part or full) before 1 October 2025 will not be subject to the levy.",
+        "url": "https://www.edinburgh.gov.uk/business/visitor-levy-edinburgh"
+      },
+      {
+        "text": "Anyone who is staying in paid, overnight accommodation in Edinburgh needs to pay the levy. This includes tourists, people staying for work or visiting the city for other reasons. UK and Scottish residents are included.",
+        "url": "https://www.edinburgh.gov.uk/business/visitor-levy-edinburgh"
+      },
+      {
+        "text": "If you're staying in paid, overnight accommodation in Edinburgh a 5% visitor levy charge may be added to your accommodation cost.",
+        "url": "https://www.edinburgh.gov.uk/business/information-visitors-exemptions/1"
+      },
+      {
+        "text": "The Visitor Levy (Scotland) Act 2024 is written so the levy is only charged on paid overnight stays away from the visitor's home. This means that people who might not have a permanent or safe home are not liable to pay the levy.",
+        "url": "https://www.edinburgh.gov.uk/business/information-visitors-exemptions/1"
+      },
+      {
+        "text": "The Visitor Levy (Scotland) Act 2024 also allows for people in receipt of one of the below benefits, to be reimbursed the Visitor Levy paid.",
+        "url": "https://www.edinburgh.gov.uk/business/information-visitors-exemptions/1"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "gb-edinburgh-visitor-levy",
+      "name": "Edinburgh Visitor Levy",
+      "kind": "tourist-tax",
+      "fee": null,
+      "per": "booking",
+      "paidAt": "at-accommodation",
+      "appliesTo": "all",
+      "exemptions": "The levy is charged only on paid overnight stays away from the visitor's home, so people who might not have a permanent or safe home are not liable. People receiving certain benefits listed by the council can be reimbursed.",
+      "url": null,
+      "text": "Anyone staying in paid overnight accommodation in Edinburgh pays a levy of 5% of the accommodation cost, charged before VAT and not on extras such as parking, meals, drinks or transport, on the first 5 nights only, for stays from 24 July 2026. Stays booked and paid for, in part or in full, before 1 October 2025 are not subject to the levy. The levy may be added to the accommodation cost. People who might not have a permanent or safe home are not liable, and people receiving certain listed benefits can be reimbursed.",
+      "source": {
+        "url": "https://www.edinburgh.gov.uk/business/visitor-levy-edinburgh",
+        "name": "City of Edinburgh Council — About the Edinburgh Visitor Levy",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Visitor Levy (Scotland) Act 2024; Edinburgh Visitor Levy scheme",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.edinburgh.gov.uk/business/information-visitors-exemptions/1",
+            "name": "Official page — www.edinburgh.gov.uk",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      },
+      "feeText": "5% of the cost of the paid overnight accommodation, charged before VAT, only on the first 5 nights' stay."
+    }
+  ]
 }

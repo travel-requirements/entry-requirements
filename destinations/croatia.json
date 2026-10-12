@@ -21,7 +21,7 @@
   ],
   "summary": "Croatia's Ministry of Foreign and European Affairs says Croatia has applied the Schengen rules in full since 1 January 2023, and that third-country nationals, whether or not they need a visa, can stay in the Schengen Area up to 90 days in any 180-day period. EU nationals travel freely with a passport or ID card; nationals of the countries on the EU's visa-exempt list (Annex II of Regulation (EU) 2018/1806) need no visa (the ETIAS travel authorisation is not yet in operation), and others need a Schengen short-stay visa costing EUR 90.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-25",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -49,7 +49,10 @@
     ],
     "modules": [
       "driving",
-      "stay-window"
+      "stay-window",
+      "overstay",
+      "levies",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -3687,6 +3690,63 @@
         "Arriving from outside the EU, the EU's Your Europe portal lists duty-free allowances of 1 litre of spirits (or 2 litres of fortified or sparkling wine), 4 litres of still wine, 16 litres of beer and other goods worth up to €300 (€430 by air or sea). For tobacco, its indicative list says Croatia applies the lower limit of 40 cigarettes to travellers arriving by land or sea; the higher limit is 200 cigarettes.",
         "Between EU countries, alcohol and tobacco bought for your own use and not for resale carry no further duty, but each EU country can set guideline quantities, according to Your Europe."
       ]
+    },
+    "overstay": {
+      "fine": {
+        "amount": 100,
+        "currency": "EUR",
+        "per": "incident",
+        "maxAmount": 1000
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "A short stay is the stay defined by Article 6 of the Schengen Borders Code. A third-country national who is not on a short stay and has no valid temporary, long-term or permanent residence permission is staying illegally and must leave Croatia without delay. Illegal stay is a misdemeanour punished by a fine of 100 to 1,000 euro (raised by NN 40/2025 from 60 to 920 euro). A third-country national may be expelled for illegal stay. The entry and stay ban imposed by such an expulsion decision is no shorter than three months and no longer than five years.",
+      "source": {
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_03_40_545.html",
+        "name": "Narodne novine (Official Gazette of Croatia) — Act amending the Aliens Act, NN 40/2025",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Zakon o strancima (NN 133/20, 114/22, 151/22, 40/25), čl. 55, 183, 190, 192(6), 253(2)",
+        "alsoStatedOn": [
+          {
+            "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_133_2520.html",
+            "name": "Official page — narodne-novine.nn.hr",
+            "lastVerified": "2026-10-12"
+          },
+          {
+            "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_151_2347.html",
+            "name": "Official page — narodne-novine.nn.hr",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": 24,
+      "responsibility": "accommodation",
+      "appliesTo": "all",
+      "penaltyText": "Accommodation provider failing to register within one day: legal person 500 to 1,000 EUR, responsible person 60 to 390 EUR, natural person 30 to 260 EUR. A traveller who must register the accommodation themselves and fails to do so in time: 50 to 700 EUR.",
+      "url": null,
+      "text": "The legal or natural person who provides accommodation to a third-country national on a short stay must register that stay within one day of the guest's arrival. Registration is made with the police administration or police station, and can also be made electronically through a web service. If the provider is not in Croatia at the time or registration cannot otherwise be made, the third-country national must register the accommodation themselves within two days of entering Croatia or of changing accommodation. Fines: legal person 500 to 1,000 EUR, its responsible person 60 to 390 EUR, natural person 30 to 260 EUR; a traveller who fails to self-register 50 to 700 EUR.",
+      "source": {
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_133_2520.html",
+        "name": "Narodne novine (Official Gazette of Croatia) — Aliens Act, NN 133/2020",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Zakon o strancima (NN 133/20, as amended by NN 40/25), čl. 177, 251(8) t. 27, 252",
+        "alsoStatedOn": [
+          {
+            "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_03_40_545.html",
+            "name": "Official page — narodne-novine.nn.hr",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -4395,6 +4455,229 @@
         "url": "https://mvep.gov.hr/konzularne-informacije-244593/konzularne-informacije-22730/vize-22733/postupak-izdavanja-viza/podnosenje-zahtjeva-i-dokumentacija-za-dugotrajnu-d-vizu/259932",
         "text": "Državljanin treće zemlje kojem je izdana dugotrajna viza dužan je u roku od 30 dana od početka valjanosti vize obratiti se nadležnoj policijskoj upravi odnosno policijskoj postaji radi prijave boravišta i izrade biometrijske dozvole boravka"
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "(1) Kratkotrajni boravak je boravak državljanina treće zemlje određen člankom 6. Zakonika o schengenskim granicama.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_133_2520.html"
+      },
+      {
+        "text": "(1) Državljanin treće zemlje nezakonito boravi ako: 1. nije na kratkotrajnom boravku 2. nema valjano odobrenje za privremeni boravak, dugotrajno boravište ili stalni boravak",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_133_2520.html"
+      },
+      {
+        "text": "(2) Državljanin treće zemlje koji nezakonito boravi dužan je bez odgađanja napustiti Republiku Hrvatsku.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_133_2520.html"
+      },
+      {
+        "text": "(2) Novčanom kaznom u iznosu od 60,00 do 920,00 eura kaznit će se za prekršaj državljanin treće zemlje koji u Republici Hrvatskoj nezakonito boravi (članak 183. stavak 1.).«.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_151_2347.html"
+      },
+      {
+        "text": "U stavku 2. riječi: »od 60,00 do 920,00 eura« zamjenjuju se riječima: »od 100,00 do 1000,00 eura«.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_03_40_545.html"
+      },
+      {
+        "text": "(2) Državljanina treće zemlje može se protjerati zbog nezakonitog boravka i nezakonitog prelaska ili pokušaja prelaska državne granice, različitih od razloga iz stavka 1. ovoga članka.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_133_2520.html"
+      },
+      {
+        "text": "(6) Zabrana ulaska i boravka izrečena rješenjem o protjerivanju u slučaju iz članka 190. ovoga Zakona ne može biti kraća od tri mjeseca niti duža od pet godina.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_133_2520.html"
+      }
+    ],
+    "levies.turisticka-pristojba": [
+      {
+        "text": "1. osobe koje u jedinici lokalne samouprave (u daljnjem tekstu: općina ili grad) u kojoj nemaju prebivalište koriste uslugu smještaja u smještajnom objektu u kojem se obavlja ugostiteljska djelatnost",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html"
+      },
+      {
+        "text": "(3) Turističku pristojbu pod jednakim uvjetima plaćaju i strani državljani, osim ako ovim Zakonom nije drugačije određeno.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html"
+      },
+      {
+        "text": "(1) Osobe iz članka 4. stavka 1. točke 1. ovoga Zakona koje koriste uslugu noćenja u smještajnom objektu u kojem se obavlja ugostiteljska djelatnost (u daljnjem tekstu: smještajni objekt) plaćaju turističku pristojbu po svakom ostvarenom noćenju.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html"
+      },
+      {
+        "text": "(3) Osobe iz stavka 1. ovoga članka turističku pristojbu plaćaju pravnoj ili fizičkoj osobi s kojom su ugovorile pružanje usluge smještaja.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html"
+      },
+      {
+        "text": "(1) Odluku o visini turističke pristojbe po osobi i noćenju, visini godišnjeg paušalnog iznosa turističke pristojbe iz članka 12. ovoga Zakona i visini godišnjeg paušalnog iznosa turističke pristojbe iz članka 13. stavka 4. ovoga Zakona za općine i gradove na svom području, uz mišljenje lokalnih turističkih zajednica, donosi županijska skupština odnosno Gradska skupština Grada Zagreba, uz mišljenje Turističke zajednice Grada Zagreba za područje Grada Zagreba.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html"
+      },
+      {
+        "text": "(2) Ako županijska skupština odnosno Gradska skupština Grada Zagreba ne donese odluku o visini turističke pristojbe po osobi i noćenju i/ili o visini godišnjeg paušalnog iznosa turističke pristojbe iz stavka 1. ovoga članka, kao i za područje općine ili grada za koje nije osnovana turistička zajednica, primjenjuje se najniži iznos turističke pristojbe odnosno najniži paušalni iznos turističke pristojbe, utvrđen pravilnikom iz stavka 7. ovoga članka.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html"
+      },
+      {
+        "text": "(1) Iznimno od članka 4. ovoga Zakona, turističku pristojbu ne plaćaju: 1. djeca do 12 godina 2. osobe s invaliditetom od 70 % i većim i jedan pratitelj",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html"
+      },
+      {
+        "text": "Turističku pristojbu umanjenu za 50 % plaćaju: 1. osobe od navršenih 12 do 18 godina i",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html"
+      }
+    ],
+    "levies.turisticka-pristojba.exemptions": [
+      {
+        "text": "1. osobe koje u jedinici lokalne samouprave (u daljnjem tekstu: općina ili grad) u kojoj nemaju prebivalište koriste uslugu smještaja u smještajnom objektu u kojem se obavlja ugostiteljska djelatnost",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html"
+      },
+      {
+        "text": "(3) Turističku pristojbu pod jednakim uvjetima plaćaju i strani državljani, osim ako ovim Zakonom nije drugačije određeno.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html"
+      },
+      {
+        "text": "(1) Osobe iz članka 4. stavka 1. točke 1. ovoga Zakona koje koriste uslugu noćenja u smještajnom objektu u kojem se obavlja ugostiteljska djelatnost (u daljnjem tekstu: smještajni objekt) plaćaju turističku pristojbu po svakom ostvarenom noćenju.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html"
+      },
+      {
+        "text": "(3) Osobe iz stavka 1. ovoga članka turističku pristojbu plaćaju pravnoj ili fizičkoj osobi s kojom su ugovorile pružanje usluge smještaja.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html"
+      },
+      {
+        "text": "(1) Odluku o visini turističke pristojbe po osobi i noćenju, visini godišnjeg paušalnog iznosa turističke pristojbe iz članka 12. ovoga Zakona i visini godišnjeg paušalnog iznosa turističke pristojbe iz članka 13. stavka 4. ovoga Zakona za općine i gradove na svom području, uz mišljenje lokalnih turističkih zajednica, donosi županijska skupština odnosno Gradska skupština Grada Zagreba, uz mišljenje Turističke zajednice Grada Zagreba za područje Grada Zagreba.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html"
+      },
+      {
+        "text": "(2) Ako županijska skupština odnosno Gradska skupština Grada Zagreba ne donese odluku o visini turističke pristojbe po osobi i noćenju i/ili o visini godišnjeg paušalnog iznosa turističke pristojbe iz stavka 1. ovoga članka, kao i za područje općine ili grada za koje nije osnovana turistička zajednica, primjenjuje se najniži iznos turističke pristojbe odnosno najniži paušalni iznos turističke pristojbe, utvrđen pravilnikom iz stavka 7. ovoga članka.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html"
+      },
+      {
+        "text": "(1) Iznimno od članka 4. ovoga Zakona, turističku pristojbu ne plaćaju: 1. djeca do 12 godina 2. osobe s invaliditetom od 70 % i većim i jedan pratitelj",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html"
+      },
+      {
+        "text": "Turističku pristojbu umanjenu za 50 % plaćaju: 1. osobe od navršenih 12 do 18 godina i",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html"
+      }
+    ],
+    "levies.turisticka-pristojba.feeText": [
+      {
+        "text": "1. osobe koje u jedinici lokalne samouprave (u daljnjem tekstu: općina ili grad) u kojoj nemaju prebivalište koriste uslugu smještaja u smještajnom objektu u kojem se obavlja ugostiteljska djelatnost",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html"
+      },
+      {
+        "text": "(3) Turističku pristojbu pod jednakim uvjetima plaćaju i strani državljani, osim ako ovim Zakonom nije drugačije određeno.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html"
+      },
+      {
+        "text": "(1) Osobe iz članka 4. stavka 1. točke 1. ovoga Zakona koje koriste uslugu noćenja u smještajnom objektu u kojem se obavlja ugostiteljska djelatnost (u daljnjem tekstu: smještajni objekt) plaćaju turističku pristojbu po svakom ostvarenom noćenju.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html"
+      },
+      {
+        "text": "(3) Osobe iz stavka 1. ovoga članka turističku pristojbu plaćaju pravnoj ili fizičkoj osobi s kojom su ugovorile pružanje usluge smještaja.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html"
+      },
+      {
+        "text": "(1) Odluku o visini turističke pristojbe po osobi i noćenju, visini godišnjeg paušalnog iznosa turističke pristojbe iz članka 12. ovoga Zakona i visini godišnjeg paušalnog iznosa turističke pristojbe iz članka 13. stavka 4. ovoga Zakona za općine i gradove na svom području, uz mišljenje lokalnih turističkih zajednica, donosi županijska skupština odnosno Gradska skupština Grada Zagreba, uz mišljenje Turističke zajednice Grada Zagreba za područje Grada Zagreba.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html"
+      },
+      {
+        "text": "(2) Ako županijska skupština odnosno Gradska skupština Grada Zagreba ne donese odluku o visini turističke pristojbe po osobi i noćenju i/ili o visini godišnjeg paušalnog iznosa turističke pristojbe iz stavka 1. ovoga članka, kao i za područje općine ili grada za koje nije osnovana turistička zajednica, primjenjuje se najniži iznos turističke pristojbe odnosno najniži paušalni iznos turističke pristojbe, utvrđen pravilnikom iz stavka 7. ovoga članka.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html"
+      },
+      {
+        "text": "(1) Iznimno od članka 4. ovoga Zakona, turističku pristojbu ne plaćaju: 1. djeca do 12 godina 2. osobe s invaliditetom od 70 % i većim i jedan pratitelj",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html"
+      },
+      {
+        "text": "Turističku pristojbu umanjenu za 50 % plaćaju: 1. osobe od navršenih 12 do 18 godina i",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "(1) Smještaj državljanina treće zemlje na kratkotrajnom boravku dužna je prijaviti pravna i fizička osoba koja je državljaninu treće zemlje pružila smještaj u roku od jednog dana od dolaska državljanina treće zemlje na smještaj.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_133_2520.html"
+      },
+      {
+        "text": "(4) Ako se obveznik prijave iz stavka 1. ovoga članka u trenutku dolaska državljanina treće zemlje na smještaj ne nalazi u Republici Hrvatskoj ili se prijava smještaja zbog drugog razloga ne može obaviti u skladu sa stavkom 1. ovoga članka, državljanin treće zemlje na kratkotrajnom boravku dužan je sam prijaviti svoj smještaj u roku od dva dana od ulaska u Republiku Hrvatsku odnosno od promjene smještaja.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_133_2520.html"
+      },
+      {
+        "text": "(5) Prijava se podnosi policijskoj upravi odnosno policijskoj postaji, a može se izvršiti i u elektroničkom obliku, putem web-servisa.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_133_2520.html"
+      },
+      {
+        "text": "»(1) Novčanom kaznom u iznosu od 500,00 do 1000,00 eura kaznit će se pravna osoba ako: 1. u roku od jednog dana od dolaska državljanina treće zemlje na smještaj ne prijavi smještaj državljanina treće zemlje na kratkotrajnom boravku (članak 177. stavci 1. i 2.)",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_03_40_545.html"
+      },
+      {
+        "text": "(2) Za prekršaje iz stavka 1. ovoga članka novčanom kaznom u iznosu od 60,00 do 390,00 eura kaznit će se i odgovorna osoba u pravnoj osobi.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_03_40_545.html"
+      },
+      {
+        "text": "(3) Za prekršaje iz stavka 1. ovoga članka kaznit će se novčanom kaznom u iznosu od 30,00 do 260,00 eura fizička osoba.«.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_03_40_545.html"
+      },
+      {
+        "text": "(8) Novčanom kaznom u iznosu od 50,00 do 700,00 eura kaznit će se za prekršaj državljanin treće zemlje koji:",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_03_40_545.html"
+      },
+      {
+        "text": "27. ne prijavi smještaj u propisanom roku od ulaska u Republiku Hrvatsku odnosno od promjene smještaja ako se obveznik prijave u trenutku dolaska državljanina treće zemlje ne nalazi u Republici Hrvatskoj ili se prijava smještaja zbog drugog razloga ne može obaviti u skladu s člankom 177. stavkom 1. ovoga Zakona (članak 177. stavak 4.)",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_03_40_545.html"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "(1) Smještaj državljanina treće zemlje na kratkotrajnom boravku dužna je prijaviti pravna i fizička osoba koja je državljaninu treće zemlje pružila smještaj u roku od jednog dana od dolaska državljanina treće zemlje na smještaj.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_133_2520.html"
+      },
+      {
+        "text": "(4) Ako se obveznik prijave iz stavka 1. ovoga članka u trenutku dolaska državljanina treće zemlje na smještaj ne nalazi u Republici Hrvatskoj ili se prijava smještaja zbog drugog razloga ne može obaviti u skladu sa stavkom 1. ovoga članka, državljanin treće zemlje na kratkotrajnom boravku dužan je sam prijaviti svoj smještaj u roku od dva dana od ulaska u Republiku Hrvatsku odnosno od promjene smještaja.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_133_2520.html"
+      },
+      {
+        "text": "(5) Prijava se podnosi policijskoj upravi odnosno policijskoj postaji, a može se izvršiti i u elektroničkom obliku, putem web-servisa.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_133_2520.html"
+      },
+      {
+        "text": "»(1) Novčanom kaznom u iznosu od 500,00 do 1000,00 eura kaznit će se pravna osoba ako: 1. u roku od jednog dana od dolaska državljanina treće zemlje na smještaj ne prijavi smještaj državljanina treće zemlje na kratkotrajnom boravku (članak 177. stavci 1. i 2.)",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_03_40_545.html"
+      },
+      {
+        "text": "(2) Za prekršaje iz stavka 1. ovoga članka novčanom kaznom u iznosu od 60,00 do 390,00 eura kaznit će se i odgovorna osoba u pravnoj osobi.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_03_40_545.html"
+      },
+      {
+        "text": "(3) Za prekršaje iz stavka 1. ovoga članka kaznit će se novčanom kaznom u iznosu od 30,00 do 260,00 eura fizička osoba.«.",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_03_40_545.html"
+      },
+      {
+        "text": "(8) Novčanom kaznom u iznosu od 50,00 do 700,00 eura kaznit će se za prekršaj državljanin treće zemlje koji:",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_03_40_545.html"
+      },
+      {
+        "text": "27. ne prijavi smještaj u propisanom roku od ulaska u Republiku Hrvatsku odnosno od promjene smještaja ako se obveznik prijave u trenutku dolaska državljanina treće zemlje ne nalazi u Republici Hrvatskoj ili se prijava smještaja zbog drugog razloga ne može obaviti u skladu s člankom 177. stavkom 1. ovoga Zakona (članak 177. stavak 4.)",
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_03_40_545.html"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "turisticka-pristojba",
+      "name": "Tourist tax (turistička pristojba)",
+      "kind": "tourist-tax",
+      "fee": null,
+      "per": "person-per-night",
+      "paidAt": "at-accommodation",
+      "appliesTo": "all",
+      "exemptions": "Children up to 12 years; persons with a disability of 70% or more and one companion. Persons aged 12 to 18 pay 50% less.",
+      "url": null,
+      "text": "Persons who use accommodation in a municipality or town where they do not have their residence pay a tourist tax for each night, to the accommodation provider. Foreigners pay on equal terms. The amount per person per night is decided by the county assembly (the City Assembly of Zagreb for Zagreb); without a decision, the lowest amount set by ordinance applies. Children up to 12 and persons with a disability of 70% or more, with one companion, do not pay; persons aged 12 to 18 pay 50% less.",
+      "source": {
+        "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_05_52_992.html",
+        "name": "Narodne novine (Official Gazette of Croatia) — Tourist Tax Act, NN 52/2019",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Zakon o turističkoj pristojbi (NN 52/19, 32/20, 42/20), čl. 4, 5, 6, 9, 15"
+      },
+      "feeText": "Paid for every night spent. The amount per person per night is decided by each county assembly (the City Assembly of Zagreb for Zagreb). Where no decision is taken, the lowest amount set by ordinance applies. Children up to 12 do not pay; persons aged 12 to 18 pay 50% less."
+    }
+  ]
 }

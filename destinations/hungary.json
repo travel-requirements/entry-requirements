@@ -23,7 +23,7 @@
   ],
   "summary": "Hungary applies the EU's Schengen visa rules. Under Regulation (EU) 2018/1806, nationals of the third countries listed in Annex II are exempt from the visa requirement for stays of no more than 90 days in any 180-day period, and nationals of those listed in Annex I must hold a visa when crossing the external borders. The EU Visa Code sets the short-stay visa fee at EUR 90. The EU says ETIAS, the travel authorisation for visa-exempt travellers, is currently not in operation.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -51,7 +51,10 @@
     ],
     "modules": [
       "driving",
-      "stay-window"
+      "stay-window",
+      "overstay",
+      "levies",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -3571,6 +3574,39 @@
         "Your Europe (EU) says that when you enter the EU from a non-EU country you can bring, free of VAT and excise duties, 4 litres of still wine and 16 litres of beer, plus 1 litre of spirits over 22% vol. (or 2 litres of fortified or sparkling wine), and other goods up to a value of €300 per traveller or €430 for travellers by air and sea. It lists Hungary among the countries that may apply the lower tobacco limit (40 cigarettes instead of 200) to land and sea travellers, and says travellers under 17 are not entitled to a duty-free allowance for tobacco or alcohol.",
         "Your Europe (EU) says that when travelling between EU countries, alcohol and tobacco bought for your own use and not for resale owe no further payments in any other EU country, as taxes are included in the price where you bought them."
       ]
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "Immigration expulsion may be ordered against a third-country national who does not meet the conditions of stay laid down in the Act, or whose stay in Hungary no longer has a legal basis. An entry and residence ban is set in years and for at most five years.",
+      "source": {
+        "url": "https://njt.jog.gov.hu/jogszabaly/2023-90-00-00",
+        "name": "Nemzeti Jogszabálytár (National Legislation Database) — Act XC of 2023 on the general rules for the entry and residence of third-country nationals",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "2023. évi XC. törvény 98. § (1) b), 121. § (3)"
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": null,
+      "responsibility": "either",
+      "appliesTo": "all",
+      "penaltyText": null,
+      "url": null,
+      "text": "A third-country national must report their accommodation in Hungary to the immigration authority (identity, travel document, address, dates, visa or permit number). In commercial accommodation or accommodation run by a legal person, the host records the guest's data at check-in on the government-designated storage, from which the immigration authority takes it over. The third-country national reports the accommodation or changes electronically on the immigration e-filing interface after registering.",
+      "source": {
+        "url": "https://njt.jog.gov.hu/jogszabaly/2023-90-00-00",
+        "name": "Nemzeti Jogszabálytár — Act XC of 2023, § 147 (accommodation reporting obligation of third-country nationals)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "2023. évi XC. törvény 147. §"
+      }
     }
   },
   "countryFacts": {
@@ -4260,6 +4296,123 @@
         "text": "(b) children under 12 years of age;",
         "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A22021A1019%2801%29"
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "98. § (1) Idegenrendészeti kiutasításnak van helye azzal a harmadik országbeli állampolgárral szemben a) aki jogellenesen lépte át Magyarország államhatárát, vagy azt megkísérelte, b) aki az e törvényben meghatározott tartózkodási feltételeket nem teljesíti, vagy ha a harmadik országbeli állampolgár magyarországi tartózkodásának a továbbiakban nincs jogalapja,",
+        "url": "https://njt.jog.gov.hu/jogszabaly/2023-90-00-00"
+      },
+      {
+        "text": "A beutazási és tartózkodási tilalom időtartamát években kell meghatározni, és legfeljebb öt évre kell elrendelni.",
+        "url": "https://njt.jog.gov.hu/jogszabaly/2023-90-00-00"
+      }
+    ],
+    "levies.idegenforgalmi-ado": [
+      {
+        "text": "30. § (1) Adókötelezettség terheli azt a magánszemélyt a) 99 aki nem állandó lakosként az önkormányzat illetékességi területén legalább egy vendégéjszakát eltölt,",
+        "url": "https://njt.jog.gov.hu/jogszabaly/1990-100-00-00"
+      },
+      {
+        "text": "33. § Az adó mértékének felső határa: a) 111 a 32. § a) 1. pontja alapján: személyenként és vendégéjszakánként 300 Ft; b) 112 a 32. § a) 2. pontja alapján: az adóalap 4%-a;",
+        "url": "https://njt.jog.gov.hu/jogszabaly/1990-100-00-00"
+      },
+      {
+        "text": "31. § A 30. § (1) bekezdésének a) pontja szerinti adókötelezettség alól mentes: a) 102 a 18. életévét be nem töltött magánszemély;",
+        "url": "https://njt.jog.gov.hu/jogszabaly/1990-100-00-00"
+      },
+      {
+        "text": "(1) A 30. § (1) bekezdés a) pontja alapján fizetendő adót: a) a szálláshely ellenérték fejében történő átengedése esetén a szállásdíjjal együtt a szállásadó,",
+        "url": "https://njt.jog.gov.hu/jogszabaly/1990-100-00-00"
+      },
+      {
+        "text": "c) 21 az adó mértékét – az e törvényben meghatározott felső határokra, illetőleg a 16. § a) pontjában , a 22. § a) pontjában , a 26. §-ában , a 33. §-ának a) pontjában meghatározott felső határoknak 2005. évre a KSH által 2003. évre vonatkozóan közzétett fogyasztói árszínvonal-változással, 2006. évtől pedig a 2003. évre és az adóévet megelőző második évig eltelt évek fogyasztói árszínvonal változásai szorzatával növelt összegére (a felső határ és a felső határ növelt összege együtt: adómaximum) figyelemmel – megállapítsa,",
+        "url": "https://njt.jog.gov.hu/jogszabaly/1990-100-00-00"
+      }
+    ],
+    "levies.idegenforgalmi-ado.exemptions": [
+      {
+        "text": "30. § (1) Adókötelezettség terheli azt a magánszemélyt a) 99 aki nem állandó lakosként az önkormányzat illetékességi területén legalább egy vendégéjszakát eltölt,",
+        "url": "https://njt.jog.gov.hu/jogszabaly/1990-100-00-00"
+      },
+      {
+        "text": "33. § Az adó mértékének felső határa: a) 111 a 32. § a) 1. pontja alapján: személyenként és vendégéjszakánként 300 Ft; b) 112 a 32. § a) 2. pontja alapján: az adóalap 4%-a;",
+        "url": "https://njt.jog.gov.hu/jogszabaly/1990-100-00-00"
+      },
+      {
+        "text": "31. § A 30. § (1) bekezdésének a) pontja szerinti adókötelezettség alól mentes: a) 102 a 18. életévét be nem töltött magánszemély;",
+        "url": "https://njt.jog.gov.hu/jogszabaly/1990-100-00-00"
+      },
+      {
+        "text": "(1) A 30. § (1) bekezdés a) pontja alapján fizetendő adót: a) a szálláshely ellenérték fejében történő átengedése esetén a szállásdíjjal együtt a szállásadó,",
+        "url": "https://njt.jog.gov.hu/jogszabaly/1990-100-00-00"
+      },
+      {
+        "text": "c) 21 az adó mértékét – az e törvényben meghatározott felső határokra, illetőleg a 16. § a) pontjában , a 22. § a) pontjában , a 26. §-ában , a 33. §-ának a) pontjában meghatározott felső határoknak 2005. évre a KSH által 2003. évre vonatkozóan közzétett fogyasztói árszínvonal-változással, 2006. évtől pedig a 2003. évre és az adóévet megelőző második évig eltelt évek fogyasztói árszínvonal változásai szorzatával növelt összegére (a felső határ és a felső határ növelt összege együtt: adómaximum) figyelemmel – megállapítsa,",
+        "url": "https://njt.jog.gov.hu/jogszabaly/1990-100-00-00"
+      }
+    ],
+    "levies.idegenforgalmi-ado.feeText": [
+      {
+        "text": "30. § (1) Adókötelezettség terheli azt a magánszemélyt a) 99 aki nem állandó lakosként az önkormányzat illetékességi területén legalább egy vendégéjszakát eltölt,",
+        "url": "https://njt.jog.gov.hu/jogszabaly/1990-100-00-00"
+      },
+      {
+        "text": "33. § Az adó mértékének felső határa: a) 111 a 32. § a) 1. pontja alapján: személyenként és vendégéjszakánként 300 Ft; b) 112 a 32. § a) 2. pontja alapján: az adóalap 4%-a;",
+        "url": "https://njt.jog.gov.hu/jogszabaly/1990-100-00-00"
+      },
+      {
+        "text": "31. § A 30. § (1) bekezdésének a) pontja szerinti adókötelezettség alól mentes: a) 102 a 18. életévét be nem töltött magánszemély;",
+        "url": "https://njt.jog.gov.hu/jogszabaly/1990-100-00-00"
+      },
+      {
+        "text": "(1) A 30. § (1) bekezdés a) pontja alapján fizetendő adót: a) a szálláshely ellenérték fejében történő átengedése esetén a szállásdíjjal együtt a szállásadó,",
+        "url": "https://njt.jog.gov.hu/jogszabaly/1990-100-00-00"
+      },
+      {
+        "text": "c) 21 az adó mértékét – az e törvényben meghatározott felső határokra, illetőleg a 16. § a) pontjában , a 22. § a) pontjában , a 26. §-ában , a 33. §-ának a) pontjában meghatározott felső határoknak 2005. évre a KSH által 2003. évre vonatkozóan közzétett fogyasztói árszínvonal-változással, 2006. évtől pedig a 2003. évre és az adóévet megelőző második évig eltelt évek fogyasztói árszínvonal változásai szorzatával növelt összegére (a felső határ és a felső határ növelt összege együtt: adómaximum) figyelemmel – megállapítsa,",
+        "url": "https://njt.jog.gov.hu/jogszabaly/1990-100-00-00"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "147. § (1) A harmadik országbeli állampolgár a magyarországi szálláshelyét köteles a következő adatok közlésével az idegenrendészeti hatóságnak bejelenteni: a) természetes személyazonosító adatok, b) az úti okmány azonosító adatai, c) a szálláshely címe, d) a szálláshely igénybevételének kezdő és várható befejező időpontja, és e) a vízum vagy tartózkodási engedély száma.",
+        "url": "https://njt.jog.gov.hu/jogszabaly/2023-90-00-00"
+      },
+      {
+        "text": "(2) A kereskedelmi szálláshelyen vagy jogi személy által fenntartott egyéb szálláshelyen megszálló harmadik országbeli állampolgárnak a turisztikai térségek fejlesztésének állami feladatairól szóló 2016. évi CLVI. törvény (a továbbiakban: Turizmus tv.) 6/B. alcím ében meghatározott adatait a szállásadó a harmadik országbeli állampolgár szálláshelyre történő bejelentkezésekor a Turizmus tv. -ben meghatározott módon a Kormány által kijelölt tárhelyszolgáltató tárhelyén rögzíti.",
+        "url": "https://njt.jog.gov.hu/jogszabaly/2023-90-00-00"
+      },
+      {
+        "text": "(3) A (2) bekezdés szerint rögzített adatokat az idegenrendészeti hatóság a tárhelyszolgáltató útján a szálláshely-szolgáltatótól, informatikai alkalmazás útján veszi át és azokról a tartózkodás jogszerűségének nyomon követése érdekében nyilvántartást vezet.",
+        "url": "https://njt.jog.gov.hu/jogszabaly/2023-90-00-00"
+      },
+      {
+        "text": "(4) A harmadik országbeli állampolgár a szálláshelyét, illetve a szálláshelyének megváltozását az idegenrendészeti ügyindítási elektronikus felületen – elektronikus regisztrálást követően – elektronikus úton jelenti be.",
+        "url": "https://njt.jog.gov.hu/jogszabaly/2023-90-00-00"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "idegenforgalmi-ado",
+      "name": "Tourist tax (idegenforgalmi adó), municipal",
+      "kind": "tourist-tax",
+      "fee": null,
+      "per": "person-per-night",
+      "paidAt": "at-accommodation",
+      "appliesTo": "all",
+      "exemptions": "Persons under 18.",
+      "url": null,
+      "text": "A private individual who is not a permanent resident and spends at least one guest night in a municipality's area is liable to the tourist tax. The municipality sets the rate within the upper limits: 300 Ft per person per guest night, increased in line with consumer-price changes, or 4% of the tax base. Persons under 18 are exempt. Where accommodation is provided for payment, the host pays the tax together with the accommodation fee.",
+      "source": {
+        "url": "https://njt.jog.gov.hu/jogszabaly/1990-100-00-00",
+        "name": "Nemzeti Jogszabálytár — Act C of 1990 on local taxes",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "1990. évi C. törvény a helyi adókról, 6. § c), 30–34. §"
+      },
+      "feeText": "Set by the municipality within upper limits: 300 Ft per person per guest night (increased in line with consumer-price changes, as the Act provides), or 4% of the tax base."
+    }
+  ]
 }

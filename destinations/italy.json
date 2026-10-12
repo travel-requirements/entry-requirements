@@ -21,7 +21,7 @@
   ],
   "summary": "Italy is part of the Schengen Area: EU citizens travel freely, and Swiss and EEA nationals enter with a valid identity card or passport; nationals of the countries and territories on the EU's visa-exempt list (Annex II of Regulation (EU) 2018/1806) can stay up to 90 days in any 180-day period (the ETIAS travel authorisation is not yet in operation), and nationals of the countries on its visa-required list (Annex I) need a Schengen short-stay visa (standard fee €90 under the Visa Code). The Foreign Ministry's Visa for Italy portal asks four questions to find out whether you need a visa for Italy.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -47,7 +47,10 @@
     ],
     "modules": [
       "driving",
-      "stay-window"
+      "stay-window",
+      "overstay",
+      "levies",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -3528,6 +3531,73 @@
         "Arriving from outside the EU, the EU's Your Europe portal gives a duty-free allowance of 4 litres of still wine and 16 litres of beer, plus 1 litre of spirits over 22% vol. (or 2 litres of fortified or sparkling wine); 200 cigarettes (or 100 cigarillos, 50 cigars or 250 g of tobacco) where the higher tobacco limit applies, since a higher or lower limit may apply depending on the EU country; and other goods worth up to €300, or €430 for travellers by air and sea. Under-17s are not entitled to a duty-free allowance for tobacco or alcohol.",
         "Arriving from another EU country, Your Europe says no further payments are due on alcohol and tobacco bought for your own use and not for resale. Each EU country sets guideline quantities, which may not be lower than, for example, 800 cigarettes or 10 litres of spirits; if customs suspect goods are not for your own use, you may be asked to prove that they are."
       ]
+    },
+    "overstay": {
+      "fine": {
+        "amount": 5000,
+        "currency": "EUR",
+        "per": "incident",
+        "maxAmount": 10000
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "Unless the act is a more serious crime, a foreigner who enters or remains in Italy in breach of the Consolidated Immigration Act or of art. 1 of Law 68/2007 is punished with a fine of 5,000 to 10,000 euros. The same sanction as for not declaring presence applies to a foreigner who declared their presence and stayed beyond three months, or beyond the shorter period set in the entry visa. The re-entry ban after expulsion lasts not less than three and not more than five years, set by taking into account all the circumstances of the case.",
+      "source": {
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1998-07-25;286~art10bis",
+        "name": "Normattiva (Istituto Poligrafico e Zecca dello Stato) — Legislative Decree 286/1998 (Consolidated Immigration Act), art. 10-bis",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "D.Lgs. 25 luglio 1998, n. 286, art. 10-bis c.1 and art. 13 c.14; Legge 28 maggio 2007, n. 68, art. 1 c.3",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2007-05-28;68",
+            "name": "Official page — www.normattiva.it",
+            "lastVerified": "2026-10-12"
+          },
+          {
+            "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1998-07-25;286~art13",
+            "name": "Official page — www.normattiva.it",
+            "lastVerified": "2026-10-12"
+          },
+          {
+            "url": "https://www.poliziadistato.it/articolo/10618",
+            "name": "Official page — www.poliziadistato.it",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": 192,
+      "responsibility": "either",
+      "appliesTo": "all",
+      "penaltyText": "Failure to declare presence, unless the delay is due to force majeure, leads to expulsion under art. 13 of the Consolidated Immigration Act.",
+      "url": null,
+      "text": "On entry, or within eight days of entry when arriving from a Schengen country, a foreigner declares their presence to the border authority or to the questore of the province where they are. Failure to do so, unless the delay is due to force majeure, leads to expulsion. The Polizia di Stato says that for those staying in hotels or other accommodation, the registration form signed at check-in is the declaration of presence. Hotels and all other accommodation must send guests' details to the Questura through the Alloggiati service within 24 hours of arrival, or on arrival if the stay is shorter than 24 hours.",
+      "source": {
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2007-05-28;68",
+        "name": "Normattiva — Law 68/2007 on short stays of foreigners for visits, business, tourism and study, art. 1",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Legge 28 maggio 2007, n. 68, art. 1 c.2–3; TULPS art. 109 (hotel reporting)",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.poliziadistato.it/articolo/10618",
+            "name": "Official page — www.poliziadistato.it",
+            "lastVerified": "2026-10-12"
+          },
+          {
+            "url": "https://alloggiatiweb.poliziadistato.it/PortaleAlloggiati/",
+            "name": "Official page — alloggiatiweb.poliziadistato.it",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -4203,6 +4273,186 @@
         "text": "Visto nazionale per motivi di studio",
         "url": "https://ambwashingtondc.esteri.it/wp-content/uploads/2026/09/20261001-20261231-Estratto-tabella-consolare-IV-trimestre-2026_dal-01.10.2026-al-31.12.2026_POS.pdf"
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "1. Salvo che il fatto costituisca più grave reato, lo straniero che fa ingresso ovvero si trattiene nel territorio dello Stato, in violazione delle disposizioni del presente testo unico nonché di quelle di cui all'articolo 1 della legge 28 maggio 2007, n. 68, è punito con l'ammenda da 5.000 a 10.000 euro.",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1998-07-25;286~art10bis"
+      },
+      {
+        "text": "La medesima sanzione si applica qualora lo straniero, avendo presentato la dichiarazione di cui al comma 2, si sia trattenuto nel territorio dello Stato oltre i tre mesi o il minore termine stabilito nel visto di ingresso.",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2007-05-28;68"
+      },
+      {
+        "text": "14. Il divieto di cui al comma 13 opera per un periodo non inferiore a tre anni e non superiore a cinque anni, la cui durata è determinata tenendo conto di tutte le circostanze pertinenti il singolo caso.",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1998-07-25;286~art13"
+      },
+      {
+        "text": "As of August 8, 2009 a new bill (Law no. 94 of 15 July 2009) makes it a crime to enter or stay in Italy illegally. Therefore, foreign nationals caught entering or staying in Italy without permission commit the offence of illegal immigration, which is punishable by a fine ranging from 5,000 to 10,000 Euros.",
+        "url": "https://www.poliziadistato.it/articolo/10618"
+      }
+    ],
+    "levies.imposta-di-soggiorno": [
+      {
+        "text": "1. I comuni capoluogo di provincia, le unioni di comuni nonché i comuni inclusi negli elenchi regionali delle località turistiche o città d'arte possono istituire, con deliberazione del consiglio, un'imposta di soggiorno a carico di coloro che alloggiano nelle strutture ricettive situate sul proprio territorio, da applicare, secondo criteri di gradualità in proporzione al prezzo, sino a 5 euro per notte di soggiorno.",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-03-14;23~art4"
+      },
+      {
+        "text": "1-bis. Nei comuni capoluogo di provincia che, in base all'ultima rilevazione resa disponibile da parte delle amministrazioni pubbliche competenti per la raccolta e l'elaborazione di dati statistici, abbiano avuto presenze turistiche in numero venti volte superiore a quello dei residenti, l'imposta di cui al presente articolo può essere applicata fino all'importo massimo di cui all'articolo 14, comma 16, lettera e), del decreto-legge 31 maggio 2010, n. 78, convertito, con modificazioni, dalla legge 30 luglio 2010, n. 122.",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-03-14;23~art4"
+      },
+      {
+        "text": "1-ter. Il gestore della struttura ricettiva è responsabile del pagamento dell'imposta di soggiorno di cui al comma 1 e del contributo di soggiorno di cui all'articolo 14, comma 16, lettera e), del decreto legge 31 maggio 2010, n. 78, convertito, con modificazioni, dalla legge 30 luglio 2010, n. 122, con diritto di rivalsa sui soggetti passivi,",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-03-14;23~art4"
+      }
+    ],
+    "levies.imposta-di-soggiorno.feeText": [
+      {
+        "text": "1. I comuni capoluogo di provincia, le unioni di comuni nonché i comuni inclusi negli elenchi regionali delle località turistiche o città d'arte possono istituire, con deliberazione del consiglio, un'imposta di soggiorno a carico di coloro che alloggiano nelle strutture ricettive situate sul proprio territorio, da applicare, secondo criteri di gradualità in proporzione al prezzo, sino a 5 euro per notte di soggiorno.",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-03-14;23~art4"
+      },
+      {
+        "text": "1-bis. Nei comuni capoluogo di provincia che, in base all'ultima rilevazione resa disponibile da parte delle amministrazioni pubbliche competenti per la raccolta e l'elaborazione di dati statistici, abbiano avuto presenze turistiche in numero venti volte superiore a quello dei residenti, l'imposta di cui al presente articolo può essere applicata fino all'importo massimo di cui all'articolo 14, comma 16, lettera e), del decreto-legge 31 maggio 2010, n. 78, convertito, con modificazioni, dalla legge 30 luglio 2010, n. 122.",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-03-14;23~art4"
+      },
+      {
+        "text": "1-ter. Il gestore della struttura ricettiva è responsabile del pagamento dell'imposta di soggiorno di cui al comma 1 e del contributo di soggiorno di cui all'articolo 14, comma 16, lettera e), del decreto legge 31 maggio 2010, n. 78, convertito, con modificazioni, dalla legge 30 luglio 2010, n. 122, con diritto di rivalsa sui soggetti passivi,",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-03-14;23~art4"
+      }
+    ],
+    "levies.contributo-di-sbarco": [
+      {
+        "text": "3-bis. I comuni che hanno sede giuridica nelle isole minori e i comuni nel cui territorio insistono isole minori possono istituire, con regolamento da adottare ai sensi dell'articolo 52 del decreto legislativo 15 dicembre 1997, n.446, e successive modificazioni, in alternativa all'imposta di soggiorno di cui al comma 1 del presente articolo, un contributo di sbarco, da applicare fino ad un massimo di euro 2,50, ai passeggeri che sbarcano sul territorio dell'isola minore, utilizzando vettori che forniscono collegamenti di linea o vettori aeronavali che svolgono servizio di trasporto di persone a fini commerciali, abilitati e autorizzati ad effettuare collegamenti verso l'isola.",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-03-14;23~art4"
+      },
+      {
+        "text": "Il contributo di sbarco è riscosso, unitamente al prezzo del biglietto, da parte delle compagnie di navigazione e aeree o dei soggetti che svolgono servizio di trasporto di persone a fini commerciali, che sono responsabili del pagamento del contributo, con diritto di rivalsa sui soggetti passivi,",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-03-14;23~art4"
+      },
+      {
+        "text": "Il contributo di sbarco non è dovuto dai soggetti residenti nel comune, dai lavoratori, dagli studenti pendolari, nonché dai componenti dei nuclei familiari dei soggetti che risultino aver pagato l'imposta municipale propria nel medesimo comune e che sono parificati ai residenti.",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-03-14;23~art4"
+      },
+      {
+        "text": "possono altresì prevedere un aumento del contributo fino ad un massimo di euro 5 in relazione a determinati periodi di tempo.",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-03-14;23~art4"
+      }
+    ],
+    "levies.contributo-di-sbarco.exemptions": [
+      {
+        "text": "3-bis. I comuni che hanno sede giuridica nelle isole minori e i comuni nel cui territorio insistono isole minori possono istituire, con regolamento da adottare ai sensi dell'articolo 52 del decreto legislativo 15 dicembre 1997, n.446, e successive modificazioni, in alternativa all'imposta di soggiorno di cui al comma 1 del presente articolo, un contributo di sbarco, da applicare fino ad un massimo di euro 2,50, ai passeggeri che sbarcano sul territorio dell'isola minore, utilizzando vettori che forniscono collegamenti di linea o vettori aeronavali che svolgono servizio di trasporto di persone a fini commerciali, abilitati e autorizzati ad effettuare collegamenti verso l'isola.",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-03-14;23~art4"
+      },
+      {
+        "text": "Il contributo di sbarco è riscosso, unitamente al prezzo del biglietto, da parte delle compagnie di navigazione e aeree o dei soggetti che svolgono servizio di trasporto di persone a fini commerciali, che sono responsabili del pagamento del contributo, con diritto di rivalsa sui soggetti passivi,",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-03-14;23~art4"
+      },
+      {
+        "text": "Il contributo di sbarco non è dovuto dai soggetti residenti nel comune, dai lavoratori, dagli studenti pendolari, nonché dai componenti dei nuclei familiari dei soggetti che risultino aver pagato l'imposta municipale propria nel medesimo comune e che sono parificati ai residenti.",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-03-14;23~art4"
+      },
+      {
+        "text": "possono altresì prevedere un aumento del contributo fino ad un massimo di euro 5 in relazione a determinati periodi di tempo.",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-03-14;23~art4"
+      }
+    ],
+    "levies.contributo-di-sbarco.feeText": [
+      {
+        "text": "3-bis. I comuni che hanno sede giuridica nelle isole minori e i comuni nel cui territorio insistono isole minori possono istituire, con regolamento da adottare ai sensi dell'articolo 52 del decreto legislativo 15 dicembre 1997, n.446, e successive modificazioni, in alternativa all'imposta di soggiorno di cui al comma 1 del presente articolo, un contributo di sbarco, da applicare fino ad un massimo di euro 2,50, ai passeggeri che sbarcano sul territorio dell'isola minore, utilizzando vettori che forniscono collegamenti di linea o vettori aeronavali che svolgono servizio di trasporto di persone a fini commerciali, abilitati e autorizzati ad effettuare collegamenti verso l'isola.",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-03-14;23~art4"
+      },
+      {
+        "text": "Il contributo di sbarco è riscosso, unitamente al prezzo del biglietto, da parte delle compagnie di navigazione e aeree o dei soggetti che svolgono servizio di trasporto di persone a fini commerciali, che sono responsabili del pagamento del contributo, con diritto di rivalsa sui soggetti passivi,",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-03-14;23~art4"
+      },
+      {
+        "text": "Il contributo di sbarco non è dovuto dai soggetti residenti nel comune, dai lavoratori, dagli studenti pendolari, nonché dai componenti dei nuclei familiari dei soggetti che risultino aver pagato l'imposta municipale propria nel medesimo comune e che sono parificati ai residenti.",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-03-14;23~art4"
+      },
+      {
+        "text": "possono altresì prevedere un aumento del contributo fino ad un massimo di euro 5 in relazione a determinati periodi di tempo.",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-03-14;23~art4"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "2. Al momento dell'ingresso o, in caso di provenienza da Paesi dell'area Schengen, entro otto giorni dall'ingresso, lo straniero dichiara la sua presenza, rispettivamente all'autorità di frontiera o al questore della provincia in cui si trova, secondo le modalità stabilite con decreto del Ministro dell'interno.",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2007-05-28;68"
+      },
+      {
+        "text": "3. In caso di inosservanza degli obblighi di cui al comma 2, salvo che il ritardo sia dipeso da forza maggiore, lo straniero è espulso ai sensi dell'articolo 13 del citato testo unico di cui al decreto legislativo 25 luglio 1998, n. 286, e successive modificazioni.",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2007-05-28;68"
+      },
+      {
+        "text": "- aliens arriving from countries which apply the Schengen Agreement must report their presence to the local Questura (central police station in the province) filling out the relevant form (dichiarazione di presenza), within 8 days of their arrival; for those staying in hotels or other reception facilities the registration form submitted to the hotel management upon check-in, signed by the foreign guest on arrival, constitutes the declaration of presence. The hotel will provide a copy of this form to the foreign guest who can show it to police officers, if requested.",
+        "url": "https://www.poliziadistato.it/articolo/10618"
+      },
+      {
+        "text": "I gestori di esercizi alberghieri e di tutte le altre strutture ricettive,ENTRO LE 24 ORE successive all'arrivo, devono comunicare alle questure territorialmente competenti, ESCLUSIVAMENTE per il tramite del Servizio Alloggiati, le generalità delle persone alloggiate. Se il soggiorno è inferiore alle 24 ore le generalità vanno inviate all'arrivo stesso.",
+        "url": "https://alloggiatiweb.poliziadistato.it/PortaleAlloggiati/"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "2. Al momento dell'ingresso o, in caso di provenienza da Paesi dell'area Schengen, entro otto giorni dall'ingresso, lo straniero dichiara la sua presenza, rispettivamente all'autorità di frontiera o al questore della provincia in cui si trova, secondo le modalità stabilite con decreto del Ministro dell'interno.",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2007-05-28;68"
+      },
+      {
+        "text": "3. In caso di inosservanza degli obblighi di cui al comma 2, salvo che il ritardo sia dipeso da forza maggiore, lo straniero è espulso ai sensi dell'articolo 13 del citato testo unico di cui al decreto legislativo 25 luglio 1998, n. 286, e successive modificazioni.",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2007-05-28;68"
+      },
+      {
+        "text": "- aliens arriving from countries which apply the Schengen Agreement must report their presence to the local Questura (central police station in the province) filling out the relevant form (dichiarazione di presenza), within 8 days of their arrival; for those staying in hotels or other reception facilities the registration form submitted to the hotel management upon check-in, signed by the foreign guest on arrival, constitutes the declaration of presence. The hotel will provide a copy of this form to the foreign guest who can show it to police officers, if requested.",
+        "url": "https://www.poliziadistato.it/articolo/10618"
+      },
+      {
+        "text": "I gestori di esercizi alberghieri e di tutte le altre strutture ricettive,ENTRO LE 24 ORE successive all'arrivo, devono comunicare alle questure territorialmente competenti, ESCLUSIVAMENTE per il tramite del Servizio Alloggiati, le generalità delle persone alloggiate. Se il soggiorno è inferiore alle 24 ore le generalità vanno inviate all'arrivo stesso.",
+        "url": "https://alloggiatiweb.poliziadistato.it/PortaleAlloggiati/"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "imposta-di-soggiorno",
+      "name": "Imposta di soggiorno (municipal tourist tax)",
+      "kind": "tourist-tax",
+      "fee": null,
+      "per": "person-per-night",
+      "paidAt": "at-accommodation",
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "Provincial capitals, unions of municipalities and municipalities on regional lists of tourist resorts or art cities may introduce, by council resolution, a tax on people staying in accommodation in their territory. It is graduated by price, up to 5 euro per night of stay. Provincial capitals with tourist presences twenty times their residents may apply it up to the maximum set by art. 14(16)(e) of Decree-Law 78/2010. The accommodation manager is responsible for paying it, with a right of recourse against the guests.",
+      "source": {
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-03-14;23~art4",
+        "name": "Normattiva — Legislative Decree 23/2011, art. 4 (imposta di soggiorno)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "D.Lgs. 14 marzo 2011, n. 23, art. 4"
+      },
+      "feeText": "Set by each municipality that introduces it, graduated by price, up to 5 euro per night of stay. Provincial capitals with tourist presences twenty times the resident population may apply a higher maximum."
+    },
+    {
+      "id": "contributo-di-sbarco",
+      "name": "Contributo di sbarco (landing fee for minor islands)",
+      "kind": "access-fee",
+      "fee": null,
+      "per": "person-per-trip",
+      "paidAt": "included-in-ticket",
+      "appliesTo": "all",
+      "exemptions": "Residents of the municipality; workers; commuting students; and family members of people who have paid the municipal property tax in the same municipality, who are treated as residents.",
+      "url": null,
+      "text": "Municipalities on minor islands may, instead of the tourist tax, introduce a landing contribution of up to EUR 2.50 for passengers who disembark on the island using scheduled or commercial carriers. The shipping and air companies collect it together with the ticket price. Municipalities may raise it to up to EUR 5 for certain periods. Residents, workers, commuting students and family members of people who paid the municipal property tax there do not pay it.",
+      "source": {
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-03-14;23~art4",
+        "name": "Normattiva — Legislative Decree 23/2011, art. 4 c.3-bis (contributo di sbarco)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "D.Lgs. 14 marzo 2011, n. 23, art. 4, comma 3-bis"
+      },
+      "feeText": "Set by the municipality, up to EUR 2.50 per passenger disembarking on the minor island, as an alternative to the tourist tax; municipalities may raise it to up to EUR 5 for certain periods."
+    }
+  ]
 }

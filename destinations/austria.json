@@ -24,7 +24,7 @@
   ],
   "summary": "Austria is in the Schengen area. EU nationals have the right to travel freely there; nationals of the third countries in Annex II of Regulation (EU) 2018/1806 are exempt from the visa requirement for stays of no more than 90 days in any 180-day period, and nationals of the countries in Annex I must hold a visa. The European Commission gives the Schengen visa fee as €90 for adults, €35 for applicants from Armenia, Azerbaijan and Belarus and €67.50 for applicants from Cabo Verde. ETIAS is not in operation yet. For the Red-White-Red Card, migration.gv.at says applicants subject to visa requirements apply for a category D visa to enter and collect their residence title.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-25",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -52,7 +52,10 @@
     ],
     "modules": [
       "driving",
-      "stay-window"
+      "stay-window",
+      "overstay",
+      "levies",
+      "post-arrival-registration"
     ]
   },
   "visaPolicy": {
@@ -3592,6 +3595,44 @@
         "The EU says that when entering from a non-EU country you can bring, among other allowances, 1 litre of spirits over 22% vol. and other goods worth up to €300 (€430 by air or sea); the tobacco allowance is 200 cigarettes under the higher limit or 40 under the lower limit, depending on the EU country.",
         "The EU says that for goods for your own use bought in another EU country, no further payments are due in any other EU country. Each country sets guideline values that may not be lower than 800 cigarettes or 10 litres of spirits; if customs suspect goods are not for your own use, you may be asked to prove that they are."
       ]
+    },
+    "overstay": {
+      "fine": {
+        "amount": 500,
+        "currency": "EUR",
+        "per": "incident",
+        "maxAmount": 2500
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "A foreigner staying unlawfully in Austria commits an administrative offence punishable by a fine of EUR 500 to 2,500, or up to two weeks' imprisonment if the fine cannot be collected. A person already finally punished once for this offence faces a fine of EUR 2,500 to 7,500 or up to four weeks' imprisonment. The offence can be dealt with by an on-the-spot penalty order of EUR 500. A stay is lawful if the person entered lawfully and did not exceed the time limits or conditions of the visa or visa-free stay, or the period set by agreement, law or ordinance. An entry ban is issued for at most five years, subject to the law's exceptions. One of the listed grounds is a final penalty for an offence under the Aliens Police Act or the Settlement and Residence Act.",
+      "source": {
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004241",
+        "name": "Rechtsinformationssystem des Bundes (RIS) — Fremdenpolizeigesetz 2005 (Aliens Police Act 2005), consolidated version",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Fremdenpolizeigesetz 2005 (FPG), § 120 Abs. 1a (fine); § 31 Abs. 1 Z 1 (lawful stay); § 53 Abs. 2 Z 3 (entry ban); § 39 Abs. 3 Z 3 (arrest)"
+      }
+    },
+    "postArrivalRegistration": {
+      "required": true,
+      "withinHours": 24,
+      "responsibility": "traveler",
+      "appliesTo": "all",
+      "penaltyText": "Administrative offence under the Registration Act (§ 22(1) MeldeG): fine up to EUR 726, or up to EUR 2,180 for a repeat offence.",
+      "url": null,
+      "text": "Anyone who takes accommodation in a dwelling or a lodging establishment must be registered. A guest in a lodging establishment must register immediately, at the latest within 24 hours of arrival. Registration is complete once the establishment has the guest's personal data (for foreign guests also the type, number, issue date and issuing authority of the travel document) and the guest has confirmed it by signature. The duty lies with the guest, but the establishment may make the entries in its guest register. The registration authority and the police may inspect these records at any time on request. A person who takes accommodation in a dwelling must register with the registration authority within three days. People given accommodation in a dwelling for no more than three days are exempt. The Registration Act sets a fine of up to EUR 726, or up to EUR 2,180 for a repeat offence, for its administrative offences.",
+      "source": {
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005799",
+        "name": "Rechtsinformationssystem des Bundes (RIS) — Meldegesetz 1991 (Registration Act), consolidated version",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Meldegesetz 1991 (MeldeG), §§ 2, 3, 5, 7, 10, 22"
+      }
     }
   },
   "countryFacts": {
@@ -4359,6 +4400,221 @@
         "text": "eine Aufenthaltsbewilligung „Student“",
         "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004242"
       }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "Wer als Fremder sich nicht rechtmäßig im Bundesgebiet aufhält, begeht eine Verwaltungsübertretung und ist mit Geldstrafe von 500 Euro bis zu 2 500 Euro, im Fall ihrer Uneinbringlichkeit mit Freiheitsstrafe bis zu zwei Wochen, zu bestrafen. Wer wegen einer solchen Tat bereits einmal rechtskräftig bestraft wurde, ist mit Geldstrafe von 2 500 Euro bis zu 7 500 Euro oder mit Freiheitsstrafe bis zu vier Wochen zu bestrafen.",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004241"
+      },
+      {
+        "text": "Die Verwaltungsübertretung gemäß erster Satz kann durch Organstrafverfügung gemäß § 50 VStG in der Höhe von 500 Euro geahndet werden.",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004241"
+      },
+      {
+        "text": "wenn sie rechtmäßig eingereist sind und während des Aufenthalts im Bundesgebiet die Befristungen oder Bedingungen des Einreisetitels oder des visumfreien Aufenthaltes oder die durch zwischenstaatliche Vereinbarungen, Bundesgesetz oder Verordnung bestimmte Aufenthaltsdauer nicht überschritten haben;",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004241"
+      },
+      {
+        "text": "Ein Einreiseverbot gemäß Abs. 1 ist, vorbehaltlich des Abs. 3, für die Dauer von höchstens fünf Jahren zu erlassen.",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004241"
+      },
+      {
+        "text": "wegen einer Übertretung dieses Bundesgesetzes oder des Niederlassungs- und Aufenthaltsgesetzes rechtskräftig bestraft worden ist, sofern es sich dabei nicht um eine in Abs. 3 genannte Übertretung handelt;",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004241"
+      },
+      {
+        "text": "innerhalb von 14 Tagen, nachdem sein visumfreier oder visumpflichtiger Aufenthalt im Bundesgebiet nicht mehr rechtmäßig ist, betreten wird, oder",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004241"
+      }
+    ],
+    "levies.vienna-ortstaxe": [
+      {
+        "text": "Wenn Sie eine Unterkunft im Gebiet der Stadt Wien vorübergehend (nicht länger als 3 Monate) vermieten, müssen Sie eine Steuer bezahlen.",
+        "url": "https://www.wien.gv.at/amtswege/ortstaxe"
+      },
+      {
+        "text": "Die Ortstaxe muss von der Inhaberin bzw. dem Inhaber der Unterkunft eingehoben und abgeführt werden.",
+        "url": "https://www.wien.gv.at/amtswege/ortstaxe"
+      },
+      {
+        "text": "Höhe der Ortstaxe ab 1. Juli 2026 bis 30. Juni 2027: 5 Prozent des Entgeltes für den Aufenthalt (ohne Umsatzsteuer, ohne Frühstück)",
+        "url": "https://www.wien.gv.at/amtswege/ortstaxe"
+      },
+      {
+        "text": "Höhe der Ortstaxe ab 1. Juli 2027: 8 Prozent des Entgeltes für den Aufenthalt (ohne Umsatzsteuer, ohne Frühstück)",
+        "url": "https://www.wien.gv.at/amtswege/ortstaxe"
+      },
+      {
+        "text": "Minderjährige, die sich zum Schulbesuch, zur Berufsausbildung oder in Jugendherbergen aufhalten",
+        "url": "https://www.wien.gv.at/amtswege/ortstaxe"
+      },
+      {
+        "text": "Studierende an Wiener Hoch- oder Fachschulen",
+        "url": "https://www.wien.gv.at/amtswege/ortstaxe"
+      },
+      {
+        "text": "Personen, die länger als 3 Monate ununterbrochen in der Unterkunft wohnen.",
+        "url": "https://www.wien.gv.at/amtswege/ortstaxe"
+      }
+    ],
+    "levies.vienna-ortstaxe.exemptions": [
+      {
+        "text": "Wenn Sie eine Unterkunft im Gebiet der Stadt Wien vorübergehend (nicht länger als 3 Monate) vermieten, müssen Sie eine Steuer bezahlen.",
+        "url": "https://www.wien.gv.at/amtswege/ortstaxe"
+      },
+      {
+        "text": "Die Ortstaxe muss von der Inhaberin bzw. dem Inhaber der Unterkunft eingehoben und abgeführt werden.",
+        "url": "https://www.wien.gv.at/amtswege/ortstaxe"
+      },
+      {
+        "text": "Höhe der Ortstaxe ab 1. Juli 2026 bis 30. Juni 2027: 5 Prozent des Entgeltes für den Aufenthalt (ohne Umsatzsteuer, ohne Frühstück)",
+        "url": "https://www.wien.gv.at/amtswege/ortstaxe"
+      },
+      {
+        "text": "Höhe der Ortstaxe ab 1. Juli 2027: 8 Prozent des Entgeltes für den Aufenthalt (ohne Umsatzsteuer, ohne Frühstück)",
+        "url": "https://www.wien.gv.at/amtswege/ortstaxe"
+      },
+      {
+        "text": "Minderjährige, die sich zum Schulbesuch, zur Berufsausbildung oder in Jugendherbergen aufhalten",
+        "url": "https://www.wien.gv.at/amtswege/ortstaxe"
+      },
+      {
+        "text": "Studierende an Wiener Hoch- oder Fachschulen",
+        "url": "https://www.wien.gv.at/amtswege/ortstaxe"
+      },
+      {
+        "text": "Personen, die länger als 3 Monate ununterbrochen in der Unterkunft wohnen.",
+        "url": "https://www.wien.gv.at/amtswege/ortstaxe"
+      }
+    ],
+    "levies.vienna-ortstaxe.feeText": [
+      {
+        "text": "Wenn Sie eine Unterkunft im Gebiet der Stadt Wien vorübergehend (nicht länger als 3 Monate) vermieten, müssen Sie eine Steuer bezahlen.",
+        "url": "https://www.wien.gv.at/amtswege/ortstaxe"
+      },
+      {
+        "text": "Die Ortstaxe muss von der Inhaberin bzw. dem Inhaber der Unterkunft eingehoben und abgeführt werden.",
+        "url": "https://www.wien.gv.at/amtswege/ortstaxe"
+      },
+      {
+        "text": "Höhe der Ortstaxe ab 1. Juli 2026 bis 30. Juni 2027: 5 Prozent des Entgeltes für den Aufenthalt (ohne Umsatzsteuer, ohne Frühstück)",
+        "url": "https://www.wien.gv.at/amtswege/ortstaxe"
+      },
+      {
+        "text": "Höhe der Ortstaxe ab 1. Juli 2027: 8 Prozent des Entgeltes für den Aufenthalt (ohne Umsatzsteuer, ohne Frühstück)",
+        "url": "https://www.wien.gv.at/amtswege/ortstaxe"
+      },
+      {
+        "text": "Minderjährige, die sich zum Schulbesuch, zur Berufsausbildung oder in Jugendherbergen aufhalten",
+        "url": "https://www.wien.gv.at/amtswege/ortstaxe"
+      },
+      {
+        "text": "Studierende an Wiener Hoch- oder Fachschulen",
+        "url": "https://www.wien.gv.at/amtswege/ortstaxe"
+      },
+      {
+        "text": "Personen, die länger als 3 Monate ununterbrochen in der Unterkunft wohnen.",
+        "url": "https://www.wien.gv.at/amtswege/ortstaxe"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration": [
+      {
+        "text": "Wer in einer Wohnung oder in einem Beherbergungsbetrieb Unterkunft nimmt oder eine solche Unterkunft aufgibt, ist zu melden.",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005799"
+      },
+      {
+        "text": "Wer als Gast in einem Beherbergungsbetrieb Unterkunft nimmt, hat sich unverzüglich, jedenfalls aber innerhalb von 24 Stunden nach dem Eintreffen im Beherbergungsbetrieb anzumelden.",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005799"
+      },
+      {
+        "text": "Die Anmeldung ist erfolgt, sobald dem Beherbergungsbetrieb Vor- und Familiennamen, Geburtsdatum, Geschlecht, Staatsangehörigkeit, Herkunftsland und Adresse samt Postleitzahl sowie – bei ausländischen Gästen – die Art, die Nummer, das Ausstellungsdatum und die ausstellende Behörde des Reisedokumentes bekannt gegeben wurden und der Meldepflichtige die Richtigkeit der Daten mit seiner Unterschrift bestätigt hat.",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005799"
+      },
+      {
+        "text": "Die Meldepflicht trifft den Unterkunftnehmer.",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005799"
+      },
+      {
+        "text": "In Beherbergungsbetrieben können die Eintragungen ins Gästeverzeichnis auch vom Inhaber des Beherbergungsbetriebes oder dessen Beauftragten vorgenommen werden, wenn der Meldepflichtige die erforderlichen Angaben macht.",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005799"
+      },
+      {
+        "text": "Der Meldebehörde und den Organen des öffentlichen Sicherheitsdienstes ist auf Verlangen jederzeit in diese Aufzeichnungen Einsicht zu gewähren.",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005799"
+      },
+      {
+        "text": "Wer in einer Wohnung Unterkunft nimmt, ist innerhalb von drei Tagen danach bei der Meldebehörde anzumelden.",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005799"
+      },
+      {
+        "text": "Menschen, denen in einer Wohnung nicht länger als drei Tage Unterkunft gewährt wird;",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005799"
+      },
+      {
+        "text": "begeht eine Verwaltungsübertretung und ist mit Geldstrafe bis zu 726 Euro, im Wiederholungsfall mit Geldstrafe bis zu 2 180 Euro, zu bestrafen.",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005799"
+      }
+    ],
+    "entryRequirements.postArrivalRegistration.penaltyText": [
+      {
+        "text": "Wer in einer Wohnung oder in einem Beherbergungsbetrieb Unterkunft nimmt oder eine solche Unterkunft aufgibt, ist zu melden.",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005799"
+      },
+      {
+        "text": "Wer als Gast in einem Beherbergungsbetrieb Unterkunft nimmt, hat sich unverzüglich, jedenfalls aber innerhalb von 24 Stunden nach dem Eintreffen im Beherbergungsbetrieb anzumelden.",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005799"
+      },
+      {
+        "text": "Die Anmeldung ist erfolgt, sobald dem Beherbergungsbetrieb Vor- und Familiennamen, Geburtsdatum, Geschlecht, Staatsangehörigkeit, Herkunftsland und Adresse samt Postleitzahl sowie – bei ausländischen Gästen – die Art, die Nummer, das Ausstellungsdatum und die ausstellende Behörde des Reisedokumentes bekannt gegeben wurden und der Meldepflichtige die Richtigkeit der Daten mit seiner Unterschrift bestätigt hat.",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005799"
+      },
+      {
+        "text": "Die Meldepflicht trifft den Unterkunftnehmer.",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005799"
+      },
+      {
+        "text": "In Beherbergungsbetrieben können die Eintragungen ins Gästeverzeichnis auch vom Inhaber des Beherbergungsbetriebes oder dessen Beauftragten vorgenommen werden, wenn der Meldepflichtige die erforderlichen Angaben macht.",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005799"
+      },
+      {
+        "text": "Der Meldebehörde und den Organen des öffentlichen Sicherheitsdienstes ist auf Verlangen jederzeit in diese Aufzeichnungen Einsicht zu gewähren.",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005799"
+      },
+      {
+        "text": "Wer in einer Wohnung Unterkunft nimmt, ist innerhalb von drei Tagen danach bei der Meldebehörde anzumelden.",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005799"
+      },
+      {
+        "text": "Menschen, denen in einer Wohnung nicht länger als drei Tage Unterkunft gewährt wird;",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005799"
+      },
+      {
+        "text": "begeht eine Verwaltungsübertretung und ist mit Geldstrafe bis zu 726 Euro, im Wiederholungsfall mit Geldstrafe bis zu 2 180 Euro, zu bestrafen.",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005799"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "vienna-ortstaxe",
+      "name": "Ortstaxe (Vienna local accommodation tax)",
+      "kind": "tourist-tax",
+      "fee": null,
+      "per": "booking",
+      "paidAt": "at-accommodation",
+      "appliesTo": "all",
+      "exemptions": "Minors staying for school, vocational training or in youth hostels; students at Viennese universities and colleges; people living in the accommodation for more than 3 months without interruption.",
+      "url": null,
+      "text": "Anyone who lets accommodation in Vienna temporarily (for no longer than 3 months) must pay the Ortstaxe. The host collects it and pays it over. From 1 July 2026 to 30 June 2027 it is 5% of the price of the stay (excluding VAT and breakfast); from 1 July 2027 it is 8%. Exempt: minors staying for school, vocational training or in youth hostels; students at Viennese universities and colleges; people living in the accommodation for more than 3 months without interruption.",
+      "source": {
+        "url": "https://www.wien.gv.at/amtswege/ortstaxe",
+        "name": "Stadt Wien — Ortstaxe (Vienna local accommodation tax)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Wiener Tourismusförderungsgesetz (WTFG)"
+      },
+      "feeText": "From 1 July 2026 to 30 June 2027: 5% of the price of the stay (excluding VAT and breakfast). From 1 July 2027: 8% of the price of the stay (excluding VAT and breakfast)."
+    }
+  ]
 }
