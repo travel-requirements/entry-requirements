@@ -43,7 +43,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -4022,6 +4023,37 @@
         "text": "Failure to exit within the permitted time frame constitutes an immigration violation, subject to fines, detention, or deportation.",
         "url": "https://immigration.go.ke/travelers-obligations/"
       }
+    ],
+    "levies.air-passenger-service-charge": [
+      {
+        "text": "The Bill, moved by Leader of the Majority Party, Hon. Kimani Ichung’wah, proposes that proceeds from the Air Passenger Service Charge (APSC) currently set at Ksh600 for domestic flights and USD50 for international flights — be shared among the Kenya Airports Authority (KAA), the Kenya Civil Aviation Authority (KCAA), the newly established Kenya Meteorological Service Authority (KMSA), and the Tourism Fund.",
+        "url": "https://www.parliament.go.ke/node/24449"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "air-passenger-service-charge",
+      "name": "Air Passenger Service Charge",
+      "kind": "departure-tax",
+      "fee": {
+        "amount": 50,
+        "currency": "USD"
+      },
+      "per": "person-per-trip",
+      "paidAt": null,
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "The Parliament of Kenya says the Air Passenger Service Charge is currently set at KSh 600 for domestic flights and USD 50 for international flights.",
+      "source": {
+        "url": "https://www.parliament.go.ke/node/24449",
+        "name": "Parliament of Kenya — news item on the Air Passenger Service Charge (Amendment) Bill (19 August 2025)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Air Passenger Service Charge Act (Cap. 475)"
+      }
+    }
+  ]
 }

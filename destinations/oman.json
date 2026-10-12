@@ -32,7 +32,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -4380,6 +4381,60 @@
         "text": "If you overstay or do not extend your visa or residency, the Omani authorities may fine and detain you. Fines can be up to 10 Omani rials a day, with a total maximum fine of 500 rials.",
         "url": "https://www.gov.uk/foreign-travel-advice/oman/entry-requirements"
       }
+    ],
+    "levies.passenger-service-charge": [
+      {
+        "text": "تقوم الشركة القائمة بإدارة المطار بتحصيل المبالغ المستحقة من رسوم المغادرة أو التحويل من جميع الركاب المسافرين على الرحلات الدولية في المطار، وتتولى هيئة الطيران المدني تحصيل هذه الرسوم في المطارات التي لا تديرها أي شركة.",
+        "url": "https://www.caa.gov.om/upload/files/%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%B1%D8%B3%D9%88%D9%85%20%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D9%8A%20%D8%AA%D9%82%D8%AF%D9%85%D9%87%D8%A7%20%D8%A7%D9%84%D9%87%D9%8A%D8%A6%D8%A9.%20.pdf"
+      },
+      {
+        "text": "تحدد رسوم العبور والمغادرة لجميع الركاب المسافرين على الرحلات الجوية الدولية في مطارات سلطنة عمان، والركاب المحولين على رحلات أخرى في الرحلات الجوية الدولية في مطارات سلطنة عمان، وركاب الرحلات الداخلية، وفقا للملحق رقم (٢) المرفق بهذه اللائحة.",
+        "url": "https://www.caa.gov.om/upload/files/%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%B1%D8%B3%D9%88%D9%85%20%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D9%8A%20%D8%AA%D9%82%D8%AF%D9%85%D9%87%D8%A7%20%D8%A7%D9%84%D9%87%D9%8A%D8%A6%D8%A9.%20.pdf"
+      },
+      {
+        "text": "قرار رقم ٤٧٤ / ٢٠٢٦ بإصدار لائحة رسوم الخدمات التي تقدمها هيئة الطيران المدني",
+        "url": "https://www.caa.gov.om/upload/files/%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%B1%D8%B3%D9%88%D9%85%20%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D9%8A%20%D8%AA%D9%82%D8%AF%D9%85%D9%87%D8%A7%20%D8%A7%D9%84%D9%87%D9%8A%D8%A6%D8%A9.%20.pdf"
+      },
+      {
+        "text": "4.1 Passenger service charge is payable by the airport users for every departing and departing transfer passenger:",
+        "url": "https://aim.caa.gov.om/eAIP_Oman/final/2026-09-03-Non-AIRAC/html/eAIP/GEN-4.1-en-GB.html"
+      },
+      {
+        "text": "4.2 Passenger Service Charge Per Departing Passenger Rate in OMR International 10 Domestic 2 Transfer 1",
+        "url": "https://aim.caa.gov.om/eAIP_Oman/final/2026-09-03-Non-AIRAC/html/eAIP/GEN-4.1-en-GB.html"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "passenger-service-charge",
+      "name": "Passenger service charge (international departures)",
+      "kind": "airport-fee",
+      "fee": {
+        "amount": 10,
+        "currency": "OMR"
+      },
+      "per": "person-per-trip",
+      "paidAt": null,
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "Civil Aviation Authority Decision No. 474/2026 says the company operating the airport collects the departure or transfer fees due from all passengers on international flights. The Authority's aeronautical information publication sets the passenger service charge at OMR 10 per departing international passenger, OMR 2 domestic and OMR 1 transfer, payable by airport users.",
+      "source": {
+        "url": "https://www.caa.gov.om/upload/files/%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%B1%D8%B3%D9%88%D9%85%20%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D9%8A%20%D8%AA%D9%82%D8%AF%D9%85%D9%87%D8%A7%20%D8%A7%D9%84%D9%87%D9%8A%D8%A6%D8%A9.%20.pdf",
+        "name": "Civil Aviation Authority of Oman — Decision No. 474/2026 issuing the regulation on service fees",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "CAA Decision No. 474/2026 (Official Gazette No. 1656), Regulation Arts. 5-6 and Annex 2; rate per eAIP GEN 4.1 (AMDT 3/26)",
+        "alsoStatedOn": [
+          {
+            "url": "https://aim.caa.gov.om/eAIP_Oman/final/2026-09-03-Non-AIRAC/html/eAIP/GEN-4.1-en-GB.html",
+            "name": "Civil Aviation Authority of Oman — eAIP GEN 4.1 Aerodrome charges (effective 3 September 2026)",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
+    }
+  ]
 }

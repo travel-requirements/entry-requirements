@@ -44,7 +44,8 @@
     "modules": [
       "driving",
       "stay-window",
-      "overstay"
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -3987,6 +3988,77 @@
         "text": "6458 sayılı Kanunun 54. Maddesine göre vize veya vize muafiyeti süresini on günden fazla aşanlar veya vizesi iptal edilenler hakkında sınır dışı etme kararı alınır. Ancak 10 günden az vize ihlali yapanların, ihlalden kaynaklanan para cezasını ödemeleri kaydıyla çıkışlarına izin verilir ve haklarında sınır dışı etme kararı alınmaz.",
         "url": "https://www.goc.gov.tr/vize-sss"
       }
+    ],
+    "levies.tr-accommodation-tax": [
+      {
+        "text": "6802 sayılı Gider Vergileri Kanununun “Konaklama vergisi” başlıklı 34 üncü maddesinin beşinci fıkrasında yer alan konaklama vergisi oranını 31/12/2026 tarihine kadar (bu tarih dâhil) %1 olarak yeniden belirleyen Karar, 01/05/2026 tarihli ve 33240 sayılı Resmi Gazete’de yayımlanmıştır.",
+        "url": "https://www.gib.gov.tr/duyuru-arsivi/guncel/17866_11263_sayili_cumhurbaskani_karari_resmi_gazetede_yayimlandi"
+      },
+      {
+        "text": "1 Mayıs 2026 tarihli ve 33240 sayılı Resmî Gazete’de yayımlanan 11263 Sayılı Cumhurbaşkanı Kararı ile, konaklama vergisi oranı 1 Mayıs 2026–31 Aralık 2026 tarihleri arasında geçerli olmak üzere %2’den %1’e düşürülmüştür.",
+        "url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFile?objectKey=DUYURU/UNIVERSAL/2026/2026_Konaklama_Vergisi_Rehberi.pdf"
+      },
+      {
+        "text": "Bu düzenleme kapsamında, belirtilen dönemde sunulan konaklama hizmetlerinde konaklama vergisi %1 oranında uygulanacaktır.",
+        "url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFile?objectKey=DUYURU/UNIVERSAL/2026/2026_Konaklama_Vergisi_Rehberi.pdf"
+      },
+      {
+        "text": "Konaklama vergisi, konaklama tesislerince düzenlenen fatura ve benzeri belgelerde ayrıca gösterilir.",
+        "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.6802.pdf"
+      }
+    ],
+    "levies.tr-accommodation-tax.feeText": [
+      {
+        "text": "6802 sayılı Gider Vergileri Kanununun “Konaklama vergisi” başlıklı 34 üncü maddesinin beşinci fıkrasında yer alan konaklama vergisi oranını 31/12/2026 tarihine kadar (bu tarih dâhil) %1 olarak yeniden belirleyen Karar, 01/05/2026 tarihli ve 33240 sayılı Resmi Gazete’de yayımlanmıştır.",
+        "url": "https://www.gib.gov.tr/duyuru-arsivi/guncel/17866_11263_sayili_cumhurbaskani_karari_resmi_gazetede_yayimlandi"
+      },
+      {
+        "text": "1 Mayıs 2026 tarihli ve 33240 sayılı Resmî Gazete’de yayımlanan 11263 Sayılı Cumhurbaşkanı Kararı ile, konaklama vergisi oranı 1 Mayıs 2026–31 Aralık 2026 tarihleri arasında geçerli olmak üzere %2’den %1’e düşürülmüştür.",
+        "url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFile?objectKey=DUYURU/UNIVERSAL/2026/2026_Konaklama_Vergisi_Rehberi.pdf"
+      },
+      {
+        "text": "Bu düzenleme kapsamında, belirtilen dönemde sunulan konaklama hizmetlerinde konaklama vergisi %1 oranında uygulanacaktır.",
+        "url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFile?objectKey=DUYURU/UNIVERSAL/2026/2026_Konaklama_Vergisi_Rehberi.pdf"
+      },
+      {
+        "text": "Konaklama vergisi, konaklama tesislerince düzenlenen fatura ve benzeri belgelerde ayrıca gösterilir.",
+        "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.6802.pdf"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "tr-accommodation-tax",
+      "name": "Accommodation tax (konaklama vergisi)",
+      "kind": "tourist-tax",
+      "fee": null,
+      "per": "booking",
+      "paidAt": "at-accommodation",
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "The Revenue Administration says that under Presidential Decision 11263, the accommodation tax applies at 1% instead of 2% to accommodation services provided from 1 May to 31 December 2026. The tax is shown separately on the invoice issued by the accommodation.",
+      "source": {
+        "url": "https://www.gib.gov.tr/duyuru-arsivi/guncel/17866_11263_sayili_cumhurbaskani_karari_resmi_gazetede_yayimlandi",
+        "name": "Revenue Administration of Türkiye (GİB) — Announcement on Presidential Decision 11263",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Gider Vergileri Kanunu No. 6802, Article 34(5); rate set by Presidential Decision No. 11263 (Resmî Gazete 1/5/2026, No. 33240)",
+        "alsoStatedOn": [
+          {
+            "url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFile?objectKey=DUYURU/UNIVERSAL/2026/2026_Konaklama_Vergisi_Rehberi.pdf",
+            "name": "Revenue Administration of Türkiye (GİB) — Accommodation tax guide 2026",
+            "lastVerified": "2026-10-12"
+          },
+          {
+            "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.6802.pdf",
+            "name": "Mevzuat Bilgi Sistemi — Law No. 6802 on Expenditure Taxes",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      },
+      "feeText": "1% of the price of accommodation services, from 1 May to 31 December 2026 (2% under the law outside that period)."
+    }
+  ]
 }

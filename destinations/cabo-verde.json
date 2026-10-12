@@ -30,7 +30,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -6875,6 +6876,74 @@
         "text": "Artigo 105.º Permanência irregular 1- A permanência de estrangeiros no país além do período autorizado constitui contraordenação punível com coima de 10.000$00 (dez mil escudos) a 50.000$00 (cinquenta mil escudos). 2- A mesma coima é aplicada quando a infração prevista no número anterior for detetada à saída do país. 3- Sem prejuízo da coima referida nos números anteriores, o agente é obrigado ao pagamento da taxa que deveria ter sido liquidada, caso se encontrasse devidamente autorizado, sem prejuízo da medida de expulsão ao caso aplicável.",
         "url": "https://boe.incv.cv/Bulletins/Download/4790"
       }
+    ],
+    "levies.contribuicao-turistica": [
+      {
+        "text": "A contribuição turística incide sobre a pernoita em hotéis ou unidades de alojamento, entendidos como estabelecimentos turísticos.",
+        "url": "https://www.mf.gov.cv/documents/20126/122361/2+BO+21-09-2017+++Privatiza%C3%A7%C3%A3o+TACV.pdf/8f1eddf8-e0d5-35c9-0925-726e385e7ef0?t=1553002042792"
+      },
+      {
+        "text": "São sujeitos passivos da contribuição turística todos os indivíduos com mais de dezasseis anos que pernoitar em hotéis ou unidades de alojamento, entendidos como estabelecimentos turísticos.",
+        "url": "https://www.mf.gov.cv/documents/20126/122361/2+BO+21-09-2017+++Privatiza%C3%A7%C3%A3o+TACV.pdf/8f1eddf8-e0d5-35c9-0925-726e385e7ef0?t=1553002042792"
+      },
+      {
+        "text": "O artigo 4.º, do Decreto-lei n.º 44/2017, de 21 de setembro, que aprova o Regime Jurídico da Contribuição Turística, passa a ter a seguinte redação:",
+        "url": "https://boe.incv.cv/Bulletins/Download/4568"
+      },
+      {
+        "text": "O valor da contribuição turística é fixado em 276$00 (duzentos e setenta e seis escudos).",
+        "url": "https://boe.incv.cv/Bulletins/Download/4568"
+      }
+    ],
+    "levies.contribuicao-turistica.exemptions": [
+      {
+        "text": "A contribuição turística incide sobre a pernoita em hotéis ou unidades de alojamento, entendidos como estabelecimentos turísticos.",
+        "url": "https://www.mf.gov.cv/documents/20126/122361/2+BO+21-09-2017+++Privatiza%C3%A7%C3%A3o+TACV.pdf/8f1eddf8-e0d5-35c9-0925-726e385e7ef0?t=1553002042792"
+      },
+      {
+        "text": "São sujeitos passivos da contribuição turística todos os indivíduos com mais de dezasseis anos que pernoitar em hotéis ou unidades de alojamento, entendidos como estabelecimentos turísticos.",
+        "url": "https://www.mf.gov.cv/documents/20126/122361/2+BO+21-09-2017+++Privatiza%C3%A7%C3%A3o+TACV.pdf/8f1eddf8-e0d5-35c9-0925-726e385e7ef0?t=1553002042792"
+      },
+      {
+        "text": "O artigo 4.º, do Decreto-lei n.º 44/2017, de 21 de setembro, que aprova o Regime Jurídico da Contribuição Turística, passa a ter a seguinte redação:",
+        "url": "https://boe.incv.cv/Bulletins/Download/4568"
+      },
+      {
+        "text": "O valor da contribuição turística é fixado em 276$00 (duzentos e setenta e seis escudos).",
+        "url": "https://boe.incv.cv/Bulletins/Download/4568"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "contribuicao-turistica",
+      "name": "Tourist contribution (contribuição turística)",
+      "kind": "tourist-tax",
+      "fee": {
+        "amount": 276,
+        "currency": "CVE"
+      },
+      "per": "person-per-night",
+      "paidAt": "at-accommodation",
+      "appliesTo": "all",
+      "exemptions": "People aged sixteen or under.",
+      "url": null,
+      "text": "Under Decree-Law 44/2017 as amended by the 2023 State Budget law, everyone over sixteen who spends a night in a hotel or other tourist accommodation pays a tourist contribution, fixed at 276 escudos.",
+      "source": {
+        "url": "https://boe.incv.cv/Bulletins/Download/4568",
+        "name": "Boletim Oficial de Cabo Verde, I Série n.º 125 of 30 December 2022 — Lei n.º 16/X/2022 (State Budget 2023)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Decreto-lei n.º 44/2017, de 21 de setembro, art. 4.º(1), as amended by Lei n.º 16/X/2022, de 30 de dezembro, art. 25.º",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.mf.gov.cv/documents/20126/122361/2+BO+21-09-2017+++Privatiza%C3%A7%C3%A3o+TACV.pdf/8f1eddf8-e0d5-35c9-0925-726e385e7ef0?t=1553002042792",
+            "name": "Ministério das Finanças de Cabo Verde — Boletim Oficial, Decreto-lei n.º 44/2017 (tourist contribution)",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
+    }
+  ]
 }

@@ -36,7 +36,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -8025,6 +8026,65 @@
         "text": "6. Periudha e vlefshmërisë së vizës për një hyrje përfshin një “periudhë përjashtimi” nga penaliteti për tejkalim qëndrimi prej 15 ditësh kalendarike.",
         "url": "https://asp.gov.al/wp-content/uploads/2025/11/Ligj-PER-TE-HUAJT-2021-06-24-79-perditesuar-2025-PDF.pdf"
       }
+    ],
+    "levies.al-hotel-stay-tax": [
+      {
+        "text": "Baza e taksës së fjetjes në hotel është numri i netëve të qëndruara në hotel.",
+        "url": "https://qbz.gov.al/eli/ligj/2006/10/30/9632"
+      },
+      {
+        "text": "Detyrimi për taksën llogaritet si shumëzim i nivelit të taksës së vendosur nga bashkia, për natë qëndrimi, me numrin e netëve të qëndrimit në hotel.",
+        "url": "https://qbz.gov.al/eli/ligj/2006/10/30/9632"
+      },
+      {
+        "text": "Detyrimi për taksën i takon klientit që strehohet në hotel, detyrim i cili mbahet nga hoteli për llogari të bashkisë, në territorin e së cilës ndodhet hoteli. Në faturën e hotelit shënohet çmimi i fjetjes dhe mbi të vlera e taksës.",
+        "url": "https://qbz.gov.al/eli/ligj/2006/10/30/9632"
+      },
+      {
+        "text": "Për qëllim të këtij ligji, me \"hotel\" kuptohet çdo veprimtari, që jep strehim kundrejt pagesës dhe përfshin emërtimet hotel, motel, stabiliment turistik, pension, shtëpi pritjeje, turizëm familjar dhe çdo objekt tjetër që përdoret për këtë qëllim.",
+        "url": "https://qbz.gov.al/eli/ligj/2006/10/30/9632"
+      }
+    ],
+    "levies.al-hotel-stay-tax.feeText": [
+      {
+        "text": "Baza e taksës së fjetjes në hotel është numri i netëve të qëndruara në hotel.",
+        "url": "https://qbz.gov.al/eli/ligj/2006/10/30/9632"
+      },
+      {
+        "text": "Detyrimi për taksën llogaritet si shumëzim i nivelit të taksës së vendosur nga bashkia, për natë qëndrimi, me numrin e netëve të qëndrimit në hotel.",
+        "url": "https://qbz.gov.al/eli/ligj/2006/10/30/9632"
+      },
+      {
+        "text": "Detyrimi për taksën i takon klientit që strehohet në hotel, detyrim i cili mbahet nga hoteli për llogari të bashkisë, në territorin e së cilës ndodhet hoteli. Në faturën e hotelit shënohet çmimi i fjetjes dhe mbi të vlera e taksës.",
+        "url": "https://qbz.gov.al/eli/ligj/2006/10/30/9632"
+      },
+      {
+        "text": "Për qëllim të këtij ligji, me \"hotel\" kuptohet çdo veprimtari, që jep strehim kundrejt pagesës dhe përfshin emërtimet hotel, motel, stabiliment turistik, pension, shtëpi pritjeje, turizëm familjar dhe çdo objekt tjetër që përdoret për këtë qëllim.",
+        "url": "https://qbz.gov.al/eli/ligj/2006/10/30/9632"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "al-hotel-stay-tax",
+      "name": "Hotel stay tax (taksa e fjetjes në hotel)",
+      "kind": "tourist-tax",
+      "fee": null,
+      "per": "person-per-night",
+      "paidAt": "at-accommodation",
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "Under Law 9632 on local taxes, a hotel stay tax is owed by the guest for each night, at the level set by the municipality per night multiplied by the number of nights; the hotel withholds it for the municipality and shows it on the invoice above the room price.",
+      "source": {
+        "url": "https://qbz.gov.al/eli/ligj/2006/10/30/9632",
+        "name": "Official Publications Centre of Albania (qbz.gov.al) — Law No. 9632 on the system of local taxes, consolidated",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Law No. 9632 of 30.10.2006 'Për sistemin e taksave vendore', Article 26 (as amended by Law 142/2015); consolidation includes amendments up to Law 82/2025 of 11.12.2025"
+      },
+      "feeText": "Set by each municipality, per night of stay."
+    }
+  ]
 }
