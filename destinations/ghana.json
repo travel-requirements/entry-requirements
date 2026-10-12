@@ -19,7 +19,7 @@
   ],
   "summary": "The Ghana Immigration Service's eVisa applicant guide distinguishes visa-free entry, which it lists for ECOWAS and AES nationals, from the Electronic Travel Authorisation (ETA) and the eVisa, and says to use the official eligibility checker before applying. Its ETA guide says the ETA regime applies to nationals of all African Union member states, all ECOWAS member states and countries holding a current bilateral visa waiver agreement with Ghana, and that there is no fee to apply. The eVisa costs USD 260 with standard processing, and the immigration officer sets the stay on entry, up to 60 days; Ghana's diplomatic missions abroad also issue visas. The visa page of Ghana's embassy in Addis Ababa, in its archived copy of May 2026, says all visitors entering Ghana must have valid entry visas or, in the case of Commonwealth nationals, entry permits, issued by a Ghana diplomatic mission or consulate abroad or any other visa issuing authority mandated by the Ghana Government, and that ECOWAS nationals and those of other countries with which the Government of Ghana has specific bilateral agreements are exempted.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -31,7 +31,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay"
     ]
   },
   "visaPolicy": {
@@ -3971,6 +3972,27 @@
         "lastVerified": "2026-10-07",
         "lastChanged": "2026-10-03"
       }
+    },
+    "overstay": {
+      "fine": {
+        "amount": 300,
+        "currency": "GHS",
+        "per": "month",
+        "maxAmount": null
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "The Ghana Immigration Service charges a penalty for an expired visitor's permit of GH¢300.00 per month for most nationals, GH¢200.00 for ECOWAS nationals and GH¢52.00 for Ghanaians holding a foreign passport. Extending a visitor's permit costs GH¢65.00, GH¢39.00 or GH¢26.00 per month for the same groups.",
+      "source": {
+        "url": "https://gis.gov.gh/fees-and-charges/",
+        "name": "Ghana Immigration Service — Fees and Charges",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Review of Fees and Charges for 2016 (L.I. 2228), as revised effective 15 May 2025"
+      }
     }
   },
   "countryFacts": {
@@ -4517,6 +4539,28 @@
       {
         "text": "ii. Bio data page of host iii. Bio data page of guest/ visiting person",
         "url": "https://gis.gov.gh/service/emergency-entry-visa/"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "THE REVIEW OF FEES AND CHARGES FOR 2016(LI 2228)",
+        "url": "https://gis.gov.gh/fees-and-charges/"
+      },
+      {
+        "text": "EFFECTIVE 15TH MAY 2025",
+        "url": "https://gis.gov.gh/fees-and-charges/"
+      },
+      {
+        "text": "NO . REVENUE ITEM NEW FEES AND CHARGES GHANAIANS WITH FOREIGN PASSPORT ECOWAS OTHER NATIONALS",
+        "url": "https://gis.gov.gh/fees-and-charges/"
+      },
+      {
+        "text": "18 EXPIRED VISITORS PERMIT/MONTH (PENALTY) GH¢52.00 GH¢200.00 GH¢300.00",
+        "url": "https://gis.gov.gh/fees-and-charges/"
+      },
+      {
+        "text": "19 EXTENSION OF VISITORS PERMIT/MONTH GH¢26.00 GH¢39.00 GH¢65.00",
+        "url": "https://gis.gov.gh/fees-and-charges/"
       }
     ]
   }

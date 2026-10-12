@@ -15,7 +15,7 @@
   ],
   "summary": "The Department of Foreign Affairs says nationals of the countries it lists under Executive Order No. 408 may enter the Philippines without a visa for an initial stay of 30 days, with a passport valid at least six months beyond the stay and a return or onward ticket; the Bureau of Immigration handles extensions at its offices. Arriving passengers, except foreign diplomats and dignitaries, 9(e) visa holders and holders of diplomatic or official passports, must register on the free eTravel platform, which allows registration within 72 hours before arrival.",
   "meta": {
-    "lastUpdated": "2026-10-09",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 7,
     "primarySources": [
@@ -41,7 +41,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay"
     ]
   },
   "visaPolicy": {
@@ -2478,6 +2479,33 @@
         "The UK government says there are strict rules on goods taken into or out of the Philippines, and you must declare anything that may be prohibited or subject to tax or duty.",
         "The Bureau of Customs says passengers fill in the electronic Customs Baggage Declaration Form (e-CBDF), and, when bringing currencies beyond the allowed threshold, the electronic Currencies Declaration Form (e-CDF), on the eTravel website or the eGovPH app within 72 hours before arrival; the e-CBDF must be filled in by all arriving passengers, and the QR code is presented to the customs officer for clearance."
       ]
+    },
+    "overstay": {
+      "fine": {
+        "amount": 500,
+        "currency": "PHP",
+        "per": "month",
+        "maxAmount": null
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "The Bureau of Immigration's fee table for extending a visa-waiver stay adds a fine for overstaying of PHP 500.00 per month; the table is dated 6 March 2014. The Bureau says a foreign national who has violated immigration law, for example by overstaying, may be placed on its Black List, which bars entry into the Philippines.",
+      "source": {
+        "url": "https://immigration.gov.ph/visas/visa-waiver/",
+        "name": "Bureau of Immigration Philippines — Visa Waiver (Temporary Visitor 9A extension) service page",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "alsoStatedOn": [
+          {
+            "url": "https://immigration.gov.ph/faqs/",
+            "name": "Bureau of Immigration Philippines — Frequently asked questions",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -3080,6 +3108,24 @@
       {
         "text": "Indian nationals holding valid and current American, Japanese, Australian, Canadian, Schengen, Singapore or United Kingdom (AJACSSUK) visas or residence permits may enter the Philippines without a visa for a non-extendible period of 30 days for tourism, upon presenting a passport valid for at least six (6) months beyond the contemplated stay, and return or onward ticket to the next country of destination.",
         "url": "https://evisa.gov.ph/page/policy"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "Non-visa required tourists admitted initially for thirty (30) days and is requesting for an initial extension of twenty-nine (29) days",
+        "url": "https://immigration.gov.ph/visas/visa-waiver/"
+      },
+      {
+        "text": "Fine for Overstaying – (additional) Php 500.00 per month",
+        "url": "https://immigration.gov.ph/visas/visa-waiver/"
+      },
+      {
+        "text": "*Fees are updated as of 06 March 2014 and may change without prior notice.",
+        "url": "https://immigration.gov.ph/visas/visa-waiver/"
+      },
+      {
+        "text": "A Black List Order (BLO) disallows a foreign national entry into the Philippines. One of the common reasons for inclusion in the BL is that a foreign national has violated the Philippine Immigration law/s such as overstaying.",
+        "url": "https://immigration.gov.ph/faqs/"
       }
     ]
   }

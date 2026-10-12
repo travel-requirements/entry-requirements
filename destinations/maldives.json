@@ -14,7 +14,7 @@
   ],
   "summary": "Maldives Immigration says tourists are granted a visa on arrival without pre-approval, provided they meet the basic entry requirements, including confirmed return journey tickets, a prepaid confirmed booking and sufficient funds; since 15 April 2025 entry is not granted on Israeli passports. The Maldives' Permanent Mission to the UN says a free visa of up to thirty days is issued on arrival. Foreigners arriving must submit the Traveller Declaration within 96 hours before arrival, and tourists can apply for visa extensions through the IMUGA portal.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 4,
     "primarySources": [
@@ -33,7 +33,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay"
     ]
   },
   "visaPolicy": {
@@ -2501,6 +2502,27 @@
         "Canada's travel advice says it is illegal to export tortoise shell and coral.",
         "Australia's Smartraveller says it is illegal to bring pornography, alcohol or pork products to the Maldives, but that alcohol and pork may be consumed on resort islands."
       ]
+    },
+    "overstay": {
+      "fine": {
+        "amount": 15000,
+        "currency": "MVR",
+        "per": "incident",
+        "maxAmount": 50000
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "Under the Immigration Act, every foreign national must leave the Maldives when their permit expires or is revoked. A foreign national who contravenes the Act is fined between MVR 15,000 and MVR 50,000, and the Controller of Immigration may also deport them and bar them from entering for a specified period.",
+      "source": {
+        "url": "https://www.immigration.gov.mv/api/download-files/file/The-Maldives_Immigration-Act-2007-English.pdf",
+        "name": "Maldives Immigration — The Maldives Immigration Act 2007 (English)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Immigration Act No. 1/2007, s.31(2) and s.33(a),(c)"
+      }
     }
   },
   "countryFacts": {
@@ -2947,6 +2969,20 @@
       {
         "text": "Effective from 15th April 2025, entry to the Maldives will not be granted on Israeli passports.",
         "url": "https://immigration.gov.mv/visa/tourist-visa/"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "31. Every foreign national arriving in the Maldives shall take note of the following; (1) To stay in the Maldives within the confines of the permit granted to him/her, or be subject to the conditions attached to the permit. (2) To depart from the Maldives upon the expiry or the revocation of the permit.",
+        "url": "https://www.immigration.gov.mv/api/download-files/file/The-Maldives_Immigration-Act-2007-English.pdf"
+      },
+      {
+        "text": "(c) Where an offence as stipulated in subsection (a) has been committed by a foreign national, the penalty for the offence shall be a fine ranging between Ruffiya 15,000/- and Ruffiya 50,000/ -. In addition, the Controller of Immigration and Emigration shall ha ve the discretion to deport and prohibit him/her from entering the Maldives for a specified period.",
+        "url": "https://www.immigration.gov.mv/api/download-files/file/The-Maldives_Immigration-Act-2007-English.pdf"
+      },
+      {
+        "text": "Offences and Penalties 33. (a) It is an offence to act in contravention of this Act or act against the spirit of this Act defeating its purpose.",
+        "url": "https://www.immigration.gov.mv/api/download-files/file/The-Maldives_Immigration-Act-2007-English.pdf"
       }
     ]
   }

@@ -19,7 +19,7 @@
   ],
   "summary": "Georgia's Government Resolution No. 255 (last amended on 24 February 2026) lists the countries whose citizens can enter Georgia visa-free and stay for a full year, among them the US, the UK, Canada, Australia, Japan, Turkey, Russia and Ukraine; Chinese citizens may stay 30 days, for tourism only. Resolution No. 256 lets holders of a visa or residence permit from a listed country, such as the US, the UK or Germany, enter visa-free for 90 days in any 180-day period. Others apply for an ordinary visa, which can be obtained through the e-Visa portal.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 7,
     "primarySources": [
@@ -47,7 +47,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay"
     ]
   },
   "visaPolicy": {
@@ -4887,6 +4888,39 @@
         }
       },
       "notes": []
+    },
+    "overstay": {
+      "fine": {
+        "amount": 1000,
+        "currency": "GEL",
+        "per": "incident",
+        "maxAmount": 3000
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "A foreigner who stays in Georgia after their lawful stay has expired is fined GEL 1,000 and barred from entering for 6 months if the overstay lasts up to 3 months; GEL 2,000 and a 2-year ban if it lasts up to 1 year; and GEL 3,000 and a 3-year ban if it lasts longer. The fine may be paid before or after leaving Georgia. Until it is paid, no Georgian visa is issued and entry is refused.",
+      "source": {
+        "url": "https://matsne.gov.ge/ka/document/view/28216",
+        "name": "Legislative Herald of Georgia (matsne.gov.ge) — Code of Administrative Offences of Georgia, consolidated text",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Code of Administrative Offences of Georgia, Article 191 (as amended by Law No 875 of 26 June 2025, in force 1 October 2025); Law on the Legal Status of Aliens and Stateless Persons, Article 47(4)",
+        "alsoStatedOn": [
+          {
+            "url": "https://matsne.gov.ge/ka/document/view/2278806",
+            "name": "Legislative Herald of Georgia — Law on the Legal Status of Aliens and Stateless Persons",
+            "lastVerified": "2026-10-12"
+          },
+          {
+            "url": "https://matsne.gov.ge/ka/document/view/6541230",
+            "name": "Legislative Herald of Georgia — Law No 875 of 26 June 2025 amending the Code of Administrative Offences",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -5487,6 +5521,32 @@
       {
         "text": "3. ამ დადგენილებითდამტკიცებულიჩამონათვალისდანართ№1-შიმოცემულიიმ ქვეყნების მოქალაქეებს,რომლებსაცაქვთარაბთაგაერთიანებულისაამიროების,ბაჰრეინისსამეფოს,საუდის არაბეთისსამეფოს,კატარისსახელმწიფოს,ქუვეითისსახელმწიფოსადა ომანისსასულთნოს მრავალჯერადივიზაან/დაბინადრობისნებართვა,დადგენილიწესით,საქართველოშიუვიზოდ შემოსვლადა ყოფნაშეუძლიათიმ შემთხვევაში,თუმათისაქართველოშიშემოსვლის(საზღვრის გადაკვეთის)დღისთვის,მრავალჯერადივიზისან/დაბინადრობისნებართვისმოქმედებისვადაარის არანაკლებ 1 წლისა, რაც უნდა დასტურდებოდეს სამგზავრო ან/და სხვა შესაბამისი დოკუმენტით.",
         "url": "https://gc-pfiles.mfa.gov.ge/DocFiles//2026/5/15/LegalAct/37/8666f08b-7c74-45e7-984f-2a0c9c00dd03.pdf"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "1. უცხოელის ან მოქალაქეობის არმქონე პირის ყოფნა საქართველოში კანონიერად ყოფნის ვადის ამოწურვის დღიდან 3 თვემდე პერიოდის განმავლობაში – გამოიწვევს დაჯარიმებას 1 000 ლარის ოდენობით და უცხოელის საქართველოში შემოსვლის აკრძალვას 6 თვის ვადით.",
+        "url": "https://matsne.gov.ge/ka/document/view/28216"
+      },
+      {
+        "text": "2. უცხოელის ან მოქალაქეობის არმქონე პირის ყოფნა საქართველოში კანონიერად ყოფნის ვადის ამოწურვის დღიდან 1 წლამდე პერიოდის განმავლობაში – გამოიწვევს დაჯარიმებას 2 000 ლარის ოდენობით და უცხოელის საქართველოში შემოსვლის აკრძალვას 2 წლის ვადით.",
+        "url": "https://matsne.gov.ge/ka/document/view/28216"
+      },
+      {
+        "text": "3. უცხოელის ან მოქალაქეობის არმქონე პირის ყოფნა საქართველოში კანონიერად ყოფნის ვადის ამოწურვის დღიდან 1 წელზე მეტი ხნის განმავლობაში – გამოიწვევს დაჯარიმებას 3 000 ლარის ოდენობით და უცხოელის საქართველოში შემოსვლის აკრძალვას 3 წლის ვადით.",
+        "url": "https://matsne.gov.ge/ka/document/view/28216"
+      },
+      {
+        "text": "შენიშვნა: ამ მუხლის პირველი–მე-4 ნაწილებით გათვალისწინებული ჯარიმის გადაუხდელობისას ამის თაობაზე ეცნობებათ საქართველოს საგარეო საქმეთა სამინისტროს და საქართველოს შინაგან საქმეთა სამინისტროს შესაბამის ორგანოებს, რომლებიც აღნიშნული ნაწილებით გათვალისწინებულ შემთხვევებში პირის მიერ ჯარიმის გადახდამდე მასზე არ გასცემენ საქართველოს ვიზას და მას არ მიეცემა საქართველოში შემოსვლის ნებართვა.",
+        "url": "https://matsne.gov.ge/ka/document/view/28216"
+      },
+      {
+        "text": "4. უცხოელი, რომელსაც ამოეწურა საქართველოში კანონიერად ყოფნის ვადა, ვალდებულია საქართველოდან გასვლამდე ან გასვლის შემდეგ გადაიხადოს საქართველოში კანონიერი საფუძვლის გარეშე ყოფნისათვის საქართველოს კანონმდებლობით დადგენილი ჯარიმა. ჯარიმის გადაუხდელობის შემთხვევაში უცხოელზე არ გაიცემა საქართველოს ვიზა და მას უარი ეთქმება საქართველოში შემოსვლაზე, ვიდრე იგი არ გადაიხდის აღნიშნულ ჯარიმას.",
+        "url": "https://matsne.gov.ge/ka/document/view/2278806"
+      },
+      {
+        "text": "მუხლი 2. ეს კანონი ამოქმედდეს 2025 წლის 1 ოქტომბრიდან.",
+        "url": "https://matsne.gov.ge/ka/document/view/6541230"
       }
     ]
   }

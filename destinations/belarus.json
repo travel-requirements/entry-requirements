@@ -21,7 +21,7 @@
   ],
   "summary": "Belarus's Foreign Ministry says citizens of 38 European states may enter without a visa through all international road and rail border crossings and stay up to 30 days from the date of entry (90 days for citizens of Poland, Lithuania and Latvia), until December 31, 2026 inclusive, with visa-free stays totalling no more than 90 days in a calendar year. Under a separate regime, citizens of 76 countries can enter for up to 30 days and leave only through Minsk National Airport and the airports of Brest, Gomel, Grodno, Mogilev and Vitebsk. Holders of ordinary passports of 68 countries, including the USA, Canada, the EU countries and the United Kingdom, can enter on a single-entry e-visa issued for up to 30 days, and visa applications are also processed at Belarusian diplomatic representations and consular establishments.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -35,7 +35,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay"
     ]
   },
   "visaPolicy": {
@@ -5394,6 +5395,29 @@
           "instrument": "Customs Code of the Eurasian Economic Union, Article 260(1)(7)–(8)"
         }
       }
+    },
+    "overstay": {
+      "fine": null,
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "Under the Code of Administrative Offences, a foreigner who evades leaving Belarus after the set period of stay is fined up to fifty base units or deported; a repeat offence within a year is fined ten to one hundred base units or deported. A deported foreigner may be barred from entering Belarus for six months to five years.",
+      "source": {
+        "url": "https://etalonline.by/document/?regnum=HK2100091",
+        "name": "ETALONLINE, National Center of Legislation and Legal Information of Belarus — Code of Administrative Offences of the Republic of Belarus (No 91-Z of 6 January 2021), consolidated",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Code of Administrative Offences of the Republic of Belarus (2021), Article 24.35 parts 3 and 11; Law No 105-Z on the Legal Status of Foreign Citizens and Stateless Persons (deportation entry ban)",
+        "alsoStatedOn": [
+          {
+            "url": "https://etalonline.by/document/?regnum=H11000105",
+            "name": "National Center of Legislation and Legal Information of Belarus — Law on the Legal Status of Foreign Citizens and Stateless Persons",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
     }
   },
   "countryFacts": {
@@ -5979,6 +6003,20 @@
       {
         "text": "The internet-acquiring and service fee is 6 euros and is charged to each applicant, regardless of age or citizenship.",
         "url": "https://mfa.gov.by/en/visa/general/evisa/"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "3. Уклонение иностранного гражданина или лица без гражданства от выезда по истечении установленного срока пребывания либо пребывание в Республике Беларусь иностранного гражданина или лица без гражданства, надлежащим образом уведомленных об отказе во въезде в Республику Беларусь, до окончания срока запрета такого въезда – влекут наложение штрафа в размере до пятидесяти базовых величин или депортацию.",
+        "url": "https://etalonline.by/document/?regnum=HK2100091"
+      },
+      {
+        "text": "11. Деяния, предусмотренные частями 1–5 настоящей статьи, совершенные повторно в течение одного года после наложения административного взыскания за такие же нарушения, – влекут наложение штрафа в размере от десяти до ста базовых величин или депортацию.",
+        "url": "https://etalonline.by/document/?regnum=HK2100091"
+      },
+      {
+        "text": "Депортированному иностранцу въезд в Республику Беларусь может быть запрещен на срок от шести месяцев до пяти лет.",
+        "url": "https://etalonline.by/document/?regnum=H11000105"
       }
     ]
   }

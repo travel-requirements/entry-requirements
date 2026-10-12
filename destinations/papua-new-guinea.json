@@ -18,7 +18,7 @@
   ],
   "summary": "Papua New Guinea's Immigration and Citizenship Services Authority (ICSA) gives a visa on arrival to citizens of the countries and territories on its list, including Canada, the United Kingdom, Japan, Singapore, Indonesia, Israel and Pacific Island states such as Fiji, Samoa and Tonga; mainland New Zealand, France and the United States are not eligible. ICSA's eVisa portal lists the passports eligible for a 60-day Easy Visitor Permit, among them the United States, New Zealand and EU states, and those for a 30-day permit, among them Australia, India and Russia; there is no Migration Service Fee, but online applications cost USD 50. ICSA's Visitor Visa page tells travellers not eligible for a visa on arrival to submit the paper form; its eVisa portal also offers the Tourist – Own Itinerary visa online, valid for a single entry and 60 days from arrival, with a US$50 online lodgement fee (if applicable). Melanesian Spearhead Group passport holders get a visa on arrival for stays of 30 days or less.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -32,7 +32,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay"
     ]
   },
   "visaPolicy": {
@@ -8068,6 +8069,27 @@
       "notes": [
         "The UK government says it is illegal to enter Papua New Guinea with many fruits, vegetables and animal products due to local quarantine controls, and that you must declare anything that may be prohibited or subject to tax or duty."
       ]
+    },
+    "overstay": {
+      "fine": {
+        "amount": 3000,
+        "currency": "PGK",
+        "per": "incident",
+        "maxAmount": 10000
+      },
+      "gracePeriodDays": 28,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "The Immigration and Citizenship Authority charges overstayers on all visa types an additional migration fee by length of overstay: nothing up to 28 days, PGK 3,000 for 29 to 60 days, PGK 5,000 for 61 to 365 days, and PGK 10,000 from one year, which may also involve prosecution.",
+      "source": {
+        "url": "https://ica.gov.pg/uploads/media/post_file_3028961-new-msf-fees-rev6.pdf",
+        "name": "Immigration and Citizenship Authority (ICA) PNG — Migration Service Fees schedule (public notice), \"Additional Migration Fees for Overstayers\"",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Migration Fees (Amendment) 2019, National Gazette No. 231 of 27 March 2019 (as cited on the notice)"
+      }
     }
   },
   "countryFacts": {
@@ -9034,6 +9056,16 @@
       {
         "text": "*All MSF and online lodgement fees are levied in US Dollars and converted into PNG Kina (using the published conversion rate) prior to finalisation of application registration.",
         "url": "https://evisa.ica.gov.pg/evisa/account/Apply"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "Additional Migration Fees for Overstayers Description Overstay Period Fee PGK All visa types except those cov- ered under the Aid Status and Vienna Convention (Privileges & Immunities Act) Up to 28 day xxxxx 29-60 days 61 days –365 days From 1 year onwards (may also involve prosecution) Nil 3,000 5,000 10,000",
+        "url": "https://ica.gov.pg/uploads/media/post_file_3028961-new-msf-fees-rev6.pdf"
+      },
+      {
+        "text": "consistent with the National Gazette No.231 dated 27 March 2019 on Migration Fees (Amendment) 2019, effective from 1 November 2019",
+        "url": "https://ica.gov.pg/uploads/media/post_file_3028961-new-msf-fees-rev6.pdf"
       }
     ]
   }

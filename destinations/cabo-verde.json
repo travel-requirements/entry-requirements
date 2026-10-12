@@ -15,7 +15,7 @@
   ],
   "summary": "Cabo Verde's government lists the countries whose citizens are exempt from a visa, among them the United Kingdom, the United States, Canada, China and France for 30 days and Senegal and Nigeria for 90 days. Cabo Verde's law on foreigners, as republished in 2023, says that to enter the national territory foreigners must hold a valid visa suited to the purpose of the journey, unless exempt, that visa applications are made through a platform on the internet, and that visas may be granted abroad by embassies and consular posts and in the national territory by the DEF. Its EASE portal says that from 1 January 2026 nationals of the countries on its list must obtain a visa before arrival, contacting the nearest Cabo Verde embassy; the fee schedule sets CVE 2,500 for a tourist visa requested on the online pre-registration platform and CVE 5,000 for a tourist visa granted on arrival at a border post. The Embassy of Cabo Verde in Washington says all foreign citizens must pre-register on EASE 5 days before departure to pay the airport security tax.",
   "meta": {
-    "lastUpdated": "2026-10-11",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -29,7 +29,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "overstay"
     ]
   },
   "visaPolicy": {
@@ -6364,6 +6365,27 @@
         }
       },
       "notes": []
+    },
+    "overstay": {
+      "fine": {
+        "amount": 10000,
+        "currency": "CVE",
+        "per": "incident",
+        "maxAmount": 50000
+      },
+      "gracePeriodDays": null,
+      "banDays": null,
+      "banText": null,
+      "payableAt": null,
+      "text": "Under the law on the entry, stay, exit and expulsion of foreigners, a foreigner who stays in Cabo Verde beyond the authorised period commits an offence punishable by a fine of 10,000 to 50,000 escudos, which also applies when the overstay is detected on departure. The person must also pay the fee that would have been due had the stay been authorised, without prejudice to any expulsion.",
+      "source": {
+        "url": "https://boe.incv.cv/Bulletins/Download/4790",
+        "name": "Imprensa Nacional de Cabo Verde, Boletim Oficial I Série nº 51 (8 May 2023) — Lei n.º 27/X/2023 with republication of Lei n.º 66/VIII/2014 (entry, stay, exit and expulsion of foreigners)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Lei n.º 66/VIII/2014, art. 105.º as republished by Lei n.º 27/X/2023 (art. 102.º in the 2014 original)"
+      }
     }
   },
   "countryFacts": {
@@ -6846,6 +6868,12 @@
       {
         "text": "Money order, cash or bank check in the amount of 60.00 USD for single entry;",
         "url": "https://www.embcv-usa.gov.cv/images/doc/Info_pedidos_vistos_eng.pdf"
+      }
+    ],
+    "entryRequirements.overstay": [
+      {
+        "text": "Artigo 105.º Permanência irregular 1- A permanência de estrangeiros no país além do período autorizado constitui contraordenação punível com coima de 10.000$00 (dez mil escudos) a 50.000$00 (cinquenta mil escudos). 2- A mesma coima é aplicada quando a infração prevista no número anterior for detetada à saída do país. 3- Sem prejuízo da coima referida nos números anteriores, o agente é obrigado ao pagamento da taxa que deveria ter sido liquidada, caso se encontrasse devidamente autorizado, sem prejuízo da medida de expulsão ao caso aplicável.",
+        "url": "https://boe.incv.cv/Bulletins/Download/4790"
       }
     ]
   }
