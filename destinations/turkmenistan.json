@@ -2672,20 +2672,38 @@
         "name": "Migration fee and registration",
         "mandatory": true,
         "fee": {
-          "amount": 14,
+          "amount": 10,
           "currency": "USD",
-          "notes": "Paid on arrival. The UK Foreign Office says a tourism tax of USD 2 per day of stay is charged separately and that hotels include it as a separate item on the bill. It also says to bring US dollars in cash for any other charges at entry."
+          "notes": "Paid on arrival. The State Migration Service says children aged 7 to 16 pay 50% and children under 7 are exempt. The UK Foreign Office gives the migration fee as USD 14 and says a tourism tax of USD 2 per day of stay is charged separately, which hotels show as a separate item on the bill."
         },
         "submitAt": "on-arrival",
         "submitWindow": "On arrival",
         "url": null,
-        "text": "The UK government says you must pay a USD 14 migration fee on arrival and that all foreign visitors pay a tourism tax of USD 2 for each day of their stay. It says stays of more than 3 working days must be registered with the State Migration Service within 3 days of arrival, and that your hotel or sponsor will usually do this. Canada's travel advice says you must complete a migration card and pay a migration fee on arrival.",
+        "text": "Turkmenistan's State Migration Service says foreign citizens and stateless persons arriving in or transiting Turkmenistan pay a registration fee of USD 10 for their stay; children aged 7 to 16 pay 50% and children under 7 are exempt. The UK government says the migration fee on arrival is USD 14, and that all foreign visitors also pay a tourism tax of USD 2 for each day of their stay. It says stays of more than 3 working days must be registered with the State Migration Service within 3 days of arrival, and that your hotel or sponsor will usually do this. Canada's travel advice says you must complete a migration card and pay a migration fee on arrival.",
         "source": {
-          "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements",
-          "name": "UK Foreign, Commonwealth & Development Office — Turkmenistan entry requirements",
+          "url": "https://migration.gov.tm/services/migrasiya-gozegciligi-tm-16830099427563257",
+          "name": "State Migration Service of Turkmenistan — Migration control at the border: registration fee",
           "type": "government",
-          "lastVerified": "2026-10-03",
-          "lastChanged": "2026-10-03"
+          "lastVerified": "2026-10-12",
+          "lastChanged": "2026-10-12",
+          "alsoStatedOn": [
+            {
+              "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements",
+              "name": "UK Foreign, Commonwealth & Development Office — Turkmenistan entry requirements",
+              "lastVerified": "2026-10-12"
+            },
+            {
+              "url": "https://travel.gc.ca/destinations/turkmenistan",
+              "name": "Government of Canada — Travel advice for Turkmenistan",
+              "lastVerified": "2026-10-12"
+            }
+          ],
+          "conflict": {
+            "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements",
+            "name": "UK Foreign, Commonwealth & Development Office — Turkmenistan entry requirements",
+            "states": "a migration fee of USD 14",
+            "resolvedBy": "hierarchy"
+          }
         }
       }
     ],
@@ -3114,6 +3132,18 @@
       }
     ],
     "entryRequirements.declarations.migration-card": [
+      {
+        "text": "Türkmenistana gelýän we onuň çäklerinden üstaşyr geçýän daşary ýurt raýatlary we raýatlygy bolmadyk adamlar Türkmenistanda bolmagy üçin 10 amerikan dollary möçberde hasaba alyş ýygymyny töleýärler.",
+        "url": "https://migration.gov.tm/services/migrasiya-gozegciligi-tm-16830099427563257"
+      },
+      {
+        "text": "7 ýaşdan 16 ýaşa çenli çagalar üçin hasaba alyş ýygymynyň möçberiniň 50% tölenýär.",
+        "url": "https://migration.gov.tm/services/migrasiya-gozegciligi-tm-16830099427563257"
+      },
+      {
+        "text": "7 ýaşa çenli çagalar hasaba alyş ýygymynyň tölemekden boşadylýar.",
+        "url": "https://migration.gov.tm/services/migrasiya-gozegciligi-tm-16830099427563257"
+      },
       {
         "text": "On arrival, you must pay a migration fee of 14 US dollars. All foreign visitors must also pay a ‘tourism tax’ of 2 US dollars for each day of their stay in Turkmenistan.",
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"

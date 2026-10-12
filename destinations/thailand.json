@@ -47,7 +47,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -3844,6 +3845,44 @@
         "text": "Based on the Ministry of Interior's Order 1/2558 Regarding Aliens Ineligible for Admission to the Kingdom of Thailand",
         "url": "https://hochiminh.thaiembassy.org/en/publicservice/64058-thailand-overstay-measures"
       }
+    ],
+    "levies.aot-passenger-service-charge": [
+      {
+        "text": "The Airports of Thailand Public Company Limited (AOT) is raising the Passenger Service Charge (PSC) for international departing passengers from 730 Baht to 1,120 Baht per person, effective 20 June 2026.",
+        "url": "https://www.tatnews.org/2026/05/airports-of-thailand-to-raise-international-passenger-service-charge-from-20-june-2026/"
+      },
+      {
+        "text": "The adjustment applies to both Thai and foreign passengers departing on international flights from all six AOT-managed airports: Suvarnabhumi, Don Mueang, Chiang Mai, Mae Fah Luang Chiang Rai, Phuket, and Hat Yai.",
+        "url": "https://www.tatnews.org/2026/05/airports-of-thailand-to-raise-international-passenger-service-charge-from-20-june-2026/"
+      },
+      {
+        "text": "The PSC is included in the airfare at the time of ticket purchase. Travellers are not required to make any separate payment at the airport. Tickets issued from 20 June 2026 onward reflect the new rate, while tickets purchased before the effective date are not affected.",
+        "url": "https://www.tatnews.org/2026/05/airports-of-thailand-to-raise-international-passenger-service-charge-from-20-june-2026/"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "aot-passenger-service-charge",
+      "name": "Passenger service charge (Airports of Thailand)",
+      "kind": "airport-fee",
+      "fee": {
+        "amount": 1120,
+        "currency": "THB"
+      },
+      "per": "person-per-trip",
+      "paidAt": "included-in-ticket",
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "The Tourism Authority of Thailand says Airports of Thailand raised the passenger service charge for international departures to 1,120 baht per person from 20 June 2026, at its six airports: Suvarnabhumi, Don Mueang, Chiang Mai, Mae Fah Luang Chiang Rai, Phuket and Hat Yai. It applies to Thai and foreign passengers and is included in the airfare.",
+      "source": {
+        "url": "https://www.tatnews.org/2026/05/airports-of-thailand-to-raise-international-passenger-service-charge-from-20-june-2026/",
+        "name": "Tourism Authority of Thailand (TAT Newsroom) — Airports of Thailand to raise international passenger service charge from 20 June 2026",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12"
+      }
+    }
+  ]
 }

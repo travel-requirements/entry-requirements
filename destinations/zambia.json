@@ -40,7 +40,8 @@
     ],
     "modules": [
       "stay-window",
-      "overstay"
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -3483,6 +3484,68 @@
         "text": "Visas may be extended at the discretion of the immigration department up to a maximum of 90 days. Do not overstay your visa as you risk a court appearance, imprisonment, fine and/or deportation.",
         "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/zambia/"
       }
+    ],
+    "levies.departure-tax": [
+      {
+        "text": "On leaving Zambia, all air passengers must pay the equivalent to 25 US dollars for international travel and a security charge of 3 US dollars for domestic travel. Both charges are normally included in the cost of an air ticket, but you will have to pay in cash with Zambian kwacha if they are not.",
+        "url": "https://www.gov.uk/foreign-travel-advice/zambia/entry-requirements"
+      },
+      {
+        "text": "If you fly within or out of Zambia, you must pay the National Airports Corporation levy. The levy is usually included in the cost of your international flight ticket but if not, you'll have to pay the levy in US dollars or Zambian Kwacha.",
+        "url": "https://www.smartraveller.gov.au/destinations/africa/zambia"
+      },
+      {
+        "text": "Foreigners are required to pay a departure tax before leaving Zambia, which is usually included in the cost of international flight tickets.",
+        "url": "https://travel.gc.ca/destinations/zambia"
+      }
+    ],
+    "levies.departure-tax.feeText": [
+      {
+        "text": "On leaving Zambia, all air passengers must pay the equivalent to 25 US dollars for international travel and a security charge of 3 US dollars for domestic travel. Both charges are normally included in the cost of an air ticket, but you will have to pay in cash with Zambian kwacha if they are not.",
+        "url": "https://www.gov.uk/foreign-travel-advice/zambia/entry-requirements"
+      },
+      {
+        "text": "If you fly within or out of Zambia, you must pay the National Airports Corporation levy. The levy is usually included in the cost of your international flight ticket but if not, you'll have to pay the levy in US dollars or Zambian Kwacha.",
+        "url": "https://www.smartraveller.gov.au/destinations/africa/zambia"
+      },
+      {
+        "text": "Foreigners are required to pay a departure tax before leaving Zambia, which is usually included in the cost of international flight tickets.",
+        "url": "https://travel.gc.ca/destinations/zambia"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "departure-tax",
+      "name": "Departure tax",
+      "kind": "departure-tax",
+      "fee": null,
+      "per": "person-per-trip",
+      "paidAt": null,
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "The UK government says that on leaving Zambia all air passengers must pay the equivalent of 25 US dollars for international travel, normally included in the air ticket. The Australian and Canadian governments also say a departure levy is usually included in the cost of an international ticket. No Zambian official page we could read states the amount.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/zambia/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Zambia travel advice: entry requirements",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.smartraveller.gov.au/destinations/africa/zambia",
+            "name": "Australian Government, Smartraveller — Zambia travel advice",
+            "lastVerified": "2026-10-12"
+          },
+          {
+            "url": "https://travel.gc.ca/destinations/zambia",
+            "name": "Government of Canada — Travel advice for Zambia",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      },
+      "feeText": "The equivalent of USD 25, according to the UK government."
+    }
+  ]
 }

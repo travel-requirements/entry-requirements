@@ -49,7 +49,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -5800,6 +5801,59 @@
         "text": "26.4. Permiso de Permanencia Extemporáneo para salir del país. El Coordinador de Control Migratorio podrá autorizar suscribir Acta de Reconocimiento de Responsabilidad Administrativa, al extranjero que habiendo ingresado regularmente al territorio colombiano con un permiso de ingreso y permanencia, incurre en permanencia irregular, previo cumplimiento de los siguientes requisitos: 1. No encontrarse en permanencia irregular en un término mayor a 30 días calendario.",
         "url": "https://cancilleria.gov.co/normograma/compilacion/docs/resolucion_uaemc_2357_2020.htm"
       }
+    ],
+    "levies.impuesto-turismo": [
+      {
+        "text": "El hecho generador del impuesto con destino al turismo es la compra de tiquetes aéreos de pasajeros, en transporte aéreo de tráfico internacional, cuyo viaje incluya el territorio colombiano y su origen sea el exterior.",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_1101_2006.html"
+      },
+      {
+        "text": "Son sujetos pasivos del impuesto con destino al turismo, todos los pasajeros cuyo tiquete de viaje incluya a Colombia, en medios de transporte aéreo de tráfico internacional. No serán sujetos pasivos del impuesto los pasajeros que vengan al territorio colombiano en tránsito o en conexión internacional.",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_1101_2006.html"
+      },
+      {
+        "text": "El impuesto con destino al turismo tendrá un valor de USD15 y deberá ser incluido por las empresas que presten de manera regular el servicio de transporte aéreo internacional de pasajeros, en el valor de los tiquetes o pasajes aéreos.",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_1101_2006.html"
+      }
+    ],
+    "levies.impuesto-turismo.exemptions": [
+      {
+        "text": "El hecho generador del impuesto con destino al turismo es la compra de tiquetes aéreos de pasajeros, en transporte aéreo de tráfico internacional, cuyo viaje incluya el territorio colombiano y su origen sea el exterior.",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_1101_2006.html"
+      },
+      {
+        "text": "Son sujetos pasivos del impuesto con destino al turismo, todos los pasajeros cuyo tiquete de viaje incluya a Colombia, en medios de transporte aéreo de tráfico internacional. No serán sujetos pasivos del impuesto los pasajeros que vengan al territorio colombiano en tránsito o en conexión internacional.",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_1101_2006.html"
+      },
+      {
+        "text": "El impuesto con destino al turismo tendrá un valor de USD15 y deberá ser incluido por las empresas que presten de manera regular el servicio de transporte aéreo internacional de pasajeros, en el valor de los tiquetes o pasajes aéreos.",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_1101_2006.html"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "impuesto-turismo",
+      "name": "National tourism tax (impuesto con destino al turismo)",
+      "kind": "arrival-tax",
+      "fee": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "per": "person-per-trip",
+      "paidAt": "included-in-ticket",
+      "appliesTo": "all",
+      "exemptions": "Passengers arriving in Colombia in international transit or connection.",
+      "url": null,
+      "text": "Under Law 1101 of 2006, every passenger whose international air ticket includes Colombia and originates abroad pays a national tourism tax of USD 15, which airlines must include in the ticket price. Passengers in international transit or connection do not pay it.",
+      "source": {
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_1101_2006.html",
+        "name": "Secretaría General del Senado — Ley 1101 de 2006",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Ley 1101 de 2006, art. 4 (modificado por el art. 128 de la Ley 2010 de 2019)"
+      }
+    }
+  ]
 }

@@ -31,7 +31,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -3477,6 +3478,74 @@
         "text": "It’s illegal to overstay or work without a work permit . The Barbados authorities could fine or detain you if you overstay.",
         "url": "https://www.gov.uk/foreign-travel-advice/barbados/entry-requirements"
       }
+    ],
+    "levies.departure-tax": [
+      {
+        "text": "Departure Tax of BBD $55 (US $ 27.50) applies for all passengers over 2 years old leaving Barbados.",
+        "url": "https://toronto.foreign.gov.bb/travelling/"
+      }
+    ],
+    "levies.departure-tax.exemptions": [
+      {
+        "text": "Departure Tax of BBD $55 (US $ 27.50) applies for all passengers over 2 years old leaving Barbados.",
+        "url": "https://toronto.foreign.gov.bb/travelling/"
+      }
+    ],
+    "levies.additional-airport-fee": [
+      {
+        "text": "Effective October 1, 2018 an additional fee has been added – passengers flying outside of the Caribbean region pay US$70 per person, and those flying within the Caribbean pay US$35 per person. Most airlines include this with the cost of the ticket, but check to be sure.",
+        "url": "https://toronto.foreign.gov.bb/travelling/"
+      }
+    ],
+    "levies.additional-airport-fee.feeText": [
+      {
+        "text": "Effective October 1, 2018 an additional fee has been added – passengers flying outside of the Caribbean region pay US$70 per person, and those flying within the Caribbean pay US$35 per person. Most airlines include this with the cost of the ticket, but check to be sure.",
+        "url": "https://toronto.foreign.gov.bb/travelling/"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "departure-tax",
+      "name": "Departure tax",
+      "kind": "departure-tax",
+      "fee": {
+        "amount": 55,
+        "currency": "BBD"
+      },
+      "per": "person-per-trip",
+      "paidAt": null,
+      "appliesTo": "all",
+      "exemptions": "Passengers aged 2 or under.",
+      "url": null,
+      "text": "The Consulate General of Barbados in Toronto says a departure tax of BBD 55 (USD 27.50) applies to all passengers over 2 years old leaving Barbados.",
+      "source": {
+        "url": "https://toronto.foreign.gov.bb/travelling/",
+        "name": "Consulate General of Barbados, Toronto (Ministry of Foreign Affairs) — Travelling",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12"
+      }
+    },
+    {
+      "id": "additional-airport-fee",
+      "name": "Additional departure fee",
+      "kind": "airport-fee",
+      "fee": null,
+      "per": "person-per-trip",
+      "paidAt": null,
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "The Consulate General of Barbados in Toronto says that since 1 October 2018 an additional fee applies to departing passengers, and that most airlines include it in the ticket price.",
+      "source": {
+        "url": "https://toronto.foreign.gov.bb/travelling/",
+        "name": "Consulate General of Barbados, Toronto (Ministry of Foreign Affairs) — Travelling",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12"
+      },
+      "feeText": "USD 70 per person for flights outside the Caribbean region; USD 35 per person for flights within the Caribbean."
+    }
+  ]
 }

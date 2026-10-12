@@ -37,7 +37,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -3959,6 +3960,59 @@
         "text": "ARTÍCULO 39. (PROHIBICIÓN DE REINGRESO). I. La salida obligatoria implica la prohibición de reingreso a territorio nacional de la persona migrante extranjera de forma temporal o definitiva y se computará el tiempo a partir del día de su ejecución.",
         "url": "https://migracion.gob.bo/marco_legal"
       }
+    ],
+    "levies.derecho-uso-aeropuerto-internacional": [
+      {
+        "text": "b) Pasajeros embarcados en vuelos internacionales (categoría I, II, III, IV) USD40.-",
+        "url": "https://www.att.gob.bo/sites/default/files/archivos_portada/2024-01/Resoluci%C3%B3n%20Administrativa%20Regulatoria%20ATT-DJ-RAR-TR%20LP%202%202024%20%28DUA%29.pdf"
+      },
+      {
+        "text": "Nota: De acuerdo al Decreto Supremo N° 28478 del monto total cobrado por pasajero embarcado en vuelos internacionales, USD5 (Cinco 00/100 Dólares Americanos) corresponden a la Dirección General de Aeronáutica Civil – DGAC.",
+        "url": "https://www.att.gob.bo/sites/default/files/archivos_portada/2024-01/Resoluci%C3%B3n%20Administrativa%20Regulatoria%20ATT-DJ-RAR-TR%20LP%202%202024%20%28DUA%29.pdf"
+      },
+      {
+        "text": "iv. Pasajeros en tránsito internacional con permanencia no mayor a ocho horas. v. Pasajeros menores de dos años de edad.",
+        "url": "https://www.att.gob.bo/sites/default/files/archivos_portada/2024-01/Resoluci%C3%B3n%20Administrativa%20Regulatoria%20ATT-DJ-RAR-TR%20LP%202%202024%20%28DUA%29.pdf"
+      }
+    ],
+    "levies.derecho-uso-aeropuerto-internacional.exemptions": [
+      {
+        "text": "b) Pasajeros embarcados en vuelos internacionales (categoría I, II, III, IV) USD40.-",
+        "url": "https://www.att.gob.bo/sites/default/files/archivos_portada/2024-01/Resoluci%C3%B3n%20Administrativa%20Regulatoria%20ATT-DJ-RAR-TR%20LP%202%202024%20%28DUA%29.pdf"
+      },
+      {
+        "text": "Nota: De acuerdo al Decreto Supremo N° 28478 del monto total cobrado por pasajero embarcado en vuelos internacionales, USD5 (Cinco 00/100 Dólares Americanos) corresponden a la Dirección General de Aeronáutica Civil – DGAC.",
+        "url": "https://www.att.gob.bo/sites/default/files/archivos_portada/2024-01/Resoluci%C3%B3n%20Administrativa%20Regulatoria%20ATT-DJ-RAR-TR%20LP%202%202024%20%28DUA%29.pdf"
+      },
+      {
+        "text": "iv. Pasajeros en tránsito internacional con permanencia no mayor a ocho horas. v. Pasajeros menores de dos años de edad.",
+        "url": "https://www.att.gob.bo/sites/default/files/archivos_portada/2024-01/Resoluci%C3%B3n%20Administrativa%20Regulatoria%20ATT-DJ-RAR-TR%20LP%202%202024%20%28DUA%29.pdf"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "derecho-uso-aeropuerto-internacional",
+      "name": "Airport-use charge for international departures (Derecho de Uso de Aeropuerto)",
+      "kind": "airport-fee",
+      "fee": {
+        "amount": 40,
+        "currency": "USD"
+      },
+      "per": "person-per-trip",
+      "paidAt": null,
+      "appliesTo": "all",
+      "exemptions": "The President and Vice-President, accredited ambassadors and consuls, Beneméritos de la Patria, international transit passengers staying no more than eight hours, and children under two.",
+      "url": null,
+      "text": "A resolution of Bolivia's Transport Regulatory Authority sets the airport-use charge for passengers boarding international flights at USD 40, of which USD 5 goes to the civil aviation directorate.",
+      "source": {
+        "url": "https://www.att.gob.bo/sites/default/files/archivos_portada/2024-01/Resoluci%C3%B3n%20Administrativa%20Regulatoria%20ATT-DJ-RAR-TR%20LP%202%202024%20%28DUA%29.pdf",
+        "name": "ATT (Telecommunications and Transport Regulatory Authority) — Resolución Administrativa Regulatoria ATT-DJ-RAR-TR LP 2/2024",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Resolución Administrativa Regulatoria ATT-DJ-RAR-TR LP 2/2024 (modifies the annex of RAR ATT-DJ-RAR-TR LP 15/2022); Decreto Supremo N° 28478"
+      }
+    }
+  ]
 }

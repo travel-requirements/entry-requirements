@@ -46,7 +46,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -5766,6 +5767,115 @@
         "text": "Visa holders are required to leave the UAE before the expiry of their authorized stay. An overstay fine of AED 50 per day will apply to violators.",
         "url": "https://icp.gov.ae/en/media-center/icp-expands-eligibility-for-uae-entry-visa-for-nationals-of-certain-countries/"
       }
+    ],
+    "levies.dubai-tourism-dirham": [
+      {
+        "text": "For each night of occupancy of a room at a Hotel Establishment, a Guest will , for a maximum of thirty (30) consecutive nights, be charged the “Tourism Dirham Fee”. The fee will be assessed according to the classification category of the Hotel Establishment and in accordance with the amounts indicated in Schedule (1) attached to this Resolution.",
+        "url": "https://dubaidet.gov.ae/en/legislative-news/-/media/images/corp/tourism-legislations/executive-council-resolution-no-10-of-2014-amending-executive-council-resolution-no-2-of-2014-approving-tourism-dirham-fee.pdf"
+      },
+      {
+        "text": "Five-Star or Higher-Rated Hotel or Resort 20 .00 2 Four-Star Hotel or Resort 15 .00 3 Three-Star Hotel or Resort 10 .00 4 Two-Star Hotel 10 .00 5 One-Star Hotel/ Budget Hotel 7 .00",
+        "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.html"
+      },
+      {
+        "text": "Tourism Dirham Fee: The fee charged to a Guest for his stay at a Hotel Establishment.",
+        "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.html"
+      }
+    ],
+    "levies.dubai-tourism-dirham.feeText": [
+      {
+        "text": "For each night of occupancy of a room at a Hotel Establishment, a Guest will , for a maximum of thirty (30) consecutive nights, be charged the “Tourism Dirham Fee”. The fee will be assessed according to the classification category of the Hotel Establishment and in accordance with the amounts indicated in Schedule (1) attached to this Resolution.",
+        "url": "https://dubaidet.gov.ae/en/legislative-news/-/media/images/corp/tourism-legislations/executive-council-resolution-no-10-of-2014-amending-executive-council-resolution-no-2-of-2014-approving-tourism-dirham-fee.pdf"
+      },
+      {
+        "text": "Five-Star or Higher-Rated Hotel or Resort 20 .00 2 Four-Star Hotel or Resort 15 .00 3 Three-Star Hotel or Resort 10 .00 4 Two-Star Hotel 10 .00 5 One-Star Hotel/ Budget Hotel 7 .00",
+        "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.html"
+      },
+      {
+        "text": "Tourism Dirham Fee: The fee charged to a Guest for his stay at a Hotel Establishment.",
+        "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.html"
+      }
+    ],
+    "levies.dubai-airports-passenger-fee": [
+      {
+        "text": "Each passenger, including transit passengers, departing the United Arab Emirates from any of Dubai airports will be charged a fee of thirty-five Dirhams (AED 35.00) for using the facilities of this airport.",
+        "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2016/Executive%20Council%20Resolution%20No.%20(8)%20of%202016.html"
+      },
+      {
+        "text": "Passengers who are less than two (2) years old; pilots and flight crew members on duty; and transit passengers whose arrival and departure flight number is the same are hereby exempted from the payment of the fee referred to in paragraph (a) of this Article.",
+        "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2016/Executive%20Council%20Resolution%20No.%20(8)%20of%202016.html"
+      },
+      {
+        "text": "As of 1 March 2016, the fee will be collected by these airlines upon issuing air tickets for customers within or outside of the UAE if the date of departure from any of Dubai airports is scheduled to be after 30 June 2016.",
+        "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2016/Executive%20Council%20Resolution%20No.%20(8)%20of%202016.html"
+      }
+    ],
+    "levies.dubai-airports-passenger-fee.exemptions": [
+      {
+        "text": "Each passenger, including transit passengers, departing the United Arab Emirates from any of Dubai airports will be charged a fee of thirty-five Dirhams (AED 35.00) for using the facilities of this airport.",
+        "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2016/Executive%20Council%20Resolution%20No.%20(8)%20of%202016.html"
+      },
+      {
+        "text": "Passengers who are less than two (2) years old; pilots and flight crew members on duty; and transit passengers whose arrival and departure flight number is the same are hereby exempted from the payment of the fee referred to in paragraph (a) of this Article.",
+        "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2016/Executive%20Council%20Resolution%20No.%20(8)%20of%202016.html"
+      },
+      {
+        "text": "As of 1 March 2016, the fee will be collected by these airlines upon issuing air tickets for customers within or outside of the UAE if the date of departure from any of Dubai airports is scheduled to be after 30 June 2016.",
+        "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2016/Executive%20Council%20Resolution%20No.%20(8)%20of%202016.html"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "dubai-tourism-dirham",
+      "name": "Tourism Dirham Fee (Dubai)",
+      "kind": "tourist-tax",
+      "fee": null,
+      "per": "room-per-night",
+      "paidAt": "at-accommodation",
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "Under Dubai Executive Council resolutions, hotel guests in Dubai are charged the Tourism Dirham Fee for each night a room is occupied, for up to 30 consecutive nights, at a rate set by the establishment's classification.",
+      "source": {
+        "url": "https://dubaidet.gov.ae/en/legislative-news/-/media/images/corp/tourism-legislations/executive-council-resolution-no-10-of-2014-amending-executive-council-resolution-no-2-of-2014-approving-tourism-dirham-fee.pdf",
+        "name": "Dubai Department of Economy and Tourism — Executive Council Resolution No. (10) of 2014 amending Resolution No. (2) of 2014 Approving the Tourism Dirham Fee",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Dubai Executive Council Resolution No. (2) of 2014, Article 3 and Schedule (1), as amended by Executive Council Resolution No. (10) of 2014",
+        "alsoStatedOn": [
+          {
+            "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.html",
+            "name": "Dubai Legislation Portal — Executive Council Resolution No. (2) of 2014 approving the Tourism Dirham Fee",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      },
+      "feeText": "AED 7 to AED 20 per occupied room per night, by hotel classification (Dubai only)."
+    },
+    {
+      "id": "dubai-airports-passenger-fee",
+      "name": "Dubai airports facilities fee",
+      "kind": "airport-fee",
+      "fee": {
+        "amount": 35,
+        "currency": "AED"
+      },
+      "per": "person-per-trip",
+      "paidAt": "included-in-ticket",
+      "appliesTo": "all",
+      "exemptions": "Children under two, crew on duty, and transit passengers whose arrival and departure flight number is the same.",
+      "url": null,
+      "text": "Under Dubai Executive Council Resolution No. 8 of 2016, every passenger departing the UAE from a Dubai airport, including transit passengers, pays AED 35 for using the airport's facilities, collected by airlines when issuing tickets.",
+      "source": {
+        "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2016/Executive%20Council%20Resolution%20No.%20(8)%20of%202016.html",
+        "name": "Dubai Legislation Portal (Supreme Legislation Committee) — Executive Council Resolution No. (8) of 2016 Concerning Charging Passengers a Fee for Using Dubai Airports Facilities",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Dubai Executive Council Resolution No. (8) of 2016, Articles 1–2"
+      }
+    }
+  ]
 }

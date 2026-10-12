@@ -48,7 +48,8 @@
       }
     ],
     "modules": [
-      "overstay"
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -5736,6 +5737,40 @@
         "text": "Visa ordinaria de salida a no residente (una vez vencida la permanencia, más $CA 10.00 pago de multa por día de estancia vencida)",
         "url": "https://digesto.asamblea.gob.ni/consultas/util/pdf.php?type=rdd&rdd=X0e4buKlvOU%3D"
       }
+    ],
+    "levies.departure-tax": [
+      {
+        "text": "There is also a departure tax of 35 US dollars, which is normally included in the price of your air ticket.",
+        "url": "https://www.gov.uk/foreign-travel-advice/nicaragua/entry-requirements"
+      }
+    ],
+    "levies.departure-tax.feeText": [
+      {
+        "text": "There is also a departure tax of 35 US dollars, which is normally included in the price of your air ticket.",
+        "url": "https://www.gov.uk/foreign-travel-advice/nicaragua/entry-requirements"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "departure-tax",
+      "name": "Departure tax",
+      "kind": "departure-tax",
+      "fee": null,
+      "per": "person-per-trip",
+      "paidAt": null,
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "The UK government says there is a departure tax of 35 US dollars, normally included in the price of the air ticket. No Nicaraguan official page we could read states it.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/nicaragua/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Nicaragua travel advice: entry requirements",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12"
+      },
+      "feeText": "USD 35, according to the UK government."
+    }
+  ]
 }

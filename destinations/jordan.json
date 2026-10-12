@@ -47,7 +47,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -6506,6 +6507,70 @@
         "text": "You could get a fine if you overstay.",
         "url": "https://www.gov.uk/foreign-travel-advice/jordan/entry-requirements"
       }
+    ],
+    "levies.departure-tax-land-sea": [
+      {
+        "text": "A departure tax of 10 JDs ($15) is paid at any border crossings except the airports.",
+        "url": "https://international.visitjordan.com/page/21/border"
+      },
+      {
+        "text": "You must pay a departure tax of 10 Jordanian dinars in cash at all land border crossings. There are usually ATMs at the border.",
+        "url": "https://www.gov.uk/foreign-travel-advice/jordan/entry-requirements"
+      },
+      {
+        "text": "You must pay a departure tax of 10 JOD in cash at all land border crossings. There are usually ATMs at the border.",
+        "url": "https://www.smartraveller.gov.au/destinations/middle-east/jordan"
+      }
+    ],
+    "levies.departure-tax-land-sea.exemptions": [
+      {
+        "text": "A departure tax of 10 JDs ($15) is paid at any border crossings except the airports.",
+        "url": "https://international.visitjordan.com/page/21/border"
+      },
+      {
+        "text": "You must pay a departure tax of 10 Jordanian dinars in cash at all land border crossings. There are usually ATMs at the border.",
+        "url": "https://www.gov.uk/foreign-travel-advice/jordan/entry-requirements"
+      },
+      {
+        "text": "You must pay a departure tax of 10 JOD in cash at all land border crossings. There are usually ATMs at the border.",
+        "url": "https://www.smartraveller.gov.au/destinations/middle-east/jordan"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "departure-tax-land-sea",
+      "name": "Departure tax (border crossings)",
+      "kind": "departure-tax",
+      "fee": {
+        "amount": 10,
+        "currency": "JOD"
+      },
+      "per": "person-per-trip",
+      "paidAt": "on-departure",
+      "appliesTo": "all",
+      "exemptions": "Not charged at airports.",
+      "url": null,
+      "text": "The Jordan Tourism Board says a departure tax of 10 Jordanian dinars is paid at any border crossing except the airports; the UK and Australian governments say it is paid in cash at land border crossings.",
+      "source": {
+        "url": "https://international.visitjordan.com/page/21/border",
+        "name": "Jordan Tourism Board (visitjordan.com) — Border crossings",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.gov.uk/foreign-travel-advice/jordan/entry-requirements",
+            "name": "UK Foreign, Commonwealth & Development Office — Jordan travel advice: entry requirements",
+            "lastVerified": "2026-10-12"
+          },
+          {
+            "url": "https://www.smartraveller.gov.au/destinations/middle-east/jordan",
+            "name": "Australian Government, Smartraveller — Jordan travel advice",
+            "lastVerified": "2026-10-12"
+          }
+        ]
+      }
+    }
+  ]
 }

@@ -20,7 +20,7 @@
   ],
   "summary": "The Nigeria Immigration Service says the tourism visa is for citizens of all countries except ECOWAS member States and other countries with which Nigeria has entered into visa abolition or waiver agreements, and that you apply online (e-Visa or embassy). The UK government says visa on arrival is no longer available and that all visa applications must be submitted through the online portal before travel.",
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -34,7 +34,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -3860,6 +3861,48 @@
         "text": "Nigeria 18 Oct 2018 a",
         "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-19&chapter=11"
       }
+    ],
+    "levies.faan-passenger-service-charge": [
+      {
+        "text": "Passenger Service Charge Per Head (INTERNATIONAL) =80 Dollars (For West African Countries)",
+        "url": "https://faan.gov.ng/aeronautical-charges/"
+      },
+      {
+        "text": "Passenger Service Charge Per Head (INTERNATIONAL) =100 Dollars (For Non West African Countries)",
+        "url": "https://faan.gov.ng/aeronautical-charges/"
+      }
+    ],
+    "levies.faan-passenger-service-charge.feeText": [
+      {
+        "text": "Passenger Service Charge Per Head (INTERNATIONAL) =80 Dollars (For West African Countries)",
+        "url": "https://faan.gov.ng/aeronautical-charges/"
+      },
+      {
+        "text": "Passenger Service Charge Per Head (INTERNATIONAL) =100 Dollars (For Non West African Countries)",
+        "url": "https://faan.gov.ng/aeronautical-charges/"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "faan-passenger-service-charge",
+      "name": "Passenger service charge (international)",
+      "kind": "airport-fee",
+      "fee": null,
+      "per": "person-per-trip",
+      "paidAt": null,
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "The Federal Airports Authority of Nigeria charges a passenger service charge on international flights, at a rate that depends on the destination.",
+      "source": {
+        "url": "https://faan.gov.ng/aeronautical-charges/",
+        "name": "Federal Airports Authority of Nigeria — Aeronautical charges",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12"
+      },
+      "feeText": "USD 80 per passenger for West African countries; USD 100 per passenger for other countries."
+    }
+  ]
 }

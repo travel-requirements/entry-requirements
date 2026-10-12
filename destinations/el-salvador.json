@@ -18,7 +18,7 @@
   ],
   "summary": "El Salvador's Foreign Ministry sorts passports into category A (exempt from visa), category B (consular visa without consultation) and category C (consulted visa), and its migration law treats tourists as staying up to 90 calendar days. The UK and Canadian governments say their citizens do not need a visa. The UK government says you can travel between El Salvador, Guatemala and Nicaragua for up to 90 days without a visa, and that the 90-day period starts when you enter any of these countries and does not restart when you cross borders.",
   "meta": {
-    "lastUpdated": "2026-10-11",
+    "lastUpdated": "2026-10-12",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -32,7 +32,8 @@
       }
     ],
     "modules": [
-      "driving"
+      "driving",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -4359,6 +4360,114 @@
         "text": "A las personas clasificadas en categoría “B”, con visa de Estados Unidos de América, Canadá o Schengen, se le dará el trato de categoría A. En este caso se le estampará sello en el pasaporte con la leyenda “Exento de Visa”. Teniendo que pagar a su ingreso la Tarjeta Migratoria de Ingreso.",
         "url": "https://www.diariooficial.gob.sv/seleccion/30021"
       }
+    ],
+    "levies.transit-fee-india-africa": [
+      {
+        "text": "Indian nationals or nationals from any African country travelling through El Salvador must pay a 1,130 US dollar fee.",
+        "url": "https://www.gov.uk/foreign-travel-advice/el-salvador/entry-requirements"
+      },
+      {
+        "text": "British dual nationals will not have to pay the fee if they travel on their British passport.",
+        "url": "https://www.gov.uk/foreign-travel-advice/el-salvador/entry-requirements"
+      }
+    ],
+    "levies.transit-fee-india-africa.exemptions": [
+      {
+        "text": "Indian nationals or nationals from any African country travelling through El Salvador must pay a 1,130 US dollar fee.",
+        "url": "https://www.gov.uk/foreign-travel-advice/el-salvador/entry-requirements"
+      },
+      {
+        "text": "British dual nationals will not have to pay the fee if they travel on their British passport.",
+        "url": "https://www.gov.uk/foreign-travel-advice/el-salvador/entry-requirements"
+      }
+    ],
+    "levies.transit-fee-india-africa.feeText": [
+      {
+        "text": "Indian nationals or nationals from any African country travelling through El Salvador must pay a 1,130 US dollar fee.",
+        "url": "https://www.gov.uk/foreign-travel-advice/el-salvador/entry-requirements"
+      },
+      {
+        "text": "British dual nationals will not have to pay the fee if they travel on their British passport.",
+        "url": "https://www.gov.uk/foreign-travel-advice/el-salvador/entry-requirements"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "transit-fee-india-africa",
+      "name": "Fee for Indian and African nationals",
+      "kind": "airport-fee",
+      "fee": null,
+      "per": "person-per-trip",
+      "paidAt": null,
+      "appliesTo": [
+        "IN",
+        "DZ",
+        "AO",
+        "BJ",
+        "BW",
+        "BF",
+        "BI",
+        "CV",
+        "CM",
+        "CF",
+        "TD",
+        "KM",
+        "CG",
+        "CD",
+        "CI",
+        "DJ",
+        "EG",
+        "GQ",
+        "ER",
+        "SZ",
+        "ET",
+        "GA",
+        "GM",
+        "GH",
+        "GN",
+        "GW",
+        "KE",
+        "LS",
+        "LR",
+        "LY",
+        "MG",
+        "MW",
+        "ML",
+        "MR",
+        "MU",
+        "MA",
+        "MZ",
+        "NA",
+        "NE",
+        "NG",
+        "RW",
+        "ST",
+        "SN",
+        "SC",
+        "SL",
+        "SO",
+        "ZA",
+        "SS",
+        "SD",
+        "TZ",
+        "TG",
+        "TN",
+        "UG",
+        "ZM",
+        "ZW"
+      ],
+      "exemptions": "British dual nationals travelling on their British passport.",
+      "url": null,
+      "text": "The UK government says Indian nationals and nationals of any African country travelling through El Salvador must pay a fee of USD 1,130, and that British dual nationals travelling on their British passport do not pay it. No Salvadoran official page we could read states the charge.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/el-salvador/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — El Salvador travel advice: entry requirements",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12"
+      },
+      "feeText": "USD 1,130, according to the UK government."
+    }
+  ]
 }

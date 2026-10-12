@@ -34,7 +34,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -3382,6 +3383,44 @@
         "text": "16. (l) An immigration officer who decides that an immigrant is a prohibited immigrant may in his discretion— (a) order him to leave Guyana and proceed immediately by the same vessel (or other means of transportation) by which he arrived; (b) order him to leave Guyana within a specified period to be determined by the immigration officer; or (c) cause him to be arrested and brought before a magistrate’s court, with a view to an order being made for his removal from Guyana.",
         "url": "https://mola.gov.gy/laws/Volume%205%20Cap.%2012.22%20-%2017.021696969977.pdf"
       }
+    ],
+    "levies.travel-tax": [
+      {
+        "text": "All travelers under the age of sixty-five (65), unless exempted, must pay the full Travel Tax of Three thousand five hundred dollars ($3,500).",
+        "url": "https://gra.gov.gy/business/tax-operations-and-services/miscellaneous-taxes/travel-airport/"
+      },
+      {
+        "text": "Travel tax is now incorporated into your travel itinerary and you are no longer required to make this payment at the airport.",
+        "url": "https://gra.gov.gy/business/tax-operations-and-services/miscellaneous-taxes/travel-airport/"
+      },
+      {
+        "text": "Eligible persons must be in possession of a valid Guyanese passport and have been residing in Guyana for a period no less than 183 days in a given year.",
+        "url": "https://gra.gov.gy/business/tax-operations-and-services/miscellaneous-taxes/travel-airport/"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "travel-tax",
+      "name": "Travel Tax",
+      "kind": "departure-tax",
+      "fee": {
+        "amount": 3500,
+        "currency": "GYD"
+      },
+      "per": "person-per-trip",
+      "paidAt": "included-in-ticket",
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "The Guyana Revenue Authority says all travellers under 65, unless exempted, pay a Travel Tax of GYD 3,500, which is now included in the travel itinerary instead of being paid at the airport. The reduced rate for people aged 65 or over requires a Guyanese passport and residence in Guyana.",
+      "source": {
+        "url": "https://gra.gov.gy/business/tax-operations-and-services/miscellaneous-taxes/travel-airport/",
+        "name": "Guyana Revenue Authority — Travel Airport Tax",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12"
+      }
+    }
+  ]
 }

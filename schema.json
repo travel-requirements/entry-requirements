@@ -2655,33 +2655,43 @@
             ]
           },
           "fee": {
-            "type": "object",
-            "properties": {
-              "amount": {
-                "type": "number",
-                "minimum": 0
-              },
-              "currency": {
-                "type": "string",
-                "minLength": 3,
-                "maxLength": 3
-              },
-              "notes": {
-                "anyOf": [
-                  {
-                    "type": "string"
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "amount": {
+                    "type": "number",
+                    "minimum": 0
                   },
-                  {
-                    "type": "null"
+                  "currency": {
+                    "type": "string",
+                    "minLength": 3,
+                    "maxLength": 3
+                  },
+                  "notes": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
                   }
-                ]
+                },
+                "required": [
+                  "amount",
+                  "currency"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "null"
               }
-            },
-            "required": [
-              "amount",
-              "currency"
-            ],
-            "additionalProperties": false
+            ]
+          },
+          "feeText": {
+            "type": "string"
           },
           "per": {
             "type": "string",
@@ -2689,17 +2699,25 @@
               "person",
               "person-per-night",
               "person-per-trip",
+              "room-per-night",
               "booking"
             ]
           },
           "paidAt": {
-            "type": "string",
-            "enum": [
-              "online-before",
-              "on-arrival",
-              "on-departure",
-              "included-in-ticket",
-              "at-accommodation"
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "online-before",
+                  "on-arrival",
+                  "on-departure",
+                  "included-in-ticket",
+                  "at-accommodation"
+                ]
+              },
+              {
+                "type": "null"
+              }
             ]
           },
           "appliesTo": {

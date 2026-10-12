@@ -40,7 +40,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -3078,6 +3079,85 @@
         "text": "You may be fined upon departure if you overstay your 30-day visa period without proper authorization.",
         "url": "https://travel.gc.ca/destinations/egypt"
       }
+    ],
+    "levies.departure-fee": [
+      {
+        "text": "وقالت إنه بشأن الرسم المقرر على مغادرة أراضي الجمهورية، فإن هذا الرسم قائم بالفعل منذ سنوات، وأن التعديل الأخير جاء لتوحيد قيمته لتصبح 100 جنيه عند مغادرة أراضي الجمهورية بالنسبة للأجانب، بدلًا من اختلاف قيمته في بعض الحالات، بما يسهم في تبسيط التطبيق وتوحيد المعاملة.",
+        "url": "https://www.eta.gov.eg/ar/news/tdylat-rsm-tnmyt-mward-aldwlt-walrsm-almqrr-ly-mghadrt-arady-aljmhwryt"
+      }
+    ],
+    "levies.taba-border-tax": [
+      {
+        "text": "If staying in Taba, travellers will need to pay a border tax of 20 US dollars. The border tax allows you to obtain an entry permission stamp for a stay of up to 15 days",
+        "url": "https://www.gov.uk/foreign-travel-advice/egypt/entry-requirements"
+      },
+      {
+        "text": "If travelling further than Taba, including to Sharm El-Sheikh, but remaining within the Sinai Peninsula, travellers will need to pay a border tax of 120 US dollars. The border tax allows you to obtain an entry permission stamp for a stay of up to 15 days",
+        "url": "https://www.gov.uk/foreign-travel-advice/egypt/entry-requirements"
+      },
+      {
+        "text": "Since early March 2026, border crossing charges at Taba have been subject to increases at short notice.",
+        "url": "https://www.gov.uk/foreign-travel-advice/egypt/entry-requirements"
+      }
+    ],
+    "levies.taba-border-tax.feeText": [
+      {
+        "text": "If staying in Taba, travellers will need to pay a border tax of 20 US dollars. The border tax allows you to obtain an entry permission stamp for a stay of up to 15 days",
+        "url": "https://www.gov.uk/foreign-travel-advice/egypt/entry-requirements"
+      },
+      {
+        "text": "If travelling further than Taba, including to Sharm El-Sheikh, but remaining within the Sinai Peninsula, travellers will need to pay a border tax of 120 US dollars. The border tax allows you to obtain an entry permission stamp for a stay of up to 15 days",
+        "url": "https://www.gov.uk/foreign-travel-advice/egypt/entry-requirements"
+      },
+      {
+        "text": "Since early March 2026, border crossing charges at Taba have been subject to increases at short notice.",
+        "url": "https://www.gov.uk/foreign-travel-advice/egypt/entry-requirements"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "departure-fee",
+      "name": "Departure fee",
+      "kind": "departure-tax",
+      "fee": {
+        "amount": 100,
+        "currency": "EGP"
+      },
+      "per": "person-per-trip",
+      "paidAt": null,
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "The Egyptian Tax Authority says the fee for leaving Egypt has been unified at EGP 100 for foreigners on departure.",
+      "source": {
+        "url": "https://www.eta.gov.eg/ar/news/tdylat-rsm-tnmyt-mward-aldwlt-walrsm-almqrr-ly-mghadrt-arady-aljmhwryt",
+        "name": "Egyptian Tax Authority — Amendments to the State Resources Development Fee and the fee on departing the Republic (news, 25 Aug 2026)",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "قانون رسم تنمية الموارد المالية للدولة (State Financial Resources Development Fee Law), as amended 2026 — article not named on the page"
+      }
+    },
+    {
+      "id": "taba-border-tax",
+      "name": "Border tax at Taba",
+      "kind": "access-fee",
+      "fee": null,
+      "per": "person-per-trip",
+      "paidAt": "on-arrival",
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "The UK government says travellers entering at the Taba border crossing from Israel pay a border tax of USD 20 if staying in Taba, or USD 120 if travelling further within the Sinai, and that these charges have risen at short notice since March 2026. No Egyptian official page we could read states it.",
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/egypt/entry-requirements",
+        "name": "UK Foreign, Commonwealth & Development Office — Egypt travel advice: entry requirements",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12"
+      },
+      "feeText": "USD 20 if staying in Taba; USD 120 if travelling further, according to the UK government."
+    }
+  ]
 }

@@ -45,7 +45,8 @@
       }
     ],
     "modules": [
-      "overstay"
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -4386,6 +4387,71 @@
         "text": "If you overstay your visa or permit you can be arrested, detained and fined before being deported.",
         "url": "https://www.gov.uk/foreign-travel-advice/tanzania/entry-requirements"
       }
+    ],
+    "levies.airport-service-charge-mainland": [
+      {
+        "text": "pay in foreign convertible currency an airport service charge equivalent to forty United States dollars.",
+        "url": "https://www.trab.go.tz/uploads/documents/en-1662105597-AIRPORT_SERVICE_CHARGE_ACT.pdf"
+      },
+      {
+        "text": "(4) The charge shall be a debt due to the Government and shall be paid prior to embarkation to a collection agent or to a revenue office appointed for that purpose.",
+        "url": "https://www.trab.go.tz/uploads/documents/en-1662105597-AIRPORT_SERVICE_CHARGE_ACT.pdf"
+      },
+      {
+        "text": "(a) any child under the age of two years; (b) any passenger embarking at an airport at which he is in transit.",
+        "url": "https://www.trab.go.tz/uploads/documents/en-1662105597-AIRPORT_SERVICE_CHARGE_ACT.pdf"
+      }
+    ],
+    "levies.airport-service-charge-mainland.exemptions": [
+      {
+        "text": "pay in foreign convertible currency an airport service charge equivalent to forty United States dollars.",
+        "url": "https://www.trab.go.tz/uploads/documents/en-1662105597-AIRPORT_SERVICE_CHARGE_ACT.pdf"
+      },
+      {
+        "text": "(4) The charge shall be a debt due to the Government and shall be paid prior to embarkation to a collection agent or to a revenue office appointed for that purpose.",
+        "url": "https://www.trab.go.tz/uploads/documents/en-1662105597-AIRPORT_SERVICE_CHARGE_ACT.pdf"
+      },
+      {
+        "text": "(a) any child under the age of two years; (b) any passenger embarking at an airport at which he is in transit.",
+        "url": "https://www.trab.go.tz/uploads/documents/en-1662105597-AIRPORT_SERVICE_CHARGE_ACT.pdf"
+      }
+    ],
+    "levies.airport-service-charge-mainland.feeText": [
+      {
+        "text": "pay in foreign convertible currency an airport service charge equivalent to forty United States dollars.",
+        "url": "https://www.trab.go.tz/uploads/documents/en-1662105597-AIRPORT_SERVICE_CHARGE_ACT.pdf"
+      },
+      {
+        "text": "(4) The charge shall be a debt due to the Government and shall be paid prior to embarkation to a collection agent or to a revenue office appointed for that purpose.",
+        "url": "https://www.trab.go.tz/uploads/documents/en-1662105597-AIRPORT_SERVICE_CHARGE_ACT.pdf"
+      },
+      {
+        "text": "(a) any child under the age of two years; (b) any passenger embarking at an airport at which he is in transit.",
+        "url": "https://www.trab.go.tz/uploads/documents/en-1662105597-AIRPORT_SERVICE_CHARGE_ACT.pdf"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "airport-service-charge-mainland",
+      "name": "Airport service charge",
+      "kind": "departure-tax",
+      "fee": null,
+      "per": "person-per-trip",
+      "paidAt": null,
+      "appliesTo": "all",
+      "exemptions": "Children under two and passengers embarking at an airport where they are in transit.",
+      "url": null,
+      "text": "Under the Airport Service Charge Act, a passenger embarking on an international flight pays an airport service charge equivalent to forty US dollars, in foreign convertible currency, before embarkation to a collection agent or revenue office.",
+      "source": {
+        "url": "https://www.trab.go.tz/uploads/documents/en-1662105597-AIRPORT_SERVICE_CHARGE_ACT.pdf",
+        "name": "Tax Revenue Appeals Board (Tanzania) — Airport Service Charge Act",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Airport Service Charge Act, Cap. 365 R.E. 2019, s. 3(3)-(4), s. 4(1)"
+      },
+      "feeText": "Equivalent to forty US dollars."
+    }
+  ]
 }

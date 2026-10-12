@@ -30,7 +30,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -4471,6 +4472,45 @@
         "text": "_ 2 _ يعاقب كل من أدين بارتكاب جرم آخر ضد هذا القانون بالحبس مدة لا تتجاوز ستة أشهر وبغرامة لا تتجاوز خمسمائة دينار أو بإحدى هاتين العقوبتين",
         "url": "https://www.lloc.gov.bh/Legislation/HTM/L2180"
       }
+    ],
+    "levies.departure-fee": [
+      {
+        "text": "Last updated as per Legislative Decree No. 24 for the year 2023",
+        "url": "https://mtt.gov.bh/sites/default/files/2024-09/caa_tariff_-_schedule_5.pdf"
+      },
+      {
+        "text": "1 Departure Fee (on Passenger Departing from the Kingdom of Bahrain) BD 10",
+        "url": "https://mtt.gov.bh/sites/default/files/2024-09/caa_tariff_-_schedule_5.pdf"
+      },
+      {
+        "text": "2 Departure Fee (on Transfer Passenger) BD 4",
+        "url": "https://mtt.gov.bh/sites/default/files/2024-09/caa_tariff_-_schedule_5.pdf"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "departure-fee",
+      "name": "Departure fee",
+      "kind": "departure-tax",
+      "fee": {
+        "amount": 10,
+        "currency": "BHD"
+      },
+      "per": "person-per-trip",
+      "paidAt": null,
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "The Civil Aviation Affairs tariff sets a departure fee of BD 10 per passenger departing Bahrain, and BD 4 per transfer passenger.",
+      "source": {
+        "url": "https://mtt.gov.bh/sites/default/files/2024-09/caa_tariff_-_schedule_5.pdf",
+        "name": "Ministry of Transportation and Telecommunications, Civil Aviation Affairs — Tariff Schedule (5) Passengers’ Departure Services Fees",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Legislative Decree No. 24 of 2023 (as named on the schedule)"
+      }
+    }
+  ]
 }
