@@ -53,7 +53,8 @@
     ],
     "modules": [
       "driving",
-      "overstay"
+      "overstay",
+      "levies"
     ]
   },
   "visaPolicy": {
@@ -4568,6 +4569,65 @@
         "text": "§ 3º O pagamento da multa não obstará o impedimento de ingresso no País se o visitante já houver excedido o prazo de estada disponível no ano migratório, observado o disposto no inciso XI do caput do art. 171 .",
         "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9199.htm"
       }
+    ],
+    "levies.tarifa-de-embarque": [
+      {
+        "text": "É a única paga pelo passageiro para utilização dos aeroportos brasileiros. A finalidade é remunerar a prestação dos serviços, instalações e facilidades necessários aos procedimentos de embarque e desembarque de passageiros e bagagens.",
+        "url": "https://www.gov.br/anac/pt-br/assuntos/regulados/aeroportos-e-aerodromos/tarifas-aeroportuarias"
+      },
+      {
+        "text": "No Brasil, a tarifa é cobrada pela empresa aérea antes do embarque do passageiro, para facilitar o embarque, e repassada aos aeroportos.",
+        "url": "https://www.gov.br/anac/pt-br/assuntos/regulados/aeroportos-e-aerodromos/tarifas-aeroportuarias"
+      },
+      {
+        "text": "Neste regime, aplicado aos aeroportos concedidos entre 2012 e 2017, a ANAC define os valores máximos para as tarifas aeroportuárias, atualizadas anualmente e publicadas em Portarias da ANAC no Diário Oficial da União.",
+        "url": "https://www.gov.br/anac/pt-br/assuntos/regulados/aeroportos-e-aerodromos/tarifas-aeroportuarias"
+      },
+      {
+        "text": "As tarifas de embarque, conexão, pouso e permanência são definidas pela própria Infraero em seus aeroportos, respeitados os valores de Receita Teto vigentes, além de observadas as diretrizes dispostas na Resolução.",
+        "url": "https://www.gov.br/anac/pt-br/assuntos/regulados/aeroportos-e-aerodromos/tarifas-aeroportuarias"
+      }
+    ],
+    "levies.tarifa-de-embarque.feeText": [
+      {
+        "text": "É a única paga pelo passageiro para utilização dos aeroportos brasileiros. A finalidade é remunerar a prestação dos serviços, instalações e facilidades necessários aos procedimentos de embarque e desembarque de passageiros e bagagens.",
+        "url": "https://www.gov.br/anac/pt-br/assuntos/regulados/aeroportos-e-aerodromos/tarifas-aeroportuarias"
+      },
+      {
+        "text": "No Brasil, a tarifa é cobrada pela empresa aérea antes do embarque do passageiro, para facilitar o embarque, e repassada aos aeroportos.",
+        "url": "https://www.gov.br/anac/pt-br/assuntos/regulados/aeroportos-e-aerodromos/tarifas-aeroportuarias"
+      },
+      {
+        "text": "Neste regime, aplicado aos aeroportos concedidos entre 2012 e 2017, a ANAC define os valores máximos para as tarifas aeroportuárias, atualizadas anualmente e publicadas em Portarias da ANAC no Diário Oficial da União.",
+        "url": "https://www.gov.br/anac/pt-br/assuntos/regulados/aeroportos-e-aerodromos/tarifas-aeroportuarias"
+      },
+      {
+        "text": "As tarifas de embarque, conexão, pouso e permanência são definidas pela própria Infraero em seus aeroportos, respeitados os valores de Receita Teto vigentes, além de observadas as diretrizes dispostas na Resolução.",
+        "url": "https://www.gov.br/anac/pt-br/assuntos/regulados/aeroportos-e-aerodromos/tarifas-aeroportuarias"
+      }
     ]
-  }
+  },
+  "levies": [
+    {
+      "id": "tarifa-de-embarque",
+      "name": "Airport boarding fee (tarifa de embarque)",
+      "kind": "airport-fee",
+      "fee": null,
+      "per": "person-per-trip",
+      "paidAt": null,
+      "appliesTo": "all",
+      "exemptions": null,
+      "url": null,
+      "text": "Brazil's National Civil Aviation Agency says the boarding fee is the only airport charge paid by passengers. The airline collects it before boarding and passes it to the airport. Its amount depends on the airport: the Agency sets maximum values for airports granted in concession, and Infraero sets the fees at its own airports within the applicable revenue cap.",
+      "source": {
+        "url": "https://www.gov.br/anac/pt-br/assuntos/regulados/aeroportos-e-aerodromos/tarifas-aeroportuarias",
+        "name": "National Civil Aviation Agency (ANAC) — Airport charges",
+        "type": "government",
+        "lastVerified": "2026-10-12",
+        "lastChanged": "2026-10-12",
+        "instrument": "Resoluções ANAC nº 432, de 19 de junho 2017 e nº 765, de 23 de janeiro de 2025"
+      },
+      "feeText": "Set separately for each airport, within limits set by the National Civil Aviation Agency."
+    }
+  ]
 }
