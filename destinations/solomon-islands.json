@@ -16,7 +16,7 @@
   ],
   "summary": "Solomon Islands Immigration says all short-term visas, including exemptions, must be applied for through the e-visa portal, and that you must present your visa grant letter to immigration officers at the port of entry. The Tourist Visa costs USD 50 plus a USD 50 online lodgement fee and allows 3 months' stay per entry, with multiple entries over a year; the 30-day, single-entry Tourist Permit is free, but a USD 50 online lodgement fee is charged. No official source we could read says which nationalities may use the Tourist Permit. Immigration's mutual visa exemption pages for the EU, China, Hong Kong and the UAE list the visa fee as exempted.",
   "meta": {
-    "lastUpdated": "2026-10-12",
+    "lastUpdated": "2026-10-13",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -39,12 +39,6 @@
       "type": "government",
       "lastVerified": "2026-10-07",
       "lastChanged": "2026-10-02",
-      "conflict": {
-        "url": "https://www.gov.uk/foreign-travel-advice/solomon-islands/entry-requirements",
-        "name": "UK FCDO — Solomon Islands travel advice, entry requirements (updated 26 May 2026)",
-        "states": "British citizens can visit without a pre-arranged visa for up to 30 days; a visa is given on arrival",
-        "resolvedBy": "hierarchy"
-      },
       "list": {
         "kind": "visa-required",
         "exhaustive": true,
@@ -58,6 +52,11 @@
           "url": "https://immigration.gov.sb/wp-content/uploads/2025/06/Immigration-Act-2012.pdf",
           "name": "Solomon Islands Immigration Act 2012, s. 10 (requirement to hold a visa): a non-citizen who is not an exempt person must not enter or stay unless holding a visa in force (PDF on the Immigration Division site)",
           "lastVerified": "2026-10-09"
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/solomon-islands/entry-requirements",
+          "name": "UK FCDO — Solomon Islands travel advice, entry requirements (\"If you are visiting Solomon Islands as a tourist, you must apply for a 'tourist visa' through the new Solomon Islands Immigration Division visa portal.\")",
+          "lastVerified": "2026-10-13"
         }
       ],
       "stayEvidence": [
@@ -2729,11 +2728,7 @@
       "category": "tourist",
       "method": "evisa",
       "name": "Tourist Visa",
-      "fee": {
-        "amount": 50,
-        "currency": "USD",
-        "notes": "Solomon Islands Immigration lists an online lodgement fee of USD 50 in addition to the visa fee, and an extension fee of USD 100 to be paid at the Finance & Treasury cashier while you are in Solomon Islands."
-      },
+      "fee": null,
       "processing": null,
       "validityDays": 365,
       "stayDays": 90,
@@ -2756,7 +2751,13 @@
             "name": "Solomon Islands Immigration Division — Visas",
             "lastVerified": "2026-10-09"
           }
-        ]
+        ],
+        "conflict": {
+          "url": "https://www.gov.uk/foreign-travel-advice/solomon-islands/entry-requirements",
+          "name": "UK FCDO — Solomon Islands travel advice, entry requirements",
+          "states": "Tourist visas are valid for 3 months",
+          "resolvedBy": "hierarchy"
+        }
       },
       "documents": {
         "items": [
@@ -2792,10 +2793,6 @@
         }
       },
       "evidence": {
-        "fee": {
-          "text": "Visa fee: $50 USD Online lodgement fee: $50 USD",
-          "url": "https://immigration.gov.sb/visitor-visa-tourist/"
-        },
         "stayDays": {
           "text": "Permitted stay each entry: 3 months",
           "url": "https://immigration.gov.sb/visitor-visa-tourist/"
@@ -2820,7 +2817,8 @@
           "text": "All short-term visas such as Visitor, Business and Transit Commercial vessel crew, inlcuding Exemption and Special purpose visas must apply through the e-visa portal.",
           "url": "https://immigration.gov.sb/visas/"
         }
-      }
+      },
+      "feeText": "Visa fee USD 50 and online lodgement fee USD 50. An extension costs USD 100, paid at the Finance & Treasury cashier while in Solomon Islands."
     }
   ],
   "entryRequirements": {
@@ -2840,7 +2838,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/solomon-islands/entry-requirements",
         "name": "UK FCDO — Solomon Islands travel advice, entry requirements",
         "type": "government",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-13",
         "lastChanged": "2026-09-26"
       }
     },
@@ -2928,7 +2926,7 @@
           "url": "https://www.gov.uk/foreign-travel-advice/solomon-islands/entry-requirements",
           "name": "UK FCDO travel advice — Solomon Islands entry requirements",
           "type": "government",
-          "lastVerified": "2026-10-04",
+          "lastVerified": "2026-10-13",
           "lastChanged": "2026-10-04"
         }
       }
@@ -3467,16 +3465,6 @@
         "url": "https://immigration.gov.sb/free-entry-tourist-permit-30-days/"
       }
     ],
-    "visaTypes.visitor-visa.feeNotes": [
-      {
-        "text": "Visa fee: $50 USD Online lodgement fee: $50 USD",
-        "url": "https://immigration.gov.sb/visitor-visa-tourist/"
-      },
-      {
-        "text": "Extension fee: $100 USD to be paid at the Finance & Treasury cashier while you are currently in Solomon Islands.",
-        "url": "https://immigration.gov.sb/visitor-visa-tourist/"
-      }
-    ],
     "entryRequirements.overstay": [
       {
         "text": "29. (1) A fine of the prescribed amount is payable, by a person who is an unlawful non-citizen, for each day on which the person is present in Solomon Islands as an unlawful non-citizen, up to and including the day on which the person departs.",
@@ -3497,6 +3485,16 @@
       {
         "text": "At the time the person departs Solomon Islands, the person has been an unlawful non-citizen for at least 21 days and the person is not covered by another item of this table | The period of 2 years starting on the day the person departs",
         "url": "https://immigration.gov.sb/wp-content/uploads/2025/06/Immigration-Act-2012.pdf"
+      }
+    ],
+    "visaTypes.visitor-visa.feeText": [
+      {
+        "text": "Visa fee: $50 USD Online lodgement fee: $50 USD",
+        "url": "https://immigration.gov.sb/visitor-visa-tourist/"
+      },
+      {
+        "text": "Extension fee: $100 USD to be paid at the Finance & Treasury cashier while you are currently in Solomon Islands.",
+        "url": "https://immigration.gov.sb/visitor-visa-tourist/"
       }
     ]
   }
