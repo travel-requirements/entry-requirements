@@ -2076,19 +2076,36 @@
     },
     "declarations": [
       {
+        "id": "online-border-form",
+        "name": "Electronic Travel Authorization (ETA) or electronic border form",
+        "mandatory": true,
+        "fee": null,
+        "submitAt": "before-travel",
+        "submitWindow": null,
+        "url": null,
+        "text": "The US State Department’s embassy tips for US citizens say you must get an Electronic Travel Authorization (ETA) or electronic border form online before travel, that this is a pre-arrival entry authorization, not a traditional visa, and that if you do not complete it, you may be denied entry to the country. No Vincentian government page we could read describes this form.",
+        "source": {
+          "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/SaintVincentandtheGrenadines.html",
+          "name": "U.S. Department of State — Saint Vincent and the Grenadines country information (Tips from the U.S. embassy)",
+          "type": "government",
+          "lastVerified": "2026-10-15",
+          "lastChanged": "2026-10-15"
+        }
+      },
+      {
         "id": "immigration-customs-form",
         "name": "Immigration and Customs Declaration Form",
         "mandatory": true,
         "fee": null,
         "submitAt": "on-arrival",
-        "submitWindow": "On arrival",
+        "submitWindow": null,
         "url": null,
         "text": "The Ministry of National Security says all passengers are required to complete an Embarkation/Disembarkation (E/D) form.",
         "source": {
           "url": "https://security.gov.vc/security/index.php?option=com_content&view=article&id=59&Itemid=113",
           "name": "Ministry of National Security of Saint Vincent and the Grenadines — Passport & Immigration: Ports and Duties",
           "type": "government",
-          "lastVerified": "2026-10-03"
+          "lastVerified": "2026-10-15"
         }
       }
     ],
@@ -2580,6 +2597,12 @@
       {
         "text": "It’s illegal to stay longer than the period allowed or to work without a work permit.",
         "url": "https://www.gov.uk/foreign-travel-advice/st-vincent-and-the-grenadines/entry-requirements"
+      }
+    ],
+    "entryRequirements.declarations.online-border-form": [
+      {
+        "text": "You must get an Electronic Travel Authorization (ETA) or electronic border form online before travel. This is a pre‑arrival entry authorization, not a traditional visa. If you do not complete it, you may be denied entry to the country.",
+        "url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/SaintVincentandtheGrenadines.html"
       }
     ]
   }
