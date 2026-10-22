@@ -18,9 +18,9 @@
     "iran",
     "azerbaijan"
   ],
-  "summary": "Turkmenistan's State Migration Service says foreign citizens may enter and stay on the basis of a visa unless an international treaty of Turkmenistan provides otherwise. The UK and Canadian governments say a visa application needs a letter of invitation; the UK Foreign Office says authorised travel agents provide these for tourist visits, and that with the letter you apply at an Embassy of Turkmenistan or buy a visa on arrival at Ashgabat airport and some land borders.",
+  "summary": "Turkmenistan's State Migration Service says foreign citizens may enter and stay on the basis of a visa unless an international treaty of Turkmenistan provides otherwise. The UK Foreign Office says that on 1 October 2026 Turkmenistan introduced an e-visa for tourists and for people attending international conferences and exhibitions backed by its government: you cannot apply directly, your tour agency or event organiser acts as sponsor, and the e-visa replaces the letter of invitation followed by a visa in your passport. For any other purpose, it says, you still need a letter of invitation from a sponsoring organisation, and with it you apply at an Embassy of Turkmenistan or on arrival.",
   "meta": {
-    "lastUpdated": "2026-10-12",
+    "lastUpdated": "2026-10-22",
     "lastFullReview": "2026-09-26",
     "reviewIntervalDays": 90,
     "primarySources": [
@@ -49,8 +49,8 @@
       "alsoStatedOn": [
         {
           "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements",
-          "name": "UK FCDO — Turkmenistan entry requirements: letter of invitation, embassy application or visa on arrival at Ashgabat airport and some land borders",
-          "lastVerified": "2026-10-07"
+          "name": "UK FCDO — Turkmenistan entry requirements: e-visa through a sponsor for tourists and conference visitors since 1 October 2026; letter of invitation, then embassy or on-arrival visa, for other purposes",
+          "lastVerified": "2026-10-22"
         }
       ]
     },
@@ -2314,16 +2314,17 @@
         }
       },
       "GB": {
-        "requirement": "embassy-visa",
+        "requirement": "evisa",
         "maxStayDays": null,
         "visaTypes": [
+          "e-visa",
           "tourist-visa",
           "voa-invitation",
           "transit-visa"
         ],
-        "notes": "The UK government's travel advice says that once you have your letter of invitation you can either apply for a visa at your nearest Embassy of Turkmenistan or buy a visa on arrival, which is available at Ashgabat International Airport and some land borders.",
+        "notes": "The UK government's travel advice says that on 1 October 2026 Turkmenistan introduced an e-visa system for tourists and for people visiting to take part in international conferences and exhibitions backed by the Government of Turkmenistan.",
         "quote": {
-          "text": "Once you have your letter of invitation you can either apply for a visa at your nearest Embassy of Turkmenistan or purchase a visa on arrival. The visa on arrival option is available at Ashgabat International Airport and some land borders.",
+          "text": "On 1 October 2026 Turkmenistan introduced an electronic (e-visa) system for tourists and people visiting to participate in international conferences and exhibitions backed by the Government of Turkmenistan.",
           "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
         }
       },
@@ -2451,6 +2452,36 @@
   },
   "visaTypes": [
     {
+      "id": "e-visa",
+      "category": "tourist",
+      "method": "evisa",
+      "name": "E-visa (tourists and international conferences and exhibitions)",
+      "fee": null,
+      "feeText": "The UK Foreign Office says the cost of any visa depends on your length of stay in Turkmenistan and whether you apply for a single or multiple entry visa.",
+      "processing": null,
+      "validityDays": null,
+      "stayDays": null,
+      "entries": null,
+      "applyUrl": null,
+      "source": {
+        "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements",
+        "name": "UK Foreign Office — Turkmenistan entry requirements: e-visa introduced on 1 October 2026 for tourists and conference visitors",
+        "type": "government",
+        "lastVerified": "2026-10-22",
+        "lastChanged": "2026-10-22"
+      },
+      "evidence": {
+        "name": {
+          "text": "On 1 October 2026 Turkmenistan introduced an electronic (e-visa) system for tourists and people visiting to participate in international conferences and exhibitions backed by the Government of Turkmenistan.",
+          "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
+        },
+        "method": {
+          "text": "You cannot apply for one of these visas directly. Your tour agency or event organiser will continue to act as a sponsor. However, when the visa is approved and paid for through your sponsor, you will receive an e-visa that can be printed off or presented electronically on arrival. The e-visa replaces the former two-part process of a letter of invitation followed by a visa vignette in your passport.",
+          "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
+        }
+      }
+    },
+    {
       "id": "tourist-visa",
       "category": "tourist",
       "method": "embassy",
@@ -2458,7 +2489,7 @@
       "fee": {
         "amount": 40,
         "currency": "USD",
-        "notes": "State Migration Service fee for an ordinary visa of up to one month; USD 20 for up to 10 days, USD 30 for up to 20 days, USD 30 for each further month. Multiple-entry visas: USD 60 for up to one month, USD 40 each further month. Children under 7 pay nothing and children 7–16 pay half; urgent processing within 3 working days doubles the fee. The UK and Canadian governments say a letter of invitation is needed first; the UK says authorised travel agents provide them for tourist visits."
+        "notes": "State Migration Service fee for an ordinary visa of up to one month; USD 20 for up to 10 days, USD 30 for up to 20 days, USD 30 for each further month. Multiple-entry visas: USD 60 for up to one month, USD 40 each further month. Children under 7 pay nothing and children 7–16 pay half; urgent processing within 3 working days doubles the fee. The UK government says that for any purpose other than tourism or conference participation you need a letter of invitation applied for on your behalf by a sponsoring organisation, and with it you can apply at your nearest Embassy of Turkmenistan or on arrival; Canada's travel advice says a letter of invitation must be presented in support of a visa application."
       },
       "processing": null,
       "validityDays": null,
@@ -2479,8 +2510,8 @@
           },
           {
             "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements",
-            "name": "UK Foreign Office — Turkmenistan entry requirements (letter of invitation, visa on arrival, transit visas)",
-            "lastVerified": "2026-10-09"
+            "name": "UK Foreign Office — Turkmenistan entry requirements (e-visa for tourists and conferences, letter of invitation for other purposes, transit visas)",
+            "lastVerified": "2026-10-22"
           },
           {
             "url": "https://travel.gc.ca/destinations/turkmenistan",
@@ -2506,13 +2537,13 @@
     },
     {
       "id": "voa-invitation",
-      "category": "tourist",
+      "category": "other",
       "method": "visa-on-arrival",
-      "name": "Visa on arrival with a letter of invitation",
+      "name": "Visa on arrival with a letter of invitation (any purpose other than tourism or conference participation)",
       "fee": {
         "amount": 40,
         "currency": "USD",
-        "notes": "Ordinary-visa fee for a stay of up to one month (USD 20 up to 10 days, USD 30 up to 20 days); the State Migration Service charges a further USD 50 on every visa obtained at the international airport. The UK Foreign Office says you buy it once you have your letter of invitation."
+        "notes": "Ordinary-visa fee for a stay of up to one month (USD 20 up to 10 days, USD 30 up to 20 days); the State Migration Service charges a further USD 50 on every visa obtained at the international airport, and the UK Foreign Office says visas on arrival attract an additional fee of 50 US dollars. The UK Foreign Office says that for any purpose other than tourism or conference participation you need a letter of invitation applied for on your behalf by a sponsoring organisation, and with it you can apply for your visa on arrival."
       },
       "processing": null,
       "validityDays": null,
@@ -2524,12 +2555,12 @@
         "name": "State Migration Service of Turkmenistan — Visa fees (Wiza tölegleri)",
         "type": "government",
         "lastVerified": "2026-10-07",
-        "lastChanged": "2026-09-26",
+        "lastChanged": "2026-10-22",
         "alsoStatedOn": [
           {
             "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements",
-            "name": "UK Foreign Office — Turkmenistan entry requirements (letter of invitation, visa on arrival, transit visas)",
-            "lastVerified": "2026-10-09"
+            "name": "UK Foreign Office — Turkmenistan entry requirements (e-visa for tourists and conferences, letter of invitation for other purposes, transit visas)",
+            "lastVerified": "2026-10-22"
           },
           {
             "url": "https://travel.gc.ca/destinations/turkmenistan",
@@ -2544,11 +2575,11 @@
           "url": "https://migration.gov.tm/pages/wiza-toleg"
         },
         "name": {
-          "text": "Once you have your letter of invitation you can either apply for a visa at your nearest Embassy of Turkmenistan or purchase a visa on arrival.",
+          "text": "If you plan to visit Turkmenistan for any purpose other than tourism or conference participation, you continue to need a letter of invitation applied for on your behalf by a sponsoring organisation. Once you have the letter of invitation you can apply for your visa either at your nearest Embassy of Turkmenistan or on arrival.",
           "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
         },
         "method": {
-          "text": "The visa on arrival option is available at Ashgabat International Airport and some land borders.",
+          "text": "Once you have the letter of invitation you can apply for your visa either at your nearest Embassy of Turkmenistan or on arrival.",
           "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
         }
       }
@@ -2561,7 +2592,7 @@
       "fee": {
         "amount": 20,
         "currency": "USD",
-        "notes": "Single-entry transit visa for up to 5 days; USD 40 for a double-entry transit visa of up to 5 days per trip. The UK government says the sponsor for a transit visa is the State Migration Service rather than a tour agency, and that you must use the border crossings included on the letter of invitation. The UK government says you apply for the letter of invitation through your nearest Embassy of Turkmenistan and must secure it before you travel; it can then be converted to a transit visa at the land border checkpoint. It also says you cannot buy a transit visa at Baku seaport and must secure it ahead of time."
+        "notes": "Single-entry transit visa for up to 5 days; USD 40 for a double-entry transit visa of up to 5 days per trip. The UK government says the State Migration Service is the sole sponsor of transit visas, that you must secure the letter of invitation before you travel and it can then be converted to a transit visa at the land border checkpoint, and that you must enter and leave Turkmenistan using the border crossings specified in the letter of invitation. It also says you cannot buy a transit visa at Baku seaport and must secure it ahead of time."
       },
       "processing": null,
       "validityDays": null,
@@ -2577,8 +2608,8 @@
         "alsoStatedOn": [
           {
             "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements",
-            "name": "UK Foreign Office — Turkmenistan entry requirements (letter of invitation, visa on arrival, transit visas)",
-            "lastVerified": "2026-10-09"
+            "name": "UK Foreign Office — Turkmenistan entry requirements (e-visa for tourists and conferences, letter of invitation for other purposes, transit visas)",
+            "lastVerified": "2026-10-22"
           }
         ]
       },
@@ -2596,7 +2627,7 @@
           "url": "https://migration.gov.tm/pages/wiza-toleg"
         },
         "name": {
-          "text": "When you apply for a transit visa, the sponsor will be the Turkmen State Migration Service, rather than a tour agency.",
+          "text": "If you will be travelling overland through Turkmenistan territory for fewer than 5 days, and the purpose of your stay is the transit rather than tourism, you may be eligible for a transit visa.",
           "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
         },
         "method": {
@@ -2614,7 +2645,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements",
         "name": "UK Foreign, Commonwealth & Development Office — Turkmenistan entry requirements",
         "type": "government",
-        "lastVerified": "2026-10-03",
+        "lastVerified": "2026-10-22",
         "lastChanged": "2026-10-03",
         "alsoStatedOn": [
           {
@@ -2645,13 +2676,13 @@
     "onwardTicket": {
       "required": null,
       "appliesTo": null,
-      "text": "No official source we could read states a general return-ticket requirement; the UK government says British nationals entering overland from Iran need special authorisation and confirmation of an onward flight. The UK and Canadian governments say a visa application needs a letter of invitation (for tourists, the UK says, from authorised travel agents), and the UK government says transit-visa holders must enter and leave through the border crossings included on the letter of invitation.",
+      "text": "No official source we could read states a general return-ticket requirement; the UK government says British nationals entering from Iran need special authorisation from the Government of Turkmenistan and confirmation of an onward flight, and that transit-visa holders must enter and leave through the border crossings specified in the letter of invitation.",
       "source": {
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements",
         "name": "UK Foreign, Commonwealth & Development Office — Turkmenistan travel advice: entry requirements",
         "type": "government",
-        "lastVerified": "2026-10-03",
-        "lastChanged": "2026-10-03"
+        "lastVerified": "2026-10-22",
+        "lastChanged": "2026-10-22"
       }
     },
     "proofOfFunds": {
@@ -2692,7 +2723,7 @@
             {
               "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements",
               "name": "UK Foreign, Commonwealth & Development Office — Turkmenistan entry requirements",
-              "lastVerified": "2026-10-12"
+              "lastVerified": "2026-10-22"
             },
             {
               "url": "https://travel.gc.ca/destinations/turkmenistan",
@@ -2775,7 +2806,7 @@
     "payments": {
       "cardsAccepted": "rare",
       "cashImportance": "high",
-      "text": "The UK government says Turkmenistan is largely a cash-based society: pay in manat, bring new, clean US dollar or euro notes to exchange at a bank or money exchange, and bring enough dollars for your entire trip, as the limited number of international ATMs in Ashgabat can run out of manat notes. The Government of Canada says a few hotels and restaurants in Ashgabat accept credit cards."
+      "text": "The UK government says Turkmenistan is largely a cash-based society: carry cash and pay in manat; some larger hotels and restaurants accept US dollars (check before purchasing), while other outlets are only allowed to accept manat. It says you can exchange crisp, clean US dollar notes at the official rate at your hotel or a bank, that other currencies are difficult to exchange, that in Ashgabat a UK bank card can be used to withdraw or buy manat only at the State Bank for Foreign Economic Affairs, with a 3% withdrawal charge for each transaction, and that you are strongly recommended to bring enough dollars for your entire trip. The Government of Canada says a few hotels and restaurants in Ashgabat accept credit cards."
     },
     "safety": {
       "level": "exercise-caution",
@@ -2935,7 +2966,8 @@
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements",
         "name": "UK FCDO — Turkmenistan travel advice: Entry requirements",
         "type": "government",
-        "lastVerified": "2026-10-04"
+        "lastVerified": "2026-10-22",
+        "lastChanged": "2026-10-22"
       },
       "bestTimeToVisit": {
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/health",
@@ -2955,7 +2987,7 @@
     {
       "id": "start-early",
       "type": "warning",
-      "text": "The UK government says visa applications made at an Embassy of Turkmenistan are referred to Ashgabat for a decision, which can take up to a month, and that a letter of invitation for a transit visa can also take up to a month to issue."
+      "text": "The UK government says visa applications that follow the letter-of-invitation process and are made through an Embassy of Turkmenistan are referred to Ashgabat for a decision, which can take up to a month unless a paid-for express service is available, and that a letter of invitation for a transit visa can take up to a month to issue."
     },
     {
       "id": "photography",
@@ -2967,27 +2999,27 @@
     {
       "id": "need-visa",
       "question": "Do I need a visa for Turkmenistan?",
-      "answer": "Turkmenistan's State Migration Service says foreign citizens enter on the basis of a visa unless an international treaty of Turkmenistan provides otherwise. The UK and Canadian governments say a visa application needs a letter of invitation; for tourist visits, the UK Foreign Office says authorised travel agents provide these letters."
+      "answer": "Turkmenistan's State Migration Service says foreign citizens enter on the basis of a visa unless an international treaty of Turkmenistan provides otherwise. The UK Foreign Office says that on 1 October 2026 Turkmenistan introduced an e-visa for tourists and for people attending international conferences and exhibitions backed by its government; you cannot apply for it directly, your tour agency or event organiser acts as sponsor, and the e-visa can be printed off or presented electronically on arrival."
     },
     {
       "id": "loi",
       "question": "How do I get a Turkmenistan letter of invitation?",
-      "answer": "Canada's travel advice says the letter comes from the person you will visit, the company you will work for or an authorised travel agency in Turkmenistan, which must submit a request to the State Migration Service. With the letter, the UK government says, you can apply at an Embassy of Turkmenistan, where the decision is referred to Ashgabat and can take up to a month, or buy a visa on arrival at Ashgabat International Airport and some land borders."
+      "answer": "Canada's travel advice says the letter comes from the person you will visit, the company you will work for or an authorised travel agency in Turkmenistan, which must submit a request to the State Migration Service. The UK government says that for tourists and conference visitors the e-visa introduced on 1 October 2026 replaces the letter of invitation followed by a visa in your passport; for any other purpose you still need a letter of invitation applied for on your behalf by a sponsoring organisation, and with it you can apply at your nearest Embassy of Turkmenistan, where the decision is referred to Ashgabat and can take up to a month unless a paid-for express service is available, or on arrival."
     },
     {
       "id": "voa",
       "question": "Can I get a Turkmenistan visa on arrival?",
-      "answer": "Yes, once you have your letter of invitation: the UK government says the visa on arrival is available at Ashgabat International Airport and some land borders. The State Migration Service charges a further USD 50 on top of the fee for a visa obtained at the international airport."
+      "answer": "Yes, with a letter of invitation, for visits for any purpose other than tourism or conference participation: the UK government says that once you have the letter you can apply for your visa on arrival, and that visas on arrival attract an additional fee of 50 US dollars. The State Migration Service charges a further USD 50 on top of the fee for a visa obtained at the international airport. For tourists and conference visitors, the UK government says the e-visa obtained through your sponsor can be printed off or presented electronically on arrival."
     },
     {
       "id": "transit",
       "question": "Is there a Turkmenistan transit visa without an invitation letter?",
-      "answer": "No. The State Migration Service lists the transit visa for up to 5 days per trip. The UK government says you apply for a letter of invitation through your nearest Embassy of Turkmenistan, which can then be converted to a transit visa at the land border checkpoint; it says the sponsor for a transit visa is the State Migration Service rather than a tour agency, that you must enter and leave through the border crossings included on the letter of invitation, that transit visas are most commonly used for entry through a land border, for example overland from Uzbekistan, and that you cannot buy one at Baku seaport."
+      "answer": "No. The State Migration Service lists the transit visa for up to 5 days per trip. The UK government says you may be eligible for one if you will travel overland through Turkmenistan for fewer than 5 days and the purpose of your stay is transit rather than tourism; that the State Migration Service is the sole sponsor of transit visas; that you must secure the letter of invitation before you travel, which can take up to a month to issue, and it can then be converted to a transit visa at the land border checkpoint; that you must enter and leave through the border crossings specified in the letter of invitation; and that you cannot buy a transit visa at Baku seaport."
     },
     {
       "id": "independent",
       "question": "Can I travel independently in Turkmenistan?",
-      "answer": "No official source we could read states whether tourists must be accompanied by a guide. Canada's travel advice says the areas bordering Iran, Uzbekistan and Afghanistan, including the city of Dashoguz and areas of the Caspian coast, are restricted zones that need permission from the Government of Turkmenistan, applied for at least 10 working days ahead. The UK government says transit-visa holders must enter and leave through the border crossings included on their letter of invitation."
+      "answer": "No official source we could read states whether tourists must be accompanied by a guide. Canada's travel advice says the areas bordering Iran, Uzbekistan and Afghanistan, including the city of Dashoguz and areas of the Caspian coast, are restricted zones that need permission from the Government of Turkmenistan, applied for at least 10 working days ahead. The UK government says transit-visa holders must enter and leave through the border crossings specified in the letter of invitation."
     }
   ],
   "textQuotes": {
@@ -3013,15 +3045,15 @@
         "url": "https://migration.gov.tm/services/wiza-we-is-rugsatnamasy-16847397661914537"
       },
       {
-        "text": "You need a letter of invitation to support your visa application. For tourist visits, authorised travel agents can provide these letters.",
+        "text": "On 1 October 2026 Turkmenistan introduced an electronic (e-visa) system for tourists and people visiting to participate in international conferences and exhibitions backed by the Government of Turkmenistan.",
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       },
       {
-        "text": "You must present a letter of invitation in support of your visa application.",
-        "url": "https://travel.gc.ca/destinations/turkmenistan"
+        "text": "You cannot apply for one of these visas directly. Your tour agency or event organiser will continue to act as a sponsor. However, when the visa is approved and paid for through your sponsor, you will receive an e-visa that can be printed off or presented electronically on arrival. The e-visa replaces the former two-part process of a letter of invitation followed by a visa vignette in your passport.",
+        "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       },
       {
-        "text": "Once you have your letter of invitation you can either apply for a visa at your nearest Embassy of Turkmenistan or purchase a visa on arrival. The visa on arrival option is available at Ashgabat International Airport and some land borders.",
+        "text": "If you plan to visit Turkmenistan for any purpose other than tourism or conference participation, you continue to need a letter of invitation applied for on your behalf by a sponsoring organisation. Once you have the letter of invitation you can apply for your visa either at your nearest Embassy of Turkmenistan or on arrival.",
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       }
     ],
@@ -3031,12 +3063,12 @@
         "url": "https://migration.gov.tm/services/wiza-we-is-rugsatnamasy-16847397661914537"
       },
       {
-        "text": "You need a letter of invitation to support your visa application. For tourist visits, authorised travel agents can provide these letters.",
+        "text": "On 1 October 2026 Turkmenistan introduced an electronic (e-visa) system for tourists and people visiting to participate in international conferences and exhibitions backed by the Government of Turkmenistan.",
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       },
       {
-        "text": "You must present a letter of invitation in support of your visa application.",
-        "url": "https://travel.gc.ca/destinations/turkmenistan"
+        "text": "You cannot apply for one of these visas directly. Your tour agency or event organiser will continue to act as a sponsor. However, when the visa is approved and paid for through your sponsor, you will receive an e-visa that can be printed off or presented electronically on arrival. The e-visa replaces the former two-part process of a letter of invitation followed by a visa vignette in your passport.",
+        "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       }
     ],
     "faq.loi": [
@@ -3045,22 +3077,42 @@
         "url": "https://travel.gc.ca/destinations/turkmenistan"
       },
       {
-        "text": "Once you have your letter of invitation you can either apply for a visa at your nearest Embassy of Turkmenistan or purchase a visa on arrival. The visa on arrival option is available at Ashgabat International Airport and some land borders.",
+        "text": "On 1 October 2026 Turkmenistan introduced an electronic (e-visa) system for tourists and people visiting to participate in international conferences and exhibitions backed by the Government of Turkmenistan.",
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       },
       {
-        "text": "Visas applications to an Embassy of Turkmenistan are referred to Ashgabat for a decision, which can take up to a month.",
+        "text": "You cannot apply for one of these visas directly. Your tour agency or event organiser will continue to act as a sponsor. However, when the visa is approved and paid for through your sponsor, you will receive an e-visa that can be printed off or presented electronically on arrival. The e-visa replaces the former two-part process of a letter of invitation followed by a visa vignette in your passport.",
+        "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
+      },
+      {
+        "text": "If you plan to visit Turkmenistan for any purpose other than tourism or conference participation, you continue to need a letter of invitation applied for on your behalf by a sponsoring organisation. Once you have the letter of invitation you can apply for your visa either at your nearest Embassy of Turkmenistan or on arrival.",
+        "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
+      },
+      {
+        "text": "For visas needing to follow the letter of invitation process, Visas applications through an Embassy of Turkmenistan are referred to Ashgabat for a decision, which can take up to a month unless a paid-for express service is available. Visas on arrival attract an additional fee of 50 US dollars.",
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       }
     ],
     "faq.voa": [
       {
-        "text": "Once you have your letter of invitation you can either apply for a visa at your nearest Embassy of Turkmenistan or purchase a visa on arrival. The visa on arrival option is available at Ashgabat International Airport and some land borders.",
+        "text": "If you plan to visit Turkmenistan for any purpose other than tourism or conference participation, you continue to need a letter of invitation applied for on your behalf by a sponsoring organisation. Once you have the letter of invitation you can apply for your visa either at your nearest Embassy of Turkmenistan or on arrival.",
+        "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
+      },
+      {
+        "text": "Visas on arrival attract an additional fee of 50 US dollars.",
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       },
       {
         "text": "HALKARA HOWA MENZILINDE ALYNÝAN WIZALAR wiza üçin alynan ýygyma goşmaça - 50 amerikan dollary alynýar;",
         "url": "https://migration.gov.tm/pages/wiza-toleg"
+      },
+      {
+        "text": "On 1 October 2026 Turkmenistan introduced an electronic (e-visa) system for tourists and people visiting to participate in international conferences and exhibitions backed by the Government of Turkmenistan.",
+        "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
+      },
+      {
+        "text": "You cannot apply for one of these visas directly. Your tour agency or event organiser will continue to act as a sponsor. However, when the visa is approved and paid for through your sponsor, you will receive an e-visa that can be printed off or presented electronically on arrival. The e-visa replaces the former two-part process of a letter of invitation followed by a visa vignette in your passport.",
+        "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       }
     ],
     "faq.transit": [
@@ -3069,23 +3121,23 @@
         "url": "https://migration.gov.tm/pages/wiza-toleg"
       },
       {
-        "text": "When you apply for a transit visa, the sponsor will be the Turkmen State Migration Service, rather than a tour agency.",
+        "text": "If you will be travelling overland through Turkmenistan territory for fewer than 5 days, and the purpose of your stay is the transit rather than tourism, you may be eligible for a transit visa.",
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       },
       {
-        "text": "You cannot change your transit visa to a tourist visa, and you must enter and leave Turkmenistan using the border crossings you included on the letter of invitation. You cannot buy a transit visa for Turkmenistan at Baku seaport.",
-        "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
-      },
-      {
-        "text": "These are most commonly used for entry to Turkmenistan through a land border, for example if travelling overland from Uzbekistan.",
-        "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
-      },
-      {
-        "text": "Apply for a letter of invitation through your nearest Embassy of Turkmenistan.",
+        "text": "The Turkmen State Migration Service is the sole sponsor of transit visas.",
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       },
       {
         "text": "You must secure the letter of invitation before you travel, and it can take up to a month for a letter of invitation to issue. This can then be converted to a transit visa at the land border checkpoint.",
+        "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
+      },
+      {
+        "text": "You cannot change your transit visa to a tourist visa, and you must enter and leave Turkmenistan using the border crossings specified in the letter of invitation.",
+        "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
+      },
+      {
+        "text": "You cannot buy a transit visa for Turkmenistan at Baku seaport. You must secure it ahead of time.",
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       }
     ],
@@ -3095,21 +3147,17 @@
         "url": "https://travel.gc.ca/destinations/turkmenistan"
       },
       {
-        "text": "When you apply for a transit visa, the sponsor will be the Turkmen State Migration Service, rather than a tour agency.",
-        "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
-      },
-      {
-        "text": "You cannot change your transit visa to a tourist visa, and you must enter and leave Turkmenistan using the border crossings you included on the letter of invitation. You cannot buy a transit visa for Turkmenistan at Baku seaport.",
+        "text": "You cannot change your transit visa to a tourist visa, and you must enter and leave Turkmenistan using the border crossings specified in the letter of invitation.",
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       }
     ],
     "tips.start-early": [
       {
-        "text": "Visas applications to an Embassy of Turkmenistan are referred to Ashgabat for a decision, which can take up to a month.",
+        "text": "For visas needing to follow the letter of invitation process, Visas applications through an Embassy of Turkmenistan are referred to Ashgabat for a decision, which can take up to a month unless a paid-for express service is available. Visas on arrival attract an additional fee of 50 US dollars.",
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       },
       {
-        "text": "You must secure the letter of invitation before you travel, and it can take up to a month for a letter of invitation to issue.",
+        "text": "You must secure the letter of invitation before you travel, and it can take up to a month for a letter of invitation to issue. This can then be converted to a transit visa at the land border checkpoint.",
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       }
     ],
@@ -3141,19 +3189,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       },
       {
-        "text": "You need a letter of invitation to support your visa application. For tourist visits, authorised travel agents can provide these letters.",
-        "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
-      },
-      {
-        "text": "You must present a letter of invitation in support of your visa application.",
-        "url": "https://travel.gc.ca/destinations/turkmenistan"
-      },
-      {
-        "text": "When you apply for a transit visa, the sponsor will be the Turkmen State Migration Service, rather than a tour agency.",
-        "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
-      },
-      {
-        "text": "You cannot change your transit visa to a tourist visa, and you must enter and leave Turkmenistan using the border crossings you included on the letter of invitation. You cannot buy a transit visa for Turkmenistan at Baku seaport.",
+        "text": "You cannot change your transit visa to a tourist visa, and you must enter and leave Turkmenistan using the border crossings specified in the letter of invitation.",
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       }
     ],
@@ -3191,19 +3227,19 @@
     ],
     "countryFacts.payments": [
       {
-        "text": "Turkmenistan is largely a cash-based society. Carry cash and pay in the Turkmen currency, manat.",
+        "text": "Turkmenistan is largely a cash-based society. Carry cash and pay in the Turkmen currency, manat. Some larger hotels and restaurants accept US dollars - you should check before purchasing. Other outlets are only allowed to accept manat.",
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       },
       {
-        "text": "You can exchange US dollars and euros at the official manat rate easily at a bank or money exchange. Bring new, clean notes",
+        "text": "You can exchange US dollars at the official manat rate at your hotel or a bank. Bring crisp, clean notes as creased, damaged or marked notes will be rejected.",
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       },
       {
-        "text": "There are a limited number of international ATMs in Ashgabat, but they can run out of manat notes.",
+        "text": "Other currencies are difficult to exchange.",
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       },
       {
-        "text": "You are strongly recommended to bring enough dollars for your entire trip.",
+        "text": "It is possible in Ashgabat to use a UK bank card to withdraw manat from an ATM or buy manat over the counter, but only at the State Bank for Foreign Economic Affairs. There’s a 3% withdrawal charge for each transaction. You are strongly recommended to bring enough dollars for your entire trip.",
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       },
       {
@@ -3313,7 +3349,7 @@
         "url": "https://migration.gov.tm/pages/wiza-toleg"
       },
       {
-        "text": "You need a letter of invitation to support your visa application. For tourist visits, authorised travel agents can provide these letters.",
+        "text": "If you plan to visit Turkmenistan for any purpose other than tourism or conference participation, you continue to need a letter of invitation applied for on your behalf by a sponsoring organisation. Once you have the letter of invitation you can apply for your visa either at your nearest Embassy of Turkmenistan or on arrival.",
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       },
       {
@@ -3331,7 +3367,11 @@
         "url": "https://migration.gov.tm/pages/wiza-toleg"
       },
       {
-        "text": "Once you have your letter of invitation you can either apply for a visa at your nearest Embassy of Turkmenistan or purchase a visa on arrival. The visa on arrival option is available at Ashgabat International Airport and some land borders.",
+        "text": "Visas on arrival attract an additional fee of 50 US dollars.",
+        "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
+      },
+      {
+        "text": "If you plan to visit Turkmenistan for any purpose other than tourism or conference participation, you continue to need a letter of invitation applied for on your behalf by a sponsoring organisation. Once you have the letter of invitation you can apply for your visa either at your nearest Embassy of Turkmenistan or on arrival.",
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       }
     ],
@@ -3341,19 +3381,15 @@
         "url": "https://migration.gov.tm/pages/wiza-toleg"
       },
       {
-        "text": "When you apply for a transit visa, the sponsor will be the Turkmen State Migration Service, rather than a tour agency.",
-        "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
-      },
-      {
-        "text": "You cannot change your transit visa to a tourist visa, and you must enter and leave Turkmenistan using the border crossings you included on the letter of invitation. You cannot buy a transit visa for Turkmenistan at Baku seaport.",
-        "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
-      },
-      {
-        "text": "Apply for a letter of invitation through your nearest Embassy of Turkmenistan.",
+        "text": "The Turkmen State Migration Service is the sole sponsor of transit visas.",
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       },
       {
         "text": "You must secure the letter of invitation before you travel, and it can take up to a month for a letter of invitation to issue. This can then be converted to a transit visa at the land border checkpoint.",
+        "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
+      },
+      {
+        "text": "You cannot change your transit visa to a tourist visa, and you must enter and leave Turkmenistan using the border crossings specified in the letter of invitation.",
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       },
       {
@@ -3444,6 +3480,12 @@
         "text": "Hotels include the tax as a separate item on your bill.",
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
       }
+    ],
+    "visaTypes.e-visa.feeText": [
+      {
+        "text": "The cost of any visa is dependent on your length of stay in Turkmenistan and whether you are applying for a single or multiple entry visa.",
+        "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements"
+      }
     ]
   },
   "levies": [
@@ -3462,7 +3504,7 @@
         "url": "https://www.gov.uk/foreign-travel-advice/turkmenistan/entry-requirements",
         "name": "UK Foreign, Commonwealth & Development Office — Turkmenistan travel advice",
         "type": "government",
-        "lastVerified": "2026-10-12",
+        "lastVerified": "2026-10-22",
         "lastChanged": "2026-10-12",
         "alsoStatedOn": [
           {
