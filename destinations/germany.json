@@ -3775,7 +3775,19 @@
         ]
       }
     },
-    "plugs": null,
+    "plugs": {
+      "types": [
+        "F"
+      ],
+      "voltage": 230,
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://ggim.un.org/UNGGCE/documents/Information_Note_Bonn_2026.pdf",
+        "name": "United Nations (UN-GGIM / UN-GGCE) — Logistical and Information Note, joint meeting, Bonn (March 2026): electricity",
+        "type": "igo",
+        "lastVerified": "2026-10-22"
+      }
+    },
     "emergency": {
       "general": "112",
       "police": "110"
@@ -3784,7 +3796,7 @@
     "languages": [
       "German"
     ],
-    "timezone": null,
+    "timezone": "UTC+1 (UTC+2 in summer)",
     "drivingSide": null,
     "tapWaterSafe": null,
     "driving": {
@@ -3851,6 +3863,12 @@
         "name": "European Union — Germany country profile",
         "type": "igo",
         "lastVerified": "2026-10-13"
+      },
+      "timezone": {
+        "url": "https://www.ptb.de/cms/ptb/fachabteilungen/abt4/fb-44/ag-441/darstellung-der-gesetzlichen-zeit/zeitzonen.html",
+        "name": "Physikalisch-Technische Bundesanstalt (PTB, Germany's national metrology institute) — Zeitzonen: local times of countries in relation to UTC",
+        "type": "government",
+        "lastVerified": "2026-10-22"
       }
     }
   },

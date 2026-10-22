@@ -3613,7 +3613,32 @@
         ]
       }
     },
-    "plugs": null,
+    "plugs": {
+      "types": [
+        "G"
+      ],
+      "voltage": 230,
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.electricireland.ie/residential/help/detail/what-is-the-standard-voltage-in-ireland",
+        "name": "Electric Ireland (ESB, Ireland's state-owned electricity utility) — What is the standard voltage in Ireland?",
+        "type": "government",
+        "lastVerified": "2026-10-22",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.trade.gov/country-commercial-guides/ireland-business-travel",
+            "name": "U.S. International Trade Administration — Ireland Country Commercial Guide: Business Travel (Type G plug and socket system)",
+            "lastVerified": "2026-10-22"
+          }
+        ],
+        "conflict": {
+          "url": "https://www.trade.gov/country-commercial-guides/ireland-business-travel",
+          "name": "U.S. International Trade Administration — Ireland Country Commercial Guide: Business Travel",
+          "states": "220 volts, 50 cycles",
+          "resolvedBy": "hierarchy"
+        }
+      }
+    },
     "emergency": {
       "general": "112",
       "alternative": "999"

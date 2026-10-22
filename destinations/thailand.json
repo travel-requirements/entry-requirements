@@ -3259,7 +3259,27 @@
         ]
       }
     },
-    "plugs": null,
+    "plugs": {
+      "types": [
+        "A",
+        "B",
+        "C"
+      ],
+      "voltage": 230,
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.un.org/ohrlls/sites/www.un.org.ohrlls/files/information_note_euro-asia_regional_review_meeting.pdf",
+        "name": "UN-OHRLLS — Information note for participants, High-Level Euro-Asia Regional Review Meeting on the Vienna Programme of Action, Bangkok (August 2023)",
+        "type": "igo",
+        "lastVerified": "2026-10-22",
+        "conflict": {
+          "url": "https://unstats.un.org/bigdata/events/2018/bangkok/EO%20workshop%20information%20note%20(8%20June).pdf",
+          "name": "UNSD and UNESCAP — General information for participants, Workshop on Earth Observation Data and Applications for Official Statistics, Bangkok (June 2018)",
+          "states": "The electric power in Thailand is 220V running at 50Hz and the plug types used are either type A, type B, or type C",
+          "resolvedBy": "newer"
+        }
+      }
+    },
     "emergency": {
       "police": "191",
       "ambulance": "1669",

@@ -5087,7 +5087,26 @@
         ]
       }
     },
-    "plugs": null,
+    "plugs": {
+      "types": [
+        "C",
+        "F"
+      ],
+      "voltage": 220,
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://unfccc.int/sites/default/files/resource/Logistics%20note_AC%2030.pdf",
+        "name": "UNFCCC secretariat — Information for participants, 30th meeting of the Adaptation Committee, Baku (September 2026)",
+        "type": "igo",
+        "lastVerified": "2026-10-22",
+        "conflict": {
+          "url": "https://www.itu.int/itu-d/meetings/mobilewtdc25/?p=407",
+          "name": "ITU — WTDC-25 local information, Baku (2025)",
+          "states": "230V with plug types C and F",
+          "resolvedBy": "newer"
+        }
+      }
+    },
     "emergency": {
       "police": "102",
       "ambulance": "103",
@@ -5097,7 +5116,7 @@
     "languages": [
       "Azerbaijani"
     ],
-    "timezone": null,
+    "timezone": "UTC+4",
     "drivingSide": null,
     "tapWaterSafe": false,
     "driving": {
@@ -5176,6 +5195,19 @@
         "name": "Government of Canada — Azerbaijan travel advice: laws and culture: money",
         "type": "government",
         "lastVerified": "2026-10-15"
+      },
+      "timezone": {
+        "url": "https://unfccc.int/sites/default/files/resource/Logistics%20note_AC%2030.pdf",
+        "name": "UNFCCC secretariat — Information for participants, 30th meeting of the Adaptation Committee, Baku (September 2026)",
+        "type": "igo",
+        "lastVerified": "2026-10-22",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.trade.gov/country-commercial-guides/azerbaijan-business-travel",
+            "name": "U.S. International Trade Administration — Azerbaijan Country Commercial Guide: Business Travel",
+            "lastVerified": "2026-10-22"
+          }
+        ]
       }
     }
   },

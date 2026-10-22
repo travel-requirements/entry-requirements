@@ -3637,7 +3637,32 @@
         ]
       }
     },
-    "plugs": null,
+    "plugs": {
+      "types": [
+        "E"
+      ],
+      "voltage": 230,
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.cre.fr/fileadmin/Documents/Decisions_du_CoRDIS/2026/16-38-25_CoRDiS.pdf",
+        "name": "Commission de régulation de l'énergie (CoRDiS) — Décision n° 16-38-25 du 10 avril 2026 (Enedis): nominal voltage 230 V",
+        "type": "government",
+        "lastVerified": "2026-10-22",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.france.fr/en/holiday-prep/practical-conversions",
+            "name": "France.fr (Atout France, the State tourism development agency) — practical conversions: 50-hertz current, Type E plug",
+            "lastVerified": "2026-10-22"
+          }
+        ],
+        "conflict": {
+          "url": "https://www.france.fr/en/holiday-prep/practical-conversions",
+          "name": "France.fr (Atout France) — General information and practical conversions: electricity",
+          "states": "220-volt, 50-hertz AC current",
+          "resolvedBy": "hierarchy"
+        }
+      }
+    },
     "emergency": {
       "general": "112",
       "police": "17",

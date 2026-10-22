@@ -4513,7 +4513,25 @@
         "lastChanged": "2026-09-26"
       }
     },
-    "plugs": null,
+    "plugs": {
+      "types": [
+        "C"
+      ],
+      "voltage": 230,
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.icao.int/sites/default/files/WACAF/MeetingDocs/2025/Aircraft/English/Information-Bulletin-Airbus-SMPRCP-Abidjan-8-19-September-2025.pdf",
+        "name": "ICAO Western and Central African Office — Information bulletin, Airbus SMPRCP course, Abidjan (8–19 September 2025), 8. Electricity",
+        "type": "igo",
+        "lastVerified": "2026-10-22",
+        "conflict": {
+          "url": "https://uneca.org/eca-events/sites/default/files/resources/documents/ACPC/CCDA12/ccda-xii-information-note-en.pdf",
+          "name": "UN Economic Commission for Africa — Information note, CCDA-XII, Abidjan (ECA/CCDA/2024/INF/1)",
+          "states": "220 V, 50 Hz; plug types C and E",
+          "resolvedBy": "newer"
+        }
+      }
+    },
     "emergency": {
       "police": "110, 111 or 170",
       "fire": "180",

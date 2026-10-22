@@ -2984,7 +2984,26 @@
         ]
       }
     },
-    "plugs": null,
+    "plugs": {
+      "types": [
+        "A",
+        "B"
+      ],
+      "voltage": 115,
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.unctad.org/conference/global-supply-chain-forum-2024/information-for-participants",
+        "name": "UNCTAD — Information for participants, Global Supply Chain Forum 2024, Barbados",
+        "type": "igo",
+        "lastVerified": "2026-10-22",
+        "conflict": {
+          "url": "https://www.trade.gov/country-commercial-guides/barbados-business-travel",
+          "name": "U.S. International Trade Administration — Barbados Country Commercial Guide: Business Travel",
+          "states": "110 volts/50 cycles",
+          "resolvedBy": "hierarchy"
+        }
+      }
+    },
     "emergency": {
       "police": "211",
       "ambulance": "511",
@@ -2997,7 +3016,7 @@
     "languages": [
       "English"
     ],
-    "timezone": null,
+    "timezone": "UTC-4",
     "drivingSide": "left",
     "tapWaterSafe": null,
     "driving": {
@@ -3099,6 +3118,19 @@
         "name": "Government of Canada — Barbados travel advice and advisories",
         "type": "government",
         "lastVerified": "2026-10-04"
+      },
+      "timezone": {
+        "url": "https://www.trade.gov/country-commercial-guides/barbados-business-travel",
+        "name": "U.S. International Trade Administration — Barbados Country Commercial Guide: Business Travel",
+        "type": "government",
+        "lastVerified": "2026-10-22",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.unctad.org/conference/global-supply-chain-forum-2024/information-for-participants",
+            "name": "UNCTAD — Information for participants, Global Supply Chain Forum 2024, Barbados",
+            "lastVerified": "2026-10-22"
+          }
+        ]
       }
     }
   },

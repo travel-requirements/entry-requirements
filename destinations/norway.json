@@ -3183,7 +3183,25 @@
         ]
       }
     },
-    "plugs": null,
+    "plugs": {
+      "types": [
+        "F"
+      ],
+      "voltage": 230,
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.fao.org/fi/static-media/MeetingDocuments/PSMA/ParticipantNoteforParticipants_final.pdf",
+        "name": "FAO — Practical information for participants, First Meeting of the Parties to the FAO Agreement on Port State Measures, Oslo (May–June 2017): electricity supply",
+        "type": "igo",
+        "lastVerified": "2026-10-22",
+        "conflict": {
+          "url": "https://www.trade.gov/country-commercial-guides/norway-business-travel",
+          "name": "U.S. International Trade Administration — Norway Country Commercial Guide: Business Travel",
+          "states": "Electricity in Norway is 220 V AC with 50-Hertz cycles. Plugs used are round-ended, two-pronged, continental plugs.",
+          "resolvedBy": "hierarchy"
+        }
+      }
+    },
     "emergency": {
       "police": "112",
       "fire": "110",
@@ -3197,7 +3215,7 @@
       "Norwegian",
       "Sami"
     ],
-    "timezone": null,
+    "timezone": "UTC+1 (UTC+2 in summer)",
     "drivingSide": "right",
     "tapWaterSafe": true,
     "driving": {
@@ -3301,6 +3319,19 @@
         "name": "Government of Canada — Norway travel advice: laws and culture: money",
         "type": "government",
         "lastVerified": "2026-10-15"
+      },
+      "timezone": {
+        "url": "https://www.regjeringen.no/no/aktuelt/ja-du-ma-fortsatt-stille-klokka/id2638115/",
+        "name": "Government of Norway (regjeringen.no) — \"Ja, du må fortsatt stille klokka\" (2019): Norwegian standard time and summer time",
+        "type": "government",
+        "lastVerified": "2026-10-22",
+        "alsoStatedOn": [
+          {
+            "url": "https://lovdata.no/dokument/NL/lov/2007-01-26-4",
+            "name": "Lovdata — Lov om målenheter, måling og normaltid (LOV-2007-01-26-4), § 6 Norsk normaltid",
+            "lastVerified": "2026-10-22"
+          }
+        ]
       }
     }
   },

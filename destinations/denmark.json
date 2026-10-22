@@ -3264,7 +3264,34 @@
         ]
       }
     },
-    "plugs": null,
+    "plugs": {
+      "types": [
+        "E",
+        "F",
+        "K"
+      ],
+      "voltage": 220,
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://www.sik.dk/sites/default/files/2026-05/Vejledning%20til%20markedsf%C3%B8ring%20af%20stikkontakter.pdf",
+        "name": "Sikkerhedsstyrelsen (Danish Safety Technology Authority) — Vejledning til markedsføring af stikkontakter (May 2026): the Danish, French/Belgian pin-earth and Schuko side-earth sockets",
+        "type": "government",
+        "lastVerified": "2026-10-22",
+        "alsoStatedOn": [
+          {
+            "url": "https://www.visitdenmark.com/faq/electricity",
+            "name": "VisitDenmark, Denmark's national tourism organisation — FAQ: Electricity (220 volt, 50Hz)",
+            "lastVerified": "2026-10-22"
+          }
+        ],
+        "conflict": {
+          "url": "https://www.visitdenmark.com/faq/electricity",
+          "name": "VisitDenmark — FAQ: Electricity",
+          "states": "two-pin continental plugs",
+          "resolvedBy": "hierarchy"
+        }
+      }
+    },
     "emergency": {
       "general": "112"
     },
@@ -3275,7 +3302,7 @@
     "languages": [
       "Danish"
     ],
-    "timezone": null,
+    "timezone": "UTC+1 (UTC+2 in summer)",
     "drivingSide": null,
     "tapWaterSafe": null,
     "driving": {
@@ -3399,6 +3426,12 @@
           "lastAttempt": "2026-10-04",
           "reason": "gone"
         }
+      },
+      "timezone": {
+        "url": "https://um.dk/kenya/en/travel-and-residence/travel-in-denmark/",
+        "name": "Ministry of Foreign Affairs of Denmark (Embassy in Nairobi) — Information about Denmark: Time differences",
+        "type": "government",
+        "lastVerified": "2026-10-22"
       }
     }
   },

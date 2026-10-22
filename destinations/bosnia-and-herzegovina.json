@@ -2900,7 +2900,19 @@
         ]
       }
     },
-    "plugs": null,
+    "plugs": {
+      "types": [
+        "F"
+      ],
+      "voltage": 230,
+      "frequencyHz": 50,
+      "source": {
+        "url": "https://wmo.int/sites/default/files/2026-05/Information%20Note_WIGOS%20Events_Sarajevo%202026.pdf",
+        "name": "Federal Hydrometeorological Institute of the Federation of BiH, published by WMO — Information note, WIGOS events, Sarajevo (2026)",
+        "type": "igo",
+        "lastVerified": "2026-10-22"
+      }
+    },
     "emergency": {
       "general": "112",
       "police": "122",
@@ -2916,7 +2928,7 @@
       "Croatian",
       "Serbian"
     ],
-    "timezone": null,
+    "timezone": "UTC+1 (UTC+2 in summer)",
     "drivingSide": null,
     "tapWaterSafe": null,
     "driving": {
@@ -3005,6 +3017,19 @@
         "name": "Australian Government Smartraveller — Bosnia and Herzegovina travel advice",
         "type": "government",
         "lastVerified": "2026-10-15"
+      },
+      "timezone": {
+        "url": "https://www.itu.int/dms_pub/itu-t/opb/sp/T-SP-LT.1-2015-PDF-E.pdf",
+        "name": "ITU Telecommunication Standardization Bureau — Legal Time 2015 (Annex to ITU Operational Bulletin No. 1073, 1 April 2015)",
+        "type": "igo",
+        "lastVerified": "2026-10-22",
+        "alsoStatedOn": [
+          {
+            "url": "https://wmo.int/sites/default/files/2026-05/Information%20Note_WIGOS%20Events_Sarajevo%202026.pdf",
+            "name": "Federal Hydrometeorological Institute of the Federation of BiH, published by WMO — Information note, WIGOS events, Sarajevo (2026)",
+            "lastVerified": "2026-10-22"
+          }
+        ]
       }
     }
   },
