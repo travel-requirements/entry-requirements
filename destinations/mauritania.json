@@ -2750,11 +2750,7 @@
       "category": "tourist",
       "method": "evisa",
       "name": "e-Visa",
-      "fee": {
-        "amount": 55,
-        "currency": "EUR",
-        "notes": "Rest of the world rate (USD 60); nationals of the Arab world and Africa pay EUR 40 (USD 45). The UK government says e-visa fees are paid on arrival in Mauritania in exact cash in euros or US dollars, and that change and receipts are not given."
-      },
+      "fee": null,
       "processing": null,
       "validityDays": null,
       "stayDays": 30,
@@ -2764,7 +2760,7 @@
         "url": "https://www.diplomatie.gov.mr/fr/node/50",
         "name": "Ministère des Affaires Étrangères de Mauritanie — Visa",
         "type": "government",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-22",
         "lastChanged": "2026-10-03",
         "alsoStatedOn": [
           {
@@ -2775,10 +2771,6 @@
         ]
       },
       "evidence": {
-        "fee": {
-          "text": "Reste du Monde 30 jours 55 60 90 jours 95 100",
-          "url": "https://www.diplomatie.gov.mr/fr/node/50"
-        },
         "stayDays": {
           "text": "Reste du Monde 30 jours 55 60 90 jours 95 100",
           "url": "https://www.diplomatie.gov.mr/fr/node/50"
@@ -2791,18 +2783,15 @@
           "text": "Une fois validée, vous recevrez un visa électronique (e-visa) à travers le numéro de demande.",
           "url": "https://www.diplomatie.gov.mr/fr/node/50"
         }
-      }
+      },
+      "feeText": "The Foreign Ministry lists the 30-day rate as EUR 40 or USD 45 for the Arab world and Africa zone, and EUR 55 or USD 60 for the rest of the world. The UK government says e-visa fees are paid on arrival in Mauritania in exact cash in euros or US dollars, and that change and receipts are not given."
     },
     {
       "id": "evisa-90",
       "category": "tourist",
       "method": "evisa",
       "name": "e-Visa",
-      "fee": {
-        "amount": 95,
-        "currency": "EUR",
-        "notes": "Rest of the world rate (USD 100); nationals of the Arab world and Africa pay EUR 70 (USD 75)."
-      },
+      "fee": null,
       "processing": null,
       "validityDays": null,
       "stayDays": 90,
@@ -2812,14 +2801,10 @@
         "url": "https://www.diplomatie.gov.mr/fr/node/50",
         "name": "Ministère des Affaires Étrangères de Mauritanie — Visa",
         "type": "government",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-22",
         "lastChanged": "2026-10-03"
       },
       "evidence": {
-        "fee": {
-          "text": "90 jours 95 100",
-          "url": "https://www.diplomatie.gov.mr/fr/node/50"
-        },
         "stayDays": {
           "text": "90 jours 95 100",
           "url": "https://www.diplomatie.gov.mr/fr/node/50"
@@ -2832,7 +2817,8 @@
           "text": "Une fois validée, vous recevrez un visa électronique (e-visa) à travers le numéro de demande.",
           "url": "https://www.diplomatie.gov.mr/fr/node/50"
         }
-      }
+      },
+      "feeText": "The Foreign Ministry lists the 90-day rate as EUR 70 or USD 75 for the Arab world and Africa zone, and EUR 95 or USD 100 for the rest of the world."
     }
   ],
   "entryRequirements": {
@@ -3342,7 +3328,17 @@
         "text": "The rainy season extends from July to October. Seasonal flooding can hamper overland travel"
       }
     ],
-    "visaTypes.evisa-tourist.feeNotes": [
+    "entryRequirements.overstay": [
+      {
+        "text": "d) les touristes ne devant pas prolonger leur séjour au-delà de trois mois.",
+        "url": "https://dgat.interieur.gov.mr/sites/default/files/2025-06/1-%20D%C3%A9cret%20n%C2%B0%201964.169%20du%2015%20decembre%201964-Consolid%C3%A9.pdf"
+      },
+      {
+        "text": "Cependant, en cas de non-respect de la durée du séjour, une régularisation sera nécessaire pour être autorisé à quitter le pays. Son coût correspond à celui d’un visa d’entrée (55 euros actuellement).",
+        "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/mauritanie/conseils-aux-voyageurs-entree-sejour"
+      }
+    ],
+    "visaTypes.evisa-tourist.feeText": [
       {
         "url": "https://www.diplomatie.gov.mr/fr/node/50",
         "text": "Reste du Monde 30 jours 55 60 90 jours 95 100"
@@ -3356,7 +3352,7 @@
         "text": "E-visa fees must be paid on arrival in Mauritania in exact cash in Euros or US dollars. Change and receipts are not given. You should also print a copy of the e-visa and be ready to provide a copy on arrival in country."
       }
     ],
-    "visaTypes.evisa-90.feeNotes": [
+    "visaTypes.evisa-90.feeText": [
       {
         "url": "https://www.diplomatie.gov.mr/fr/node/50",
         "text": "Reste du Monde 30 jours 55 60 90 jours 95 100"
@@ -3364,16 +3360,6 @@
       {
         "url": "https://www.diplomatie.gov.mr/fr/node/50",
         "text": "Monde Arabe et Afrique 30 jours 40 45 90 jours 70 75"
-      }
-    ],
-    "entryRequirements.overstay": [
-      {
-        "text": "d) les touristes ne devant pas prolonger leur séjour au-delà de trois mois.",
-        "url": "https://dgat.interieur.gov.mr/sites/default/files/2025-06/1-%20D%C3%A9cret%20n%C2%B0%201964.169%20du%2015%20decembre%201964-Consolid%C3%A9.pdf"
-      },
-      {
-        "text": "Cependant, en cas de non-respect de la durée du séjour, une régularisation sera nécessaire pour être autorisé à quitter le pays. Son coût correspond à celui d’un visa d’entrée (55 euros actuellement).",
-        "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/mauritanie/conseils-aux-voyageurs-entree-sejour"
       }
     ]
   }

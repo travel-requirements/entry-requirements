@@ -4067,11 +4067,7 @@
       "category": "tourist",
       "method": "embassy",
       "name": "Visitor Visa Without Permission to Work (Visa de Visitante)",
-      "fee": {
-        "amount": 56,
-        "currency": "USD",
-        "notes": "Mexico's 2026 Federal Duties Law (Ley Federal de Derechos, art. 22, III d) sets USD 56.00 for receiving and studying the application and, where applicable, authorising and issuing ordinary visas in foreign passports. It lists the long-duration visitor visa without permission to work separately, at USD 54.00 (art. 22, III f)."
-      },
+      "fee": null,
       "processing": null,
       "validityDays": null,
       "stayDays": 180,
@@ -4081,28 +4077,18 @@
         "url": "https://consulmex.sre.gob.mx/yuma/images/stories/pdfs/LFD2026.pdf",
         "name": "SRE, Dirección General de Servicios Consulares — Extracto de la Ley Federal de Derechos para 2026 (art. 22, fracción III: visas)",
         "type": "government",
-        "lastVerified": "2026-10-13",
+        "lastVerified": "2026-10-22",
         "lastChanged": "2026-10-09",
         "instrument": "Ley Federal de Derechos 2026, art. 22, fracción III, incisos d) and f)",
         "alsoStatedOn": [
           {
             "url": "https://consulmex.sre.gob.mx/peten/visa-de-visitante-sin-permiso-para-realizar-actividades-remuneradas",
             "name": "Consulado de México en Petén (SRE) — Visa de visitante sin permiso para realizar actividades remuneradas (stay of up to 180 days; page last updated 11 August 2025)",
-            "lastVerified": "2026-10-13"
+            "lastVerified": "2026-10-22"
           }
-        ],
-        "conflict": {
-          "url": "https://consulmex.sre.gob.mx/peten/visa-de-visitante-sin-permiso-para-realizar-actividades-remuneradas",
-          "name": "Consulado de México en Petén (SRE) — visitor visa without permission to work",
-          "states": "USD 54.00 for the visa (page last updated 11 August 2025)",
-          "resolvedBy": "hierarchy"
-        }
+        ]
       },
       "evidence": {
-        "fee": {
-          "text": "d). Por la recepción, estudio de la solicitud y, en su caso, la autorización y expedición de las visas ordinarias en pasaportes extranjeros…….………………………………..…………… 56.00",
-          "url": "https://consulmex.sre.gob.mx/yuma/images/stories/pdfs/LFD2026.pdf"
-        },
         "stayDays": {
           "text": "Aplicable a personas extranjeras que pretendan internarse a México en la condición de estancia de visitante sin permiso para realizar actividades remuneradas, por un periodo de hasta 180 días.",
           "url": "https://consulmex.sre.gob.mx/peten/visa-de-visitante-sin-permiso-para-realizar-actividades-remuneradas"
@@ -4115,7 +4101,8 @@
           "text": "Sitio en donde los solicitantes deberán seleccionar el trámite requerido y solicitar su cita, en la Embajada o Consulado de México donde se presentará.",
           "url": "https://consulmex.sre.gob.mx/peten/visa-de-visitante-sin-permiso-para-realizar-actividades-remuneradas"
         }
-      }
+      },
+      "feeText": "Mexico's 2026 Federal Duties Law (Ley Federal de Derechos, art. 22, III) sets USD 56.00 for receiving and studying the application and, where applicable, authorising and issuing ordinary visas in foreign passports (item d), and USD 54.00 for the long-duration visitor visa without permission to carry out paid activities (item f). The Mexican consulate in Petén gives USD 54.00 for authorising this visa."
     },
     {
       "id": "sae",
@@ -4674,16 +4661,6 @@
         "url": "https://www.gov.uk/foreign-travel-advice/mexico/safety-and-security"
       }
     ],
-    "visaTypes.visitor-visa.feeNotes": [
-      {
-        "text": "d). Por la recepción, estudio de la solicitud y, en su caso, la autorización y expedición de las visas ordinarias en pasaportes extranjeros…….………………………………..…………… 56.00",
-        "url": "https://consulmex.sre.gob.mx/yuma/images/stories/pdfs/LFD2026.pdf"
-      },
-      {
-        "text": "f). Por la recepción, estudio de la solicitud y, en su caso, la autorización y expedición de la visa de visitante sin permiso para realizar actividades remuneradas de larga duración……………………….………………………………..……………….. 54.00",
-        "url": "https://consulmex.sre.gob.mx/yuma/images/stories/pdfs/LFD2026.pdf"
-      }
-    ],
     "visaPolicy.conditionalWaivers.us-visa": [
       {
         "text": "Los siguientes documentos son una alternativa a la visa mexicana, los cuales el extranjero podrá presentar:",
@@ -4802,6 +4779,20 @@
       {
         "text": "Artículo 51-Nonies. Los pasajeros de cruceros turísticos cuya embarcación ingrese en algún puerto del Estado, deberán pagar en el momento de adquirir su pasaje, un derecho por el uso y goce de los bienes del dominio público del Estado, con una tarifa de cinco dólares de los EE.UU.",
         "url": "https://documentos.congresoqroo.gob.mx/leyes/L195-XVIII-20251216-L1820251216186-Ley-de-Derechos.pdf"
+      }
+    ],
+    "visaTypes.visitor-visa.feeText": [
+      {
+        "text": "d). Por la recepción, estudio de la solicitud y, en su caso, la autorización y expedición de las visas ordinarias en pasaportes extranjeros…….………………………………..…………… 56.00",
+        "url": "https://consulmex.sre.gob.mx/yuma/images/stories/pdfs/LFD2026.pdf"
+      },
+      {
+        "text": "f). Por la recepción, estudio de la solicitud y, en su caso, la autorización y expedición de la visa de visitante sin permiso para realizar actividades remuneradas de larga duración……………………….………………………………..……………….. 54.00",
+        "url": "https://consulmex.sre.gob.mx/yuma/images/stories/pdfs/LFD2026.pdf"
+      },
+      {
+        "text": "Pago de derechos: Por la recepción, solicitud, y en su caso, autorización de la visa 54.00 USD",
+        "url": "https://consulmex.sre.gob.mx/peten/visa-de-visitante-sin-permiso-para-realizar-actividades-remuneradas"
       }
     ]
   },
