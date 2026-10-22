@@ -8055,7 +8055,14 @@
               "type": "string"
             },
             "symbol": {
-              "type": "string"
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ]
             }
           },
           "required": [
@@ -8601,7 +8608,14 @@
           }
         },
         "timezone": {
-          "type": "string"
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
         },
         "drivingSide": {
           "anyOf": [

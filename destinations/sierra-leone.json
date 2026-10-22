@@ -5211,7 +5211,7 @@
   "countryFacts": {
     "currency": {
       "code": "SLE",
-      "name": "Sierra Leonean leone",
+      "name": "leone",
       "symbol": "Le"
     },
     "payments": {
@@ -5242,25 +5242,7 @@
         ]
       }
     },
-    "plugs": {
-      "types": [
-        "D",
-        "G"
-      ],
-      "voltage": 230,
-      "frequencyHz": 50,
-      "source": {
-        "url": "https://www.iec.ch/world-plugs",
-        "name": "IEC World Plugs (International Electrotechnical Commission) — plug types, voltage and frequency by location",
-        "type": "igo",
-        "lastVerified": "2026-10-04",
-        "archiveUrl": "https://web.archive.org/web/20251128194156/https://www.iec.ch/world-plugs",
-        "unverifiable": {
-          "lastAttempt": "2026-10-04",
-          "reason": "gone"
-        }
-      }
-    },
+    "plugs": null,
     "emergency": {
       "police": "112",
       "ambulance": "999",
@@ -5338,15 +5320,33 @@
       },
       "currency": {
         "url": "https://bsl.gov.sl/Redenomination.html",
-        "name": "Bank of Sierra Leone — currency redenomination (three zeros removed from the leone; rates published in SLE)",
+        "name": "Bank of Sierra Leone — currency redenomination (three zeros removed from the Leone)",
         "type": "government",
-        "lastVerified": "2026-10-04",
+        "lastVerified": "2026-10-15",
+        "alsoStatedOn": [
+          {
+            "url": "https://bsl.gov.sl/index.html",
+            "name": "Bank of Sierra Leone — home page (exchange rates published in SLE)",
+            "lastVerified": "2026-10-15"
+          },
+          {
+            "url": "https://bsl.gov.sl/Curr_redenom_FAQ's-final.pdf",
+            "name": "Bank of Sierra Leone — currency redenomination FAQ (prices written Le)",
+            "lastVerified": "2026-10-15"
+          }
+        ],
         "conflict": {
           "url": "https://travel.gc.ca/destinations/sierra-leone",
           "name": "Government of Canada — Sierra Leone travel advice (money)",
           "states": "leone (SLL)",
           "resolvedBy": "hierarchy"
         }
+      },
+      "timezone": {
+        "url": "https://www.itu.int/dms_pub/itu-t/opb/sp/T-SP-LT.1-2015-PDF-E.pdf",
+        "name": "ITU Telecommunication Standardization Bureau — Legal Time 2015 (Annex to ITU Operational Bulletin No. 1073, 1 April 2015)",
+        "type": "igo",
+        "lastVerified": "2026-10-15"
       }
     }
   },
