@@ -1687,6 +1687,27 @@
             ],
             "additionalProperties": false
           }
+        },
+        "officialStatements": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "text": {
+                "type": "string",
+                "minLength": 10
+              }
+            },
+            "required": [
+              "url",
+              "text"
+            ],
+            "additionalProperties": false
+          }
         }
       },
       "required": [
